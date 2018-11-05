@@ -24,10 +24,6 @@ from utils import bool_flag
 from crf import CRF
 
 
-os.environ['PYTHONHASHSEED'] = '0'
-np.random.seed(42)
-rn.seed(42)
-tf.set_random_seed(42)
 
 
 class TextReader:
@@ -152,7 +148,7 @@ class NeuralTrainer:
     embedding_size = 300
     hidden_size = 100
 
-    def __init__(self, maxlen, num_tags, wordIndex, embeddings, textsToEval):
+    def __init__(self, maxlen, num_tags, wordIndex, embeddings, textsToEval, dumpPath):
         self.sequences = []
         self.maxlen = maxlen
         self.max_features = len(wordIndex)
@@ -160,6 +156,7 @@ class NeuralTrainer:
         self.wordIndex = wordIndex
         self.embeddings = embeddings
         self.textsToEval = textsToEval
+        self.dumpPath = dumpPath
 
     def decodeTags(self, tags):
         newtags = []
@@ -213,7 +210,7 @@ class NeuralTrainer:
         y_pred = model.predict(x_test)
         print("%s: %.2f%%" % (model.metrics_names[1], scores[1] * 100))
 
-        self.printEvaluatedTexts(x_test, y_pred, testSet, self.textsToEval)
+        self.printEvaluatedTexts(x_test, y_pred, testSet, self.textsToEval, self.dumpPath)
         spanEvalAt1 = self.spanEval(y_pred, unencodedY, 1.0)
         spanEvalAt075 = self.spanEval(y_pred, unencodedY, 0.75)
         spanEvalAt050 = self.spanEval(y_pred, unencodedY, 0.50)
@@ -354,7 +351,7 @@ class NeuralTrainer:
         print(str(round(scores[1][2][0], 3)) + '   ' + str(round(scores[1][2][1], 3)) + '     ' + str(
             round(scores[1][2][2], 3)))
 
-    def printEvaluatedTexts(self, x_test, y_pred, testSet, textList):
+    def printEvaluatedTexts(self, x_test, y_pred, testSet, textList, dumpPath):
         invWordIndex = {v: k for k, v in self.wordIndex.items()}
         texts = []
 
@@ -370,13 +367,7 @@ class NeuralTrainer:
         fileList = os.listdir(textList)
         filenames = []
         for file in fileList:
-            newDirectory = ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
-            newpath = r'Dumps/' + newDirectory
-            while os.path.exists(newpath):
-                newDirectory = ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
-                newpath = r'Dumps/' + newDirectory
-            os.makedirs(newpath)
-            fileName = newpath + file
+            fileName = dumpPath + '/' + file
             filenames.append(fileName)
         filenames = [filenames[x] for x in testSet]
 
@@ -473,7 +464,7 @@ class NeuralTrainer:
                 round(recall[2], 4), round(f1[0], 4), round(f1[2], 4)]
 
 
-def fullSequence(textDirectory, tagDirectory, addTexts, embeddings):
+def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
     commonTextDirectory = 'allTextsPunctuation'
     allTexts = TextReader(commonTextDirectory)
     allTexts.readTexts()
@@ -502,7 +493,8 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings):
     unencodedTags = tagSequencer.sequences
     tagSequences = tags.encode(tagSequencer.sequences)
 
-    model = NeuralTrainer(textSequencer.maxlen, tags.num_tags, textSequencer.wordIndex, embeddings, textDirectory)
+    model = NeuralTrainer(textSequencer.maxlen, tags.num_tags, textSequencer.wordIndex,
+                          embeddings, textDirectory, dumpPath)
     startTime = datetime.datetime.now().replace(microsecond=0)
 
     if addTexts:
@@ -542,6 +534,18 @@ def main():
 
     assert args.model_name in ["FtEn", "FtPt", "MSuEn", "MUnEn", "VMSuEn", "VMUnEn", "MSuPt", "MUnPt", "VMSuPt", "VMUnPt", "MSuEnPt", "MUnEnPt", "VMSuEnPt", "VMUnEnPt"]
 
+    newDirectory = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(6))
+    dumpPath = r'Dumps/' + newDirectory
+    while os.path.exists(dumpPath):
+        newDirectory = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(6))
+        dumpPath = r'Dumps/' + newDirectory
+    os.makedirs(dumpPath)
+
+    os.environ['PYTHONHASHSEED'] = '0'
+    np.random.seed(42)
+    rn.seed(42)
+    tf.set_random_seed(42)
+
     if 'EnPt' in args.model_name:
         textDirectory = 'CorpusOutputPunctuation/txt/texts'
         tagDirectory = 'CorpusOutputPunctuation/txt/tags'
@@ -559,10 +563,10 @@ def main():
 
     if args.cuda:
         with tf.device('/gpu:0'):
-            fullSequence(textDirectory, tagDirectory, addTexts, embeddings)
+            fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath)
     else:
         with tf.device('/cpu:0'):
-            fullSequence(textDirectory,tagDirectory, addTexts, embeddings)
+            fullSequence(textDirectory,tagDirectory, addTexts, embeddings, dumpPath)
 
 
 if __name__ == '__main__':
