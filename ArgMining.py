@@ -7,15 +7,17 @@ import re
 import random
 import argparse
 import string
+import keras
 
 from sklearn.model_selection import KFold
 
 from sklearn.metrics import precision_recall_fscore_support
 from sklearn.metrics import accuracy_score
 
+from keras import backend as K
 from keras.preprocessing.text import Tokenizer
 from keras.models import Sequential
-from keras.layers import Dense, Embedding, LSTM, Bidirectional
+from keras.layers import Layer, Dense, Embedding, LSTM, Bidirectional
 from keras.layers.wrappers import TimeDistributed
 from keras.callbacks import EarlyStopping
 
@@ -23,8 +25,23 @@ from utils import bool_flag
 
 from crf import CRF
 
+class Pentanh(Layer):
 
+    def __init__(self, **kwargs):
+        super(Pentanh, self).__init__(**kwargs)
+        self.supports_masking = True
+        self.__name__ = 'pentanh'
+    
+    def call(self, inputs): 
+        return K.switch(K.greater(inputs,0), K.tanh(inputs), 0.25 * K.tanh(inputs))
+    
+    def get_config(self): 
+        return super(Pentanh, self).get_config()
+    
+    def compute_output_shape(self, input_shape): 
+        return input_shape
 
+keras.utils.generic_utils.get_custom_objects().update({'pentanh': Pentanh()})
 
 class TextReader:
 
@@ -192,8 +209,8 @@ class NeuralTrainer:
                       trainable=False, mask_zero=True))
 
         model.add(TimeDistributed(Dense(self.hidden_size, activation='relu')))
-        model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True)))
-        model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True)))
+        model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
+        model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
         model.add(TimeDistributed(Dense(20, activation='relu')))
 
         crf = CRF(self.num_tags, sparse_target=False, learn_mode='join', test_mode='viterbi')
