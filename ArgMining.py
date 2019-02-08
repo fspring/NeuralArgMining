@@ -108,12 +108,12 @@ class TagProcessor:
 class SequenceCreator:
     englishTextsMaxSize = 735
 
-    def __init__(self, allTexts, textsToEval, maxlen):
+    def __init__(self, allTexts, textsToEval, useMaxlen):
         self.sequences = []
         self.maxlen = 0
         self.allTexts = allTexts
         self.textsToEval = textsToEval
-        self.maxlen = maxlen
+        self.useMaxlen = useMaxlen
 
     def normalizeSequences(self):
         maxlen = 0
@@ -121,7 +121,7 @@ class SequenceCreator:
         for sequence in self.sequences:
             if len(sequence) > maxlen:
                 maxlen = len(sequence)
-        if maxlen:
+        if self.useMaxlen:
             self.maxlen = maxlen
         else:
             self.maxlen = self.englishTextsMaxSize
