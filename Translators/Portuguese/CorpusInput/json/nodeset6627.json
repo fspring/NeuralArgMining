@@ -1,0 +1,381 @@
+{
+  "nodes": [
+    {
+      "nodeID": "106158",
+      "text": "Desconhecemos o conte\u00fado da referida sauda\u00e7\u00e3o",
+      "type": "I",
+      "timestamp": "2015-10-27 15:14:34"
+    },
+    {
+      "nodeID": "106159",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: Desconhecemos o conte\u00fado da referida sauda\u00e7\u00e3o",
+      "type": "L",
+      "timestamp": "2015-10-27 15:14:34"
+    },
+    {
+      "nodeID": "126795",
+      "text": "Por essa raz\u00e3o a Assembleia Municipal do Barreiro decidiu delibera \u201csaudar o 25 de Abril de 1974, bem como a celebra\u00e7\u00e3o livre, em Portugal, do dia 1 de Maio\u201d.",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:05"
+    },
+    {
+      "nodeID": "126796",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: Por essa raz\u00e3o a Assembleia Municipal do Barreiro decidiu delibera \u201csaudar o 25 de Abril de 1974, bem como a celebra\u00e7\u00e3o livre, em Portugal, do dia 1 de Maio\u201d.",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:05"
+    },
+    {
+      "nodeID": "126797",
+      "text": "\u201cEsse \u00e9 um legado que importa estimar e preservar na afirma\u00e7\u00e3o e desenvolvimento plenos dos indiv\u00edduos, numa rela\u00e7\u00e3o de proximidade afectiva com a P\u00e1tria e com o mundo\u201d \u2013 \u00e9 sublinhado.",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:05"
+    },
+    {
+      "nodeID": "126798",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: \u201cEsse \u00e9 um legado que importa estimar e preservar na afirma\u00e7\u00e3o e desenvolvimento plenos dos indiv\u00edduos, numa rela\u00e7\u00e3o de proximidade afectiva com a P\u00e1tria e com o mundo\u201d \u2013 \u00e9 sublinhado.",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:05"
+    },
+    {
+      "nodeID": "126799",
+      "text": "Marcos na afirma\u00e7\u00e3o da democracia Na mo\u00e7\u00e3o dos sociais democratas refere-se que o 25 de Abril e 1\u00ba de Maio, representam \u2013 \u201cmarcos na afirma\u00e7\u00e3o da democracia, da liberdade e da valoriza\u00e7\u00e3o do trabalho que constituem, em simult\u00e2neo, patrim\u00f3nio de todos os democratas e legado transmitido pelas gera\u00e7\u00f5es mais antigas a todos os jovens de hoje\u201d.",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126800",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: Marcos na afirma\u00e7\u00e3o da democracia Na mo\u00e7\u00e3o dos sociais democratas refere-se que o 25 de Abril e 1\u00ba de Maio, representam \u2013 \u201cmarcos na afirma\u00e7\u00e3o da democracia, da liberdade e da valoriza\u00e7\u00e3o do trabalho que constituem, em simult\u00e2neo, patrim\u00f3nio de todos os democratas e legado transmitido pelas gera\u00e7\u00f5es mais antigas a todos os jovens de hoje\u201d.",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126801",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:06",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "126802",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:06",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "126803",
+      "text": "a mesma n\u00e3o foi divulgada aos \u00f3rg\u00e3os de comunica\u00e7\u00e3o social.",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126804",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: a mesma n\u00e3o foi divulgada aos \u00f3rg\u00e3os de comunica\u00e7\u00e3o social.",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126805",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:06",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "126806",
+      "text": "A sauda\u00e7\u00e3o sublinha que \u201cos direitos adquiridos com a Revolu\u00e7\u00e3o de Abril, t\u00eam sido alvo do ataque sistem\u00e1tico dos sucessivos governos com vista \u00e0 sua liquida\u00e7\u00e3o\u201d",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126807",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: A sauda\u00e7\u00e3o sublinha que \u201cos direitos adquiridos com a Revolu\u00e7\u00e3o de Abril, t\u00eam sido alvo do ataque sistem\u00e1tico dos sucessivos governos com vista \u00e0 sua liquida\u00e7\u00e3o\u201d",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126808",
+      "text": "\u201choje, mais de dois milh\u00f5es e setecentos mil portugueses vivem abaixo do limiar da pobreza, e este n\u00famero continua a crescer\u201d",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126809",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: \u201choje, mais de dois milh\u00f5es e setecentos mil portugueses vivem abaixo do limiar da pobreza, e este n\u00famero continua a crescer\u201d",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126810",
+      "text": "Refere-se que \u2013 \u201co ataque \u00e0 Administra\u00e7\u00e3o P\u00fablica se contabiliza j\u00e1 no despedimento de mais de 72.000 trabalhadores, no encerramento de centenas de servi\u00e7os p\u00fablicos, no corte de sal\u00e1rios, no aumento injusto e inaceit\u00e1vel do hor\u00e1rios de trabalho para as 40 horas.\u201d",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126811",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: Refere-se que \u2013 \u201co ataque \u00e0 Administra\u00e7\u00e3o P\u00fablica se contabiliza j\u00e1 no despedimento de mais de 72.000 trabalhadores, no encerramento de centenas de servi\u00e7os p\u00fablicos, no corte de sal\u00e1rios, no aumento injusto e inaceit\u00e1vel do hor\u00e1rios de trabalho para as 40 horas.\u201d",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126812",
+      "text": "\u00e9 expressa a \u2013 \u201coposi\u00e7\u00e3o \u00e0s politicas econ\u00f3micas e sociais levadas a cabo pelo governo PSD\/CDS,",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126813",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: \u00e9 expressa a \u2013 \u201coposi\u00e7\u00e3o \u00e0s politicas econ\u00f3micas e sociais levadas a cabo pelo governo PSD\/CDS,",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126814",
+      "text": "que afundam o pa\u00eds, promovem a desigualdade, a pobreza, a fome e a mis\u00e9ria\u201d.",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126815",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: que afundam o pa\u00eds, promovem a desigualdade, a pobreza, a fome e a mis\u00e9ria\u201d.",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:06"
+    },
+    {
+      "nodeID": "126816",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:07",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "126817",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:07",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "126818",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:07",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "126819",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:07",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "126820",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: Salienta-se que hoje em Portugal \u2013 \u201cuma em cada tr\u00eas crian\u00e7as vive em risco de pobreza e \u00e9 muito elevado o n\u00famero daquelas que chegam \u00e0 escola com fome\u201d.",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:07"
+    },
+    {
+      "nodeID": "126821",
+      "text": "Salienta-se que hoje em Portugal \u2013 \u201cuma em cada tr\u00eas crian\u00e7as vive em risco de pobreza",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:07"
+    },
+    {
+      "nodeID": "126822",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: Salienta-se que hoje em Portugal \u2013 \u201cuma em cada tr\u00eas crian\u00e7as vive em risco de pobreza",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:07"
+    },
+    {
+      "nodeID": "126823",
+      "text": "\u00e9 muito elevado o n\u00famero daquelas que chegam \u00e0 escola com fome\u201d.",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:07"
+    },
+    {
+      "nodeID": "126824",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html:  \u00e9 muito elevado o n\u00famero daquelas que chegam \u00e0 escola com fome\u201d.",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:07"
+    },
+    {
+      "nodeID": "126825",
+      "text": "\u201cO desemprego dos jovens atingiu os 35% e est\u00e1 a subir ininterruptamente desde Outubro de 2014\u201d, afirma-se.",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:07"
+    },
+    {
+      "nodeID": "126826",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: \u201cO desemprego dos jovens atingiu os 35% e est\u00e1 a subir ininterruptamente desde Outubro de 2014\u201d, afirma-se.",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:07"
+    },
+    {
+      "nodeID": "126827",
+      "text": "\u201cNo contexto social, politico e econ\u00f3mico em que nos encontramos em 2015, comemoramos o 41\u00ba anivers\u00e1rio do 25 de Abril, conscientes das enormes dificuldades com que nos confrontamos",
+      "type": "I",
+      "timestamp": "2016-01-31 16:46:07"
+    },
+    {
+      "nodeID": "126828",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/24.html: \u201cNo contexto social, politico e econ\u00f3mico em que nos encontramos em 2015, comemoramos o 41\u00ba anivers\u00e1rio do 25 de Abril, conscientes das enormes dificuldades com que nos confrontamos",
+      "type": "L",
+      "timestamp": "2016-01-31 16:46:07"
+    },
+    {
+      "nodeID": "126829",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:07",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "126830",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:07",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "126831",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-01-31 16:46:07",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "167782",
+      "fromID": "126799",
+      "toID": "126801",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167783",
+      "fromID": "126801",
+      "toID": "126797",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167784",
+      "fromID": "126797",
+      "toID": "126802",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167785",
+      "fromID": "126802",
+      "toID": "126795",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167786",
+      "fromID": "126803",
+      "toID": "126805",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167787",
+      "fromID": "126805",
+      "toID": "106158",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167788",
+      "fromID": "126808",
+      "toID": "126816",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167789",
+      "fromID": "126816",
+      "toID": "126806",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167790",
+      "fromID": "126810",
+      "toID": "126817",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167791",
+      "fromID": "126817",
+      "toID": "126814",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167792",
+      "fromID": "126814",
+      "toID": "126818",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167793",
+      "fromID": "126818",
+      "toID": "126812",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167794",
+      "fromID": "126808",
+      "toID": "126819",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167795",
+      "fromID": "126819",
+      "toID": "126814",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167796",
+      "fromID": "126821",
+      "toID": "126829",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167797",
+      "fromID": "126829",
+      "toID": "126827",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167798",
+      "fromID": "126823",
+      "toID": "126830",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167799",
+      "fromID": "126830",
+      "toID": "126827",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167800",
+      "fromID": "126825",
+      "toID": "126831",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "167801",
+      "fromID": "126831",
+      "toID": "126827",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "nodeID": "177248",
+      "text": "o fim pol\u00edtico de Merkel",
+      "type": "I",
+      "timestamp": "2016-06-14 23:34:48"
+    },
+    {
+      "nodeID": "177249",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/95.html: o fim pol\u00edtico de Merkel",
+      "type": "L",
+      "timestamp": "2016-06-14 23:34:48"
+    },
+    {
+      "nodeID": "177250",
+      "text": "mais um acidente semelhante ao da noite da passagem de ano em Col\u00f3nia",
+      "type": "I",
+      "timestamp": "2016-06-14 23:34:48"
+    },
+    {
+      "nodeID": "177251",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/95.html: mais um acidente semelhante ao da noite da passagem de ano em Col\u00f3nia",
+      "type": "L",
+      "timestamp": "2016-06-14 23:34:48"
+    },
+    {
+      "nodeID": "177252",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/95.html: m pa\u00eds n\u00e3o aceita um l\u00edder em quem n\u00e3o confia para garantir a sua seguran\u00e7a.",
+      "type": "L",
+      "timestamp": "2016-06-14 23:34:48"
+    },
+    {
+      "nodeID": "177253",
+      "text": "Um pa\u00eds n\u00e3o aceita um l\u00edder em quem n\u00e3o confia para garantir a sua seguran\u00e7a.",
+      "type": "I",
+      "timestamp": "2016-06-14 23:34:48"
+    },
+    {
+      "nodeID": "177254",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/95.html: Um pa\u00eds n\u00e3o aceita um l\u00edder em quem n\u00e3o confia para garantir a sua seguran\u00e7a.",
+      "type": "L",
+      "timestamp": "2016-06-14 23:34:48"
+    },
+    {
+      "nodeID": "177255",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-06-14 23:34:49",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "177256",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-06-14 23:34:49",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "216743",
+      "fromID": "177253",
+      "toID": "177255",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "216744",
+      "fromID": "177255",
+      "toID": "177248",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "216745",
+      "fromID": "177250",
+      "toID": "177256",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "216746",
+      "fromID": "177256",
+      "toID": "177248",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

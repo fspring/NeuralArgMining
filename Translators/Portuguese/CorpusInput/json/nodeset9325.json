@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "nodeID": "176771",
+      "text": "iniciou o fim de Merkel",
+      "type": "I",
+      "timestamp": "2016-06-04 23:40:51"
+    },
+    {
+      "nodeID": "176772",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/89.html: iniciou o fim de Merkel",
+      "type": "L",
+      "timestamp": "2016-06-04 23:40:51"
+    },
+    {
+      "nodeID": "176773",
+      "text": "A declara\u00e7\u00e3o p\u00fablica de boas vindas aos refugiados durante o Ver\u00e3o do ano passado",
+      "type": "I",
+      "timestamp": "2016-06-04 23:40:51"
+    },
+    {
+      "nodeID": "176774",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/89.html: A declara\u00e7\u00e3o p\u00fablica de boas vindas aos refugiados durante o Ver\u00e3o do ano passado",
+      "type": "L",
+      "timestamp": "2016-06-04 23:40:51"
+    },
+    {
+      "nodeID": "176775",
+      "text": "a maioria dos cidad\u00e3os se interrogou se o seu l\u00edder",
+      "type": "I",
+      "timestamp": "2016-06-04 23:40:51"
+    },
+    {
+      "nodeID": "176776",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/89.html: a maioria dos cidad\u00e3os se interrogou se o seu l\u00edder",
+      "type": "L",
+      "timestamp": "2016-06-04 23:40:51"
+    },
+    {
+      "nodeID": "176777",
+      "text": "ap\u00f3s uma d\u00e9cada no poder, perdeu a no\u00e7\u00e3o da realidade",
+      "type": "I",
+      "timestamp": "2016-06-04 23:40:51"
+    },
+    {
+      "nodeID": "176778",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/89.html: ap\u00f3s uma d\u00e9cada no poder, perdeu a no\u00e7\u00e3o da realidade",
+      "type": "L",
+      "timestamp": "2016-06-04 23:40:51"
+    },
+    {
+      "nodeID": "176779",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-06-04 23:40:52",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "176780",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-06-04 23:40:52",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "176781",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-06-04 23:40:52",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "216228",
+      "fromID": "176773",
+      "toID": "176779",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "216229",
+      "fromID": "176779",
+      "toID": "176771",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "216230",
+      "fromID": "176775",
+      "toID": "176780",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "216231",
+      "fromID": "176780",
+      "toID": "176771",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "216232",
+      "fromID": "176777",
+      "toID": "176781",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "216233",
+      "fromID": "176781",
+      "toID": "176771",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

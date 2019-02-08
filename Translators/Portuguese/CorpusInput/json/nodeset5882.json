@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "nodeID": "105661",
+      "text": "est\u00e1 um atleta em fora de jogo",
+      "type": "I",
+      "timestamp": "2015-10-26 16:16:13"
+    },
+    {
+      "nodeID": "105662",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/3.html: est\u00e1 um atleta em fora de jogo",
+      "type": "L",
+      "timestamp": "2015-10-26 16:16:13"
+    },
+    {
+      "nodeID": "105663",
+      "text": "O lance do golo do Boavista \u00e9 ilegal",
+      "type": "I",
+      "timestamp": "2015-10-26 16:16:13"
+    },
+    {
+      "nodeID": "105664",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/3.html: O lance do golo do Boavista \u00e9 ilegal",
+      "type": "L",
+      "timestamp": "2015-10-26 16:16:13"
+    },
+    {
+      "nodeID": "105665",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-10-26 16:16:13",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "137057",
+      "fromID": "105661",
+      "toID": "105665",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "137058",
+      "fromID": "105665",
+      "toID": "105663",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

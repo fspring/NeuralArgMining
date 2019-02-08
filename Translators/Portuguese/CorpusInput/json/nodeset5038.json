@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "nodeID": "92604",
+      "text": "Os quatro pa\u00edses v\u00e3o refor\u00e7ar a coopera\u00e7\u00e3o nas quest\u00f5es da imigra\u00e7\u00e3o, terrorismo e tr\u00e1fico de droga.",
+      "type": "I",
+      "timestamp": "2015-08-11 15:07:13"
+    },
+    {
+      "nodeID": "92605",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/26.html: Os quatro pa\u00edses v\u00e3o refor\u00e7ar a coopera\u00e7\u00e3o nas quest\u00f5es da imigra\u00e7\u00e3o, terrorismo e tr\u00e1fico de droga.",
+      "type": "L",
+      "timestamp": "2015-08-11 15:07:13"
+    },
+    {
+      "nodeID": "92606",
+      "text": "Esta manh\u00e3 foram assinados v\u00e1rios acordos nestas \u00e1reas, numa reuni\u00e3o que decorreu no Forte de S\u00e3o Juli\u00e3o da Barra em Oeiras, e que contou com os ministros da Administra\u00e7\u00e3o Interna dos quatros pa\u00edses.",
+      "type": "I",
+      "timestamp": "2015-08-11 15:07:13"
+    },
+    {
+      "nodeID": "92607",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/26.html: Esta manh\u00e3 foram assinados v\u00e1rios acordos nestas \u00e1reas, numa reuni\u00e3o que decorreu no Forte de S\u00e3o Juli\u00e3o da Barra em Oeiras, e que contou com os ministros da Administra\u00e7\u00e3o Interna dos quatros pa\u00edses.",
+      "type": "L",
+      "timestamp": "2015-08-11 15:07:13"
+    },
+    {
+      "nodeID": "92608",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-08-11 15:07:13",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "92609",
+      "text": "Um dos temas mais sens\u00edveis foi o da gest\u00e3o dos fluxos migrat\u00f3rios que passa por um refor\u00e7o de coopera\u00e7\u00e3o em mat\u00e9ria de gest\u00e3o e controlo de fronteiras.",
+      "type": "I",
+      "timestamp": "2015-08-11 15:07:13"
+    },
+    {
+      "nodeID": "92610",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/26.html: Um dos temas mais sens\u00edveis foi o da gest\u00e3o dos fluxos migrat\u00f3rios que passa por um refor\u00e7o de coopera\u00e7\u00e3o em mat\u00e9ria de gest\u00e3o e controlo de fronteiras.",
+      "type": "L",
+      "timestamp": "2015-08-11 15:07:13"
+    },
+    {
+      "nodeID": "92611",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-08-11 15:07:13",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "121186",
+      "fromID": "92606",
+      "toID": "92608",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "121187",
+      "fromID": "92608",
+      "toID": "92604",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "121188",
+      "fromID": "92609",
+      "toID": "92611",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "121189",
+      "fromID": "92611",
+      "toID": "92606",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

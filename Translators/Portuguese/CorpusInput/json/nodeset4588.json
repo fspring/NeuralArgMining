@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "nodeID": "65231",
+      "text": "Quatro homens desapareceram hoje quando desciam de canoa o rio T\u00e2mega, na zona de Mondim de Basto",
+      "type": "I",
+      "timestamp": "2015-05-03 11:09:10"
+    },
+    {
+      "nodeID": "65232",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/8.html: Quatro homens desapareceram hoje quando desciam de canoa o rio T\u00e2mega, na zona de Mondim de Basto",
+      "type": "L",
+      "timestamp": "2015-05-03 11:09:10"
+    },
+    {
+      "nodeID": "65233",
+      "text": "Os homens, de nacionalidade francesa, estavam a descer o rio num evento desportivo desde a Ponte de Atei at\u00e9 \u00e0 zona de Pedra Velha, mas falharam um dos pontos de controlo",
+      "type": "I",
+      "timestamp": "2015-05-03 11:09:10"
+    },
+    {
+      "nodeID": "65234",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/8.html: Os homens, de nacionalidade francesa, estavam a descer o rio num evento desportivo desde a Ponte de Atei at\u00e9 \u00e0 zona de Pedra Velha, mas falharam um dos pontos de controlo",
+      "type": "L",
+      "timestamp": "2015-05-03 11:09:10"
+    },
+    {
+      "nodeID": "65235",
+      "text": "quatro homens acabaram por ser encontrados ao in\u00edcio da noite em Lourido, perto da Ponte de Arame",
+      "type": "I",
+      "timestamp": "2015-05-03 11:09:10"
+    },
+    {
+      "nodeID": "65236",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/8.html: quatro homens acabaram por ser encontrados ao in\u00edcio da noite em Lourido, perto da Ponte de Arame",
+      "type": "L",
+      "timestamp": "2015-05-03 11:09:10"
+    },
+    {
+      "nodeID": "65237",
+      "text": "cano\u00edstas passaram a zona do rio onde deveriam sair e acabaram por ser encontrados quase em Amarante",
+      "type": "I",
+      "timestamp": "2015-05-03 11:09:10"
+    },
+    {
+      "nodeID": "65238",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/8.html: cano\u00edstas passaram a zona do rio onde deveriam sair e acabaram por ser encontrados quase em Amarante",
+      "type": "L",
+      "timestamp": "2015-05-03 11:09:10"
+    },
+    {
+      "nodeID": "65239",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-03 11:09:10",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "65240",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-03 11:09:10",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "90298",
+      "fromID": "65233",
+      "toID": "65239",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "90299",
+      "fromID": "65239",
+      "toID": "65231",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "90300",
+      "fromID": "65237",
+      "toID": "65240",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "90301",
+      "fromID": "65240",
+      "toID": "65235",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

@@ -1,0 +1,659 @@
+{
+  "nodes": [
+    {
+      "nodeID": "68338",
+      "text": "Os Drones est\u00e3o na moda e servem para quase tudo",
+      "type": "I",
+      "timestamp": "2015-05-16 14:28:22"
+    },
+    {
+      "nodeID": "68339",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Os Drones est\u00e3o na moda e servem para quase tudo",
+      "type": "L",
+      "timestamp": "2015-05-16 14:28:22"
+    },
+    {
+      "nodeID": "68367",
+      "text": "n\u00e3o prev\u00ea uma das atividades t\u00e3o requerida pela Amazon, como \u00e9 a sua utiliza\u00e7\u00e3o em entregas levadas a cabo pela gigante das compras online.",
+      "type": "I",
+      "timestamp": "2015-05-16 14:28:23"
+    },
+    {
+      "nodeID": "68446",
+      "text": "Desde a entrega de pizzas",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:29"
+    },
+    {
+      "nodeID": "68447",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Desde a entrega de pizzas",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68448",
+      "text": "de livros",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68449",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html:  de livros",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68450",
+      "text": "at\u00e9 para levar o socorro \u00e0s pessoas",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68451",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: at\u00e9 para levar o socorro \u00e0s pessoas",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68452",
+      "text": "um pouco de tudo pode ser servido por Drones.",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68453",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html:  um pouco de tudo pode ser servido por Drones.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68454",
+      "text": "Mas este fant\u00e1stico boom da tecnologia est\u00e1 a causar problemas de ordem organizacional,",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68455",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Mas este fant\u00e1stico boom da tecnologia est\u00e1 a causar problemas de ordem organizacional,",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68456",
+      "text": "com a aus\u00eancia de regras e leis h\u00e1 j\u00e1 situa\u00e7\u00f5es complicadas com perigosas utiliza\u00e7\u00f5es.",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68457",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html:  com a aus\u00eancia de regras e leis h\u00e1 j\u00e1 situa\u00e7\u00f5es complicadas com perigosas utiliza\u00e7\u00f5es.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68458",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:30",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68459",
+      "text": "A Administra\u00e7\u00e3o da Avia\u00e7\u00e3o Federal dos Estados Unidos (FAA) deu um importante passo ao apresentar um regulamento para a utiliza\u00e7\u00e3o rotineira de Drones comerciais.",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68460",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: A Administra\u00e7\u00e3o da Avia\u00e7\u00e3o Federal dos Estados Unidos (FAA) deu um importante passo ao apresentar um regulamento para a utiliza\u00e7\u00e3o rotineira de Drones comerciais.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68461",
+      "text": "A ag\u00eancia apresentou os requisitos propostos para avi\u00f5es comerciais n\u00e3o tripulados (Drones).",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68462",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html:  A ag\u00eancia apresentou os requisitos propostos para avi\u00f5es comerciais n\u00e3o tripulados (Drones).",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68463",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:30",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68464",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Estes devem ter um peso inferior a 55 quilos",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68465",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html:  devem ser operados \u00e0 luz do dia e em linha de vista.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68466",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Para al\u00e9m destas, o Drone n\u00e3o deve voar a menos de 500 p\u00e9s",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68467",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: nunca com uma velocidade superior a 160 kms por hora.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68468",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: A sua rota de voo nunca deve, como \u00e9 natural, coincidir com a de outras aeronaves tripuladas",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68469",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: em caso algum deve sobrevoar as pessoas, exceto aquelas directamente envolvidas no voo.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68470",
+      "text": "Estas regras, contudo, podem levar a que algumas atividades, como os est\u00fadios de cinema, sejam obrigadas a tentar criar situa\u00e7\u00f5es de exce\u00e7\u00e3o",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68471",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Estas regras, contudo, podem levar a que algumas atividades, como os est\u00fadios de cinema, sejam obrigadas a tentar criar situa\u00e7\u00f5es de exce\u00e7\u00e3o",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68472",
+      "text": "Enquanto a regulamenta\u00e7\u00e3o prev\u00ea uma ampla utiliza\u00e7\u00e3o de Drones para gravar programas de TV ou filmes, o levantamento dos terrenos agr\u00edcolas ou inspecionar uma ponte,",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68473",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Enquanto a regulamenta\u00e7\u00e3o prev\u00ea uma ampla utiliza\u00e7\u00e3o de Drones para gravar programas de TV ou filmes, o levantamento dos terrenos agr\u00edcolas ou inspecionar uma ponte,",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68474",
+      "text": "Default Conflict",
+      "type": "CA",
+      "timestamp": "2015-05-18 23:30:30",
+      "scheme": "Default Conflict",
+      "schemeID": "71"
+    },
+    {
+      "nodeID": "68475",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:30",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68476",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html:  n\u00e3o prev\u00ea uma das atividades t\u00e3o requerida pela Amazon, como \u00e9 a sua utiliza\u00e7\u00e3o em entregas levadas a cabo pela gigante das compras online.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68477",
+      "text": "Default Conflict",
+      "type": "CA",
+      "timestamp": "2015-05-18 23:30:30",
+      "scheme": "Default Conflict",
+      "schemeID": "71"
+    },
+    {
+      "nodeID": "68478",
+      "text": "A FAA precisa de come\u00e7ar e terminar de forma expedita, o processo formal para endere\u00e7ar as necessidades do nosso neg\u00f3cio e, em \u00faltima inst\u00e2ncia, as dos nossos clientes.",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:30"
+    },
+    {
+      "nodeID": "68479",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: A FAA precisa de come\u00e7ar e terminar de forma expedita, o processo formal para endere\u00e7ar as necessidades do nosso neg\u00f3cio e, em \u00faltima inst\u00e2ncia, as dos nossos clientes.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68480",
+      "text": "Em resposta, a Amazon lan\u00e7ou de seguida um comunicado, admitindo que as regras propostas n\u00e3o iriam permitir a utiliza\u00e7\u00e3o do seu \u201cPrime Air\u201d, o Drone do servi\u00e7o de entregas.",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68481",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Em resposta, a Amazon lan\u00e7ou de seguida um comunicado, admitindo que as regras propostas n\u00e3o iriam permitir a utiliza\u00e7\u00e3o do seu \u201cPrime Air\u201d, o Drone do servi\u00e7o de entregas.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68482",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68483",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68484",
+      "text": "A aten\u00e7\u00e3o \u00e0 integra\u00e7\u00e3o com seguran\u00e7a de Drones no espa\u00e7o a\u00e9reo dos Estados Unidos tem crescido",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68485",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: A aten\u00e7\u00e3o \u00e0 integra\u00e7\u00e3o com seguran\u00e7a de Drones no espa\u00e7o a\u00e9reo dos Estados Unidos tem crescido",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68486",
+      "text": "a Amazon, no final de 2013, revelou os seus planos para utilizar Drones na entrega comercial.",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68487",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html:  a Amazon, no final de 2013, revelou os seus planos para utilizar Drones na entrega comercial.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68488",
+      "text": "Mais recentemente, o epis\u00f3dio do Drone que caiu nos jardins da Casa Branca, voltou a levantar quest\u00f5es urgentes de regulamenta\u00e7\u00e3o.",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68489",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Mais recentemente, o epis\u00f3dio do Drone que caiu nos jardins da Casa Branca, voltou a levantar quest\u00f5es urgentes de regulamenta\u00e7\u00e3o.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68490",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68491",
+      "text": "N\u00f3s tentamos ser flex\u00edveis na composi\u00e7\u00e3o destas regras.",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68492",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: N\u00f3s tentamos ser flex\u00edveis na composi\u00e7\u00e3o destas regras.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68493",
+      "text": "Default Conflict",
+      "type": "CA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Conflict",
+      "schemeID": "71"
+    },
+    {
+      "nodeID": "68494",
+      "text": "Default Conflict",
+      "type": "CA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Conflict",
+      "schemeID": "71"
+    },
+    {
+      "nodeID": "68495",
+      "text": "Queremos manter o n\u00edvel excepcional que hoje temos em termos de seguran\u00e7a da avia\u00e7\u00e3o sem colocar uma carga regulamentar indevida na ind\u00fastria emergente",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68496",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Queremos manter o n\u00edvel excepcional que hoje temos em termos de seguran\u00e7a da avia\u00e7\u00e3o sem colocar uma carga regulamentar indevida na ind\u00fastria emergente",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68497",
+      "text": "Default Conflict",
+      "type": "CA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Conflict",
+      "schemeID": "71"
+    },
+    {
+      "nodeID": "68498",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: Para completar as regras propostas nos Estados Unidos, o operador do Drone dever\u00e1 ter mais de 17 anos",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68499",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: estar munido de um certificado de bom aproveitamento em conhecimentos em aeron\u00e1uticos.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68500",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68501",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68502",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68503",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68504",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "68505",
+      "text": "A cria\u00e7\u00e3o de novos Drones e o interesse em us\u00e1-los comercialmente explodiu nos \u00faltimos anos.",
+      "type": "I",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68506",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/5.html: A cria\u00e7\u00e3o de novos Drones e o interesse em us\u00e1-los comercialmente explodiu nos \u00faltimos anos.",
+      "type": "L",
+      "timestamp": "2015-05-18 23:30:31"
+    },
+    {
+      "nodeID": "68507",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-05-18 23:30:31",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "97567",
+      "fromID": "68456",
+      "toID": "68458",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97568",
+      "fromID": "68458",
+      "toID": "68454",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97569",
+      "fromID": "68461",
+      "toID": "68463",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97570",
+      "fromID": "68463",
+      "toID": "68459",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97571",
+      "fromID": "68470",
+      "toID": "68474",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97572",
+      "fromID": "68474",
+      "toID": "68459",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97573",
+      "fromID": "68472",
+      "toID": "68475",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97574",
+      "fromID": "68475",
+      "toID": "68459",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97575",
+      "fromID": "68367",
+      "toID": "68477",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97576",
+      "fromID": "68477",
+      "toID": "68459",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97577",
+      "fromID": "68367",
+      "toID": "68482",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97578",
+      "fromID": "68482",
+      "toID": "68480",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97579",
+      "fromID": "68480",
+      "toID": "68483",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97580",
+      "fromID": "68483",
+      "toID": "68478",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97581",
+      "fromID": "68486",
+      "toID": "68490",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97582",
+      "fromID": "68490",
+      "toID": "68484",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97583",
+      "fromID": "68488",
+      "toID": "68490",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97584",
+      "fromID": "68470",
+      "toID": "68493",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97585",
+      "fromID": "68493",
+      "toID": "68491",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97586",
+      "fromID": "68367",
+      "toID": "68494",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97587",
+      "fromID": "68494",
+      "toID": "68491",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97588",
+      "fromID": "68495",
+      "toID": "68497",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97589",
+      "fromID": "68497",
+      "toID": "68491",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97590",
+      "fromID": "68452",
+      "toID": "68500",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97591",
+      "fromID": "68500",
+      "toID": "68338",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97592",
+      "fromID": "68446",
+      "toID": "68501",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97593",
+      "fromID": "68501",
+      "toID": "68452",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97594",
+      "fromID": "68448",
+      "toID": "68501",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97595",
+      "fromID": "68450",
+      "toID": "68501",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97596",
+      "fromID": "68454",
+      "toID": "68502",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97597",
+      "fromID": "68502",
+      "toID": "68459",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97598",
+      "fromID": "68488",
+      "toID": "68503",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97599",
+      "fromID": "68503",
+      "toID": "68456",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97600",
+      "fromID": "68472",
+      "toID": "68504",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97601",
+      "fromID": "68504",
+      "toID": "68491",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97602",
+      "fromID": "68505",
+      "toID": "68507",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97603",
+      "fromID": "68507",
+      "toID": "68338",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "97604",
+      "fromID": "68472",
+      "toID": "68501",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

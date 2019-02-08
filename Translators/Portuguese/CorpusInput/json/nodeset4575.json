@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "nodeID": "65138",
+      "text": "A guarda costeira italiana acolheu mais de mil emigrantes da L\u00edbia.",
+      "type": "I",
+      "timestamp": "2015-04-30 07:39:33"
+    },
+    {
+      "nodeID": "65139",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/2.html: A guarda costeira italiana acolheu mais de mil emigrantes da L\u00edbia.",
+      "type": "L",
+      "timestamp": "2015-04-30 07:39:33"
+    },
+    {
+      "nodeID": "65140",
+      "text": "Nos \u00faltimos dias t\u00eam-se intensificado estas viagens de africanos que querem ir para a Europa.",
+      "type": "I",
+      "timestamp": "2015-04-30 07:39:33"
+    },
+    {
+      "nodeID": "65141",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/2.html: Nos \u00faltimos dias t\u00eam-se intensificado estas viagens de africanos que querem ir para a Europa.",
+      "type": "L",
+      "timestamp": "2015-04-30 07:39:33"
+    },
+    {
+      "nodeID": "65142",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2015-04-30 07:39:33",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "90221",
+      "fromID": "65138",
+      "toID": "65142",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "90222",
+      "fromID": "65142",
+      "toID": "65140",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

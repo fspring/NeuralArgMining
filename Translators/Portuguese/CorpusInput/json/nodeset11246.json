@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "nodeID": "263940",
+      "text": "h\u00e1 algo que Mafalda sofre com dificuldade",
+      "type": "I",
+      "timestamp": "2017-03-07 23:33:01"
+    },
+    {
+      "nodeID": "263941",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/113.html: h\u00e1 algo que Mafalda sofre com dificuldade",
+      "type": "L",
+      "timestamp": "2017-03-07 23:33:01"
+    },
+    {
+      "nodeID": "263942",
+      "text": "a falsa compaix\u00e3o dos que, para aliviar a sua situa\u00e7\u00e3o, quereriam elimin\u00e1-la",
+      "type": "I",
+      "timestamp": "2017-03-07 23:33:01"
+    },
+    {
+      "nodeID": "263943",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/113.html: a falsa compaix\u00e3o dos que, para aliviar a sua situa\u00e7\u00e3o, quereriam elimin\u00e1-la",
+      "type": "L",
+      "timestamp": "2017-03-07 23:33:01"
+    },
+    {
+      "nodeID": "263944",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2017-03-07 23:33:01",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "319006",
+      "fromID": "263940",
+      "toID": "263944",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "319007",
+      "fromID": "263944",
+      "toID": "263942",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

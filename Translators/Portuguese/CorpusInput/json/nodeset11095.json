@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "nodeID": "176687",
+      "text": "Rebelo de Sousa foi o \u00fanico candidato que percebeu que deveria fazer campanha para uma maioria de indiferentes.",
+      "type": "I",
+      "timestamp": "2016-06-02 19:06:49"
+    },
+    {
+      "nodeID": "176688",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/242.html: Rebelo de Sousa foi o \u00fanico candidato que percebeu que deveria fazer campanha para uma maioria de indiferentes.",
+      "type": "L",
+      "timestamp": "2016-06-02 19:06:49"
+    },
+    {
+      "nodeID": "262499",
+      "text": "Todos os outros candidatos (apenas os outros 5 que contam; o resto n\u00e3o passa de folclore deprimente, mascarado de democracia) esfor\u00e7am-se para introduzir uma dimens\u00e3o politica na campanha",
+      "type": "I",
+      "timestamp": "2017-03-04 13:03:17"
+    },
+    {
+      "nodeID": "262500",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/242.html: Todos os outros candidatos (apenas os outros 5 que contam; o resto n\u00e3o passa de folclore deprimente, mascarado de democracia) esfor\u00e7am-se para introduzir uma dimens\u00e3o politica na campanha",
+      "type": "L",
+      "timestamp": "2017-03-04 13:03:18"
+    },
+    {
+      "nodeID": "262501",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2017-03-04 13:03:18",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "316666",
+      "fromID": "262499",
+      "toID": "262501",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "316667",
+      "fromID": "262501",
+      "toID": "176687",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

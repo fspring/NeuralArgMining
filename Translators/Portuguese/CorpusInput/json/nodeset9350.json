@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "nodeID": "177257",
+      "text": "o caminho or\u00e7amental que este governo come\u00e7a a percorrer",
+      "type": "I",
+      "timestamp": "2016-06-15 23:05:45"
+    },
+    {
+      "nodeID": "177258",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/97.html: o caminho or\u00e7amental que este governo come\u00e7a a percorrer",
+      "type": "L",
+      "timestamp": "2016-06-15 23:05:45"
+    },
+    {
+      "nodeID": "177259",
+      "text": "os dados que est\u00e3o no documento s\u00e3o ainda escassos mas a partir deles \u00e9 poss\u00edvel tirar j\u00e1 algumas conclus\u00f5es",
+      "type": "I",
+      "timestamp": "2016-06-15 23:05:45"
+    },
+    {
+      "nodeID": "177260",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/97.html: os dados que est\u00e3o no documento s\u00e3o ainda escassos mas a partir deles \u00e9 poss\u00edvel tirar j\u00e1 algumas conclus\u00f5es",
+      "type": "L",
+      "timestamp": "2016-06-15 23:05:45"
+    },
+    {
+      "nodeID": "177261",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2016-06-15 23:05:45",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "216747",
+      "fromID": "177259",
+      "toID": "177261",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "216748",
+      "fromID": "177261",
+      "toID": "177257",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}

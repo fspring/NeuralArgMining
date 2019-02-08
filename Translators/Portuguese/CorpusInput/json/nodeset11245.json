@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "nodeID": "263932",
+      "text": "as suas dores constantes? Surpreendentemente, para Mafalda s\u00e3o apenas um detalhe",
+      "type": "I",
+      "timestamp": "2017-03-07 23:27:15"
+    },
+    {
+      "nodeID": "263933",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/112.html: as suas dores constantes? Surpreendentemente, para Mafalda s\u00e3o apenas um detalhe",
+      "type": "L",
+      "timestamp": "2017-03-07 23:27:15"
+    },
+    {
+      "nodeID": "263934",
+      "text": "porque a dor \u00e9 algo que tu n\u00e3o controlas, mas o sofrimento \u00e9 opcional",
+      "type": "I",
+      "timestamp": "2017-03-07 23:27:15"
+    },
+    {
+      "nodeID": "263935",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/112.html: porque a dor \u00e9 algo que tu n\u00e3o controlas, mas o sofrimento \u00e9 opcional",
+      "type": "L",
+      "timestamp": "2017-03-07 23:27:15"
+    },
+    {
+      "nodeID": "263936",
+      "text": "Deus lhe deu, como reconhece, uma \u201ccapacidade fant\u00e1stica\u201d de se conseguir \u201cesquecer de todas as coisas m\u00e1s",
+      "type": "I",
+      "timestamp": "2017-03-07 23:27:16"
+    },
+    {
+      "nodeID": "263937",
+      "text": "http:\/\/web.fe.up.pt\/~ei11124\/argmine_news\/112.html: Deus lhe deu, como reconhece, uma \u201ccapacidade fant\u00e1stica\u201d de se conseguir \u201cesquecer de todas as coisas m\u00e1s",
+      "type": "L",
+      "timestamp": "2017-03-07 23:27:16"
+    },
+    {
+      "nodeID": "263938",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2017-03-07 23:27:16",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    },
+    {
+      "nodeID": "263939",
+      "text": "Default Inference",
+      "type": "RA",
+      "timestamp": "2017-03-07 23:27:16",
+      "scheme": "Default Inference",
+      "schemeID": "72"
+    }
+  ],
+  "edges": [
+    {
+      "edgeID": "319002",
+      "fromID": "263932",
+      "toID": "263938",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "319003",
+      "fromID": "263938",
+      "toID": "263934",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "319004",
+      "fromID": "263932",
+      "toID": "263939",
+      "formEdgeID": null
+    },
+    {
+      "edgeID": "319005",
+      "fromID": "263939",
+      "toID": "263936",
+      "formEdgeID": null
+    }
+  ],
+  "locutions": []
+}
