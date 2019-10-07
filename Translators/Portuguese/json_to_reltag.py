@@ -276,8 +276,8 @@ class claimsAndPremises:
         for wordIndex in range(0, len(words)):
             word = words[wordIndex]
             if (wordIndex == 0):
-                tag = '(B,' + type + ',' + distance + ')'
-                # tag = '(I,' + type + ',' + distance + ')'
+                # tag = '(B,' + type + ',' + distance + ')'
+                tag = '(I,' + type + ',' + distance + ')'
                 #tag = '(B,' + type + ')'
                 # tag = '(I,' + type + ')'
             elif ((word == '.') or (word == ':') or (word == ';') or (word == '?') or (word == '!')):

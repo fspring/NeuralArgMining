@@ -1,56 +1,35 @@
 from keras.preprocessing.text import Tokenizer
 class SequenceCreator:
-    englishTextsMaxSize = 735
+    english_text_maxsize = 735
+    sequences = []
+    maxlen = 0
+    word_index = None
 
-    def __init__(self, allTexts, textsToEval, useMaxlen):
-        self.sequences = []
-        self.maxlen = 0
-        self.allTexts = allTexts
-        self.textsToEval = textsToEval
-        self.useMaxlen = useMaxlen
+    def __init__(self, all_texts, texts_to_eval, use_maxlen):
+        self.all_texts = all_texts
+        self.texts_to_eval = texts_to_eval
+        self.use_maxlen = use_maxlen
 
     def normalizeSequences(self):
         maxlen = 0
-        newSequences = []
+        new_sequences = []
         for sequence in self.sequences:
             if len(sequence) > maxlen:
                 maxlen = len(sequence)
-        if self.useMaxlen:
+        if self.use_maxlen:
             self.maxlen = maxlen
         else:
-            self.maxlen = self.englishTextsMaxSize
+            self.maxlen = self.english_text_maxsize
 
         for sequence in self.sequences:
             while len(sequence) < self.maxlen:
                 sequence.append(0)
-            newSequences.append(sequence)
-        self.sequences = newSequences
+            new_sequences.append(sequence)
+        self.sequences = new_sequences
 
     def createSequences(self):
         token = Tokenizer(filters='')
-        token.fit_on_texts(self.allTexts.contents)
-        self.wordIndex = token.word_index
-        self.sequences = token.texts_to_sequences(self.textsToEval.contents)
+        token.fit_on_texts(self.all_texts.contents)
+        self.word_index = token.word_index
+        self.sequences = token.texts_to_sequences(self.texts_to_eval.contents)
         self.normalizeSequences()
-
-    def createTagSequences(self):
-        token = Tokenizer(filters='')
-        token.fit_on_texts(self.allTexts.contents)
-        self.wordIndex = token.word_index
-        print(self.wordIndex)
-        self.sequences = token.texts_to_sequences(self.textsToEval.contents)
-        self.normalizeSequences()
-
-    def transformText(self, text, textList):
-        token = Tokenizer(filters='')
-        token.fit_on_texts(textList.contents)
-        sequence = token.texts_to_sequences([text])
-        sequences = []
-
-        for text in sequence:
-            while len(text) < self.maxlen:
-                text.append(0)
-            sequences.append(text)
-            sequences.append(text)
-
-        return sequences

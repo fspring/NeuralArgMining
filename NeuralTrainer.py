@@ -17,7 +17,7 @@ class NeuralTrainer:
     embedding_size = 300
     hidden_size = 100
 
-    def __init__(self, maxlen, num_tags, wordIndex, embeddings, textsToEval, dumpPath, rel):
+    def __init__(self, maxlen, num_tags, wordIndex, embeddings, textsToEval, dumpPath):
         self.sequences = []
         self.maxlen = maxlen
         self.max_features = len(wordIndex)
@@ -27,7 +27,6 @@ class NeuralTrainer:
         self.embeddings = embeddings
         self.textsToEval = textsToEval
         self.dumpPath = dumpPath
-        self.rel = rel
 
     def decodeTags(self, tags):
         newtags = []
@@ -54,32 +53,29 @@ class NeuralTrainer:
                 embedding_matrix[i] = embedding_vector
         return embedding_matrix
 
-    def createModel(self):
+    def create_biLSTM_CRF_model(self):
         embeddingMatrix = self.createEmbeddings(self.wordIndex, self.embeddings)
-        model = Sequential()
+        self.model = Sequential()
 
-        model.add(
+        self.model.add(
             Embedding(self.max_features + 1, self.embedding_size, weights=[embeddingMatrix], input_length=self.maxlen,
                       trainable=False, mask_zero=True))
 
-        model.add(TimeDistributed(Dense(self.hidden_size, activation='relu')))
-        model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
-        model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
-        model.add(TimeDistributed(Dense(20, activation='relu')))
+        self.model.add(TimeDistributed(Dense(self.hidden_size, activation='relu')))
+        self.model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
+        self.model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
+        self.model.add(TimeDistributed(Dense(20, activation='relu')))
 
         crf = CRF(self.num_tags, sparse_target=False, learn_mode='join', test_mode='viterbi')
-        model.add(crf)
-        model.compile(optimizer='adam', loss=crf.loss_function, metrics=[crf.accuracy])
-
-        return model
+        self.model.add(crf)
+        self.model.compile(optimizer='adam', loss=crf.loss_function, metrics=[crf.accuracy])
 
     def trainModel(self, x_train, y_train, x_test, y_test, unencodedY, testSet):
-        model = self.createModel()
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
-        model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
-        scores = model.evaluate(x_test, y_test, batch_size=8, verbose=1)
-        y_pred = model.predict(x_test)
-        print("%s: %.2f%%" % (model.metrics_names[1], scores[1] * 100))
+        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
+        scores = self.model.evaluate(x_test, y_test, batch_size=8, verbose=1)
+        y_pred = self.model.predict(x_test)
+        print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
 
         self.printEvaluatedTexts(x_test, y_pred, testSet, self.textsToEval, self.dumpPath)
         spanEvalAt1 = self.spanEval(y_pred, unencodedY, 1.0)
@@ -189,14 +185,9 @@ class NeuralTrainer:
         for scoreValue in score:
             score_sum += scoreValue[:self.num_tags]
 
-        if(self.rel):
-            print('(o,|,|)\t(i,claim,0)\t(i,premise,d)')
-            print(str(round(score_sum[0] / numTexts, 3)) + '\t' + str(
-                round(score_sum[1] / numTexts, 3)) + '\t' + str(np.round(score_sum[2:] / numTexts, 3)))
-        else:
-            print('(i,premise)' + '(o,|)   ' + '(i,claim)')
-            print(str(round(score_sum[0] / numTexts, 3)) + '   ' + str(
-                round(score_sum[1] / numTexts, 3)) + '     ' + str(np.round(score_sum[2] / numTexts, 3)))
+        print('(o,|,|)\t(i,claim,0)\t(i,premise,d)')
+        print(str(round(score_sum[0] / numTexts, 3)) + '\t' + str(
+            round(score_sum[1] / numTexts, 3)) + '\t' + str(np.round(score_sum[2:] / numTexts, 3)))
 
         # return [round(score_sum[0] / numTexts, 4), round(score_sum[1] / numTexts, 4),
         #         round(score_sum[2:] / numTexts, 4)]
@@ -273,20 +264,13 @@ class NeuralTrainer:
             filenames.append(fileName)
         filenames = [filenames[x] for x in testSet]
 
-        if(self.rel):
-            classes = ['(O,|,|)', '(I,Claim,0)', '(I,Premise,-1)', '(I,Premise,-2)', '(I,Premise,-3)', '(I,Premise,-4)', '(I,Premise,-5)',
-                        '(I,Premise,0)', '(I,Premise,-6)', '(I,Premise,-7)', '(I,Premise,-8)', '(I,Premise,-9)', '(I,Premise,-10)',
-                        '(I,Premise,-11)', '(I,Premise,-12)']
-            for i in range(0, len(texts)):
-                textFile = open(filenames[i], "w", encoding='utf-8')
-                for token in texts[i]:
-                    textFile.write(u'' + token[0] + ' ' + classes[token[1]] + '\n')
-        else:
-            classes = ['(I,Premise)', '(O,|)', '(I,Claim)']
-            for i in range(0, len(texts)):
-                textFile = open(filenames[i], "w", encoding='utf-8')
-                for token in texts[i]:
-                    textFile.write(u'' + token[0] + ' ' + classes[token[1]] + '\n')
+        classes = ['(O,|,|)', '(I,Claim,0)', '(I,Premise,-1)', '(I,Premise,-2)', '(I,Premise,-3)', '(I,Premise,-4)', '(I,Premise,-5)',
+                    '(I,Premise,0)', '(I,Premise,-6)', '(I,Premise,-7)', '(I,Premise,-8)', '(I,Premise,-9)', '(I,Premise,-10)',
+                    '(I,Premise,-11)', '(I,Premise,-12)']
+        for i in range(0, len(texts)):
+            textFile = open(filenames[i], "w", encoding='utf-8')
+            for token in texts[i]:
+                textFile.write(u'' + token[0] + ' ' + classes[token[1]] + '\n')
 
     def spanCreator(self, unencodedY):
         spans = []
@@ -355,15 +339,12 @@ class NeuralTrainer:
                         recallCorrectSpans[classes[spanStart + possibleSpanStart] - 1] += 1
             i += 1
 
-        if(self.rel):
-            precision_arg = 0
-            goldSpanTypes_arg = 0
-            for i in range(1,self.num_tags):
-                precision_arg += precisionCorrectSpans[i]
-                goldSpanTypes_arg += goldSpanTypes[i]
-            accuracy = precision_arg / goldSpanTypes_arg
-        else:
-            accuracy = ((precisionCorrectSpans[0] + precisionCorrectSpans[2]) / (goldSpanTypes[0] + goldSpanTypes[2]))
+        precision_arg = 0
+        goldSpanTypes_arg = 0
+        for i in range(1,self.num_tags):
+            precision_arg += precisionCorrectSpans[i]
+            goldSpanTypes_arg += goldSpanTypes[i]
+        accuracy = precision_arg / goldSpanTypes_arg
 
         for i in range(0, self.num_tags):
             if (predictedSpanTypes[i] != 0):
@@ -373,41 +354,28 @@ class NeuralTrainer:
             if ((precision[i] + recall[i]) != 0):
                 f1[i] = 2 * ((precision[i] * recall[i]) / (precision[i] + recall[i]))
 
-        if(self.rel):
-            precision_premises = np.array(precision[2:])
-            recall_premises = np.array(recall[2:])
-            f1_premises = np.array(f1[2:])
+        precision_premises = np.array(precision[2:])
+        recall_premises = np.array(recall[2:])
+        f1_premises = np.array(f1[2:])
 
-            print('Accuracy at ' + str(threshold) + ' - ' + str(round(accuracy, 3)))
-            print('Precision for premises at ' + str(threshold) + ' - ' + str(np.round(precision_premises, 3)))
-            print('Precision for claims at ' + str(threshold) + ' - ' + str(round(precision[1], 3)))
-            print('Recall for premises at ' + str(threshold) + ' - ' + str(np.round(recall_premises, 3)))
-            print('Recall for claims at ' + str(threshold) + ' - ' + str(round(recall[1], 3)))
-            print('F1 for premises at ' + str(threshold) + ' - ' + str(np.round(f1_premises, 3)))
-            print('F1 for claims at ' + str(threshold) + ' - ' + str(round(f1[1], 3)))
+        print('Accuracy at ' + str(threshold) + ' - ' + str(round(accuracy, 3)))
+        print('Precision for premises at ' + str(threshold) + ' - ' + str(np.round(precision_premises, 3)))
+        print('Precision for claims at ' + str(threshold) + ' - ' + str(round(precision[1], 3)))
+        print('Recall for premises at ' + str(threshold) + ' - ' + str(np.round(recall_premises, 3)))
+        print('Recall for claims at ' + str(threshold) + ' - ' + str(round(recall[1], 3)))
+        print('F1 for premises at ' + str(threshold) + ' - ' + str(np.round(f1_premises, 3)))
+        print('F1 for claims at ' + str(threshold) + ' - ' + str(round(f1[1], 3)))
 
-            ret = [round(accuracy, 4)]
-            for value in precision_premises:
-                ret.append(value)
-            ret.append(precision[1])
-            for value in recall_premises:
-                ret.append(value)
-            ret.append(recall[1])
-            for value in f1_premises:
-                ret.append(value)
-            ret.append(f1[1])
+        ret = [round(accuracy, 4)]
+        for value in precision_premises:
+            ret.append(value)
+        ret.append(precision[1])
+        for value in recall_premises:
+            ret.append(value)
+        ret.append(recall[1])
+        for value in f1_premises:
+            ret.append(value)
+        ret.append(f1[1])
 
-        else:
-
-            print('Accuracy at ' + str(threshold) + ' - ' + str(round(accuracy, 3)))
-            print('Precision for premises at ' + str(threshold) + ' - ' + str(round(precision[0], 3)))
-            print('Precision for claims at ' + str(threshold) + ' - ' + str(round(precision[2], 3)))
-            print('Recall for premises at ' + str(threshold) + ' - ' + str(round(recall[0], 3)))
-            print('Recall for claims at ' + str(threshold) + ' - ' + str(round(recall[2], 3)))
-            print('F1 for premises at ' + str(threshold) + ' - ' + str(round(f1[0], 3)))
-            print('F1 for claims at ' + str(threshold) + ' - ' + str(round(f1[2], 3)))
-
-            ret = [round(accuracy, 4), round(precision_premises, 4), round(precision_claims, 4), round(recall_premises, 4),
-                    round(recall_claims, 4), round(f1_premises, 4), round(f1_claims, 4)]
         print('ret: ',len(ret))
         return ret
