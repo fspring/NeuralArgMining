@@ -225,7 +225,7 @@ class claimsAndPremises:
                     collapsedEdges[edges[i]['fromID']] = edges[j]['toID']
 
 
-        print(collapsedEdges)
+        # print(collapsedEdges)
         return collapsedEdges
 
     def isDefaultNode(self,nodes,nodeId):
@@ -370,7 +370,7 @@ class claimsAndPremises:
                 if linked not in close[node]:
                     close[node].append(linked)
                     # print('close', node,':', close[node])
-        print('close:',close)
+        # print('close:',close)
         self.close_connections = close
 
 class Tag_Replacer:
@@ -453,7 +453,9 @@ class DistanceCalculator:
     #for each premise, finds the next arg component that is linked, and replaces distance in tag
     #only looks ahead --> distance always greater than or equal to 0
     def all_positive_calculate_distance(self):
-        for i in range(0, len(self.components_words)):
+        text_size = len(self.components_words)
+        # print(text_size)
+        for i in range(0, text_size):
             # print('id', self.components_words[i].id)
             if self.components_words[i].id == '':
                 continue
@@ -474,6 +476,9 @@ class DistanceCalculator:
                 dist += 1
                 if self.components_words[j].id in linked_ids:
                     break
+            if dist >= text_size: #this has never happened yet
+                print('overflow')
+                dist = 0
             # print(tag, dist)
             tag = tag_parts[0] + ',' + tag_parts[1] + ',' + str(dist) + ')'
             # print('new',tag)
@@ -521,8 +526,8 @@ class Pipeline:
             # if(htmlFile != '10'):
             #     continue
 
-            print(jsonFile)
-            print(htmlFile)
+            # print(jsonFile)
+            # print(htmlFile)
 
             #HTML to plain text
             dumper = TextDumper(htmlFile)

@@ -274,7 +274,7 @@ class DistanceCalculator:
                 dist += 1
                 if self.words[j].component_id in linked_ids:
                     break
-            if dist >= text_size:
+            if dist >= text_size: #this has never happened yet
                 print('overflow')
                 dist = 0
             # print(tag, dist)
