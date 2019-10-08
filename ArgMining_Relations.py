@@ -17,6 +17,12 @@ from keras.layers import Layer
 
 from utils import bool_flag
 
+commonTextDirectory = 'allTextsPunctuation'
+commonTagDirectory = 'allRelationTags'
+
+englishTextsDirectory = 'essaysClaimsPremisesPunctuation/rel/texts'
+englishTagDirectory = 'essaysClaimsPremisesPunctuation/rel/tags'
+
 class Pentanh(Layer):
 
     def __init__(self, **kwargs):
@@ -35,77 +41,98 @@ class Pentanh(Layer):
 
 keras.utils.generic_utils.get_custom_objects().update({'pentanh': Pentanh()})
 
+def preprocess_tags(textDirectory, tagDirectory, addTexts):
+    ### PROCESS TEXT INPUT ###
+    all_texts = tr.TextReader(commonTextDirectory)
+    all_texts.readTexts()
 
-def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
-    commonTextDirectory = 'allTextsPunctuation'
-    allTexts = tr.TextReader(commonTextDirectory)
-    allTexts.readTexts()
+    texts_to_eval = tr.TextReader(textDirectory)
+    texts_to_eval.readTexts()
 
-    texts = tr.TextReader(textDirectory)
-    texts.readTexts()
+    textSequencer = sc.SequenceCreator(all_texts, texts_to_eval, not addTexts)
+
+    textSequencer.create_sequences()
+    text_sequences = textSequencer.sequences
+
+    englishTextSequences = []
     if addTexts:
-        textSequencer = sc.SequenceCreator(allTexts, texts, False)
-    else:
-        textSequencer = sc.SequenceCreator(allTexts, texts, True)
-    textSequencer.createSequences()
-    textSequences = textSequencer.sequences
-
-    commonTagDirectory = 'allRelationTags'
-
-    allTags = tp.RelationTagProcessor(commonTagDirectory)
-    allTags.readTags()
-
-    tags = tp.RelationTagProcessor(tagDirectory)
-    tags.readTags()
-
-    if addTexts:
-        tagSequencer = sc.SequenceCreator(allTags, tags, False)
-    else:
-        tagSequencer = sc.SequenceCreator(allTags, tags, True)
-
-    tagSequencer.createSequences()
-    unencodedTags = tagSequencer.sequences
-    n_tags = max(tagSequencer.word_index.values())
-    tags.num_tags = allTags.num_tags = n_tags
-
-    nonarg_tag = np.zeros(n_tags)
-    nonarg_tag[0] = 1
-    tags.nArgTag = list(map(int, nonarg_tag))
-    allTags.nArgTag = list(map(int, nonarg_tag))
-
-    allTags.map_encoding(tagSequencer.sequences)
-    tagSequences = allTags.encode(tagSequencer.sequences)
-
-    trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.wordIndex,
-                          embeddings, textDirectory, dumpPath)
-    trainer.create_biLSTM_CRF_model()
-    startTime = datetime.datetime.now().replace(microsecond=0)
-    
-    if addTexts:
-        englishTextsDirectory = 'essaysClaimsPremisesPunctuation/rel/texts'
         englishTexts = tr.TextReader(englishTextsDirectory)
         englishTexts.readTexts()
-        englishTextSequencer = sc.SequenceCreator(allTexts, englishTexts, False)
-        englishTextSequencer.createSequences()
+
+        englishTextSequencer = sc.SequenceCreator(all_texts, englishTexts, False)
+
+        englishTextSequencer.create_sequences()
         englishTextSequences = englishTextSequencer.sequences
 
-        tagDirectory = 'essaysClaimsPremisesPunctuation/rel/tags'
-        englishTags = tp.TagProcessor(englishTagDirectory, [0, 1, 0])
-        englishTags.readTags()
-        englishTagSequencer = sc.SequenceCreator(allTags, englishTags, False)
-        englishTagSequencer.createTagSequences()
-        englishTagSequences = englishTags.encode(englishTagSequencer.sequences)
+    ### PROCESS TAG INPUT ###
+    all_tags = tp.RelationTagProcessor(commonTagDirectory)
+    all_tags.readTags()
 
-        trainer.crossValidate(textSequences, tagSequences, englishTextSequences, englishTagSequences, unencodedTags)
-    else:
-        trainer.crossValidate(textSequences, tagSequences, [], [], unencodedTags)
+    tags_to_eval = tp.RelationTagProcessor(tagDirectory)
+    tags_to_eval.readTags()
 
+    tagSequencer = sc.SequenceCreator(all_tags, tags_to_eval, not addTexts)
 
-    endTime = datetime.datetime.now().replace(microsecond=0)
-    timeTaken = endTime - startTime
+    tagSequencer.create_tag_sequences()
+    unencoded_tags = tagSequencer.sequences
 
-    print("Time elapsed:")
-    print(timeTaken)
+    tagSequencer.map_tag_encoding()
+
+    tags_to_eval.num_tags = all_tags.num_tags = tagSequencer.n_tags
+
+    tagSequencer.encode_onehot()
+    tag_sequences = tagSequencer.encoded_sequences
+
+    englishTagSequences = []
+    if addTexts:
+        english_tags = tp.TagProcessor(englishTagDirectory)
+        english_tags.readTags()
+
+        englishTagSequencer = sc.SequenceCreator(all_tags, english_tags, False)
+
+        englishTagSequencer.create_tag_sequences()
+
+        english_tags.num_tags = tagSequencer.n_tags
+
+        englishTagSequencer.encode_onehot()
+        englishTagSequences = englishTagSequencer.encoded_sequences
+
+    return (textSequencer, tagSequencer, englishTextSequences, englishTagSequences, tags_to_eval)
+
+def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
+    preprocess_start_time = datetime.datetime.now().replace(microsecond=0)
+
+    (textSequencer, tagSequencer, englishTextSequences, englishTagSequences, tags_to_eval) = preprocess_tags(textDirectory, tagDirectory, addTexts)
+
+    preprocess_end_time = datetime.datetime.now().replace(microsecond=0)
+    print('Preprocessing time:', preprocess_end_time - preprocess_start_time)
+
+    n_tags = tagSequencer.n_tags
+    text_sequences = textSequencer.sequences
+    tag_sequences = [tagSequencer.encoded_sequences, tags_to_eval.distance_tags_list]
+    unencoded_tags = tagSequencer.sequences
+
+    print(np.shape(text_sequences), np.shape(tag_sequences[0]), np.shape(unencoded_tags))
+
+    # print(np.shape(tagSequencer.encoded_sequences))
+    # print(textSequencer.word_index.items())
+    # print('Number of Tokens:', tags_to_eval.numNArg + tags_to_eval.numClaim + tags_to_eval.numPremise)
+    # print('Number of Claims Tokens:', tags_to_eval.numClaim)
+    # print('Number of Premises Tokens:', tags_to_eval.numPremise)
+
+    # trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
+    # trainer.create_CRF_model()
+    # trainer.create_dist_layer(np.shape(tagSequencer.encoded_sequences),np.shape(tags_to_eval.distance_tags_list))
+    #
+    # # startTime = datetime.datetime.now().replace(microsecond=0)
+    #
+    # trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags)
+
+    # endTime = datetime.datetime.now().replace(microsecond=0)
+    # timeTaken = endTime - startTime
+    #
+    # print("Time elapsed:")
+    # print(timeTaken)
 
 
 def main():

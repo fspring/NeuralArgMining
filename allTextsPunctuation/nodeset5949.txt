@@ -1,3 +1,4 @@
+crítico
 Um
 recluso
 do
@@ -53,7 +54,7 @@ Unidade
 Local
 de
 Saúde
-(ULS)
+ULS
 de
 Castelo
 Branco
@@ -99,7 +100,7 @@ canabinoides
 negativa
 para
 a
-`ketamina`
+ketamina
 .
 Segundo
 este
@@ -115,7 +116,7 @@ no
 Hospital
 Amato
 Lusitano
-(HAL)
+HAL
 irão
 ser
 transferidos
@@ -177,7 +178,7 @@ Reinserção
 e
 Serviços
 Prisionais
-(DGRSP)
+DGRSP
 informou
 na
 segunda-feira
@@ -220,7 +221,7 @@ factos
 ocorridos
 ,
 ontem
-[domingo]
+domingo
 ,
 estão
 a
@@ -465,7 +466,7 @@ Nacional
 de
 Emergência
 Médica
-(INEM)
+INEM
 foi
 chamado
 ao
@@ -495,5 +496,5 @@ substância
 ilícita
 ,
 presumivelmente
-`ketamina`
+ketamina
 .

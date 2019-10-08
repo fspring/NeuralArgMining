@@ -269,10 +269,10 @@ de
 Tecnologias
 do
 InovRibatejo
-(http
+http
 ://inovribatejo
 .nersant
-.pt/tecnologias)
+.pt/tecnologias
 reunindo
 com
 os
@@ -322,6 +322,7 @@ o
 Financiamento
 da
 I&DT
+;
 empresarial
 no
 Portugal

@@ -44,7 +44,7 @@ do
 Banco
 Central
 Europeu
-(BCE)
+BCE
 ,
 quantitative
 easing

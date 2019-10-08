@@ -43,7 +43,7 @@ a
 preto
 e
 branco
-(o
+o
 branco
 são
 os
@@ -67,7 +67,7 @@ esses
 mesmos
 tão
 exclusivistas
-democratas)
+democratas
 .
 Têm
 também
@@ -104,12 +104,12 @@ fora
 do
 perímetro
 politico
-(já
+já
 nem
 falo
 do
 meramente
-institucional)
+institucional
 em
 que
 alguém

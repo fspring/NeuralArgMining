@@ -96,7 +96,7 @@ de
 Operações
 e
 Socorro
-(CDOS)
+CDOS
 de
 Vila
 Real

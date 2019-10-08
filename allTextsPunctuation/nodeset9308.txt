@@ -116,6 +116,6 @@ renovado
 Uma
 espécie
 de
-‘new
-me’
+new
+me
 .

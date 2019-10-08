@@ -49,7 +49,8 @@ AFP
 refere
 que
 a
-guarda-costeira
+guarda-
+costeira
 já
 conseguiu
 resgatar
@@ -145,7 +146,7 @@ homens
 armados
 de
 metralhadoras
-'kalachnikov
+kalachnikov
 ameaçaram
 as
 forças

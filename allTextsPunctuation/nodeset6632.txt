@@ -48,7 +48,7 @@ Centro
 Hospitalar
 do
 Algarve
-(CHA)
+CHA
 vai
 começar
 em
@@ -75,7 +75,8 @@ Algarve
 ,
 disse
 esta
-terça-feira
+terça-
+feira
 à
 Lusa
 um

@@ -85,7 +85,7 @@ Federal
 dos
 Estados
 Unidos
-(FAA)
+FAA
 deu
 um
 importante
@@ -113,7 +113,7 @@ aviões
 comerciais
 não
 tripulados
-(Drones)
+Drones
 .
 Estes
 devem

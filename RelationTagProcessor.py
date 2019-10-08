@@ -1,8 +1,7 @@
 import os
-import re
-import numpy as np
 class RelationTagProcessor:
-    contents = []
+    component_tags = []
+    distance_tags_list = []
     num_tags = 0
     nArgTag = None
 
@@ -17,10 +16,16 @@ class RelationTagProcessor:
 
     def processTags(self, fileName):
         file = open(fileName, "r", encoding='utf8')
-        TagContents = file.read()
-        TagContents = re.sub(r'\n', r' ', TagContents)
-        self.contents.append(TagContents)
-        self.tag_count(TagContents)
+        tag_contents = file.readlines()
+        component = ''
+        distance = []
+        for tag in tag_contents:
+            parts = tag.rsplit(',', 1)
+            component += parts[0]  + ') '
+            distance.append(parts[1][:-2])
+        self.component_tags.append(component)
+        self.distance_tags_list.append(distance)
+        self.tag_count(tag_contents)
 
     def readTags(self):
         fileList = os.listdir(self.baseDirectory)
@@ -29,8 +34,7 @@ class RelationTagProcessor:
             self.processTags(fileName)
 
     def tag_count(self, tags_list):
-        tags = tags_list.split(' ')
-        for tag in tags:
+        for tag in tags_list:
             if tag == '':
                 continue
             tag_elements = tag.split(',')
@@ -41,29 +45,27 @@ class RelationTagProcessor:
             elif tag_elements[1] == 'claim':
                 self.numClaim += 1
 
+    def normalize_distance_tag(self):
+        for i in range(0, len(self.distance_tags_list)):
+            distance_tags = self.distance_tags_list[i]
+            if '' in distance_tags:
+                distance_tags.remove('')
+            for j in range(0, len(distance_tags)):
+                if distance_tags[j] == '|':
+                    distance_tags[j] = 0
+                else:
+                    value = int(distance_tags[j])
+                    distance_tags[j] = value
+            self.distance_tags_list[i] = distance_tags
+
     def map_encoding(self, tag_sequences):
-        for i in range(0, len(self.contents)):
-            full_tags = self.contents[i].split(' ')
+        for i in range(0, len(self.component_tags)):
+            full_tags = self.component_tags[i].split(' ')
             seq_tags = tag_sequences[i]
-            if len(full_tags) != len(seq_tags):
-                full_tags.remove('')
+            full_tags.remove('')
             for j in range(0, len(full_tags)):
                 self.tag_code[full_tags[j]] = seq_tags[j]
         file = open('tag_mapping.txt', 'w', encoding='utf-8')
         for key in self.tag_code.keys():
             file.write(u'' + key + '\t' + str(self.tag_code[key]) + '\n')
         file.close()
-
-    def encode(self, tag_sequences):
-        encodedTags = []
-        for tag_seq in tag_sequences:
-            new_tags = []
-            for tag in tag_seq:
-                if tag == 0:
-                    new_tags.append(self.nArgTag)
-                else:
-                    result = np.zeros(self.num_tags)
-                    result[tag - 1] = 1
-                    new_tags.append(list(map(int, result)))
-            encodedTags.append(new_tags)
-        return encodedTags

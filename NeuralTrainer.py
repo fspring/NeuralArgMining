@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 
 import keras
 from keras.models import Sequential
-from keras.layers import Layer, Dense, Embedding, LSTM, Bidirectional
+from keras.layers import Input, Layer, Dense, Embedding, LSTM, Bidirectional
 from keras.layers.wrappers import TimeDistributed
 from keras.callbacks import EarlyStopping
 
@@ -16,16 +16,19 @@ from crf import CRF
 class NeuralTrainer:
     embedding_size = 300
     hidden_size = 100
+    crf_model = None
+    dist_layer = None
 
-    def __init__(self, maxlen, num_tags, wordIndex, embeddings, textsToEval, dumpPath):
+
+    def __init__(self, maxlen, num_tags, word_index, embeddings, texts_to_eval, dumpPath):
         self.sequences = []
         self.maxlen = maxlen
-        self.max_features = len(wordIndex)
+        self.max_features = len(word_index)
         self.num_tags = num_tags
         self.num_measures = 1 + 3*(num_tags - 1)
-        self.wordIndex = wordIndex
+        self.word_index = word_index
         self.embeddings = embeddings
-        self.textsToEval = textsToEval
+        self.texts_to_eval = texts_to_eval
         self.dumpPath = dumpPath
 
     def decodeTags(self, tags):
@@ -53,37 +56,45 @@ class NeuralTrainer:
                 embedding_matrix[i] = embedding_vector
         return embedding_matrix
 
-    def create_biLSTM_CRF_model(self):
-        embeddingMatrix = self.createEmbeddings(self.wordIndex, self.embeddings)
-        self.model = Sequential()
-
-        self.model.add(
-            Embedding(self.max_features + 1, self.embedding_size, weights=[embeddingMatrix], input_length=self.maxlen,
+    def create_CRF_model(self):
+        embeddingMatrix = self.createEmbeddings(self.word_index, self.embeddings)
+        self.crf_model = Sequential()
+        self.crf_model.add(Embedding(self.max_features + 1, self.embedding_size, weights=[embeddingMatrix], input_length=self.maxlen,
                       trainable=False, mask_zero=True))
 
-        self.model.add(TimeDistributed(Dense(self.hidden_size, activation='relu')))
-        self.model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
-        self.model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
-        self.model.add(TimeDistributed(Dense(20, activation='relu')))
+        self.crf_model.add(TimeDistributed(Dense(self.hidden_size, activation='relu')))
+        self.crf_model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
+        self.crf_model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh', name='biLSTM_2')))
+        self.crf_model.add(TimeDistributed(Dense(20, activation='relu')))
 
         crf = CRF(self.num_tags, sparse_target=False, learn_mode='join', test_mode='viterbi')
-        self.model.add(crf)
-        self.model.compile(optimizer='adam', loss=crf.loss_function, metrics=[crf.accuracy])
+        self.crf_model.add(crf)
 
-    def trainModel(self, x_train, y_train, x_test, y_test, unencodedY, testSet):
+        self.crf_model.compile(optimizer='adam', loss=crf.loss_function, metrics=[crf.accuracy])
+
+    def create_dist_layer(self, arg_input_shape, dist_input_shape):
+        self.dist_layer = TimeDistributed(Dense(dist_input_shape[1], activation='relu'))
+        # self.dist_layer.compile(optimizer='adam', loss='mean_absolute_error', metrics='accuracy')
+
+
+    def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
-        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
-        scores = self.model.evaluate(x_test, y_test, batch_size=8, verbose=1)
-        y_pred = self.model.predict(x_test)
-        print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
 
-        self.printEvaluatedTexts(x_test, y_pred, testSet, self.textsToEval, self.dumpPath)
-        spanEvalAt1 = self.spanEval(y_pred, unencodedY, 1.0)
-        spanEvalAt075 = self.spanEval(y_pred, unencodedY, 0.75)
-        spanEvalAt050 = self.spanEval(y_pred, unencodedY, 0.50)
-        tagEval = self.tagEval(y_pred, unencodedY)
+        print(self.crf_model.get_weights())
+        self.crf_model.fit(x_train, y_train_class, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
+        print(self.crf_model.get_weights())
 
-        return [scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050]
+        # scores = self.crf_model.evaluate(x_test, y_test_class, batch_size=8, verbose=1)
+        # y_pred = self.model.predict(x_test)
+        # print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
+        #
+        # self.printEvaluatedTexts(x_test, y_pred, testSet, self.texts_to_eval, self.dumpPath)
+        # spanEvalAt1 = self.spanEval(y_pred, unencodedY, 1.0)
+        # spanEvalAt075 = self.spanEval(y_pred, unencodedY, 0.75)
+        # spanEvalAt050 = self.spanEval(y_pred, unencodedY, 0.50)
+        # tagEval = self.tagEval(y_pred, unencodedY)
+        #
+        # return [scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050]
 
     def crossValidate(self, X, Y, additionalX, additionalY, unencodedY):
         seed = 42
@@ -100,30 +111,37 @@ class NeuralTrainer:
         empty_corr = list(map(float,np.zeros(self.num_measures)))
         cvscores = [0, [empty_avg, empty_avg, empty_avg], empty_corr, empty_corr, empty_corr]
 
+        Y_class = Y[0] # Component identification
+        Y_dist = Y[1] # Distances between related components
         for train, test in kfold.split(X, unencodedY):
-            print('Fold')
-            print(foldNumber)
-            xTrainSet = []
-            yTrainSet = []
-            xTestSet = []
-            yTestSet = []
-            unencodedYSet = []
+            print('-------- Fold', foldNumber,'--------')
+            X_train = []
+            Y_train_class = []
+            Y_train_dist = []
             for trainIndex in train:
-                xTrainSet.append(X[trainIndex])
-                yTrainSet.append(Y[trainIndex])
-            for testIndex in test:
-                xTestSet.append(X[testIndex])
-                yTestSet.append(Y[testIndex])
-                unencodedYSet.append(unencodedY[testIndex])
+                X_train.append(X[trainIndex])
+                Y_train_class.append(Y_class[trainIndex])
+                Y_train_dist.append(Y_dist[trainIndex])
 
-            xTrainSet = xTrainSet + additionalX
-            yTrainSet = yTrainSet + additionalY
-            scores = self.trainModel(xTrainSet, yTrainSet, xTestSet, yTestSet, unencodedYSet, test)
-            cvscores = self.handleScores(cvscores, scores, n_folds)
-            foldNumber += 1
-        print('Average results for the ten folds:')
-        self.prettyPrintResults(cvscores)
-        return cvscores
+            X_test = []
+            Y_test_class = []
+            Y_test_dist = []
+            unencoded_Y = []
+            for testIndex in test:
+                X_test.append(X[testIndex])
+                Y_test_class.append(Y_class[testIndex])
+                Y_test_dist.append(Y_dist[trainIndex])
+                unencoded_Y.append(unencodedY[testIndex])
+
+            X_train = X_train + additionalX
+            Y_train_class = Y_train_class + additionalY
+            scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            break
+        #     cvscores = self.handleScores(cvscores, scores, n_folds)
+        #     foldNumber += 1
+        # print('Average results for the ten folds:')
+        # self.prettyPrintResults(cvscores)
+        # return cvscores
 
     def handleScores(self, oldScores, newScores, nFolds):
         newAccuracy = oldScores[0] + (newScores[0] / nFolds)
@@ -245,7 +263,7 @@ class NeuralTrainer:
             round(scores[1][2][2], 3)))
 
     def printEvaluatedTexts(self, x_test, y_pred, testSet, textList, dumpPath):
-        invWordIndex = {v: k for k, v in self.wordIndex.items()}
+        invword_index = {v: k for k, v in self.word_index.items()}
         texts = []
 
         for i in range(0,len(x_test)):
@@ -253,7 +271,7 @@ class NeuralTrainer:
             tags = y_pred[i]
             j = 0
             for word in np.trim_zeros(x_test[i]):
-                text.append([invWordIndex[word], np.argmax(tags[j])])
+                text.append([invword_index[word], np.argmax(tags[j])])
                 j += 1
             texts.append(text)
 

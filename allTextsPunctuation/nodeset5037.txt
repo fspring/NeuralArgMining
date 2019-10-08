@@ -43,7 +43,7 @@ notícia
 de
 que
 o
-'prize-money'
+prize-money
 global
 chegará
 aos
@@ -89,7 +89,7 @@ euros
 (2,13
 para
 os
-vencedores)
+vencedores
 ,
 enquanto
 Wimbledon
@@ -290,7 +290,7 @@ no
 ano
 passado
 ,
-'Nole'
+Nole
 teve
 direito
 a

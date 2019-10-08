@@ -80,7 +80,7 @@ pareça
 aos
 não
 fumadores
-(e
+e
 até
 a
 alguns
@@ -89,12 +89,12 @@ ex-fumadores
 quando
 mudam
 de
-categoria)
+categoria
 ,
 actualmente
 o
 conceito
-‘respirar’
+respirar
 em
 dias
 muito

@@ -3,7 +3,7 @@ das
 próximas
 eleições
 federais
-(legislativas)
+legislativas
 se
 realizarem
 apenas
@@ -32,8 +32,8 @@ haverá
 cinco
 eleições
 regionais
-(nos
-Lander)
+nos
+Lander
 .
 Se
 a
@@ -43,7 +43,8 @@ maus
 resultados
 –
 e
-sabe-se
+sabe
+-se
 como
 as
 eleições

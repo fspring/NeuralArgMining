@@ -101,8 +101,8 @@ foi
 viciado
 não
 pode
-‘destruir
-arquivos’
+destruir
+arquivos
 e
 passar
 ao
