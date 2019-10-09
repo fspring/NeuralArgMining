@@ -16,20 +16,19 @@ from crf import CRF
 class NeuralTrainer:
     embedding_size = 300
     hidden_size = 100
-    crf_model = None
-    dist_layer = None
 
 
     def __init__(self, maxlen, num_tags, word_index, embeddings, texts_to_eval, dumpPath):
         self.sequences = []
         self.maxlen = maxlen
-        self.max_features = len(word_index)
+        self.vocab_size = len(word_index)+1
         self.num_tags = num_tags
         self.num_measures = 1 + 3*(num_tags - 1)
         self.word_index = word_index
         self.embeddings = embeddings
         self.texts_to_eval = texts_to_eval
         self.dumpPath = dumpPath
+        self.model = None
 
     def decodeTags(self, tags):
         newtags = []
@@ -49,43 +48,57 @@ class NeuralTrainer:
             embeddings_index[word] = coefs
         f.close()
 
-        embedding_matrix = np.zeros((self.max_features + 1, self.embedding_size))
+        embedding_matrix = np.zeros((self.vocab_size, self.embedding_size))
         for word, i in word_index.items():
             embedding_vector = embeddings_index.get(word)
             if embedding_vector is not None:
                 embedding_matrix[i] = embedding_vector
         return embedding_matrix
 
-    def create_CRF_model(self):
+    def create_biLSTM(self, input):
         embeddingMatrix = self.createEmbeddings(self.word_index, self.embeddings)
-        self.crf_model = Sequential()
-        self.crf_model.add(Embedding(self.max_features + 1, self.embedding_size, weights=[embeddingMatrix], input_length=self.maxlen,
-                      trainable=False, mask_zero=True))
+        emb = Embedding(self.vocab_size, self.embedding_size, weights=[embeddingMatrix], input_length=self.maxlen,
+                      trainable=False, mask_zero=True)(input)
 
-        self.crf_model.add(TimeDistributed(Dense(self.hidden_size, activation='relu')))
-        self.crf_model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh')))
-        self.crf_model.add(Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh', name='biLSTM_2')))
-        self.crf_model.add(TimeDistributed(Dense(20, activation='relu')))
+        biLSTM_tensor = TimeDistributed(Dense(self.hidden_size, activation='relu'))(emb)
+        biLSTM_tensor = Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh'))(biLSTM_tensor)
+        biLSTM_tensor = Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh', name='biLSTM_2'))(biLSTM_tensor)
+
+        return biLSTM_tensor
+
+    def create_CRF(self, biLSTM_tensor):
+        crf_tensor = TimeDistributed(Dense(20, activation='relu'))(biLSTM_tensor)
 
         crf = CRF(self.num_tags, sparse_target=False, learn_mode='join', test_mode='viterbi')
-        self.crf_model.add(crf)
+        crf_tensor = crf(crf_tensor)
 
-        self.crf_model.compile(optimizer='adam', loss=crf.loss_function, metrics=[crf.accuracy])
+        # self.crf_model.compile(optimizer='adam', loss=crf.loss_function, metrics=[crf.accuracy])
 
-    def create_dist_layer(self, arg_input_shape, dist_input_shape):
-        self.dist_layer = TimeDistributed(Dense(dist_input_shape[1], activation='relu'))
-        # self.dist_layer.compile(optimizer='adam', loss='mean_absolute_error', metrics='accuracy')
+        return (crf_tensor, crf)
 
+    def create_dist_layer(self, biLSTM_tensor):
+        dist_tensor = TimeDistributed(Dense(1, activation='relu'))(biLSTM_tensor)
+        # dist_tensor.compile(optimizer='adam', loss='mean_absolute_error', metrics='accuracy')
+
+        return dist_tensor
+
+    def create_model(self):
+        input = Input(shape=(self.maxlen,))
+
+        biLSTM_tensor = self.create_biLSTM(input)
+        (crf_tensor, crf) = self.create_CRF(biLSTM_tensor)
+        dist_tensor = self.create_dist_layer(biLSTM_tensor)
+
+        self.model = Model(input, [crf_tensor,dist_tensor])
+        self.model.compile(optimizer='adam', loss=[crf.loss_function,'mean_absolute_error'], metrics=[crf.accuracy])
 
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
 
-        print(self.crf_model.get_weights())
-        self.crf_model.fit(x_train, y_train_class, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
-        print(self.crf_model.get_weights())
+        self.model.fit(x_train, [y_train_class,y_train_dist], epochs=10, batch_size=8, verbose=1, callbacks=[monitor])
 
-        # scores = self.crf_model.evaluate(x_test, y_test_class, batch_size=8, verbose=1)
-        # y_pred = self.model.predict(x_test)
+        scores = self.model.evaluate(x_test, [y_test_class,y_test_dist], batch_size=8, verbose=1)
+        y_pred = self.model.predict(x_test)
         # print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
         #
         # self.printEvaluatedTexts(x_test, y_pred, testSet, self.texts_to_eval, self.dumpPath)
@@ -98,8 +111,8 @@ class NeuralTrainer:
 
     def crossValidate(self, X, Y, additionalX, additionalY, unencodedY):
         seed = 42
-        n_folds = 10
-        # n_folds = 2
+        # n_folds = 10
+        n_folds = 2
         foldNumber  = 1
 
         kfold = KFold(n_splits=n_folds, shuffle=True, random_state=seed)

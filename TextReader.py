@@ -11,6 +11,7 @@ class TextReader:
         textContents = file.read()
         textContents = re.sub(r'\n', r' ', textContents)
         self.contents.append(textContents)
+        lines = textContents.split(' ')
 
     def readTexts(self):
         fileList = os.listdir(self.baseDirectory)

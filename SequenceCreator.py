@@ -1,21 +1,22 @@
 from keras.preprocessing.text import Tokenizer
 import numpy as np
 class SequenceCreator:
-    english_text_maxsize = 735
-    maxlen = 0
-
-    sequences = []
-    encoded_sequences = []
-
-    word_index = None
-    zero_tag = [0, 1, 0]
-    n_tags = 0
-    tag_code = {}
 
     def __init__(self, all_texts, texts_to_eval, use_maxlen):
         self.all_texts = all_texts
         self.texts_to_eval = texts_to_eval
         self.use_maxlen = use_maxlen
+
+        self.english_text_maxsize = 735
+        self.maxlen = 0
+
+        self.sequences = []
+        self.encoded_sequences = []
+
+        self.word_index = None
+        self.zero_tag = [0, 1, 0]
+        self.n_tags = 0
+        self.tag_code = {}
 
     def normalizeSequences(self):
         maxlen = 0
@@ -45,8 +46,8 @@ class SequenceCreator:
         token = Tokenizer(filters='')
         token.fit_on_texts(self.all_texts.component_tags)
         self.word_index = token.word_index
-        self.n_tags = max(token.word_index.values())
         self.sequences = token.texts_to_sequences(self.texts_to_eval.component_tags)
+        self.n_tags = max(token.word_index.values())
         self.normalizeSequences()
         self.normalize_distance_tag()
 
@@ -66,8 +67,8 @@ class SequenceCreator:
             self.texts_to_eval.distance_tags_list[i] = distance_tags
 
     def map_tag_encoding(self):
-        for i in range(0, len(self.all_texts.component_tags)):
-            full_tags = self.all_texts.component_tags[i].split(' ')
+        for i in range(0, len(self.texts_to_eval.component_tags)):
+            full_tags = self.texts_to_eval.component_tags[i].split(' ')
             seq_tags = self.sequences[i]
             full_tags.remove('')
             for j in range(0, len(full_tags)):

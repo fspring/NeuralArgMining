@@ -1,18 +1,18 @@
 import os
 class RelationTagProcessor:
-    component_tags = []
-    distance_tags_list = []
-    num_tags = 0
-    nArgTag = None
-
-    numNArg = 0
-    numClaim = 0
-    numPremise = 0
-
-    tag_code = {}
 
     def __init__(self, baseDirectory):
         self.baseDirectory = baseDirectory
+        self.component_tags = []
+        self.distance_tags_list = []
+        self.num_tags = 0
+        self.nArgTag = None
+
+        self.numNArg = 0
+        self.numPremise = 0
+        self.numClaim = 0
+
+        self.tag_code = {}
 
     def processTags(self, fileName):
         file = open(fileName, "r", encoding='utf8')

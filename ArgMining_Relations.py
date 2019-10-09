@@ -113,19 +113,17 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
     unencoded_tags = tagSequencer.sequences
 
     print(np.shape(text_sequences), np.shape(tag_sequences[0]), np.shape(unencoded_tags))
+    print(textSequencer.maxlen)
 
-    # print(np.shape(tagSequencer.encoded_sequences))
-    # print(textSequencer.word_index.items())
     # print('Number of Tokens:', tags_to_eval.numNArg + tags_to_eval.numClaim + tags_to_eval.numPremise)
     # print('Number of Claims Tokens:', tags_to_eval.numClaim)
     # print('Number of Premises Tokens:', tags_to_eval.numPremise)
 
-    # trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
-    # trainer.create_CRF_model()
-    # trainer.create_dist_layer(np.shape(tagSequencer.encoded_sequences),np.shape(tags_to_eval.distance_tags_list))
-    #
-    # # startTime = datetime.datetime.now().replace(microsecond=0)
-    #
+    trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
+    trainer.create_model()
+
+    # startTime = datetime.datetime.now().replace(microsecond=0)
+
     # trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags)
 
     # endTime = datetime.datetime.now().replace(microsecond=0)
