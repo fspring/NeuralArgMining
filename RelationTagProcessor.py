@@ -44,28 +44,3 @@ class RelationTagProcessor:
                 self.numPremise += 1
             elif tag_elements[1] == 'claim':
                 self.numClaim += 1
-
-    def normalize_distance_tag(self):
-        for i in range(0, len(self.distance_tags_list)):
-            distance_tags = self.distance_tags_list[i]
-            if '' in distance_tags:
-                distance_tags.remove('')
-            for j in range(0, len(distance_tags)):
-                if distance_tags[j] == '|':
-                    distance_tags[j] = 0
-                else:
-                    value = int(distance_tags[j])
-                    distance_tags[j] = value
-            self.distance_tags_list[i] = distance_tags
-
-    def map_encoding(self, tag_sequences):
-        for i in range(0, len(self.component_tags)):
-            full_tags = self.component_tags[i].split(' ')
-            seq_tags = tag_sequences[i]
-            full_tags.remove('')
-            for j in range(0, len(full_tags)):
-                self.tag_code[full_tags[j]] = seq_tags[j]
-        file = open('tag_mapping.txt', 'w', encoding='utf-8')
-        for key in self.tag_code.keys():
-            file.write(u'' + key + '\t' + str(self.tag_code[key]) + '\n')
-        file.close()

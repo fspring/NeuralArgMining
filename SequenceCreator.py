@@ -60,9 +60,9 @@ class SequenceCreator:
                 distance_tags.append('0')
             for j in range(0, len(distance_tags)):
                 if distance_tags[j] == '|':
-                    distance_tags[j] = 0
+                    distance_tags[j] = [0]
                 else:
-                    value = int(distance_tags[j])
+                    value = [int(distance_tags[j])]
                     distance_tags[j] = value
             self.texts_to_eval.distance_tags_list[i] = distance_tags
 

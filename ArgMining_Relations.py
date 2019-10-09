@@ -122,15 +122,15 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
     trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
     trainer.create_model()
 
-    # startTime = datetime.datetime.now().replace(microsecond=0)
+    startTime = datetime.datetime.now().replace(microsecond=0)
 
-    # trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags)
+    trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags)
 
-    # endTime = datetime.datetime.now().replace(microsecond=0)
-    # timeTaken = endTime - startTime
-    #
-    # print("Time elapsed:")
-    # print(timeTaken)
+    endTime = datetime.datetime.now().replace(microsecond=0)
+    timeTaken = endTime - startTime
+
+    print("Time elapsed:")
+    print(timeTaken)
 
 
 def main():
