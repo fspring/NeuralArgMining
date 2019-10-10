@@ -100,7 +100,7 @@ class NeuralTrainer:
         return dist_tensor
 
     def create_model(self):
-        input = Input(shape=(self.maxlen,)) #(maxlen,)
+        input = Input(shape=(self.maxlen,))
 
         biLSTM_tensor = self.create_biLSTM(input)
         (crf_tensor, crf) = self.create_CRF(biLSTM_tensor)
@@ -114,7 +114,7 @@ class NeuralTrainer:
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
 
         y_train = [y_train_class,y_train_dist]
-        self.model.fit(x_train, y_train, epochs=1, batch_size=8, verbose=1, callbacks=[monitor])
+        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
 
         y_test = [y_test_class,y_test_dist]
         scores = self.model.evaluate(x_test, y_test, batch_size=8, verbose=1)
@@ -185,7 +185,7 @@ class NeuralTrainer:
             scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             cvscores = self.handleScores(cvscores, scores, n_folds)
             foldNumber += 1
-            break
+            
         print('Average results for the ten folds:')
         self.prettyPrintResults(cvscores)
         return cvscores
