@@ -10,11 +10,26 @@ from sklearn.metrics import mean_absolute_error
 
 import keras
 from keras.models import Sequential, Model
-from keras.layers import Input, Layer, Dense, Embedding, LSTM, Bidirectional
+from keras.layers import Input, Layer, Dense, Embedding, LSTM, Bidirectional, Lambda
 from keras.layers.wrappers import TimeDistributed
 from keras.callbacks import EarlyStopping
 
+import tensorflow as tf
+
 from crf import CRF
+class SoftArgMax:
+    def __init__(self):
+        self.layer = None
+
+    def soft_argmax_func(self, x, beta=1e10):
+        x = tf.convert_to_tensor(x)
+        x_range = tf.range(x.shape.as_list()[-1], dtype=x.dtype)
+        output = tf.reduce_sum(tf.nn.softmax(x*beta) * x_range, axis=-1)
+        return output
+
+    def create_soft_argmax_layer(self):
+        self.layer = Lambda(self.soft_argmax_func)
+
 class NeuralTrainer:
     embedding_size = 300
     hidden_size = 100
@@ -86,15 +101,17 @@ class NeuralTrainer:
     def create_CRF(self, biLSTM_tensor):
         crf_tensor = TimeDistributed(Dense(20, activation='relu'))(biLSTM_tensor)
 
-        crf = CRF(self.num_tags, sparse_target=False, learn_mode='join', test_mode='viterbi')
+        crf = CRF(self.num_tags, sparse_target=False, learn_mode='marginal', test_mode='marginal', name='crf_layer')
         crf_tensor = crf(crf_tensor)
 
-        # self.crf_model.compile(optimizer='adam', loss=crf.loss_function, metrics=[crf.accuracy])
+        # soft_argmax = SoftArgMax()
+        # soft_argmax.create_soft_argmax_layer()
+        # crf_tensor = TimeDistributed(soft_argmax.layer, name='softargmax')(crf_tensor)
 
         return (crf_tensor, crf)
 
     def create_dist_layer(self, biLSTM_tensor):
-        dist_tensor = TimeDistributed(Dense(1, activation='relu'))(biLSTM_tensor)
+        dist_tensor = TimeDistributed(Dense(1, activation='relu'), name='distance_layer')(biLSTM_tensor)
         # dist_tensor.compile(optimizer='adam', loss='mean_absolute_error', metrics='accuracy')
 
         return dist_tensor
@@ -107,8 +124,8 @@ class NeuralTrainer:
         dist_tensor = self.create_dist_layer(biLSTM_tensor)
 
         self.model = Model(input=input, output=[crf_tensor,dist_tensor])
-        # print(self.model.summary())
-        self.model.compile(optimizer='adam', loss=[crf.loss_function,'mean_absolute_error'], metrics={'crf_1':[crf.accuracy], 'time_distributed_3':'accuracy'})
+        print(self.model.summary())
+        self.model.compile(optimizer='adam', loss=[crf.loss_function,'mean_absolute_error'], metrics={'crf_layer':[crf.accuracy], 'distance_layer':'mae'})
 
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
@@ -185,7 +202,7 @@ class NeuralTrainer:
             scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             cvscores = self.handleScores(cvscores, scores, n_folds)
             foldNumber += 1
-            
+
         print('Average results for the ten folds:')
         self.prettyPrintResults(cvscores)
         return cvscores
