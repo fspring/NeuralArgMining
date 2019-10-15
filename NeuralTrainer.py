@@ -9,26 +9,33 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_absolute_error
 
 import keras
+from keras import backend as K
 from keras.models import Sequential, Model
-from keras.layers import Input, Layer, Dense, Embedding, LSTM, Bidirectional, Lambda
+from keras.layers import Input, Layer, Dense, Embedding, LSTM, Bidirectional, Lambda, concatenate
 from keras.layers.wrappers import TimeDistributed
 from keras.callbacks import EarlyStopping
 
 import tensorflow as tf
 
-from crf import CRF
+from keras_contrib.layers import CRF
+from keras_contrib.losses import crf_loss
+from keras_contrib.metrics import crf_accuracy
+
 class SoftArgMax:
     def __init__(self):
         self.layer = None
 
     def soft_argmax_func(self, x, beta=1e10):
-        x = tf.convert_to_tensor(x)
-        x_range = tf.range(x.shape.as_list()[-1], dtype=x.dtype)
-        output = tf.reduce_sum(tf.nn.softmax(x*beta) * x_range, axis=-1)
-        return output
+        print(x.shape)
+        x = tf.split(x, [3, 1], -1)
+        print(x[0].shape, x[1].shape)
+        x_range = tf.range(x[0].shape.as_list()[-1], dtype=x[0].dtype)
+        output = tf.reduce_sum(tf.nn.softmax(x[0]*beta) * x_range, axis=-1)
+
+        return K.switch(K.less(output, K.constant(0.5)), K.zeros_like(x[1]), x[1])
 
     def create_soft_argmax_layer(self):
-        self.layer = Lambda(self.soft_argmax_func)
+        self.layer = Lambda(self.soft_argmax_func, output_shape=(1,))
 
 class NeuralTrainer:
     embedding_size = 300
@@ -102,30 +109,33 @@ class NeuralTrainer:
         crf_tensor = TimeDistributed(Dense(20, activation='relu'))(biLSTM_tensor)
 
         crf = CRF(self.num_tags, sparse_target=False, learn_mode='marginal', test_mode='marginal', name='crf_layer')
+
         crf_tensor = crf(crf_tensor)
 
-        # soft_argmax = SoftArgMax()
-        # soft_argmax.create_soft_argmax_layer()
-        # crf_tensor = TimeDistributed(soft_argmax.layer, name='softargmax')(crf_tensor)
+        return crf_tensor
 
-        return (crf_tensor, crf)
-
-    def create_dist_layer(self, biLSTM_tensor):
+    def create_dist_layer(self, biLSTM_tensor, crf_tensor):
         dist_tensor = TimeDistributed(Dense(1, activation='relu'), name='distance_layer')(biLSTM_tensor)
-        # dist_tensor.compile(optimizer='adam', loss='mean_absolute_error', metrics='accuracy')
 
-        return dist_tensor
+        concat = concatenate([crf_tensor, dist_tensor], axis=-1)
+
+        soft_argmax = SoftArgMax()
+        soft_argmax.create_soft_argmax_layer()
+
+        output = TimeDistributed(soft_argmax.layer, name='softargmax')(concat)
+
+        return output
 
     def create_model(self):
         input = Input(shape=(self.maxlen,))
 
         biLSTM_tensor = self.create_biLSTM(input)
-        (crf_tensor, crf) = self.create_CRF(biLSTM_tensor)
-        dist_tensor = self.create_dist_layer(biLSTM_tensor)
+        crf_tensor = self.create_CRF(biLSTM_tensor)
+        dist_tensor = self.create_dist_layer(biLSTM_tensor, crf_tensor)
 
         self.model = Model(input=input, output=[crf_tensor,dist_tensor])
         print(self.model.summary())
-        self.model.compile(optimizer='adam', loss=[crf.loss_function,'mean_absolute_error'], metrics={'crf_layer':[crf.accuracy], 'distance_layer':'mae'})
+        self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
@@ -154,7 +164,6 @@ class NeuralTrainer:
     def crossValidate(self, X, Y, additionalX, additionalY, unencodedY):
         seed = 42
         n_folds = 10
-        # n_folds = 2
         foldNumber  = 1
 
         kfold = KFold(n_splits=n_folds, shuffle=True, random_state=seed)
@@ -341,6 +350,7 @@ class NeuralTrainer:
     def write_evaluated_tests_to_file(self, x_test, y_pred_class, y_pred_dist, testSet, text_dir, dumpPath):
         invword_index = {v: k for k, v in self.word_index.items()}
         texts = []
+        print(y_pred_class)
 
         for i in range(0,len(x_test)):
             text = []
