@@ -11,7 +11,7 @@ from sklearn.metrics import mean_absolute_error
 import keras
 from keras import backend as K
 from keras.models import Sequential, Model
-from keras.layers import Input, Layer, Dense, Embedding, LSTM, Bidirectional, Lambda, concatenate
+from keras.layers import Input, Layer, Dense, Activation, Embedding, LSTM, Bidirectional, Lambda, concatenate
 from keras.layers.wrappers import TimeDistributed
 from keras.callbacks import EarlyStopping
 
@@ -26,16 +26,18 @@ class SoftArgMax:
         self.layer = None
 
     def soft_argmax_func(self, x, beta=1e10):
-        print(x.shape)
         x = tf.split(x, [3, 1], -1)
-        print(x[0].shape, x[1].shape)
         x_range = tf.range(x[0].shape.as_list()[-1], dtype=x[0].dtype)
         output = tf.reduce_sum(tf.nn.softmax(x[0]*beta) * x_range, axis=-1)
 
-        return K.switch(K.less(output, K.constant(0.5)), K.zeros_like(x[1]), x[1])
+        lower = K.constant(0.5)
+        upper = K.constant(1.5)
+        zero = K.zeros_like(x[1])
+
+        return K.switch(K.all(K.stack([K.greater_equal(output, lower), K.less(output, upper)], axis=0), axis=0), zero, x[1])
 
     def create_soft_argmax_layer(self):
-        self.layer = Lambda(self.soft_argmax_func, output_shape=(1,))
+        self.layer = Lambda(self.soft_argmax_func, output_shape=(1,), name='lambda_softargmax')
 
 class NeuralTrainer:
     embedding_size = 300
@@ -117,10 +119,10 @@ class NeuralTrainer:
     def create_dist_layer(self, biLSTM_tensor, crf_tensor):
         dist_tensor = TimeDistributed(Dense(1, activation='relu'), name='distance_layer')(biLSTM_tensor)
 
-        concat = concatenate([crf_tensor, dist_tensor], axis=-1)
-
         soft_argmax = SoftArgMax()
         soft_argmax.create_soft_argmax_layer()
+
+        concat = concatenate([crf_tensor, dist_tensor], axis=-1)
 
         output = TimeDistributed(soft_argmax.layer, name='softargmax')(concat)
 
@@ -350,7 +352,6 @@ class NeuralTrainer:
     def write_evaluated_tests_to_file(self, x_test, y_pred_class, y_pred_dist, testSet, text_dir, dumpPath):
         invword_index = {v: k for k, v in self.word_index.items()}
         texts = []
-        print(y_pred_class)
 
         for i in range(0,len(x_test)):
             text = []
