@@ -120,8 +120,8 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
     # print('Number of Premises Tokens:', tags_to_eval.numPremise)
 
     trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
-    trainer.create_model()
-    # trainer.create_baseline_model()
+    # trainer.create_model()
+    trainer.create_baseline_model()
 
     startTime = datetime.datetime.now().replace(microsecond=0)
 

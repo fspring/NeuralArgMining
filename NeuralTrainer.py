@@ -168,7 +168,7 @@ class NeuralTrainer:
 
         self.model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
 
-    def predict_baseline_distances(self, pred_tags):
+    def predict_baseline_distances_claim(self, pred_tags):
         pred_dists = []
         for i in range(0, len(pred_tags)):
             file_dists = []
@@ -186,6 +186,30 @@ class NeuralTrainer:
             pred_dists.append(file_dists)
         return pred_dists
 
+    def predict_baseline_distances_next(self, pred_tags):
+        pred_dists = []
+        for i in range(0, len(pred_tags)):
+            file_dists = []
+            text_size = len(pred_tags[i])
+            for j in range(0, text_size):
+                arg_class = np.argmax(pred_tags[i][j])
+                dist = 0
+                if arg_class == 0:
+                    k = j+1
+                    while k < text_size and np.argmax(pred_tags[i][k]) == 0:
+                        dist += 1
+                        k += 1
+                    for n in range(k, text_size):
+                        arg_rel = np.argmax(pred_tags[i][n])
+                        if arg_rel == 1:
+                            dist += 1
+                        elif arg_rel == 2 or arg_rel == 0:
+                            dist += 1
+                            break
+                file_dists.append([dist])
+            pred_dists.append(file_dists)
+        return pred_dists
+
     def train_baseline_model(self, x_train, y_train, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
 
@@ -197,7 +221,7 @@ class NeuralTrainer:
         # scores: loss, crf_acc
         print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
 
-        b_pred_dist = self.predict_baseline_distances(y_pred_class)
+        b_pred_dist = self.predict_baseline_distances_next(y_pred_class)
 
         self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
         spanEvalAt1 = self.spanEval(y_pred_class, b_pred_dist, unencodedY, 1.0)
@@ -292,8 +316,8 @@ class NeuralTrainer:
             Y_test_dist = np.array(Y_test_dist)
             unencoded_Y = np.array(unencoded_Y)
 
-            scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
-            # scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            # scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             cvscores = self.handleScores(cvscores, scores[0], n_folds)
             csv_entries = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries)
             foldNumber += 1
@@ -412,14 +436,13 @@ class NeuralTrainer:
                 true_dest_end = true_dest_start + 1
                 if pred == true:
                     tp[tag] += 1
-                    continue
-                elif j + pred >= text_size or true_dest_end >= text_size:
+                elif (pred_dest >= text_size) or (true_dest_end >= text_size):
                     continue
                 else:
                     dest_tag = np.argmax(y_test_class[i][true_dest_start])
-                    while true_dest_end < text_size and dest_tag == np.argmax(y_test_class[i][true_dest_end]):
+                    while (true_dest_end < text_size) and (dest_tag == np.argmax(y_test_class[i][true_dest_end])):
                         true_dest_end += 1
-                    if pred_dest >= true_dest_start and pred_dest < true_dest_end:
+                    if (pred_dest > true_dest_start) and (pred_dest < true_dest_end):
                         tp[tag] += 1
 
         for i in range(0, self.num_tags):
