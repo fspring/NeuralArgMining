@@ -121,6 +121,7 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
 
     trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
     trainer.create_model()
+    # trainer.create_baseline_model()
 
     startTime = datetime.datetime.now().replace(microsecond=0)
 
@@ -149,6 +150,7 @@ def main():
         newDirectory = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(6))
         dumpPath = r'Dumps/' + newDirectory
     os.makedirs(dumpPath)
+    os.makedirs(dumpPath + '_baseline')
 
     os.environ['PYTHONHASHSEED'] = '0'
     np.random.seed(42)

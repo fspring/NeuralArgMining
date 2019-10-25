@@ -1,5 +1,6 @@
 import numpy as np
 import os
+import pathlib
 import copy
 
 from sklearn.model_selection import KFold
@@ -14,6 +15,8 @@ from keras.models import Sequential, Model
 from keras.layers import Input, Layer, Dense, Activation, Embedding, LSTM, Bidirectional, Lambda, concatenate
 from keras.layers.wrappers import TimeDistributed
 from keras.callbacks import EarlyStopping
+
+from keras.losses import mean_absolute_error
 
 import tensorflow as tf
 
@@ -38,6 +41,18 @@ class SoftArgMax:
 
     def create_soft_argmax_layer(self):
         self.layer = Lambda(self.soft_argmax_func, output_shape=(1,), name='lambda_softargmax')
+
+    def loss_func(self, y_true, y_pred):
+        if not K.is_tensor(y_pred):
+            y_pred = K.constant(y_pred)
+        y_true = K.cast(y_true, y_pred.dtype)
+        mae = K.mean(K.abs(y_pred - y_true), axis=-1)
+
+        y_pred = K.squeeze(y_pred, axis=-1)
+        zero = K.constant(0)
+
+        return K.switch(K.equal(y_pred, zero), K.zeros_like(mae), mae)
+
 
 class NeuralTrainer:
     embedding_size = 300
@@ -107,10 +122,10 @@ class NeuralTrainer:
 
         return biLSTM_tensor
 
-    def create_CRF(self, biLSTM_tensor):
+    def create_CRF(self, biLSTM_tensor, learn, test):
         crf_tensor = TimeDistributed(Dense(20, activation='relu'))(biLSTM_tensor)
 
-        crf = CRF(self.num_tags, sparse_target=False, learn_mode='marginal', test_mode='marginal', name='crf_layer')
+        crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, name='crf_layer')
 
         crf_tensor = crf(crf_tensor)
 
@@ -126,18 +141,74 @@ class NeuralTrainer:
 
         output = TimeDistributed(soft_argmax.layer, name='softargmax')(concat)
 
-        return output
+        return (output, soft_argmax)
 
     def create_model(self):
         input = Input(shape=(self.maxlen,))
 
         biLSTM_tensor = self.create_biLSTM(input)
-        crf_tensor = self.create_CRF(biLSTM_tensor)
-        dist_tensor = self.create_dist_layer(biLSTM_tensor, crf_tensor)
+        crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
+
+        (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, crf_tensor)
 
         self.model = Model(input=input, output=[crf_tensor,dist_tensor])
-        print(self.model.summary())
+        # print(self.model.summary())
+
+        # self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
         self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+
+    def create_baseline_model(self):
+        input = Input(shape=(self.maxlen,))
+
+        biLSTM_tensor = self.create_biLSTM(input)
+        crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
+
+        self.model = Model(input=input, output=crf_tensor)
+        # print(self.model.summary())
+
+        self.model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
+
+    def predict_baseline_distances(self, pred_tags):
+        pred_dists = []
+        for i in range(0, len(pred_tags)):
+            file_dists = []
+            text_size = len(pred_tags[i])
+            for j in range(0, text_size):
+                arg_class = np.argmax(pred_tags[i][j])
+                dist = 0
+                if arg_class == 0:
+                    for k in range(j+1, text_size):
+                        arg_rel = np.argmax(pred_tags[i][k])
+                        dist += 1
+                        if arg_rel == 2:
+                            break
+                file_dists.append([dist])
+            pred_dists.append(file_dists)
+        return pred_dists
+
+    def train_baseline_model(self, x_train, y_train, x_test, y_test_class, y_test_dist, unencodedY, testSet):
+        monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
+
+        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
+
+        scores = self.model.evaluate(x_test, y_test_class, batch_size=8, verbose=1)
+        y_pred_class = self.model.predict(x_test)
+
+        # scores: loss, crf_acc
+        print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
+
+        b_pred_dist = self.predict_baseline_distances(y_pred_class)
+
+        self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
+        spanEvalAt1 = self.spanEval(y_pred_class, b_pred_dist, unencodedY, 1.0)
+        spanEvalAt075 = self.spanEval(y_pred_class, b_pred_dist, unencodedY, 0.75)
+        spanEvalAt050 = self.spanEval(y_pred_class, b_pred_dist, unencodedY, 0.50)
+        tagEval = self.tagEval(y_pred_class, unencodedY)
+
+        print('------- Distances Baseline -------')
+        dist_eval = self.edge_eval(b_pred_dist, y_test_dist, y_test_class, unencodedY)
+
+        return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
 
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
@@ -159,9 +230,11 @@ class NeuralTrainer:
         spanEvalAt075 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 0.75)
         spanEvalAt050 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 0.50)
         tagEval = self.tagEval(y_pred_class, unencodedY)
-        # distEval = self.distEval(y_pred_dist,y_test_dist,unencodedY)
 
-        return [scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050]
+        print('------- Distances from model -------')
+        dist_eval = self.edge_eval(y_pred_dist, y_test_dist, y_test_class, unencodedY)
+
+        return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
 
     def crossValidate(self, X, Y, additionalX, additionalY, unencodedY):
         seed = 42
@@ -170,12 +243,21 @@ class NeuralTrainer:
 
         kfold = KFold(n_splits=n_folds, shuffle=True, random_state=seed)
 
+        csv_header = 'Fold'
+        for i in range(0, self.num_tags):
+            tag = self.classes[i].split(',')
+            arg_type = tag[-1][:-1]
+            csv_header += ',' + arg_type + ',Total ' + arg_type
+        csv_header += '\n'
+        csv_entries = ''
+
         #[acc, [precision[class], recall[class], f1[class]],[100_correct],[75_correct],[50_correct]]
         #percent_correct: [acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]
         empty_avg = list(map(float,np.zeros(self.num_tags)))
         # nr_measures = 1 + 3*(self.num_tags-1)
         empty_corr = list(map(float,np.zeros(self.num_measures)))
-        cvscores = [0, [copy.deepcopy(empty_avg), copy.deepcopy(empty_avg), copy.deepcopy(empty_avg)], copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr)]
+        cvscores = [0, [copy.deepcopy(empty_avg), copy.deepcopy(empty_avg), copy.deepcopy(empty_avg)],
+                        copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr)]
 
         Y_class = Y[0] # Component identification
         Y_dist = Y[1] # Distances between related components
@@ -196,7 +278,7 @@ class NeuralTrainer:
             for testIndex in test:
                 X_test.append(X[testIndex])
                 Y_test_class.append(Y_class[testIndex])
-                Y_test_dist.append(Y_dist[trainIndex])
+                Y_test_dist.append(Y_dist[testIndex])
                 unencoded_Y.append(unencodedY[testIndex])
 
             X_train = X_train + additionalX
@@ -211,11 +293,18 @@ class NeuralTrainer:
             unencoded_Y = np.array(unencoded_Y)
 
             scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
-            cvscores = self.handleScores(cvscores, scores, n_folds)
+            # scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            cvscores = self.handleScores(cvscores, scores[0], n_folds)
+            csv_entries = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries)
             foldNumber += 1
 
         print('Average results for the ten folds:')
         self.prettyPrintResults(cvscores)
+        ## write distance prediction stats to csv
+        f = open('model_edge_predictions_ftpt.csv', 'w')
+        f.write(csv_header + csv_entries)
+        f.close()
+
         return cvscores
 
     def handleScores(self, oldScores, newScores, nFolds):
@@ -289,15 +378,62 @@ class NeuralTrainer:
 
         return float_res
 
-    def distEval(self, y_pred_dist, y_test_dist, unencodedY):
-        i = 0
-        loss = []
-        for result in y_pred_dist:
-            sequenceLength = len(np.trim_zeros(unencodedY[i]))
-            loss.append(mean_absolute_error(y_test_dist[i][:sequenceLength], result[:sequenceLength]))
-            i += 1
+    def distEval(self, y_pred_dist, y_test_dist, y_test_class, unencodedY):
+        nr_files = len(y_test_dist)
+        tp = [0]*self.num_tags
+        n = [0]*self.num_tags
+        for i in range(0, nr_files):
+            text_size = len(np.trim_zeros(unencodedY[i]))
+            for j in range(0, text_size):
+                pred = round(y_pred_dist[i][j][0])
+                tag = np.argmax(y_test_class[i][j])
+                n[tag] += 1
+                if int(pred) == int(y_test_dist[i][j][0]):
+                    tp[tag] += 1
+        for i in range(0, self.num_tags):
+            print('======', self.classes[i], '======')
+            print('Correct distances:', tp[i], '------- Ratio', tp[i]/n[i], '\n')
+        return (tp, n)
 
-        print("Loss = %.3f% (+/- %.3f%)" % (np.mean(loss), np.std(loss)))
+    def edge_eval(self, y_pred_dist, y_test_dist, y_test_class, unencodedY):
+        nr_files = len(y_test_dist)
+        tp = [0]*self.num_tags
+        n = [0]*self.num_tags
+        for i in range(0, nr_files):
+            text_size = len(np.trim_zeros(unencodedY[i]))
+            for j in range(0, text_size):
+                pred = int(round(y_pred_dist[i][j][0]))
+                true = int(y_test_dist[i][j][0])
+                tag = np.argmax(y_test_class[i][j])
+                n[tag] += 1
+
+                pred_dest = j + pred
+                true_dest_start = j + true
+                true_dest_end = true_dest_start + 1
+                if pred == true:
+                    tp[tag] += 1
+                    continue
+                elif j + pred >= text_size or true_dest_end >= text_size:
+                    continue
+                else:
+                    dest_tag = np.argmax(y_test_class[i][true_dest_start])
+                    while true_dest_end < text_size and dest_tag == np.argmax(y_test_class[i][true_dest_end]):
+                        true_dest_end += 1
+                    if pred_dest >= true_dest_start and pred_dest < true_dest_end:
+                        tp[tag] += 1
+
+        for i in range(0, self.num_tags):
+            print('======', self.classes[i], '======')
+            print('Correct distances:', tp[i], '------- Ratio', tp[i]/n[i], '\n')
+        return (tp, n)
+
+    def distance_stats_to_csv(self, predictions, fold, entries):
+        entries += str(fold)
+        for i in range(0, self.num_tags):
+            entries += ',' + str(predictions[0][i]) + ',' + str(predictions[1][i])
+        entries += '\n'
+
+        return entries
 
     def prettyPrintResults(self, scores):
 
@@ -373,7 +509,7 @@ class NeuralTrainer:
         for i in range(0, len(texts)):
             textFile = open(filenames[i], "w", encoding='utf-8')
             for token in texts[i]:
-                textFile.write(u'' + token[0] + ' ' + self.classes[token[1]] + ' ' + str(token[2]) + '\n')
+                textFile.write(u'' + token[0] + ' ' + self.classes[token[1]] + ' ' + '{:8.3f}'.format(token[2][0]) + '\n')
 
     def spanCreator(self, unencodedY):
         spans = []
