@@ -105,7 +105,7 @@ class ReadComponents:
         if ((componentType == 'MajorClaim') or (componentType == 'Claim')):
             tag = '(I,claim,0)'
         else:
-            tag = '(I,premise,1)'
+            tag = '(I,premise,0)'
 
         taggedWords = []
         for word in sentence.split(" "):
@@ -250,23 +250,17 @@ class DistanceCalculator:
 
     #for each premise, finds the next arg component that is linked, and replaces distance in tag
     #only looks ahead --> distance always greater than or equal to 0
-    def all_positive_calculate_distance(self):
+    def all_positive_distance_simple(self):
         text_size = len(self.words)
-        # print(text_size)
         for i in range(0, text_size):
-            # print('id', self.words[i].component_id)
             if self.words[i].component_id == '':
                 continue
             id = self.words[i].component_id
             tag = self.words[i].tag
-            # print('tag', tag)
             tag_parts = tag.split(',')
-            # print(tag_parts)
             if tag_parts[1] != 'premise':
-                # print('not premise')
                 continue
             if id not in self.closure_relations.keys():
-                # print('dead end premise')
                 continue
             linked_ids = self.closure_relations[id]
             dist = 0
@@ -277,14 +271,61 @@ class DistanceCalculator:
             if dist >= text_size: #this has never happened yet
                 print('overflow')
                 dist = 0
-            # print(tag, dist)
             tag = tag_parts[0] + ',' + tag_parts[1] + ',' + str(dist) + ')'
+            self.words[i].tag = tag
+
+    #for each premise and claim, finds the next arg component that is linked, and replaces distance in tag
+    #only looks ahead --> distance always greater than or equal to 0
+    def all_positive_distance_claims(self):
+        text_size = len(self.words)
+        for i in range(0, text_size):
+            if self.words[i].component_id == '':
+                continue
+            id = self.words[i].component_id
+            src_tag = self.words[i].tag
+            # print('src_tag', src_tag)
+            src_tag_parts = src_tag.split(',')
+            # print(src_tag_parts)
+            if src_tag_parts[1] == '|':
+                continue
+            if id not in self.closure_relations.keys():
+                continue
+            linked_ids = self.closure_relations[id]
+            dist = 0
+            is_linked = False
+            for j in range(i+1, len(self.words)):
+                dist += 1
+                if self.words[j].component_id in linked_ids:
+                    tgt_tag = self.words[j].tag
+                    tgt_arg = tgt_tag.split(',')[1]
+                    # print('tgt_tag', tgt_tag)
+                    if src_tag_parts[1] == 'premise' and tgt_arg == 'claim':
+                        is_linked = True
+                        # print('yes premise-claim')
+                        break
+                    elif src_tag_parts[1] == 'claim' and tgt_arg == 'premise':
+                        is_linked = True
+                        # print('yes claim-premise')
+                        break
+            if not is_linked:
+                continue
+            elif dist >= text_size: #this has never happened yet
+                print('overflow')
+                dist = 0
+            # print(tag, dist)
+            tag = src_tag_parts[0] + ',' + src_tag_parts[1] + ',' + str(dist) + ')'
             # print('new',tag)
             self.words[i].tag = tag
 
 class OutputWriter:
     def __init__(self, processed_text, file):
         self.processed_text = processed_text
+        if not os.path.exists('OutputPunctuation/texts/'):
+            os.makedirs('OutputPunctuation/texts/')
+        if not os.path.exists('OutputPunctuation/tags/'):
+            os.makedirs('OutputPunctuation/tags/')
+        if not os.path.exists('OutputPunctuation/both/'):
+            os.makedirs('OutputPunctuation/both/')
         self.textFile = open("OutputPunctuation/texts/" + file + '.txt', "w", encoding='utf-8')
         self.tagFile = open("OutputPunctuation/tags/" + file + '.txt', "w", encoding='utf-8')
         self.bothFile = open("OutputPunctuation/both/" + file + '.txt', "w", encoding='utf-8')
@@ -308,7 +349,7 @@ class Pipeline:
         for file in fileList:
             filename = re.sub('.ann', '', file)
 
-            # print(filename)
+            print(filename)
 
             components = ReadComponents(filename + '.ann')
             components.read_components()
@@ -321,7 +362,7 @@ class Pipeline:
 
             #calculate distance between related components and update tags
             distance_calculator = DistanceCalculator(component_replacer.processed_text, components.closure_relations)
-            distance_calculator.all_positive_calculate_distance()
+            distance_calculator.all_positive_distance_claims()
 
             output = OutputWriter(component_replacer.processed_text, filename)
             output.write_to_text_file()

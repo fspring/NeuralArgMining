@@ -9,9 +9,9 @@ import copy
 
 
 class Word:
-    id = ""
-    content = ""
-    tag = ""
+    id = ''
+    content = ''
+    tag = ''
 
     # The class "constructor" - It's actually an initializer
     def __init__(self, content, tag):
@@ -94,14 +94,14 @@ class Translator:
         self.contents[jsonfile] = htmlFile
 
     def createAssociation(self, nodeSet):
-        fileName = "corpusInput/json/" + nodeSet
-        file = open(fileName, "r")
+        fileName = 'corpusInput/json/' + nodeSet
+        file = open(fileName, 'r')
         contents = file.read()
         elements = json.loads(contents)
 
         for node in elements['nodes']:
             if 'http' in node['text']:
-                link = re.search("(?P<url>https?://[^\s]+)", node['text']).group("url")
+                link = re.search('(?P<url>https?://[^\s]+)', node['text']).group('url')
                 link = re.sub('http://web.fe.up.pt/~ei11124/argmine_news/', '', link)
                 link = link[:-1]
                 self.addPair(link,nodeSet)
@@ -109,18 +109,18 @@ class Translator:
 
 
     def createAssociations(self):
-        fileList = os.listdir("corpusInput/json")
+        fileList = os.listdir('corpusInput/json')
         for file in fileList:
             self.createAssociation(file)
 
 class TextDumper:
-    _nArgTag = "(O,|,|)"
+    _nArgTag = '(O,|,|)'
 
     words = [] #list of Word objects
-    file = ""
+    file = ''
 
     def __init__(self, htmlFile):
-        self.file = "corpusInput/html/" + htmlFile + '.html'
+        self.file = 'corpusInput/html/' + htmlFile + '.html'
         self.words = []
 
     def getText(self):
@@ -197,10 +197,10 @@ class claimsAndPremises:
     premises_id = []
     claims_id = []
     close_connections = {}
-    file = ""
+    file = ''
 
     def __init__(self, jsonFile):
-        self.file = "corpusInput/json/" + jsonFile + '.json'
+        self.file = 'corpusInput/json/' + jsonFile + '.json'
         self.claims = []
         self.premises = []
         self.premisesToClaims = {}
@@ -290,7 +290,7 @@ class claimsAndPremises:
         return taggedSentence
 
     def getPremisesAndClaims(self):
-        file = open(self.file, "r")
+        file = open(self.file, 'r')
         contents = file.read()
         elements = self.removeHttp(json.loads(contents))
         connections = self.remove_default_edges(elements['edges'], elements['nodes'])
@@ -311,7 +311,7 @@ class claimsAndPremises:
                 # print('premise', id)
                 premise = self.getNodeText(nodes, id)
                 premiseWords = premise.split()
-                taggedPremise = Premise(self.tagClaimOrPremise(premiseWords, 'premise', '1'), id)
+                taggedPremise = Premise(self.tagClaimOrPremise(premiseWords, 'premise', '0'), id)
                 self.premises.append(taggedPremise)
 
             self.premisesToClaims[premise] = claim
@@ -319,7 +319,6 @@ class claimsAndPremises:
     def orderArgComponents(self,connections):
         values = connections.values()
         keys = connections.keys()
-        # print(values, keys)
         for value in values:
             if (value not in keys) and (value not in self.claims_id):
                 self.claims_id.append(value)
@@ -329,7 +328,6 @@ class claimsAndPremises:
         self.premises_id.sort()
         self.claims_id.sort()
 
-        # print(self.claims_id, self.premises_id)
         i = j = 0
         while i < len(self.claims_id) or j < len(self.premises_id):
             # print(i,',', j)
@@ -346,10 +344,6 @@ class claimsAndPremises:
                 self.ordered_args.append(self.premises_id[j])
                 j += 1
 
-            # print(self.ordered_args)
-            # print(i,',', j)
-        # print(self.ordered_args)
-
     #adds the closure of each node to the existing connections
     def closeConnections(self, connections):
         close = {}
@@ -358,19 +352,14 @@ class claimsAndPremises:
         for node in keys:
             linked = connections[node]
             close[node] = [linked]
-            # print('node', node)
-            # print('linked:', linked)
             if linked not in close.keys():
                 close[linked] = [node]
             elif node not in close[linked]:
                 close[linked].append(node)
             while linked in keys:
                 linked = connections[linked]
-                # print('linked:', linked)
                 if linked not in close[node]:
                     close[node].append(linked)
-                    # print('close', node,':', close[node])
-        # print('close:',close)
         self.close_connections = close
 
 class Tag_Replacer:
@@ -443,7 +432,7 @@ class Tag_Replacer:
 
 
 class DistanceCalculator:
-    close_connections = {} #dictionary {id: [id1, id2]}, where the ids are all strings
+    close_connections = {} #dictionary {id: [id1, id2, ...]}, where the ids are all strings
     components_words = [] #list of Word objects
 
     def __init__(self, components_words, close_connections):
@@ -452,23 +441,17 @@ class DistanceCalculator:
 
     #for each premise, finds the next arg component that is linked, and replaces distance in tag
     #only looks ahead --> distance always greater than or equal to 0
-    def all_positive_calculate_distance(self):
+    def all_positive_distance_simple(self):
         text_size = len(self.components_words)
-        # print(text_size)
         for i in range(0, text_size):
-            # print('id', self.components_words[i].id)
             if self.components_words[i].id == '':
                 continue
             id = self.components_words[i].id
             tag = self.components_words[i].tag
-            # print('tag', tag)
             tag_parts = tag.split(',')
-            # print(tag_parts)
             if tag_parts[1] != 'premise':
-                # print('yes1')
                 continue
             if id not in self.close_connections.keys():
-                # print('yes2')
                 continue
             linked_ids = self.close_connections[id]
             dist = 0
@@ -479,23 +462,70 @@ class DistanceCalculator:
             if dist >= text_size: #this has never happened yet
                 print('overflow')
                 dist = 0
-            # print(tag, dist)
             tag = tag_parts[0] + ',' + tag_parts[1] + ',' + str(dist) + ')'
+            self.components_words[i].tag = tag
+
+    #for each premise and claim, finds the next arg component that is linked, and replaces distance in tag
+    #only looks ahead --> distance always greater than or equal to 0
+    def all_positive_distance_claims(self):
+        text_size = len(self.components_words)
+        # print(text_size)
+        for i in range(0, text_size):
+            # print('id', self.components_words[i].id)
+            if self.components_words[i].id == '':
+                continue
+            id = self.components_words[i].id
+            src_tag = self.components_words[i].tag
+            # print('src_tag', src_tag)
+            src_tag_parts = src_tag.split(',')
+            # print(src_tag_parts)
+            if src_tag_parts[1] == '|':
+                continue
+            if id not in self.close_connections.keys():
+                continue
+            linked_ids = self.close_connections[id]
+            dist = 0
+            is_linked = False
+            for j in range(i+1, len(self.components_words)):
+                dist += 1
+                if self.components_words[j].id in linked_ids:
+                    tgt_tag = self.components_words[j].tag
+                    tgt_arg = tgt_tag.split(',')[1]
+                    # print('tgt_tag', tgt_tag)
+                    if src_tag_parts[1] == 'premise' and tgt_arg == 'claim':
+                        is_linked = True
+                        # print('yes premise-claim')
+                        break
+                    elif src_tag_parts[1] == 'claim' and tgt_arg == 'premise':
+                        is_linked = True
+                        # print('yes claim-premise')
+                        break
+            if not is_linked:
+                continue
+            elif dist >= text_size: #this has never happened yet
+                print('overflow')
+                dist = 0
+            # print(tag, dist)
+            tag = src_tag_parts[0] + ',' + src_tag_parts[1] + ',' + str(dist) + ')'
             # print('new',tag)
             self.components_words[i].tag = tag
 
 class OutputWriter:
     arg_components = [] #list of Word objects in order of original text
-    textFile = ""
-    tagFile = ""
-    file = ""
+    textFile = ''
+    tagFile = ''
+    file = ''
     distance_calculator = None
 
     def __init__(self, arg_components, file):
         self.arg_components = arg_components
-        self.file = open("rel/" + file + '.txt', "w", encoding='utf-8')
-        self.textFile = open("rel/texts/" + file + '.txt', "w", encoding='utf-8')
-        self.tagFile = open("rel/tags/" + file + '.txt', "w", encoding='utf-8')
+        if not os.path.exists('rel/texts/'):
+            os.makedirs('rel/texts/')
+        if not os.path.exists('rel/tags/'):
+            os.makedirs('rel/tags/')
+        self.file = open('rel/' + file + '.txt', 'w', encoding='utf-8')
+        self.textFile = open('rel/texts/' + file + '.txt', 'w', encoding='utf-8')
+        self.tagFile = open('rel/tags/' + file + '.txt', 'w', encoding='utf-8')
 
     def writeToTextFile(self):
         for word in self.arg_components:
@@ -543,7 +573,7 @@ class Pipeline:
 
             #calculate distance between related components and update tags
             distance_calculator = DistanceCalculator(replacer.processedText, arg_components.close_connections)
-            distance_calculator.all_positive_calculate_distance()
+            distance_calculator.all_positive_distance_claims()
 
             #write to 3 kinds of output files: id + text + tags, id + text, id + tags
             output = OutputWriter(distance_calculator.components_words, jsonFile)
@@ -552,7 +582,7 @@ class Pipeline:
         endTime = datetime.datetime.now().replace(microsecond=0)
         timeTaken = endTime - startTime
 
-        print("Isto demorou ")
+        print('Isto demorou ')
         print(timeTaken)
 
 
