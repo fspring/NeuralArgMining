@@ -1,0 +1,17 @@
+digraph G {
+	95 -> 253;
+	127 -> 253;
+	134 -> 253;
+	156 -> 253;
+	217 -> 253;
+	95 [label="they all think that the very nature and wildness are all brought into zoos and spending time there help us to forget all stress as well as pressure",color=blue];
+	253 [label="zoos have become even more important in serving as places for people to study and enjoy the nature while a lot of natural destruction is made to build towers and skyscrapers",color=green];
+	127 [label="all zoos serve relates to education",color=blue];
+	253 [label="zoos have become even more important in serving as places for people to study and enjoy the nature while a lot of natural destruction is made to build towers and skyscrapers",color=green];
+	134 [label="many students as well as people find zoos as good places for witnessing and researching the true animal world",color=blue];
+	253 [label="zoos have become even more important in serving as places for people to study and enjoy the nature while a lot of natural destruction is made to build towers and skyscrapers",color=green];
+	156 [label="some zoos are also reservation sites of many animals that are about to become extinct",color=blue];
+	253 [label="zoos have become even more important in serving as places for people to study and enjoy the nature while a lot of natural destruction is made to build towers and skyscrapers",color=green];
+	217 [label="zoos are some kind of prisons and it's so cruel and wrong to keep animal in such prisons",color=blue];
+	253 [label="zoos have become even more important in serving as places for people to study and enjoy the nature while a lot of natural destruction is made to build towers and skyscrapers",color=green];
+}

@@ -1,0 +1,38 @@
+digraph G {
+	89 -> 64;
+	89 -> 385;
+	103 -> 385;
+	130 -> 385;
+	154 -> 385;
+	193 -> 299;
+	229 -> 299;
+	256 -> 299;
+	274 -> 299;
+	346 -> 334;
+	346 -> 385;
+	363 -> 385;
+	64 [label="We live in an era that technology is developing in the speed of light , steering the world toward a much more convenient place",color=green];
+	89 [label="A clear-cut example that supports this idea is the invention of smart phones",color=blue];
+	89 [label="A clear-cut example that supports this idea is the invention of smart phones",color=blue];
+	385 [label="in the current world living standards stand in a much higher level and people are in better conditions socially and physically",color=green];
+	103 [label="The strong navigation system installed on the phones has been rescued lives of many who left alone in remote areas like forests or deserts",color=blue];
+	385 [label="in the current world living standards stand in a much higher level and people are in better conditions socially and physically",color=green];
+	130 [label="some people criticize social networks as tools that have ruined true relationships and friendships by reducing face-to-face communication",color=blue];
+	385 [label="in the current world living standards stand in a much higher level and people are in better conditions socially and physically",color=green];
+	154 [label="social networks such as Facebook could foster the ties between friends and family members who are obligatorily far away from each other by keeping them in touch , the thing that was impossible less than 20 years ago",color=blue];
+	385 [label="in the current world living standards stand in a much higher level and people are in better conditions socially and physically",color=green];
+	193 [label="The phenomenal progress in medical science in the last decade was a huge achievement for human being to make the world a healthier and , thus , a happier place to live in",color=blue];
+	299 [label="the increase in the average age of human from 50 to around 75 years through last decades is a strong evidence to show how successful human was in medicine",color=green];
+	229 [label="even some disabled people with serious vertebral injuries can start doing physical activities like walking again thanks to the continuingly efforts of biomechanical engineers and neurologists",color=blue];
+	299 [label="the increase in the average age of human from 50 to around 75 years through last decades is a strong evidence to show how successful human was in medicine",color=green];
+	256 [label="The advancement in drug delivery systems is another example that could save lives",color=blue];
+	299 [label="the increase in the average age of human from 50 to around 75 years through last decades is a strong evidence to show how successful human was in medicine",color=green];
+	274 [label="scientists could invent ways to lead drugs directly to the damaged organs of the body , which is a miraculous breakthrough",color=blue];
+	299 [label="the increase in the average age of human from 50 to around 75 years through last decades is a strong evidence to show how successful human was in medicine",color=green];
+	334 [label="the people from older generation may claim they had better life",color=green];
+	346 [label="there were stronger bonds between family members and friends",color=blue];
+	346 [label="there were stronger bonds between family members and friends",color=blue];
+	385 [label="in the current world living standards stand in a much higher level and people are in better conditions socially and physically",color=green];
+	363 [label="they judge the contemporary age through a personal prejudice",color=blue];
+	385 [label="in the current world living standards stand in a much higher level and people are in better conditions socially and physically",color=green];
+}

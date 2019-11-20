@@ -1,0 +1,29 @@
+digraph G {
+	90 -> 10;
+	90 -> 48;
+	90 -> 243;
+	104 -> 156;
+	124 -> 156;
+	136 -> 156;
+	175 -> 156;
+	175 -> 243;
+	203 -> 243;
+	10 [label="it is time for the government to take action to control the proliferation of violent scenes in media",color=green];
+	90 [label="they regard the violence as reasonable and justifiable",color=blue];
+	48 [label="This will definitely set a bad example for the immature audiences who , lacking correct parental guidance and abilities to differentiate the right from wrong , are prone to go astray by imitating the violent behaviors and committing real violent crimes",color=green];
+	90 [label="they regard the violence as reasonable and justifiable",color=blue];
+	90 [label="they regard the violence as reasonable and justifiable",color=blue];
+	243 [label="What the government should do immediately is to strengthen censorship to control the amount of violence in media",color=green];
+	104 [label="media , such as TV or film , is considered as the correct information source regulated by the government",color=blue];
+	156 [label="excessive violence would offer misleading information to the public and exert detrimental influence to the society as well",color=green];
+	124 [label="It should be reporting and reflecting true phenomenon in the society",color=blue];
+	156 [label="excessive violence would offer misleading information to the public and exert detrimental influence to the society as well",color=green];
+	136 [label="Violence , as one of the facts in the real world , certainly has to be reported",color=blue];
+	156 [label="excessive violence would offer misleading information to the public and exert detrimental influence to the society as well",color=green];
+	156 [label="excessive violence would offer misleading information to the public and exert detrimental influence to the society as well",color=green];
+	175 [label="It is recently reported in the news that a seventeen-year-old boy killed all his family members , one sister and two parents out of hatred and jealousy",color=blue];
+	175 [label="It is recently reported in the news that a seventeen-year-old boy killed all his family members , one sister and two parents out of hatred and jealousy",color=blue];
+	243 [label="What the government should do immediately is to strengthen censorship to control the amount of violence in media",color=green];
+	203 [label="In the real world , we are inclined to take extreme approach to tackle a small problem due to excessive violence exposure",color=blue];
+	243 [label="What the government should do immediately is to strengthen censorship to control the amount of violence in media",color=green];
+}

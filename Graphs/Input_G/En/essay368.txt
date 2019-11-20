@@ -1,0 +1,26 @@
+digraph G {
+	106 -> 56;
+	106 -> 95;
+	106 -> 243;
+	123 -> 243;
+	143 -> 243;
+	184 -> 166;
+	184 -> 243;
+	213 -> 243;
+	56 [label="smoking should be made prohibited in public places such as bus and railway stations",color=green];
+	106 [label="Prior to 1980's public places in Sri Lanka , illustrates unpleasant situation where people smoked freely",color=blue];
+	95 [label="non-smoking public would be undoubtedly benefited by enforcing such restrain",color=green];
+	106 [label="Prior to 1980's public places in Sri Lanka , illustrates unpleasant situation where people smoked freely",color=blue];
+	106 [label="Prior to 1980's public places in Sri Lanka , illustrates unpleasant situation where people smoked freely",color=blue];
+	243 [label="it has been proven benefits people enjoy this arrangement",color=green];
+	123 [label="Even in public transportation they engaged in this intolerant bad habit , some instances that lead to belligerent incidents",color=blue];
+	243 [label="it has been proven benefits people enjoy this arrangement",color=green];
+	143 [label="After enforcing restrictions the situation came to control and this act as benefit rendered to the public",color=blue];
+	243 [label="it has been proven benefits people enjoy this arrangement",color=green];
+	166 [label="introducing smoking ban in public places would greatly discourage people from engaging tobacco puffing",color=green];
+	184 [label="further enforcement banned smoking in capital in Sri Lanka has reduced this consumption related diseases and deaths , as per the ministry of health",color=blue];
+	184 [label="further enforcement banned smoking in capital in Sri Lanka has reduced this consumption related diseases and deaths , as per the ministry of health",color=blue];
+	243 [label="it has been proven benefits people enjoy this arrangement",color=green];
+	213 [label="smoking restrictions has successfully daunted public from this bad puffing that put less strain on country's healthcare systems",color=blue];
+	243 [label="it has been proven benefits people enjoy this arrangement",color=green];
+}

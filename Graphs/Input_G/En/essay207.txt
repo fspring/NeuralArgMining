@@ -1,0 +1,32 @@
+digraph G {
+	63 -> 100;
+	79 -> 100;
+	125 -> 100;
+	125 -> 291;
+	184 -> 207;
+	228 -> 207;
+	228 -> 291;
+	236 -> 291;
+	275 -> 264;
+	275 -> 291;
+	63 [label="cities often offer more well-paid jobs and study chances compared to rural areas",color=blue];
+	100 [label="they move to big cities to pursue academic career and find jobs in order to have a higher standard of living",color=green];
+	79 [label="many large companies and universities often locate in cities which are hailed as promising lands to develop their career",color=blue];
+	100 [label="they move to big cities to pursue academic career and find jobs in order to have a higher standard of living",color=green];
+	100 [label="they move to big cities to pursue academic career and find jobs in order to have a higher standard of living",color=green];
+	125 [label="if a gradate stays in the city after leaving his college and seeks a job with good salary instead of returning his village to do farm work , he could perhaps buy a house or his own car after a short time",color=blue];
+	125 [label="if a gradate stays in the city after leaving his college and seeks a job with good salary instead of returning his village to do farm work , he could perhaps buy a house or his own car after a short time",color=blue];
+	291 [label="I do not approve of this trend due to negative effects such as low quality of life and affecting the environment",color=green];
+	184 [label="the burgeoning number of young adults from the countryside flocking to cities gives rise to overpopulation in cities",color=blue];
+	207 [label="cities cannot provide adequate space for thousands of dwellers that might lead to poor housing conditions and sanitation",color=green];
+	207 [label="cities cannot provide adequate space for thousands of dwellers that might lead to poor housing conditions and sanitation",color=green];
+	228 [label="it might put strain on the environment",color=blue];
+	228 [label="it might put strain on the environment",color=blue];
+	291 [label="I do not approve of this trend due to negative effects such as low quality of life and affecting the environment",color=green];
+	236 [label="If there are more people in the cities , there would be large numbers of vehicles on the road , which causes air pollution",color=blue];
+	291 [label="I do not approve of this trend due to negative effects such as low quality of life and affecting the environment",color=green];
+	264 [label="young people tend to study or work in urban areas",color=green];
+	275 [label="these provide them many educational opportunities and career potentials",color=blue];
+	275 [label="these provide them many educational opportunities and career potentials",color=blue];
+	291 [label="I do not approve of this trend due to negative effects such as low quality of life and affecting the environment",color=green];
+}

@@ -1,0 +1,23 @@
+digraph G {
+	107 -> 78;
+	107 -> 95;
+	107 -> 318;
+	157 -> 318;
+	211 -> 293;
+	250 -> 293;
+	271 -> 293;
+	78 [label="higher school students should be made aware of the money management",color=green];
+	107 [label="when secondary school students attain the age of undergoing graduation , students ought to stay in hostels or with friends and away from family , during such situations when money management is taught at an early age students will have increased sense of responsibility and confidence",color=blue];
+	95 [label="teenage students need to understand the money management basics",color=green];
+	107 [label="when secondary school students attain the age of undergoing graduation , students ought to stay in hostels or with friends and away from family , during such situations when money management is taught at an early age students will have increased sense of responsibility and confidence",color=blue];
+	107 [label="when secondary school students attain the age of undergoing graduation , students ought to stay in hostels or with friends and away from family , during such situations when money management is taught at an early age students will have increased sense of responsibility and confidence",color=blue];
+	318 [label="students understanding the money management techniques will have more positive effects than negative impact",color=green];
+	157 [label="while I was a kid my father used to maintain expense log for the month , I was asked to do the same for my keep track of my pocket money expenses , during my future course of life this became a practice and helped me in planning my expenses",color=blue];
+	318 [label="students understanding the money management techniques will have more positive effects than negative impact",color=green];
+	211 [label="if financial management is taught at an early age , students will have better sense of understanding of their family financial background and status , students coming up with unrealistic whims and fancies are minimized",color=blue];
+	293 [label="having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently",color=green];
+	250 [label="buying a gaming console may not be a big deal for a student from an affluent financial background",color=blue];
+	293 [label="having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently",color=green];
+	271 [label="for a student coming from middle class buying a gaming console may not be the need of the hour",color=blue];
+	293 [label="having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently",color=green];
+}

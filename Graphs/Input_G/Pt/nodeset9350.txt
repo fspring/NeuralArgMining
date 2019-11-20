@@ -1,0 +1,5 @@
+digraph G {
+	0 -> 20;
+	0 [label="os dados que estão no documento são ainda escassos mas a partir deles é possível tirar já algumas conclusões",color=blue];
+	20 [label="o caminho orçamental que este governo começa a percorrer",color=green];
+}

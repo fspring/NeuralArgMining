@@ -1,0 +1,5 @@
+digraph G {
+	305 -> 334;
+	305 [label="through this way , they may miss some important parts in virtue of the chaotic and incoherent study",color=blue];
+	334 [label="convinced that communicating and studying with peer group is a good way for learning materials",color=green];
+}

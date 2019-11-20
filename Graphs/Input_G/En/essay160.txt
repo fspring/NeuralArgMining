@@ -1,0 +1,29 @@
+digraph G {
+	97 -> 53;
+	97 -> 76;
+	97 -> 279;
+	121 -> 129;
+	162 -> 129;
+	162 -> 279;
+	208 -> 185;
+	208 -> 279;
+	214 -> 255;
+	53 [label="it should taken into consideration the situation and conditions , that forces to a person to be a criminal",color=green];
+	97 [label="the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime",color=blue];
+	76 [label="if there will be a fixed punishment for each type of crime then it will lead to increase the crime",color=green];
+	97 [label="the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime",color=blue];
+	97 [label="the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime",color=blue];
+	279 [label="Government should decide for punishment case by case basis",color=green];
+	121 [label="laws and rules are there for people",color=blue];
+	129 [label="it is necessary to have a look behind crime",color=green];
+	129 [label="it is necessary to have a look behind crime",color=green];
+	162 [label="The person who committed crime first time and the professional criminals should not be imprisoned at same place",color=blue];
+	162 [label="The person who committed crime first time and the professional criminals should not be imprisoned at same place",color=blue];
+	279 [label="Government should decide for punishment case by case basis",color=green];
+	185 [label="fixed punishment will reduce the time taken by judges to give their judgement and it will be effective economically for the Government",color=green];
+	208 [label="Everyone should be treated equally",color=blue];
+	208 [label="Everyone should be treated equally",color=blue];
+	279 [label="Government should decide for punishment case by case basis",color=green];
+	214 [label="sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal",color=blue];
+	255 [label="fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other",color=green];
+}

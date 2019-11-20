@@ -1,0 +1,11 @@
+digraph G {
+	90 -> 79;
+	304 -> 400;
+	396 -> 400;
+	79 [label="it will be",color=green];
+	90 [label="we can guess the ending of the movies or dramas",color=blue];
+	304 [label="but in fact",color=blue];
+	400 [label="people no matter how the story ends",color=green];
+	396 [label="they will be good",color=blue];
+	400 [label="people no matter how the story ends",color=green];
+}

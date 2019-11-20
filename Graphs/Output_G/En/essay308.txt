@@ -1,0 +1,11 @@
+digraph G {
+	190 -> 288;
+	234 -> 288;
+	268 -> 288;
+	190 [label="week , i went to the city center to meet my friends",color=blue];
+	288 [label="that staying in one place is better than moving number of places",color=green];
+	234 [label="i have been gone to some places to travel and stay for a short time , and i realize that the environment in some place isn't clean and fresh like my home town",color=blue];
+	288 [label="that staying in one place is better than moving number of places",color=green];
+	268 [label="there were a lot of people so the environment can't be keep clean",color=blue];
+	288 [label="that staying in one place is better than moving number of places",color=green];
+}

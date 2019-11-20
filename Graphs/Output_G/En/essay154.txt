@@ -1,0 +1,17 @@
+digraph G {
+	89 -> 51;
+	366 -> 438;
+	383 -> 447;
+	392 -> 438;
+	408 -> 438;
+	51 [label="prefer to live with a roommate",color=green];
+	89 [label="if you have roommates , you can split the rent and utilities among them",color=blue];
+	366 [label="when my computer mysteriously broke down , i dialed up the manufacturer and asked for help",color=blue];
+	438 [label="i prefer to live with a roommate",color=green];
+	383 [label="they failed to give me any useful solutions",color=blue];
+	447 [label="i always will",color=green];
+	392 [label="to my surprise , one of my roommates noticed my problems and offered to help",color=blue];
+	438 [label="i prefer to live with a roommate",color=green];
+	408 [label="he was very good with computers , and he managed to fix the problem quickly",color=blue];
+	438 [label="i prefer to live with a roommate",color=green];
+}

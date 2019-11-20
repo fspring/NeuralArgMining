@@ -1,0 +1,32 @@
+digraph G {
+	55 -> 32;
+	55 -> 87;
+	61 -> 87;
+	69 -> 87;
+	101 -> 87;
+	101 -> 204;
+	119 -> 186;
+	139 -> 186;
+	155 -> 186;
+	169 -> 186;
+	32 [label="my term of a successful man is one who has certain achievements in life rather than the one with a high income",color=green];
+	55 [label="Money is undeniably pivotal",color=blue];
+	55 [label="Money is undeniably pivotal",color=blue];
+	87 [label="a man can only achieve his accomplishment through hard-working , dedication and passion",color=green];
+	61 [label="ways of earning it is also various",color=blue];
+	87 [label="a man can only achieve his accomplishment through hard-working , dedication and passion",color=green];
+	69 [label="A person's great prosperity does not state that he has gained it ethically by himself",color=blue];
+	87 [label="a man can only achieve his accomplishment through hard-working , dedication and passion",color=green];
+	87 [label="a man can only achieve his accomplishment through hard-working , dedication and passion",color=green];
+	101 [label="Whether it is a personal or a social achievement , that man is laudable",color=blue];
+	101 [label="Whether it is a personal or a social achievement , that man is laudable",color=blue];
+	204 [label="using only money as a scale to measure a man's success is impossible",color=green];
+	119 [label="the more beneficial for the society his achievement is , the more successful he is considered",color=blue];
+	186 [label="judging a person by his income is difficult , especially in the success aspect",color=green];
+	139 [label="Thomas Edison is undeniably considered as one of the greatest inventors in the 20th century",color=blue];
+	186 [label="judging a person by his income is difficult , especially in the success aspect",color=green];
+	155 [label="his invention's productivity is countless useful for mankind",color=blue];
+	186 [label="judging a person by his income is difficult , especially in the success aspect",color=green];
+	169 [label="the fact of knowing a man's utilization of his money remains in the dark",color=blue];
+	186 [label="judging a person by his income is difficult , especially in the success aspect",color=green];
+}

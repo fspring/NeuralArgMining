@@ -1,0 +1,5 @@
+digraph G {
+	106 -> 178;
+	106 [label="the zoo is the important place for innate learning",color=blue];
+	178 [label="the zoo preserves a large number of rare animals and provides them safe habitats",color=green];
+}

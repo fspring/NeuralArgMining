@@ -1,0 +1,26 @@
+digraph G {
+	100 -> 82;
+	100 -> 86;
+	123 -> 315;
+	198 -> 342;
+	245 -> 327;
+	270 -> 327;
+	282 -> 315;
+	289 -> 327;
+	82 [label="alone",color=green];
+	100 [label="thousands of fans gathering outside of the stadium with team flags , colorful outfits , sound of trumpets and rattles",color=blue];
+	86 [label="attending a live football match is very fulfilling",color=green];
+	100 [label="thousands of fans gathering outside of the stadium with team flags , colorful outfits , sound of trumpets and rattles",color=blue];
+	123 [label="as the game kicks off , the atmosphere inside the stadium is even more exciting",color=blue];
+	315 [label="watch a football match on television it is comfortable and pleasing",color=green];
+	198 [label="you will be bored if you are watching it alone",color=blue];
+	342 [label="unforgettable moments in your life",color=green];
+	245 [label="the tickets to get in the stadium may be a little expensive , but you will gain much more entertainment value from the game",color=blue];
+	327 [label="but watching the match live at the stadium is more enjoyable",color=green];
+	270 [label="you can cherish your experience for a long time",color=blue];
+	327 [label="but watching the match live at the stadium is more enjoyable",color=green];
+	282 [label="it can be an exclusive experience",color=blue];
+	315 [label="watch a football match on television it is comfortable and pleasing",color=green];
+	289 [label="if it is a crucial win to acclaim a trophy , you will be "on site" to witness and celebrate the victory",color=blue];
+	327 [label="but watching the match live at the stadium is more enjoyable",color=green];
+}

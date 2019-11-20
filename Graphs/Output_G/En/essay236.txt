@@ -1,0 +1,14 @@
+digraph G {
+	56 -> 43;
+	285 -> 353;
+	303 -> 353;
+	317 -> 353;
+	43 [label="time doing research rather than educating students for",color=green];
+	56 [label="a professor means a researcher or an expert of a specific science subject",color=blue];
+	285 [label="they are the leaders almost in every fields of science , arts , culture and so on",color=blue];
+	353 [label="a professor should do their research all the time during their careers as a teacher in university",color=green];
+	303 [label="without their research , there will be no new technologies come out quickly",color=blue];
+	353 [label="a professor should do their research all the time during their careers as a teacher in university",color=green];
+	317 [label="without their research , there will be more artcrafts being ruined by nothing",color=blue];
+	353 [label="a professor should do their research all the time during their careers as a teacher in university",color=green];
+}

@@ -1,0 +1,17 @@
+digraph G {
+	75 -> 61;
+	82 -> 73;
+	202 -> 171;
+	221 -> 296;
+	247 -> 296;
+	61 [label="most advertisements",color=green];
+	75 [label="negative effects of what they sell",color=blue];
+	73 [label="ignore some",color=green];
+	82 [label="in addition to this , all of things are advertised as the best ones result in the confusing for users in picking out the most suitable goods",color=blue];
+	171 [label="advertising",color=green];
+	202 [label="advertisement enables to support users in getting accustomed to enterprises and know thoroughly items sold from these producers",color=blue];
+	221 [label="take coca cola for an example , this drinking firm is well-known as one of companies invested a major part of their money in advertising",color=blue];
+	296 [label="everything has its own gains and losses and advertisement is not an exception",color=green];
+	247 [label="no wonder why this drinking title becomes more and more familiar with customers around the world",color=blue];
+	296 [label="everything has its own gains and losses and advertisement is not an exception",color=green];
+}

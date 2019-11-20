@@ -1,0 +1,17 @@
+digraph G {
+	97 -> 46;
+	122 -> 78;
+	122 -> 85;
+	339 -> 412;
+	364 -> 412;
+	46 [label="a",color=green];
+	97 [label="even though when we are not borne",color=blue];
+	78 [label="that i want to make is",color=green];
+	122 [label="to clarify my point i would like to say a memory from my childhood , when i was at age 7 my father gave me monthly money to buy thing that i liked",color=blue];
+	85 [label="sociologists found that our characteristics and personality forms early in life ,",color=green];
+	122 [label="to clarify my point i would like to say a memory from my childhood , when i was at age 7 my father gave me monthly money to buy thing that i liked",color=blue];
+	339 [label="his parent tried a lot and hired some experts to learn him manage his financial and carrier life , but unfortunately it was useless",color=blue];
+	412 [label="children should be free to spend money to they what they want , in my opinion it is very important to learn our children from their beginning of their life to be financially responsible persons , because our personality form in childhood and it is not easy to change it in adulthood",color=green];
+	364 [label="finally one night , having fun with his irresponsible friend in his luxuries car , he crashed a truck and died",color=blue];
+	412 [label="children should be free to spend money to they what they want , in my opinion it is very important to learn our children from their beginning of their life to be financially responsible persons , because our personality form in childhood and it is not easy to change it in adulthood",color=green];
+}

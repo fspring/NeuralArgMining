@@ -1,0 +1,5 @@
+digraph G {
+	1 -> 9;
+	1 [label="há algo que Mafalda sofre com dificuldade",color=blue];
+	9 [label="a falsa compaixão dos que , para aliviar a sua situação , quereriam eliminá-la",color=green];
+}

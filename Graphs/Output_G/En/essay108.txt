@@ -1,0 +1,17 @@
+digraph G {
+	98 -> 279;
+	194 -> 167;
+	178 -> 170;
+	225 -> 279;
+	248 -> 294;
+	98 [label="is because they have been instilled and imparted the most updated knowledge and skills at universities",color=blue];
+	279 [label="though the introduction of the early retirement has some benefits",color=green];
+	167 [label="young workers",color=green];
+	194 [label="that every person within the business enterprise has the rights to proceed their work as long as they are capable of doing it , disregard the age and physical capacity",color=blue];
+	170 [label="several negative influences",color=green];
+	178 [label="it fosters a sense of unfairness between the older and younger generations",color=blue];
+	225 [label="from social perspective",color=blue];
+	279 [label="though the introduction of the early retirement has some benefits",color=green];
+	248 [label="sufficient pension payments and regular medical care should be given and arranged for the senior citizens after they have been imposed to terminate their employment permanently",color=blue];
+	294 [label="it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly",color=green];
+}

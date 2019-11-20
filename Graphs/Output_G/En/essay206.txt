@@ -1,0 +1,8 @@
+digraph G {
+	101 -> 65;
+	101 -> 82;
+	65 [label="such",color=green];
+	101 [label="one of the conditions that helps us to be healthy is good weather and less population that exist in a small town",color=blue];
+	82 [label="of living in a small town is a healthy life that we can obtain due to many",color=green];
+	101 [label="one of the conditions that helps us to be healthy is good weather and less population that exist in a small town",color=blue];
+}

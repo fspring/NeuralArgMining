@@ -1,0 +1,5 @@
+digraph G {
+	0 -> 89;
+	0 [label="A Mafalda Ribeiro não é uma coitadinha",color=blue];
+	89 [label="uma lutadora que chegou , por mérito próprio , ao pódio dos vencedores da vida",color=green];
+}

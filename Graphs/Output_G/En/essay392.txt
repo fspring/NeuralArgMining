@@ -1,0 +1,8 @@
+digraph G {
+	97 -> 82;
+	280 -> 305;
+	82 [label="government and corporations have the ability to deal with these",color=green];
+	97 [label="air pollution and water quality has concerned many countries , and the government is able to implement some policies and invest money to reduce air pollution , while companies also can enhance their technologies to curb emission of contaminated water and substances",color=blue];
+	280 [label="if people can gradually change some lifestyles in these daily activities , this will have many significant impacts on environmental improvement",color=blue];
+	305 [label="the government and corporations should take more responsibility for addressing environmental issues",color=green];
+}

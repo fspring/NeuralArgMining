@@ -1,0 +1,14 @@
+digraph G {
+	104 -> 249;
+	168 -> 165;
+	168 -> 249;
+	216 -> 233;
+	104 [label="in accordance with recent research , experts suggest the lifestyle of individuals in modern society is unhealthy because they lack of physical exercise and face-to-face communication",color=blue];
+	249 [label="but museums and art galleries are necessary to be preserved for its importance of education and culture",color=green];
+	165 [label="and",color=green];
+	168 [label="it is like travelling to a place is much better than viewing the landscape of that place on tv or photos , so the best method to learn one thing is to experience it",color=blue];
+	168 [label="it is like travelling to a place is much better than viewing the landscape of that place on tv or photos , so the best method to learn one thing is to experience it",color=blue];
+	249 [label="but museums and art galleries are necessary to be preserved for its importance of education and culture",color=green];
+	216 [label="these buildings will not disappear unless people abandon their culture",color=blue];
+	233 [label="modern technology has provided a more convenient and comfortable manner for people to watch exhibitions",color=green];
+}

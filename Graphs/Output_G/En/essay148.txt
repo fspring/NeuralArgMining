@@ -1,0 +1,14 @@
+digraph G {
+	27 -> 15;
+	48 -> 42;
+	272 -> 327;
+	284 -> 327;
+	15 [label="countries in the world cannot have a single culture",color=green];
+	27 [label="in my view , a single modern culture is being created by modern technology for",color=blue];
+	42 [label="the",color=green];
+	48 [label="most of the countries have the same educational system based on technology",color=blue];
+	272 [label="cooks can find many new food recipes easily on the internet",color=blue];
+	327 [label="and we can see many similarities in many cultures",color=green];
+	284 [label="for example , two days ago , i went to a canadian restaurant , and i ate noodle , sushi , which are chinese foods , and greek salad",color=blue];
+	327 [label="and we can see many similarities in many cultures",color=green];
+}

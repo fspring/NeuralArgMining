@@ -1,0 +1,8 @@
+digraph G {
+	135 -> 107;
+	247 -> 248;
+	107 [label=",",color=green];
+	135 [label="is worse , people who live in countries that are confronted with wars or natural disasters are facing even more severe issues such as security , homelessness or the pain of losing best friends or family members",color=blue];
+	247 [label="even",color=blue];
+	248 [label="within the most developed countries , there are still poor people who lack their basic needs",color=green];
+}

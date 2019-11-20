@@ -1,0 +1,5 @@
+digraph G {
+	251 -> 242;
+	242 [label="Desconhecemos o conteúdo da referida saudação",color=green];
+	251 [label="a mesma não foi divulgada aos órgãos de comunicação social",color=blue];
+}

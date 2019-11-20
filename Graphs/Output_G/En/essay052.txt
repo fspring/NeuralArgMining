@@ -1,0 +1,14 @@
+digraph G {
+	54 -> 36;
+	54 -> 42;
+	66 -> 52;
+	172 -> 248;
+	36 [label="prevalent of english brings",color=green];
+	54 [label="the communication and interaction between different countries more conveniently and clearly",color=blue];
+	42 [label="number of benefits for people",color=green];
+	54 [label="the communication and interaction between different countries more conveniently and clearly",color=blue];
+	52 [label="it promotes",color=green];
+	66 [label="in the ancient time , the different languages and geography set barriers for people to exchange their goods and ideas",color=blue];
+	172 [label="even english is a sophisticated language ; it does not express every detail of life especially in asia countries , which have totally different linguistic system",color=blue];
+	248 [label="english as an elegant language should be advocated in many fields to expand the global trade and communications",color=green];
+}

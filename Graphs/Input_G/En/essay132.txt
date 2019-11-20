@@ -1,0 +1,29 @@
+digraph G {
+	70 -> 126;
+	92 -> 126;
+	111 -> 126;
+	145 -> 235;
+	170 -> 235;
+	197 -> 235;
+	226 -> 235;
+	253 -> 235;
+	253 -> 282;
+	70 [label="A full time job with a steady income was enough for a potential employee to support himself and his family",color=blue];
+	126 [label="people are focusing on doing several jobs or gaining further qualification to secure their economic condition",color=green];
+	92 [label="with the recent recession , almost all the countries all over the world are seeing significant economic downfall",color=blue];
+	126 [label="people are focusing on doing several jobs or gaining further qualification to secure their economic condition",color=green];
+	111 [label="This overwhelming crisis is prompting delayering and reduction of workers",color=blue];
+	126 [label="people are focusing on doing several jobs or gaining further qualification to secure their economic condition",color=green];
+	145 [label="the arrival of technology has also been playing a major role promoting further unemployment",color=blue];
+	235 [label="The best way to ensure a flexible earning is getting more jobs",color=green];
+	170 [label="North American economists have published reports after scrutinizing the recent American economic situation that , technology is eliminating more jobs than creating one",color=blue];
+	235 [label="The best way to ensure a flexible earning is getting more jobs",color=green];
+	197 [label="robots , automation and softwares are taking over manual human workers professions such as clerks , interpreters , security services , retails and specially in manufacturing companies",color=blue];
+	235 [label="The best way to ensure a flexible earning is getting more jobs",color=green];
+	226 [label="many people's jobs are now at high stake",color=blue];
+	235 [label="The best way to ensure a flexible earning is getting more jobs",color=green];
+	235 [label="The best way to ensure a flexible earning is getting more jobs",color=green];
+	253 [label="corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors",color=blue];
+	253 [label="corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors",color=blue];
+	282 [label="people are now more conscious to gain more educational qualification and also are more interested to work on various fields simultaneously to earn more and support themselves",color=green];
+}

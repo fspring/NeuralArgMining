@@ -1,0 +1,17 @@
+digraph G {
+	97 -> 88;
+	161 -> 151;
+	215 -> 295;
+	244 -> 295;
+	264 -> 286;
+	88 [label="many facts about solar system can be discovered",color=green];
+	97 [label="for instance , a picture of planet earth proved that the earth is round , not flat",color=blue];
+	151 [label="people can know more about the planet earth itself",color=green];
+	161 [label="by observing planet earth from outer space , people can find out ample things for example about the atmosphere of the planet earth",color=blue];
+	215 [label="as astronauts need to travel to outer space which does not have any oxygen to breathe in , scientists are compelled to do research on the oxygen tanks",color=blue];
+	295 [label="in spite of costing a fortune",color=green];
+	244 [label="oxygen tanks , for instance , are proved useful not only in outer space but also underwater",color=blue];
+	295 [label="in spite of costing a fortune",color=green];
+	264 [label="spaceships , communication satellites and space pens also contribute a lot to the society",color=blue];
+	286 [label="that human beings should travel to outer space",color=green];
+}

@@ -1,0 +1,14 @@
+digraph G {
+	88 -> 95;
+	128 -> 95;
+	215 -> 299;
+	247 -> 255;
+	88 [label="supply",color=blue];
+	95 [label="can offer me many more vacancies than a small town",color=green];
+	95 [label="can offer me many more vacancies than a small town",color=green];
+	128 [label="cafes and restaurants where i can go with my friends",color=blue];
+	215 [label="am keen on museums and it would be a pleasure for me to spend several hours a week in front of famous paintings , sculptures or artifacts",color=blue];
+	299 [label="small towns have picturesque nature and pure air , big cities offer countless amount of opportunities and entertainment places",color=green];
+	247 [label="city offers free",color=blue];
+	255 [label="everyone who is interested in art",color=green];
+}

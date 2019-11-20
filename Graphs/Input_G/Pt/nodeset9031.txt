@@ -1,0 +1,5 @@
+digraph G {
+	16 -> 0;
+	0 [label="Cavaco desconcertou , é certo",color=green];
+	16 [label="Tinha uma diferente escala de prioridades , veio com outra carta de intenções",color=blue];
+}

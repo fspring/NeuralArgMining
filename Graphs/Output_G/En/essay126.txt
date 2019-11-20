@@ -1,0 +1,17 @@
+digraph G {
+	165 -> 140;
+	165 -> 156;
+	187 -> 312;
+	210 -> 342;
+	339 -> 342;
+	140 [label="it's",color=green];
+	165 [label="because of the similarity i talked before , acquaintances probably not able to understand you better than your friends",color=blue];
+	156 [label="close",color=green];
+	165 [label="because of the similarity i talked before , acquaintances probably not able to understand you better than your friends",color=blue];
+	187 [label="they wouldn't even spare time to consider your feelings",color=blue];
+	312 [label="friend is a person you care about",color=green];
+	210 [label="being friendly is a good way to treat a acquaintance but way not enough for a friend",color=blue];
+	342 [label="person who has only one or two close friends",color=green];
+	339 [label="the kind of",color=blue];
+	342 [label="person who has only one or two close friends",color=green];
+}

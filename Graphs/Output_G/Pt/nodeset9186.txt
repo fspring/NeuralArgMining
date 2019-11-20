@@ -1,0 +1,5 @@
+digraph G {
+	54 -> 45;
+	45 [label="os refugiados não vêm para cá por acaso",color=green];
+	54 [label="é aqui que melhor se vive , em paz , tolerância , democracia , em respeito pelo estado de direito , pela propriedade privada e pelos direitos individuais",color=blue];
+}

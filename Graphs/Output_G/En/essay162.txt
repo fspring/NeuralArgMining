@@ -1,0 +1,11 @@
+digraph G {
+	76 -> 57;
+	115 -> 241;
+	153 -> 149;
+	57 [label="that cheap air fares have broadened travel possibilities for many people , particularly for the lower income group",color=green];
+	76 [label="these days , millions of people can travel around the world for work or pleasure",color=blue];
+	115 [label="travels also help to promote the tourist industry development , boost the economy and job markets of many countries",color=blue];
+	241 [label="the drawbacks of cheap air fares outweigh the benefits",color=green];
+	149 [label="environment",color=green];
+	153 [label="more flights could mean bigger and busier airport that may be grown the air pollution for people who live and work close to it",color=blue];
+}

@@ -1,0 +1,11 @@
+digraph G {
+	13 -> 0;
+	62 -> 77;
+	129 -> 119;
+	0 [label="A suspensão da descrença",color=green];
+	13 [label="a suspeita de que este neo-despesismo não corresponde a nenhuma política de justiça social , mas à simples necessidade de pagar ao PCP o seu apoio parlamentar , satisfazendo as suas clientelas sindicais",color=blue];
+	62 [label="Por enquanto , as larguezas monetárias do BCE mantêm os mercados anestesiados",color=blue];
+	77 [label="os mercados servem ainda às musas governamentais para se passarem a si próprias atestados de bom comportamento",color=green];
+	119 [label="Comissão Europeia interfere nos nossos orçamentos",color=green];
+	129 [label="estamos no Euro",color=blue];
+}

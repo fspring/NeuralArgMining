@@ -1,0 +1,5 @@
+digraph G {
+	7 -> 48;
+	7 [label="Se não se reverterem rapidamente as actuais políticas , insistindo numa austeridade castradora de qualquer processo de desenvolvimento sustentado , tendo apenas como prioridade política a estabilidade de um sistema financeiro minado de trafulhices , provocando custos sociais elevadíssimos",color=blue];
+	48 [label="a Europa não tem futuro e será apenas parte integrante de um mundo que está a globalizar a pobreza e daí a barbárie",color=green];
+}

@@ -1,0 +1,11 @@
+digraph G {
+	42 -> 35;
+	70 -> 62;
+	322 -> 341;
+	35 [label="people's life",color=green];
+	42 [label="advertising must be blamed for the unhealthy eating habits ,",color=blue];
+	62 [label="directing people's",color=green];
+	70 [label="the advertising is not the main cause of unhealthy eating habits",color=blue];
+	322 [label="in these cases , the advertising industry bolsters people's awareness of having a healthy lifestyle",color=blue];
+	341 [label="advertising is not the primary",color=green];
+}

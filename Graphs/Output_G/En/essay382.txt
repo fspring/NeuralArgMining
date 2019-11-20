@@ -1,0 +1,23 @@
+digraph G {
+	85 -> 62;
+	85 -> 75;
+	153 -> 101;
+	153 -> 178;
+	167 -> 178;
+	207 -> 199;
+	207 -> 204;
+	62 [label="student",color=green];
+	85 [label="provide knowledge in the form of news , radio talks , tapes or reseachs on any",color=blue];
+	75 [label="broaden",color=green];
+	85 [label="provide knowledge in the form of news , radio talks , tapes or reseachs on any",color=blue];
+	101 [label="particular",color=green];
+	153 [label="the mobile phone or the laptop that help them , especially language learners",color=blue];
+	153 [label="the mobile phone or the laptop that help them , especially language learners",color=blue];
+	178 [label="students will develop their skills at a greater pace",color=green];
+	167 [label="listen to recordings everywhre or read documents anytime",color=blue];
+	178 [label="students will develop their skills at a greater pace",color=green];
+	199 [label="visual aids",color=green];
+	207 [label="sounds or images with which students may absorb abstract concepts taught at school more briskly and thoroughly",color=blue];
+	204 [label="educational",color=green];
+	207 [label="sounds or images with which students may absorb abstract concepts taught at school more briskly and thoroughly",color=blue];
+}

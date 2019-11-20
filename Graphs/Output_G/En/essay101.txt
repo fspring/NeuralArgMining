@@ -1,0 +1,20 @@
+digraph G {
+	127 -> 112;
+	361 -> 343;
+	361 -> 351;
+	361 -> 356;
+	408 -> 445;
+	457 -> 455;
+	112 [label="there will be lesser job opportunities for the fresh graduates",color=green];
+	127 [label="most of them will be forced to take up careers which are poles apart from what they had studied for",color=blue];
+	343 [label="be better if at an older age",color=green];
+	361 [label="the expertise of the senior workers who had retired should never be underestimated",color=blue];
+	351 [label="opportunities",color=green];
+	361 [label="the expertise of the senior workers who had retired should never be underestimated",color=blue];
+	356 [label="younger",color=green];
+	361 [label="the expertise of the senior workers who had retired should never be underestimated",color=blue];
+	408 [label="the retiree come over to the companies or hospitals to have regular sessions with the present staffs to bridge the gap between them and to pass on their knowledge",color=blue];
+	445 [label="that age limit should be set for retirement",color=green];
+	455 [label="will come",color=green];
+	457 [label="a certain time when the older generation should hand over the responsibility to the fresh comers who are certainly waiting to be given a choice to prove themselves",color=blue];
+}

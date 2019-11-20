@@ -1,0 +1,8 @@
+digraph G {
+	123 -> 89;
+	328 -> 372;
+	89 [label="that students can learn lots of things from part time job , before starting their real",color=green];
+	123 [label="for example , when i was in my high school i worked as a sales-man in a shop for a year",color=blue];
+	328 [label="after taking that part time job i stopped taking my pocket money form my parents",color=blue];
+	372 [label="some people will oppose the idea of part time job for students",color=green];
+}

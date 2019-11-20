@@ -1,0 +1,28 @@
+{"graph":{
+"nodes":[
+{"id": "232"},
+{"id": "100"},
+{"id": "45"},
+{"id": "153"},
+{"id": "138"},
+{"id": "169"},
+{"id": "114"},
+{"id": "71"},
+{"id": "0"},
+{"id": "207"},
+{"id": "189"},
+{"id": "86"}
+],
+"links":[
+{"source": "71", "target": "0"},
+{"source": "71", "target": "45"},
+{"source": "71", "target": "232"},
+{"source": "86", "target": "232"},
+{"source": "100", "target": "232"},
+{"source": "114", "target": "232"},
+{"source": "138", "target": "232"},
+{"source": "189", "target": "153"},
+{"source": "169", "target": "232"},
+{"source": "189", "target": "232"},
+{"source": "207", "target": "232"}
+]}}

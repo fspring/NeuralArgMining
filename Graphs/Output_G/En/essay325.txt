@@ -1,0 +1,23 @@
+digraph G {
+	190 -> 106;
+	143 -> 110;
+	197 -> 118;
+	267 -> 189;
+	225 -> 395;
+	277 -> 395;
+	319 -> 395;
+	106 [label="to adapt oneself",color=green];
+	190 [label="from every worker of excellent knowledge",color=blue];
+	110 [label="the new environment has been",color=green];
+	143 [label="working alone is a longer-term job than communicating , that is , the ability of adapting oneself to a new environment may be necessary for a fresh worker , but the excellent knowledge of this job will be benefit till one leave",color=blue];
+	118 [label="part",color=green];
+	197 [label="the core and most profitable technology of an it company is invented by a worker with excellent computer knowledge , not a worker with outstanding communicating skill",color=blue];
+	189 [label="benefit",color=green];
+	267 [label="employees will obtain reward from hard-work pursuing excellent knowledge",color=blue];
+	225 [label="the high reputation and popularity of a company is earned by some brilliant workers in public relation department with excellent skill to propagate this company",color=blue];
+	395 [label="we can use the ability of adapting oneself in a new environment",color=green];
+	277 [label="through our whole study life , undergraduate and graduate , we keep learning with the purpose of exerting these knowledge and experience on our job , just like an old chinese scholar said , the essence of study is utilizing it",color=blue];
+	395 [label="we can use the ability of adapting oneself in a new environment",color=green];
+	319 [label="after we get a job , the destination of we keep accumulating and collecting knowledge is rooted not in fawn on our manager with the ability to adapt this kind of business culture , but in making us excellent and totally master this job",color=blue];
+	395 [label="we can use the ability of adapting oneself in a new environment",color=green];
+}

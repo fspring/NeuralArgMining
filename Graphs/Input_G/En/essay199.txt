@@ -1,0 +1,32 @@
+digraph G {
+	70 -> 34;
+	70 -> 56;
+	70 -> 249;
+	86 -> 249;
+	103 -> 249;
+	130 -> 249;
+	158 -> 145;
+	158 -> 249;
+	173 -> 249;
+	188 -> 249;
+	34 [label="I prefer to study individually",color=green];
+	70 [label="I am a type of person who cannot comprehend my subjects unless I am alone",color=blue];
+	56 [label="Studying alone helps us to focus more in our lessons",color=green];
+	70 [label="I am a type of person who cannot comprehend my subjects unless I am alone",color=blue];
+	70 [label="I am a type of person who cannot comprehend my subjects unless I am alone",color=blue];
+	249 [label="I agree with the idea of studying a lone",color=green];
+	86 [label="I can prepare my schedules , guidelines , exercises and go over them all",color=blue];
+	249 [label="I agree with the idea of studying a lone",color=green];
+	103 [label="we have a lot of subjects which require us to sit and study alone such as math , reading , and drawing",color=blue];
+	249 [label="I agree with the idea of studying a lone",color=green];
+	130 [label="I can take advantage of every minute without wasting by studying alone",color=blue];
+	249 [label="I agree with the idea of studying a lone",color=green];
+	145 [label="we are building our personalities when we study alone",color=green];
+	158 [label="answering our homework alone encourages us to be more responsible and independent",color=blue];
+	158 [label="answering our homework alone encourages us to be more responsible and independent",color=blue];
+	249 [label="I agree with the idea of studying a lone",color=green];
+	173 [label="it motivates us to be accurate in our work in the future",color=blue];
+	249 [label="I agree with the idea of studying a lone",color=green];
+	188 [label="when I fix my study plan with a specific time and finish it on time , it improves my ability in the future to become more precise and careful",color=blue];
+	249 [label="I agree with the idea of studying a lone",color=green];
+}

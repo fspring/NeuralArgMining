@@ -1,0 +1,11 @@
+digraph G {
+	103 -> 55;
+	124 -> 73;
+	179 -> 241;
+	55 [label="matter as well as my own view's",color=green];
+	103 [label="is likely to be seen as greatest inventions helping people to reduce stress and time for other activities",color=blue];
+	73 [label="it is undoubtedly that",color=green];
+	124 [label="applying technological science into the preparation of medications also plays a significant role in saving the number of patients' lives",color=blue];
+	179 [label="this is because exploiting and collecting raw materials as well as essential fuels to serve the production of technological products have destroyed nature seriously",color=blue];
+	241 [label="that technology has a great contribution to our lives and civilization",color=green];
+}

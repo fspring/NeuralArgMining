@@ -1,0 +1,29 @@
+digraph G {
+	53 -> 38;
+	96 -> 195;
+	130 -> 195;
+	162 -> 141;
+	153 -> 184;
+	212 -> 182;
+	212 -> 184;
+	212 -> 195;
+	254 -> 281;
+	38 [label="the development of technology can prompt economic growth and the improvement of living standards",color=green];
+	53 [label="scientists and engineers have invented many novel products and tools , which play an important role in economic activity",color=blue];
+	96 [label="this also helps many countries to more efficiently export their products to the world and increase their revenue",color=blue];
+	195 [label="the development of technology is likely to bring some negative effects on the environment and society",color=green];
+	130 [label="with the improvement of medical technology , it is",color=blue];
+	195 [label="the development of technology is likely to bring some negative effects on the environment and society",color=green];
+	141 [label="the life expectancy in many countries has been significantly longer than before",color=green];
+	162 [label="digital entertainment technology allows people to enjoy playing interactive video games and watching three-dimensional movies , and this means that",color=blue];
+	153 [label=",",color=blue];
+	184 [label="get",color=green];
+	182 [label="we",color=green];
+	212 [label="people utilize architecture technology to construct buildings to expand urban areas",color=blue];
+	184 [label="get",color=green];
+	212 [label="people utilize architecture technology to construct buildings to expand urban areas",color=blue];
+	195 [label="the development of technology is likely to bring some negative effects on the environment and society",color=green];
+	212 [label="people utilize architecture technology to construct buildings to expand urban areas",color=blue];
+	254 [label="vehicle technology enables many people to drive private cars , and emission of exhaust gas could lead to air pollution in large cities",color=blue];
+	281 [label="although technological progress causes corresponding problems , it still provides us with much more advantages",color=green];
+}

@@ -1,0 +1,8 @@
+digraph G {
+	0 -> 22;
+	36 -> 22;
+	0 [label="A declaração pública de boas vindas aos refugiados durante o Verão do ano passado",color=blue];
+	22 [label="iniciou o fim de Merkel",color=green];
+	22 [label="iniciou o fim de Merkel",color=green];
+	36 [label="a maioria dos cidadãos se interrogou se o seu líder",color=blue];
+}

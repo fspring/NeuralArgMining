@@ -1,0 +1,8 @@
+digraph G {
+	50 -> 62;
+	110 -> 62;
+	50 [label="maturity to choose their choice",color=blue];
+	62 [label="going to classes should be optional for the students",color=green];
+	62 [label="going to classes should be optional for the students",color=green];
+	110 [label="they didn't explain the contents in order to understand by the students",color=blue];
+}

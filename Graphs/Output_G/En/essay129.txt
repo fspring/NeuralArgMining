@@ -1,0 +1,8 @@
+digraph G {
+	75 -> 66;
+	175 -> 170;
+	66 [label="own",color=green];
+	75 [label="is , i prefer to live in a higher pace condition",color=blue];
+	170 [label="can",color=green];
+	175 [label="we have to be eager in our lives",color=blue];
+}

@@ -1,0 +1,20 @@
+digraph G {
+	92 -> 77;
+	123 -> 201;
+	135 -> 201;
+	147 -> 207;
+	162 -> 207;
+	200 -> 201;
+	77 [label="that professionals or students get by connecting from home is enormous",color=green];
+	92 [label="it helps working people to maintain work life balance",color=blue];
+	123 [label="people also get the desired flexibility in terms of working hours",color=blue];
+	201 [label="part of the society ,",color=green];
+	135 [label="for students too , studying from home is an attractive option",color=blue];
+	201 [label="part of the society ,",color=green];
+	147 [label="they save the travelling time to universities and utilize that time on their studies",color=blue];
+	207 [label="doubt over the productivity of people who prefers to work or study from home",color=green];
+	162 [label="in a busy city like tokyo , students waste a lot of time in travelling",color=blue];
+	207 [label="doubt over the productivity of people who prefers to work or study from home",color=green];
+	200 [label="one",color=blue];
+	201 [label="part of the society ,",color=green];
+}

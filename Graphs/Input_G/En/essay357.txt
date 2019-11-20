@@ -1,0 +1,35 @@
+digraph G {
+	79 -> 61;
+	79 -> 171;
+	97 -> 171;
+	115 -> 171;
+	130 -> 171;
+	150 -> 171;
+	162 -> 171;
+	206 -> 182;
+	206 -> 301;
+	232 -> 301;
+	270 -> 301;
+	61 [label="physical inactivity should not be encouraged for the aim of bettering youngsters' skills",color=green];
+	79 [label="classic teaching methods has been scientifically proven and utilized as the best mode of educate a child",color=blue];
+	79 [label="classic teaching methods has been scientifically proven and utilized as the best mode of educate a child",color=blue];
+	171 [label="teacher cannot be switched with some unconscious screens",color=green];
+	97 [label="Technology and its advance , to some degrees , have influenced the educational industry positively",color=blue];
+	171 [label="teacher cannot be switched with some unconscious screens",color=green];
+	115 [label="it has not changed the importance of teachers' role in classes",color=blue];
+	171 [label="teacher cannot be switched with some unconscious screens",color=green];
+	130 [label="students nowadays do their homework or researches on computers rather than go to libraries is an illustration for this",color=blue];
+	171 [label="teacher cannot be switched with some unconscious screens",color=green];
+	150 [label="Yet , monitors are unable to replace the appearance of educators",color=blue];
+	171 [label="teacher cannot be switched with some unconscious screens",color=green];
+	162 [label="their knowledge and adaptability is priceless",color=blue];
+	171 [label="teacher cannot be switched with some unconscious screens",color=green];
+	182 [label="watching television is a very passive action and should not be promoted by increasing periods spent on it",color=green];
+	206 [label="children who have had such activities that interrelate to creativity , cooperation , competition tend to perform significantly better in general terms",color=blue];
+	206 [label="children who have had such activities that interrelate to creativity , cooperation , competition tend to perform significantly better in general terms",color=blue];
+	301 [label="kids should never be encourage to engage in such passive activity",color=green];
+	232 [label="a conducted experiment indicates out-performance in skills like differentiate types of plants or animals of a child that experienced various activities in nature to a child spent most of his time watching documentaries",color=blue];
+	301 [label="kids should never be encourage to engage in such passive activity",color=green];
+	270 [label="such activities can equip a child necessary skill that is useful for his future career",color=blue];
+	301 [label="kids should never be encourage to engage in such passive activity",color=green];
+}

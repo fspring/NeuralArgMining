@@ -1,0 +1,5 @@
+digraph G {
+	30 -> 0;
+	0 [label="Cavaco desconcertou",color=green];
+	30 [label="Pertencia a outro mundo",color=blue];
+}

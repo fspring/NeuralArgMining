@@ -1,0 +1,35 @@
+digraph G {
+	97 -> 78;
+	97 -> 261;
+	106 -> 261;
+	119 -> 261;
+	131 -> 261;
+	151 -> 261;
+	182 -> 261;
+	201 -> 261;
+	227 -> 261;
+	287 -> 279;
+	395 -> 388;
+	78 [label="a good co-worker needs to have three most important characteristics such as cooperation , trustworthiness , and fellowship",color=green];
+	97 [label="The co-workers should be cooperative with one another",color=blue];
+	97 [label="The co-workers should be cooperative with one another",color=blue];
+	261 [label="if the co-workers do not corporate with each other that would be devastating in a work environment",color=green];
+	106 [label="If they do not cooperate , there will be lots of disputes",color=blue];
+	261 [label="if the co-workers do not corporate with each other that would be devastating in a work environment",color=green];
+	119 [label="I once had a co-worker who was too family conscious",color=blue];
+	261 [label="if the co-workers do not corporate with each other that would be devastating in a work environment",color=green];
+	131 [label="he always left office sharp on time without giving any consideration whether the work has been finished or not",color=blue];
+	261 [label="if the co-workers do not corporate with each other that would be devastating in a work environment",color=green];
+	151 [label="Most of the time , I had to do his work in order to protect him from getting caught to the supervisor who was a very authoritative person",color=blue];
+	261 [label="if the co-workers do not corporate with each other that would be devastating in a work environment",color=green];
+	182 [label="one day I wanted to be off early because I had to take my mother to the doctor",color=blue];
+	261 [label="if the co-workers do not corporate with each other that would be devastating in a work environment",color=green];
+	201 [label="When I requested my co-worker to give a helping hand to finish my work early , he turned down my request giving a silly excuse",color=blue];
+	261 [label="if the co-workers do not corporate with each other that would be devastating in a work environment",color=green];
+	227 [label="From that day onwards I did not offer him any support and finally he was transferred from our department to a distant location as a punishment for his irresponsibility",color=blue];
+	261 [label="if the co-workers do not corporate with each other that would be devastating in a work environment",color=green];
+	279 [label="The co-workers need to trust each other",color=green];
+	287 [label="They should not act on suspicion",color=blue];
+	388 [label="the co-workers should believe in fellowship",color=green];
+	395 [label="This helps them to enjoy their work life while building up very strong personal relationships",color=blue];
+}

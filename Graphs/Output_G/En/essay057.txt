@@ -1,0 +1,11 @@
+digraph G {
+	47 -> 30;
+	49 -> 35;
+	120 -> 113;
+	30 [label="creative artists must",color=green];
+	47 [label="again",color=blue];
+	35 [label="the freedom to express their ideas without any restrictions",color=green];
+	49 [label="creative artists like michaelangelo , picasso , salman rushdie , shakespeare etc",color=blue];
+	113 [label="innovative works makes people realize things in",color=green];
+	120 [label="a peaceful",color=blue];
+}

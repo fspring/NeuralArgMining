@@ -1,0 +1,5 @@
+digraph G {
+	99 -> 64;
+	64 [label="a google sempre quis ser uma amiga e parceira da indústria de notícias , diz , citado pela agência france-presse , o responsável da empresa pelas parcerias estratégicas na europa , carlo dasaro biondo",color=green];
+	99 [label="contudo , reconheceu o responsável , várias vezes houve uma má interpretação do relacionamento da google com a indústria dos media",color=blue];
+}

@@ -1,0 +1,11 @@
+digraph G {
+	150 -> 120;
+	224 -> 191;
+	203 -> 256;
+	120 [label="such a remarkable effect has incorporation that all students can improve their weak points in a group",color=green];
+	150 [label="in a group of student , the best of those always encourages others to study harder",color=blue];
+	191 [label="learning",color=green];
+	224 [label="group-studying causes some kind of internal obligation to manage the time , inasmuch as we always care about other people and we do not want to waste their time",color=blue];
+	203 [label="when the students study with their friends , they should have schedule to use their time in an effective manner",color=blue];
+	256 [label="time management is another brilliant benefit of group-studying",color=green];
+}

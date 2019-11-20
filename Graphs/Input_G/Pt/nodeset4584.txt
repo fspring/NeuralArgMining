@@ -1,0 +1,11 @@
+digraph G {
+	4 -> 36;
+	118 -> 100;
+	229 -> 191;
+	4 [label="AFP referem números mais modestos , admitindo que possam ser resgatadas entre 1200 a 1300 pessoas na operação que decorre entre a costa líbia e a ilha italiana de Lampedusa",color=blue];
+	36 [label="regularmente chegam imigrantes ilegais vindos do Norte de África",color=green];
+	100 [label="Um incidente alarmante ocorreu perto da costa líbia",color=green];
+	118 [label="uma embarcação da guarda-costeira italiana , que socorria uma das canoas com imigrantes subsaarianos , foi abordada por uma lancha rápida vinda da costa e quatro homens armados de metralhadoras kalachnikov ameaçaram as forças italianas , exigindo que abandonassem o barco vazio",color=blue];
+	191 [label="Cerca de 330 migrantes da África subsaariana , que partiram a 7 de fevereiro de uma praia próxima da capital da Líbia , Tripoli , desapareceram ou morreram de frio",color=green];
+	229 [label="condições atmosféricas adversas",color=blue];
+}

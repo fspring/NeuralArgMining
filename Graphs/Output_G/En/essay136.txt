@@ -1,0 +1,17 @@
+digraph G {
+	97 -> 78;
+	140 -> 175;
+	142 -> 175;
+	194 -> 193;
+	256 -> 293;
+	78 [label="that the widespread of alternative sources of knowledge has played an important role in students' acquisition of knowledge",color=green];
+	97 [label="computers can be programmed to provide an endless numbers of questions in diverse range of fields",color=blue];
+	140 [label="of",color=blue];
+	175 [label="and receive correct answers from unknown people in faraway places without any costs",color=green];
+	142 [label="ibt exams , as candidates",color=blue];
+	175 [label="and receive correct answers from unknown people in faraway places without any costs",color=green];
+	193 [label="past",color=green];
+	194 [label=", conducting a research require long hours of searching in",color=blue];
+	256 [label="at schools",color=blue];
+	293 [label="education approaches are also indispensable",color=green];
+}

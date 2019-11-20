@@ -1,0 +1,11 @@
+digraph G {
+	56 -> 48;
+	56 -> 53;
+	302 -> 339;
+	48 [label="their unresponsiveness to",color=green];
+	56 [label="and foremost , old workers are not a patch on the younger ones for their unchanged paradigm",color=blue];
+	53 [label="workplace",color=green];
+	56 [label="and foremost , old workers are not a patch on the younger ones for their unchanged paradigm",color=blue];
+	302 [label="old workers , but their lack of authority over such basically required fields in this day and age leads to their incompetence in every modern workplace",color=blue];
+	339 [label="themselves subordinate to the following generation in all aspects",color=green];
+}

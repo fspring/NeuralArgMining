@@ -1,0 +1,20 @@
+digraph G {
+	217 -> 235;
+	227 -> 235;
+	250 -> 251;
+	269 -> 311;
+	291 -> 311;
+	302 -> 311;
+	217 [label="this problems depend on how hard study they do",color=blue];
+	235 [label="teachers should not be paid by testing result that students get",color=green];
+	227 [label="it is not teachers fault",color=blue];
+	235 [label="teachers should not be paid by testing result that students get",color=green];
+	250 [label="could",color=blue];
+	251 [label="lead to a big problem if schools pay teachers by grade",color=green];
+	269 [label="in quality of education",color=blue];
+	311 [label="grade that students get should not be in evaluating teacher",color=green];
+	291 [label="teachers may just give high grades to get higher salary",color=blue];
+	311 [label="grade that students get should not be in evaluating teacher",color=green];
+	302 [label="this problem should not be happened",color=blue];
+	311 [label="grade that students get should not be in evaluating teacher",color=green];
+}

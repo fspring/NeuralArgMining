@@ -1,0 +1,23 @@
+digraph G {
+	126 -> 64;
+	126 -> 101;
+	126 -> 326;
+	155 -> 326;
+	257 -> 288;
+	310 -> 288;
+	310 -> 326;
+	64 [label="I prefer to live in bigger cities than in small ones",color=green];
+	126 [label="Life in big cities cities gives one new challenges every day , let it be deciding which restaurant to go to or deciding which company to work for",color=blue];
+	101 [label="living in a dynamic environment can turn into a very rich experience that sharpens one's personality and open one's eyes on the real world",color=green];
+	126 [label="Life in big cities cities gives one new challenges every day , let it be deciding which restaurant to go to or deciding which company to work for",color=blue];
+	126 [label="Life in big cities cities gives one new challenges every day , let it be deciding which restaurant to go to or deciding which company to work for",color=blue];
+	326 [label="I prefer to live in a big city",color=green];
+	155 [label="For me , this lifestyles is very attractive and is considered a huge advantage of big cities compared with the constant , slow paced life styles of small towns",color=blue];
+	326 [label="I prefer to live in a big city",color=green];
+	257 [label="economic power of a country is driven by it's big cities and the majority of wealth and finance is centered and controlled in big cities",color=blue];
+	288 [label="big cities offer more opportunities for one's career advancements and a more chances of higher income that small towns does",color=green];
+	288 [label="big cities offer more opportunities for one's career advancements and a more chances of higher income that small towns does",color=green];
+	310 [label="higher income can be the basis of a happier , healthier life",color=blue];
+	310 [label="higher income can be the basis of a happier , healthier life",color=blue];
+	326 [label="I prefer to live in a big city",color=green];
+}

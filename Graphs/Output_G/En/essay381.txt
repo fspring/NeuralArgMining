@@ -1,0 +1,11 @@
+digraph G {
+	105 -> 59;
+	81 -> 74;
+	81 -> 79;
+	59 [label="which",color=green];
+	105 [label="criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs",color=blue];
+	74 [label="we",color=green];
+	81 [label="with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself",color=blue];
+	79 [label="police armed",color=green];
+	81 [label="with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself",color=blue];
+}

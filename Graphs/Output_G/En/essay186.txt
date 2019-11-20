@@ -1,0 +1,23 @@
+digraph G {
+	87 -> 83;
+	145 -> 105;
+	145 -> 109;
+	323 -> 245;
+	333 -> 258;
+	295 -> 386;
+	354 -> 379;
+	83 [label="land used for farmland",color=green];
+	87 [label=", housing and industry can benefit more to the whole society",color=blue];
+	105 [label="economy",color=green];
+	145 [label="is more , the society will be stable and harmony due to more farmland and industry",color=blue];
+	109 [label="society",color=green];
+	145 [label="is more , the society will be stable and harmony due to more farmland and industry",color=blue];
+	245 [label="essential",color=green];
+	323 [label="agriculture and industry make a contribution to the economy",color=blue];
+	258 [label="most significant",color=green];
+	333 [label="with the economy development",color=blue];
+	295 [label="housing and industry will occupy the land used for endangered animals , it can do good to protect the endangered animals",color=blue];
+	386 [label="human needs for farmland , housing and industry are more important",color=green];
+	354 [label="we can invent new technique to help endangered animals to produce offspring to be sure they would",color=blue];
+	379 [label="endangered animals is necessary",color=green];
+}

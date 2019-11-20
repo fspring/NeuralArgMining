@@ -1,0 +1,26 @@
+digraph G {
+	78 -> 66;
+	78 -> 96;
+	123 -> 96;
+	123 -> 249;
+	139 -> 182;
+	146 -> 182;
+	221 -> 205;
+	221 -> 249;
+	66 [label="this is a worrying tread which has negative impact on children",color=green];
+	78 [label="The first impression of the celebrities seems that they are rich while not having to work hard",color=blue];
+	78 [label="The first impression of the celebrities seems that they are rich while not having to work hard",color=blue];
+	96 [label="This gives children the idea that it is not necessary to study hard at school for a better career and earning a living",color=green];
+	96 [label="This gives children the idea that it is not necessary to study hard at school for a better career and earning a living",color=green];
+	123 [label="they will not value other people's hard work and take everything for granted",color=blue];
+	123 [label="they will not value other people's hard work and take everything for granted",color=blue];
+	249 [label="media should shift its focus from covering celebrities to elsewhere",color=green];
+	139 [label="not all celebrities are role models",color=blue];
+	182 [label="without proper parenting , children may perceive that this is the cool life people are supposed to be living",color=green];
+	146 [label="It is not uncommon to see on the media that some of them are committing to crimes or misbehaving such as being addicted to drugs or alcohols , having messy sex lives",color=blue];
+	182 [label="without proper parenting , children may perceive that this is the cool life people are supposed to be living",color=green];
+	205 [label="some celebrities , e .g . writers , passionate entrepreneurs are good examples to children",color=green];
+	221 [label="they share fascinating stories or how to pursue their goal by doing something that has a meaning to them and may change the world",color=blue];
+	221 [label="they share fascinating stories or how to pursue their goal by doing something that has a meaning to them and may change the world",color=blue];
+	249 [label="media should shift its focus from covering celebrities to elsewhere",color=green];
+}

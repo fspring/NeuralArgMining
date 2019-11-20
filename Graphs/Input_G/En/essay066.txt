@@ -1,0 +1,35 @@
+digraph G {
+	111 -> 75;
+	111 -> 87;
+	111 -> 343;
+	131 -> 343;
+	165 -> 343;
+	215 -> 195;
+	215 -> 343;
+	245 -> 343;
+	290 -> 269;
+	290 -> 343;
+	322 -> 343;
+	75 [label="technology plays a key role in promoting traditional techniques and lifestyles",color=green];
+	111 [label="In the past , only when people went to the local place could they experience the specific traditional lifestyles",color=blue];
+	87 [label="In terms of time and space , technology makes it more efficient and effective to promote the traditional skills and ways of life",color=green];
+	111 [label="In the past , only when people went to the local place could they experience the specific traditional lifestyles",color=blue];
+	111 [label="In the past , only when people went to the local place could they experience the specific traditional lifestyles",color=blue];
+	343 [label="technology indeed supports the preservation and promotion of traditional techniques and lifestyles",color=green];
+	131 [label="This means individuals who were engaged in work and therefore could not spare time to travel or restricted by traffic conditions had to miss the chance to appreciate the traditional skills",color=blue];
+	343 [label="technology indeed supports the preservation and promotion of traditional techniques and lifestyles",color=green];
+	165 [label="with the access to the Internet , one of the greatest innovations in modern society , humankind can acquire the traditional techniques displayed online anytime , anywhere",color=blue];
+	343 [label="technology indeed supports the preservation and promotion of traditional techniques and lifestyles",color=green];
+	195 [label="technology enriches the way of displaying traditional cultural heritage , making it more vivid and appealing",color=green];
+	215 [label="China has successfully promoted traditional techniques in the Shanghai World Expo , using a variety of state-of-the-art technological methods , such as robots and LED screens",color=blue];
+	215 [label="China has successfully promoted traditional techniques in the Shanghai World Expo , using a variety of state-of-the-art technological methods , such as robots and LED screens",color=blue];
+	343 [label="technology indeed supports the preservation and promotion of traditional techniques and lifestyles",color=green];
+	245 [label="many tourists around the world marveled at the perfect synthesis of the modern technology and the traditional culture",color=blue];
+	343 [label="technology indeed supports the preservation and promotion of traditional techniques and lifestyles",color=green];
+	269 [label="some people are concerned that technology may have a detrimental effect on the traditional lifestyles",color=green];
+	290 [label="especially youngsters , are crazier about fresh and advanced things , such as digital products , thus becoming indifferent to traditional techniques",color=blue];
+	290 [label="especially youngsters , are crazier about fresh and advanced things , such as digital products , thus becoming indifferent to traditional techniques",color=blue];
+	343 [label="technology indeed supports the preservation and promotion of traditional techniques and lifestyles",color=green];
+	322 [label="people tend to follow the trend back to the tradition in the recent years",color=blue];
+	343 [label="technology indeed supports the preservation and promotion of traditional techniques and lifestyles",color=green];
+}

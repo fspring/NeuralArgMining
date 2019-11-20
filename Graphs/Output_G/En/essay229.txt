@@ -1,0 +1,5 @@
+digraph G {
+	97 -> 76;
+	76 [label="a mistake does not last for a long time but a friendship lasts forever",color=green];
+	97 [label="if someone remembers mistake , he or she has a closed mind",color=blue];
+}

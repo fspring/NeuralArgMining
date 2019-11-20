@@ -1,0 +1,8 @@
+digraph G {
+	91 -> 80;
+	328 -> 414;
+	80 [label="me",color=green];
+	91 [label="in the",color=blue];
+	328 [label="some extent , the gap between rich people and poor is widen by technology , because only the rich people have ability to afford the expensive high-tech products , and these products can help them to earn more in return",color=blue];
+	414 [label="the human being can be benefit a lot and perpetually from the advancement of it",color=green];
+}

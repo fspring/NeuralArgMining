@@ -1,0 +1,26 @@
+digraph G {
+	88 -> 47;
+	105 -> 61;
+	88 -> 243;
+	105 -> 243;
+	123 -> 243;
+	173 -> 156;
+	173 -> 243;
+	205 -> 243;
+	47 [label="this plan should be put into practice",color=green];
+	88 [label="Children should be taught about balanced diets , nutritious food as well as harmful ones",color=blue];
+	61 [label="No one can argue the importance to include health lessons in school programmes , especially at primary level , in the hope of raising people's awareness",color=green];
+	105 [label="they will have a fundamental grasp of how to lead a healthy lifestyle",color=blue];
+	88 [label="Children should be taught about balanced diets , nutritious food as well as harmful ones",color=blue];
+	243 [label="I have to concede to the materialistic diversion from treatment to health education and preventative measures",color=green];
+	105 [label="they will have a fundamental grasp of how to lead a healthy lifestyle",color=blue];
+	243 [label="I have to concede to the materialistic diversion from treatment to health education and preventative measures",color=green];
+	123 [label="it is much easier for people at early ages to form a habit of , for instance , not consuming too much fast food , over-fried food or intoxicants",color=blue];
+	243 [label="I have to concede to the materialistic diversion from treatment to health education and preventative measures",color=green];
+	156 [label="it will be of economic benefit to pre-empt certain kinds of diseases",color=green];
+	173 [label="such unpreventable illnesses as cancer or HIV will cost the victim a fortune , not to cure , but to lengthen his longevity for 1 or 2 more years",color=blue];
+	173 [label="such unpreventable illnesses as cancer or HIV will cost the victim a fortune , not to cure , but to lengthen his longevity for 1 or 2 more years",color=blue];
+	243 [label="I have to concede to the materialistic diversion from treatment to health education and preventative measures",color=green];
+	205 [label="if humans tend to keep fit more regularly by participating in outdoor activities or using health-care product , obesity , myopia or other diseases that require expensive treatments will never stand a chance",color=blue];
+	243 [label="I have to concede to the materialistic diversion from treatment to health education and preventative measures",color=green];
+}

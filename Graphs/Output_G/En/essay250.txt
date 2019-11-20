@@ -1,0 +1,11 @@
+digraph G {
+	110 -> 85;
+	296 -> 286;
+	296 -> 295;
+	85 [label="those who are paid high salaries",color=green];
+	110 [label="as we are now live in a competent world , we must show ourselves to be great enough so as to convince the employer that we deserve a better payment",color=blue];
+	286 [label="as long as everyone has",color=green];
+	296 [label="dreams and careers , that would be fair",color=blue];
+	295 [label="his/her",color=green];
+	296 [label="dreams and careers , that would be fair",color=blue];
+}

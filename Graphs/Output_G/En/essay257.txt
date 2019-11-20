@@ -1,0 +1,26 @@
+digraph G {
+	99 -> 89;
+	259 -> 432;
+	279 -> 432;
+	301 -> 432;
+	332 -> 432;
+	354 -> 423;
+	390 -> 428;
+	416 -> 415;
+	89 [label="famous people are usually diligent people not lucky people",color=green];
+	99 [label="hard work make you a professional man/woman which are powerful in his or her job",color=blue];
+	259 [label="for example you prepare for toefl or other multiple-choice test which has four option to choose in every question",color=blue];
+	432 [label="its impact is extraneous and we must not reckon on luck in our plans",color=green];
+	279 [label="you cannot prepare for it without any study and rely on your luck , even if you be a very lucky",color=blue];
+	432 [label="its impact is extraneous and we must not reckon on luck in our plans",color=green];
+	301 [label="if you pick up any choice by chance you would fail the exam",color=blue];
+	432 [label="its impact is extraneous and we must not reckon on luck in our plans",color=green];
+	332 [label="you have to work hard to learn and to get a lot of information before doing a project in good way",color=blue];
+	432 [label="its impact is extraneous and we must not reckon on luck in our plans",color=green];
+	354 [label="the most fortunate people in the word cannot manufacture an automobile or build a high tower just by her or his chance",color=blue];
+	423 [label="though luck is one",color=green];
+	390 [label="undoubtedly such people do work hard and have great experiences because of their hard works",color=blue];
+	428 [label="in reaching goal",color=green];
+	415 [label="need",color=green];
+	416 [label="great work not great luck",color=blue];
+}

@@ -1,0 +1,23 @@
+digraph G {
+	93 -> 21;
+	93 -> 69;
+	93 -> 231;
+	102 -> 231;
+	119 -> 231;
+	145 -> 132;
+	145 -> 231;
+	21 [label="I personaly tend to visit museums when I'm in a new place",color=green];
+	93 [label="And also taking the chance for making friends",color=blue];
+	69 [label="museums provide a tremendous amount of information about different aspects of the history and culture of that place",color=green];
+	93 [label="And also taking the chance for making friends",color=blue];
+	93 [label="And also taking the chance for making friends",color=blue];
+	231 [label="it's fun and educational",color=green];
+	102 [label="Visit museums can bring you the opportunity to establish relations and knowledge to participate in conversations",color=blue];
+	231 [label="it's fun and educational",color=green];
+	119 [label="And that kind of knowledge speaks very highly of you",color=blue];
+	231 [label="it's fun and educational",color=green];
+	132 [label="other people visit museums are the most boring expirience of a trip",color=green];
+	145 [label="My cousin Pedro literaly hates to visit museums but he really enjoyed his visit to the famous London - Madame Tussaud museum , it was kind of art entertainment but also that visit helped him to understand the artist works , and in addition he started to respect and admire other types of arts that offers in other museums",color=blue];
+	145 [label="My cousin Pedro literaly hates to visit museums but he really enjoyed his visit to the famous London - Madame Tussaud museum , it was kind of art entertainment but also that visit helped him to understand the artist works , and in addition he started to respect and admire other types of arts that offers in other museums",color=blue];
+	231 [label="it's fun and educational",color=green];
+}

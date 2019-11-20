@@ -1,0 +1,29 @@
+digraph G {
+	88 -> 339;
+	284 -> 166;
+	265 -> 173;
+	175 -> 352;
+	265 -> 201;
+	238 -> 352;
+	248 -> 352;
+	284 -> 339;
+	309 -> 339;
+	88 [label="a person can not learn or achieve everything by oneself",color=blue];
+	339 [label="of the same coin which can't be separated",color=green];
+	166 [label="one's strengths and weaknesses as",color=green];
+	284 [label="loss , my gain' kind of competition can never be fruitful in the long run",color=blue];
+	173 [label="others",color=green];
+	265 [label="this kind of competition gives customers more options",color=blue];
+	175 [label="a co-operative approach can create inspirational and motivational feeling seeing other people's achievements",color=blue];
+	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
+	201 [label="the meaning of competiton has been modified in a",color=green];
+	265 [label="this kind of competition gives customers more options",color=blue];
+	238 [label="competition helps in improvement and evolution",color=blue];
+	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
+	248 [label="every other day , new cars are developed by companies which are more efficient than others",color=blue];
+	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
+	284 [label="loss , my gain' kind of competition can never be fruitful in the long run",color=blue];
+	339 [label="of the same coin which can't be separated",color=green];
+	309 [label="a healthy competition which involves raising one's own level above others is the best approach",color=blue];
+	339 [label="of the same coin which can't be separated",color=green];
+}

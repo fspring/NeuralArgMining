@@ -1,0 +1,32 @@
+digraph G {
+	89 -> 50;
+	89 -> 69;
+	89 -> 285;
+	103 -> 285;
+	155 -> 131;
+	155 -> 285;
+	174 -> 285;
+	220 -> 197;
+	220 -> 285;
+	249 -> 285;
+	50 [label="it should increase the level of control to protect the public against inappropriate contents and unsuitable foreign cultures",color=green];
+	89 [label="They have a serious impact on people in their puberty",color=blue];
+	69 [label="One of the strong arguments in favour of tighter media control is to limit the violent and sexual content",color=green];
+	89 [label="They have a serious impact on people in their puberty",color=blue];
+	89 [label="They have a serious impact on people in their puberty",color=blue];
+	285 [label="the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information",color=green];
+	103 [label="an internet cartoon comedy called happy tree is extremely brutal , where the characters usually have their heads or limbs tear off",color=blue];
+	285 [label="the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information",color=green];
+	131 [label="television companies import foreign programmes from time to time and audiences might accept their ideas which maybe otherwise not welcomed to local culture",color=green];
+	155 [label="A few years ago there was a Japanese game show which involved throwing cream cakes to the loser",color=blue];
+	155 [label="A few years ago there was a Japanese game show which involved throwing cream cakes to the loser",color=blue];
+	285 [label="the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information",color=green];
+	174 [label="This is actually very environmentally unfriendly",color=blue];
+	285 [label="the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information",color=green];
+	197 [label="the government should disclose the information to the media in a timely manner , especially for disasters and outbreak of new diseases",color=green];
+	220 [label="Taking the SARS in 2003 as an example , the Chinese government limited the amount of information for public access which therefore causes numerous deaths",color=blue];
+	220 [label="Taking the SARS in 2003 as an example , the Chinese government limited the amount of information for public access which therefore causes numerous deaths",color=blue];
+	285 [label="the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information",color=green];
+	249 [label="another perspective on this is to prevent the citizen from unnecessary fear and unrest",color=blue];
+	285 [label="the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information",color=green];
+}

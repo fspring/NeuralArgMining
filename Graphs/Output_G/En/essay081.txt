@@ -1,0 +1,32 @@
+digraph G {
+	126 -> 96;
+	149 -> 105;
+	149 -> 114;
+	126 -> 121;
+	166 -> 243;
+	210 -> 224;
+	237 -> 243;
+	273 -> 274;
+	299 -> 291;
+	315 -> 371;
+	96 [label="given the opportunity to express themselves ,",color=green];
+	126 [label="paintings by da vinci and michallengo are admired even till now as they were not restricted during those times",color=blue];
+	105 [label="will think out of the box and come",color=green];
+	149 [label="without any limitations , there will be more awe inspiring work from our artists",color=blue];
+	114 [label="with spectacular arts such as",color=green];
+	149 [label="without any limitations , there will be more awe inspiring work from our artists",color=blue];
+	121 [label="movies",color=green];
+	126 [label="paintings by da vinci and michallengo are admired even till now as they were not restricted during those times",color=blue];
+	166 [label="it is every human's right to be able to voice out their opinions in any ways as long as they do not cause any problems to the nation",color=blue];
+	243 [label="by amir khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn",color=green];
+	210 [label="arts is one of the ways that can be used to",color=blue];
+	224 [label="and government policies in a particular country",color=green];
+	237 [label="the famous movie '3 idiots' acted",color=blue];
+	243 [label="by amir khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn",color=green];
+	273 [label="if",color=blue];
+	274 [label="artists are not allowed to express their feelings freely",color=green];
+	291 [label="certain drawbacks if artists are not restricted",color=green];
+	299 [label="they might go deeper into certain aspects that can cause controversies in a country",color=blue];
+	315 [label="cite an example , malaysia is a multiracial country whereby all the citizens live together in harmony and peace",color=blue];
+	371 [label="artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts",color=green];
+}

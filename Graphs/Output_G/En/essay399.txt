@@ -1,0 +1,5 @@
+digraph G {
+	96 -> 50;
+	50 [label="cover as much news of the",color=green];
+	96 [label="this gives children the idea that it is not necessary to study hard at school for a better career and earning a living",color=blue];
+}

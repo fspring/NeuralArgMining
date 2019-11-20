@@ -1,0 +1,14 @@
+digraph G {
+	118 -> 105;
+	250 -> 303;
+	268 -> 303;
+	285 -> 303;
+	105 [label="only when we see the real mummy , can we experience",color=green];
+	118 [label="in order to help visitors to learn more about the exhibits , museums hold various activities which make visitors be part of what they are seeing",color=blue];
+	250 [label="what's more , not all the details of the artwork can be shown on the computer screen",color=blue];
+	303 [label="we still need museums and art galleries but computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects",color=green];
+	268 [label="some details might be dim since the resolution ratio of the screen is not high enough",color=blue];
+	303 [label="we still need museums and art galleries but computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects",color=green];
+	285 [label="these may influence the comprehension of the art work or historical objects",color=blue];
+	303 [label="we still need museums and art galleries but computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects",color=green];
+}

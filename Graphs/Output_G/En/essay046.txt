@@ -1,0 +1,26 @@
+digraph G {
+	125 -> 107;
+	137 -> 119;
+	137 -> 121;
+	167 -> 294;
+	189 -> 294;
+	232 -> 231;
+	264 -> 294;
+	271 -> 294;
+	107 [label="it is the main or best function of a university",color=green];
+	125 [label="is a medium for conveying or providing access to knowledge",color=blue];
+	119 [label="university",color=green];
+	137 [label="is meant by this is that students are the ones universities should really cater for , not the employers , as students are the ones here to seek knowledge",color=blue];
+	121 [label="in common",color=green];
+	137 [label="is meant by this is that students are the ones universities should really cater for , not the employers , as students are the ones here to seek knowledge",color=blue];
+	167 [label="high school graduates choose to further educate themselves in universities because of all different",color=blue];
+	294 [label="the main function of a university remains as the provision of knowledge and access to resources",color=green];
+	189 [label=", gain knowledge and insight into an industry , or simply deepen their research interests in a certain field",color=blue];
+	294 [label="the main function of a university remains as the provision of knowledge and access to resources",color=green];
+	231 [label="necessary",color=green];
+	232 [label="for a certain course or type of training to be offered to the students by a university , but instead , these must be made available when needed",color=blue];
+	264 [label="lies somewhere",color=blue];
+	294 [label="the main function of a university remains as the provision of knowledge and access to resources",color=green];
+	271 [label="a university should provide access to information , rather than offer selected courses that are suitable for employers' taste",color=blue];
+	294 [label="the main function of a university remains as the provision of knowledge and access to resources",color=green];
+}

@@ -1,0 +1,23 @@
+digraph G {
+	70 -> 56;
+	86 -> 62;
+	194 -> 162;
+	194 -> 292;
+	226 -> 223;
+	256 -> 303;
+	263 -> 303;
+	56 [label="which influence their whole life",color=green];
+	70 [label="they do not know any thing all around but they learn everything from their parents",color=blue];
+	62 [label="by their parents",color=green];
+	86 [label="parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that",color=blue];
+	162 [label="is common that they try to explain who is a good or bad person",color=green];
+	194 [label="to be easy but this can influence positively their future children and makes children's behavior better before they face the real world",color=blue];
+	194 [label="to be easy but this can influence positively their future children and makes children's behavior better before they face the real world",color=blue];
+	292 [label="which makes people succeed in their life",color=green];
+	223 [label="parents are ones",color=green];
+	226 [label="who loves their children most and always take care of their children",color=blue];
+	256 [label="unlike a professional , parents always",color=blue];
+	303 [label="parents are really the best teachers who give us much knowledge and advice",color=green];
+	263 [label="children and give them much social skill so they can communicate well with others and have good habit in life",color=blue];
+	303 [label="parents are really the best teachers who give us much knowledge and advice",color=green];
+}

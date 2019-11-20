@@ -1,0 +1,11 @@
+digraph G {
+	92 -> 66;
+	306 -> 344;
+	318 -> 344;
+	66 [label="people say that if humans stop using technology and lead a simple way of life then only we can save the environment",color=green];
+	92 [label="it is the luxuries people use which damages the environment",color=blue];
+	306 [label="if successful , the impact on the world would be monumental",color=blue];
+	344 [label="i pen",color=green];
+	318 [label="it would mean energy for schools , hospitals , and homes",color=blue];
+	344 [label="i pen",color=green];
+}

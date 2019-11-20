@@ -1,0 +1,20 @@
+digraph G {
+	157 -> 316;
+	250 -> 215;
+	250 -> 227;
+	250 -> 316;
+	271 -> 316;
+	293 -> 316;
+	157 [label="while i was a kid my father used to maintain expense log for the month , i was asked to do the same for my keep track of my pocket money expenses , during my future course of life this became a practice and helped me in planning my expenses",color=blue];
+	316 [label="i think students understanding the money management techniques will have more positive effects than negative impact",color=green];
+	215 [label="taught at an early age",color=green];
+	250 [label="buying a gaming console may not be a big deal for a student from an affluent financial background",color=blue];
+	227 [label="understanding of their family financial background and status , students coming up with unrealistic whims and fancies are minimized",color=green];
+	250 [label="buying a gaming console may not be a big deal for a student from an affluent financial background",color=blue];
+	250 [label="buying a gaming console may not be a big deal for a student from an affluent financial background",color=blue];
+	316 [label="i think students understanding the money management techniques will have more positive effects than negative impact",color=green];
+	271 [label="for a student coming from middle class buying a gaming console may not be the need of the hour",color=blue];
+	316 [label="i think students understanding the money management techniques will have more positive effects than negative impact",color=green];
+	293 [label="having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently",color=blue];
+	316 [label="i think students understanding the money management techniques will have more positive effects than negative impact",color=green];
+}

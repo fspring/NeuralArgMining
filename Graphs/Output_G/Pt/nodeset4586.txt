@@ -1,0 +1,5 @@
+digraph G {
+	15 -> 38;
+	15 [label="o ainda presidente do governo regional gritou não pagamos , numa referência à dívida que a madeira contraiu sob a sua liderança",color=blue];
+	38 [label="alberto joão jardim aconselhou o seu sucessor a não se vergar ao governo de lisboa",color=green];
+}

@@ -1,0 +1,17 @@
+digraph G {
+	78 -> 69;
+	128 -> 234;
+	149 -> 218;
+	157 -> 218;
+	195 -> 218;
+	69 [label="city provides more work opportunities than the countryside",color=green];
+	78 [label="there are not only more jobs , but they are also well-paid",color=blue];
+	128 [label="meeting and knowing new people's tradition is an unforgettable experience , which could influence on one's previous habits",color=blue];
+	234 [label="today living in the rural places is in most causes connected with agrarian lifestyle",color=green];
+	149 [label="the city has well-organised lines of transport",color=blue];
+	218 [label="living in the city is much better nowadays",color=green];
+	157 [label="the buses and trains are more frequent than in the countryside , so the city provides better communication",color=blue];
+	218 [label="living in the city is much better nowadays",color=green];
+	195 [label="peaceful and close to the nature areas could help to avoid worries and sadness",color=blue];
+	218 [label="living in the city is much better nowadays",color=green];
+}

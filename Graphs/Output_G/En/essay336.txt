@@ -1,0 +1,11 @@
+digraph G {
+	107 -> 132;
+	197 -> 228;
+	225 -> 228;
+	107 [label="this",color=blue];
+	132 [label="that this behavior is inexcusable",color=green];
+	197 [label="many schools for preparation of so-called stars and various advertisements about famous people may mislead with",color=blue];
+	228 [label="children who should not choose their future job because of the influence of the mass media",color=green];
+	225 [label="this may confuse",color=blue];
+	228 [label="children who should not choose their future job because of the influence of the mass media",color=green];
+}

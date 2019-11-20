@@ -1,0 +1,8 @@
+digraph G {
+	126 -> 167;
+	225 -> 274;
+	126 [label="that women tend to work in various fields which in the past normally done by men such as being engineers , and dealing with machines",color=blue];
+	167 [label="female students are indicated having the same potential and capability as men",color=green];
+	225 [label="learning from human's history , education provides someone to widen his or her knowledge and experience for facing the real situation of workplace through subject taught in college",color=blue];
+	274 [label="the needs for having developed-skills and gaining degree certificate in order to build someone's career are totally needed to implement and applied for any gender",color=green];
+}

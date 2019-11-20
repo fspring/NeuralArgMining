@@ -1,0 +1,8 @@
+digraph G {
+	45 -> 67;
+	152 -> 166;
+	45 [label="não é razoável colocar tantos candidatos ao mesmo tempo e de valia tão diferente a debater o que quer que seja",color=blue];
+	67 [label="O resultado ficou à vista de todos",color=green];
+	152 [label="nada até agora tinha ainda atingido o nível do serão televisivo de terça-feira",color=blue];
+	166 [label="Não nos podemos depois surpreender com o aumento dos níveis de abstenção",color=green];
+}

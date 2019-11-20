@@ -1,0 +1,17 @@
+digraph G {
+	61 -> 39;
+	161 -> 151;
+	251 -> 221;
+	251 -> 327;
+	281 -> 327;
+	39 [label="a large number of students are obsessed in on-line computer games and as a result their performance in school are declined",color=green];
+	61 [label="an investigation done by beijing university shows that 80% of the students who failed in the final exam paid 2 hours or more on-online games every week , while 90% excellent students expressed that they did not touch computer games during the most of the days",color=blue];
+	151 [label="time on this activity is really time wasting",color=green];
+	161 [label="all these games are developed for commercial purpose and in order to catch the eyes of the children , majority of the games use war , violence , bloody , or sexual subjects to lure the students",color=blue];
+	221 [label="are a few students paying",color=green];
+	251 [label="majority of the students failed in front of the computer games playing and they use their time for studying , sleeping and physical exerice to play these computer games",color=blue];
+	251 [label="majority of the students failed in front of the computer games playing and they use their time for studying , sleeping and physical exerice to play these computer games",color=blue];
+	327 [label="it is better that children are not be allowed to play the computer games",color=green];
+	281 [label="it is not uncommon that the teenages are found sleepless for several days playing on-line games at public internet bar , and there are also some media reports regarding the sudden death case of the teenages in the internet bar",color=blue];
+	327 [label="it is better that children are not be allowed to play the computer games",color=green];
+}

@@ -1,0 +1,35 @@
+digraph G {
+	69 -> 83;
+	96 -> 83;
+	96 -> 436;
+	171 -> 250;
+	200 -> 250;
+	284 -> 262;
+	284 -> 436;
+	321 -> 311;
+	321 -> 436;
+	405 -> 436;
+	413 -> 436;
+	69 [label="friends is a treasure with respect to either our daylife or our career",color=blue];
+	83 [label="Relating well to people can bring plenty of merits to future job",color=green];
+	83 [label="Relating well to people can bring plenty of merits to future job",color=green];
+	96 [label="Having a good ability of relate to people means you have a number of friends in a variety of fields , imagine when you are in trouble , you have a lot of people who have good relationship with you , so you can ask for your friends to help you solve this problem as soon as possible , even an esy phone call , instend of a series of complex solutions",color=blue];
+	96 [label="Having a good ability of relate to people means you have a number of friends in a variety of fields , imagine when you are in trouble , you have a lot of people who have good relationship with you , so you can ask for your friends to help you solve this problem as soon as possible , even an esy phone call , instend of a series of complex solutions",color=blue];
+	436 [label="I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school",color=green];
+	171 [label="no matter who you are a top-level managers of a company or a low-level employee of that company , relating well to people is also a importent issue",color=blue];
+	250 [label="make a good relationship with them",color=green];
+	200 [label="If top-level managers want to make a project successful , have a good relationship with their subordinaries is the prerequisit for the managers' work complete successfully , managers should listen to their employees needs and complaints about this job , pay much patiant and care to them",color=blue];
+	250 [label="make a good relationship with them",color=green];
+	262 [label="if a low-level employee desire to enhance his position , it's fairly important to have a good relationship with their boss",color=green];
+	284 [label="only if the employee is considered excellent in his boss's eyes , he will be more possible to enhance position",color=blue];
+	284 [label="only if the employee is considered excellent in his boss's eyes , he will be more possible to enhance position",color=blue];
+	436 [label="I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school",color=green];
+	311 [label="good specify knowledge is more crucial for future job",color=green];
+	321 [label="Studying harder in school , getting a good resume and absorbing lots of working knowledge , which can make these graduates more competitive than other applicants in one certain job",color=blue];
+	321 [label="Studying harder in school , getting a good resume and absorbing lots of working knowledge , which can make these graduates more competitive than other applicants in one certain job",color=blue];
+	436 [label="I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school",color=green];
+	405 [label="majority of people would choose the former",color=blue];
+	436 [label="I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school",color=green];
+	413 [label="it has more chance than the latter in terms of getting good jobs in the future",color=blue];
+	436 [label="I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school",color=green];
+}

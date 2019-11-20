@@ -1,0 +1,5 @@
+digraph G {
+	200 -> 212;
+	200 [label="tendo em conta que a Wikipédia resulta de contributos dos internautas ,",color=blue];
+	212 [label="não será de estranhar que alguém volte a tentar alterar o nome do treinador portista",color=green];
+}

@@ -1,0 +1,35 @@
+digraph G {
+	68 -> 45;
+	68 -> 55;
+	68 -> 295;
+	74 -> 295;
+	98 -> 295;
+	108 -> 295;
+	125 -> 192;
+	132 -> 192;
+	151 -> 192;
+	223 -> 256;
+	241 -> 256;
+	45 [label="primates should have the same rights as human beings",color=green];
+	68 [label="the costs outweigh the benefits",color=blue];
+	55 [label="There are several reasons why animal testing should be banned",color=green];
+	68 [label="the costs outweigh the benefits",color=blue];
+	68 [label="the costs outweigh the benefits",color=blue];
+	295 [label="it should be made illegal",color=green];
+	74 [label="Every year , cosmetic companies , farms or medical schools kill millions of animals to test their products , without any beneficial result",color=blue];
+	295 [label="it should be made illegal",color=green];
+	98 [label="Animal testing costs an enormous amount of money",color=blue];
+	295 [label="it should be made illegal",color=green];
+	108 [label="they must be fed , cared for and treated with drugs or experimental substances",color=blue];
+	295 [label="it should be made illegal",color=green];
+	125 [label="animals are kept in unnatural conditions",color=blue];
+	192 [label="sacrificing animals is an expensive and painful activity",color=green];
+	132 [label="Recent studies point out that animals are neglected and treated poorly , which influences their reactions to drugs",color=blue];
+	192 [label="sacrificing animals is an expensive and painful activity",color=green];
+	151 [label="In March 2003 , a lab technician shot a video inside a lab , which revealed primates in cages without pain medication , for instance one baboon with a metal cylinder screwed into its head",color=blue];
+	192 [label="sacrificing animals is an expensive and painful activity",color=green];
+	223 [label="it is not only inhumane and cruel to cause pain to animals , but also misleading",color=blue];
+	256 [label="human beings have no moral right to use animals in ways that do not benefit the individual",color=green];
+	241 [label="animals and people's response to a drug can be different",color=blue];
+	256 [label="human beings have no moral right to use animals in ways that do not benefit the individual",color=green];
+}

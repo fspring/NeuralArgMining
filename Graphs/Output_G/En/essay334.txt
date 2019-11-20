@@ -1,0 +1,11 @@
+digraph G {
+	63 -> 56;
+	204 -> 173;
+	262 -> 307;
+	56 [label="effective than human",color=green];
+	63 [label=", machines do not need rest , which means they can work as long as employers want and consistently produce high quality products without any mistakes",color=blue];
+	173 [label="extensive of using machines ,",color=green];
+	204 [label="using of machines are also pose serious pollution and energy dissipation",color=blue];
+	262 [label="you can imagine , if thousands of families use dish-washing machines , how many water and how much electricity will be wasted",color=blue];
+	307 [label="machines should draws more attentions as well",color=green];
+}

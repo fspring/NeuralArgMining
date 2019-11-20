@@ -1,0 +1,23 @@
+digraph G {
+	95 -> 79;
+	95 -> 285;
+	122 -> 285;
+	149 -> 285;
+	174 -> 285;
+	202 -> 264;
+	238 -> 264;
+	79 [label="public transport is a key factor to minimize the number of vehicles on the street",color=green];
+	95 [label="Buses and trains have been phased in the streets for quite a long time and have proven themselves the best candidates among all options",color=blue];
+	95 [label="Buses and trains have been phased in the streets for quite a long time and have proven themselves the best candidates among all options",color=blue];
+	285 [label="city planner can still opt for non-personal vehicle and the exploitation of the suburb areas",color=green];
+	122 [label="a bus can carry no less than 30 people , while a train can carry as much as nine or even ten times of that number",color=blue];
+	285 [label="city planner can still opt for non-personal vehicle and the exploitation of the suburb areas",color=green];
+	149 [label="Not to mention the fact that highway train is operated underground , which leaves the street above with buses and non-fuel-based vehicles",color=blue];
+	285 [label="city planner can still opt for non-personal vehicle and the exploitation of the suburb areas",color=green];
+	174 [label="they will lessen the crowded image in most cities nowadays",color=blue];
+	285 [label="city planner can still opt for non-personal vehicle and the exploitation of the suburb areas",color=green];
+	202 [label="if some of the enormous shopping malls or universities were relocated in the commuter belt , the city street would be les burstling and overly-teemed as it is now",color=blue];
+	264 [label="The city itself will be absolved of enduring the influx of immigrants as well as unemployed people",color=green];
+	238 [label="huge centers of attention distributed equally in a wide region means that residential areas will come along thus exert less pressure on the public facilities",color=blue];
+	264 [label="The city itself will be absolved of enduring the influx of immigrants as well as unemployed people",color=green];
+}

@@ -1,0 +1,20 @@
+digraph G {
+	83 -> 61;
+	83 -> 173;
+	106 -> 162;
+	130 -> 162;
+	212 -> 173;
+	270 -> 303;
+	61 [label="new university will allow a great number of people in my community to have a chance to study",color=green];
+	83 [label="suppose you live in a faraway community where there is no single university and you might not want to leave your family",color=blue];
+	83 [label="suppose you live in a faraway community where there is no single university and you might not want to leave your family",color=blue];
+	173 [label="will be more opportunities to work in the community",color=green];
+	106 [label="if you would like to attend a business school , you have to travel across the country to get to a distant university",color=blue];
+	162 [label="a number vacant positions need to be filled",color=green];
+	130 [label="he or she definitely can get in the business school in the proposed community's university",color=blue];
+	162 [label="a number vacant positions need to be filled",color=green];
+	173 [label="will be more opportunities to work in the community",color=green];
+	212 [label="building the university may lead to some social problems",color=blue];
+	270 [label="more wastes have to be managed",color=blue];
+	303 [label="with the plan to build the university",color=green];
+}

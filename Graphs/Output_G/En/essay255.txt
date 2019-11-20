@@ -1,0 +1,23 @@
+digraph G {
+	133 -> 119;
+	195 -> 179;
+	324 -> 305;
+	324 -> 436;
+	344 -> 436;
+	390 -> 436;
+	412 -> 436;
+	119 [label="it is much convenience to take a subway or a bus",color=green];
+	133 [label=", i live in a city which always have a jam in the morning and doesn't have enough parking lots for the cars",color=blue];
+	179 [label="a driving car can make a lot of different pollutions to the world",color=green];
+	195 [label="with the risen of the aware to the environment , people will think more about whether to drive on their own or not",color=blue];
+	305 [label="a personal car uses is",color=green];
+	324 [label="it may be true when you want to go to some countryside or some other inconvenience places",color=blue];
+	324 [label="it may be true when you want to go to some countryside or some other inconvenience places",color=blue];
+	436 [label="there will be fewer cars in use in twenty years or not are carefully compared , the best choice",color=green];
+	344 [label="no matter you are going to somewhere for a trip or you just simply live in some suburbs and so on , it always have some other ways that you can do , you can ride a bike , or even walk on your feet",color=blue];
+	436 [label="there will be fewer cars in use in twenty years or not are carefully compared , the best choice",color=green];
+	390 [label="it not only helps you to reduce the car use , but also good to your health",color=blue];
+	436 [label="there will be fewer cars in use in twenty years or not are carefully compared , the best choice",color=green];
+	412 [label="this won't be a problem at all",color=blue];
+	436 [label="there will be fewer cars in use in twenty years or not are carefully compared , the best choice",color=green];
+}

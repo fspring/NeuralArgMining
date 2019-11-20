@@ -1,0 +1,26 @@
+digraph G {
+	68 -> 53;
+	68 -> 338;
+	177 -> 159;
+	166 -> 200;
+	177 -> 200;
+	252 -> 221;
+	252 -> 224;
+	305 -> 304;
+	53 [label="email can be count as one of the most beneficial results of modern technology",color=green];
+	68 [label="many years ago , peoples had to pay a great deal of money to post their letters , and their payements were related to the weight of their letters or boxes , and many accidents may cause problem that the post could not be delivered",color=blue];
+	68 [label="many years ago , peoples had to pay a great deal of money to post their letters , and their payements were related to the weight of their letters or boxes , and many accidents may cause problem that the post could not be delivered",color=blue];
+	338 [label="its effects on transportation , communication , medicine and so forth",color=green];
+	159 [label="technology is transferring",color=green];
+	177 [label="not only with the help of sending email , but also using credit cards to pay all necessary fees online",color=blue];
+	166 [label="students can apply for foreign universities much easier than before",color=blue];
+	200 [label="with the advent of internet and online paying systems , you can do many thing at your home easily",color=green];
+	177 [label="not only with the help of sending email , but also using credit cards to pay all necessary fees online",color=blue];
+	200 [label="with the advent of internet and online paying systems , you can do many thing at your home easily",color=green];
+	221 [label="technological innovations",color=green];
+	252 [label="one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries",color=blue];
+	224 [label="help people around the world is related to medical equipments",color=green];
+	252 [label="one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries",color=blue];
+	304 [label="biomedical",color=green];
+	305 [label="engineers can make artificial heart valves which works well and doctors can implant them easily",color=blue];
+}

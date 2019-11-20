@@ -1,0 +1,5 @@
+digraph G {
+	31 -> 30;
+	30 [label="é-lhes",color=green];
+	31 [label="vital porque sempre os ajudou , sempre lhes deu resposta e fez a transição entre momentos de tédio , fases de inquietação , períodos de inspiração e tempos de alegria",color=blue];
+}

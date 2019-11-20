@@ -1,0 +1,23 @@
+digraph G {
+	41 -> 84;
+	64 -> 131;
+	157 -> 131;
+	157 -> 149;
+	219 -> 199;
+	219 -> 270;
+	244 -> 270;
+	41 [label="it",color=blue];
+	84 [label="to boost newspaper",color=green];
+	64 [label="these days the primary purpose of journalists covering the",color=blue];
+	131 [label="detailed reports of crimes exposured on the press may provide the potential criminals with instructive learning materials",color=green];
+	131 [label="detailed reports of crimes exposured on the press may provide the potential criminals with instructive learning materials",color=green];
+	157 [label="this may help those who are in the process of panning a criminal act perfect their plans , avoid the pitfalls and make themselves harder to be tracked down by the police",color=blue];
+	149 [label="which would be hard to obtain otherwise",color=green];
+	157 [label="this may help those who are in the process of panning a criminal act perfect their plans , avoid the pitfalls and make themselves harder to be tracked down by the police",color=blue];
+	199 [label="the unlawful behavior would be more and more severe and the social harmony would be broken",color=green];
+	219 [label="particular coverage of heinous crimes may further traumatize the victims of crimes because they have already suffered greatly for what they have experienced",color=blue];
+	219 [label="particular coverage of heinous crimes may further traumatize the victims of crimes because they have already suffered greatly for what they have experienced",color=blue];
+	270 [label="hold my point that any descriptions of crimes should not go unchecked as any longer , as they may be",color=green];
+	244 [label="their consent , this could only add to theses innocent people's mental suffering and they may do some extreme actions",color=blue];
+	270 [label="hold my point that any descriptions of crimes should not go unchecked as any longer , as they may be",color=green];
+}

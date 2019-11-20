@@ -1,0 +1,23 @@
+digraph G {
+	25 -> 16;
+	105 -> 94;
+	255 -> 182;
+	255 -> 186;
+	255 -> 189;
+	255 -> 246;
+	284 -> 317;
+	16 [label="studying at home by using technology is convenient",color=green];
+	25 [label="the biggest advantage is that your classroom and instructor are available 24 hours a day",color=blue];
+	94 [label="attending an education course at home requires persistence and patience",color=green];
+	105 [label="especially when you don't have an instructor there to guide you , it is up to you to make sure that you understand and complete all course requirements",color=blue];
+	182 [label="traditional",color=green];
+	255 [label="we can learn a lot from programs at home ; however , our computers or televisions can't teach us how to get along with people",color=blue];
+	186 [label="education courses",color=green];
+	255 [label="we can learn a lot from programs at home ; however , our computers or televisions can't teach us how to get along with people",color=blue];
+	189 [label="take",color=green];
+	255 [label="we can learn a lot from programs at home ; however , our computers or televisions can't teach us how to get along with people",color=blue];
+	246 [label="traditional",color=green];
+	255 [label="we can learn a lot from programs at home ; however , our computers or televisions can't teach us how to get along with people",color=blue];
+	284 [label="students may learn how to cooperate with classmates from teamwork",color=blue];
+	317 [label="distance education can't replace traditional school",color=green];
+}

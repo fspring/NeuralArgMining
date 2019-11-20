@@ -1,0 +1,14 @@
+digraph G {
+	103 -> 101;
+	170 -> 147;
+	170 -> 156;
+	162 -> 164;
+	101 [label="them",color=green];
+	103 [label="driving cars during the rush hours might is bound to polluting cities's environment , but laws protect drivers to do so",color=blue];
+	147 [label="traffic",color=green];
+	170 [label="why drivers should pay a fine only for driving their own cars in a particular time",color=blue];
+	156 [label="able to shun or ban",color=green];
+	170 [label="why drivers should pay a fine only for driving their own cars in a particular time",color=blue];
+	162 [label="so it",color=blue];
+	164 [label="is out of drivers' control",color=green];
+}

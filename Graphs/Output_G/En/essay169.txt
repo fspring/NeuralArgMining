@@ -1,0 +1,20 @@
+digraph G {
+	68 -> 41;
+	164 -> 148;
+	322 -> 390;
+	332 -> 402;
+	345 -> 402;
+	365 -> 402;
+	41 [label="professors should",color=green];
+	68 [label="the professors’ duty is to nurture students , and prepare excellent courses",color=blue];
+	148 [label="professors should",color=green];
+	164 [label="the other hand , if professors are busy in doing research , ignoring preparing appropriate courses for students , it would ruin the reputation of universities",color=blue];
+	322 [label="they can manage the electric theory in practical skills",color=blue];
+	390 [label="for professors and students to some extent",color=green];
+	332 [label="and some students will be rewarded by investing new inventions",color=blue];
+	402 [label="of doing research is growing students’ solid theory fundamental",color=green];
+	345 [label="only under specific circumstance , when students master all of the systematic knowledge , can they accomplish research",color=blue];
+	402 [label="of doing research is growing students’ solid theory fundamental",color=green];
+	365 [label="is requires professors provide high quality courses",color=blue];
+	402 [label="of doing research is growing students’ solid theory fundamental",color=green];
+}

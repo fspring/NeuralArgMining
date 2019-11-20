@@ -1,0 +1,8 @@
+digraph G {
+	69 -> 62;
+	122 -> 128;
+	62 [label="consegue taxas de sucesso fantásticas",color=green];
+	69 [label="uma abordagem diferente aos que pretendem deixar de fumar",color=blue];
+	122 [label="Langlois aposta na Psicologia Positiva",color=blue];
+	128 [label="tem conseguido resultados incríveis nas últimas décadas",color=green];
+}

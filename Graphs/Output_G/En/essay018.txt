@@ -1,0 +1,14 @@
+digraph G {
+	115 -> 273;
+	191 -> 165;
+	171 -> 258;
+	191 -> 258;
+	115 [label="they are acting as a good housewife and they are flying planes also",color=blue];
+	273 [label="very confident towards",color=green];
+	165 [label="affects the decision of universities",color=green];
+	191 [label="for instance employers need male candidates for the heavy work such as repairing and installation of heavy machine",color=blue];
+	171 [label="every university designs its courses according to the need of employers",color=blue];
+	258 [label="universities must open choice for everyone to select his subject",color=green];
+	191 [label="for instance employers need male candidates for the heavy work such as repairing and installation of heavy machine",color=blue];
+	258 [label="universities must open choice for everyone to select his subject",color=green];
+}

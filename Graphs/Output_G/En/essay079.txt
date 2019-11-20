@@ -1,0 +1,17 @@
+digraph G {
+	83 -> 74;
+	83 -> 79;
+	191 -> 178;
+	191 -> 180;
+	191 -> 182;
+	74 [label="give priority to public",color=green];
+	83 [label="is because the government plays the role of a leader among citizens",color=blue];
+	79 [label="and",color=green];
+	83 [label="is because the government plays the role of a leader among citizens",color=blue];
+	178 [label="arts",color=green];
+	191 [label="arts can enrich people's cultural lives",color=blue];
+	180 [label="by",color=green];
+	191 [label="arts can enrich people's cultural lives",color=blue];
+	182 [label="means",color=green];
+	191 [label="arts can enrich people's cultural lives",color=blue];
+}

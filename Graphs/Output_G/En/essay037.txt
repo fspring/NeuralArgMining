@@ -1,0 +1,20 @@
+digraph G {
+	106 -> 51;
+	192 -> 354;
+	271 -> 354;
+	276 -> 354;
+	310 -> 354;
+	323 -> 345;
+	51 [label="an international sporting event is normal held in a country with huge interest from",color=green];
+	106 [label="for example in fifa world cup 2010 , the relation between north korea and south korea is dangerous for the warship sinking",color=blue];
+	192 [label="when they garther together to encourage their team , they will show their patriotic emotions",color=blue];
+	354 [label="it will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way",color=green];
+	271 [label="in olympic beijing",color=blue];
+	354 [label="it will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way",color=green];
+	276 [label="chinese tried thier best to bring the world a spectacular image about their country",color=blue];
+	354 [label="it will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way",color=green];
+	310 [label="they were welcomed by each chinese hospitality , beauty in each cities",color=blue];
+	354 [label="it will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way",color=green];
+	323 [label="everythings is created by patriotic emotions of chinese who wanted to bring a beautiful china to the world",color=blue];
+	345 [label="international sporting events will draw the international",color=green];
+}

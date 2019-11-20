@@ -1,0 +1,8 @@
+digraph G {
+	243 -> 360;
+	254 -> 360;
+	243 [label="nowadays the pet therapy is becoming more popular than before",color=blue];
+	360 [label="namely they are our friends and they can be useful in many situations",color=green];
+	254 [label="researchers have discovered that pets can bring benefits in a huge amount of illnesses",color=blue];
+	360 [label="namely they are our friends and they can be useful in many situations",color=green];
+}

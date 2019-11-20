@@ -1,0 +1,32 @@
+digraph G {
+	68 -> 54;
+	68 -> 109;
+	85 -> 109;
+	128 -> 195;
+	149 -> 195;
+	182 -> 195;
+	243 -> 218;
+	243 -> 310;
+	262 -> 310;
+	283 -> 310;
+	54 [label="animals should live in natural habitats instead of zoos",color=green];
+	68 [label="it is the right of wild species to live in a environment away from human beings",color=blue];
+	68 [label="it is the right of wild species to live in a environment away from human beings",color=blue];
+	109 [label="it is our responsibility to create a natural and safe environment for animals to live in",color=green];
+	85 [label="Given the fact that human beings are responsible for the heavy pollution and severe damage to the natural habitats of many wild animals",color=blue];
+	109 [label="it is our responsibility to create a natural and safe environment for animals to live in",color=green];
+	128 [label="the limited space and the artificial trees and lakes can not fully compensate the animals for their loss",color=blue];
+	195 [label="zoos are more likely to be a killer rather than a protector in protecting wild lives",color=green];
+	149 [label="if rural animals are captured in the zoo for a long period , it would have negative influences on both the physical and psychological status of the creatures",color=blue];
+	195 [label="zoos are more likely to be a killer rather than a protector in protecting wild lives",color=green];
+	182 [label="the wild species would suffer from isolation and depression",color=blue];
+	195 [label="zoos are more likely to be a killer rather than a protector in protecting wild lives",color=green];
+	218 [label="zoos , which are equipped with modern facilities and professionals , would provide better care for the animals inside",color=green];
+	243 [label="the endangered species preserved in zoos would never die of illegal hunting",color=blue];
+	243 [label="the endangered species preserved in zoos would never die of illegal hunting",color=blue];
+	310 [label="wild animals should be set free from zoos",color=green];
+	262 [label="the strict laws prohibiting poaching would provide a shelter for various kinds of animals in natural habitat",color=blue];
+	310 [label="wild animals should be set free from zoos",color=green];
+	283 [label="the growing number of natural habitat would be the ultimate solution of saving wild animals worldwide",color=blue];
+	310 [label="wild animals should be set free from zoos",color=green];
+}

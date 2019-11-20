@@ -1,0 +1,14 @@
+digraph G {
+	104 -> 75;
+	132 -> 313;
+	291 -> 262;
+	273 -> 264;
+	75 [label="television shows make people forget what is really important",color=green];
+	104 [label="they cannot make appointment or go out with their family or friends at that time since they think the programs are so crucial to their lives",color=blue];
+	132 [label="of my friends , for example , once cancelled an appointment to play basketball with in order to watch the favorite television show "infinete challenges"",color=blue];
+	313 [label="it is detrimental to communication among members in group",color=green];
+	262 [label="sense",color=green];
+	291 [label="is natural they behave in that way because television shows don't require any participation",color=blue];
+	264 [label="closeness",color=green];
+	273 [label="reported that most of people don't converse with their family when they are watching television together",color=blue];
+}

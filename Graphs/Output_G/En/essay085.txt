@@ -1,0 +1,14 @@
+digraph G {
+	112 -> 96;
+	128 -> 98;
+	128 -> 101;
+	112 -> 105;
+	96 [label="the",color=green];
+	112 [label="by having cctv cameras at workplace , crimes such as robbery can be trimmed down",color=blue];
+	98 [label="increasing theft",color=green];
+	128 [label="this is because when a shop is attacked by thieves , the clips taken by these cameras serve as a source of evidence to help the thieves to be traced",color=blue];
+	101 [label="and",color=green];
+	128 [label="this is because when a shop is attacked by thieves , the clips taken by these cameras serve as a source of evidence to help the thieves to be traced",color=blue];
+	105 [label="workers at the",color=green];
+	112 [label="by having cctv cameras at workplace , crimes such as robbery can be trimmed down",color=blue];
+}

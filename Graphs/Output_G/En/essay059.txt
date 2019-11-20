@@ -1,0 +1,8 @@
+digraph G {
+	113 -> 146;
+	158 -> 159;
+	113 [label="capital punishment curbs the inspiration and prospects of other hateful crimes",color=blue];
+	146 [label="the rate of crime and violence is effectively decreased",color=green];
+	158 [label="capital",color=blue];
+	159 [label="punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals",color=green];
+}

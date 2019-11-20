@@ -1,0 +1,5 @@
+digraph G {
+	59 -> 243;
+	59 [label=", if someone tells a kid that something is wrong and they shouldn't do it , but his father told him/her that it was right , the kid will listen to the father instead of the other person , even if his father is wrong",color=blue];
+	243 [label="because it can define who he is going to be",color=green];
+}

@@ -1,0 +1,29 @@
+digraph G {
+	63 -> 32;
+	63 -> 52;
+	63 -> 207;
+	72 -> 207;
+	94 -> 84;
+	94 -> 207;
+	104 -> 207;
+	137 -> 172;
+	158 -> 172;
+	32 [label="criminal minds that breed violence not stringent gun control",color=green];
+	63 [label="fewer guns available mean less crime",color=blue];
+	52 [label="if there is gun control somehow crime has to decrease",color=green];
+	63 [label="fewer guns available mean less crime",color=blue];
+	63 [label="fewer guns available mean less crime",color=blue];
+	207 [label="there is a poor relationship between polices carrying guns and an increasing violence rate",color=green];
+	72 [label="this is not as simple as it sounds",color=blue];
+	207 [label="there is a poor relationship between polices carrying guns and an increasing violence rate",color=green];
+	84 [label="stringent gun control does not decrease violence and crime",color=green];
+	94 [label="most gun violence is committed with guns obtained illegally",color=blue];
+	94 [label="most gun violence is committed with guns obtained illegally",color=blue];
+	207 [label="there is a poor relationship between polices carrying guns and an increasing violence rate",color=green];
+	104 [label="People who are intent to commit crime and control cities through gang violence and other means will find a way to continue to use guns , regardless of gun control",color=blue];
+	207 [label="there is a poor relationship between polices carrying guns and an increasing violence rate",color=green];
+	137 [label="there will be law non-abiding people anywhere in the world , either polices or common citizens",color=blue];
+	172 [label="if a government wants to control crime in a community , it is important to manage their people's actions rather than gun used in violent crimes",color=green];
+	158 [label="the root of violence is criminal mind not the weapon itself",color=blue];
+	172 [label="if a government wants to control crime in a community , it is important to manage their people's actions rather than gun used in violent crimes",color=green];
+}

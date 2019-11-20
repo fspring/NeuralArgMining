@@ -1,0 +1,32 @@
+digraph G {
+	57 -> 43;
+	57 -> 146;
+	73 -> 146;
+	96 -> 146;
+	110 -> 146;
+	178 -> 247;
+	188 -> 247;
+	198 -> 247;
+	217 -> 247;
+	233 -> 247;
+	43 [label="education is the single most important factor in the development of a country",color=green];
+	57 [label="In a developing country , not many can afford to send their children to school",color=blue];
+	57 [label="In a developing country , not many can afford to send their children to school",color=blue];
+	146 [label="these children remain uneducated and will have the same fate as their parents",color=green];
+	73 [label="There are government schools where tuition fees are practically free but they are not aplenty and mostly are situated in the cities",color=blue];
+	146 [label="these children remain uneducated and will have the same fate as their parents",color=green];
+	96 [label="They are not reachable by children who live in the mountains or islands",color=blue];
+	146 [label="these children remain uneducated and will have the same fate as their parents",color=green];
+	110 [label="These children whose parents are either farmers or fishermen , can hardly eat three meals a day , let alone afford to pay for transportation to get to these schools everyday",color=blue];
+	146 [label="these children remain uneducated and will have the same fate as their parents",color=green];
+	178 [label="Basic education teaches one child to read and write",color=blue];
+	247 [label="the benefits of education can make a man , a society and a developed country",color=green];
+	188 [label="Supplementary education provides him with useful knowledge and information",color=blue];
+	247 [label="the benefits of education can make a man , a society and a developed country",color=green];
+	198 [label="A further specific education can teach an individual with skills enough to make a living and be self-sufficient",color=blue];
+	247 [label="the benefits of education can make a man , a society and a developed country",color=green];
+	217 [label="A well-informed man can act sensibly and make sound judgment",color=blue];
+	247 [label="the benefits of education can make a man , a society and a developed country",color=green];
+	233 [label="a skillful man contributes favorably and is valuable to the society",color=blue];
+	247 [label="the benefits of education can make a man , a society and a developed country",color=green];
+}

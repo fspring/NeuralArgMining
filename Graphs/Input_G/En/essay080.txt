@@ -1,0 +1,38 @@
+digraph G {
+	65 -> 58;
+	65 -> 321;
+	81 -> 321;
+	107 -> 321;
+	128 -> 321;
+	148 -> 321;
+	192 -> 174;
+	192 -> 321;
+	224 -> 321;
+	240 -> 321;
+	268 -> 321;
+	295 -> 321;
+	58 [label="keeping animals in captivity is wrong",color=green];
+	65 [label="animals should be considered non-human persons and they should have the right of having freedom",color=blue];
+	65 [label="animals should be considered non-human persons and they should have the right of having freedom",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+	81 [label="This is so unfair for them to be taken out of their natural environment and to be kept in small enclosures",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+	107 [label="many zoos , especially the ones in developing countries , do not provide care and attention which their animals require",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+	128 [label="The animals are often undernourished and do not have sufficient quality and quantity of medical treatment",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+	148 [label="sometimes animals from hot countries have to survive in the cold winter of somewhere in Europe",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+	174 [label="zoos provide the public with good entertainment and also help to ensure the balance of the ecology",color=green];
+	192 [label="Many people , especially young children enjoy going to zoos and see their favorite animals , cute baby-born animals and the animals that are from the different corners of the world",color=blue];
+	192 [label="Many people , especially young children enjoy going to zoos and see their favorite animals , cute baby-born animals and the animals that are from the different corners of the world",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+	224 [label="Zoos provide educational information about the lives of different animals to the public",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+	240 [label="zoos play an important role in reserving many breeds of animal and preventing them from being missing from life",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+	268 [label="in zoos , animals are kept in enclosures which simulate their own habitats and also endangered animals are being protected from their predators or hunters",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+	295 [label="zoos are needed to keep the nature balanced",color=blue];
+	321 [label="more good come from zoos than bad",color=green];
+}

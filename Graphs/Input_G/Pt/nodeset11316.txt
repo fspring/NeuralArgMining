@@ -1,0 +1,5 @@
+digraph G {
+	40 -> 166;
+	40 [label="Pela razão elementar de que não é razoável colocar tantos candidatos ao mesmo tempo e de valia tão diferente a debater o que quer que seja",color=blue];
+	166 [label="Não nos podemos depois surpreender com o aumento dos níveis de abstenção",color=green];
+}

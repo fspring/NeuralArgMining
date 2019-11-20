@@ -1,0 +1,35 @@
+digraph G {
+	76 -> 50;
+	76 -> 64;
+	76 -> 288;
+	102 -> 288;
+	150 -> 131;
+	150 -> 288;
+	176 -> 288;
+	194 -> 288;
+	227 -> 212;
+	227 -> 288;
+	241 -> 288;
+	50 [label="students can acquire more benefits from the remote education",color=green];
+	76 [label="Students who use distance-learning programs can cut down their commuting time , tuition fees , textbook fees and so forth just by an internet connection",color=blue];
+	64 [label="studying at home save the pupils enormous time and considerable expense",color=green];
+	76 [label="Students who use distance-learning programs can cut down their commuting time , tuition fees , textbook fees and so forth just by an internet connection",color=blue];
+	76 [label="Students who use distance-learning programs can cut down their commuting time , tuition fees , textbook fees and so forth just by an internet connection",color=blue];
+	288 [label="distance-learning outweighs the conventional way not only with its efficiency , convenience and economic value , but also with the self-regulated education that pupils can study on their own purpose",color=green];
+	102 [label="This especially makes a significant difference for the children who live in the far-off countryside and the children whose families are living below the poverty-line",color=blue];
+	288 [label="distance-learning outweighs the conventional way not only with its efficiency , convenience and economic value , but also with the self-regulated education that pupils can study on their own purpose",color=green];
+	131 [label="long-distance education provides students the opportunity to access the immense knowledge resources and a variety of teaching approaches",color=green];
+	150 [label="Pupils can obtain materials for their curricula just by one mouse click , such as science reports , study posts , documentary records , etc",color=blue];
+	150 [label="Pupils can obtain materials for their curricula just by one mouse click , such as science reports , study posts , documentary records , etc",color=blue];
+	288 [label="distance-learning outweighs the conventional way not only with its efficiency , convenience and economic value , but also with the self-regulated education that pupils can study on their own purpose",color=green];
+	176 [label="A student can even select a specific online course based on his own preference and time schedule",color=blue];
+	288 [label="distance-learning outweighs the conventional way not only with its efficiency , convenience and economic value , but also with the self-regulated education that pupils can study on their own purpose",color=green];
+	194 [label="he can control the learning progress and make satisfactory achievement on this course",color=blue];
+	288 [label="distance-learning outweighs the conventional way not only with its efficiency , convenience and economic value , but also with the self-regulated education that pupils can study on their own purpose",color=green];
+	212 [label="traditional education has its advantages in face-to-face communication , mental inspiration and physical educations",color=green];
+	227 [label="These make remarkable contributions in providing immediate feedbacks and cultivating pupils' personalities",color=blue];
+	227 [label="These make remarkable contributions in providing immediate feedbacks and cultivating pupils' personalities",color=blue];
+	288 [label="distance-learning outweighs the conventional way not only with its efficiency , convenience and economic value , but also with the self-regulated education that pupils can study on their own purpose",color=green];
+	241 [label="with the improvements in streaming and sensor technologies , remote education can eliminate the obstacles of distance and body contacts",color=blue];
+	288 [label="distance-learning outweighs the conventional way not only with its efficiency , convenience and economic value , but also with the self-regulated education that pupils can study on their own purpose",color=green];
+}

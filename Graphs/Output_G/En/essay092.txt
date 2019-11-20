@@ -1,0 +1,5 @@
+digraph G {
+	222 -> 202;
+	202 [label="aesthetic knowledge or poor originality develop their own senses of fashion when treasuring the latest fashion",color=green];
+	222 [label="fashion trends , such people would have a hard time choosing and matching clothes , let alone forming their own dressing styles",color=blue];
+}

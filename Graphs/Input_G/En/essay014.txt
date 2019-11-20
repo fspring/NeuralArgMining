@@ -1,0 +1,38 @@
+digraph G {
+	85 -> 68;
+	85 -> 267;
+	101 -> 267;
+	123 -> 267;
+	139 -> 267;
+	182 -> 164;
+	182 -> 267;
+	197 -> 267;
+	224 -> 267;
+	231 -> 267;
+	244 -> 267;
+	251 -> 267;
+	68 [label="students at schools and universities still learn much more from lessons with teachers",color=green];
+	85 [label="teachers teach students how to write , read and calculate since they are in kindergarten",color=blue];
+	85 [label="teachers teach students how to write , read and calculate since they are in kindergarten",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+	101 [label="And when they are in primary school , teachers teach them more further knowledge , like writing skills and using computers",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+	123 [label="It is teachers that help them with obstacles in schooling",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+	139 [label="students gain most of the knowledge through teachers and learn what is right and wrong with the assistance of teachers",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+	164 [label="students learn far more from other sources , such as the Internet and television",color=green];
+	182 [label="within this sources students learn lots of things which they can't learn in classes",color=blue];
+	182 [label="within this sources students learn lots of things which they can't learn in classes",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+	197 [label="They can only input some key words and google it , and then there are numberless articles and websites related to it",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+	224 [label="students learn things easily",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+	231 [label="they contend that good television programs do teach students",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+	244 [label="Discovery Channel has many instructive episodes",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+	251 [label="Students have knowledge of others cultures , outer space etc",color=blue];
+	267 [label="students learn far more from their teachers than from other source",color=green];
+}

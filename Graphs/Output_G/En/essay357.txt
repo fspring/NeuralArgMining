@@ -1,0 +1,5 @@
+digraph G {
+	79 -> 61;
+	61 [label="physical",color=green];
+	79 [label="classic teaching methods has been scientifically proven and utilized as the best mode of educate a child",color=blue];
+}

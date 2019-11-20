@@ -1,0 +1,5 @@
+digraph G {
+	97 -> 62;
+	62 [label="over internet to",color=green];
+	97 [label="image or video related to almost everything and through computer children can access internet to gather knowledge on the subjects they are studying or they are interested about",color=blue];
+}

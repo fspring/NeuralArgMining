@@ -1,0 +1,14 @@
+digraph G {
+	40 -> 36;
+	70 -> 56;
+	159 -> 156;
+	250 -> 289;
+	36 [label="violence",color=green];
+	40 [label="as the society grows , human rights become more highly respected , "murdering" criminals",color=blue];
+	56 [label="immoral and hard",color=green];
+	70 [label="every human being has the right to live and no authority is empowered to deprive one of life",color=blue];
+	156 [label="capital punishment is",color=green];
+	159 [label="certainly not the only option to control the amount of crimes , life imprisonment is just as effective by detaining the criminals in prison for the rest of their lives",color=blue];
+	250 [label="juries are also humans , they may lack of discretion",color=blue];
+	289 [label="although capital punishment presents an extreme warning to the community",color=green];
+}

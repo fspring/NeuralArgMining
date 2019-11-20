@@ -1,0 +1,11 @@
+digraph G {
+	78 -> 44;
+	198 -> 262;
+	217 -> 262;
+	44 [label="spend",color=green];
+	78 [label="there are international and local news channels like bbc , cnbc , etv gujarati , etv marathi etc to keep individuals updated about latest happenings",color=blue];
+	198 [label="sometimes , students watch restrictive programs not allowed for their ages and this can have major psychological consequences",color=blue];
+	262 [label="and thus if students were allowed to freely watch tv without any proper controls by parents or teachers then it would produce more negative effects on children",color=green];
+	217 [label="many times , students get addictive to their favorite programs like cartoon channels , or baseball and easily get distracted from study during exam period and this can seriously impact their grades",color=blue];
+	262 [label="and thus if students were allowed to freely watch tv without any proper controls by parents or teachers then it would produce more negative effects on children",color=green];
+}

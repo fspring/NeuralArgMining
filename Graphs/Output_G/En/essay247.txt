@@ -1,0 +1,17 @@
+digraph G {
+	261 -> 205;
+	216 -> 413;
+	235 -> 424;
+	261 -> 413;
+	352 -> 383;
+	205 [label="away from home",color=green];
+	261 [label="if he had no car , he wouldn't be able to see his family at the weekends so for him his automobile is a great benefit - not only in financial but also in social terms",color=blue];
+	216 [label="my father for example has always been working all around germany and because of that earned more money",color=blue];
+	413 [label="cars cause a lot of pollution because they provide flexibility",color=green];
+	235 [label="he used his car to drive to the other end of the country , worked there during the week and came home for the weekend",color=blue];
+	424 [label="which is important in nearly all areas of life",color=green];
+	261 [label="if he had no car , he wouldn't be able to see his family at the weekends so for him his automobile is a great benefit - not only in financial but also in social terms",color=blue];
+	413 [label="cars cause a lot of pollution because they provide flexibility",color=green];
+	352 [label="there are still places in nearly every country in the world that cannot be reached by public transportation and can only be visited by car",color=blue];
+	383 [label="who own a vehicle have greater access to more places and will see more of the world",color=green];
+}

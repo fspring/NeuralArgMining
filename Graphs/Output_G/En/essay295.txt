@@ -1,0 +1,11 @@
+digraph G {
+	123 -> 101;
+	246 -> 234;
+	277 -> 278;
+	101 [label="distinguishing fact of the learning with a teacher is that you can ask about problems related your studies",color=green];
+	123 [label=", when we encounter difficulty in our study which we can not make out , that asking the difficulty from our teacher is propitious way for us to solve it instantly",color=blue];
+	234 [label="the learning with a teacher is more efficient than by myself",color=green];
+	246 [label="we can accomplish our assignments with little help of a teacher within less time than do it by ourself",color=blue];
+	277 [label="right",color=blue];
+	278 [label="direction",color=green];
+}

@@ -1,0 +1,5 @@
+digraph G {
+	346 -> 392;
+	346 [label="the condition of job market changes enormously fast like a flash , so that there is no way to predict any job can be popular for 30 years or more",color=blue];
+	392 [label="i have mentioned a few",color=green];
+}

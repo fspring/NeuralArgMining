@@ -1,0 +1,5 @@
+digraph G {
+	55 -> 43;
+	43 [label="todos os presidentes viveram em tensão com a sua família política",color=green];
+	55 [label="Soares nunca deixou de chocar com o chamado ex-secretariado , irritando sucessivos líderes socialistas",color=blue];
+}

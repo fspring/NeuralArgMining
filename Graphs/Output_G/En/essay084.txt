@@ -1,0 +1,5 @@
+digraph G {
+	211 -> 246;
+	211 [label="if the government provides those without work with a mobile phone , they will be able to find themselves an occupation in order to live and survive",color=blue];
+	246 [label="supplying hand phones to the unemployed is a waste of the taxpayers' money",color=green];
+}

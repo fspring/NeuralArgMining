@@ -1,0 +1,29 @@
+digraph G {
+	89 -> 47;
+	89 -> 64;
+	89 -> 261;
+	146 -> 127;
+	146 -> 261;
+	165 -> 261;
+	181 -> 261;
+	194 -> 224;
+	207 -> 224;
+	47 [label="one who studies overseas will gain many skills throughout this experience",color=green];
+	89 [label="Compared to the peers studying in the home country , it will be more likely for the one who is living overseas to be successful in adapting himself/herself into new environments and situations in life",color=blue];
+	64 [label="studying at an overseas university gives individuals the opportunity to improve social skills by interacting and communicating with students from different origins and cultures",color=green];
+	89 [label="Compared to the peers studying in the home country , it will be more likely for the one who is living overseas to be successful in adapting himself/herself into new environments and situations in life",color=blue];
+	89 [label="Compared to the peers studying in the home country , it will be more likely for the one who is living overseas to be successful in adapting himself/herself into new environments and situations in life",color=blue];
+	261 [label="living and studying overseas gives the individual a new perspective on the subject that is studied or in general life",color=green];
+	127 [label="living and studying overseas is an irreplaceable experience when it comes to learn standing on your own feet",color=green];
+	146 [label="One who is living overseas will of course struggle with loneliness , living away from family and friends",color=blue];
+	146 [label="One who is living overseas will of course struggle with loneliness , living away from family and friends",color=blue];
+	261 [label="living and studying overseas gives the individual a new perspective on the subject that is studied or in general life",color=green];
+	165 [label="those difficulties will turn into valuable experiences in the following steps of life",color=blue];
+	261 [label="living and studying overseas gives the individual a new perspective on the subject that is studied or in general life",color=green];
+	181 [label="the one will learn living without depending on anyone else",color=blue];
+	261 [label="living and studying overseas gives the individual a new perspective on the subject that is studied or in general life",color=green];
+	194 [label="employers are mostly looking for people who have international and language skills",color=blue];
+	224 [label="one who has studied and lived overseas will become more eligible for the job than his/her peers",color=green];
+	207 [label="Becoming successful in this study will give the student an edge in job market",color=blue];
+	224 [label="one who has studied and lived overseas will become more eligible for the job than his/her peers",color=green];
+}

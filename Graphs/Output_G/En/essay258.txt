@@ -1,0 +1,14 @@
+digraph G {
+	23 -> 11;
+	23 -> 15;
+	341 -> 399;
+	365 -> 399;
+	11 [label="learning by myself",color=green];
+	23 [label="learning with a teacher can prevent one from being confused and increase the rate and speed of learning",color=blue];
+	15 [label="learning with a teacher could",color=green];
+	23 [label="learning with a teacher can prevent one from being confused and increase the rate and speed of learning",color=blue];
+	341 [label="in today's world there are many great and useful sources available like books , electronic books , the internet and tv and satellite",color=blue];
+	399 [label="sometimes it is good to learn with a teacher and sometimes on my own",color=green];
+	365 [label="i can utilize them as tutorials for many things",color=blue];
+	399 [label="sometimes it is good to learn with a teacher and sometimes on my own",color=green];
+}

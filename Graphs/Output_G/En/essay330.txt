@@ -1,0 +1,20 @@
+digraph G {
+	255 -> 243;
+	255 -> 356;
+	298 -> 356;
+	333 -> 356;
+	342 -> 356;
+	352 -> 356;
+	243 [label="doing something which an individual doesn't enjoy can led to enjoyment",color=green];
+	255 [label="people sometimes can attend any activities by insisting on any of their friends although they don't really want",color=blue];
+	255 [label="people sometimes can attend any activities by insisting on any of their friends although they don't really want",color=blue];
+	356 [label="but most of them are about responsibilities which is the part of individual's live",color=green];
+	298 [label="on some of our friends , we attended , and got really enjoyable time , we continued the course about six months although most of our friends left the course after a month",color=blue];
+	356 [label="but most of them are about responsibilities which is the part of individual's live",color=green];
+	333 [label="has a life with a lot of fun",color=blue];
+	356 [label="but most of them are about responsibilities which is the part of individual's live",color=green];
+	342 [label="there are sometimes unpleasant and boring parts which is",color=blue];
+	356 [label="but most of them are about responsibilities which is the part of individual's live",color=green];
+	352 [label="liked by",color=blue];
+	356 [label="but most of them are about responsibilities which is the part of individual's live",color=green];
+}

@@ -1,0 +1,5 @@
+digraph G {
+	357 -> 368;
+	357 [label="a break gives students more benefits than harms",color=blue];
+	368 [label="the sole purpose of education is to nurture a young",color=green];
+}

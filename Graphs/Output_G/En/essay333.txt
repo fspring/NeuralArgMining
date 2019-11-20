@@ -1,0 +1,8 @@
+digraph G {
+	113 -> 77;
+	196 -> 164;
+	77 [label="to keep in touch with loved ones in faraway places",color=green];
+	113 [label="by means of some software such as skype , msn , whatsapp we can get in touch with everybody whenever we want",color=blue];
+	164 [label="the development of technology was",color=green];
+	196 [label="40% of people met even their life partners via internet",color=blue];
+}

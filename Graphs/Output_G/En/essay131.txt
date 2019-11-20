@@ -1,0 +1,23 @@
+digraph G {
+	93 -> 73;
+	130 -> 266;
+	158 -> 281;
+	171 -> 281;
+	195 -> 266;
+	218 -> 266;
+	234 -> 266;
+	73 [label="governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way",color=green];
+	93 [label="no one should suffer from any sort of deficiency in field of health , education , transportation and communication",color=blue];
+	130 [label="on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts",color=blue];
+	266 [label="not only could investing in art be considered as wasting money at any kind",color=green];
+	158 [label="the arts play a pivotal role in all-round development of a society",color=blue];
+	281 [label="but also it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways",color=green];
+	171 [label="no developed country could be named that music , painting , literature and other fields of arts are out of its government consideration",color=blue];
+	281 [label="but also it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways",color=green];
+	195 [label="enriching people's life and enlightening their thoughts , the arts basically affect the enhancement of societies in many positive ways",color=blue];
+	266 [label="not only could investing in art be considered as wasting money at any kind",color=green];
+	218 [label="investing in art could bring employment opportunities and could end in return of capital occasionally",color=blue];
+	266 [label="not only could investing in art be considered as wasting money at any kind",color=green];
+	234 [label="the investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions",color=blue];
+	266 [label="not only could investing in art be considered as wasting money at any kind",color=green];
+}

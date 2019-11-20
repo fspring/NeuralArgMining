@@ -1,0 +1,29 @@
+digraph G {
+	99 -> 27;
+	99 -> 116;
+	131 -> 116;
+	131 -> 288;
+	190 -> 162;
+	190 -> 288;
+	210 -> 288;
+	246 -> 288;
+	275 -> 288;
+	27 [label="personality is the most important",color=green];
+	99 [label="there are people who play a role and cheat the other individuals with their playing",color=blue];
+	99 [label="there are people who play a role and cheat the other individuals with their playing",color=blue];
+	116 [label="we have to be aware to never judge with their appearance",color=green];
+	116 [label="we have to be aware to never judge with their appearance",color=green];
+	131 [label="some people cheat their fiance before marriage by showing a cheerful face and well spoken ; however , after getting marriage they show their real personality",color=blue];
+	131 [label="some people cheat their fiance before marriage by showing a cheerful face and well spoken ; however , after getting marriage they show their real personality",color=blue];
+	288 [label="the best way to judge about individuals' is to be familiar with their personality not with their appearance",color=green];
+	162 [label="there are some people who are black skin , fat and frown , nonetheless they might be a great person for leaving and colleague",color=green];
+	190 [label="I have a neighbor who are old , black skin and frown and I had always panicked of her",color=blue];
+	190 [label="I have a neighbor who are old , black skin and frown and I had always panicked of her",color=blue];
+	288 [label="the best way to judge about individuals' is to be familiar with their personality not with their appearance",color=green];
+	210 [label="One day in a cold winter while I was getting back to home from school I realized that I lost my keys , so I could not do anything before my parents getting back home",color=blue];
+	288 [label="the best way to judge about individuals' is to be familiar with their personality not with their appearance",color=green];
+	246 [label="She asked me to stay with her till my parents come , also she was great in hospitality and her behavior was unforgettable",color=blue];
+	288 [label="the best way to judge about individuals' is to be familiar with their personality not with their appearance",color=green];
+	275 [label="I had to never judge with people's appearance",color=blue];
+	288 [label="the best way to judge about individuals' is to be familiar with their personality not with their appearance",color=green];
+}

@@ -1,0 +1,5 @@
+digraph G {
+	74 -> 71;
+	71 [label="the benefits",color=green];
+	74 [label="every year , cosmetic companies , farms or medical schools kill millions of animals to test their products , without any beneficial result",color=blue];
+}

@@ -1,0 +1,5 @@
+digraph G {
+	43 -> 36;
+	36 [label="uma logística das boas acções",color=green];
+	43 [label="requer meios , motivos e oportunidade",color=blue];
+}

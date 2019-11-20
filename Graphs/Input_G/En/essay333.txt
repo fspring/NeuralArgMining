@@ -1,0 +1,38 @@
+digraph G {
+	75 -> 57;
+	75 -> 93;
+	103 -> 93;
+	103 -> 296;
+	113 -> 296;
+	139 -> 296;
+	151 -> 296;
+	157 -> 296;
+	175 -> 211;
+	192 -> 211;
+	238 -> 274;
+	255 -> 274;
+	57 [label="this development was a very positive one",color=green];
+	75 [label="nowadays , to keep in touch with loved ones in faraway places has become easy than ever",color=blue];
+	75 [label="nowadays , to keep in touch with loved ones in faraway places has become easy than ever",color=blue];
+	93 [label="Technology revolutionized the way we communicate",color=green];
+	93 [label="Technology revolutionized the way we communicate",color=green];
+	103 [label="it is almost possible to do everything without tete-a-tete",color=blue];
+	103 [label="it is almost possible to do everything without tete-a-tete",color=blue];
+	296 [label="the development of technology impacted on the means of communication among people very positively by making it easier and more comfortable",color=green];
+	113 [label="By means of some software such as Skype , MSN , Whatsapp we can get in touch with everybody whenever we want",color=blue];
+	296 [label="the development of technology impacted on the means of communication among people very positively by making it easier and more comfortable",color=green];
+	139 [label="in earlier times , people didn't leave for faraway places",color=blue];
+	296 [label="the development of technology impacted on the means of communication among people very positively by making it easier and more comfortable",color=green];
+	151 [label="they could easily get lost",color=blue];
+	296 [label="the development of technology impacted on the means of communication among people very positively by making it easier and more comfortable",color=green];
+	157 [label="This is also one salient prove that the development of technology was a very positive",color=blue];
+	296 [label="the development of technology impacted on the means of communication among people very positively by making it easier and more comfortable",color=green];
+	175 [label="by means of some communication tools , it has become very easy to make new friends",color=blue];
+	211 [label="Internet is a basic tool to keep in touch with old and make new friends",color=green];
+	192 [label="According to statistics , 40% of people met even their life partners via Internet",color=blue];
+	211 [label="Internet is a basic tool to keep in touch with old and make new friends",color=green];
+	238 [label="by communicating via Internet or phone , we cannot express our ideas and feelings fully",color=blue];
+	274 [label="the rate of divorces is increasing day by day",color=green];
+	255 [label="during such conversations , some of our words can make a completely different sense",color=blue];
+	274 [label="the rate of divorces is increasing day by day",color=green];
+}

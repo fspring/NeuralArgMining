@@ -1,0 +1,11 @@
+digraph G {
+	73 -> 55;
+	212 -> 227;
+	219 -> 227;
+	55 [label="extra income that women earn will contribute to their family's expenses",color=green];
+	73 [label="a wife can earn more money to support her family life",color=blue];
+	212 [label="besides the gorvernment's policies on limited",color=blue];
+	227 [label="many employers are willing to offer part-time jobs for women",color=green];
+	219 [label="and their husbands'",color=blue];
+	227 [label="many employers are willing to offer part-time jobs for women",color=green];
+}

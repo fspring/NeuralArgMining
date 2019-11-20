@@ -1,0 +1,5 @@
+digraph G {
+	199 -> 247;
+	199 [label="this means some powerful countries provide financial support in order to acquire the right to exploit the local resources and target the local labour market",color=blue];
+	247 [label="countries should not totally depend on the",color=green];
+}

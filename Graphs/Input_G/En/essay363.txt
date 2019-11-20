@@ -1,0 +1,35 @@
+digraph G {
+	86 -> 75;
+	86 -> 255;
+	97 -> 255;
+	109 -> 255;
+	123 -> 255;
+	142 -> 255;
+	167 -> 231;
+	185 -> 231;
+	196 -> 231;
+	280 -> 255;
+	280 -> 267;
+	75 [label="the usage of machines is harmful for health of humans",color=green];
+	86 [label="machines decrease the work done by people",color=blue];
+	86 [label="machines decrease the work done by people",color=blue];
+	255 [label="using machines is advantageous",color=green];
+	97 [label="in many institutions staircases are replaced by lifts now a days",color=blue];
+	255 [label="using machines is advantageous",color=green];
+	109 [label="People opt for elevators instead of climbing one or two flight of stairs",color=blue];
+	255 [label="using machines is advantageous",color=green];
+	123 [label="It is confirmed in a number of researches that daily usage of elevators in workplaces promotes obesity",color=blue];
+	255 [label="using machines is advantageous",color=green];
+	142 [label="this example clearly shows the linkage between using machines and adverse health effects",color=blue];
+	255 [label="using machines is advantageous",color=green];
+	167 [label="usage of machines makes work easier and less time is consumed for doing similar amount of work",color=blue];
+	231 [label="using machines makes daily tasks less time consuming and less cumbersome",color=green];
+	185 [label="Take the example of use of food processors in kitchens",color=blue];
+	231 [label="using machines makes daily tasks less time consuming and less cumbersome",color=green];
+	196 [label="The work of chopping , blending , grating , kneading has become so easy that people can not imagine their lives without this simple machine at their homes",color=blue];
+	231 [label="using machines makes daily tasks less time consuming and less cumbersome",color=green];
+	255 [label="using machines is advantageous",color=green];
+	280 [label="there are many other ways to exercise and stay healthy",color=blue];
+	267 [label="The negative effects on health can be put on the back seat",color=green];
+	280 [label="there are many other ways to exercise and stay healthy",color=blue];
+}

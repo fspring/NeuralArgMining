@@ -1,0 +1,14 @@
+digraph G {
+	54 -> 47;
+	54 -> 75;
+	87 -> 75;
+	245 -> 323;
+	47 [label="worried modern technological technology is probably a",color=green];
+	54 [label="hurdle to the preservation of traditional techniques and lifestyles",color=blue];
+	54 [label="hurdle to the preservation of traditional techniques and lifestyles",color=blue];
+	75 [label="technology plays a key role in promoting traditional techniques and lifestyles",color=green];
+	75 [label="technology plays a key role in promoting traditional techniques and lifestyles",color=green];
+	87 [label="in terms of time and space , technology makes it more efficient and effective to promote the traditional skills and ways of life",color=blue];
+	245 [label="many tourists around the world marveled at the perfect synthesis of the modern technology and the traditional culture",color=blue];
+	323 [label="tend to follow the trend back to the tradition in the",color=green];
+}

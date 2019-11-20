@@ -1,0 +1,11 @@
+digraph G {
+	129 -> 95;
+	219 -> 324;
+	250 -> 316;
+	95 [label="the",color=green];
+	129 [label="after a while the situation became",color=blue];
+	219 [label="it is possible to make a wrong decision because you have just used someone's personal opinion as a source of information",color=blue];
+	324 [label="or decision may have a great influence",color=green];
+	250 [label="several years ago in moscow salt became two times more expensive only in one week",color=blue];
+	316 [label="which you use , especially when",color=green];
+}

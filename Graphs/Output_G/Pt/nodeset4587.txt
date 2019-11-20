@@ -1,0 +1,5 @@
+digraph G {
+	14 -> 0;
+	0 [label="vários sites de informação estão inacessíveis",color=green];
+	14 [label="a graves problemas técnicos na infraestrutura tecnológica da portugal telecom",color=blue];
+}

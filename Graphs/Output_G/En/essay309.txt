@@ -1,0 +1,14 @@
+digraph G {
+	58 -> 50;
+	239 -> 298;
+	261 -> 298;
+	274 -> 298;
+	50 [label="and",color=green];
+	58 [label="living in a dormitory helps students to familiarize themselves with the academic environment of the university",color=blue];
+	239 [label="in addition , students also have to focus on their study , and try to maintain their grades higher",color=blue];
+	298 [label="to me that it becomes hard for students to choose between their living options since both living accommodation have its own benefits",color=green];
+	261 [label="students also have a chance to know about the community around them",color=blue];
+	298 [label="to me that it becomes hard for students to choose between their living options since both living accommodation have its own benefits",color=green];
+	274 [label="interacting with the people , and socializing with them prepares students for the life after graduation",color=blue];
+	298 [label="to me that it becomes hard for students to choose between their living options since both living accommodation have its own benefits",color=green];
+}

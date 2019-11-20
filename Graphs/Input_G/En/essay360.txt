@@ -1,0 +1,35 @@
+digraph G {
+	51 -> 31;
+	51 -> 128;
+	68 -> 128;
+	94 -> 128;
+	218 -> 160;
+	178 -> 321;
+	199 -> 321;
+	218 -> 321;
+	237 -> 321;
+	251 -> 321;
+	277 -> 321;
+	31 [label="this is not necessarily the case for those celebrities who are ambitious in their jobs",color=green];
+	51 [label="some celebrities tend to show off their images in front of the public",color=blue];
+	51 [label="some celebrities tend to show off their images in front of the public",color=blue];
+	128 [label="the attention of young people may become focused on chasing the dream of celebrity status",color=green];
+	68 [label="some movie starts enjoy wearing luxury brand clothes and showing their expensive life style in front of the media , thereby gaining the public attention",color=blue];
+	128 [label="the attention of young people may become focused on chasing the dream of celebrity status",color=green];
+	94 [label="If they continue to behave in such a way , it will create a misleading image to young people who may think that extraordinary life can be achieved without hard work",color=blue];
+	128 [label="the attention of young people may become focused on chasing the dream of celebrity status",color=green];
+	160 [label="other celebrities do set up role models to young people because of their visible accomplishments",color=green];
+	218 [label="this kind of self-made celebrity can inspire children to develop their talents through application and perseverance",color=blue];
+	178 [label="celebrities such as sports player whose performance and professional skills can be directly seen by their fans",color=blue];
+	321 [label="other celebrities do lead young people in the right direction",color=green];
+	199 [label="people understand that the great deal of efforts on training is directly linked to their results",color=blue];
+	321 [label="other celebrities do lead young people in the right direction",color=green];
+	218 [label="this kind of self-made celebrity can inspire children to develop their talents through application and perseverance",color=blue];
+	321 [label="other celebrities do lead young people in the right direction",color=green];
+	237 [label="other celebrities such as musician also have achieved great success in their career",color=blue];
+	321 [label="other celebrities do lead young people in the right direction",color=green];
+	251 [label="Take Michael Jackson as an example , his works are widely spread around the world , and have been extremely welcomed by the younger generation",color=blue];
+	321 [label="other celebrities do lead young people in the right direction",color=green];
+	277 [label="His songs spread the idea that people should care about each other , which suggests to young people how to become a good member of society",color=blue];
+	321 [label="other celebrities do lead young people in the right direction",color=green];
+}

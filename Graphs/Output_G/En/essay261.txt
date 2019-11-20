@@ -1,0 +1,23 @@
+digraph G {
+	49 -> 59;
+	51 -> 59;
+	301 -> 452;
+	342 -> 452;
+	346 -> 452;
+	420 -> 415;
+	446 -> 452;
+	49 [label="the",color=blue];
+	59 [label=", are also essential for younger student's future life because those subjects help students learn this planet from another perspective and they can release people from the enormous pressure nowadays",color=green];
+	51 [label="and",color=blue];
+	59 [label=", are also essential for younger student's future life because those subjects help students learn this planet from another perspective and they can release people from the enormous pressure nowadays",color=green];
+	301 [label="when enjoying one piece of brilliant paintings , such as the mona lisa , people would put all their pressure down on the ground and just think about what the most proficient and mysterious smile in this world stands for",color=blue];
+	452 [label="of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure , younger students' art and music education should not take the second place",color=green];
+	342 [label="at this moment",color=blue];
+	452 [label="of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure , younger students' art and music education should not take the second place",color=green];
+	346 [label="they would totally involve in the ocean of art and their stressful nervous would be relieved",color=blue];
+	452 [label="of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure , younger students' art and music education should not take the second place",color=green];
+	415 [label="should",color=green];
+	420 [label="class with some art and music class in order to cultivate student's interest of art without adding extra study pressure",color=blue];
+	446 [label="the modern society",color=blue];
+	452 [label="of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure , younger students' art and music education should not take the second place",color=green];
+}

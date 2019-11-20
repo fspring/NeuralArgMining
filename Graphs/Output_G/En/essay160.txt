@@ -1,0 +1,29 @@
+digraph G {
+	84 -> 74;
+	84 -> 121;
+	107 -> 121;
+	109 -> 121;
+	113 -> 121;
+	162 -> 255;
+	210 -> 191;
+	210 -> 197;
+	210 -> 255;
+	74 [label="of",color=green];
+	84 [label="each type of crime then it will lead to increase the crime because the punishment will be clear in the mind",color=blue];
+	84 [label="each type of crime then it will lead to increase the crime because the punishment will be clear in the mind",color=blue];
+	121 [label="laws and rules are there for people therefore it is necessary to have a look behind crime for instance "a women steals feed for her child should be treated same as a women , who steals for her drug addiction"",color=green];
+	107 [label="criminals",color=blue];
+	121 [label="laws and rules are there for people therefore it is necessary to have a look behind crime for instance "a women steals feed for her child should be treated same as a women , who steals for her drug addiction"",color=green];
+	109 [label="they will not",color=blue];
+	121 [label="laws and rules are there for people therefore it is necessary to have a look behind crime for instance "a women steals feed for her child should be treated same as a women , who steals for her drug addiction"",color=green];
+	113 [label="fear",color=blue];
+	121 [label="laws and rules are there for people therefore it is necessary to have a look behind crime for instance "a women steals feed for her child should be treated same as a women , who steals for her drug addiction"",color=green];
+	162 [label="the person who committed crime first time and the professional criminals should not be imprisoned at same place",color=blue];
+	255 [label="fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other",color=green];
+	191 [label="taken by",color=green];
+	210 [label="be treated equally because sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal",color=blue];
+	197 [label="judgement",color=green];
+	210 [label="be treated equally because sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal",color=blue];
+	210 [label="be treated equally because sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal",color=blue];
+	255 [label="fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other",color=green];
+}

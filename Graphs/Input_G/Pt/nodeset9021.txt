@@ -1,0 +1,11 @@
+digraph G {
+	30 -> 0;
+	30 -> 20;
+	95 -> 73;
+	0 [label="O Governo não chega lá mas fez o caminho quase todo e apresenta 2,6% de défice para este ano",color=green];
+	30 [label="ainda estamos longe da consolidação fiscal",color=blue];
+	20 [label="É uma evolução que deve registar-se de forma positiva",color=green];
+	30 [label="ainda estamos longe da consolidação fiscal",color=blue];
+	73 [label="Se em vez do programa do Governo olharmos para o programa eleitoral do PS , a evolução é ainda mais notável",color=green];
+	95 [label="António Costa começou por trabalhar com um défice orçamental previsional de 3% para este ano",color=blue];
+}

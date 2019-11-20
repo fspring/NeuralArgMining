@@ -1,0 +1,26 @@
+digraph G {
+	87 -> 63;
+	87 -> 195;
+	111 -> 195;
+	138 -> 195;
+	159 -> 195;
+	219 -> 287;
+	234 -> 287;
+	253 -> 287;
+	63 [label="the majority of people in the globe have benefited greatly from these powerful and effective means of modern communication",color=green];
+	87 [label="mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business",color=blue];
+	87 [label="mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business",color=blue];
+	195 [label="these new forms of communication do bring a great deal of convenience to humankind",color=green];
+	111 [label="With the click of a button , the vast amount of information can be transmitted from America to China in just a few seconds",color=blue];
+	195 [label="these new forms of communication do bring a great deal of convenience to humankind",color=green];
+	138 [label="it is generally felt that the access to these tools of communication is available in every corner of the world",color=blue];
+	195 [label="these new forms of communication do bring a great deal of convenience to humankind",color=green];
+	159 [label="With a mobile phone or a laptop , a person can talk or send messages online at a bus stop , in a corner shop or anywhere they could imagine",color=blue];
+	195 [label="these new forms of communication do bring a great deal of convenience to humankind",color=green];
+	219 [label="the more privileged are able to enjoy the benefits",color=blue];
+	287 [label="people who live in poverty are less likely to be benefited from modern communication technologies",color=green];
+	234 [label="the wide spread use of these efficient and effective ways of communication costs a considerable amount of money",color=blue];
+	287 [label="people who live in poverty are less likely to be benefited from modern communication technologies",color=green];
+	253 [label="Anyone who aims to use these innovations have to not only pay for the appliances such as a mobile phone or a computer but also cover up costs for communication services",color=blue];
+	287 [label="people who live in poverty are less likely to be benefited from modern communication technologies",color=green];
+}

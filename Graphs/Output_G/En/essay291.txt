@@ -1,0 +1,20 @@
+digraph G {
+	147 -> 110;
+	120 -> 299;
+	168 -> 299;
+	196 -> 193;
+	211 -> 299;
+	259 -> 299;
+	110 [label="studying in advance education take a",color=green];
+	147 [label="only good students have potentials to success programs more that those who are not considered as good students",color=blue];
+	120 [label="college and university do not want people who not qualify for to waste their money in these expensive courses and waste their time",color=blue];
+	299 [label="that college and university should be available for all students who want to pursue their goal",color=green];
+	168 [label="mediocre students are not have a chance to gain these advance knowledge from college and university",color=blue];
+	299 [label="that college and university should be available for all students who want to pursue their goal",color=green];
+	193 [label="people",color=green];
+	196 [label="all students should have equal opportunity to study in higher education",color=blue];
+	211 [label="higher education take a lot of money and a lot of time however moderate students should have a chance to try",color=blue];
+	299 [label="that college and university should be available for all students who want to pursue their goal",color=green];
+	259 [label="a good environment in college or university is encouraging students to study harder for a good future",color=blue];
+	299 [label="that college and university should be available for all students who want to pursue their goal",color=green];
+}

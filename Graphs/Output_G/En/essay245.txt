@@ -1,0 +1,11 @@
+digraph G {
+	64 -> 43;
+	64 -> 49;
+	267 -> 286;
+	43 [label="communicating by e-mail is easy",color=green];
+	64 [label="in this case it is not so difficult to write an e-mail or to leave a voice mail because even shy people feel themselves more confident",color=blue];
+	49 [label="many people have problems with calling a person that they are not acquainted with",color=green];
+	64 [label="in this case it is not so difficult to write an e-mail or to leave a voice mail because even shy people feel themselves more confident",color=blue];
+	267 [label="you should not worry about interrupting an important conversation or some other business",color=blue];
+	286 [label="would like to say that for me both options of communicating are possible",color=green];
+}

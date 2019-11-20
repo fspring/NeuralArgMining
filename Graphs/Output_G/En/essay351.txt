@@ -1,0 +1,14 @@
+digraph G {
+	82 -> 54;
+	102 -> 78;
+	102 -> 81;
+	206 -> 250;
+	54 [label="that in order for people to cover their daily and general needs they need money as well",color=green];
+	82 [label="and work-place condition , sometimes , have even more impact on person's happiness and quality of life",color=blue];
+	78 [label="friendly colleagues",color=green];
+	102 [label="for instance , who don't like their co-workers and working condition are considered less satisfied with their jobs , despite of a high salary",color=blue];
+	81 [label="environment",color=green];
+	102 [label="for instance , who don't like their co-workers and working condition are considered less satisfied with their jobs , despite of a high salary",color=blue];
+	206 [label="for example , people , who work in monotonous jobs , where no achievements or a new positions can be reached feel themselves more dissatisfied , even though they have a very good salaries",color=blue];
+	250 [label="salary outweighs any other motivators",color=green];
+}

@@ -1,0 +1,14 @@
+digraph G {
+	84 -> 262;
+	110 -> 253;
+	179 -> 145;
+	179 -> 165;
+	84 [label="complete data concerning the history of a sued person creates more opportunity for jury members to build an overall picture of defendant's personality",color=blue];
+	262 [label="and would not change the regulations on keeping the jury unaware of past actions",color=green];
+	110 [label="past record might be useful to decide whether a person was able to perform a certain type of crime when it concerns serious crimes , such as kidnapping or a murder",color=blue];
+	253 [label="the current laws of great britain and australia",color=green];
+	145 [label="order for the jury to come",color=green];
+	179 [label="a defendant with number of past crimes has more chance to be found guilty compared to a person with no or lighter criminal record",color=blue];
+	165 [label="should provide with details relevant to a particular case only",color=green];
+	179 [label="a defendant with number of past crimes has more chance to be found guilty compared to a person with no or lighter criminal record",color=blue];
+}

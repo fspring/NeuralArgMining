@@ -1,0 +1,35 @@
+digraph G {
+	116 -> 51;
+	116 -> 84;
+	116 -> 342;
+	166 -> 342;
+	203 -> 342;
+	218 -> 342;
+	273 -> 245;
+	273 -> 342;
+	279 -> 342;
+	291 -> 342;
+	320 -> 342;
+	51 [label="the best way for teachers to make students more interested in a subject is to explain how that subject can help and apply to their lives outside school",color=green];
+	116 [label="Take chemistry for example , merely memorizing the names of the substances and the structural formulas seems to be very boring , while representing where and how those chemical reactions really happen near students will raise their curiosity and lead them to digest those theories learned from the class",color=blue];
+	84 [label="by explaining how the subject contributes to daily life , students will have vivid impression on that subject thus become more interested and active in acquiring the knowledge on that subject",color=green];
+	116 [label="Take chemistry for example , merely memorizing the names of the substances and the structural formulas seems to be very boring , while representing where and how those chemical reactions really happen near students will raise their curiosity and lead them to digest those theories learned from the class",color=blue];
+	116 [label="Take chemistry for example , merely memorizing the names of the substances and the structural formulas seems to be very boring , while representing where and how those chemical reactions really happen near students will raise their curiosity and lead them to digest those theories learned from the class",color=blue];
+	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning",color=green];
+	166 [label="While I was in senior high school , my chemical teacher once showed us how the detergent dissolves oil by an experiment and later on taught us how to describe this process with formal structural formulas",color=blue];
+	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning",color=green];
+	203 [label="This type of learning method is more fun and eventually the results are good",color=blue];
+	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning",color=green];
+	218 [label="I connected the visual images of that experiment with the formula and I barely forget , even though now I'm not studying chemistry anymore",color=blue];
+	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning",color=green];
+	245 [label="by bridging the theories with daily life events , students are given the chance to apply knowledge to their lives and develop their own ability of problem-solving",color=green];
+	273 [label="This will address students' interests",color=blue];
+	273 [label="This will address students' interests",color=blue];
+	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning",color=green];
+	279 [label="it's the assignment that needs real life participation",color=blue];
+	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning",color=green];
+	291 [label="in law class , students are informed their rights and duties and they are taught how they can apply law to different situations that might happen upon them",color=blue];
+	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning",color=green];
+	320 [label="When any one of the situations occurs , they can think independently and figure out how to react",color=blue];
+	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning",color=green];
+}

@@ -1,0 +1,11 @@
+digraph G {
+	78 -> 64;
+	91 -> 71;
+	167 -> 163;
+	64 [label="time is the",color=green];
+	78 [label="by having my own business , i can manage my own time",color=blue];
+	71 [label="which i have in my life",color=green];
+	91 [label="i could work whenever i want , or i do not need to give reasons to my boss for a delay",color=blue];
+	163 [label="why people work",color=green];
+	167 [label="the amount of money is always the most important criterion for everyone to choose a job",color=blue];
+}

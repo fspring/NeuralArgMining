@@ -1,0 +1,32 @@
+digraph G {
+	46 -> 4;
+	46 -> 34;
+	46 -> 217;
+	60 -> 217;
+	107 -> 122;
+	134 -> 122;
+	134 -> 217;
+	160 -> 147;
+	160 -> 217;
+	183 -> 217;
+	4 [label="parents are the best teacher",color=green];
+	46 [label="More power than any friend or other adult could have",color=blue];
+	34 [label="the things that parents say have great power to their child",color=green];
+	46 [label="More power than any friend or other adult could have",color=blue];
+	46 [label="More power than any friend or other adult could have",color=blue];
+	217 [label="parents are the greatest teachers",color=green];
+	60 [label="if someone tells a kid that something is wrong and they shouldn't do it , but his father told him/her that it was right , the kid will listen to the father instead of the other person , even if his father is wrong",color=blue];
+	217 [label="parents are the greatest teachers",color=green];
+	107 [label="a child normally spends more time with their parents than with other people",color=blue];
+	122 [label="their parents have more time to teach him/her than anybody else",color=green];
+	122 [label="their parents have more time to teach him/her than anybody else",color=green];
+	134 [label="They have more contact and more intimacy with their children",color=blue];
+	134 [label="They have more contact and more intimacy with their children",color=blue];
+	217 [label="parents are the greatest teachers",color=green];
+	147 [label="children usually mirror themselves on their parents",color=green];
+	160 [label="even if the parents don’t intend to teach their children something , they are always observing and learning by themselves",color=blue];
+	160 [label="even if the parents don’t intend to teach their children something , they are always observing and learning by themselves",color=blue];
+	217 [label="parents are the greatest teachers",color=green];
+	183 [label="if there is a man that beats his wife and treats her bad , his child probably is going to be rude and treat girls bad",color=blue];
+	217 [label="parents are the greatest teachers",color=green];
+}

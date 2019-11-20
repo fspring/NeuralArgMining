@@ -1,0 +1,5 @@
+digraph G {
+	37 -> 16;
+	16 [label="2016 será decisivo para o futuro político de Merkel",color=green];
+	37 [label="Se a CDU sofrer maus resultados",color=blue];
+}

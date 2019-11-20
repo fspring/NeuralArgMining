@@ -1,0 +1,516 @@
+nodeset10778.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset10956.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset10957.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset10958.txt
+[[1. 1.]
+ [1. 1.]]
+=================
+nodeset10959.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset10960.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset10961.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset10962.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset11095.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset11104.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset11243.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset11244.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset11245.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset11246.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset11316.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset4575.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset4584.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset4586.txt
+[[1. 1.]
+ [1. 1.]]
+=================
+nodeset4587.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset4588.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset4682.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset4699.txt
+[[1.         0.        ]
+ [0.10344828 1.        ]]
+=================
+nodeset4723.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset5026.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset5027.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset5037.txt
+[[1.         0.        ]
+ [0.08695652 1.        ]]
+=================
+nodeset5038.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset5882.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset5896.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset5897.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset5949.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6623.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6627.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6629.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6632.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6643.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset6646.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6674.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6675.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6677.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6681.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset6685.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8902.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8903.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8922.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8923.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset8957.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8958.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset8959.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8960.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8961.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8962.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8965.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset8966.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9016.txt
+[[-inf -inf]
+ [-inf -inf]]
+=================
+nodeset9017.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9018.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9019.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9020.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9021.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9022.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9023.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9024.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9025.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9026.txt
+[[1. 1.]
+ [1. 1.]]
+=================
+nodeset9031.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9037.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9072.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9073.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9074.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9075.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9076.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9077.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9078.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9079.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9080.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9084.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9091.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9092.txt
+[[1. 1.]
+ [1. 1.]]
+=================
+nodeset9101.txt
+[[1. 1.]
+ [1. 1.]]
+=================
+nodeset9102.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9181.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9182.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9183.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9184.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9185.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9186.txt
+[[1. 1.]
+ [1. 1.]]
+=================
+nodeset9187.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9188.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9204.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9205.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9206.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9207.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9208.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9298.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9299.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9300.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9301.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9302.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9303.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9304.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9305.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9306.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9307.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9308.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9309.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9310.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9311.txt
+[[1. 0.]
+ [0. 1.]]
+=================
+nodeset9312.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9313.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9314.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9315.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9316.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9317.txt
+[[1. 1.]
+ [1. 1.]]
+=================
+nodeset9318.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9319.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9320.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9321.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9322.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9323.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9324.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9325.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9326.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9346.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9347.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9348.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9350.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9351.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================
+nodeset9352.txt
+[[-inf -inf]
+ [-inf   1.]]
+=================

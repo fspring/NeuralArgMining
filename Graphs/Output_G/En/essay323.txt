@@ -1,0 +1,14 @@
+digraph G {
+	77 -> 64;
+	208 -> 267;
+	231 -> 267;
+	309 -> 351;
+	64 [label="parents are our teachers from the very early time in our life",color=green];
+	77 [label="as we were born , parents taught us from the very little things such as how to smile , how to walk to the ordinary routines such as eating",color=blue];
+	208 [label="believe we will never forget what our parents have taught us because we use it every day",color=blue];
+	267 [label="even when we grow older",color=green];
+	231 [label="i will never forget what my parents told me about how to be grateful to other people who help me",color=blue];
+	267 [label="even when we grow older",color=green];
+	309 [label="my older brother has got married and lived independently for two years but when he faces difficulties in his work or his life , he comes back to meet our parents and ask for advice",color=blue];
+	351 [label="that parents are our best teachers",color=green];
+}

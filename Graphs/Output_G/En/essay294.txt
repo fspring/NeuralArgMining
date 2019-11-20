@@ -1,0 +1,32 @@
+digraph G {
+	73 -> 57;
+	172 -> 161;
+	215 -> 207;
+	215 -> 339;
+	256 -> 247;
+	256 -> 339;
+	276 -> 339;
+	289 -> 339;
+	306 -> 339;
+	324 -> 339;
+	57 [label="doing research is a method of self-improvement for professors",color=green];
+	73 [label="the research projects provide communication with the outside",color=blue];
+	161 [label="professors should fully use the research-friendly environment provided by universities",color=green];
+	172 [label="it is very common to see state-of-the-art laboratories in the campus",color=blue];
+	207 [label="to discourage professors from using those advantages",color=green];
+	215 [label="we all know that einstein developed the theory of general relativity when he was a professor in hu berlin",color=blue];
+	215 [label="we all know that einstein developed the theory of general relativity when he was a professor in hu berlin",color=blue];
+	339 [label="it is natural to support the professors spending more time on doing research",color=green];
+	247 [label="doing research could also improve the teaching quality",color=green];
+	256 [label="with the help of research projects , professors could lead their students into the practical world from the classroom",color=blue];
+	256 [label="with the help of research projects , professors could lead their students into the practical world from the classroom",color=blue];
+	339 [label="it is natural to support the professors spending more time on doing research",color=green];
+	276 [label="they can easily teach students how to imply the knowledge in practice",color=blue];
+	339 [label="it is natural to support the professors spending more time on doing research",color=green];
+	289 [label="i still remembered the experience of being an assistant in one of my professor's research project",color=blue];
+	339 [label="it is natural to support the professors spending more time on doing research",color=green];
+	306 [label="by participating in it , i had opportunities to use theories on textbooks in real life experiments",color=blue];
+	339 [label="it is natural to support the professors spending more time on doing research",color=green];
+	324 [label="the research project provides a more efficient way of teaching",color=blue];
+	339 [label="it is natural to support the professors spending more time on doing research",color=green];
+}

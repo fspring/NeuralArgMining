@@ -1,0 +1,20 @@
+digraph G {
+	105 -> 88;
+	105 -> 97;
+	187 -> 220;
+	229 -> 216;
+	265 -> 266;
+	287 -> 312;
+	88 [label="technology makes children even more creative",color=green];
+	105 [label="children are curious about everything around them , so when they come across a high-tech product like a cellphone , they will be obsessed with its mysterious functions and eager to know how it works",color=blue];
+	97 [label="technology inspires children to create new things",color=green];
+	105 [label="children are curious about everything around them , so when they come across a high-tech product like a cellphone , they will be obsessed with its mysterious functions and eager to know how it works",color=blue];
+	187 [label="he successfully invented a computer that was easy to use and lightweight",color=blue];
+	220 [label="technology widen children's knowledge",color=green];
+	216 [label="create",color=green];
+	229 [label="children were only able to see things from one perspective",color=blue];
+	265 [label="they",color=blue];
+	266 [label="will be able to learn about",color=green];
+	287 [label="the diverse knowledge that children gained from different parts of the world , inspires children and encourage them to create new things",color=blue];
+	312 [label="technology may have negative effects on children",color=green];
+}

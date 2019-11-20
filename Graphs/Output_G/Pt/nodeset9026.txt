@@ -1,0 +1,5 @@
+digraph G {
+	63 -> 50;
+	50 [label="quando nos sentimos menos encorajados a cair nessa tentação invocamos razões logísticas",color=green];
+	63 [label="sabendo genericamente que devemos amar o próximo , diremos que não havia ninguém por perto",color=blue];
+}

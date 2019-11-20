@@ -1,0 +1,38 @@
+digraph G {
+	39 -> 6;
+	39 -> 113;
+	51 -> 113;
+	80 -> 113;
+	140 -> 130;
+	140 -> 287;
+	159 -> 287;
+	175 -> 287;
+	242 -> 200;
+	215 -> 287;
+	242 -> 287;
+	259 -> 287;
+	6 [label="a quintessence of any visit to an excellent museum of a new place would be the best part of a tour",color=green];
+	39 [label="it is easy to know the history of the new place",color=blue];
+	39 [label="it is easy to know the history of the new place",color=blue];
+	113 [label="museums can help us know the history and the customs of a new place",color=green];
+	51 [label="Last year , I went to Ellis Island and the immigration museum , where is a symbol of American immigration and the immigrant experience in the New York",color=blue];
+	113 [label="museums can help us know the history and the customs of a new place",color=green];
+	80 [label="Through the exhibit , I found that the Statue of Liberty symbolized freedom , and Ellis Island may be the place , where the immigration took their dreams and fears",color=blue];
+	113 [label="museums can help us know the history and the customs of a new place",color=green];
+	130 [label="visiting a well-known museum also can broaden our horizon",color=green];
+	140 [label="Those outstanding and diverse range of objects ,with classic and magnificent art , is guaranteed to inspire us",color=blue];
+	140 [label="Those outstanding and diverse range of objects ,with classic and magnificent art , is guaranteed to inspire us",color=blue];
+	287 [label="if we have a chance to visit top museums in the world , we must stop by these museums",color=green];
+	159 [label="In my city , National Palace Museum is celebrated for collection of ancient Chinese artifacts",color=blue];
+	287 [label="if we have a chance to visit top museums in the world , we must stop by these museums",color=green];
+	175 [label="To my astonishment , Jadeite cabbage is the most famous artistic work , which is made of jade , is vividly shown",color=blue];
+	287 [label="if we have a chance to visit top museums in the world , we must stop by these museums",color=green];
+	200 [label="a local museum could be a top choice and destination for tourist to visit",color=green];
+	242 [label="visiting a museum saves their precious time for making a decision",color=blue];
+	215 [label="Someone take a trip without making any plans , so they may waste their time on shopping or staying at their hotel",color=blue];
+	287 [label="if we have a chance to visit top museums in the world , we must stop by these museums",color=green];
+	242 [label="visiting a museum saves their precious time for making a decision",color=blue];
+	287 [label="if we have a chance to visit top museums in the world , we must stop by these museums",color=green];
+	259 [label="a local museum represent its own typical culture so that visitors may easily acquaint with the new place in a short time",color=blue];
+	287 [label="if we have a chance to visit top museums in the world , we must stop by these museums",color=green];
+}

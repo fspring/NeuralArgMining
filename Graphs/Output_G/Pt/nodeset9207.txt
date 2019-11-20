@@ -1,0 +1,5 @@
+digraph G {
+	68 -> 69;
+	68 [label="partir",color=blue];
+	69 [label="da",color=green];
+}

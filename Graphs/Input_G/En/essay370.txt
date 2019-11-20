@@ -1,0 +1,29 @@
+digraph G {
+	78 -> 48;
+	78 -> 67;
+	78 -> 281;
+	115 -> 281;
+	141 -> 281;
+	158 -> 281;
+	182 -> 205;
+	233 -> 205;
+	233 -> 281;
+	48 [label="future developments in IT will put the users at their own expense",color=green];
+	78 [label="In the past , there used to be World Wide Web or e-mail , but the cyber world now varies form games , online TV shows to means of communication , and probably still keeps going",color=blue];
+	67 [label="IT seems to have turned its users to its slaves",color=green];
+	78 [label="In the past , there used to be World Wide Web or e-mail , but the cyber world now varies form games , online TV shows to means of communication , and probably still keeps going",color=blue];
+	78 [label="In the past , there used to be World Wide Web or e-mail , but the cyber world now varies form games , online TV shows to means of communication , and probably still keeps going",color=blue];
+	281 [label="there have to be some alterations before IT has more serious impact on each individual's life",color=green];
+	115 [label="Such irrisistible temptations drift people from the real world to the unreal ones , resulting in their dependence on technical equipment",color=blue];
+	281 [label="there have to be some alterations before IT has more serious impact on each individual's life",color=green];
+	141 [label="the lack of soft skills attained form outdoor activities will agitate the IT addict",color=blue];
+	281 [label="there have to be some alterations before IT has more serious impact on each individual's life",color=green];
+	158 [label="staying inside with computer and mobile phone will always be the first alternative",color=blue];
+	281 [label="there have to be some alterations before IT has more serious impact on each individual's life",color=green];
+	182 [label="The existence of Skype , Viber or Yahoo has notably reduced even the longest distance into one click",color=blue];
+	205 [label="rarely do people go out of their comfot zone , provided with snack and air conditioner , to assemble with others in flesh",color=green];
+	205 [label="rarely do people go out of their comfot zone , provided with snack and air conditioner , to assemble with others in flesh",color=green];
+	233 [label="their action will make a beeline for obesity , short-sighted , diabetes and other heart-related problems",color=blue];
+	233 [label="their action will make a beeline for obesity , short-sighted , diabetes and other heart-related problems",color=blue];
+	281 [label="there have to be some alterations before IT has more serious impact on each individual's life",color=green];
+}

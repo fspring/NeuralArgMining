@@ -1,0 +1,35 @@
+digraph G {
+	111 -> 65;
+	111 -> 86;
+	111 -> 324;
+	133 -> 324;
+	159 -> 324;
+	185 -> 280;
+	203 -> 280;
+	216 -> 280;
+	230 -> 280;
+	243 -> 280;
+	257 -> 280;
+	65 [label="it is important for children to be taught with a secondary language as early as kindergarten",color=green];
+	111 [label="Learning at school must be convenient for them if they speak in a way that they are used to",color=blue];
+	86 [label="children might not be really comfortable with the use of a language other than their native tongue when they are in their kindergarten years",color=green];
+	111 [label="Learning at school must be convenient for them if they speak in a way that they are used to",color=blue];
+	111 [label="Learning at school must be convenient for them if they speak in a way that they are used to",color=blue];
+	324 [label="if this endeavour is properly implemented by schools , this will most likely lead to improvement of learning ability among children",color=green];
+	133 [label="teachers think that foreign language most likely leads to confusion for children who are yet to start learning",color=blue];
+	324 [label="if this endeavour is properly implemented by schools , this will most likely lead to improvement of learning ability among children",color=green];
+	159 [label="the teacher should be well-trained in the use of this specific language , so quality education will be delivered",color=blue];
+	324 [label="if this endeavour is properly implemented by schools , this will most likely lead to improvement of learning ability among children",color=green];
+	185 [label="kids are amazing learners , and the best time to hone them is in their younger years",color=blue];
+	280 [label="the advantages of early introduction of foreign language outweigh its disadvantages",color=green];
+	203 [label="The introduction of foreign language will be new to them",color=blue];
+	280 [label="the advantages of early introduction of foreign language outweigh its disadvantages",color=green];
+	216 [label="their curiosity will drive them to learn and comprehend",color=blue];
+	280 [label="the advantages of early introduction of foreign language outweigh its disadvantages",color=green];
+	230 [label="grasping a new language will be natural to them",color=blue];
+	280 [label="the advantages of early introduction of foreign language outweigh its disadvantages",color=green];
+	243 [label="the positive impact of this strategy is beneficial to both learners and teachers",color=blue];
+	280 [label="the advantages of early introduction of foreign language outweigh its disadvantages",color=green];
+	257 [label="Teachers will not find it difficult to make students learn such new concept in their teenage years",color=blue];
+	280 [label="the advantages of early introduction of foreign language outweigh its disadvantages",color=green];
+}

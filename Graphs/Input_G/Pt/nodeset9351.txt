@@ -1,0 +1,5 @@
+digraph G {
+	28 -> 47;
+	28 [label="O programa do Governo , que tem apenas um mês , apontava para um défice orçamental de 2,8%",color=blue];
+	47 [label="Bruxelas exigiu , entretanto , um esforço adicional para baixar o desequilíbrio das contas públicas para 2,5%",color=green];
+}

@@ -1,0 +1,14 @@
+digraph G {
+	176 -> 168;
+	256 -> 194;
+	248 -> 197;
+	226 -> 204;
+	168 [label="handle this sophisticated",color=green];
+	176 [label="the government would also pay the salary for the excessive officials , and this would result in insufficient",color=blue];
+	194 [label="investments",color=green];
+	256 [label="we even do not experience a chance to employ like police or fire brigade",color=blue];
+	197 [label="crucial public sectors",color=green];
+	248 [label="we also pay",color=blue];
+	204 [label="health",color=green];
+	226 [label="they point out that it is irrational to require them to pay for the taxes they do not use",color=blue];
+}

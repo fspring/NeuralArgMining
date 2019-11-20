@@ -1,0 +1,5 @@
+digraph G {
+	26 -> 10;
+	10 [label="os exames estavam a destruir o que é suposto ser o sistema educativo",color=green];
+	26 [label="as escolas tinham deixado de ensinar",color=blue];
+}

@@ -1,0 +1,20 @@
+digraph G {
+	74 -> 46;
+	74 -> 93;
+	127 -> 167;
+	157 -> 167;
+	199 -> 259;
+	225 -> 259;
+	46 [label="there are many institutions that accept the same average number of male and female students in many kinds of course",color=green];
+	74 [label="The proportion of women is rising year by year in many parts of the world recently",color=blue];
+	74 [label="The proportion of women is rising year by year in many parts of the world recently",color=blue];
+	93 [label="the issue stimulates the stakeholders from many places to think what kind of preparations they should take for stabilising the economic growth and the quality life of people",color=green];
+	127 [label="women tend to work in various fields which in the past normally done by men such as being engineers , and dealing with machines",color=blue];
+	167 [label="female students are indicated having the same potential and capability as men",color=green];
+	157 [label="women can also do the men's works",color=blue];
+	167 [label="female students are indicated having the same potential and capability as men",color=green];
+	199 [label="These days , it is so hard for young people to get a proper job when they have not degree certificate from Universities",color=blue];
+	259 [label="giving equal education for both men and women is a must",color=green];
+	225 [label="learning from human's history , education provides someone to widen his or her knowledge and experience for facing the real situation of workplace through subject taught in college",color=blue];
+	259 [label="giving equal education for both men and women is a must",color=green];
+}

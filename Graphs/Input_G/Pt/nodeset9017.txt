@@ -1,0 +1,8 @@
+digraph G {
+	26 -> 60;
+	48 -> 37;
+	26 [label="Durante este ano , haverá cinco eleições regionais nos Lander",color=blue];
+	60 [label="a vida ficará muito difícil para Merkel",color=green];
+	37 [label="Se a CDU sofrer maus resultados",color=green];
+	48 [label="as eleições regionais costumam ser complicadas para os partidos no poder",color=blue];
+}

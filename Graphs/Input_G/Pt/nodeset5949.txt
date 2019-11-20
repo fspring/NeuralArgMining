@@ -1,0 +1,5 @@
+digraph G {
+	145 -> 161;
+	145 [label="Vieira Pires adianta que quatro reclusos precisarão ainda de cuidados médicos bastante diferenciados ,",color=blue];
+	161 [label="não se prevê em curto lapso de tempo a sua transferência",color=green];
+}

@@ -1,0 +1,20 @@
+digraph G {
+	101 -> 90;
+	132 -> 160;
+	183 -> 160;
+	183 -> 312;
+	280 -> 312;
+	342 -> 340;
+	90 [label="to make their food easier to prepare and taste delicious",color=green];
+	101 [label="almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people",color=blue];
+	132 [label="for instance , there are usually some articles in newspapers and magazines which report the relationship between certain chemical components in some food and diseases",color=blue];
+	160 [label="easy-to-cook foods sometimes could be dangerous for human's health",color=green];
+	160 [label="easy-to-cook foods sometimes could be dangerous for human's health",color=green];
+	183 [label="it is true that cooking prepared food needs much less time in comparison with the fresh food",color=blue];
+	183 [label="it is true that cooking prepared food needs much less time in comparison with the fresh food",color=blue];
+	312 [label="although the invention of prepared foods definitely satisfies the demand of some people who are busy in their work , it is not a good thing",color=green];
+	280 [label="rare people have been aware that this has contributed to a modification of cooking habits , which may cause the loss of our custom and culture about cooking",color=blue];
+	312 [label="although the invention of prepared foods definitely satisfies the demand of some people who are busy in their work , it is not a good thing",color=green];
+	340 [label="is not",color=green];
+	342 [label="a waste of time",color=blue];
+}

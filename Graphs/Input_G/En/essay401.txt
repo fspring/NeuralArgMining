@@ -1,0 +1,29 @@
+digraph G {
+	80 -> 41;
+	80 -> 56;
+	80 -> 261;
+	101 -> 261;
+	161 -> 136;
+	161 -> 261;
+	188 -> 261;
+	226 -> 261;
+	244 -> 261;
+	41 [label="fatherhood is a as vital part of a healty parantage as much as motherhood",color=green];
+	80 [label="the role models within a family play a significant role in the development of the child's characteristics",color=blue];
+	56 [label="The first reason why the father's role should be equal to the mother's role is the nature of parantage",color=green];
+	80 [label="the role models within a family play a significant role in the development of the child's characteristics",color=blue];
+	80 [label="the role models within a family play a significant role in the development of the child's characteristics",color=blue];
+	261 [label="fatherhood should be as present as motherhood in a child's life starting from the the birth due to providing appropriate parenthood and having healthy family relationships",color=green];
+	101 [label="in a traditional Turkish family , while a mother has a sincere and thoughtful approach to the child , a father role must be present as authoritarian and conversative to raise a well-behaved child",color=blue];
+	261 [label="fatherhood should be as present as motherhood in a child's life starting from the the birth due to providing appropriate parenthood and having healthy family relationships",color=green];
+	136 [label="The second reason why I believe that fatherood is as important as motherhood is the dynamics of the relationships today",color=green];
+	161 [label="we are living in a society that puts a significant importance to gender equality in every aspect of the life , including relationships",color=blue];
+	161 [label="we are living in a society that puts a significant importance to gender equality in every aspect of the life , including relationships",color=blue];
+	261 [label="fatherhood should be as present as motherhood in a child's life starting from the the birth due to providing appropriate parenthood and having healthy family relationships",color=green];
+	188 [label="a family formed by a woman with a housewife role who looks after the home and takes care of children and a man who brings money home can not be seen anymore in today's society",color=blue];
+	261 [label="fatherhood should be as present as motherhood in a child's life starting from the the birth due to providing appropriate parenthood and having healthy family relationships",color=green];
+	226 [label="all of the couple duties are performed equally and interchangeably by individuals",color=blue];
+	261 [label="fatherhood should be as present as motherhood in a child's life starting from the the birth due to providing appropriate parenthood and having healthy family relationships",color=green];
+	244 [label="having and raising children should not be different than any other daily activity",color=blue];
+	261 [label="fatherhood should be as present as motherhood in a child's life starting from the the birth due to providing appropriate parenthood and having healthy family relationships",color=green];
+}

@@ -1,0 +1,11 @@
+digraph G {
+	86 -> 30;
+	239 -> 196;
+	239 -> 199;
+	30 [label="both of studying hard and playing sports are part of life to children",color=green];
+	86 [label="for instance , children who always studying hard and getting high achievement , it will be easy to pass qualification for work and they are more likely to find great work at multinational company",color=blue];
+	196 [label="children",color=green];
+	239 [label="will make children getting lots of friends , so they can contribute positively to community",color=blue];
+	199 [label="playing sport",color=green];
+	239 [label="will make children getting lots of friends , so they can contribute positively to community",color=blue];
+}

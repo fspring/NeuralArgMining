@@ -1,0 +1,14 @@
+digraph G {
+	74 -> 32;
+	74 -> 39;
+	243 -> 298;
+	258 -> 298;
+	32 [label="since",color=green];
+	74 [label="the whole world aims for women empowerment , and to achieve this , females should be given equal opportunities as males",color=blue];
+	39 [label="both must be given equal opportunities",color=green];
+	74 [label="the whole world aims for women empowerment , and to achieve this , females should be given equal opportunities as males",color=blue];
+	243 [label="this kind of gender biased approach is detrimental for the development of the society",color=blue];
+	298 [label="both genders have equal rights and universities should accept them in equal numbers",color=green];
+	258 [label="time and again , women have proved their mettle in every field",color=blue];
+	298 [label="both genders have equal rights and universities should accept them in equal numbers",color=green];
+}

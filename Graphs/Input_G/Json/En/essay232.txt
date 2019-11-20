@@ -1,0 +1,26 @@
+{"graph":{
+"nodes":[
+{"id": "183"},
+{"id": "34"},
+{"id": "60"},
+{"id": "4"},
+{"id": "46"},
+{"id": "134"},
+{"id": "160"},
+{"id": "122"},
+{"id": "217"},
+{"id": "147"},
+{"id": "107"}
+],
+"links":[
+{"source": "46", "target": "4"},
+{"source": "46", "target": "34"},
+{"source": "46", "target": "217"},
+{"source": "60", "target": "217"},
+{"source": "107", "target": "122"},
+{"source": "134", "target": "122"},
+{"source": "134", "target": "217"},
+{"source": "160", "target": "147"},
+{"source": "160", "target": "217"},
+{"source": "183", "target": "217"}
+]}}

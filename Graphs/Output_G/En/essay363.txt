@@ -1,0 +1,14 @@
+digraph G {
+	196 -> 168;
+	185 -> 255;
+	196 -> 255;
+	243 -> 255;
+	168 [label="of",color=green];
+	196 [label="the work of chopping , blending , grating , kneading has become so easy that people can not imagine their lives without this simple machine at their homes",color=blue];
+	185 [label="take the example of use of food processors in kitchens",color=blue];
+	255 [label="using machines is advantageous as machines make work easy and smooth",color=green];
+	196 [label="the work of chopping , blending , grating , kneading has become so easy that people can not imagine their lives without this simple machine at their homes",color=blue];
+	255 [label="using machines is advantageous as machines make work easy and smooth",color=green];
+	243 [label="after analyzing these two",color=blue];
+	255 [label="using machines is advantageous as machines make work easy and smooth",color=green];
+}

@@ -1,0 +1,26 @@
+digraph G {
+	99 -> 21;
+	99 -> 71;
+	99 -> 243;
+	130 -> 162;
+	182 -> 162;
+	182 -> 243;
+	224 -> 202;
+	224 -> 243;
+	21 [label="government should provide those education to their people ; however , for the more higher education like university , the students or their parents should pay for the fees",color=green];
+	99 [label="It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education",color=blue];
+	71 [label="I don't think it is also fair for the government as the government has been paying a lot of money for their students' primary and secondary education",color=green];
+	99 [label="It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education",color=blue];
+	99 [label="It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education",color=blue];
+	243 [label="government should not pay for the university fees",color=green];
+	130 [label="students that already have a basic knowledge and education can get a part-time job and they can pay for their own studies when their parent could not afford to pay it",color=blue];
+	162 [label="They will be more responsible with their studies when they pay the fees themselves",color=green];
+	162 [label="They will be more responsible with their studies when they pay the fees themselves",color=green];
+	182 [label="the students will become more independent and it will build their characters in the marketplace as well",color=blue];
+	182 [label="the students will become more independent and it will build their characters in the marketplace as well",color=blue];
+	243 [label="government should not pay for the university fees",color=green];
+	202 [label="this will encourage all the parents to think of the way to help their children to achieve more in their lives",color=green];
+	224 [label="they need to make some contribution too for their children future",color=blue];
+	224 [label="they need to make some contribution too for their children future",color=blue];
+	243 [label="government should not pay for the university fees",color=green];
+}

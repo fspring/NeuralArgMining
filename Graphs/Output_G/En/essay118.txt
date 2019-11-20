@@ -1,0 +1,29 @@
+digraph G {
+	94 -> 70;
+	119 -> 87;
+	220 -> 193;
+	285 -> 215;
+	299 -> 217;
+	363 -> 362;
+	363 -> 375;
+	371 -> 370;
+	371 -> 375;
+	70 [label="that",color=green];
+	94 [label="hardly anyone could play basketball as skillfully as michael jordan - a legendary former american player who won several times in the nba championship",color=blue];
+	87 [label="do not own",color=green];
+	119 [label="they also point out that these people have to undergo painstaking and industrious training , let alone participate in a great number of contests to be recognized and prove themselves",color=blue];
+	193 [label="their talents should not",color=green];
+	220 [label="it is assumed the amazing performances they give to the audiences are only valuable in aesthetic and entertaining terms",color=blue];
+	215 [label="development",color=green];
+	285 [label="they commit themselves to promoting relaxation and enjoyment for the audience",color=blue];
+	217 [label="the",color=green];
+	299 [label="their contribution is less important than those from doctors or scientists , albeit necessary",color=blue];
+	362 [label="should",color=green];
+	363 [label="be a modification in the salary of",color=blue];
+	363 [label="be a modification in the salary of",color=blue];
+	375 [label="balance with those of people in other fields",color=green];
+	370 [label="professional",color=green];
+	371 [label="singers and athletes to",color=blue];
+	371 [label="singers and athletes to",color=blue];
+	375 [label="balance with those of people in other fields",color=green];
+}

@@ -1,0 +1,8 @@
+digraph G {
+	217 -> 212;
+	419 -> 477;
+	212 [label="can",color=green];
+	217 [label="successful people do not have to try new things or take risks",color=blue];
+	419 [label="try something new can indeed make people become special , while it does not mean successful",color=blue];
+	477 [label="and enhancing individual's capability is the most important path to success",color=green];
+}

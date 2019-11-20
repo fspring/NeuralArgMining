@@ -1,0 +1,23 @@
+digraph G {
+	100 -> 56;
+	100 -> 82;
+	100 -> 218;
+	128 -> 218;
+	179 -> 157;
+	179 -> 218;
+	202 -> 218;
+	56 [label="what can be expected , is a change of the role of the tradition but not its disappearance from the society",color=green];
+	100 [label="in Vietnam , many water puppet shows which once demonstrated our seasonal agriculture and communal activities , are today substituted by cinemas and music concerts",color=blue];
+	82 [label="the country's culture is passed down mainly through traditional skills and ways of life",color=green];
+	100 [label="in Vietnam , many water puppet shows which once demonstrated our seasonal agriculture and communal activities , are today substituted by cinemas and music concerts",color=blue];
+	100 [label="in Vietnam , many water puppet shows which once demonstrated our seasonal agriculture and communal activities , are today substituted by cinemas and music concerts",color=blue];
+	218 [label="there should never be any replacement for traditional skills or ways of life",color=green];
+	128 [label="the young generation can solely get access to their ancestor's early life through books and images , which otherwise would be much more easily absorbed",color=blue];
+	218 [label="there should never be any replacement for traditional skills or ways of life",color=green];
+	157 [label="a person should look back at the past , mainly by means of custom handcraft or antique lifestyle , to progress",color=green];
+	179 [label="Understanding why , and how our predecessors survived through thick and thin will probably be invaluable lessons for us today",color=blue];
+	179 [label="Understanding why , and how our predecessors survived through thick and thin will probably be invaluable lessons for us today",color=blue];
+	218 [label="there should never be any replacement for traditional skills or ways of life",color=green];
+	202 [label="study form their mistakes helps us accomplish our goal with smooth sailing",color=blue];
+	218 [label="there should never be any replacement for traditional skills or ways of life",color=green];
+}

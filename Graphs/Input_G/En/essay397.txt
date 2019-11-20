@@ -1,0 +1,29 @@
+digraph G {
+	68 -> 34;
+	68 -> 54;
+	68 -> 271;
+	107 -> 164;
+	120 -> 164;
+	205 -> 187;
+	205 -> 271;
+	226 -> 271;
+	244 -> 271;
+	34 [label="the affect of technology on culture is undeniable , it has also contributed to the preservation of traditonal culture",color=green];
+	68 [label="The invention of mobile phone and internet has changed our traditional ways of communicating as well as working , it has also been much less labourous than in the pass with the assistance of electrical machineries",color=blue];
+	54 [label="Thanks to modern technology , our life has been improved with many gadgets",color=green];
+	68 [label="The invention of mobile phone and internet has changed our traditional ways of communicating as well as working , it has also been much less labourous than in the pass with the assistance of electrical machineries",color=blue];
+	68 [label="The invention of mobile phone and internet has changed our traditional ways of communicating as well as working , it has also been much less labourous than in the pass with the assistance of electrical machineries",color=blue];
+	271 [label="Modern technogy has impacted the traditional cultures in both negative and positive ways",color=green];
+	107 [label="these newfangled practices has replaced many old traditional ones",color=blue];
+	164 [label="Many old traditionally cultural things have long gone as a result of modern technology",color=green];
+	120 [label="factories equipped with new and highly-productive system has replaced old handmade products , the exchange of letters among friends is so hard to be seen as we have had emails and social network instead , new video games has superseded the old-physical ones",color=blue];
+	164 [label="Many old traditionally cultural things have long gone as a result of modern technology",color=green];
+	187 [label="technology has also made some contributions to the maintenance and study of traditional cultures in some ways",color=green];
+	205 [label="Internet has aided to assess the young generations to the cultural identity of many nations from all around the world",color=blue];
+	205 [label="Internet has aided to assess the young generations to the cultural identity of many nations from all around the world",color=blue];
+	271 [label="Modern technogy has impacted the traditional cultures in both negative and positive ways",color=green];
+	226 [label="With the help of advanced methods , many art masterpiece has been well restorated and well preserved",color=blue];
+	271 [label="Modern technogy has impacted the traditional cultures in both negative and positive ways",color=green];
+	244 [label="Modern devices also assist the scientists to study the ancient societies much more deeply , hence discovering more cultural traces",color=blue];
+	271 [label="Modern technogy has impacted the traditional cultures in both negative and positive ways",color=green];
+}

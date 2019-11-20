@@ -1,0 +1,5 @@
+digraph G {
+	588 -> 607;
+	588 [label="O desemprego na profissão de facto está elevadíssimo , muito perto dos 33%",color=blue];
+	607 [label="é necessária uma acção activa e incisiva junto das entidades in competentes e incrementar as sinergias juntos das associações representativas",color=green];
+}

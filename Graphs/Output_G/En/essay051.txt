@@ -1,0 +1,11 @@
+digraph G {
+	155 -> 149;
+	255 -> 289;
+	278 -> 289;
+	149 [label="is vital for",color=green];
+	155 [label="sport activities have a good income because every sport has different matches and for each match they have a lot sponsors",color=blue];
+	255 [label="of the library facilities are stable and you can use them for a long time",color=blue];
+	289 [label="sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time",color=green];
+	278 [label="they become more valuable",color=blue];
+	289 [label="sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time",color=green];
+}

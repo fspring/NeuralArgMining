@@ -1,0 +1,11 @@
+digraph G {
+	119 -> 87;
+	119 -> 97;
+	119 -> 204;
+	87 [label="a man can only achieve his accomplishment through hard-working",color=green];
+	119 [label="the more beneficial for the society his achievement is , the more successful he is considered",color=blue];
+	97 [label="dedication and passion",color=green];
+	119 [label="the more beneficial for the society his achievement is , the more successful he is considered",color=blue];
+	119 [label="the more beneficial for the society his achievement is , the more successful he is considered",color=blue];
+	204 [label="using only money as a scale to measure a man's success is",color=green];
+}

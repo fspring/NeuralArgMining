@@ -1,0 +1,5 @@
+digraph G {
+	199 -> 226;
+	199 [label="when zoos appear are such distinction-driven animals as",color=blue];
+	226 [label="role of zoos towards both human and animals is undeniably indispensable",color=green];
+}

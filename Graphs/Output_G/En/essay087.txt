@@ -1,0 +1,5 @@
+digraph G {
+	109 -> 75;
+	75 [label="there are a large number of opportunities in privat works that you cannot find them when you work for the others",color=green];
+	109 [label="in the other jobs someone else are your boss",color=blue];
+}

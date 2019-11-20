@@ -1,0 +1,8 @@
+digraph G {
+	136 -> 167;
+	138 -> 167;
+	136 [label="violence",color=blue];
+	167 [label="detrimental influence to the society as well",color=green];
+	138 [label="as one of the",color=blue];
+	167 [label="detrimental influence to the society as well",color=green];
+}

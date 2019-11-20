@@ -1,0 +1,8 @@
+digraph G {
+	73 -> 88;
+	94 -> 88;
+	73 [label="mais um acidente semelhante ao da noite da passagem de ano em Colónia",color=blue];
+	88 [label="o fim político de Merkel",color=green];
+	88 [label="o fim político de Merkel",color=green];
+	94 [label="Um país não aceita um líder em quem não confia para garantir a sua segurança",color=blue];
+}

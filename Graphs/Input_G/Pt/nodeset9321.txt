@@ -1,0 +1,8 @@
+digraph G {
+	63 -> 102;
+	83 -> 102;
+	63 [label="No caso do Reino Unido as medidas de austeridade adoptadas pelo governo actuaram sobretudo sobre os 10% mais pobres",color=blue];
+	102 [label="actualmente , o Reino Unido , uma das referências civilizacionais europeias , possui níveis de desigualdade maiores que os Estados Unidos",color=green];
+	83 [label="Estes , viram uma redução de 38% em sua receita líquida desde 2007 ,",color=blue];
+	102 [label="actualmente , o Reino Unido , uma das referências civilizacionais europeias , possui níveis de desigualdade maiores que os Estados Unidos",color=green];
+}

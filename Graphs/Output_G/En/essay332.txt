@@ -1,0 +1,20 @@
+digraph G {
+	76 -> 117;
+	151 -> 143;
+	148 -> 155;
+	161 -> 149;
+	262 -> 265;
+	266 -> 263;
+	76 [label="at younger age people are less likely to get a high paying job , so it can be a difficult task to pay for rent , food , utilities and other expenses to sustain yourself",color=blue];
+	117 [label="living with parents is a wise choice for adults until they get a head start to their professional career with a reasonable income",color=green];
+	143 [label="of living with parents for",color=green];
+	151 [label="of time is the",color=blue];
+	148 [label="a",color=blue];
+	155 [label="enhanced emotional attachment with them",color=green];
+	149 [label="longer period",color=green];
+	161 [label="parents have valuable advice to their children as they go through the changes in their adult life",color=blue];
+	262 [label="to",color=blue];
+	265 [label="advantages",color=green];
+	263 [label="take",color=green];
+	266 [label="of the",color=blue];
+}

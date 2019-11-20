@@ -1,0 +1,29 @@
+digraph G {
+	75 -> 52;
+	157 -> 76;
+	157 -> 275;
+	202 -> 184;
+	202 -> 192;
+	202 -> 197;
+	202 -> 262;
+	233 -> 224;
+	233 -> 262;
+	52 [label="students only need to study academic subjects like mathematics",color=green];
+	75 [label="when",color=blue];
+	76 [label="labor market now",color=green];
+	157 [label="this enables students to develop their potentials through discovering the natural world around them",color=blue];
+	157 [label="this enables students to develop their potentials through discovering the natural world around them",color=blue];
+	275 [label="to me that the effects of learning music , sports are profound",color=green];
+	184 [label="do students require hard skills but also",color=green];
+	202 [label="through taking part in a sport , students can understand team spirit and learn lessons about teamwork skills",color=blue];
+	192 [label="skills such as teamwork",color=green];
+	202 [label="through taking part in a sport , students can understand team spirit and learn lessons about teamwork skills",color=blue];
+	197 [label="presentation",color=green];
+	202 [label="through taking part in a sport , students can understand team spirit and learn lessons about teamwork skills",color=blue];
+	202 [label="through taking part in a sport , students can understand team spirit and learn lessons about teamwork skills",color=blue];
+	262 [label="the academic subjects play a primary role in nurturing children",color=green];
+	224 [label="subjects might",color=green];
+	233 [label="children's future do not depend heavily on the academic subjects they study in school , it is the result of their efforts and capacity",color=blue];
+	233 [label="children's future do not depend heavily on the academic subjects they study in school , it is the result of their efforts and capacity",color=blue];
+	262 [label="the academic subjects play a primary role in nurturing children",color=green];
+}

@@ -1,0 +1,32 @@
+digraph G {
+	92 -> 42;
+	92 -> 66;
+	92 -> 370;
+	118 -> 370;
+	157 -> 370;
+	228 -> 370;
+	258 -> 280;
+	288 -> 280;
+	288 -> 370;
+	304 -> 370;
+	42 [label="freedom of expressing thoughts and ideas should always be eulogized and it's rather iniquitous to impose a shackle on artists' will to create",color=green];
+	92 [label="the audiences have their own judgement and are not likely to be misled or influenced by some art work",color=blue];
+	66 [label="One of the major concerns against freeing artists' creation derives from the fear of social misleading which would destabilize the society",color=green];
+	92 [label="the audiences have their own judgement and are not likely to be misled or influenced by some art work",color=blue];
+	92 [label="the audiences have their own judgement and are not likely to be misled or influenced by some art work",color=blue];
+	370 [label="they should be encouraged to express their innovative ideas",color=green];
+	118 [label="art inevitably involves imagination , exaggeration and sometimes is purely fabricated ; regardless of whether the work of art is based on truth or not , it is the public's authority to determine how to interpret its meaning",color=blue];
+	370 [label="they should be encouraged to express their innovative ideas",color=green];
+	157 [label="If the art displays unreality , the public audiences certainly have the acumen to recognise its untruthfulness and only appreciate its art value",color=blue];
+	370 [label="they should be encouraged to express their innovative ideas",color=green];
+	228 [label="the notion of being afraid of social misleading is unjustified",color=blue];
+	370 [label="they should be encouraged to express their innovative ideas",color=green];
+	258 [label="some of the art work may contain negative implications such as insanity , violence , eroticism etc",color=blue];
+	280 [label="restrictions on exposure to adolescents should apply",color=green];
+	280 [label="restrictions on exposure to adolescents should apply",color=green];
+	288 [label="adolescents are not mature enough to avoid being led astray by these contents",color=blue];
+	288 [label="adolescents are not mature enough to avoid being led astray by these contents",color=blue];
+	370 [label="they should be encouraged to express their innovative ideas",color=green];
+	304 [label="in the case of adults being the audience , there's really nothing to hide – these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art",color=blue];
+	370 [label="they should be encouraged to express their innovative ideas",color=green];
+}

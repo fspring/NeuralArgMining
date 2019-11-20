@@ -1,0 +1,14 @@
+digraph G {
+	121 -> 82;
+	235 -> 208;
+	235 -> 214;
+	235 -> 218;
+	82 [label="should",color=green];
+	121 [label="such people might fail to get cured in time , thus influencing their working efficiency , which would destabilize the production of the industry",color=blue];
+	208 [label="public",color=green];
+	235 [label="have had the capacity to pay for the both privately",color=blue];
+	214 [label="subsidize health care",color=green];
+	235 [label="have had the capacity to pay for the both privately",color=blue];
+	218 [label="education",color=green];
+	235 [label="have had the capacity to pay for the both privately",color=blue];
+}

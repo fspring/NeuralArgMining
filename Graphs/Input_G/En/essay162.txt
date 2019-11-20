@@ -1,0 +1,32 @@
+digraph G {
+	76 -> 46;
+	76 -> 58;
+	76 -> 241;
+	92 -> 241;
+	115 -> 241;
+	153 -> 140;
+	153 -> 241;
+	180 -> 241;
+	190 -> 241;
+	210 -> 241;
+	46 [label="cheap flight can make many serious problem",color=green];
+	76 [label="These days , millions of people can travel around the world for work or pleasure",color=blue];
+	58 [label="cheap air fares have broadened travel possibilities for many people , particularly for the lower income group",color=green];
+	76 [label="These days , millions of people can travel around the world for work or pleasure",color=blue];
+	76 [label="These days , millions of people can travel around the world for work or pleasure",color=blue];
+	241 [label="the drawbacks of cheap air fares outweigh the benefits",color=green];
+	92 [label="They can develop their careers , broad their knowledge , and interact with many other people from varied cultural backgrounds",color=blue];
+	241 [label="the drawbacks of cheap air fares outweigh the benefits",color=green];
+	115 [label="travels also help to promote the tourist industry development , boost the economy and job markets of many countries",color=blue];
+	241 [label="the drawbacks of cheap air fares outweigh the benefits",color=green];
+	140 [label="growing of cheap flights really have negative impact on environment",color=green];
+	153 [label="more flights could mean bigger and busier airport that may be grown the air pollution for people who live and work close to it",color=blue];
+	153 [label="more flights could mean bigger and busier airport that may be grown the air pollution for people who live and work close to it",color=blue];
+	241 [label="the drawbacks of cheap air fares outweigh the benefits",color=green];
+	180 [label="the biggest concern is the effect on global warming",color=blue];
+	241 [label="the drawbacks of cheap air fares outweigh the benefits",color=green];
+	190 [label="Burning plane fuel can releases carbon dioxid into environment that cause the Earth to heat up",color=blue];
+	241 [label="the drawbacks of cheap air fares outweigh the benefits",color=green];
+	210 [label="while many efforts are being made to reduce CO2 emissions from cars and factories , nothing is being done to reins the airlines",color=blue];
+	241 [label="the drawbacks of cheap air fares outweigh the benefits",color=green];
+}

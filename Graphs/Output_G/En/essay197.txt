@@ -1,0 +1,17 @@
+digraph G {
+	68 -> 69;
+	79 -> 69;
+	74 -> 110;
+	190 -> 122;
+	190 -> 140;
+	68 [label=",",color=blue];
+	69 [label="particularly for the lower income",color=green];
+	69 [label="particularly for the lower income",color=green];
+	79 [label="millions of people can travel around the world for work or pleasure",color=blue];
+	74 [label="group",color=blue];
+	110 [label="cultural",color=green];
+	122 [label="industry",color=green];
+	190 [label="burning plane fuel can releases carbon dioxide into environment that cause the earth to heat up",color=blue];
+	140 [label="growing of cheap flights really have negative impact",color=green];
+	190 [label="burning plane fuel can releases carbon dioxide into environment that cause the earth to heat up",color=blue];
+}

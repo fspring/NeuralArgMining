@@ -1,0 +1,14 @@
+digraph G {
+	54 -> 18;
+	71 -> 44;
+	79 -> 66;
+	191 -> 307;
+	18 [label="society",color=green];
+	54 [label="use of public transportation is the best way to conserve natural resources",color=blue];
+	44 [label="have to spend more money",color=green];
+	71 [label="depend on oil and gasoline to move",color=blue];
+	66 [label="gradually run out",color=green];
+	79 [label="if people use too many private cars , the oil and gasoline nonrenewable will run out quickly",color=blue];
+	191 [label="if we use the public transportation , less cars will be used and less pollution will be emitted",color=blue];
+	307 [label="for the modern society facing a lot of",color=green];
+}

@@ -1,0 +1,17 @@
+digraph G {
+	61 -> 45;
+	88 -> 55;
+	218 -> 265;
+	233 -> 265;
+	255 -> 256;
+	45 [label="traditional skills and ways belong to value of culture",color=green];
+	61 [label="every country has unique tradtions which show their creation , intelligence",color=blue];
+	55 [label="they make differences between countries",color=green];
+	88 [label="for example , ways to build a house in every country are different and they distinguish between countries",color=blue];
+	218 [label="traditional skills and ways of life will help youngsters study and know more history",color=blue];
+	265 [label="technology has brought many benefits , but traditional skills and ways are always valuable and will last forever",color=green];
+	233 [label="methods which their ancestors used in the past will be displayed again for new generations",color=blue];
+	265 [label="technology has brought many benefits , but traditional skills and ways are always valuable and will last forever",color=green];
+	255 [label="somethings",color=blue];
+	256 [label="that",color=green];
+}

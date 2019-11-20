@@ -1,0 +1,17 @@
+digraph G {
+	111 -> 77;
+	223 -> 176;
+	223 -> 181;
+	256 -> 245;
+	260 -> 247;
+	77 [label="subsequent",color=green];
+	111 [label="in the earlier periods , it was not easy to find a teacher to learn a foreign languge",color=blue];
+	176 [label="colleges and universities",color=green];
+	223 [label="highly qualified foreign language teachers are easily accessible in various schools and colleges",color=blue];
+	181 [label="foreign language",color=green];
+	223 [label="highly qualified foreign language teachers are easily accessible in various schools and colleges",color=blue];
+	245 [label="role",color=green];
+	256 [label="our own country",color=blue];
+	247 [label="reducing the separation between learning a foreign languge in",color=green];
+	260 [label="a large number of foreign language courses are available online and there are various forums where people can discuss their problems on different foreign languages",color=blue];
+}

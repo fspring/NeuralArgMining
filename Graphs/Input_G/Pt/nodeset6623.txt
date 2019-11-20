@@ -1,0 +1,5 @@
+digraph G {
+	27 -> 16;
+	16 [label="E para quem estiver interessado , a notícia é desalentadora",color=green];
+	27 [label="ele não tem nenhuma intenção de mudar o cenário",color=blue];
+}

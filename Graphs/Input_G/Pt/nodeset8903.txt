@@ -1,0 +1,8 @@
+digraph G {
+	13 -> 0;
+	118 -> 108;
+	0 [label="A suspensão da descrença , neste caso , tem ainda outra causa",color=green];
+	13 [label="a suspeita de que este neo-despesismo não corresponde a nenhuma política de justiça social",color=blue];
+	108 [label="Os defensores da soberania orçamental esquecem-se de um pormenor",color=green];
+	118 [label="a Comissão Europeia interfere nos nossos orçamentos",color=blue];
+}

@@ -1,0 +1,5 @@
+digraph G {
+	15 -> 38;
+	15 [label="O ainda presidente do governo regional gritou Não Pagamos , numa referência à dívida que a Madeira contraiu sob a sua liderança",color=blue];
+	38 [label="Alberto João Jardim aconselhou o seu sucessor a não se vergar ao Governo de Lisboa",color=green];
+}

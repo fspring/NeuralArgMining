@@ -1,0 +1,29 @@
+digraph G {
+	73 -> 26;
+	73 -> 28;
+	89 -> 48;
+	89 -> 52;
+	89 -> 62;
+	121 -> 72;
+	232 -> 286;
+	243 -> 286;
+	256 -> 280;
+	26 [label="these",color=green];
+	73 [label="offer to students a good environment with experienced professors and high quality programs for studying",color=blue];
+	28 [label="may disrupt their school work and should be allowed to leave school early to find",color=green];
+	73 [label="offer to students a good environment with experienced professors and high quality programs for studying",color=blue];
+	48 [label="i tend",color=green];
+	89 [label="it creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things",color=blue];
+	52 [label="with the point of view that student",color=green];
+	89 [label="it creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things",color=blue];
+	62 [label="forced to study at school",color=green];
+	89 [label="it creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things",color=blue];
+	72 [label="schools",color=green];
+	121 [label="schools provide lots of academic knowledge to students",color=blue];
+	232 [label="children can learn social skills when they have a job",color=blue];
+	286 [label="even though there are some advantages of leaving school to find a job , studying at school is always the best choice for children's future",color=green];
+	243 [label="they can get more experiences that can not be obtained at school",color=blue];
+	286 [label="even though there are some advantages of leaving school to find a job , studying at school is always the best choice for children's future",color=green];
+	256 [label="working helps children be more independent and teach them to esteem and manage the money that they've earned",color=blue];
+	280 [label="students should study at school",color=green];
+}

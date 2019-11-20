@@ -1,0 +1,5 @@
+digraph G {
+	31 -> 54;
+	31 [label="dispensou as notabilidades que aproveitam estas ocasiões para aparecer na fotografia , não deu trabalho aos especialistas em dar lições aos candidatos",color=blue];
+	54 [label="marcelo rebelo de sousa é mesmo um candidato livre e independente , e é disso que os oligarcas não",color=green];
+}

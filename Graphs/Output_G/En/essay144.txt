@@ -1,0 +1,17 @@
+digraph G {
+	89 -> 45;
+	89 -> 53;
+	89 -> 55;
+	121 -> 69;
+	235 -> 185;
+	45 [label="it should be better",color=green];
+	89 [label="unlike middle school or high school , university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge",color=blue];
+	53 [label="of",color=green];
+	89 [label="unlike middle school or high school , university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge",color=blue];
+	55 [label="of training for a certain group of good",color=green];
+	89 [label="unlike middle school or high school , university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge",color=blue];
+	69 [label="focusing",color=green];
+	121 [label="some students may be capable in high schools , but the pressure of higher education is tough even for talented ones",color=blue];
+	185 [label="should only accept good students because it gives better human resources for sophisticated",color=green];
+	235 [label="those standard jobs will always be available for everyone , while complex ones should be only handled by the best people , who start their career from the best institutions",color=blue];
+}

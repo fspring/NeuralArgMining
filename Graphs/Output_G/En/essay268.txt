@@ -1,0 +1,17 @@
+digraph G {
+	47 -> 108;
+	142 -> 90;
+	142 -> 108;
+	319 -> 393;
+	348 -> 393;
+	47 [label="30",color=blue];
+	108 [label="to",color=green];
+	90 [label="too much money for equipping the gyms or constructing football/basketball courts are really",color=green];
+	142 [label="when she gets to the dorm , she is really full of energy and after taking a shower , she is ready to start a good day",color=blue];
+	108 [label="to",color=green];
+	142 [label="when she gets to the dorm , she is really full of energy and after taking a shower , she is ready to start a good day",color=blue];
+	319 [label="for students who want to gather with their friends or want to go out to meet new people , university programs are the last place they would choose",color=blue];
+	393 [label="the importance of doing sports in the success of university students , but i think both sports and social activities should not receive equal amount of money with libraries and laboratories",color=green];
+	348 [label="for example when i and my friends want to spend time with each other , we prefer to go out of university to the places where we do not want to be disturbed by any familiar people",color=blue];
+	393 [label="the importance of doing sports in the success of university students , but i think both sports and social activities should not receive equal amount of money with libraries and laboratories",color=green];
+}

@@ -1,0 +1,14 @@
+digraph G {
+	0 -> 177;
+	87 -> 177;
+	110 -> 104;
+	191 -> 177;
+	0 [label="A União Europeia de 2016 já não é a de 2011",color=blue];
+	177 [label="Seria da mais elementar prudência não voltar a precisar de lhe pedir dinheiro",color=green];
+	87 [label="A Grécia , o ano passado , testou os limites da tolerância dos outros contribuintes europeus",color=blue];
+	177 [label="Seria da mais elementar prudência não voltar a precisar de lhe pedir dinheiro",color=green];
+	104 [label="Desde então , tudo piorou",color=green];
+	110 [label="O fluxo de migrantes agravou o peso do euroceptismo nos governos",color=blue];
+	177 [label="Seria da mais elementar prudência não voltar a precisar de lhe pedir dinheiro",color=green];
+	191 [label="É que nos arriscamos a descobrir que desta vez talvez ninguém se queira ingerir na nossa vida",color=blue];
+}

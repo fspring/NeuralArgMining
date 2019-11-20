@@ -1,0 +1,5 @@
+digraph G {
+	171 -> 155;
+	155 [label="É o melhor de todos os candidatos que se poderiam ter apresentado",color=green];
+	171 [label="teve a coragem de se apresentar",color=blue];
+}

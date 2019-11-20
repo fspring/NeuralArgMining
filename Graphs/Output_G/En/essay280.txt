@@ -1,0 +1,14 @@
+digraph G {
+	175 -> 159;
+	175 -> 163;
+	175 -> 166;
+	289 -> 310;
+	159 [label="people",color=green];
+	175 [label="students can gain more knowledge in every different subjects thy study",color=blue];
+	163 [label="wide",color=green];
+	175 [label="students can gain more knowledge in every different subjects thy study",color=blue];
+	166 [label="is better than people who know",color=green];
+	175 [label="students can gain more knowledge in every different subjects thy study",color=blue];
+	289 [label="students will choose a career that they want including the job with high salary include",color=blue];
+	310 [label="lots of money by working in other fields",color=green];
+}

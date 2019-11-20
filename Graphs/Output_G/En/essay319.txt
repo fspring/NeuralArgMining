@@ -1,0 +1,8 @@
+digraph G {
+	359 -> 403;
+	379 -> 423;
+	359 [label="most students will do the part-time job in their holiday , so it will not effect on their study",color=blue];
+	403 [label="taking the part-time job can let students experience the real adult life and know more about it",color=green];
+	379 [label="compared with playing computers every day , doing part-time jobs is the best choice for students to spend their holiday",color=blue];
+	423 [label="parents should encourage students to take the part-time job",color=green];
+}

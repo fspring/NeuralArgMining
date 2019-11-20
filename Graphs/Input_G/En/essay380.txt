@@ -1,0 +1,29 @@
+digraph G {
+	71 -> 41;
+	71 -> 87;
+	111 -> 87;
+	111 -> 291;
+	139 -> 177;
+	154 -> 177;
+	225 -> 208;
+	225 -> 291;
+	253 -> 291;
+	41 [label="While many believe that petrol and diesel fuel should be charged with the highest taxation , I strongly disagree with this notion",color=green];
+	71 [label="if petrol and fuel taxation are raised , people might hesitate choosing a personal automobile",color=blue];
+	71 [label="if petrol and fuel taxation are raised , people might hesitate choosing a personal automobile",color=blue];
+	87 [label="Taxation may have tackled the environmental issue simply by diverting people to public transportations such as trains , buses or ferries",color=green];
+	87 [label="Taxation may have tackled the environmental issue simply by diverting people to public transportations such as trains , buses or ferries",color=green];
+	111 [label="for those who have already afforded a car , there is a likelihood it is restraint from usage on long journeys or to crowded cities",color=blue];
+	111 [label="for those who have already afforded a car , there is a likelihood it is restraint from usage on long journeys or to crowded cities",color=blue];
+	291 [label="it disadvantages may outweigh its advantages with regard to economic and politic issues , making it advisable to seek another options to reduce the use of personal cars",color=green];
+	139 [label="taxation on flamable resources might backfire by conducing to inflation",color=blue];
+	177 [label="people have to turn to cheaper alternatives , which might cause the abundance in goods and later on , economic crisis",color=green];
+	154 [label="the more costly petrol is , the higher the price of necessary product : rice , meat or even vegetable",color=blue];
+	177 [label="people have to turn to cheaper alternatives , which might cause the abundance in goods and later on , economic crisis",color=green];
+	208 [label="countries that import oil will be more dependent on the exporters , both politically and financially",color=green];
+	225 [label="Suppose that the those countries cut down on its oil support , other nations will have to pay more as well as release beneficial policies for them",color=blue];
+	225 [label="Suppose that the those countries cut down on its oil support , other nations will have to pay more as well as release beneficial policies for them",color=blue];
+	291 [label="it disadvantages may outweigh its advantages with regard to economic and politic issues , making it advisable to seek another options to reduce the use of personal cars",color=green];
+	253 [label="America , for example , has recently drawn its intervention in Russian crisis only due to the influx of oil",color=blue];
+	291 [label="it disadvantages may outweigh its advantages with regard to economic and politic issues , making it advisable to seek another options to reduce the use of personal cars",color=green];
+}

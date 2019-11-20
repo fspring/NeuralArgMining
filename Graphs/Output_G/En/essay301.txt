@@ -1,0 +1,11 @@
+digraph G {
+	113 -> 101;
+	264 -> 258;
+	303 -> 326;
+	101 [label="committing to our goal helps creating personal worth",color=green];
+	113 [label="i realized the true potential of my body and mind as i decided to train myself hard",color=blue];
+	258 [label="the responsibility",color=green];
+	264 [label="too heavy to carry on",color=blue];
+	303 [label="he can feel the sweetness of triumph because he did not stop pursing his goal",color=blue];
+	326 [label="one should not give up",color=green];
+}

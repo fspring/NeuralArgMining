@@ -1,0 +1,38 @@
+digraph G {
+	43 -> 0;
+	43 -> 27;
+	43 -> 326;
+	58 -> 83;
+	131 -> 180;
+	152 -> 180;
+	169 -> 180;
+	200 -> 180;
+	200 -> 326;
+	247 -> 220;
+	247 -> 326;
+	259 -> 326;
+	0 [label="I highly prefer living in a big city to living in countryside",color=green];
+	43 [label="the environment that a person grow up , build the personality and his/her culture",color=blue];
+	27 [label="Where a person lives and grow up is very important to his future life",color=green];
+	43 [label="the environment that a person grow up , build the personality and his/her culture",color=blue];
+	43 [label="the environment that a person grow up , build the personality and his/her culture",color=blue];
+	326 [label="living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places , technologies facilities , better education and medical services",color=green];
+	58 [label="There are lots of social places in big cities like restaurants , museums , bars , sporting clubs , cinemas , theatre and etc",color=blue];
+	83 [label="People in big cities have many options to enjoy their life and spend their times with their friends in social places in contrary to people living in small towns who have few choices and at most cases one bar or one cinema to socialize with their friends",color=green];
+	131 [label="In big cities educational facilities is quite better than small towns with more experienced and profession teachers",color=blue];
+	180 [label="persons in big cities have more chance to get the better job than people living in small towns",color=green];
+	152 [label="in this modern world education has a very important role in the human kind future life",color=blue];
+	180 [label="persons in big cities have more chance to get the better job than people living in small towns",color=green];
+	169 [label="Better education results better career and been well paid",color=blue];
+	180 [label="persons in big cities have more chance to get the better job than people living in small towns",color=green];
+	180 [label="persons in big cities have more chance to get the better job than people living in small towns",color=green];
+	200 [label="lots of companies placed in big cities and there are more job positions in there than small towns",color=blue];
+	200 [label="lots of companies placed in big cities and there are more job positions in there than small towns",color=blue];
+	326 [label="living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places , technologies facilities , better education and medical services",color=green];
+	220 [label="by living in big cities one sacrifices quiet and peaceful life with breathing fresh air and loses much time in traffic and anyway for transportation",color=green];
+	247 [label="distances in big cities often are too far to pass quickly",color=blue];
+	247 [label="distances in big cities often are too far to pass quickly",color=blue];
+	326 [label="living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places , technologies facilities , better education and medical services",color=green];
+	259 [label="Every technology has it’s good and bad effects but I prefer having the technologies with their disadvantages to living like 16 century without any of modern facilities of technology",color=blue];
+	326 [label="living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places , technologies facilities , better education and medical services",color=green];
+}

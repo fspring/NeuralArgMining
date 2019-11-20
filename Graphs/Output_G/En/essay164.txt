@@ -1,0 +1,14 @@
+digraph G {
+	84 -> 55;
+	99 -> 72;
+	213 -> 194;
+	271 -> 297;
+	55 [label="training time can provide employee interesting time outside working office to refresh their mind",color=green];
+	84 [label="such as negotiating with difficult customer , complaining from boss , etc",color=blue];
+	72 [label="in company we always have to deal with so many stressful situations",color=green];
+	99 [label="we can unleash uncomfortable in training classes by making new friends , joking in class , enjoying new knowledge",color=blue];
+	194 [label="training",color=green];
+	213 [label="having professional training help employees gain more confidence in their business , so i believe that they will finish their jobs with excellent result",color=blue];
+	271 [label="training can help employees refresh their mind as well as make them happy , focus on work",color=blue];
+	297 [label="we may reach the",color=green];
+}

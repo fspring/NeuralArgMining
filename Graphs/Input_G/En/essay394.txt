@@ -1,0 +1,35 @@
+digraph G {
+	74 -> 40;
+	74 -> 62;
+	74 -> 278;
+	94 -> 278;
+	110 -> 278;
+	125 -> 278;
+	179 -> 163;
+	179 -> 278;
+	195 -> 278;
+	213 -> 278;
+	236 -> 278;
+	40 [label="children are those who need to be under instruction of handwriting",color=green];
+	74 [label="this approach is a basis tool used in several fields such as taking notes , doing homework and writing",color=blue];
+	62 [label="handwriting still plays a vital role in students' learning",color=green];
+	74 [label="this approach is a basis tool used in several fields such as taking notes , doing homework and writing",color=blue];
+	74 [label="this approach is a basis tool used in several fields such as taking notes , doing homework and writing",color=blue];
+	278 [label="handwriting is still a needed skill for all of people , especially students at the early age",color=green];
+	94 [label="It enables to improve learners' spelling capacity and accompany reading or writing disabilities as well",color=blue];
+	278 [label="handwriting is still a needed skill for all of people , especially students at the early age",color=green];
+	110 [label="Under the guidance of parents or teachers , children can benefit from practicing handwriting",color=blue];
+	278 [label="handwriting is still a needed skill for all of people , especially students at the early age",color=green];
+	125 [label="This way of writing will encourage them to pay more attention on content , elaborate in details and develop their organization abilities",color=blue];
+	278 [label="handwriting is still a needed skill for all of people , especially students at the early age",color=green];
+	163 [label="poor handwriting can have a negative impact on students' school performance",color=green];
+	179 [label="kids who are bad at handwriting meet difficulties in taking notes and catching up lessons",color=blue];
+	179 [label="kids who are bad at handwriting meet difficulties in taking notes and catching up lessons",color=blue];
+	278 [label="handwriting is still a needed skill for all of people , especially students at the early age",color=green];
+	195 [label="It resulted in the missing of information and the lack of details during their works",color=blue];
+	278 [label="handwriting is still a needed skill for all of people , especially students at the early age",color=green];
+	213 [label="the increasing taking advantage of advanced equipment could make students be lazier and more subjective in their writing skills",color=blue];
+	278 [label="handwriting is still a needed skill for all of people , especially students at the early age",color=green];
+	236 [label="with the assistance of automatic grammar and spelling checking in office word , learners are now no need for noticing much in their mistakes",color=blue];
+	278 [label="handwriting is still a needed skill for all of people , especially students at the early age",color=green];
+}

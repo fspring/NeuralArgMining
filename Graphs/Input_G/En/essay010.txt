@@ -1,0 +1,35 @@
+digraph G {
+	50 -> 37;
+	50 -> 65;
+	92 -> 148;
+	107 -> 148;
+	125 -> 148;
+	174 -> 205;
+	224 -> 278;
+	236 -> 278;
+	260 -> 278;
+	293 -> 278;
+	293 -> 334;
+	37 [label="governments spend more money on buses , trains , and subways investment",color=green];
+	50 [label="Such public vehicles are used to serve a large number of people in society",color=blue];
+	50 [label="Such public vehicles are used to serve a large number of people in society",color=blue];
+	65 [label="they help alleviate traffic congestion and decrease the amount of carbon released into the air",color=green];
+	92 [label="carbon emission cut is significantly essential for protecting the atmosphere",color=blue];
+	148 [label="This is sure to lead to more carbon emitted into the atmosphere , which can cause skin cancer and destroy the natural environment",color=green];
+	107 [label="the more cars and motorbikes are on roads , the more seriously the ozone layer is damaged",color=blue];
+	148 [label="This is sure to lead to more carbon emitted into the atmosphere , which can cause skin cancer and destroy the natural environment",color=green];
+	125 [label="If governments use more money to improve roads , there is a strong likelihood that more people drive their private cars work",color=blue];
+	148 [label="This is sure to lead to more carbon emitted into the atmosphere , which can cause skin cancer and destroy the natural environment",color=green];
+	174 [label="if there are more good buses , trains , or subways , people are inclined to use less private vehicles , which decreases the amount of carbon released",color=blue];
+	205 [label="the policy that concentrates money on developing public transportation brings an advantageous impact on earth",color=green];
+	224 [label="the policy would play a pivotal part in relieving traffic jam",color=blue];
+	278 [label="governments have to turn people' attention on public vehicles to reduce cars and motorbikes",color=green];
+	236 [label="It is quiet clear that traffic congestion is a serious problem in many big cities",color=blue];
+	278 [label="governments have to turn people' attention on public vehicles to reduce cars and motorbikes",color=green];
+	260 [label="there are a great number of vehicles flowing on roads",color=blue];
+	278 [label="governments have to turn people' attention on public vehicles to reduce cars and motorbikes",color=green];
+	278 [label="governments have to turn people' attention on public vehicles to reduce cars and motorbikes",color=green];
+	293 [label="There is the possibility that improving roads and highways does not seem to reach the major cause of traffic congestion",color=blue];
+	293 [label="There is the possibility that improving roads and highways does not seem to reach the major cause of traffic congestion",color=blue];
+	334 [label="public transportation systems even have more important advantages",color=green];
+}

@@ -70,7 +70,8 @@ class NeuralTrainer:
         self.texts_to_eval_dir = texts_to_eval_dir
         self.dumpPath = dumpPath
         self.model = None
-        self.classes = ['']*num_tags
+        self.tags = ['']*num_tags
+        self.arg_classes = ['']*num_tags
         self.read_tag_mapping()
 
     def read_tag_mapping(self):
@@ -83,7 +84,9 @@ class NeuralTrainer:
             map = mapping.split('\t')
             tags[int(map[1][0])-1] = map[0]
         for i in range(0, self.num_tags):
-            self.classes[i] = tags[i]
+            self.tags[i] = tags[i]
+            name = tags[i].split(',')[-1][:-1]
+            self.arg_classes[i] = name
 
 
     def decodeTags(self, tags):
@@ -168,6 +171,7 @@ class NeuralTrainer:
 
         self.model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
 
+    ## for each premise find closest claim ahead
     def predict_baseline_distances_claim(self, pred_tags):
         pred_dists = []
         for i in range(0, len(pred_tags)):
@@ -186,6 +190,7 @@ class NeuralTrainer:
             pred_dists.append(file_dists)
         return pred_dists
 
+    ## for each premise find closest arg_component ahead
     def predict_baseline_distances_next(self, pred_tags):
         pred_dists = []
         for i in range(0, len(pred_tags)):
@@ -203,7 +208,44 @@ class NeuralTrainer:
                         arg_rel = np.argmax(pred_tags[i][n])
                         if arg_rel == 1:
                             dist += 1
-                        elif arg_rel == 2 or arg_rel == 0:
+                        elif arg_rel == 2:
+                            dist += 1
+                            break
+                file_dists.append([dist])
+            pred_dists.append(file_dists)
+        return pred_dists
+
+    ## for each premise find closest claim ahead and for each claim find closest premise ahead
+    def predict_baseline_distances_all_next(self, pred_tags):
+        pred_dists = []
+        for i in range(0, len(pred_tags)):
+            file_dists = []
+            text_size = len(pred_tags[i])
+            for j in range(0, text_size):
+                arg_class = np.argmax(pred_tags[i][j])
+                dist = 0
+                if arg_class == 0:
+                    k = j+1
+                    while k < text_size and np.argmax(pred_tags[i][k]) == 0:
+                        dist += 1
+                        k += 1
+                    for n in range(k, text_size):
+                        arg_rel = np.argmax(pred_tags[i][n])
+                        if arg_rel == 1:
+                            dist += 1
+                        elif arg_rel == 2:
+                            dist += 1
+                            break
+                elif arg_class == 2:
+                    k = j+1
+                    while k < text_size and np.argmax(pred_tags[i][k]) == 2:
+                        dist += 1
+                        k += 1
+                    for n in range(k, text_size):
+                        arg_rel = np.argmax(pred_tags[i][n])
+                        if arg_rel == 1:
+                            dist += 1
+                        elif arg_rel == 0:
                             dist += 1
                             break
                 file_dists.append([dist])
@@ -221,7 +263,7 @@ class NeuralTrainer:
         # scores: loss, crf_acc
         print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
 
-        b_pred_dist = self.predict_baseline_distances_next(y_pred_class)
+        b_pred_dist = self.predict_baseline_distances_claim(y_pred_class)
 
         self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
         spanEvalAt1 = self.spanEval(y_pred_class, b_pred_dist, unencodedY, 1.0)
@@ -230,9 +272,100 @@ class NeuralTrainer:
         tagEval = self.tagEval(y_pred_class, unencodedY)
 
         print('------- Distances Baseline -------')
-        dist_eval = self.edge_eval(b_pred_dist, y_test_dist, y_test_class, unencodedY)
+        dist_eval = self.dist_eval(b_pred_dist, y_test_dist, y_test_class, unencodedY)
+        edge_eval = self.edge_eval(b_pred_dist, y_test_dist, y_test_class, unencodedY)
 
-        return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
+        return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval, edge_eval]
+
+    def correct_dist_prediction(self, arg_pred, dist_pred, unencodedY):
+        print('=========== CORRECTING ===========')
+        f = open('correction_debug.txt', 'w')
+        for i in range(0, len(dist_pred)):
+            text_size = len(np.trim_zeros(unencodedY[i]))
+            for j in range(0, text_size): #ensure dist points to first token in arg comp or zero
+                src_arg = np.argmax(arg_pred[i][j])
+                pred_dist = int(round(dist_pred[i][j][0]))
+                if src_arg == 1: #non-arg
+                    dist_pred[i][j][0] = 0
+                elif src_arg == 0: #premise
+                    if pred_dist == 0:
+                        dist_pred[i][j][0] = 0
+                        continue
+                    tgt_index = j + pred_dist
+                    if (tgt_index >= text_size) or (np.argmax(arg_pred[i][tgt_index]) != 2):
+                        dist_pred[i][j][0] = 0 #does not point to claim
+                        continue
+                    while np.argmax(arg_pred[i][tgt_index - 1]) == 2: #not first claim token
+                        tgt_index -= 1
+                        if tgt_index == j:
+                            print('fuck me up fam')
+                            break
+                    dist_pred[i][j][0] = tgt_index - j
+                elif src_arg == 2: #claim
+                    if pred_dist == 0:
+                        dist_pred[i][j][0] = 0
+                        continue
+                    tgt_index = j + pred_dist
+                    if (tgt_index >= text_size) or (np.argmax(arg_pred[i][tgt_index]) != 0):
+                        dist_pred[i][j][0] = 0 #does not point to premise
+                        continue
+                    while np.argmax(arg_pred[i][tgt_index - 1]) == 0: #not first premise token
+                        tgt_index -= 1
+                        if tgt_index == j:
+                            print('fuck me up fam squared')
+                            break
+                    dist_pred[i][j][0] = tgt_index - j
+            f.write(u'i: ' + str(i) + ' - phase 1: ' + str(dist_pred[i]) + '\n')
+            k = 0
+            while k < text_size: #ensure uniformity: all tokens in src arg comp point to same tgt token
+                src_orig = k
+                src_arg = np.argmax(arg_pred[i][k])
+                pred_dist = dist_pred[i][k][0]
+                if src_arg == 1:
+                    k += 1
+                    continue
+                if pred_dist == 0:
+                    tgt_freq = {'none': 1}
+                else:
+                    tgt_freq = {pred_dist: 1}
+
+                m =  k + 1
+                while (m < text_size) and (np.argmax(arg_pred[i][m]) == src_arg):
+                    pred_dist = dist_pred[i][m][0]
+                    if pred_dist == 0:
+                        tgt_orig = 'none'
+                    else:
+                        tgt_orig = pred_dist + (m - src_orig)
+
+                    if tgt_orig in tgt_freq.keys():
+                        tgt_freq[tgt_orig] += 1
+                    else:
+                        tgt_freq[tgt_orig] = 1
+                    m += 1
+                k = m
+
+                max_value = max(tgt_freq.values()) #get most common decision
+                most_freq = []
+                for dist in tgt_freq.keys():
+                    if tgt_freq[dist] == max_value:
+                        most_freq.append(dist)
+                if len(most_freq) > 1:
+                    most_freq = [0] #decides none
+                    # most_freq = [min(most_freq)] #decides closest
+                if most_freq[0] == 'none' or most_freq[0] == 0:
+                    for l in range(src_orig, k):
+                        dist_pred[i][l] = [0]
+                        continue
+                else:
+                    for l in range(src_orig, k):
+                        dist_pred[i][l] = most_freq
+                        most_freq[0] -= 1
+
+            f.write(u'i: ' + str(i) + ' - phase 2: ' + str(dist_pred[i]) + '\n')
+        f.close()
+        print('=========== DONE ===========')
+        return dist_pred
+
 
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
@@ -249,16 +382,21 @@ class NeuralTrainer:
         print("%s: %.2f%%" % (self.model.metrics_names[4], scores[4] * 100))
         print("%s: %.2f%%" % (self.model.metrics_names[2], scores[2] * 100))
 
-        self.write_evaluated_tests_to_file(x_test, y_pred_class, y_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath)
+        self.write_evaluated_tests_to_file(x_test, y_pred_class, y_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_BCorr')
+
+        c_pred_dist = self.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
+
+        self.write_evaluated_tests_to_file(x_test, y_pred_class, c_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath)
         spanEvalAt1 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 1.0)
         spanEvalAt075 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 0.75)
         spanEvalAt050 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 0.50)
         tagEval = self.tagEval(y_pred_class, unencodedY)
 
         print('------- Distances from model -------')
-        dist_eval = self.edge_eval(y_pred_dist, y_test_dist, y_test_class, unencodedY)
+        dist_eval = self.dist_eval(c_pred_dist, y_test_dist, y_test_class, unencodedY)
+        edge_eval = self.edge_eval(c_pred_dist, y_test_dist, y_test_class, unencodedY)
 
-        return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
+        return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval, edge_eval]
 
     def crossValidate(self, X, Y, additionalX, additionalY, unencodedY):
         seed = 42
@@ -269,11 +407,12 @@ class NeuralTrainer:
 
         csv_header = 'Fold'
         for i in range(0, self.num_tags):
-            tag = self.classes[i].split(',')
+            tag = self.tags[i].split(',')
             arg_type = tag[-1][:-1]
             csv_header += ',' + arg_type + ',Total ' + arg_type
         csv_header += '\n'
-        csv_entries = ''
+        csv_entries_dist = ''
+        csv_entries_edge = ''
 
         #[acc, [precision[class], recall[class], f1[class]],[100_correct],[75_correct],[50_correct]]
         #percent_correct: [acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]
@@ -319,14 +458,19 @@ class NeuralTrainer:
             # scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             cvscores = self.handleScores(cvscores, scores[0], n_folds)
-            csv_entries = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries)
+            csv_entries_dist = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries_dist)
+            csv_entries_edge = self.distance_stats_to_csv(scores[2], foldNumber, csv_entries_edge)
             foldNumber += 1
 
         print('Average results for the ten folds:')
         self.prettyPrintResults(cvscores)
         ## write distance prediction stats to csv
-        f = open('model_edge_predictions_ftpt.csv', 'w')
-        f.write(csv_header + csv_entries)
+        f = open('model_dist_predictions_ften.csv', 'w')
+        f.write(csv_header + csv_entries_dist)
+        f.close()
+
+        f = open('model_edge_predictions_ften.csv', 'w')
+        f.write(csv_header + csv_entries_edge)
         f.close()
 
         return cvscores
@@ -397,12 +541,12 @@ class NeuralTrainer:
             str_res.append(str(round(score_sum[i] / numTexts, 3)))
             float_res.append(round(score_sum[i] / numTexts, 4))
 
-        print('\t'.join(self.classes))
+        print('\t'.join(self.tags))
         print('\t'.join(str_res))
 
         return float_res
 
-    def distEval(self, y_pred_dist, y_test_dist, y_test_class, unencodedY):
+    def dist_eval(self, y_pred_dist, y_test_dist, y_test_class, unencodedY):
         nr_files = len(y_test_dist)
         tp = [0]*self.num_tags
         n = [0]*self.num_tags
@@ -415,7 +559,7 @@ class NeuralTrainer:
                 if int(pred) == int(y_test_dist[i][j][0]):
                     tp[tag] += 1
         for i in range(0, self.num_tags):
-            print('======', self.classes[i], '======')
+            print('======', self.tags[i], '======')
             print('Correct distances:', tp[i], '------- Ratio', tp[i]/n[i], '\n')
         return (tp, n)
 
@@ -446,7 +590,7 @@ class NeuralTrainer:
                         tp[tag] += 1
 
         for i in range(0, self.num_tags):
-            print('======', self.classes[i], '======')
+            print('======', self.tags[i], '======')
             print('Correct distances:', tp[i], '------- Ratio', tp[i]/n[i], '\n')
         return (tp, n)
 
@@ -465,8 +609,8 @@ class NeuralTrainer:
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 75
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> at 50
 
-        premise_index = self.classes.index('(I,premise)')
-        claim_index = self.classes.index('(I,claim)')
+        premise_index = self.tags.index('(I,premise)')
+        claim_index = self.tags.index('(I,claim)')
 
         print('Accuracy - ' + str(round(scores[0], 4)))
 
@@ -496,15 +640,15 @@ class NeuralTrainer:
         print('F1 for claims at ' + str(0.5) + ' - ' + str(round(scores[4][6], 3)))
 
         print('Precision')
-        print('\t'.join(self.classes))
+        print('\t'.join(self.tags))
         print(str(round(scores[1][0][0], 3)) + '   ' + str(round(scores[1][0][1], 3)) + '     ' + str(
             round(scores[1][0][2], 3)))
         print('Recall')
-        print('\t'.join(self.classes))
+        print('\t'.join(self.tags))
         print(str(round(scores[1][1][0], 3)) + '   ' + str(round(scores[1][1][1], 3)) + '     ' + str(
             round(scores[1][1][2], 3)))
         print('F1')
-        print('\t'.join(self.classes))
+        print('\t'.join(self.tags))
         print(str(round(scores[1][2][0], 3)) + '   ' + str(round(scores[1][2][1], 3)) + '     ' + str(
             round(scores[1][2][2], 3)))
 
@@ -532,7 +676,7 @@ class NeuralTrainer:
         for i in range(0, len(texts)):
             textFile = open(filenames[i], "w", encoding='utf-8')
             for token in texts[i]:
-                textFile.write(u'' + token[0] + ' ' + self.classes[token[1]] + ' ' + '{:8.3f}'.format(token[2][0]) + '\n')
+                textFile.write(u'' + token[0] + ' ' + self.tags[token[1]] + ' ' + '{:8.3f}'.format(token[2][0]) + '\n')
 
     def spanCreator(self, unencodedY):
         spans = []
@@ -616,8 +760,8 @@ class NeuralTrainer:
             if ((precision[i] + recall[i]) != 0):
                 f1[i] = 2 * ((precision[i] * recall[i]) / (precision[i] + recall[i]))
 
-        premise_index = self.classes.index('(I,premise)')
-        claim_index = self.classes.index('(I,claim)')
+        premise_index = self.tags.index('(I,premise)')
+        claim_index = self.tags.index('(I,claim)')
         print('Accuracy at ' + str(threshold) + ' - ' + str(round(accuracy, 3)))
         print('Precision for premises at ' + str(threshold) + ' - ' + str(round(precision[premise_index], 3)))
         print('Precision for claims at ' + str(threshold) + ' - ' + str(round(precision[claim_index], 3)))

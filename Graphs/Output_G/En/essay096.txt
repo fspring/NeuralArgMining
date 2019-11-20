@@ -1,0 +1,8 @@
+digraph G {
+	118 -> 92;
+	311 -> 304;
+	92 [label="it would be easier for the juries to make a decision if they know about the past information about the criminal",color=green];
+	118 [label="knowing their background very well will enable the juries to analyze the crime before coming up with a judgment",color=blue];
+	304 [label="when the background of the convicted is",color=green];
+	311 [label="'dug' deeper and is revealed to mass of anonymous people , his privacy is being jeopardized",color=blue];
+}

@@ -1,0 +1,17 @@
+digraph G {
+	95 -> 52;
+	95 -> 62;
+	95 -> 68;
+	135 -> 84;
+	135 -> 86;
+	52 [label="although it will take some time",color=green];
+	95 [label="basic economic class can help the students touch the surface of this field , let them to know what this subject mainly discuss",color=blue];
+	62 [label="school students",color=green];
+	95 [label="basic economic class can help the students touch the surface of this field , let them to know what this subject mainly discuss",color=blue];
+	68 [label="on basic economics",color=green];
+	95 [label="basic economic class can help the students touch the surface of this field , let them to know what this subject mainly discuss",color=blue];
+	84 [label="it",color=green];
+	135 [label="finally , students may study harder for their economic dreams",color=blue];
+	86 [label="provide students",color=green];
+	135 [label="finally , students may study harder for their economic dreams",color=blue];
+}

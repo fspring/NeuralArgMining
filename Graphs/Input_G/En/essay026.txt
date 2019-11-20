@@ -1,0 +1,29 @@
+digraph G {
+	90 -> 33;
+	90 -> 160;
+	124 -> 160;
+	135 -> 160;
+	201 -> 170;
+	201 -> 332;
+	251 -> 238;
+	251 -> 332;
+	280 -> 332;
+	33 [label="it is obvious that prepared food can bring about some negative influence result from utilizing the artificial ingredients , ignoring the nutrition of food and modifying people's eating habits",color=green];
+	90 [label="to make their food easier to prepare and taste delicious , almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people",color=blue];
+	90 [label="to make their food easier to prepare and taste delicious , almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people",color=blue];
+	160 [label="easy-to-cook foods sometimes could be dangerous for human's health",color=green];
+	124 [label="ingredients being added have caused dire consequences",color=blue];
+	160 [label="easy-to-cook foods sometimes could be dangerous for human's health",color=green];
+	135 [label="there are usually some articles in newspapers and magazines which report the relationship between certain chemical components in some food and diseases",color=blue];
+	160 [label="easy-to-cook foods sometimes could be dangerous for human's health",color=green];
+	170 [label="Not cooking fresh food will also lead to the lack of nutrition",color=green];
+	201 [label="Whereas some research has apparently demonstrated that prepared food is unable to support enough nutrients we need , especially for children who are growing up",color=blue];
+	201 [label="Whereas some research has apparently demonstrated that prepared food is unable to support enough nutrients we need , especially for children who are growing up",color=blue];
+	332 [label="it is not a good thing",color=green];
+	238 [label="The more prepared food we eat the more cooking skills we lose",color=green];
+	251 [label="At the increasing living pace , the majority of people tend to choose microwave as their unique cooker that help them prepare a dish in five minutes",color=blue];
+	251 [label="At the increasing living pace , the majority of people tend to choose microwave as their unique cooker that help them prepare a dish in five minutes",color=blue];
+	332 [label="it is not a good thing",color=green];
+	280 [label="rare people have been aware that this has contributed to a modification of cooking habits , which may cause the loss of our custom and culture about cooking",color=blue];
+	332 [label="it is not a good thing",color=green];
+}

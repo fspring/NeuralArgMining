@@ -1,0 +1,17 @@
+digraph G {
+	165 -> 137;
+	165 -> 140;
+	165 -> 143;
+	165 -> 146;
+	156 -> 187;
+	137 [label="when",color=green];
+	165 [label="he may find native friends and may participate in groups where members are people from the foreign country",color=blue];
+	140 [label="learner wants",color=green];
+	165 [label="he may find native friends and may participate in groups where members are people from the foreign country",color=blue];
+	143 [label="learn",color=green];
+	165 [label="he may find native friends and may participate in groups where members are people from the foreign country",color=blue];
+	146 [label="language",color=green];
+	165 [label="he may find native friends and may participate in groups where members are people from the foreign country",color=blue];
+	156 [label="he has the opportunity to communicate with natives",color=blue];
+	187 [label="it leads to better understanding of language essential skills",color=green];
+}

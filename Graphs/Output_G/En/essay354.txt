@@ -1,0 +1,20 @@
+digraph G {
+	60 -> 54;
+	66 -> 57;
+	192 -> 259;
+	234 -> 209;
+	210 -> 259;
+	234 -> 259;
+	54 [label="even",color=green];
+	60 [label="begin with ,",color=blue];
+	57 [label="impact",color=green];
+	66 [label="sedentary lifestyle lead to many serious health problems",color=blue];
+	192 [label="many people , for example , are suffering from allergy because of these gasses",color=blue];
+	259 [label="it can be seen that people are facing up with many recently appeared illnesses due to aforementioned",color=green];
+	209 [label="foods",color=green];
+	234 [label="finally , life becoming more stressful due to some recent problems such as traffic gam , traffic accidents and others",color=blue];
+	210 [label="with a low quality such as fast foods , junk foods and any genetically modified ones are influencing to our health very negatively",color=blue];
+	259 [label="it can be seen that people are facing up with many recently appeared illnesses due to aforementioned",color=green];
+	234 [label="finally , life becoming more stressful due to some recent problems such as traffic gam , traffic accidents and others",color=blue];
+	259 [label="it can be seen that people are facing up with many recently appeared illnesses due to aforementioned",color=green];
+}

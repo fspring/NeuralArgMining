@@ -1,0 +1,23 @@
+digraph G {
+	78 -> 55;
+	78 -> 223;
+	122 -> 108;
+	122 -> 223;
+	157 -> 223;
+	204 -> 194;
+	204 -> 223;
+	55 [label="Some people prefer to recognize globalization as a threat to ethnic and religious values of people of their country",color=green];
+	78 [label="the idea of globalization put their inherited culture in danger of uncontrolled change and make them vulnerable against the attack of imperialistic governments",color=blue];
+	78 [label="the idea of globalization put their inherited culture in danger of uncontrolled change and make them vulnerable against the attack of imperialistic governments",color=blue];
+	223 [label="I would rather classify myself in the proponents of globalization as a speeding factor of global progress",color=green];
+	108 [label="globalization contribute effectively to the global improvement of the world in many aspects",color=green];
+	122 [label="Developing globalization , people can have more access to many natural resources of the world and it leads to increasing the pace of scientific and economic promotions of the entire world",color=blue];
+	122 [label="Developing globalization , people can have more access to many natural resources of the world and it leads to increasing the pace of scientific and economic promotions of the entire world",color=blue];
+	223 [label="I would rather classify myself in the proponents of globalization as a speeding factor of global progress",color=green];
+	157 [label="they admit that globalization can be considered a chance for people of each country to promote their lifestyle through the stuffs and services imported from other countries",color=blue];
+	223 [label="I would rather classify myself in the proponents of globalization as a speeding factor of global progress",color=green];
+	194 [label="globalization results in considerable decrease in global tension",color=green];
+	204 [label="convergence of benefits of people of the world which is a natural consequence of globalization",color=blue];
+	204 [label="convergence of benefits of people of the world which is a natural consequence of globalization",color=blue];
+	223 [label="I would rather classify myself in the proponents of globalization as a speeding factor of global progress",color=green];
+}

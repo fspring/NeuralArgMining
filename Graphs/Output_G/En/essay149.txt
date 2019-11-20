@@ -1,0 +1,5 @@
+digraph G {
+	107 -> 94;
+	94 [label="more and more people have the opportunity to receive education from university",color=green];
+	107 [label="since our parents receive better education than our grandparents did , they can provide more advices and helps in our career",color=blue];
+}

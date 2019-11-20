@@ -1,0 +1,17 @@
+digraph G {
+	86 -> 87;
+	160 -> 253;
+	197 -> 253;
+	226 -> 253;
+	235 -> 253;
+	86 [label="himself",color=blue];
+	87 [label="and his family",color=green];
+	160 [label="the official term of it is named "technological unemployment"",color=blue];
+	253 [label="corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors",color=green];
+	197 [label="robots , automation and softwares are taking over manual human workers professions such as clerks , interpreters , security services , retails and specially in manufacturing companies",color=blue];
+	253 [label="corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors",color=green];
+	226 [label="many people's jobs are now at high stake",color=blue];
+	253 [label="corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors",color=green];
+	235 [label="the best way to ensure a flexible earning is getting more jobs",color=blue];
+	253 [label="corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors",color=green];
+}

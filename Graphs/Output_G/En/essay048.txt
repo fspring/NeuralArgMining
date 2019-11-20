@@ -1,0 +1,14 @@
+digraph G {
+	124 -> 159;
+	171 -> 273;
+	230 -> 273;
+	249 -> 273;
+	124 [label="students are able to apply for online-courses provided by top-of-the-range universities and colleges worldwide",color=blue];
+	159 [label="educational institutions are able to optimize costs by increasing teacher-student ratios",color=green];
+	171 [label="thanks to the economical online-teaching , universities and colleges are able to offer grants for students who have outstanding academic achievements but are unable to attend schools because of financial constrains",color=blue];
+	273 [label="that distance-learning will become increasingly important in the future as the pace of life increases",color=green];
+	230 [label="out that traditional teaching approaches involving discussion and cooperation among students play a significant role in campus life",color=blue];
+	273 [label="that distance-learning will become increasingly important in the future as the pace of life increases",color=green];
+	249 [label="it is the real interactions and communications in class make education much more attractive",color=blue];
+	273 [label="that distance-learning will become increasingly important in the future as the pace of life increases",color=green];
+}

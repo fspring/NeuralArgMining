@@ -1,0 +1,38 @@
+digraph G {
+	77 -> 50;
+	77 -> 143;
+	105 -> 143;
+	125 -> 143;
+	158 -> 143;
+	158 -> 332;
+	185 -> 332;
+	227 -> 210;
+	227 -> 332;
+	257 -> 332;
+	284 -> 332;
+	296 -> 332;
+	50 [label="it is insufficient to increase the petrol price only to solve problems",color=green];
+	77 [label="price control institution has been used in plenty of social areas , for example , in the farming products and in the real estate area",color=blue];
+	77 [label="price control institution has been used in plenty of social areas , for example , in the farming products and in the real estate area",color=blue];
+	143 [label="it seems not easy to increase petrol price instantly",color=green];
+	105 [label="whether it can work out for alleviating traffic and pollution pressure ought to be evaluated",color=blue];
+	143 [label="it seems not easy to increase petrol price instantly",color=green];
+	125 [label="governments have a macro-economic perspective to control price in various areas according to social demands",color=blue];
+	143 [label="it seems not easy to increase petrol price instantly",color=green];
+	143 [label="it seems not easy to increase petrol price instantly",color=green];
+	158 [label="pollutions are not just caused by the burning of oil , chemical pollutants , extra lights , also constitute considerable amount of pollution",color=blue];
+	158 [label="pollutions are not just caused by the burning of oil , chemical pollutants , extra lights , also constitute considerable amount of pollution",color=blue];
+	332 [label="addressing pollution and traffic issues only by increasing oil price is not adequate",color=green];
+	185 [label="the improvements of work efficiency also attribute to the speed-up of working pace , resulting in traffic jams during rush-hours",color=blue];
+	332 [label="addressing pollution and traffic issues only by increasing oil price is not adequate",color=green];
+	210 [label="several other solutions can be introduced to assist in reducing pollution and traffic problems",color=green];
+	227 [label="authorities should spare no efforts in improving public transportation facilities , such as constructing more bus lines , in order to reducing the usage of private cars",color=blue];
+	227 [label="authorities should spare no efforts in improving public transportation facilities , such as constructing more bus lines , in order to reducing the usage of private cars",color=blue];
+	332 [label="addressing pollution and traffic issues only by increasing oil price is not adequate",color=green];
+	257 [label="temporarily targets should be set , with regard to the limitations of pollutants in a certain period of time , for example , a season",color=blue];
+	332 [label="addressing pollution and traffic issues only by increasing oil price is not adequate",color=green];
+	284 [label="with supervisory institutions built to find and address problems",color=blue];
+	332 [label="addressing pollution and traffic issues only by increasing oil price is not adequate",color=green];
+	296 [label="cultivating a sense of environmental protection would also work out , though it might not be into effect immediately , but in the long run , it would be a wise choice",color=blue];
+	332 [label="addressing pollution and traffic issues only by increasing oil price is not adequate",color=green];
+}

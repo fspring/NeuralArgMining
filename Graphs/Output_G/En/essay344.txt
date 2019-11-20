@@ -1,0 +1,20 @@
+digraph G {
+	183 -> 161;
+	183 -> 278;
+	247 -> 227;
+	247 -> 241;
+	247 -> 319;
+	273 -> 278;
+	161 [label="modern artists also devote themselves find a unique concept in which ordinary people cannot do , such making impossible become possible",color=green];
+	183 [label="pieter padang , minion creator , has brilliant idea to alter part of song lyric "i swear" become "underwear" when the minion sing in despicable me",color=blue];
+	183 [label="pieter padang , minion creator , has brilliant idea to alter part of song lyric "i swear" become "underwear" when the minion sing in despicable me",color=blue];
+	278 [label="of creation of modern artist because there is no certain parameter to value it",color=green];
+	227 [label="receive coin of dollar even they make a hundred of 15 cm buddha",color=green];
+	247 [label=", a musician playing "i swear" several times receives different earnings that padang got because the musician re-plays the song without any creation",color=blue];
+	241 [label="a",color=green];
+	247 [label=", a musician playing "i swear" several times receives different earnings that padang got because the musician re-plays the song without any creation",color=blue];
+	247 [label=", a musician playing "i swear" several times receives different earnings that padang got because the musician re-plays the song without any creation",color=blue];
+	319 [label="while the term of struggle might different with other field of job",color=green];
+	273 [label="government cannot equalize the price",color=blue];
+	278 [label="of creation of modern artist because there is no certain parameter to value it",color=green];
+}

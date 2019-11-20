@@ -1,0 +1,11 @@
+digraph G {
+	77 -> 66;
+	199 -> 240;
+	237 -> 240;
+	66 [label="to prevent students from avoiding",color=green];
+	77 [label="students have to find one or more fields of study in which they are really interested",color=blue];
+	199 [label="textbooks used in higher education are labelled particular subjects , in fact they require basic understanding of other subjects",color=blue];
+	240 [label="should learn broadly and prepare future learning at university",color=green];
+	237 [label="high school students",color=blue];
+	240 [label="should learn broadly and prepare future learning at university",color=green];
+}

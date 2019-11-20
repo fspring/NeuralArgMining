@@ -1,0 +1,20 @@
+digraph G {
+	107 -> 55;
+	107 -> 61;
+	133 -> 72;
+	107 -> 98;
+	107 -> 101;
+	107 -> 259;
+	55 [label="the admission in good universities",color=green];
+	107 [label="in today’s world education is getting expensive , and people are tending to apply for self-finance education in order to get the admission",color=blue];
+	61 [label="they have to think about work along with the",color=green];
+	107 [label="in today’s world education is getting expensive , and people are tending to apply for self-finance education in order to get the admission",color=blue];
+	72 [label="and this left them with only",color=green];
+	133 [label="the scholars are facing a lot of difficulties apart from their high requirements of previous education , they has a lot to face the other difficulties and burden while getting admission such as accommodation , food , traveling , clothing , etc",color=blue];
+	98 [label="of",color=green];
+	107 [label="in today’s world education is getting expensive , and people are tending to apply for self-finance education in order to get the admission",color=blue];
+	101 [label="become",color=green];
+	107 [label="in today’s world education is getting expensive , and people are tending to apply for self-finance education in order to get the admission",color=blue];
+	107 [label="in today’s world education is getting expensive , and people are tending to apply for self-finance education in order to get the admission",color=blue];
+	259 [label="universities have to look over the issues face by most of the scholars",color=green];
+}

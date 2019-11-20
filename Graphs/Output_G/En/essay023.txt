@@ -1,0 +1,26 @@
+digraph G {
+	125 -> 89;
+	189 -> 324;
+	229 -> 224;
+	229 -> 324;
+	253 -> 249;
+	253 -> 324;
+	273 -> 324;
+	287 -> 324;
+	89 [label="mobile phones are not out of",color=green];
+	125 [label="some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other",color=blue];
+	189 [label="it has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers , although the further investigation are needed",color=blue];
+	324 [label="the contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible , although it has a number of problems that should be well handled",color=green];
+	224 [label="problem is about techniques",color=green];
+	229 [label="there is panic among people that their conversation can be intercepted by the third party",color=blue];
+	229 [label="there is panic among people that their conversation can be intercepted by the third party",color=blue];
+	324 [label="the contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible , although it has a number of problems that should be well handled",color=green];
+	249 [label="the time",color=green];
+	253 [label="a more efficient and reliable system can also be invented to guarantee the private information of users",color=blue];
+	253 [label="a more efficient and reliable system can also be invented to guarantee the private information of users",color=blue];
+	324 [label="the contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible , although it has a number of problems that should be well handled",color=green];
+	273 [label="the mobile phone has become a dispensable multifunctional tools in people's daily life",color=blue];
+	324 [label="the contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible , although it has a number of problems that should be well handled",color=green];
+	287 [label="not only used for communication , but it also functions as an internet browser , a music player , a personal organizer and so forth",color=blue];
+	324 [label="the contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible , although it has a number of problems that should be well handled",color=green];
+}
