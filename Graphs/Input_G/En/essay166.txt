@@ -14,34 +14,103 @@ digraph G {
 	243 -> 324;
 	275 -> 265;
 	275 -> 324;
-	46 [label="I would prefer to live in a city",color=green];
-	55 [label="Big city life provides many opportunities",color=blue];
-	55 [label="Big city life provides many opportunities",color=blue];
-	92 [label="a big city can offer me many more vacancies than a small town",color=green];
-	66 [label="it will be easier for me to find an engineering job in the city",color=blue];
-	92 [label="a big city can offer me many more vacancies than a small town",color=green];
-	81 [label="Electrical engineering deals with problems concerning electricity supply",color=blue];
-	92 [label="a big city can offer me many more vacancies than a small town",color=green];
-	106 [label="At the weekends , there is a great number of things to do in the metropolis",color=green];
-	123 [label="There are numerous bars , cafes and restaurants where I can go with my friends",color=blue];
-	123 [label="There are numerous bars , cafes and restaurants where I can go with my friends",color=blue];
-	324 [label="I would choose to live in a big city",color=green];
-	139 [label="Multinational cities have restaurants with different national cuisines",color=blue];
-	324 [label="I would choose to live in a big city",color=green];
-	148 [label="I am fond of Italian food , and if there is an Italian restaurant in the city , I will definitely visit it",color=blue];
-	324 [label="I would choose to live in a big city",color=green];
-	172 [label="A night club is an interesting place to visit for young people",color=blue];
-	203 [label="Cultural life of a metropolis is always an entertaining one",color=green];
-	185 [label="There a person can listen to music , make new friends or enjoy a a drink alone",color=blue];
-	203 [label="Cultural life of a metropolis is always an entertaining one",color=green];
-	203 [label="Cultural life of a metropolis is always an entertaining one",color=green];
-	214 [label="I am keen on museums and it would be a pleasure for me to spend several hours a week in front of famous paintings , sculptures or artifacts",color=blue];
-	214 [label="I am keen on museums and it would be a pleasure for me to spend several hours a week in front of famous paintings , sculptures or artifacts",color=blue];
-	324 [label="I would choose to live in a big city",color=green];
-	243 [label="On special dates , city offers free exhibitions which are available for everyone who is interested in art",color=blue];
-	324 [label="I would choose to live in a big city",color=green];
-	265 [label="cities have better medical facilities than in the countryside",color=green];
-	275 [label="This can at least assure me that if I feel bad , city can provide a high quality help",color=blue];
-	275 [label="This can at least assure me that if I feel bad , city can provide a high quality help",color=blue];
-	324 [label="I would choose to live in a big city",color=green];
+	46 [label="I would prefer to
+ live in a city",color=green];
+	55 [label="Big city life provides many
+ opportunities",color=blue];
+	55 [label="Big city life provides many
+ opportunities",color=blue];
+	92 [label="a big city
+ can offer me many more
+ vacancies than a small town
+",color=green];
+	66 [label="it will be easier
+ for me to find an
+ engineering job in the city
+",color=blue];
+	92 [label="a big city
+ can offer me many more
+ vacancies than a small town
+",color=green];
+	81 [label="Electrical engineering deals with
+ problems concerning electricity supply",color=blue];
+	92 [label="a big city
+ can offer me many more
+ vacancies than a small town
+",color=green];
+	106 [label="At the weekends ,
+ there is a great number
+ of things to do in
+ the metropolis",color=green];
+	123 [label="There are
+ numerous bars , cafes and
+ restaurants where I can go
+ with my friends",color=blue];
+	123 [label="There are
+ numerous bars , cafes and
+ restaurants where I can go
+ with my friends",color=blue];
+	324 [label="I would choose to live in
+ a big city",color=green];
+	139 [label="Multinational cities have restaurants with different
+ national cuisines",color=blue];
+	324 [label="I would choose to live in
+ a big city",color=green];
+	148 [label="I am
+ fond of Italian food ,
+ and if there is an
+ Italian restaurant in the city
+ , I will definitely visit
+ it",color=blue];
+	324 [label="I would choose to live in
+ a big city",color=green];
+	172 [label="A night club
+ is an interesting place to
+ visit for young people",color=blue];
+	203 [label="Cultural life
+ of a metropolis is always
+ an entertaining one",color=green];
+	185 [label="There a person can listen
+ to music , make new
+ friends or enjoy a a
+ drink alone",color=blue];
+	203 [label="Cultural life
+ of a metropolis is always
+ an entertaining one",color=green];
+	203 [label="Cultural life
+ of a metropolis is always
+ an entertaining one",color=green];
+	214 [label="I am keen on museums and
+ it would be a pleasure
+ for me to spend several
+ hours a week in front
+ of famous paintings , sculptures
+ or artifacts",color=blue];
+	214 [label="I am keen on museums and
+ it would be a pleasure
+ for me to spend several
+ hours a week in front
+ of famous paintings , sculptures
+ or artifacts",color=blue];
+	324 [label="I would choose to live in
+ a big city",color=green];
+	243 [label="On special
+ dates , city offers free
+ exhibitions which are available for
+ everyone who is interested in
+ art",color=blue];
+	324 [label="I would choose to live in
+ a big city",color=green];
+	265 [label="cities have better medical facilities
+ than in the countryside",color=green];
+	275 [label="This can at least assure
+ me that if I feel
+ bad , city can provide
+ a high quality help",color=blue];
+	275 [label="This can at least assure
+ me that if I feel
+ bad , city can provide
+ a high quality help",color=blue];
+	324 [label="I would choose to live in
+ a big city",color=green];
 }

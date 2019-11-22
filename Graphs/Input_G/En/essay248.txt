@@ -19,44 +19,140 @@ digraph G {
 	332 -> 419;
 	346 -> 419;
 	360 -> 419;
-	42 [label="choosing the job that is similar to parents' jobs could benefit to one's career",color=green];
-	91 [label="my father is a software programmer , and he indeed teaches me a lot in programming and some computer knowledge",color=blue];
-	70 [label="they could thus support much more to their children , such as domain knowledge and industry-related information",color=green];
-	91 [label="my father is a software programmer , and he indeed teaches me a lot in programming and some computer knowledge",color=blue];
-	91 [label="my father is a software programmer , and he indeed teaches me a lot in programming and some computer knowledge",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	112 [label="Whenever I met a difficulty , I would reach him for consulting",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	126 [label="he has many experiences",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	131 [label="I could save enormous time in finding solution",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	140 [label="This truly makes me more competitive than my colleagues",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	150 [label="If I worked in the different field from my father , I would have faced much difficulty than I do now",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	175 [label="parents have worked in tens of years",color=blue];
-	194 [label="They have a deep insight in it and could provide much support to their children",color=green];
-	183 [label="they have accumulated a rich network in a certain industry",color=blue];
-	194 [label="They have a deep insight in it and could provide much support to their children",color=green];
-	194 [label="They have a deep insight in it and could provide much support to their children",color=green];
-	213 [label="they know which company has better welfare or provides better education",color=blue];
-	213 [label="they know which company has better welfare or provides better education",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	227 [label="their friends in the same industry can even help to write recommendation letters to some certain companies",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	245 [label="It is undoubted that a good recommendation letter is extraordinary important in this competitive society",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	261 [label="When others are still struggling in preparing their resume , one with a good recommendation letter has already passed the first stage in the interviewing process",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	297 [label="the condition of job market is completely different",color=blue];
-	308 [label="choosing a job similar to one's parents' is not always a correct decision",color=green];
-	308 [label="choosing a job similar to one's parents' is not always a correct decision",color=green];
-	332 [label="when it comes to the trend , no one can predict it correctly",color=blue];
-	332 [label="when it comes to the trend , no one can predict it correctly",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	346 [label="The condition of job market changes enormously fast like a flash",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
-	360 [label="there is no way to predict any job can be popular for 30 years or more",color=blue];
-	419 [label="parents can lead their children to a more smooth career path",color=green];
+	42 [label="choosing the job
+ that is similar to parents'
+ jobs could benefit to one's
+ career",color=green];
+	91 [label="my father is a
+ software programmer , and he
+ indeed teaches me a lot
+ in programming and some computer
+ knowledge",color=blue];
+	70 [label="they could thus support much
+ more to their children ,
+ such as domain knowledge and
+ industry-related information",color=green];
+	91 [label="my father is a
+ software programmer , and he
+ indeed teaches me a lot
+ in programming and some computer
+ knowledge",color=blue];
+	91 [label="my father is a
+ software programmer , and he
+ indeed teaches me a lot
+ in programming and some computer
+ knowledge",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	112 [label="Whenever I met
+ a difficulty , I would
+ reach him for consulting",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	126 [label="he has many experiences
+",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	131 [label="I could save enormous
+ time in finding solution",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	140 [label="This truly makes me more
+ competitive than my colleagues",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	150 [label="If I worked in the
+ different field from my father
+ , I would have faced
+ much difficulty than I do
+ now",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	175 [label="parents have worked in tens
+ of years",color=blue];
+	194 [label="They have a deep insight in
+ it and could provide much
+ support to their children",color=green];
+	183 [label="they have
+ accumulated a rich network in
+ a certain industry",color=blue];
+	194 [label="They have a deep insight in
+ it and could provide much
+ support to their children",color=green];
+	194 [label="They have a deep insight in
+ it and could provide much
+ support to their children",color=green];
+	213 [label="they know
+ which company has better welfare
+ or provides better education",color=blue];
+	213 [label="they know
+ which company has better welfare
+ or provides better education",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	227 [label="their friends in
+ the same industry can even
+ help to write recommendation letters
+ to some certain companies",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	245 [label="It is undoubted that a
+ good recommendation letter is extraordinary
+ important in this competitive society
+",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	261 [label="When others are still
+ struggling in preparing their resume
+ , one with a good
+ recommendation letter has already passed
+ the first stage in the
+ interviewing process",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	297 [label="the condition of
+ job market is completely different
+",color=blue];
+	308 [label="choosing a
+ job similar to one's parents'
+ is not always a correct
+ decision",color=green];
+	308 [label="choosing a
+ job similar to one's parents'
+ is not always a correct
+ decision",color=green];
+	332 [label="when it comes
+ to the trend , no
+ one can predict it correctly
+",color=blue];
+	332 [label="when it comes
+ to the trend , no
+ one can predict it correctly
+",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	346 [label="The condition of job
+ market changes enormously fast like
+ a flash",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
+	360 [label="there is no way to
+ predict any job can be
+ popular for 30 years or
+ more",color=blue];
+	419 [label="parents can lead their children to
+ a more smooth career path
+",color=green];
 }

@@ -10,26 +10,97 @@ digraph G {
 	463 -> 507;
 	493 -> 507;
 	499 -> 507;
-	68 [label="great planning and organizing ability is able to cause our actions more efficient and productive",color=green];
-	84 [label="take myself as an example , i used to be overwhelmed by the burden of preparing for the final exam , submitting my paper , and finishing my internship work at the end of each term",color=blue];
-	207 [label=", which may ruin one's whole effort over a very long time",color=green];
-	225 [label="the employees in every company have to create profit as much as they can for their supervisors and complete their assignments perfectly",color=blue];
-	278 [label="things have been changing all the time",color=green];
-	310 [label="those employees who did not plan and finish their assignments ahead of time perhaps are unable to finish these tasks on time and therefore will be penalized or get fired",color=blue];
-	372 [label="it is not need for young people to possess this ability",color=green];
-	386 [label="this ability is also essential for young people since young people can overcome their bad habits and fulfill their goals more quickly with this ability",color=blue];
-	412 [label="as searching information on the internet , young people are probably distracted by other attractions such as online games or social webs",color=blue];
-	507 [label="so the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with",color=green];
+	68 [label="great planning and
+ organizing ability is able to
+ cause our actions more efficient
+ and productive",color=green];
+	84 [label="take myself
+ as an example , i
+ used to be overwhelmed by
+ the burden of preparing for
+ the final exam , submitting
+ my paper , and finishing
+ my internship work at the
+ end of each term",color=blue];
+	207 [label=", which may ruin
+ one's whole effort over a
+ very long time",color=green];
+	225 [label="the employees in every company have
+ to create profit as much
+ as they can for their
+ supervisors and complete their assignments
+ perfectly",color=blue];
+	278 [label="things have been
+ changing all the time",color=green];
+	310 [label="those employees who did not plan
+ and finish their assignments ahead
+ of time perhaps are unable
+ to finish these tasks on
+ time and therefore will be
+ penalized or get fired",color=blue];
+	372 [label="it is not need
+ for young people to possess
+ this ability",color=green];
+	386 [label="this ability is also essential
+ for young people since young
+ people can overcome their bad
+ habits and fulfill their goals
+ more quickly with this ability
+",color=blue];
+	412 [label="as searching information on
+ the internet , young people
+ are probably distracted by other
+ attractions such as online games
+ or social webs",color=blue];
+	507 [label="so the ability to
+ plan and organize is undoubtedly
+ a powerful and sharp weapon
+ that we must be armed
+ with",color=green];
 	435 [label="at this circumstances",color=blue];
-	507 [label="so the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with",color=green];
-	439 [label="they would surf on the internet for hours and end up no where",color=blue];
-	507 [label="so the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with",color=green];
-	455 [label="obviously a huge waste of time",color=blue];
-	507 [label="so the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with",color=green];
-	463 [label="if they make their plan in the first place , and then stick to their plans , they could get their work done quickly beyond their imagination",color=blue];
-	507 [label="so the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with",color=green];
-	493 [label="complex society , we ,",color=blue];
-	507 [label="so the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with",color=green];
+	507 [label="so the ability to
+ plan and organize is undoubtedly
+ a powerful and sharp weapon
+ that we must be armed
+ with",color=green];
+	439 [label="they would
+ surf on the internet for
+ hours and end up no
+ where",color=blue];
+	507 [label="so the ability to
+ plan and organize is undoubtedly
+ a powerful and sharp weapon
+ that we must be armed
+ with",color=green];
+	455 [label="obviously a huge waste of time
+",color=blue];
+	507 [label="so the ability to
+ plan and organize is undoubtedly
+ a powerful and sharp weapon
+ that we must be armed
+ with",color=green];
+	463 [label="if they make
+ their plan in the first
+ place , and then stick
+ to their plans , they
+ could get their work done
+ quickly beyond their imagination",color=blue];
+	507 [label="so the ability to
+ plan and organize is undoubtedly
+ a powerful and sharp weapon
+ that we must be armed
+ with",color=green];
+	493 [label="complex society ,
+ we ,",color=blue];
+	507 [label="so the ability to
+ plan and organize is undoubtedly
+ a powerful and sharp weapon
+ that we must be armed
+ with",color=green];
 	499 [label="people",color=blue];
-	507 [label="so the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with",color=green];
+	507 [label="so the ability to
+ plan and organize is undoubtedly
+ a powerful and sharp weapon
+ that we must be armed
+ with",color=green];
 }

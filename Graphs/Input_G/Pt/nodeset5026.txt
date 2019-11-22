@@ -1,5 +1,7 @@
 digraph G {
 	109 -> 100;
-	100 [label="Um incidente alarmante ocorreu perto da costa líbia",color=green];
-	109 [label="segundo um comunicado do Ministério dos Transportes italiano",color=blue];
+	100 [label="Um incidente alarmante ocorreu perto
+ da costa líbia",color=green];
+	109 [label="segundo um comunicado do Ministério dos
+ Transportes italiano",color=blue];
 }

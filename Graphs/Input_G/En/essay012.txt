@@ -10,26 +10,95 @@ digraph G {
 	252 -> 325;
 	274 -> 325;
 	301 -> 325;
-	53 [label="email can be count as one of the most beneficial results of modern technology",color=green];
-	68 [label="Many years ago , peoples had to pay a great deal of money to post their letters , and their payements were related to the weight of their letters or boxes , and many accidents may cause problem that the post could not be delivered",color=blue];
-	68 [label="Many years ago , peoples had to pay a great deal of money to post their letters , and their payements were related to the weight of their letters or boxes , and many accidents may cause problem that the post could not be delivered",color=blue];
-	325 [label="technology has helped us to have more comfortable life",color=green];
-	115 [label="nowadays , all people can take advantage of internet to have their own email free , and send their emails to everyone in no time , besides they can be sure if their emails have been delivered or not",color=blue];
-	325 [label="technology has helped us to have more comfortable life",color=green];
-	155 [label="Another important aspect on technology is transferring money",color=blue];
-	200 [label="with the advent of internet and online paying systems , you can do many thing at your home easily",color=green];
-	164 [label="Today , students can apply for foreign universities much easier than before",color=blue];
-	200 [label="with the advent of internet and online paying systems , you can do many thing at your home easily",color=green];
-	177 [label="Not only with the help of sending email , but also using credit cards to pay all necessary fees online",color=blue];
-	200 [label="with the advent of internet and online paying systems , you can do many thing at your home easily",color=green];
-	220 [label="Another technological innovations which help people around the world is related to medical equipments",color=green];
-	235 [label="Biomedical engineers could make a significant effect on increasing life expectancy the world",color=blue];
-	235 [label="Biomedical engineers could make a significant effect on increasing life expectancy the world",color=blue];
-	325 [label="technology has helped us to have more comfortable life",color=green];
-	252 [label="one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries",color=blue];
-	325 [label="technology has helped us to have more comfortable life",color=green];
-	274 [label="In the past time doctors used pig heart's valve to implant , but the patient could not be alive more than 3 years after the replacement",color=blue];
-	325 [label="technology has helped us to have more comfortable life",color=green];
-	301 [label="But now , biomedical engineers can make artificial heart valves which works well and doctors can implant them easily",color=blue];
-	325 [label="technology has helped us to have more comfortable life",color=green];
+	53 [label="email can
+ be count as one of
+ the most beneficial results of
+ modern technology",color=green];
+	68 [label="Many years
+ ago , peoples had to
+ pay a great deal of
+ money to post their letters
+ , and their payements were
+ related to the weight of
+ their letters or boxes ,
+ and many accidents may cause
+ problem that the post could
+ not be delivered",color=blue];
+	68 [label="Many years
+ ago , peoples had to
+ pay a great deal of
+ money to post their letters
+ , and their payements were
+ related to the weight of
+ their letters or boxes ,
+ and many accidents may cause
+ problem that the post could
+ not be delivered",color=blue];
+	325 [label="technology has helped us to
+ have more comfortable life",color=green];
+	115 [label="nowadays , all people can
+ take advantage of internet to
+ have their own email free
+ , and send their emails
+ to everyone in no time
+ , besides they can be
+ sure if their emails have
+ been delivered or not",color=blue];
+	325 [label="technology has helped us to
+ have more comfortable life",color=green];
+	155 [label="Another important aspect on technology
+ is transferring money",color=blue];
+	200 [label="with the advent of internet
+ and online paying systems ,
+ you can do many thing
+ at your home easily",color=green];
+	164 [label="Today , students can apply for
+ foreign universities much easier than
+ before",color=blue];
+	200 [label="with the advent of internet
+ and online paying systems ,
+ you can do many thing
+ at your home easily",color=green];
+	177 [label="Not only with
+ the help of sending email
+ , but also using credit
+ cards to pay all necessary
+ fees online",color=blue];
+	200 [label="with the advent of internet
+ and online paying systems ,
+ you can do many thing
+ at your home easily",color=green];
+	220 [label="Another technological innovations which help
+ people around the world is
+ related to medical equipments",color=green];
+	235 [label="Biomedical engineers could make a
+ significant effect on increasing life
+ expectancy the world",color=blue];
+	235 [label="Biomedical engineers could make a
+ significant effect on increasing life
+ expectancy the world",color=blue];
+	325 [label="technology has helped us to
+ have more comfortable life",color=green];
+	252 [label="one of their
+ inventions was related to artificial
+ heart valves which can be
+ count as a turning point
+ in heart surgeries",color=blue];
+	325 [label="technology has helped us to
+ have more comfortable life",color=green];
+	274 [label="In the past time doctors used
+ pig heart's valve to implant
+ , but the patient could
+ not be alive more than
+ 3 years after the replacement
+",color=blue];
+	325 [label="technology has helped us to
+ have more comfortable life",color=green];
+	301 [label="But now , biomedical
+ engineers can make artificial heart
+ valves which works well and
+ doctors can implant them easily
+",color=blue];
+	325 [label="technology has helped us to
+ have more comfortable life",color=green];
 }

@@ -1,5 +1,13 @@
 digraph G {
 	12 -> 38;
-	12 [label="Os muçulmanos têm uma especial propensão para a violência , em particular contra as mulheres , que não se encontra noutras religiões",color=blue];
-	38 [label="para defender as mulheres , é necessário criticar o Islão , por muito politicamente incorrecto que isso seja",color=green];
+	12 [label="Os muçulmanos têm
+ uma especial propensão para a
+ violência , em particular contra
+ as mulheres , que não
+ se encontra noutras religiões",color=blue];
+	38 [label="para defender
+ as mulheres , é necessário
+ criticar o Islão , por
+ muito politicamente incorrecto que isso
+ seja",color=green];
 }

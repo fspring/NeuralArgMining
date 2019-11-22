@@ -5,13 +5,43 @@ digraph G {
 	191 -> 175;
 	229 -> 388;
 	35 [label="ways of learning",color=blue];
-	74 [label="the way of learning life through listening to the advice of family and friends is more realistic than the latter",color=green];
-	74 [label="the way of learning life through listening to the advice of family and friends is more realistic than the latter",color=green];
-	95 [label="family members such as your parents are experienced in life so they can give you proper and sincere guidance on every aspect of life",color=blue];
-	95 [label="family members such as your parents are experienced in life so they can give you proper and sincere guidance on every aspect of life",color=blue];
-	175 [label="finding out life through personal experience can help you become more independent and mature",color=green];
-	175 [label="finding out life through personal experience can help you become more independent and mature",color=green];
-	191 [label="one thing , there are so many grate things that you can missed if you don't experience it by yourself",color=blue];
-	229 [label="if you did as he told , you could fail to see how wonderful it is to be fall freely",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
+	74 [label="the way
+ of learning life through listening
+ to the advice of family
+ and friends is more realistic
+ than the latter",color=green];
+	74 [label="the way
+ of learning life through listening
+ to the advice of family
+ and friends is more realistic
+ than the latter",color=green];
+	95 [label="family members such as your parents
+ are experienced in life so
+ they can give you proper
+ and sincere guidance on every
+ aspect of life",color=blue];
+	95 [label="family members such as your parents
+ are experienced in life so
+ they can give you proper
+ and sincere guidance on every
+ aspect of life",color=blue];
+	175 [label="finding out life through personal experience
+ can help you become more
+ independent and mature",color=green];
+	175 [label="finding out life through personal experience
+ can help you become more
+ independent and mature",color=green];
+	191 [label="one thing , there are
+ so many grate things that
+ you can missed if you
+ don't experience it by yourself
+",color=blue];
+	229 [label="if you
+ did as he told ,
+ you could fail to see
+ how wonderful it is to
+ be fall freely",color=blue];
+	388 [label="learning about life
+ through personal experience seems more
+ appropriate",color=green];
 }

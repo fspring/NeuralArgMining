@@ -5,7 +5,12 @@ digraph G {
 	52 [label="advertising",color=blue];
 	81 [label="limits",color=green];
 	81 [label="limits",color=green];
-	122 [label="recently , there is a very creative advertisements of a soft drink product on tv",color=blue];
+	122 [label="recently , there is
+ a very creative advertisements of
+ a soft drink product on
+ tv",color=blue];
 	272 [label="advertisements",color=green];
-	273 [label="have undeniable affects on the society about the product being advertised",color=blue];
+	273 [label="have undeniable affects
+ on the society about the
+ product being advertised",color=blue];
 }

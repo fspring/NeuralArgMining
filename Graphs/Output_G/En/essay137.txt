@@ -1,5 +1,12 @@
 digraph G {
 	96 -> 79;
-	79 [label="purpose of such competitions is to enjoy and share emotions between supporters though their",color=green];
-	96 [label="these emotions are shared locally in our village or city , nationally in our own country but even internationally too",color=blue];
+	79 [label="purpose of
+ such competitions is to enjoy
+ and share emotions between supporters
+ though their",color=green];
+	96 [label="these emotions are shared locally
+ in our village or city
+ , nationally in our own
+ country but even internationally too
+",color=blue];
 }

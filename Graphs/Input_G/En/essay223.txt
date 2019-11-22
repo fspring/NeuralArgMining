@@ -20,46 +20,144 @@ digraph G {
 	294 -> 285;
 	294 -> 333;
 	314 -> 333;
-	39 [label="television has more positive effects than negative effects",color=green];
-	68 [label="Not only the up-to-date news , but also there are many programs which has educational purposes",color=blue];
-	61 [label="television has useful and educational programs",color=green];
-	68 [label="Not only the up-to-date news , but also there are many programs which has educational purposes",color=blue];
-	68 [label="Not only the up-to-date news , but also there are many programs which has educational purposes",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	85 [label="If children can use those programs wisely , they can learn many information from it",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	104 [label="in Korea , there's program called EBS",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	112 [label="It is targeted for children to teenager",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	120 [label="We can study subjects through EBS lecture",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	130 [label="there are many documentary films such as the life of a great man in Korea",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	146 [label="Using those education programs let people get a lot of inspirations instead of having negative effects",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	166 [label="Tv is helpful to relieve our stresses",color=green];
-	184 [label="Many children have a lot of stresses recently",color=blue];
-	184 [label="Many children have a lot of stresses recently",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	194 [label="they have so much pressure about study",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	202 [label="When they are watching sports programs , it's easy to relieve those stresses",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	220 [label="I got too much stress from the school",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	231 [label="I was quite aggressive",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	238 [label="After I watch the soccer match between Korea and Japan , the stress was gone",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	256 [label="this soccer match helped me to continue my academic career in the school",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	271 [label="it helped me to relieve my stress",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	285 [label="the television can have violent programs",color=green];
-	294 [label="if children can use Tv programs wisely , there are more positive effects than negative effects",color=blue];
-	294 [label="if children can use Tv programs wisely , there are more positive effects than negative effects",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
-	314 [label="it has useful and educational programs and quite helpful to relieve stresses for children",color=blue];
-	333 [label="I strongly disagree with the statement that television has negative effects on children",color=green];
+	39 [label="television has more positive effects than
+ negative effects",color=green];
+	68 [label="Not only
+ the up-to-date news , but
+ also there are many programs
+ which has educational purposes",color=blue];
+	61 [label="television has useful and
+ educational programs",color=green];
+	68 [label="Not only
+ the up-to-date news , but
+ also there are many programs
+ which has educational purposes",color=blue];
+	68 [label="Not only
+ the up-to-date news , but
+ also there are many programs
+ which has educational purposes",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	85 [label="If children can use those
+ programs wisely , they can
+ learn many information from it
+",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	104 [label="in Korea , there's program called
+ EBS",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	112 [label="It is targeted
+ for children to teenager",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	120 [label="We can study subjects through
+ EBS lecture",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	130 [label="there are many documentary films
+ such as the life of
+ a great man in Korea
+",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	146 [label="Using those education programs
+ let people get a lot
+ of inspirations instead of having
+ negative effects",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	166 [label="Tv is helpful to
+ relieve our stresses",color=green];
+	184 [label="Many children have a lot of
+ stresses recently",color=blue];
+	184 [label="Many children have a lot of
+ stresses recently",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	194 [label="they have so much pressure about
+ study",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	202 [label="When they are
+ watching sports programs , it's
+ easy to relieve those stresses
+",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	220 [label="I got too much stress
+ from the school",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	231 [label="I was quite aggressive
+",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	238 [label="After I
+ watch the soccer match between
+ Korea and Japan , the
+ stress was gone",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	256 [label="this soccer match helped
+ me to continue my academic
+ career in the school",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	271 [label="it helped me to
+ relieve my stress",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	285 [label="the television can have violent
+ programs",color=green];
+	294 [label="if children can use Tv programs
+ wisely , there are more
+ positive effects than negative effects
+",color=blue];
+	294 [label="if children can use Tv programs
+ wisely , there are more
+ positive effects than negative effects
+",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
+	314 [label="it has useful and educational programs
+ and quite helpful to relieve
+ stresses for children",color=blue];
+	333 [label="I strongly
+ disagree with the statement that
+ television has negative effects on
+ children",color=green];
 }

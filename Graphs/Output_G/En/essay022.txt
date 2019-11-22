@@ -12,27 +12,65 @@ digraph G {
 	290 -> 296;
 	343 -> 352;
 	105 [label="fact is",color=green];
-	113 [label="for those who do not have the certification of",color=blue];
-	108 [label="there are numerous job opportunities",color=green];
-	129 [label="sales persons , or engineers , and , furthermore , labors for graduates are in short supply",color=blue];
+	113 [label="for those who
+ do not have the certification
+ of",color=blue];
+	108 [label="there are numerous
+ job opportunities",color=green];
+	129 [label="sales persons
+ , or engineers , and
+ , furthermore , labors for
+ graduates are in short supply
+",color=blue];
 	122 [label="university",color=green];
-	151 [label="the labor market for highly educated students is now too competitive to get a job after finishing their studying",color=blue];
-	227 [label="also academic knowledge for the human",color=green];
-	260 [label="many researches in the ivory-tower have created ingenious discoveries and achievements for the development of modern society",color=blue];
+	151 [label="the labor market for highly
+ educated students is now too
+ competitive to get a job
+ after finishing their studying",color=blue];
+	227 [label="also academic knowledge for
+ the human",color=green];
+	260 [label="many researches in the ivory-tower have
+ created ingenious discoveries and achievements
+ for the development of modern
+ society",color=blue];
 	234 [label=",",color=green];
-	260 [label="many researches in the ivory-tower have created ingenious discoveries and achievements for the development of modern society",color=blue];
+	260 [label="many researches in the ivory-tower have
+ created ingenious discoveries and achievements
+ for the development of modern
+ society",color=blue];
 	236 [label="as bio science",color=green];
-	260 [label="many researches in the ivory-tower have created ingenious discoveries and achievements for the development of modern society",color=blue];
+	260 [label="many researches in the ivory-tower have
+ created ingenious discoveries and achievements
+ for the development of modern
+ society",color=blue];
 	240 [label="politics",color=green];
-	246 [label="academic values are necessary to the progress of the world",color=blue];
+	246 [label="academic values are necessary to
+ the progress of the world
+",color=blue];
 	242 [label="and medicine",color=green];
-	246 [label="academic values are necessary to the progress of the world",color=blue];
+	246 [label="academic values are necessary to
+ the progress of the world
+",color=blue];
 	279 [label="significant",color=blue];
-	296 [label="more competently because there are a number of chances through internships",color=green];
-	281 [label="of universities is that diverse experiences in the",color=blue];
-	296 [label="more competently because there are a number of chances through internships",color=green];
-	290 [label="life can make the young generation",color=blue];
-	296 [label="more competently because there are a number of chances through internships",color=green];
+	296 [label="more competently because there are
+ a number of chances through
+ internships",color=green];
+	281 [label="of universities is that diverse
+ experiences in the",color=blue];
+	296 [label="more competently because there are
+ a number of chances through
+ internships",color=green];
+	290 [label="life can make the young generation
+",color=blue];
+	296 [label="more competently because there are
+ a number of chances through
+ internships",color=green];
 	343 [label="higher",color=blue];
-	352 [label="the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges",color=green];
+	352 [label="the benefits of learning
+ in universities are the vital
+ factor in creating more possibilities
+ for the development of society
+ through advancing academic fulfillment and
+ the young generation who have
+ experiences and challenges",color=green];
 }

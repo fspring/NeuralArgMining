@@ -12,27 +12,75 @@ digraph G {
 	293 -> 317;
 	304 -> 317;
 	180 [label="jobs can divert students from",color=green];
-	188 [label="if students started earning in earlier age in their life , then they get attracted towards money",color=blue];
-	188 [label="if students started earning in earlier age in their life , then they get attracted towards money",color=blue];
-	317 [label="they should take advantage of life as much possible they can",color=green];
-	206 [label="they feel themselves independent and would prefer to work more for money",color=blue];
-	334 [label="it is important to pay attention on their studies",color=green];
-	219 [label="this would affect their studies , they loose their interest from studies",color=blue];
-	334 [label="it is important to pay attention on their studies",color=green];
-	234 [label="they drop out their studies so as to earn more money",color=blue];
-	351 [label="divert them from studies and take away one of the important phase from their life",color=green];
+	188 [label="if students started
+ earning in earlier age in
+ their life , then they
+ get attracted towards money",color=blue];
+	188 [label="if students started
+ earning in earlier age in
+ their life , then they
+ get attracted towards money",color=blue];
+	317 [label="they should take advantage
+ of life as much possible
+ they can",color=green];
+	206 [label="they feel themselves independent and
+ would prefer to work more
+ for money",color=blue];
+	334 [label="it is
+ important to pay attention on
+ their studies",color=green];
+	219 [label="this would
+ affect their studies , they
+ loose their interest from studies
+",color=blue];
+	334 [label="it is
+ important to pay attention on
+ their studies",color=green];
+	234 [label="they drop
+ out their studies so as
+ to earn more money",color=blue];
+	351 [label="divert them from studies and
+ take away one of the
+ important phase from their life
+",color=green];
 	246 [label="in addition to this",color=blue];
-	351 [label="divert them from studies and take away one of the important phase from their life",color=green];
-	251 [label="the main drawback of teenagers job is that",color=blue];
-	351 [label="divert them from studies and take away one of the important phase from their life",color=green];
-	260 [label="they miss out the fun of their childhood time",color=blue];
-	334 [label="it is important to pay attention on their studies",color=green];
-	270 [label="he would miss various childhood activities such as hang out with friends",color=blue];
-	334 [label="it is important to pay attention on their studies",color=green];
-	283 [label="clubs and fun activities and social interaction with others",color=blue];
-	317 [label="they should take advantage of life as much possible they can",color=green];
-	293 [label="they have whole life to do job and prove themselves",color=blue];
-	317 [label="they should take advantage of life as much possible they can",color=green];
-	304 [label="but the childhood phase will never return in their life",color=blue];
-	317 [label="they should take advantage of life as much possible they can",color=green];
+	351 [label="divert them from studies and
+ take away one of the
+ important phase from their life
+",color=green];
+	251 [label="the main drawback of teenagers
+ job is that",color=blue];
+	351 [label="divert them from studies and
+ take away one of the
+ important phase from their life
+",color=green];
+	260 [label="they miss out the fun of
+ their childhood time",color=blue];
+	334 [label="it is
+ important to pay attention on
+ their studies",color=green];
+	270 [label="he would miss various childhood activities
+ such as hang out with
+ friends",color=blue];
+	334 [label="it is
+ important to pay attention on
+ their studies",color=green];
+	283 [label="clubs and fun
+ activities and social interaction with
+ others",color=blue];
+	317 [label="they should take advantage
+ of life as much possible
+ they can",color=green];
+	293 [label="they have whole
+ life to do job and
+ prove themselves",color=blue];
+	317 [label="they should take advantage
+ of life as much possible
+ they can",color=green];
+	304 [label="but the
+ childhood phase will never return
+ in their life",color=blue];
+	317 [label="they should take advantage
+ of life as much possible
+ they can",color=green];
 }

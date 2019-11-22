@@ -3,12 +3,24 @@ digraph G {
 	44 -> 27;
 	44 -> 36;
 	44 -> 42;
-	0 [label="A narrativa orçamental do governo não pegou",color=green];
-	8 [label="Pouca gente parece disposta à suspensão da descrença",color=blue];
-	27 [label="Mário Centeno devia ter lido menos J .M",color=green];
-	44 [label="Algures , Lovecraft explica que no género fantástico é um erro exagerar na fantasia",color=blue];
-	36 [label="Keynes e mais H .P",color=green];
-	44 [label="Algures , Lovecraft explica que no género fantástico é um erro exagerar na fantasia",color=blue];
+	0 [label="A narrativa orçamental do governo
+ não pegou",color=green];
+	8 [label="Pouca gente
+ parece disposta à suspensão da
+ descrença",color=blue];
+	27 [label="Mário Centeno devia
+ ter lido menos J .M
+",color=green];
+	44 [label="Algures , Lovecraft explica que no
+ género fantástico é um erro
+ exagerar na fantasia",color=blue];
+	36 [label="Keynes e mais H
+ .P",color=green];
+	44 [label="Algures , Lovecraft explica que no
+ género fantástico é um erro
+ exagerar na fantasia",color=blue];
 	42 [label="Lovecraft",color=green];
-	44 [label="Algures , Lovecraft explica que no género fantástico é um erro exagerar na fantasia",color=blue];
+	44 [label="Algures , Lovecraft explica que no
+ género fantástico é um erro
+ exagerar na fantasia",color=blue];
 }

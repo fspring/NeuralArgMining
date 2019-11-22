@@ -4,11 +4,30 @@ digraph G {
 	120 -> 89;
 	165 -> 111;
 	47 [label="essential",color=green];
-	59 [label="should spend on facilities in school or update resources , which are beneficial to school rather than just instructors",color=blue];
-	59 [label="should spend on facilities in school or update resources , which are beneficial to school rather than just instructors",color=blue];
-	89 [label="the school should put more emphasis on students instead of professors",color=green];
-	89 [label="the school should put more emphasis on students instead of professors",color=green];
-	120 [label="by renewing some facilities in school so students will spend more time at school doing assignment",color=blue];
+	59 [label="should spend
+ on facilities in school or
+ update resources , which are
+ beneficial to school rather than
+ just instructors",color=blue];
+	59 [label="should spend
+ on facilities in school or
+ update resources , which are
+ beneficial to school rather than
+ just instructors",color=blue];
+	89 [label="the school
+ should put more emphasis on
+ students instead of professors",color=green];
+	89 [label="the school
+ should put more emphasis on
+ students instead of professors",color=green];
+	120 [label="by renewing some facilities in school
+ so students will spend more
+ time at school doing assignment
+",color=blue];
 	111 [label="is to",color=green];
-	165 [label="to say , students have a better environment to working on their assignments so the quality of their assignments will improve",color=blue];
+	165 [label="to say , students have a
+ better environment to working on
+ their assignments so the quality
+ of their assignments will improve
+",color=blue];
 }

@@ -1,5 +1,12 @@
 digraph G {
 	50 -> 76;
-	50 [label="verifica-se que a cada geração que passa de muçulmanos a viver em sociedades ocidentais , o Islão perde cerca de ¼ dos seus fiéis emigrados",color=blue];
-	76 [label="Eis um efeito positivo de acolher muçulmanos na Europa",color=green];
+	50 [label="verifica-se que a cada geração
+ que passa de muçulmanos a
+ viver em sociedades ocidentais ,
+ o Islão perde cerca de
+ ¼ dos seus fiéis emigrados
+",color=blue];
+	76 [label="Eis um efeito positivo
+ de acolher muçulmanos na Europa
+",color=green];
 }

@@ -1,5 +1,12 @@
 digraph G {
 	261 -> 325;
-	261 [label="for instance , as lots of chatting apps available online such as "weichat" , people tend to send instant messages free of charge by using their phones rather than face to face communication",color=blue];
-	325 [label="although mobile phones brings convenience of communication",color=green];
+	261 [label="for instance , as lots
+ of chatting apps available online
+ such as "weichat" , people
+ tend to send instant messages
+ free of charge by using
+ their phones rather than face
+ to face communication",color=blue];
+	325 [label="although mobile phones brings convenience of
+ communication",color=green];
 }

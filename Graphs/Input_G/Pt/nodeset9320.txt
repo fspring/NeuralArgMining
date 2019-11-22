@@ -1,5 +1,14 @@
 digraph G {
 	0 -> 38;
-	0 [label="A mais de sete anos do estouro financeiro de 2008 e do início da grande recessão mundial do século XXI , a Europa exibe um novo mapa da pobreza que , segundo a organização humanitária Oxfam International",color=blue];
-	38 [label="pode levar 25 anos para ser revertido",color=green];
+	0 [label="A mais de sete anos
+ do estouro financeiro de 2008
+ e do início da grande
+ recessão mundial do século XXI
+ , a Europa exibe um
+ novo mapa da pobreza que
+ , segundo a organização humanitária
+ Oxfam International",color=blue];
+	38 [label="pode levar
+ 25 anos para ser revertido
+",color=green];
 }

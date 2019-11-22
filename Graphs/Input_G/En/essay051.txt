@@ -18,42 +18,133 @@ digraph G {
 	254 -> 318;
 	273 -> 318;
 	288 -> 318;
-	26 [label="universities should invest in libraries more than anywhere else",color=green];
-	40 [label="a library is vital and strategical part of a university",color=blue];
-	40 [label="a library is vital and strategical part of a university",color=blue];
-	51 [label="All professors and students need to have a modern and well-equipped library",color=green];
-	51 [label="All professors and students need to have a modern and well-equipped library",color=green];
-	65 [label="after internet , library plays an important role in research",color=blue];
-	65 [label="after internet , library plays an important role in research",color=blue];
-	318 [label="libraries are more important",color=green];
-	77 [label="sport is important",color=blue];
-	81 [label="it does not have the same priority of library has",color=green];
-	81 [label="it does not have the same priority of library has",color=green];
-	94 [label="only small part of students attend sport activities",color=blue];
-	94 [label="only small part of students attend sport activities",color=blue];
-	318 [label="libraries are more important",color=green];
-	106 [label="in my university number of students who use the library is much more than students do sports activities",color=blue];
-	318 [label="libraries are more important",color=green];
-	127 [label="usually libraries do not have income",color=blue];
-	193 [label="there are good ways for sports activities to compensate their expenses , but it is very hard for libraries to find a good way for have an income",color=green];
-	134 [label="Most libraries are free not for students also for public",color=blue];
-	193 [label="there are good ways for sports activities to compensate their expenses , but it is very hard for libraries to find a good way for have an income",color=green];
-	147 [label="universities support is vital for libraries",color=blue];
-	193 [label="there are good ways for sports activities to compensate their expenses , but it is very hard for libraries to find a good way for have an income",color=green];
-	155 [label="sport activities have a good income",color=blue];
-	193 [label="there are good ways for sports activities to compensate their expenses , but it is very hard for libraries to find a good way for have an income",color=green];
-	162 [label="every sport has different matches and for each match they have a lot sponsors",color=blue];
-	193 [label="there are good ways for sports activities to compensate their expenses , but it is very hard for libraries to find a good way for have an income",color=green];
-	179 [label="they have this chance to sell their important matches tickets",color=blue];
-	193 [label="there are good ways for sports activities to compensate their expenses , but it is very hard for libraries to find a good way for have an income",color=green];
-	227 [label="investing in libraries has a long-time result",color=green];
-	238 [label="a library can buy a lot of new books or they can buy more computers",color=blue];
-	238 [label="a library can buy a lot of new books or they can buy more computers",color=blue];
-	318 [label="libraries are more important",color=green];
-	254 [label="Most of the library facilities are stable and you can use them for a long time",color=blue];
-	318 [label="libraries are more important",color=green];
-	273 [label="in the far future , they become more valuable",color=blue];
-	318 [label="libraries are more important",color=green];
-	288 [label="most sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time",color=blue];
-	318 [label="libraries are more important",color=green];
+	26 [label="universities should invest in
+ libraries more than anywhere else
+",color=green];
+	40 [label="a library is vital and
+ strategical part of a university
+",color=blue];
+	40 [label="a library is vital and
+ strategical part of a university
+",color=blue];
+	51 [label="All professors and students
+ need to have a modern
+ and well-equipped library",color=green];
+	51 [label="All professors and students
+ need to have a modern
+ and well-equipped library",color=green];
+	65 [label="after internet , library plays
+ an important role in research
+",color=blue];
+	65 [label="after internet , library plays
+ an important role in research
+",color=blue];
+	318 [label="libraries are
+ more important",color=green];
+	77 [label="sport is important
+",color=blue];
+	81 [label="it does not have
+ the same priority of library
+ has",color=green];
+	81 [label="it does not have
+ the same priority of library
+ has",color=green];
+	94 [label="only small part of students attend
+ sport activities",color=blue];
+	94 [label="only small part of students attend
+ sport activities",color=blue];
+	318 [label="libraries are
+ more important",color=green];
+	106 [label="in my university number
+ of students who use the
+ library is much more than
+ students do sports activities",color=blue];
+	318 [label="libraries are
+ more important",color=green];
+	127 [label="usually libraries do
+ not have income",color=blue];
+	193 [label="there are
+ good ways for sports activities
+ to compensate their expenses ,
+ but it is very hard
+ for libraries to find a
+ good way for have an
+ income",color=green];
+	134 [label="Most libraries are free not for
+ students also for public",color=blue];
+	193 [label="there are
+ good ways for sports activities
+ to compensate their expenses ,
+ but it is very hard
+ for libraries to find a
+ good way for have an
+ income",color=green];
+	147 [label="universities support is
+ vital for libraries",color=blue];
+	193 [label="there are
+ good ways for sports activities
+ to compensate their expenses ,
+ but it is very hard
+ for libraries to find a
+ good way for have an
+ income",color=green];
+	155 [label="sport activities have a good
+ income",color=blue];
+	193 [label="there are
+ good ways for sports activities
+ to compensate their expenses ,
+ but it is very hard
+ for libraries to find a
+ good way for have an
+ income",color=green];
+	162 [label="every sport has
+ different matches and for each
+ match they have a lot
+ sponsors",color=blue];
+	193 [label="there are
+ good ways for sports activities
+ to compensate their expenses ,
+ but it is very hard
+ for libraries to find a
+ good way for have an
+ income",color=green];
+	179 [label="they have this chance to sell
+ their important matches tickets",color=blue];
+	193 [label="there are
+ good ways for sports activities
+ to compensate their expenses ,
+ but it is very hard
+ for libraries to find a
+ good way for have an
+ income",color=green];
+	227 [label="investing in libraries
+ has a long-time result",color=green];
+	238 [label="a library
+ can buy a lot of
+ new books or they can
+ buy more computers",color=blue];
+	238 [label="a library
+ can buy a lot of
+ new books or they can
+ buy more computers",color=blue];
+	318 [label="libraries are
+ more important",color=green];
+	254 [label="Most of the library facilities are
+ stable and you can use
+ them for a long time
+",color=blue];
+	318 [label="libraries are
+ more important",color=green];
+	273 [label="in the
+ far future , they become
+ more valuable",color=blue];
+	318 [label="libraries are
+ more important",color=green];
+	288 [label="most sports
+ facilities except buildings are usually
+ can be used in short-time
+ and they are not persistent
+ for a long-time",color=blue];
+	318 [label="libraries are
+ more important",color=green];
 }

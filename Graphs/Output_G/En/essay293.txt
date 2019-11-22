@@ -1,5 +1,12 @@
 digraph G {
 	116 -> 61;
-	61 [label="discussion face to face in a meeting is much better than",color=green];
-	116 [label="the result shows that the 1st group used 30 minutes to reach the agreement on the budget , while it takes 30 hours for the later one",color=blue];
+	61 [label="discussion face to face in
+ a meeting is much better
+ than",color=green];
+	116 [label="the result shows that the
+ 1st group used 30 minutes
+ to reach the agreement on
+ the budget , while it
+ takes 30 hours for the
+ later one",color=blue];
 }

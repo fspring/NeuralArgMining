@@ -12,30 +12,107 @@ digraph G {
 	213 -> 203;
 	213 -> 263;
 	230 -> 263;
-	46 [label="I would prefer to have my own job",color=green];
-	78 [label="By having my own business , I can manage my own time",color=blue];
-	64 [label="time is the more valuable thing , which I have in my life",color=green];
-	78 [label="By having my own business , I can manage my own time",color=blue];
-	78 [label="By having my own business , I can manage my own time",color=blue];
-	263 [label="I would like to run my own business to control my own time , and to earn more money based on my noble ideas",color=green];
-	92 [label="could work whenever I want , or I do not need to give reasons to my boss for a delay",color=blue];
-	263 [label="I would like to run my own business to control my own time , and to earn more money based on my noble ideas",color=green];
-	113 [label="I can arrange time to travel when I would like",color=blue];
-	263 [label="I would like to run my own business to control my own time , and to earn more money based on my noble ideas",color=green];
-	127 [label="I can work long hours for earning more money",color=blue];
-	263 [label="I would like to run my own business to control my own time , and to earn more money based on my noble ideas",color=green];
-	139 [label="the most important reason for me to be self-employed is the sense of free",color=blue];
-	263 [label="I would like to run my own business to control my own time , and to earn more money based on my noble ideas",color=green];
-	156 [label="earning money is the fundamental reason that why people work",color=blue];
-	203 [label="I never have been rich in my life",color=green];
-	167 [label="The amount of money is always the most important criterion for everyone to choose a job",color=blue];
-	203 [label="I never have been rich in my life",color=green];
-	184 [label="If I work for other people , I have to give my ideas to employers cheaply",color=blue];
-	203 [label="I never have been rich in my life",color=green];
-	203 [label="I never have been rich in my life",color=green];
-	213 [label="my salary is not dramatically changed",color=blue];
-	213 [label="my salary is not dramatically changed",color=blue];
-	263 [label="I would like to run my own business to control my own time , and to earn more money based on my noble ideas",color=green];
-	230 [label="I can earn more money based on my creativity and personal ideas",color=blue];
-	263 [label="I would like to run my own business to control my own time , and to earn more money based on my noble ideas",color=green];
+	46 [label="I would prefer to
+ have my own job",color=green];
+	78 [label="By having
+ my own business , I
+ can manage my own time
+",color=blue];
+	64 [label="time is the more valuable thing
+ , which I have in
+ my life",color=green];
+	78 [label="By having
+ my own business , I
+ can manage my own time
+",color=blue];
+	78 [label="By having
+ my own business , I
+ can manage my own time
+",color=blue];
+	263 [label="I would
+ like to run my own
+ business to control my own
+ time , and to earn
+ more money based on my
+ noble ideas",color=green];
+	92 [label="could work whenever
+ I want , or I
+ do not need to give
+ reasons to my boss for
+ a delay",color=blue];
+	263 [label="I would
+ like to run my own
+ business to control my own
+ time , and to earn
+ more money based on my
+ noble ideas",color=green];
+	113 [label="I can
+ arrange time to travel when
+ I would like",color=blue];
+	263 [label="I would
+ like to run my own
+ business to control my own
+ time , and to earn
+ more money based on my
+ noble ideas",color=green];
+	127 [label="I can work
+ long hours for earning more
+ money",color=blue];
+	263 [label="I would
+ like to run my own
+ business to control my own
+ time , and to earn
+ more money based on my
+ noble ideas",color=green];
+	139 [label="the most important reason for me
+ to be self-employed is the
+ sense of free",color=blue];
+	263 [label="I would
+ like to run my own
+ business to control my own
+ time , and to earn
+ more money based on my
+ noble ideas",color=green];
+	156 [label="earning money is the
+ fundamental reason that why people
+ work",color=blue];
+	203 [label="I never
+ have been rich in my
+ life",color=green];
+	167 [label="The amount of
+ money is always the most
+ important criterion for everyone to
+ choose a job",color=blue];
+	203 [label="I never
+ have been rich in my
+ life",color=green];
+	184 [label="If I work for other people
+ , I have to give
+ my ideas to employers cheaply
+",color=blue];
+	203 [label="I never
+ have been rich in my
+ life",color=green];
+	203 [label="I never
+ have been rich in my
+ life",color=green];
+	213 [label="my salary
+ is not dramatically changed",color=blue];
+	213 [label="my salary
+ is not dramatically changed",color=blue];
+	263 [label="I would
+ like to run my own
+ business to control my own
+ time , and to earn
+ more money based on my
+ noble ideas",color=green];
+	230 [label="I can earn more money
+ based on my creativity and
+ personal ideas",color=blue];
+	263 [label="I would
+ like to run my own
+ business to control my own
+ time , and to earn
+ more money based on my
+ noble ideas",color=green];
 }

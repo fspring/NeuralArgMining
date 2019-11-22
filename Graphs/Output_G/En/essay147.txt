@@ -2,7 +2,11 @@ digraph G {
 	50 -> 37;
 	271 -> 340;
 	37 [label="too",color=green];
-	50 [label="games become unnecessary for people when their careers begin",color=blue];
-	271 [label="a competitive person usually finds it difficult to cooperate with friends and colleagues",color=blue];
-	340 [label="with the high requirement for family and work",color=green];
+	50 [label="games become unnecessary for people when
+ their careers begin",color=blue];
+	271 [label="a competitive person usually finds
+ it difficult to cooperate with
+ friends and colleagues",color=blue];
+	340 [label="with the high requirement for family
+ and work",color=green];
 }

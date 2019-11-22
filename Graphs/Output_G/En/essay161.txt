@@ -4,14 +4,25 @@ digraph G {
 	404 -> 411;
 	412 -> 440;
 	417 -> 440;
-	353 [label="if you spend your spare time at home or something like that , you can't enjoy beautiful nature",color=blue];
-	472 [label="myself choose outdoor activities to spend my leisure time",color=green];
+	353 [label="if you spend
+ your spare time at home
+ or something like that ,
+ you can't enjoy beautiful nature
+",color=blue];
+	472 [label="myself choose outdoor activities
+ to spend my leisure time
+",color=green];
 	372 [label="spending time outdoors",color=blue];
-	472 [label="myself choose outdoor activities to spend my leisure time",color=green];
+	472 [label="myself choose outdoor activities
+ to spend my leisure time
+",color=green];
 	404 [label="fun",color=blue];
 	411 [label="activities",color=green];
-	412 [label="like reading a book",color=blue];
+	412 [label="like reading a book
+",color=blue];
 	440 [label="this advantage cannot outweigh",color=green];
-	417 [label="watching tv or listening to music can bring us lots of joy",color=blue];
+	417 [label="watching tv or listening
+ to music can bring us
+ lots of joy",color=blue];
 	440 [label="this advantage cannot outweigh",color=green];
 }

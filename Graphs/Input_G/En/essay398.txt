@@ -13,32 +13,159 @@ digraph G {
 	279 -> 261;
 	279 -> 307;
 	289 -> 307;
-	45 [label="boys and girls have the diversity in psychological modes and individuality",color=green];
-	57 [label="Most of male students tend to use their left brain to think and act , and they are more rational and logical than girls in many cases",color=blue];
-	57 [label="Most of male students tend to use their left brain to think and act , and they are more rational and logical than girls in many cases",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	88 [label="there are more male scientists and engineers in comparison with females around the world",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	103 [label="Many boys are interested in science and technology , while a number of girls like to learn literature , education and arts",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	128 [label="girls are more likely to prefer some jobs related to emotion and communication , such as teacher , singer and interpreter",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	153 [label="girls differ from boys in mind and behaviour to a large extent , and they both have better ability in the specific aspect",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	179 [label="it can have a negative affect on these students to require them to choose a subject in equal proportion of gender",color=green];
-	202 [label="that does not conform to students' personality traits and mental development",color=blue];
-	202 [label="that does not conform to students' personality traits and mental development",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	217 [label="a girl , who is interested in literature , is arranged into an engineering department",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	234 [label="she is unlikely to focus on her subject",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	244 [label="this also can block the girl's future development and career prospect",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	261 [label="universities should encourage more girls to choose science subjects and more boys to study the humanities",color=green];
-	279 [label="this could avoid imbalance of gender in some subjects",color=blue];
-	279 [label="this could avoid imbalance of gender in some subjects",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
-	289 [label="It would affect students' mental health to study in the environment of single gender",color=blue];
-	307 [label="it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls , and we ca not forcedly put the same numbers of males and females into every subject",color=green];
+	45 [label="boys and girls have the
+ diversity in psychological modes and
+ individuality",color=green];
+	57 [label="Most of male
+ students tend to use their
+ left brain to think and
+ act , and they are
+ more rational and logical than
+ girls in many cases",color=blue];
+	57 [label="Most of male
+ students tend to use their
+ left brain to think and
+ act , and they are
+ more rational and logical than
+ girls in many cases",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	88 [label="there are
+ more male scientists and engineers
+ in comparison with females around
+ the world",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	103 [label="Many boys
+ are interested in science and
+ technology , while a number
+ of girls like to learn
+ literature , education and arts
+",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	128 [label="girls are
+ more likely to prefer some
+ jobs related to emotion and
+ communication , such as teacher
+ , singer and interpreter",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	153 [label="girls differ
+ from boys in mind and
+ behaviour to a large extent
+ , and they both have
+ better ability in the specific
+ aspect",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	179 [label="it can have a negative affect
+ on these students to require
+ them to choose a subject
+ in equal proportion of gender
+",color=green];
+	202 [label="that does not
+ conform to students' personality traits
+ and mental development",color=blue];
+	202 [label="that does not
+ conform to students' personality traits
+ and mental development",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	217 [label="a girl ,
+ who is interested in literature
+ , is arranged into an
+ engineering department",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	234 [label="she is unlikely to focus on
+ her subject",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	244 [label="this also can block the girl's
+ future development and career prospect
+",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	261 [label="universities should encourage more
+ girls to choose science subjects
+ and more boys to study
+ the humanities",color=green];
+	279 [label="this could avoid imbalance of gender
+ in some subjects",color=blue];
+	279 [label="this could avoid imbalance of gender
+ in some subjects",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
+	289 [label="It would affect students' mental health
+ to study in the environment
+ of single gender",color=blue];
+	307 [label="it is necessary
+ for universities to respect the
+ individual choice of subject due
+ to the diversity of boys
+ and girls , and we
+ ca not forcedly put the
+ same numbers of males and
+ females into every subject",color=green];
 }

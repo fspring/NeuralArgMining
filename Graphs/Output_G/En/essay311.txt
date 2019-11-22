@@ -4,14 +4,54 @@ digraph G {
 	275 -> 402;
 	287 -> 402;
 	336 -> 402;
-	81 [label="the students are not constantly expert in every part of a subject",color=green];
-	101 [label="but i don't like electronics , because electronics cannot always be seen in the real world",color=blue];
-	235 [label="no one can attend the classes without passing exam",color=green];
-	253 [label="if one fail most of the exam , it means that he or she cannot participate in most of the classes",color=blue];
-	275 [label="and the students will have nothing to do in the campus",color=blue];
-	402 [label="the university should allow the student to participate in the classed without passing the test because not only is every students expert in every part of one subject but also it will reduce the student in the campus who leave uncultivated",color=green];
-	287 [label="then he or she will play online games days and nights",color=blue];
-	402 [label="the university should allow the student to participate in the classed without passing the test because not only is every students expert in every part of one subject but also it will reduce the student in the campus who leave uncultivated",color=green];
-	336 [label="this is not the failure of the university but also the entire education system",color=blue];
-	402 [label="the university should allow the student to participate in the classed without passing the test because not only is every students expert in every part of one subject but also it will reduce the student in the campus who leave uncultivated",color=green];
+	81 [label="the students are not constantly
+ expert in every part of
+ a subject",color=green];
+	101 [label="but i don't like electronics
+ , because electronics cannot always
+ be seen in the real
+ world",color=blue];
+	235 [label="no one can attend the classes
+ without passing exam",color=green];
+	253 [label="if one fail
+ most of the exam ,
+ it means that he or
+ she cannot participate in most
+ of the classes",color=blue];
+	275 [label="and the students will have nothing
+ to do in the campus
+",color=blue];
+	402 [label="the university should allow
+ the student to participate in
+ the classed without passing the
+ test because not only is
+ every students expert in every
+ part of one subject but
+ also it will reduce the
+ student in the campus who
+ leave uncultivated",color=green];
+	287 [label="then he or she
+ will play online games days
+ and nights",color=blue];
+	402 [label="the university should allow
+ the student to participate in
+ the classed without passing the
+ test because not only is
+ every students expert in every
+ part of one subject but
+ also it will reduce the
+ student in the campus who
+ leave uncultivated",color=green];
+	336 [label="this is not the failure
+ of the university but also
+ the entire education system",color=blue];
+	402 [label="the university should allow
+ the student to participate in
+ the classed without passing the
+ test because not only is
+ every students expert in every
+ part of one subject but
+ also it will reduce the
+ student in the campus who
+ leave uncultivated",color=green];
 }

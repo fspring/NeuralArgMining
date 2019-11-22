@@ -1,5 +1,14 @@
 digraph G {
 	111 -> 87;
-	87 [label="artists should be funded is because art helps to improve the quality of our lives as well as attracting tourists",color=green];
-	111 [label="monuments that represent each city do not only illustrate the city's history and culture , but also make the city more beautiful and an attractive place for tourists",color=blue];
+	87 [label="artists should be funded
+ is because art helps to
+ improve the quality of our
+ lives as well as attracting
+ tourists",color=green];
+	111 [label="monuments that represent each city
+ do not only illustrate the
+ city's history and culture ,
+ but also make the city
+ more beautiful and an attractive
+ place for tourists",color=blue];
 }

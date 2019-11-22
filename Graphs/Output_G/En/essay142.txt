@@ -2,7 +2,15 @@ digraph G {
 	56 -> 50;
 	264 -> 237;
 	50 [label="benefits",color=green];
-	56 [label="advantage of high-tech medical care is that people are better taken care so that they have a good health",color=blue];
+	56 [label="advantage of high-tech medical care
+ is that people are better
+ taken care so that they
+ have a good health",color=blue];
 	237 [label="capital",color=green];
-	264 [label="they have given their effort to the society so that young people , the governments have a responsibility to improve the medicare system",color=blue];
+	264 [label="they have
+ given their effort to the
+ society so that young people
+ , the governments have a
+ responsibility to improve the medicare
+ system",color=blue];
 }

@@ -10,26 +10,84 @@ digraph G {
 	253 -> 230;
 	253 -> 285;
 	263 -> 285;
-	44 [label="learning facts has more subsequent advantages for students' future lives",color=green];
-	70 [label="when students learn facts more in school , they would be ready for facing problems in their own life after their graduations",color=blue];
-	70 [label="when students learn facts more in school , they would be ready for facing problems in their own life after their graduations",color=blue];
-	122 [label="they would prepare to encounter their life out of school to solve their problems better",color=green];
-	99 [label="more information about facts would make students more familiar with the real life other that only their concepts",color=blue];
-	122 [label="they would prepare to encounter their life out of school to solve their problems better",color=green];
-	140 [label="it would improve students' social behavior",color=green];
-	147 [label="If students only rely on concepts and ideas theorically , they would not realize human's mind very well",color=blue];
-	147 [label="If students only rely on concepts and ideas theorically , they would not realize human's mind very well",color=blue];
-	285 [label="learning facts is more beneficial for students in both social and individual life",color=green];
-	166 [label="They should understand objects more that concepts to obtain the ability of analyzing matters well",color=blue];
-	285 [label="learning facts is more beneficial for students in both social and individual life",color=green];
-	184 [label="if they deal more with facts , they can realize social situations effectively and so improve their social communication in everyday life",color=blue];
-	285 [label="learning facts is more beneficial for students in both social and individual life",color=green];
-	209 [label="these way students are teached to control their fears and concerns in facing facts",color=blue];
-	230 [label="when a student understands a fact and its consequences , he or she can encounter it more confidently",color=green];
-	230 [label="when a student understands a fact and its consequences , he or she can encounter it more confidently",color=green];
-	253 [label="concerns and anxieties are very destructive in everybody's life",color=blue];
-	253 [label="concerns and anxieties are very destructive in everybody's life",color=blue];
-	285 [label="learning facts is more beneficial for students in both social and individual life",color=green];
-	263 [label="It can prevent person to progress and thrive in every position",color=blue];
-	285 [label="learning facts is more beneficial for students in both social and individual life",color=green];
+	44 [label="learning facts has more subsequent advantages
+ for students' future lives",color=green];
+	70 [label="when students learn facts more
+ in school , they would
+ be ready for facing problems
+ in their own life after
+ their graduations",color=blue];
+	70 [label="when students learn facts more
+ in school , they would
+ be ready for facing problems
+ in their own life after
+ their graduations",color=blue];
+	122 [label="they would prepare
+ to encounter their life out
+ of school to solve their
+ problems better",color=green];
+	99 [label="more information about facts would make
+ students more familiar with the
+ real life other that only
+ their concepts",color=blue];
+	122 [label="they would prepare
+ to encounter their life out
+ of school to solve their
+ problems better",color=green];
+	140 [label="it would improve students' social
+ behavior",color=green];
+	147 [label="If students only
+ rely on concepts and ideas
+ theorically , they would not
+ realize human's mind very well
+",color=blue];
+	147 [label="If students only
+ rely on concepts and ideas
+ theorically , they would not
+ realize human's mind very well
+",color=blue];
+	285 [label="learning facts is more beneficial
+ for students in both social
+ and individual life",color=green];
+	166 [label="They should understand objects
+ more that concepts to obtain
+ the ability of analyzing matters
+ well",color=blue];
+	285 [label="learning facts is more beneficial
+ for students in both social
+ and individual life",color=green];
+	184 [label="if they deal more with facts
+ , they can realize social
+ situations effectively and so improve
+ their social communication in everyday
+ life",color=blue];
+	285 [label="learning facts is more beneficial
+ for students in both social
+ and individual life",color=green];
+	209 [label="these way students are teached to
+ control their fears and concerns
+ in facing facts",color=blue];
+	230 [label="when a student understands a
+ fact and its consequences ,
+ he or she can encounter
+ it more confidently",color=green];
+	230 [label="when a student understands a
+ fact and its consequences ,
+ he or she can encounter
+ it more confidently",color=green];
+	253 [label="concerns and
+ anxieties are very destructive in
+ everybody's life",color=blue];
+	253 [label="concerns and
+ anxieties are very destructive in
+ everybody's life",color=blue];
+	285 [label="learning facts is more beneficial
+ for students in both social
+ and individual life",color=green];
+	263 [label="It can
+ prevent person to progress and
+ thrive in every position",color=blue];
+	285 [label="learning facts is more beneficial
+ for students in both social
+ and individual life",color=green];
 }

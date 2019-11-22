@@ -4,11 +4,23 @@ digraph G {
 	139 -> 71;
 	151 -> 83;
 	38 [label="some",color=blue];
-	71 [label="if you live in a neighborhood with other people about your",color=green];
+	71 [label="if you live in a
+ neighborhood with other people about
+ your",color=green];
 	67 [label="this is not",color=green];
-	151 [label="that he had to study a lot to pass the test to enter the university",color=blue];
-	71 [label="if you live in a neighborhood with other people about your",color=green];
-	139 [label="have a friend that grew up in the countryside",color=blue];
+	151 [label="that he had to study
+ a lot to pass the
+ test to enter the university
+",color=blue];
+	71 [label="if you live in a
+ neighborhood with other people about
+ your",color=green];
+	139 [label="have a
+ friend that grew up in
+ the countryside",color=blue];
 	83 [label="as",color=green];
-	151 [label="that he had to study a lot to pass the test to enter the university",color=blue];
+	151 [label="that he had to study
+ a lot to pass the
+ test to enter the university
+",color=blue];
 }

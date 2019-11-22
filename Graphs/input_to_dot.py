@@ -1,10 +1,10 @@
 import os
 
-# dir = 'CorpusOutputPunctuation/rel'
-dir = 'essaysClaimsPremisesPunctuation/rel/both'
+dir = 'CorpusOutputPunctuation/rel'
+# dir = 'essaysClaimsPremisesPunctuation/rel/both'
 
-# graph_dir = 'Graphs/Input_G/Pt'
-graph_dir = 'Graphs/Input_G/En'
+graph_dir = 'Graphs/Input_G/Pt'
+# graph_dir = 'Graphs/Input_G/En'
 
 files = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
 
@@ -33,6 +33,8 @@ for filename in files:
             end = i
             text += ' ' + fields[0]
             i += 1
+            if i%5 == 0:
+                text +='\n'
             if i >= len(entries):
                 break
             fields = entries[i].split('\t') #[text, (IO,arg,dist)]

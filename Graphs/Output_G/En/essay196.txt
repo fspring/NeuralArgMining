@@ -3,12 +3,44 @@ digraph G {
 	231 -> 309;
 	262 -> 346;
 	294 -> 346;
-	105 [label="you will not be in need to refer to books or persons",color=blue];
-	195 [label="learning by doing things is more exciting than learning by reading about things or listening to people talking about",color=green];
-	231 [label="reading about things or listening to people talking about can rarely submit the same sensation or the same excitement to some one who wants to learn about the same thing",color=blue];
-	309 [label="makes learning by doing things more advantageous than learning by reading about things or listening to people talking about is that we find more motivation to continuing on learning by doing things",color=green];
-	262 [label="people who want to learn how to swim have to go to the beach or to the swimpool and laid themselves in the water to feel and know what is swimming",color=blue];
-	346 [label="reading about things or listening to people talking about could become more and more boring",color=green];
-	294 [label="nor listening to people or reading about can teach them swimming",color=blue];
-	346 [label="reading about things or listening to people talking about could become more and more boring",color=green];
+	105 [label="you will not be in need
+ to refer to books or
+ persons",color=blue];
+	195 [label="learning by doing things is more
+ exciting than learning by reading
+ about things or listening to
+ people talking about",color=green];
+	231 [label="reading about things or listening
+ to people talking about can
+ rarely submit the same sensation
+ or the same excitement to
+ some one who wants to
+ learn about the same thing
+",color=blue];
+	309 [label="makes learning
+ by doing things more advantageous
+ than learning by reading about
+ things or listening to people
+ talking about is that we
+ find more motivation to continuing
+ on learning by doing things
+",color=green];
+	262 [label="people who want to
+ learn how to swim have
+ to go to the beach
+ or to the swimpool and
+ laid themselves in the water
+ to feel and know what
+ is swimming",color=blue];
+	346 [label="reading about things or listening
+ to people talking about could
+ become more and more boring
+",color=green];
+	294 [label="nor listening
+ to people or reading about
+ can teach them swimming",color=blue];
+	346 [label="reading about things or listening
+ to people talking about could
+ become more and more boring
+",color=green];
 }

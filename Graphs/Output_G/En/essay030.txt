@@ -1,5 +1,18 @@
 digraph G {
 	202 -> 242;
-	202 [label="this will encourage all the parents to think of the way to help their children to achieve more in their lives as they need to make some contribution too for their children future",color=blue];
-	242 [label="that government should not pay for the university fees because this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them",color=green];
+	202 [label="this will encourage all
+ the parents to think of
+ the way to help their
+ children to achieve more in
+ their lives as they need
+ to make some contribution too
+ for their children future",color=blue];
+	242 [label="that government should not
+ pay for the university fees
+ because this will make both
+ the parents and students in
+ charge for their future themselves
+ not just depend on the
+ government to do all their
+ responsibilities for them",color=green];
 }

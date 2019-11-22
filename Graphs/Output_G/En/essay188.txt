@@ -12,27 +12,90 @@ digraph G {
 	301 -> 316;
 	313 -> 323;
 	58 [label="it",color=green];
-	86 [label="as studies have shown that the rate of obesity in children has increased every year , it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school",color=blue];
+	86 [label="as studies have shown that
+ the rate of obesity in
+ children has increased every year
+ , it will be very
+ beneficial for children to have
+ a daily physical activity and
+ get a break from being
+ sitting several hours at school
+",color=blue];
 	61 [label="good way",color=green];
-	86 [label="as studies have shown that the rate of obesity in children has increased every year , it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school",color=blue];
-	64 [label="teach them the importance of physical activity from an early age",color=green];
-	86 [label="as studies have shown that the rate of obesity in children has increased every year , it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school",color=blue];
+	86 [label="as studies have shown that
+ the rate of obesity in
+ children has increased every year
+ , it will be very
+ beneficial for children to have
+ a daily physical activity and
+ get a break from being
+ sitting several hours at school
+",color=blue];
+	64 [label="teach them
+ the importance of physical activity
+ from an early age",color=green];
+	86 [label="as studies have shown that
+ the rate of obesity in
+ children has increased every year
+ , it will be very
+ beneficial for children to have
+ a daily physical activity and
+ get a break from being
+ sitting several hours at school
+",color=blue];
 	82 [label="up",color=green];
-	86 [label="as studies have shown that the rate of obesity in children has increased every year , it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school",color=blue];
+	86 [label="as studies have shown that
+ the rate of obesity in
+ children has increased every year
+ , it will be very
+ beneficial for children to have
+ a daily physical activity and
+ get a break from being
+ sitting several hours at school
+",color=blue];
 	193 [label="helping",color=green];
-	225 [label="having children in the daily exercise routine from an early age will teach them the important value of having physical activity in their every day routine",color=blue];
-	207 [label="daily exercise will provide children with a mental break which will boost them to",color=blue];
-	323 [label="but also will establish in children a habit of doing it",color=green];
+	225 [label="having children in the daily exercise
+ routine from an early age
+ will teach them the important
+ value of having physical activity
+ in their every day routine
+",color=blue];
+	207 [label="daily exercise will provide
+ children with a mental break
+ which will boost them to
+",color=blue];
+	323 [label="but also will
+ establish in children a habit
+ of doing it",color=green];
 	221 [label="be",color=green];
 	311 [label="considered",color=blue];
-	252 [label="children are bombarded with lectures about nutrition and physical activity",color=blue];
-	335 [label="giving them the opportunity to measure the worth of including such an important activity in their daily live schedules",color=green];
-	265 [label="they will be more beneficed if that knowledge can be put in practice",color=blue];
-	335 [label="giving them the opportunity to measure the worth of including such an important activity in their daily live schedules",color=green];
-	281 [label="they can stick with the routine and make the daily physical activities a good habit on their whole life",color=blue];
-	316 [label="not only mental and body health",color=green];
-	301 [label="including physical activity in children's school day",color=blue];
-	316 [label="not only mental and body health",color=green];
-	313 [label="it will meliorate",color=blue];
-	323 [label="but also will establish in children a habit of doing it",color=green];
+	252 [label="children are bombarded with
+ lectures about nutrition and physical
+ activity",color=blue];
+	335 [label="giving them the opportunity to measure
+ the worth of including such
+ an important activity in their
+ daily live schedules",color=green];
+	265 [label="they will be more beneficed if
+ that knowledge can be put
+ in practice",color=blue];
+	335 [label="giving them the opportunity to measure
+ the worth of including such
+ an important activity in their
+ daily live schedules",color=green];
+	281 [label="they can stick with the
+ routine and make the daily
+ physical activities a good habit
+ on their whole life",color=blue];
+	316 [label="not only mental and body
+ health",color=green];
+	301 [label="including physical activity in children's
+ school day",color=blue];
+	316 [label="not only mental and body
+ health",color=green];
+	313 [label="it will meliorate
+",color=blue];
+	323 [label="but also will
+ establish in children a habit
+ of doing it",color=green];
 }

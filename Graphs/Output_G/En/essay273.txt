@@ -4,11 +4,44 @@ digraph G {
 	259 -> 323;
 	295 -> 323;
 	149 [label="it’s",color=green];
-	179 [label="so persons in big cities have more chance to get the better job than people living in small towns",color=blue];
-	153 [label="this modern world education has a very important role in the human kind future life",color=green];
-	179 [label="so persons in big cities have more chance to get the better job than people living in small towns",color=blue];
-	259 [label="every technology has it’s good and bad effects but i prefer having the technologies with their disadvantages to living like 16 century without any of modern facilities of technology",color=blue];
-	323 [label="in my view living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places , technologies facilities",color=green];
-	295 [label="medical technologies is completely better in big cities and in my view this profit overcomes all the bad influences of technologies on human kind",color=blue];
-	323 [label="in my view living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places , technologies facilities",color=green];
+	179 [label="so persons
+ in big cities have more
+ chance to get the better
+ job than people living in
+ small towns",color=blue];
+	153 [label="this modern world
+ education has a very important
+ role in the human kind
+ future life",color=green];
+	179 [label="so persons
+ in big cities have more
+ chance to get the better
+ job than people living in
+ small towns",color=blue];
+	259 [label="every technology
+ has it’s good and bad
+ effects but i prefer having
+ the technologies with their disadvantages
+ to living like 16 century
+ without any of modern facilities
+ of technology",color=blue];
+	323 [label="in my view
+ living in big cities is
+ quite funnier and better and
+ more exciting than living in
+ small towns because of many
+ more social places , technologies
+ facilities",color=green];
+	295 [label="medical technologies is completely better in
+ big cities and in my
+ view this profit overcomes all
+ the bad influences of technologies
+ on human kind",color=blue];
+	323 [label="in my view
+ living in big cities is
+ quite funnier and better and
+ more exciting than living in
+ small towns because of many
+ more social places , technologies
+ facilities",color=green];
 }

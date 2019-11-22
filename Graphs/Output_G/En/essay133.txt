@@ -3,12 +3,47 @@ digraph G {
 	97 -> 85;
 	97 -> 92;
 	218 -> 240;
-	71 [label="and people's lives have already been controlled by device",color=green];
-	97 [label="a study conducted by mediabank shows that majority of australian adults do not socialize with their families and friends as much as they used to , due to the fact that they spend almost nine hours a day dealing with computers as to produce efficient time in working",color=blue];
-	85 [label="this modern device has been a",color=green];
-	97 [label="a study conducted by mediabank shows that majority of australian adults do not socialize with their families and friends as much as they used to , due to the fact that they spend almost nine hours a day dealing with computers as to produce efficient time in working",color=blue];
-	92 [label="hindrance to some people",color=green];
-	97 [label="a study conducted by mediabank shows that majority of australian adults do not socialize with their families and friends as much as they used to , due to the fact that they spend almost nine hours a day dealing with computers as to produce efficient time in working",color=blue];
-	218 [label="is due to using computer more efficient and , many workers cannot do more in work without computer",color=blue];
-	240 [label="in era technology like this age",color=green];
+	71 [label="and people's lives have already
+ been controlled by device",color=green];
+	97 [label="a study conducted by
+ mediabank shows that majority of
+ australian adults do not socialize
+ with their families and friends
+ as much as they used
+ to , due to the
+ fact that they spend almost
+ nine hours a day dealing
+ with computers as to produce
+ efficient time in working",color=blue];
+	85 [label="this modern device has been a
+",color=green];
+	97 [label="a study conducted by
+ mediabank shows that majority of
+ australian adults do not socialize
+ with their families and friends
+ as much as they used
+ to , due to the
+ fact that they spend almost
+ nine hours a day dealing
+ with computers as to produce
+ efficient time in working",color=blue];
+	92 [label="hindrance to some people
+",color=green];
+	97 [label="a study conducted by
+ mediabank shows that majority of
+ australian adults do not socialize
+ with their families and friends
+ as much as they used
+ to , due to the
+ fact that they spend almost
+ nine hours a day dealing
+ with computers as to produce
+ efficient time in working",color=blue];
+	218 [label="is due to
+ using computer more efficient and
+ , many workers cannot do
+ more in work without computer
+",color=blue];
+	240 [label="in era technology like this age
+",color=green];
 }

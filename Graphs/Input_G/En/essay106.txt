@@ -7,20 +7,84 @@ digraph G {
 	194 -> 264;
 	216 -> 264;
 	244 -> 264;
-	47 [label="the move will do more good by looking at the quality of health and image of a nation in long run",color=green];
-	71 [label="it is well known and clinically proven that smoking is extremely hazardous to the smoker and others who have been exposed to the fume over a period of time",color=blue];
-	71 [label="it is well known and clinically proven that smoking is extremely hazardous to the smoker and others who have been exposed to the fume over a period of time",color=blue];
-	149 [label="the number of fatality can be significantly reduced if a total ban on public smoking is implemented",color=green];
-	101 [label="Recent death statistic released by the Malaysian Ministry of Health shows that the top killer was lung related diseases caused by smoking",color=blue];
-	149 [label="the number of fatality can be significantly reduced if a total ban on public smoking is implemented",color=green];
-	124 [label="A large proportion of death involved second hand smoker particularly young children and pregnant women who were vulnerable to these lethal diseases",color=blue];
-	149 [label="the number of fatality can be significantly reduced if a total ban on public smoking is implemented",color=green];
-	169 [label="the image of a healthy nation can be promoted when government restricts public smoking by imposing stern penalty to the offender",color=green];
-	194 [label="the Brunei government had recently enforced a law against smoking in public areas such as cafés , hospital and shopping street",color=blue];
-	194 [label="the Brunei government had recently enforced a law against smoking in public areas such as cafés , hospital and shopping street",color=blue];
-	264 [label="the effort to prohibit people from smoking in public area is certainly helping in curtailing the associated health risks and to create a healthy nation",color=green];
-	216 [label="This step has curbed down the numbers of smokers in the country and as a result , Brunei remains a place known for its tranquility and cleanliness",color=blue];
-	264 [label="the effort to prohibit people from smoking in public area is certainly helping in curtailing the associated health risks and to create a healthy nation",color=green];
-	244 [label="This example shows the benefit of restricting public smoking to a country as a whole",color=blue];
-	264 [label="the effort to prohibit people from smoking in public area is certainly helping in curtailing the associated health risks and to create a healthy nation",color=green];
+	47 [label="the move will
+ do more good by looking
+ at the quality of health
+ and image of a nation
+ in long run",color=green];
+	71 [label="it is well known
+ and clinically proven that smoking
+ is extremely hazardous to the
+ smoker and others who have
+ been exposed to the fume
+ over a period of time
+",color=blue];
+	71 [label="it is well known
+ and clinically proven that smoking
+ is extremely hazardous to the
+ smoker and others who have
+ been exposed to the fume
+ over a period of time
+",color=blue];
+	149 [label="the number of fatality can be
+ significantly reduced if a total
+ ban on public smoking is
+ implemented",color=green];
+	101 [label="Recent death statistic released
+ by the Malaysian Ministry of
+ Health shows that the top
+ killer was lung related diseases
+ caused by smoking",color=blue];
+	149 [label="the number of fatality can be
+ significantly reduced if a total
+ ban on public smoking is
+ implemented",color=green];
+	124 [label="A large proportion of death involved
+ second hand smoker particularly young
+ children and pregnant women who
+ were vulnerable to these lethal
+ diseases",color=blue];
+	149 [label="the number of fatality can be
+ significantly reduced if a total
+ ban on public smoking is
+ implemented",color=green];
+	169 [label="the image of a healthy nation
+ can be promoted when government
+ restricts public smoking by imposing
+ stern penalty to the offender
+",color=green];
+	194 [label="the Brunei government had recently enforced
+ a law against smoking in
+ public areas such as cafés
+ , hospital and shopping street
+",color=blue];
+	194 [label="the Brunei government had recently enforced
+ a law against smoking in
+ public areas such as cafés
+ , hospital and shopping street
+",color=blue];
+	264 [label="the effort to prohibit people from
+ smoking in public area is
+ certainly helping in curtailing the
+ associated health risks and to
+ create a healthy nation",color=green];
+	216 [label="This step has curbed
+ down the numbers of smokers
+ in the country and as
+ a result , Brunei remains
+ a place known for its
+ tranquility and cleanliness",color=blue];
+	264 [label="the effort to prohibit people from
+ smoking in public area is
+ certainly helping in curtailing the
+ associated health risks and to
+ create a healthy nation",color=green];
+	244 [label="This example shows the benefit of
+ restricting public smoking to a
+ country as a whole",color=blue];
+	264 [label="the effort to prohibit people from
+ smoking in public area is
+ certainly helping in curtailing the
+ associated health risks and to
+ create a healthy nation",color=green];
 }

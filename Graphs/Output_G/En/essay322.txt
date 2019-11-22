@@ -3,9 +3,19 @@ digraph G {
 	71 -> 60;
 	114 -> 232;
 	57 [label="ancestors",color=green];
-	71 [label="they show the history of nations and previous generations who lived in the city",color=blue];
-	60 [label="no one can determine the price of the historic buildings",color=green];
-	71 [label="they show the history of nations and previous generations who lived in the city",color=blue];
-	114 [label="by investigating about their structures , we can understand how much they knew about the architecture of building",color=blue];
-	232 [label="we should preserve historic buildings in the city",color=green];
+	71 [label="they show the history of
+ nations and previous generations who
+ lived in the city",color=blue];
+	60 [label="no one can determine the price
+ of the historic buildings",color=green];
+	71 [label="they show the history of
+ nations and previous generations who
+ lived in the city",color=blue];
+	114 [label="by investigating
+ about their structures , we
+ can understand how much they
+ knew about the architecture of
+ building",color=blue];
+	232 [label="we should preserve historic
+ buildings in the city",color=green];
 }

@@ -1,5 +1,9 @@
 digraph G {
 	17 -> 26;
-	17 [label="têm tanto medo de um como de outro",color=blue];
-	26 [label="perpetuam o impasse por não conseguirem decidir qual dos dois travar primeiro",color=green];
+	17 [label="têm tanto medo
+ de um como de outro
+",color=blue];
+	26 [label="perpetuam o impasse por
+ não conseguirem decidir qual dos
+ dois travar primeiro",color=green];
 }

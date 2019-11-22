@@ -1,8 +1,18 @@
 digraph G {
 	0 -> 19;
 	36 -> 19;
-	0 [label="Enquanto em Portugal o Estoril Open entra num ciclo diferente , agora no Clube de Ténis do Estoril",color=blue];
-	19 [label="as provas do Grand Slam prosseguem a política de reforço dos prémios",color=green];
-	19 [label="as provas do Grand Slam prosseguem a política de reforço dos prémios",color=green];
-	36 [label="De Roland Garros veio a notícia de que o prize-money global chegará aos 28 milhões de euros ,",color=blue];
+	0 [label="Enquanto em Portugal o Estoril
+ Open entra num ciclo diferente
+ , agora no Clube de
+ Ténis do Estoril",color=blue];
+	19 [label="as provas do Grand Slam prosseguem
+ a política de reforço dos
+ prémios",color=green];
+	19 [label="as provas do Grand Slam prosseguem
+ a política de reforço dos
+ prémios",color=green];
+	36 [label="De Roland Garros veio
+ a notícia de que o
+ prize-money global chegará aos 28
+ milhões de euros ,",color=blue];
 }

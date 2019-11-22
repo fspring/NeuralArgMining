@@ -3,9 +3,26 @@ digraph G {
 	188 -> 162;
 	209 -> 266;
 	55 [label="people should not",color=green];
-	65 [label="of the rapid urbanization process , in which rural people must go to urban centers to look for job opportunities , the question of the preservation of old buildings has become more pressing",color=blue];
+	65 [label="of the rapid urbanization process ,
+ in which rural people must
+ go to urban centers to
+ look for job opportunities ,
+ the question of the preservation
+ of old buildings has become
+ more pressing",color=blue];
 	162 [label="managers",color=green];
-	188 [label="the preservation of old buildings is also a ways to conserve our culture and everyone can learn much from them",color=blue];
-	209 [label="old buildings should be used as the culture museums and provide accommodation with more convenient for people who live there",color=blue];
-	266 [label="the need for housing or the expense of restoration contrast with our desire to conserve culture and attract tourism",color=green];
+	188 [label="the preservation of
+ old buildings is also a
+ ways to conserve our culture
+ and everyone can learn much
+ from them",color=blue];
+	209 [label="old buildings
+ should be used as the
+ culture museums and provide accommodation
+ with more convenient for people
+ who live there",color=blue];
+	266 [label="the need for housing or
+ the expense of restoration contrast
+ with our desire to conserve
+ culture and attract tourism",color=green];
 }

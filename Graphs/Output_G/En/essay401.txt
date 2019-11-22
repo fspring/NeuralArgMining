@@ -6,18 +6,53 @@ digraph G {
 	161 -> 154;
 	161 -> 244;
 	227 -> 244;
-	59 [label="why the father's role should be equal to the mother's role is the nature of parantage",color=green];
-	80 [label="the role models within a family play a significant role in the development of the child's characteristics",color=blue];
-	142 [label="that fatherood is as important",color=green];
-	161 [label="we are living in a society that puts a significant importance to gender equality in every aspect of the life , including relationships",color=blue];
+	59 [label="why the
+ father's role should be equal
+ to the mother's role is
+ the nature of parantage",color=green];
+	80 [label="the role models within a family
+ play a significant role in
+ the development of the child's
+ characteristics",color=blue];
+	142 [label="that fatherood is as
+ important",color=green];
+	161 [label="we are living in a
+ society that puts a significant
+ importance to gender equality in
+ every aspect of the life
+ , including relationships",color=blue];
 	148 [label="motherhood",color=green];
-	161 [label="we are living in a society that puts a significant importance to gender equality in every aspect of the life , including relationships",color=blue];
+	161 [label="we are living in a
+ society that puts a significant
+ importance to gender equality in
+ every aspect of the life
+ , including relationships",color=blue];
 	152 [label="of",color=green];
-	161 [label="we are living in a society that puts a significant importance to gender equality in every aspect of the life , including relationships",color=blue];
+	161 [label="we are living in a
+ society that puts a significant
+ importance to gender equality in
+ every aspect of the life
+ , including relationships",color=blue];
 	154 [label="relationships",color=green];
-	161 [label="we are living in a society that puts a significant importance to gender equality in every aspect of the life , including relationships",color=blue];
-	161 [label="we are living in a society that puts a significant importance to gender equality in every aspect of the life , including relationships",color=blue];
-	244 [label="having and raising children should not be different than any other daily activity",color=green];
-	227 [label="of the couple duties are performed equally and interchangeably by individuals",color=blue];
-	244 [label="having and raising children should not be different than any other daily activity",color=green];
+	161 [label="we are living in a
+ society that puts a significant
+ importance to gender equality in
+ every aspect of the life
+ , including relationships",color=blue];
+	161 [label="we are living in a
+ society that puts a significant
+ importance to gender equality in
+ every aspect of the life
+ , including relationships",color=blue];
+	244 [label="having and
+ raising children should not be
+ different than any other daily
+ activity",color=green];
+	227 [label="of the couple duties
+ are performed equally and interchangeably
+ by individuals",color=blue];
+	244 [label="having and
+ raising children should not be
+ different than any other daily
+ activity",color=green];
 }

@@ -4,5 +4,10 @@ digraph G {
 	46 [label="studies",color=blue];
 	60 [label="like we",color=green];
 	66 [label="animals",color=green];
-	88 [label="when we captivate animals and put them to live a style of life that they are unfamiliar with , they begin to loose those in-born instincts",color=blue];
+	88 [label="when we captivate
+ animals and put them to
+ live a style of life
+ that they are unfamiliar with
+ , they begin to loose
+ those in-born instincts",color=blue];
 }

@@ -1,5 +1,11 @@
 digraph G {
 	83 -> 74;
-	74 [label="connecting people",color=green];
-	83 [label="in addition , world wide web offers humanity to access to information , which they want to know for less than 10 seconds",color=blue];
+	74 [label="connecting people
+",color=green];
+	83 [label="in addition ,
+ world wide web offers humanity
+ to access to information ,
+ which they want to know
+ for less than 10 seconds
+",color=blue];
 }

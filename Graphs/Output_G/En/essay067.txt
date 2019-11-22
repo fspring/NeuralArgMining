@@ -5,16 +5,52 @@ digraph G {
 	295 -> 280;
 	295 -> 294;
 	295 -> 350;
-	239 [label="let's then",color=blue];
-	258 [label="some of the art work may contain negative implications such as insanity",color=green];
+	239 [label="let's then
+",color=blue];
+	258 [label="some of the
+ art work may contain negative
+ implications such as insanity",color=green];
 	270 [label=",",color=blue];
-	280 [label="restrictions on exposure to adolescents should apply",color=green];
+	280 [label="restrictions on exposure to adolescents should
+ apply",color=green];
 	272 [label=",",color=blue];
-	280 [label="restrictions on exposure to adolescents should apply",color=green];
-	280 [label="restrictions on exposure to adolescents should apply",color=green];
-	295 [label="being led astray by these contents ; however , in the case of adults being the audience , there's really nothing to hide – these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art",color=blue];
+	280 [label="restrictions on exposure to adolescents should
+ apply",color=green];
+	280 [label="restrictions on exposure to adolescents should
+ apply",color=green];
+	295 [label="being led astray by these contents
+ ; however , in the
+ case of adults being the
+ audience , there's really nothing
+ to hide – these negative
+ things objectively exist on this
+ planet and it is impossible
+ for adults to be brain-washed
+ only because of some pieces
+ of creative art",color=blue];
 	294 [label="avoid",color=green];
-	295 [label="being led astray by these contents ; however , in the case of adults being the audience , there's really nothing to hide – these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art",color=blue];
-	295 [label="being led astray by these contents ; however , in the case of adults being the audience , there's really nothing to hide – these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art",color=blue];
-	350 [label="i do not root for the idea that restrictions should be put on artists work ; on the",color=green];
+	295 [label="being led astray by these contents
+ ; however , in the
+ case of adults being the
+ audience , there's really nothing
+ to hide – these negative
+ things objectively exist on this
+ planet and it is impossible
+ for adults to be brain-washed
+ only because of some pieces
+ of creative art",color=blue];
+	295 [label="being led astray by these contents
+ ; however , in the
+ case of adults being the
+ audience , there's really nothing
+ to hide – these negative
+ things objectively exist on this
+ planet and it is impossible
+ for adults to be brain-washed
+ only because of some pieces
+ of creative art",color=blue];
+	350 [label="i do not root for the
+ idea that restrictions should be
+ put on artists work ;
+ on the",color=green];
 }

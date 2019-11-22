@@ -2,10 +2,17 @@ digraph G {
 	62 -> 0;
 	66 -> 74;
 	83 -> 79;
-	0 [label="A crise dos refugiados na Alemanha e na Europa pode acabar com o consulado político de Merkel",color=green];
-	62 [label="A situação alterou-se",color=blue];
-	66 [label="A CDU ainda lidera as sondagens",color=blue];
+	0 [label="A crise dos refugiados na
+ Alemanha e na Europa pode
+ acabar com o consulado político
+ de Merkel",color=green];
+	62 [label="A situação alterou-se
+",color=blue];
+	66 [label="A CDU ainda lidera
+ as sondagens",color=blue];
 	74 [label="está a cair ,",color=green];
 	79 [label="Merkel perdeu popularidade",color=green];
-	83 [label="Começa mesmo a ser contestada no interior do seu partido",color=blue];
+	83 [label="Começa mesmo
+ a ser contestada no interior
+ do seu partido",color=blue];
 }

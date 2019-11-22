@@ -7,20 +7,56 @@ digraph G {
 	190 -> 227;
 	213 -> 191;
 	266 -> 268;
-	26 [label="that people will be swayed by the advertising and buy things they do not need it for their life",color=green];
-	49 [label="in most asian countries , advertisement company usually hire popular singers or actors to advertise the products to boosts the sales , and some people , especially adolescent may buy things from their favourite singer advertised",color=blue];
-	49 [label="in most asian countries , advertisement company usually hire popular singers or actors to advertise the products to boosts the sales , and some people , especially adolescent may buy things from their favourite singer advertised",color=blue];
-	101 [label="look more gorgeous and with good quality in advertisement , people are more likely to buy goods impulsively",color=green];
+	26 [label="that people will be swayed
+ by the advertising and buy
+ things they do not need
+ it for their life",color=green];
+	49 [label="in most
+ asian countries , advertisement company
+ usually hire popular singers or
+ actors to advertise the products
+ to boosts the sales ,
+ and some people , especially
+ adolescent may buy things from
+ their favourite singer advertised",color=blue];
+	49 [label="in most
+ asian countries , advertisement company
+ usually hire popular singers or
+ actors to advertise the products
+ to boosts the sales ,
+ and some people , especially
+ adolescent may buy things from
+ their favourite singer advertised",color=blue];
+	101 [label="look more gorgeous and with
+ good quality in advertisement ,
+ people are more likely to
+ buy goods impulsively",color=green];
 	126 [label="advertisement",color=blue];
-	132 [label="that it is what they want , even though it is not the real needs of the society",color=green];
+	132 [label="that it is what
+ they want , even though
+ it is not the real
+ needs of the society",color=green];
 	175 [label="need",color=blue];
 	176 [label="it",color=green];
-	184 [label="very personal things for individuals ,",color=green];
-	213 [label="it is unlikely to buy things impulsively for adults who have concern of arranging",color=blue];
+	184 [label="very personal
+ things for individuals ,",color=green];
+	213 [label="it is unlikely
+ to buy things impulsively for
+ adults who have concern of
+ arranging",color=blue];
 	190 [label="the",color=blue];
 	227 [label="disposable income",color=green];
-	191 [label="advertisement is not the only cause for people to buy ,",color=green];
-	213 [label="it is unlikely to buy things impulsively for adults who have concern of arranging",color=blue];
+	191 [label="advertisement is not the only
+ cause for people to buy
+ ,",color=green];
+	213 [label="it is unlikely
+ to buy things impulsively for
+ adults who have concern of
+ arranging",color=blue];
 	266 [label="whether they",color=blue];
-	268 [label="need it or not , since they do not have financial pressure from life and ability to define what is necessary",color=green];
+	268 [label="need it or
+ not , since they do
+ not have financial pressure from
+ life and ability to define
+ what is necessary",color=green];
 }

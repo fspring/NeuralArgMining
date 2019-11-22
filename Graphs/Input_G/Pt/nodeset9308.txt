@@ -1,5 +1,13 @@
 digraph G {
 	39 -> 81;
-	39 [label="o respeito próprio passa por não deixar as emoções reféns dos cigarros e , também , por realizar que deixar de fumar não é uma traição a si mesmo , nem à cultura de uma vida inteira",color=blue];
-	81 [label="pode ser sinónimo de liberdade e responsabilidade",color=green];
+	39 [label="o respeito próprio passa por não
+ deixar as emoções reféns dos
+ cigarros e , também ,
+ por realizar que deixar de
+ fumar não é uma traição
+ a si mesmo , nem
+ à cultura de uma vida
+ inteira",color=blue];
+	81 [label="pode ser sinónimo de
+ liberdade e responsabilidade",color=green];
 }

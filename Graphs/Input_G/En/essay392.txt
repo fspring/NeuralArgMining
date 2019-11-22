@@ -10,26 +10,116 @@ digraph G {
 	261 -> 232;
 	261 -> 305;
 	280 -> 305;
-	43 [label="both government and common people should have the responsibility for the environment",color=green];
-	97 [label="air pollution and water quality has concerned many countries , and the government is able to implement some policies and invest money to reduce air pollution , while companies also can enhance their technologies to curb emission of contaminated water and substances",color=blue];
-	69 [label="solving some environmental problems needs large budgets and various technologies , and the government and corporations have the ability to deal with these problems",color=green];
-	97 [label="air pollution and water quality has concerned many countries , and the government is able to implement some policies and invest money to reduce air pollution , while companies also can enhance their technologies to curb emission of contaminated water and substances",color=blue];
-	97 [label="air pollution and water quality has concerned many countries , and the government is able to implement some policies and invest money to reduce air pollution , while companies also can enhance their technologies to curb emission of contaminated water and substances",color=blue];
-	305 [label="the government and corporations should take more responsibility for addressing environmental issues , but every citizen also can contribute to the environment",color=green];
-	142 [label="individuals are unable to cope with these things",color=blue];
-	305 [label="the government and corporations should take more responsibility for addressing environmental issues , but every citizen also can contribute to the environment",color=green];
-	153 [label="the government and firms could have significant influences on environmental awareness of people",color=blue];
-	186 [label="we should convey corresponding policies and knowledge to the public and society",color=green];
-	167 [label="It is necessary for every citizen to have the awareness and knowledge of environment protection",color=blue];
-	186 [label="we should convey corresponding policies and knowledge to the public and society",color=green];
-	186 [label="we should convey corresponding policies and knowledge to the public and society",color=green];
-	200 [label="the government controls many influential media , such as TV stations and newspapers , which can provide plenty of environmental knowledge and related policies to citizens",color=blue];
-	200 [label="the government controls many influential media , such as TV stations and newspapers , which can provide plenty of environmental knowledge and related policies to citizens",color=blue];
-	305 [label="the government and corporations should take more responsibility for addressing environmental issues , but every citizen also can contribute to the environment",color=green];
-	232 [label="it is possible for ordinary people to participate in some actions of environment protection , and they also can benefit from the improvement of environment",color=green];
-	261 [label="many people driving private cars could cause air pollution , and overusing plastic packages would affect the environment",color=blue];
-	261 [label="many people driving private cars could cause air pollution , and overusing plastic packages would affect the environment",color=blue];
-	305 [label="the government and corporations should take more responsibility for addressing environmental issues , but every citizen also can contribute to the environment",color=green];
-	280 [label="If people can gradually change some lifestyles in these daily activities , this will have many significant impacts on environmental improvement",color=blue];
-	305 [label="the government and corporations should take more responsibility for addressing environmental issues , but every citizen also can contribute to the environment",color=green];
+	43 [label="both government
+ and common people should have
+ the responsibility for the environment
+",color=green];
+	97 [label="air pollution and
+ water quality has concerned many
+ countries , and the government
+ is able to implement some
+ policies and invest money to
+ reduce air pollution , while
+ companies also can enhance their
+ technologies to curb emission of
+ contaminated water and substances",color=blue];
+	69 [label="solving some environmental problems needs large
+ budgets and various technologies ,
+ and the government and corporations
+ have the ability to deal
+ with these problems",color=green];
+	97 [label="air pollution and
+ water quality has concerned many
+ countries , and the government
+ is able to implement some
+ policies and invest money to
+ reduce air pollution , while
+ companies also can enhance their
+ technologies to curb emission of
+ contaminated water and substances",color=blue];
+	97 [label="air pollution and
+ water quality has concerned many
+ countries , and the government
+ is able to implement some
+ policies and invest money to
+ reduce air pollution , while
+ companies also can enhance their
+ technologies to curb emission of
+ contaminated water and substances",color=blue];
+	305 [label="the government and corporations should
+ take more responsibility for addressing
+ environmental issues , but every
+ citizen also can contribute to
+ the environment",color=green];
+	142 [label="individuals are unable
+ to cope with these things
+",color=blue];
+	305 [label="the government and corporations should
+ take more responsibility for addressing
+ environmental issues , but every
+ citizen also can contribute to
+ the environment",color=green];
+	153 [label="the government
+ and firms could have significant
+ influences on environmental awareness of
+ people",color=blue];
+	186 [label="we should convey corresponding
+ policies and knowledge to the
+ public and society",color=green];
+	167 [label="It is necessary
+ for every citizen to have
+ the awareness and knowledge of
+ environment protection",color=blue];
+	186 [label="we should convey corresponding
+ policies and knowledge to the
+ public and society",color=green];
+	186 [label="we should convey corresponding
+ policies and knowledge to the
+ public and society",color=green];
+	200 [label="the government controls many influential
+ media , such as TV
+ stations and newspapers , which
+ can provide plenty of environmental
+ knowledge and related policies to
+ citizens",color=blue];
+	200 [label="the government controls many influential
+ media , such as TV
+ stations and newspapers , which
+ can provide plenty of environmental
+ knowledge and related policies to
+ citizens",color=blue];
+	305 [label="the government and corporations should
+ take more responsibility for addressing
+ environmental issues , but every
+ citizen also can contribute to
+ the environment",color=green];
+	232 [label="it is possible
+ for ordinary people to participate
+ in some actions of environment
+ protection , and they also
+ can benefit from the improvement
+ of environment",color=green];
+	261 [label="many people driving private
+ cars could cause air pollution
+ , and overusing plastic packages
+ would affect the environment",color=blue];
+	261 [label="many people driving private
+ cars could cause air pollution
+ , and overusing plastic packages
+ would affect the environment",color=blue];
+	305 [label="the government and corporations should
+ take more responsibility for addressing
+ environmental issues , but every
+ citizen also can contribute to
+ the environment",color=green];
+	280 [label="If people can gradually change
+ some lifestyles in these daily
+ activities , this will have
+ many significant impacts on environmental
+ improvement",color=blue];
+	305 [label="the government and corporations should
+ take more responsibility for addressing
+ environmental issues , but every
+ citizen also can contribute to
+ the environment",color=green];
 }

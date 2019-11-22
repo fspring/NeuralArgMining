@@ -15,36 +15,126 @@ digraph G {
 	296 -> 386;
 	364 -> 350;
 	364 -> 386;
-	40 [label="online classes should never replace classroom learning",color=green];
-	72 [label="In the classroom environment you can learn from your classmates",color=blue];
-	58 [label="classroom learning is the best way to provide education comparing to online classes",color=green];
-	72 [label="In the classroom environment you can learn from your classmates",color=blue];
-	72 [label="In the classroom environment you can learn from your classmates",color=blue];
-	386 [label="the classroom learning is the best way to provide education for these reasons",color=green];
-	84 [label="if you see any of your classmates who is performing better , it will force you for making your performance more better",color=blue];
-	386 [label="the classroom learning is the best way to provide education for these reasons",color=green];
-	110 [label="When I was in First Year in B Com , I was not serious in my study , but when I saw some of my friends who took better grades than me , it influenced me and I intended to do better in my subjects",color=blue];
-	386 [label="the classroom learning is the best way to provide education for these reasons",color=green];
-	157 [label="I got 1st rank in final exam",color=blue];
-	386 [label="the classroom learning is the best way to provide education for these reasons",color=green];
-	167 [label="in classroom learning you have to complete study work on time",color=blue];
-	179 [label="It makes you perfect in time management skills",color=green];
-	179 [label="It makes you perfect in time management skills",color=green];
-	189 [label="you can learn by participating in group studies how to communicate with others",color=blue];
-	189 [label="you can learn by participating in group studies how to communicate with others",color=blue];
-	386 [label="the classroom learning is the best way to provide education for these reasons",color=green];
-	203 [label="It makes you communication and of course your group skills better , which can help you in your future and career",color=blue];
-	386 [label="the classroom learning is the best way to provide education for these reasons",color=green];
-	227 [label="professors play vital role in classroom learning , most of them are specialists is their subjects , and they help you by giving valuable information and useful skills",color=blue];
-	283 [label="you learn quickly",color=green];
-	256 [label="You can improve your skills by work under any professor ; you can ask questions face to face , it will clear your doubts",color=blue];
-	283 [label="you learn quickly",color=green];
-	283 [label="you learn quickly",color=green];
-	296 [label="For Toefl IBT Coaching first I was depend on some online courses , but after 1 month I realized that I was wasting my time so I joined an institute for preparation of Toefl IBT , and in 1 month I felt that my English skills have been improving faster",color=blue];
-	296 [label="For Toefl IBT Coaching first I was depend on some online courses , but after 1 month I realized that I was wasting my time so I joined an institute for preparation of Toefl IBT , and in 1 month I felt that my English skills have been improving faster",color=blue];
-	386 [label="the classroom learning is the best way to provide education for these reasons",color=green];
-	350 [label="online classes have some advantages so they could be used as supplementary",color=green];
-	364 [label="they could not be substitute of existing classroom learning",color=blue];
-	364 [label="they could not be substitute of existing classroom learning",color=blue];
-	386 [label="the classroom learning is the best way to provide education for these reasons",color=green];
+	40 [label="online classes should never replace
+ classroom learning",color=green];
+	72 [label="In the classroom
+ environment you can learn from
+ your classmates",color=blue];
+	58 [label="classroom learning
+ is the best way to
+ provide education comparing to online
+ classes",color=green];
+	72 [label="In the classroom
+ environment you can learn from
+ your classmates",color=blue];
+	72 [label="In the classroom
+ environment you can learn from
+ your classmates",color=blue];
+	386 [label="the classroom learning is
+ the best way to provide
+ education for these reasons",color=green];
+	84 [label="if you see any of your
+ classmates who is performing better
+ , it will force you
+ for making your performance more
+ better",color=blue];
+	386 [label="the classroom learning is
+ the best way to provide
+ education for these reasons",color=green];
+	110 [label="When I was in First
+ Year in B Com ,
+ I was not serious in
+ my study , but when
+ I saw some of my
+ friends who took better grades
+ than me , it influenced
+ me and I intended to
+ do better in my subjects
+",color=blue];
+	386 [label="the classroom learning is
+ the best way to provide
+ education for these reasons",color=green];
+	157 [label="I got 1st
+ rank in final exam",color=blue];
+	386 [label="the classroom learning is
+ the best way to provide
+ education for these reasons",color=green];
+	167 [label="in classroom learning
+ you have to complete study
+ work on time",color=blue];
+	179 [label="It makes you perfect in time
+ management skills",color=green];
+	179 [label="It makes you perfect in time
+ management skills",color=green];
+	189 [label="you can learn by participating in
+ group studies how to communicate
+ with others",color=blue];
+	189 [label="you can learn by participating in
+ group studies how to communicate
+ with others",color=blue];
+	386 [label="the classroom learning is
+ the best way to provide
+ education for these reasons",color=green];
+	203 [label="It makes
+ you communication and of course
+ your group skills better ,
+ which can help you in
+ your future and career",color=blue];
+	386 [label="the classroom learning is
+ the best way to provide
+ education for these reasons",color=green];
+	227 [label="professors play vital
+ role in classroom learning ,
+ most of them are specialists
+ is their subjects , and
+ they help you by giving
+ valuable information and useful skills
+",color=blue];
+	283 [label="you learn
+ quickly",color=green];
+	256 [label="You can improve your
+ skills by work under any
+ professor ; you can ask
+ questions face to face ,
+ it will clear your doubts
+",color=blue];
+	283 [label="you learn
+ quickly",color=green];
+	283 [label="you learn
+ quickly",color=green];
+	296 [label="For Toefl IBT Coaching
+ first I was depend on
+ some online courses , but
+ after 1 month I realized
+ that I was wasting my
+ time so I joined an
+ institute for preparation of Toefl
+ IBT , and in 1
+ month I felt that my
+ English skills have been improving
+ faster",color=blue];
+	296 [label="For Toefl IBT Coaching
+ first I was depend on
+ some online courses , but
+ after 1 month I realized
+ that I was wasting my
+ time so I joined an
+ institute for preparation of Toefl
+ IBT , and in 1
+ month I felt that my
+ English skills have been improving
+ faster",color=blue];
+	386 [label="the classroom learning is
+ the best way to provide
+ education for these reasons",color=green];
+	350 [label="online classes have some advantages
+ so they could be used
+ as supplementary",color=green];
+	364 [label="they could not be substitute of
+ existing classroom learning",color=blue];
+	364 [label="they could not be substitute of
+ existing classroom learning",color=blue];
+	386 [label="the classroom learning is
+ the best way to provide
+ education for these reasons",color=green];
 }

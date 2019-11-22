@@ -1,8 +1,29 @@
 digraph G {
 	99 -> 85;
 	267 -> 321;
-	85 [label="among a large number of people there could be someone who practices a particular",color=green];
-	99 [label="sport , or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before",color=blue];
-	267 [label="when you have just few close friends , on one hand you develop a more intimate relationship with them and you feel you can trust them more , but on the other hand they often will give you viewpoints not so different from yours , adding less to your experience",color=blue];
-	321 [label="although each choice - few close friends or a large number of friends - presents its advantages and its",color=green];
+	85 [label="among a large number of people
+ there could be someone who
+ practices a particular",color=green];
+	99 [label="sport ,
+ or plays an instrument or
+ likes traveling very much and
+ from their experiences you can
+ be attracted to try something
+ new that you had never
+ considered before",color=blue];
+	267 [label="when you have just
+ few close friends , on
+ one hand you develop a
+ more intimate relationship with them
+ and you feel you can
+ trust them more , but
+ on the other hand they
+ often will give you viewpoints
+ not so different from yours
+ , adding less to your
+ experience",color=blue];
+	321 [label="although each choice - few
+ close friends or a large
+ number of friends - presents
+ its advantages and its",color=green];
 }

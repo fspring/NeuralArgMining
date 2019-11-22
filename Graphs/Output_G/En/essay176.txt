@@ -7,20 +7,64 @@ digraph G {
 	200 -> 263;
 	259 -> 263;
 	287 -> 288;
-	41 [label="easy to know the history of the new place",color=green];
-	54 [label="i went to ellis island and the immigration museum , where is a symbol of american immigration and the immigrant experience in the new york",color=blue];
+	41 [label="easy to know the history
+ of the new place",color=green];
+	54 [label="i went
+ to ellis island and the
+ immigration museum , where is
+ a symbol of american immigration
+ and the immigrant experience in
+ the new york",color=blue];
 	119 [label="history",color=green];
-	140 [label="those outstanding and diverse range of objects ,with classic and magnificent art , is guaranteed to inspire us ! in my city , national palace museum is celebrated for collection of ancient chinese artifacts",color=blue];
+	140 [label="those outstanding and diverse range of
+ objects ,with classic and magnificent
+ art , is guaranteed to
+ inspire us ! in my
+ city , national palace museum
+ is celebrated for collection of
+ ancient chinese artifacts",color=blue];
 	121 [label="the",color=green];
-	140 [label="those outstanding and diverse range of objects ,with classic and magnificent art , is guaranteed to inspire us ! in my city , national palace museum is celebrated for collection of ancient chinese artifacts",color=blue];
-	123 [label="of a new",color=green];
-	140 [label="those outstanding and diverse range of objects ,with classic and magnificent art , is guaranteed to inspire us ! in my city , national palace museum is celebrated for collection of ancient chinese artifacts",color=blue];
-	178 [label=", jadeite cabbage is the most famous artistic work , which is made of jade , is vividly shown",color=blue];
-	288 [label="we have a chance to visit top museums in the world",color=green];
-	200 [label="a local museum could be a top choice and destination for tourist to visit",color=blue];
-	263 [label="its own typical culture so that visitors may easily acquaint with the new place in a short time",color=green];
-	259 [label="a local museum represent",color=blue];
-	263 [label="its own typical culture so that visitors may easily acquaint with the new place in a short time",color=green];
+	140 [label="those outstanding and diverse range of
+ objects ,with classic and magnificent
+ art , is guaranteed to
+ inspire us ! in my
+ city , national palace museum
+ is celebrated for collection of
+ ancient chinese artifacts",color=blue];
+	123 [label="of a new
+",color=green];
+	140 [label="those outstanding and diverse range of
+ objects ,with classic and magnificent
+ art , is guaranteed to
+ inspire us ! in my
+ city , national palace museum
+ is celebrated for collection of
+ ancient chinese artifacts",color=blue];
+	178 [label=", jadeite cabbage
+ is the most famous artistic
+ work , which is made
+ of jade , is vividly
+ shown",color=blue];
+	288 [label="we have a
+ chance to visit top museums
+ in the world",color=green];
+	200 [label="a local museum could be a
+ top choice and destination for
+ tourist to visit",color=blue];
+	263 [label="its own typical
+ culture so that visitors may
+ easily acquaint with the new
+ place in a short time
+",color=green];
+	259 [label="a local
+ museum represent",color=blue];
+	263 [label="its own typical
+ culture so that visitors may
+ easily acquaint with the new
+ place in a short time
+",color=green];
 	287 [label="if",color=blue];
-	288 [label="we have a chance to visit top museums in the world",color=green];
+	288 [label="we have a
+ chance to visit top museums
+ in the world",color=green];
 }

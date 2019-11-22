@@ -12,30 +12,106 @@ digraph G {
 	294 -> 380;
 	320 -> 380;
 	346 -> 380;
-	51 [label="the convenience it brings is more",color=green];
-	96 [label="With a private car , you can reach the destination in another city just sitting in the vehicle",color=blue];
-	72 [label="when it comes to the field of transportation , there is no doubt that the technology in automobile has made people's life simpler",color=green];
-	96 [label="With a private car , you can reach the destination in another city just sitting in the vehicle",color=blue];
-	96 [label="With a private car , you can reach the destination in another city just sitting in the vehicle",color=blue];
-	380 [label="the convenience it brings in people's are significant",color=green];
-	117 [label="if you would like to have a trip across the ocean , a plane can carry you there in only a few hours , which is hard to imagine in the ancient times",color=blue];
-	380 [label="the convenience it brings in people's are significant",color=green];
-	153 [label="technology also makes teaching simpler",color=green];
-	159 [label="In the past , teachers have to write what they want to convey to students on the chalkboard , resulting in a great waste of time and the fatigue of teachers",color=blue];
-	159 [label="In the past , teachers have to write what they want to convey to students on the chalkboard , resulting in a great waste of time and the fatigue of teachers",color=blue];
-	380 [label="the convenience it brings in people's are significant",color=green];
-	191 [label="With the advent of iPads in e-learning , paper books become unnecessary , so does the blackboards",color=blue];
-	380 [label="the convenience it brings in people's are significant",color=green];
-	212 [label="all the knowledge and information are stored in the iPads , with a single click , and they would appear right before your eyes at once",color=blue];
-	380 [label="the convenience it brings in people's are significant",color=green];
-	245 [label="technology may make people's life more complicated",color=green];
-	256 [label="the cell phone , which used to be simply a tool to deliver messages to your contacts in a distance , now are playing a role more than just a phone in social communications",color=blue];
-	256 [label="the cell phone , which used to be simply a tool to deliver messages to your contacts in a distance , now are playing a role more than just a phone in social communications",color=blue];
-	380 [label="the convenience it brings in people's are significant",color=green];
-	294 [label="folks have to check their Facebooks , Twitters , and Forums accounts every minute , which add too much pressure to them",color=blue];
-	380 [label="the convenience it brings in people's are significant",color=green];
-	320 [label="games on their phone exert a tremendous fascination on teenagers , leading to a large problem that they got addicted to their phones",color=blue];
-	380 [label="the convenience it brings in people's are significant",color=green];
-	346 [label="making their life more complicated and tired",color=blue];
-	380 [label="the convenience it brings in people's are significant",color=green];
+	51 [label="the convenience it brings
+ is more",color=green];
+	96 [label="With a private car
+ , you can reach the
+ destination in another city just
+ sitting in the vehicle",color=blue];
+	72 [label="when it comes
+ to the field of transportation
+ , there is no doubt
+ that the technology in automobile
+ has made people's life simpler
+",color=green];
+	96 [label="With a private car
+ , you can reach the
+ destination in another city just
+ sitting in the vehicle",color=blue];
+	96 [label="With a private car
+ , you can reach the
+ destination in another city just
+ sitting in the vehicle",color=blue];
+	380 [label="the convenience it brings in
+ people's are significant",color=green];
+	117 [label="if you would
+ like to have a trip
+ across the ocean , a
+ plane can carry you there
+ in only a few hours
+ , which is hard to
+ imagine in the ancient times
+",color=blue];
+	380 [label="the convenience it brings in
+ people's are significant",color=green];
+	153 [label="technology also
+ makes teaching simpler",color=green];
+	159 [label="In the past , teachers have
+ to write what they want
+ to convey to students on
+ the chalkboard , resulting in
+ a great waste of time
+ and the fatigue of teachers
+",color=blue];
+	159 [label="In the past , teachers have
+ to write what they want
+ to convey to students on
+ the chalkboard , resulting in
+ a great waste of time
+ and the fatigue of teachers
+",color=blue];
+	380 [label="the convenience it brings in
+ people's are significant",color=green];
+	191 [label="With the advent of
+ iPads in e-learning , paper
+ books become unnecessary , so
+ does the blackboards",color=blue];
+	380 [label="the convenience it brings in
+ people's are significant",color=green];
+	212 [label="all the knowledge
+ and information are stored in
+ the iPads , with a
+ single click , and they
+ would appear right before your
+ eyes at once",color=blue];
+	380 [label="the convenience it brings in
+ people's are significant",color=green];
+	245 [label="technology may make people's life
+ more complicated",color=green];
+	256 [label="the cell phone ,
+ which used to be simply
+ a tool to deliver messages
+ to your contacts in a
+ distance , now are playing
+ a role more than just
+ a phone in social communications
+",color=blue];
+	256 [label="the cell phone ,
+ which used to be simply
+ a tool to deliver messages
+ to your contacts in a
+ distance , now are playing
+ a role more than just
+ a phone in social communications
+",color=blue];
+	380 [label="the convenience it brings in
+ people's are significant",color=green];
+	294 [label="folks have to check their Facebooks
+ , Twitters , and Forums
+ accounts every minute , which
+ add too much pressure to
+ them",color=blue];
+	380 [label="the convenience it brings in
+ people's are significant",color=green];
+	320 [label="games on their phone exert
+ a tremendous fascination on teenagers
+ , leading to a large
+ problem that they got addicted
+ to their phones",color=blue];
+	380 [label="the convenience it brings in
+ people's are significant",color=green];
+	346 [label="making their life more
+ complicated and tired",color=blue];
+	380 [label="the convenience it brings in
+ people's are significant",color=green];
 }

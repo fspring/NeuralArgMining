@@ -1,5 +1,12 @@
 digraph G {
 	76 -> 46;
-	46 [label="honest expression and fluency in communicating",color=green];
-	76 [label=", if you are in vietnam and another person is in the us - half of the earth , no matter how far it is , you can keep contact",color=blue];
+	46 [label="honest expression and fluency in
+ communicating",color=green];
+	76 [label=", if you are in
+ vietnam and another person is
+ in the us - half
+ of the earth , no
+ matter how far it is
+ , you can keep contact
+",color=blue];
 }

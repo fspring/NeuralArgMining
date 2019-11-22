@@ -6,18 +6,77 @@ digraph G {
 	234 -> 336;
 	280 -> 336;
 	294 -> 336;
-	79 [label="computers through internet made our access to information easier",color=green];
-	89 [label="through computers we can collect appropriate data very quickly , store it in the hard disc as long as we want and use it when needed",color=blue];
-	142 [label="social networks such as facebook , twitter have changed traditional sources of information and decreasing the monopolization of the information by the governments",color=blue];
-	336 [label="computers have made life easier and more convenient in the ways that it broadened the sources of information and made access more quick",color=green];
-	168 [label="with the use of computers we spend less time in search for information , and can get it from different sources",color=blue];
-	336 [label="computers have made life easier and more convenient in the ways that it broadened the sources of information and made access more quick",color=green];
-	208 [label="with the use of email our messages can be delivered to any person in any part of the world in few minutes",color=blue];
-	336 [label="computers have made life easier and more convenient in the ways that it broadened the sources of information and made access more quick",color=green];
-	234 [label="it is convenient because you do not need to mile to the post office , but just click the mouse of your computer from the convenience of your arm chair in order to reach your friends , family members in any part of the world",color=blue];
-	336 [label="computers have made life easier and more convenient in the ways that it broadened the sources of information and made access more quick",color=green];
-	280 [label="internet facilities such as msn , skype made visual communication possible",color=blue];
-	336 [label="computers have made life easier and more convenient in the ways that it broadened the sources of information and made access more quick",color=green];
-	294 [label=", via skype people not just communicate with their family members and friends , but also make interviews for employment , enrolment into universities",color=blue];
-	336 [label="computers have made life easier and more convenient in the ways that it broadened the sources of information and made access more quick",color=green];
+	79 [label="computers through
+ internet made our access to
+ information easier",color=green];
+	89 [label="through computers
+ we can collect appropriate data
+ very quickly , store it
+ in the hard disc as
+ long as we want and
+ use it when needed",color=blue];
+	142 [label="social networks such as
+ facebook , twitter have changed
+ traditional sources of information and
+ decreasing the monopolization of the
+ information by the governments",color=blue];
+	336 [label="computers have made life easier
+ and more convenient in the
+ ways that it broadened the
+ sources of information and made
+ access more quick",color=green];
+	168 [label="with the use
+ of computers we spend less
+ time in search for information
+ , and can get it
+ from different sources",color=blue];
+	336 [label="computers have made life easier
+ and more convenient in the
+ ways that it broadened the
+ sources of information and made
+ access more quick",color=green];
+	208 [label="with the use
+ of email our messages can
+ be delivered to any person
+ in any part of the
+ world in few minutes",color=blue];
+	336 [label="computers have made life easier
+ and more convenient in the
+ ways that it broadened the
+ sources of information and made
+ access more quick",color=green];
+	234 [label="it is
+ convenient because you do not
+ need to mile to the
+ post office , but just
+ click the mouse of your
+ computer from the convenience of
+ your arm chair in order
+ to reach your friends ,
+ family members in any part
+ of the world",color=blue];
+	336 [label="computers have made life easier
+ and more convenient in the
+ ways that it broadened the
+ sources of information and made
+ access more quick",color=green];
+	280 [label="internet facilities such as msn ,
+ skype made visual communication possible
+",color=blue];
+	336 [label="computers have made life easier
+ and more convenient in the
+ ways that it broadened the
+ sources of information and made
+ access more quick",color=green];
+	294 [label=", via
+ skype people not just communicate
+ with their family members and
+ friends , but also make
+ interviews for employment , enrolment
+ into universities",color=blue];
+	336 [label="computers have made life easier
+ and more convenient in the
+ ways that it broadened the
+ sources of information and made
+ access more quick",color=green];
 }

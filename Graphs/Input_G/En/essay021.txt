@@ -15,36 +15,117 @@ digraph G {
 	235 -> 285;
 	258 -> 285;
 	272 -> 285;
-	13 [label="The most effective way to convince consumers to purchase a product is through advertising",color=green];
-	30 [label="it is not sufficient in itself",color=blue];
-	30 [label="it is not sufficient in itself",color=blue];
-	52 [label="advertising is the major reason for high sales of a product",color=green];
-	37 [label="The product also should satisfy the needs of the consumers",color=blue];
-	52 [label="advertising is the major reason for high sales of a product",color=green];
-	52 [label="advertising is the major reason for high sales of a product",color=green];
-	67 [label="We are mainly introduced to products through advertisements",color=blue];
-	67 [label="We are mainly introduced to products through advertisements",color=blue];
-	78 [label="advertisers push the limits of creativity to dispose the consumers to purchase the product",color=green];
-	78 [label="advertisers push the limits of creativity to dispose the consumers to purchase the product",color=green];
-	93 [label="When the consumers are impressed by the way a product is advertised , they can be convinced to consider that the product is a need in some cases",color=blue];
-	93 [label="When the consumers are impressed by the way a product is advertised , they can be convinced to consider that the product is a need in some cases",color=blue];
-	308 [label="high sales are obviously a reflection of the powerful advertisements",color=green];
-	122 [label="Recently , there is a very creative advertisements of a soft drink product on TV",color=blue];
-	308 [label="high sales are obviously a reflection of the powerful advertisements",color=green];
-	138 [label="The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot",color=blue];
-	308 [label="high sales are obviously a reflection of the powerful advertisements",color=green];
-	167 [label="the number of that product being sold will increases",color=blue];
-	308 [label="high sales are obviously a reflection of the powerful advertisements",color=green];
-	179 [label="the more an advertisement of a product takes place in mass media , the more popular the product becomes",color=blue];
-	199 [label="Advertisement is the most effective way to create a well-known product",color=green];
-	199 [label="Advertisement is the most effective way to create a well-known product",color=green];
-	211 [label="Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product",color=blue];
-	211 [label="Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product",color=blue];
-	308 [label="high sales are obviously a reflection of the powerful advertisements",color=green];
-	235 [label="When a product is commonly used , it becomes trustworthy for the society , no matter what quality it is",color=blue];
-	285 [label="They make the product preferable",color=green];
-	258 [label="it also has to be affordable for the consumer",color=blue];
-	285 [label="They make the product preferable",color=green];
-	272 [label="advertisements have undeniable affects on the society about the product being advertised",color=blue];
-	285 [label="They make the product preferable",color=green];
+	13 [label="The most
+ effective way to convince consumers
+ to purchase a product is
+ through advertising",color=green];
+	30 [label="it is not sufficient in
+ itself",color=blue];
+	30 [label="it is not sufficient in
+ itself",color=blue];
+	52 [label="advertising is the
+ major reason for high sales
+ of a product",color=green];
+	37 [label="The product also
+ should satisfy the needs of
+ the consumers",color=blue];
+	52 [label="advertising is the
+ major reason for high sales
+ of a product",color=green];
+	52 [label="advertising is the
+ major reason for high sales
+ of a product",color=green];
+	67 [label="We are mainly
+ introduced to products through advertisements
+",color=blue];
+	67 [label="We are mainly
+ introduced to products through advertisements
+",color=blue];
+	78 [label="advertisers push
+ the limits of creativity to
+ dispose the consumers to purchase
+ the product",color=green];
+	78 [label="advertisers push
+ the limits of creativity to
+ dispose the consumers to purchase
+ the product",color=green];
+	93 [label="When the
+ consumers are impressed by the
+ way a product is advertised
+ , they can be convinced
+ to consider that the product
+ is a need in some
+ cases",color=blue];
+	93 [label="When the
+ consumers are impressed by the
+ way a product is advertised
+ , they can be convinced
+ to consider that the product
+ is a need in some
+ cases",color=blue];
+	308 [label="high sales
+ are obviously a reflection of
+ the powerful advertisements",color=green];
+	122 [label="Recently , there
+ is a very creative advertisements
+ of a soft drink product
+ on TV",color=blue];
+	308 [label="high sales
+ are obviously a reflection of
+ the powerful advertisements",color=green];
+	138 [label="The story
+ delivers a desired call to
+ drink that soft drink that
+ people tend to drink when
+ the weather is too hot
+",color=blue];
+	308 [label="high sales
+ are obviously a reflection of
+ the powerful advertisements",color=green];
+	167 [label="the number of
+ that product being sold will
+ increases",color=blue];
+	308 [label="high sales
+ are obviously a reflection of
+ the powerful advertisements",color=green];
+	179 [label="the more an advertisement of a
+ product takes place in mass
+ media , the more popular
+ the product becomes",color=blue];
+	199 [label="Advertisement is the most effective way
+ to create a well-known product
+",color=green];
+	199 [label="Advertisement is the most effective way
+ to create a well-known product
+",color=green];
+	211 [label="Consumers tend to purchase
+ the most known product when
+ it comes to picking one
+ out of two different brands
+ of the same product",color=blue];
+	211 [label="Consumers tend to purchase
+ the most known product when
+ it comes to picking one
+ out of two different brands
+ of the same product",color=blue];
+	308 [label="high sales
+ are obviously a reflection of
+ the powerful advertisements",color=green];
+	235 [label="When a product is commonly
+ used , it becomes trustworthy
+ for the society , no
+ matter what quality it is
+",color=blue];
+	285 [label="They make the product preferable
+",color=green];
+	258 [label="it also
+ has to be affordable for
+ the consumer",color=blue];
+	285 [label="They make the product preferable
+",color=green];
+	272 [label="advertisements have undeniable
+ affects on the society about
+ the product being advertised",color=blue];
+	285 [label="They make the product preferable
+",color=green];
 }

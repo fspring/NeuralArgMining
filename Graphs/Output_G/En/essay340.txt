@@ -1,8 +1,24 @@
 digraph G {
 	181 -> 166;
 	181 -> 254;
-	166 [label="technology provides opportunities for people to establish the social network",color=green];
-	181 [label="people might have had pen friends in other countries , but now , thanks to the social networking websites , people can easily to find someone who has similar interests",color=blue];
-	181 [label="people might have had pen friends in other countries , but now , thanks to the social networking websites , people can easily to find someone who has similar interests",color=blue];
-	254 [label="the technology has more optimal effects on people's interaction",color=green];
+	166 [label="technology provides opportunities for people
+ to establish the social network
+",color=green];
+	181 [label="people might have had pen
+ friends in other countries ,
+ but now , thanks to
+ the social networking websites ,
+ people can easily to find
+ someone who has similar interests
+",color=blue];
+	181 [label="people might have had pen
+ friends in other countries ,
+ but now , thanks to
+ the social networking websites ,
+ people can easily to find
+ someone who has similar interests
+",color=blue];
+	254 [label="the technology
+ has more optimal effects on
+ people's interaction",color=green];
 }

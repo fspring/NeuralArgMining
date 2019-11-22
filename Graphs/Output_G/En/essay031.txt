@@ -7,20 +7,59 @@ digraph G {
 	247 -> 395;
 	249 -> 406;
 	270 -> 406;
-	50 [label="alternative means of transportation and international laws in controlling automobiles should be introduced",color=green];
-	81 [label="an increase in the number of automobiles brings about environmental pollution",color=blue];
+	50 [label="alternative means of transportation and international
+ laws in controlling automobiles should
+ be introduced",color=green];
+	81 [label="an increase in the number
+ of automobiles brings about environmental
+ pollution",color=blue];
 	71 [label="be described",color=green];
-	81 [label="an increase in the number of automobiles brings about environmental pollution",color=blue];
-	74 [label="in the",color=green];
-	81 [label="an increase in the number of automobiles brings about environmental pollution",color=blue];
-	93 [label="since automobile exhaust and carbon dioxides emission have bad impacts on the air , the air gets to be polluted and it causes respiratory disease of the local inhabitants",color=blue];
-	125 [label="it is crucial to alter automobiles to the other means of transportation and to legislate to control automobiles",color=green];
-	158 [label="once we get into the traffic jam , it forces us to waste our time for a while",color=blue];
-	201 [label="the methods to reduce the number of automobiles and to control car ownership and use should be immediately planned and implemented",color=green];
+	81 [label="an increase in the number
+ of automobiles brings about environmental
+ pollution",color=blue];
+	74 [label="in the
+",color=green];
+	81 [label="an increase in the number
+ of automobiles brings about environmental
+ pollution",color=blue];
+	93 [label="since automobile exhaust
+ and carbon dioxides emission have
+ bad impacts on the air
+ , the air gets to
+ be polluted and it causes
+ respiratory disease of the local
+ inhabitants",color=blue];
+	125 [label="it is crucial to alter automobiles
+ to the other means of
+ transportation and to legislate to
+ control automobiles",color=green];
+	158 [label="once we get
+ into the traffic jam ,
+ it forces us to waste
+ our time for a while
+",color=blue];
+	201 [label="the methods to reduce the
+ number of automobiles and to
+ control car ownership and use
+ should be immediately planned and
+ implemented",color=green];
 	247 [label="with",color=blue];
 	395 [label="people",color=green];
-	249 [label="to the former , alternative forms which emit less carbon dioxides and gasses than automobiles are ideal",color=blue];
-	406 [label="alternative forms of transport and international laws on controlling automobiles are necessary due to the environmental protection and the alleviation of traffic congestion",color=green];
-	270 [label="rental bicycle system has been introduced in several european countries",color=blue];
-	406 [label="alternative forms of transport and international laws on controlling automobiles are necessary due to the environmental protection and the alleviation of traffic congestion",color=green];
+	249 [label="to the
+ former , alternative forms which
+ emit less carbon dioxides and
+ gasses than automobiles are ideal
+",color=blue];
+	406 [label="alternative forms of transport and
+ international laws on controlling automobiles
+ are necessary due to the
+ environmental protection and the alleviation
+ of traffic congestion",color=green];
+	270 [label="rental bicycle system has been introduced
+ in several european countries",color=blue];
+	406 [label="alternative forms of transport and
+ international laws on controlling automobiles
+ are necessary due to the
+ environmental protection and the alleviation
+ of traffic congestion",color=green];
 }

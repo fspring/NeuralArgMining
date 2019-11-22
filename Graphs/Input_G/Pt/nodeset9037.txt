@@ -1,5 +1,13 @@
 digraph G {
 	23 -> 0;
-	0 [label="A Presidência de Cavaco não foi fácil , nenhuma é",color=green];
-	23 [label="uma primeira fase , com o então primeiro-ministro José Sócrates a dominar – dominar , sim – tudo e todos , enquanto gastava dinheiro que Portugal não tinha",color=blue];
+	0 [label="A Presidência de Cavaco não
+ foi fácil , nenhuma é
+",color=green];
+	23 [label="uma primeira
+ fase , com o então
+ primeiro-ministro José Sócrates a dominar
+ – dominar , sim –
+ tudo e todos , enquanto
+ gastava dinheiro que Portugal não
+ tinha",color=blue];
 }

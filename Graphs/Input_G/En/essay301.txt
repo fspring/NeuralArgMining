@@ -13,32 +13,93 @@ digraph G {
 	280 -> 326;
 	303 -> 326;
 	311 -> 326;
-	90 [label="a person should keep trying for his goals",color=green];
-	113 [label="I realized the true potential of my body and mind as I decided to train myself hard",color=blue];
-	101 [label="committing to our goal helps creating personal worth",color=green];
-	113 [label="I realized the true potential of my body and mind as I decided to train myself hard",color=blue];
-	113 [label="I realized the true potential of my body and mind as I decided to train myself hard",color=blue];
-	326 [label="one should not give up",color=green];
-	131 [label="Even if I were not to win this medal , I acknowledged the great amount of my endeavor as I could keep my tired legs running",color=blue];
-	326 [label="one should not give up",color=green];
-	160 [label="one who learns the great difficulty will become stronger",color=green];
-	170 [label="I remembered how I was suffered in the first round when I was last person who touched the line",color=blue];
-	170 [label="I remembered how I was suffered in the first round when I was last person who touched the line",color=blue];
-	326 [label="one should not give up",color=green];
-	192 [label="I did not give up , and believed that I would be better in the next round",color=blue];
-	326 [label="one should not give up",color=green];
-	210 [label="I knew how to improve myself",color=blue];
-	326 [label="one should not give up",color=green];
-	217 [label="I had been a loser for a thousand time before the first winning , and suffering from losing in each competition makes me stronger",color=blue];
-	326 [label="one should not give up",color=green];
-	248 [label="we , as an average people , might feel that the responsibility to our goal is too heavy to carry on",color=blue];
-	273 [label="the responsibility is worthy of carrying",color=green];
-	273 [label="the responsibility is worthy of carrying",color=green];
-	280 [label="When the distance is longer and harder to achieve , a runner who can go beyond his limit will proud of himself",color=blue];
-	280 [label="When the distance is longer and harder to achieve , a runner who can go beyond his limit will proud of himself",color=blue];
-	326 [label="one should not give up",color=green];
-	303 [label="He can feel the sweetness of triumph",color=blue];
-	326 [label="one should not give up",color=green];
-	311 [label="he did not stop pursing his goal",color=blue];
-	326 [label="one should not give up",color=green];
+	90 [label="a person should keep trying
+ for his goals",color=green];
+	113 [label="I realized
+ the true potential of my
+ body and mind as I
+ decided to train myself hard
+",color=blue];
+	101 [label="committing to our goal
+ helps creating personal worth",color=green];
+	113 [label="I realized
+ the true potential of my
+ body and mind as I
+ decided to train myself hard
+",color=blue];
+	113 [label="I realized
+ the true potential of my
+ body and mind as I
+ decided to train myself hard
+",color=blue];
+	326 [label="one should not give
+ up",color=green];
+	131 [label="Even if I were
+ not to win this medal
+ , I acknowledged the great
+ amount of my endeavor as
+ I could keep my tired
+ legs running",color=blue];
+	326 [label="one should not give
+ up",color=green];
+	160 [label="one who learns the great
+ difficulty will become stronger",color=green];
+	170 [label="I remembered how I was
+ suffered in the first round
+ when I was last person
+ who touched the line",color=blue];
+	170 [label="I remembered how I was
+ suffered in the first round
+ when I was last person
+ who touched the line",color=blue];
+	326 [label="one should not give
+ up",color=green];
+	192 [label="I did not
+ give up , and believed
+ that I would be better
+ in the next round",color=blue];
+	326 [label="one should not give
+ up",color=green];
+	210 [label="I knew how to improve
+ myself",color=blue];
+	326 [label="one should not give
+ up",color=green];
+	217 [label="I had been
+ a loser for a thousand
+ time before the first winning
+ , and suffering from losing
+ in each competition makes me
+ stronger",color=blue];
+	326 [label="one should not give
+ up",color=green];
+	248 [label="we ,
+ as an average people ,
+ might feel that the responsibility
+ to our goal is too
+ heavy to carry on",color=blue];
+	273 [label="the responsibility
+ is worthy of carrying",color=green];
+	273 [label="the responsibility
+ is worthy of carrying",color=green];
+	280 [label="When the distance is longer
+ and harder to achieve ,
+ a runner who can go
+ beyond his limit will proud
+ of himself",color=blue];
+	280 [label="When the distance is longer
+ and harder to achieve ,
+ a runner who can go
+ beyond his limit will proud
+ of himself",color=blue];
+	326 [label="one should not give
+ up",color=green];
+	303 [label="He can
+ feel the sweetness of triumph
+",color=blue];
+	326 [label="one should not give
+ up",color=green];
+	311 [label="he did not stop
+ pursing his goal",color=blue];
+	326 [label="one should not give
+ up",color=green];
 }

@@ -3,12 +3,32 @@ digraph G {
 	111 -> 75;
 	111 -> 84;
 	236 -> 281;
-	68 [label="the fact that",color=green];
-	111 [label="for those who have already afforded a car , there is a likelihood it is restraint from usage on long journeys or to crowded cities",color=blue];
+	68 [label="the fact that
+",color=green];
+	111 [label="for those who have already
+ afforded a car , there
+ is a likelihood it is
+ restraint from usage on long
+ journeys or to crowded cities
+",color=blue];
 	75 [label="taxation are raised",color=green];
-	111 [label="for those who have already afforded a car , there is a likelihood it is restraint from usage on long journeys or to crowded cities",color=blue];
+	111 [label="for those who have already
+ afforded a car , there
+ is a likelihood it is
+ restraint from usage on long
+ journeys or to crowded cities
+",color=blue];
 	84 [label="personal",color=green];
-	111 [label="for those who have already afforded a car , there is a likelihood it is restraint from usage on long journeys or to crowded cities",color=blue];
-	236 [label=", other nations will have to pay more as well as release beneficial policies for them",color=blue];
-	281 [label="cost has its own pros",color=green];
+	111 [label="for those who have already
+ afforded a car , there
+ is a likelihood it is
+ restraint from usage on long
+ journeys or to crowded cities
+",color=blue];
+	236 [label=", other nations will have
+ to pay more as well
+ as release beneficial policies for
+ them",color=blue];
+	281 [label="cost has its own pros
+",color=green];
 }

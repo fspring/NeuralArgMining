@@ -1,5 +1,13 @@
 digraph G {
 	22 -> 56;
-	22 [label="tantos e tão permanentes ataques , à esquerda , por razões ideológicas , e tantas e tão azedas criticas , à direita , por razões sociais",color=blue];
-	56 [label="Cavaco foi afinal mais independente do que se diz , dentro daquele pesado palácio",color=green];
+	22 [label="tantos e tão
+ permanentes ataques , à esquerda
+ , por razões ideológicas ,
+ e tantas e tão azedas
+ criticas , à direita ,
+ por razões sociais",color=blue];
+	56 [label="Cavaco foi afinal mais
+ independente do que se diz
+ , dentro daquele pesado palácio
+",color=green];
 }

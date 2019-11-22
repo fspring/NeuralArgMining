@@ -3,9 +3,21 @@ digraph G {
 	122 -> 73;
 	351 -> 372;
 	71 [label="facing",color=green];
-	111 [label="people will have more ways to go to a place",color=blue];
-	73 [label="traffic congestion every",color=green];
-	122 [label="since now buses are only a kind of public transportation in this community , it makes people in this area have no choice",color=blue];
-	351 [label="the necessary energy will slowly be used up , since people use less their own cars",color=blue];
-	372 [label="the transportation is an elementary factor which directly affects to people’s living",color=green];
+	111 [label="people will have more ways
+ to go to a place
+",color=blue];
+	73 [label="traffic congestion every
+",color=green];
+	122 [label="since now buses are
+ only a kind of public
+ transportation in this community ,
+ it makes people in this
+ area have no choice",color=blue];
+	351 [label="the necessary energy will slowly
+ be used up , since
+ people use less their own
+ cars",color=blue];
+	372 [label="the transportation is an
+ elementary factor which directly affects
+ to people’s living",color=green];
 }

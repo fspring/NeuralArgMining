@@ -6,18 +6,77 @@ digraph G {
 	350 -> 440;
 	379 -> 440;
 	403 -> 440;
-	234 [label="both minimum time completion and also criterion of quality",color=green];
-	244 [label="even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project , this will not be something satisfy for the company and clients",color=blue];
-	244 [label="even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project , this will not be something satisfy for the company and clients",color=blue];
-	454 [label="it is necessary for us to be extraordinarily cautious since rough work is intolerable when we want to stay competitive",color=green];
-	284 [label="we soon will be out of the picture even when we kept up with the pace since when the problem reveals itself we'll have to go back and fix the mistakes we have made",color=blue];
-	440 [label="even when we need to catch up with the pace of the world",color=green];
-	319 [label="this might be even more costly and time consuming than a neat completion of work at the start",color=blue];
-	440 [label="even when we need to catch up with the pace of the world",color=green];
-	350 [label="some work cannot tolerate any mistakes at all , for instance , in official missions like the work done by nasa , a tiny mistake can be catastrophic",color=blue];
-	440 [label="even when we need to catch up with the pace of the world",color=green];
-	379 [label="a miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars",color=blue];
-	440 [label="even when we need to catch up with the pace of the world",color=green];
-	403 [label="in such circumstances , even when the scientists want to finish off quickly , but they couldn't miss even a single part of the mission since it may trigger loads of problems",color=blue];
-	440 [label="even when we need to catch up with the pace of the world",color=green];
+	234 [label="both minimum
+ time completion and also criterion
+ of quality",color=green];
+	244 [label="even when
+ we managed to keep up
+ with the pace by neglecting
+ the details of a project
+ and only aim for a
+ general frame of the project
+ , this will not be
+ something satisfy for the company
+ and clients",color=blue];
+	244 [label="even when
+ we managed to keep up
+ with the pace by neglecting
+ the details of a project
+ and only aim for a
+ general frame of the project
+ , this will not be
+ something satisfy for the company
+ and clients",color=blue];
+	454 [label="it is
+ necessary for us to be
+ extraordinarily cautious since rough work
+ is intolerable when we want
+ to stay competitive",color=green];
+	284 [label="we soon
+ will be out of the
+ picture even when we kept
+ up with the pace since
+ when the problem reveals itself
+ we'll have to go back
+ and fix the mistakes we
+ have made",color=blue];
+	440 [label="even when we need to catch
+ up with the pace of
+ the world",color=green];
+	319 [label="this might
+ be even more costly and
+ time consuming than a neat
+ completion of work at the
+ start",color=blue];
+	440 [label="even when we need to catch
+ up with the pace of
+ the world",color=green];
+	350 [label="some work cannot tolerate any mistakes
+ at all , for instance
+ , in official missions like
+ the work done by nasa
+ , a tiny mistake can
+ be catastrophic",color=blue];
+	440 [label="even when we need to catch
+ up with the pace of
+ the world",color=green];
+	379 [label="a miscalculation
+ of the orbit in launching
+ rocket may lead to a
+ failure of the whole project
+ which might worth trillions of
+ dollars",color=blue];
+	440 [label="even when we need to catch
+ up with the pace of
+ the world",color=green];
+	403 [label="in such circumstances
+ , even when the scientists
+ want to finish off quickly
+ , but they couldn't miss
+ even a single part of
+ the mission since it may
+ trigger loads of problems",color=blue];
+	440 [label="even when we need to catch
+ up with the pace of
+ the world",color=green];
 }

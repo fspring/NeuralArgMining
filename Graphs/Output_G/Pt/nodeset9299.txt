@@ -1,5 +1,9 @@
 digraph G {
 	71 -> 57;
-	57 [label="a nossa situação não é muito diferente da do criminoso inepto",color=green];
-	71 [label="das suas intenções e da sua vontade , não conseguiu fazer mal a ninguém",color=blue];
+	57 [label="a nossa situação não
+ é muito diferente da do
+ criminoso inepto",color=green];
+	71 [label="das suas intenções e da
+ sua vontade , não conseguiu
+ fazer mal a ninguém",color=blue];
 }

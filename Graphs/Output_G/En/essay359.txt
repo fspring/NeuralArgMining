@@ -4,14 +4,40 @@ digraph G {
 	113 -> 227;
 	173 -> 227;
 	193 -> 227;
-	72 [label="those local residents have to clean the",color=green];
-	79 [label="place frequently so that the new batch of tourists will have a tidy and neat environment",color=blue];
-	98 [label="tourists may offend the local people due to their different culture background",color=blue];
-	227 [label="people are looking for the solution such as understanding each other while they encounter",color=green];
-	113 [label=", indians don't eat beef since they worship cows",color=blue];
-	227 [label="people are looking for the solution such as understanding each other while they encounter",color=green];
-	173 [label=", tourists are given the brochures about the local traditions and customs before they visit the place",color=blue];
-	227 [label="people are looking for the solution such as understanding each other while they encounter",color=green];
-	193 [label="the tour guide are willing to help tourists to understand the culture from other countries",color=blue];
-	227 [label="people are looking for the solution such as understanding each other while they encounter",color=green];
+	72 [label="those local residents have
+ to clean the",color=green];
+	79 [label="place frequently
+ so that the new batch
+ of tourists will have a
+ tidy and neat environment",color=blue];
+	98 [label="tourists may offend
+ the local people due to
+ their different culture background",color=blue];
+	227 [label="people are looking for
+ the solution such as understanding
+ each other while they encounter
+",color=green];
+	113 [label=", indians don't
+ eat beef since they worship
+ cows",color=blue];
+	227 [label="people are looking for
+ the solution such as understanding
+ each other while they encounter
+",color=green];
+	173 [label=", tourists are
+ given the brochures about the
+ local traditions and customs before
+ they visit the place",color=blue];
+	227 [label="people are looking for
+ the solution such as understanding
+ each other while they encounter
+",color=green];
+	193 [label="the tour guide
+ are willing to help tourists
+ to understand the culture from
+ other countries",color=blue];
+	227 [label="people are looking for
+ the solution such as understanding
+ each other while they encounter
+",color=green];
 }

@@ -5,16 +5,62 @@ digraph G {
 	274 -> 389;
 	314 -> 389;
 	340 -> 389;
-	144 [label="the centre for research in agriculture helps the economy of my country to improve",color=green];
-	159 [label="the agriculture field has only thirty percent as a market part",color=blue];
-	159 [label="the agriculture field has only thirty percent as a market part",color=blue];
-	389 [label="my country need to focus more on the agriculture by establishing centers for research in this field",color=green];
-	192 [label="the dates are the most important agriculture product in my country",color=blue];
+	144 [label="the centre
+ for research in agriculture helps
+ the economy of my country
+ to improve",color=green];
+	159 [label="the agriculture
+ field has only thirty percent
+ as a market part",color=blue];
+	159 [label="the agriculture
+ field has only thirty percent
+ as a market part",color=blue];
+	389 [label="my country
+ need to focus more on
+ the agriculture by establishing centers
+ for research in this field
+",color=green];
+	192 [label="the dates are the
+ most important agriculture product in
+ my country",color=blue];
 	407 [label="which will have",color=green];
-	274 [label="showing people how to exploit a land and get good agriculture products will push people to think about working in the field of agriculture rather than working in business or other field to make money",color=blue];
-	389 [label="my country need to focus more on the agriculture by establishing centers for research in this field",color=green];
-	314 [label="a centre of business research is more important because we have to be in parallel with the advanced countries which have focused in business field",color=blue];
-	389 [label="my country need to focus more on the agriculture by establishing centers for research in this field",color=green];
-	340 [label="for me being a developed country does not mean that we have to focus only in business , but we have to focus on what really bring us to the level of self satisfaction , and the agriculture for our country is the field that can realize that",color=blue];
-	389 [label="my country need to focus more on the agriculture by establishing centers for research in this field",color=green];
+	274 [label="showing people
+ how to exploit a land
+ and get good agriculture products
+ will push people to think
+ about working in the field
+ of agriculture rather than working
+ in business or other field
+ to make money",color=blue];
+	389 [label="my country
+ need to focus more on
+ the agriculture by establishing centers
+ for research in this field
+",color=green];
+	314 [label="a centre
+ of business research is more
+ important because we have to
+ be in parallel with the
+ advanced countries which have focused
+ in business field",color=blue];
+	389 [label="my country
+ need to focus more on
+ the agriculture by establishing centers
+ for research in this field
+",color=green];
+	340 [label="for me being a developed country
+ does not mean that we
+ have to focus only in
+ business , but we have
+ to focus on what really
+ bring us to the level
+ of self satisfaction , and
+ the agriculture for our country
+ is the field that can
+ realize that",color=blue];
+	389 [label="my country
+ need to focus more on
+ the agriculture by establishing centers
+ for research in this field
+",color=green];
 }

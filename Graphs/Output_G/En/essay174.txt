@@ -5,16 +5,37 @@ digraph G {
 	102 -> 165;
 	163 -> 165;
 	219 -> 263;
-	21 [label="serious movies have a wide variety of",color=green];
-	30 [label="entertaining movies are created to amuse people",color=blue];
+	21 [label="serious movies have a wide
+ variety of",color=green];
+	30 [label="entertaining movies are created to amuse
+ people",color=blue];
 	94 [label="not",color=green];
-	102 [label=""click" is a very interesting comedy , with a serious approach about the importance of having a balanced life between family and work businesses",color=blue];
+	102 [label=""click" is a very
+ interesting comedy , with a
+ serious approach about the importance
+ of having a balanced life
+ between family and work businesses
+",color=blue];
 	95 [label="all",color=blue];
 	96 [label="of serious movies are",color=green];
-	102 [label=""click" is a very interesting comedy , with a serious approach about the importance of having a balanced life between family and work businesses",color=blue];
-	165 [label="are usually beyond words and images which make us think about ourselves",color=green];
+	102 [label=""click" is a very
+ interesting comedy , with a
+ serious approach about the importance
+ of having a balanced life
+ between family and work businesses
+",color=blue];
+	165 [label="are usually beyond words and images
+ which make us think about
+ ourselves",color=green];
 	163 [label="serious movies",color=blue];
-	165 [label="are usually beyond words and images which make us think about ourselves",color=green];
-	219 [label="after watching the movie , we may learn a lesson between jewels and death",color=blue];
-	263 [label="movie tell you how to see the world in a",color=green];
+	165 [label="are usually beyond words and images
+ which make us think about
+ ourselves",color=green];
+	219 [label="after watching
+ the movie , we may
+ learn a lesson between jewels
+ and death",color=blue];
+	263 [label="movie tell you
+ how to see the world
+ in a",color=green];
 }

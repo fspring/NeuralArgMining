@@ -9,24 +9,66 @@ digraph G {
 	226 -> 284;
 	250 -> 284;
 	256 -> 284;
-	75 [label="the benefit that professionals or students get by connecting from home is enormous",color=blue];
-	180 [label="the advantages that people enjoy by working or studying from home , are obvious",color=green];
-	92 [label="it helps working people to maintain work life balance",color=blue];
-	180 [label="the advantages that people enjoy by working or studying from home , are obvious",color=green];
-	106 [label="the new mother who can join her work as well as take care of her baby",color=blue];
-	180 [label="the advantages that people enjoy by working or studying from home , are obvious",color=green];
-	123 [label="People also get the desired flexibility in terms of working hours",color=blue];
-	180 [label="the advantages that people enjoy by working or studying from home , are obvious",color=green];
-	135 [label="For students too , studying from home is an attractive option",color=blue];
-	180 [label="the advantages that people enjoy by working or studying from home , are obvious",color=green];
-	147 [label="They save the travelling time to Universities and utilize that time on their studies",color=blue];
-	180 [label="the advantages that people enjoy by working or studying from home , are obvious",color=green];
-	162 [label="In a busy city like Tokyo , students waste a lot of time in travelling",color=blue];
-	180 [label="the advantages that people enjoy by working or studying from home , are obvious",color=green];
-	226 [label="once an employee works from isolation , he or she spends a lot of time in communication via phone or email with colleagues",color=blue];
-	284 [label="These factors affect people who work or study from home",color=green];
-	250 [label="This harms an employee's deliverable",color=blue];
-	284 [label="These factors affect people who work or study from home",color=green];
-	256 [label="Teachers think that students get affected too as they can not clear their doubts in study topics instantly",color=blue];
-	284 [label="These factors affect people who work or study from home",color=green];
+	75 [label="the benefit that professionals or
+ students get by connecting from
+ home is enormous",color=blue];
+	180 [label="the advantages that people enjoy
+ by working or studying from
+ home , are obvious",color=green];
+	92 [label="it helps working
+ people to maintain work life
+ balance",color=blue];
+	180 [label="the advantages that people enjoy
+ by working or studying from
+ home , are obvious",color=green];
+	106 [label="the new mother who
+ can join her work as
+ well as take care of
+ her baby",color=blue];
+	180 [label="the advantages that people enjoy
+ by working or studying from
+ home , are obvious",color=green];
+	123 [label="People also
+ get the desired flexibility in
+ terms of working hours",color=blue];
+	180 [label="the advantages that people enjoy
+ by working or studying from
+ home , are obvious",color=green];
+	135 [label="For students too , studying
+ from home is an attractive
+ option",color=blue];
+	180 [label="the advantages that people enjoy
+ by working or studying from
+ home , are obvious",color=green];
+	147 [label="They save the
+ travelling time to Universities and
+ utilize that time on their
+ studies",color=blue];
+	180 [label="the advantages that people enjoy
+ by working or studying from
+ home , are obvious",color=green];
+	162 [label="In a busy
+ city like Tokyo , students
+ waste a lot of time
+ in travelling",color=blue];
+	180 [label="the advantages that people enjoy
+ by working or studying from
+ home , are obvious",color=green];
+	226 [label="once an employee works
+ from isolation , he or
+ she spends a lot of
+ time in communication via phone
+ or email with colleagues",color=blue];
+	284 [label="These factors affect people who work
+ or study from home",color=green];
+	250 [label="This harms an employee's deliverable
+",color=blue];
+	284 [label="These factors affect people who work
+ or study from home",color=green];
+	256 [label="Teachers think that students
+ get affected too as they
+ can not clear their doubts
+ in study topics instantly",color=blue];
+	284 [label="These factors affect people who work
+ or study from home",color=green];
 }

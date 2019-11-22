@@ -5,13 +5,31 @@ digraph G {
 	139 -> 121;
 	335 -> 336;
 	63 [label="says",color=green];
-	65 [label=""anima sana in corpore sano" , which means",color=blue];
-	73 [label="that healthy body is basis for healthy",color=green];
-	99 [label="more we practice , the better we feel",color=blue];
+	65 [label=""anima sana in corpore sano" ,
+ which means",color=blue];
+	73 [label="that healthy body
+ is basis for healthy",color=green];
+	99 [label="more we
+ practice , the better we
+ feel",color=blue];
 	118 [label="health",color=green];
-	139 [label="if the entire nation , from their school ages begin going for sports and try doing that everyday , eventually it may help to build healthy nation",color=blue];
+	139 [label="if the
+ entire nation , from their
+ school ages begin going for
+ sports and try doing that
+ everyday , eventually it may
+ help to build healthy nation
+",color=blue];
 	121 [label="everyday physical activity",color=green];
-	139 [label="if the entire nation , from their school ages begin going for sports and try doing that everyday , eventually it may help to build healthy nation",color=blue];
+	139 [label="if the
+ entire nation , from their
+ school ages begin going for
+ sports and try doing that
+ everyday , eventually it may
+ help to build healthy nation
+",color=blue];
 	335 [label="physical",color=blue];
-	336 [label="activities in early steps of human development would finally lead to mentally healthy society",color=green];
+	336 [label="activities in early steps of
+ human development would finally lead
+ to mentally healthy society",color=green];
 }

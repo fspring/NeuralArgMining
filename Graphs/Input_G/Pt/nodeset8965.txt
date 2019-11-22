@@ -1,8 +1,18 @@
 digraph G {
 	18 -> 62;
 	34 -> 62;
-	18 [label="Até ao fim do Verão passado , a Chanceler alemã gozava de uma posição invejável",color=blue];
-	62 [label="A situação alterou-se",color=green];
-	34 [label="Era de longe a política mais popular do seu país e o seu partido , a CDU , liderava nas sondagens com uma grande margem de avanço",color=blue];
-	62 [label="A situação alterou-se",color=green];
+	18 [label="Até ao
+ fim do Verão passado ,
+ a Chanceler alemã gozava de
+ uma posição invejável",color=blue];
+	62 [label="A situação alterou-se
+",color=green];
+	34 [label="Era de longe a política mais
+ popular do seu país e
+ o seu partido , a
+ CDU , liderava nas sondagens
+ com uma grande margem de
+ avanço",color=blue];
+	62 [label="A situação alterou-se
+",color=green];
 }

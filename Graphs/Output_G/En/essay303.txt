@@ -2,10 +2,28 @@ digraph G {
 	117 -> 101;
 	298 -> 288;
 	298 -> 295;
-	101 [label="living your life on the fast lane is very stressful and can affect your health",color=green];
-	117 [label="if you are always hurried and you do not take a certain time off , your body will react to your stressful lifestyle",color=blue];
-	288 [label="cultivate his friendships",color=green];
-	298 [label="when you are faced with difficult tasks and you do them in a rush , you are more likely to do avoidable errors or mistakes",color=blue];
+	101 [label="living your life on the
+ fast lane is very stressful
+ and can affect your health
+",color=green];
+	117 [label="if you are always
+ hurried and you do not
+ take a certain time off
+ , your body will react
+ to your stressful lifestyle",color=blue];
+	288 [label="cultivate his friendships
+",color=green];
+	298 [label="when you are
+ faced with difficult tasks and
+ you do them in a
+ rush , you are more
+ likely to do avoidable errors
+ or mistakes",color=blue];
 	295 [label="takes time",color=green];
-	298 [label="when you are faced with difficult tasks and you do them in a rush , you are more likely to do avoidable errors or mistakes",color=blue];
+	298 [label="when you are
+ faced with difficult tasks and
+ you do them in a
+ rush , you are more
+ likely to do avoidable errors
+ or mistakes",color=blue];
 }

@@ -11,28 +11,127 @@ digraph G {
 	251 -> 220;
 	251 -> 327;
 	281 -> 327;
-	6 [label="children should not be allowed to play computer games",color=green];
-	61 [label="An investigation done by Beijing University shows that 80% of the students who failed in the final exam paid 2 hours or more on-online games every week , while 90% excellent students expressed that they did not touch computer games during the most of the days",color=blue];
-	39 [label="a large number of students are obsessed in on-line computer games and as a result their performance in school are declined",color=green];
-	61 [label="An investigation done by Beijing University shows that 80% of the students who failed in the final exam paid 2 hours or more on-online games every week , while 90% excellent students expressed that they did not touch computer games during the most of the days",color=blue];
-	61 [label="An investigation done by Beijing University shows that 80% of the students who failed in the final exam paid 2 hours or more on-online games every week , while 90% excellent students expressed that they did not touch computer games during the most of the days",color=blue];
-	327 [label="it is better that children are not be allowed to play the computer games",color=green];
-	108 [label="Recent research by Scientist also reveals that the youngs are more likely to be attacted by and lose themselves in these computer games , because of their low control ability",color=blue];
-	327 [label="it is better that children are not be allowed to play the computer games",color=green];
-	141 [label="children could learn nothing from these computer games",color=blue];
-	151 [label="time on this activity is really time wasting",color=green];
-	151 [label="time on this activity is really time wasting",color=green];
-	180 [label="majority of the games use war , violence , bloody , or sexual subjects to lure the students",color=blue];
-	161 [label="all these games are developed for commercial purpose and in order to catch the eyes of the children",color=blue];
-	327 [label="it is better that children are not be allowed to play the computer games",color=green];
-	180 [label="majority of the games use war , violence , bloody , or sexual subjects to lure the students",color=blue];
-	327 [label="it is better that children are not be allowed to play the computer games",color=green];
-	201 [label="those subjects are not suitable for the students and will bring bad effects to the youths",color=blue];
-	327 [label="it is better that children are not be allowed to play the computer games",color=green];
-	220 [label="there are a few students paying considerable time on the computer games playing finally choose computer games related jobs as their career",color=green];
-	251 [label="majority of the students failed in front of the computer games playing and they use their time for studying , sleeping and physical exerice to play these computer games",color=blue];
-	251 [label="majority of the students failed in front of the computer games playing and they use their time for studying , sleeping and physical exerice to play these computer games",color=blue];
-	327 [label="it is better that children are not be allowed to play the computer games",color=green];
-	281 [label="It is not uncommon that the teenages are found sleepless for several days playing on-line games at public internet bar , and there are also some media reports regarding the sudden death case of the teenages in the internet bar",color=blue];
-	327 [label="it is better that children are not be allowed to play the computer games",color=green];
+	6 [label="children should not be
+ allowed to play computer games
+",color=green];
+	61 [label="An investigation done by
+ Beijing University shows that 80%
+ of the students who failed
+ in the final exam paid
+ 2 hours or more on-online
+ games every week , while
+ 90% excellent students expressed that
+ they did not touch computer
+ games during the most of
+ the days",color=blue];
+	39 [label="a large number of students are
+ obsessed in on-line computer games
+ and as a result their
+ performance in school are declined
+",color=green];
+	61 [label="An investigation done by
+ Beijing University shows that 80%
+ of the students who failed
+ in the final exam paid
+ 2 hours or more on-online
+ games every week , while
+ 90% excellent students expressed that
+ they did not touch computer
+ games during the most of
+ the days",color=blue];
+	61 [label="An investigation done by
+ Beijing University shows that 80%
+ of the students who failed
+ in the final exam paid
+ 2 hours or more on-online
+ games every week , while
+ 90% excellent students expressed that
+ they did not touch computer
+ games during the most of
+ the days",color=blue];
+	327 [label="it is better
+ that children are not be
+ allowed to play the computer
+ games",color=green];
+	108 [label="Recent research
+ by Scientist also reveals that
+ the youngs are more likely
+ to be attacted by and
+ lose themselves in these computer
+ games , because of their
+ low control ability",color=blue];
+	327 [label="it is better
+ that children are not be
+ allowed to play the computer
+ games",color=green];
+	141 [label="children could learn nothing
+ from these computer games",color=blue];
+	151 [label="time on this activity
+ is really time wasting",color=green];
+	151 [label="time on this activity
+ is really time wasting",color=green];
+	180 [label="majority of the games use
+ war , violence , bloody
+ , or sexual subjects to
+ lure the students",color=blue];
+	161 [label="all these games are
+ developed for commercial purpose and
+ in order to catch the
+ eyes of the children",color=blue];
+	327 [label="it is better
+ that children are not be
+ allowed to play the computer
+ games",color=green];
+	180 [label="majority of the games use
+ war , violence , bloody
+ , or sexual subjects to
+ lure the students",color=blue];
+	327 [label="it is better
+ that children are not be
+ allowed to play the computer
+ games",color=green];
+	201 [label="those subjects are not
+ suitable for the students and
+ will bring bad effects to
+ the youths",color=blue];
+	327 [label="it is better
+ that children are not be
+ allowed to play the computer
+ games",color=green];
+	220 [label="there are a few students
+ paying considerable time on the
+ computer games playing finally choose
+ computer games related jobs as
+ their career",color=green];
+	251 [label="majority of the students
+ failed in front of the
+ computer games playing and they
+ use their time for studying
+ , sleeping and physical exerice
+ to play these computer games
+",color=blue];
+	251 [label="majority of the students
+ failed in front of the
+ computer games playing and they
+ use their time for studying
+ , sleeping and physical exerice
+ to play these computer games
+",color=blue];
+	327 [label="it is better
+ that children are not be
+ allowed to play the computer
+ games",color=green];
+	281 [label="It is not uncommon
+ that the teenages are found
+ sleepless for several days playing
+ on-line games at public internet
+ bar , and there are
+ also some media reports regarding
+ the sudden death case of
+ the teenages in the internet
+ bar",color=blue];
+	327 [label="it is better
+ that children are not be
+ allowed to play the computer
+ games",color=green];
 }

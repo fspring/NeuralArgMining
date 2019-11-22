@@ -7,20 +7,71 @@ digraph G {
 	144 -> 228;
 	178 -> 228;
 	190 -> 228;
-	34 [label="the richness as well as convenience of technology are two main factors that contribute to the students' progress",color=green];
-	79 [label="The internet , for example , provide knowledge in the form of news , radio talks , tapes or reseachs on any particular fields",color=blue];
-	58 [label="technology was introduced , student have been exposed to a wide range of information , which neccessarily broaden their minds",color=green];
-	79 [label="The internet , for example , provide knowledge in the form of news , radio talks , tapes or reseachs on any particular fields",color=blue];
-	79 [label="The internet , for example , provide knowledge in the form of news , radio talks , tapes or reseachs on any particular fields",color=blue];
-	228 [label="I have to consent to the use of technology in education",color=green];
-	104 [label="There , the students can not only ascertain concerned subjects but they can also get access to relevant issues and discuss with people worldwide",color=blue];
-	228 [label="I have to consent to the use of technology in education",color=green];
-	129 [label="Another point that students may benefit from technology is the shortened time for learning",color=green];
-	178 [label="students will develop their skills at a greater pace",color=blue];
-	144 [label="The modern world provides learners with the mp3 , the mobile phone or the laptop that help them , especially language learners , listen to recordings everywhre or read documents anytime",color=blue];
-	228 [label="I have to consent to the use of technology in education",color=green];
-	178 [label="students will develop their skills at a greater pace",color=blue];
-	228 [label="I have to consent to the use of technology in education",color=green];
-	190 [label="the internet again , is an inexhaustible resource of visual aids , such as educational games , sounds or images with which students may absorb abstract concepts taught at school more briskly and thoroughly",color=blue];
-	228 [label="I have to consent to the use of technology in education",color=green];
+	34 [label="the richness as well as convenience
+ of technology are two main
+ factors that contribute to the
+ students' progress",color=green];
+	79 [label="The internet , for example ,
+ provide knowledge in the form
+ of news , radio talks
+ , tapes or reseachs on
+ any particular fields",color=blue];
+	58 [label="technology was
+ introduced , student have been
+ exposed to a wide range
+ of information , which neccessarily
+ broaden their minds",color=green];
+	79 [label="The internet , for example ,
+ provide knowledge in the form
+ of news , radio talks
+ , tapes or reseachs on
+ any particular fields",color=blue];
+	79 [label="The internet , for example ,
+ provide knowledge in the form
+ of news , radio talks
+ , tapes or reseachs on
+ any particular fields",color=blue];
+	228 [label="I have
+ to consent to the use
+ of technology in education",color=green];
+	104 [label="There , the students can not
+ only ascertain concerned subjects but
+ they can also get access
+ to relevant issues and discuss
+ with people worldwide",color=blue];
+	228 [label="I have
+ to consent to the use
+ of technology in education",color=green];
+	129 [label="Another point that students may benefit
+ from technology is the shortened
+ time for learning",color=green];
+	178 [label="students will
+ develop their skills at a
+ greater pace",color=blue];
+	144 [label="The modern world provides learners with
+ the mp3 , the mobile
+ phone or the laptop that
+ help them , especially language
+ learners , listen to recordings
+ everywhre or read documents anytime
+",color=blue];
+	228 [label="I have
+ to consent to the use
+ of technology in education",color=green];
+	178 [label="students will
+ develop their skills at a
+ greater pace",color=blue];
+	228 [label="I have
+ to consent to the use
+ of technology in education",color=green];
+	190 [label="the internet again , is
+ an inexhaustible resource of visual
+ aids , such as educational
+ games , sounds or images
+ with which students may absorb
+ abstract concepts taught at school
+ more briskly and thoroughly",color=blue];
+	228 [label="I have
+ to consent to the use
+ of technology in education",color=green];
 }

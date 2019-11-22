@@ -3,12 +3,36 @@ digraph G {
 	103 -> 60;
 	84 -> 74;
 	303 -> 357;
-	54 [label="others even eat watching television",color=green];
-	84 [label="instead of spend time with family and friends , they like to seat on a chair for hours",color=blue];
-	60 [label="and some others make of this media a priority",color=green];
-	103 [label="i know someone who wakes up in the morning and before even eat he turns the television on , he even records the programs he cannot watch during work hours",color=blue];
-	74 [label="some people spend a lot of time watching television",color=green];
-	84 [label="instead of spend time with family and friends , they like to seat on a chair for hours",color=blue];
-	303 [label="i remember a friend told me one day that because she was watching a telenovela i could not go to her house a certain time during the night",color=blue];
+	54 [label="others even
+ eat watching television",color=green];
+	84 [label="instead of
+ spend time with family and
+ friends , they like to
+ seat on a chair for
+ hours",color=blue];
+	60 [label="and some others make of this
+ media a priority",color=green];
+	103 [label="i know someone
+ who wakes up in the
+ morning and before even eat
+ he turns the television on
+ , he even records the
+ programs he cannot watch during
+ work hours",color=blue];
+	74 [label="some people
+ spend a lot of time
+ watching television",color=green];
+	84 [label="instead of
+ spend time with family and
+ friends , they like to
+ seat on a chair for
+ hours",color=blue];
+	303 [label="i remember a
+ friend told me one day
+ that because she was watching
+ a telenovela i could not
+ go to her house a
+ certain time during the night
+",color=blue];
 	357 [label="tool to learn",color=green];
 }

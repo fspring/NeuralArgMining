@@ -11,28 +11,101 @@ digraph G {
 	223 -> 287;
 	241 -> 287;
 	256 -> 287;
-	50 [label="children are taught basic things , which influence their whole life , by their parents",color=green];
-	66 [label="As a baby , they do not know any thing all around but they learn everything from their parents",color=blue];
-	66 [label="As a baby , they do not know any thing all around but they learn everything from their parents",color=blue];
-	303 [label="parents are really the best teachers who give us much knowledge and advice",color=green];
-	86 [label="Parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that",color=blue];
-	303 [label="parents are really the best teachers who give us much knowledge and advice",color=green];
-	112 [label="parents bring the whole world of wonderful and colorful thing into their baby's little mind",color=blue];
-	303 [label="parents are really the best teachers who give us much knowledge and advice",color=green];
-	130 [label="parents train their child how to become a good person",color=green];
-	141 [label="They always make their children basically say thanks and apology in the right way",color=blue];
-	141 [label="They always make their children basically say thanks and apology in the right way",color=blue];
-	303 [label="parents are really the best teachers who give us much knowledge and advice",color=green];
-	161 [label="it is common that they try to explain who is a good or bad person",color=blue];
-	303 [label="parents are really the best teachers who give us much knowledge and advice",color=green];
-	182 [label="children are shown how to behave well with others",color=blue];
-	303 [label="parents are really the best teachers who give us much knowledge and advice",color=green];
-	198 [label="this can influence positively their future children and makes children's behavior better before they face the real world",color=blue];
-	303 [label="parents are really the best teachers who give us much knowledge and advice",color=green];
-	223 [label="parents are ones who loves their children most and always take care of their children",color=blue];
-	287 [label="parents' support is one factor which makes people succeed in their life",color=green];
-	241 [label="they tend to provide the best knowledge and advice from their experience for children",color=blue];
-	287 [label="parents' support is one factor which makes people succeed in their life",color=green];
-	256 [label="Unlike a professional , parents always support children and give them much social skill so they can communicate well with others and have good habit in life",color=blue];
-	287 [label="parents' support is one factor which makes people succeed in their life",color=green];
+	50 [label="children are taught basic things
+ , which influence their whole
+ life , by their parents
+",color=green];
+	66 [label="As a baby ,
+ they do not know any
+ thing all around but they
+ learn everything from their parents
+",color=blue];
+	66 [label="As a baby ,
+ they do not know any
+ thing all around but they
+ learn everything from their parents
+",color=blue];
+	303 [label="parents are
+ really the best teachers who
+ give us much knowledge and
+ advice",color=green];
+	86 [label="Parents always try to
+ explain and describe tenderly all
+ things in simple way so
+ that their baby can understand
+ and learn from that",color=blue];
+	303 [label="parents are
+ really the best teachers who
+ give us much knowledge and
+ advice",color=green];
+	112 [label="parents bring the
+ whole world of wonderful and
+ colorful thing into their baby's
+ little mind",color=blue];
+	303 [label="parents are
+ really the best teachers who
+ give us much knowledge and
+ advice",color=green];
+	130 [label="parents train their child how
+ to become a good person
+",color=green];
+	141 [label="They always make their
+ children basically say thanks and
+ apology in the right way
+",color=blue];
+	141 [label="They always make their
+ children basically say thanks and
+ apology in the right way
+",color=blue];
+	303 [label="parents are
+ really the best teachers who
+ give us much knowledge and
+ advice",color=green];
+	161 [label="it is common that
+ they try to explain who
+ is a good or bad
+ person",color=blue];
+	303 [label="parents are
+ really the best teachers who
+ give us much knowledge and
+ advice",color=green];
+	182 [label="children are shown
+ how to behave well with
+ others",color=blue];
+	303 [label="parents are
+ really the best teachers who
+ give us much knowledge and
+ advice",color=green];
+	198 [label="this can
+ influence positively their future children
+ and makes children's behavior better
+ before they face the real
+ world",color=blue];
+	303 [label="parents are
+ really the best teachers who
+ give us much knowledge and
+ advice",color=green];
+	223 [label="parents are
+ ones who loves their children
+ most and always take care
+ of their children",color=blue];
+	287 [label="parents' support is
+ one factor which makes people
+ succeed in their life",color=green];
+	241 [label="they tend to provide
+ the best knowledge and advice
+ from their experience for children
+",color=blue];
+	287 [label="parents' support is
+ one factor which makes people
+ succeed in their life",color=green];
+	256 [label="Unlike a professional ,
+ parents always support children and
+ give them much social skill
+ so they can communicate well
+ with others and have good
+ habit in life",color=blue];
+	287 [label="parents' support is
+ one factor which makes people
+ succeed in their life",color=green];
 }

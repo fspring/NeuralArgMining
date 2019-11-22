@@ -15,36 +15,90 @@ digraph G {
 	260 -> 309;
 	274 -> 309;
 	297 -> 309;
-	37 [label="the zoo is invaluable for human beings",color=green];
-	106 [label="the zoo is the important place for innate learning",color=blue];
-	72 [label="the zoo gives humans new knowledge",color=green];
-	106 [label="the zoo is the important place for innate learning",color=blue];
-	106 [label="the zoo is the important place for innate learning",color=blue];
-	345 [label="the zoo is so useful for the earth",color=green];
-	116 [label="The zoo also let students have a chance to learning biology practically",color=blue];
-	345 [label="the zoo is so useful for the earth",color=green];
-	129 [label="They are able to observe animals' behaviors and features",color=blue];
-	345 [label="the zoo is so useful for the earth",color=green];
-	141 [label="practical learning help students relax from a boring lecture class",color=blue];
-	345 [label="the zoo is so useful for the earth",color=green];
-	154 [label="researchers need the zoo to pick up some examples of animals for their researches",color=blue];
-	345 [label="the zoo is so useful for the earth",color=green];
-	169 [label="it has diverse species of animals",color=blue];
-	345 [label="the zoo is so useful for the earth",color=green];
-	178 [label="the zoo preserves a large number of rare animals and provides them safe habitats",color=green];
-	193 [label="In the zoo , there is not so harmful as a forest",color=blue];
-	193 [label="In the zoo , there is not so harmful as a forest",color=blue];
-	345 [label="the zoo is so useful for the earth",color=green];
-	206 [label="They , fed by zookeepers , do not need to find food themselves",color=blue];
-	345 [label="the zoo is so useful for the earth",color=green];
-	222 [label="we can do artificial insemenation to maintain nearly extinct wildlife",color=blue];
-	345 [label="the zoo is so useful for the earth",color=green];
-	238 [label="because of all weird , acute , and beautiful animals in the zoo , it can be a great tourist attraction",color=blue];
-	309 [label="It benefits to a certain country",color=green];
-	260 [label="There are a lot of tourists who seek to see those animals closely",color=blue];
-	309 [label="It benefits to a certain country",color=green];
-	274 [label="If the zoo has a large number of both national and foreign tourists , it will receive a great deal of money",color=blue];
-	309 [label="It benefits to a certain country",color=green];
-	297 [label="That also make money flow , and then economics become better",color=blue];
-	309 [label="It benefits to a certain country",color=green];
+	37 [label="the zoo is
+ invaluable for human beings",color=green];
+	106 [label="the zoo is the
+ important place for innate learning
+",color=blue];
+	72 [label="the zoo gives
+ humans new knowledge",color=green];
+	106 [label="the zoo is the
+ important place for innate learning
+",color=blue];
+	106 [label="the zoo is the
+ important place for innate learning
+",color=blue];
+	345 [label="the zoo is so useful
+ for the earth",color=green];
+	116 [label="The zoo also let
+ students have a chance to
+ learning biology practically",color=blue];
+	345 [label="the zoo is so useful
+ for the earth",color=green];
+	129 [label="They are able to observe animals'
+ behaviors and features",color=blue];
+	345 [label="the zoo is so useful
+ for the earth",color=green];
+	141 [label="practical learning help students
+ relax from a boring lecture
+ class",color=blue];
+	345 [label="the zoo is so useful
+ for the earth",color=green];
+	154 [label="researchers need the zoo to pick
+ up some examples of animals
+ for their researches",color=blue];
+	345 [label="the zoo is so useful
+ for the earth",color=green];
+	169 [label="it has diverse species of animals
+",color=blue];
+	345 [label="the zoo is so useful
+ for the earth",color=green];
+	178 [label="the zoo
+ preserves a large number of
+ rare animals and provides them
+ safe habitats",color=green];
+	193 [label="In the
+ zoo , there is not
+ so harmful as a forest
+",color=blue];
+	193 [label="In the
+ zoo , there is not
+ so harmful as a forest
+",color=blue];
+	345 [label="the zoo is so useful
+ for the earth",color=green];
+	206 [label="They , fed by
+ zookeepers , do not need
+ to find food themselves",color=blue];
+	345 [label="the zoo is so useful
+ for the earth",color=green];
+	222 [label="we can do
+ artificial insemenation to maintain nearly
+ extinct wildlife",color=blue];
+	345 [label="the zoo is so useful
+ for the earth",color=green];
+	238 [label="because of
+ all weird , acute ,
+ and beautiful animals in the
+ zoo , it can be
+ a great tourist attraction",color=blue];
+	309 [label="It benefits to a certain country
+",color=green];
+	260 [label="There are a lot of
+ tourists who seek to see
+ those animals closely",color=blue];
+	309 [label="It benefits to a certain country
+",color=green];
+	274 [label="If the zoo has a large
+ number of both national and
+ foreign tourists , it will
+ receive a great deal of
+ money",color=blue];
+	309 [label="It benefits to a certain country
+",color=green];
+	297 [label="That also make
+ money flow , and then
+ economics become better",color=blue];
+	309 [label="It benefits to a certain country
+",color=green];
 }

@@ -3,9 +3,18 @@ digraph G {
 	106 -> 70;
 	106 -> 77;
 	59 [label="number",color=green];
-	106 [label="that the more cars and motorbikes are on roads , the more seriously the ozone layer is damaged",color=blue];
+	106 [label="that the more cars and
+ motorbikes are on roads ,
+ the more seriously the ozone
+ layer is damaged",color=blue];
 	70 [label="and",color=green];
-	106 [label="that the more cars and motorbikes are on roads , the more seriously the ozone layer is damaged",color=blue];
+	106 [label="that the more cars and
+ motorbikes are on roads ,
+ the more seriously the ozone
+ layer is damaged",color=blue];
 	77 [label="into the",color=green];
-	106 [label="that the more cars and motorbikes are on roads , the more seriously the ozone layer is damaged",color=blue];
+	106 [label="that the more cars and
+ motorbikes are on roads ,
+ the more seriously the ozone
+ layer is damaged",color=blue];
 }

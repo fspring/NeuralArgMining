@@ -15,36 +15,145 @@ digraph G {
 	432 -> 534;
 	442 -> 534;
 	471 -> 534;
-	45 [label="people are likely to spend less time in cooking food",color=green];
-	82 [label="with the development of science and technology , more advanced kitchen facilities , such as the modern microwaves or the advanced pressure cookers , have been created and invented to help people prepare and cook food in a very short time",color=blue];
-	82 [label="with the development of science and technology , more advanced kitchen facilities , such as the modern microwaves or the advanced pressure cookers , have been created and invented to help people prepare and cook food in a very short time",color=blue];
-	203 [label="it is certain that spending less time on cooking will be the main trend in near future",color=green];
-	128 [label="people nowadays just spend one hour to prepare a meal instead of two , even three hours like in the last 10 years",color=blue];
-	203 [label="it is certain that spending less time on cooking will be the main trend in near future",color=green];
-	154 [label="in recent years , there was a significant increase in the number of people from all walks of life realizing this valuable benefit of those technologies in doing their housework",color=blue];
-	203 [label="it is certain that spending less time on cooking will be the main trend in near future",color=green];
-	185 [label="And this figure still continuously go up along with the improvement of science and technology",color=blue];
-	203 [label="it is certain that spending less time on cooking will be the main trend in near future",color=green];
-	225 [label="most of young people prefer to have meals at restaurants",color=green];
-	236 [label="they want to invest more time in their work or study to improve themselves",color=blue];
-	236 [label="they want to invest more time in their work or study to improve themselves",color=blue];
-	534 [label="people will spend less time in cooking food",color=green];
-	257 [label="89% of people have come to think that , since they have been put in the situation which is filled with competitions and pressures , they have to use a lot of time to work hard , to update themselves , to acquire all kinds of skills and so on",color=blue];
-	534 [label="people will spend less time in cooking food",color=green];
-	310 [label="they find hard to have time to prepare and cook a meal",color=blue];
-	534 [label="people will spend less time in cooking food",color=green];
-	323 [label="Even they have some spare time , they prefer to go out with friends to relax and relieve the pressure from work and study",color=blue];
-	534 [label="people will spend less time in cooking food",color=green];
-	353 [label="investing much time in cooking food will guarantee nutrition as well as quality of food for their family",color=green];
-	471 [label="it is quite easy to have a nutritious meal with guaranteed quality , but do not waste a lot of time",color=blue];
-	382 [label="as a matter of fact , using technology or advanced facilities do not make food lose its nutrition and quality",color=blue];
-	534 [label="people will spend less time in cooking food",color=green];
-	403 [label="Even , with the help of ozone machines , bacterias , mold spores , or pesticide in vegetables , fruits and foods will be killed and removed",color=blue];
-	534 [label="people will spend less time in cooking food",color=green];
-	432 [label="health and life of eaters is assured",color=blue];
-	534 [label="people will spend less time in cooking food",color=green];
-	442 [label="along with the high living standard , requirements of quality products in almost restaurants , nowadays , are under severe control and supervision by appropriate authorities",color=blue];
-	534 [label="people will spend less time in cooking food",color=green];
-	471 [label="it is quite easy to have a nutritious meal with guaranteed quality , but do not waste a lot of time",color=blue];
-	534 [label="people will spend less time in cooking food",color=green];
+	45 [label="people are likely to spend
+ less time in cooking food
+",color=green];
+	82 [label="with the development
+ of science and technology ,
+ more advanced kitchen facilities ,
+ such as the modern microwaves
+ or the advanced pressure cookers
+ , have been created and
+ invented to help people prepare
+ and cook food in a
+ very short time",color=blue];
+	82 [label="with the development
+ of science and technology ,
+ more advanced kitchen facilities ,
+ such as the modern microwaves
+ or the advanced pressure cookers
+ , have been created and
+ invented to help people prepare
+ and cook food in a
+ very short time",color=blue];
+	203 [label="it is
+ certain that spending less time
+ on cooking will be the
+ main trend in near future
+",color=green];
+	128 [label="people nowadays
+ just spend one hour to
+ prepare a meal instead of
+ two , even three hours
+ like in the last 10
+ years",color=blue];
+	203 [label="it is
+ certain that spending less time
+ on cooking will be the
+ main trend in near future
+",color=green];
+	154 [label="in recent years , there was
+ a significant increase in the
+ number of people from all
+ walks of life realizing this
+ valuable benefit of those technologies
+ in doing their housework",color=blue];
+	203 [label="it is
+ certain that spending less time
+ on cooking will be the
+ main trend in near future
+",color=green];
+	185 [label="And this figure still continuously
+ go up along with the
+ improvement of science and technology
+",color=blue];
+	203 [label="it is
+ certain that spending less time
+ on cooking will be the
+ main trend in near future
+",color=green];
+	225 [label="most of young people prefer
+ to have meals at restaurants
+",color=green];
+	236 [label="they want to invest
+ more time in their work
+ or study to improve themselves
+",color=blue];
+	236 [label="they want to invest
+ more time in their work
+ or study to improve themselves
+",color=blue];
+	534 [label="people will spend less time in
+ cooking food",color=green];
+	257 [label="89% of people
+ have come to think that
+ , since they have been
+ put in the situation which
+ is filled with competitions and
+ pressures , they have to
+ use a lot of time
+ to work hard , to
+ update themselves , to acquire
+ all kinds of skills and
+ so on",color=blue];
+	534 [label="people will spend less time in
+ cooking food",color=green];
+	310 [label="they find hard to have
+ time to prepare and cook
+ a meal",color=blue];
+	534 [label="people will spend less time in
+ cooking food",color=green];
+	323 [label="Even they
+ have some spare time ,
+ they prefer to go out
+ with friends to relax and
+ relieve the pressure from work
+ and study",color=blue];
+	534 [label="people will spend less time in
+ cooking food",color=green];
+	353 [label="investing much
+ time in cooking food will
+ guarantee nutrition as well as
+ quality of food for their
+ family",color=green];
+	471 [label="it is quite easy
+ to have a nutritious meal
+ with guaranteed quality , but
+ do not waste a lot
+ of time",color=blue];
+	382 [label="as a matter
+ of fact , using technology
+ or advanced facilities do not
+ make food lose its nutrition
+ and quality",color=blue];
+	534 [label="people will spend less time in
+ cooking food",color=green];
+	403 [label="Even ,
+ with the help of ozone
+ machines , bacterias , mold
+ spores , or pesticide in
+ vegetables , fruits and foods
+ will be killed and removed
+",color=blue];
+	534 [label="people will spend less time in
+ cooking food",color=green];
+	432 [label="health and life
+ of eaters is assured",color=blue];
+	534 [label="people will spend less time in
+ cooking food",color=green];
+	442 [label="along with the
+ high living standard , requirements
+ of quality products in almost
+ restaurants , nowadays , are
+ under severe control and supervision
+ by appropriate authorities",color=blue];
+	534 [label="people will spend less time in
+ cooking food",color=green];
+	471 [label="it is quite easy
+ to have a nutritious meal
+ with guaranteed quality , but
+ do not waste a lot
+ of time",color=blue];
+	534 [label="people will spend less time in
+ cooking food",color=green];
 }

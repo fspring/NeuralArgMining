@@ -6,18 +6,75 @@ digraph G {
 	151 -> 218;
 	169 -> 218;
 	204 -> 218;
-	31 [label="more responsibilities should put on private individuals and companies such as paying to clean up air pollution",color=green];
-	51 [label="in most industrialized countries , there is a number of companies that holds heavy factories in their constitutions",color=blue];
-	51 [label="in most industrialized countries , there is a number of companies that holds heavy factories in their constitutions",color=blue];
-	118 [label="If these companies were obliged to pay to clean up the air pollution , they would at least make an effort to reduce the amount of air pollution they cause",color=green];
-	70 [label="The waste products and harmful gases produced by these factories cause a significant amount of air pollution",color=blue];
-	118 [label="If these companies were obliged to pay to clean up the air pollution , they would at least make an effort to reduce the amount of air pollution they cause",color=green];
-	88 [label="While these companies make a huge amount of money from their businesses , most of them are not considering to take precautions to reduce the amount of air pollution",color=blue];
-	118 [label="If these companies were obliged to pay to clean up the air pollution , they would at least make an effort to reduce the amount of air pollution they cause",color=green];
-	151 [label="private individuals cause air pollution in several ways such as inessential use of cars and house heating",color=blue];
-	218 [label="by charging private individuals for causing air pollution , that will at least contribute to reduce the amount of the pollution",color=green];
-	169 [label="As house heating is a major need in the winter time , some households do not consider to use filters to reduce the amount of pollution that the heating causes",color=blue];
-	218 [label="by charging private individuals for causing air pollution , that will at least contribute to reduce the amount of the pollution",color=green];
-	204 [label="some expensive vehicles cause a huge amount of pollution",color=blue];
-	218 [label="by charging private individuals for causing air pollution , that will at least contribute to reduce the amount of the pollution",color=green];
+	31 [label="more responsibilities should put
+ on private individuals and companies
+ such as paying to clean
+ up air pollution",color=green];
+	51 [label="in most industrialized countries
+ , there is a number
+ of companies that holds heavy
+ factories in their constitutions",color=blue];
+	51 [label="in most industrialized countries
+ , there is a number
+ of companies that holds heavy
+ factories in their constitutions",color=blue];
+	118 [label="If these
+ companies were obliged to pay
+ to clean up the air
+ pollution , they would at
+ least make an effort to
+ reduce the amount of air
+ pollution they cause",color=green];
+	70 [label="The waste products and harmful
+ gases produced by these factories
+ cause a significant amount of
+ air pollution",color=blue];
+	118 [label="If these
+ companies were obliged to pay
+ to clean up the air
+ pollution , they would at
+ least make an effort to
+ reduce the amount of air
+ pollution they cause",color=green];
+	88 [label="While these
+ companies make a huge amount
+ of money from their businesses
+ , most of them are
+ not considering to take precautions
+ to reduce the amount of
+ air pollution",color=blue];
+	118 [label="If these
+ companies were obliged to pay
+ to clean up the air
+ pollution , they would at
+ least make an effort to
+ reduce the amount of air
+ pollution they cause",color=green];
+	151 [label="private individuals cause air
+ pollution in several ways such
+ as inessential use of cars
+ and house heating",color=blue];
+	218 [label="by charging
+ private individuals for causing air
+ pollution , that will at
+ least contribute to reduce the
+ amount of the pollution",color=green];
+	169 [label="As house heating is a major
+ need in the winter time
+ , some households do not
+ consider to use filters to
+ reduce the amount of pollution
+ that the heating causes",color=blue];
+	218 [label="by charging
+ private individuals for causing air
+ pollution , that will at
+ least contribute to reduce the
+ amount of the pollution",color=green];
+	204 [label="some expensive vehicles cause a huge
+ amount of pollution",color=blue];
+	218 [label="by charging
+ private individuals for causing air
+ pollution , that will at
+ least contribute to reduce the
+ amount of the pollution",color=green];
 }

@@ -8,22 +8,88 @@ digraph G {
 	296 -> 314;
 	343 -> 387;
 	366 -> 387;
-	63 [label="newspapers have lost their competitive advantage to sustain their prolonged existence",color=green];
-	94 [label="to obtain information , using the internet is quicker and more convenient than reading newspapers",color=blue];
-	94 [label="to obtain information , using the internet is quicker and more convenient than reading newspapers",color=blue];
-	195 [label="the print media has failed to keep its important role in the provision of information",color=green];
-	110 [label="Contrary to the past when people had to wait long hours to take a daily newspaper , nowadays , they can acquire latest news updated every second through their mobile phones or computers connected to the internet , everywhere and at anytime",color=blue];
-	195 [label="the print media has failed to keep its important role in the provision of information",color=green];
-	153 [label="As can be seen , these devices and machines are very common in all parts of the world , making it easier for people to read a number of things that newspapers can not provide in only some pages",color=blue];
-	195 [label="the print media has failed to keep its important role in the provision of information",color=green];
-	216 [label="from the economic aspect , buying newspapers appears to be a waste of money when the internet becomes available for every one",color=blue];
-	314 [label="the number of people reading newspapers may continue falling sharply , possibly leading to the close-downs of many in the coming time",color=green];
-	245 [label="the internet service is being provided at a low cost or even free in many countries",color=blue];
-	314 [label="the number of people reading newspapers may continue falling sharply , possibly leading to the close-downs of many in the coming time",color=green];
-	296 [label="The answer , perhaps , is that hardly would rational people do so",color=blue];
-	314 [label="the number of people reading newspapers may continue falling sharply , possibly leading to the close-downs of many in the coming time",color=green];
-	343 [label="when taking environment into consideration , people must conceive that the more newspapers are published , the more trees are cut down",color=blue];
-	387 [label="newspapers' production will have to face environmentalists on its way to be alive",color=green];
-	366 [label="This is simply the contributor to the deforestation which is happening all over the world today",color=blue];
-	387 [label="newspapers' production will have to face environmentalists on its way to be alive",color=green];
+	63 [label="newspapers have
+ lost their competitive advantage to
+ sustain their prolonged existence",color=green];
+	94 [label="to obtain information , using the
+ internet is quicker and more
+ convenient than reading newspapers",color=blue];
+	94 [label="to obtain information , using the
+ internet is quicker and more
+ convenient than reading newspapers",color=blue];
+	195 [label="the print media has failed
+ to keep its important role
+ in the provision of information
+",color=green];
+	110 [label="Contrary to the past when
+ people had to wait long
+ hours to take a daily
+ newspaper , nowadays , they
+ can acquire latest news updated
+ every second through their mobile
+ phones or computers connected to
+ the internet , everywhere and
+ at anytime",color=blue];
+	195 [label="the print media has failed
+ to keep its important role
+ in the provision of information
+",color=green];
+	153 [label="As can
+ be seen , these devices
+ and machines are very common
+ in all parts of the
+ world , making it easier
+ for people to read a
+ number of things that newspapers
+ can not provide in only
+ some pages",color=blue];
+	195 [label="the print media has failed
+ to keep its important role
+ in the provision of information
+",color=green];
+	216 [label="from the economic aspect
+ , buying newspapers appears to
+ be a waste of money
+ when the internet becomes available
+ for every one",color=blue];
+	314 [label="the number of people reading newspapers
+ may continue falling sharply ,
+ possibly leading to the close-downs
+ of many in the coming
+ time",color=green];
+	245 [label="the internet service is being
+ provided at a low cost
+ or even free in many
+ countries",color=blue];
+	314 [label="the number of people reading newspapers
+ may continue falling sharply ,
+ possibly leading to the close-downs
+ of many in the coming
+ time",color=green];
+	296 [label="The answer , perhaps
+ , is that hardly would
+ rational people do so",color=blue];
+	314 [label="the number of people reading newspapers
+ may continue falling sharply ,
+ possibly leading to the close-downs
+ of many in the coming
+ time",color=green];
+	343 [label="when taking
+ environment into consideration , people
+ must conceive that the more
+ newspapers are published , the
+ more trees are cut down
+",color=blue];
+	387 [label="newspapers' production will
+ have to face environmentalists on
+ its way to be alive
+",color=green];
+	366 [label="This is simply the
+ contributor to the deforestation which
+ is happening all over the
+ world today",color=blue];
+	387 [label="newspapers' production will
+ have to face environmentalists on
+ its way to be alive
+",color=green];
 }

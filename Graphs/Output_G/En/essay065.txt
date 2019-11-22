@@ -2,7 +2,15 @@ digraph G {
 	57 -> 51;
 	148 -> 120;
 	51 [label="beneficial",color=green];
-	57 [label="taking care of thousands of citizens who suffer from disease or illiteracy is more urgent and pragmatic than building theaters or sports stadiums",color=blue];
+	57 [label="taking care of thousands
+ of citizens who suffer from
+ disease or illiteracy is more
+ urgent and pragmatic than building
+ theaters or sports stadiums",color=blue];
 	120 [label="providing",color=green];
-	148 [label="their existences are based on their marketing strategies , the condition of facilities and the volume of audience",color=blue];
+	148 [label="their existences are
+ based on their marketing strategies
+ , the condition of facilities
+ and the volume of audience
+",color=blue];
 }

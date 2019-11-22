@@ -2,7 +2,25 @@ digraph G {
 	152 -> 113;
 	286 -> 317;
 	113 [label="globalization",color=green];
-	152 [label="students who migrate for better education would not have to go through lot of stress as they can easily make new friends and can be part of any discussions which is otherwise not possible in a world with multiple languages ; this in turn makes it easy to adjust in new environment",color=blue];
-	286 [label="these languages are tightly coupled with history ; all the olden day literature and scripts will be impossible to decipher if these languages are lost",color=blue];
-	317 [label="change is inevitable and that usage of one language across the world is a positive one",color=green];
+	152 [label="students who migrate for
+ better education would not have
+ to go through lot of
+ stress as they can easily
+ make new friends and can
+ be part of any discussions
+ which is otherwise not possible
+ in a world with multiple
+ languages ; this in turn
+ makes it easy to adjust
+ in new environment",color=blue];
+	286 [label="these languages are tightly coupled
+ with history ; all the
+ olden day literature and scripts
+ will be impossible to decipher
+ if these languages are lost
+",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
 }

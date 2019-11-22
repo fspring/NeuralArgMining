@@ -1,8 +1,16 @@
 digraph G {
 	216 -> 387;
 	230 -> 387;
-	216 [label="for some of them it proved to be a profitable job",color=blue];
-	387 [label="university education is pivotal in a person's life in order for one to prosper",color=green];
+	216 [label="for some of them it
+ proved to be a profitable
+ job",color=blue];
+	387 [label="university education is pivotal
+ in a person's life in
+ order for one to prosper
+",color=green];
 	230 [label="an example",color=blue];
-	387 [label="university education is pivotal in a person's life in order for one to prosper",color=green];
+	387 [label="university education is pivotal
+ in a person's life in
+ order for one to prosper
+",color=green];
 }

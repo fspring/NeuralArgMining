@@ -2,10 +2,29 @@ digraph G {
 	76 -> 64;
 	150 -> 273;
 	240 -> 290;
-	64 [label="studying at home save the pupils enormous time and considerable expense",color=green];
-	76 [label="students who use distance-learning programs can cut down their commuting time , tuition fees , textbook fees and so forth just by an internet connection",color=blue];
-	150 [label="pupils can obtain materials for their curricula just by one mouse click , such as science reports , study posts , documentary records , etc",color=blue];
-	273 [label="like feedbacks and inspirations that cannot be replaced in the near future",color=green];
-	240 [label="but with the improvements in streaming and sensor technologies , remote education can eliminate the obstacles of distance and body contacts",color=blue];
-	290 [label="the conventional way not only with its efficiency , convenience and economic value",color=green];
+	64 [label="studying at
+ home save the pupils enormous
+ time and considerable expense",color=green];
+	76 [label="students who use distance-learning programs
+ can cut down their commuting
+ time , tuition fees ,
+ textbook fees and so forth
+ just by an internet connection
+",color=blue];
+	150 [label="pupils can obtain materials for their
+ curricula just by one mouse
+ click , such as science
+ reports , study posts ,
+ documentary records , etc",color=blue];
+	273 [label="like feedbacks and
+ inspirations that cannot be replaced
+ in the near future",color=green];
+	240 [label="but with the improvements in streaming
+ and sensor technologies , remote
+ education can eliminate the obstacles
+ of distance and body contacts
+",color=blue];
+	290 [label="the conventional way not only with
+ its efficiency , convenience and
+ economic value",color=green];
 }

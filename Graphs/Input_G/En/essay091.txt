@@ -10,26 +10,108 @@ digraph G {
 	291 -> 366;
 	315 -> 366;
 	333 -> 366;
-	32 [label="a universal language playing the dominant role in the international community is of vital significance to global people",color=green];
-	61 [label="a single international language plays a pivotal role in global economic cooperation",color=blue];
-	61 [label="a single international language plays a pivotal role in global economic cooperation",color=blue];
-	139 [label="a single international language serves an economic purpose",color=green];
-	74 [label="As businessmen from different countries have access to the same language , they can communicate with each other more efficiently and deeply on trade , which can intensify the transnational cooperation",color=blue];
-	139 [label="a single international language serves an economic purpose",color=green];
-	109 [label="without the availability of the same language , there might be a chance that misunderstanding and conflicts would ensue over business negotiations , impeding collaborations between them",color=blue];
-	139 [label="a single international language serves an economic purpose",color=green];
-	150 [label="a universal language is an integral part of cultural communication and interactions",color=green];
-	163 [label="If people are equipped with a single international language , they can tell each other smoothly about their countries' specific cultures such as the traditional customs or the modern lifestyles , which enables people to expand their outlooks , viewing the world in new angles",color=blue];
-	163 [label="If people are equipped with a single international language , they can tell each other smoothly about their countries' specific cultures such as the traditional customs or the modern lifestyles , which enables people to expand their outlooks , viewing the world in new angles",color=blue];
-	366 [label="a single international language contributes to global community in terms of economic and cultural communication",color=green];
-	212 [label="when people travel to foreign countries , the local people can introduce the tourist attractions to such people with the command of the universal language , helping foreign visitors have an enjoyable exotic experience",color=blue];
-	366 [label="a single international language contributes to global community in terms of economic and cultural communication",color=green];
-	270 [label="a single international language may , to some extent , erode the cultural identity of a nation",color=green];
-	291 [label="people may be impressed by the cultural values brought with the universal language , eroding a sense of national belong",color=blue];
-	291 [label="people may be impressed by the cultural values brought with the universal language , eroding a sense of national belong",color=blue];
-	366 [label="a single international language contributes to global community in terms of economic and cultural communication",color=green];
-	315 [label="some Asians are seeking individualism , previously denied by many Asian countries",color=blue];
-	366 [label="a single international language contributes to global community in terms of economic and cultural communication",color=green];
-	333 [label="they have gradually identified with such values expressed in American movies , which are imported by the governments as a result of the proliferation of English",color=blue];
-	366 [label="a single international language contributes to global community in terms of economic and cultural communication",color=green];
+	32 [label="a universal language
+ playing the dominant role in
+ the international community is of
+ vital significance to global people
+",color=green];
+	61 [label="a single international language
+ plays a pivotal role in
+ global economic cooperation",color=blue];
+	61 [label="a single international language
+ plays a pivotal role in
+ global economic cooperation",color=blue];
+	139 [label="a single international language serves an
+ economic purpose",color=green];
+	74 [label="As businessmen from different countries have
+ access to the same language
+ , they can communicate with
+ each other more efficiently and
+ deeply on trade , which
+ can intensify the transnational cooperation
+",color=blue];
+	139 [label="a single international language serves an
+ economic purpose",color=green];
+	109 [label="without the availability of the same
+ language , there might be
+ a chance that misunderstanding and
+ conflicts would ensue over business
+ negotiations , impeding collaborations between
+ them",color=blue];
+	139 [label="a single international language serves an
+ economic purpose",color=green];
+	150 [label="a universal language is an
+ integral part of cultural communication
+ and interactions",color=green];
+	163 [label="If people
+ are equipped with a single
+ international language , they can
+ tell each other smoothly about
+ their countries' specific cultures such
+ as the traditional customs or
+ the modern lifestyles , which
+ enables people to expand their
+ outlooks , viewing the world
+ in new angles",color=blue];
+	163 [label="If people
+ are equipped with a single
+ international language , they can
+ tell each other smoothly about
+ their countries' specific cultures such
+ as the traditional customs or
+ the modern lifestyles , which
+ enables people to expand their
+ outlooks , viewing the world
+ in new angles",color=blue];
+	366 [label="a single international language
+ contributes to global community in
+ terms of economic and cultural
+ communication",color=green];
+	212 [label="when people travel
+ to foreign countries , the
+ local people can introduce the
+ tourist attractions to such people
+ with the command of the
+ universal language , helping foreign
+ visitors have an enjoyable exotic
+ experience",color=blue];
+	366 [label="a single international language
+ contributes to global community in
+ terms of economic and cultural
+ communication",color=green];
+	270 [label="a single international language may
+ , to some extent ,
+ erode the cultural identity of
+ a nation",color=green];
+	291 [label="people may be impressed
+ by the cultural values brought
+ with the universal language ,
+ eroding a sense of national
+ belong",color=blue];
+	291 [label="people may be impressed
+ by the cultural values brought
+ with the universal language ,
+ eroding a sense of national
+ belong",color=blue];
+	366 [label="a single international language
+ contributes to global community in
+ terms of economic and cultural
+ communication",color=green];
+	315 [label="some Asians are seeking individualism
+ , previously denied by many
+ Asian countries",color=blue];
+	366 [label="a single international language
+ contributes to global community in
+ terms of economic and cultural
+ communication",color=green];
+	333 [label="they have
+ gradually identified with such values
+ expressed in American movies ,
+ which are imported by the
+ governments as a result of
+ the proliferation of English",color=blue];
+	366 [label="a single international language
+ contributes to global community in
+ terms of economic and cultural
+ communication",color=green];
 }

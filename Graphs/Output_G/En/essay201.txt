@@ -3,12 +3,43 @@ digraph G {
 	255 -> 207;
 	255 -> 326;
 	293 -> 340;
-	39 [label="conservation is more urgent now than at any time in history",color=green];
-	51 [label="according to a statistic conducted by the international animal preserving association , we have only ten percent of the animals that have ever existed , which means that the biodiversity of our home is grievously endangered",color=blue];
+	39 [label="conservation is
+ more urgent now than at
+ any time in history",color=green];
+	51 [label="according to a statistic conducted
+ by the international animal preserving
+ association , we have only
+ ten percent of the animals
+ that have ever existed ,
+ which means that the biodiversity
+ of our home is grievously
+ endangered",color=blue];
 	207 [label="advertising",color=green];
-	255 [label="confess that art is one of the best ways of entertaining human beings , but , with exhaust fumes and acid rain , we do not have the energy and enthusiasm to appreciate the paintings or photographs",color=blue];
-	255 [label="confess that art is one of the best ways of entertaining human beings , but , with exhaust fumes and acid rain , we do not have the energy and enthusiasm to appreciate the paintings or photographs",color=blue];
-	326 [label="art will benefit the human beings and the company in short-term interest",color=green];
-	293 [label="biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art",color=blue];
-	340 [label="still hold the environment protection for long-term interest",color=green];
+	255 [label="confess that art is one of
+ the best ways of entertaining
+ human beings , but ,
+ with exhaust fumes and acid
+ rain , we do not
+ have the energy and enthusiasm
+ to appreciate the paintings or
+ photographs",color=blue];
+	255 [label="confess that art is one of
+ the best ways of entertaining
+ human beings , but ,
+ with exhaust fumes and acid
+ rain , we do not
+ have the energy and enthusiasm
+ to appreciate the paintings or
+ photographs",color=blue];
+	326 [label="art will benefit the human
+ beings and the company in
+ short-term interest",color=green];
+	293 [label="biodiversity and a
+ more beautiful nature are not
+ only the results of abetter
+ environment but also are the
+ necessities of photography and other
+ types of art",color=blue];
+	340 [label="still hold the environment protection for
+ long-term interest",color=green];
 }

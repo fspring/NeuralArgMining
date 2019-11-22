@@ -1,8 +1,18 @@
 digraph G {
 	313 -> 377;
 	333 -> 377;
-	313 [label="if you do them fast too , the first acknowledgement of your boss encourages you to work harder",color=blue];
-	377 [label="which says people should work faster even more risky",color=green];
-	333 [label="turns you to a person who has skill of working without hesitation",color=blue];
-	377 [label="which says people should work faster even more risky",color=green];
+	313 [label="if you do
+ them fast too , the
+ first acknowledgement of your boss
+ encourages you to work harder
+",color=blue];
+	377 [label="which says people should
+ work faster even more risky
+",color=green];
+	333 [label="turns you to
+ a person who has skill
+ of working without hesitation",color=blue];
+	377 [label="which says people should
+ work faster even more risky
+",color=green];
 }

@@ -4,14 +4,46 @@ digraph G {
 	115 -> 262;
 	157 -> 262;
 	205 -> 254;
-	73 [label="users to its",color=green];
-	182 [label="the existence of skype , viber or yahoo has notably reduced even the longest distance into one click",color=blue];
-	82 [label="there used to be world wide web or e-mail , but the cyber world now varies form games , online tv shows to means of communication , and probably still keeps going",color=blue];
-	262 [label="its effect on the users' independence and prositution should not be out of concern",color=green];
-	115 [label="such irrisistible temptations drift people from the real world to the unreal ones , resulting in their dependence on technical equipment",color=blue];
-	262 [label="its effect on the users' independence and prositution should not be out of concern",color=green];
-	157 [label=", staying inside with computer and mobile phone will always be the first alternative",color=blue];
-	262 [label="its effect on the users' independence and prositution should not be out of concern",color=green];
-	205 [label="rarely do people go out of their comfot zone , provided with snack and air conditioner , to assemble with others in flesh",color=blue];
-	254 [label="the contribution of it to the society",color=green];
+	73 [label="users to its
+",color=green];
+	182 [label="the existence of skype
+ , viber or yahoo has
+ notably reduced even the longest
+ distance into one click",color=blue];
+	82 [label="there used to be
+ world wide web or e-mail
+ , but the cyber world
+ now varies form games ,
+ online tv shows to means
+ of communication , and probably
+ still keeps going",color=blue];
+	262 [label="its effect on the
+ users' independence and prositution should
+ not be out of concern
+",color=green];
+	115 [label="such irrisistible temptations drift people from
+ the real world to the
+ unreal ones , resulting in
+ their dependence on technical equipment
+",color=blue];
+	262 [label="its effect on the
+ users' independence and prositution should
+ not be out of concern
+",color=green];
+	157 [label=", staying inside with
+ computer and mobile phone will
+ always be the first alternative
+",color=blue];
+	262 [label="its effect on the
+ users' independence and prositution should
+ not be out of concern
+",color=green];
+	205 [label="rarely do people go out of
+ their comfot zone , provided
+ with snack and air conditioner
+ , to assemble with others
+ in flesh",color=blue];
+	254 [label="the contribution
+ of it to the society
+",color=green];
 }

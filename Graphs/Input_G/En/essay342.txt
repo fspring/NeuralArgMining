@@ -10,26 +10,113 @@ digraph G {
 	266 -> 346;
 	316 -> 301;
 	316 -> 346;
-	70 [label="A strong competition sense helps children having urge to learn or to practice for being the best among peers , and this factor is initially arises from the schools and parents , to encourage children to get the highest scores through the grading system",color=green];
-	117 [label="a competitive child is usually more motivated to pursue a goal or to face difficulties independently",color=blue];
-	117 [label="a competitive child is usually more motivated to pursue a goal or to face difficulties independently",color=blue];
-	346 [label="schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community",color=green];
-	135 [label="it is also risky that children are becoming too competitive to cooperating with others",color=blue];
-	346 [label="schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community",color=green];
-	150 [label="Being competitive leads them to success , but could also restrict them in many ways",color=blue];
-	346 [label="schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community",color=green];
-	169 [label="it might be hard for a competitive person to deal or manage in a team work project",color=blue];
-	346 [label="schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community",color=green];
-	192 [label="cooperation is also an essential quality for children , no matter in school activities or in communities",color=green];
-	210 [label="Having a good cooperating spirit helps kids to communicate and get along with others , which gives them more possibility to solve problems or to achieve a goal easily by working as a team",color=blue];
-	210 [label="Having a good cooperating spirit helps kids to communicate and get along with others , which gives them more possibility to solve problems or to achieve a goal easily by working as a team",color=blue];
-	346 [label="schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community",color=green];
-	248 [label="in society , there is hardly anyone who could has big achievement by oneself",color=blue];
-	346 [label="schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community",color=green];
-	266 [label="famous singers or movie stars , despite of their talent to make them successful , there are always a team to manage works or deal with things",color=blue];
-	346 [label="schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community",color=green];
-	301 [label="competitive child would have more motivation and perspective that leads them to success",color=green];
-	316 [label="it would not help them much once they enter to society or company which required more about skill of team work",color=blue];
-	316 [label="it would not help them much once they enter to society or company which required more about skill of team work",color=blue];
-	346 [label="schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community",color=green];
+	70 [label="A strong competition sense helps
+ children having urge to learn
+ or to practice for being
+ the best among peers ,
+ and this factor is initially
+ arises from the schools and
+ parents , to encourage children
+ to get the highest scores
+ through the grading system",color=green];
+	117 [label="a competitive child
+ is usually more motivated to
+ pursue a goal or to
+ face difficulties independently",color=blue];
+	117 [label="a competitive child
+ is usually more motivated to
+ pursue a goal or to
+ face difficulties independently",color=blue];
+	346 [label="schools and adults should
+ put a sense of cooperation
+ in children to make them
+ becoming a useful adult whether
+ in society or community",color=green];
+	135 [label="it is also risky that
+ children are becoming too competitive
+ to cooperating with others",color=blue];
+	346 [label="schools and adults should
+ put a sense of cooperation
+ in children to make them
+ becoming a useful adult whether
+ in society or community",color=green];
+	150 [label="Being competitive leads them to
+ success , but could also
+ restrict them in many ways
+",color=blue];
+	346 [label="schools and adults should
+ put a sense of cooperation
+ in children to make them
+ becoming a useful adult whether
+ in society or community",color=green];
+	169 [label="it might be hard for a
+ competitive person to deal or
+ manage in a team work
+ project",color=blue];
+	346 [label="schools and adults should
+ put a sense of cooperation
+ in children to make them
+ becoming a useful adult whether
+ in society or community",color=green];
+	192 [label="cooperation is also
+ an essential quality for children
+ , no matter in school
+ activities or in communities",color=green];
+	210 [label="Having a good cooperating spirit
+ helps kids to communicate and
+ get along with others ,
+ which gives them more possibility
+ to solve problems or to
+ achieve a goal easily by
+ working as a team",color=blue];
+	210 [label="Having a good cooperating spirit
+ helps kids to communicate and
+ get along with others ,
+ which gives them more possibility
+ to solve problems or to
+ achieve a goal easily by
+ working as a team",color=blue];
+	346 [label="schools and adults should
+ put a sense of cooperation
+ in children to make them
+ becoming a useful adult whether
+ in society or community",color=green];
+	248 [label="in society
+ , there is hardly anyone
+ who could has big achievement
+ by oneself",color=blue];
+	346 [label="schools and adults should
+ put a sense of cooperation
+ in children to make them
+ becoming a useful adult whether
+ in society or community",color=green];
+	266 [label="famous singers or movie
+ stars , despite of their
+ talent to make them successful
+ , there are always a
+ team to manage works or
+ deal with things",color=blue];
+	346 [label="schools and adults should
+ put a sense of cooperation
+ in children to make them
+ becoming a useful adult whether
+ in society or community",color=green];
+	301 [label="competitive child would have
+ more motivation and perspective that
+ leads them to success",color=green];
+	316 [label="it would not help
+ them much once they enter
+ to society or company which
+ required more about skill of
+ team work",color=blue];
+	316 [label="it would not help
+ them much once they enter
+ to society or company which
+ required more about skill of
+ team work",color=blue];
+	346 [label="schools and adults should
+ put a sense of cooperation
+ in children to make them
+ becoming a useful adult whether
+ in society or community",color=green];
 }

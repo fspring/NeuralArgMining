@@ -18,42 +18,137 @@ digraph G {
 	322 -> 307;
 	322 -> 390;
 	337 -> 390;
-	47 [label="businesses had better not employ the workers for the whole of their life",color=green];
-	87 [label="The invaluable experience of senior employees can pass down to the young apprentices who get used to new job , but regularly give out creative and novel ideas",color=blue];
-	72 [label="various ideas and creativity from different people are indispensable for a company to flourish",color=green];
-	87 [label="The invaluable experience of senior employees can pass down to the young apprentices who get used to new job , but regularly give out creative and novel ideas",color=blue];
-	87 [label="The invaluable experience of senior employees can pass down to the young apprentices who get used to new job , but regularly give out creative and novel ideas",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	119 [label="the rapid development in every field nowadays requires precise updates and access to new knowledge",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	137 [label="the youngsters are capable of meeting those standards",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	149 [label="they have activeness , inventiveness and enterprise which allow them to complete their jobs perfectly",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	165 [label="These vital factors can decide whether the company can thrive or not",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	180 [label="the staff soon gets boring with their stable job in such a long time",color=green];
-	195 [label="At a certain time , they may presume that a securing job is the most important and necessary",color=blue];
-	195 [label="At a certain time , they may presume that a securing job is the most important and necessary",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	214 [label="they need to earn money to manage their life",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	226 [label="the bulk of them realize that high promotion and competition can assist them to improve their skills and horizons",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	247 [label="Many people enjoy challenging them",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	253 [label="they don not want to be monotonous and passive ones",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	264 [label="The same-old-same-old environment soon makes them depressed",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	273 [label="this situation will have an adverse impact on the enterprise",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	289 [label="the economic crisis and financial recession result in a tremendous increase in unemployment",color=blue];
-	307 [label="the businesses ought to recruit many workers so as to tackle this aching issue",color=green];
-	307 [label="the businesses ought to recruit many workers so as to tackle this aching issue",color=green];
-	322 [label="It enables the jobless to better their life and earn a living",color=blue];
-	322 [label="It enables the jobless to better their life and earn a living",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	337 [label="the factories and companies will have abundant human sources to ensure the pace of manufacture and also devising lots of unique ideas",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
+	47 [label="businesses had better
+ not employ the workers for
+ the whole of their life
+",color=green];
+	87 [label="The invaluable experience
+ of senior employees can pass
+ down to the young apprentices
+ who get used to new
+ job , but regularly give
+ out creative and novel ideas
+",color=blue];
+	72 [label="various ideas and
+ creativity from different people are
+ indispensable for a company to
+ flourish",color=green];
+	87 [label="The invaluable experience
+ of senior employees can pass
+ down to the young apprentices
+ who get used to new
+ job , but regularly give
+ out creative and novel ideas
+",color=blue];
+	87 [label="The invaluable experience
+ of senior employees can pass
+ down to the young apprentices
+ who get used to new
+ job , but regularly give
+ out creative and novel ideas
+",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	119 [label="the rapid development in every field
+ nowadays requires precise updates and
+ access to new knowledge",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	137 [label="the youngsters are
+ capable of meeting those standards
+",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	149 [label="they have activeness , inventiveness and
+ enterprise which allow them to
+ complete their jobs perfectly",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	165 [label="These vital factors can decide
+ whether the company can thrive
+ or not",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	180 [label="the staff soon gets boring
+ with their stable job in
+ such a long time",color=green];
+	195 [label="At a certain time ,
+ they may presume that a
+ securing job is the most
+ important and necessary",color=blue];
+	195 [label="At a certain time ,
+ they may presume that a
+ securing job is the most
+ important and necessary",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	214 [label="they need to earn money to
+ manage their life",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	226 [label="the bulk of them
+ realize that high promotion and
+ competition can assist them to
+ improve their skills and horizons
+",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	247 [label="Many people enjoy
+ challenging them",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	253 [label="they don
+ not want to be monotonous
+ and passive ones",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	264 [label="The same-old-same-old environment soon makes them
+ depressed",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	273 [label="this situation
+ will have an adverse impact
+ on the enterprise",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	289 [label="the economic crisis and financial recession
+ result in a tremendous increase
+ in unemployment",color=blue];
+	307 [label="the businesses ought
+ to recruit many workers so
+ as to tackle this aching
+ issue",color=green];
+	307 [label="the businesses ought
+ to recruit many workers so
+ as to tackle this aching
+ issue",color=green];
+	322 [label="It enables the
+ jobless to better their life
+ and earn a living",color=blue];
+	322 [label="It enables the
+ jobless to better their life
+ and earn a living",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
+	337 [label="the factories and
+ companies will have abundant human
+ sources to ensure the pace
+ of manufacture and also devising
+ lots of unique ideas",color=blue];
+	390 [label="the employer should not hire
+ the staff for a whole
+ life",color=green];
 }

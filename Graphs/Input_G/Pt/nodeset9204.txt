@@ -1,8 +1,15 @@
 digraph G {
 	6 -> 0;
 	59 -> 23;
-	0 [label="Dispensámos um programa cautelar formal",color=green];
-	6 [label="porque nos conseguíamos financiar no mercado a taxas de juro baixas",color=blue];
-	23 [label="as taxas de juro não reflectem as condições reais da nossa economia",color=green];
-	59 [label="é um contra-senso falar em taxas de juro de mercado",color=blue];
+	0 [label="Dispensámos um programa cautelar formal
+",color=green];
+	6 [label="porque nos conseguíamos financiar
+ no mercado a taxas de
+ juro baixas",color=blue];
+	23 [label="as taxas
+ de juro não reflectem as
+ condições reais da nossa economia
+",color=green];
+	59 [label="é um contra-senso falar em taxas
+ de juro de mercado",color=blue];
 }

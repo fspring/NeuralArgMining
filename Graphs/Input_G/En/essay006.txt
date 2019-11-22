@@ -16,38 +16,130 @@ digraph G {
 	249 -> 295;
 	265 -> 295;
 	281 -> 295;
-	22 [label="studying abroad has many advantages",color=green];
-	65 [label="Living in a new country requires a great amount of flexibility and adaptability in one's character",color=blue];
-	47 [label="students who study outside their countries can get a lot of experience living in a foreign country",color=green];
-	65 [label="Living in a new country requires a great amount of flexibility and adaptability in one's character",color=blue];
-	65 [label="Living in a new country requires a great amount of flexibility and adaptability in one's character",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	85 [label="students might face many challenges in the host country",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	97 [label="they should be able to deal with the obstacles that they may encounter",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	111 [label="Overcoming problems teaches the students how to be more mature and self-independence",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	129 [label="the new academic experience that the students can obtain at the institution where they are pursuing their studies",color=green];
-	151 [label="they will get exposed to a different educational system",color=blue];
-	151 [label="they will get exposed to a different educational system",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	161 [label="They will meet new professors and new classmates which makes the academic experience different from that in their home country",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	182 [label="Most important is the cultural aspect of the experience",color=green];
-	192 [label="While living in a foreign country , students can learn a lot about the culture of that country",color=blue];
-	192 [label="While living in a foreign country , students can learn a lot about the culture of that country",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	213 [label="they can meet different people of the country",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	222 [label="They can learn about their way of thinking , their customs and traditions , and way of life",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	241 [label="Learning about others' cultures is so important",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	249 [label="It contributes in building a new understanding in us of how we see the world",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	265 [label="It makes us more open , and willing to accept different ideas and thoughts",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
-	281 [label="it educates us about the world we are living in",color=blue];
-	295 [label="studying abroad does not only have advantages , but also can change us in a very positive way",color=green];
+	22 [label="studying abroad has
+ many advantages",color=green];
+	65 [label="Living in a new country
+ requires a great amount of
+ flexibility and adaptability in one's
+ character",color=blue];
+	47 [label="students who study
+ outside their countries can get
+ a lot of experience living
+ in a foreign country",color=green];
+	65 [label="Living in a new country
+ requires a great amount of
+ flexibility and adaptability in one's
+ character",color=blue];
+	65 [label="Living in a new country
+ requires a great amount of
+ flexibility and adaptability in one's
+ character",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	85 [label="students might face many challenges
+ in the host country",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	97 [label="they should be
+ able to deal with the
+ obstacles that they may encounter
+",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	111 [label="Overcoming problems teaches the
+ students how to be more
+ mature and self-independence",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	129 [label="the new academic experience that the
+ students can obtain at the
+ institution where they are pursuing
+ their studies",color=green];
+	151 [label="they will get exposed
+ to a different educational system
+",color=blue];
+	151 [label="they will get exposed
+ to a different educational system
+",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	161 [label="They will meet new
+ professors and new classmates which
+ makes the academic experience different
+ from that in their home
+ country",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	182 [label="Most important is
+ the cultural aspect of the
+ experience",color=green];
+	192 [label="While living in
+ a foreign country , students
+ can learn a lot about
+ the culture of that country
+",color=blue];
+	192 [label="While living in
+ a foreign country , students
+ can learn a lot about
+ the culture of that country
+",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	213 [label="they can
+ meet different people of the
+ country",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	222 [label="They can learn
+ about their way of thinking
+ , their customs and traditions
+ , and way of life
+",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	241 [label="Learning about others' cultures
+ is so important",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	249 [label="It contributes in building a new
+ understanding in us of how
+ we see the world",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	265 [label="It makes us more open
+ , and willing to accept
+ different ideas and thoughts",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
+	281 [label="it educates us about
+ the world we are living
+ in",color=blue];
+	295 [label="studying abroad does not only
+ have advantages , but also
+ can change us in a
+ very positive way",color=green];
 }

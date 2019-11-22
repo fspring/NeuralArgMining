@@ -5,16 +5,38 @@ digraph G {
 	249 -> 303;
 	266 -> 295;
 	280 -> 295;
-	113 [label="teaches the students how to be more mature",color=green];
-	130 [label="new academic experience that the students can obtain at the institution where they are pursuing their studies",color=blue];
-	192 [label="while living in a foreign country , students can learn a lot about the culture of that country",color=blue];
-	303 [label="but also can change us in a very positive",color=green];
-	241 [label="learning about others' cultures is so important",color=blue];
-	295 [label="studying abroad does not only have advantages",color=green];
-	249 [label="it contributes in building a new understanding in us of how we see the world",color=blue];
-	303 [label="but also can change us in a very positive",color=green];
-	266 [label="makes us more open , and willing",color=blue];
-	295 [label="studying abroad does not only have advantages",color=green];
-	280 [label="also it educates us about the world we are living in",color=blue];
-	295 [label="studying abroad does not only have advantages",color=green];
+	113 [label="teaches the students
+ how to be more mature
+",color=green];
+	130 [label="new academic experience that the students
+ can obtain at the institution
+ where they are pursuing their
+ studies",color=blue];
+	192 [label="while living in a
+ foreign country , students can
+ learn a lot about the
+ culture of that country",color=blue];
+	303 [label="but also can
+ change us in a very
+ positive",color=green];
+	241 [label="learning about others' cultures is
+ so important",color=blue];
+	295 [label="studying abroad does not only have
+ advantages",color=green];
+	249 [label="it contributes
+ in building a new understanding
+ in us of how we
+ see the world",color=blue];
+	303 [label="but also can
+ change us in a very
+ positive",color=green];
+	266 [label="makes us more open ,
+ and willing",color=blue];
+	295 [label="studying abroad does not only have
+ advantages",color=green];
+	280 [label="also it educates us about the
+ world we are living in
+",color=blue];
+	295 [label="studying abroad does not only have
+ advantages",color=green];
 }

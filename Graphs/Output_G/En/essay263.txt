@@ -5,10 +5,26 @@ digraph G {
 	424 -> 445;
 	48 [label="professional in",color=green];
 	56 [label="to enroll a success",color=blue];
-	393 [label="of course , it may be true when talking about this topic",color=blue];
-	445 [label="when the advantages and disadvantages of whether having the knowledge in different fields is better or not are carefully compared",color=green];
-	408 [label="what if one finally find out him or her has the talent in other filed",color=blue];
-	445 [label="when the advantages and disadvantages of whether having the knowledge in different fields is better or not are carefully compared",color=green];
-	424 [label="in this way , it won’t be a problem at all",color=blue];
-	445 [label="when the advantages and disadvantages of whether having the knowledge in different fields is better or not are carefully compared",color=green];
+	393 [label="of course ,
+ it may be true when
+ talking about this topic",color=blue];
+	445 [label="when the advantages and disadvantages of
+ whether having the knowledge in
+ different fields is better or
+ not are carefully compared",color=green];
+	408 [label="what if one
+ finally find out him or
+ her has the talent in
+ other filed",color=blue];
+	445 [label="when the advantages and disadvantages of
+ whether having the knowledge in
+ different fields is better or
+ not are carefully compared",color=green];
+	424 [label="in this
+ way , it won’t be
+ a problem at all",color=blue];
+	445 [label="when the advantages and disadvantages of
+ whether having the knowledge in
+ different fields is better or
+ not are carefully compared",color=green];
 }

@@ -9,24 +9,115 @@ digraph G {
 	255 -> 342;
 	277 -> 342;
 	296 -> 342;
-	69 [label="people should sometimes do things that they do not enjoy",color=green];
-	86 [label="most people's lives are filled with tasks that they don't enjoy doing",color=blue];
-	86 [label="most people's lives are filled with tasks that they don't enjoy doing",color=blue];
-	342 [label="there are sometimes unpleasant and boring parts which is not liked by anyone , but most of them are about responsibilities which is the part of individual's live",color=green];
-	124 [label="housework is very difficult for me , although my husband helps me some of them , but it is my responsibility",color=blue];
-	342 [label="there are sometimes unpleasant and boring parts which is not liked by anyone , but most of them are about responsibilities which is the part of individual's live",color=green];
-	146 [label="I really don't like any of them , however I should do",color=blue];
-	342 [label="there are sometimes unpleasant and boring parts which is not liked by anyone , but most of them are about responsibilities which is the part of individual's live",color=green];
-	174 [label="Nobody likes attending boring conferences , or working a person who isn't well in with anyone",color=blue];
-	342 [label="there are sometimes unpleasant and boring parts which is not liked by anyone , but most of them are about responsibilities which is the part of individual's live",color=green];
-	191 [label="I'm a research asistant at a university , and as any of the univesity in ours we have a professor who isn't good at human relationships , most of the asistans don't enjoy to talk with him about any situation , although we have to ask about his field",color=blue];
-	342 [label="there are sometimes unpleasant and boring parts which is not liked by anyone , but most of them are about responsibilities which is the part of individual's live",color=green];
-	243 [label="doing something which an individual doesn't enjoy can led to enjoyment",color=green];
-	255 [label="People sometimes can attend any activities by insisting on any of their friends although they don't really want",color=blue];
-	255 [label="People sometimes can attend any activities by insisting on any of their friends although they don't really want",color=blue];
-	342 [label="there are sometimes unpleasant and boring parts which is not liked by anyone , but most of them are about responsibilities which is the part of individual's live",color=green];
-	277 [label="one of our friends tell my husband and me about a dance course which we both don't like",color=blue];
-	342 [label="there are sometimes unpleasant and boring parts which is not liked by anyone , but most of them are about responsibilities which is the part of individual's live",color=green];
-	296 [label="After insisting on some of our friends , we attended , and got really enjoyable time , we continued the course about six months although most of our friends left the course after a month",color=blue];
-	342 [label="there are sometimes unpleasant and boring parts which is not liked by anyone , but most of them are about responsibilities which is the part of individual's live",color=green];
+	69 [label="people should sometimes do things that
+ they do not enjoy",color=green];
+	86 [label="most people's lives are
+ filled with tasks that they
+ don't enjoy doing",color=blue];
+	86 [label="most people's lives are
+ filled with tasks that they
+ don't enjoy doing",color=blue];
+	342 [label="there are sometimes
+ unpleasant and boring parts which
+ is not liked by anyone
+ , but most of them
+ are about responsibilities which is
+ the part of individual's live
+",color=green];
+	124 [label="housework is very difficult for me
+ , although my husband helps
+ me some of them ,
+ but it is my responsibility
+",color=blue];
+	342 [label="there are sometimes
+ unpleasant and boring parts which
+ is not liked by anyone
+ , but most of them
+ are about responsibilities which is
+ the part of individual's live
+",color=green];
+	146 [label="I really don't like
+ any of them , however
+ I should do",color=blue];
+	342 [label="there are sometimes
+ unpleasant and boring parts which
+ is not liked by anyone
+ , but most of them
+ are about responsibilities which is
+ the part of individual's live
+",color=green];
+	174 [label="Nobody likes attending boring conferences ,
+ or working a person who
+ isn't well in with anyone
+",color=blue];
+	342 [label="there are sometimes
+ unpleasant and boring parts which
+ is not liked by anyone
+ , but most of them
+ are about responsibilities which is
+ the part of individual's live
+",color=green];
+	191 [label="I'm a research asistant
+ at a university , and
+ as any of the univesity
+ in ours we have a
+ professor who isn't good at
+ human relationships , most of
+ the asistans don't enjoy to
+ talk with him about any
+ situation , although we have
+ to ask about his field
+",color=blue];
+	342 [label="there are sometimes
+ unpleasant and boring parts which
+ is not liked by anyone
+ , but most of them
+ are about responsibilities which is
+ the part of individual's live
+",color=green];
+	243 [label="doing something
+ which an individual doesn't enjoy
+ can led to enjoyment",color=green];
+	255 [label="People sometimes can attend any
+ activities by insisting on any
+ of their friends although they
+ don't really want",color=blue];
+	255 [label="People sometimes can attend any
+ activities by insisting on any
+ of their friends although they
+ don't really want",color=blue];
+	342 [label="there are sometimes
+ unpleasant and boring parts which
+ is not liked by anyone
+ , but most of them
+ are about responsibilities which is
+ the part of individual's live
+",color=green];
+	277 [label="one of our
+ friends tell my husband and
+ me about a dance course
+ which we both don't like
+",color=blue];
+	342 [label="there are sometimes
+ unpleasant and boring parts which
+ is not liked by anyone
+ , but most of them
+ are about responsibilities which is
+ the part of individual's live
+",color=green];
+	296 [label="After insisting on some
+ of our friends , we
+ attended , and got really
+ enjoyable time , we continued
+ the course about six months
+ although most of our friends
+ left the course after a
+ month",color=blue];
+	342 [label="there are sometimes
+ unpleasant and boring parts which
+ is not liked by anyone
+ , but most of them
+ are about responsibilities which is
+ the part of individual's live
+",color=green];
 }

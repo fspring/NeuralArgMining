@@ -6,15 +6,30 @@ digraph G {
 	246 -> 300;
 	265 -> 300;
 	28 [label="have you",color=green];
-	33 [label="television has destroyed communication among friends",color=blue];
-	52 [label="television has brought upon us",color=green];
-	62 [label="since people watch television too much , they can be isolated from others",color=blue];
+	33 [label="television has destroyed
+ communication among friends",color=blue];
+	52 [label="television has brought upon
+ us",color=green];
+	62 [label="since people watch television
+ too much , they can
+ be isolated from others",color=blue];
 	131 [label="with",color=green];
-	155 [label="parents and even children do not want to communicate with each other instead of watching tv in their own room",color=blue];
+	155 [label="parents and even children do not
+ want to communicate with each
+ other instead of watching tv
+ in their own room",color=blue];
 	180 [label="children",color=green];
-	215 [label="way , communication between family members is visibly destroyed",color=blue];
-	246 [label="for example , watching film about terrorist children will be able to consider terrorism as a right thing",color=blue];
-	300 [label="it has destroyed communication among friends and family",color=green];
-	265 [label="what happens if they do act exactly the terrorist in hollywood movies does",color=blue];
-	300 [label="it has destroyed communication among friends and family",color=green];
+	215 [label="way , communication between family members
+ is visibly destroyed",color=blue];
+	246 [label="for example , watching film
+ about terrorist children will be
+ able to consider terrorism as
+ a right thing",color=blue];
+	300 [label="it has destroyed communication among friends
+ and family",color=green];
+	265 [label="what happens if they do act
+ exactly the terrorist in hollywood
+ movies does",color=blue];
+	300 [label="it has destroyed communication among friends
+ and family",color=green];
 }

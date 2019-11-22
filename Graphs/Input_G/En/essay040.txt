@@ -9,24 +9,93 @@ digraph G {
 	259 -> 246;
 	259 -> 329;
 	276 -> 329;
-	65 [label="It is undoubtedly certain that students can gain their practical experience by getting involved extra jobs",color=blue];
-	141 [label="having experienced in working environment during student time offers a distinct advantage when they apply for jobs after their graduation",color=green];
-	82 [label="Part-time jobs furnish them with precious chance to practice what they are learning at their universities",color=blue];
-	141 [label="having experienced in working environment during student time offers a distinct advantage when they apply for jobs after their graduation",color=green];
-	102 [label="that seems to be more essential the present shortage of sufficiently practical conditions supplied in universities",color=blue];
-	141 [label="having experienced in working environment during student time offers a distinct advantage when they apply for jobs after their graduation",color=green];
-	123 [label="students who get part time jobs have not only academic knowledge but also hands-on experience",color=blue];
-	141 [label="having experienced in working environment during student time offers a distinct advantage when they apply for jobs after their graduation",color=green];
-	164 [label="students who take on a part time job are often more confident and independent than other ones",color=green];
-	182 [label="By constant communicating with other colleagues daily in a company environment where their new ideas can be raised without hesitation , then students' confidence could be significantly gained",color=blue];
-	182 [label="By constant communicating with other colleagues daily in a company environment where their new ideas can be raised without hesitation , then students' confidence could be significantly gained",color=blue];
-	329 [label="having a part time job during your student time will offer students many clear benefits",color=green];
-	213 [label="working conditions require students the independency in thinking , working , and solving problems , which is greatly helpful when the characteristic is applied to tackle subjects in their universities",color=blue];
-	329 [label="having a part time job during your student time will offer students many clear benefits",color=green];
-	246 [label="doing extra jobs helps student with money for their accommodation",color=green];
-	259 [label="high studying tuition , added with raising accommodation expenses are becoming a huge burden to students",color=blue];
-	259 [label="high studying tuition , added with raising accommodation expenses are becoming a huge burden to students",color=blue];
-	329 [label="having a part time job during your student time will offer students many clear benefits",color=green];
-	276 [label="With the money they earn from extra jobs , which normally is not much , those difficulties could be partially solved",color=blue];
-	329 [label="having a part time job during your student time will offer students many clear benefits",color=green];
+	65 [label="It is undoubtedly certain that
+ students can gain their practical
+ experience by getting involved extra
+ jobs",color=blue];
+	141 [label="having experienced in working
+ environment during student time offers
+ a distinct advantage when they
+ apply for jobs after their
+ graduation",color=green];
+	82 [label="Part-time jobs furnish
+ them with precious chance to
+ practice what they are learning
+ at their universities",color=blue];
+	141 [label="having experienced in working
+ environment during student time offers
+ a distinct advantage when they
+ apply for jobs after their
+ graduation",color=green];
+	102 [label="that seems to
+ be more essential the present
+ shortage of sufficiently practical conditions
+ supplied in universities",color=blue];
+	141 [label="having experienced in working
+ environment during student time offers
+ a distinct advantage when they
+ apply for jobs after their
+ graduation",color=green];
+	123 [label="students who
+ get part time jobs have
+ not only academic knowledge but
+ also hands-on experience",color=blue];
+	141 [label="having experienced in working
+ environment during student time offers
+ a distinct advantage when they
+ apply for jobs after their
+ graduation",color=green];
+	164 [label="students who take on a part
+ time job are often more
+ confident and independent than other
+ ones",color=green];
+	182 [label="By constant communicating
+ with other colleagues daily in
+ a company environment where their
+ new ideas can be raised
+ without hesitation , then students'
+ confidence could be significantly gained
+",color=blue];
+	182 [label="By constant communicating
+ with other colleagues daily in
+ a company environment where their
+ new ideas can be raised
+ without hesitation , then students'
+ confidence could be significantly gained
+",color=blue];
+	329 [label="having a part time job during
+ your student time will offer
+ students many clear benefits",color=green];
+	213 [label="working conditions
+ require students the independency in
+ thinking , working , and
+ solving problems , which is
+ greatly helpful when the characteristic
+ is applied to tackle subjects
+ in their universities",color=blue];
+	329 [label="having a part time job during
+ your student time will offer
+ students many clear benefits",color=green];
+	246 [label="doing extra jobs helps
+ student with money for their
+ accommodation",color=green];
+	259 [label="high studying tuition , added with
+ raising accommodation expenses are becoming
+ a huge burden to students
+",color=blue];
+	259 [label="high studying tuition , added with
+ raising accommodation expenses are becoming
+ a huge burden to students
+",color=blue];
+	329 [label="having a part time job during
+ your student time will offer
+ students many clear benefits",color=green];
+	276 [label="With the money they
+ earn from extra jobs ,
+ which normally is not much
+ , those difficulties could be
+ partially solved",color=blue];
+	329 [label="having a part time job during
+ your student time will offer
+ students many clear benefits",color=green];
 }

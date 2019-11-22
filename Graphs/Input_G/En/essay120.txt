@@ -10,26 +10,89 @@ digraph G {
 	263 -> 230;
 	250 -> 306;
 	263 -> 306;
-	52 [label=""murdering" criminals is therefore immoral and hard to accept",color=green];
-	90 [label="what criminals cause to the society , specifically to the victims , is indeed significantly offensive",color=blue];
-	70 [label="every human being has the right to live and no authority is empowered to deprive one of life",color=green];
-	90 [label="what criminals cause to the society , specifically to the victims , is indeed significantly offensive",color=blue];
-	90 [label="what criminals cause to the society , specifically to the victims , is indeed significantly offensive",color=blue];
-	306 [label="it is absurd and inhumane",color=green];
-	107 [label="they are humans and their lives need to be valued",color=blue];
-	306 [label="it is absurd and inhumane",color=green];
-	121 [label="execution does not resolve the consequences of crime",color=blue];
-	306 [label="it is absurd and inhumane",color=green];
-	133 [label="it could put the criminal's family through hardship while the pain of the victim's kin is never to be consoled",color=blue];
-	306 [label="it is absurd and inhumane",color=green];
-	156 [label="capital punishment is certainly not the only option to control the amount of crimes , life imprisonment is just as effective by detaining the criminals in prison for the rest of their lives",color=green];
-	192 [label="in terms of punishment , living a miserable life with restriction to the world outside and sustaining the feeling of guilt every day in a dark bounded room are much more obsessing than being killed right away",color=blue];
-	192 [label="in terms of punishment , living a miserable life with restriction to the world outside and sustaining the feeling of guilt every day in a dark bounded room are much more obsessing than being killed right away",color=blue];
-	306 [label="it is absurd and inhumane",color=green];
-	230 [label="The third reason why the death penalty should be banned is the chance that innocent people are wrongly convicted",color=green];
-	263 [label="many people are executed for the crime they did not commit , which leads to a question of fairness in judicial system",color=blue];
-	250 [label="Juries are also humans , they may lack of discretion",color=blue];
-	306 [label="it is absurd and inhumane",color=green];
-	263 [label="many people are executed for the crime they did not commit , which leads to a question of fairness in judicial system",color=blue];
-	306 [label="it is absurd and inhumane",color=green];
+	52 [label=""murdering" criminals is
+ therefore immoral and hard to
+ accept",color=green];
+	90 [label="what criminals cause to the
+ society , specifically to the
+ victims , is indeed significantly
+ offensive",color=blue];
+	70 [label="every human being has the
+ right to live and no
+ authority is empowered to deprive
+ one of life",color=green];
+	90 [label="what criminals cause to the
+ society , specifically to the
+ victims , is indeed significantly
+ offensive",color=blue];
+	90 [label="what criminals cause to the
+ society , specifically to the
+ victims , is indeed significantly
+ offensive",color=blue];
+	306 [label="it is absurd and
+ inhumane",color=green];
+	107 [label="they are humans
+ and their lives need to
+ be valued",color=blue];
+	306 [label="it is absurd and
+ inhumane",color=green];
+	121 [label="execution does not resolve
+ the consequences of crime",color=blue];
+	306 [label="it is absurd and
+ inhumane",color=green];
+	133 [label="it could
+ put the criminal's family through
+ hardship while the pain of
+ the victim's kin is never
+ to be consoled",color=blue];
+	306 [label="it is absurd and
+ inhumane",color=green];
+	156 [label="capital punishment is certainly
+ not the only option to
+ control the amount of crimes
+ , life imprisonment is just
+ as effective by detaining the
+ criminals in prison for the
+ rest of their lives",color=green];
+	192 [label="in terms of
+ punishment , living a miserable
+ life with restriction to the
+ world outside and sustaining the
+ feeling of guilt every day
+ in a dark bounded room
+ are much more obsessing than
+ being killed right away",color=blue];
+	192 [label="in terms of
+ punishment , living a miserable
+ life with restriction to the
+ world outside and sustaining the
+ feeling of guilt every day
+ in a dark bounded room
+ are much more obsessing than
+ being killed right away",color=blue];
+	306 [label="it is absurd and
+ inhumane",color=green];
+	230 [label="The third reason why the
+ death penalty should be banned
+ is the chance that innocent
+ people are wrongly convicted",color=green];
+	263 [label="many people
+ are executed for the crime
+ they did not commit ,
+ which leads to a question
+ of fairness in judicial system
+",color=blue];
+	250 [label="Juries are also humans ,
+ they may lack of discretion
+",color=blue];
+	306 [label="it is absurd and
+ inhumane",color=green];
+	263 [label="many people
+ are executed for the crime
+ they did not commit ,
+ which leads to a question
+ of fairness in judicial system
+",color=blue];
+	306 [label="it is absurd and
+ inhumane",color=green];
 }

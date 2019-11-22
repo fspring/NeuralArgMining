@@ -9,24 +9,89 @@ digraph G {
 	184 -> 240;
 	220 -> 194;
 	220 -> 240;
-	46 [label="children from poorer families are prone to have bad habits such as : crime , thievery and thuggery",color=green];
-	83 [label="they can be proselytized into bad isms",color=blue];
-	67 [label="these people will not have an access to a good education",color=blue];
-	240 [label="I disagree with the opinion that children who are brought up in less well-of families are , likely , more successful in the future life",color=green];
-	83 [label="they can be proselytized into bad isms",color=blue];
-	240 [label="I disagree with the opinion that children who are brought up in less well-of families are , likely , more successful in the future life",color=green];
-	94 [label="most of the terroristic groups try to attract uneducated people",color=blue];
-	240 [label="I disagree with the opinion that children who are brought up in less well-of families are , likely , more successful in the future life",color=green];
-	106 [label="the person with better education has a wider outlook , which will allow no brainwash",color=blue];
-	240 [label="I disagree with the opinion that children who are brought up in less well-of families are , likely , more successful in the future life",color=green];
-	126 [label="people with lower level of education have more proneness to be attracted in such isms",color=blue];
-	240 [label="I disagree with the opinion that children who are brought up in less well-of families are , likely , more successful in the future life",color=green];
-	170 [label="children from rich families have better skills on how to use money",color=green];
-	184 [label="they use it a lot of times",color=blue];
-	184 [label="they use it a lot of times",color=blue];
-	240 [label="I disagree with the opinion that children who are brought up in less well-of families are , likely , more successful in the future life",color=green];
-	194 [label="wealthy families can afford better health services and costly medicines , which will be very beneficial for the health of a child",color=green];
-	220 [label="many good medicines cost vast amounts of money , which cannot be afforded by poorer families",color=blue];
-	220 [label="many good medicines cost vast amounts of money , which cannot be afforded by poorer families",color=blue];
-	240 [label="I disagree with the opinion that children who are brought up in less well-of families are , likely , more successful in the future life",color=green];
+	46 [label="children from poorer families
+ are prone to have bad
+ habits such as : crime
+ , thievery and thuggery",color=green];
+	83 [label="they can
+ be proselytized into bad isms
+",color=blue];
+	67 [label="these people will
+ not have an access to
+ a good education",color=blue];
+	240 [label="I disagree with the opinion
+ that children who are brought
+ up in less well-of families
+ are , likely , more
+ successful in the future life
+",color=green];
+	83 [label="they can
+ be proselytized into bad isms
+",color=blue];
+	240 [label="I disagree with the opinion
+ that children who are brought
+ up in less well-of families
+ are , likely , more
+ successful in the future life
+",color=green];
+	94 [label="most of the terroristic groups try
+ to attract uneducated people",color=blue];
+	240 [label="I disagree with the opinion
+ that children who are brought
+ up in less well-of families
+ are , likely , more
+ successful in the future life
+",color=green];
+	106 [label="the person with better
+ education has a wider outlook
+ , which will allow no
+ brainwash",color=blue];
+	240 [label="I disagree with the opinion
+ that children who are brought
+ up in less well-of families
+ are , likely , more
+ successful in the future life
+",color=green];
+	126 [label="people with lower level
+ of education have more proneness
+ to be attracted in such
+ isms",color=blue];
+	240 [label="I disagree with the opinion
+ that children who are brought
+ up in less well-of families
+ are , likely , more
+ successful in the future life
+",color=green];
+	170 [label="children from rich families have
+ better skills on how to
+ use money",color=green];
+	184 [label="they use it a lot of
+ times",color=blue];
+	184 [label="they use it a lot of
+ times",color=blue];
+	240 [label="I disagree with the opinion
+ that children who are brought
+ up in less well-of families
+ are , likely , more
+ successful in the future life
+",color=green];
+	194 [label="wealthy families can afford better health
+ services and costly medicines ,
+ which will be very beneficial
+ for the health of a
+ child",color=green];
+	220 [label="many good medicines cost vast
+ amounts of money , which
+ cannot be afforded by poorer
+ families",color=blue];
+	220 [label="many good medicines cost vast
+ amounts of money , which
+ cannot be afforded by poorer
+ families",color=blue];
+	240 [label="I disagree with the opinion
+ that children who are brought
+ up in less well-of families
+ are , likely , more
+ successful in the future life
+",color=green];
 }

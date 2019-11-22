@@ -2,10 +2,28 @@ digraph G {
 	139 -> 127;
 	246 -> 316;
 	295 -> 324;
-	127 [label="it is an oppertunity to learn how to deal with money",color=green];
-	139 [label="take me as an example , when i was 16 , i found a job during summer vacation and earned some money by own",color=blue];
-	246 [label="if a student get a job in a company but he is frequently late for work , the company may reduce his payment or even fire him",color=blue];
-	316 [label="help their children to adapt adult life",color=green];
-	295 [label="he will learn that he has to obey the rule and take responsibility for their work",color=blue];
-	324 [label="parents should let them experience it as much as",color=green];
+	127 [label="it is an oppertunity
+ to learn how to deal
+ with money",color=green];
+	139 [label="take me
+ as an example , when
+ i was 16 , i
+ found a job during summer
+ vacation and earned some money
+ by own",color=blue];
+	246 [label="if a student get a
+ job in a company but
+ he is frequently late for
+ work , the company may
+ reduce his payment or even
+ fire him",color=blue];
+	316 [label="help their children to adapt
+ adult life",color=green];
+	295 [label="he will learn that he has
+ to obey the rule and
+ take responsibility for their work
+",color=blue];
+	324 [label="parents should
+ let them experience it as
+ much as",color=green];
 }

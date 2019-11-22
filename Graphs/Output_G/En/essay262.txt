@@ -11,25 +11,85 @@ digraph G {
 	279 -> 321;
 	300 -> 321;
 	66 [label="industrial",color=green];
-	100 [label="focusing on one skill was enough to deal with the problems because every industry was rather small in size and simple to manage",color=blue];
-	82 [label="the successful people are those who can quickly respond to this rapid-changing world",color=blue];
-	342 [label="it is hard to judge which generation's problems are more difficult but it is",color=green];
-	126 [label="as those industries expand and become internationalized , people are required to equip with multiple skills to answer those challenges",color=blue];
-	335 [label="whether in career or in self-identification",color=green];
-	150 [label="now there are more chances to do business with people around the world , so besides one's own profession , language ability is essential as well",color=blue];
-	335 [label="whether in career or in self-identification",color=green];
-	180 [label=", financial crimes are rampant in the 21st century , thus surging up demands for those who excel at both laws and financial management",color=blue];
-	342 [label="it is hard to judge which generation's problems are more difficult but it is",color=green];
-	207 [label="this generation is encountering the self-recognition issue which could not be experienced by the previous generation",color=green];
-	224 [label="the past generation was given less freedom and was usually asked to follow the paths their parents had prepared for them",color=blue];
-	224 [label="the past generation was given less freedom and was usually asked to follow the paths their parents had prepared for them",color=blue];
-	321 [label="challenges for this generation are more complicated and diverse than the past generation",color=green];
-	249 [label="young people in this generation are exposed to more creative ideas and rather think individually",color=blue];
-	321 [label="challenges for this generation are more complicated and diverse than the past generation",color=green];
-	265 [label="they are eager for finding who they are and what they really want",color=blue];
-	321 [label="challenges for this generation are more complicated and diverse than the past generation",color=green];
-	279 [label="it is fortunate that they can struggle with these sweet worries and these worries are indeed never easy for them",color=blue];
-	321 [label="challenges for this generation are more complicated and diverse than the past generation",color=green];
-	300 [label="they have to make decisions between so many possibilities and they are responsible for taking the consequences",color=blue];
-	321 [label="challenges for this generation are more complicated and diverse than the past generation",color=green];
+	100 [label="focusing on one skill was enough
+ to deal with the problems
+ because every industry was rather
+ small in size and simple
+ to manage",color=blue];
+	82 [label="the successful people are
+ those who can quickly respond
+ to this rapid-changing world",color=blue];
+	342 [label="it is hard to
+ judge which generation's problems are
+ more difficult but it is
+",color=green];
+	126 [label="as those industries expand and
+ become internationalized , people are
+ required to equip with multiple
+ skills to answer those challenges
+",color=blue];
+	335 [label="whether in career or in self-identification
+",color=green];
+	150 [label="now there are more chances to
+ do business with people around
+ the world , so besides
+ one's own profession , language
+ ability is essential as well
+",color=blue];
+	335 [label="whether in career or in self-identification
+",color=green];
+	180 [label=", financial crimes are rampant in
+ the 21st century , thus
+ surging up demands for those
+ who excel at both laws
+ and financial management",color=blue];
+	342 [label="it is hard to
+ judge which generation's problems are
+ more difficult but it is
+",color=green];
+	207 [label="this generation is encountering
+ the self-recognition issue which could
+ not be experienced by the
+ previous generation",color=green];
+	224 [label="the past
+ generation was given less freedom
+ and was usually asked to
+ follow the paths their parents
+ had prepared for them",color=blue];
+	224 [label="the past
+ generation was given less freedom
+ and was usually asked to
+ follow the paths their parents
+ had prepared for them",color=blue];
+	321 [label="challenges for this generation are
+ more complicated and diverse than
+ the past generation",color=green];
+	249 [label="young people
+ in this generation are exposed
+ to more creative ideas and
+ rather think individually",color=blue];
+	321 [label="challenges for this generation are
+ more complicated and diverse than
+ the past generation",color=green];
+	265 [label="they are eager for finding who
+ they are and what they
+ really want",color=blue];
+	321 [label="challenges for this generation are
+ more complicated and diverse than
+ the past generation",color=green];
+	279 [label="it is
+ fortunate that they can struggle
+ with these sweet worries and
+ these worries are indeed never
+ easy for them",color=blue];
+	321 [label="challenges for this generation are
+ more complicated and diverse than
+ the past generation",color=green];
+	300 [label="they have to make decisions between
+ so many possibilities and they
+ are responsible for taking the
+ consequences",color=blue];
+	321 [label="challenges for this generation are
+ more complicated and diverse than
+ the past generation",color=green];
 }

@@ -1,5 +1,10 @@
 digraph G {
 	22 -> 0;
-	0 [label="O anunciado tempo novo não chega a todos da mesma maneira nem com a mesma urgência",color=green];
-	22 [label="não há dinheiro , como agora se percebe",color=blue];
+	0 [label="O anunciado tempo novo não
+ chega a todos da mesma
+ maneira nem com a mesma
+ urgência",color=green];
+	22 [label="não há dinheiro
+ , como agora se percebe
+",color=blue];
 }

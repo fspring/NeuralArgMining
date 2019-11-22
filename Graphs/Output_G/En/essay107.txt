@@ -4,12 +4,26 @@ digraph G {
 	138 -> 122;
 	243 -> 242;
 	243 -> 245;
-	62 [label="rapid development of infrastructure is eating most of the forest throughout world",color=green];
-	75 [label="the so-called concrete jungles have evolved endangering forests and wild life",color=blue];
+	62 [label="rapid development of infrastructure
+ is eating most of the
+ forest throughout world",color=green];
+	75 [label="the so-called concrete jungles have evolved
+ endangering forests and wild life
+",color=blue];
 	110 [label="very essential to maintain ecological",color=green];
-	162 [label="excess emission of carbon dioxide gas mainly by vehicles around the world has increased the average temperature at north pole which in turn has increased water level due to gradual melting of glaciers",color=blue];
+	162 [label="excess emission of carbon
+ dioxide gas mainly by vehicles
+ around the world has increased
+ the average temperature at north
+ pole which in turn has
+ increased water level due to
+ gradual melting of glaciers",color=blue];
 	122 [label="large",color=green];
-	138 [label="importance of ozone layer is evident by the fact as it protects us from harmful ultra violet rays",color=blue];
+	138 [label="importance of ozone
+ layer is evident by the
+ fact as it protects us
+ from harmful ultra violet rays
+",color=blue];
 	242 [label="sea",color=green];
 	243 [label="creatures in",color=blue];
 	243 [label="creatures in",color=blue];

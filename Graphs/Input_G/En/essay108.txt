@@ -9,24 +9,91 @@ digraph G {
 	195 -> 294;
 	225 -> 294;
 	248 -> 294;
-	52 [label="encouraging the workers to retire at age of fifty-five to release the positions for younger job seekers has some merits",color=green];
-	75 [label="fresh graduates are likely to bring a number of practical and applicable ideas to meet the current needs of the organisation",color=blue];
-	75 [label="fresh graduates are likely to bring a number of practical and applicable ideas to meet the current needs of the organisation",color=blue];
-	294 [label="it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly",color=green];
-	100 [label="they have been instilled and imparted the most updated knowledge and skills at universities",color=blue];
-	294 [label="it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly",color=green];
-	117 [label="having a larger proportion of young adults could enhance the working effectiveness and efficiency",color=blue];
-	294 [label="it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly",color=green];
-	132 [label="Compared with aged staffs , younger employees are often physically stronger and energetic which enables them to carry out heavy workload to meet the deadline",color=blue];
-	294 [label="it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly",color=green];
-	160 [label="sacrificing the senior members to save the young workers poses several negative influences",color=green];
-	174 [label="From personal level , it fosters a sense of unfairness between the older and younger generations",color=blue];
-	174 [label="From personal level , it fosters a sense of unfairness between the older and younger generations",color=blue];
-	294 [label="it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly",color=green];
-	195 [label="every person within the business enterprise has the rights to proceed their work as long as they are capable of doing it , disregard the age and physical capacity",color=blue];
-	294 [label="it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly",color=green];
-	225 [label="From social perspective , massively forcing the early retirement would be one of financial burden to the local government",color=blue];
-	294 [label="it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly",color=green];
-	248 [label="sufficient pension payments and regular medical care should be given and arranged for the senior citizens after they have been imposed to terminate their employment permanently",color=blue];
-	294 [label="it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly",color=green];
+	52 [label="encouraging the workers
+ to retire at age of
+ fifty-five to release the positions
+ for younger job seekers has
+ some merits",color=green];
+	75 [label="fresh graduates are likely to
+ bring a number of practical
+ and applicable ideas to meet
+ the current needs of the
+ organisation",color=blue];
+	75 [label="fresh graduates are likely to
+ bring a number of practical
+ and applicable ideas to meet
+ the current needs of the
+ organisation",color=blue];
+	294 [label="it would generate a sense of
+ discrimination among different age groups
+ and increase the government financial
+ pressure accordingly",color=green];
+	100 [label="they have been instilled and
+ imparted the most updated knowledge
+ and skills at universities",color=blue];
+	294 [label="it would generate a sense of
+ discrimination among different age groups
+ and increase the government financial
+ pressure accordingly",color=green];
+	117 [label="having a larger
+ proportion of young adults could
+ enhance the working effectiveness and
+ efficiency",color=blue];
+	294 [label="it would generate a sense of
+ discrimination among different age groups
+ and increase the government financial
+ pressure accordingly",color=green];
+	132 [label="Compared with aged
+ staffs , younger employees are
+ often physically stronger and energetic
+ which enables them to carry
+ out heavy workload to meet
+ the deadline",color=blue];
+	294 [label="it would generate a sense of
+ discrimination among different age groups
+ and increase the government financial
+ pressure accordingly",color=green];
+	160 [label="sacrificing the senior members to
+ save the young workers poses
+ several negative influences",color=green];
+	174 [label="From personal level , it fosters
+ a sense of unfairness between
+ the older and younger generations
+",color=blue];
+	174 [label="From personal level , it fosters
+ a sense of unfairness between
+ the older and younger generations
+",color=blue];
+	294 [label="it would generate a sense of
+ discrimination among different age groups
+ and increase the government financial
+ pressure accordingly",color=green];
+	195 [label="every person within the business
+ enterprise has the rights to
+ proceed their work as long
+ as they are capable of
+ doing it , disregard the
+ age and physical capacity",color=blue];
+	294 [label="it would generate a sense of
+ discrimination among different age groups
+ and increase the government financial
+ pressure accordingly",color=green];
+	225 [label="From social perspective , massively
+ forcing the early retirement would
+ be one of financial burden
+ to the local government",color=blue];
+	294 [label="it would generate a sense of
+ discrimination among different age groups
+ and increase the government financial
+ pressure accordingly",color=green];
+	248 [label="sufficient pension
+ payments and regular medical care
+ should be given and arranged
+ for the senior citizens after
+ they have been imposed to
+ terminate their employment permanently",color=blue];
+	294 [label="it would generate a sense of
+ discrimination among different age groups
+ and increase the government financial
+ pressure accordingly",color=green];
 }

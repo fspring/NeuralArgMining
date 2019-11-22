@@ -1,5 +1,8 @@
 digraph G {
 	118 -> 111;
 	111 [label="one deserves what",color=green];
-	118 [label="university is like a gift presented to those who have gone to great length to attain",color=blue];
+	118 [label="university is like
+ a gift presented to those
+ who have gone to great
+ length to attain",color=blue];
 }

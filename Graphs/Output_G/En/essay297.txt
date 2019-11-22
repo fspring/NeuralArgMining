@@ -1,8 +1,25 @@
 digraph G {
 	188 -> 167;
 	296 -> 386;
-	167 [label="in classroom learning you have to complete study work on time",color=green];
-	188 [label="moreover you can learn by participating in group studies how to communicate with others",color=blue];
-	296 [label="for toefl ibt coaching first i was depend on some online courses , but after 1 month i realized that i was wasting my time so i joined an institute for preparation of toefl ibt , and in 1 month i felt that my english skills have been improving faster",color=blue];
-	386 [label="the classroom learning is the best way to provide education for",color=green];
+	167 [label="in classroom learning you
+ have to complete study work
+ on time",color=green];
+	188 [label="moreover you can
+ learn by participating in group
+ studies how to communicate with
+ others",color=blue];
+	296 [label="for toefl ibt coaching first
+ i was depend on some
+ online courses , but after
+ 1 month i realized that
+ i was wasting my time
+ so i joined an institute
+ for preparation of toefl ibt
+ , and in 1 month
+ i felt that my english
+ skills have been improving faster
+",color=blue];
+	386 [label="the classroom learning is the
+ best way to provide education
+ for",color=green];
 }

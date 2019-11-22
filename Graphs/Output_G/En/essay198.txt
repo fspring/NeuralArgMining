@@ -1,8 +1,17 @@
 digraph G {
 	75 -> 35;
 	177 -> 144;
-	35 [label="certainly spend money on the public transportation system because it",color=green];
-	75 [label="cars depend on gasoline , which is a non-renewable resource",color=blue];
-	144 [label="public transportation helps",color=green];
-	177 [label="the less gas exhaust is pumped to the air and people will no longer have to bear the stuffy situation on the roads , which is always full of fumes",color=blue];
+	35 [label="certainly spend money on the public
+ transportation system because it",color=green];
+	75 [label="cars depend on gasoline , which
+ is a non-renewable resource",color=blue];
+	144 [label="public transportation
+ helps",color=green];
+	177 [label="the less gas exhaust
+ is pumped to the air
+ and people will no longer
+ have to bear the stuffy
+ situation on the roads ,
+ which is always full of
+ fumes",color=blue];
 }

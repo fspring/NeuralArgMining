@@ -1,8 +1,16 @@
 digraph G {
 	45 -> 64;
 	161 -> 64;
-	45 [label="O Centro Hospitalar do Algarve CHA vai começar em julho a dar formação a subespecialistas em medicina intensiva",color=blue];
-	64 [label="o que pode contribuir para atrair médicos para o Algarve",color=green];
-	64 [label="o que pode contribuir para atrair médicos para o Algarve",color=green];
-	161 [label="Médicos de todo o país e da Europa podem candidatar-se às quatro vagas para subespecialistas",color=blue];
+	45 [label="O Centro Hospitalar do Algarve
+ CHA vai começar em julho
+ a dar formação a subespecialistas
+ em medicina intensiva",color=blue];
+	64 [label="o que pode contribuir para atrair
+ médicos para o Algarve",color=green];
+	64 [label="o que pode contribuir para atrair
+ médicos para o Algarve",color=green];
+	161 [label="Médicos de todo o
+ país e da Europa podem
+ candidatar-se às quatro vagas para
+ subespecialistas",color=blue];
 }

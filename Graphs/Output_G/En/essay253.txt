@@ -3,12 +3,53 @@ digraph G {
 	167 -> 342;
 	290 -> 342;
 	320 -> 342;
-	101 [label="subject thus become more interested and active in acquiring the knowledge on that subject",color=green];
-	116 [label="take chemistry for example , merely memorizing the names of the substances and the structural formulas seems to be very boring , while representing where and how those chemical reactions really happen near students will raise their curiosity and lead them to digest those theories learned from the class",color=blue];
-	167 [label="i was in senior high school , my chemical teacher once showed us how the detergent dissolves oil by an experiment and later on taught us how to describe this process with formal structural formulas",color=blue];
-	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning , not",color=green];
-	290 [label=", in law class , students are informed their rights and duties and they are taught how they can apply law to different situations that might happen upon them",color=blue];
-	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning , not",color=green];
-	320 [label="when any one of the situations occurs , they can think independently and figure out how to react",color=blue];
-	342 [label="using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning , not",color=green];
+	101 [label="subject thus become more interested
+ and active in acquiring the
+ knowledge on that subject",color=green];
+	116 [label="take chemistry for example ,
+ merely memorizing the names of
+ the substances and the structural
+ formulas seems to be very
+ boring , while representing where
+ and how those chemical reactions
+ really happen near students will
+ raise their curiosity and lead
+ them to digest those theories
+ learned from the class",color=blue];
+	167 [label="i was in senior
+ high school , my chemical
+ teacher once showed us how
+ the detergent dissolves oil by
+ an experiment and later on
+ taught us how to describe
+ this process with formal structural
+ formulas",color=blue];
+	342 [label="using life experiences and
+ examples to demonstrate the knowledge
+ on a subject is an
+ effective way to attract students'
+ attention and keep them eager
+ on learning , not",color=green];
+	290 [label=", in law class , students
+ are informed their rights and
+ duties and they are taught
+ how they can apply law
+ to different situations that might
+ happen upon them",color=blue];
+	342 [label="using life experiences and
+ examples to demonstrate the knowledge
+ on a subject is an
+ effective way to attract students'
+ attention and keep them eager
+ on learning , not",color=green];
+	320 [label="when any one of the situations
+ occurs , they can think
+ independently and figure out how
+ to react",color=blue];
+	342 [label="using life experiences and
+ examples to demonstrate the knowledge
+ on a subject is an
+ effective way to attract students'
+ attention and keep them eager
+ on learning , not",color=green];
 }

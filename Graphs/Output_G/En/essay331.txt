@@ -1,8 +1,23 @@
 digraph G {
 	144 -> 118;
 	448 -> 464;
-	118 [label="historic buildings have intrinsic values , because they are significant symbols of a city",color=green];
-	144 [label="by seeing historic buildings -- whether related to something famous or recognizably dramatic , people are able to witness the aesthetic and cultural history of an area",color=blue];
-	448 [label="there is no chance to renovate to save a history site once it's gone",color=blue];
-	464 [label="reality brings us to light the importance of locating and saving old buildings of historic",color=green];
+	118 [label="historic buildings have
+ intrinsic values , because they
+ are significant symbols of a
+ city",color=green];
+	144 [label="by seeing
+ historic buildings -- whether related
+ to something famous or recognizably
+ dramatic , people are able
+ to witness the aesthetic and
+ cultural history of an area
+",color=blue];
+	448 [label="there is no
+ chance to renovate to save
+ a history site once it's
+ gone",color=blue];
+	464 [label="reality brings
+ us to light the importance
+ of locating and saving old
+ buildings of historic",color=green];
 }

@@ -7,20 +7,83 @@ digraph G {
 	195 -> 264;
 	213 -> 264;
 	236 -> 264;
-	74 [label="this approach is a basis tool used in several fields such as taking notes",color=green];
-	94 [label="it enables to improve learners' spelling capacity and accompany reading or writing disabilities as well",color=blue];
-	94 [label="it enables to improve learners' spelling capacity and accompany reading or writing disabilities as well",color=blue];
-	264 [label="no matter how fast and convenient modern devices bring to us in writing , handwriting is still a needed skill for all of people",color=green];
-	110 [label="under the guidance of parents or teachers , children can benefit from practicing handwriting",color=blue];
-	264 [label="no matter how fast and convenient modern devices bring to us in writing , handwriting is still a needed skill for all of people",color=green];
-	125 [label="this way of writing will encourage them to pay more attention on content , elaborate in details and develop their organization abilities",color=blue];
-	264 [label="no matter how fast and convenient modern devices bring to us in writing , handwriting is still a needed skill for all of people",color=green];
-	178 [label="that kids who are bad at handwriting meet difficulties in taking notes and catching up lessons",color=blue];
-	264 [label="no matter how fast and convenient modern devices bring to us in writing , handwriting is still a needed skill for all of people",color=green];
-	195 [label="it resulted in the missing of information and the lack of details during their works",color=blue];
-	264 [label="no matter how fast and convenient modern devices bring to us in writing , handwriting is still a needed skill for all of people",color=green];
-	213 [label="the increasing taking advantage of advanced equipment could make students be lazier and more subjective in their writing skills",color=blue];
-	264 [label="no matter how fast and convenient modern devices bring to us in writing , handwriting is still a needed skill for all of people",color=green];
-	236 [label="with the assistance of automatic grammar and spelling checking in office word , learners are now no need for noticing much in their mistakes",color=blue];
-	264 [label="no matter how fast and convenient modern devices bring to us in writing , handwriting is still a needed skill for all of people",color=green];
+	74 [label="this approach
+ is a basis tool used
+ in several fields such as
+ taking notes",color=green];
+	94 [label="it enables
+ to improve learners' spelling capacity
+ and accompany reading or writing
+ disabilities as well",color=blue];
+	94 [label="it enables
+ to improve learners' spelling capacity
+ and accompany reading or writing
+ disabilities as well",color=blue];
+	264 [label="no matter
+ how fast and convenient modern
+ devices bring to us in
+ writing , handwriting is still
+ a needed skill for all
+ of people",color=green];
+	110 [label="under the guidance of parents or
+ teachers , children can benefit
+ from practicing handwriting",color=blue];
+	264 [label="no matter
+ how fast and convenient modern
+ devices bring to us in
+ writing , handwriting is still
+ a needed skill for all
+ of people",color=green];
+	125 [label="this way of writing will encourage
+ them to pay more attention
+ on content , elaborate in
+ details and develop their organization
+ abilities",color=blue];
+	264 [label="no matter
+ how fast and convenient modern
+ devices bring to us in
+ writing , handwriting is still
+ a needed skill for all
+ of people",color=green];
+	178 [label="that kids who
+ are bad at handwriting meet
+ difficulties in taking notes and
+ catching up lessons",color=blue];
+	264 [label="no matter
+ how fast and convenient modern
+ devices bring to us in
+ writing , handwriting is still
+ a needed skill for all
+ of people",color=green];
+	195 [label="it resulted in the missing of
+ information and the lack of
+ details during their works",color=blue];
+	264 [label="no matter
+ how fast and convenient modern
+ devices bring to us in
+ writing , handwriting is still
+ a needed skill for all
+ of people",color=green];
+	213 [label="the increasing taking
+ advantage of advanced equipment could
+ make students be lazier and
+ more subjective in their writing
+ skills",color=blue];
+	264 [label="no matter
+ how fast and convenient modern
+ devices bring to us in
+ writing , handwriting is still
+ a needed skill for all
+ of people",color=green];
+	236 [label="with the assistance of automatic
+ grammar and spelling checking in
+ office word , learners are
+ now no need for noticing
+ much in their mistakes",color=blue];
+	264 [label="no matter
+ how fast and convenient modern
+ devices bring to us in
+ writing , handwriting is still
+ a needed skill for all
+ of people",color=green];
 }

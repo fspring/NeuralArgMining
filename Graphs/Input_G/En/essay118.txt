@@ -11,28 +11,102 @@ digraph G {
 	240 -> 316;
 	285 -> 316;
 	299 -> 316;
-	41 [label="their salary at a lower level would be more appropriate compared with other peoples in scientific or social , economic fields",color=green];
-	79 [label="they have an exceptional ability that other people do not own",color=blue];
-	71 [label="athletes and singers deserve their current salary",color=green];
-	79 [label="they have an exceptional ability that other people do not own",color=blue];
-	79 [label="they have an exceptional ability that other people do not own",color=blue];
-	346 [label="professional athletes and singers are overpaid in terms of their contributions",color=green];
-	94 [label="hardly anyone could play basketball as skillfully as Michael Jordan - a legendary former American player who won several times in the NBA championship",color=blue];
-	346 [label="professional athletes and singers are overpaid in terms of their contributions",color=green];
-	119 [label="They also point out that these people have to undergo painstaking and industrious training , let alone participate in a great number of contests to be recognized and prove themselves",color=blue];
-	346 [label="professional athletes and singers are overpaid in terms of their contributions",color=green];
-	154 [label="there are many singers and athletes , few of whom could rise to fame and victory ultimately",color=blue];
-	346 [label="professional athletes and singers are overpaid in terms of their contributions",color=green];
-	172 [label="Overcoming all these obstacles , they should be paid a great deal of money for their extraordinary efforts",color=blue];
-	346 [label="professional athletes and singers are overpaid in terms of their contributions",color=green];
-	204 [label="singers and athletes , in fact , contribute insignificantly to the development of the society",color=blue];
-	316 [label="their privilege of salary seems groundless , while the main work forces receive modest salaries which only enable them to afford bare necessities",color=green];
-	220 [label="It is assumed the amazing performances they give to the audiences are only valuable in aesthetic and entertaining terms",color=blue];
-	316 [label="their privilege of salary seems groundless , while the main work forces receive modest salaries which only enable them to afford bare necessities",color=green];
-	240 [label="While scientists invent machines serving daily lives , doctors take care of patients and cure their diseases and policemen help to ensure the safety and stability of the nation , singers and athletes do not play a helpful part in improving the material life",color=blue];
-	316 [label="their privilege of salary seems groundless , while the main work forces receive modest salaries which only enable them to afford bare necessities",color=green];
-	285 [label="They commit themselves to promoting relaxation and enjoyment for the audience",color=blue];
-	316 [label="their privilege of salary seems groundless , while the main work forces receive modest salaries which only enable them to afford bare necessities",color=green];
-	299 [label="their contribution is less important than those from doctors or scientists , albeit necessary",color=blue];
-	316 [label="their privilege of salary seems groundless , while the main work forces receive modest salaries which only enable them to afford bare necessities",color=green];
+	41 [label="their salary at a
+ lower level would be more
+ appropriate compared with other peoples
+ in scientific or social ,
+ economic fields",color=green];
+	79 [label="they have an exceptional ability that
+ other people do not own
+",color=blue];
+	71 [label="athletes and singers deserve
+ their current salary",color=green];
+	79 [label="they have an exceptional ability that
+ other people do not own
+",color=blue];
+	79 [label="they have an exceptional ability that
+ other people do not own
+",color=blue];
+	346 [label="professional athletes and singers
+ are overpaid in terms of
+ their contributions",color=green];
+	94 [label="hardly anyone could play basketball as
+ skillfully as Michael Jordan -
+ a legendary former American player
+ who won several times in
+ the NBA championship",color=blue];
+	346 [label="professional athletes and singers
+ are overpaid in terms of
+ their contributions",color=green];
+	119 [label="They also point out that these
+ people have to undergo painstaking
+ and industrious training , let
+ alone participate in a great
+ number of contests to be
+ recognized and prove themselves",color=blue];
+	346 [label="professional athletes and singers
+ are overpaid in terms of
+ their contributions",color=green];
+	154 [label="there are many singers and athletes
+ , few of whom could
+ rise to fame and victory
+ ultimately",color=blue];
+	346 [label="professional athletes and singers
+ are overpaid in terms of
+ their contributions",color=green];
+	172 [label="Overcoming all these
+ obstacles , they should be
+ paid a great deal of
+ money for their extraordinary efforts
+",color=blue];
+	346 [label="professional athletes and singers
+ are overpaid in terms of
+ their contributions",color=green];
+	204 [label="singers and athletes , in fact
+ , contribute insignificantly to the
+ development of the society",color=blue];
+	316 [label="their privilege of salary
+ seems groundless , while the
+ main work forces receive modest
+ salaries which only enable them
+ to afford bare necessities",color=green];
+	220 [label="It is assumed the amazing
+ performances they give to the
+ audiences are only valuable in
+ aesthetic and entertaining terms",color=blue];
+	316 [label="their privilege of salary
+ seems groundless , while the
+ main work forces receive modest
+ salaries which only enable them
+ to afford bare necessities",color=green];
+	240 [label="While scientists invent machines serving
+ daily lives , doctors take
+ care of patients and cure
+ their diseases and policemen help
+ to ensure the safety and
+ stability of the nation ,
+ singers and athletes do not
+ play a helpful part in
+ improving the material life",color=blue];
+	316 [label="their privilege of salary
+ seems groundless , while the
+ main work forces receive modest
+ salaries which only enable them
+ to afford bare necessities",color=green];
+	285 [label="They commit themselves to promoting
+ relaxation and enjoyment for the
+ audience",color=blue];
+	316 [label="their privilege of salary
+ seems groundless , while the
+ main work forces receive modest
+ salaries which only enable them
+ to afford bare necessities",color=green];
+	299 [label="their contribution is less important than
+ those from doctors or scientists
+ , albeit necessary",color=blue];
+	316 [label="their privilege of salary
+ seems groundless , while the
+ main work forces receive modest
+ salaries which only enable them
+ to afford bare necessities",color=green];
 }

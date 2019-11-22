@@ -11,28 +11,106 @@ digraph G {
 	250 -> 295;
 	266 -> 295;
 	278 -> 295;
-	22 [label="stress management , how to survive our unbearable stress , is the most important skill that we should have",color=green];
-	47 [label="Stress , our body's way of responding to any kind of demand , can be caused by both good and bad experiences",color=blue];
-	47 [label="Stress , our body's way of responding to any kind of demand , can be caused by both good and bad experiences",color=blue];
-	107 [label="if we don't have a good stress management skill , it may lead to some critical problems",color=green];
-	70 [label="Stress may be a positive mobilization to drive for success",color=blue];
-	107 [label="if we don't have a good stress management skill , it may lead to some critical problems",color=green];
-	83 [label="it is widely thought that we experience stress any time , which comes across unexpectedly that frustrates our goals",color=blue];
-	107 [label="if we don't have a good stress management skill , it may lead to some critical problems",color=green];
-	125 [label="In the frenetic , fast-paced world , it is a very common predicament that all of us , from the young to the senior , feel depressed caused by stress , such as financial problems , exam stress , relationship difficulties and work overload",color=blue];
-	210 [label="stress management recently becomes a more significant issue in our realization",color=green];
-	170 [label="Some people regard stress as a power , which overcomes the obstacles to motivate themselves to do their best",color=blue];
-	210 [label="stress management recently becomes a more significant issue in our realization",color=green];
-	190 [label="other people cannot charge of their thoughts , emotions , and the way they deal with problems",color=blue];
-	210 [label="stress management recently becomes a more significant issue in our realization",color=green];
-	224 [label="stress takes a toll on our health",color=blue];
-	295 [label="it is necessary that we should reduce and cope with our stress in the goal of balancing our mind and body",color=green];
-	232 [label="It is known that the modern life is frequently full of hassles , frustrations , and demands",color=blue];
-	295 [label="it is necessary that we should reduce and cope with our stress in the goal of balancing our mind and body",color=green];
-	250 [label="This is one of the reasons why people were overwhelmed by constant stress",color=blue];
-	295 [label="it is necessary that we should reduce and cope with our stress in the goal of balancing our mind and body",color=green];
-	266 [label="some people have physical problems , such as insomnia and headaches",color=blue];
-	295 [label="it is necessary that we should reduce and cope with our stress in the goal of balancing our mind and body",color=green];
-	278 [label="Melancholia , the most fatal problem , even leads some people to commit suicide",color=blue];
-	295 [label="it is necessary that we should reduce and cope with our stress in the goal of balancing our mind and body",color=green];
+	22 [label="stress management ,
+ how to survive our unbearable
+ stress , is the most
+ important skill that we should
+ have",color=green];
+	47 [label="Stress , our
+ body's way of responding to
+ any kind of demand ,
+ can be caused by both
+ good and bad experiences",color=blue];
+	47 [label="Stress , our
+ body's way of responding to
+ any kind of demand ,
+ can be caused by both
+ good and bad experiences",color=blue];
+	107 [label="if we don't
+ have a good stress management
+ skill , it may lead
+ to some critical problems",color=green];
+	70 [label="Stress may be a positive
+ mobilization to drive for success
+",color=blue];
+	107 [label="if we don't
+ have a good stress management
+ skill , it may lead
+ to some critical problems",color=green];
+	83 [label="it is
+ widely thought that we experience
+ stress any time , which
+ comes across unexpectedly that frustrates
+ our goals",color=blue];
+	107 [label="if we don't
+ have a good stress management
+ skill , it may lead
+ to some critical problems",color=green];
+	125 [label="In the frenetic , fast-paced
+ world , it is a
+ very common predicament that all
+ of us , from the
+ young to the senior ,
+ feel depressed caused by stress
+ , such as financial problems
+ , exam stress , relationship
+ difficulties and work overload",color=blue];
+	210 [label="stress management recently becomes a
+ more significant issue in our
+ realization",color=green];
+	170 [label="Some people regard stress as
+ a power , which overcomes
+ the obstacles to motivate themselves
+ to do their best",color=blue];
+	210 [label="stress management recently becomes a
+ more significant issue in our
+ realization",color=green];
+	190 [label="other people cannot charge of
+ their thoughts , emotions ,
+ and the way they deal
+ with problems",color=blue];
+	210 [label="stress management recently becomes a
+ more significant issue in our
+ realization",color=green];
+	224 [label="stress takes a toll on our
+ health",color=blue];
+	295 [label="it is necessary that we
+ should reduce and cope with
+ our stress in the goal
+ of balancing our mind and
+ body",color=green];
+	232 [label="It is known
+ that the modern life is
+ frequently full of hassles ,
+ frustrations , and demands",color=blue];
+	295 [label="it is necessary that we
+ should reduce and cope with
+ our stress in the goal
+ of balancing our mind and
+ body",color=green];
+	250 [label="This is one of the
+ reasons why people were overwhelmed
+ by constant stress",color=blue];
+	295 [label="it is necessary that we
+ should reduce and cope with
+ our stress in the goal
+ of balancing our mind and
+ body",color=green];
+	266 [label="some people have physical
+ problems , such as insomnia
+ and headaches",color=blue];
+	295 [label="it is necessary that we
+ should reduce and cope with
+ our stress in the goal
+ of balancing our mind and
+ body",color=green];
+	278 [label="Melancholia ,
+ the most fatal problem ,
+ even leads some people to
+ commit suicide",color=blue];
+	295 [label="it is necessary that we
+ should reduce and cope with
+ our stress in the goal
+ of balancing our mind and
+ body",color=green];
 }

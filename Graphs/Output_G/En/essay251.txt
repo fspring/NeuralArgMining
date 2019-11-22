@@ -5,16 +5,48 @@ digraph G {
 	108 -> 169;
 	202 -> 169;
 	358 -> 355;
-	67 [label="the core of group working is "consensus"",color=green];
-	87 [label="group members gather together to have brain-storming discussion , think over every possible solutions and then finally reach an agreement",color=blue];
+	67 [label="the core of group
+ working is "consensus"",color=green];
+	87 [label="group members gather together
+ to have brain-storming discussion ,
+ think over every possible solutions
+ and then finally reach an
+ agreement",color=blue];
 	75 [label="it's the idea that everyone’s",color=green];
-	87 [label="group members gather together to have brain-storming discussion , think over every possible solutions and then finally reach an agreement",color=blue];
+	87 [label="group members gather together
+ to have brain-storming discussion ,
+ think over every possible solutions
+ and then finally reach an
+ agreement",color=blue];
 	81 [label="accounts",color=green];
-	87 [label="group members gather together to have brain-storming discussion , think over every possible solutions and then finally reach an agreement",color=blue];
-	108 [label="in this long process of discussion , there must be different opinions sparkling out",color=blue];
-	169 [label="criticism is a virtue as you take someone's opinion that is against you",color=green];
-	169 [label="criticism is a virtue as you take someone's opinion that is against you",color=green];
-	202 [label="definitely hurts because it points out your drawbacks and forces you to confront them",color=blue];
+	87 [label="group members gather together
+ to have brain-storming discussion ,
+ think over every possible solutions
+ and then finally reach an
+ agreement",color=blue];
+	108 [label="in this long
+ process of discussion , there
+ must be different opinions sparkling
+ out",color=blue];
+	169 [label="criticism is
+ a virtue as you take
+ someone's opinion that is against
+ you",color=green];
+	169 [label="criticism is
+ a virtue as you take
+ someone's opinion that is against
+ you",color=green];
+	202 [label="definitely hurts because it
+ points out your drawbacks and
+ forces you to confront them
+",color=blue];
 	355 [label="even if you",color=green];
-	358 [label="are right , criticism is still helpful because in this case it not only is a fixer , but it also serves as a practice to test you how much you know about your work",color=blue];
+	358 [label="are right ,
+ criticism is still helpful because
+ in this case it not
+ only is a fixer ,
+ but it also serves as
+ a practice to test you
+ how much you know about
+ your work",color=blue];
 }

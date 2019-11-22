@@ -7,20 +7,86 @@ digraph G {
 	260 -> 352;
 	285 -> 352;
 	299 -> 352;
-	108 [label="there are numerous job opportunities for those who do not have the certification of university graduation , such as mechanics , sales persons , or engineers",color=blue];
-	174 [label="it is a loss of national productivity that young people spend much time on searching for high salary jobs , even can be a sheer time-consuming",color=green];
-	139 [label="labors for graduates are in short supply",color=blue];
-	174 [label="it is a loss of national productivity that young people spend much time on searching for high salary jobs , even can be a sheer time-consuming",color=green];
-	151 [label="the labor market for highly educated students is now too competitive to get a job after finishing their studying",color=blue];
-	174 [label="it is a loss of national productivity that young people spend much time on searching for high salary jobs , even can be a sheer time-consuming",color=green];
-	218 [label="universities provide not only skills for careers , but also academic knowledge for the human race , such as bio science , politics , and medicine",color=green];
-	245 [label="These academic values are necessary to the progress of the world",color=blue];
-	245 [label="These academic values are necessary to the progress of the world",color=blue];
-	352 [label="the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges",color=green];
-	260 [label="many researches in the ivory-tower have created ingenious discoveries and achievements for the development of modern society",color=blue];
-	352 [label="the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges",color=green];
-	285 [label="diverse experiences in the campus life can make the young generation more competently",color=blue];
-	352 [label="the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges",color=green];
-	299 [label="there are a number of chances through internships , deeper discussion , independent life , and exchange scholarships",color=blue];
-	352 [label="the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges",color=green];
+	108 [label="there are
+ numerous job opportunities for those
+ who do not have the
+ certification of university graduation ,
+ such as mechanics , sales
+ persons , or engineers",color=blue];
+	174 [label="it is a loss of national
+ productivity that young people spend
+ much time on searching for
+ high salary jobs , even
+ can be a sheer time-consuming
+",color=green];
+	139 [label="labors for graduates are in short
+ supply",color=blue];
+	174 [label="it is a loss of national
+ productivity that young people spend
+ much time on searching for
+ high salary jobs , even
+ can be a sheer time-consuming
+",color=green];
+	151 [label="the labor market for
+ highly educated students is now
+ too competitive to get a
+ job after finishing their studying
+",color=blue];
+	174 [label="it is a loss of national
+ productivity that young people spend
+ much time on searching for
+ high salary jobs , even
+ can be a sheer time-consuming
+",color=green];
+	218 [label="universities provide
+ not only skills for careers
+ , but also academic knowledge
+ for the human race ,
+ such as bio science ,
+ politics , and medicine",color=green];
+	245 [label="These academic values are necessary
+ to the progress of the
+ world",color=blue];
+	245 [label="These academic values are necessary
+ to the progress of the
+ world",color=blue];
+	352 [label="the benefits of
+ learning in universities are the
+ vital factor in creating more
+ possibilities for the development of
+ society through advancing academic fulfillment
+ and the young generation who
+ have experiences and challenges",color=green];
+	260 [label="many researches in the ivory-tower
+ have created ingenious discoveries and
+ achievements for the development of
+ modern society",color=blue];
+	352 [label="the benefits of
+ learning in universities are the
+ vital factor in creating more
+ possibilities for the development of
+ society through advancing academic fulfillment
+ and the young generation who
+ have experiences and challenges",color=green];
+	285 [label="diverse experiences in the campus
+ life can make the young
+ generation more competently",color=blue];
+	352 [label="the benefits of
+ learning in universities are the
+ vital factor in creating more
+ possibilities for the development of
+ society through advancing academic fulfillment
+ and the young generation who
+ have experiences and challenges",color=green];
+	299 [label="there are a number of chances
+ through internships , deeper discussion
+ , independent life , and
+ exchange scholarships",color=blue];
+	352 [label="the benefits of
+ learning in universities are the
+ vital factor in creating more
+ possibilities for the development of
+ society through advancing academic fulfillment
+ and the young generation who
+ have experiences and challenges",color=green];
 }

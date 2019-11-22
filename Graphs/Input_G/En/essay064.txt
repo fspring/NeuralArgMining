@@ -11,28 +11,132 @@ digraph G {
 	286 -> 366;
 	314 -> 366;
 	329 -> 366;
-	61 [label="parents and educators should attach more importance to traditional games",color=green];
-	111 [label="children have to be proficient at computers and the Internet if they want to join online games , which , in fact , helps children acquire a particularly powerful skill at work in future",color=blue];
-	76 [label="modern games may be , to some extent , beneficial for children to foster some skills , such as computer skills or the capacity to keep up with the latest trend",color=green];
-	111 [label="children have to be proficient at computers and the Internet if they want to join online games , which , in fact , helps children acquire a particularly powerful skill at work in future",color=blue];
-	111 [label="children have to be proficient at computers and the Internet if they want to join online games , which , in fact , helps children acquire a particularly powerful skill at work in future",color=blue];
-	366 [label="traditional games should be , by no means , ignored by parents and teachers with the advent of modern games",color=green];
-	151 [label="children have the chance to experience the state-of-the-art technology , raising their awareness of innovation rather than stay conservative",color=blue];
-	366 [label="traditional games should be , by no means , ignored by parents and teachers with the advent of modern games",color=green];
-	175 [label="traditional games are still indispensible in children's learning process , even much more essential than modern games , especially in modern society",color=green];
-	198 [label="One primary merit of traditional games is that they foster children's communication skills",color=blue];
-	198 [label="One primary merit of traditional games is that they foster children's communication skills",color=blue];
-	366 [label="traditional games should be , by no means , ignored by parents and teachers with the advent of modern games",color=green];
-	212 [label="Unlike most modern games which focus on the interactions between children and machines , traditional games provide a relaxing and enjoyable atmosphere where children can chat , laugh and cooperate face to face",color=blue];
-	366 [label="traditional games should be , by no means , ignored by parents and teachers with the advent of modern games",color=green];
-	250 [label="communicating with a variety of people will not be an issue for these children any more",color=blue];
-	366 [label="traditional games should be , by no means , ignored by parents and teachers with the advent of modern games",color=green];
-	269 [label="it is the educational functions traditional games hold that keep them alive today",color=green];
-	286 [label="these traditional games were elaborately devised by educators and have been proven effective in improving children's skills on different aspects in previous teaching practices",color=blue];
-	286 [label="these traditional games were elaborately devised by educators and have been proven effective in improving children's skills on different aspects in previous teaching practices",color=blue];
-	366 [label="traditional games should be , by no means , ignored by parents and teachers with the advent of modern games",color=green];
-	314 [label="modern games are developed by game companies for the purpose of profits",color=blue];
-	366 [label="traditional games should be , by no means , ignored by parents and teachers with the advent of modern games",color=green];
-	329 [label="there is a risk that children may be exposed to unhealthy contents , such as violence or pornography , arranged in the games by such companies to secure financial survival",color=blue];
-	366 [label="traditional games should be , by no means , ignored by parents and teachers with the advent of modern games",color=green];
+	61 [label="parents and educators should
+ attach more importance to traditional
+ games",color=green];
+	111 [label="children have to be
+ proficient at computers and the
+ Internet if they want to
+ join online games , which
+ , in fact , helps
+ children acquire a particularly powerful
+ skill at work in future
+",color=blue];
+	76 [label="modern games may be
+ , to some extent ,
+ beneficial for children to foster
+ some skills , such as
+ computer skills or the capacity
+ to keep up with the
+ latest trend",color=green];
+	111 [label="children have to be
+ proficient at computers and the
+ Internet if they want to
+ join online games , which
+ , in fact , helps
+ children acquire a particularly powerful
+ skill at work in future
+",color=blue];
+	111 [label="children have to be
+ proficient at computers and the
+ Internet if they want to
+ join online games , which
+ , in fact , helps
+ children acquire a particularly powerful
+ skill at work in future
+",color=blue];
+	366 [label="traditional games should be
+ , by no means ,
+ ignored by parents and teachers
+ with the advent of modern
+ games",color=green];
+	151 [label="children have the chance
+ to experience the state-of-the-art technology
+ , raising their awareness of
+ innovation rather than stay conservative
+",color=blue];
+	366 [label="traditional games should be
+ , by no means ,
+ ignored by parents and teachers
+ with the advent of modern
+ games",color=green];
+	175 [label="traditional games are still indispensible
+ in children's learning process ,
+ even much more essential than
+ modern games , especially in
+ modern society",color=green];
+	198 [label="One primary
+ merit of traditional games is
+ that they foster children's communication
+ skills",color=blue];
+	198 [label="One primary
+ merit of traditional games is
+ that they foster children's communication
+ skills",color=blue];
+	366 [label="traditional games should be
+ , by no means ,
+ ignored by parents and teachers
+ with the advent of modern
+ games",color=green];
+	212 [label="Unlike most modern
+ games which focus on the
+ interactions between children and machines
+ , traditional games provide a
+ relaxing and enjoyable atmosphere where
+ children can chat , laugh
+ and cooperate face to face
+",color=blue];
+	366 [label="traditional games should be
+ , by no means ,
+ ignored by parents and teachers
+ with the advent of modern
+ games",color=green];
+	250 [label="communicating with a variety of
+ people will not be an
+ issue for these children any
+ more",color=blue];
+	366 [label="traditional games should be
+ , by no means ,
+ ignored by parents and teachers
+ with the advent of modern
+ games",color=green];
+	269 [label="it is the educational functions traditional
+ games hold that keep them
+ alive today",color=green];
+	286 [label="these traditional games were
+ elaborately devised by educators and
+ have been proven effective in
+ improving children's skills on different
+ aspects in previous teaching practices
+",color=blue];
+	286 [label="these traditional games were
+ elaborately devised by educators and
+ have been proven effective in
+ improving children's skills on different
+ aspects in previous teaching practices
+",color=blue];
+	366 [label="traditional games should be
+ , by no means ,
+ ignored by parents and teachers
+ with the advent of modern
+ games",color=green];
+	314 [label="modern games are developed by game
+ companies for the purpose of
+ profits",color=blue];
+	366 [label="traditional games should be
+ , by no means ,
+ ignored by parents and teachers
+ with the advent of modern
+ games",color=green];
+	329 [label="there is a risk that children
+ may be exposed to unhealthy
+ contents , such as violence
+ or pornography , arranged in
+ the games by such companies
+ to secure financial survival",color=blue];
+	366 [label="traditional games should be
+ , by no means ,
+ ignored by parents and teachers
+ with the advent of modern
+ games",color=green];
 }

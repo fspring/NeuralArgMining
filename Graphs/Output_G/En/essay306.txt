@@ -2,10 +2,27 @@ digraph G {
 	41 -> 32;
 	159 -> 153;
 	317 -> 369;
-	32 [label="technology makes their life easier",color=green];
-	41 [label="technology may make people's life complicated in some aspects , the convenience it brings is more",color=blue];
+	32 [label="technology makes their life
+ easier",color=green];
+	41 [label="technology may make people's life
+ complicated in some aspects ,
+ the convenience it brings is
+ more",color=blue];
 	153 [label="technology",color=green];
-	159 [label="in the past , teachers have to write what they want to convey to students on the chalkboard , resulting in a great waste of time and the fatigue of teachers",color=blue];
-	317 [label="in addition , games on their phone exert a tremendous fascination on teenagers , leading to a large problem that they got addicted to their phones",color=blue];
-	369 [label="although technology may make people's life complicated in some cases",color=green];
+	159 [label="in the
+ past , teachers have to
+ write what they want to
+ convey to students on the
+ chalkboard , resulting in a
+ great waste of time and
+ the fatigue of teachers",color=blue];
+	317 [label="in addition , games
+ on their phone exert a
+ tremendous fascination on teenagers ,
+ leading to a large problem
+ that they got addicted to
+ their phones",color=blue];
+	369 [label="although technology
+ may make people's life complicated
+ in some cases",color=green];
 }

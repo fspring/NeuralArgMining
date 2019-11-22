@@ -1,5 +1,12 @@
 digraph G {
 	109 -> 99;
-	99 [label="convergem em duas etapas essenciais para deixar de fumar",color=green];
-	109 [label="a primeira passa por reconhecer que o cigarro se tornou mais importante que o amigo mais íntimo ou o familiar mais querido",color=blue];
+	99 [label="convergem em
+ duas etapas essenciais para deixar
+ de fumar",color=green];
+	109 [label="a primeira
+ passa por reconhecer que o
+ cigarro se tornou mais importante
+ que o amigo mais íntimo
+ ou o familiar mais querido
+",color=blue];
 }

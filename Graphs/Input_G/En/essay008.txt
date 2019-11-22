@@ -8,22 +8,98 @@ digraph G {
 	243 -> 278;
 	258 -> 278;
 	263 -> 278;
-	69 [label="a government is supposed to offer sufficient financial support for both",color=green];
-	83 [label="elementary education , like the base of a architecture , is the fundamental requirement to be a qualified citizen in today's society",color=blue];
-	83 [label="elementary education , like the base of a architecture , is the fundamental requirement to be a qualified citizen in today's society",color=blue];
-	152 [label="if countries , especially the developing countries , are determined to take off , one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education",color=green];
-	106 [label="government should guarantee that all people have equal and convenient access to it",color=blue];
-	152 [label="if countries , especially the developing countries , are determined to take off , one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education",color=green];
-	121 [label="a lack of well-established primary education goes hand in hand with a high rate of illiteracy , and this interplay seriously compromises a country's future development",color=blue];
-	152 [label="if countries , especially the developing countries , are determined to take off , one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education",color=green];
-	191 [label="for higher education , which represent the cutting edge of a country's academic achievements , act as the vanguard in economic and social advance",color=blue];
-	278 [label="government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide",color=green];
-	216 [label="The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community",color=blue];
-	278 [label="government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide",color=green];
-	243 [label="Some may argue that universities can support themselve well by donation or invention",color=blue];
-	278 [label="government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide",color=green];
-	258 [label="this argument is invalid",color=blue];
-	278 [label="government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide",color=green];
-	263 [label="Researches into humanities and art still need large amount of money",color=blue];
-	278 [label="government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide",color=green];
+	69 [label="a government is supposed to offer
+ sufficient financial support for both
+",color=green];
+	83 [label="elementary education
+ , like the base of
+ a architecture , is the
+ fundamental requirement to be a
+ qualified citizen in today's society
+",color=blue];
+	83 [label="elementary education
+ , like the base of
+ a architecture , is the
+ fundamental requirement to be a
+ qualified citizen in today's society
+",color=blue];
+	152 [label="if countries ,
+ especially the developing countries ,
+ are determined to take off
+ , one of the key
+ points governments should set on
+ agenda is to educate more
+ qualified future citizens through elementary
+ education",color=green];
+	106 [label="government should guarantee that
+ all people have equal and
+ convenient access to it",color=blue];
+	152 [label="if countries ,
+ especially the developing countries ,
+ are determined to take off
+ , one of the key
+ points governments should set on
+ agenda is to educate more
+ qualified future citizens through elementary
+ education",color=green];
+	121 [label="a lack of well-established
+ primary education goes hand in
+ hand with a high rate
+ of illiteracy , and this
+ interplay seriously compromises a country's
+ future development",color=blue];
+	152 [label="if countries ,
+ especially the developing countries ,
+ are determined to take off
+ , one of the key
+ points governments should set on
+ agenda is to educate more
+ qualified future citizens through elementary
+ education",color=green];
+	191 [label="for higher education ,
+ which represent the cutting edge
+ of a country's academic achievements
+ , act as the vanguard
+ in economic and social advance
+",color=blue];
+	278 [label="government's big
+ budget on universities may attract
+ more excellent intellectuals and researchers
+ into the country and enjoy
+ a higher reputation worldwide",color=green];
+	216 [label="The high technology and
+ new ideas applied into practice
+ may not only lead a
+ country to flourish but also
+ elevate its status in the
+ international community",color=blue];
+	278 [label="government's big
+ budget on universities may attract
+ more excellent intellectuals and researchers
+ into the country and enjoy
+ a higher reputation worldwide",color=green];
+	243 [label="Some may
+ argue that universities can support
+ themselve well by donation or
+ invention",color=blue];
+	278 [label="government's big
+ budget on universities may attract
+ more excellent intellectuals and researchers
+ into the country and enjoy
+ a higher reputation worldwide",color=green];
+	258 [label="this argument
+ is invalid",color=blue];
+	278 [label="government's big
+ budget on universities may attract
+ more excellent intellectuals and researchers
+ into the country and enjoy
+ a higher reputation worldwide",color=green];
+	263 [label="Researches into
+ humanities and art still need
+ large amount of money",color=blue];
+	278 [label="government's big
+ budget on universities may attract
+ more excellent intellectuals and researchers
+ into the country and enjoy
+ a higher reputation worldwide",color=green];
 }

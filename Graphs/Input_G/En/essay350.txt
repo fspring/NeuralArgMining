@@ -11,28 +11,103 @@ digraph G {
 	273 -> 333;
 	301 -> 333;
 	317 -> 333;
-	66 [label="newspapers and magazines will be history with the time",color=green];
-	102 [label="A very important responsibility of media is to publish information about the current affairs as quickly as possible specially when there is a crisis",color=blue];
-	102 [label="A very important responsibility of media is to publish information about the current affairs as quickly as possible specially when there is a crisis",color=blue];
-	217 [label="digital media will rule over paper and magazines",color=green];
-	127 [label="This helps readers to get updated and act accordingly",color=blue];
-	217 [label="digital media will rule over paper and magazines",color=green];
-	140 [label="when the aircraft MH 370 went missing , everyone wanted to know the details about this tragic incident",color=blue];
-	217 [label="digital media will rule over paper and magazines",color=green];
-	159 [label="The friends and families of passengers and crews were impatient to know the truth",color=blue];
-	217 [label="digital media will rule over paper and magazines",color=green];
-	174 [label="In such situations , newspapers and magazines can not respond as fast as digital media",color=blue];
-	217 [label="digital media will rule over paper and magazines",color=green];
-	190 [label="Instead of waiting for next publication , people can get trustworthy information about the current incidents from internet within an hour or two",color=blue];
-	217 [label="digital media will rule over paper and magazines",color=green];
-	226 [label="People often want to access news from past for various reasons like to prepare for research , satisfy interest , etc",color=green];
-	251 [label="one research fellow may want to know how a small village named Oramaki in Japan was suffering after Second World War",color=blue];
-	251 [label="one research fellow may want to know how a small village named Oramaki in Japan was suffering after Second World War",color=blue];
-	333 [label="the fast responding internet media with vast information will be replacing newspapers and magazines as new and information provider",color=green];
-	273 [label="It is very difficult to get this sort of information from past in newspapers and magazines as one has to know before where to look at",color=blue];
-	333 [label="the fast responding internet media with vast information will be replacing newspapers and magazines as new and information provider",color=green];
-	301 [label="internet provides efficient search facility where one can search the topic and get the details",color=blue];
-	333 [label="the fast responding internet media with vast information will be replacing newspapers and magazines as new and information provider",color=green];
-	317 [label="This feature of digital media is not supported by newspapers and magazines",color=blue];
-	333 [label="the fast responding internet media with vast information will be replacing newspapers and magazines as new and information provider",color=green];
+	66 [label="newspapers and magazines will
+ be history with the time
+",color=green];
+	102 [label="A very important
+ responsibility of media is to
+ publish information about the current
+ affairs as quickly as possible
+ specially when there is a
+ crisis",color=blue];
+	102 [label="A very important
+ responsibility of media is to
+ publish information about the current
+ affairs as quickly as possible
+ specially when there is a
+ crisis",color=blue];
+	217 [label="digital media will
+ rule over paper and magazines
+",color=green];
+	127 [label="This helps readers
+ to get updated and act
+ accordingly",color=blue];
+	217 [label="digital media will
+ rule over paper and magazines
+",color=green];
+	140 [label="when the aircraft MH 370
+ went missing , everyone wanted
+ to know the details about
+ this tragic incident",color=blue];
+	217 [label="digital media will
+ rule over paper and magazines
+",color=green];
+	159 [label="The friends and families of passengers
+ and crews were impatient to
+ know the truth",color=blue];
+	217 [label="digital media will
+ rule over paper and magazines
+",color=green];
+	174 [label="In such situations , newspapers and
+ magazines can not respond as
+ fast as digital media",color=blue];
+	217 [label="digital media will
+ rule over paper and magazines
+",color=green];
+	190 [label="Instead of waiting for next
+ publication , people can get
+ trustworthy information about the current
+ incidents from internet within an
+ hour or two",color=blue];
+	217 [label="digital media will
+ rule over paper and magazines
+",color=green];
+	226 [label="People often want to
+ access news from past for
+ various reasons like to prepare
+ for research , satisfy interest
+ , etc",color=green];
+	251 [label="one research fellow may
+ want to know how a
+ small village named Oramaki in
+ Japan was suffering after Second
+ World War",color=blue];
+	251 [label="one research fellow may
+ want to know how a
+ small village named Oramaki in
+ Japan was suffering after Second
+ World War",color=blue];
+	333 [label="the fast
+ responding internet media with vast
+ information will be replacing newspapers
+ and magazines as new and
+ information provider",color=green];
+	273 [label="It is
+ very difficult to get this
+ sort of information from past
+ in newspapers and magazines as
+ one has to know before
+ where to look at",color=blue];
+	333 [label="the fast
+ responding internet media with vast
+ information will be replacing newspapers
+ and magazines as new and
+ information provider",color=green];
+	301 [label="internet provides efficient search
+ facility where one can search
+ the topic and get the
+ details",color=blue];
+	333 [label="the fast
+ responding internet media with vast
+ information will be replacing newspapers
+ and magazines as new and
+ information provider",color=green];
+	317 [label="This feature of
+ digital media is not supported
+ by newspapers and magazines",color=blue];
+	333 [label="the fast
+ responding internet media with vast
+ information will be replacing newspapers
+ and magazines as new and
+ information provider",color=green];
 }

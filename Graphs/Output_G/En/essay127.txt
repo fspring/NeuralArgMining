@@ -6,15 +6,36 @@ digraph G {
 	276 -> 302;
 	285 -> 302;
 	128 [label="the",color=blue];
-	129 [label="environment today is serious damaged",color=green];
-	179 [label="it has been proved that living in this kind of condition will result in some mental diseases",color=blue];
-	199 [label="the environment our grandparents live is more comfortable than",color=green];
+	129 [label="environment today
+ is serious damaged",color=green];
+	179 [label="it has
+ been proved that living in
+ this kind of condition will
+ result in some mental diseases
+",color=blue];
+	199 [label="the environment
+ our grandparents live is more
+ comfortable than",color=green];
 	220 [label="today",color=blue];
-	312 [label="it is only a",color=green];
-	222 [label="we are able to read the news all over the world , to chat with people through the internet , or to travel around the world by planes",color=blue];
-	341 [label="what we loss will never be returned",color=green];
-	276 [label="then we will be in a vulnerable situation",color=blue];
-	302 [label="there some people live in a pretty good condition",color=green];
-	285 [label="we have no choice but have to live in a fast pace",color=blue];
-	302 [label="there some people live in a pretty good condition",color=green];
+	312 [label="it is only a
+",color=green];
+	222 [label="we are able to
+ read the news all over
+ the world , to chat
+ with people through the internet
+ , or to travel around
+ the world by planes",color=blue];
+	341 [label="what we loss will never
+ be returned",color=green];
+	276 [label="then we will be in
+ a vulnerable situation",color=blue];
+	302 [label="there some people live
+ in a pretty good condition
+",color=green];
+	285 [label="we have no choice but have
+ to live in a fast
+ pace",color=blue];
+	302 [label="there some people live
+ in a pretty good condition
+",color=green];
 }

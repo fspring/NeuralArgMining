@@ -14,34 +14,129 @@ digraph G {
 	319 -> 408;
 	366 -> 408;
 	375 -> 408;
-	91 [label="the excellent knowledge of this job will be more significant",color=green];
-	122 [label="This ability is helpful in communicating with other workmates , cooperating with other workers needs this ability , too",color=blue];
-	104 [label="the ability to adapt oneself to the new environment has been proven to be part of job",color=green];
-	122 [label="This ability is helpful in communicating with other workmates , cooperating with other workers needs this ability , too",color=blue];
-	122 [label="This ability is helpful in communicating with other workmates , cooperating with other workers needs this ability , too",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	143 [label="working alone is a longer-term job than communicating",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	155 [label="the ability of adapting oneself to a new environment may be necessary for a fresh worker",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	173 [label="the excellent knowledge of this job will be benefit till one leave",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	186 [label="The company will benefit from every worker of excellent knowledge",color=green];
-	197 [label="The core and most profitable technology of an IT company is invented by a worker with excellent computer knowledge , not a worker with outstanding communicating skill",color=blue];
-	197 [label="The core and most profitable technology of an IT company is invented by a worker with excellent computer knowledge , not a worker with outstanding communicating skill",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	225 [label="The high reputation and popularity of a company is earned by some brilliant workers in public relation department with excellent skill to propagate this company",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	252 [label="the company will earn more money and reputation from these workers with excellent knowledge",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	267 [label="Employees will obtain reward from hard-work pursuing excellent knowledge",color=green];
-	277 [label="Through our whole study life , undergraduate and graduate , we keep learning with the purpose of exerting these knowledge and experience on our job , just like an old Chinese scholar said , the essence of study is utilizing it",color=blue];
-	277 [label="Through our whole study life , undergraduate and graduate , we keep learning with the purpose of exerting these knowledge and experience on our job , just like an old Chinese scholar said , the essence of study is utilizing it",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	319 [label="After we get a job , the destination of we keep accumulating and collecting knowledge is rooted not in fawn on our manager with the ability to adapt this kind of business culture , but in making us excellent and totally master this job",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	366 [label="we will be rewarded with pride",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
-	375 [label="we can obtain reward from out excellent knowledge",color=blue];
-	408 [label="the excellent knowledge will be of more importance",color=green];
+	91 [label="the excellent knowledge of
+ this job will be more
+ significant",color=green];
+	122 [label="This ability is
+ helpful in communicating with other
+ workmates , cooperating with other
+ workers needs this ability ,
+ too",color=blue];
+	104 [label="the ability to adapt oneself to
+ the new environment has been
+ proven to be part of
+ job",color=green];
+	122 [label="This ability is
+ helpful in communicating with other
+ workmates , cooperating with other
+ workers needs this ability ,
+ too",color=blue];
+	122 [label="This ability is
+ helpful in communicating with other
+ workmates , cooperating with other
+ workers needs this ability ,
+ too",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	143 [label="working alone
+ is a longer-term job than
+ communicating",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	155 [label="the ability of adapting oneself
+ to a new environment may
+ be necessary for a fresh
+ worker",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	173 [label="the excellent
+ knowledge of this job will
+ be benefit till one leave
+",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	186 [label="The company will benefit
+ from every worker of excellent
+ knowledge",color=green];
+	197 [label="The core and
+ most profitable technology of an
+ IT company is invented by
+ a worker with excellent computer
+ knowledge , not a worker
+ with outstanding communicating skill",color=blue];
+	197 [label="The core and
+ most profitable technology of an
+ IT company is invented by
+ a worker with excellent computer
+ knowledge , not a worker
+ with outstanding communicating skill",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	225 [label="The high reputation and popularity
+ of a company is earned
+ by some brilliant workers in
+ public relation department with excellent
+ skill to propagate this company
+",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	252 [label="the company will
+ earn more money and reputation
+ from these workers with excellent
+ knowledge",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	267 [label="Employees will obtain
+ reward from hard-work pursuing excellent
+ knowledge",color=green];
+	277 [label="Through our whole
+ study life , undergraduate and
+ graduate , we keep learning
+ with the purpose of exerting
+ these knowledge and experience on
+ our job , just like
+ an old Chinese scholar said
+ , the essence of study
+ is utilizing it",color=blue];
+	277 [label="Through our whole
+ study life , undergraduate and
+ graduate , we keep learning
+ with the purpose of exerting
+ these knowledge and experience on
+ our job , just like
+ an old Chinese scholar said
+ , the essence of study
+ is utilizing it",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	319 [label="After we get a job ,
+ the destination of we keep
+ accumulating and collecting knowledge is
+ rooted not in fawn on
+ our manager with the ability
+ to adapt this kind of
+ business culture , but in
+ making us excellent and totally
+ master this job",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	366 [label="we will be rewarded
+ with pride",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
+	375 [label="we can obtain reward from
+ out excellent knowledge",color=blue];
+	408 [label="the excellent
+ knowledge will be of more
+ importance",color=green];
 }

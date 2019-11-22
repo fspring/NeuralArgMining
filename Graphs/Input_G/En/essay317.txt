@@ -15,36 +15,146 @@ digraph G {
 	286 -> 361;
 	302 -> 361;
 	325 -> 361;
-	35 [label="experience makes us more skilled , improves our decision making and makes us more compatible for life",color=green];
-	70 [label="Every day comes with new challenges for them like walking",color=blue];
-	70 [label="Every day comes with new challenges for them like walking",color=blue];
-	87 [label="those challenges of their initial life teach them important survival lessons which help them for whole life",color=green];
-	87 [label="those challenges of their initial life teach them important survival lessons which help them for whole life",color=green];
-	108 [label="when they tried to learn walking , they stumble and hurt themselves many times",color=blue];
-	108 [label="when they tried to learn walking , they stumble and hurt themselves many times",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	124 [label="they slowly tune their technique and learned to walk",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	134 [label="All inventions and experiments are based on many unfortunate observations",color=green];
-	145 [label="No known scientist has success in first attempt",color=blue];
-	145 [label="No known scientist has success in first attempt",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	154 [label="Scientists try and test many specimens before they get they want",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	170 [label="Thomas Edison tested around 10000 bulbs before inventing Light bulb",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	183 [label="all the initial experiments would be difficult and frustrating for him but he searched for more options and learnt new findings with each experiment even when he was failing in his attempts and finally found break through",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	221 [label="Our difficult experiences also make us robust and strong unknowingly",color=green];
-	232 [label="We might be facing a toughest time of life at the time , but when we think back about those moments later in life , we feel more confident about our decisions and about ourselves",color=blue];
-	232 [label="We might be facing a toughest time of life at the time , but when we think back about those moments later in life , we feel more confident about our decisions and about ourselves",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	268 [label="When I moved to college hostel after school , first few days were very unsettling for me",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	286 [label="first time I was away from parent and staying with people I had not known",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	302 [label="I had felt very fragile and emotionally distracted , but then slowly I started adjusting with roommates and built connection with them",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
-	325 [label="I also became more casual and social with others , this experience increased my communication skill and social speaking skills",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
+	35 [label="experience makes us more skilled
+ , improves our decision making
+ and makes us more compatible
+ for life",color=green];
+	70 [label="Every day comes with new
+ challenges for them like walking
+",color=blue];
+	70 [label="Every day comes with new
+ challenges for them like walking
+",color=blue];
+	87 [label="those challenges of
+ their initial life teach them
+ important survival lessons which help
+ them for whole life",color=green];
+	87 [label="those challenges of
+ their initial life teach them
+ important survival lessons which help
+ them for whole life",color=green];
+	108 [label="when they
+ tried to learn walking ,
+ they stumble and hurt themselves
+ many times",color=blue];
+	108 [label="when they
+ tried to learn walking ,
+ they stumble and hurt themselves
+ many times",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	124 [label="they slowly tune their technique and
+ learned to walk",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	134 [label="All inventions and experiments are based
+ on many unfortunate observations",color=green];
+	145 [label="No known scientist has success
+ in first attempt",color=blue];
+	145 [label="No known scientist has success
+ in first attempt",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	154 [label="Scientists try and test many specimens
+ before they get they want
+",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	170 [label="Thomas Edison tested around 10000
+ bulbs before inventing Light bulb
+",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	183 [label="all the
+ initial experiments would be difficult
+ and frustrating for him but
+ he searched for more options
+ and learnt new findings with
+ each experiment even when he
+ was failing in his attempts
+ and finally found break through
+",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	221 [label="Our difficult experiences also
+ make us robust and strong
+ unknowingly",color=green];
+	232 [label="We might be
+ facing a toughest time of
+ life at the time ,
+ but when we think back
+ about those moments later in
+ life , we feel more
+ confident about our decisions and
+ about ourselves",color=blue];
+	232 [label="We might be
+ facing a toughest time of
+ life at the time ,
+ but when we think back
+ about those moments later in
+ life , we feel more
+ confident about our decisions and
+ about ourselves",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	268 [label="When I
+ moved to college hostel after
+ school , first few days
+ were very unsettling for me
+",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	286 [label="first time I was
+ away from parent and staying
+ with people I had not
+ known",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	302 [label="I had felt
+ very fragile and emotionally distracted
+ , but then slowly I
+ started adjusting with roommates and
+ built connection with them",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
+	325 [label="I also became more casual
+ and social with others ,
+ this experience increased my communication
+ skill and social speaking skills
+",color=blue];
+	361 [label="every experience in life
+ whether it is good or
+ bad always gives us something
+ to learn and keep for
+ life",color=green];
 }

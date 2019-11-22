@@ -4,14 +4,32 @@ digraph G {
 	180 -> 172;
 	257 -> 224;
 	311 -> 325;
-	61 [label="as you can see that after great economic recession",color=green];
-	88 [label="when people did not have money , they had to rob other people",color=blue];
-	167 [label="environment is also important",color=green];
-	180 [label="industrial in many countries still emit high intense of carbon dioxide , which caused of greenhouse effect",color=blue];
-	172 [label="that everyone depend on it",color=green];
-	180 [label="industrial in many countries still emit high intense of carbon dioxide , which caused of greenhouse effect",color=blue];
-	224 [label="declare regulate to control",color=green];
-	257 [label="if we lived in good environment , our life would be better",color=blue];
-	311 [label="when society had problems , it could impact to a nation",color=blue];
-	325 [label="government should create campaign to fill love to family",color=green];
+	61 [label="as you can see that
+ after great economic recession",color=green];
+	88 [label="when people did
+ not have money , they
+ had to rob other people
+",color=blue];
+	167 [label="environment is also important
+",color=green];
+	180 [label="industrial in many countries still emit
+ high intense of carbon dioxide
+ , which caused of greenhouse
+ effect",color=blue];
+	172 [label="that everyone depend on
+ it",color=green];
+	180 [label="industrial in many countries still emit
+ high intense of carbon dioxide
+ , which caused of greenhouse
+ effect",color=blue];
+	224 [label="declare regulate
+ to control",color=green];
+	257 [label="if we lived in
+ good environment , our life
+ would be better",color=blue];
+	311 [label="when society had problems ,
+ it could impact to a
+ nation",color=blue];
+	325 [label="government should create campaign to fill
+ love to family",color=green];
 }

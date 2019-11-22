@@ -1,8 +1,13 @@
 digraph G {
 	38 -> 31;
 	59 -> 64;
-	31 [label="a maioria são homens jovens",color=green];
-	38 [label="porque certamente não estão preocupados com o bem-estar das suas mulheres compatriotas",color=blue];
+	31 [label="a maioria são homens
+ jovens",color=green];
+	38 [label="porque certamente
+ não estão preocupados com o
+ bem-estar das suas mulheres compatriotas
+",color=blue];
 	59 [label="dada a sua rape-culture",color=blue];
-	64 [label="será provável virem atacar as mulheres europeias",color=green];
+	64 [label="será provável virem atacar as mulheres
+ europeias",color=green];
 }

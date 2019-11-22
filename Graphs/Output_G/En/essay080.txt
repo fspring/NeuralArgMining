@@ -4,14 +4,34 @@ digraph G {
 	107 -> 76;
 	260 -> 315;
 	267 -> 315;
-	59 [label="animals in captivity is wrong because animals should",color=green];
-	107 [label="many zoos , especially the ones in developing countries , do not provide care and attention which their animals require",color=blue];
-	69 [label="non-human persons",color=green];
-	107 [label="many zoos , especially the ones in developing countries , do not provide care and attention which their animals require",color=blue];
+	59 [label="animals in
+ captivity is wrong because animals
+ should",color=green];
+	107 [label="many zoos , especially
+ the ones in developing countries
+ , do not provide care
+ and attention which their animals
+ require",color=blue];
+	69 [label="non-human persons
+",color=green];
+	107 [label="many zoos , especially
+ the ones in developing countries
+ , do not provide care
+ and attention which their animals
+ require",color=blue];
 	76 [label="right of having",color=green];
-	107 [label="many zoos , especially the ones in developing countries , do not provide care and attention which their animals require",color=blue];
+	107 [label="many zoos , especially
+ the ones in developing countries
+ , do not provide care
+ and attention which their animals
+ require",color=blue];
 	260 [label="this is due to the",color=blue];
 	315 [label="but in my own view",color=green];
-	267 [label=", in zoos , animals are kept in enclosures which simulate their own habitats and also endangered animals are being protected from their predators or hunters",color=blue];
+	267 [label=", in zoos ,
+ animals are kept in enclosures
+ which simulate their own habitats
+ and also endangered animals are
+ being protected from their predators
+ or hunters",color=blue];
 	315 [label="but in my own view",color=green];
 }

@@ -1,8 +1,15 @@
 digraph G {
 	4 -> 23;
 	36 -> 45;
-	4 [label="reposição dos cortes salariais na função pública que foi feita a partir dos 675 euros",color=blue];
-	23 [label="aumento da despesa de 450 milhões de euros este ano",color=green];
-	36 [label="descida do IVA na restauração a partir de Julho",color=blue];
-	45 [label="vai custar 168 milhões de euros",color=green];
+	4 [label="reposição dos cortes salariais na função
+ pública que foi feita a
+ partir dos 675 euros",color=blue];
+	23 [label="aumento da
+ despesa de 450 milhões de
+ euros este ano",color=green];
+	36 [label="descida do IVA na
+ restauração a partir de Julho
+",color=blue];
+	45 [label="vai custar 168 milhões de
+ euros",color=green];
 }

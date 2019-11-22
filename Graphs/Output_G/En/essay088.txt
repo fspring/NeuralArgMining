@@ -3,12 +3,44 @@ digraph G {
 	175 -> 145;
 	146 -> 209;
 	175 -> 209;
-	75 [label="when people face with a failure they can learn a large number of things from that failure , therefore in the next effort they try to avoid doing and repeating that mistakes",color=green];
-	111 [label="most of inventors in the first phases of their job face with some problems and defeats , but in the next stages they learn how to deal with problems",color=blue];
+	75 [label="when people face with a failure
+ they can learn a large
+ number of things from that
+ failure , therefore in the
+ next effort they try to
+ avoid doing and repeating that
+ mistakes",color=green];
+	111 [label="most of inventors in the
+ first phases of their job
+ face with some problems and
+ defeats , but in the
+ next stages they learn how
+ to deal with problems",color=blue];
 	145 [label="experience",color=green];
-	175 [label="for example , scientists experiment a substance for a long time , after they gain lots of experience and knowledge about that subject they decide to make it final",color=blue];
-	146 [label="shows while people doing a job constantly , they become more experienced in that subject , so in the final effort they become successful with the high percentile",color=blue];
-	209 [label="i would maintain that people should not give up when they face with a failure",color=green];
-	175 [label="for example , scientists experiment a substance for a long time , after they gain lots of experience and knowledge about that subject they decide to make it final",color=blue];
-	209 [label="i would maintain that people should not give up when they face with a failure",color=green];
+	175 [label="for example , scientists experiment a
+ substance for a long time
+ , after they gain lots
+ of experience and knowledge about
+ that subject they decide to
+ make it final",color=blue];
+	146 [label="shows while people doing a
+ job constantly , they become
+ more experienced in that subject
+ , so in the final
+ effort they become successful with
+ the high percentile",color=blue];
+	209 [label="i would
+ maintain that people should not
+ give up when they face
+ with a failure",color=green];
+	175 [label="for example , scientists experiment a
+ substance for a long time
+ , after they gain lots
+ of experience and knowledge about
+ that subject they decide to
+ make it final",color=blue];
+	209 [label="i would
+ maintain that people should not
+ give up when they face
+ with a failure",color=green];
 }

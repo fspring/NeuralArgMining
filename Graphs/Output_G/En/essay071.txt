@@ -1,8 +1,23 @@
 digraph G {
 	89 -> 71;
 	213 -> 251;
-	71 [label="it is unfair to restrict those public service advertisements which are creative and inspiring",color=green];
-	89 [label="they are not in the purpose of making profits but taking a role of disseminating valued culture , good moral traits and calling for helps for the disabled and the poor",color=blue];
-	213 [label="the advertising expenses lead to a higher product price and some of them express fake information , creating information asymmetry between consumers and companies",color=blue];
-	251 [label="advertisements have its social responsibility and contribute to economic growth",color=green];
+	71 [label="it is unfair to restrict
+ those public service advertisements which
+ are creative and inspiring",color=green];
+	89 [label="they are
+ not in the purpose of
+ making profits but taking a
+ role of disseminating valued culture
+ , good moral traits and
+ calling for helps for the
+ disabled and the poor",color=blue];
+	213 [label="the advertising expenses
+ lead to a higher product
+ price and some of them
+ express fake information , creating
+ information asymmetry between consumers and
+ companies",color=blue];
+	251 [label="advertisements have its social responsibility
+ and contribute to economic growth
+",color=green];
 }

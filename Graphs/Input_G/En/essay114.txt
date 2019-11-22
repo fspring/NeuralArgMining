@@ -9,24 +9,77 @@ digraph G {
 	163 -> 277;
 	231 -> 277;
 	257 -> 277;
-	21 [label="I do not agree that this explosion in technology will 'innovate' the education system , by replacing teachers with computers",color=green];
-	65 [label="No one can argue that technological tools are must-haves for the classroom of today",color=blue];
-	57 [label="computers need to be operated by people",color=green];
-	65 [label="No one can argue that technological tools are must-haves for the classroom of today",color=blue];
-	65 [label="No one can argue that technological tools are must-haves for the classroom of today",color=blue];
-	277 [label="there can be no school without a teacher",color=green];
-	83 [label="lessons are more attractive and easier to understand when they are put on a Power Point presentation and then presented with a LCD Projector",color=blue];
-	277 [label="there can be no school without a teacher",color=green];
-	110 [label="scientists prove that every classroom needs trained staff to use these interactive and innovative ways of teaching",color=blue];
-	277 [label="there can be no school without a teacher",color=green];
-	141 [label="they are just tools for teachers and they cannot work properly without human's touch",color=blue];
-	277 [label="there can be no school without a teacher",color=green];
-	158 [label="children need human interactions",color=green];
-	163 [label="No matter how advanced technology will be , it is clear that a computer will never be able to communicate with its pupils",color=blue];
-	163 [label="No matter how advanced technology will be , it is clear that a computer will never be able to communicate with its pupils",color=blue];
-	277 [label="there can be no school without a teacher",color=green];
-	231 [label="Without someone who can explain and understand their problems , pupils cannot actually learn'",color=blue];
-	277 [label="there can be no school without a teacher",color=green];
-	257 [label="only a teacher can feel and connect with pupils , be a friend and a model",color=blue];
-	277 [label="there can be no school without a teacher",color=green];
+	21 [label="I do not agree
+ that this explosion in technology
+ will 'innovate' the education system
+ , by replacing teachers with
+ computers",color=green];
+	65 [label="No one can argue that
+ technological tools are must-haves for
+ the classroom of today",color=blue];
+	57 [label="computers need to
+ be operated by people",color=green];
+	65 [label="No one can argue that
+ technological tools are must-haves for
+ the classroom of today",color=blue];
+	65 [label="No one can argue that
+ technological tools are must-haves for
+ the classroom of today",color=blue];
+	277 [label="there can be
+ no school without a teacher
+",color=green];
+	83 [label="lessons are
+ more attractive and easier to
+ understand when they are put
+ on a Power Point presentation
+ and then presented with a
+ LCD Projector",color=blue];
+	277 [label="there can be
+ no school without a teacher
+",color=green];
+	110 [label="scientists prove that every classroom
+ needs trained staff to use
+ these interactive and innovative ways
+ of teaching",color=blue];
+	277 [label="there can be
+ no school without a teacher
+",color=green];
+	141 [label="they are just tools
+ for teachers and they cannot
+ work properly without human's touch
+",color=blue];
+	277 [label="there can be
+ no school without a teacher
+",color=green];
+	158 [label="children need
+ human interactions",color=green];
+	163 [label="No matter
+ how advanced technology will be
+ , it is clear that
+ a computer will never be
+ able to communicate with its
+ pupils",color=blue];
+	163 [label="No matter
+ how advanced technology will be
+ , it is clear that
+ a computer will never be
+ able to communicate with its
+ pupils",color=blue];
+	277 [label="there can be
+ no school without a teacher
+",color=green];
+	231 [label="Without someone who can
+ explain and understand their problems
+ , pupils cannot actually learn'
+",color=blue];
+	277 [label="there can be
+ no school without a teacher
+",color=green];
+	257 [label="only a teacher
+ can feel and connect with
+ pupils , be a friend
+ and a model",color=blue];
+	277 [label="there can be
+ no school without a teacher
+",color=green];
 }

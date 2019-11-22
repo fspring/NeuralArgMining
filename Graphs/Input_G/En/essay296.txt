@@ -17,40 +17,115 @@ digraph G {
 	275 -> 360;
 	304 -> 360;
 	331 -> 360;
-	81 [label="technologies made our lives more complicated",color=green];
-	110 [label="it takes time for people to adapt them",color=blue];
-	102 [label="new technologies are always great",color=green];
-	110 [label="it takes time for people to adapt them",color=blue];
-	110 [label="it takes time for people to adapt them",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	120 [label="we are informed with devices that are produced with new features nearly every day",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	135 [label="many people often get lost",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	144 [label="I use new Iphone which I personally think is great",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	157 [label="even though I used it for couple months , I still do not know how to use all the features proficiently",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	182 [label="I tried to go through all the instructions but , soon , I gave up",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	198 [label="I found out that it is time-consuming and there are too many things to learn",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	216 [label="technology destroys the language",color=green];
-	233 [label="they created their own language to communicate",color=blue];
-	223 [label="people used computers or cellphones to chat with others",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	233 [label="they created their own language to communicate",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	242 [label="people try to type as fast as they are talking",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	253 [label="they use a lot of abbreviations and broken language",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	263 [label="This has gotten worse with twitter , myspace , and facebook",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	275 [label="What are even worse , young people who are still in the early ages are exposed to them and impeded by the newly developed inventions",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	304 [label="my younger brother does not know how to spell the words correctly and he talks to his friends with terms that I have never heard of",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
-	331 [label="I have tried to correct him for couple times but he just thinks that I am too conservative",color=blue];
-	360 [label="it has made our lives more chaotic according to the reasons mentioned above",color=green];
+	81 [label="technologies made our lives
+ more complicated",color=green];
+	110 [label="it takes time for people
+ to adapt them",color=blue];
+	102 [label="new technologies are
+ always great",color=green];
+	110 [label="it takes time for people
+ to adapt them",color=blue];
+	110 [label="it takes time for people
+ to adapt them",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	120 [label="we are informed with devices
+ that are produced with new
+ features nearly every day",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	135 [label="many people often get lost
+",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	144 [label="I use new Iphone which I
+ personally think is great",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	157 [label="even though I
+ used it for couple months
+ , I still do not
+ know how to use all
+ the features proficiently",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	182 [label="I tried to
+ go through all the instructions
+ but , soon , I
+ gave up",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	198 [label="I found
+ out that it is time-consuming
+ and there are too many
+ things to learn",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	216 [label="technology destroys the language
+",color=green];
+	233 [label="they created
+ their own language to communicate
+",color=blue];
+	223 [label="people used
+ computers or cellphones to chat
+ with others",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	233 [label="they created
+ their own language to communicate
+",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	242 [label="people try to
+ type as fast as they
+ are talking",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	253 [label="they use
+ a lot of abbreviations and
+ broken language",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	263 [label="This has
+ gotten worse with twitter ,
+ myspace , and facebook",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	275 [label="What are even worse ,
+ young people who are still
+ in the early ages are
+ exposed to them and impeded
+ by the newly developed inventions
+",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	304 [label="my younger brother does not know
+ how to spell the words
+ correctly and he talks to
+ his friends with terms that
+ I have never heard of
+",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
+	331 [label="I have tried to
+ correct him for couple times
+ but he just thinks that
+ I am too conservative",color=blue];
+	360 [label="it has made our lives
+ more chaotic according to the
+ reasons mentioned above",color=green];
 }

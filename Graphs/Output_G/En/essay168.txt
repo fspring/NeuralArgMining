@@ -3,12 +3,30 @@ digraph G {
 	110 -> 280;
 	199 -> 183;
 	210 -> 271;
-	69 [label="the directors manage employers and give them the deadline of projects",color=green];
-	96 [label="doing all jobs at home don't make employees attempt to work like this",color=blue];
-	110 [label="computers and modems bring works to home but these still have many things distract their mind",color=blue];
-	280 [label="no interaction and pressure are these things people should examine when they want to work at home",color=green];
-	183 [label="the project cannot being done",color=green];
-	199 [label="interaction has been an advantage for workers at offices",color=blue];
-	210 [label="and debating projects together increase working ability because all we know that the target can be reached fast thanks to working of many people",color=blue];
-	271 [label="the workers work at home",color=green];
+	69 [label="the directors
+ manage employers and give them
+ the deadline of projects",color=green];
+	96 [label="doing all jobs at home
+ don't make employees attempt to
+ work like this",color=blue];
+	110 [label="computers and modems bring works to
+ home but these still have
+ many things distract their mind
+",color=blue];
+	280 [label="no interaction and pressure are these
+ things people should examine when
+ they want to work at
+ home",color=green];
+	183 [label="the project cannot
+ being done",color=green];
+	199 [label="interaction has
+ been an advantage for workers
+ at offices",color=blue];
+	210 [label="and debating projects together increase working
+ ability because all we know
+ that the target can be
+ reached fast thanks to working
+ of many people",color=blue];
+	271 [label="the workers work at home
+",color=green];
 }

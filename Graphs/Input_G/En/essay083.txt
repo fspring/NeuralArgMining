@@ -9,24 +9,88 @@ digraph G {
 	197 -> 223;
 	244 -> 223;
 	244 -> 277;
-	46 [label="I find myself aligned with opponents of the usages of nuclear power",color=green];
-	92 [label="Last century has witnessed the horrors of such weapons",color=blue];
-	78 [label="pursuit of nuclear technology one way or the other leads towards atomic weapons",color=green];
-	92 [label="Last century has witnessed the horrors of such weapons",color=blue];
-	92 [label="Last century has witnessed the horrors of such weapons",color=blue];
-	277 [label="nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages",color=green];
-	102 [label="If each country pursues the fusion and fission process some of them may try to mold it for military usage",color=blue];
-	277 [label="nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages",color=green];
-	131 [label="even civil usages of atomic power pose a dire threat of radio activity",color=green];
-	147 [label="recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area",color=blue];
-	147 [label="recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area",color=blue];
-	277 [label="nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages",color=green];
-	175 [label="This unfortunate event proves that no matter how much careful we are such accidents are inevitable",color=blue];
-	277 [label="nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages",color=green];
-	197 [label="while generating energy from any source be it hydro power or oil there always is some wastage and so is the case with nuclear power",color=blue];
-	223 [label="Safely getting rid of nuclear waste is a daunting task and there has not been any permanent solution of it",color=green];
-	223 [label="Safely getting rid of nuclear waste is a daunting task and there has not been any permanent solution of it",color=green];
-	244 [label="This waste is many times more lethal to our environment than any of the other hazardous material",color=blue];
-	244 [label="This waste is many times more lethal to our environment than any of the other hazardous material",color=blue];
-	277 [label="nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages",color=green];
+	46 [label="I find myself aligned
+ with opponents of the usages
+ of nuclear power",color=green];
+	92 [label="Last century has
+ witnessed the horrors of such
+ weapons",color=blue];
+	78 [label="pursuit of
+ nuclear technology one way or
+ the other leads towards atomic
+ weapons",color=green];
+	92 [label="Last century has
+ witnessed the horrors of such
+ weapons",color=blue];
+	92 [label="Last century has
+ witnessed the horrors of such
+ weapons",color=blue];
+	277 [label="nuclear power may
+ appear silver bullet for energy
+ crisis but its disadvantages far
+ outweigh the advantages",color=green];
+	102 [label="If each country
+ pursues the fusion and fission
+ process some of them may
+ try to mold it for
+ military usage",color=blue];
+	277 [label="nuclear power may
+ appear silver bullet for energy
+ crisis but its disadvantages far
+ outweigh the advantages",color=green];
+	131 [label="even civil usages of
+ atomic power pose a dire
+ threat of radio activity",color=green];
+	147 [label="recently there has
+ been an incident in which
+ an atomic power house leaked
+ tons of radio active material
+ into air when an earthquake
+ hit the surrounding area",color=blue];
+	147 [label="recently there has
+ been an incident in which
+ an atomic power house leaked
+ tons of radio active material
+ into air when an earthquake
+ hit the surrounding area",color=blue];
+	277 [label="nuclear power may
+ appear silver bullet for energy
+ crisis but its disadvantages far
+ outweigh the advantages",color=green];
+	175 [label="This unfortunate event proves that
+ no matter how much careful
+ we are such accidents are
+ inevitable",color=blue];
+	277 [label="nuclear power may
+ appear silver bullet for energy
+ crisis but its disadvantages far
+ outweigh the advantages",color=green];
+	197 [label="while generating energy
+ from any source be it
+ hydro power or oil there
+ always is some wastage and
+ so is the case with
+ nuclear power",color=blue];
+	223 [label="Safely getting
+ rid of nuclear waste is
+ a daunting task and there
+ has not been any permanent
+ solution of it",color=green];
+	223 [label="Safely getting
+ rid of nuclear waste is
+ a daunting task and there
+ has not been any permanent
+ solution of it",color=green];
+	244 [label="This waste is many times more
+ lethal to our environment than
+ any of the other hazardous
+ material",color=blue];
+	244 [label="This waste is many times more
+ lethal to our environment than
+ any of the other hazardous
+ material",color=blue];
+	277 [label="nuclear power may
+ appear silver bullet for energy
+ crisis but its disadvantages far
+ outweigh the advantages",color=green];
 }

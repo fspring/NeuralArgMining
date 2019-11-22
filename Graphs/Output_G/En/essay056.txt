@@ -1,8 +1,17 @@
 digraph G {
 	109 -> 75;
 	186 -> 141;
-	75 [label="communication between countries and cultures become",color=green];
-	109 [label="them , language obstacle is no longer a problem , which results in mutual understanding and trust between their mother land and the host country",color=blue];
+	75 [label="communication between countries and cultures become
+",color=green];
+	109 [label="them ,
+ language obstacle is no longer
+ a problem , which results
+ in mutual understanding and trust
+ between their mother land and
+ the host country",color=blue];
 	141 [label="relationship",color=green];
-	186 [label="it's neither to get a translated version of these articles , nor to always have a translator besides",color=blue];
+	186 [label="it's neither to get a
+ translated version of these articles
+ , nor to always have
+ a translator besides",color=blue];
 }

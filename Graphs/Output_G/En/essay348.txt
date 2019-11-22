@@ -5,16 +5,42 @@ digraph G {
 	176 -> 169;
 	173 -> 314;
 	282 -> 314;
-	56 [label="as it is the most important source of government's revenue",color=green];
-	79 [label="a large proportion of the tax is spent on national defence and in maintaining social stability",color=blue];
+	56 [label="as it is the most
+ important source of government's revenue
+",color=green];
+	79 [label="a large
+ proportion of the tax is
+ spent on national defence and
+ in maintaining social stability",color=blue];
 	160 [label="citizens",color=green];
-	176 [label="there are impoverished or disabled people in every society , needing help and support from others",color=blue];
-	164 [label="responsibilities to fulfil apart",color=green];
-	176 [label="there are impoverished or disabled people in every society , needing help and support from others",color=blue];
+	176 [label="there are impoverished or disabled
+ people in every society ,
+ needing help and support from
+ others",color=blue];
+	164 [label="responsibilities to
+ fulfil apart",color=green];
+	176 [label="there are impoverished or disabled
+ people in every society ,
+ needing help and support from
+ others",color=blue];
 	169 [label="paying",color=green];
-	176 [label="there are impoverished or disabled people in every society , needing help and support from others",color=blue];
+	176 [label="there are impoverished or disabled
+ people in every society ,
+ needing help and support from
+ others",color=blue];
 	173 [label="we know",color=blue];
-	314 [label="is a significant obligation of citizens to pay tax to the government",color=green];
-	282 [label="necessary for the local residents to take actions and ensure the safety of the communities , by doing things like reporting suspicious activities to the police department",color=blue];
-	314 [label="is a significant obligation of citizens to pay tax to the government",color=green];
+	314 [label="is a
+ significant obligation of citizens to
+ pay tax to the government
+",color=green];
+	282 [label="necessary for the local
+ residents to take actions and
+ ensure the safety of the
+ communities , by doing things
+ like reporting suspicious activities to
+ the police department",color=blue];
+	314 [label="is a
+ significant obligation of citizens to
+ pay tax to the government
+",color=green];
 }

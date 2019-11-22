@@ -3,12 +3,30 @@ digraph G {
 	185 -> 274;
 	301 -> 283;
 	285 -> 341;
-	66 [label="many university authorities provide music lessons for their students so that they live and study in a harmony with music",color=green];
-	94 [label="who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time",color=blue];
-	185 [label="the calm atmosphere in the class might be created",color=blue];
-	274 [label="music and other entertaining subjects should be optional",color=green];
+	66 [label="many university authorities provide music
+ lessons for their students so
+ that they live and study
+ in a harmony with music
+",color=green];
+	94 [label="who spend
+ a great deal of their
+ time studying different academic subjects
+ should have an opportunity to
+ cope with the stress gained
+ during school time",color=blue];
+	185 [label="the calm atmosphere in the class
+ might be created",color=blue];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
 	283 [label="nowadays",color=green];
-	301 [label="students are to develop their professional skills by learning occupation-related subjects , rather than playing on guitar or singing a song",color=blue];
-	285 [label="time is the most valuable thing in life with increased pace",color=blue];
+	301 [label="students are to develop their
+ professional skills by learning occupation-related
+ subjects , rather than playing
+ on guitar or singing a
+ song",color=blue];
+	285 [label="time is the most valuable thing
+ in life with increased pace
+",color=blue];
 	341 [label="field in an",color=green];
 }

@@ -7,20 +7,68 @@ digraph G {
 	191 -> 221;
 	233 -> 292;
 	256 -> 292;
-	57 [label="both alternative sources and traditional teaching methods from educators are equally important in children's acquisition of knowledge",color=green];
-	79 [label="the widespread of alternative sources of knowledge has played an important role in students' acquisition of knowledge",color=blue];
-	79 [label="the widespread of alternative sources of knowledge has played an important role in students' acquisition of knowledge",color=blue];
-	221 [label="technologies are vital in students' learning",color=green];
-	97 [label="Computers can be programmed to provide an endless numbers of questions in diverse range of fields , and as the students answer these questions , the facts has been learned and reinforced",color=blue];
-	221 [label="technologies are vital in students' learning",color=green];
-	130 [label="A case in point is the reading and listening parts of TOEFL iBT exams , as candidates have to answer many questions in a limited period of time",color=blue];
-	221 [label="technologies are vital in students' learning",color=green];
-	161 [label="when students have some academic problems , they can post those to some websites and receive correct answers from unknown people in faraway places without any costs",color=blue];
-	221 [label="technologies are vital in students' learning",color=green];
-	191 [label="in the past , conducting a research require long hours of searching in library shelves , now all can be done at a click of a button",color=blue];
-	221 [label="technologies are vital in students' learning",color=green];
-	233 [label="schools and university are places in which students gather to be educated and learn from each others as well as formal educators",color=blue];
-	292 [label="formal education approaches are also indispensable",color=green];
-	256 [label="At schools , students' development has been orchestrated stage by stage , step by step by experienced teachers , and their acquisition of knowledge is guided and backed up in a systematic way",color=blue];
-	292 [label="formal education approaches are also indispensable",color=green];
+	57 [label="both alternative sources
+ and traditional teaching methods from
+ educators are equally important in
+ children's acquisition of knowledge",color=green];
+	79 [label="the widespread of alternative sources of
+ knowledge has played an important
+ role in students' acquisition of
+ knowledge",color=blue];
+	79 [label="the widespread of alternative sources of
+ knowledge has played an important
+ role in students' acquisition of
+ knowledge",color=blue];
+	221 [label="technologies are vital in
+ students' learning",color=green];
+	97 [label="Computers can be
+ programmed to provide an endless
+ numbers of questions in diverse
+ range of fields , and
+ as the students answer these
+ questions , the facts has
+ been learned and reinforced",color=blue];
+	221 [label="technologies are vital in
+ students' learning",color=green];
+	130 [label="A case in point is
+ the reading and listening parts
+ of TOEFL iBT exams ,
+ as candidates have to answer
+ many questions in a limited
+ period of time",color=blue];
+	221 [label="technologies are vital in
+ students' learning",color=green];
+	161 [label="when students have some
+ academic problems , they can
+ post those to some websites
+ and receive correct answers from
+ unknown people in faraway places
+ without any costs",color=blue];
+	221 [label="technologies are vital in
+ students' learning",color=green];
+	191 [label="in the past ,
+ conducting a research require long
+ hours of searching in library
+ shelves , now all can
+ be done at a click
+ of a button",color=blue];
+	221 [label="technologies are vital in
+ students' learning",color=green];
+	233 [label="schools and
+ university are places in which
+ students gather to be educated
+ and learn from each others
+ as well as formal educators
+",color=blue];
+	292 [label="formal education approaches
+ are also indispensable",color=green];
+	256 [label="At schools , students'
+ development has been orchestrated stage
+ by stage , step by
+ step by experienced teachers ,
+ and their acquisition of knowledge
+ is guided and backed up
+ in a systematic way",color=blue];
+	292 [label="formal education approaches
+ are also indispensable",color=green];
 }

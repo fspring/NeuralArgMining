@@ -4,14 +4,37 @@ digraph G {
 	201 -> 255;
 	218 -> 255;
 	226 -> 255;
-	150 [label="the importance of social skills have been recognized by increasing number of employers",color=green];
-	164 [label="it is because people nowadays are required to work as a team in their jobs frequently",color=blue];
-	181 [label="interpersonal skill plays an essential role in helping colleagues to cooperate with each other , especially when conflicts arise",color=blue];
-	255 [label="qualification is still the fundamental determinant of an employee's competency of their jobs",color=green];
-	201 [label="better social skills allow them to resolve disagreements in a much more harmony way",color=blue];
-	255 [label="qualification is still the fundamental determinant of an employee's competency of their jobs",color=green];
-	218 [label="organization have been transformed to customers oriented",color=blue];
-	255 [label="qualification is still the fundamental determinant of an employee's competency of their jobs",color=green];
-	226 [label="excellent social skills can help employees maintain strong relationship with their clients which thus lead to a better customer satisfaction",color=blue];
-	255 [label="qualification is still the fundamental determinant of an employee's competency of their jobs",color=green];
+	150 [label="the importance of social skills have
+ been recognized by increasing number
+ of employers",color=green];
+	164 [label="it is
+ because people nowadays are required
+ to work as a team
+ in their jobs frequently",color=blue];
+	181 [label="interpersonal skill plays an essential
+ role in helping colleagues to
+ cooperate with each other ,
+ especially when conflicts arise",color=blue];
+	255 [label="qualification is still the fundamental determinant
+ of an employee's competency of
+ their jobs",color=green];
+	201 [label="better social skills allow them
+ to resolve disagreements in a
+ much more harmony way",color=blue];
+	255 [label="qualification is still the fundamental determinant
+ of an employee's competency of
+ their jobs",color=green];
+	218 [label="organization have been
+ transformed to customers oriented",color=blue];
+	255 [label="qualification is still the fundamental determinant
+ of an employee's competency of
+ their jobs",color=green];
+	226 [label="excellent social skills can help
+ employees maintain strong relationship with
+ their clients which thus lead
+ to a better customer satisfaction
+",color=blue];
+	255 [label="qualification is still the fundamental determinant
+ of an employee's competency of
+ their jobs",color=green];
 }

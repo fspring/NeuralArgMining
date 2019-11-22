@@ -10,26 +10,99 @@ digraph G {
 	249 -> 299;
 	266 -> 299;
 	278 -> 299;
-	65 [label="I agree only to certain degree that in today's world , image serves as a more effective means of communication",color=green];
-	99 [label="nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking",color=blue];
-	88 [label="pictures can influence the way people think",color=green];
-	119 [label="statistics show a slight reduction in the number of smokers , indicating that they realize the effects of the negative habit",color=blue];
-	99 [label="nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking",color=blue];
-	299 [label="both images and words go hand in hand and one cannot wholly emphasise on only one aspect , either images or words",color=green];
-	119 [label="statistics show a slight reduction in the number of smokers , indicating that they realize the effects of the negative habit",color=blue];
-	299 [label="both images and words go hand in hand and one cannot wholly emphasise on only one aspect , either images or words",color=green];
-	145 [label="the magnificent photograph captured by Kevin Carter , which portrayed a starving Sudanese child struck by extreme poverty has successfully highlighted the plight faced by the citizens in Sudan",color=blue];
-	193 [label="it is undeniable that images in the absence of words can obviously claim the attraction of many",color=green];
-	179 [label="images are also widely used in newspapers , magazines and advertisements",color=blue];
-	193 [label="it is undeniable that images in the absence of words can obviously claim the attraction of many",color=green];
-	216 [label="written words are also vital in order to spread across certain messages",color=green];
-	229 [label="With only pictures , everyone is left to their own interpretation on how they perceive the images",color=blue];
-	229 [label="With only pictures , everyone is left to their own interpretation on how they perceive the images",color=blue];
-	299 [label="both images and words go hand in hand and one cannot wholly emphasise on only one aspect , either images or words",color=green];
-	249 [label="this is different when words are used to explain what the illustration is about",color=blue];
-	299 [label="both images and words go hand in hand and one cannot wholly emphasise on only one aspect , either images or words",color=green];
-	266 [label="the primary way of educating students is also by this way",color=blue];
-	299 [label="both images and words go hand in hand and one cannot wholly emphasise on only one aspect , either images or words",color=green];
-	278 [label="Academic textbooks these days are laden with words besides pictures to guide the readers to comprehend better",color=blue];
-	299 [label="both images and words go hand in hand and one cannot wholly emphasise on only one aspect , either images or words",color=green];
+	65 [label="I agree only to certain
+ degree that in today's world
+ , image serves as a
+ more effective means of communication
+",color=green];
+	99 [label="nowadays horrendous images are displayed on
+ the cigarette boxes to illustrate
+ the consequences of smoking",color=blue];
+	88 [label="pictures can
+ influence the way people think
+",color=green];
+	119 [label="statistics show a slight reduction in
+ the number of smokers ,
+ indicating that they realize the
+ effects of the negative habit
+",color=blue];
+	99 [label="nowadays horrendous images are displayed on
+ the cigarette boxes to illustrate
+ the consequences of smoking",color=blue];
+	299 [label="both images and words go hand
+ in hand and one cannot
+ wholly emphasise on only one
+ aspect , either images or
+ words",color=green];
+	119 [label="statistics show a slight reduction in
+ the number of smokers ,
+ indicating that they realize the
+ effects of the negative habit
+",color=blue];
+	299 [label="both images and words go hand
+ in hand and one cannot
+ wholly emphasise on only one
+ aspect , either images or
+ words",color=green];
+	145 [label="the magnificent photograph captured by
+ Kevin Carter , which portrayed
+ a starving Sudanese child struck
+ by extreme poverty has successfully
+ highlighted the plight faced by
+ the citizens in Sudan",color=blue];
+	193 [label="it is
+ undeniable that images in the
+ absence of words can obviously
+ claim the attraction of many
+",color=green];
+	179 [label="images are also widely used in
+ newspapers , magazines and advertisements
+",color=blue];
+	193 [label="it is
+ undeniable that images in the
+ absence of words can obviously
+ claim the attraction of many
+",color=green];
+	216 [label="written words are also
+ vital in order to spread
+ across certain messages",color=green];
+	229 [label="With only pictures , everyone is
+ left to their own interpretation
+ on how they perceive the
+ images",color=blue];
+	229 [label="With only pictures , everyone is
+ left to their own interpretation
+ on how they perceive the
+ images",color=blue];
+	299 [label="both images and words go hand
+ in hand and one cannot
+ wholly emphasise on only one
+ aspect , either images or
+ words",color=green];
+	249 [label="this is different when words are
+ used to explain what the
+ illustration is about",color=blue];
+	299 [label="both images and words go hand
+ in hand and one cannot
+ wholly emphasise on only one
+ aspect , either images or
+ words",color=green];
+	266 [label="the primary way of
+ educating students is also by
+ this way",color=blue];
+	299 [label="both images and words go hand
+ in hand and one cannot
+ wholly emphasise on only one
+ aspect , either images or
+ words",color=green];
+	278 [label="Academic textbooks
+ these days are laden with
+ words besides pictures to guide
+ the readers to comprehend better
+",color=blue];
+	299 [label="both images and words go hand
+ in hand and one cannot
+ wholly emphasise on only one
+ aspect , either images or
+ words",color=green];
 }

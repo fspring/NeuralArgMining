@@ -5,13 +5,39 @@ digraph G {
 	152 -> 269;
 	173 -> 269;
 	126 [label="natural",color=green];
-	173 [label="most occasions , the process of extinction of some species is irrevocable and we can do nothing about it",color=blue];
+	173 [label="most occasions ,
+ the process of extinction of
+ some species is irrevocable and
+ we can do nothing about
+ it",color=blue];
 	132 [label="evolution",color=green];
-	195 [label="human beings nowadays are still faced with many urgent problems such as starvation , disease and wars",color=blue];
-	134 [label="the environment on the earth has been transformed many times since the first species came into being",color=blue];
-	281 [label="and it is better to let nature take its course with regard to species extinction",color=green];
-	152 [label="a great number of plants and animals died out because they were unable to fit into the new environment",color=blue];
-	269 [label="more emphasis should be laid on human beings other than animals",color=green];
-	173 [label="most occasions , the process of extinction of some species is irrevocable and we can do nothing about it",color=blue];
-	269 [label="more emphasis should be laid on human beings other than animals",color=green];
+	195 [label="human beings nowadays are still faced
+ with many urgent problems such
+ as starvation , disease and
+ wars",color=blue];
+	134 [label="the environment
+ on the earth has been
+ transformed many times since the
+ first species came into being
+",color=blue];
+	281 [label="and it is better to
+ let nature take its course
+ with regard to species extinction
+",color=green];
+	152 [label="a great number of
+ plants and animals died out
+ because they were unable to
+ fit into the new environment
+",color=blue];
+	269 [label="more emphasis
+ should be laid on human
+ beings other than animals",color=green];
+	173 [label="most occasions ,
+ the process of extinction of
+ some species is irrevocable and
+ we can do nothing about
+ it",color=blue];
+	269 [label="more emphasis
+ should be laid on human
+ beings other than animals",color=green];
 }

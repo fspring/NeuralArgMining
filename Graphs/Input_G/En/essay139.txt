@@ -9,24 +9,92 @@ digraph G {
 	176 -> 269;
 	195 -> 247;
 	213 -> 247;
-	41 [label="we should give priority to our own issues",color=green];
-	60 [label="biodiversity is essential to maintain the balance of ecosystem",color=blue];
-	60 [label="biodiversity is essential to maintain the balance of ecosystem",color=blue];
-	103 [label="it is our responsibility to keep as many species on the Earth as possible",color=green];
-	70 [label="If certain species are absent from this system , such kind of balance is likely to be disrupted and other species , including human beings , will come under threat",color=blue];
-	103 [label="it is our responsibility to keep as many species on the Earth as possible",color=green];
-	122 [label="species extinction is quite natural according to the theory of evolution",color=green];
-	134 [label="The environment on the Earth has been transformed many times since the first species came into being",color=blue];
-	134 [label="The environment on the Earth has been transformed many times since the first species came into being",color=blue];
-	269 [label="more emphasis should be laid on human beings other than animals , and it is better to let nature take its course with regard to species extinction",color=green];
-	152 [label="A great number of plants and animals died out",color=blue];
-	269 [label="more emphasis should be laid on human beings other than animals , and it is better to let nature take its course with regard to species extinction",color=green];
-	162 [label="they were unable to fit into the new environment",color=blue];
-	269 [label="more emphasis should be laid on human beings other than animals , and it is better to let nature take its course with regard to species extinction",color=green];
-	176 [label="the process of extinction of some species is irrevocable and we can do nothing about it",color=blue];
-	269 [label="more emphasis should be laid on human beings other than animals , and it is better to let nature take its course with regard to species extinction",color=green];
-	195 [label="human beings nowadays are still faced with many urgent problems such as starvation , disease and wars",color=blue];
-	247 [label="We should put our own survival and sustainment in order first before considering the conservation of other species",color=green];
-	213 [label="When these problems are taken into account , extinction of some animals recedes greatly in importance and it is not sensible to devote our limited resources to animals that have been past help",color=blue];
-	247 [label="We should put our own survival and sustainment in order first before considering the conservation of other species",color=green];
+	41 [label="we should give priority
+ to our own issues",color=green];
+	60 [label="biodiversity is essential to maintain
+ the balance of ecosystem",color=blue];
+	60 [label="biodiversity is essential to maintain
+ the balance of ecosystem",color=blue];
+	103 [label="it is
+ our responsibility to keep as
+ many species on the Earth
+ as possible",color=green];
+	70 [label="If certain species are absent
+ from this system , such
+ kind of balance is likely
+ to be disrupted and other
+ species , including human beings
+ , will come under threat
+",color=blue];
+	103 [label="it is
+ our responsibility to keep as
+ many species on the Earth
+ as possible",color=green];
+	122 [label="species extinction is
+ quite natural according to the
+ theory of evolution",color=green];
+	134 [label="The environment on the Earth has
+ been transformed many times since
+ the first species came into
+ being",color=blue];
+	134 [label="The environment on the Earth has
+ been transformed many times since
+ the first species came into
+ being",color=blue];
+	269 [label="more emphasis should be laid on
+ human beings other than animals
+ , and it is better
+ to let nature take its
+ course with regard to species
+ extinction",color=green];
+	152 [label="A great number
+ of plants and animals died
+ out",color=blue];
+	269 [label="more emphasis should be laid on
+ human beings other than animals
+ , and it is better
+ to let nature take its
+ course with regard to species
+ extinction",color=green];
+	162 [label="they were unable
+ to fit into the new
+ environment",color=blue];
+	269 [label="more emphasis should be laid on
+ human beings other than animals
+ , and it is better
+ to let nature take its
+ course with regard to species
+ extinction",color=green];
+	176 [label="the process of extinction
+ of some species is irrevocable
+ and we can do nothing
+ about it",color=blue];
+	269 [label="more emphasis should be laid on
+ human beings other than animals
+ , and it is better
+ to let nature take its
+ course with regard to species
+ extinction",color=green];
+	195 [label="human beings nowadays are still
+ faced with many urgent problems
+ such as starvation , disease
+ and wars",color=blue];
+	247 [label="We should put
+ our own survival and sustainment
+ in order first before considering
+ the conservation of other species
+",color=green];
+	213 [label="When these
+ problems are taken into account
+ , extinction of some animals
+ recedes greatly in importance and
+ it is not sensible to
+ devote our limited resources to
+ animals that have been past
+ help",color=blue];
+	247 [label="We should put
+ our own survival and sustainment
+ in order first before considering
+ the conservation of other species
+",color=green];
 }

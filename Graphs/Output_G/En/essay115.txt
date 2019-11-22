@@ -7,17 +7,63 @@ digraph G {
 	232 -> 294;
 	242 -> 294;
 	120 [label="products dramatically",color=green];
-	137 [label="unlike the organic plant foods , industrialized fertilizers are made of unusual chemicals , which are not only varying the gene of crops into those unknown substances but also remaining inside of plants permanently",color=blue];
-	126 [label="high-tech fertilizers pose a potential threat to individuals' health well-being",color=green];
-	137 [label="unlike the organic plant foods , industrialized fertilizers are made of unusual chemicals , which are not only varying the gene of crops into those unknown substances but also remaining inside of plants permanently",color=blue];
-	176 [label="consumers who intake those fertilized products on a regular base tend to suffer a series of disease in the future",color=blue];
-	294 [label="the demerits of applying these new developments in the agriculture industry cannot be overlooked",color=green];
-	199 [label="excessively relying on the electronic equipment for harvest causes several impacts to the society",color=blue];
-	294 [label="the demerits of applying these new developments in the agriculture industry cannot be overlooked",color=green];
-	216 [label="that it worsens the air pollution by releasing the excessive exhaust emission",color=blue];
-	294 [label="the demerits of applying these new developments in the agriculture industry cannot be overlooked",color=green];
-	232 [label="manual harvest prevents severe environmental damages",color=blue];
-	294 [label="the demerits of applying these new developments in the agriculture industry cannot be overlooked",color=green];
-	242 [label="mechanical reaper causes the rise of the unemployment rate in the farming industry , possibly because high-end reaping plants replace a large number of workers in the fields",color=blue];
-	294 [label="the demerits of applying these new developments in the agriculture industry cannot be overlooked",color=green];
+	137 [label="unlike the organic plant
+ foods , industrialized fertilizers are
+ made of unusual chemicals ,
+ which are not only varying
+ the gene of crops into
+ those unknown substances but also
+ remaining inside of plants permanently
+",color=blue];
+	126 [label="high-tech fertilizers pose a potential
+ threat to individuals' health well-being
+",color=green];
+	137 [label="unlike the organic plant
+ foods , industrialized fertilizers are
+ made of unusual chemicals ,
+ which are not only varying
+ the gene of crops into
+ those unknown substances but also
+ remaining inside of plants permanently
+",color=blue];
+	176 [label="consumers who intake those fertilized
+ products on a regular base
+ tend to suffer a series
+ of disease in the future
+",color=blue];
+	294 [label="the demerits
+ of applying these new developments
+ in the agriculture industry cannot
+ be overlooked",color=green];
+	199 [label="excessively relying
+ on the electronic equipment for
+ harvest causes several impacts to
+ the society",color=blue];
+	294 [label="the demerits
+ of applying these new developments
+ in the agriculture industry cannot
+ be overlooked",color=green];
+	216 [label="that it worsens the air
+ pollution by releasing the excessive
+ exhaust emission",color=blue];
+	294 [label="the demerits
+ of applying these new developments
+ in the agriculture industry cannot
+ be overlooked",color=green];
+	232 [label="manual harvest prevents severe
+ environmental damages",color=blue];
+	294 [label="the demerits
+ of applying these new developments
+ in the agriculture industry cannot
+ be overlooked",color=green];
+	242 [label="mechanical reaper causes the
+ rise of the unemployment rate
+ in the farming industry ,
+ possibly because high-end reaping plants
+ replace a large number of
+ workers in the fields",color=blue];
+	294 [label="the demerits
+ of applying these new developments
+ in the agriculture industry cannot
+ be overlooked",color=green];
 }

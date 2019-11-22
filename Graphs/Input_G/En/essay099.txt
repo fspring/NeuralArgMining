@@ -12,30 +12,104 @@ digraph G {
 	243 -> 281;
 	313 -> 281;
 	313 -> 295;
-	62 [label="Experience gained through traveling to different places , meeting different people and even at job goes long way",color=green];
-	81 [label="It not only enhances the confidence of a student but also makes them independent",color=blue];
-	81 [label="It not only enhances the confidence of a student but also makes them independent",color=blue];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	96 [label="Student's who works tend to gather better financial resources which they can rely on during their university studies",color=blue];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	115 [label="This experience also makes them aware of what they would like to make of their life",color=blue];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	132 [label="They develop broader view and can make a better choice of their future studies or courses",color=blue];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	149 [label="Taking a break not just has benefits but it also comes with some negative impacts",color=green];
-	165 [label="Once student's starts earning , they might not like to go back to studies where they would lose their financial independence",color=blue];
-	165 [label="Once student's starts earning , they might not like to go back to studies where they would lose their financial independence",color=blue];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	187 [label="They might even find it difficult to adapt to education environment",color=blue];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	199 [label="There is also a risk of student never going back to university or higher education",color=blue];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	215 [label="Probably some might take some short term courses instead of proper and complete university education , which will help them to get a better job and salaries",color=blue];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	243 [label="This might only help them in a short run as it is a known fact that to make a reasonable career in longer runs , one needs a proper and higher qualification",color=blue];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	281 [label="I would agree to idea of taking a break before starting higher education",color=green];
-	313 [label="They tend to contribute more due to their real world experiences which makes them more mature",color=blue];
-	295 [label="Students who take break , gain lot of benefits by traveling around the places or by working",color=green];
-	313 [label="They tend to contribute more due to their real world experiences which makes them more mature",color=blue];
+	62 [label="Experience gained through
+ traveling to different places ,
+ meeting different people and even
+ at job goes long way
+",color=green];
+	81 [label="It not only enhances
+ the confidence of a student
+ but also makes them independent
+",color=blue];
+	81 [label="It not only enhances
+ the confidence of a student
+ but also makes them independent
+",color=blue];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	96 [label="Student's who works tend
+ to gather better financial resources
+ which they can rely on
+ during their university studies",color=blue];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	115 [label="This experience also makes them
+ aware of what they would
+ like to make of their
+ life",color=blue];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	132 [label="They develop broader
+ view and can make a
+ better choice of their future
+ studies or courses",color=blue];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	149 [label="Taking a break not just has
+ benefits but it also comes
+ with some negative impacts",color=green];
+	165 [label="Once student's starts earning ,
+ they might not like to
+ go back to studies where
+ they would lose their financial
+ independence",color=blue];
+	165 [label="Once student's starts earning ,
+ they might not like to
+ go back to studies where
+ they would lose their financial
+ independence",color=blue];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	187 [label="They might even
+ find it difficult to adapt
+ to education environment",color=blue];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	199 [label="There is also a risk of
+ student never going back to
+ university or higher education",color=blue];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	215 [label="Probably some might take some
+ short term courses instead of
+ proper and complete university education
+ , which will help them
+ to get a better job
+ and salaries",color=blue];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	243 [label="This might
+ only help them in a
+ short run as it is
+ a known fact that to
+ make a reasonable career in
+ longer runs , one needs
+ a proper and higher qualification
+",color=blue];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	281 [label="I would agree to
+ idea of taking a break
+ before starting higher education",color=green];
+	313 [label="They tend
+ to contribute more due to
+ their real world experiences which
+ makes them more mature",color=blue];
+	295 [label="Students who take break ,
+ gain lot of benefits by
+ traveling around the places or
+ by working",color=green];
+	313 [label="They tend
+ to contribute more due to
+ their real world experiences which
+ makes them more mature",color=blue];
 }

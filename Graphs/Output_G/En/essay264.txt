@@ -4,11 +4,22 @@ digraph G {
 	241 -> 186;
 	278 -> 281;
 	67 [label="is that",color=green];
-	76 [label="there are always interesting and useful experiences that successful people can learn them only by trying new things",color=blue];
+	76 [label="there are always interesting and
+ useful experiences that successful people
+ can learn them only by
+ trying new things",color=blue];
 	182 [label="that great",color=green];
-	241 [label="you should risk studying all the time and sacrificing your free time and your favorite hobbies",color=blue];
+	241 [label="you should risk studying all
+ the time and sacrificing your
+ free time and your favorite
+ hobbies",color=blue];
 	186 [label="taking",color=green];
-	241 [label="you should risk studying all the time and sacrificing your free time and your favorite hobbies",color=blue];
-	278 [label="you will have",color=blue];
-	281 [label="an ordinary life with average successes",color=green];
+	241 [label="you should risk studying all
+ the time and sacrificing your
+ free time and your favorite
+ hobbies",color=blue];
+	278 [label="you will have
+",color=blue];
+	281 [label="an ordinary life with average
+ successes",color=green];
 }

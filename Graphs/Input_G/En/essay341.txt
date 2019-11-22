@@ -12,30 +12,103 @@ digraph G {
 	222 -> 203;
 	222 -> 287;
 	238 -> 287;
-	48 [label="the importance of traditions should be valued and paid attention to",color=green];
-	83 [label="technology takes convenience to humankind",color=blue];
-	60 [label="Traditional skills and lifestyles play important role in modern society , in terms of healthcare , environmental protection and cultural inherit",color=green];
-	83 [label="technology takes convenience to humankind",color=blue];
-	83 [label="technology takes convenience to humankind",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
-	89 [label="it also contributes to unhealthy behaviors of life , like sedentary lifestyle",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
-	104 [label="traditional ways of life is a great complimentary for modern life and highlight the importance of work life balance",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
-	131 [label="traditional skills rely little on fossil energy",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
-	139 [label="it is more environmentally-friendly , which should be promoted to reduce the threat of climate change",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
-	157 [label="those tradition-related things convey traditional culture and values",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
-	166 [label="These are important foundation of modern civilization",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
-	174 [label="Protection of tradition can provide the possibility to better understand ancient culture and utilize them to tackle modern problems",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
-	203 [label="protecting traditions consume too much financial budget compared with the incoming it takes",color=green];
-	222 [label="this kind of business bring limited contribution to government finance",color=blue];
-	222 [label="this kind of business bring limited contribution to government finance",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
-	238 [label="the expense is trivial compared with the potential value of traditions",color=blue];
-	287 [label="protection of tradition is not only important for the entire society currently , but also contributes to the next generation",color=green];
+	48 [label="the importance
+ of traditions should be valued
+ and paid attention to",color=green];
+	83 [label="technology takes
+ convenience to humankind",color=blue];
+	60 [label="Traditional skills and lifestyles play
+ important role in modern society
+ , in terms of healthcare
+ , environmental protection and cultural
+ inherit",color=green];
+	83 [label="technology takes
+ convenience to humankind",color=blue];
+	83 [label="technology takes
+ convenience to humankind",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
+	89 [label="it also contributes to unhealthy behaviors
+ of life , like sedentary
+ lifestyle",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
+	104 [label="traditional ways of life is a
+ great complimentary for modern life
+ and highlight the importance of
+ work life balance",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
+	131 [label="traditional skills rely little
+ on fossil energy",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
+	139 [label="it is more environmentally-friendly , which
+ should be promoted to reduce
+ the threat of climate change
+",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
+	157 [label="those tradition-related things
+ convey traditional culture and values
+",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
+	166 [label="These are important foundation
+ of modern civilization",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
+	174 [label="Protection of tradition can provide the
+ possibility to better understand ancient
+ culture and utilize them to
+ tackle modern problems",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
+	203 [label="protecting traditions
+ consume too much financial budget
+ compared with the incoming it
+ takes",color=green];
+	222 [label="this kind of
+ business bring limited contribution to
+ government finance",color=blue];
+	222 [label="this kind of
+ business bring limited contribution to
+ government finance",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
+	238 [label="the expense
+ is trivial compared with the
+ potential value of traditions",color=blue];
+	287 [label="protection of tradition
+ is not only important for
+ the entire society currently ,
+ but also contributes to the
+ next generation",color=green];
 }

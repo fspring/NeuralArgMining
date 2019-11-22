@@ -1,5 +1,7 @@
 digraph G {
 	41 -> 42;
 	41 [label="o",color=blue];
-	42 [label="primeiro a perceber a irrelevância do que o espera",color=green];
+	42 [label="primeiro a perceber a
+ irrelevância do que o espera
+",color=green];
 }

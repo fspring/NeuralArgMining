@@ -9,24 +9,76 @@ digraph G {
 	224 -> 279;
 	233 -> 279;
 	258 -> 279;
-	89 [label="college and university should consider students to study with them only if they are good students",color=green];
-	110 [label="studying in advance education take a huge of money",color=blue];
-	110 [label="studying in advance education take a huge of money",color=blue];
-	300 [label="college and university should be available for all students who want to pursue their goal",color=green];
-	120 [label="College and university do not want people who not qualify for to waste their money in these expensive courses and waste their time",color=blue];
-	300 [label="college and university should be available for all students who want to pursue their goal",color=green];
-	147 [label="only good students have potentials to success programs more that those who are not considered as good students",color=blue];
-	300 [label="college and university should be available for all students who want to pursue their goal",color=green];
-	168 [label="mediocre students are not have a chance to gain these advance knowledge from college and university",color=blue];
-	300 [label="college and university should be available for all students who want to pursue their goal",color=green];
-	196 [label="all students should have equal opportunity to study in higher education",color=blue];
-	279 [label="mediocre students should have opportunity to be trained in college and university",color=green];
-	211 [label="higher education take a lot of money and a lot of time",color=blue];
-	279 [label="mediocre students should have opportunity to be trained in college and university",color=green];
-	224 [label="moderate students should have a chance to try",color=blue];
-	279 [label="mediocre students should have opportunity to be trained in college and university",color=green];
-	233 [label="Everyone that has strongly ambition could pursue and success their goal even they are not classified as a good student because people can change",color=blue];
-	279 [label="mediocre students should have opportunity to be trained in college and university",color=green];
-	258 [label="With a good environment in college or university is encouraging students to study harder for a good future",color=blue];
-	279 [label="mediocre students should have opportunity to be trained in college and university",color=green];
+	89 [label="college and university should consider students
+ to study with them only
+ if they are good students
+",color=green];
+	110 [label="studying in advance education take
+ a huge of money",color=blue];
+	110 [label="studying in advance education take
+ a huge of money",color=blue];
+	300 [label="college and university should be
+ available for all students who
+ want to pursue their goal
+",color=green];
+	120 [label="College and university do not
+ want people who not qualify
+ for to waste their money
+ in these expensive courses and
+ waste their time",color=blue];
+	300 [label="college and university should be
+ available for all students who
+ want to pursue their goal
+",color=green];
+	147 [label="only good students
+ have potentials to success programs
+ more that those who are
+ not considered as good students
+",color=blue];
+	300 [label="college and university should be
+ available for all students who
+ want to pursue their goal
+",color=green];
+	168 [label="mediocre students
+ are not have a chance
+ to gain these advance knowledge
+ from college and university",color=blue];
+	300 [label="college and university should be
+ available for all students who
+ want to pursue their goal
+",color=green];
+	196 [label="all students should have
+ equal opportunity to study in
+ higher education",color=blue];
+	279 [label="mediocre students should have opportunity to
+ be trained in college and
+ university",color=green];
+	211 [label="higher education take a
+ lot of money and a
+ lot of time",color=blue];
+	279 [label="mediocre students should have opportunity to
+ be trained in college and
+ university",color=green];
+	224 [label="moderate students should have a chance
+ to try",color=blue];
+	279 [label="mediocre students should have opportunity to
+ be trained in college and
+ university",color=green];
+	233 [label="Everyone that
+ has strongly ambition could pursue
+ and success their goal even
+ they are not classified as
+ a good student because people
+ can change",color=blue];
+	279 [label="mediocre students should have opportunity to
+ be trained in college and
+ university",color=green];
+	258 [label="With a
+ good environment in college or
+ university is encouraging students to
+ study harder for a good
+ future",color=blue];
+	279 [label="mediocre students should have opportunity to
+ be trained in college and
+ university",color=green];
 }

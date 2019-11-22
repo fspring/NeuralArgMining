@@ -14,34 +14,109 @@ digraph G {
 	283 -> 274;
 	283 -> 362;
 	301 -> 362;
-	44 [label="It is obvious that music has a great power which can positively influence on human being and its psychology",color=blue];
-	66 [label="many university authorities provide music lessons for their students",color=green];
-	66 [label="many university authorities provide music lessons for their students",color=green];
-	77 [label="they live and study in a harmony with music",color=blue];
-	77 [label="they live and study in a harmony with music",color=blue];
-	362 [label="An integration of music into learning process bound to be successful when it is not compulsory",color=green];
-	92 [label="students , who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time",color=blue];
-	362 [label="An integration of music into learning process bound to be successful when it is not compulsory",color=green];
-	124 [label="music can be a useful and interesting solution",color=blue];
-	362 [label="An integration of music into learning process bound to be successful when it is not compulsory",color=green];
-	135 [label="if musical activity involves many participants , there will be co-operation and developed team work in the group , which is , of course , beneficial in their future life",color=blue];
-	362 [label="An integration of music into learning process bound to be successful when it is not compulsory",color=green];
-	169 [label="students with a quite poor academic background can show themselves in the music",color=blue];
-	362 [label="An integration of music into learning process bound to be successful when it is not compulsory",color=green];
-	185 [label="the calm atmosphere in the class might be created",color=blue];
-	362 [label="An integration of music into learning process bound to be successful when it is not compulsory",color=green];
-	198 [label="it is clear that music can have many mentally enhancing effects on students",color=blue];
-	274 [label="music and other entertaining subjects should be optional",color=green];
-	219 [label="demand is not for musically orientated students , but for academically developed employees",color=blue];
-	274 [label="music and other entertaining subjects should be optional",color=green];
-	242 [label="music is the art which requires special attitude towards it",color=blue];
-	274 [label="music and other entertaining subjects should be optional",color=green];
-	256 [label="students can not obtain supposed impacts , unless they get interested in it more seriously",color=blue];
-	274 [label="music and other entertaining subjects should be optional",color=green];
-	274 [label="music and other entertaining subjects should be optional",color=green];
-	283 [label="Nowadays , time is the most valuable thing in life with increased pace",color=blue];
-	283 [label="Nowadays , time is the most valuable thing in life with increased pace",color=blue];
-	362 [label="An integration of music into learning process bound to be successful when it is not compulsory",color=green];
-	301 [label="students are to develop their professional skills by learning occupation-related subjects , rather than playing on guitar or singing a song",color=blue];
-	362 [label="An integration of music into learning process bound to be successful when it is not compulsory",color=green];
+	44 [label="It is obvious that music has
+ a great power which can
+ positively influence on human being
+ and its psychology",color=blue];
+	66 [label="many university authorities provide
+ music lessons for their students
+",color=green];
+	66 [label="many university authorities provide
+ music lessons for their students
+",color=green];
+	77 [label="they live and
+ study in a harmony with
+ music",color=blue];
+	77 [label="they live and
+ study in a harmony with
+ music",color=blue];
+	362 [label="An integration of
+ music into learning process bound
+ to be successful when it
+ is not compulsory",color=green];
+	92 [label="students , who
+ spend a great deal of
+ their time studying different academic
+ subjects should have an opportunity
+ to cope with the stress
+ gained during school time",color=blue];
+	362 [label="An integration of
+ music into learning process bound
+ to be successful when it
+ is not compulsory",color=green];
+	124 [label="music can be a useful and
+ interesting solution",color=blue];
+	362 [label="An integration of
+ music into learning process bound
+ to be successful when it
+ is not compulsory",color=green];
+	135 [label="if musical activity involves many
+ participants , there will be
+ co-operation and developed team work
+ in the group , which
+ is , of course ,
+ beneficial in their future life
+",color=blue];
+	362 [label="An integration of
+ music into learning process bound
+ to be successful when it
+ is not compulsory",color=green];
+	169 [label="students with a quite poor academic
+ background can show themselves in
+ the music",color=blue];
+	362 [label="An integration of
+ music into learning process bound
+ to be successful when it
+ is not compulsory",color=green];
+	185 [label="the calm atmosphere in the
+ class might be created",color=blue];
+	362 [label="An integration of
+ music into learning process bound
+ to be successful when it
+ is not compulsory",color=green];
+	198 [label="it is
+ clear that music can have
+ many mentally enhancing effects on
+ students",color=blue];
+	274 [label="music and other entertaining subjects should
+ be optional",color=green];
+	219 [label="demand is not for musically orientated
+ students , but for academically
+ developed employees",color=blue];
+	274 [label="music and other entertaining subjects should
+ be optional",color=green];
+	242 [label="music is the
+ art which requires special attitude
+ towards it",color=blue];
+	274 [label="music and other entertaining subjects should
+ be optional",color=green];
+	256 [label="students can not obtain
+ supposed impacts , unless they
+ get interested in it more
+ seriously",color=blue];
+	274 [label="music and other entertaining subjects should
+ be optional",color=green];
+	274 [label="music and other entertaining subjects should
+ be optional",color=green];
+	283 [label="Nowadays ,
+ time is the most valuable
+ thing in life with increased
+ pace",color=blue];
+	283 [label="Nowadays ,
+ time is the most valuable
+ thing in life with increased
+ pace",color=blue];
+	362 [label="An integration of
+ music into learning process bound
+ to be successful when it
+ is not compulsory",color=green];
+	301 [label="students are to develop
+ their professional skills by learning
+ occupation-related subjects , rather than
+ playing on guitar or singing
+ a song",color=blue];
+	362 [label="An integration of
+ music into learning process bound
+ to be successful when it
+ is not compulsory",color=green];
 }

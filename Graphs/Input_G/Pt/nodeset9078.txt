@@ -1,5 +1,9 @@
 digraph G {
 	10 -> 0;
-	0 [label="Mas os próximos dois meses serão igualmente muito importantes",color=green];
-	10 [label="Merkel terá que demonstrar que recuperou a relação de mútua compreensão com a maioria do eleitorado alemão",color=blue];
+	0 [label="Mas os próximos dois meses
+ serão igualmente muito importantes",color=green];
+	10 [label="Merkel terá que demonstrar que
+ recuperou a relação de mútua
+ compreensão com a maioria do
+ eleitorado alemão",color=blue];
 }

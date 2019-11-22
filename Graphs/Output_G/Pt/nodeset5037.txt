@@ -1,5 +1,11 @@
 digraph G {
 	36 -> 19;
-	19 [label="as provas do grand slam prosseguem a política de reforço dos prémios",color=green];
-	36 [label="de roland garros veio a notícia de que o prize-money global chegará aos 28 milhões de euros",color=blue];
+	19 [label="as provas
+ do grand slam prosseguem a
+ política de reforço dos prémios
+",color=green];
+	36 [label="de roland garros veio a
+ notícia de que o prize-money
+ global chegará aos 28 milhões
+ de euros",color=blue];
 }

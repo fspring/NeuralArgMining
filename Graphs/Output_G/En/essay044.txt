@@ -3,12 +3,26 @@ digraph G {
 	162 -> 161;
 	181 -> 205;
 	204 -> 205;
-	109 [label="if the government encourage the use of nuclear , solar or wind energy there might not be any problem in distributing the required amount electricity",color=blue];
-	172 [label="atmosphere which increases global warming",color=green];
+	109 [label="if the
+ government encourage the use of
+ nuclear , solar or wind
+ energy there might not be
+ any problem in distributing the
+ required amount electricity",color=blue];
+	172 [label="atmosphere which increases global
+ warming",color=green];
 	161 [label="currently",color=green];
-	162 [label="to generate power releases extensive amount",color=blue];
-	181 [label="the use of a solar cooker instead of an electric cooker would certainly reduce the global warming",color=blue];
-	205 [label="use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution",color=green];
+	162 [label="to generate power releases
+ extensive amount",color=blue];
+	181 [label="the use of a solar
+ cooker instead of an electric
+ cooker would certainly reduce the
+ global warming",color=blue];
+	205 [label="use of nuclear energy as an
+ alternative to the hydro-kinetic energy
+ causes less atmospheric pollution",color=green];
 	204 [label="the",color=blue];
-	205 [label="use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution",color=green];
+	205 [label="use of nuclear energy as an
+ alternative to the hydro-kinetic energy
+ causes less atmospheric pollution",color=green];
 }

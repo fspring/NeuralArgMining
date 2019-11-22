@@ -6,18 +6,70 @@ digraph G {
 	306 -> 376;
 	334 -> 376;
 	364 -> 376;
-	79 [label="it's very suitable for children to develop senses of music and art when they are young",color=green];
-	96 [label="children absorb things quickly and they bear exact the ability needed in music and art-imagination",color=blue];
-	267 [label="parents shouldn't put so much stress",color=green];
-	276 [label="since learning too many skills seems to be a burden for them",color=blue];
+	79 [label="it's very
+ suitable for children to develop
+ senses of music and art
+ when they are young",color=green];
+	96 [label="children absorb things quickly and
+ they bear exact the ability
+ needed in music and art-imagination
+",color=blue];
+	267 [label="parents shouldn't put so
+ much stress",color=green];
+	276 [label="since learning too many skills
+ seems to be a burden
+ for them",color=blue];
 	274 [label="children",color=green];
-	306 [label="if parents push their 5 years old child to play piano 8 hours a day just like a professional performer , that might be too much",color=blue];
-	293 [label="it depends on how you value these learning activities to be like",color=blue];
-	376 [label="young age is the perfect time for children to learn music and art and they are indeed valuable to people not only in their young stage , but in every stage",color=green];
-	306 [label="if parents push their 5 years old child to play piano 8 hours a day just like a professional performer , that might be too much",color=blue];
-	376 [label="young age is the perfect time for children to learn music and art and they are indeed valuable to people not only in their young stage , but in every stage",color=green];
-	334 [label="a child stage , music and art are more like an open door to introduce the art world than training area to acquire specific skills",color=blue];
-	376 [label="young age is the perfect time for children to learn music and art and they are indeed valuable to people not only in their young stage , but in every stage",color=green];
-	364 [label="it will not be such pressure on children",color=blue];
-	376 [label="young age is the perfect time for children to learn music and art and they are indeed valuable to people not only in their young stage , but in every stage",color=green];
+	306 [label="if parents push their 5
+ years old child to play
+ piano 8 hours a day
+ just like a professional performer
+ , that might be too
+ much",color=blue];
+	293 [label="it depends on
+ how you value these learning
+ activities to be like",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art and they
+ are indeed valuable to people
+ not only in their young
+ stage , but in every
+ stage",color=green];
+	306 [label="if parents push their 5
+ years old child to play
+ piano 8 hours a day
+ just like a professional performer
+ , that might be too
+ much",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art and they
+ are indeed valuable to people
+ not only in their young
+ stage , but in every
+ stage",color=green];
+	334 [label="a child
+ stage , music and art
+ are more like an open
+ door to introduce the art
+ world than training area to
+ acquire specific skills",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art and they
+ are indeed valuable to people
+ not only in their young
+ stage , but in every
+ stage",color=green];
+	364 [label="it will
+ not be such pressure on
+ children",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art and they
+ are indeed valuable to people
+ not only in their young
+ stage , but in every
+ stage",color=green];
 }

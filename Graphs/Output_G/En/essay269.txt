@@ -2,10 +2,54 @@ digraph G {
 	96 -> 69;
 	96 -> 83;
 	352 -> 407;
-	69 [label="friends is a treasure with respect to either our daylife or our career",color=green];
-	96 [label="having a good ability of relate to people means you have a number of friends in a variety of fields , imagine when you are in trouble , you have a lot of people who have good relationship with you , so you can ask for your friends to help you solve this problem as soon as possible , even an esy phone call , instend of a series of complex solutions",color=blue];
+	69 [label="friends is
+ a treasure with respect to
+ either our daylife or our
+ career",color=green];
+	96 [label="having a good ability of
+ relate to people means you
+ have a number of friends
+ in a variety of fields
+ , imagine when you are
+ in trouble , you have
+ a lot of people who
+ have good relationship with you
+ , so you can ask
+ for your friends to help
+ you solve this problem as
+ soon as possible , even
+ an esy phone call ,
+ instend of a series of
+ complex solutions",color=blue];
 	83 [label="relating",color=green];
-	96 [label="having a good ability of relate to people means you have a number of friends in a variety of fields , imagine when you are in trouble , you have a lot of people who have good relationship with you , so you can ask for your friends to help you solve this problem as soon as possible , even an esy phone call , instend of a series of complex solutions",color=blue];
-	352 [label="but imagine it , a person who is good at working knowledge but has an poorly relate to people , and a person who has a good ability of relating to people but his working knowledge is less better than the former , which person do you want to be",color=blue];
-	407 [label="people would choose the former because it has more chance than the latter in terms of getting",color=green];
+	96 [label="having a good ability of
+ relate to people means you
+ have a number of friends
+ in a variety of fields
+ , imagine when you are
+ in trouble , you have
+ a lot of people who
+ have good relationship with you
+ , so you can ask
+ for your friends to help
+ you solve this problem as
+ soon as possible , even
+ an esy phone call ,
+ instend of a series of
+ complex solutions",color=blue];
+	352 [label="but imagine it ,
+ a person who is good
+ at working knowledge but has
+ an poorly relate to people
+ , and a person who
+ has a good ability of
+ relating to people but his
+ working knowledge is less better
+ than the former , which
+ person do you want to
+ be",color=blue];
+	407 [label="people would choose the
+ former because it has more
+ chance than the latter in
+ terms of getting",color=green];
 }

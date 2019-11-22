@@ -4,14 +4,41 @@ digraph G {
 	137 -> 327;
 	154 -> 327;
 	259 -> 280;
-	84 [label="advertising is carried out with the main purpose of promoting different products and services or encouraging people to consume more",color=blue];
-	105 [label="Advertisements are , therefore , very important for many businesses to increase sales and hence profits",color=green];
-	124 [label="to consumers , advertising can bring them many benefits",color=green];
-	154 [label="they can compare them and then have a better decision in choosing their internet or mobile phone plans",color=blue];
-	137 [label="customers of telecommunication services will have an idea about the current offers of different companies",color=blue];
-	327 [label="the idea that advertising is a positive part of life can be more supported",color=green];
-	154 [label="they can compare them and then have a better decision in choosing their internet or mobile phone plans",color=blue];
-	327 [label="the idea that advertising is a positive part of life can be more supported",color=green];
-	259 [label="advertising can be very expensive and not every advertising campaign can be done successfully and brings good results",color=blue];
-	280 [label="advertising is believed by many , a financial burden to businesses",color=green];
+	84 [label="advertising is carried out with the
+ main purpose of promoting different
+ products and services or encouraging
+ people to consume more",color=blue];
+	105 [label="Advertisements are , therefore ,
+ very important for many businesses
+ to increase sales and hence
+ profits",color=green];
+	124 [label="to consumers , advertising can bring
+ them many benefits",color=green];
+	154 [label="they can compare them and then
+ have a better decision in
+ choosing their internet or mobile
+ phone plans",color=blue];
+	137 [label="customers of telecommunication
+ services will have an idea
+ about the current offers of
+ different companies",color=blue];
+	327 [label="the idea that
+ advertising is a positive part
+ of life can be more
+ supported",color=green];
+	154 [label="they can compare them and then
+ have a better decision in
+ choosing their internet or mobile
+ phone plans",color=blue];
+	327 [label="the idea that
+ advertising is a positive part
+ of life can be more
+ supported",color=green];
+	259 [label="advertising can be very expensive and
+ not every advertising campaign can
+ be done successfully and brings
+ good results",color=blue];
+	280 [label="advertising is believed by many
+ , a financial burden to
+ businesses",color=green];
 }

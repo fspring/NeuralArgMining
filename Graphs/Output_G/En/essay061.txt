@@ -8,22 +8,65 @@ digraph G {
 	293 -> 374;
 	318 -> 374;
 	338 -> 374;
-	218 [label="research on making computerized drone soldiers (unmanned computer controlled) is going on",color=blue];
-	364 [label="computers have provided security and sophistication too",color=green];
-	231 [label="there is no end to the evolution of computers",color=blue];
-	364 [label="computers have provided security and sophistication too",color=green];
-	258 [label="privacy breach , leak of confidential documents , cyber attacks , identity theft , frauds etc",color=blue];
-	374 [label="dependence on computers is not a bad",color=green];
+	218 [label="research on making
+ computerized drone soldiers (unmanned computer
+ controlled) is going on",color=blue];
+	364 [label="computers have
+ provided security and sophistication too
+",color=green];
+	231 [label="there is no end to
+ the evolution of computers",color=blue];
+	364 [label="computers have
+ provided security and sophistication too
+",color=green];
+	258 [label="privacy breach ,
+ leak of confidential documents ,
+ cyber attacks , identity theft
+ , frauds etc",color=blue];
+	374 [label="dependence on
+ computers is not a bad
+",color=green];
 	281 [label="from a countless list",color=green];
-	293 [label="they have even invaded mental health of humans , for example , fad (facebook addiction disorder - excessive use of social networking website facebook)",color=blue];
+	293 [label="they have even
+ invaded mental health of humans
+ , for example , fad
+ (facebook addiction disorder - excessive
+ use of social networking website
+ facebook)",color=blue];
 	289 [label="to",color=green];
-	318 [label="computers have intruded our lives to the effect that a satellite can peep into our homes and privates lives",color=blue];
+	318 [label="computers have intruded
+ our lives to the effect
+ that a satellite can peep
+ into our homes and privates
+ lives",color=blue];
 	291 [label="materials",color=green];
-	318 [label="computers have intruded our lives to the effect that a satellite can peep into our homes and privates lives",color=blue];
-	293 [label="they have even invaded mental health of humans , for example , fad (facebook addiction disorder - excessive use of social networking website facebook)",color=blue];
-	374 [label="dependence on computers is not a bad",color=green];
-	318 [label="computers have intruded our lives to the effect that a satellite can peep into our homes and privates lives",color=blue];
-	374 [label="dependence on computers is not a bad",color=green];
-	338 [label="the recent case of wikileaks , leaking confidential data is an example of how computers are harmful",color=blue];
-	374 [label="dependence on computers is not a bad",color=green];
+	318 [label="computers have intruded
+ our lives to the effect
+ that a satellite can peep
+ into our homes and privates
+ lives",color=blue];
+	293 [label="they have even
+ invaded mental health of humans
+ , for example , fad
+ (facebook addiction disorder - excessive
+ use of social networking website
+ facebook)",color=blue];
+	374 [label="dependence on
+ computers is not a bad
+",color=green];
+	318 [label="computers have intruded
+ our lives to the effect
+ that a satellite can peep
+ into our homes and privates
+ lives",color=blue];
+	374 [label="dependence on
+ computers is not a bad
+",color=green];
+	338 [label="the recent case
+ of wikileaks , leaking confidential
+ data is an example of
+ how computers are harmful",color=blue];
+	374 [label="dependence on
+ computers is not a bad
+",color=green];
 }

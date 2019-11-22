@@ -12,27 +12,68 @@ digraph G {
 	264 -> 269;
 	268 -> 269;
 	142 [label="professional",color=green];
-	196 [label="parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way",color=blue];
-	144 [label="experienced in terms of promoting children's communication",color=green];
-	196 [label="parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way",color=blue];
+	196 [label="parents are facing difficult generation
+ gap with their children because
+ they are less likely to
+ know how to handle family
+ conflicts in an efficient way
+",color=blue];
+	144 [label="experienced in
+ terms of promoting children's communication
+",color=green];
+	196 [label="parents are facing difficult generation
+ gap with their children because
+ they are less likely to
+ know how to handle family
+ conflicts in an efficient way
+",color=blue];
 	154 [label="example",color=blue];
-	269 [label="to teach their children",color=green];
-	156 [label="after many years of teaching experience , teacher are able to know how to help children to develop important life skills such as learning personal boundaries",color=blue];
-	290 [label="teachers are the best for children's education",color=green];
+	269 [label="to teach
+ their children",color=green];
+	156 [label="after many years of teaching
+ experience , teacher are able
+ to know how to help
+ children to develop important life
+ skills such as learning personal
+ boundaries",color=blue];
+	290 [label="teachers are the best for children's
+ education",color=green];
 	183 [label="facing",color=blue];
-	269 [label="to teach their children",color=green];
+	269 [label="to teach
+ their children",color=green];
 	185 [label="problems and",color=blue];
-	276 [label="it was impossible for them to be a good teacher",color=green];
+	276 [label="it was impossible for them
+ to be a good teacher
+",color=green];
 	193 [label="by",color=blue];
-	290 [label="teachers are the best for children's education",color=green];
-	196 [label="parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way",color=blue];
-	298 [label="not only do they contribute much to children's professional skills but also they can teach their students important social communication techniques in order to survive in this competitive world",color=green];
+	290 [label="teachers are the best for children's
+ education",color=green];
+	196 [label="parents are facing difficult generation
+ gap with their children because
+ they are less likely to
+ know how to handle family
+ conflicts in an efficient way
+",color=blue];
+	298 [label="not only do
+ they contribute much to children's
+ professional skills but also they
+ can teach their students important
+ social communication techniques in order
+ to survive in this competitive
+ world",color=green];
 	228 [label="with teachers",color=green];
-	231 [label="parents do not have enough time to spend with their children",color=blue];
-	250 [label="crisis and it is necessary for both parents to work",color=blue];
-	276 [label="it was impossible for them to be a good teacher",color=green];
+	231 [label="parents do not have enough
+ time to spend with their
+ children",color=blue];
+	250 [label="crisis and it is necessary for
+ both parents to work",color=blue];
+	276 [label="it was impossible for them
+ to be a good teacher
+",color=green];
 	264 [label="only",color=blue];
-	269 [label="to teach their children",color=green];
+	269 [label="to teach
+ their children",color=green];
 	268 [label="them",color=blue];
-	269 [label="to teach their children",color=green];
+	269 [label="to teach
+ their children",color=green];
 }

@@ -16,35 +16,98 @@ digraph G {
 	247 -> 265;
 	257 -> 265;
 	49 [label="Pressure is motivation",color=blue];
-	96 [label="Doing all jobs at home don't make employees attempt to work like this",color=green];
-	53 [label="Each office has its rules that keep workers do their job as effectively as possible",color=blue];
-	96 [label="Doing all jobs at home don't make employees attempt to work like this",color=green];
-	69 [label="The directors manage employers and give them the deadline of projects",color=blue];
-	96 [label="Doing all jobs at home don't make employees attempt to work like this",color=green];
-	81 [label="Then again , the workers must try their best to finish the time limit",color=blue];
-	96 [label="Doing all jobs at home don't make employees attempt to work like this",color=green];
-	110 [label="Computers and modems bring works to home but these still have many things distract their mind",color=green];
-	127 [label="Facebook or Yahoo have been the entertaining websites , however , they are the reasons why people cannot concentrate on their job",color=blue];
-	127 [label="Facebook or Yahoo have been the entertaining websites , however , they are the reasons why people cannot concentrate on their job",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
-	150 [label="The dos and don't at office play important role to prevent these things from workers",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
-	169 [label="doing all jobs alone makes employees fall asleep easily",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
-	183 [label="the project cannot being done",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
-	189 [label="The best condition might not be good for people",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
-	199 [label="Interaction has been an advantage for workers at offices",color=green];
-	209 [label="Discussing and debating Projects together increase working ability",color=blue];
-	209 [label="Discussing and debating Projects together increase working ability",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
-	218 [label="all we know that the target can be reached fast thanks to working of many people",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
-	237 [label="interaction help employees improve their communicational skills",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
-	247 [label="they will have more and more friends and relationships",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
-	257 [label="Interaction is a factor increasing working quality",color=blue];
-	265 [label="There will have many disadvantages if the workers work at home",color=green];
+	96 [label="Doing all jobs at
+ home don't make employees attempt
+ to work like this",color=green];
+	53 [label="Each office
+ has its rules that keep
+ workers do their job as
+ effectively as possible",color=blue];
+	96 [label="Doing all jobs at
+ home don't make employees attempt
+ to work like this",color=green];
+	69 [label="The directors manage employers and give
+ them the deadline of projects
+",color=blue];
+	96 [label="Doing all jobs at
+ home don't make employees attempt
+ to work like this",color=green];
+	81 [label="Then again , the
+ workers must try their best
+ to finish the time limit
+",color=blue];
+	96 [label="Doing all jobs at
+ home don't make employees attempt
+ to work like this",color=green];
+	110 [label="Computers and modems bring works
+ to home but these still
+ have many things distract their
+ mind",color=green];
+	127 [label="Facebook or Yahoo
+ have been the entertaining websites
+ , however , they are
+ the reasons why people cannot
+ concentrate on their job",color=blue];
+	127 [label="Facebook or Yahoo
+ have been the entertaining websites
+ , however , they are
+ the reasons why people cannot
+ concentrate on their job",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
+	150 [label="The dos and don't at
+ office play important role to
+ prevent these things from workers
+",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
+	169 [label="doing all jobs alone makes employees
+ fall asleep easily",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
+	183 [label="the project
+ cannot being done",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
+	189 [label="The best condition might not be
+ good for people",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
+	199 [label="Interaction has been an advantage for
+ workers at offices",color=green];
+	209 [label="Discussing and debating Projects together increase
+ working ability",color=blue];
+	209 [label="Discussing and debating Projects together increase
+ working ability",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
+	218 [label="all we
+ know that the target can
+ be reached fast thanks to
+ working of many people",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
+	237 [label="interaction help employees
+ improve their communicational skills",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
+	247 [label="they will have
+ more and more friends and
+ relationships",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
+	257 [label="Interaction is a
+ factor increasing working quality",color=blue];
+	265 [label="There will have many disadvantages
+ if the workers work at
+ home",color=green];
 }

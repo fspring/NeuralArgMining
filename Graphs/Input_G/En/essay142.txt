@@ -12,30 +12,100 @@ digraph G {
 	236 -> 297;
 	256 -> 297;
 	264 -> 297;
-	42 [label="the advanced medical care brings with it more benefits than disadvantages",color=green];
-	76 [label="They can contribute effectively to the development of the economy",color=blue];
-	54 [label="The main advantage of high-tech medical care is that people are better taken care so that they have a good health",color=green];
-	76 [label="They can contribute effectively to the development of the economy",color=blue];
-	76 [label="They can contribute effectively to the development of the economy",color=blue];
-	297 [label="the development of the health care system helps people have a better life",color=green];
-	87 [label="healthy workers can create more productivity",color=blue];
-	297 [label="the development of the health care system helps people have a better life",color=green];
-	98 [label="they do not have to spend more time in health checking or treatment",color=blue];
-	297 [label="the development of the health care system helps people have a better life",color=green];
-	112 [label="this saves an amount of time as well as cost",color=blue];
-	297 [label="the development of the health care system helps people have a better life",color=green];
-	126 [label="a community with the elderly who have a good health has a major role to play in a sustainable development of a society",color=blue];
-	171 [label="the improvement of medical care makes a better life for all people",color=green];
-	153 [label="young people will be happy as their parents , grandparents are healthy",color=blue];
-	171 [label="the improvement of medical care makes a better life for all people",color=green];
-	193 [label="the increase in life expectancy puts a high pressure on the economic system",color=green];
-	207 [label="more pension have to spend for Medicare instead of investing in other sectors of the economic system",color=blue];
-	207 [label="more pension have to spend for Medicare instead of investing in other sectors of the economic system",color=blue];
-	297 [label="the development of the health care system helps people have a better life",color=green];
-	236 [label="the capital that spend on taking care the elderly is contributed by these people during their working time",color=blue];
-	297 [label="the development of the health care system helps people have a better life",color=green];
-	256 [label="they are worth to have good care",color=blue];
-	297 [label="the development of the health care system helps people have a better life",color=green];
-	264 [label="They have given their effort to the society so that young people , the governments have a responsibility to improve the Medicare system",color=blue];
-	297 [label="the development of the health care system helps people have a better life",color=green];
+	42 [label="the advanced medical
+ care brings with it more
+ benefits than disadvantages",color=green];
+	76 [label="They can contribute effectively
+ to the development of the
+ economy",color=blue];
+	54 [label="The main advantage of high-tech medical
+ care is that people are
+ better taken care so that
+ they have a good health
+",color=green];
+	76 [label="They can contribute effectively
+ to the development of the
+ economy",color=blue];
+	76 [label="They can contribute effectively
+ to the development of the
+ economy",color=blue];
+	297 [label="the development of
+ the health care system helps
+ people have a better life
+",color=green];
+	87 [label="healthy workers can
+ create more productivity",color=blue];
+	297 [label="the development of
+ the health care system helps
+ people have a better life
+",color=green];
+	98 [label="they do
+ not have to spend more
+ time in health checking or
+ treatment",color=blue];
+	297 [label="the development of
+ the health care system helps
+ people have a better life
+",color=green];
+	112 [label="this saves an
+ amount of time as well
+ as cost",color=blue];
+	297 [label="the development of
+ the health care system helps
+ people have a better life
+",color=green];
+	126 [label="a community with the
+ elderly who have a good
+ health has a major role
+ to play in a sustainable
+ development of a society",color=blue];
+	171 [label="the improvement of medical
+ care makes a better life
+ for all people",color=green];
+	153 [label="young people
+ will be happy as their
+ parents , grandparents are healthy
+",color=blue];
+	171 [label="the improvement of medical
+ care makes a better life
+ for all people",color=green];
+	193 [label="the increase
+ in life expectancy puts a
+ high pressure on the economic
+ system",color=green];
+	207 [label="more pension have
+ to spend for Medicare instead
+ of investing in other sectors
+ of the economic system",color=blue];
+	207 [label="more pension have
+ to spend for Medicare instead
+ of investing in other sectors
+ of the economic system",color=blue];
+	297 [label="the development of
+ the health care system helps
+ people have a better life
+",color=green];
+	236 [label="the capital that spend
+ on taking care the elderly
+ is contributed by these people
+ during their working time",color=blue];
+	297 [label="the development of
+ the health care system helps
+ people have a better life
+",color=green];
+	256 [label="they are worth to
+ have good care",color=blue];
+	297 [label="the development of
+ the health care system helps
+ people have a better life
+",color=green];
+	264 [label="They have given their effort to
+ the society so that young
+ people , the governments have
+ a responsibility to improve the
+ Medicare system",color=blue];
+	297 [label="the development of
+ the health care system helps
+ people have a better life
+",color=green];
 }

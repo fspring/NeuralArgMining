@@ -9,21 +9,82 @@ digraph G {
 	296 -> 315;
 	320 -> 341;
 	71 [label="are spoken",color=green];
-	118 [label="it can be really expensive because educational programmes will need to be given so as to keep young people learning and using them",color=blue];
-	88 [label="saving regional languages could be seen as a waste",color=green];
-	118 [label="it can be really expensive because educational programmes will need to be given so as to keep young people learning and using them",color=blue];
+	118 [label="it can be
+ really expensive because educational programmes
+ will need to be given
+ so as to keep young
+ people learning and using them
+",color=blue];
+	88 [label="saving regional languages
+ could be seen as a
+ waste",color=green];
+	118 [label="it can be
+ really expensive because educational programmes
+ will need to be given
+ so as to keep young
+ people learning and using them
+",color=blue];
 	103 [label="need to",color=green];
-	145 [label="some certain areas in the southern vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside vietnamese , so the local government has recently struggled with their costly investments on language teachers , facilities and appropriate materials",color=blue];
+	145 [label="some certain areas in the southern
+ vietnam have been trying to
+ help their secondary school students
+ who are originally from khmer
+ people speak their language beside
+ vietnamese , so the local
+ government has recently struggled with
+ their costly investments on language
+ teachers , facilities and appropriate
+ materials",color=blue];
 	106 [label="that",color=green];
-	145 [label="some certain areas in the southern vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside vietnamese , so the local government has recently struggled with their costly investments on language teachers , facilities and appropriate materials",color=blue];
-	109 [label="government expands",color=green];
-	145 [label="some certain areas in the southern vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside vietnamese , so the local government has recently struggled with their costly investments on language teachers , facilities and appropriate materials",color=blue];
-	113 [label="scope of that languages",color=green];
-	145 [label="some certain areas in the southern vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside vietnamese , so the local government has recently struggled with their costly investments on language teachers , facilities and appropriate materials",color=blue];
-	241 [label="that the government should try to preserve minority languages",color=green];
-	282 [label=", it deserves to be respected and preserved",color=blue];
-	296 [label="language is one of the essential factors creating the differences and unique cutures in the world",color=blue];
+	145 [label="some certain areas in the southern
+ vietnam have been trying to
+ help their secondary school students
+ who are originally from khmer
+ people speak their language beside
+ vietnamese , so the local
+ government has recently struggled with
+ their costly investments on language
+ teachers , facilities and appropriate
+ materials",color=blue];
+	109 [label="government expands
+",color=green];
+	145 [label="some certain areas in the southern
+ vietnam have been trying to
+ help their secondary school students
+ who are originally from khmer
+ people speak their language beside
+ vietnamese , so the local
+ government has recently struggled with
+ their costly investments on language
+ teachers , facilities and appropriate
+ materials",color=blue];
+	113 [label="scope of that
+ languages",color=green];
+	145 [label="some certain areas in the southern
+ vietnam have been trying to
+ help their secondary school students
+ who are originally from khmer
+ people speak their language beside
+ vietnamese , so the local
+ government has recently struggled with
+ their costly investments on language
+ teachers , facilities and appropriate
+ materials",color=blue];
+	241 [label="that the government should try
+ to preserve minority languages",color=green];
+	282 [label=", it deserves to
+ be respected and preserved",color=blue];
+	296 [label="language is one of the
+ essential factors creating the differences
+ and unique cutures in the
+ world",color=blue];
 	315 [label="saving the use of that",color=green];
 	320 [label="kinds",color=blue];
-	341 [label="although letting languages spoken by ethnic minorities be extinct seems to be very beneficial , it will definitely impact seriously on many other aspects especially in the loss of our cultural heritages",color=green];
+	341 [label="although letting languages spoken by
+ ethnic minorities be extinct seems
+ to be very beneficial ,
+ it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
 }

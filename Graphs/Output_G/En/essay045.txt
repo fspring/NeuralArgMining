@@ -3,9 +3,21 @@ digraph G {
 	41 -> 34;
 	196 -> 259;
 	31 [label="rather than",color=green];
-	41 [label="government money should be spent on publicly beneficial programs only",color=blue];
+	41 [label="government money should be spent
+ on publicly beneficial programs only
+",color=blue];
 	34 [label="government",color=green];
-	41 [label="government money should be spent on publicly beneficial programs only",color=blue];
-	196 [label="case , the government ought to set up free vocational trainings or to provide interest-free bank loans for them , so that they can have the chance to get back to work",color=blue];
-	259 [label="although the government should provide help for the disadvantaged people",color=green];
+	41 [label="government money should be spent
+ on publicly beneficial programs only
+",color=blue];
+	196 [label="case , the government ought
+ to set up free vocational
+ trainings or to provide interest-free
+ bank loans for them ,
+ so that they can have
+ the chance to get back
+ to work",color=blue];
+	259 [label="although the
+ government should provide help for
+ the disadvantaged people",color=green];
 }

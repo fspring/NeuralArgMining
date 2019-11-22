@@ -4,14 +4,76 @@ digraph G {
 	158 -> 245;
 	171 -> 245;
 	213 -> 245;
-	111 [label="students might have little idea of the real challenges or the true situation when they enter the workforce after graduation",color=blue];
-	245 [label="students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say",color=green];
-	154 [label="for the companies",color=blue];
-	245 [label="students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say",color=green];
-	158 [label="the unpaid interns can no doubt save some money",color=blue];
-	245 [label="students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say",color=green];
-	171 [label="the younger generations can help them generate new ideas as the students are not bound to restricted workload and they tend to have greater imagination , which can be essentially helpful when they are making a new advertisement or slogan",color=blue];
-	245 [label="students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say",color=green];
-	213 [label="they can start looking for potential employees and begin the training",color=blue];
-	245 [label="students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say",color=green];
+	111 [label="students might have little idea
+ of the real challenges or
+ the true situation when they
+ enter the workforce after graduation
+",color=blue];
+	245 [label="students can learn outside the textbook
+ and classroom with a real
+ working experiences that can be
+ a great opportunity for future
+ job consideration whereas organizations earn
+ much more as they can
+ not only save time and
+ money but also be enlightened
+ by what young people have
+ to say",color=green];
+	154 [label="for the
+ companies",color=blue];
+	245 [label="students can learn outside the textbook
+ and classroom with a real
+ working experiences that can be
+ a great opportunity for future
+ job consideration whereas organizations earn
+ much more as they can
+ not only save time and
+ money but also be enlightened
+ by what young people have
+ to say",color=green];
+	158 [label="the unpaid interns
+ can no doubt save some
+ money",color=blue];
+	245 [label="students can learn outside the textbook
+ and classroom with a real
+ working experiences that can be
+ a great opportunity for future
+ job consideration whereas organizations earn
+ much more as they can
+ not only save time and
+ money but also be enlightened
+ by what young people have
+ to say",color=green];
+	171 [label="the younger generations can help
+ them generate new ideas as
+ the students are not bound
+ to restricted workload and they
+ tend to have greater imagination
+ , which can be essentially
+ helpful when they are making
+ a new advertisement or slogan
+",color=blue];
+	245 [label="students can learn outside the textbook
+ and classroom with a real
+ working experiences that can be
+ a great opportunity for future
+ job consideration whereas organizations earn
+ much more as they can
+ not only save time and
+ money but also be enlightened
+ by what young people have
+ to say",color=green];
+	213 [label="they can start
+ looking for potential employees and
+ begin the training",color=blue];
+	245 [label="students can learn outside the textbook
+ and classroom with a real
+ working experiences that can be
+ a great opportunity for future
+ job consideration whereas organizations earn
+ much more as they can
+ not only save time and
+ money but also be enlightened
+ by what young people have
+ to say",color=green];
 }

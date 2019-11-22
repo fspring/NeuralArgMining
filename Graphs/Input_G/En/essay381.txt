@@ -6,18 +6,67 @@ digraph G {
 	152 -> 181;
 	201 -> 242;
 	213 -> 242;
-	36 [label="this trend reflects and enhances the high level of violence in society",color=green];
-	74 [label="we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself",color=blue];
-	74 [label="we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself",color=blue];
-	181 [label="a society that its police force carries guns will be definitely seen as a highly violent one",color=green];
-	105 [label="criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs",color=blue];
-	181 [label="a society that its police force carries guns will be definitely seen as a highly violent one",color=green];
-	136 [label="citizens in that society can be shot by both police and offenders accidentally",color=blue];
-	181 [label="a society that its police force carries guns will be definitely seen as a highly violent one",color=green];
-	152 [label="while on duty , not only are private citizens affected but facilities such as cars , houses , streets are likely to be destroyed by guns",color=blue];
-	181 [label="a society that its police force carries guns will be definitely seen as a highly violent one",color=green];
-	201 [label="police force carries guns only in high crime societies",color=blue];
-	242 [label="Those are possibly the strongest evidences to determine a society suffering a high level of violence",color=green];
-	213 [label="people and police in those ones usually deal with dangerous diverse crime's categories such as theft , robbery , murder , rape , vandalism , arson",color=blue];
-	242 [label="Those are possibly the strongest evidences to determine a society suffering a high level of violence",color=green];
+	36 [label="this trend reflects and
+ enhances the high level of
+ violence in society",color=green];
+	74 [label="we need to consider that police
+ armed with guns or any
+ other kinds of legal weapons
+ just attempts to protect not
+ only civilians but also himself
+",color=blue];
+	74 [label="we need to consider that police
+ armed with guns or any
+ other kinds of legal weapons
+ just attempts to protect not
+ only civilians but also himself
+",color=blue];
+	181 [label="a society that its
+ police force carries guns will
+ be definitely seen as a
+ highly violent one",color=green];
+	105 [label="criminals todays are very sophisticated
+ so they spend a large
+ amount of money to acquire
+ modern weapons to cope with
+ the police and serve their
+ own nefarious needs",color=blue];
+	181 [label="a society that its
+ police force carries guns will
+ be definitely seen as a
+ highly violent one",color=green];
+	136 [label="citizens in that society
+ can be shot by both
+ police and offenders accidentally",color=blue];
+	181 [label="a society that its
+ police force carries guns will
+ be definitely seen as a
+ highly violent one",color=green];
+	152 [label="while on duty
+ , not only are private
+ citizens affected but facilities such
+ as cars , houses ,
+ streets are likely to be
+ destroyed by guns",color=blue];
+	181 [label="a society that its
+ police force carries guns will
+ be definitely seen as a
+ highly violent one",color=green];
+	201 [label="police force carries guns
+ only in high crime societies
+",color=blue];
+	242 [label="Those are possibly
+ the strongest evidences to determine
+ a society suffering a high
+ level of violence",color=green];
+	213 [label="people and
+ police in those ones usually
+ deal with dangerous diverse crime's
+ categories such as theft ,
+ robbery , murder , rape
+ , vandalism , arson",color=blue];
+	242 [label="Those are possibly
+ the strongest evidences to determine
+ a society suffering a high
+ level of violence",color=green];
 }

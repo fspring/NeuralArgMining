@@ -10,23 +10,62 @@ digraph G {
 	364 -> 390;
 	371 -> 390;
 	72 [label="various",color=green];
-	80 [label="indispensable for a company to flourish",color=blue];
-	137 [label="the youngsters are capable of meeting those standards",color=green];
-	149 [label="they have activeness , inventiveness and enterprise which allow them to complete their jobs perfectly",color=blue];
-	180 [label="the staff soon gets boring with their stable job in such a long time",color=green];
-	195 [label="at a certain time , they may presume that a securing job is the most important and necessary because they need to earn money to manage their life",color=blue];
-	226 [label="the bulk of them realize that high promotion and competition can assist them to improve their skills and horizons also",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	264 [label="the same-old-same-old environment soon makes them depressed , so this situation will have an adverse impact on the enterprise",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	289 [label="the economic crisis and financial recession result in a tremendous",color=green];
-	307 [label="the businesses ought to recruit many workers so as to tackle this aching",color=blue];
+	80 [label="indispensable for a company to flourish
+",color=blue];
+	137 [label="the youngsters are capable
+ of meeting those standards",color=green];
+	149 [label="they have
+ activeness , inventiveness and enterprise
+ which allow them to complete
+ their jobs perfectly",color=blue];
+	180 [label="the staff soon gets boring with
+ their stable job in such
+ a long time",color=green];
+	195 [label="at a certain time , they
+ may presume that a securing
+ job is the most important
+ and necessary because they need
+ to earn money to manage
+ their life",color=blue];
+	226 [label="the bulk of them realize
+ that high promotion and competition
+ can assist them to improve
+ their skills and horizons also
+",color=blue];
+	390 [label="the employer should not hire the
+ staff for a whole life
+",color=green];
+	264 [label="the same-old-same-old
+ environment soon makes them depressed
+ , so this situation will
+ have an adverse impact on
+ the enterprise",color=blue];
+	390 [label="the employer should not hire the
+ staff for a whole life
+",color=green];
+	289 [label="the economic
+ crisis and financial recession result
+ in a tremendous",color=green];
+	307 [label="the businesses ought to
+ recruit many workers so as
+ to tackle this aching",color=blue];
 	301 [label="unemployment",color=green];
-	322 [label="it enables the jobless to better their life and earn a living",color=blue];
-	307 [label="the businesses ought to recruit many workers so as to tackle this aching",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
-	364 [label="varied characteristics of various people ,",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
+	322 [label="it enables the jobless
+ to better their life and
+ earn a living",color=blue];
+	307 [label="the businesses ought to
+ recruit many workers so as
+ to tackle this aching",color=blue];
+	390 [label="the employer should not hire the
+ staff for a whole life
+",color=green];
+	364 [label="varied characteristics
+ of various people ,",color=blue];
+	390 [label="the employer should not hire the
+ staff for a whole life
+",color=green];
 	371 [label="tired of having",color=blue];
-	390 [label="the employer should not hire the staff for a whole life",color=green];
+	390 [label="the employer should not hire the
+ staff for a whole life
+",color=green];
 }

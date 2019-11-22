@@ -14,34 +14,101 @@ digraph G {
 	260 -> 309;
 	282 -> 309;
 	290 -> 309;
-	29 [label="individuals should pay their college tuition",color=green];
-	72 [label="It would divert public funds from other needs such as law enforcement , infrastructure and so forth",color=blue];
-	63 [label="making college education free would cost too much",color=green];
-	72 [label="It would divert public funds from other needs such as law enforcement , infrastructure and so forth",color=blue];
-	72 [label="It would divert public funds from other needs such as law enforcement , infrastructure and so forth",color=blue];
-	309 [label="the individual should finance his or her education",color=green];
-	90 [label="There are many other needs which should come first , such as providing health care to all American , or improving public schools",color=blue];
-	309 [label="the individual should finance his or her education",color=green];
-	117 [label="it would cause to raise our taxes again and again to fund college education",color=blue];
-	309 [label="the individual should finance his or her education",color=green];
-	134 [label="it would affect all taxpayers whether or not they benefit from the use of the funds",color=blue];
-	309 [label="the individual should finance his or her education",color=green];
-	153 [label="it is a personal choice to go to a college",color=blue];
-	198 [label="those people should make the financial investment in their own choice ; not the government",color=green];
-	164 [label="Not everyone wants to go to a college",color=blue];
-	198 [label="those people should make the financial investment in their own choice ; not the government",color=green];
-	173 [label="People who want to make more money , and live a better life than other people decide to take a college education",color=blue];
-	198 [label="those people should make the financial investment in their own choice ; not the government",color=green];
-	216 [label="there are many ways to fund a college education",color=green];
-	226 [label="People who cannot afford to pay their tuition benefit from the scholarship , financial aids , and other funds",color=blue];
-	226 [label="People who cannot afford to pay their tuition benefit from the scholarship , financial aids , and other funds",color=blue];
-	309 [label="the individual should finance his or her education",color=green];
-	249 [label="the government already helps pay college expense through indirect means",color=blue];
-	309 [label="the individual should finance his or her education",color=green];
-	260 [label="They often provide services such as fire departments , medical assistance , and police protection for the schools and their students",color=blue];
-	309 [label="the individual should finance his or her education",color=green];
-	282 [label="They also provide funds for academic research",color=blue];
-	309 [label="the individual should finance his or her education",color=green];
-	290 [label="While the money is not given to individual students , these contributions are not trivial",color=blue];
-	309 [label="the individual should finance his or her education",color=green];
+	29 [label="individuals should pay their college tuition
+",color=green];
+	72 [label="It would divert
+ public funds from other needs
+ such as law enforcement ,
+ infrastructure and so forth",color=blue];
+	63 [label="making college
+ education free would cost too
+ much",color=green];
+	72 [label="It would divert
+ public funds from other needs
+ such as law enforcement ,
+ infrastructure and so forth",color=blue];
+	72 [label="It would divert
+ public funds from other needs
+ such as law enforcement ,
+ infrastructure and so forth",color=blue];
+	309 [label="the individual should finance his or
+ her education",color=green];
+	90 [label="There are many other needs
+ which should come first ,
+ such as providing health care
+ to all American , or
+ improving public schools",color=blue];
+	309 [label="the individual should finance his or
+ her education",color=green];
+	117 [label="it would cause
+ to raise our taxes again
+ and again to fund college
+ education",color=blue];
+	309 [label="the individual should finance his or
+ her education",color=green];
+	134 [label="it would affect all taxpayers whether
+ or not they benefit from
+ the use of the funds
+",color=blue];
+	309 [label="the individual should finance his or
+ her education",color=green];
+	153 [label="it is
+ a personal choice to go
+ to a college",color=blue];
+	198 [label="those people
+ should make the financial investment
+ in their own choice ;
+ not the government",color=green];
+	164 [label="Not everyone wants to go to
+ a college",color=blue];
+	198 [label="those people
+ should make the financial investment
+ in their own choice ;
+ not the government",color=green];
+	173 [label="People who
+ want to make more money
+ , and live a better
+ life than other people decide
+ to take a college education
+",color=blue];
+	198 [label="those people
+ should make the financial investment
+ in their own choice ;
+ not the government",color=green];
+	216 [label="there are many ways
+ to fund a college education
+",color=green];
+	226 [label="People who cannot afford
+ to pay their tuition benefit
+ from the scholarship , financial
+ aids , and other funds
+",color=blue];
+	226 [label="People who cannot afford
+ to pay their tuition benefit
+ from the scholarship , financial
+ aids , and other funds
+",color=blue];
+	309 [label="the individual should finance his or
+ her education",color=green];
+	249 [label="the government already helps pay college
+ expense through indirect means",color=blue];
+	309 [label="the individual should finance his or
+ her education",color=green];
+	260 [label="They often provide services such
+ as fire departments , medical
+ assistance , and police protection
+ for the schools and their
+ students",color=blue];
+	309 [label="the individual should finance his or
+ her education",color=green];
+	282 [label="They also provide
+ funds for academic research",color=blue];
+	309 [label="the individual should finance his or
+ her education",color=green];
+	290 [label="While the money is not
+ given to individual students ,
+ these contributions are not trivial
+",color=blue];
+	309 [label="the individual should finance his or
+ her education",color=green];
 }

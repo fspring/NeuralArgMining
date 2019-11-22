@@ -13,32 +13,122 @@ digraph G {
 	305 -> 367;
 	316 -> 367;
 	341 -> 367;
-	94 [label="a person with good manner will give others a fine personal impression",color=green];
-	107 [label="Through those impressions , a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible",color=blue];
-	107 [label="Through those impressions , a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	136 [label="I worked in a new company , if I am a guy with good manners and treating everyone well , my new colleagues will accept me , even then I will be approved by the employers",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	173 [label="In opposite situation if I am being rude , I can not get along well with each other",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	194 [label="I will be fired and have no other choice but lost my job",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	210 [label="people will get respect from politeness within each other",color=green];
-	220 [label="Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need",color=blue];
-	220 [label="Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	246 [label="A successful corporation must have a relationship with respect and pleasure",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	258 [label="There are many more facts have improved that people with politeness are easily to be succeed",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	276 [label="from their behaviors , they made their partners or opponents to find their own individual dignity",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	295 [label="the society needs a civilized environment and orders",color=green];
-	305 [label="a degree of social civilization depend on its people's qualities",color=blue];
-	305 [label="a degree of social civilization depend on its people's qualities",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	316 [label="In order to create a better living environment for ourselves and our offsprings , our behaviors must be asked with politeness and good manners",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	341 [label="Benefit from those effective measures , there may be an obvious effect on the reducing of criminal rate",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
+	94 [label="a person with good manner will
+ give others a fine personal
+ impression",color=green];
+	107 [label="Through those impressions
+ , a person was easily
+ to get acquired with others
+ and blended with the community
+ that surrounded him as soon
+ as possible",color=blue];
+	107 [label="Through those impressions
+ , a person was easily
+ to get acquired with others
+ and blended with the community
+ that surrounded him as soon
+ as possible",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	136 [label="I worked in a
+ new company , if I
+ am a guy with good
+ manners and treating everyone well
+ , my new colleagues will
+ accept me , even then
+ I will be approved by
+ the employers",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	173 [label="In opposite
+ situation if I am being
+ rude , I can not
+ get along well with each
+ other",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	194 [label="I will be fired and have
+ no other choice but lost
+ my job",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	210 [label="people will get respect from
+ politeness within each other",color=green];
+	220 [label="Politeness and tender words not
+ only can help the speaker
+ to earn a good reputation
+ but also that encourage the
+ listeners who were in need
+",color=blue];
+	220 [label="Politeness and tender words not
+ only can help the speaker
+ to earn a good reputation
+ but also that encourage the
+ listeners who were in need
+",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	246 [label="A successful corporation must
+ have a relationship with respect
+ and pleasure",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	258 [label="There are
+ many more facts have improved
+ that people with politeness are
+ easily to be succeed",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	276 [label="from their behaviors ,
+ they made their partners or
+ opponents to find their own
+ individual dignity",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	295 [label="the society needs a civilized
+ environment and orders",color=green];
+	305 [label="a degree of social civilization
+ depend on its people's qualities
+",color=blue];
+	305 [label="a degree of social civilization
+ depend on its people's qualities
+",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	316 [label="In order to create
+ a better living environment for
+ ourselves and our offsprings ,
+ our behaviors must be asked
+ with politeness and good manners
+",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
+	341 [label="Benefit from those effective
+ measures , there may be
+ an obvious effect on the
+ reducing of criminal rate",color=blue];
+	367 [label="people should be
+ polite to others in a
+ such busy and crowded world
+",color=green];
 }

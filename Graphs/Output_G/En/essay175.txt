@@ -4,11 +4,20 @@ digraph G {
 	202 -> 175;
 	192 -> 185;
 	58 [label="that the",color=blue];
-	69 [label="somewhere and which is important to the people",color=green];
+	69 [label="somewhere and
+ which is important to the
+ people",color=green];
 	132 [label="gossip",color=blue];
-	137 [label="the purpose of boosting newspaper sales or exciting public opinion",color=green];
+	137 [label="the purpose of boosting
+ newspaper sales or exciting public
+ opinion",color=green];
 	175 [label="the",color=green];
-	202 [label="the media face the challenge that media executives must choose the content , which can attract the audience",color=blue];
+	202 [label="the media face the
+ challenge that media executives must
+ choose the content , which
+ can attract the audience",color=blue];
 	185 [label="people",color=green];
-	192 [label="sensationalism distract the viewers from public or social problems",color=blue];
+	192 [label="sensationalism distract the viewers
+ from public or social problems
+",color=blue];
 }

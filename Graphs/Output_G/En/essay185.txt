@@ -7,20 +7,83 @@ digraph G {
 	324 -> 370;
 	343 -> 370;
 	359 -> 370;
-	42 [label="due to the limitation of technology renewable resources are relatively expensive",color=green];
-	54 [label="researches in renewable energy cost a huge amount of money which developing countries cannot afford",color=blue];
-	128 [label="the plan of renewable resources of energy may face challenges in that not every country can afford the reforming",color=blue];
-	177 [label="latest studies have shown that these renewable resources of energy are problematic as well and they are very likely to pose long-term environmental hazards",color=green];
-	205 [label="the dams built for hydroelectricity influence the water flows of the rivers and sometimes cause drought in areas in front of the dams",color=blue];
-	370 [label="as promising as renewable resources of energy sound , there is no way those new forms of energy will replace fossil fuels soon",color=green];
-	279 [label="resources are not as reliable as we think",color=green];
-	289 [label="contemporarily fossil fuels cause serious environmental conundrums such as acid rain , deduction of ozone layer and global warming ; these problems can be solved by improving efficiency of the mechanism and reducing emissions",color=blue];
-	289 [label="contemporarily fossil fuels cause serious environmental conundrums such as acid rain , deduction of ozone layer and global warming ; these problems can be solved by improving efficiency of the mechanism and reducing emissions",color=blue];
-	370 [label="as promising as renewable resources of energy sound , there is no way those new forms of energy will replace fossil fuels soon",color=green];
-	324 [label="for example we can use chemicals to desulfurize the emissions from plants and vehicles to avoid acid rain",color=blue];
-	370 [label="as promising as renewable resources of energy sound , there is no way those new forms of energy will replace fossil fuels soon",color=green];
-	343 [label="these improving methods are often cheaper and simpler compared to the high-tech of renewable energy",color=blue];
-	370 [label="as promising as renewable resources of energy sound , there is no way those new forms of energy will replace fossil fuels soon",color=green];
-	359 [label="with these solutions fossil fuels seem more sustainable",color=blue];
-	370 [label="as promising as renewable resources of energy sound , there is no way those new forms of energy will replace fossil fuels soon",color=green];
+	42 [label="due to the limitation
+ of technology renewable resources are
+ relatively expensive",color=green];
+	54 [label="researches in
+ renewable energy cost a huge
+ amount of money which developing
+ countries cannot afford",color=blue];
+	128 [label="the plan of
+ renewable resources of energy may
+ face challenges in that not
+ every country can afford the
+ reforming",color=blue];
+	177 [label="latest studies have shown
+ that these renewable resources of
+ energy are problematic as well
+ and they are very likely
+ to pose long-term environmental hazards
+",color=green];
+	205 [label="the dams built for hydroelectricity influence
+ the water flows of the
+ rivers and sometimes cause drought
+ in areas in front of
+ the dams",color=blue];
+	370 [label="as promising as renewable resources of
+ energy sound , there is
+ no way those new forms
+ of energy will replace fossil
+ fuels soon",color=green];
+	279 [label="resources are
+ not as reliable as we
+ think",color=green];
+	289 [label="contemporarily fossil
+ fuels cause serious environmental conundrums
+ such as acid rain ,
+ deduction of ozone layer and
+ global warming ; these problems
+ can be solved by improving
+ efficiency of the mechanism and
+ reducing emissions",color=blue];
+	289 [label="contemporarily fossil
+ fuels cause serious environmental conundrums
+ such as acid rain ,
+ deduction of ozone layer and
+ global warming ; these problems
+ can be solved by improving
+ efficiency of the mechanism and
+ reducing emissions",color=blue];
+	370 [label="as promising as renewable resources of
+ energy sound , there is
+ no way those new forms
+ of energy will replace fossil
+ fuels soon",color=green];
+	324 [label="for example
+ we can use chemicals to
+ desulfurize the emissions from plants
+ and vehicles to avoid acid
+ rain",color=blue];
+	370 [label="as promising as renewable resources of
+ energy sound , there is
+ no way those new forms
+ of energy will replace fossil
+ fuels soon",color=green];
+	343 [label="these improving methods
+ are often cheaper and simpler
+ compared to the high-tech of
+ renewable energy",color=blue];
+	370 [label="as promising as renewable resources of
+ energy sound , there is
+ no way those new forms
+ of energy will replace fossil
+ fuels soon",color=green];
+	359 [label="with these
+ solutions fossil fuels seem more
+ sustainable",color=blue];
+	370 [label="as promising as renewable resources of
+ energy sound , there is
+ no way those new forms
+ of energy will replace fossil
+ fuels soon",color=green];
 }

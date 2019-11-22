@@ -3,12 +3,33 @@ digraph G {
 	172 -> 334;
 	259 -> 304;
 	273 -> 304;
-	161 [label="online class could not provide knowledge about social skills",color=green];
-	172 [label="instance , in a classroom , teacher could give assignment to student to work as a group",color=blue];
-	172 [label="instance , in a classroom , teacher could give assignment to student to work as a group",color=blue];
-	334 [label="classroom could provide exercise class to set students to have a good",color=green];
-	259 [label="if student do it by themselves , they might be hurt themselves",color=blue];
-	304 [label="classroom could provide real actual example to make students more understand in their subject",color=green];
-	273 [label="make students have healthier life which online class cannot provide",color=blue];
-	304 [label="classroom could provide real actual example to make students more understand in their subject",color=green];
+	161 [label="online class could not provide
+ knowledge about social skills",color=green];
+	172 [label="instance , in a
+ classroom , teacher could give
+ assignment to student to work
+ as a group",color=blue];
+	172 [label="instance , in a
+ classroom , teacher could give
+ assignment to student to work
+ as a group",color=blue];
+	334 [label="classroom could
+ provide exercise class to set
+ students to have a good
+",color=green];
+	259 [label="if student
+ do it by themselves ,
+ they might be hurt themselves
+",color=blue];
+	304 [label="classroom could
+ provide real actual example to
+ make students more understand in
+ their subject",color=green];
+	273 [label="make students have
+ healthier life which online class
+ cannot provide",color=blue];
+	304 [label="classroom could
+ provide real actual example to
+ make students more understand in
+ their subject",color=green];
 }

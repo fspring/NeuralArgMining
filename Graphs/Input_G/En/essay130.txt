@@ -11,28 +11,104 @@ digraph G {
 	278 -> 359;
 	301 -> 359;
 	329 -> 359;
-	54 [label="through proper management and regulation , a booming tourist industry is an excellent source of economic growth and wealth for rural and urban areas",color=green];
-	98 [label="This takes place , not only through direct expenditure from tourists , but also because it provides direct and indirect jobs to the community , including retail , agriculture , and in the service industry",color=blue];
-	79 [label="The most obvious merit is that tourism can vastly boost economic development in a particular state or region",color=green];
-	98 [label="This takes place , not only through direct expenditure from tourists , but also because it provides direct and indirect jobs to the community , including retail , agriculture , and in the service industry",color=blue];
-	98 [label="This takes place , not only through direct expenditure from tourists , but also because it provides direct and indirect jobs to the community , including retail , agriculture , and in the service industry",color=blue];
-	359 [label="the tourism sector is desirable for its important socioeconomic advantages",color=green];
-	134 [label="The increasing tax and the expansion of local markets for accommodation , luxury goods amongst others are also a result of a solid , well-regulated tourism programs",color=blue];
-	359 [label="the tourism sector is desirable for its important socioeconomic advantages",color=green];
-	164 [label="tourism provides a considerable number of direct and indirect jobs to the community , including retail , hotels , transport , agriculture , and in the service industry",color=blue];
-	359 [label="the tourism sector is desirable for its important socioeconomic advantages",color=green];
-	193 [label="This increase of job opportunities allows more people to make significant contribution to society through the purchasing of commodities by their growing incomes",color=blue];
-	359 [label="the tourism sector is desirable for its important socioeconomic advantages",color=green];
-	221 [label="this gives energy to the economic cycle , generating local economic prosperity in return",color=blue];
-	359 [label="the tourism sector is desirable for its important socioeconomic advantages",color=green];
-	236 [label="Some people may oppose these , citing the environmental and cultural destruction caused by tourism",color=green];
-	255 [label="compared to the tourism industry , other alternatives , like resource extraction and manufacture , are far worse destroyers",color=blue];
-	255 [label="compared to the tourism industry , other alternatives , like resource extraction and manufacture , are far worse destroyers",color=blue];
-	359 [label="the tourism sector is desirable for its important socioeconomic advantages",color=green];
-	278 [label="paper mills pour hundreds and thousands of tons of contamination into rivers , causing severe water pollution",color=blue];
-	359 [label="the tourism sector is desirable for its important socioeconomic advantages",color=green];
-	301 [label="the dramatic majority of tourist , particularly those who tend to spending a wealth of time and money locating and visiting rustic villages , are well educated",color=blue];
-	359 [label="the tourism sector is desirable for its important socioeconomic advantages",color=green];
-	329 [label="It is illogical to believe that these rational folks will not conduct themselves decently if required to do so",color=blue];
-	359 [label="the tourism sector is desirable for its important socioeconomic advantages",color=green];
+	54 [label="through proper management and regulation ,
+ a booming tourist industry is
+ an excellent source of economic
+ growth and wealth for rural
+ and urban areas",color=green];
+	98 [label="This takes
+ place , not only through
+ direct expenditure from tourists ,
+ but also because it provides
+ direct and indirect jobs to
+ the community , including retail
+ , agriculture , and in
+ the service industry",color=blue];
+	79 [label="The most obvious merit is that
+ tourism can vastly boost economic
+ development in a particular state
+ or region",color=green];
+	98 [label="This takes
+ place , not only through
+ direct expenditure from tourists ,
+ but also because it provides
+ direct and indirect jobs to
+ the community , including retail
+ , agriculture , and in
+ the service industry",color=blue];
+	98 [label="This takes
+ place , not only through
+ direct expenditure from tourists ,
+ but also because it provides
+ direct and indirect jobs to
+ the community , including retail
+ , agriculture , and in
+ the service industry",color=blue];
+	359 [label="the tourism sector is desirable for
+ its important socioeconomic advantages",color=green];
+	134 [label="The increasing tax and the expansion
+ of local markets for accommodation
+ , luxury goods amongst others
+ are also a result of
+ a solid , well-regulated tourism
+ programs",color=blue];
+	359 [label="the tourism sector is desirable for
+ its important socioeconomic advantages",color=green];
+	164 [label="tourism provides a considerable number of
+ direct and indirect jobs to
+ the community , including retail
+ , hotels , transport ,
+ agriculture , and in the
+ service industry",color=blue];
+	359 [label="the tourism sector is desirable for
+ its important socioeconomic advantages",color=green];
+	193 [label="This increase
+ of job opportunities allows more
+ people to make significant contribution
+ to society through the purchasing
+ of commodities by their growing
+ incomes",color=blue];
+	359 [label="the tourism sector is desirable for
+ its important socioeconomic advantages",color=green];
+	221 [label="this gives energy to
+ the economic cycle , generating
+ local economic prosperity in return
+",color=blue];
+	359 [label="the tourism sector is desirable for
+ its important socioeconomic advantages",color=green];
+	236 [label="Some people may oppose
+ these , citing the environmental
+ and cultural destruction caused by
+ tourism",color=green];
+	255 [label="compared to the tourism industry
+ , other alternatives , like
+ resource extraction and manufacture ,
+ are far worse destroyers",color=blue];
+	255 [label="compared to the tourism industry
+ , other alternatives , like
+ resource extraction and manufacture ,
+ are far worse destroyers",color=blue];
+	359 [label="the tourism sector is desirable for
+ its important socioeconomic advantages",color=green];
+	278 [label="paper mills
+ pour hundreds and thousands of
+ tons of contamination into rivers
+ , causing severe water pollution
+",color=blue];
+	359 [label="the tourism sector is desirable for
+ its important socioeconomic advantages",color=green];
+	301 [label="the dramatic majority of
+ tourist , particularly those who
+ tend to spending a wealth
+ of time and money locating
+ and visiting rustic villages ,
+ are well educated",color=blue];
+	359 [label="the tourism sector is desirable for
+ its important socioeconomic advantages",color=green];
+	329 [label="It is illogical to believe that
+ these rational folks will not
+ conduct themselves decently if required
+ to do so",color=blue];
+	359 [label="the tourism sector is desirable for
+ its important socioeconomic advantages",color=green];
 }

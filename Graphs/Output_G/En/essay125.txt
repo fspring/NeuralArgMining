@@ -2,7 +2,14 @@ digraph G {
 	205 -> 275;
 	244 -> 214;
 	205 [label="of",color=blue];
-	275 [label="preparing for career is an essential function of university",color=green];
-	214 [label="even from the whole",color=green];
-	244 [label="and he told me that he is very excited for experiencing such new environment , which is one of his main purposes when attending university",color=blue];
+	275 [label="preparing for career is an essential
+ function of university",color=green];
+	214 [label="even from
+ the whole",color=green];
+	244 [label="and he
+ told me that he is
+ very excited for experiencing such
+ new environment , which is
+ one of his main purposes
+ when attending university",color=blue];
 }

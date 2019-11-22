@@ -2,7 +2,12 @@ digraph G {
 	72 -> 88;
 	100 -> 88;
 	72 [label="if",color=blue];
-	88 [label="factory can stimulate local economic growth and",color=green];
-	88 [label="factory can stimulate local economic growth and",color=green];
-	100 [label="to manufacture goods , there must be the demand of laborers , from which the local residents can benefit",color=blue];
+	88 [label="factory can stimulate
+ local economic growth and",color=green];
+	88 [label="factory can stimulate
+ local economic growth and",color=green];
+	100 [label="to manufacture goods , there must
+ be the demand of laborers
+ , from which the local
+ residents can benefit",color=blue];
 }

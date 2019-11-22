@@ -8,22 +8,66 @@ digraph G {
 	186 -> 233;
 	196 -> 233;
 	223 -> 233;
-	56 [label="TV programs are among the popular topics in every day talk as well as a great time for gathering",color=green];
-	105 [label="it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs",color=blue];
-	95 [label="watching TV take a lot of your day",color=green];
-	105 [label="it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs",color=blue];
-	105 [label="it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs",color=blue];
-	289 [label="TV helps you to get connected with people",color=green];
-	139 [label="Families usually tend to watch television either with each other or friends",color=green];
-	154 [label="my friends and I used to sit together and enjoy watching movies using VHS player at nights",color=blue];
-	154 [label="my friends and I used to sit together and enjoy watching movies using VHS player at nights",color=blue];
-	289 [label="TV helps you to get connected with people",color=green];
-	172 [label="It was fun and a little bit similar to the cinema",color=blue];
-	289 [label="TV helps you to get connected with people",color=green];
-	186 [label="TV can be one of communication ways",color=blue];
-	233 [label="we can communicate with each other through TV",color=green];
-	196 [label="TV can be connected to multimedia devices that have smart operating system like Google TV , WDTV using Skype , tango and other apps",color=blue];
-	233 [label="we can communicate with each other through TV",color=green];
-	223 [label="Teenagers can play games online with their friends",color=blue];
-	233 [label="we can communicate with each other through TV",color=green];
+	56 [label="TV programs are among
+ the popular topics in every
+ day talk as well as
+ a great time for gathering
+",color=green];
+	105 [label="it makes people meet and
+ start a conversation about what
+ they watch at other times
+ like weather forecast and sport
+ programs",color=blue];
+	95 [label="watching TV take a lot
+ of your day",color=green];
+	105 [label="it makes people meet and
+ start a conversation about what
+ they watch at other times
+ like weather forecast and sport
+ programs",color=blue];
+	105 [label="it makes people meet and
+ start a conversation about what
+ they watch at other times
+ like weather forecast and sport
+ programs",color=blue];
+	289 [label="TV helps you to get connected
+ with people",color=green];
+	139 [label="Families usually tend to watch television
+ either with each other or
+ friends",color=green];
+	154 [label="my friends and I used to
+ sit together and enjoy watching
+ movies using VHS player at
+ nights",color=blue];
+	154 [label="my friends and I used to
+ sit together and enjoy watching
+ movies using VHS player at
+ nights",color=blue];
+	289 [label="TV helps you to get connected
+ with people",color=green];
+	172 [label="It was fun
+ and a little bit similar
+ to the cinema",color=blue];
+	289 [label="TV helps you to get connected
+ with people",color=green];
+	186 [label="TV can be one
+ of communication ways",color=blue];
+	233 [label="we can
+ communicate with each other through
+ TV",color=green];
+	196 [label="TV can be connected
+ to multimedia devices that have
+ smart operating system like Google
+ TV , WDTV using Skype
+ , tango and other apps
+",color=blue];
+	233 [label="we can
+ communicate with each other through
+ TV",color=green];
+	223 [label="Teenagers can
+ play games online with their
+ friends",color=blue];
+	233 [label="we can
+ communicate with each other through
+ TV",color=green];
 }

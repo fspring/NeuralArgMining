@@ -19,44 +19,129 @@ digraph G {
 	289 -> 339;
 	306 -> 339;
 	324 -> 339;
-	44 [label="professors should be encouraged to mainly do research",color=green];
-	57 [label="doing research is a method of self-improvement for professors",color=blue];
-	57 [label="doing research is a method of self-improvement for professors",color=blue];
-	148 [label="The research projects like windows opened to the wider world",color=green];
-	67 [label="Universities are relatively fenced environment",color=blue];
-	148 [label="The research projects like windows opened to the wider world",color=green];
-	73 [label="The research projects provide communication with the outside",color=blue];
-	148 [label="The research projects like windows opened to the wider world",color=green];
-	85 [label="by doing research , professors could catch up with the latest development of modern technologies",color=blue];
-	148 [label="The research projects like windows opened to the wider world",color=green];
-	101 [label="I still remembered that my professor took part in several research projects when I was in college",color=blue];
-	148 [label="The research projects like windows opened to the wider world",color=green];
-	119 [label="He was often invited to do speech in other universities",color=blue];
-	148 [label="The research projects like windows opened to the wider world",color=green];
-	131 [label="my university is not in the high-ranking list , he gained a reputation by those projects",color=blue];
-	148 [label="The research projects like windows opened to the wider world",color=green];
-	161 [label="professors should fully use the research-friendly environment provided by universities",color=green];
-	172 [label="It is very common to see state-of-the-art laboratories in the campus",color=blue];
-	172 [label="It is very common to see state-of-the-art laboratories in the campus",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
-	186 [label="you could not find another place with so much talent people gathering together",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
-	202 [label="there is really no reason to discourage professors from using those advantages",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
-	215 [label="We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
-	235 [label="Universities positively contribute the professors' success",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
-	247 [label="doing research could also improve the teaching quality",color=green];
-	256 [label="With the help of research projects , professors could lead their students into the practical world from the classroom",color=blue];
-	256 [label="With the help of research projects , professors could lead their students into the practical world from the classroom",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
-	276 [label="They can easily teach students how to imply the knowledge in practice",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
-	289 [label="I still remembered the experience of being an assistant in one of my professor's research project",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
-	306 [label="By participating in it , I had opportunities to use theories on textbooks in real life experiments",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
-	324 [label="The research project provides a more efficient way of teaching",color=blue];
-	339 [label="it is natural to support the professors spending more time on doing research",color=green];
+	44 [label="professors should be encouraged to mainly
+ do research",color=green];
+	57 [label="doing research is
+ a method of self-improvement for
+ professors",color=blue];
+	57 [label="doing research is
+ a method of self-improvement for
+ professors",color=blue];
+	148 [label="The research
+ projects like windows opened to
+ the wider world",color=green];
+	67 [label="Universities are relatively
+ fenced environment",color=blue];
+	148 [label="The research
+ projects like windows opened to
+ the wider world",color=green];
+	73 [label="The research
+ projects provide communication with the
+ outside",color=blue];
+	148 [label="The research
+ projects like windows opened to
+ the wider world",color=green];
+	85 [label="by doing research , professors
+ could catch up with the
+ latest development of modern technologies
+",color=blue];
+	148 [label="The research
+ projects like windows opened to
+ the wider world",color=green];
+	101 [label="I still remembered that
+ my professor took part in
+ several research projects when I
+ was in college",color=blue];
+	148 [label="The research
+ projects like windows opened to
+ the wider world",color=green];
+	119 [label="He was often invited to do
+ speech in other universities",color=blue];
+	148 [label="The research
+ projects like windows opened to
+ the wider world",color=green];
+	131 [label="my university is not
+ in the high-ranking list ,
+ he gained a reputation by
+ those projects",color=blue];
+	148 [label="The research
+ projects like windows opened to
+ the wider world",color=green];
+	161 [label="professors should fully use
+ the research-friendly environment provided by
+ universities",color=green];
+	172 [label="It is very
+ common to see state-of-the-art laboratories
+ in the campus",color=blue];
+	172 [label="It is very
+ common to see state-of-the-art laboratories
+ in the campus",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
+	186 [label="you could not find
+ another place with so much
+ talent people gathering together",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
+	202 [label="there is really
+ no reason to discourage professors
+ from using those advantages",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
+	215 [label="We all know that Einstein
+ developed the theory of general
+ relativity when he was a
+ professor in HU Berlin",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
+	235 [label="Universities positively contribute the professors'
+ success",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
+	247 [label="doing research could
+ also improve the teaching quality
+",color=green];
+	256 [label="With the help of
+ research projects , professors could
+ lead their students into the
+ practical world from the classroom
+",color=blue];
+	256 [label="With the help of
+ research projects , professors could
+ lead their students into the
+ practical world from the classroom
+",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
+	276 [label="They can easily teach
+ students how to imply the
+ knowledge in practice",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
+	289 [label="I still remembered the experience of
+ being an assistant in one
+ of my professor's research project
+",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
+	306 [label="By participating in it
+ , I had opportunities to
+ use theories on textbooks in
+ real life experiments",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
+	324 [label="The research project provides a more
+ efficient way of teaching",color=blue];
+	339 [label="it is natural to support the
+ professors spending more time on
+ doing research",color=green];
 }

@@ -8,19 +8,51 @@ digraph G {
 	312 -> 270;
 	331 -> 349;
 	30 [label="staying with the",color=green];
-	70 [label="one of the most significant upsides is that the young adult can have more experience with his parents",color=blue];
-	34 [label="for longer time does more benefits than disadvantages to the young adult",color=green];
-	70 [label="one of the most significant upsides is that the young adult can have more experience with his parents",color=blue];
-	49 [label="is based on creating memories with parents",color=green];
-	89 [label="the young adult has to try to create memories with his dad and mom in the early age",color=blue];
+	70 [label="one of the most significant upsides
+ is that the young adult
+ can have more experience with
+ his parents",color=blue];
+	34 [label="for longer
+ time does more benefits than
+ disadvantages to the young adult
+",color=green];
+	70 [label="one of the most significant upsides
+ is that the young adult
+ can have more experience with
+ his parents",color=blue];
+	49 [label="is based
+ on creating memories with parents
+",color=green];
+	89 [label="the young
+ adult has to try to
+ create memories with his dad
+ and mom in the early
+ age",color=blue];
 	57 [label="saving money",color=green];
-	89 [label="the young adult has to try to create memories with his dad and mom in the early age",color=blue];
-	163 [label="undergoing with parents",color=green];
-	180 [label="learning to be independent means that the young adult needs to leave home",color=blue];
+	89 [label="the young
+ adult has to try to
+ create memories with his dad
+ and mom in the early
+ age",color=blue];
+	163 [label="undergoing with parents
+",color=green];
+	180 [label="learning to be independent means that
+ the young adult needs to
+ leave home",color=blue];
 	265 [label="young adult",color=green];
-	312 [label="if the parents do not help him immediately , he would have to suffer more pain",color=blue];
+	312 [label="if the parents do
+ not help him immediately ,
+ he would have to suffer
+ more pain",color=blue];
 	270 [label="mother's",color=green];
-	312 [label="if the parents do not help him immediately , he would have to suffer more pain",color=blue];
-	331 [label="taking advice from parents , the young adult can go through obstacles easily",color=blue];
-	349 [label="living with parents longer brings about memories with parents",color=green];
+	312 [label="if the parents do
+ not help him immediately ,
+ he would have to suffer
+ more pain",color=blue];
+	331 [label="taking advice from parents ,
+ the young adult can go
+ through obstacles easily",color=blue];
+	349 [label="living with
+ parents longer brings about memories
+ with parents",color=green];
 }

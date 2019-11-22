@@ -3,12 +3,37 @@ digraph G {
 	139 -> 271;
 	195 -> 271;
 	226 -> 278;
-	51 [label="using computer constantly has bad influence on children's eyes",color=green];
-	61 [label="when they concentrate on computer for too long , their eyes will get tired , which is the main reason for some eyes problems , typically shortsighted",color=blue];
-	139 [label=", several teenagers play games without rest , which leads to health depression , a typical example is the death of korean gamer , who had a non-stop playing for 3 days",color=blue];
-	271 [label="it still has its bad side",color=green];
-	195 [label="social surveys have shown that a few children use computer for studying purpose , most of them are attracted by facebook , blog , etc",color=blue];
-	271 [label="it still has its bad side",color=green];
-	226 [label="neglect , they will have a bad result in school because when they can not live without internet , they will have no time for their studying",color=blue];
-	278 [label="especially for children",color=green];
+	51 [label="using computer constantly has bad
+ influence on children's eyes",color=green];
+	61 [label="when they concentrate on computer
+ for too long , their
+ eyes will get tired ,
+ which is the main reason
+ for some eyes problems ,
+ typically shortsighted",color=blue];
+	139 [label=", several
+ teenagers play games without rest
+ , which leads to health
+ depression , a typical example
+ is the death of korean
+ gamer , who had a
+ non-stop playing for 3 days
+",color=blue];
+	271 [label="it still has its bad
+ side",color=green];
+	195 [label="social surveys have shown that a
+ few children use computer for
+ studying purpose , most of
+ them are attracted by facebook
+ , blog , etc",color=blue];
+	271 [label="it still has its bad
+ side",color=green];
+	226 [label="neglect , they will have
+ a bad result in school
+ because when they can not
+ live without internet , they
+ will have no time for
+ their studying",color=blue];
+	278 [label="especially for children
+",color=green];
 }

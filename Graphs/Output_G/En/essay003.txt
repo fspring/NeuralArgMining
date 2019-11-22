@@ -4,14 +4,42 @@ digraph G {
 	93 -> 146;
 	175 -> 163;
 	175 -> 167;
-	47 [label="it has contributed to the economic development as well as preserved the culture and environment of the tourist destinations",color=green];
-	69 [label="international tourism promotes many aspects of the destination country’s economy in order to serve various demands of tourists",color=blue];
-	88 [label="take cambodia for",color=blue];
-	146 [label="improved lives in the tourist country",color=green];
-	93 [label="a large number of visitors coming to visit the angkowat ancient temple need services like restaurants , hotels , souvenir shops and other stores",color=blue];
-	146 [label="improved lives in the tourist country",color=green];
+	47 [label="it has contributed to
+ the economic development as well
+ as preserved the culture and
+ environment of the tourist destinations
+",color=green];
+	69 [label="international tourism
+ promotes many aspects of the
+ destination country’s economy in order
+ to serve various demands of
+ tourists",color=blue];
+	88 [label="take cambodia for
+",color=blue];
+	146 [label="improved lives in the tourist
+ country",color=green];
+	93 [label="a large number
+ of visitors coming to visit
+ the angkowat ancient temple need
+ services like restaurants , hotels
+ , souvenir shops and other
+ stores",color=blue];
+	146 [label="improved lives in the tourist
+ country",color=green];
 	163 [label="been preserved",color=green];
-	175 [label="in vietnam , many cultural costumes and natural scenes , namely ‘trong dong’ drum performance and ‘ha long’ bay , are being encouraged to preserve and funded by the tourism ministry",color=blue];
+	175 [label="in vietnam , many cultural costumes
+ and natural scenes , namely
+ ‘trong dong’ drum performance and
+ ‘ha long’ bay , are
+ being encouraged to preserve and
+ funded by the tourism ministry
+",color=blue];
 	167 [label="environments have",color=green];
-	175 [label="in vietnam , many cultural costumes and natural scenes , namely ‘trong dong’ drum performance and ‘ha long’ bay , are being encouraged to preserve and funded by the tourism ministry",color=blue];
+	175 [label="in vietnam , many cultural costumes
+ and natural scenes , namely
+ ‘trong dong’ drum performance and
+ ‘ha long’ bay , are
+ being encouraged to preserve and
+ funded by the tourism ministry
+",color=blue];
 }

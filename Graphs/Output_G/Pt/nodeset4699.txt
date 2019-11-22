@@ -2,7 +2,20 @@ digraph G {
 	289 -> 278;
 	455 -> 441;
 	278 [label="compras",color=green];
-	289 [label="em resposta , a amazon lançou de seguida um comunicado , admitindo que as regras propostas não iriam permitir a utilização do seu prime air , o drone do serviço de entregas",color=blue];
-	441 [label="a atenção à integração com segurança de drones no espaço aéreo dos estados unidos",color=green];
-	455 [label="tem crescido desde que a amazon , no final de 2013 , revelou os seus planos para utilizar drones na entrega comercial",color=blue];
+	289 [label="em resposta
+ , a amazon lançou de
+ seguida um comunicado , admitindo
+ que as regras propostas não
+ iriam permitir a utilização do
+ seu prime air , o
+ drone do serviço de entregas
+",color=blue];
+	441 [label="a atenção à integração com
+ segurança de drones no espaço
+ aéreo dos estados unidos",color=green];
+	455 [label="tem crescido desde que a amazon
+ , no final de 2013
+ , revelou os seus planos
+ para utilizar drones na entrega
+ comercial",color=blue];
 }

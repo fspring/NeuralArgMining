@@ -6,18 +6,50 @@ digraph G {
 	100 -> 67;
 	245 -> 193;
 	245 -> 204;
-	37 [label="groups provide a place",color=green];
-	83 [label="the groups play an essential role in the process of socialization , from children to adults",color=blue];
+	37 [label="groups provide a place
+",color=green];
+	83 [label="the groups play
+ an essential role in the
+ process of socialization , from
+ children to adults",color=blue];
 	44 [label="gain",color=green];
-	83 [label="the groups play an essential role in the process of socialization , from children to adults",color=blue];
+	83 [label="the groups play
+ an essential role in the
+ process of socialization , from
+ children to adults",color=blue];
 	56 [label="in the",color=green];
-	100 [label="we begin taking part in groups or organizations during the early days of life , and especially most people continue their social participation in all through life",color=blue];
+	100 [label="we begin taking part in groups
+ or organizations during the early
+ days of life , and
+ especially most people continue their
+ social participation in all through
+ life",color=blue];
 	59 [label="place",color=green];
-	100 [label="we begin taking part in groups or organizations during the early days of life , and especially most people continue their social participation in all through life",color=blue];
+	100 [label="we begin taking part in groups
+ or organizations during the early
+ days of life , and
+ especially most people continue their
+ social participation in all through
+ life",color=blue];
 	67 [label="society",color=green];
-	100 [label="we begin taking part in groups or organizations during the early days of life , and especially most people continue their social participation in all through life",color=blue];
-	193 [label="almost of us live in the environment of groups",color=green];
-	245 [label="for example , as a student majoring in mass media , i have taken part in mass media student group for a year",color=blue];
+	100 [label="we begin taking part in groups
+ or organizations during the early
+ days of life , and
+ especially most people continue their
+ social participation in all through
+ life",color=blue];
+	193 [label="almost of us
+ live in the environment of
+ groups",color=green];
+	245 [label="for example , as a student
+ majoring in mass media ,
+ i have taken part in
+ mass media student group for
+ a year",color=blue];
 	204 [label="participating",color=green];
-	245 [label="for example , as a student majoring in mass media , i have taken part in mass media student group for a year",color=blue];
+	245 [label="for example , as a student
+ majoring in mass media ,
+ i have taken part in
+ mass media student group for
+ a year",color=blue];
 }

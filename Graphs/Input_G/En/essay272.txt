@@ -13,32 +13,98 @@ digraph G {
 	264 -> 256;
 	264 -> 294;
 	276 -> 294;
-	25 [label="I personally disagree with this notion that these types of communication , telephones and email , made people less personal",color=green];
-	79 [label="Unlike email , send message by using mail service could be lost and could be sent to wrong address",color=blue];
-	60 [label="telephones and email help people , who live far away from other people , to connect each other",color=green];
-	79 [label="Unlike email , send message by using mail service could be lost and could be sent to wrong address",color=blue];
-	79 [label="Unlike email , send message by using mail service could be lost and could be sent to wrong address",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
-	99 [label="I can using telephones and email to talk or write directly to people I want to connect with",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
-	131 [label="It is not possible to have conversation in person with my parents , who live in my country",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
-	152 [label="I can make a phone call or write email to my parents whenever I want",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
-	168 [label="Telephones and email made me feel close to my parents",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
-	181 [label="using telephones and email could express some important words better than face-to-face communication",color=green];
-	247 [label="these types of communications make me feel personal",color=blue];
-	198 [label="sometime when I argue with my friends , I cannot express my self to my friends at that moment",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
-	220 [label="when I have a time to realize what had happened , I could explain the real thought that I want to express without emotion",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
-	247 [label="these types of communications make me feel personal",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
-	256 [label="Telephones and email make me feel personal",color=green];
-	264 [label="I could directly connect with people that I love",color=blue];
-	264 [label="I could directly connect with people that I love",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
-	276 [label="I could express my personal thought through telephones and email",color=blue];
-	294 [label="telephones and email do not make communication between people less personal",color=green];
+	25 [label="I personally disagree with this
+ notion that these types of
+ communication , telephones and email
+ , made people less personal
+",color=green];
+	79 [label="Unlike email , send message by
+ using mail service could be
+ lost and could be sent
+ to wrong address",color=blue];
+	60 [label="telephones and email help people
+ , who live far away
+ from other people , to
+ connect each other",color=green];
+	79 [label="Unlike email , send message by
+ using mail service could be
+ lost and could be sent
+ to wrong address",color=blue];
+	79 [label="Unlike email , send message by
+ using mail service could be
+ lost and could be sent
+ to wrong address",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
+	99 [label="I can using telephones and email
+ to talk or write directly
+ to people I want to
+ connect with",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
+	131 [label="It is not possible
+ to have conversation in person
+ with my parents , who
+ live in my country",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
+	152 [label="I can make
+ a phone call or write
+ email to my parents whenever
+ I want",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
+	168 [label="Telephones and
+ email made me feel close
+ to my parents",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
+	181 [label="using telephones and email
+ could express some important words
+ better than face-to-face communication",color=green];
+	247 [label="these types of
+ communications make me feel personal
+",color=blue];
+	198 [label="sometime when
+ I argue with my friends
+ , I cannot express my
+ self to my friends at
+ that moment",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
+	220 [label="when I have a time
+ to realize what had happened
+ , I could explain the
+ real thought that I want
+ to express without emotion",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
+	247 [label="these types of
+ communications make me feel personal
+",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
+	256 [label="Telephones and email make
+ me feel personal",color=green];
+	264 [label="I could directly connect with people
+ that I love",color=blue];
+	264 [label="I could directly connect with people
+ that I love",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
+	276 [label="I could express my
+ personal thought through telephones and
+ email",color=blue];
+	294 [label="telephones and email do not make
+ communication between people less personal
+",color=green];
 }

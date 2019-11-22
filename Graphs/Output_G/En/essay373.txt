@@ -11,28 +11,66 @@ digraph G {
 	372 -> 442;
 	395 -> 451;
 	413 -> 442;
-	31 [label="many countries have polished the",color=blue];
-	88 [label="it is not essential to control violence in society by the death",color=green];
-	47 [label="51% countries have polished death penalty",color=blue];
-	110 [label="about the reduction of crime rates",color=green];
-	56 [label="it is at 98% in europe",color=blue];
+	31 [label="many countries have polished the
+",color=blue];
+	88 [label="it is not
+ essential to control violence in
+ society by the death",color=green];
+	47 [label="51% countries have polished
+ death penalty",color=blue];
+	110 [label="about the reduction of crime rates
+",color=green];
+	56 [label="it is at 98% in
+ europe",color=blue];
 	117 [label="to the",color=green];
-	88 [label="it is not essential to control violence in society by the death",color=green];
-	140 [label="crimes kill someone which is illegal ;",color=blue];
+	88 [label="it is not
+ essential to control violence in
+ society by the death",color=green];
+	140 [label="crimes kill someone which is illegal
+ ;",color=blue];
 	106 [label="it is",color=green];
-	148 [label=", the government use law to punish them , which is the same way they sinned but in a legal one",color=blue];
-	110 [label="about the reduction of crime rates",color=green];
-	148 [label=", the government use law to punish them , which is the same way they sinned but in a legal one",color=blue];
+	148 [label=", the government
+ use law to punish them
+ , which is the same
+ way they sinned but in
+ a legal one",color=blue];
+	110 [label="about the reduction of crime rates
+",color=green];
+	148 [label=", the government
+ use law to punish them
+ , which is the same
+ way they sinned but in
+ a legal one",color=blue];
 	117 [label="to the",color=green];
-	148 [label=", the government use law to punish them , which is the same way they sinned but in a legal one",color=blue];
-	128 [label="capital punishment is",color=green];
-	170 [label="as a fact that the criminal is repeated",color=blue];
+	148 [label=", the government
+ use law to punish them
+ , which is the same
+ way they sinned but in
+ a legal one",color=blue];
+	128 [label="capital punishment is
+",color=green];
+	170 [label="as a fact that the criminal
+ is repeated",color=blue];
 	136 [label="creates",color=green];
-	183 [label="it is regarded as the "legalized revenge" to victims' family",color=blue];
-	372 [label="as we can see some industries such as mining , oil and gas extraction , reclamation , etc , needs many labors",color=blue];
-	442 [label="it is an easy way for serious crimes",color=green];
-	395 [label="why do not punish them by doing something meaningful for the country- it is better",color=blue];
-	451 [label="and nobody has rights to take others life",color=green];
-	413 [label="rehabilitation and education is also a better way in order to prevent or minimize offensive acts",color=blue];
-	442 [label="it is an easy way for serious crimes",color=green];
+	183 [label="it is regarded
+ as the "legalized revenge" to
+ victims' family",color=blue];
+	372 [label="as we can see
+ some industries such as mining
+ , oil and gas extraction
+ , reclamation , etc ,
+ needs many labors",color=blue];
+	442 [label="it is an easy
+ way for serious crimes",color=green];
+	395 [label="why do not punish them by
+ doing something meaningful for the
+ country- it is better",color=blue];
+	451 [label="and nobody has rights to
+ take others life",color=green];
+	413 [label="rehabilitation and education
+ is also a better way
+ in order to prevent or
+ minimize offensive acts",color=blue];
+	442 [label="it is an easy
+ way for serious crimes",color=green];
 }

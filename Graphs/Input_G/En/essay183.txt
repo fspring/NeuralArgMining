@@ -9,24 +9,75 @@ digraph G {
 	197 -> 217;
 	249 -> 230;
 	249 -> 300;
-	42 [label="I personally consider this fact as the harmful thing that television has brought upon us",color=green];
-	63 [label="people watch television too much",color=blue];
-	63 [label="people watch television too much",color=blue];
-	69 [label="they can be isolated from others",color=green];
-	69 [label="they can be isolated from others",color=green];
-	76 [label="Children , for example , pay more attention on movies , music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others",color=blue];
-	76 [label="Children , for example , pay more attention on movies , music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others",color=blue];
-	300 [label="it has destroyed communication among friends and family",color=green];
-	117 [label="Gradually , their friends leave them behind either activities or studying",color=blue];
-	300 [label="it has destroyed communication among friends and family",color=green];
-	131 [label="with the rapid change of the standard of life , each family has three or four TV in each room is more common",color=blue];
-	180 [label="children will learn behavior from what they see on TV not from their parents",color=green];
-	155 [label="Parents and even children do not want to communicate with each other instead of watching TV in their own room",color=blue];
-	180 [label="children will learn behavior from what they see on TV not from their parents",color=green];
-	197 [label="parents are not able to function their parental care as the necessary thing to children",color=blue];
-	217 [label="communication between family members is visibly destroyed",color=green];
-	230 [label="watching too much television people will unconsciously learn bad behavior that sow division among human",color=green];
-	249 [label="watching film about terrorist children will be able to consider terrorism as a right thing",color=blue];
-	249 [label="watching film about terrorist children will be able to consider terrorism as a right thing",color=blue];
-	300 [label="it has destroyed communication among friends and family",color=green];
+	42 [label="I personally consider
+ this fact as the harmful
+ thing that television has brought
+ upon us",color=green];
+	63 [label="people watch
+ television too much",color=blue];
+	63 [label="people watch
+ television too much",color=blue];
+	69 [label="they can be isolated from others
+",color=green];
+	69 [label="they can be isolated from others
+",color=green];
+	76 [label="Children , for example
+ , pay more attention on
+ movies , music show provided
+ by television and do not
+ want to do anything else
+ such as going to school
+ or practicing exercise with friends
+ will be taken apart by
+ others",color=blue];
+	76 [label="Children , for example
+ , pay more attention on
+ movies , music show provided
+ by television and do not
+ want to do anything else
+ such as going to school
+ or practicing exercise with friends
+ will be taken apart by
+ others",color=blue];
+	300 [label="it has destroyed communication among
+ friends and family",color=green];
+	117 [label="Gradually , their
+ friends leave them behind either
+ activities or studying",color=blue];
+	300 [label="it has destroyed communication among
+ friends and family",color=green];
+	131 [label="with the rapid change
+ of the standard of life
+ , each family has three
+ or four TV in each
+ room is more common",color=blue];
+	180 [label="children will learn behavior from
+ what they see on TV
+ not from their parents",color=green];
+	155 [label="Parents and even children do
+ not want to communicate with
+ each other instead of watching
+ TV in their own room
+",color=blue];
+	180 [label="children will learn behavior from
+ what they see on TV
+ not from their parents",color=green];
+	197 [label="parents are not
+ able to function their parental
+ care as the necessary thing
+ to children",color=blue];
+	217 [label="communication between family
+ members is visibly destroyed",color=green];
+	230 [label="watching too much television people
+ will unconsciously learn bad behavior
+ that sow division among human
+",color=green];
+	249 [label="watching film about terrorist children will
+ be able to consider terrorism
+ as a right thing",color=blue];
+	249 [label="watching film about terrorist children will
+ be able to consider terrorism
+ as a right thing",color=blue];
+	300 [label="it has destroyed communication among
+ friends and family",color=green];
 }

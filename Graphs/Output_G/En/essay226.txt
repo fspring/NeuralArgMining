@@ -1,8 +1,17 @@
 digraph G {
 	180 -> 155;
 	351 -> 380;
-	155 [label="past obviously saves ourselves a bunch of failures and times",color=green];
-	180 [label="if the predecessors' mistakes are the indirect way that leads us to the goals , others' accomplishment can be served as the direct way",color=blue];
-	351 [label="are only some of many precious knowledge that the past presents us",color=blue];
-	380 [label="success and knowledge all have crucial impact on people's lives today",color=green];
+	155 [label="past obviously saves ourselves a bunch
+ of failures and times",color=green];
+	180 [label="if the predecessors' mistakes are the
+ indirect way that leads us
+ to the goals , others'
+ accomplishment can be served as
+ the direct way",color=blue];
+	351 [label="are only some of many
+ precious knowledge that the past
+ presents us",color=blue];
+	380 [label="success and knowledge all have crucial
+ impact on people's lives today
+",color=green];
 }

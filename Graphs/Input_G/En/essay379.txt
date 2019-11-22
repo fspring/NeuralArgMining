@@ -7,20 +7,91 @@ digraph G {
 	203 -> 312;
 	234 -> 312;
 	269 -> 312;
-	27 [label="there are still many other aspects which should be seen as important as income when people choose a job",color=green];
-	70 [label="money is very essential in order to meet human' basic needs",color=blue];
-	70 [label="money is very essential in order to meet human' basic needs",color=blue];
-	312 [label="passion on jobs , in my opinion , can bring actual happiness and help us get promoted in working to earn even more money later on",color=green];
-	125 [label="people who are woking in art or painting industries , for example , will find it quite difficult to live comfortably and enjoyably",color=blue];
-	312 [label="passion on jobs , in my opinion , can bring actual happiness and help us get promoted in working to earn even more money later on",color=green];
-	152 [label="they are doing what they love , their income however seems to be quite low compared to many other career paths",color=blue];
-	312 [label="passion on jobs , in my opinion , can bring actual happiness and help us get promoted in working to earn even more money later on",color=green];
-	182 [label="if we are passionate about what we are working , we are likely to achieve success easily in that field",color=green];
-	203 [label="There are plenty of people , who are now really successful , have started working in challenging as well as competitive fields as singers , dancers and painters",color=blue];
-	203 [label="There are plenty of people , who are now really successful , have started working in challenging as well as competitive fields as singers , dancers and painters",color=blue];
-	312 [label="passion on jobs , in my opinion , can bring actual happiness and help us get promoted in working to earn even more money later on",color=green];
-	234 [label="important factors in choosing a job such as level of happiness , satisfaction of jobs , personal relationships , professional skills , working environment , managers and colleagues should not be underestimated",color=blue];
-	312 [label="passion on jobs , in my opinion , can bring actual happiness and help us get promoted in working to earn even more money later on",color=green];
-	269 [label="some people choose a career due to their desire to help others and contribute positively to their countries and societies",color=blue];
-	312 [label="passion on jobs , in my opinion , can bring actual happiness and help us get promoted in working to earn even more money later on",color=green];
+	27 [label="there are still
+ many other aspects which should
+ be seen as important as
+ income when people choose a
+ job",color=green];
+	70 [label="money is very essential in
+ order to meet human' basic
+ needs",color=blue];
+	70 [label="money is very essential in
+ order to meet human' basic
+ needs",color=blue];
+	312 [label="passion on jobs
+ , in my opinion ,
+ can bring actual happiness and
+ help us get promoted in
+ working to earn even more
+ money later on",color=green];
+	125 [label="people who are woking in
+ art or painting industries ,
+ for example , will find
+ it quite difficult to live
+ comfortably and enjoyably",color=blue];
+	312 [label="passion on jobs
+ , in my opinion ,
+ can bring actual happiness and
+ help us get promoted in
+ working to earn even more
+ money later on",color=green];
+	152 [label="they are doing
+ what they love , their
+ income however seems to be
+ quite low compared to many
+ other career paths",color=blue];
+	312 [label="passion on jobs
+ , in my opinion ,
+ can bring actual happiness and
+ help us get promoted in
+ working to earn even more
+ money later on",color=green];
+	182 [label="if we are
+ passionate about what we are
+ working , we are likely
+ to achieve success easily in
+ that field",color=green];
+	203 [label="There are
+ plenty of people , who
+ are now really successful ,
+ have started working in challenging
+ as well as competitive fields
+ as singers , dancers and
+ painters",color=blue];
+	203 [label="There are
+ plenty of people , who
+ are now really successful ,
+ have started working in challenging
+ as well as competitive fields
+ as singers , dancers and
+ painters",color=blue];
+	312 [label="passion on jobs
+ , in my opinion ,
+ can bring actual happiness and
+ help us get promoted in
+ working to earn even more
+ money later on",color=green];
+	234 [label="important factors in choosing a job
+ such as level of happiness
+ , satisfaction of jobs ,
+ personal relationships , professional skills
+ , working environment , managers
+ and colleagues should not be
+ underestimated",color=blue];
+	312 [label="passion on jobs
+ , in my opinion ,
+ can bring actual happiness and
+ help us get promoted in
+ working to earn even more
+ money later on",color=green];
+	269 [label="some people choose a career due
+ to their desire to help
+ others and contribute positively to
+ their countries and societies",color=blue];
+	312 [label="passion on jobs
+ , in my opinion ,
+ can bring actual happiness and
+ help us get promoted in
+ working to earn even more
+ money later on",color=green];
 }

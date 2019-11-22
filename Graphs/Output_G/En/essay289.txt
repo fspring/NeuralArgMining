@@ -6,18 +6,46 @@ digraph G {
 	266 -> 330;
 	299 -> 300;
 	348 -> 349;
-	29 [label="teachers could amplify their",color=blue];
-	57 [label="students should be asked to evaluate their teachers",color=green];
-	83 [label="evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product",color=blue];
-	128 [label="improve themselves by speaking slower to make sure that students could get all information that they want",color=green];
+	29 [label="teachers could
+ amplify their",color=blue];
+	57 [label="students should be asked
+ to evaluate their teachers",color=green];
+	83 [label="evaluation made by
+ students is similar to feedback
+ from customer that business owners
+ need to know in order
+ to improve their product",color=blue];
+	128 [label="improve themselves by
+ speaking slower to make sure
+ that students could get all
+ information that they want",color=green];
 	126 [label="teachers could",color=blue];
-	128 [label="improve themselves by speaking slower to make sure that students could get all information that they want",color=green];
-	194 [label=", in many cooperation such as microsoft that could produce many great products because they have employees whose performance are very high",color=blue];
-	300 [label="study from great schools which have great performance teacher",color=green];
-	266 [label="because teachers are always adapt the way they teach in order to make students easy to understand their subjects , students could comprehend their subject easily",color=blue];
-	330 [label="that school should ask students to evaluate their teachers because teachers could improve their performance",color=green];
+	128 [label="improve themselves by
+ speaking slower to make sure
+ that students could get all
+ information that they want",color=green];
+	194 [label=", in
+ many cooperation such as microsoft
+ that could produce many great
+ products because they have employees
+ whose performance are very high
+",color=blue];
+	300 [label="study from great schools which have
+ great performance teacher",color=green];
+	266 [label="because teachers are always adapt
+ the way they teach in
+ order to make students easy
+ to understand their subjects ,
+ students could comprehend their subject
+ easily",color=blue];
+	330 [label="that school should ask students to
+ evaluate their teachers because teachers
+ could improve their performance",color=green];
 	299 [label="who",color=blue];
-	300 [label="study from great schools which have great performance teacher",color=green];
+	300 [label="study from great schools which have
+ great performance teacher",color=green];
 	348 [label="schools",color=blue];
-	349 [label="are also improve their quality because they have high performance teachers",color=green];
+	349 [label="are also
+ improve their quality because they
+ have high performance teachers",color=green];
 }

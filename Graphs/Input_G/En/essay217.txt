@@ -11,28 +11,92 @@ digraph G {
 	267 -> 388;
 	279 -> 388;
 	319 -> 332;
-	74 [label="the way of learning life through listening to the advice of family and friends is more realistic than the latter",color=green];
-	95 [label="Family members such as your parents are experienced in life so they can give you proper and sincere guidance on every aspect of life",color=blue];
-	95 [label="Family members such as your parents are experienced in life so they can give you proper and sincere guidance on every aspect of life",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
-	120 [label="And friends , people who are the same generation with you , they are understand your favorite and ability enough to tell you which is suitable for you , which is not",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
-	153 [label="By listening to your family and friends advice , you can definitely avoid many unexpected things",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
-	175 [label="finding out life through personal experience can help you become more independent and mature",color=green];
-	194 [label="there are so many grate things that you can missed if you don't experience it by yourself",color=blue];
-	194 [label="there are so many grate things that you can missed if you don't experience it by yourself",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
-	215 [label="a friend told you not to try skydiving because it was so dangerous",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
-	229 [label="If you did as he told , you could fail to see how wonderful it is to be fall freely",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
-	253 [label="family and friends accidentally harm you by giving you advice all the time",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
-	267 [label="You will grow to be dependent and reliant",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
-	279 [label="free yourself and do what you desire without notice about consequences is the way that success people would like to choose",color=blue];
-	388 [label="learning about life through personal experience seems more appropriate",color=green];
-	319 [label="growth is a long process that experience is indispensable",color=blue];
-	332 [label="experiencing the real life by myself , I could learn more than just obey the advice",color=green];
+	74 [label="the way of learning life through
+ listening to the advice of
+ family and friends is more
+ realistic than the latter",color=green];
+	95 [label="Family members such as your
+ parents are experienced in life
+ so they can give you
+ proper and sincere guidance on
+ every aspect of life",color=blue];
+	95 [label="Family members such as your
+ parents are experienced in life
+ so they can give you
+ proper and sincere guidance on
+ every aspect of life",color=blue];
+	388 [label="learning about
+ life through personal experience seems
+ more appropriate",color=green];
+	120 [label="And friends , people who
+ are the same generation with
+ you , they are understand
+ your favorite and ability enough
+ to tell you which is
+ suitable for you , which
+ is not",color=blue];
+	388 [label="learning about
+ life through personal experience seems
+ more appropriate",color=green];
+	153 [label="By listening
+ to your family and friends
+ advice , you can definitely
+ avoid many unexpected things",color=blue];
+	388 [label="learning about
+ life through personal experience seems
+ more appropriate",color=green];
+	175 [label="finding out life through personal
+ experience can help you become
+ more independent and mature",color=green];
+	194 [label="there are so many grate things
+ that you can missed if
+ you don't experience it by
+ yourself",color=blue];
+	194 [label="there are so many grate things
+ that you can missed if
+ you don't experience it by
+ yourself",color=blue];
+	388 [label="learning about
+ life through personal experience seems
+ more appropriate",color=green];
+	215 [label="a friend told you not
+ to try skydiving because it
+ was so dangerous",color=blue];
+	388 [label="learning about
+ life through personal experience seems
+ more appropriate",color=green];
+	229 [label="If you did as he told
+ , you could fail to
+ see how wonderful it is
+ to be fall freely",color=blue];
+	388 [label="learning about
+ life through personal experience seems
+ more appropriate",color=green];
+	253 [label="family and
+ friends accidentally harm you by
+ giving you advice all the
+ time",color=blue];
+	388 [label="learning about
+ life through personal experience seems
+ more appropriate",color=green];
+	267 [label="You will grow
+ to be dependent and reliant
+",color=blue];
+	388 [label="learning about
+ life through personal experience seems
+ more appropriate",color=green];
+	279 [label="free yourself and do what you
+ desire without notice about consequences
+ is the way that success
+ people would like to choose
+",color=blue];
+	388 [label="learning about
+ life through personal experience seems
+ more appropriate",color=green];
+	319 [label="growth is a long process that
+ experience is indispensable",color=blue];
+	332 [label="experiencing the real
+ life by myself , I
+ could learn more than just
+ obey the advice",color=green];
 }

@@ -8,22 +8,89 @@ digraph G {
 	181 -> 264;
 	198 -> 264;
 	217 -> 264;
-	23 [label="by allowing students to watch TV at both school and house can adversely impact on their overall growth",color=green];
-	66 [label="TV is one of the prime source of data and information",color=blue];
-	66 [label="TV is one of the prime source of data and information",color=blue];
-	104 [label="By watching TV , children can develop skills in extra-curriculum activities",color=green];
-	78 [label="There are international and local news channels like BBC , CNBC , Etv Gujarati , Etv Marathi etc to keep individuals updated about latest happenings",color=blue];
-	104 [label="By watching TV , children can develop skills in extra-curriculum activities",color=green];
-	104 [label="By watching TV , children can develop skills in extra-curriculum activities",color=green];
-	119 [label="Cooking programs teach about how to make new dishes and similarly , sports events like cricket , football can teach leadership skills , team building skills , communication skills and many more that can help students in their future jobs",color=blue];
-	119 [label="Cooking programs teach about how to make new dishes and similarly , sports events like cricket , football can teach leadership skills , team building skills , communication skills and many more that can help students in their future jobs",color=blue];
-	264 [label="if students were allowed to freely watch TV without any proper controls by parents or teachers then it would produce more negative effects on children",color=green];
-	165 [label="watching TV for a continuously long hours can adversely impact children health",color=green];
-	181 [label="they can get poor eyesight in early ages of childhood , and also develop back pain",color=blue];
-	181 [label="they can get poor eyesight in early ages of childhood , and also develop back pain",color=blue];
-	264 [label="if students were allowed to freely watch TV without any proper controls by parents or teachers then it would produce more negative effects on children",color=green];
-	198 [label="Sometimes , students watch restrictive programs not allowed for their ages and this can have major psychological consequences",color=blue];
-	264 [label="if students were allowed to freely watch TV without any proper controls by parents or teachers then it would produce more negative effects on children",color=green];
-	217 [label="Many times , students get addictive to their favorite programs like Cartoon channels , or baseball and easily get distracted from study during exam period and this can seriously impact their grades",color=blue];
-	264 [label="if students were allowed to freely watch TV without any proper controls by parents or teachers then it would produce more negative effects on children",color=green];
+	23 [label="by allowing
+ students to watch TV at
+ both school and house can
+ adversely impact on their overall
+ growth",color=green];
+	66 [label="TV is one of
+ the prime source of data
+ and information",color=blue];
+	66 [label="TV is one of
+ the prime source of data
+ and information",color=blue];
+	104 [label="By watching TV , children can
+ develop skills in extra-curriculum activities
+",color=green];
+	78 [label="There are
+ international and local news channels
+ like BBC , CNBC ,
+ Etv Gujarati , Etv Marathi
+ etc to keep individuals updated
+ about latest happenings",color=blue];
+	104 [label="By watching TV , children can
+ develop skills in extra-curriculum activities
+",color=green];
+	104 [label="By watching TV , children can
+ develop skills in extra-curriculum activities
+",color=green];
+	119 [label="Cooking programs teach about how to
+ make new dishes and similarly
+ , sports events like cricket
+ , football can teach leadership
+ skills , team building skills
+ , communication skills and many
+ more that can help students
+ in their future jobs",color=blue];
+	119 [label="Cooking programs teach about how to
+ make new dishes and similarly
+ , sports events like cricket
+ , football can teach leadership
+ skills , team building skills
+ , communication skills and many
+ more that can help students
+ in their future jobs",color=blue];
+	264 [label="if students were allowed to freely
+ watch TV without any proper
+ controls by parents or teachers
+ then it would produce more
+ negative effects on children",color=green];
+	165 [label="watching TV for a continuously
+ long hours can adversely impact
+ children health",color=green];
+	181 [label="they can get poor
+ eyesight in early ages of
+ childhood , and also develop
+ back pain",color=blue];
+	181 [label="they can get poor
+ eyesight in early ages of
+ childhood , and also develop
+ back pain",color=blue];
+	264 [label="if students were allowed to freely
+ watch TV without any proper
+ controls by parents or teachers
+ then it would produce more
+ negative effects on children",color=green];
+	198 [label="Sometimes ,
+ students watch restrictive programs not
+ allowed for their ages and
+ this can have major psychological
+ consequences",color=blue];
+	264 [label="if students were allowed to freely
+ watch TV without any proper
+ controls by parents or teachers
+ then it would produce more
+ negative effects on children",color=green];
+	217 [label="Many times ,
+ students get addictive to their
+ favorite programs like Cartoon channels
+ , or baseball and easily
+ get distracted from study during
+ exam period and this can
+ seriously impact their grades",color=blue];
+	264 [label="if students were allowed to freely
+ watch TV without any proper
+ controls by parents or teachers
+ then it would produce more
+ negative effects on children",color=green];
 }

@@ -5,16 +5,52 @@ digraph G {
 	279 -> 256;
 	279 -> 318;
 	302 -> 318;
-	77 [label="being positively different from everyone else usually means that you've achieved something that is superior than others",color=green];
-	95 [label="as living in a competent world , we are like playing a survival game",color=blue];
-	193 [label="unique can create your own value which can never be taken by others",color=green];
-	211 [label="once you are special and unique , pursuing success is a matter of actively creating the fashion rather than passively waiting for other people to recognize and appreciate you",color=blue];
-	211 [label="once you are special and unique , pursuing success is a matter of actively creating the fashion rather than passively waiting for other people to recognize and appreciate you",color=blue];
-	318 [label="being different and unique is the better way to achieve success",color=green];
+	77 [label="being positively different from
+ everyone else usually means that
+ you've achieved something that is
+ superior than others",color=green];
+	95 [label="as living in a competent world
+ , we are like playing
+ a survival game",color=blue];
+	193 [label="unique can create
+ your own value which can
+ never be taken by others
+",color=green];
+	211 [label="once you are special and
+ unique , pursuing success is
+ a matter of actively creating
+ the fashion rather than passively
+ waiting for other people to
+ recognize and appreciate you",color=blue];
+	211 [label="once you are special and
+ unique , pursuing success is
+ a matter of actively creating
+ the fashion rather than passively
+ waiting for other people to
+ recognize and appreciate you",color=blue];
+	318 [label="being different and
+ unique is the better way
+ to achieve success",color=green];
 	256 [label="it",color=green];
-	279 [label="it has its operating systems that can run smoother than any other companies and its design always wins the popularity among consumers",color=blue];
-	279 [label="it has its operating systems that can run smoother than any other companies and its design always wins the popularity among consumers",color=blue];
-	318 [label="being different and unique is the better way to achieve success",color=green];
-	302 [label="it is the uniqueness of apple design that creates its own",color=blue];
-	318 [label="being different and unique is the better way to achieve success",color=green];
+	279 [label="it has
+ its operating systems that can
+ run smoother than any other
+ companies and its design always
+ wins the popularity among consumers
+",color=blue];
+	279 [label="it has
+ its operating systems that can
+ run smoother than any other
+ companies and its design always
+ wins the popularity among consumers
+",color=blue];
+	318 [label="being different and
+ unique is the better way
+ to achieve success",color=green];
+	302 [label="it is the uniqueness
+ of apple design that creates
+ its own",color=blue];
+	318 [label="being different and
+ unique is the better way
+ to achieve success",color=green];
 }

@@ -1,8 +1,19 @@
 digraph G {
 	121 -> 93;
 	153 -> 139;
-	93 [label="restaurants are places where people come and pay some money to enjoy their meals",color=green];
-	121 [label="they will not be able to enjoy their meals while breathing in smoke around them",color=blue];
-	139 [label="restaurants are places that people usually come with their families",color=green];
-	153 [label="there will be children , grandparents , as well as pregnant women inside the restaurants",color=blue];
+	93 [label="restaurants are places
+ where people come and pay
+ some money to enjoy their
+ meals",color=green];
+	121 [label="they will not be able
+ to enjoy their meals while
+ breathing in smoke around them
+",color=blue];
+	139 [label="restaurants are
+ places that people usually come
+ with their families",color=green];
+	153 [label="there will be
+ children , grandparents , as
+ well as pregnant women inside
+ the restaurants",color=blue];
 }

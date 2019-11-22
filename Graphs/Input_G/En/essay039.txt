@@ -11,28 +11,81 @@ digraph G {
 	215 -> 287;
 	244 -> 287;
 	264 -> 287;
-	73 [label="there are some reasons for human beings to travel to outer space",color=green];
-	100 [label="a picture of planet earth proved that the earth is round , not flat",color=blue];
-	88 [label="many facts about solar system can be discovered",color=green];
-	100 [label="a picture of planet earth proved that the earth is round , not flat",color=blue];
-	100 [label="a picture of planet earth proved that the earth is round , not flat",color=blue];
-	287 [label="human beings should travel to outer space",color=green];
-	119 [label="it is the earth which goes around the sun , not vice versa",color=blue];
-	287 [label="human beings should travel to outer space",color=green];
-	133 [label="If it was not for the space exploration , we would never know these facts",color=blue];
-	287 [label="human beings should travel to outer space",color=green];
-	151 [label="people can know more about the planet earth itself",color=green];
-	161 [label="By observing planet earth from outer space , people can find out ample things for example about the atmosphere of the planet earth",color=blue];
-	161 [label="By observing planet earth from outer space , people can find out ample things for example about the atmosphere of the planet earth",color=blue];
-	287 [label="human beings should travel to outer space",color=green];
-	185 [label="With this knowledge , people can work on something to prevent earth hazards such as global warming",color=blue];
-	287 [label="human beings should travel to outer space",color=green];
-	205 [label="a great deal of sophisticated technology can be invented",color=green];
-	215 [label="As astronauts need to travel to outer space which does not have any oxygen to breathe in , scientists are compelled to do research on the oxygen tanks",color=blue];
-	215 [label="As astronauts need to travel to outer space which does not have any oxygen to breathe in , scientists are compelled to do research on the oxygen tanks",color=blue];
-	287 [label="human beings should travel to outer space",color=green];
-	244 [label="Oxygen tanks , for instance , are proved useful not only in outer space but also underwater",color=blue];
-	287 [label="human beings should travel to outer space",color=green];
-	264 [label="spaceships , communication satellites and space pens also contribute a lot to the society",color=blue];
-	287 [label="human beings should travel to outer space",color=green];
+	73 [label="there are
+ some reasons for human beings
+ to travel to outer space
+",color=green];
+	100 [label="a picture of planet earth
+ proved that the earth is
+ round , not flat",color=blue];
+	88 [label="many facts
+ about solar system can be
+ discovered",color=green];
+	100 [label="a picture of planet earth
+ proved that the earth is
+ round , not flat",color=blue];
+	100 [label="a picture of planet earth
+ proved that the earth is
+ round , not flat",color=blue];
+	287 [label="human beings should
+ travel to outer space",color=green];
+	119 [label="it is the earth which goes
+ around the sun , not
+ vice versa",color=blue];
+	287 [label="human beings should
+ travel to outer space",color=green];
+	133 [label="If it
+ was not for the space
+ exploration , we would never
+ know these facts",color=blue];
+	287 [label="human beings should
+ travel to outer space",color=green];
+	151 [label="people can know more
+ about the planet earth itself
+",color=green];
+	161 [label="By observing planet earth
+ from outer space , people
+ can find out ample things
+ for example about the atmosphere
+ of the planet earth",color=blue];
+	161 [label="By observing planet earth
+ from outer space , people
+ can find out ample things
+ for example about the atmosphere
+ of the planet earth",color=blue];
+	287 [label="human beings should
+ travel to outer space",color=green];
+	185 [label="With this knowledge , people
+ can work on something to
+ prevent earth hazards such as
+ global warming",color=blue];
+	287 [label="human beings should
+ travel to outer space",color=green];
+	205 [label="a great deal of sophisticated
+ technology can be invented",color=green];
+	215 [label="As astronauts need to travel
+ to outer space which does
+ not have any oxygen to
+ breathe in , scientists are
+ compelled to do research on
+ the oxygen tanks",color=blue];
+	215 [label="As astronauts need to travel
+ to outer space which does
+ not have any oxygen to
+ breathe in , scientists are
+ compelled to do research on
+ the oxygen tanks",color=blue];
+	287 [label="human beings should
+ travel to outer space",color=green];
+	244 [label="Oxygen tanks , for instance ,
+ are proved useful not only
+ in outer space but also
+ underwater",color=blue];
+	287 [label="human beings should
+ travel to outer space",color=green];
+	264 [label="spaceships , communication satellites and space
+ pens also contribute a lot
+ to the society",color=blue];
+	287 [label="human beings should
+ travel to outer space",color=green];
 }

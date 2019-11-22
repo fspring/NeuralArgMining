@@ -2,10 +2,27 @@ digraph G {
 	135 -> 103;
 	299 -> 341;
 	317 -> 341;
-	103 [label="global economic conditions in these days are tough and there are many unpredictable factors that make it necessary to have some money on your bank account",color=green];
-	135 [label="friends who lost their jobs recently due to the economic crisis in europe",color=blue];
-	299 [label="for instance , i made a month-long backpack trip through southeast asia last summer with my girlfriend",color=blue];
-	341 [label="there is no other choice than saving money for some time",color=green];
-	317 [label="without our savings we could not have pursued our long-time dream",color=blue];
-	341 [label="there is no other choice than saving money for some time",color=green];
+	103 [label="global economic conditions
+ in these days are tough
+ and there are many unpredictable
+ factors that make it necessary
+ to have some money on
+ your bank account",color=green];
+	135 [label="friends who lost their jobs recently
+ due to the economic crisis
+ in europe",color=blue];
+	299 [label="for instance
+ , i made a month-long
+ backpack trip through southeast asia
+ last summer with my girlfriend
+",color=blue];
+	341 [label="there is no other choice
+ than saving money for some
+ time",color=green];
+	317 [label="without our savings we
+ could not have pursued our
+ long-time dream",color=blue];
+	341 [label="there is no other choice
+ than saving money for some
+ time",color=green];
 }

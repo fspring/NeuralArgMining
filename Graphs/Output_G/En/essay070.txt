@@ -5,13 +5,31 @@ digraph G {
 	158 -> 147;
 	158 -> 149;
 	81 [label="been",color=green];
-	105 [label="whether it can work out for alleviating traffic and pollution pressure ought to be",color=blue];
+	105 [label="whether it can work out for
+ alleviating traffic and pollution pressure
+ ought to be",color=blue];
 	94 [label="farming",color=green];
-	105 [label="whether it can work out for alleviating traffic and pollution pressure ought to be",color=blue];
-	96 [label="and in the real estate",color=green];
-	105 [label="whether it can work out for alleviating traffic and pollution pressure ought to be",color=blue];
+	105 [label="whether it can work out for
+ alleviating traffic and pollution pressure
+ ought to be",color=blue];
+	96 [label="and in the real estate
+",color=green];
+	105 [label="whether it can work out for
+ alleviating traffic and pollution pressure
+ ought to be",color=blue];
 	147 [label="to",color=green];
-	158 [label="pollutions are not just caused by the burning of oil , chemical pollutants , extra lights , also constitute considerable amount of pollution",color=blue];
-	149 [label="petrol price",color=green];
-	158 [label="pollutions are not just caused by the burning of oil , chemical pollutants , extra lights , also constitute considerable amount of pollution",color=blue];
+	158 [label="pollutions are not
+ just caused by the burning
+ of oil , chemical pollutants
+ , extra lights , also
+ constitute considerable amount of pollution
+",color=blue];
+	149 [label="petrol price
+",color=green];
+	158 [label="pollutions are not
+ just caused by the burning
+ of oil , chemical pollutants
+ , extra lights , also
+ constitute considerable amount of pollution
+",color=blue];
 }

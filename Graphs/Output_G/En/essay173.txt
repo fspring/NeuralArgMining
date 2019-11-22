@@ -3,9 +3,32 @@ digraph G {
 	117 -> 99;
 	117 -> 111;
 	93 [label="zoo",color=green];
-	117 [label="in the zoo they interact with each other and are able to relax and look at the animals , play with some of them , comment on their appearance and behavior , and laugh at their funny customs",color=blue];
-	99 [label="in a",color=green];
-	117 [label="in the zoo they interact with each other and are able to relax and look at the animals , play with some of them , comment on their appearance and behavior , and laugh at their funny customs",color=blue];
-	111 [label="of a school group activity",color=green];
-	117 [label="in the zoo they interact with each other and are able to relax and look at the animals , play with some of them , comment on their appearance and behavior , and laugh at their funny customs",color=blue];
+	117 [label="in the zoo they
+ interact with each other and
+ are able to relax and
+ look at the animals ,
+ play with some of them
+ , comment on their appearance
+ and behavior , and laugh
+ at their funny customs",color=blue];
+	99 [label="in a
+",color=green];
+	117 [label="in the zoo they
+ interact with each other and
+ are able to relax and
+ look at the animals ,
+ play with some of them
+ , comment on their appearance
+ and behavior , and laugh
+ at their funny customs",color=blue];
+	111 [label="of a school group activity
+",color=green];
+	117 [label="in the zoo they
+ interact with each other and
+ are able to relax and
+ look at the animals ,
+ play with some of them
+ , comment on their appearance
+ and behavior , and laugh
+ at their funny customs",color=blue];
 }

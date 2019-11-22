@@ -11,28 +11,121 @@ digraph G {
 	230 -> 293;
 	248 -> 293;
 	271 -> 293;
-	31 [label="these taxes are absolutely essential",color=green];
-	64 [label="many poor families are not able to afford tuition fees for their kids to attend a course",color=blue];
-	39 [label="by paying taxes for public school , affluent people effectively contribute to narrowing down the gap between rich and poor",color=green];
-	64 [label="many poor families are not able to afford tuition fees for their kids to attend a course",color=blue];
-	64 [label="many poor families are not able to afford tuition fees for their kids to attend a course",color=blue];
-	293 [label="taxes paying for state schools are necessary to be compulsory for all members of society no matter where their children enroll in",color=green];
-	82 [label="With the the tax amount for which they pay , the rich may help a vast number of students from families with poverty background to continue their studies , and earn a better quality of life",color=blue];
-	293 [label="taxes paying for state schools are necessary to be compulsory for all members of society no matter where their children enroll in",color=green];
-	121 [label="the tax reduction for parents of children studying in private schools would lead to a waste of public capital",color=green];
-	156 [label="the government would have to recruit a greater workforce in order to handle this sophisticated issue",color=blue];
-	143 [label="this reduction would cause a difficulty to the tax calculation",color=blue];
-	293 [label="taxes paying for state schools are necessary to be compulsory for all members of society no matter where their children enroll in",color=green];
-	156 [label="the government would have to recruit a greater workforce in order to handle this sophisticated issue",color=blue];
-	293 [label="taxes paying for state schools are necessary to be compulsory for all members of society no matter where their children enroll in",color=green];
-	176 [label="the government would also pay the salary for the excessive officials , and this would result in insufficient investments in other crucial public sectors such as education or health care",color=blue];
-	293 [label="taxes paying for state schools are necessary to be compulsory for all members of society no matter where their children enroll in",color=green];
-	218 [label="such tax payments are unfair for them",color=green];
-	230 [label="it is irrational to require them to pay for the taxes they do not use",color=blue];
-	230 [label="it is irrational to require them to pay for the taxes they do not use",color=blue];
-	293 [label="taxes paying for state schools are necessary to be compulsory for all members of society no matter where their children enroll in",color=green];
-	248 [label="we also pay for the public services that we even do not experience a chance to employ like police or fire brigade",color=blue];
-	293 [label="taxes paying for state schools are necessary to be compulsory for all members of society no matter where their children enroll in",color=green];
-	271 [label="We certainly do not hope for a reduction for these sorts of taxes",color=blue];
-	293 [label="taxes paying for state schools are necessary to be compulsory for all members of society no matter where their children enroll in",color=green];
+	31 [label="these taxes are absolutely
+ essential",color=green];
+	64 [label="many poor families are not able
+ to afford tuition fees for
+ their kids to attend a
+ course",color=blue];
+	39 [label="by paying taxes for public school
+ , affluent people effectively contribute
+ to narrowing down the gap
+ between rich and poor",color=green];
+	64 [label="many poor families are not able
+ to afford tuition fees for
+ their kids to attend a
+ course",color=blue];
+	64 [label="many poor families are not able
+ to afford tuition fees for
+ their kids to attend a
+ course",color=blue];
+	293 [label="taxes paying
+ for state schools are necessary
+ to be compulsory for all
+ members of society no matter
+ where their children enroll in
+",color=green];
+	82 [label="With the the
+ tax amount for which they
+ pay , the rich may
+ help a vast number of
+ students from families with poverty
+ background to continue their studies
+ , and earn a better
+ quality of life",color=blue];
+	293 [label="taxes paying
+ for state schools are necessary
+ to be compulsory for all
+ members of society no matter
+ where their children enroll in
+",color=green];
+	121 [label="the tax reduction for
+ parents of children studying in
+ private schools would lead to
+ a waste of public capital
+",color=green];
+	156 [label="the government would have
+ to recruit a greater workforce
+ in order to handle this
+ sophisticated issue",color=blue];
+	143 [label="this reduction
+ would cause a difficulty to
+ the tax calculation",color=blue];
+	293 [label="taxes paying
+ for state schools are necessary
+ to be compulsory for all
+ members of society no matter
+ where their children enroll in
+",color=green];
+	156 [label="the government would have
+ to recruit a greater workforce
+ in order to handle this
+ sophisticated issue",color=blue];
+	293 [label="taxes paying
+ for state schools are necessary
+ to be compulsory for all
+ members of society no matter
+ where their children enroll in
+",color=green];
+	176 [label="the government would also
+ pay the salary for the
+ excessive officials , and this
+ would result in insufficient investments
+ in other crucial public sectors
+ such as education or health
+ care",color=blue];
+	293 [label="taxes paying
+ for state schools are necessary
+ to be compulsory for all
+ members of society no matter
+ where their children enroll in
+",color=green];
+	218 [label="such tax
+ payments are unfair for them
+",color=green];
+	230 [label="it is irrational to require
+ them to pay for the
+ taxes they do not use
+",color=blue];
+	230 [label="it is irrational to require
+ them to pay for the
+ taxes they do not use
+",color=blue];
+	293 [label="taxes paying
+ for state schools are necessary
+ to be compulsory for all
+ members of society no matter
+ where their children enroll in
+",color=green];
+	248 [label="we also
+ pay for the public services
+ that we even do not
+ experience a chance to employ
+ like police or fire brigade
+",color=blue];
+	293 [label="taxes paying
+ for state schools are necessary
+ to be compulsory for all
+ members of society no matter
+ where their children enroll in
+",color=green];
+	271 [label="We certainly do not
+ hope for a reduction for
+ these sorts of taxes",color=blue];
+	293 [label="taxes paying
+ for state schools are necessary
+ to be compulsory for all
+ members of society no matter
+ where their children enroll in
+",color=green];
 }

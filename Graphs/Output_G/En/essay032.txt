@@ -2,10 +2,23 @@ digraph G {
 	41 -> 46;
 	156 -> 155;
 	325 -> 372;
-	41 [label="governmental and non-governmental organizations have",color=blue];
-	46 [label="been focus on being harmony and contribute to aid to poor countries",color=green];
+	41 [label="governmental and non-governmental organizations have
+",color=blue];
+	46 [label="been focus on being harmony
+ and contribute to aid to
+ poor countries",color=green];
 	155 [label="factors",color=green];
-	156 [label="such as light , electricity , load , highways , natural resources , technology and buildings for companies",color=blue];
-	325 [label="when america mortgage loan system went bad , several economies of european and asian countries fluctuated , even any countries had to be gotten international supports to block its bankrupt",color=blue];
-	372 [label="poor countries to make its economy strong and building humane concepts to people",color=green];
+	156 [label="such as light , electricity
+ , load , highways ,
+ natural resources , technology and
+ buildings for companies",color=blue];
+	325 [label="when america mortgage loan system went
+ bad , several economies of
+ european and asian countries fluctuated
+ , even any countries had
+ to be gotten international supports
+ to block its bankrupt",color=blue];
+	372 [label="poor countries to make
+ its economy strong and building
+ humane concepts to people",color=green];
 }

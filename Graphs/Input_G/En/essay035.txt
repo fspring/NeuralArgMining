@@ -13,32 +13,129 @@ digraph G {
 	202 -> 248;
 	209 -> 248;
 	227 -> 248;
-	21 [label="these various advertisements get people to buy products that are unnecessary and only look good on television",color=green];
-	47 [label="To boost their sales and win over customers , companies pour a great amount of money into advertising",color=blue];
-	47 [label="To boost their sales and win over customers , companies pour a great amount of money into advertising",color=blue];
-	71 [label="it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product",color=green];
-	71 [label="it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product",color=green];
-	101 [label="huge cooperation hire celebrities as the face of their product",color=blue];
-	101 [label="huge cooperation hire celebrities as the face of their product",color=blue];
-	248 [label="The power of advertising maybe over-rated , we can not deny that the final decision is on the hands of us consumers",color=green];
-	112 [label="By casting famous singers in their television advertisement , motorcycles or clothes for example , sales increase significantly",color=blue];
-	248 [label="The power of advertising maybe over-rated , we can not deny that the final decision is on the hands of us consumers",color=green];
-	131 [label="youngsters , as the target consumers , love celebrities",color=blue];
-	248 [label="The power of advertising maybe over-rated , we can not deny that the final decision is on the hands of us consumers",color=green];
-	142 [label="having these products shows their status",color=blue];
-	248 [label="The power of advertising maybe over-rated , we can not deny that the final decision is on the hands of us consumers",color=green];
-	149 [label="the quality obviously is not relatively important",color=blue];
-	248 [label="The power of advertising maybe over-rated , we can not deny that the final decision is on the hands of us consumers",color=green];
-	163 [label="advertisements can be falseful and exaggerated",color=blue];
-	175 [label="it plays and important role economically",color=green];
-	175 [label="it plays and important role economically",color=green];
-	182 [label="They introduce new products , and provide various choices , not to mention they are often visually enjoyable",color=blue];
-	182 [label="They introduce new products , and provide various choices , not to mention they are often visually enjoyable",color=blue];
-	248 [label="The power of advertising maybe over-rated , we can not deny that the final decision is on the hands of us consumers",color=green];
-	202 [label="they aim to grab your attention",color=blue];
-	248 [label="The power of advertising maybe over-rated , we can not deny that the final decision is on the hands of us consumers",color=green];
-	209 [label="Advertising also helps to keep prices at reasonable levels , creates a fair environment for commercial competition",color=blue];
-	248 [label="The power of advertising maybe over-rated , we can not deny that the final decision is on the hands of us consumers",color=green];
-	227 [label="Otherwise the market may be monopolistic , and the price as well as the choice will not be so selective",color=blue];
-	248 [label="The power of advertising maybe over-rated , we can not deny that the final decision is on the hands of us consumers",color=green];
+	21 [label="these various advertisements get
+ people to buy products that
+ are unnecessary and only look
+ good on television",color=green];
+	47 [label="To boost their
+ sales and win over customers
+ , companies pour a great
+ amount of money into advertising
+",color=blue];
+	47 [label="To boost their
+ sales and win over customers
+ , companies pour a great
+ amount of money into advertising
+",color=blue];
+	71 [label="it is not about
+ the function or quality of
+ the commodities themselves but really
+ the promotion of the good
+ feeling of possessing the product
+",color=green];
+	71 [label="it is not about
+ the function or quality of
+ the commodities themselves but really
+ the promotion of the good
+ feeling of possessing the product
+",color=green];
+	101 [label="huge cooperation hire celebrities
+ as the face of their
+ product",color=blue];
+	101 [label="huge cooperation hire celebrities
+ as the face of their
+ product",color=blue];
+	248 [label="The power
+ of advertising maybe over-rated ,
+ we can not deny that
+ the final decision is on
+ the hands of us consumers
+",color=green];
+	112 [label="By casting famous
+ singers in their television advertisement
+ , motorcycles or clothes for
+ example , sales increase significantly
+",color=blue];
+	248 [label="The power
+ of advertising maybe over-rated ,
+ we can not deny that
+ the final decision is on
+ the hands of us consumers
+",color=green];
+	131 [label="youngsters , as the
+ target consumers , love celebrities
+",color=blue];
+	248 [label="The power
+ of advertising maybe over-rated ,
+ we can not deny that
+ the final decision is on
+ the hands of us consumers
+",color=green];
+	142 [label="having these products
+ shows their status",color=blue];
+	248 [label="The power
+ of advertising maybe over-rated ,
+ we can not deny that
+ the final decision is on
+ the hands of us consumers
+",color=green];
+	149 [label="the quality obviously is not relatively
+ important",color=blue];
+	248 [label="The power
+ of advertising maybe over-rated ,
+ we can not deny that
+ the final decision is on
+ the hands of us consumers
+",color=green];
+	163 [label="advertisements can
+ be falseful and exaggerated",color=blue];
+	175 [label="it plays and important role
+ economically",color=green];
+	175 [label="it plays and important role
+ economically",color=green];
+	182 [label="They introduce new
+ products , and provide various
+ choices , not to mention
+ they are often visually enjoyable
+",color=blue];
+	182 [label="They introduce new
+ products , and provide various
+ choices , not to mention
+ they are often visually enjoyable
+",color=blue];
+	248 [label="The power
+ of advertising maybe over-rated ,
+ we can not deny that
+ the final decision is on
+ the hands of us consumers
+",color=green];
+	202 [label="they aim to
+ grab your attention",color=blue];
+	248 [label="The power
+ of advertising maybe over-rated ,
+ we can not deny that
+ the final decision is on
+ the hands of us consumers
+",color=green];
+	209 [label="Advertising also helps to keep prices
+ at reasonable levels , creates
+ a fair environment for commercial
+ competition",color=blue];
+	248 [label="The power
+ of advertising maybe over-rated ,
+ we can not deny that
+ the final decision is on
+ the hands of us consumers
+",color=green];
+	227 [label="Otherwise the market
+ may be monopolistic , and
+ the price as well as
+ the choice will not be
+ so selective",color=blue];
+	248 [label="The power
+ of advertising maybe over-rated ,
+ we can not deny that
+ the final decision is on
+ the hands of us consumers
+",color=green];
 }

@@ -10,26 +10,106 @@ digraph G {
 	246 -> 343;
 	274 -> 343;
 	291 -> 343;
-	75 [label="it is the best way for teenage children to take a part-time job to prepare their adult life",color=green];
-	101 [label="when children get a job , they are able to earn money by themselves , instead of getting pocket money from their parents",color=blue];
-	101 [label="when children get a job , they are able to earn money by themselves , instead of getting pocket money from their parents",color=blue];
-	127 [label="it is an oppertunity to learn how to deal with money",color=green];
-	127 [label="it is an oppertunity to learn how to deal with money",color=green];
-	196 [label="I finally realized that I should learn to make a plan before I spend my money , and that did influence me in my life now",color=blue];
-	145 [label="when I was 16 , I found a job during summer vacation and earned some money by own",color=blue];
-	343 [label="to encourage children taking a part-time job is a good choice for them to get prepared for adult life",color=green];
-	164 [label="At the beginning of the semester , I was told to buy a text book",color=blue];
-	343 [label="to encourage children taking a part-time job is a good choice for them to get prepared for adult life",color=green];
-	182 [label="I spent most of my salary hanging out with my friend",color=blue];
-	343 [label="to encourage children taking a part-time job is a good choice for them to get prepared for adult life",color=green];
-	196 [label="I finally realized that I should learn to make a plan before I spend my money , and that did influence me in my life now",color=blue];
-	343 [label="to encourage children taking a part-time job is a good choice for them to get prepared for adult life",color=green];
-	225 [label="by taking a part-time job , they certainly have to be responsible for anything they have done",color=green];
-	246 [label="if a student get a job in a company but he is frequently late for work , the company may reduce his payment or even fire him",color=blue];
-	246 [label="if a student get a job in a company but he is frequently late for work , the company may reduce his payment or even fire him",color=blue];
-	343 [label="to encourage children taking a part-time job is a good choice for them to get prepared for adult life",color=green];
-	274 [label="To compare with the school life , they might suffer only a small punishment at school",color=blue];
-	343 [label="to encourage children taking a part-time job is a good choice for them to get prepared for adult life",color=green];
-	291 [label="Under the circumstances , he will learn that he has to obey the rule and take responsibility for their work",color=blue];
-	343 [label="to encourage children taking a part-time job is a good choice for them to get prepared for adult life",color=green];
+	75 [label="it is the best way
+ for teenage children to take
+ a part-time job to prepare
+ their adult life",color=green];
+	101 [label="when children get a
+ job , they are able
+ to earn money by themselves
+ , instead of getting pocket
+ money from their parents",color=blue];
+	101 [label="when children get a
+ job , they are able
+ to earn money by themselves
+ , instead of getting pocket
+ money from their parents",color=blue];
+	127 [label="it is an
+ oppertunity to learn how to
+ deal with money",color=green];
+	127 [label="it is an
+ oppertunity to learn how to
+ deal with money",color=green];
+	196 [label="I finally realized that
+ I should learn to make
+ a plan before I spend
+ my money , and that
+ did influence me in my
+ life now",color=blue];
+	145 [label="when I was 16 ,
+ I found a job during
+ summer vacation and earned some
+ money by own",color=blue];
+	343 [label="to encourage
+ children taking a part-time job
+ is a good choice for
+ them to get prepared for
+ adult life",color=green];
+	164 [label="At the beginning of the semester
+ , I was told to
+ buy a text book",color=blue];
+	343 [label="to encourage
+ children taking a part-time job
+ is a good choice for
+ them to get prepared for
+ adult life",color=green];
+	182 [label="I spent most
+ of my salary hanging out
+ with my friend",color=blue];
+	343 [label="to encourage
+ children taking a part-time job
+ is a good choice for
+ them to get prepared for
+ adult life",color=green];
+	196 [label="I finally realized that
+ I should learn to make
+ a plan before I spend
+ my money , and that
+ did influence me in my
+ life now",color=blue];
+	343 [label="to encourage
+ children taking a part-time job
+ is a good choice for
+ them to get prepared for
+ adult life",color=green];
+	225 [label="by taking a part-time job
+ , they certainly have to
+ be responsible for anything they
+ have done",color=green];
+	246 [label="if a student get
+ a job in a company
+ but he is frequently late
+ for work , the company
+ may reduce his payment or
+ even fire him",color=blue];
+	246 [label="if a student get
+ a job in a company
+ but he is frequently late
+ for work , the company
+ may reduce his payment or
+ even fire him",color=blue];
+	343 [label="to encourage
+ children taking a part-time job
+ is a good choice for
+ them to get prepared for
+ adult life",color=green];
+	274 [label="To compare with the school life
+ , they might suffer only
+ a small punishment at school
+",color=blue];
+	343 [label="to encourage
+ children taking a part-time job
+ is a good choice for
+ them to get prepared for
+ adult life",color=green];
+	291 [label="Under the circumstances ,
+ he will learn that he
+ has to obey the rule
+ and take responsibility for their
+ work",color=blue];
+	343 [label="to encourage
+ children taking a part-time job
+ is a good choice for
+ them to get prepared for
+ adult life",color=green];
 }

@@ -5,13 +5,37 @@ digraph G {
 	156 -> 203;
 	186 -> 235;
 	118 [label="nature such",color=green];
-	139 [label="dwelling is one of the most important human needs after food which is undeniable",color=blue];
-	123 [label="flood and wild animals",color=green];
-	139 [label="dwelling is one of the most important human needs after food which is undeniable",color=blue];
-	139 [label="dwelling is one of the most important human needs after food which is undeniable",color=blue];
-	203 [label="the population of endangered animals are less than people's population , so they do not need",color=green];
-	156 [label="human need some crucial things to continue their life , and most of them are industrial such as medicine",color=blue];
-	203 [label="the population of endangered animals are less than people's population , so they do not need",color=green];
-	186 [label="todays life has some difficulty which become comfortable with the help of industry",color=blue];
-	235 [label="housing and industry because of increasing population are more important than saving land for endangered animals",color=green];
+	139 [label="dwelling is
+ one of the most important
+ human needs after food which
+ is undeniable",color=blue];
+	123 [label="flood and wild
+ animals",color=green];
+	139 [label="dwelling is
+ one of the most important
+ human needs after food which
+ is undeniable",color=blue];
+	139 [label="dwelling is
+ one of the most important
+ human needs after food which
+ is undeniable",color=blue];
+	203 [label="the population of
+ endangered animals are less than
+ people's population , so they
+ do not need",color=green];
+	156 [label="human need some crucial things
+ to continue their life ,
+ and most of them are
+ industrial such as medicine",color=blue];
+	203 [label="the population of
+ endangered animals are less than
+ people's population , so they
+ do not need",color=green];
+	186 [label="todays life has some difficulty
+ which become comfortable with the
+ help of industry",color=blue];
+	235 [label="housing and industry because of increasing
+ population are more important than
+ saving land for endangered animals
+",color=green];
 }

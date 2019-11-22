@@ -10,26 +10,99 @@ digraph G {
 	190 -> 268;
 	203 -> 256;
 	224 -> 256;
-	29 [label="I personally prefer studying in a group due to these noticeable features , getting help from other students , improving my attitude for learning , managing my time in an effective way",color=green];
-	83 [label="They can work together for understanding the complicated aspect of a course",color=blue];
-	62 [label="When pupils make a group for studying , all member of group have the same chance to help each other",color=green];
-	83 [label="They can work together for understanding the complicated aspect of a course",color=blue];
-	83 [label="They can work together for understanding the complicated aspect of a course",color=blue];
-	268 [label="I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity",color=green];
-	99 [label="when a group faces with complex math problem , they can share their opinions to solve it",color=blue];
-	268 [label="I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity",color=green];
-	120 [label="such a remarkable effect has incorporation that all students can improve their weak points in a group",color=blue];
-	268 [label="I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity",color=green];
-	138 [label="Increasing the motivation and competence spirit are another benefit of group-studying",color=green];
-	150 [label="In a group of student , the best of those always encourages others to study harder",color=blue];
-	150 [label="In a group of student , the best of those always encourages others to study harder",color=blue];
-	268 [label="I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity",color=green];
-	169 [label="pupils often have a tangible competence in order that they can get the highest grade in a group",color=blue];
-	268 [label="I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity",color=green];
-	190 [label="better learning is one of noticeable result of these competences and encouragements",color=blue];
-	268 [label="I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity",color=green];
-	203 [label="When the students study with their friends , they should have schedule to use their time in an effective manner",color=blue];
-	256 [label="time management is another brilliant benefit of group-studying",color=green];
-	224 [label="Group-studying causes some kind of internal obligation to manage the time , inasmuch as we always care about other people and we do not want to waste their time",color=blue];
-	256 [label="time management is another brilliant benefit of group-studying",color=green];
+	29 [label="I personally prefer studying in a
+ group due to these noticeable
+ features , getting help from
+ other students , improving my
+ attitude for learning , managing
+ my time in an effective
+ way",color=green];
+	83 [label="They can
+ work together for understanding the
+ complicated aspect of a course
+",color=blue];
+	62 [label="When pupils make
+ a group for studying ,
+ all member of group have
+ the same chance to help
+ each other",color=green];
+	83 [label="They can
+ work together for understanding the
+ complicated aspect of a course
+",color=blue];
+	83 [label="They can
+ work together for understanding the
+ complicated aspect of a course
+",color=blue];
+	268 [label="I strongly
+ prefer studying in a group
+ of my friends because of
+ some important opportunities gaining with
+ this activity",color=green];
+	99 [label="when a group faces with complex
+ math problem , they can
+ share their opinions to solve
+ it",color=blue];
+	268 [label="I strongly
+ prefer studying in a group
+ of my friends because of
+ some important opportunities gaining with
+ this activity",color=green];
+	120 [label="such a remarkable effect has
+ incorporation that all students can
+ improve their weak points in
+ a group",color=blue];
+	268 [label="I strongly
+ prefer studying in a group
+ of my friends because of
+ some important opportunities gaining with
+ this activity",color=green];
+	138 [label="Increasing the
+ motivation and competence spirit are
+ another benefit of group-studying",color=green];
+	150 [label="In a group of student
+ , the best of those
+ always encourages others to study
+ harder",color=blue];
+	150 [label="In a group of student
+ , the best of those
+ always encourages others to study
+ harder",color=blue];
+	268 [label="I strongly
+ prefer studying in a group
+ of my friends because of
+ some important opportunities gaining with
+ this activity",color=green];
+	169 [label="pupils often have a tangible competence
+ in order that they can
+ get the highest grade in
+ a group",color=blue];
+	268 [label="I strongly
+ prefer studying in a group
+ of my friends because of
+ some important opportunities gaining with
+ this activity",color=green];
+	190 [label="better learning is one of
+ noticeable result of these competences
+ and encouragements",color=blue];
+	268 [label="I strongly
+ prefer studying in a group
+ of my friends because of
+ some important opportunities gaining with
+ this activity",color=green];
+	203 [label="When the
+ students study with their friends
+ , they should have schedule
+ to use their time in
+ an effective manner",color=blue];
+	256 [label="time management is another
+ brilliant benefit of group-studying",color=green];
+	224 [label="Group-studying causes some kind of internal
+ obligation to manage the time
+ , inasmuch as we always
+ care about other people and
+ we do not want to
+ waste their time",color=blue];
+	256 [label="time management is another
+ brilliant benefit of group-studying",color=green];
 }

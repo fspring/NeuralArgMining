@@ -1,8 +1,28 @@
 digraph G {
 	3 -> 41;
 	14 -> 41;
-	3 [label="para os governantes europeus tudo parece normal",color=blue];
-	41 [label="os valores da solidariedade e da democracia , numa Europa líder mundial dos direitos humanos , vão sendo substituídos por novos conceitos pro fascistas levando á desumanização dos Estados e à vergonha dos povos",color=green];
-	14 [label="os especuladores financeiros agradecem e vão alegremente enriquecendo , enquanto que as economias vão estagnando ou , quanto muito , crescendo devagarinho …",color=blue];
-	41 [label="os valores da solidariedade e da democracia , numa Europa líder mundial dos direitos humanos , vão sendo substituídos por novos conceitos pro fascistas levando á desumanização dos Estados e à vergonha dos povos",color=green];
+	3 [label="para os
+ governantes europeus tudo parece normal
+",color=blue];
+	41 [label="os valores da solidariedade
+ e da democracia , numa
+ Europa líder mundial dos direitos
+ humanos , vão sendo substituídos
+ por novos conceitos pro fascistas
+ levando á desumanização dos Estados
+ e à vergonha dos povos
+",color=green];
+	14 [label="os especuladores financeiros agradecem e vão
+ alegremente enriquecendo , enquanto que
+ as economias vão estagnando ou
+ , quanto muito , crescendo
+ devagarinho …",color=blue];
+	41 [label="os valores da solidariedade
+ e da democracia , numa
+ Europa líder mundial dos direitos
+ humanos , vão sendo substituídos
+ por novos conceitos pro fascistas
+ levando á desumanização dos Estados
+ e à vergonha dos povos
+",color=green];
 }

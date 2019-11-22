@@ -3,9 +3,21 @@ digraph G {
 	304 -> 367;
 	316 -> 354;
 	85 [label="be",color=green];
-	94 [label="a person with good manner will give others a fine personal impression",color=blue];
-	304 [label="and a degree of social civilization depend on its people's qualities",color=blue];
-	367 [label="people should be polite to others in a such busy and crowded world",color=green];
-	316 [label="in order to create a better living environment for ourselves and our offsprings , our behaviors must be asked with politeness and good manners",color=blue];
-	354 [label="the reducing of criminal rate",color=green];
+	94 [label="a person
+ with good manner will give
+ others a fine personal impression
+",color=blue];
+	304 [label="and a
+ degree of social civilization depend
+ on its people's qualities",color=blue];
+	367 [label="people should be polite
+ to others in a such
+ busy and crowded world",color=green];
+	316 [label="in order to create a
+ better living environment for ourselves
+ and our offsprings , our
+ behaviors must be asked with
+ politeness and good manners",color=blue];
+	354 [label="the reducing
+ of criminal rate",color=green];
 }

@@ -2,10 +2,18 @@ digraph G {
 	68 -> 61;
 	112 -> 282;
 	315 -> 314;
-	61 [label="television has useful and educational programs",color=green];
-	68 [label="not only the up-to-date news , but also there are many programs which has educational purposes",color=blue];
-	112 [label="it is targeted for children to teenager",color=blue];
-	282 [label="of course , the television can have",color=green];
+	61 [label="television has useful and educational
+ programs",color=green];
+	68 [label="not only the
+ up-to-date news , but also
+ there are many programs which
+ has educational purposes",color=blue];
+	112 [label="it is targeted for
+ children to teenager",color=blue];
+	282 [label="of course , the
+ television can have",color=green];
 	314 [label="it",color=green];
-	315 [label="has useful and educational programs and quite helpful to relieve stresses for children",color=blue];
+	315 [label="has useful and educational programs and
+ quite helpful to relieve stresses
+ for children",color=blue];
 }

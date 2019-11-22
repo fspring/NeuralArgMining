@@ -1,5 +1,12 @@
 digraph G {
 	220 -> 211;
 	211 [label="advertising",color=green];
-	220 [label="a huge amount of different advertisements could be sent automatically by a system to personal phones or email addresses , this is generally known as spam , and causes discomfort or even annoyance to many people",color=blue];
+	220 [label="a huge amount of different advertisements
+ could be sent automatically by
+ a system to personal phones
+ or email addresses , this
+ is generally known as spam
+ , and causes discomfort or
+ even annoyance to many people
+",color=blue];
 }

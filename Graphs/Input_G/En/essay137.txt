@@ -9,24 +9,83 @@ digraph G {
 	175 -> 301;
 	204 -> 301;
 	231 -> 301;
-	51 [label="they are important somehow , but not essential",color=green];
-	77 [label="The main purpose of such competitions is to enjoy and share emotions between supporters though their favorite team",color=blue];
-	66 [label="world sport events provide positive waves for number of people",color=green];
-	77 [label="The main purpose of such competitions is to enjoy and share emotions between supporters though their favorite team",color=blue];
-	77 [label="The main purpose of such competitions is to enjoy and share emotions between supporters though their favorite team",color=blue];
-	301 [label="These meetings are in none case here to interact with international affairs",color=green];
-	96 [label="These emotions are shared locally in our village or city , nationally in our own country but even internationally too",color=blue];
-	301 [label="These meetings are in none case here to interact with international affairs",color=green];
-	118 [label="these events gather people and their nationalist pride feeling is increased",color=blue];
-	301 [label="These meetings are in none case here to interact with international affairs",color=green];
-	133 [label="the football world cup taking place every four years is a very followed event during which everyone is having fun",color=blue];
-	301 [label="These meetings are in none case here to interact with international affairs",color=green];
-	156 [label="these sports events are not essential in other issues such as politics or other international affairs",color=green];
-	175 [label="if the general atmosphere during the show is peaceful and fraternal , the reality is different",color=blue];
-	175 [label="if the general atmosphere during the show is peaceful and fraternal , the reality is different",color=blue];
-	301 [label="These meetings are in none case here to interact with international affairs",color=green];
-	204 [label="After the Olympics games are finished , everything came back to normal and all the game competition is forgotten by the majority",color=blue];
-	301 [label="These meetings are in none case here to interact with international affairs",color=green];
-	231 [label="recently , Putin was pleased to open the last winter Olympic games and gather international countries , but actually it has been just facade and Putin didn't listen international warning after he conquered the Crimea",color=blue];
-	301 [label="These meetings are in none case here to interact with international affairs",color=green];
+	51 [label="they are important somehow
+ , but not essential",color=green];
+	77 [label="The main purpose
+ of such competitions is to
+ enjoy and share emotions between
+ supporters though their favorite team
+",color=blue];
+	66 [label="world sport events provide
+ positive waves for number of
+ people",color=green];
+	77 [label="The main purpose
+ of such competitions is to
+ enjoy and share emotions between
+ supporters though their favorite team
+",color=blue];
+	77 [label="The main purpose
+ of such competitions is to
+ enjoy and share emotions between
+ supporters though their favorite team
+",color=blue];
+	301 [label="These meetings are in
+ none case here to interact
+ with international affairs",color=green];
+	96 [label="These emotions are shared
+ locally in our village or
+ city , nationally in our
+ own country but even internationally
+ too",color=blue];
+	301 [label="These meetings are in
+ none case here to interact
+ with international affairs",color=green];
+	118 [label="these events
+ gather people and their nationalist
+ pride feeling is increased",color=blue];
+	301 [label="These meetings are in
+ none case here to interact
+ with international affairs",color=green];
+	133 [label="the football
+ world cup taking place every
+ four years is a very
+ followed event during which everyone
+ is having fun",color=blue];
+	301 [label="These meetings are in
+ none case here to interact
+ with international affairs",color=green];
+	156 [label="these sports events are
+ not essential in other issues
+ such as politics or other
+ international affairs",color=green];
+	175 [label="if the general atmosphere during
+ the show is peaceful and
+ fraternal , the reality is
+ different",color=blue];
+	175 [label="if the general atmosphere during
+ the show is peaceful and
+ fraternal , the reality is
+ different",color=blue];
+	301 [label="These meetings are in
+ none case here to interact
+ with international affairs",color=green];
+	204 [label="After the Olympics games are finished
+ , everything came back to
+ normal and all the game
+ competition is forgotten by the
+ majority",color=blue];
+	301 [label="These meetings are in
+ none case here to interact
+ with international affairs",color=green];
+	231 [label="recently , Putin was
+ pleased to open the last
+ winter Olympic games and gather
+ international countries , but actually
+ it has been just facade
+ and Putin didn't listen international
+ warning after he conquered the
+ Crimea",color=blue];
+	301 [label="These meetings are in
+ none case here to interact
+ with international affairs",color=green];
 }

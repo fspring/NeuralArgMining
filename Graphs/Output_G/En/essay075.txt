@@ -4,14 +4,46 @@ digraph G {
 	78 -> 225;
 	124 -> 105;
 	189 -> 207;
-	47 [label="to make people better",color=blue];
-	207 [label="art could play an active role in improving the quality of people's lives",color=green];
-	53 [label="it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens",color=blue];
-	225 [label="governments should attach heavier weight to other social issues such as education and housing needs because those are the most essential ways enable to make people a decent life",color=green];
-	78 [label="this is simply because knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system",color=blue];
-	225 [label="governments should attach heavier weight to other social issues such as education and housing needs because those are the most essential ways enable to make people a decent life",color=green];
+	47 [label="to make people better
+",color=blue];
+	207 [label="art could play an
+ active role in improving the
+ quality of people's lives",color=green];
+	53 [label="it is more
+ urgent for governments to commit
+ money to some fundamental help
+ such as setting more scholarships
+ in education section for all
+ citizens",color=blue];
+	225 [label="governments should attach heavier weight to
+ other social issues such as
+ education and housing needs because
+ those are the most essential
+ ways enable to make people
+ a decent life",color=green];
+	78 [label="this is simply
+ because knowledge and wisdom is
+ the guarantee of the enhancement
+ of the quality of people's
+ lives for a well-rounded social
+ system",color=blue];
+	225 [label="governments should attach heavier weight to
+ other social issues such as
+ education and housing needs because
+ those are the most essential
+ ways enable to make people
+ a decent life",color=green];
 	105 [label="art",color=green];
-	124 [label="it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work",color=blue];
-	189 [label="by comparison to these issues , the pursuit of art seems unimportant at all",color=blue];
-	207 [label="art could play an active role in improving the quality of people's lives",color=green];
+	124 [label="it could
+ bring release one's heavy burden
+ of study pressure and refresh
+ human bodies through a hard
+ day from work",color=blue];
+	189 [label="by comparison
+ to these issues , the
+ pursuit of art seems unimportant
+ at all",color=blue];
+	207 [label="art could play an
+ active role in improving the
+ quality of people's lives",color=green];
 }

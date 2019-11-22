@@ -13,32 +13,102 @@ digraph G {
 	344 -> 465;
 	390 -> 465;
 	412 -> 465;
-	88 [label="there will be a decrease in cars use in the future",color=green];
-	113 [label="the public transportation has improved",color=blue];
-	113 [label="the public transportation has improved",color=blue];
-	119 [label="it is much convenience to take a subway or a bus",color=green];
-	119 [label="it is much convenience to take a subway or a bus",color=green];
-	159 [label="with the stations increased people are willing to take a public transportation than drive on their own",color=blue];
-	134 [label="I live in a city which always have a jam in the morning and doesn't have enough parking lots for the cars",color=blue];
-	465 [label="the car use will definitely decrease in twenty years",color=green];
-	159 [label="with the stations increased people are willing to take a public transportation than drive on their own",color=blue];
-	465 [label="the car use will definitely decrease in twenty years",color=green];
-	179 [label="a driving car can make a lot of different pollutions to the world",color=blue];
-	195 [label="with the risen of the aware to the environment , people will think more about whether to drive on their own or not",color=green];
-	195 [label="with the risen of the aware to the environment , people will think more about whether to drive on their own or not",color=green];
-	222 [label="instead of driving each one's car , if we put forty people in a bus , it will solve the traffic jam by decrease the cars use and also reduce the air pollution for the city",color=blue];
-	222 [label="instead of driving each one's car , if we put forty people in a bus , it will solve the traffic jam by decrease the cars use and also reduce the air pollution for the city",color=blue];
-	465 [label="the car use will definitely decrease in twenty years",color=green];
-	305 [label="a personal car uses is in need",color=green];
-	313 [label="a public transportation can't meet every place",color=blue];
-	313 [label="a public transportation can't meet every place",color=blue];
-	465 [label="the car use will definitely decrease in twenty years",color=green];
-	324 [label="it may be true when you want to go to some countryside or some other inconvenience places",color=blue];
-	465 [label="the car use will definitely decrease in twenty years",color=green];
-	344 [label="no matter you are going to somewhere for a trip or you just simply live in some suburbs and so on , it always have some other ways that you can do , you can ride a bike , or even walk on your feet",color=blue];
-	465 [label="the car use will definitely decrease in twenty years",color=green];
-	390 [label="It not only helps you to reduce the car use , but also good to your health",color=blue];
-	465 [label="the car use will definitely decrease in twenty years",color=green];
-	412 [label="this won't be a problem at all",color=blue];
-	465 [label="the car use will definitely decrease in twenty years",color=green];
+	88 [label="there will
+ be a decrease in cars
+ use in the future",color=green];
+	113 [label="the public
+ transportation has improved",color=blue];
+	113 [label="the public
+ transportation has improved",color=blue];
+	119 [label="it is much convenience to take
+ a subway or a bus
+",color=green];
+	119 [label="it is much convenience to take
+ a subway or a bus
+",color=green];
+	159 [label="with the stations increased people are
+ willing to take a public
+ transportation than drive on their
+ own",color=blue];
+	134 [label="I live in a city which
+ always have a jam in
+ the morning and doesn't have
+ enough parking lots for the
+ cars",color=blue];
+	465 [label="the car use will definitely
+ decrease in twenty years",color=green];
+	159 [label="with the stations increased people are
+ willing to take a public
+ transportation than drive on their
+ own",color=blue];
+	465 [label="the car use will definitely
+ decrease in twenty years",color=green];
+	179 [label="a driving car can make a
+ lot of different pollutions to
+ the world",color=blue];
+	195 [label="with the risen of the
+ aware to the environment ,
+ people will think more about
+ whether to drive on their
+ own or not",color=green];
+	195 [label="with the risen of the
+ aware to the environment ,
+ people will think more about
+ whether to drive on their
+ own or not",color=green];
+	222 [label="instead of driving
+ each one's car , if
+ we put forty people in
+ a bus , it will
+ solve the traffic jam by
+ decrease the cars use and
+ also reduce the air pollution
+ for the city",color=blue];
+	222 [label="instead of driving
+ each one's car , if
+ we put forty people in
+ a bus , it will
+ solve the traffic jam by
+ decrease the cars use and
+ also reduce the air pollution
+ for the city",color=blue];
+	465 [label="the car use will definitely
+ decrease in twenty years",color=green];
+	305 [label="a personal car uses is
+ in need",color=green];
+	313 [label="a public
+ transportation can't meet every place
+",color=blue];
+	313 [label="a public
+ transportation can't meet every place
+",color=blue];
+	465 [label="the car use will definitely
+ decrease in twenty years",color=green];
+	324 [label="it may be true when you
+ want to go to some
+ countryside or some other inconvenience
+ places",color=blue];
+	465 [label="the car use will definitely
+ decrease in twenty years",color=green];
+	344 [label="no matter you are going to
+ somewhere for a trip or
+ you just simply live in
+ some suburbs and so on
+ , it always have some
+ other ways that you can
+ do , you can ride
+ a bike , or even
+ walk on your feet",color=blue];
+	465 [label="the car use will definitely
+ decrease in twenty years",color=green];
+	390 [label="It not only helps you
+ to reduce the car use
+ , but also good to
+ your health",color=blue];
+	465 [label="the car use will definitely
+ decrease in twenty years",color=green];
+	412 [label="this won't be
+ a problem at all",color=blue];
+	465 [label="the car use will definitely
+ decrease in twenty years",color=green];
 }

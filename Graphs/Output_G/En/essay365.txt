@@ -10,17 +10,52 @@ digraph G {
 	21 [label="aroused",color=blue];
 	83 [label="key factor",color=green];
 	53 [label="traffic gridlock",color=green];
-	95 [label="buses and trains have been phased in the streets for quite a long time and have proven themselves the best candidates among all options",color=blue];
+	95 [label="buses and trains have been phased
+ in the streets for quite
+ a long time and have
+ proven themselves the best candidates
+ among all options",color=blue];
 	61 [label="profoundly",color=green];
-	95 [label="buses and trains have been phased in the streets for quite a long time and have proven themselves the best candidates among all options",color=blue];
-	63 [label="for there are still two viable solutions",color=green];
-	95 [label="buses and trains have been phased in the streets for quite a long time and have proven themselves the best candidates among all options",color=blue];
-	79 [label="public transport is",color=green];
-	120 [label="apparently , a bus can carry no less than 30 people , while a train can carry as much as nine or even ten times of that number",color=blue];
+	95 [label="buses and trains have been phased
+ in the streets for quite
+ a long time and have
+ proven themselves the best candidates
+ among all options",color=blue];
+	63 [label="for there are
+ still two viable solutions",color=green];
+	95 [label="buses and trains have been phased
+ in the streets for quite
+ a long time and have
+ proven themselves the best candidates
+ among all options",color=blue];
+	79 [label="public transport
+ is",color=green];
+	120 [label="apparently , a bus can carry
+ no less than 30 people
+ , while a train can
+ carry as much as nine
+ or even ten times of
+ that number",color=blue];
 	83 [label="key factor",color=green];
-	120 [label="apparently , a bus can carry no less than 30 people , while a train can carry as much as nine or even ten times of that number",color=blue];
+	120 [label="apparently , a bus can carry
+ no less than 30 people
+ , while a train can
+ carry as much as nine
+ or even ten times of
+ that number",color=blue];
 	86 [label="minimize",color=green];
-	120 [label="apparently , a bus can carry no less than 30 people , while a train can carry as much as nine or even ten times of that number",color=blue];
-	264 [label="the city itself will be absolved of enduring the influx of immigrants as well as unemployed people",color=blue];
-	285 [label="city planner can still opt for non-personal vehicle and the exploitation of the suburb areas",color=green];
+	120 [label="apparently , a bus can carry
+ no less than 30 people
+ , while a train can
+ carry as much as nine
+ or even ten times of
+ that number",color=blue];
+	264 [label="the city
+ itself will be absolved of
+ enduring the influx of immigrants
+ as well as unemployed people
+",color=blue];
+	285 [label="city planner can still opt for
+ non-personal vehicle and the exploitation
+ of the suburb areas",color=green];
 }

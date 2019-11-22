@@ -12,30 +12,114 @@ digraph G {
 	212 -> 288;
 	242 -> 288;
 	254 -> 288;
-	6 [label="there were many remarkable achievements in technology fields that have numbers of beneficial effects on the whole society or individuals",color=green];
-	53 [label="Scientists and engineers have invented many novel products and tools , which play an important role in economic activity",color=blue];
-	38 [label="the development of technology can prompt economic growth and the improvement of living standards",color=green];
-	53 [label="Scientists and engineers have invented many novel products and tools , which play an important role in economic activity",color=blue];
-	53 [label="Scientists and engineers have invented many novel products and tools , which play an important role in economic activity",color=blue];
-	288 [label="it still provides us with much more advantages",color=green];
-	73 [label="Because of the technology of internet and air transportation , businessmen are able to handle plenty of international trade and financial transactions",color=blue];
-	288 [label="it still provides us with much more advantages",color=green];
-	96 [label="This also helps many countries to more efficiently export their products to the world and increase their revenue",color=blue];
-	288 [label="it still provides us with much more advantages",color=green];
-	117 [label="advanced technology enables people to enhance their living-level and health care standard",color=green];
-	130 [label="With the improvement of medical technology , it is obvious that the life expectancy in many countries has been significantly longer than before , and many serious diseases are under control",color=blue];
-	130 [label="With the improvement of medical technology , it is obvious that the life expectancy in many countries has been significantly longer than before , and many serious diseases are under control",color=blue];
-	288 [label="it still provides us with much more advantages",color=green];
-	162 [label="Digital entertainment technology allows people to enjoy playing interactive video games and watching three-dimensional movies",color=blue];
-	288 [label="it still provides us with much more advantages",color=green];
-	182 [label="we could get more happiness from technology",color=blue];
-	288 [label="it still provides us with much more advantages",color=green];
-	195 [label="the development of technology is likely to bring some negative effects on the environment and society",color=green];
-	212 [label="People utilize architecture technology to construct buildings to expand urban areas , and fuel companies apply drilling technology to extract a great amount of fossil oil in natural regions",color=blue];
-	212 [label="People utilize architecture technology to construct buildings to expand urban areas , and fuel companies apply drilling technology to extract a great amount of fossil oil in natural regions",color=blue];
-	288 [label="it still provides us with much more advantages",color=green];
-	242 [label="This would pose a large threat to the ecology and environment",color=blue];
-	288 [label="it still provides us with much more advantages",color=green];
-	254 [label="Vehicle technology enables many people to drive private cars , and emission of exhaust gas could lead to air pollution in large cities",color=blue];
-	288 [label="it still provides us with much more advantages",color=green];
+	6 [label="there were many remarkable
+ achievements in technology fields that
+ have numbers of beneficial effects
+ on the whole society or
+ individuals",color=green];
+	53 [label="Scientists and
+ engineers have invented many novel
+ products and tools , which
+ play an important role in
+ economic activity",color=blue];
+	38 [label="the development
+ of technology can prompt economic
+ growth and the improvement of
+ living standards",color=green];
+	53 [label="Scientists and
+ engineers have invented many novel
+ products and tools , which
+ play an important role in
+ economic activity",color=blue];
+	53 [label="Scientists and
+ engineers have invented many novel
+ products and tools , which
+ play an important role in
+ economic activity",color=blue];
+	288 [label="it still
+ provides us with much more
+ advantages",color=green];
+	73 [label="Because of
+ the technology of internet and
+ air transportation , businessmen are
+ able to handle plenty of
+ international trade and financial transactions
+",color=blue];
+	288 [label="it still
+ provides us with much more
+ advantages",color=green];
+	96 [label="This also helps many
+ countries to more efficiently export
+ their products to the world
+ and increase their revenue",color=blue];
+	288 [label="it still
+ provides us with much more
+ advantages",color=green];
+	117 [label="advanced technology enables
+ people to enhance their living-level
+ and health care standard",color=green];
+	130 [label="With the improvement of medical
+ technology , it is obvious
+ that the life expectancy in
+ many countries has been significantly
+ longer than before , and
+ many serious diseases are under
+ control",color=blue];
+	130 [label="With the improvement of medical
+ technology , it is obvious
+ that the life expectancy in
+ many countries has been significantly
+ longer than before , and
+ many serious diseases are under
+ control",color=blue];
+	288 [label="it still
+ provides us with much more
+ advantages",color=green];
+	162 [label="Digital entertainment technology
+ allows people to enjoy playing
+ interactive video games and watching
+ three-dimensional movies",color=blue];
+	288 [label="it still
+ provides us with much more
+ advantages",color=green];
+	182 [label="we could get
+ more happiness from technology",color=blue];
+	288 [label="it still
+ provides us with much more
+ advantages",color=green];
+	195 [label="the development of technology is
+ likely to bring some negative
+ effects on the environment and
+ society",color=green];
+	212 [label="People utilize architecture
+ technology to construct buildings to
+ expand urban areas , and
+ fuel companies apply drilling technology
+ to extract a great amount
+ of fossil oil in natural
+ regions",color=blue];
+	212 [label="People utilize architecture
+ technology to construct buildings to
+ expand urban areas , and
+ fuel companies apply drilling technology
+ to extract a great amount
+ of fossil oil in natural
+ regions",color=blue];
+	288 [label="it still
+ provides us with much more
+ advantages",color=green];
+	242 [label="This would pose
+ a large threat to the
+ ecology and environment",color=blue];
+	288 [label="it still
+ provides us with much more
+ advantages",color=green];
+	254 [label="Vehicle technology enables many people to
+ drive private cars , and
+ emission of exhaust gas could
+ lead to air pollution in
+ large cities",color=blue];
+	288 [label="it still
+ provides us with much more
+ advantages",color=green];
 }

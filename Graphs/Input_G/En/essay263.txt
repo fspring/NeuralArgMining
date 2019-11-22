@@ -9,24 +9,78 @@ digraph G {
 	309 -> 479;
 	408 -> 375;
 	408 -> 479;
-	83 [label="having a large scale of different knowledge is the key to success",color=green];
-	168 [label="While some of the problems are the Engineering department's part , I went there and discussed with the colleagues there",color=blue];
-	107 [label="when one knows different region's works , it will help one to get a friend much easier",color=green];
-	168 [label="While some of the problems are the Engineering department's part , I went there and discussed with the colleagues there",color=blue];
-	168 [label="While some of the problems are the Engineering department's part , I went there and discussed with the colleagues there",color=blue];
-	479 [label="a broad knowledge of different subjects is really important",color=green];
-	190 [label="I have studied some of the engineering courses",color=blue];
-	479 [label="a broad knowledge of different subjects is really important",color=green];
-	199 [label="It is much easier for us to contact than any other person in my department , which made me popular there , and much easier to get the help that I need",color=blue];
-	479 [label="a broad knowledge of different subjects is really important",color=green];
-	234 [label="when you want to translate your major , it is important to know some of the things about different fields",color=green];
-	289 [label="Thanks to Jeff's hard working during his leisure time , he learned a lot about the history of art",color=blue];
-	289 [label="Thanks to Jeff's hard working during his leisure time , he learned a lot about the history of art",color=blue];
-	479 [label="a broad knowledge of different subjects is really important",color=green];
-	309 [label="Things ended up that he joined in a great team , while his friend who only knew financing issues can do nothing but worked in a bank",color=blue];
-	479 [label="a broad knowledge of different subjects is really important",color=green];
-	375 [label="if one can’t success one’s own major , what else things he can do in different filed",color=green];
-	408 [label="what if one finally find out him or her has the talent in other filed",color=blue];
-	408 [label="what if one finally find out him or her has the talent in other filed",color=blue];
-	479 [label="a broad knowledge of different subjects is really important",color=green];
+	83 [label="having a
+ large scale of different knowledge
+ is the key to success
+",color=green];
+	168 [label="While some
+ of the problems are the
+ Engineering department's part , I
+ went there and discussed with
+ the colleagues there",color=blue];
+	107 [label="when one knows
+ different region's works , it
+ will help one to get
+ a friend much easier",color=green];
+	168 [label="While some
+ of the problems are the
+ Engineering department's part , I
+ went there and discussed with
+ the colleagues there",color=blue];
+	168 [label="While some
+ of the problems are the
+ Engineering department's part , I
+ went there and discussed with
+ the colleagues there",color=blue];
+	479 [label="a broad knowledge of different subjects
+ is really important",color=green];
+	190 [label="I have studied some of
+ the engineering courses",color=blue];
+	479 [label="a broad knowledge of different subjects
+ is really important",color=green];
+	199 [label="It is much easier for us
+ to contact than any other
+ person in my department ,
+ which made me popular there
+ , and much easier to
+ get the help that I
+ need",color=blue];
+	479 [label="a broad knowledge of different subjects
+ is really important",color=green];
+	234 [label="when you want to translate your
+ major , it is important
+ to know some of the
+ things about different fields",color=green];
+	289 [label="Thanks to Jeff's hard working during
+ his leisure time , he
+ learned a lot about the
+ history of art",color=blue];
+	289 [label="Thanks to Jeff's hard working during
+ his leisure time , he
+ learned a lot about the
+ history of art",color=blue];
+	479 [label="a broad knowledge of different subjects
+ is really important",color=green];
+	309 [label="Things ended up that he joined
+ in a great team ,
+ while his friend who only
+ knew financing issues can do
+ nothing but worked in a
+ bank",color=blue];
+	479 [label="a broad knowledge of different subjects
+ is really important",color=green];
+	375 [label="if one can’t success one’s
+ own major , what else
+ things he can do in
+ different filed",color=green];
+	408 [label="what if
+ one finally find out him
+ or her has the talent
+ in other filed",color=blue];
+	408 [label="what if
+ one finally find out him
+ or her has the talent
+ in other filed",color=blue];
+	479 [label="a broad knowledge of different subjects
+ is really important",color=green];
 }

@@ -1,5 +1,9 @@
 digraph G {
 	76 -> 91;
-	76 [label="Segundo o tenente-coronel Silva Ferreira , havia uma queixa recente apresentada na GNR ,",color=blue];
-	91 [label="nada apontava para um desfecho destes",color=green];
+	76 [label="Segundo o tenente-coronel Silva
+ Ferreira , havia uma queixa
+ recente apresentada na GNR ,
+",color=blue];
+	91 [label="nada apontava para um
+ desfecho destes",color=green];
 }

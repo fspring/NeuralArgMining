@@ -1,8 +1,25 @@
 digraph G {
 	88 -> 66;
 	284 -> 281;
-	66 [label="if physical education is removed from the syllabus , there will be considerable negative effects on students’ health",color=green];
-	88 [label="after studying and sitting in the classroom for the whole morning , it is better for students to do some outdoor activities , such as stretching , jogging and playing ball games , in order to improve their learning ability during the afternoon classes",color=blue];
+	66 [label="if physical education is removed
+ from the syllabus , there
+ will be considerable negative effects
+ on students’ health",color=green];
+	88 [label="after studying and
+ sitting in the classroom for
+ the whole morning , it
+ is better for students to
+ do some outdoor activities ,
+ such as stretching , jogging
+ and playing ball games ,
+ in order to improve their
+ learning ability during the afternoon
+ classes",color=blue];
 	281 [label="not",color=green];
-	284 [label="idea because most young people would rather watch tv or play computer games after school instead of learning life skills from their parents",color=blue];
+	284 [label="idea because
+ most young people would rather
+ watch tv or play computer
+ games after school instead of
+ learning life skills from their
+ parents",color=blue];
 }

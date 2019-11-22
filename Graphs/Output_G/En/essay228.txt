@@ -4,14 +4,44 @@ digraph G {
 	172 -> 129;
 	196 -> 246;
 	233 -> 246;
-	38 [label="has devastated communication among friends and families , i",color=green];
-	76 [label="in addition modern tv has smart system that let you be connected with people",color=blue];
-	48 [label="it has done the opposite",color=green];
-	93 [label="it's true watching tv take a lot of your day , nevertheless it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs",color=blue];
+	38 [label="has devastated communication
+ among friends and families ,
+ i",color=green];
+	76 [label="in addition modern tv has
+ smart system that let you
+ be connected with people",color=blue];
+	48 [label="it has done
+ the opposite",color=green];
+	93 [label="it's true watching
+ tv take a lot of
+ your day , nevertheless it
+ makes people meet and start
+ a conversation about what they
+ watch at other times like
+ weather forecast and sport programs
+",color=blue];
 	129 [label="people",color=green];
-	172 [label="it was fun and a little bit similar to the cinema",color=blue];
-	196 [label="tv can be connected to multimedia devices that have smart operating system like google tv , wdtv using skype , tango and other apps",color=blue];
-	246 [label="tv may take some of your time away from your family and friends but it can also make family get together and help to get in conversation",color=green];
-	233 [label="we can communicate with each other through tv",color=blue];
-	246 [label="tv may take some of your time away from your family and friends but it can also make family get together and help to get in conversation",color=green];
+	172 [label="it was fun and
+ a little bit similar to
+ the cinema",color=blue];
+	196 [label="tv can be connected to
+ multimedia devices that have smart
+ operating system like google tv
+ , wdtv using skype ,
+ tango and other apps",color=blue];
+	246 [label="tv may take some of
+ your time away from your
+ family and friends but it
+ can also make family get
+ together and help to get
+ in conversation",color=green];
+	233 [label="we can communicate
+ with each other through tv
+",color=blue];
+	246 [label="tv may take some of
+ your time away from your
+ family and friends but it
+ can also make family get
+ together and help to get
+ in conversation",color=green];
 }

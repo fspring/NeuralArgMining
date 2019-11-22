@@ -6,18 +6,56 @@ digraph G {
 	183 -> 170;
 	295 -> 284;
 	295 -> 335;
-	59 [label="some countries may place economic developments ahead of environmental protection , thus ruining the local environments",color=green];
-	85 [label="resources , advanced technologies and experience , they have to rely on natural resources to maintain their living standards",color=blue];
-	76 [label="as these needy countries lack adequate financial and human",color=green];
-	107 [label="people in the poverty-stricken areas are not likely to be equipped with knowledge to preserve the ecosystems",color=blue];
+	59 [label="some countries
+ may place economic developments ahead
+ of environmental protection , thus
+ ruining the local environments",color=green];
+	85 [label="resources , advanced technologies and experience
+ , they have to rely
+ on natural resources to maintain
+ their living standards",color=blue];
+	76 [label="as these needy countries lack
+ adequate financial and human",color=green];
+	107 [label="people in the poverty-stricken
+ areas are not likely to
+ be equipped with knowledge to
+ preserve the ecosystems",color=blue];
 	105 [label="besides",color=blue];
 	156 [label="economic development",color=green];
 	156 [label="economic development",color=green];
-	183 [label="with people raising their awareness of the green economy , the products free of pollutants are increasingly prevalent among clients , which means eco-friendly businesses can make a favorable impression on customers today , triggering sales",color=blue];
+	183 [label="with people raising
+ their awareness of the green
+ economy , the products free
+ of pollutants are increasingly prevalent
+ among clients , which means
+ eco-friendly businesses can make a
+ favorable impression on customers today
+ , triggering sales",color=blue];
 	170 [label="booming economy",color=green];
-	183 [label="with people raising their awareness of the green economy , the products free of pollutants are increasingly prevalent among clients , which means eco-friendly businesses can make a favorable impression on customers today , triggering sales",color=blue];
+	183 [label="with people raising
+ their awareness of the green
+ economy , the products free
+ of pollutants are increasingly prevalent
+ among clients , which means
+ eco-friendly businesses can make a
+ favorable impression on customers today
+ , triggering sales",color=blue];
 	284 [label="may",color=green];
-	295 [label="without the requirement of environmental preservation , the firm would still consume a vast amount of energy which constitutes a large part of its operational costs , being a hurdle to the economic development",color=blue];
-	295 [label="without the requirement of environmental preservation , the firm would still consume a vast amount of energy which constitutes a large part of its operational costs , being a hurdle to the economic development",color=blue];
-	335 [label="that thriving economies and the preservation of ecosystems can be promoted simultaneously",color=green];
+	295 [label="without the requirement of environmental preservation
+ , the firm would still
+ consume a vast amount of
+ energy which constitutes a large
+ part of its operational costs
+ , being a hurdle to
+ the economic development",color=blue];
+	295 [label="without the requirement of environmental preservation
+ , the firm would still
+ consume a vast amount of
+ energy which constitutes a large
+ part of its operational costs
+ , being a hurdle to
+ the economic development",color=blue];
+	335 [label="that thriving economies and the preservation
+ of ecosystems can be promoted
+ simultaneously",color=green];
 }

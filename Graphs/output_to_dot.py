@@ -1,10 +1,10 @@
 import os
 
-dir = 'Output/Pt'
-# dir = 'Output/En'
+# dir = 'Output/Pt'
+dir = 'Output/En'
 
-graph_dir = 'Output_G/Pt'
-# graph_dir = 'Output_G/En'
+# graph_dir = 'Output_G/Pt'
+graph_dir = 'Output_G/En'
 
 files = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
 
@@ -27,6 +27,8 @@ for filename in files:
         while fields[1].split(',')[-1][:-1] == arg:
             end = i
             text += ' ' + fields[0]
+            if i%5 == 0:
+                text +='\n'
             i += 1
             if i >= len(entries):
                 break

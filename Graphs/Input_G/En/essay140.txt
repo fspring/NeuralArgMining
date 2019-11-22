@@ -6,18 +6,96 @@ digraph G {
 	177 -> 148;
 	177 -> 254;
 	214 -> 254;
-	29 [label="there should not be any room for partiality in terms of gender while allocating seats for students in every university courses",color=green];
-	95 [label="both male and female students are equally competitive to each other and deserve to produce impressive results in various field of education",color=blue];
-	72 [label="judging student's skills and abilities should only be based on their academic qualifications and talents rather than gender in particular",color=green];
-	95 [label="both male and female students are equally competitive to each other and deserve to produce impressive results in various field of education",color=blue];
-	95 [label="both male and female students are equally competitive to each other and deserve to produce impressive results in various field of education",color=blue];
-	254 [label="every student either male or female should be given fairly equal opportunity to purse their education in all university subjects , provided they should meet the required qualifications rather than putting limitations based on their gender",color=green];
-	118 [label="In India , for example , female students are more often likely to grab more number of top scorer positions in every year higher secondary school examinations",color=blue];
-	254 [label="every student either male or female should be given fairly equal opportunity to purse their education in all university subjects , provided they should meet the required qualifications rather than putting limitations based on their gender",color=green];
-	148 [label="female students are highly interested in learning courses such as mechanical engineering which demands physical activities in their lab workshops , unlike previous generation females",color=green];
-	177 [label="due to increasing exposure on current affairs and knowledge on cutting-edge technological developments , female graduates are more willing to take huge responsibilities in their workplace , despite its intensive stress and pressure",color=blue];
-	177 [label="due to increasing exposure on current affairs and knowledge on cutting-edge technological developments , female graduates are more willing to take huge responsibilities in their workplace , despite its intensive stress and pressure",color=blue];
-	254 [label="every student either male or female should be given fairly equal opportunity to purse their education in all university subjects , provided they should meet the required qualifications rather than putting limitations based on their gender",color=green];
-	214 [label="Chanda Kochhar , who is the CEO of India's second largest bank called ICICI bank and prominently awarded as the country's most powerful female head in business sector",color=blue];
-	254 [label="every student either male or female should be given fairly equal opportunity to purse their education in all university subjects , provided they should meet the required qualifications rather than putting limitations based on their gender",color=green];
+	29 [label="there should not be any room
+ for partiality in terms of
+ gender while allocating seats for
+ students in every university courses
+",color=green];
+	95 [label="both male and female students
+ are equally competitive to each
+ other and deserve to produce
+ impressive results in various field
+ of education",color=blue];
+	72 [label="judging student's skills
+ and abilities should only be
+ based on their academic qualifications
+ and talents rather than gender
+ in particular",color=green];
+	95 [label="both male and female students
+ are equally competitive to each
+ other and deserve to produce
+ impressive results in various field
+ of education",color=blue];
+	95 [label="both male and female students
+ are equally competitive to each
+ other and deserve to produce
+ impressive results in various field
+ of education",color=blue];
+	254 [label="every student either male or female
+ should be given fairly equal
+ opportunity to purse their education
+ in all university subjects ,
+ provided they should meet the
+ required qualifications rather than putting
+ limitations based on their gender
+",color=green];
+	118 [label="In India
+ , for example , female
+ students are more often likely
+ to grab more number of
+ top scorer positions in every
+ year higher secondary school examinations
+",color=blue];
+	254 [label="every student either male or female
+ should be given fairly equal
+ opportunity to purse their education
+ in all university subjects ,
+ provided they should meet the
+ required qualifications rather than putting
+ limitations based on their gender
+",color=green];
+	148 [label="female students
+ are highly interested in learning
+ courses such as mechanical engineering
+ which demands physical activities in
+ their lab workshops , unlike
+ previous generation females",color=green];
+	177 [label="due to increasing
+ exposure on current affairs and
+ knowledge on cutting-edge technological developments
+ , female graduates are more
+ willing to take huge responsibilities
+ in their workplace , despite
+ its intensive stress and pressure
+",color=blue];
+	177 [label="due to increasing
+ exposure on current affairs and
+ knowledge on cutting-edge technological developments
+ , female graduates are more
+ willing to take huge responsibilities
+ in their workplace , despite
+ its intensive stress and pressure
+",color=blue];
+	254 [label="every student either male or female
+ should be given fairly equal
+ opportunity to purse their education
+ in all university subjects ,
+ provided they should meet the
+ required qualifications rather than putting
+ limitations based on their gender
+",color=green];
+	214 [label="Chanda Kochhar , who is the
+ CEO of India's second largest
+ bank called ICICI bank and
+ prominently awarded as the country's
+ most powerful female head in
+ business sector",color=blue];
+	254 [label="every student either male or female
+ should be given fairly equal
+ opportunity to purse their education
+ in all university subjects ,
+ provided they should meet the
+ required qualifications rather than putting
+ limitations based on their gender
+",color=green];
 }

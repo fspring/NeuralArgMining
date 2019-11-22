@@ -2,10 +2,28 @@ digraph G {
 	116 -> 66;
 	225 -> 277;
 	269 -> 277;
-	66 [label="classmates themselves creat a competitive atmoshphere which incent the children",color=green];
-	116 [label="a psychological perspective , the feeling of being subordinate to their peers exert enormous pressure on the children , which subsequently transforms into some sort of stimulants and boosts the children's academic performances",color=blue];
-	225 [label="sharing the same age , children are at their most comfort to exchange ideas , to query and interpret abstract concepts without fear of parental punishments , resulting in deeper comprehension",color=blue];
-	277 [label="two crucial commodities leading to a successful presentation at school",color=green];
+	66 [label="classmates themselves creat a competitive
+ atmoshphere which incent the children
+",color=green];
+	116 [label="a psychological perspective , the
+ feeling of being subordinate to
+ their peers exert enormous pressure
+ on the children , which
+ subsequently transforms into some sort
+ of stimulants and boosts the
+ children's academic performances",color=blue];
+	225 [label="sharing the same age , children
+ are at their most comfort
+ to exchange ideas , to
+ query and interpret abstract concepts
+ without fear of parental punishments
+ , resulting in deeper comprehension
+",color=blue];
+	277 [label="two crucial commodities leading
+ to a successful presentation at
+ school",color=green];
 	269 [label="they",color=blue];
-	277 [label="two crucial commodities leading to a successful presentation at school",color=green];
+	277 [label="two crucial commodities leading
+ to a successful presentation at
+ school",color=green];
 }

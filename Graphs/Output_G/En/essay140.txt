@@ -5,16 +5,35 @@ digraph G {
 	156 -> 197;
 	177 -> 197;
 	191 -> 197;
-	124 [label="female students are more often likely to grab more number of top scorer positions in every year higher secondary school examinations",color=blue];
-	221 [label="of india's second largest bank called icici bank and prominently awarded as the country's most powerful female head in business sector",color=green];
-	148 [label="female students are highly interested in learning",color=blue];
-	197 [label="take huge responsibilities in their workplace , despite its intensive stress and pressure",color=green];
+	124 [label="female students
+ are more often likely to
+ grab more number of top
+ scorer positions in every year
+ higher secondary school examinations",color=blue];
+	221 [label="of india's second largest bank
+ called icici bank and prominently
+ awarded as the country's most
+ powerful female head in business
+ sector",color=green];
+	148 [label="female students are
+ highly interested in learning",color=blue];
+	197 [label="take huge responsibilities in
+ their workplace , despite its
+ intensive stress and pressure",color=green];
 	155 [label="courses",color=green];
 	196 [label="to",color=blue];
-	156 [label="such as mechanical engineering which demands",color=blue];
-	197 [label="take huge responsibilities in their workplace , despite its intensive stress and pressure",color=green];
-	177 [label="due to increasing exposure on current affairs and",color=blue];
-	197 [label="take huge responsibilities in their workplace , despite its intensive stress and pressure",color=green];
+	156 [label="such as mechanical engineering which
+ demands",color=blue];
+	197 [label="take huge responsibilities in
+ their workplace , despite its
+ intensive stress and pressure",color=green];
+	177 [label="due to increasing exposure
+ on current affairs and",color=blue];
+	197 [label="take huge responsibilities in
+ their workplace , despite its
+ intensive stress and pressure",color=green];
 	191 [label="female graduates are",color=blue];
-	197 [label="take huge responsibilities in their workplace , despite its intensive stress and pressure",color=green];
+	197 [label="take huge responsibilities in
+ their workplace , despite its
+ intensive stress and pressure",color=green];
 }

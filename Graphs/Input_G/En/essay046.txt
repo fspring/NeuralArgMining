@@ -5,16 +5,61 @@ digraph G {
 	167 -> 294;
 	214 -> 271;
 	225 -> 271;
-	118 [label="A university , in common sense , is a medium for conveying or providing access to knowledge",color=green];
-	143 [label="students are the ones universities should really cater for , not the employers",color=blue];
-	143 [label="students are the ones universities should really cater for , not the employers",color=blue];
-	294 [label="the main function of a university remains as the provision of knowledge and access to resources",color=green];
-	158 [label="students are the ones here to seek knowledge",color=blue];
-	294 [label="the main function of a university remains as the provision of knowledge and access to resources",color=green];
-	167 [label="High school graduates choose to further educate themselves in universities because of all different reasons : a degree that's more widely accepted , gain knowledge and insight into an industry , or simply deepen their research interests in a certain field",color=blue];
-	294 [label="the main function of a university remains as the provision of knowledge and access to resources",color=green];
-	214 [label="universities are regarded as institutions where abundant educational resources gather",color=blue];
-	271 [label="a university should provide access to information , rather than offer selected courses that are suitable for employers' taste",color=green];
-	225 [label="It is , therefore , not necessary for a certain course or type of training to be offered to the students by a university , but instead , these must be made available when needed",color=blue];
-	271 [label="a university should provide access to information , rather than offer selected courses that are suitable for employers' taste",color=green];
+	118 [label="A university
+ , in common sense ,
+ is a medium for conveying
+ or providing access to knowledge
+",color=green];
+	143 [label="students are
+ the ones universities should really
+ cater for , not the
+ employers",color=blue];
+	143 [label="students are
+ the ones universities should really
+ cater for , not the
+ employers",color=blue];
+	294 [label="the main function of a university
+ remains as the provision of
+ knowledge and access to resources
+",color=green];
+	158 [label="students are
+ the ones here to seek
+ knowledge",color=blue];
+	294 [label="the main function of a university
+ remains as the provision of
+ knowledge and access to resources
+",color=green];
+	167 [label="High school graduates
+ choose to further educate themselves
+ in universities because of all
+ different reasons : a degree
+ that's more widely accepted ,
+ gain knowledge and insight into
+ an industry , or simply
+ deepen their research interests in
+ a certain field",color=blue];
+	294 [label="the main function of a university
+ remains as the provision of
+ knowledge and access to resources
+",color=green];
+	214 [label="universities are regarded as institutions where
+ abundant educational resources gather",color=blue];
+	271 [label="a university should provide
+ access to information , rather
+ than offer selected courses that
+ are suitable for employers' taste
+",color=green];
+	225 [label="It is , therefore ,
+ not necessary for a certain
+ course or type of training
+ to be offered to the
+ students by a university ,
+ but instead , these must
+ be made available when needed
+",color=blue];
+	271 [label="a university should provide
+ access to information , rather
+ than offer selected courses that
+ are suitable for employers' taste
+",color=green];
 }

@@ -2,10 +2,15 @@ digraph G {
 	43 -> 60;
 	92 -> 77;
 	92 -> 86;
-	43 [label="who are addicted to tv",color=blue];
+	43 [label="who are addicted
+ to tv",color=blue];
 	60 [label="television in amount of time",color=green];
 	77 [label="children should",color=green];
-	92 [label="children generally have weak self-control , and thus they lose their time easily",color=blue];
+	92 [label="children generally have weak
+ self-control , and thus they
+ lose their time easily",color=blue];
 	86 [label="excessively",color=green];
-	92 [label="children generally have weak self-control , and thus they lose their time easily",color=blue];
+	92 [label="children generally have weak
+ self-control , and thus they
+ lose their time easily",color=blue];
 }

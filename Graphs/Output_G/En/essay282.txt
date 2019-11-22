@@ -2,10 +2,26 @@ digraph G {
 	190 -> 175;
 	245 -> 358;
 	287 -> 276;
-	175 [label="is perfectly work for everyone to reduce the stress is exercise",color=green];
-	190 [label="i alway have many things in my mind such as a difficult of my work that i have to finish in time",color=blue];
-	245 [label="i feel that after working out , i am easily to fall asleep",color=blue];
-	358 [label="there are many ways to reduce the stress",color=green];
-	276 [label="meditation also one of the ways to reduce the stress",color=green];
-	287 [label="when i have many things to think about , and this make me stress , i will do meditation",color=blue];
+	175 [label="is perfectly work for everyone to
+ reduce the stress is exercise
+",color=green];
+	190 [label="i alway have many things in
+ my mind such as a
+ difficult of my work that
+ i have to finish in
+ time",color=blue];
+	245 [label="i feel that after working out
+ , i am easily to
+ fall asleep",color=blue];
+	358 [label="there are many
+ ways to reduce the stress
+",color=green];
+	276 [label="meditation also one of the
+ ways to reduce the stress
+",color=green];
+	287 [label="when i have many
+ things to think about ,
+ and this make me stress
+ , i will do meditation
+",color=blue];
 }

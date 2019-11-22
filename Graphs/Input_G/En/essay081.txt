@@ -15,36 +15,138 @@ digraph G {
 	411 -> 453;
 	425 -> 453;
 	437 -> 453;
-	48 [label="the artists must be given freedom so that they will produce some really marvelous masterpiece",color=green];
-	68 [label="if there is control over artists' ideas , they will definitely lose their sense of creativity in the long run",color=blue];
-	68 [label="if there is control over artists' ideas , they will definitely lose their sense of creativity in the long run",color=blue];
-	149 [label="without any limitations , there will be more awe inspiring work from our artists",color=green];
-	93 [label="when they are given the opportunity to express themselves , most artists will think out of the box and come up with spectacular Arts such as paintings or movies",color=blue];
-	149 [label="without any limitations , there will be more awe inspiring work from our artists",color=green];
-	126 [label="paintings by Da Vinci and Michallengo are admired even till now as they were not restricted during those times",color=blue];
-	149 [label="without any limitations , there will be more awe inspiring work from our artists",color=green];
-	166 [label="it is every human's right to be able to voice out their opinions in any ways as long as they do not cause any problems to the nation",color=blue];
-	269 [label="human rights is violated if artists are not allowed to express their feelings freely",color=green];
-	195 [label="Today , many countries make numerous efforts to show that they are democratic countries",color=blue];
-	269 [label="human rights is violated if artists are not allowed to express their feelings freely",color=green];
-	210 [label="Arts is one of the ways that can be used to criticise social problems and government policies in a particular country",color=blue];
-	269 [label="human rights is violated if artists are not allowed to express their feelings freely",color=green];
-	237 [label="the famous movie '3 Idiots' acted by Amir Khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn",color=blue];
-	269 [label="human rights is violated if artists are not allowed to express their feelings freely",color=green];
-	299 [label="They might go deeper into certain aspects that can cause controversies in a country",color=blue];
-	335 [label="In case there is anyone who brings up some sensitive issues in their films or books regarding any races , this might end up in some chaos among the society",color=green];
-	319 [label="Malaysia is a multiracial country whereby all the citizens live together in harmony and peace",color=blue];
-	335 [label="In case there is anyone who brings up some sensitive issues in their films or books regarding any races , this might end up in some chaos among the society",color=green];
-	335 [label="In case there is anyone who brings up some sensitive issues in their films or books regarding any races , this might end up in some chaos among the society",color=green];
-	371 [label="artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts",color=blue];
-	371 [label="artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts",color=blue];
-	401 [label="there should not be any restrictions on artists' work",color=green];
-	401 [label="there should not be any restrictions on artists' work",color=green];
-	411 [label="Allowing them to think freely will give them an opportunity to express themselves",color=blue];
-	411 [label="Allowing them to think freely will give them an opportunity to express themselves",color=blue];
-	453 [label="there are many wonderful and beautiful Arts due to the freedom to express ideas",color=green];
-	425 [label="ideas can naturally flow when there are no limitations",color=blue];
-	453 [label="there are many wonderful and beautiful Arts due to the freedom to express ideas",color=green];
-	437 [label="even though freedom to express ideas can bring some negative effects",color=blue];
-	453 [label="there are many wonderful and beautiful Arts due to the freedom to express ideas",color=green];
+	48 [label="the artists
+ must be given freedom so
+ that they will produce some
+ really marvelous masterpiece",color=green];
+	68 [label="if there
+ is control over artists' ideas
+ , they will definitely lose
+ their sense of creativity in
+ the long run",color=blue];
+	68 [label="if there
+ is control over artists' ideas
+ , they will definitely lose
+ their sense of creativity in
+ the long run",color=blue];
+	149 [label="without any limitations , there will
+ be more awe inspiring work
+ from our artists",color=green];
+	93 [label="when they
+ are given the opportunity to
+ express themselves , most artists
+ will think out of the
+ box and come up with
+ spectacular Arts such as paintings
+ or movies",color=blue];
+	149 [label="without any limitations , there will
+ be more awe inspiring work
+ from our artists",color=green];
+	126 [label="paintings by Da Vinci
+ and Michallengo are admired even
+ till now as they were
+ not restricted during those times
+",color=blue];
+	149 [label="without any limitations , there will
+ be more awe inspiring work
+ from our artists",color=green];
+	166 [label="it is every human's
+ right to be able to
+ voice out their opinions in
+ any ways as long as
+ they do not cause any
+ problems to the nation",color=blue];
+	269 [label="human rights is violated if artists
+ are not allowed to express
+ their feelings freely",color=green];
+	195 [label="Today , many countries make
+ numerous efforts to show that
+ they are democratic countries",color=blue];
+	269 [label="human rights is violated if artists
+ are not allowed to express
+ their feelings freely",color=green];
+	210 [label="Arts is one of the
+ ways that can be used
+ to criticise social problems and
+ government policies in a particular
+ country",color=blue];
+	269 [label="human rights is violated if artists
+ are not allowed to express
+ their feelings freely",color=green];
+	237 [label="the famous movie
+ '3 Idiots' acted by Amir
+ Khan criticises the education system
+ which is chiefly based on
+ memorising and not being able
+ to apply whatever the students
+ learn",color=blue];
+	269 [label="human rights is violated if artists
+ are not allowed to express
+ their feelings freely",color=green];
+	299 [label="They might go deeper into certain
+ aspects that can cause controversies
+ in a country",color=blue];
+	335 [label="In case there is anyone
+ who brings up some sensitive
+ issues in their films or
+ books regarding any races ,
+ this might end up in
+ some chaos among the society
+",color=green];
+	319 [label="Malaysia is a multiracial country whereby
+ all the citizens live together
+ in harmony and peace",color=blue];
+	335 [label="In case there is anyone
+ who brings up some sensitive
+ issues in their films or
+ books regarding any races ,
+ this might end up in
+ some chaos among the society
+",color=green];
+	335 [label="In case there is anyone
+ who brings up some sensitive
+ issues in their films or
+ books regarding any races ,
+ this might end up in
+ some chaos among the society
+",color=green];
+	371 [label="artists know their boundaries
+ very well and would surely
+ do not want their names
+ tarnished just because of their
+ unscrupulous acts",color=blue];
+	371 [label="artists know their boundaries
+ very well and would surely
+ do not want their names
+ tarnished just because of their
+ unscrupulous acts",color=blue];
+	401 [label="there should not be
+ any restrictions on artists' work
+",color=green];
+	401 [label="there should not be
+ any restrictions on artists' work
+",color=green];
+	411 [label="Allowing them to think
+ freely will give them an
+ opportunity to express themselves",color=blue];
+	411 [label="Allowing them to think
+ freely will give them an
+ opportunity to express themselves",color=blue];
+	453 [label="there are
+ many wonderful and beautiful Arts
+ due to the freedom to
+ express ideas",color=green];
+	425 [label="ideas can naturally flow when
+ there are no limitations",color=blue];
+	453 [label="there are
+ many wonderful and beautiful Arts
+ due to the freedom to
+ express ideas",color=green];
+	437 [label="even though freedom
+ to express ideas can bring
+ some negative effects",color=blue];
+	453 [label="there are
+ many wonderful and beautiful Arts
+ due to the freedom to
+ express ideas",color=green];
 }

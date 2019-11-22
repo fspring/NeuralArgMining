@@ -1,8 +1,12 @@
 digraph G {
 	74 -> 67;
 	439 -> 442;
-	67 [label="you are taking a great",color=green];
-	74 [label="luck is something intangible and no one can guarantee that it would ever come your way",color=blue];
+	67 [label="you are taking a
+ great",color=green];
+	74 [label="luck is
+ something intangible and no one
+ can guarantee that it would
+ ever come your way",color=blue];
 	439 [label="it",color=blue];
 	442 [label="to be",color=green];
 }

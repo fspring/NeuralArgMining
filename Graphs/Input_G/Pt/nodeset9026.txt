@@ -1,5 +1,10 @@
 digraph G {
 	63 -> 50;
-	50 [label="Quando nos sentimos menos encorajados a cair nessa tentação invocamos razões logísticas",color=green];
-	63 [label="Sabendo genericamente que devemos amar o próximo , diremos que não havia ninguém por perto",color=blue];
+	50 [label="Quando nos sentimos menos encorajados
+ a cair nessa tentação invocamos
+ razões logísticas",color=green];
+	63 [label="Sabendo genericamente
+ que devemos amar o próximo
+ , diremos que não havia
+ ninguém por perto",color=blue];
 }

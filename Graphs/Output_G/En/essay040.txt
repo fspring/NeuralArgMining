@@ -3,12 +3,30 @@ digraph G {
 	165 -> 123;
 	213 -> 164;
 	300 -> 325;
-	54 [label="of the benefits surrounding this matter will",color=green];
-	102 [label="that seems to be more essential the present shortage of sufficiently practical conditions supplied in universities",color=blue];
+	54 [label="of the
+ benefits surrounding this matter will
+",color=green];
+	102 [label="that seems to be
+ more essential the present shortage
+ of sufficiently practical conditions supplied
+ in universities",color=blue];
 	123 [label="students",color=green];
-	165 [label="who take on a part time job are often more confident and independent than other ones",color=blue];
+	165 [label="who take on a part time
+ job are often more confident
+ and independent than other ones
+",color=blue];
 	164 [label="students",color=green];
-	213 [label="working conditions require students the independency in thinking , working , and solving problems",color=blue];
-	300 [label="that helps students from being reliant on their families as well as is a well-prepared condition for their independent later life",color=blue];
-	325 [label="i feel certain that having a part time job during your student time will offer students many clear benefits",color=green];
+	213 [label="working conditions require
+ students the independency in thinking
+ , working , and solving
+ problems",color=blue];
+	300 [label="that helps students from being reliant
+ on their families as well
+ as is a well-prepared condition
+ for their independent later life
+",color=blue];
+	325 [label="i feel certain that having a
+ part time job during your
+ student time will offer students
+ many clear benefits",color=green];
 }

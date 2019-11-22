@@ -19,44 +19,121 @@ digraph G {
 	283 -> 300;
 	309 -> 300;
 	309 -> 352;
-	56 [label="Co-operation is essential for teamwork",color=green];
-	62 [label="Educational systems emphasize on encouraging co-operative approach in children",color=blue];
-	62 [label="Educational systems emphasize on encouraging co-operative approach in children",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	72 [label="We live in a social setup and mutual help and sharing only leads to success",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	88 [label="A person can not learn or achieve everything by oneself",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	102 [label="lions hunt in a team",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	108 [label="It is only due to their teamwork that they are able to catch a prey and make task easy",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	133 [label="co-operative approach will save time , energy and will have a higher success rate",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	150 [label="co-operation helps to understand other's perspective and learn by their mistakes",color=green];
-	162 [label="It helps to identify one's strengths and weaknesses as compared to others",color=blue];
-	162 [label="It helps to identify one's strengths and weaknesses as compared to others",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	175 [label="A co-operative approach can create inspirational and motivational feeling seeing other people's achievements",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	191 [label="competition is also as important as co-operation",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	213 [label="An individual must compete with oneself only , instead of trying to beat others",color=blue];
-	238 [label="Competition helps in improvement and evolution",color=green];
-	228 [label="Competition has helped the development of science and technology",color=blue];
-	238 [label="Competition helps in improvement and evolution",color=green];
-	238 [label="Competition helps in improvement and evolution",color=green];
-	248 [label="every other day , new cars are developed by companies which are more efficient than others",color=blue];
-	248 [label="every other day , new cars are developed by companies which are more efficient than others",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	265 [label="This kind of competition gives customers more options",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
-	276 [label="blind and selfish competition is detrimental",color=blue];
-	300 [label="Competition should be always based on self-improvement rule",color=green];
-	283 [label="'Your loss , my gain' kind of competition can never be fruitful in the long run",color=blue];
-	300 [label="Competition should be always based on self-improvement rule",color=green];
-	300 [label="Competition should be always based on self-improvement rule",color=green];
-	309 [label="A healthy competition which involves raising one's own level above others is the best approach",color=blue];
-	309 [label="A healthy competition which involves raising one's own level above others is the best approach",color=blue];
-	352 [label="children should be taught co-operation complimented with a healthy competition",color=green];
+	56 [label="Co-operation is essential for
+ teamwork",color=green];
+	62 [label="Educational systems emphasize
+ on encouraging co-operative approach in
+ children",color=blue];
+	62 [label="Educational systems emphasize
+ on encouraging co-operative approach in
+ children",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	72 [label="We live in
+ a social setup and mutual
+ help and sharing only leads
+ to success",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	88 [label="A person
+ can not learn or achieve
+ everything by oneself",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	102 [label="lions hunt in
+ a team",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	108 [label="It is
+ only due to their teamwork
+ that they are able to
+ catch a prey and make
+ task easy",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	133 [label="co-operative approach
+ will save time , energy
+ and will have a higher
+ success rate",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	150 [label="co-operation helps to understand other's
+ perspective and learn by their
+ mistakes",color=green];
+	162 [label="It helps to
+ identify one's strengths and weaknesses
+ as compared to others",color=blue];
+	162 [label="It helps to
+ identify one's strengths and weaknesses
+ as compared to others",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	175 [label="A co-operative approach can create
+ inspirational and motivational feeling seeing
+ other people's achievements",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	191 [label="competition is also as
+ important as co-operation",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	213 [label="An individual
+ must compete with oneself only
+ , instead of trying to
+ beat others",color=blue];
+	238 [label="Competition helps
+ in improvement and evolution",color=green];
+	228 [label="Competition has
+ helped the development of science
+ and technology",color=blue];
+	238 [label="Competition helps
+ in improvement and evolution",color=green];
+	238 [label="Competition helps
+ in improvement and evolution",color=green];
+	248 [label="every other
+ day , new cars are
+ developed by companies which are
+ more efficient than others",color=blue];
+	248 [label="every other
+ day , new cars are
+ developed by companies which are
+ more efficient than others",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	265 [label="This kind of competition gives
+ customers more options",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
+	276 [label="blind and selfish competition
+ is detrimental",color=blue];
+	300 [label="Competition should be always based
+ on self-improvement rule",color=green];
+	283 [label="'Your loss
+ , my gain' kind of
+ competition can never be fruitful
+ in the long run",color=blue];
+	300 [label="Competition should be always based
+ on self-improvement rule",color=green];
+	300 [label="Competition should be always based
+ on self-improvement rule",color=green];
+	309 [label="A healthy competition which involves raising
+ one's own level above others
+ is the best approach",color=blue];
+	309 [label="A healthy competition which involves raising
+ one's own level above others
+ is the best approach",color=blue];
+	352 [label="children should be
+ taught co-operation complimented with a
+ healthy competition",color=green];
 }

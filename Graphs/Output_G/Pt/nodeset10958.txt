@@ -1,5 +1,10 @@
 digraph G {
 	0 -> 32;
-	0 [label="há sempre um aumento de impostos à mão para ajudar a equilibrar as contas",color=blue];
-	32 [label="400 milhões de euros a mais que saem dos bolsos dos contribuintes para os cofres do estado",color=green];
+	0 [label="há sempre um aumento de impostos
+ à mão para ajudar a
+ equilibrar as contas",color=blue];
+	32 [label="400 milhões de euros
+ a mais que saem dos
+ bolsos dos contribuintes para os
+ cofres do estado",color=green];
 }

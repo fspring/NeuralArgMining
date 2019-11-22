@@ -2,10 +2,21 @@ digraph G {
 	227 -> 295;
 	240 -> 295;
 	257 -> 295;
-	227 [label="this way , grasping a new language will be natural to them",color=blue];
-	295 [label="the use of foreign language instruction as early as kindergarten is",color=green];
+	227 [label="this way , grasping
+ a new language will be
+ natural to them",color=blue];
+	295 [label="the use of foreign language instruction
+ as early as kindergarten is
+",color=green];
 	240 [label="in addition , the",color=blue];
-	295 [label="the use of foreign language instruction as early as kindergarten is",color=green];
-	257 [label="teachers will not find it difficult to make students learn such new concept in their teenage years",color=blue];
-	295 [label="the use of foreign language instruction as early as kindergarten is",color=green];
+	295 [label="the use of foreign language instruction
+ as early as kindergarten is
+",color=green];
+	257 [label="teachers will not find
+ it difficult to make students
+ learn such new concept in
+ their teenage years",color=blue];
+	295 [label="the use of foreign language instruction
+ as early as kindergarten is
+",color=green];
 }

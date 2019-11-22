@@ -10,26 +10,75 @@ digraph G {
 	192 -> 264;
 	209 -> 264;
 	236 -> 264;
-	5 [label="modern people are facing up to a new health problems and ailments than before",color=green];
-	75 [label="The main reason why people are becoming so addicted to sitting at their homes even for the whole day is an advance technology",color=blue];
-	66 [label="sedentary lifestyle lead to many serious health problems",color=green];
-	75 [label="The main reason why people are becoming so addicted to sitting at their homes even for the whole day is an advance technology",color=blue];
-	75 [label="The main reason why people are becoming so addicted to sitting at their homes even for the whole day is an advance technology",color=blue];
-	264 [label="people are facing up with many recently appeared illnesses",color=green];
-	99 [label="In earlier times , for instance , even the types of entertainment tools were not in large numbers and all of them required physical presence",color=blue];
-	264 [label="people are facing up with many recently appeared illnesses",color=green];
-	128 [label="they had more outdoor activities",color=blue];
-	264 [label="people are facing up with many recently appeared illnesses",color=green];
-	134 [label="Nowadays people , especially inhabitants of cities , are spending most of their time on sitting in front of TV or other tools",color=blue];
-	264 [label="people are facing up with many recently appeared illnesses",color=green];
-	166 [label="people are experiencing serious medical problems",color=green];
-	175 [label="the environment of the modern world polluted very significantly from greenhouse gas emissions and other gasses",color=blue];
-	175 [label="the environment of the modern world polluted very significantly from greenhouse gas emissions and other gasses",color=blue];
-	264 [label="people are facing up with many recently appeared illnesses",color=green];
-	192 [label="Many people , for example , are suffering from allergy because of these gasses",color=blue];
-	264 [label="people are facing up with many recently appeared illnesses",color=green];
-	209 [label="foods with a low quality such as fast foods , junk foods and any genetically modified ones are influencing to our health very negatively",color=blue];
-	264 [label="people are facing up with many recently appeared illnesses",color=green];
-	236 [label="life becoming more stressful due to some recent problems such as traffic gam , traffic accidents and others",color=blue];
-	264 [label="people are facing up with many recently appeared illnesses",color=green];
+	5 [label="modern people are facing up
+ to a new health problems
+ and ailments than before",color=green];
+	75 [label="The main reason why people
+ are becoming so addicted to
+ sitting at their homes even
+ for the whole day is
+ an advance technology",color=blue];
+	66 [label="sedentary lifestyle lead to
+ many serious health problems",color=green];
+	75 [label="The main reason why people
+ are becoming so addicted to
+ sitting at their homes even
+ for the whole day is
+ an advance technology",color=blue];
+	75 [label="The main reason why people
+ are becoming so addicted to
+ sitting at their homes even
+ for the whole day is
+ an advance technology",color=blue];
+	264 [label="people are facing up with many
+ recently appeared illnesses",color=green];
+	99 [label="In earlier times , for instance
+ , even the types of
+ entertainment tools were not in
+ large numbers and all of
+ them required physical presence",color=blue];
+	264 [label="people are facing up with many
+ recently appeared illnesses",color=green];
+	128 [label="they had
+ more outdoor activities",color=blue];
+	264 [label="people are facing up with many
+ recently appeared illnesses",color=green];
+	134 [label="Nowadays people , especially inhabitants of
+ cities , are spending most
+ of their time on sitting
+ in front of TV or
+ other tools",color=blue];
+	264 [label="people are facing up with many
+ recently appeared illnesses",color=green];
+	166 [label="people are experiencing serious
+ medical problems",color=green];
+	175 [label="the environment of the modern
+ world polluted very significantly from
+ greenhouse gas emissions and other
+ gasses",color=blue];
+	175 [label="the environment of the modern
+ world polluted very significantly from
+ greenhouse gas emissions and other
+ gasses",color=blue];
+	264 [label="people are facing up with many
+ recently appeared illnesses",color=green];
+	192 [label="Many people ,
+ for example , are suffering
+ from allergy because of these
+ gasses",color=blue];
+	264 [label="people are facing up with many
+ recently appeared illnesses",color=green];
+	209 [label="foods with a low quality such
+ as fast foods , junk
+ foods and any genetically modified
+ ones are influencing to our
+ health very negatively",color=blue];
+	264 [label="people are facing up with many
+ recently appeared illnesses",color=green];
+	236 [label="life becoming more stressful
+ due to some recent problems
+ such as traffic gam ,
+ traffic accidents and others",color=blue];
+	264 [label="people are facing up with many
+ recently appeared illnesses",color=green];
 }

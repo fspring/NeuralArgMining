@@ -7,20 +7,91 @@ digraph G {
 	202 -> 292;
 	259 -> 238;
 	259 -> 292;
-	57 [label="the benefits of children engagement in paid work outweigh its drawbacks",color=green];
-	73 [label="children can learn about the hardship of earning money",color=blue];
-	73 [label="children can learn about the hardship of earning money",color=blue];
-	128 [label="they are likely to understand their parents' hardship , to respect values of money and to form a good habit of saving",color=green];
-	83 [label="When they take some kind of paid work such as looking after babies , doing housework and keeping shops , they will have some life experience and skills which make them mature and can deal with many different situations in real life",color=blue];
-	128 [label="they are likely to understand their parents' hardship , to respect values of money and to form a good habit of saving",color=green];
-	165 [label="whether they can earn money or not will depend on their effectiveness and attitudes in working",color=blue];
-	292 [label="if children take part in some kind of paid work with their parents' permission , they can learn lively lessons and become mature and responsible",color=green];
-	182 [label="To keep their jobs , children will have to try their best to finish their duties",color=blue];
-	292 [label="if children take part in some kind of paid work with their parents' permission , they can learn lively lessons and become mature and responsible",color=green];
-	202 [label="if a child works as a shop assistant , he will have to keep an eye on good and products , calculate prices correctly and take responsibilities for any lost",color=blue];
-	292 [label="if children take part in some kind of paid work with their parents' permission , they can learn lively lessons and become mature and responsible",color=green];
-	238 [label="children will be more material , neglect their study for earning money or be exploited by the employers",color=green];
-	259 [label="if children get good care and instructions from their parents , they can take advantages of the work to learn valuable things and avoid going in a wrong way",color=blue];
-	259 [label="if children get good care and instructions from their parents , they can take advantages of the work to learn valuable things and avoid going in a wrong way",color=blue];
-	292 [label="if children take part in some kind of paid work with their parents' permission , they can learn lively lessons and become mature and responsible",color=green];
+	57 [label="the benefits of
+ children engagement in paid work
+ outweigh its drawbacks",color=green];
+	73 [label="children can
+ learn about the hardship of
+ earning money",color=blue];
+	73 [label="children can
+ learn about the hardship of
+ earning money",color=blue];
+	128 [label="they are
+ likely to understand their parents'
+ hardship , to respect values
+ of money and to form
+ a good habit of saving
+",color=green];
+	83 [label="When they
+ take some kind of paid
+ work such as looking after
+ babies , doing housework and
+ keeping shops , they will
+ have some life experience and
+ skills which make them mature
+ and can deal with many
+ different situations in real life
+",color=blue];
+	128 [label="they are
+ likely to understand their parents'
+ hardship , to respect values
+ of money and to form
+ a good habit of saving
+",color=green];
+	165 [label="whether they can earn money
+ or not will depend on
+ their effectiveness and attitudes in
+ working",color=blue];
+	292 [label="if children take
+ part in some kind of
+ paid work with their parents'
+ permission , they can learn
+ lively lessons and become mature
+ and responsible",color=green];
+	182 [label="To keep their
+ jobs , children will have
+ to try their best to
+ finish their duties",color=blue];
+	292 [label="if children take
+ part in some kind of
+ paid work with their parents'
+ permission , they can learn
+ lively lessons and become mature
+ and responsible",color=green];
+	202 [label="if a child
+ works as a shop assistant
+ , he will have to
+ keep an eye on good
+ and products , calculate prices
+ correctly and take responsibilities for
+ any lost",color=blue];
+	292 [label="if children take
+ part in some kind of
+ paid work with their parents'
+ permission , they can learn
+ lively lessons and become mature
+ and responsible",color=green];
+	238 [label="children will
+ be more material , neglect
+ their study for earning money
+ or be exploited by the
+ employers",color=green];
+	259 [label="if children get good care and
+ instructions from their parents ,
+ they can take advantages of
+ the work to learn valuable
+ things and avoid going in
+ a wrong way",color=blue];
+	259 [label="if children get good care and
+ instructions from their parents ,
+ they can take advantages of
+ the work to learn valuable
+ things and avoid going in
+ a wrong way",color=blue];
+	292 [label="if children take
+ part in some kind of
+ paid work with their parents'
+ permission , they can learn
+ lively lessons and become mature
+ and responsible",color=green];
 }

@@ -2,10 +2,30 @@ digraph G {
 	87 -> 77;
 	300 -> 282;
 	366 -> 392;
-	77 [label="environmental protection is far more urgent than economic developments",color=green];
-	87 [label="all the living creatures live together on our mother earth and she is the only one",color=blue];
-	282 [label="economic issues are global and critical as well thus can not be",color=green];
-	300 [label="that if the economic is in a very bad situation , people would revolt instantly , while environmental problems seem to be more like chronic diseases that would not burst out right away",color=blue];
-	366 [label="the truth and keep focusing on economic developments and unfortunately , usually the economic developments are even the causes of environmental damages",color=blue];
-	392 [label="environmental conservation is more essential than economic developments in the aspects of urgency and ranges of influence",color=green];
+	77 [label="environmental protection is far
+ more urgent than economic developments
+",color=green];
+	87 [label="all the living creatures
+ live together on our mother
+ earth and she is the
+ only one",color=blue];
+	282 [label="economic issues are global
+ and critical as well thus
+ can not be",color=green];
+	300 [label="that if the economic is in
+ a very bad situation ,
+ people would revolt instantly ,
+ while environmental problems seem to
+ be more like chronic diseases
+ that would not burst out
+ right away",color=blue];
+	366 [label="the truth and keep focusing
+ on economic developments and unfortunately
+ , usually the economic developments
+ are even the causes of
+ environmental damages",color=blue];
+	392 [label="environmental conservation is more
+ essential than economic developments in
+ the aspects of urgency and
+ ranges of influence",color=green];
 }

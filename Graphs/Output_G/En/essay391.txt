@@ -5,16 +5,33 @@ digraph G {
 	247 -> 227;
 	235 -> 236;
 	252 -> 300;
-	62 [label="spending too much time on mobiles phones many exert an adverse effect on our social",color=green];
-	85 [label="especially teenagers increasingly tend to focus on their phones , they may lose their interests on daily activities such as meeting with friends",color=blue];
-	143 [label="it is harmful",color=green];
-	171 [label="there many game applications available online and many of them are quite aggressive in nature",color=blue];
+	62 [label="spending too much time
+ on mobiles phones many exert
+ an adverse effect on our
+ social",color=green];
+	85 [label="especially teenagers increasingly tend to focus
+ on their phones , they
+ may lose their interests on
+ daily activities such as meeting
+ with friends",color=blue];
+	143 [label="it is harmful
+",color=green];
+	171 [label="there many game applications available
+ online and many of them
+ are quite aggressive in nature
+",color=blue];
 	163 [label="impact",color=green];
-	171 [label="there many game applications available online and many of them are quite aggressive in nature",color=blue];
+	171 [label="there many game applications available
+ online and many of them
+ are quite aggressive in nature
+",color=blue];
 	227 [label="conflicts",color=green];
-	247 [label="such as smart phones",color=blue];
+	247 [label="such as smart phones
+",color=blue];
 	235 [label="we",color=blue];
 	236 [label="may perceive this",color=green];
-	252 [label="has made our communication easy and convenience",color=blue];
-	300 [label="mobile phones have shortened the distance of communication",color=green];
+	252 [label="has made our communication
+ easy and convenience",color=blue];
+	300 [label="mobile phones have shortened the distance
+ of communication",color=green];
 }

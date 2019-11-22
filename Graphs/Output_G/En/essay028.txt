@@ -7,17 +7,45 @@ digraph G {
 	210 -> 195;
 	210 -> 206;
 	80 [label="society",color=blue];
-	81 [label="does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers",color=green];
+	81 [label="does need an advertising but
+ it is our responsibility to
+ control the content and what
+ kind of goods and services
+ we would like to offer
+ to our customers",color=green];
 	123 [label="cigarettes",color=blue];
 	145 [label="children",color=green];
-	126 [label="and services with adult content should be prohibited because these kind of ads will have negative effect",color=green];
-	147 [label="youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis",color=blue];
-	174 [label="seriously and advertising",color=green];
-	210 [label="thanks to ads we learn about new products , we can compare them and choose what’s the best for us",color=blue];
-	178 [label=", cigarettes and materials with adult content is banned on those",color=green];
-	210 [label="thanks to ads we learn about new products , we can compare them and choose what’s the best for us",color=blue];
-	195 [label="by advertising companies , businesses ,",color=green];
-	210 [label="thanks to ads we learn about new products , we can compare them and choose what’s the best for us",color=blue];
+	126 [label="and services with adult content
+ should be prohibited because these
+ kind of ads will have
+ negative effect",color=green];
+	147 [label="youngsters might be tempted
+ to buy cigarettes or alcohol
+ and later to start consume
+ it on a daily basis
+",color=blue];
+	174 [label="seriously and
+ advertising",color=green];
+	210 [label="thanks to ads we learn about
+ new products , we can
+ compare them and choose what’s
+ the best for us",color=blue];
+	178 [label=", cigarettes and
+ materials with adult content is
+ banned on those",color=green];
+	210 [label="thanks to ads we learn about
+ new products , we can
+ compare them and choose what’s
+ the best for us",color=blue];
+	195 [label="by advertising companies , businesses ,
+",color=green];
+	210 [label="thanks to ads we learn about
+ new products , we can
+ compare them and choose what’s
+ the best for us",color=blue];
 	206 [label="goods and services",color=green];
-	210 [label="thanks to ads we learn about new products , we can compare them and choose what’s the best for us",color=blue];
+	210 [label="thanks to ads we learn about
+ new products , we can
+ compare them and choose what’s
+ the best for us",color=blue];
 }

@@ -14,34 +14,129 @@ digraph G {
 	330 -> 383;
 	342 -> 383;
 	362 -> 383;
-	24 [label="One of these several ways of learning that I prefer is doing things by my self rather than learning by reading about things or learning by listening to people talking about",color=green];
-	90 [label="When you do things by your self , you learn to depend on yourself",color=blue];
-	82 [label="learning by doing things develops our maturity",color=green];
-	90 [label="When you do things by your self , you learn to depend on yourself",color=blue];
-	90 [label="When you do things by your self , you learn to depend on yourself",color=blue];
-	398 [label="learning by doing things is the best way and the best method to learn things",color=green];
-	105 [label="You will not be in need to refer to books or persons",color=blue];
-	398 [label="learning by doing things is the best way and the best method to learn things",color=green];
-	118 [label="The fact of doing things by ourselves can help us to get some experiences that would strong our maturity",color=blue];
-	398 [label="learning by doing things is the best way and the best method to learn things",color=green];
-	140 [label="if some one wants to learn how to be a leader , they have to experience this by being in a real situation of leading a team or a group , or even a situation",color=blue];
-	398 [label="learning by doing things is the best way and the best method to learn things",color=green];
-	176 [label="We can not be leaders by reading books or by listening to person talking about leading",color=blue];
-	398 [label="learning by doing things is the best way and the best method to learn things",color=green];
-	195 [label="learning by doing things is more exciting than learning by reading about things or listening to people talking about",color=green];
-	215 [label="There are a lot of things in life that should be learnt by doing them",color=blue];
-	215 [label="There are a lot of things in life that should be learnt by doing them",color=blue];
-	398 [label="learning by doing things is the best way and the best method to learn things",color=green];
-	231 [label="Reading about things or listening to people talking about can rarely submit the same sensation or the same excitement to some one who wants to learn about the same thing",color=blue];
-	398 [label="learning by doing things is the best way and the best method to learn things",color=green];
-	262 [label="People who want to learn how to swim have to go to the beach or to the swimpool and laid themselves in the water to feel and know what is swimming",color=blue];
-	398 [label="learning by doing things is the best way and the best method to learn things",color=green];
-	294 [label="Nor listening to people or reading about can teach them swimming",color=blue];
-	398 [label="learning by doing things is the best way and the best method to learn things",color=green];
-	330 [label="we find more motivation to continuing on learning by doing things",color=blue];
-	383 [label="we become motivated to learn other things by doing them",color=green];
-	342 [label="With the time , Reading about things or listening to people talking about could become more and more boring",color=blue];
-	383 [label="we become motivated to learn other things by doing them",color=green];
-	362 [label="Learning by doing things gives us more and more pleasure especially if we success in learning perfectly this things",color=blue];
-	383 [label="we become motivated to learn other things by doing them",color=green];
+	24 [label="One of these several ways of
+ learning that I prefer is
+ doing things by my self
+ rather than learning by reading
+ about things or learning by
+ listening to people talking about
+",color=green];
+	90 [label="When you do things by
+ your self , you learn
+ to depend on yourself",color=blue];
+	82 [label="learning by doing
+ things develops our maturity",color=green];
+	90 [label="When you do things by
+ your self , you learn
+ to depend on yourself",color=blue];
+	90 [label="When you do things by
+ your self , you learn
+ to depend on yourself",color=blue];
+	398 [label="learning by
+ doing things is the best
+ way and the best method
+ to learn things",color=green];
+	105 [label="You will not be in
+ need to refer to books
+ or persons",color=blue];
+	398 [label="learning by
+ doing things is the best
+ way and the best method
+ to learn things",color=green];
+	118 [label="The fact
+ of doing things by ourselves
+ can help us to get
+ some experiences that would strong
+ our maturity",color=blue];
+	398 [label="learning by
+ doing things is the best
+ way and the best method
+ to learn things",color=green];
+	140 [label="if some one wants to
+ learn how to be a
+ leader , they have to
+ experience this by being in
+ a real situation of leading
+ a team or a group
+ , or even a situation
+",color=blue];
+	398 [label="learning by
+ doing things is the best
+ way and the best method
+ to learn things",color=green];
+	176 [label="We can not be
+ leaders by reading books or
+ by listening to person talking
+ about leading",color=blue];
+	398 [label="learning by
+ doing things is the best
+ way and the best method
+ to learn things",color=green];
+	195 [label="learning by doing things is
+ more exciting than learning by
+ reading about things or listening
+ to people talking about",color=green];
+	215 [label="There are a lot of
+ things in life that should
+ be learnt by doing them
+",color=blue];
+	215 [label="There are a lot of
+ things in life that should
+ be learnt by doing them
+",color=blue];
+	398 [label="learning by
+ doing things is the best
+ way and the best method
+ to learn things",color=green];
+	231 [label="Reading about things or
+ listening to people talking about
+ can rarely submit the same
+ sensation or the same excitement
+ to some one who wants
+ to learn about the same
+ thing",color=blue];
+	398 [label="learning by
+ doing things is the best
+ way and the best method
+ to learn things",color=green];
+	262 [label="People who want
+ to learn how to swim
+ have to go to the
+ beach or to the swimpool
+ and laid themselves in the
+ water to feel and know
+ what is swimming",color=blue];
+	398 [label="learning by
+ doing things is the best
+ way and the best method
+ to learn things",color=green];
+	294 [label="Nor listening to people or reading
+ about can teach them swimming
+",color=blue];
+	398 [label="learning by
+ doing things is the best
+ way and the best method
+ to learn things",color=green];
+	330 [label="we find more motivation to
+ continuing on learning by doing
+ things",color=blue];
+	383 [label="we become
+ motivated to learn other things
+ by doing them",color=green];
+	342 [label="With the time
+ , Reading about things or
+ listening to people talking about
+ could become more and more
+ boring",color=blue];
+	383 [label="we become
+ motivated to learn other things
+ by doing them",color=green];
+	362 [label="Learning by doing
+ things gives us more and
+ more pleasure especially if we
+ success in learning perfectly this
+ things",color=blue];
+	383 [label="we become
+ motivated to learn other things
+ by doing them",color=green];
 }

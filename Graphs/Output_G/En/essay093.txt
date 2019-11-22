@@ -6,15 +6,70 @@ digraph G {
 	193 -> 247;
 	219 -> 247;
 	57 [label=",",color=blue];
-	58 [label="it is inhumane to watch one's fellowman struggle against famine and poverty without doing anything to help , especially when the onlooker takes no effort to do so",color=green];
-	129 [label="through such",color=green];
-	133 [label="for developed nations , new medical problems may very well arise from the work in underdeveloped nations ; thus related research is conducted accordingly to conquer the problem , promoting the development of the pharmaceutical industry",color=blue];
-	133 [label="for developed nations , new medical problems may very well arise from the work in underdeveloped nations ; thus related research is conducted accordingly to conquer the problem , promoting the development of the pharmaceutical industry",color=blue];
-	247 [label="wealthy nations' offering in need is not only a moral deed , but also a worthwhile one which will one day pay off in other ways",color=green];
-	171 [label="potential market in those poor countries , most of which has a huge population , is also a thing worth",color=blue];
-	247 [label="wealthy nations' offering in need is not only a moral deed , but also a worthwhile one which will one day pay off in other ways",color=green];
-	193 [label="by building a good relationship with them , wealthy nations can not only broaden their global market , but also facilitate future international commerce",color=blue];
-	247 [label="wealthy nations' offering in need is not only a moral deed , but also a worthwhile one which will one day pay off in other ways",color=green];
-	219 [label="underdeveloped nations , in return , may export local agricultural products , mineral products with discount to the former , boosting each other's economy",color=blue];
-	247 [label="wealthy nations' offering in need is not only a moral deed , but also a worthwhile one which will one day pay off in other ways",color=green];
+	58 [label="it is inhumane
+ to watch one's fellowman struggle
+ against famine and poverty without
+ doing anything to help ,
+ especially when the onlooker takes
+ no effort to do so
+",color=green];
+	129 [label="through such
+",color=green];
+	133 [label="for developed nations
+ , new medical problems may
+ very well arise from the
+ work in underdeveloped nations ;
+ thus related research is conducted
+ accordingly to conquer the problem
+ , promoting the development of
+ the pharmaceutical industry",color=blue];
+	133 [label="for developed nations
+ , new medical problems may
+ very well arise from the
+ work in underdeveloped nations ;
+ thus related research is conducted
+ accordingly to conquer the problem
+ , promoting the development of
+ the pharmaceutical industry",color=blue];
+	247 [label="wealthy nations' offering in
+ need is not only a
+ moral deed , but also
+ a worthwhile one which will
+ one day pay off in
+ other ways",color=green];
+	171 [label="potential market in those poor
+ countries , most of which
+ has a huge population ,
+ is also a thing worth
+",color=blue];
+	247 [label="wealthy nations' offering in
+ need is not only a
+ moral deed , but also
+ a worthwhile one which will
+ one day pay off in
+ other ways",color=green];
+	193 [label="by building a
+ good relationship with them ,
+ wealthy nations can not only
+ broaden their global market ,
+ but also facilitate future international
+ commerce",color=blue];
+	247 [label="wealthy nations' offering in
+ need is not only a
+ moral deed , but also
+ a worthwhile one which will
+ one day pay off in
+ other ways",color=green];
+	219 [label="underdeveloped nations
+ , in return , may
+ export local agricultural products ,
+ mineral products with discount to
+ the former , boosting each
+ other's economy",color=blue];
+	247 [label="wealthy nations' offering in
+ need is not only a
+ moral deed , but also
+ a worthwhile one which will
+ one day pay off in
+ other ways",color=green];
 }

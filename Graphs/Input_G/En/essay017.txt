@@ -13,32 +13,120 @@ digraph G {
 	236 -> 307;
 	250 -> 307;
 	262 -> 307;
-	53 [label="television devastate families ties",color=green];
-	73 [label="Emergence of new television channels or shows are not surprising",color=blue];
-	58 [label="In spite of enjoying watching television shows , it is really time consuming task",color=green];
-	73 [label="Emergence of new television channels or shows are not surprising",color=blue];
-	73 [label="Emergence of new television channels or shows are not surprising",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
-	84 [label="We kill time by tracking these channels so at the end of the day we understand it is late for doing any other activities",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
-	109 [label="This is a problem that suffers all of us everyday",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
-	124 [label="there is no time for call to our parents or friends",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
-	140 [label="watching television programs makes us lazy",color=green];
-	147 [label="We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office",color=blue];
-	147 [label="We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
-	177 [label="we do not have time to spend for healthy activity such as going to a gym or doing other sports",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
-	198 [label="This makes us a lazy person who prefers to do sedentary activities like watching television shows rather than be active and sociable",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
-	226 [label="some television programs have a negative effect on viewers",color=green];
-	236 [label="Some thriller or action movies advertise negative activities such as doing criminal activity",color=blue];
-	236 [label="Some thriller or action movies advertise negative activities such as doing criminal activity",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
-	250 [label="These genre of programs has more negative effects on our teenagers",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
-	262 [label="They usually try to mimic what they see on movies in their daily behaviors",color=blue];
-	307 [label="it is a global problem to solve this problem and it is need global contribution to find a solution",color=green];
+	53 [label="television devastate
+ families ties",color=green];
+	73 [label="Emergence of
+ new television channels or shows
+ are not surprising",color=blue];
+	58 [label="In spite
+ of enjoying watching television shows
+ , it is really time
+ consuming task",color=green];
+	73 [label="Emergence of
+ new television channels or shows
+ are not surprising",color=blue];
+	73 [label="Emergence of
+ new television channels or shows
+ are not surprising",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
+	84 [label="We kill time by tracking these
+ channels so at the end
+ of the day we understand
+ it is late for doing
+ any other activities",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
+	109 [label="This is a problem that suffers
+ all of us everyday",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
+	124 [label="there is no time for call
+ to our parents or friends
+",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
+	140 [label="watching television programs makes us
+ lazy",color=green];
+	147 [label="We usually spend
+ our times in front of
+ television for at least three
+ ours a day when we
+ come back home after eight-hour
+ working in the office",color=blue];
+	147 [label="We usually spend
+ our times in front of
+ television for at least three
+ ours a day when we
+ come back home after eight-hour
+ working in the office",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
+	177 [label="we do not
+ have time to spend for
+ healthy activity such as going
+ to a gym or doing
+ other sports",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
+	198 [label="This makes
+ us a lazy person who
+ prefers to do sedentary activities
+ like watching television shows rather
+ than be active and sociable
+",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
+	226 [label="some television programs have
+ a negative effect on viewers
+",color=green];
+	236 [label="Some thriller or action
+ movies advertise negative activities such
+ as doing criminal activity",color=blue];
+	236 [label="Some thriller or action
+ movies advertise negative activities such
+ as doing criminal activity",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
+	250 [label="These genre of programs has
+ more negative effects on our
+ teenagers",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
+	262 [label="They usually try
+ to mimic what they see
+ on movies in their daily
+ behaviors",color=blue];
+	307 [label="it is a
+ global problem to solve this
+ problem and it is need
+ global contribution to find a
+ solution",color=green];
 }

@@ -2,10 +2,30 @@ digraph G {
 	186 -> 318;
 	215 -> 318;
 	248 -> 318;
-	186 [label="both local people and governments can make a large amount of money through these services , and more employment opportunities can be created as well",color=blue];
-	318 [label="the prosperity of tourism can provide benefits for people on a global scale",color=green];
-	215 [label="the revenue earned form tourism can be used in turn to reduce pollution and protect the environment",color=blue];
-	318 [label="the prosperity of tourism can provide benefits for people on a global scale",color=green];
-	248 [label="the provision of direct airlines makes it possible for them to travel conveniently and comfortably",color=blue];
-	318 [label="the prosperity of tourism can provide benefits for people on a global scale",color=green];
+	186 [label="both local people and governments
+ can make a large amount
+ of money through these services
+ , and more employment opportunities
+ can be created as well
+",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	215 [label="the revenue earned form tourism can
+ be used in turn to
+ reduce pollution and protect the
+ environment",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	248 [label="the provision of
+ direct airlines makes it possible
+ for them to travel conveniently
+ and comfortably",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
 }

@@ -7,20 +7,58 @@ digraph G {
 	237 -> 280;
 	241 -> 295;
 	259 -> 295;
-	64 [label="considered is the risk of accidents with guns",color=green];
-	73 [label="the accidents cannot be completely avoided although only those who have gun licenses can purchase guns",color=blue];
-	146 [label="especially in some countries where guns are available for people",color=green];
+	64 [label="considered is
+ the risk of accidents with
+ guns",color=green];
+	73 [label="the accidents cannot
+ be completely avoided although only
+ those who have gun licenses
+ can purchase guns",color=blue];
+	146 [label="especially in some countries where
+ guns are available for people
+",color=green];
 	170 [label="take an example",color=blue];
 	170 [label="take an example",color=blue];
-	280 [label="the rise in accident rates , violent crime rates and suicide rates , i",color=green];
-	198 [label="what is worse",color=blue];
-	295 [label="that the guns should be strictly limited and the government should enforce a series of laws to prevent our societies from violence",color=green];
-	202 [label="some terrorists are able to possess more advanced weapons than the police , which makes citizens always live in danger",color=blue];
-	295 [label="that the guns should be strictly limited and the government should enforce a series of laws to prevent our societies from violence",color=green];
+	280 [label="the rise in accident rates ,
+ violent crime rates and suicide
+ rates , i",color=green];
+	198 [label="what is worse
+",color=blue];
+	295 [label="that the guns should be strictly
+ limited and the government should
+ enforce a series of laws
+ to prevent our societies from
+ violence",color=green];
+	202 [label="some terrorists are able
+ to possess more advanced weapons
+ than the police , which
+ makes citizens always live in
+ danger",color=blue];
+	295 [label="that the guns should be strictly
+ limited and the government should
+ enforce a series of laws
+ to prevent our societies from
+ violence",color=green];
 	237 [label="in the us",color=blue];
-	280 [label="the rise in accident rates , violent crime rates and suicide rates , i",color=green];
-	241 [label="firearms remain the most common method of suicide , accounting for about 50 per cent",color=blue];
-	295 [label="that the guns should be strictly limited and the government should enforce a series of laws to prevent our societies from violence",color=green];
-	259 [label="there is an increasing trend of adolescent suicides and suicides among those age 75 and",color=blue];
-	295 [label="that the guns should be strictly limited and the government should enforce a series of laws to prevent our societies from violence",color=green];
+	280 [label="the rise in accident rates ,
+ violent crime rates and suicide
+ rates , i",color=green];
+	241 [label="firearms remain the most common
+ method of suicide , accounting
+ for about 50 per cent
+",color=blue];
+	295 [label="that the guns should be strictly
+ limited and the government should
+ enforce a series of laws
+ to prevent our societies from
+ violence",color=green];
+	259 [label="there is
+ an increasing trend of adolescent
+ suicides and suicides among those
+ age 75 and",color=blue];
+	295 [label="that the guns should be strictly
+ limited and the government should
+ enforce a series of laws
+ to prevent our societies from
+ violence",color=green];
 }

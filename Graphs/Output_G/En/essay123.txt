@@ -3,12 +3,37 @@ digraph G {
 	117 -> 221;
 	143 -> 205;
 	179 -> 205;
-	89 [label="they have experienced a large numbers of stuffs during their life , so if children listen to their advices they can prevent happening worst things",color=blue];
-	221 [label="to prevent some problems coming up for young",color=green];
-	117 [label="they can save value things in their life such as time and money , and enjoy they life with the best way",color=blue];
-	221 [label="to prevent some problems coming up for young",color=green];
-	143 [label="have always believed that parents and adults relatives are the best friends and consular for the teenagers , because unfortunately nowadays there are some individuals who cheat the others for gaining more power and money",color=blue];
-	205 [label="people from young ages to old ages are free to make a decision",color=green];
-	179 [label="they cheat young ages because they believe they are immature and they can trap them easily",color=blue];
-	205 [label="people from young ages to old ages are free to make a decision",color=green];
+	89 [label="they have
+ experienced a large numbers of
+ stuffs during their life ,
+ so if children listen to
+ their advices they can prevent
+ happening worst things",color=blue];
+	221 [label="to prevent some problems coming
+ up for young",color=green];
+	117 [label="they can save value
+ things in their life such
+ as time and money ,
+ and enjoy they life with
+ the best way",color=blue];
+	221 [label="to prevent some problems coming
+ up for young",color=green];
+	143 [label="have always believed
+ that parents and adults relatives
+ are the best friends and
+ consular for the teenagers ,
+ because unfortunately nowadays there are
+ some individuals who cheat the
+ others for gaining more power
+ and money",color=blue];
+	205 [label="people from young ages to old
+ ages are free to make
+ a decision",color=green];
+	179 [label="they cheat
+ young ages because they believe
+ they are immature and they
+ can trap them easily",color=blue];
+	205 [label="people from young ages to old
+ ages are free to make
+ a decision",color=green];
 }

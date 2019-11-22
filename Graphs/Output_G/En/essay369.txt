@@ -1,5 +1,12 @@
 digraph G {
 	183 -> 174;
-	174 [label="it is not tourism to be blamed for",color=green];
-	183 [label="in order to turn a wilderness into a place of attraction , the planners must have taken the nourishment of the sceneries into thorough consideration",color=blue];
+	174 [label="it is
+ not tourism to be blamed
+ for",color=green];
+	183 [label="in order to
+ turn a wilderness into a
+ place of attraction , the
+ planners must have taken the
+ nourishment of the sceneries into
+ thorough consideration",color=blue];
 }

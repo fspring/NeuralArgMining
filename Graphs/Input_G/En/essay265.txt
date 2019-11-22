@@ -12,30 +12,98 @@ digraph G {
 	227 -> 300;
 	248 -> 300;
 	262 -> 300;
-	31 [label="both the ability to relate well to people and studying hard in school are important for success in a future job",color=green];
-	56 [label="We need to know and learn about the theoritical basis of our future job",color=blue];
-	56 [label="We need to know and learn about the theoritical basis of our future job",color=blue];
-	163 [label="studying hard in school is an important factor to succeed in a job",color=green];
-	71 [label="This can be done in school",color=blue];
-	163 [label="studying hard in school is an important factor to succeed in a job",color=green];
-	78 [label="In school , we are able to identify skills required for our future job and work on mastering and learning them",color=blue];
-	163 [label="studying hard in school is an important factor to succeed in a job",color=green];
-	100 [label="If we study them hard , we will have the chance of doing our job better and quicker in the future",color=blue];
-	163 [label="studying hard in school is an important factor to succeed in a job",color=green];
-	125 [label="if someone wants to become a good industrial engineer , he should study his technical courses very well so that he will be able to utilize them well in his future job",color=blue];
-	163 [label="studying hard in school is an important factor to succeed in a job",color=green];
-	177 [label="One of the other factors for success in a future job is effective commuincation",color=blue];
-	300 [label="relating well to people is also another important factor",color=green];
-	192 [label="By relating well to people , we are likely to have a lot of friends",color=blue];
-	300 [label="relating well to people is also another important factor",color=green];
-	209 [label="we will have a wide network of communication",color=blue];
-	300 [label="relating well to people is also another important factor",color=green];
-	218 [label="Commuincation can bring many benefits",color=blue];
-	300 [label="relating well to people is also another important factor",color=green];
-	227 [label="if you need help with getting a job , by commuincating with people offering jobs whom you treat well",color=blue];
-	300 [label="relating well to people is also another important factor",color=green];
-	248 [label="they respect you as well , you can achieve your goal",color=blue];
-	300 [label="relating well to people is also another important factor",color=green];
-	262 [label="if you are a salesman in a store or any other place , by relating well to your customers , you will increase the chance of their coming back again and becoming your regular customers",color=blue];
-	300 [label="relating well to people is also another important factor",color=green];
+	31 [label="both the ability to
+ relate well to people and
+ studying hard in school are
+ important for success in a
+ future job",color=green];
+	56 [label="We need to know
+ and learn about the theoritical
+ basis of our future job
+",color=blue];
+	56 [label="We need to know
+ and learn about the theoritical
+ basis of our future job
+",color=blue];
+	163 [label="studying hard
+ in school is an important
+ factor to succeed in a
+ job",color=green];
+	71 [label="This can be done
+ in school",color=blue];
+	163 [label="studying hard
+ in school is an important
+ factor to succeed in a
+ job",color=green];
+	78 [label="In school
+ , we are able to
+ identify skills required for our
+ future job and work on
+ mastering and learning them",color=blue];
+	163 [label="studying hard
+ in school is an important
+ factor to succeed in a
+ job",color=green];
+	100 [label="If we study them hard
+ , we will have the
+ chance of doing our job
+ better and quicker in the
+ future",color=blue];
+	163 [label="studying hard
+ in school is an important
+ factor to succeed in a
+ job",color=green];
+	125 [label="if someone wants to become
+ a good industrial engineer ,
+ he should study his technical
+ courses very well so that
+ he will be able to
+ utilize them well in his
+ future job",color=blue];
+	163 [label="studying hard
+ in school is an important
+ factor to succeed in a
+ job",color=green];
+	177 [label="One of the
+ other factors for success in
+ a future job is effective
+ commuincation",color=blue];
+	300 [label="relating well to people is
+ also another important factor",color=green];
+	192 [label="By relating well
+ to people , we are
+ likely to have a lot
+ of friends",color=blue];
+	300 [label="relating well to people is
+ also another important factor",color=green];
+	209 [label="we will have a wide network
+ of communication",color=blue];
+	300 [label="relating well to people is
+ also another important factor",color=green];
+	218 [label="Commuincation can
+ bring many benefits",color=blue];
+	300 [label="relating well to people is
+ also another important factor",color=green];
+	227 [label="if you need
+ help with getting a job
+ , by commuincating with people
+ offering jobs whom you treat
+ well",color=blue];
+	300 [label="relating well to people is
+ also another important factor",color=green];
+	248 [label="they respect
+ you as well , you
+ can achieve your goal",color=blue];
+	300 [label="relating well to people is
+ also another important factor",color=green];
+	262 [label="if you are
+ a salesman in a store
+ or any other place ,
+ by relating well to your
+ customers , you will increase
+ the chance of their coming
+ back again and becoming your
+ regular customers",color=blue];
+	300 [label="relating well to people is
+ also another important factor",color=green];
 }

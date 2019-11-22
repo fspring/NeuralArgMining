@@ -11,28 +11,72 @@ digraph G {
 	304 -> 345;
 	312 -> 322;
 	337 -> 345;
-	90 [label="opportunities is indispensable to have diverse experiences",color=green];
-	101 [label="life may not be easy ; it will have various challenges especially when you take risks",color=blue];
-	119 [label="in the",color=green];
-	159 [label="it can be tough to fit in this new place and find any opportunity , but after fighting against the obstacles blocking the way to get what is desired",color=blue];
-	123 [label="it can be",color=green];
-	159 [label="it can be tough to fit in this new place and find any opportunity , but after fighting against the obstacles blocking the way to get what is desired",color=blue];
+	90 [label="opportunities is indispensable to have diverse
+ experiences",color=green];
+	101 [label="life may not be easy
+ ; it will have various
+ challenges especially when you take
+ risks",color=blue];
+	119 [label="in the
+",color=green];
+	159 [label="it can
+ be tough to fit in
+ this new place and find
+ any opportunity , but after
+ fighting against the obstacles blocking
+ the way to get what
+ is desired",color=blue];
+	123 [label="it can be
+",color=green];
+	159 [label="it can
+ be tough to fit in
+ this new place and find
+ any opportunity , but after
+ fighting against the obstacles blocking
+ the way to get what
+ is desired",color=blue];
 	205 [label="new life in this",color=green];
-	273 [label="such as mickey mouse and three little pigs , were turned down",color=blue];
+	273 [label="such as mickey
+ mouse and three little pigs
+ , were turned down",color=blue];
 	216 [label="people are",color=green];
-	250 [label="walt disney , whose career is famous , had a challenging life",color=blue];
-	219 [label="to take risks",color=green];
-	263 [label="one of the difficulties was some of his histories",color=blue];
-	235 [label="but it is vital to never give up on your dream",color=blue];
-	322 [label="in this competitive world you have to be fearless and face all new situations",color=green];
-	273 [label="such as mickey mouse and three little pigs , were turned down",color=blue];
-	366 [label="be different and pursue your dream",color=green];
-	286 [label="he heard lots of "no"",color=blue];
-	345 [label="stay in the same routine that you are used to",color=green];
-	304 [label="after all what he had gone through",color=blue];
-	345 [label="stay in the same routine that you are used to",color=green];
-	312 [label="he never stop chasing his dreams",color=blue];
-	322 [label="in this competitive world you have to be fearless and face all new situations",color=green];
-	337 [label="even though sometimes you consider backing down and",color=blue];
-	345 [label="stay in the same routine that you are used to",color=green];
+	250 [label="walt disney , whose career is
+ famous , had a challenging
+ life",color=blue];
+	219 [label="to take
+ risks",color=green];
+	263 [label="one of the
+ difficulties was some of his
+ histories",color=blue];
+	235 [label="but it is vital to never
+ give up on your dream
+",color=blue];
+	322 [label="in this competitive world
+ you have to be fearless
+ and face all new situations
+",color=green];
+	273 [label="such as mickey
+ mouse and three little pigs
+ , were turned down",color=blue];
+	366 [label="be different and pursue your
+ dream",color=green];
+	286 [label="he heard lots of "no"
+",color=blue];
+	345 [label="stay in the same routine that
+ you are used to",color=green];
+	304 [label="after all
+ what he had gone through
+",color=blue];
+	345 [label="stay in the same routine that
+ you are used to",color=green];
+	312 [label="he never stop chasing
+ his dreams",color=blue];
+	322 [label="in this competitive world
+ you have to be fearless
+ and face all new situations
+",color=green];
+	337 [label="even though sometimes you
+ consider backing down and",color=blue];
+	345 [label="stay in the same routine that
+ you are used to",color=green];
 }

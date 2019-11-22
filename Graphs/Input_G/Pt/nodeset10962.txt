@@ -1,5 +1,8 @@
 digraph G {
 	22 -> 74;
-	22 [label="não há dinheiro",color=blue];
-	74 [label="continuamos a precisar deles para financiar o Estado e a economia",color=green];
+	22 [label="não há dinheiro
+",color=blue];
+	74 [label="continuamos a precisar deles para financiar
+ o Estado e a economia
+",color=green];
 }

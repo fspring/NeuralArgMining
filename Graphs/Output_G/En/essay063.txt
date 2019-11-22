@@ -2,10 +2,28 @@ digraph G {
 	90 -> 82;
 	158 -> 203;
 	388 -> 376;
-	82 [label="with the development of science and technology ,",color=green];
-	90 [label="more advanced kitchen facilities , such as the modern microwaves or the advanced pressure cookers , have been created and invented to help people prepare and cook food in a very short time",color=blue];
-	158 [label="there was a significant increase in the number of people from all walks of life realizing this valuable benefit of those technologies in doing their housework",color=blue];
-	203 [label="it is certain that spending less time on cooking will be the main trend in near future",color=green];
+	82 [label="with the development of
+ science and technology ,",color=green];
+	90 [label="more advanced kitchen facilities , such
+ as the modern microwaves or
+ the advanced pressure cookers ,
+ have been created and invented
+ to help people prepare and
+ cook food in a very
+ short time",color=blue];
+	158 [label="there was a
+ significant increase in the number
+ of people from all walks
+ of life realizing this valuable
+ benefit of those technologies in
+ doing their housework",color=blue];
+	203 [label="it is certain
+ that spending less time on
+ cooking will be the main
+ trend in near future",color=green];
 	376 [label="it is true",color=green];
-	388 [label="using technology or advanced facilities do not make food lose its nutrition and quality",color=blue];
+	388 [label="using technology or
+ advanced facilities do not make
+ food lose its nutrition and
+ quality",color=blue];
 }

@@ -4,14 +4,45 @@ digraph G {
 	205 -> 271;
 	226 -> 271;
 	244 -> 271;
-	110 [label="has replaced many old traditional ones",color=green];
-	120 [label="factories equipped with new and highly-productive system has replaced old handmade products , the exchange of letters among friends is so hard to be seen as we have had emails and social network instead , new video games has superseded the old-physical ones",color=blue];
-	187 [label="technology has also made some contributions to the maintenance and study of traditional cultures in some ways",color=green];
-	205 [label="internet has aided to assess the young generations to the cultural identity of many nations from all around the world",color=blue];
-	205 [label="internet has aided to assess the young generations to the cultural identity of many nations from all around the world",color=blue];
-	271 [label="modern technogy has impacted the traditional cultures in both negative and positive ways",color=green];
-	226 [label="with the help of advanced methods , many art masterpiece has been well restorated and well preserved",color=blue];
-	271 [label="modern technogy has impacted the traditional cultures in both negative and positive ways",color=green];
-	244 [label="modern devices also assist the scientists to study the ancient societies much more deeply , hence discovering more cultural traces",color=blue];
-	271 [label="modern technogy has impacted the traditional cultures in both negative and positive ways",color=green];
+	110 [label="has replaced many old traditional ones
+",color=green];
+	120 [label="factories equipped with new and highly-productive
+ system has replaced old handmade
+ products , the exchange of
+ letters among friends is so
+ hard to be seen as
+ we have had emails and
+ social network instead , new
+ video games has superseded the
+ old-physical ones",color=blue];
+	187 [label="technology has also made
+ some contributions to the maintenance
+ and study of traditional cultures
+ in some ways",color=green];
+	205 [label="internet has aided to assess the
+ young generations to the cultural
+ identity of many nations from
+ all around the world",color=blue];
+	205 [label="internet has aided to assess the
+ young generations to the cultural
+ identity of many nations from
+ all around the world",color=blue];
+	271 [label="modern technogy has impacted the
+ traditional cultures in both negative
+ and positive ways",color=green];
+	226 [label="with the help of advanced
+ methods , many art masterpiece
+ has been well restorated and
+ well preserved",color=blue];
+	271 [label="modern technogy has impacted the
+ traditional cultures in both negative
+ and positive ways",color=green];
+	244 [label="modern devices
+ also assist the scientists to
+ study the ancient societies much
+ more deeply , hence discovering
+ more cultural traces",color=blue];
+	271 [label="modern technogy has impacted the
+ traditional cultures in both negative
+ and positive ways",color=green];
 }

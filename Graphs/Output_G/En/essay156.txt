@@ -4,14 +4,32 @@ digraph G {
 	144 -> 160;
 	214 -> 191;
 	257 -> 273;
-	37 [label="violence in movies has negative effects on youngsters mostly on their behaviors , emotions & study",color=green];
-	76 [label="nowadays children are more involved in tv programs",color=blue];
+	37 [label="violence in movies has
+ negative effects on youngsters mostly
+ on their behaviors , emotions
+ & study",color=green];
+	76 [label="nowadays children are more involved
+ in tv programs",color=blue];
 	54 [label="in",color=blue];
-	191 [label="study of youngsters shall always been controlled",color=green];
-	144 [label="dying is always a disappointing happening",color=blue];
-	160 [label="these scenes are in tv , they would probably have their negative effects on the viewer who could be a child",color=green];
-	191 [label="study of youngsters shall always been controlled",color=green];
-	214 [label="he has to study for the exam",color=blue];
-	257 [label="the study of a youngster would affected terribly",color=blue];
-	273 [label="that growing of violence in films have definitely negative effects on youngsters mostly on their study , emotions and behaviors",color=green];
+	191 [label="study of youngsters shall always
+ been controlled",color=green];
+	144 [label="dying is
+ always a disappointing happening",color=blue];
+	160 [label="these scenes are in tv ,
+ they would probably have their
+ negative effects on the viewer
+ who could be a child
+",color=green];
+	191 [label="study of youngsters shall always
+ been controlled",color=green];
+	214 [label="he has
+ to study for the exam
+",color=blue];
+	257 [label="the study of a
+ youngster would affected terribly",color=blue];
+	273 [label="that growing of
+ violence in films have definitely
+ negative effects on youngsters mostly
+ on their study , emotions
+ and behaviors",color=green];
 }

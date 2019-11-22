@@ -16,38 +16,153 @@ digraph G {
 	446 -> 544;
 	510 -> 487;
 	510 -> 544;
-	72 [label="zoos provide social interaction , education , and develop qualities such as animal respect and understanding",color=green];
-	89 [label="When people visit the zoo , they normally do it in a group , with their families , or as a part of a school group activity",color=blue];
-	89 [label="When people visit the zoo , they normally do it in a group , with their families , or as a part of a school group activity",color=blue];
-	175 [label="The zoo is a great reason for spending time with the family , it is a great activity that can be enjoyed every family member , from little children to grandparents",color=green];
-	117 [label="In the zoo they interact with each other and are able to relax and look at the animals , play with some of them , comment on their appearance and behavior , and laugh at their funny customs",color=blue];
-	175 [label="The zoo is a great reason for spending time with the family , it is a great activity that can be enjoyed every family member , from little children to grandparents",color=green];
-	156 [label="Nowadays families do not spend as much time together as they used to a couple of decades ago",color=blue];
-	175 [label="The zoo is a great reason for spending time with the family , it is a great activity that can be enjoyed every family member , from little children to grandparents",color=green];
-	207 [label="Animals , the different species , their habitats and behaviors are a subject of study at schools and universities",color=blue];
-	358 [label="Visiting the zoo would help the students understand what they learn at school",color=green];
-	227 [label="We can learn a lot from books and lectures , but there is an even better way to learn , that is visuals and personal experience",color=blue];
-	358 [label="Visiting the zoo would help the students understand what they learn at school",color=green];
-	254 [label="If you visit the zoo , you get to watch the animals , their customs , what they eat and how they eat it , as well as which characteristics the different species have",color=blue];
-	358 [label="Visiting the zoo would help the students understand what they learn at school",color=green];
-	289 [label="In the zoo you can see an animal and their different variations , the male and the female or the baby and the adult",color=blue];
-	358 [label="Visiting the zoo would help the students understand what they learn at school",color=green];
-	314 [label="It offers a great opportunity to observe their reactions to different situations , such as weather , specie and genre interaction , defense behavior , or protection of their babies",color=blue];
-	358 [label="Visiting the zoo would help the students understand what they learn at school",color=green];
-	347 [label="it will also help identify which animals could be dangerous",color=blue];
-	358 [label="Visiting the zoo would help the students understand what they learn at school",color=green];
-	374 [label="a visit to the zoo will help increasing someone's respect and appreciation for animals",color=green];
-	389 [label="It is a lot easier to appreciate something after you have seen it , and learned from it",color=blue];
-	389 [label="It is a lot easier to appreciate something after you have seen it , and learned from it",color=blue];
+	72 [label="zoos provide social
+ interaction , education , and
+ develop qualities such as animal
+ respect and understanding",color=green];
+	89 [label="When people visit the zoo ,
+ they normally do it in
+ a group , with their
+ families , or as a
+ part of a school group
+ activity",color=blue];
+	89 [label="When people visit the zoo ,
+ they normally do it in
+ a group , with their
+ families , or as a
+ part of a school group
+ activity",color=blue];
+	175 [label="The zoo is a great
+ reason for spending time with
+ the family , it is
+ a great activity that can
+ be enjoyed every family member
+ , from little children to
+ grandparents",color=green];
+	117 [label="In the zoo
+ they interact with each other
+ and are able to relax
+ and look at the animals
+ , play with some of
+ them , comment on their
+ appearance and behavior , and
+ laugh at their funny customs
+",color=blue];
+	175 [label="The zoo is a great
+ reason for spending time with
+ the family , it is
+ a great activity that can
+ be enjoyed every family member
+ , from little children to
+ grandparents",color=green];
+	156 [label="Nowadays families do not
+ spend as much time together
+ as they used to a
+ couple of decades ago",color=blue];
+	175 [label="The zoo is a great
+ reason for spending time with
+ the family , it is
+ a great activity that can
+ be enjoyed every family member
+ , from little children to
+ grandparents",color=green];
+	207 [label="Animals , the
+ different species , their habitats
+ and behaviors are a subject
+ of study at schools and
+ universities",color=blue];
+	358 [label="Visiting the
+ zoo would help the students
+ understand what they learn at
+ school",color=green];
+	227 [label="We can learn
+ a lot from books and
+ lectures , but there is
+ an even better way to
+ learn , that is visuals
+ and personal experience",color=blue];
+	358 [label="Visiting the
+ zoo would help the students
+ understand what they learn at
+ school",color=green];
+	254 [label="If you visit the zoo ,
+ you get to watch the
+ animals , their customs ,
+ what they eat and how
+ they eat it , as
+ well as which characteristics the
+ different species have",color=blue];
+	358 [label="Visiting the
+ zoo would help the students
+ understand what they learn at
+ school",color=green];
+	289 [label="In the zoo you can see
+ an animal and their different
+ variations , the male and
+ the female or the baby
+ and the adult",color=blue];
+	358 [label="Visiting the
+ zoo would help the students
+ understand what they learn at
+ school",color=green];
+	314 [label="It offers a great opportunity to
+ observe their reactions to different
+ situations , such as weather
+ , specie and genre interaction
+ , defense behavior , or
+ protection of their babies",color=blue];
+	358 [label="Visiting the
+ zoo would help the students
+ understand what they learn at
+ school",color=green];
+	347 [label="it will also
+ help identify which animals could
+ be dangerous",color=blue];
+	358 [label="Visiting the
+ zoo would help the students
+ understand what they learn at
+ school",color=green];
+	374 [label="a visit to the zoo will
+ help increasing someone's respect and
+ appreciation for animals",color=green];
+	389 [label="It is a lot easier to
+ appreciate something after you have
+ seen it , and learned
+ from it",color=blue];
+	389 [label="It is a lot easier to
+ appreciate something after you have
+ seen it , and learned
+ from it",color=blue];
 	544 [label="zoos are very useful",color=green];
-	408 [label="This is especially true for people living in the city , where the only animals they normally interact with are pets like cats and dogs",color=blue];
+	408 [label="This is
+ especially true for people living
+ in the city , where
+ the only animals they normally
+ interact with are pets like
+ cats and dogs",color=blue];
 	544 [label="zoos are very useful",color=green];
-	434 [label="In the present there is a lack of respect for animals",color=blue];
+	434 [label="In the present there is a
+ lack of respect for animals
+",color=blue];
 	544 [label="zoos are very useful",color=green];
-	446 [label="Being able to see the animals in real life and learning facts about them would help by making people aware of the importance of animals and the respect they deserve",color=blue];
+	446 [label="Being able to see
+ the animals in real life
+ and learning facts about them
+ would help by making people
+ aware of the importance of
+ animals and the respect they
+ deserve",color=blue];
 	544 [label="zoos are very useful",color=green];
-	487 [label="in some of them the animals are not very well taken care of and they do not have good and clean facilities",color=green];
-	510 [label="This is mostly true but does not relate to the purpose of zoos",color=blue];
-	510 [label="This is mostly true but does not relate to the purpose of zoos",color=blue];
+	487 [label="in some of
+ them the animals are not
+ very well taken care of
+ and they do not have
+ good and clean facilities",color=green];
+	510 [label="This is mostly true but
+ does not relate to the
+ purpose of zoos",color=blue];
+	510 [label="This is mostly true but
+ does not relate to the
+ purpose of zoos",color=blue];
 	544 [label="zoos are very useful",color=green];
 }

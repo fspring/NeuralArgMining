@@ -1,5 +1,8 @@
 digraph G {
 	261 -> 373;
-	261 [label="other alternatives , like resource extraction and manufacture , are far worse destroyers",color=blue];
-	373 [label="it is evident that under suitable administration",color=green];
+	261 [label="other alternatives , like resource
+ extraction and manufacture , are
+ far worse destroyers",color=blue];
+	373 [label="it is evident
+ that under suitable administration",color=green];
 }

@@ -3,9 +3,32 @@ digraph G {
 	116 -> 179;
 	138 -> 179;
 	80 [label="people",color=green];
-	89 [label="is that such news media as televisions , radios , or newspapers are bringing many news on entertainment sector from all over the world to everybody",color=blue];
-	116 [label="people can sit in front of their televisions and watch whatever they want , from musical concerts to live football match",color=blue];
-	179 [label="that mass media provide people with a variety of global news on all fields , including political situation , economic change , global warming , and so forth",color=green];
-	138 [label="this is a convenient way of relaxation after hard work",color=blue];
-	179 [label="that mass media provide people with a variety of global news on all fields , including political situation , economic change , global warming , and so forth",color=green];
+	89 [label="is that
+ such news media as televisions
+ , radios , or newspapers
+ are bringing many news on
+ entertainment sector from all over
+ the world to everybody",color=blue];
+	116 [label="people can sit in front
+ of their televisions and watch
+ whatever they want , from
+ musical concerts to live football
+ match",color=blue];
+	179 [label="that mass
+ media provide people with a
+ variety of global news on
+ all fields , including political
+ situation , economic change ,
+ global warming , and so
+ forth",color=green];
+	138 [label="this is a
+ convenient way of relaxation after
+ hard work",color=blue];
+	179 [label="that mass
+ media provide people with a
+ variety of global news on
+ all fields , including political
+ situation , economic change ,
+ global warming , and so
+ forth",color=green];
 }

@@ -4,14 +4,47 @@ digraph G {
 	198 -> 176;
 	216 -> 189;
 	216 -> 256;
-	142 [label="why governments should allocate more budget on prevention from illness and providing health education",color=green];
-	177 [label="life and the happiness and welfare come with health",color=blue];
-	167 [label="there is nothing more important than health in",color=green];
-	198 [label="its citizens to learn how to prevent from potential illness that can cause misery in people's lives",color=blue];
+	142 [label="why governments should allocate
+ more budget on prevention from
+ illness and providing health education
+",color=green];
+	177 [label="life and the happiness
+ and welfare come with health
+",color=blue];
+	167 [label="there is nothing more
+ important than health in",color=green];
+	198 [label="its citizens to
+ learn how to prevent from
+ potential illness that can cause
+ misery in people's lives",color=blue];
 	176 [label="human's",color=green];
-	198 [label="its citizens to learn how to prevent from potential illness that can cause misery in people's lives",color=blue];
-	189 [label="a government's role should be providing means that lead",color=green];
-	216 [label="for example , the marketing campaign of ministry of health in turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign",color=blue];
-	216 [label="for example , the marketing campaign of ministry of health in turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign",color=blue];
-	256 [label="greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being",color=green];
+	198 [label="its citizens to
+ learn how to prevent from
+ potential illness that can cause
+ misery in people's lives",color=blue];
+	189 [label="a government's
+ role should be providing means
+ that lead",color=green];
+	216 [label="for example , the marketing
+ campaign of ministry of health
+ in turkey which aimed smoking
+ problem among the youth increased
+ the well-being of those who
+ quit smoking and adapted a
+ better lifestyle after the campaign
+",color=blue];
+	216 [label="for example , the marketing
+ campaign of ministry of health
+ in turkey which aimed smoking
+ problem among the youth increased
+ the well-being of those who
+ quit smoking and adapted a
+ better lifestyle after the campaign
+",color=blue];
+	256 [label="greater proportion of the budget
+ should be allotted to education
+ and prevention issues in comparison
+ with treatment due to achieve
+ more effective health system and
+ greater level of well-being",color=green];
 }

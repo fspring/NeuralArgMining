@@ -2,10 +2,26 @@ digraph G {
 	30 -> 20;
 	47 -> 62;
 	95 -> 73;
-	20 [label="É uma evolução que deve registar-se de forma positiva",color=green];
-	30 [label="ainda estamos longe da consolidação fiscal e nunca devemos esquecer que mais défice significa mais dívida",color=blue];
-	47 [label="E se esta é dada como insustentável aos níveis a que se encontra",color=blue];
-	62 [label="não se tornará sustentável se continuarmos a aumentar a factura",color=green];
-	73 [label="Se em vez do programa do Governo olharmos para o programa eleitoral do PS , a evolução é ainda mais notável",color=green];
-	95 [label="António Costa começou por trabalhar com um défice orçamental previsional de 3% para este ano",color=blue];
+	20 [label="É uma evolução que deve
+ registar-se de forma positiva",color=green];
+	30 [label="ainda estamos longe da consolidação
+ fiscal e nunca devemos esquecer
+ que mais défice significa mais
+ dívida",color=blue];
+	47 [label="E se esta
+ é dada como insustentável aos
+ níveis a que se encontra
+",color=blue];
+	62 [label="não se tornará
+ sustentável se continuarmos a aumentar
+ a factura",color=green];
+	73 [label="Se em
+ vez do programa do Governo
+ olharmos para o programa eleitoral
+ do PS , a evolução
+ é ainda mais notável",color=green];
+	95 [label="António Costa começou por trabalhar
+ com um défice orçamental previsional
+ de 3% para este ano
+",color=blue];
 }

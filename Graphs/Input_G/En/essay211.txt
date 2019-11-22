@@ -12,30 +12,106 @@ digraph G {
 	279 -> 349;
 	286 -> 349;
 	310 -> 349;
-	34 [label="non-academic subjects should be completely removed , I strongly disagree with that",color=green];
-	51 [label="from the health point of view , schools should not only deliver academic subjects",color=blue];
-	51 [label="from the health point of view , schools should not only deliver academic subjects",color=blue];
-	133 [label="Removing physical classes from school education will not only be harmful to young people’s health , it will also decrease their learning capability",color=green];
-	66 [label="If physical education is removed from the syllabus , there will be considerable negative effects on students’ health",color=blue];
-	133 [label="Removing physical classes from school education will not only be harmful to young people’s health , it will also decrease their learning capability",color=green];
-	88 [label="after studying and sitting in the classroom for the whole morning , it is better for students to do some outdoor activities , such as stretching , jogging and playing ball games , in order to improve their learning ability during the afternoon classes",color=blue];
-	133 [label="Removing physical classes from school education will not only be harmful to young people’s health , it will also decrease their learning capability",color=green];
-	160 [label="schools are responsible for developing their students into well-rounded people",color=blue];
-	225 [label="school education should not only focus on the academic development of a student",color=green];
-	171 [label="It is more important for a person to success in life than to success only academically",color=blue];
-	225 [label="school education should not only focus on the academic development of a student",color=green];
-	188 [label="Success in life should be the ultimate goal of a student , which requires more than academic knowledge , but also practical life skills such as cooking , good communication skills and teamwork spirit",color=blue];
-	225 [label="school education should not only focus on the academic development of a student",color=green];
-	225 [label="school education should not only focus on the academic development of a student",color=green];
-	239 [label="it is much more crucial to teach them how to be independent and live a good life",color=blue];
-	239 [label="it is much more crucial to teach them how to be independent and live a good life",color=blue];
-	349 [label="schools should not remove these subjects",color=green];
-	262 [label="students can learn practical skills after school hours from their parents",color=green];
-	279 [label="it is not a good idea",color=blue];
-	279 [label="it is not a good idea",color=blue];
-	349 [label="schools should not remove these subjects",color=green];
-	286 [label="most young people would rather watch TV or play computer games after school instead of learning life skills from their parents",color=blue];
-	349 [label="schools should not remove these subjects",color=green];
-	310 [label="parents are usually too busy with their daily jobs to teach their children the life skills",color=blue];
-	349 [label="schools should not remove these subjects",color=green];
+	34 [label="non-academic subjects should be completely removed
+ , I strongly disagree with
+ that",color=green];
+	51 [label="from the health point
+ of view , schools should
+ not only deliver academic subjects
+",color=blue];
+	51 [label="from the health point
+ of view , schools should
+ not only deliver academic subjects
+",color=blue];
+	133 [label="Removing physical
+ classes from school education will
+ not only be harmful to
+ young people’s health , it
+ will also decrease their learning
+ capability",color=green];
+	66 [label="If physical education is
+ removed from the syllabus ,
+ there will be considerable negative
+ effects on students’ health",color=blue];
+	133 [label="Removing physical
+ classes from school education will
+ not only be harmful to
+ young people’s health , it
+ will also decrease their learning
+ capability",color=green];
+	88 [label="after studying
+ and sitting in the classroom
+ for the whole morning ,
+ it is better for students
+ to do some outdoor activities
+ , such as stretching ,
+ jogging and playing ball games
+ , in order to improve
+ their learning ability during the
+ afternoon classes",color=blue];
+	133 [label="Removing physical
+ classes from school education will
+ not only be harmful to
+ young people’s health , it
+ will also decrease their learning
+ capability",color=green];
+	160 [label="schools are responsible for developing
+ their students into well-rounded people
+",color=blue];
+	225 [label="school education should not only
+ focus on the academic development
+ of a student",color=green];
+	171 [label="It is more important
+ for a person to success
+ in life than to success
+ only academically",color=blue];
+	225 [label="school education should not only
+ focus on the academic development
+ of a student",color=green];
+	188 [label="Success in
+ life should be the ultimate
+ goal of a student ,
+ which requires more than academic
+ knowledge , but also practical
+ life skills such as cooking
+ , good communication skills and
+ teamwork spirit",color=blue];
+	225 [label="school education should not only
+ focus on the academic development
+ of a student",color=green];
+	225 [label="school education should not only
+ focus on the academic development
+ of a student",color=green];
+	239 [label="it is much more crucial to
+ teach them how to be
+ independent and live a good
+ life",color=blue];
+	239 [label="it is much more crucial to
+ teach them how to be
+ independent and live a good
+ life",color=blue];
+	349 [label="schools should not remove these subjects
+",color=green];
+	262 [label="students can learn
+ practical skills after school hours
+ from their parents",color=green];
+	279 [label="it is not a good idea
+",color=blue];
+	279 [label="it is not a good idea
+",color=blue];
+	349 [label="schools should not remove these subjects
+",color=green];
+	286 [label="most young people would
+ rather watch TV or play
+ computer games after school instead
+ of learning life skills from
+ their parents",color=blue];
+	349 [label="schools should not remove these subjects
+",color=green];
+	310 [label="parents are usually too busy
+ with their daily jobs to
+ teach their children the life
+ skills",color=blue];
+	349 [label="schools should not remove these subjects
+",color=green];
 }

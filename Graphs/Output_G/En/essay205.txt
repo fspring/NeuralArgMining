@@ -6,18 +6,47 @@ digraph G {
 	336 -> 310;
 	354 -> 355;
 	399 -> 421;
-	133 [label="attendance saves time and money",color=green];
-	170 [label="by letting students choose not to attend class you give them the opportunity to escape bad teaching",color=blue];
-	253 [label="policy students are able to postpone the learning to the afternoon which gives a feeling of freedom and improves time efficiency",color=blue];
-	436 [label="the improvement of students' current experience as well as the valuable skills and knowledge they obtain for",color=green];
-	275 [label="research has shown that the more satisfied the students are with those life aspects , the better they perform in academic areas",color=blue];
-	436 [label="the improvement of students' current experience as well as the valuable skills and knowledge they obtain for",color=green];
-	303 [label="types of motivation",color=green];
-	311 [label="which comes from your own mindset",color=blue];
+	133 [label="attendance saves time
+ and money",color=green];
+	170 [label="by letting students choose not to
+ attend class you give them
+ the opportunity to escape bad
+ teaching",color=blue];
+	253 [label="policy students are
+ able to postpone the learning
+ to the afternoon which gives
+ a feeling of freedom and
+ improves time efficiency",color=blue];
+	436 [label="the improvement of students' current
+ experience as well as the
+ valuable skills and knowledge they
+ obtain for",color=green];
+	275 [label="research has shown that the more
+ satisfied the students are with
+ those life aspects , the
+ better they perform in academic
+ areas",color=blue];
+	436 [label="the improvement of students' current
+ experience as well as the
+ valuable skills and knowledge they
+ obtain for",color=green];
+	303 [label="types of motivation
+",color=green];
+	311 [label="which comes from your own
+ mindset",color=blue];
 	310 [label="motivation",color=green];
-	336 [label="is known to be much more desirable because it leads to better learning and well-being",color=blue];
+	336 [label="is known to be much
+ more desirable because it leads
+ to better learning and well-being
+",color=blue];
 	354 [label="in",color=blue];
-	355 [label="order to gain intrinsic motivation students need to become aware of",color=green];
-	399 [label="are crucial skills for the duration of their study and their whole life time",color=blue];
-	421 [label="going to classes should be optional for students",color=green];
+	355 [label="order to gain intrinsic motivation students
+ need to become aware of
+",color=green];
+	399 [label="are crucial
+ skills for the duration of
+ their study and their whole
+ life time",color=blue];
+	421 [label="going to classes should be
+ optional for students",color=green];
 }

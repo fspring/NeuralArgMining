@@ -2,10 +2,21 @@ digraph G {
 	67 -> 46;
 	183 -> 182;
 	220 -> 245;
-	46 [label="children from poorer families are prone to have bad habits such as",color=green];
-	67 [label="these people will not have an access",color=blue];
+	46 [label="children from poorer families are
+ prone to have bad habits
+ such as",color=green];
+	67 [label="these people will not
+ have an access",color=blue];
 	182 [label=",",color=green];
-	183 [label="because they use it",color=blue];
-	220 [label="many good medicines cost vast amounts of money , which cannot be afforded by poorer families",color=blue];
-	245 [label="that children who are brought up in less well-of families are , likely , more successful in the future life due to aforementioned reasons",color=green];
+	183 [label="because they use
+ it",color=blue];
+	220 [label="many good medicines cost vast amounts
+ of money , which cannot
+ be afforded by poorer families
+",color=blue];
+	245 [label="that children who are brought up
+ in less well-of families are
+ , likely , more successful
+ in the future life due
+ to aforementioned reasons",color=green];
 }

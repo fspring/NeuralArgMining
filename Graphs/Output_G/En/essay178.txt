@@ -1,8 +1,15 @@
 digraph G {
 	172 -> 158;
 	305 -> 312;
-	158 [label="not only provides a place to shop but also offer people jobs",color=green];
-	172 [label="may be a great number of job vacancies in the need of opening the new stores in the shopping mall",color=blue];
-	305 [label="the residents do not have a problem",color=blue];
+	158 [label="not only provides
+ a place to shop but
+ also offer people jobs",color=green];
+	172 [label="may be a great
+ number of job vacancies in
+ the need of opening the
+ new stores in the shopping
+ mall",color=blue];
+	305 [label="the residents do not have a
+ problem",color=blue];
 	312 [label="spending time on",color=green];
 }

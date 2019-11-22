@@ -3,12 +3,45 @@ digraph G {
 	102 -> 68;
 	102 -> 196;
 	160 -> 196;
-	35 [label="businesses should be allowed to do anything they want to make a profit",color=green];
-	49 [label="with this permission they are allowed to hit and damage everything for just making a profit",color=blue];
-	68 [label="if there is not any control on the businesses and they are permitted to do everything they want ,",color=green];
-	102 [label="every day we read and hear in televisions and newspapers that some factories hit the environment by their toxic substances",color=blue];
-	102 [label="every day we read and hear in televisions and newspapers that some factories hit the environment by their toxic substances",color=blue];
-	196 [label="companies , factories and businesses should be monitored by governments and executive , and they do not have to let do anything they want just due to making profit",color=green];
-	160 [label="a few months ago it was broadcast from tv that a company which produced baby milk , sold milk which did not have quality and it caused a few babies die",color=blue];
-	196 [label="companies , factories and businesses should be monitored by governments and executive , and they do not have to let do anything they want just due to making profit",color=green];
+	35 [label="businesses should be allowed to do
+ anything they want to make
+ a profit",color=green];
+	49 [label="with this
+ permission they are allowed to
+ hit and damage everything for
+ just making a profit",color=blue];
+	68 [label="if there is
+ not any control on the
+ businesses and they are permitted
+ to do everything they want
+ ,",color=green];
+	102 [label="every day we read
+ and hear in televisions and
+ newspapers that some factories hit
+ the environment by their toxic
+ substances",color=blue];
+	102 [label="every day we read
+ and hear in televisions and
+ newspapers that some factories hit
+ the environment by their toxic
+ substances",color=blue];
+	196 [label="companies , factories and businesses
+ should be monitored by governments
+ and executive , and they
+ do not have to let
+ do anything they want just
+ due to making profit",color=green];
+	160 [label="a few months ago it was
+ broadcast from tv that a
+ company which produced baby milk
+ , sold milk which did
+ not have quality and it
+ caused a few babies die
+",color=blue];
+	196 [label="companies , factories and businesses
+ should be monitored by governments
+ and executive , and they
+ do not have to let
+ do anything they want just
+ due to making profit",color=green];
 }

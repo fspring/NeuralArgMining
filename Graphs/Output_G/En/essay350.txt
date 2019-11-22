@@ -2,10 +2,20 @@ digraph G {
 	148 -> 107;
 	175 -> 147;
 	251 -> 240;
-	107 [label="media is to publish information about the current affairs as quickly",color=green];
-	148 [label="everyone wanted to know the details about this tragic incident",color=blue];
+	107 [label="media is to publish
+ information about the current affairs
+ as quickly",color=green];
+	148 [label="everyone wanted to
+ know the details about this
+ tragic incident",color=blue];
 	147 [label=",",color=green];
-	175 [label="such situations , newspapers and magazines can not respond as fast as digital media",color=blue];
+	175 [label="such situations , newspapers and magazines
+ can not respond as fast
+ as digital media",color=blue];
 	240 [label="for research",color=green];
-	251 [label="one research fellow may want to know how a small village named oramaki in japan was suffering after second world war",color=blue];
+	251 [label="one research fellow may want
+ to know how a small
+ village named oramaki in japan
+ was suffering after second world
+ war",color=blue];
 }

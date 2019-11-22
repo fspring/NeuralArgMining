@@ -1,5 +1,13 @@
 digraph G {
 	302 -> 361;
-	302 [label="i had felt very fragile and emotionally distracted , but then slowly i started adjusting with roommates and built connection with them",color=blue];
-	361 [label="every experience in life whether it is good or bad always gives us something to learn and keep for life",color=green];
+	302 [label="i had felt very
+ fragile and emotionally distracted ,
+ but then slowly i started
+ adjusting with roommates and built
+ connection with them",color=blue];
+	361 [label="every experience in life whether
+ it is good or bad
+ always gives us something to
+ learn and keep for life
+",color=green];
 }

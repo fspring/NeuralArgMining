@@ -7,20 +7,73 @@ digraph G {
 	185 -> 162;
 	185 -> 297;
 	203 -> 224;
-	53 [label="These changes make cooking so easy-to-use and time-saving as to improve the way we live to a great extent",color=green];
-	98 [label="such a change has liberated many housewives from tedious cooking process and gave them additional time to do something more meaningful like accompanying family or doing a job",color=blue];
-	77 [label="people have more chance to do other activities they like since food preparation is no longer time-consuming",color=green];
-	98 [label="such a change has liberated many housewives from tedious cooking process and gave them additional time to do something more meaningful like accompanying family or doing a job",color=blue];
-	98 [label="such a change has liberated many housewives from tedious cooking process and gave them additional time to do something more meaningful like accompanying family or doing a job",color=blue];
-	297 [label="I would assert that this change has improved our life significantly",color=green];
-	132 [label="more people can sleep a bit later to go to work",color=blue];
-	297 [label="I would assert that this change has improved our life significantly",color=green];
-	144 [label="they only need a couple of time to prepare for the breakfasts",color=blue];
-	297 [label="I would assert that this change has improved our life significantly",color=green];
-	162 [label="since food preparation has become easier and more convenient , it is certainly great to preserve diverse kinds of foods at home",color=green];
-	185 [label="People can have a variety of dishes even in a small meal and choose whatever they like",color=blue];
-	185 [label="People can have a variety of dishes even in a small meal and choose whatever they like",color=blue];
-	297 [label="I would assert that this change has improved our life significantly",color=green];
-	203 [label="More men , on the other hand , are willing to participate in cooking that they had never done before",color=blue];
-	224 [label="This transformation may bring positive impacts to family in some cases",color=green];
+	53 [label="These changes
+ make cooking so easy-to-use and
+ time-saving as to improve the
+ way we live to a
+ great extent",color=green];
+	98 [label="such a
+ change has liberated many housewives
+ from tedious cooking process and
+ gave them additional time to
+ do something more meaningful like
+ accompanying family or doing a
+ job",color=blue];
+	77 [label="people have more
+ chance to do other activities
+ they like since food preparation
+ is no longer time-consuming",color=green];
+	98 [label="such a
+ change has liberated many housewives
+ from tedious cooking process and
+ gave them additional time to
+ do something more meaningful like
+ accompanying family or doing a
+ job",color=blue];
+	98 [label="such a
+ change has liberated many housewives
+ from tedious cooking process and
+ gave them additional time to
+ do something more meaningful like
+ accompanying family or doing a
+ job",color=blue];
+	297 [label="I would assert
+ that this change has improved
+ our life significantly",color=green];
+	132 [label="more people can
+ sleep a bit later to
+ go to work",color=blue];
+	297 [label="I would assert
+ that this change has improved
+ our life significantly",color=green];
+	144 [label="they only need a couple of
+ time to prepare for the
+ breakfasts",color=blue];
+	297 [label="I would assert
+ that this change has improved
+ our life significantly",color=green];
+	162 [label="since food preparation
+ has become easier and more
+ convenient , it is certainly
+ great to preserve diverse kinds
+ of foods at home",color=green];
+	185 [label="People can have a variety
+ of dishes even in a
+ small meal and choose whatever
+ they like",color=blue];
+	185 [label="People can have a variety
+ of dishes even in a
+ small meal and choose whatever
+ they like",color=blue];
+	297 [label="I would assert
+ that this change has improved
+ our life significantly",color=green];
+	203 [label="More men
+ , on the other hand
+ , are willing to participate
+ in cooking that they had
+ never done before",color=blue];
+	224 [label="This transformation may bring positive impacts
+ to family in some cases
+",color=green];
 }

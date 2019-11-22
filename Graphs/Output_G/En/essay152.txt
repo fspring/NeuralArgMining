@@ -7,17 +7,43 @@ digraph G {
 	367 -> 332;
 	342 -> 371;
 	66 [label="in an era",color=green];
-	103 [label="the strong navigation system installed on the phones has been rescued lives of many who left alone in remote areas like forests or deserts",color=blue];
-	70 [label="technology is developing in the speed of light , steering",color=green];
-	103 [label="the strong navigation system installed on the phones has been rescued lives of many who left alone in remote areas like forests or deserts",color=blue];
+	103 [label="the strong navigation
+ system installed on the phones
+ has been rescued lives of
+ many who left alone in
+ remote areas like forests or
+ deserts",color=blue];
+	70 [label="technology is developing in the speed
+ of light , steering",color=green];
+	103 [label="the strong navigation
+ system installed on the phones
+ has been rescued lives of
+ many who left alone in
+ remote areas like forests or
+ deserts",color=blue];
 	270 [label="to be specific",color=blue];
-	332 [label="even though the people from older generation",color=green];
-	274 [label="scientists could invent ways to lead drugs directly to the damaged organs of the body , which is a miraculous breakthrough",color=blue];
-	343 [label="better life as there were stronger bonds between family members and friends , i think they are wrong , since",color=green];
+	332 [label="even though the people
+ from older generation",color=green];
+	274 [label="scientists could
+ invent ways to lead drugs
+ directly to the damaged organs
+ of the body , which
+ is a miraculous breakthrough",color=blue];
+	343 [label="better life as
+ there were stronger bonds between
+ family members and friends ,
+ i think they are wrong
+ , since",color=green];
 	296 [label="in general",color=blue];
-	343 [label="better life as there were stronger bonds between family members and friends , i think they are wrong , since",color=green];
-	332 [label="even though the people from older generation",color=green];
-	367 [label="age through a personal",color=blue];
+	343 [label="better life as
+ there were stronger bonds between
+ family members and friends ,
+ i think they are wrong
+ , since",color=green];
+	332 [label="even though the people
+ from older generation",color=green];
+	367 [label="age through a personal
+",color=blue];
 	342 [label="had",color=blue];
 	371 [label="prejudice",color=green];
 }

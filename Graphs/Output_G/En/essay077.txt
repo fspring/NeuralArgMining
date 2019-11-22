@@ -6,18 +6,65 @@ digraph G {
 	194 -> 323;
 	266 -> 323;
 	287 -> 323;
-	92 [label="which pose a great threat to the survival of wild animals",color=green];
-	115 [label="animals as various animals could be better protected by specialized staff",color=blue];
+	92 [label="which pose a great
+ threat to the survival of
+ wild animals",color=green];
+	115 [label="animals as various animals could be
+ better protected by specialized staff
+",color=blue];
 	107 [label="zoo",color=green];
-	140 [label="thanks to the considerate care , the diversity of wild animal could be",color=blue];
+	140 [label="thanks to the considerate care ,
+ the diversity of wild animal
+ could be",color=blue];
 	157 [label="zoos afford",color=green];
-	194 [label="when children pay a visit to the zoos , they still could observe the eating behavior or leisure activities among animals , which would definitely enrich their knowledge associated with different animals",color=blue];
+	194 [label="when children
+ pay a visit to the
+ zoos , they still could
+ observe the eating behavior or
+ leisure activities among animals ,
+ which would definitely enrich their
+ knowledge associated with different animals
+",color=blue];
 	160 [label="platform",color=green];
-	194 [label="when children pay a visit to the zoos , they still could observe the eating behavior or leisure activities among animals , which would definitely enrich their knowledge associated with different animals",color=blue];
-	194 [label="when children pay a visit to the zoos , they still could observe the eating behavior or leisure activities among animals , which would definitely enrich their knowledge associated with different animals",color=blue];
-	323 [label="zoos offer a good man-made environment which could prolong the life span of wild animals and cultivate the",color=green];
-	266 [label="some zoos are lack of systematic management which attributes to numerous wild animals die because of food shortage",color=blue];
-	323 [label="zoos offer a good man-made environment which could prolong the life span of wild animals and cultivate the",color=green];
-	287 [label="being caged in the zoos for long render wildlife lost the ability to survive in nature where is full of cruel competition among various animals",color=blue];
-	323 [label="zoos offer a good man-made environment which could prolong the life span of wild animals and cultivate the",color=green];
+	194 [label="when children
+ pay a visit to the
+ zoos , they still could
+ observe the eating behavior or
+ leisure activities among animals ,
+ which would definitely enrich their
+ knowledge associated with different animals
+",color=blue];
+	194 [label="when children
+ pay a visit to the
+ zoos , they still could
+ observe the eating behavior or
+ leisure activities among animals ,
+ which would definitely enrich their
+ knowledge associated with different animals
+",color=blue];
+	323 [label="zoos offer a
+ good man-made environment which could
+ prolong the life span of
+ wild animals and cultivate the
+",color=green];
+	266 [label="some zoos are lack of
+ systematic management which attributes to
+ numerous wild animals die because
+ of food shortage",color=blue];
+	323 [label="zoos offer a
+ good man-made environment which could
+ prolong the life span of
+ wild animals and cultivate the
+",color=green];
+	287 [label="being caged in the
+ zoos for long render wildlife
+ lost the ability to survive
+ in nature where is full
+ of cruel competition among various
+ animals",color=blue];
+	323 [label="zoos offer a
+ good man-made environment which could
+ prolong the life span of
+ wild animals and cultivate the
+",color=green];
 }

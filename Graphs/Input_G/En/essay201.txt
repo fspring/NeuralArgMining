@@ -12,30 +12,96 @@ digraph G {
 	257 -> 339;
 	271 -> 339;
 	293 -> 339;
-	39 [label="conservation is more urgent now than at any time in history",color=green];
-	51 [label="According to a statistic conducted by the International Animal Preserving Association , we have only ten percent of the animals that have ever existed , which means that the biodiversity of our home is grievously endangered",color=blue];
-	51 [label="According to a statistic conducted by the International Animal Preserving Association , we have only ten percent of the animals that have ever existed , which means that the biodiversity of our home is grievously endangered",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
-	91 [label="rising sea levels , caused by global warming , have reached a level that is threatening human's life in many countries",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
-	113 [label="If we continue discharging carbon dioxide with non-environmentally friendly cars , nations like Japan will be submerged and weather patterns could change , causing flooding , drought , and an increasing amount of damaging storms",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
-	152 [label="the ecosystem is in its worst condition ever and if we didn't take harsh measures now , we never will",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
-	175 [label="supporting environment protection will benefit the company eventually",color=green];
-	199 [label="sponsoring conservation is a more efficient method of advertising",color=blue];
-	186 [label="an increasing amount of people pay more attention to conservation",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
-	199 [label="sponsoring conservation is a more efficient method of advertising",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
-	209 [label="Just imagine if the project your company is sponsoring effectively improves the environment , then your company would be known as an environmentally-friendly company and benefit from it in this consumer-oriented society",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
-	244 [label="conservation leads us to a higher standard of living",color=green];
-	257 [label="art is one of the best ways of entertaining human beings",color=blue];
-	257 [label="art is one of the best ways of entertaining human beings",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
-	271 [label="with exhaust fumes and acid rain , we do not have the energy and enthusiasm to appreciate the paintings or photographs",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
-	293 [label="Biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art",color=blue];
-	339 [label="I still hold the environment protection for long-term interest",color=green];
+	39 [label="conservation is more urgent now than
+ at any time in history
+",color=green];
+	51 [label="According to a statistic
+ conducted by the International Animal
+ Preserving Association , we have
+ only ten percent of the
+ animals that have ever existed
+ , which means that the
+ biodiversity of our home is
+ grievously endangered",color=blue];
+	51 [label="According to a statistic
+ conducted by the International Animal
+ Preserving Association , we have
+ only ten percent of the
+ animals that have ever existed
+ , which means that the
+ biodiversity of our home is
+ grievously endangered",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
+	91 [label="rising sea levels ,
+ caused by global warming ,
+ have reached a level that
+ is threatening human's life in
+ many countries",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
+	113 [label="If we
+ continue discharging carbon dioxide with
+ non-environmentally friendly cars , nations
+ like Japan will be submerged
+ and weather patterns could change
+ , causing flooding , drought
+ , and an increasing amount
+ of damaging storms",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
+	152 [label="the ecosystem is
+ in its worst condition ever
+ and if we didn't take
+ harsh measures now , we
+ never will",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
+	175 [label="supporting environment protection will benefit
+ the company eventually",color=green];
+	199 [label="sponsoring conservation is a more efficient
+ method of advertising",color=blue];
+	186 [label="an increasing amount of
+ people pay more attention to
+ conservation",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
+	199 [label="sponsoring conservation is a more efficient
+ method of advertising",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
+	209 [label="Just imagine if the project your
+ company is sponsoring effectively improves
+ the environment , then your
+ company would be known as
+ an environmentally-friendly company and benefit
+ from it in this consumer-oriented
+ society",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
+	244 [label="conservation leads us to a higher
+ standard of living",color=green];
+	257 [label="art is one
+ of the best ways of
+ entertaining human beings",color=blue];
+	257 [label="art is one
+ of the best ways of
+ entertaining human beings",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
+	271 [label="with exhaust fumes and
+ acid rain , we do
+ not have the energy and
+ enthusiasm to appreciate the paintings
+ or photographs",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
+	293 [label="Biodiversity and
+ a more beautiful nature are
+ not only the results of
+ abetter environment but also are
+ the necessities of photography and
+ other types of art",color=blue];
+	339 [label="I still hold the environment protection
+ for long-term interest",color=green];
 }

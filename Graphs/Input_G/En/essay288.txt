@@ -16,38 +16,109 @@ digraph G {
 	336 -> 351;
 	361 -> 351;
 	361 -> 372;
-	54 [label="the thing that I really want to change is to have more public transportation",color=green];
-	111 [label="people will have more ways to go to a place",color=blue];
-	89 [label="it should have more alternatives to use public transportation , such as a subway train or a sky train",color=green];
-	111 [label="people will have more ways to go to a place",color=blue];
-	111 [label="people will have more ways to go to a place",color=blue];
-	372 [label="the transportation is an elementary factor which directly affects to people’s living",color=green];
-	123 [label="now buses are only a kind of public transportation in this community",color=blue];
-	372 [label="the transportation is an elementary factor which directly affects to people’s living",color=green];
-	136 [label="It makes people in this area have no choice",color=blue];
-	372 [label="the transportation is an elementary factor which directly affects to people’s living",color=green];
-	146 [label="They must take only a bus to go to another place",color=blue];
-	372 [label="the transportation is an elementary factor which directly affects to people’s living",color=green];
-	158 [label="If a subway and a sky train are available here , it will be more convenience to them",color=blue];
-	372 [label="the transportation is an elementary factor which directly affects to people’s living",color=green];
-	180 [label="people can estimate time from taking a subway train due to the train schedule",color=blue];
-	372 [label="the transportation is an elementary factor which directly affects to people’s living",color=green];
-	195 [label="On the contrary they cannot do so in case of a bus",color=blue];
-	372 [label="the transportation is an elementary factor which directly affects to people’s living",color=green];
-	224 [label="the buses provide merely two routes in this community",color=blue];
-	295 [label="They should increase more routes to make people transport more easily",color=green];
-	234 [label="It is absolutely a major problem",color=blue];
-	295 [label="They should increase more routes to make people transport more easily",color=green];
-	244 [label="if a place I intend to go is not in the route of buses , I still have to take a bus that does not bring me to my destination but go to the center station first to exchange to another bus",color=blue];
-	295 [label="They should increase more routes to make people transport more easily",color=green];
+	54 [label="the thing that I really want
+ to change is to have
+ more public transportation",color=green];
+	111 [label="people will have more
+ ways to go to a
+ place",color=blue];
+	89 [label="it should have more alternatives to
+ use public transportation , such
+ as a subway train or
+ a sky train",color=green];
+	111 [label="people will have more
+ ways to go to a
+ place",color=blue];
+	111 [label="people will have more
+ ways to go to a
+ place",color=blue];
+	372 [label="the transportation is
+ an elementary factor which directly
+ affects to people’s living",color=green];
+	123 [label="now buses
+ are only a kind of
+ public transportation in this community
+",color=blue];
+	372 [label="the transportation is
+ an elementary factor which directly
+ affects to people’s living",color=green];
+	136 [label="It makes people in
+ this area have no choice
+",color=blue];
+	372 [label="the transportation is
+ an elementary factor which directly
+ affects to people’s living",color=green];
+	146 [label="They must take only
+ a bus to go to
+ another place",color=blue];
+	372 [label="the transportation is
+ an elementary factor which directly
+ affects to people’s living",color=green];
+	158 [label="If a
+ subway and a sky train
+ are available here , it
+ will be more convenience to
+ them",color=blue];
+	372 [label="the transportation is
+ an elementary factor which directly
+ affects to people’s living",color=green];
+	180 [label="people can estimate time from
+ taking a subway train due
+ to the train schedule",color=blue];
+	372 [label="the transportation is
+ an elementary factor which directly
+ affects to people’s living",color=green];
+	195 [label="On the contrary they cannot
+ do so in case of
+ a bus",color=blue];
+	372 [label="the transportation is
+ an elementary factor which directly
+ affects to people’s living",color=green];
+	224 [label="the buses provide merely two routes
+ in this community",color=blue];
+	295 [label="They should increase more routes
+ to make people transport more
+ easily",color=green];
+	234 [label="It is absolutely a major problem
+",color=blue];
+	295 [label="They should increase more routes
+ to make people transport more
+ easily",color=green];
+	244 [label="if a place I intend to
+ go is not in the
+ route of buses , I
+ still have to take a
+ bus that does not bring
+ me to my destination but
+ go to the center station
+ first to exchange to another
+ bus",color=blue];
+	295 [label="They should increase more routes
+ to make people transport more
+ easily",color=green];
 	289 [label="it is waste of time",color=blue];
-	295 [label="They should increase more routes to make people transport more easily",color=green];
-	309 [label="having more kinds of public transportation can dwindle the number of people using their own cars",color=blue];
-	351 [label="The necessary energy will slowly be used up",color=green];
-	336 [label="people can save their expenses form gasoline , which nowadays is getting more expensive",color=blue];
-	351 [label="The necessary energy will slowly be used up",color=green];
-	351 [label="The necessary energy will slowly be used up",color=green];
-	361 [label="people use less their own cars",color=blue];
-	361 [label="people use less their own cars",color=blue];
-	372 [label="the transportation is an elementary factor which directly affects to people’s living",color=green];
+	295 [label="They should increase more routes
+ to make people transport more
+ easily",color=green];
+	309 [label="having more kinds of public transportation
+ can dwindle the number of
+ people using their own cars
+",color=blue];
+	351 [label="The necessary energy will
+ slowly be used up",color=green];
+	336 [label="people can save their
+ expenses form gasoline , which
+ nowadays is getting more expensive
+",color=blue];
+	351 [label="The necessary energy will
+ slowly be used up",color=green];
+	351 [label="The necessary energy will
+ slowly be used up",color=green];
+	361 [label="people use less their
+ own cars",color=blue];
+	361 [label="people use less their
+ own cars",color=blue];
+	372 [label="the transportation is
+ an elementary factor which directly
+ affects to people’s living",color=green];
 }

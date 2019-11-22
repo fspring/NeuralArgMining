@@ -1,8 +1,18 @@
 digraph G {
 	54 -> 34;
 	142 -> 129;
-	34 [label="using of these soft devices have cut much of time people need",color=green];
-	54 [label="it is had some demerits on",color=blue];
-	129 [label="using of these facilities has influenced netizens to keep themselves",color=green];
-	142 [label="it caused they were swept away by virtual atmosphere , so they do not do much social live interactions with others",color=blue];
+	34 [label="using of
+ these soft devices have cut
+ much of time people need
+",color=green];
+	54 [label="it is
+ had some demerits on",color=blue];
+	129 [label="using of
+ these facilities has influenced netizens
+ to keep themselves",color=green];
+	142 [label="it caused they were
+ swept away by virtual atmosphere
+ , so they do not
+ do much social live interactions
+ with others",color=blue];
 }

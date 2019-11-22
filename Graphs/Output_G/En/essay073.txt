@@ -2,7 +2,12 @@ digraph G {
 	119 -> 88;
 	99 -> 91;
 	88 [label="pictures",color=green];
-	119 [label="statistics show a slight reduction in the number of smokers ,",color=blue];
+	119 [label="statistics show
+ a slight reduction in the
+ number of smokers ,",color=blue];
 	91 [label="the way people",color=green];
-	99 [label="nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking",color=blue];
+	99 [label="nowadays horrendous
+ images are displayed on the
+ cigarette boxes to illustrate the
+ consequences of smoking",color=blue];
 }

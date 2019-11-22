@@ -4,12 +4,23 @@ digraph G {
 	192 -> 161;
 	214 -> 164;
 	210 -> 230;
-	39 [label="environment pollution",color=green];
-	61 [label="especially cars , and factories' tosix fumes can lead people to face with various respiratory deseases",color=blue];
-	146 [label="recent investigations reveal that toxic foods are sold pervasively in today's market",color=blue];
-	245 [label="life in big cities can have negative effects on people's health",color=green];
+	39 [label="environment pollution
+",color=green];
+	61 [label="especially cars , and factories'
+ tosix fumes can lead people
+ to face with various respiratory
+ deseases",color=blue];
+	146 [label="recent investigations reveal that toxic
+ foods are sold pervasively in
+ today's market",color=blue];
+	245 [label="life in big cities can have
+ negative effects on people's health
+",color=green];
 	161 [label="overpopulation",color=green];
-	192 [label="unemployed workers or school dropouts can easily commit crime from petty offence to felony such as burglary",color=blue];
+	192 [label="unemployed workers or school
+ dropouts can easily commit crime
+ from petty offence to felony
+ such as burglary",color=blue];
 	164 [label="people",color=green];
 	214 [label="vandalism",color=blue];
 	210 [label="pickpocketing",color=blue];

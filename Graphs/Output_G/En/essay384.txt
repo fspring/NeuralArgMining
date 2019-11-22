@@ -7,17 +7,56 @@ digraph G {
 	218 -> 301;
 	232 -> 301;
 	91 [label="the overall crime",color=green];
-	124 [label="result of mental immaturity , most youngsters are incapable of distinguishing right from wrong",color=blue];
-	99 [label="order to tackle this problem more effectively",color=green];
-	107 [label="governments must first prohibit any types of violent content in all children’s television programs",color=blue];
-	139 [label="little wonder , then , that by watching these violent tv programs and videos , juveniles will become very aggressive and offensive and have a great tendency to commit crimes",color=blue];
-	173 [label="would be rather necessary for governments to establish an intensive law that prevents teenagers from watching these violent and brutal tv shows and movies",color=green];
+	124 [label="result of
+ mental immaturity , most youngsters
+ are incapable of distinguishing right
+ from wrong",color=blue];
+	99 [label="order to
+ tackle this problem more effectively
+",color=green];
+	107 [label="governments must first prohibit
+ any types of violent content
+ in all children’s television programs
+",color=blue];
+	139 [label="little wonder
+ , then , that by
+ watching these violent tv programs
+ and videos , juveniles will
+ become very aggressive and offensive
+ and have a great tendency
+ to commit crimes",color=blue];
+	173 [label="would be rather
+ necessary for governments to establish
+ an intensive law that prevents
+ teenagers from watching these violent
+ and brutal tv shows and
+ movies",color=green];
 	206 [label="of adults’ civil liberties",color=green];
-	218 [label="on these tv shows or movies that only for mature audiences",color=blue];
-	212 [label="governments implement such a restricted regulation",color=green];
-	263 [label="these mature minds are capable of being responsible for their own behaviors , they certainly have the right to watch tv shows or movies that are appealing to them",color=blue];
-	218 [label="on these tv shows or movies that only for mature audiences",color=blue];
-	301 [label="violent contents must be excluded from all kidvids in order to reduce the proportion of juvenile delinquency",color=green];
-	232 [label="adults watch horror video or war movies for relaxing themselves after a busy day",color=blue];
-	301 [label="violent contents must be excluded from all kidvids in order to reduce the proportion of juvenile delinquency",color=green];
+	218 [label="on these tv
+ shows or movies that only
+ for mature audiences",color=blue];
+	212 [label="governments implement such a
+ restricted regulation",color=green];
+	263 [label="these mature minds
+ are capable of being responsible
+ for their own behaviors ,
+ they certainly have the right
+ to watch tv shows or
+ movies that are appealing to
+ them",color=blue];
+	218 [label="on these tv
+ shows or movies that only
+ for mature audiences",color=blue];
+	301 [label="violent contents must be excluded
+ from all kidvids in order
+ to reduce the proportion of
+ juvenile delinquency",color=green];
+	232 [label="adults watch horror video
+ or war movies for relaxing
+ themselves after a busy day
+",color=blue];
+	301 [label="violent contents must be excluded
+ from all kidvids in order
+ to reduce the proportion of
+ juvenile delinquency",color=green];
 }

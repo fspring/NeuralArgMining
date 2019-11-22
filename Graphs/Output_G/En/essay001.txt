@@ -4,14 +4,62 @@ digraph G {
 	280 -> 247;
 	280 -> 253;
 	280 -> 361;
-	101 [label="children can learn about interpersonal skills which are significant in the future life of all students",color=green];
-	118 [label="what we acquired from team work is not only how to achieve the same goal with others but more importantly , how to get along with others",color=blue];
-	221 [label="how to become more excellence to gain",color=green];
-	255 [label="win the game , we always find that we need the cooperation",color=blue];
+	101 [label="children can learn about interpersonal
+ skills which are significant in
+ the future life of all
+ students",color=green];
+	118 [label="what we acquired
+ from team work is not
+ only how to achieve the
+ same goal with others but
+ more importantly , how to
+ get along with others",color=blue];
+	221 [label="how to become more excellence
+ to gain",color=green];
+	255 [label="win the game , we always
+ find that we need the
+ cooperation",color=blue];
 	247 [label="we",color=green];
-	280 [label="take olympic games which is a form of competition for instance , it is hard to imagine how an athlete could win the game without the training of his or her coach , and the help of other professional staffs such as the people who take care of his diet , and those who are in charge of the medical care",color=blue];
+	280 [label="take olympic games which is a
+ form of competition for instance
+ , it is hard to
+ imagine how an athlete could
+ win the game without the
+ training of his or her
+ coach , and the help
+ of other professional staffs such
+ as the people who take
+ care of his diet ,
+ and those who are in
+ charge of the medical care
+",color=blue];
 	253 [label="how to",color=green];
-	280 [label="take olympic games which is a form of competition for instance , it is hard to imagine how an athlete could win the game without the training of his or her coach , and the help of other professional staffs such as the people who take care of his diet , and those who are in charge of the medical care",color=blue];
-	280 [label="take olympic games which is a form of competition for instance , it is hard to imagine how an athlete could win the game without the training of his or her coach , and the help of other professional staffs such as the people who take care of his diet , and those who are in charge of the medical care",color=blue];
-	361 [label="there would be no victory of competition",color=green];
+	280 [label="take olympic games which is a
+ form of competition for instance
+ , it is hard to
+ imagine how an athlete could
+ win the game without the
+ training of his or her
+ coach , and the help
+ of other professional staffs such
+ as the people who take
+ care of his diet ,
+ and those who are in
+ charge of the medical care
+",color=blue];
+	280 [label="take olympic games which is a
+ form of competition for instance
+ , it is hard to
+ imagine how an athlete could
+ win the game without the
+ training of his or her
+ coach , and the help
+ of other professional staffs such
+ as the people who take
+ care of his diet ,
+ and those who are in
+ charge of the medical care
+",color=blue];
+	361 [label="there would be no victory
+ of competition",color=green];
 }

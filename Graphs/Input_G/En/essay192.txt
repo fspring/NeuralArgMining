@@ -9,24 +9,115 @@ digraph G {
 	227 -> 346;
 	300 -> 267;
 	300 -> 346;
-	35 [label="other prefer to be surrounded by a large number of friends",color=green];
-	85 [label="among a large number of people there could be someone who practices a particular sport , or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before",color=blue];
-	62 [label="staying in contact with a large number of friends gives the opportunity to learn more from the others' experiences",color=green];
-	85 [label="among a large number of people there could be someone who practices a particular sport , or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before",color=blue];
-	85 [label="among a large number of people there could be someone who practices a particular sport , or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before",color=blue];
-	346 [label="spending time with a large number of friends can add more to one's life",color=green];
-	132 [label="while differences give the opportunity to learn , they can also mean that sometimes it can be difficult to reach an agreement",color=green];
-	155 [label="This would not happen or at least would happen rarely if one decides to spend time with one or two close friends",color=blue];
-	155 [label="This would not happen or at least would happen rarely if one decides to spend time with one or two close friends",color=blue];
-	346 [label="spending time with a large number of friends can add more to one's life",color=green];
-	181 [label="in this case it is more likely that interests and preferences are the same",color=blue];
-	346 [label="spending time with a large number of friends can add more to one's life",color=green];
-	200 [label="a large number of friends can help you to consider all the possible solutions to a problem and to make you more open-minded",color=green];
-	227 [label="if you happen to face a problem and ask them for advice , your friends you will see that issue from their different point of views and accordingly they will help you to consider better all advantages and disadvantages",color=blue];
-	227 [label="if you happen to face a problem and ask them for advice , your friends you will see that issue from their different point of views and accordingly they will help you to consider better all advantages and disadvantages",color=blue];
-	346 [label="spending time with a large number of friends can add more to one's life",color=green];
-	267 [label="When you have just few close friends , on one hand you develop a more intimate relationship with them and you feel you can trust them more",color=green];
-	300 [label="they often will give you viewpoints not so different from yours , adding less to your experience",color=blue];
-	300 [label="they often will give you viewpoints not so different from yours , adding less to your experience",color=blue];
-	346 [label="spending time with a large number of friends can add more to one's life",color=green];
+	35 [label="other prefer to be surrounded
+ by a large number of
+ friends",color=green];
+	85 [label="among a large number of
+ people there could be someone
+ who practices a particular sport
+ , or plays an instrument
+ or likes traveling very much
+ and from their experiences you
+ can be attracted to try
+ something new that you had
+ never considered before",color=blue];
+	62 [label="staying in contact
+ with a large number of
+ friends gives the opportunity to
+ learn more from the others'
+ experiences",color=green];
+	85 [label="among a large number of
+ people there could be someone
+ who practices a particular sport
+ , or plays an instrument
+ or likes traveling very much
+ and from their experiences you
+ can be attracted to try
+ something new that you had
+ never considered before",color=blue];
+	85 [label="among a large number of
+ people there could be someone
+ who practices a particular sport
+ , or plays an instrument
+ or likes traveling very much
+ and from their experiences you
+ can be attracted to try
+ something new that you had
+ never considered before",color=blue];
+	346 [label="spending time with a
+ large number of friends can
+ add more to one's life
+",color=green];
+	132 [label="while differences give
+ the opportunity to learn ,
+ they can also mean that
+ sometimes it can be difficult
+ to reach an agreement",color=green];
+	155 [label="This would not happen or
+ at least would happen rarely
+ if one decides to spend
+ time with one or two
+ close friends",color=blue];
+	155 [label="This would not happen or
+ at least would happen rarely
+ if one decides to spend
+ time with one or two
+ close friends",color=blue];
+	346 [label="spending time with a
+ large number of friends can
+ add more to one's life
+",color=green];
+	181 [label="in this case it
+ is more likely that interests
+ and preferences are the same
+",color=blue];
+	346 [label="spending time with a
+ large number of friends can
+ add more to one's life
+",color=green];
+	200 [label="a large number of friends
+ can help you to consider
+ all the possible solutions to
+ a problem and to make
+ you more open-minded",color=green];
+	227 [label="if you happen
+ to face a problem and
+ ask them for advice ,
+ your friends you will see
+ that issue from their different
+ point of views and accordingly
+ they will help you to
+ consider better all advantages and
+ disadvantages",color=blue];
+	227 [label="if you happen
+ to face a problem and
+ ask them for advice ,
+ your friends you will see
+ that issue from their different
+ point of views and accordingly
+ they will help you to
+ consider better all advantages and
+ disadvantages",color=blue];
+	346 [label="spending time with a
+ large number of friends can
+ add more to one's life
+",color=green];
+	267 [label="When you have
+ just few close friends ,
+ on one hand you develop
+ a more intimate relationship with
+ them and you feel you
+ can trust them more",color=green];
+	300 [label="they often will give you
+ viewpoints not so different from
+ yours , adding less to
+ your experience",color=blue];
+	300 [label="they often will give you
+ viewpoints not so different from
+ yours , adding less to
+ your experience",color=blue];
+	346 [label="spending time with a
+ large number of friends can
+ add more to one's life
+",color=green];
 }

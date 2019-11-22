@@ -11,28 +11,98 @@ digraph G {
 	223 -> 290;
 	260 -> 239;
 	260 -> 290;
-	55 [label="its better that people learn foreign language in their own country",color=green];
-	101 [label="it requires large amount of money and legal formalities",color=blue];
-	84 [label="it is not possible for everyone to visit a foreign country to learn a foreign language",color=green];
-	101 [label="it requires large amount of money and legal formalities",color=blue];
-	101 [label="it requires large amount of money and legal formalities",color=blue];
-	290 [label="it is better for people to learn a foreign language in their own country",color=green];
-	111 [label="In the earlier periods , it was not easy to find a teacher to learn a foreign languge",color=blue];
-	131 [label="with the advent of globalization , one can easily find a teacher in their own country",color=green];
-	131 [label="with the advent of globalization , one can easily find a teacher in their own country",color=green];
-	151 [label="in Indian sub-continent there are large number of centers opened for getting trained in variety of languages like french , german etc",color=blue];
-	151 [label="in Indian sub-continent there are large number of centers opened for getting trained in variety of languages like french , german etc",color=blue];
-	290 [label="it is better for people to learn a foreign language in their own country",color=green];
-	176 [label="colleges and universities have introduced foreign language course as a part of their curriculum",color=blue];
-	208 [label="it is very easy to learn a foreign in our own country",color=green];
-	191 [label="Students can choose any language from the set of languages available at a university",color=blue];
-	208 [label="it is very easy to learn a foreign in our own country",color=green];
-	208 [label="it is very easy to learn a foreign in our own country",color=green];
-	223 [label="highly qualified foreign language teachers are easily accessible in various schools and colleges",color=blue];
-	223 [label="highly qualified foreign language teachers are easily accessible in various schools and colleges",color=blue];
-	290 [label="it is better for people to learn a foreign language in their own country",color=green];
-	239 [label="technology has also played a great role in reducing the separation between learning a foreign languge in our own country",color=green];
-	260 [label="A large number of foreign language courses are available online and there are various forums where people can discuss their problems on different foreign languages",color=blue];
-	260 [label="A large number of foreign language courses are available online and there are various forums where people can discuss their problems on different foreign languages",color=blue];
-	290 [label="it is better for people to learn a foreign language in their own country",color=green];
+	55 [label="its better that people learn
+ foreign language in their own
+ country",color=green];
+	101 [label="it requires large amount
+ of money and legal formalities
+",color=blue];
+	84 [label="it is not possible for everyone
+ to visit a foreign country
+ to learn a foreign language
+",color=green];
+	101 [label="it requires large amount
+ of money and legal formalities
+",color=blue];
+	101 [label="it requires large amount
+ of money and legal formalities
+",color=blue];
+	290 [label="it is better for people
+ to learn a foreign language
+ in their own country",color=green];
+	111 [label="In the earlier periods
+ , it was not easy
+ to find a teacher to
+ learn a foreign languge",color=blue];
+	131 [label="with the advent of
+ globalization , one can easily
+ find a teacher in their
+ own country",color=green];
+	131 [label="with the advent of
+ globalization , one can easily
+ find a teacher in their
+ own country",color=green];
+	151 [label="in Indian sub-continent there
+ are large number of centers
+ opened for getting trained in
+ variety of languages like french
+ , german etc",color=blue];
+	151 [label="in Indian sub-continent there
+ are large number of centers
+ opened for getting trained in
+ variety of languages like french
+ , german etc",color=blue];
+	290 [label="it is better for people
+ to learn a foreign language
+ in their own country",color=green];
+	176 [label="colleges and universities have
+ introduced foreign language course as
+ a part of their curriculum
+",color=blue];
+	208 [label="it is
+ very easy to learn a
+ foreign in our own country
+",color=green];
+	191 [label="Students can choose any
+ language from the set of
+ languages available at a university
+",color=blue];
+	208 [label="it is
+ very easy to learn a
+ foreign in our own country
+",color=green];
+	208 [label="it is
+ very easy to learn a
+ foreign in our own country
+",color=green];
+	223 [label="highly qualified
+ foreign language teachers are easily
+ accessible in various schools and
+ colleges",color=blue];
+	223 [label="highly qualified
+ foreign language teachers are easily
+ accessible in various schools and
+ colleges",color=blue];
+	290 [label="it is better for people
+ to learn a foreign language
+ in their own country",color=green];
+	239 [label="technology has also played a great
+ role in reducing the separation
+ between learning a foreign languge
+ in our own country",color=green];
+	260 [label="A large number of foreign
+ language courses are available online
+ and there are various forums
+ where people can discuss their
+ problems on different foreign languages
+",color=blue];
+	260 [label="A large number of foreign
+ language courses are available online
+ and there are various forums
+ where people can discuss their
+ problems on different foreign languages
+",color=blue];
+	290 [label="it is better for people
+ to learn a foreign language
+ in their own country",color=green];
 }

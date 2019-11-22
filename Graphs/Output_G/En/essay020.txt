@@ -1,5 +1,14 @@
 digraph G {
 	169 -> 151;
-	151 [label="private individuals cause air pollution in several ways such as inessential use of cars and house heating",color=green];
-	169 [label="as house heating is a major need in the winter time , some households do not consider to use filters to reduce the amount of pollution that the heating causes",color=blue];
+	151 [label="private individuals cause air pollution
+ in several ways such as
+ inessential use of cars and
+ house heating",color=green];
+	169 [label="as house
+ heating is a major need
+ in the winter time ,
+ some households do not consider
+ to use filters to reduce
+ the amount of pollution that
+ the heating causes",color=blue];
 }

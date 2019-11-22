@@ -10,26 +10,87 @@ digraph G {
 	227 -> 211;
 	227 -> 283;
 	260 -> 283;
-	61 [label="high school students should take a course on basic economics",color=green];
-	95 [label="Basic economic class can help the students touch the surface of this field , let them to know what this subject mainly discuss",color=blue];
-	84 [label="it can provide students a sense of direction in academy",color=green];
-	95 [label="Basic economic class can help the students touch the surface of this field , let them to know what this subject mainly discuss",color=blue];
-	95 [label="Basic economic class can help the students touch the surface of this field , let them to know what this subject mainly discuss",color=blue];
-	283 [label="I suggest the basic course of economic is necessary",color=green];
-	119 [label="That will help the students cultivate their own interest and a sense of career orientation",color=blue];
-	283 [label="I suggest the basic course of economic is necessary",color=green];
-	137 [label="students may study harder for their economic dreams",color=blue];
-	283 [label="I suggest the basic course of economic is necessary",color=green];
-	151 [label="economy is always correlate with politics",color=blue];
-	198 [label="students can also gain knowledge more practical and vivid",color=green];
-	158 [label="students can study specialized knowledge along with some Politian status , which may open their vision toward the nation and don't get limited in the textbooks",color=blue];
-	198 [label="students can also gain knowledge more practical and vivid",color=green];
-	187 [label="there is also an intimate connection between economy and enterprises",color=blue];
-	198 [label="students can also gain knowledge more practical and vivid",color=green];
-	211 [label="the basic economic course can also help with the students when they go to college",color=green];
-	227 [label="They may feel more readily to learn the knowledge in this field and save much time , with that they are able to study more efficiently and more deeply than other students",color=blue];
-	227 [label="They may feel more readily to learn the knowledge in this field and save much time , with that they are able to study more efficiently and more deeply than other students",color=blue];
-	283 [label="I suggest the basic course of economic is necessary",color=green];
-	260 [label="That as well would provide the students with more confidence and let them become more compatible",color=blue];
-	283 [label="I suggest the basic course of economic is necessary",color=green];
+	61 [label="high school students should
+ take a course on basic
+ economics",color=green];
+	95 [label="Basic economic class can help
+ the students touch the surface
+ of this field , let
+ them to know what this
+ subject mainly discuss",color=blue];
+	84 [label="it can provide students a sense
+ of direction in academy",color=green];
+	95 [label="Basic economic class can help
+ the students touch the surface
+ of this field , let
+ them to know what this
+ subject mainly discuss",color=blue];
+	95 [label="Basic economic class can help
+ the students touch the surface
+ of this field , let
+ them to know what this
+ subject mainly discuss",color=blue];
+	283 [label="I suggest
+ the basic course of economic
+ is necessary",color=green];
+	119 [label="That will help the students cultivate
+ their own interest and a
+ sense of career orientation",color=blue];
+	283 [label="I suggest
+ the basic course of economic
+ is necessary",color=green];
+	137 [label="students may study
+ harder for their economic dreams
+",color=blue];
+	283 [label="I suggest
+ the basic course of economic
+ is necessary",color=green];
+	151 [label="economy is always correlate
+ with politics",color=blue];
+	198 [label="students can
+ also gain knowledge more practical
+ and vivid",color=green];
+	158 [label="students can
+ study specialized knowledge along with
+ some Politian status , which
+ may open their vision toward
+ the nation and don't get
+ limited in the textbooks",color=blue];
+	198 [label="students can
+ also gain knowledge more practical
+ and vivid",color=green];
+	187 [label="there is also
+ an intimate connection between economy
+ and enterprises",color=blue];
+	198 [label="students can
+ also gain knowledge more practical
+ and vivid",color=green];
+	211 [label="the basic economic course
+ can also help with the
+ students when they go to
+ college",color=green];
+	227 [label="They may feel
+ more readily to learn the
+ knowledge in this field and
+ save much time , with
+ that they are able to
+ study more efficiently and more
+ deeply than other students",color=blue];
+	227 [label="They may feel
+ more readily to learn the
+ knowledge in this field and
+ save much time , with
+ that they are able to
+ study more efficiently and more
+ deeply than other students",color=blue];
+	283 [label="I suggest
+ the basic course of economic
+ is necessary",color=green];
+	260 [label="That as well would provide
+ the students with more confidence
+ and let them become more
+ compatible",color=blue];
+	283 [label="I suggest
+ the basic course of economic
+ is necessary",color=green];
 }

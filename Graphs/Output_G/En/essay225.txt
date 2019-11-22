@@ -1,8 +1,18 @@
 digraph G {
 	113 -> 96;
 	130 -> 111;
-	96 [label="action we make are watched closely and judged by the community",color=green];
-	113 [label="though responsibilies exist , we are much more free to do what we would like to",color=blue];
+	96 [label="action we make are watched
+ closely and judged by the
+ community",color=green];
+	113 [label="though responsibilies exist
+ , we are much more
+ free to do what we
+ would like to",color=blue];
 	111 [label="childhood",color=green];
-	130 [label="being late for school or laughing at a place where you aren't supposed to do not have consequences as serious as that would be if you were an adult",color=blue];
+	130 [label="being late for school or laughing
+ at a place where you
+ aren't supposed to do not
+ have consequences as serious as
+ that would be if you
+ were an adult",color=blue];
 }

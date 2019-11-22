@@ -1,5 +1,9 @@
 digraph G {
 	6 -> 2;
-	2 [label="Gosto de Cavaco",color=green];
-	6 [label="Sempre o apreciei política e civicamente , não é de agora , mas agora gosto de o afirmar",color=blue];
+	2 [label="Gosto de Cavaco
+",color=green];
+	6 [label="Sempre o apreciei política
+ e civicamente , não é
+ de agora , mas agora
+ gosto de o afirmar",color=blue];
 }

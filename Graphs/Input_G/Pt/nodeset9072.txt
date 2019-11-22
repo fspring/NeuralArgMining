@@ -1,5 +1,12 @@
 digraph G {
 	33 -> 28;
-	28 [label="O cigarro é-lhes vital",color=green];
-	33 [label="sempre os ajudou , sempre lhes deu resposta e fez a transição entre momentos de tédio , fases de inquietação , períodos de inspiração e tempos de alegria",color=blue];
+	28 [label="O cigarro
+ é-lhes vital",color=green];
+	33 [label="sempre os
+ ajudou , sempre lhes deu
+ resposta e fez a transição
+ entre momentos de tédio ,
+ fases de inquietação , períodos
+ de inspiração e tempos de
+ alegria",color=blue];
 }

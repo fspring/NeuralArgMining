@@ -1,5 +1,9 @@
 digraph G {
 	7 -> 0;
-	0 [label="Há os coitadinhos e os outros",color=green];
-	7 [label="Uns e outros têm aleijões no corpo , por vezes profundos , incuráveis , mortais",color=blue];
+	0 [label="Há os coitadinhos e os
+ outros",color=green];
+	7 [label="Uns e outros
+ têm aleijões no corpo ,
+ por vezes profundos , incuráveis
+ , mortais",color=blue];
 }

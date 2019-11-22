@@ -9,24 +9,92 @@ digraph G {
 	227 -> 306;
 	243 -> 306;
 	266 -> 306;
-	40 [label="I would prefer to work for myself , and have my own business",color=green];
-	97 [label="In your job you can be boss of yourself ; however , in the other jobs someone else are your boss",color=blue];
-	75 [label="there are a large number of opportunities in privat works that you cannot find them when you work for the others",color=green];
-	97 [label="In your job you can be boss of yourself ; however , in the other jobs someone else are your boss",color=blue];
-	97 [label="In your job you can be boss of yourself ; however , in the other jobs someone else are your boss",color=blue];
-	306 [label="people that have their own business are more comfortable",color=green];
-	119 [label="You always have to be responsible for your task , and it make a stressful situation that I never like it",color=blue];
-	306 [label="people that have their own business are more comfortable",color=green];
-	145 [label="when people work for themselves they make more profit for themselves , but in the other jobs you make profits for the other such as your manager",color=green];
-	174 [label="nowadays most of them pick up this profit without sharing a small sum of it with their workers , and from my point of view it is unfair",color=blue];
-	174 [label="nowadays most of them pick up this profit without sharing a small sum of it with their workers , and from my point of view it is unfair",color=blue];
-	306 [label="people that have their own business are more comfortable",color=green];
-	205 [label="there are some authorities in privat jobs that workers are always looking for them while they are working for the others",color=green];
-	227 [label="When you work for yourself you can punch in and punch out whenever you want",color=blue];
-	227 [label="When you work for yourself you can punch in and punch out whenever you want",color=blue];
-	306 [label="people that have their own business are more comfortable",color=green];
-	243 [label="Sometimes some occasions happen to people for example a disease , sticking in a traffic jam and sometime going on a vacation",color=blue];
-	306 [label="people that have their own business are more comfortable",color=green];
-	266 [label="For all of them we have to ask for a permission , and most of the time we are not allowed",color=blue];
-	306 [label="people that have their own business are more comfortable",color=green];
+	40 [label="I would prefer to work
+ for myself , and have
+ my own business",color=green];
+	97 [label="In your job
+ you can be boss of
+ yourself ; however , in
+ the other jobs someone else
+ are your boss",color=blue];
+	75 [label="there are a large number
+ of opportunities in privat works
+ that you cannot find them
+ when you work for the
+ others",color=green];
+	97 [label="In your job
+ you can be boss of
+ yourself ; however , in
+ the other jobs someone else
+ are your boss",color=blue];
+	97 [label="In your job
+ you can be boss of
+ yourself ; however , in
+ the other jobs someone else
+ are your boss",color=blue];
+	306 [label="people that have their
+ own business are more comfortable
+",color=green];
+	119 [label="You always have to be responsible
+ for your task , and
+ it make a stressful situation
+ that I never like it
+",color=blue];
+	306 [label="people that have their
+ own business are more comfortable
+",color=green];
+	145 [label="when people work for themselves
+ they make more profit for
+ themselves , but in the
+ other jobs you make profits
+ for the other such as
+ your manager",color=green];
+	174 [label="nowadays most of them pick up
+ this profit without sharing a
+ small sum of it with
+ their workers , and from
+ my point of view it
+ is unfair",color=blue];
+	174 [label="nowadays most of them pick up
+ this profit without sharing a
+ small sum of it with
+ their workers , and from
+ my point of view it
+ is unfair",color=blue];
+	306 [label="people that have their
+ own business are more comfortable
+",color=green];
+	205 [label="there are some authorities in
+ privat jobs that workers are
+ always looking for them while
+ they are working for the
+ others",color=green];
+	227 [label="When you work
+ for yourself you can punch
+ in and punch out whenever
+ you want",color=blue];
+	227 [label="When you work
+ for yourself you can punch
+ in and punch out whenever
+ you want",color=blue];
+	306 [label="people that have their
+ own business are more comfortable
+",color=green];
+	243 [label="Sometimes some
+ occasions happen to people for
+ example a disease , sticking
+ in a traffic jam and
+ sometime going on a vacation
+",color=blue];
+	306 [label="people that have their
+ own business are more comfortable
+",color=green];
+	266 [label="For all of them
+ we have to ask for
+ a permission , and most
+ of the time we are
+ not allowed",color=blue];
+	306 [label="people that have their
+ own business are more comfortable
+",color=green];
 }

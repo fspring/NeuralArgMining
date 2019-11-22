@@ -1,5 +1,13 @@
 digraph G {
 	33 -> 4;
-	4 [label="os gestos e as intervenções do Chefe do Estado , os seus avisos , escolhas e recados , têm sido brandidos como objectos contundentes , atirados como lança-chamas",color=green];
-	33 [label="sempre convenientemente desgarrados das coordenadas nacionais ou internacionais em que eram proferidos , ou se enquadravam",color=blue];
+	4 [label="os gestos e as intervenções do
+ Chefe do Estado , os
+ seus avisos , escolhas e
+ recados , têm sido brandidos
+ como objectos contundentes , atirados
+ como lança-chamas",color=green];
+	33 [label="sempre convenientemente
+ desgarrados das coordenadas nacionais ou
+ internacionais em que eram proferidos
+ , ou se enquadravam",color=blue];
 }

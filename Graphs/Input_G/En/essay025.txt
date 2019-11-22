@@ -4,14 +4,45 @@ digraph G {
 	171 -> 165;
 	236 -> 255;
 	276 -> 255;
-	61 [label="the advantages of building a factory will outweigh its disadvantages , if we tackle the environmental problems brought by factories",color=green];
-	100 [label="To manufacture goods , there must be the demand of laborers , from which the local residents can benefit",color=blue];
-	86 [label="a large factory can stimulate local economic growth and reduce the unemployment rate",color=green];
-	100 [label="To manufacture goods , there must be the demand of laborers , from which the local residents can benefit",color=blue];
-	165 [label="The main disadvantage is contamination",color=green];
-	171 [label="It is true that some area are suffering the dire consequences caused by overdeveloping the industry , such as water pollution , overcrowded traffic and medical problems",color=blue];
-	236 [label="it is inevitable that there will be more factories built with the development of our society",color=blue];
-	255 [label="how to improve the disadvantages of building a factory would be more important than whether to build it",color=green];
-	255 [label="how to improve the disadvantages of building a factory would be more important than whether to build it",color=green];
-	276 [label="most problems can be avoidable if the factories put in real and great effort to manage their waste well",color=blue];
+	61 [label="the advantages of building
+ a factory will outweigh its
+ disadvantages , if we tackle
+ the environmental problems brought by
+ factories",color=green];
+	100 [label="To manufacture goods , there
+ must be the demand of
+ laborers , from which the
+ local residents can benefit",color=blue];
+	86 [label="a large factory can
+ stimulate local economic growth and
+ reduce the unemployment rate",color=green];
+	100 [label="To manufacture goods , there
+ must be the demand of
+ laborers , from which the
+ local residents can benefit",color=blue];
+	165 [label="The main disadvantage is contamination
+",color=green];
+	171 [label="It is true that
+ some area are suffering the
+ dire consequences caused by overdeveloping
+ the industry , such as
+ water pollution , overcrowded traffic
+ and medical problems",color=blue];
+	236 [label="it is inevitable that
+ there will be more factories
+ built with the development of
+ our society",color=blue];
+	255 [label="how to improve the disadvantages
+ of building a factory would
+ be more important than whether
+ to build it",color=green];
+	255 [label="how to improve the disadvantages
+ of building a factory would
+ be more important than whether
+ to build it",color=green];
+	276 [label="most problems can be
+ avoidable if the factories put
+ in real and great effort
+ to manage their waste well
+",color=blue];
 }

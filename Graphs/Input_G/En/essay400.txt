@@ -8,22 +8,101 @@ digraph G {
 	167 -> 255;
 	189 -> 255;
 	219 -> 255;
-	30 [label="governments should devote a greater portion of their health budgets to health education and means for precautions",color=green];
-	48 [label="The first reason why education and preventative measures should receive a greater budget is the potential improvements in health system",color=blue];
-	48 [label="The first reason why education and preventative measures should receive a greater budget is the potential improvements in health system",color=blue];
-	103 [label="society should be educated and became aware of health issues",color=green];
-	72 [label="decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients",color=blue];
-	103 [label="society should be educated and became aware of health issues",color=green];
-	103 [label="society should be educated and became aware of health issues",color=green];
-	115 [label="the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients",color=blue];
-	115 [label="the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients",color=blue];
-	255 [label="a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being",color=green];
-	143 [label="governments should allocate more budget on prevention from illness and providing health education is the welfare of the society",color=green];
-	189 [label="a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives",color=blue];
-	167 [label="there is nothing more important than health in a human's life and the happiness and welfare come with health",color=blue];
-	255 [label="a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being",color=green];
-	189 [label="a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives",color=blue];
-	255 [label="a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being",color=green];
-	219 [label="the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign",color=blue];
-	255 [label="a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being",color=green];
+	30 [label="governments should devote a greater
+ portion of their health budgets
+ to health education and means
+ for precautions",color=green];
+	48 [label="The first
+ reason why education and preventative
+ measures should receive a greater
+ budget is the potential improvements
+ in health system",color=blue];
+	48 [label="The first
+ reason why education and preventative
+ measures should receive a greater
+ budget is the potential improvements
+ in health system",color=blue];
+	103 [label="society should
+ be educated and became aware
+ of health issues",color=green];
+	72 [label="decreasing the number
+ of patients in the health
+ system can lead hospitals and
+ healthcare centers to be managed
+ effectively which will result in
+ better treatments for current patients
+",color=blue];
+	103 [label="society should
+ be educated and became aware
+ of health issues",color=green];
+	103 [label="society should
+ be educated and became aware
+ of health issues",color=green];
+	115 [label="the potential precautions on the
+ way of illnesses can be
+ taken instead of trying to
+ provide treatment for the increasing
+ number of patients",color=blue];
+	115 [label="the potential precautions on the
+ way of illnesses can be
+ taken instead of trying to
+ provide treatment for the increasing
+ number of patients",color=blue];
+	255 [label="a greater proportion of the
+ budget should be allotted to
+ education and prevention issues in
+ comparison with treatment due to
+ achieve more effective health system
+ and greater level of well-being
+",color=green];
+	143 [label="governments should
+ allocate more budget on prevention
+ from illness and providing health
+ education is the welfare of
+ the society",color=green];
+	189 [label="a government's role should be providing
+ means that lead its citizens
+ to learn how to prevent
+ from potential illness that can
+ cause misery in people's lives
+",color=blue];
+	167 [label="there is nothing
+ more important than health in
+ a human's life and the
+ happiness and welfare come with
+ health",color=blue];
+	255 [label="a greater proportion of the
+ budget should be allotted to
+ education and prevention issues in
+ comparison with treatment due to
+ achieve more effective health system
+ and greater level of well-being
+",color=green];
+	189 [label="a government's role should be providing
+ means that lead its citizens
+ to learn how to prevent
+ from potential illness that can
+ cause misery in people's lives
+",color=blue];
+	255 [label="a greater proportion of the
+ budget should be allotted to
+ education and prevention issues in
+ comparison with treatment due to
+ achieve more effective health system
+ and greater level of well-being
+",color=green];
+	219 [label="the marketing campaign of Ministry of
+ Health in Turkey which aimed
+ smoking problem among the youth
+ increased the well-being of those
+ who quit smoking and adapted
+ a better lifestyle after the
+ campaign",color=blue];
+	255 [label="a greater proportion of the
+ budget should be allotted to
+ education and prevention issues in
+ comparison with treatment due to
+ achieve more effective health system
+ and greater level of well-being
+",color=green];
 }

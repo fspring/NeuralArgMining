@@ -3,12 +3,38 @@ digraph G {
 	164 -> 281;
 	237 -> 332;
 	308 -> 277;
-	69 [label="out many benefits users can get from email and text messaging , which answers to the question of their great popularity",color=green];
-	92 [label="email and mobile phone , human beings communicated by meeting directly , sending letters or later , calling from home phones",color=blue];
-	164 [label="thanks to the function provided by email and text messaging (sms) , it is cheaper and faster to transfer a lot of information , even to many people at the same time",color=blue];
-	281 [label="message with only emoticons (the expressions by face created by service providers) ,",color=green];
-	237 [label="people tend to use slangs and abbreviated words to shorten their writing and save more time in communicating for other activities",color=blue];
-	332 [label="rapid pace , written language may face up to a real problem about",color=green];
+	69 [label="out many
+ benefits users can get from
+ email and text messaging ,
+ which answers to the question
+ of their great popularity",color=green];
+	92 [label="email and mobile phone
+ , human beings communicated by
+ meeting directly , sending letters
+ or later , calling from
+ home phones",color=blue];
+	164 [label="thanks to
+ the function provided by email
+ and text messaging (sms) ,
+ it is cheaper and faster
+ to transfer a lot of
+ information , even to many
+ people at the same time
+",color=blue];
+	281 [label="message with only emoticons (the
+ expressions by face created by
+ service providers) ,",color=green];
+	237 [label="people tend to use
+ slangs and abbreviated words to
+ shorten their writing and save
+ more time in communicating for
+ other activities",color=blue];
+	332 [label="rapid pace , written
+ language may face up to
+ a real problem about",color=green];
 	277 [label=",",color=green];
-	308 [label="it is more dangerous that youngsters sometimes use such new languages in their",color=blue];
+	308 [label="it is more
+ dangerous that youngsters sometimes use
+ such new languages in their
+",color=blue];
 }

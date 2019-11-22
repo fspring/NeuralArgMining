@@ -1,5 +1,11 @@
 digraph G {
 	96 -> 80;
-	80 [label="school is a small society for students , which prepares them for the future",color=green];
-	96 [label="by attending to the same school , students can learn how to view the opposite gender in classes as a friend or a classmate",color=blue];
+	80 [label="school is a small society for
+ students , which prepares them
+ for the future",color=green];
+	96 [label="by attending to the same
+ school , students can learn
+ how to view the opposite
+ gender in classes as a
+ friend or a classmate",color=blue];
 }

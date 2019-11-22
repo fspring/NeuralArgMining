@@ -2,7 +2,16 @@ digraph G {
 	77 -> 51;
 	98 -> 67;
 	51 [label="meals",color=green];
-	77 [label="people have more chance to do other activities they like since food preparation is no longer time-consuming",color=blue];
+	77 [label="people have more chance
+ to do other activities they
+ like since food preparation is
+ no longer time-consuming",color=blue];
 	67 [label="live to",color=green];
-	98 [label="such a change has liberated many housewives from tedious cooking process and gave them additional time to do something more meaningful like accompanying family or doing a job",color=blue];
+	98 [label="such a change
+ has liberated many housewives from
+ tedious cooking process and gave
+ them additional time to do
+ something more meaningful like accompanying
+ family or doing a job
+",color=blue];
 }

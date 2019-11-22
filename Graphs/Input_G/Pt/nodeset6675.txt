@@ -1,5 +1,10 @@
 digraph G {
 	87 -> 0;
-	0 [label="A União Europeia de 2016 já não é a de 2011",color=green];
-	87 [label="A Grécia , o ano passado , testou os limites da tolerância dos outros contribuintes europeus",color=blue];
+	0 [label="A União Europeia de 2016
+ já não é a de
+ 2011",color=green];
+	87 [label="A Grécia ,
+ o ano passado , testou
+ os limites da tolerância dos
+ outros contribuintes europeus",color=blue];
 }

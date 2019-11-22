@@ -5,16 +5,52 @@ digraph G {
 	231 -> 229;
 	231 -> 280;
 	260 -> 280;
-	65 [label="a police holds a responsibility to tackle of violence in the urban or suburban areas using a gun",color=green];
-	86 [label="example of this happens in the united state , a man killed more than ten people in the cinema using a weapon , while a police shot in the foot to paralyze him",color=blue];
-	196 [label="the number of unemployment rate has risen to 15",color=green];
-	213 [label="many well-qualified and well-educated person cannot earn some money to live comfortably",color=blue];
-	213 [label="many well-qualified and well-educated person cannot earn some money to live comfortably",color=blue];
-	280 [label="to me that the guns which are used by police have not been a trigger of higher level of violence",color=green];
-	229 [label="of living",color=green];
-	231 [label="in the big city is extremely expensive , so this problem impresses some people who live under the poverty line to do anything to pay their basic needs",color=blue];
-	231 [label="in the big city is extremely expensive , so this problem impresses some people who live under the poverty line to do anything to pay their basic needs",color=blue];
-	280 [label="to me that the guns which are used by police have not been a trigger of higher level of violence",color=green];
-	260 [label="many baggers chose to be a pickpocket in the public transport , for instance",color=blue];
-	280 [label="to me that the guns which are used by police have not been a trigger of higher level of violence",color=green];
+	65 [label="a police holds a responsibility to
+ tackle of violence in the
+ urban or suburban areas using
+ a gun",color=green];
+	86 [label="example of this happens in
+ the united state , a
+ man killed more than ten
+ people in the cinema using
+ a weapon , while a
+ police shot in the foot
+ to paralyze him",color=blue];
+	196 [label="the number of unemployment rate
+ has risen to 15",color=green];
+	213 [label="many well-qualified and
+ well-educated person cannot earn some
+ money to live comfortably",color=blue];
+	213 [label="many well-qualified and
+ well-educated person cannot earn some
+ money to live comfortably",color=blue];
+	280 [label="to me that the guns which
+ are used by police have
+ not been a trigger of
+ higher level of violence",color=green];
+	229 [label="of living
+",color=green];
+	231 [label="in the big city is
+ extremely expensive , so this
+ problem impresses some people who
+ live under the poverty line
+ to do anything to pay
+ their basic needs",color=blue];
+	231 [label="in the big city is
+ extremely expensive , so this
+ problem impresses some people who
+ live under the poverty line
+ to do anything to pay
+ their basic needs",color=blue];
+	280 [label="to me that the guns which
+ are used by police have
+ not been a trigger of
+ higher level of violence",color=green];
+	260 [label="many baggers chose to be a
+ pickpocket in the public transport
+ , for instance",color=blue];
+	280 [label="to me that the guns which
+ are used by police have
+ not been a trigger of
+ higher level of violence",color=green];
 }

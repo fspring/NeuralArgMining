@@ -1,8 +1,24 @@
 digraph G {
 	101 -> 89;
 	204 -> 181;
-	89 [label="junior high school teachers have great responsibility not only for students' private",color=green];
-	101 [label="lives as they are going through adolescence but also their school work due to the fact that it is an important phase for them to study hard and get into the high school they want",color=blue];
-	181 [label="that creating an enjoyable working environment is more realistic",color=green];
-	204 [label="take google for example , the company offers recreation rooms and extra personal leaves for their workers to develop a more relaxing and supportive workforce",color=blue];
+	89 [label="junior high
+ school teachers have great responsibility
+ not only for students' private
+",color=green];
+	101 [label="lives as they are going
+ through adolescence but also their
+ school work due to the
+ fact that it is an
+ important phase for them to
+ study hard and get into
+ the high school they want
+",color=blue];
+	181 [label="that creating an enjoyable working
+ environment is more realistic",color=green];
+	204 [label="take google
+ for example , the company
+ offers recreation rooms and extra
+ personal leaves for their workers
+ to develop a more relaxing
+ and supportive workforce",color=blue];
 }

@@ -6,18 +6,70 @@ digraph G {
 	202 -> 257;
 	214 -> 257;
 	230 -> 257;
-	80 [label="Being by nature introvert , I have to spend much time and efforts on adjusting to surroundings and especially new people",color=blue];
-	138 [label="my productivity boosts when style of work is appropriate with my type of temper",color=green];
-	102 [label="Once , when I was working on presentation with strangers , I sat aside and so prepared more than half of work myself instead of making attempts to get acquainted with unknown people",color=blue];
-	138 [label="my productivity boosts when style of work is appropriate with my type of temper",color=green];
-	155 [label="working alone allows me to avoid spending time and efforts on many things that are an integral part of teamwork",color=green];
-	180 [label="I must not divide tasks and duties between team members , share responsibility and benefits , and spend time on teambuilding",color=blue];
-	180 [label="I must not divide tasks and duties between team members , share responsibility and benefits , and spend time on teambuilding",color=blue];
-	257 [label="type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone",color=green];
-	202 [label="These advantages are especially important in situations of shortage of time",color=blue];
-	257 [label="type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone",color=green];
-	214 [label="About a year ago I was lucky to become a participant of student brainstorming game",color=blue];
-	257 [label="type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone",color=green];
-	230 [label="To my rivals' surprise , being the only member of my own "team" I gained a victory",color=blue];
-	257 [label="type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone",color=green];
+	80 [label="Being by nature introvert ,
+ I have to spend much
+ time and efforts on adjusting
+ to surroundings and especially new
+ people",color=blue];
+	138 [label="my productivity
+ boosts when style of work
+ is appropriate with my type
+ of temper",color=green];
+	102 [label="Once , when
+ I was working on presentation
+ with strangers , I sat
+ aside and so prepared more
+ than half of work myself
+ instead of making attempts to
+ get acquainted with unknown people
+",color=blue];
+	138 [label="my productivity
+ boosts when style of work
+ is appropriate with my type
+ of temper",color=green];
+	155 [label="working alone allows me to
+ avoid spending time and efforts
+ on many things that are
+ an integral part of teamwork
+",color=green];
+	180 [label="I must not divide tasks
+ and duties between team members
+ , share responsibility and benefits
+ , and spend time on
+ teambuilding",color=blue];
+	180 [label="I must not divide tasks
+ and duties between team members
+ , share responsibility and benefits
+ , and spend time on
+ teambuilding",color=blue];
+	257 [label="type of temper
+ and advantages of individual work
+ are the most persuasive arguments
+ in favor of studying alone
+",color=green];
+	202 [label="These advantages are
+ especially important in situations of
+ shortage of time",color=blue];
+	257 [label="type of temper
+ and advantages of individual work
+ are the most persuasive arguments
+ in favor of studying alone
+",color=green];
+	214 [label="About a year ago I was
+ lucky to become a participant
+ of student brainstorming game",color=blue];
+	257 [label="type of temper
+ and advantages of individual work
+ are the most persuasive arguments
+ in favor of studying alone
+",color=green];
+	230 [label="To my rivals' surprise ,
+ being the only member of
+ my own "team" I gained
+ a victory",color=blue];
+	257 [label="type of temper
+ and advantages of individual work
+ are the most persuasive arguments
+ in favor of studying alone
+",color=green];
 }

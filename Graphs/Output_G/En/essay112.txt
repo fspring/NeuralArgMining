@@ -3,12 +3,38 @@ digraph G {
 	149 -> 111;
 	205 -> 258;
 	222 -> 258;
-	86 [label="different types of exam questions , for example , multiple-choice questions and essay tasks",color=green];
-	117 [label="test-wise candidates can often perform well on exams without having good underlying knowledge or skills",color=blue];
+	86 [label="different types of exam questions
+ , for example , multiple-choice
+ questions and essay tasks",color=green];
+	117 [label="test-wise candidates can often
+ perform well on exams without
+ having good underlying knowledge or
+ skills",color=blue];
 	111 [label="exams also have",color=green];
-	149 [label="this case , teachers and learners focus only on theses aspects of the curriculum that are likely to be tested , thus narrowing the educational experience for all",color=blue];
-	205 [label="exam task should be varied to give fair opportunities to candidates with different types of skills",color=blue];
-	258 [label="is convincing that exams have a role to play in ensuring proper and objective assessment of achievement",color=green];
-	222 [label="other types of assessment should also be considered , assignment writing , for example , to assess independent learning and research skills , or group projects , to measure teamwork ability",color=blue];
-	258 [label="is convincing that exams have a role to play in ensuring proper and objective assessment of achievement",color=green];
+	149 [label="this case
+ , teachers and learners focus
+ only on theses aspects of
+ the curriculum that are likely
+ to be tested , thus
+ narrowing the educational experience for
+ all",color=blue];
+	205 [label="exam task should be varied to
+ give fair opportunities to candidates
+ with different types of skills
+",color=blue];
+	258 [label="is convincing that
+ exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
+	222 [label="other types of assessment
+ should also be considered ,
+ assignment writing , for example
+ , to assess independent learning
+ and research skills , or
+ group projects , to measure
+ teamwork ability",color=blue];
+	258 [label="is convincing that
+ exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
 }

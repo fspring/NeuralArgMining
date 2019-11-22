@@ -7,20 +7,82 @@ digraph G {
 	124 -> 225;
 	147 -> 225;
 	189 -> 225;
-	5 [label="government should give priorities to invest more money on the basic social welfares such as education and housing instead of subsidizing arts relative programs",color=green];
-	45 [label="In order to make people better off , it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens",color=blue];
-	30 [label="Art is not the key determination of quality of life , but education is",color=green];
-	45 [label="In order to make people better off , it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens",color=blue];
-	45 [label="In order to make people better off , it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens",color=blue];
-	225 [label="governments should attach heavier weight to other social issues such as education and housing needs",color=green];
-	82 [label="knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system",color=blue];
-	225 [label="governments should attach heavier weight to other social issues such as education and housing needs",color=green];
-	105 [label="art , to some extent , serve a valuable function about enriching one's daily lives",color=green];
-	124 [label="it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work",color=blue];
-	124 [label="it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work",color=blue];
-	225 [label="governments should attach heavier weight to other social issues such as education and housing needs",color=green];
-	147 [label="it is unrealistic to pursuit of this high standard of life in many developing countries , in which the basic housing supply has still been a huge problem with plenty of lower income family have squeezed in a small tight room",color=blue];
-	225 [label="governments should attach heavier weight to other social issues such as education and housing needs",color=green];
-	189 [label="By comparison to these issues , the pursuit of art seems unimportant at all",color=blue];
-	225 [label="governments should attach heavier weight to other social issues such as education and housing needs",color=green];
+	5 [label="government should give priorities to
+ invest more money on the
+ basic social welfares such as
+ education and housing instead of
+ subsidizing arts relative programs",color=green];
+	45 [label="In order to make people
+ better off , it is
+ more urgent for governments to
+ commit money to some fundamental
+ help such as setting more
+ scholarships in education section for
+ all citizens",color=blue];
+	30 [label="Art is not the key
+ determination of quality of life
+ , but education is",color=green];
+	45 [label="In order to make people
+ better off , it is
+ more urgent for governments to
+ commit money to some fundamental
+ help such as setting more
+ scholarships in education section for
+ all citizens",color=blue];
+	45 [label="In order to make people
+ better off , it is
+ more urgent for governments to
+ commit money to some fundamental
+ help such as setting more
+ scholarships in education section for
+ all citizens",color=blue];
+	225 [label="governments should attach heavier weight
+ to other social issues such
+ as education and housing needs
+",color=green];
+	82 [label="knowledge and wisdom
+ is the guarantee of the
+ enhancement of the quality of
+ people's lives for a well-rounded
+ social system",color=blue];
+	225 [label="governments should attach heavier weight
+ to other social issues such
+ as education and housing needs
+",color=green];
+	105 [label="art , to some extent
+ , serve a valuable function
+ about enriching one's daily lives
+",color=green];
+	124 [label="it could bring release one's heavy
+ burden of study pressure and
+ refresh human bodies through a
+ hard day from work",color=blue];
+	124 [label="it could bring release one's heavy
+ burden of study pressure and
+ refresh human bodies through a
+ hard day from work",color=blue];
+	225 [label="governments should attach heavier weight
+ to other social issues such
+ as education and housing needs
+",color=green];
+	147 [label="it is unrealistic
+ to pursuit of this high
+ standard of life in many
+ developing countries , in which
+ the basic housing supply has
+ still been a huge problem
+ with plenty of lower income
+ family have squeezed in a
+ small tight room",color=blue];
+	225 [label="governments should attach heavier weight
+ to other social issues such
+ as education and housing needs
+",color=green];
+	189 [label="By comparison to these issues ,
+ the pursuit of art seems
+ unimportant at all",color=blue];
+	225 [label="governments should attach heavier weight
+ to other social issues such
+ as education and housing needs
+",color=green];
 }

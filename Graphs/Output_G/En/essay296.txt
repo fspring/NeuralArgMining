@@ -3,12 +3,24 @@ digraph G {
 	221 -> 192;
 	242 -> 203;
 	263 -> 217;
-	110 [label="it takes time for people to adapt them",color=green];
-	144 [label="i use new iphone which i personally think is great",color=blue];
+	110 [label="it takes time for people to
+ adapt them",color=green];
+	144 [label="i use
+ new iphone which i personally
+ think is great",color=blue];
 	192 [label="soon",color=green];
-	221 [label="ever since people used computers or cellphones to chat with others , they created their own language to communicate",color=blue];
+	221 [label="ever since people used computers
+ or cellphones to chat with
+ others , they created their
+ own language to communicate",color=blue];
 	203 [label="is",color=green];
-	242 [label="people try to type as fast as they are talking , they use a lot of abbreviations and broken language",color=blue];
+	242 [label="people try to type
+ as fast as they are
+ talking , they use a
+ lot of abbreviations and broken
+ language",color=blue];
 	217 [label="destroys",color=green];
-	263 [label="this has gotten worse with twitter , myspace , and facebook",color=blue];
+	263 [label="this has gotten
+ worse with twitter , myspace
+ , and facebook",color=blue];
 }

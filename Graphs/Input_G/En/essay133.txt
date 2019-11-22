@@ -10,26 +10,87 @@ digraph G {
 	217 -> 240;
 	273 -> 240;
 	273 -> 258;
-	66 [label="computer can influence society , and people's lives have already been controlled by device",color=green];
-	97 [label="A study conducted by Mediabank shows that majority of Australian adults do not socialize with their families and friends as much as they used to",color=blue];
-	85 [label="this modern device has been a major hindrance to some people",color=green];
-	155 [label="the idea that computers could be a help has been neglected",color=blue];
-	97 [label="A study conducted by Mediabank shows that majority of Australian adults do not socialize with their families and friends as much as they used to",color=blue];
-	240 [label="in era technology like this age , computer becomes important thing in human life",color=green];
-	128 [label="they spend almost nine hours a day dealing with computers as to produce efficient time in working",color=blue];
-	240 [label="in era technology like this age , computer becomes important thing in human life",color=green];
-	155 [label="the idea that computers could be a help has been neglected",color=blue];
-	240 [label="in era technology like this age , computer becomes important thing in human life",color=green];
-	169 [label="using computer can make people easier to complete their work",color=green];
-	180 [label="Businessmen , for example , use computer device to presentation or communication with their colleagues",color=blue];
-	180 [label="Businessmen , for example , use computer device to presentation or communication with their colleagues",color=blue];
-	240 [label="in era technology like this age , computer becomes important thing in human life",color=green];
-	196 [label="Communication by feature-computer such as email and internet help busy businessmen to make deal with relation even in different country",color=blue];
-	240 [label="in era technology like this age , computer becomes important thing in human life",color=green];
-	217 [label="This is due to using computer more efficient and , many workers cannot do more in work without computer",color=blue];
-	240 [label="in era technology like this age , computer becomes important thing in human life",color=green];
-	240 [label="in era technology like this age , computer becomes important thing in human life",color=green];
-	273 [label="This situation becomes lifestyle habits , and nowadays human activities are influenced by computer use",color=blue];
-	258 [label="people cannot pass the day without stay in front of computer or using it",color=green];
-	273 [label="This situation becomes lifestyle habits , and nowadays human activities are influenced by computer use",color=blue];
+	66 [label="computer can influence society
+ , and people's lives have
+ already been controlled by device
+",color=green];
+	97 [label="A study conducted
+ by Mediabank shows that majority
+ of Australian adults do not
+ socialize with their families and
+ friends as much as they
+ used to",color=blue];
+	85 [label="this modern device has been
+ a major hindrance to some
+ people",color=green];
+	155 [label="the idea that computers could
+ be a help has been
+ neglected",color=blue];
+	97 [label="A study conducted
+ by Mediabank shows that majority
+ of Australian adults do not
+ socialize with their families and
+ friends as much as they
+ used to",color=blue];
+	240 [label="in era technology like this
+ age , computer becomes important
+ thing in human life",color=green];
+	128 [label="they spend
+ almost nine hours a day
+ dealing with computers as to
+ produce efficient time in working
+",color=blue];
+	240 [label="in era technology like this
+ age , computer becomes important
+ thing in human life",color=green];
+	155 [label="the idea that computers could
+ be a help has been
+ neglected",color=blue];
+	240 [label="in era technology like this
+ age , computer becomes important
+ thing in human life",color=green];
+	169 [label="using computer can make people easier
+ to complete their work",color=green];
+	180 [label="Businessmen , for example ,
+ use computer device to presentation
+ or communication with their colleagues
+",color=blue];
+	180 [label="Businessmen , for example ,
+ use computer device to presentation
+ or communication with their colleagues
+",color=blue];
+	240 [label="in era technology like this
+ age , computer becomes important
+ thing in human life",color=green];
+	196 [label="Communication by feature-computer such
+ as email and internet help
+ busy businessmen to make deal
+ with relation even in different
+ country",color=blue];
+	240 [label="in era technology like this
+ age , computer becomes important
+ thing in human life",color=green];
+	217 [label="This is due
+ to using computer more efficient
+ and , many workers cannot
+ do more in work without
+ computer",color=blue];
+	240 [label="in era technology like this
+ age , computer becomes important
+ thing in human life",color=green];
+	240 [label="in era technology like this
+ age , computer becomes important
+ thing in human life",color=green];
+	273 [label="This situation
+ becomes lifestyle habits , and
+ nowadays human activities are influenced
+ by computer use",color=blue];
+	258 [label="people cannot
+ pass the day without stay
+ in front of computer or
+ using it",color=green];
+	273 [label="This situation
+ becomes lifestyle habits , and
+ nowadays human activities are influenced
+ by computer use",color=blue];
 }

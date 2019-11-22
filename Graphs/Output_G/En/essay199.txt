@@ -1,8 +1,24 @@
 digraph G {
 	155 -> 222;
 	188 -> 222;
-	155 [label="for example , answering our homework alone encourages us to be more responsible and independent",color=blue];
-	222 [label="are many ways to study and it is our right to choose which is suitable for our characters whether alone or with group",color=green];
-	188 [label="when i fix my study plan with a specific time and finish it on time , it improves my ability in the future to become more precise and careful",color=blue];
-	222 [label="are many ways to study and it is our right to choose which is suitable for our characters whether alone or with group",color=green];
+	155 [label="for example , answering our homework
+ alone encourages us to be
+ more responsible and independent",color=blue];
+	222 [label="are many ways to
+ study and it is our
+ right to choose which is
+ suitable for our characters whether
+ alone or with group",color=green];
+	188 [label="when i fix
+ my study plan with a
+ specific time and finish it
+ on time , it improves
+ my ability in the future
+ to become more precise and
+ careful",color=blue];
+	222 [label="are many ways to
+ study and it is our
+ right to choose which is
+ suitable for our characters whether
+ alone or with group",color=green];
 }

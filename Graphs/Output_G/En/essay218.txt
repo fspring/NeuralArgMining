@@ -1,5 +1,7 @@
 digraph G {
 	207 -> 275;
-	207 [label="to find your first love",color=blue];
-	275 [label="the most happiest moments in a person's life",color=green];
+	207 [label="to find your first
+ love",color=blue];
+	275 [label="the most happiest moments in a
+ person's life",color=green];
 }

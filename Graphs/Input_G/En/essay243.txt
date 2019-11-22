@@ -19,44 +19,128 @@ digraph G {
 	306 -> 352;
 	322 -> 352;
 	342 -> 352;
-	36 [label="I prefer e-mail due to 3 reasons : convenience , honest expression and fluency in communicating",color=green];
-	65 [label="You can talk to others from thousands mile",color=blue];
-	56 [label="e-mail has been a great way of communication",color=green];
-	65 [label="You can talk to others from thousands mile",color=blue];
-	65 [label="You can talk to others from thousands mile",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	77 [label="if you are in Vietnam and another person is in the US - half of the Earth , no matter how far it is , you can keep contact",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	107 [label="We will never have to worry if our mails will be sent to the right address",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	124 [label="If the address is wrong , then you will know right away",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	139 [label="e-mail doesn't take too much time : just a click",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	153 [label="writing e-mail helps people express honestly",color=green];
-	164 [label="the face-to-face conversations make them feel stupid",color=blue];
-	164 [label="the face-to-face conversations make them feel stupid",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	172 [label="Sometimes , their ideas are not expressed as exactly as they expect",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	188 [label="I want to talk to my friend about a ticklish problem like her behavior , it's hard for me to face her and explain what she should do",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	219 [label="e-mail will be a good tool to help me speak out",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	231 [label="She will just read my e-mail instead of listening to my voice which can make her annoyed",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
-	249 [label="I don't have to worry about any other thing can make my opinion become unpersuasive",color=blue];
-	380 [label="e-mail is the greatest way for major people to use",color=green];
+	36 [label="I prefer e-mail due
+ to 3 reasons : convenience
+ , honest expression and fluency
+ in communicating",color=green];
+	65 [label="You can talk to others
+ from thousands mile",color=blue];
+	56 [label="e-mail has been a
+ great way of communication",color=green];
+	65 [label="You can talk to others
+ from thousands mile",color=blue];
+	65 [label="You can talk to others
+ from thousands mile",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	77 [label="if you are
+ in Vietnam and another person
+ is in the US -
+ half of the Earth ,
+ no matter how far it
+ is , you can keep
+ contact",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	107 [label="We will never
+ have to worry if our
+ mails will be sent to
+ the right address",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	124 [label="If the address is wrong ,
+ then you will know right
+ away",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	139 [label="e-mail doesn't take too much time
+ : just a click",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	153 [label="writing e-mail
+ helps people express honestly",color=green];
+	164 [label="the face-to-face conversations make them feel
+ stupid",color=blue];
+	164 [label="the face-to-face conversations make them feel
+ stupid",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	172 [label="Sometimes , their
+ ideas are not expressed as
+ exactly as they expect",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	188 [label="I want
+ to talk to my friend
+ about a ticklish problem like
+ her behavior , it's hard
+ for me to face her
+ and explain what she should
+ do",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	219 [label="e-mail will be a good tool
+ to help me speak out
+",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	231 [label="She will just read
+ my e-mail instead of listening
+ to my voice which can
+ make her annoyed",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
+	249 [label="I don't have to worry about
+ any other thing can make
+ my opinion become unpersuasive",color=blue];
+	380 [label="e-mail is the greatest way
+ for major people to use
+",color=green];
 	270 [label="every communication needs fluency",color=blue];
-	352 [label="E-mail helps me arrange my idea perfectly and make it persuasive",color=green];
-	275 [label="people can understand each other exactly and remember it for a long time",color=blue];
-	352 [label="E-mail helps me arrange my idea perfectly and make it persuasive",color=green];
-	289 [label="Voice email or face-to-face conversations sometimes make reserve people feel not very confident",color=blue];
-	352 [label="E-mail helps me arrange my idea perfectly and make it persuasive",color=green];
-	306 [label="when I face my parents , I can't speak out every idea and express consecutively",color=blue];
-	352 [label="E-mail helps me arrange my idea perfectly and make it persuasive",color=green];
-	322 [label="They may stop me , speak something against it and that makes me forget what I want to say",color=blue];
-	352 [label="E-mail helps me arrange my idea perfectly and make it persuasive",color=green];
-	342 [label="Anyone can meet this problem once in any conversation",color=blue];
-	352 [label="E-mail helps me arrange my idea perfectly and make it persuasive",color=green];
+	352 [label="E-mail helps me
+ arrange my idea perfectly and
+ make it persuasive",color=green];
+	275 [label="people can understand each other
+ exactly and remember it for
+ a long time",color=blue];
+	352 [label="E-mail helps me
+ arrange my idea perfectly and
+ make it persuasive",color=green];
+	289 [label="Voice email or face-to-face conversations sometimes
+ make reserve people feel not
+ very confident",color=blue];
+	352 [label="E-mail helps me
+ arrange my idea perfectly and
+ make it persuasive",color=green];
+	306 [label="when I face my
+ parents , I can't speak
+ out every idea and express
+ consecutively",color=blue];
+	352 [label="E-mail helps me
+ arrange my idea perfectly and
+ make it persuasive",color=green];
+	322 [label="They may stop
+ me , speak something against
+ it and that makes me
+ forget what I want to
+ say",color=blue];
+	352 [label="E-mail helps me
+ arrange my idea perfectly and
+ make it persuasive",color=green];
+	342 [label="Anyone can meet
+ this problem once in any
+ conversation",color=blue];
+	352 [label="E-mail helps me
+ arrange my idea perfectly and
+ make it persuasive",color=green];
 }

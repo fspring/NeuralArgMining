@@ -14,34 +14,106 @@ digraph G {
 	381 -> 446;
 	419 -> 446;
 	429 -> 446;
-	85 [label="successful people still do things they already know",color=green];
-	105 [label="to be successful , we all try to reduce the risk we might encounter",color=blue];
-	105 [label="to be successful , we all try to reduce the risk we might encounter",color=blue];
-	217 [label="successful people do not have to try new things or take risks",color=green];
-	120 [label="The lower the factors making us fail we have , the higher probability to success we own",color=blue];
-	217 [label="successful people do not have to try new things or take risks",color=green];
-	138 [label="Consider a circumstance in which one person is rich because he knows a lot of knowledge of investment",color=blue];
-	217 [label="successful people do not have to try new things or take risks",color=green];
-	157 [label="He can focus on certain companies which he thinks is worth it to invest , and then just waits for the not so high but constant income",color=blue];
-	217 [label="successful people do not have to try new things or take risks",color=green];
-	185 [label="He does not have to invest some dangerous companies to get higher profit which might lead him to bankrupt in a short time",color=blue];
-	217 [label="successful people do not have to try new things or take risks",color=green];
-	238 [label="it depends on the capability of one to decide whether he can succeed or not",color=blue];
-	346 [label="it is not necessary for successful people to take risks",color=green];
-	257 [label="a successful person should be able to dismantle the hurdles prohibiting him to success",color=blue];
-	346 [label="it is not necessary for successful people to take risks",color=green];
-	275 [label="the sports stars do not have to take some drugs to win a game or show their extraordinary skills",color=blue];
-	346 [label="it is not necessary for successful people to take risks",color=green];
-	295 [label="The same reason why they succeed is that they all have the predominated abilities in sports realm",color=blue];
-	346 [label="it is not necessary for successful people to take risks",color=green];
-	316 [label="those athletes try to have distinctive performance by taking risks of taking drugs are failed to succeed",color=blue];
-	346 [label="it is not necessary for successful people to take risks",color=green];
-	371 [label="doing something new is necessary for people to success",color=green];
-	381 [label="they can become different from others , which is also a widely accepted idea for success",color=blue];
-	381 [label="they can become different from others , which is also a widely accepted idea for success",color=blue];
-	446 [label="doing what we already known can still leads us to succeed",color=green];
-	419 [label="Try something new can indeed make people become special",color=blue];
-	446 [label="doing what we already known can still leads us to succeed",color=green];
-	429 [label="while it does not mean successful",color=blue];
-	446 [label="doing what we already known can still leads us to succeed",color=green];
+	85 [label="successful people still do things
+ they already know",color=green];
+	105 [label="to be successful , we
+ all try to reduce the
+ risk we might encounter",color=blue];
+	105 [label="to be successful , we
+ all try to reduce the
+ risk we might encounter",color=blue];
+	217 [label="successful people do
+ not have to try new
+ things or take risks",color=green];
+	120 [label="The lower the factors making
+ us fail we have ,
+ the higher probability to success
+ we own",color=blue];
+	217 [label="successful people do
+ not have to try new
+ things or take risks",color=green];
+	138 [label="Consider a
+ circumstance in which one person
+ is rich because he knows
+ a lot of knowledge of
+ investment",color=blue];
+	217 [label="successful people do
+ not have to try new
+ things or take risks",color=green];
+	157 [label="He can focus
+ on certain companies which he
+ thinks is worth it to
+ invest , and then just
+ waits for the not so
+ high but constant income",color=blue];
+	217 [label="successful people do
+ not have to try new
+ things or take risks",color=green];
+	185 [label="He does not have to
+ invest some dangerous companies to
+ get higher profit which might
+ lead him to bankrupt in
+ a short time",color=blue];
+	217 [label="successful people do
+ not have to try new
+ things or take risks",color=green];
+	238 [label="it depends
+ on the capability of one
+ to decide whether he can
+ succeed or not",color=blue];
+	346 [label="it is not necessary
+ for successful people to take
+ risks",color=green];
+	257 [label="a successful person
+ should be able to dismantle
+ the hurdles prohibiting him to
+ success",color=blue];
+	346 [label="it is not necessary
+ for successful people to take
+ risks",color=green];
+	275 [label="the sports stars do not
+ have to take some drugs
+ to win a game or
+ show their extraordinary skills",color=blue];
+	346 [label="it is not necessary
+ for successful people to take
+ risks",color=green];
+	295 [label="The same reason why they
+ succeed is that they all
+ have the predominated abilities in
+ sports realm",color=blue];
+	346 [label="it is not necessary
+ for successful people to take
+ risks",color=green];
+	316 [label="those athletes try to
+ have distinctive performance by taking
+ risks of taking drugs are
+ failed to succeed",color=blue];
+	346 [label="it is not necessary
+ for successful people to take
+ risks",color=green];
+	371 [label="doing something new is
+ necessary for people to success
+",color=green];
+	381 [label="they can become different
+ from others , which is
+ also a widely accepted idea
+ for success",color=blue];
+	381 [label="they can become different
+ from others , which is
+ also a widely accepted idea
+ for success",color=blue];
+	446 [label="doing what we already
+ known can still leads us
+ to succeed",color=green];
+	419 [label="Try something new can indeed make
+ people become special",color=blue];
+	446 [label="doing what we already
+ known can still leads us
+ to succeed",color=green];
+	429 [label="while it does not mean successful
+",color=blue];
+	446 [label="doing what we already
+ known can still leads us
+ to succeed",color=green];
 }

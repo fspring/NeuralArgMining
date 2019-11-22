@@ -7,20 +7,73 @@ digraph G {
 	231 -> 302;
 	244 -> 302;
 	266 -> 302;
-	113 [label="internet capable phones help influence the young ones to become more interested in chatting and social sites rather than doing school works",color=blue];
-	302 [label="the negative impacts brought about by mobile phones are harmful to a person’s education and character",color=green];
-	136 [label="in my college days , i was once addicted to a certain game on my cellular phone",color=blue];
-	302 [label="the negative impacts brought about by mobile phones are harmful to a person’s education and character",color=green];
-	174 [label="goal has led me to my lost in interest on doing my homework and i ended up failing one subject in that semester",color=blue];
-	302 [label="the negative impacts brought about by mobile phones are harmful to a person’s education and character",color=green];
-	200 [label="juveniles who possess mobile phones have great tendencies to become materialistic",color=green];
-	212 [label="they would not only purchase a phone because of its functionality but also for its brand",color=blue];
-	212 [label="they would not only purchase a phone because of its functionality but also for its brand",color=blue];
-	302 [label="the negative impacts brought about by mobile phones are harmful to a person’s education and character",color=green];
-	231 [label="these do not come at a significant and inexpensive cost",color=blue];
-	302 [label="the negative impacts brought about by mobile phones are harmful to a person’s education and character",color=green];
-	244 [label="most of these juveniles are students so they would need their parents to support them financially for what they want",color=blue];
-	302 [label="the negative impacts brought about by mobile phones are harmful to a person’s education and character",color=green];
-	266 [label="illustration of this unfortunate trend can be seen almost everywhere these days , wherein most teens at an early age own phones which are worth twice the salary of their parents",color=blue];
-	302 [label="the negative impacts brought about by mobile phones are harmful to a person’s education and character",color=green];
+	113 [label="internet capable phones
+ help influence the young ones
+ to become more interested in
+ chatting and social sites rather
+ than doing school works",color=blue];
+	302 [label="the negative impacts brought
+ about by mobile phones are
+ harmful to a person’s education
+ and character",color=green];
+	136 [label="in my college days ,
+ i was once addicted to
+ a certain game on my
+ cellular phone",color=blue];
+	302 [label="the negative impacts brought
+ about by mobile phones are
+ harmful to a person’s education
+ and character",color=green];
+	174 [label="goal has
+ led me to my lost
+ in interest on doing my
+ homework and i ended up
+ failing one subject in that
+ semester",color=blue];
+	302 [label="the negative impacts brought
+ about by mobile phones are
+ harmful to a person’s education
+ and character",color=green];
+	200 [label="juveniles who possess mobile phones have
+ great tendencies to become materialistic
+",color=green];
+	212 [label="they would not only
+ purchase a phone because of
+ its functionality but also for
+ its brand",color=blue];
+	212 [label="they would not only
+ purchase a phone because of
+ its functionality but also for
+ its brand",color=blue];
+	302 [label="the negative impacts brought
+ about by mobile phones are
+ harmful to a person’s education
+ and character",color=green];
+	231 [label="these do not come at
+ a significant and inexpensive cost
+",color=blue];
+	302 [label="the negative impacts brought
+ about by mobile phones are
+ harmful to a person’s education
+ and character",color=green];
+	244 [label="most of
+ these juveniles are students so
+ they would need their parents
+ to support them financially for
+ what they want",color=blue];
+	302 [label="the negative impacts brought
+ about by mobile phones are
+ harmful to a person’s education
+ and character",color=green];
+	266 [label="illustration of this unfortunate trend
+ can be seen almost everywhere
+ these days , wherein most
+ teens at an early age
+ own phones which are worth
+ twice the salary of their
+ parents",color=blue];
+	302 [label="the negative impacts brought
+ about by mobile phones are
+ harmful to a person’s education
+ and character",color=green];
 }

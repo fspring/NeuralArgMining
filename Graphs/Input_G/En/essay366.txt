@@ -7,20 +7,64 @@ digraph G {
 	164 -> 241;
 	179 -> 241;
 	199 -> 241;
-	31 [label="following celebrities can be dangerous for the youth",color=green];
-	80 [label="Many young people indulge themselves in drugs and start smoking at an early age",color=blue];
-	71 [label="following celebrities blindly affects the health of adolescents",color=green];
-	80 [label="Many young people indulge themselves in drugs and start smoking at an early age",color=blue];
-	80 [label="Many young people indulge themselves in drugs and start smoking at an early age",color=blue];
-	264 [label="when young people follow celebrities , it affects their health as well as behavior in a negative way",color=green];
-	98 [label="in a survey carried out in a university , it was asked to students that why did they start smoking , then around forty percent of individuals answered that they wanted to look like their favorite screen actor while smoking cigarettes",color=blue];
-	264 [label="when young people follow celebrities , it affects their health as well as behavior in a negative way",color=green];
-	146 [label="imitating celebrities has a negative influence on health of young individuals",color=blue];
-	264 [label="when young people follow celebrities , it affects their health as well as behavior in a negative way",color=green];
-	164 [label="when youth follows celebrities it affects personality of young people in a bad way",color=blue];
-	241 [label="these glamorous celebrities have a poor effect on the conduct of young people",color=green];
-	179 [label="Adolescents follow not only the make up and attire of their favorite stars but also their behavior",color=blue];
-	241 [label="these glamorous celebrities have a poor effect on the conduct of young people",color=green];
-	199 [label="recently in a poll conducted by an American magazine it was found that most of the parents and teachers complain that teenagers use derogatory words and abusive language at home and at schools",color=blue];
-	241 [label="these glamorous celebrities have a poor effect on the conduct of young people",color=green];
+	31 [label="following celebrities can be
+ dangerous for the youth",color=green];
+	80 [label="Many young people indulge themselves
+ in drugs and start smoking
+ at an early age",color=blue];
+	71 [label="following celebrities blindly affects
+ the health of adolescents",color=green];
+	80 [label="Many young people indulge themselves
+ in drugs and start smoking
+ at an early age",color=blue];
+	80 [label="Many young people indulge themselves
+ in drugs and start smoking
+ at an early age",color=blue];
+	264 [label="when young people follow celebrities ,
+ it affects their health as
+ well as behavior in a
+ negative way",color=green];
+	98 [label="in a
+ survey carried out in a
+ university , it was asked
+ to students that why did
+ they start smoking , then
+ around forty percent of individuals
+ answered that they wanted to
+ look like their favorite screen
+ actor while smoking cigarettes",color=blue];
+	264 [label="when young people follow celebrities ,
+ it affects their health as
+ well as behavior in a
+ negative way",color=green];
+	146 [label="imitating celebrities has a
+ negative influence on health of
+ young individuals",color=blue];
+	264 [label="when young people follow celebrities ,
+ it affects their health as
+ well as behavior in a
+ negative way",color=green];
+	164 [label="when youth follows celebrities it affects
+ personality of young people in
+ a bad way",color=blue];
+	241 [label="these glamorous celebrities have
+ a poor effect on the
+ conduct of young people",color=green];
+	179 [label="Adolescents follow not only the make
+ up and attire of their
+ favorite stars but also their
+ behavior",color=blue];
+	241 [label="these glamorous celebrities have
+ a poor effect on the
+ conduct of young people",color=green];
+	199 [label="recently in a poll conducted by
+ an American magazine it was
+ found that most of the
+ parents and teachers complain that
+ teenagers use derogatory words and
+ abusive language at home and
+ at schools",color=blue];
+	241 [label="these glamorous celebrities have
+ a poor effect on the
+ conduct of young people",color=green];
 }

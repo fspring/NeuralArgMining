@@ -1,8 +1,19 @@
 digraph G {
 	72 -> 44;
 	72 -> 67;
-	44 [label="Em 2014 , a saída limpa foi anunciada e , com isso , o governo PàF declarou o sucesso da sua política",color=green];
-	72 [label="Ao contrário do que se apregoa , na prática estamos com um programa cautelar",color=blue];
-	67 [label="Infelizmente , é mentira",color=green];
-	72 [label="Ao contrário do que se apregoa , na prática estamos com um programa cautelar",color=blue];
+	44 [label="Em 2014 , a saída limpa
+ foi anunciada e , com
+ isso , o governo PàF
+ declarou o sucesso da sua
+ política",color=green];
+	72 [label="Ao contrário do
+ que se apregoa , na
+ prática estamos com um programa
+ cautelar",color=blue];
+	67 [label="Infelizmente , é
+ mentira",color=green];
+	72 [label="Ao contrário do
+ que se apregoa , na
+ prática estamos com um programa
+ cautelar",color=blue];
 }

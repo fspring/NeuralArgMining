@@ -3,12 +3,29 @@ digraph G {
 	73 -> 64;
 	73 -> 66;
 	258 -> 292;
-	44 [label="it's not a good educational measure",color=green];
-	57 [label="the benefits of children engagement in paid",color=blue];
+	44 [label="it's not
+ a good educational measure",color=green];
+	57 [label="the benefits of children
+ engagement in paid",color=blue];
 	64 [label="work",color=green];
-	73 [label="children can learn about the hardship of earning money",color=blue];
+	73 [label="children can learn
+ about the hardship of earning
+ money",color=blue];
 	66 [label="its drawbacks",color=green];
-	73 [label="children can learn about the hardship of earning money",color=blue];
-	258 [label=", if children get good care and instructions from their parents , they can take advantages of the work to learn valuable things and avoid going in a wrong way",color=blue];
-	292 [label="if children take part in some kind of paid work with their parents' permission , they can learn lively lessons and become mature and responsible",color=green];
+	73 [label="children can learn
+ about the hardship of earning
+ money",color=blue];
+	258 [label=", if children
+ get good care and instructions
+ from their parents , they
+ can take advantages of the
+ work to learn valuable things
+ and avoid going in a
+ wrong way",color=blue];
+	292 [label="if children take part
+ in some kind of paid
+ work with their parents' permission
+ , they can learn lively
+ lessons and become mature and
+ responsible",color=green];
 }

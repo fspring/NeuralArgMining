@@ -1,8 +1,23 @@
 digraph G {
 	52 -> 45;
 	288 -> 324;
-	45 [label="when they are away from home",color=green];
-	52 [label="they will have to pay a lot of bills , because they will have to find a lodging or at least a place where to live and in order to have less expenses they will have to find a co-tenant , who they may not like",color=blue];
-	288 [label=", they will not be able to ask him for advice",color=blue];
-	324 [label="for the young adults it will be better to live with their parents",color=green];
+	45 [label="when they are away from home
+",color=green];
+	52 [label="they will have to
+ pay a lot of bills
+ , because they will have
+ to find a lodging or
+ at least a place where
+ to live and in order
+ to have less expenses they
+ will have to find a
+ co-tenant , who they may
+ not like",color=blue];
+	288 [label=", they will
+ not be able to ask
+ him for advice",color=blue];
+	324 [label="for the
+ young adults it will be
+ better to live with their
+ parents",color=green];
 }

@@ -2,10 +2,26 @@ digraph G {
 	99 -> 66;
 	263 -> 307;
 	288 -> 307;
-	66 [label="the participant with the others like classmates or professors is still an important factor in studying",color=green];
-	99 [label="the discussion class results in expanded children vision and their respect to others roommate's ideas",color=blue];
-	263 [label="in distance learning , these aspects of the professor had reduced their important",color=blue];
-	307 [label="traditional learning still has many benefits to the students",color=green];
-	288 [label="there will be a long response from the teachers when children ask them a question",color=blue];
-	307 [label="traditional learning still has many benefits to the students",color=green];
+	66 [label="the participant with the others
+ like classmates or professors is
+ still an important factor in
+ studying",color=green];
+	99 [label="the discussion
+ class results in expanded children
+ vision and their respect to
+ others roommate's ideas",color=blue];
+	263 [label="in distance learning
+ , these aspects of the
+ professor had reduced their important
+",color=blue];
+	307 [label="traditional learning still has
+ many benefits to the students
+",color=green];
+	288 [label="there will be
+ a long response from the
+ teachers when children ask them
+ a question",color=blue];
+	307 [label="traditional learning still has
+ many benefits to the students
+",color=green];
 }

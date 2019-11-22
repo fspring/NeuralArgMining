@@ -10,26 +10,112 @@ digraph G {
 	258 -> 237;
 	258 -> 315;
 	276 -> 315;
-	30 [label="This , contrary to some ideas , is a positive progress in human society",color=green];
-	54 [label="the fairness between males and females is inevitable in such a developed society",color=blue];
-	54 [label="the fairness between males and females is inevitable in such a developed society",color=blue];
-	90 [label="Women nowadays are much more active , they may be successful businessmen , they join the political world , they become scientists and so on",color=green];
-	68 [label="Gone are the days when women could do nothing rather than stick to boring house work and take care of children",color=blue];
-	90 [label="Women nowadays are much more active , they may be successful businessmen , they join the political world , they become scientists and so on",color=green];
-	90 [label="Women nowadays are much more active , they may be successful businessmen , they join the political world , they become scientists and so on",color=green];
-	121 [label="the "weaker" gender as often be thought has enough right as well as ability to contribute to the development of human beings just like any other men , not to mention they even perform better in some fields",color=blue];
-	121 [label="the "weaker" gender as often be thought has enough right as well as ability to contribute to the development of human beings just like any other men , not to mention they even perform better in some fields",color=blue];
-	315 [label="in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles",color=green];
-	165 [label="the revolution in females' right has brought about many benefits not only to themselves but society as well",color=green];
-	184 [label="The financial burden of families , for instance , has decreased significantly with both the wives and the husbands working to earn money",color=blue];
-	184 [label="The financial burden of families , for instance , has decreased significantly with both the wives and the husbands working to earn money",color=blue];
-	315 [label="in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles",color=green];
-	212 [label="women have the outstanding instinct to take up some careers like healthcare or human resource management due to their patience and elaboration",color=blue];
-	315 [label="in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles",color=green];
-	237 [label="such changes do lead to some negative results like an upward trend in divorce rate",color=green];
-	258 [label="women find it difficult to balance their work and their traditional role as the wives",color=blue];
-	258 [label="women find it difficult to balance their work and their traditional role as the wives",color=blue];
-	315 [label="in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles",color=green];
-	276 [label="children might enjoy less care from parents as they are both busy with their work",color=blue];
-	315 [label="in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles",color=green];
+	30 [label="This , contrary to some
+ ideas , is a positive
+ progress in human society",color=green];
+	54 [label="the fairness between males and females
+ is inevitable in such a
+ developed society",color=blue];
+	54 [label="the fairness between males and females
+ is inevitable in such a
+ developed society",color=blue];
+	90 [label="Women nowadays are much more
+ active , they may be
+ successful businessmen , they join
+ the political world , they
+ become scientists and so on
+",color=green];
+	68 [label="Gone are
+ the days when women could
+ do nothing rather than stick
+ to boring house work and
+ take care of children",color=blue];
+	90 [label="Women nowadays are much more
+ active , they may be
+ successful businessmen , they join
+ the political world , they
+ become scientists and so on
+",color=green];
+	90 [label="Women nowadays are much more
+ active , they may be
+ successful businessmen , they join
+ the political world , they
+ become scientists and so on
+",color=green];
+	121 [label="the "weaker" gender as
+ often be thought has enough
+ right as well as ability
+ to contribute to the development
+ of human beings just like
+ any other men , not
+ to mention they even perform
+ better in some fields",color=blue];
+	121 [label="the "weaker" gender as
+ often be thought has enough
+ right as well as ability
+ to contribute to the development
+ of human beings just like
+ any other men , not
+ to mention they even perform
+ better in some fields",color=blue];
+	315 [label="in a society where females
+ are given equal opportunities compared
+ with males would obviously enjoy
+ lots of benefits far outweighing
+ its obstacles",color=green];
+	165 [label="the revolution in females' right
+ has brought about many benefits
+ not only to themselves but
+ society as well",color=green];
+	184 [label="The financial burden of families ,
+ for instance , has decreased
+ significantly with both the wives
+ and the husbands working to
+ earn money",color=blue];
+	184 [label="The financial burden of families ,
+ for instance , has decreased
+ significantly with both the wives
+ and the husbands working to
+ earn money",color=blue];
+	315 [label="in a society where females
+ are given equal opportunities compared
+ with males would obviously enjoy
+ lots of benefits far outweighing
+ its obstacles",color=green];
+	212 [label="women have the
+ outstanding instinct to take up
+ some careers like healthcare or
+ human resource management due to
+ their patience and elaboration",color=blue];
+	315 [label="in a society where females
+ are given equal opportunities compared
+ with males would obviously enjoy
+ lots of benefits far outweighing
+ its obstacles",color=green];
+	237 [label="such changes do
+ lead to some negative results
+ like an upward trend in
+ divorce rate",color=green];
+	258 [label="women find
+ it difficult to balance their
+ work and their traditional role
+ as the wives",color=blue];
+	258 [label="women find
+ it difficult to balance their
+ work and their traditional role
+ as the wives",color=blue];
+	315 [label="in a society where females
+ are given equal opportunities compared
+ with males would obviously enjoy
+ lots of benefits far outweighing
+ its obstacles",color=green];
+	276 [label="children might enjoy less
+ care from parents as they
+ are both busy with their
+ work",color=blue];
+	315 [label="in a society where females
+ are given equal opportunities compared
+ with males would obviously enjoy
+ lots of benefits far outweighing
+ its obstacles",color=green];
 }
