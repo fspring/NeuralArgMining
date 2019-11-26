@@ -114,7 +114,7 @@ class Translator:
             self.createAssociation(file)
 
 class TextDumper:
-    _nArgTag = '(O,|,|)'
+    _nArgTag = '(O,|)'
 
     words = [] #list of Word objects
     file = ''
@@ -178,7 +178,7 @@ class TextDumper:
         # print(separator.join(sentences))
         return separator.join(sentences)
 
-    #creates list of words with default tag (O,|,|)
+    #creates list of words with default tag (O,|)
     def wordifyText(self):
         text = self.stripHtml()
         originalWords = text.split(' ')
@@ -276,15 +276,11 @@ class claimsAndPremises:
         for wordIndex in range(0, len(words)):
             word = words[wordIndex]
             if (wordIndex == 0):
-                # tag = '(B,' + type + ',' + distance + ')'
-                tag = '(I,' + type + ',' + distance + ')'
-                #tag = '(B,' + type + ')'
-                # tag = '(I,' + type + ')'
+                tag = '(' + type + ',' + distance + ')'
             elif ((word == '.') or (word == ':') or (word == ';') or (word == '?') or (word == '!')):
-                tag = '(O,|,|)'
+                tag = '(O,|)'
             else:
-                tag = '(I,' + type + ',' + distance + ')'
-                # tag = '(I,' + type + ')'
+                tag = '(I,' + distance + ')'
             taggedWord = Word(word,tag)
             taggedSentence.append(taggedWord)
         return taggedSentence
@@ -305,13 +301,13 @@ class claimsAndPremises:
                 # print('claim', id)
                 claim = self.getNodeText(nodes, id)
                 claimWords = claim.split()
-                taggedClaim = Claim(self.tagClaimOrPremise(claimWords, 'claim','0'), id)
+                taggedClaim = Claim(self.tagClaimOrPremise(claimWords, 'C','0'), id)
                 self.claims.append(taggedClaim)
             elif id in self.premises_id:
                 # print('premise', id)
                 premise = self.getNodeText(nodes, id)
                 premiseWords = premise.split()
-                taggedPremise = Premise(self.tagClaimOrPremise(premiseWords, 'premise', '0'), id)
+                taggedPremise = Premise(self.tagClaimOrPremise(premiseWords, 'P', '0'), id)
                 self.premises.append(taggedPremise)
 
             self.premisesToClaims[premise] = claim
@@ -479,34 +475,45 @@ class DistanceCalculator:
             # print('src_tag', src_tag)
             src_tag_parts = src_tag.split(',')
             # print(src_tag_parts)
-            if src_tag_parts[1] == '|':
+            if src_tag_parts[0] == '(O':
+                dist = 0
                 continue
             if id not in self.close_connections.keys():
+                dist = 0
                 continue
             linked_ids = self.close_connections[id]
+            if src_tag_parts[0] == '(I':
+                if dist != 0:
+                    dist -= 1
+                # print(src_tag, dist)
+                tag = src_tag_parts[0] + ',' + str(dist) + ')'
+                # print('new',tag)
+                self.components_words[i].tag = tag
+                continue
             dist = 0
             is_linked = False
             for j in range(i+1, len(self.components_words)):
                 dist += 1
                 if self.components_words[j].id in linked_ids:
                     tgt_tag = self.components_words[j].tag
-                    tgt_arg = tgt_tag.split(',')[1]
+                    tgt_arg = tgt_tag.split(',')[0]
                     # print('tgt_tag', tgt_tag)
-                    if src_tag_parts[1] == 'premise' and tgt_arg == 'claim':
+                    if src_tag_parts[0] == '(P' and tgt_arg == '(C':
                         is_linked = True
                         # print('yes premise-claim')
                         break
-                    elif src_tag_parts[1] == 'claim' and tgt_arg == 'premise':
+                    elif src_tag_parts[0] == '(C' and tgt_arg == '(P':
                         is_linked = True
                         # print('yes claim-premise')
                         break
             if not is_linked:
+                dist = 0
                 continue
             elif dist >= text_size: #this has never happened yet
                 print('overflow')
                 dist = 0
-            # print(tag, dist)
-            tag = src_tag_parts[0] + ',' + src_tag_parts[1] + ',' + str(dist) + ')'
+            # print(src_tag, dist)
+            tag = src_tag_parts[0] + ',' + str(dist) + ')'
             # print('new',tag)
             self.components_words[i].tag = tag
 
@@ -572,6 +579,7 @@ class Pipeline:
             replacer.processText()
 
             #calculate distance between related components and update tags
+            # print(arg_components.close_connections)
             distance_calculator = DistanceCalculator(replacer.processedText, arg_components.close_connections)
             distance_calculator.all_positive_distance_claims()
 
