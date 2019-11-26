@@ -100,16 +100,18 @@ class ReadComponents:
         tag_parts = line.split('\t')
         id = tag_parts[0]
         componentType = tag_parts[1].split(" ", 1)[0]
-        sentence = tag_parts[2]
+        sentence = tag_parts[2].split(" ")
 
         if ((componentType == 'MajorClaim') or (componentType == 'Claim')):
-            tag = '(I,claim,0)'
+            tag = '(C,0)'
         else:
-            tag = '(I,premise,0)'
+            tag = '(P,0)'
 
         taggedWords = []
-        for word in sentence.split(" "):
-            taggedWords.append(Word(word, tag, id))
+        for i in range(0, len(sentence)):
+            if i != 0:
+                tag = '(I,0)'
+            taggedWords.append(Word(sentence[i], tag, id))
         if componentType == 'MajorClaim':
             self.majorclaims_ids.append(id)
             self.claims.append(Claim(taggedWords))
@@ -174,7 +176,7 @@ class ReadText():
                 else:
                     for word in line.split(" "):
                         if(len(word) > 0):
-                            self.words.append(Word(word,'(O,|,|)', ''))
+                            self.words.append(Word(word,'(O,|)', ''))
 
 
 class ComponentsReplacer():
@@ -286,34 +288,45 @@ class DistanceCalculator:
             # print('src_tag', src_tag)
             src_tag_parts = src_tag.split(',')
             # print(src_tag_parts)
-            if src_tag_parts[1] == '|':
+            if src_tag_parts[0] == '(O':
+                dist = 0
                 continue
             if id not in self.closure_relations.keys():
+                dist = 0
                 continue
             linked_ids = self.closure_relations[id]
+            if src_tag_parts[0] == '(I':
+                if dist != 0:
+                    dist -= 1
+                # print(src_tag, dist)
+                tag = src_tag_parts[0] + ',' + str(dist) + ')'
+                # print('new',tag)
+                self.words[i].tag = tag
+                continue
             dist = 0
             is_linked = False
             for j in range(i+1, len(self.words)):
                 dist += 1
                 if self.words[j].component_id in linked_ids:
                     tgt_tag = self.words[j].tag
-                    tgt_arg = tgt_tag.split(',')[1]
+                    tgt_arg = tgt_tag.split(',')[0]
                     # print('tgt_tag', tgt_tag)
-                    if src_tag_parts[1] == 'premise' and tgt_arg == 'claim':
+                    if src_tag_parts[0] == '(P' and tgt_arg == '(C':
                         is_linked = True
                         # print('yes premise-claim')
                         break
-                    elif src_tag_parts[1] == 'claim' and tgt_arg == 'premise':
+                    elif src_tag_parts[0] == '(C' and tgt_arg == '(P':
                         is_linked = True
                         # print('yes claim-premise')
                         break
             if not is_linked:
+                dist = 0
                 continue
             elif dist >= text_size: #this has never happened yet
                 print('overflow')
                 dist = 0
             # print(tag, dist)
-            tag = src_tag_parts[0] + ',' + src_tag_parts[1] + ',' + str(dist) + ')'
+            tag = src_tag_parts[0] + ',' + str(dist) + ')'
             # print('new',tag)
             self.words[i].tag = tag
 
@@ -349,7 +362,7 @@ class Pipeline:
         for file in fileList:
             filename = re.sub('.ann', '', file)
 
-            print(filename)
+            # print(filename)
 
             components = ReadComponents(filename + '.ann')
             components.read_components()
