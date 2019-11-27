@@ -14,7 +14,7 @@ class SequenceCreator:
         self.encoded_sequences = []
 
         self.word_index = None
-        self.zero_tag = [0, 1, 0]
+        self.zero_tag = [0, 1, 0, 0]
         self.n_tags = 0
         self.tag_code = {}
 

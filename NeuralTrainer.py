@@ -29,7 +29,7 @@ class SoftArgMax:
         self.layer = None
 
     def soft_argmax_func(self, x, beta=1e10):
-        x = tf.split(x, [3, 1], -1)
+        x = tf.split(x, [4, 1], -1)
         x_range = tf.range(x[0].shape.as_list()[-1], dtype=x[0].dtype)
         output = tf.reduce_sum(tf.nn.softmax(x[0]*beta) * x_range, axis=-1)
 
@@ -64,7 +64,7 @@ class NeuralTrainer:
         self.maxlen = maxlen
         self.vocab_size = len(word_index)+1
         self.num_tags = num_tags
-        self.num_measures = 1 + 3*(num_tags - 1)
+        self.num_measures = 1 + 3*(num_tags - 2)
         self.word_index = word_index
         self.embeddings = embeddings
         self.texts_to_eval_dir = texts_to_eval_dir
@@ -85,8 +85,16 @@ class NeuralTrainer:
             tags[int(map[1][0])-1] = map[0]
         for i in range(0, self.num_tags):
             self.tags[i] = tags[i]
-            name = tags[i].split(',')[-1][:-1]
-            self.arg_classes[i] = name
+            if tags[i] == '(O)':
+                self.arg_classes[i] = '|'
+            elif tags[i] == '(P)':
+                self.arg_classes[i] = 'premise'
+            elif tags[i] == '(C)':
+                self.arg_classes[i] = 'claim'
+            elif tags[i] == '(I)':
+                self.arg_classes[i] = 'inside'
+            else:
+                print('AAAAAAAAAAAAAAAAAAAAAAAAAA')
 
 
     def decodeTags(self, tags):
@@ -174,18 +182,26 @@ class NeuralTrainer:
     ## for each premise find closest claim ahead
     def predict_baseline_distances_claim(self, pred_tags):
         pred_dists = []
+        is_premise = False
         for i in range(0, len(pred_tags)):
             file_dists = []
             text_size = len(pred_tags[i])
             for j in range(0, text_size):
                 arg_class = np.argmax(pred_tags[i][j])
                 dist = 0
-                if arg_class == 0:
-                    for k in range(j+1, text_size):
+                if arg_class == 2: # is P
+                    is_premise = True
+                    for k in range(j+1, text_size): # look ahead
                         arg_rel = np.argmax(pred_tags[i][k])
                         dist += 1
-                        if arg_rel == 2:
+                        if arg_rel == 3: # is C
                             break
+                elif arg_class == 3 or arg_class == 1: # is C or O
+                    is_premise = False
+                elif arg_class == 0 and is_premise:
+                    if dist > 0:
+                        dist -= 1
+
                 file_dists.append([dist])
             pred_dists.append(file_dists)
         return pred_dists
@@ -199,7 +215,7 @@ class NeuralTrainer:
             for j in range(0, text_size):
                 arg_class = np.argmax(pred_tags[i][j])
                 dist = 0
-                if arg_class == 0:
+                if arg_class == 2:
                     k = j+1
                     while k < text_size and np.argmax(pred_tags[i][k]) == 0:
                         dist += 1
@@ -208,7 +224,7 @@ class NeuralTrainer:
                         arg_rel = np.argmax(pred_tags[i][n])
                         if arg_rel == 1:
                             dist += 1
-                        elif arg_rel == 2:
+                        elif arg_rel == 3:
                             dist += 1
                             break
                 file_dists.append([dist])
@@ -224,7 +240,19 @@ class NeuralTrainer:
             for j in range(0, text_size):
                 arg_class = np.argmax(pred_tags[i][j])
                 dist = 0
-                if arg_class == 0:
+                if arg_class == 2:
+                    k = j+1
+                    while k < text_size and np.argmax(pred_tags[i][k]) == 0:
+                        dist += 1
+                        k += 1
+                    for n in range(k, text_size):
+                        arg_rel = np.argmax(pred_tags[i][n])
+                        if arg_rel == 1:
+                            dist += 1
+                        elif arg_rel == 3:
+                            dist += 1
+                            break
+                elif arg_class == 3:
                     k = j+1
                     while k < text_size and np.argmax(pred_tags[i][k]) == 0:
                         dist += 1
@@ -236,21 +264,9 @@ class NeuralTrainer:
                         elif arg_rel == 2:
                             dist += 1
                             break
-                elif arg_class == 2:
-                    k = j+1
-                    while k < text_size and np.argmax(pred_tags[i][k]) == 2:
-                        dist += 1
-                        k += 1
-                    for n in range(k, text_size):
-                        arg_rel = np.argmax(pred_tags[i][n])
-                        if arg_rel == 1:
-                            dist += 1
-                        elif arg_rel == 0:
-                            dist += 1
-                            break
                 file_dists.append([dist])
             pred_dists.append(file_dists)
-        return pred_dists
+        return (pred_tags, pred_dists)
 
     def train_baseline_model(self, x_train, y_train, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
@@ -263,7 +279,7 @@ class NeuralTrainer:
         # scores: loss, crf_acc
         print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
 
-        b_pred_dist = self.predict_baseline_distances_claim(y_pred_class)
+        (y_pred_class, b_pred_dist) = self.predict_baseline_distances_claim(y_pred_class)
 
         self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
         spanEvalAt1 = self.spanEval(y_pred_class, b_pred_dist, unencodedY, 1.0)
@@ -281,38 +297,44 @@ class NeuralTrainer:
         print('=========== CORRECTING ===========')
         f = open('correction_debug.txt', 'w')
         for i in range(0, len(dist_pred)):
+            is_premise = False
+            is_claim = False
             text_size = len(np.trim_zeros(unencodedY[i]))
             for j in range(0, text_size): #ensure dist points to first token in arg comp or zero
                 src_arg = np.argmax(arg_pred[i][j])
                 pred_dist = int(round(dist_pred[i][j][0]))
                 if src_arg == 1: #non-arg
+                    is_premise = False
+                    is_claim = False
                     dist_pred[i][j][0] = 0
-                elif src_arg == 0: #premise
+                elif src_arg == 2 or (src_arg == 0 and is_premise): #premise
+                    is_premise = True
+                    is_claim = False
                     if pred_dist == 0:
                         dist_pred[i][j][0] = 0
                         continue
                     tgt_index = j + pred_dist
-                    if (tgt_index >= text_size) or (np.argmax(arg_pred[i][tgt_index]) != 2):
-                        dist_pred[i][j][0] = 0 #does not point to claim
-                        continue
-                    while np.argmax(arg_pred[i][tgt_index - 1]) == 2: #not first claim token
+                    # if (tgt_index >= text_size) or (np.argmax(arg_pred[i][tgt_index]) != 3):
+                    #     dist_pred[i][j][0] = 0 #does not point to claim
+                    #     continue
+                    while np.argmax(arg_pred[i][tgt_index]) != 3: #not first claim token
                         tgt_index -= 1
-                        if tgt_index == j:
-                            print('fuck me up fam')
+                        if tgt_index == j: #does not point to claim
                             break
                     dist_pred[i][j][0] = tgt_index - j
-                elif src_arg == 2: #claim
+                elif src_arg == 3 or (src_arg == 0 and is_claim): #claim
+                    is_premise = False
+                    is_claim = True
                     if pred_dist == 0:
                         dist_pred[i][j][0] = 0
                         continue
                     tgt_index = j + pred_dist
-                    if (tgt_index >= text_size) or (np.argmax(arg_pred[i][tgt_index]) != 0):
-                        dist_pred[i][j][0] = 0 #does not point to premise
-                        continue
-                    while np.argmax(arg_pred[i][tgt_index - 1]) == 0: #not first premise token
+                    # if (tgt_index >= text_size) or (np.argmax(arg_pred[i][tgt_index]) != 0):
+                    #     dist_pred[i][j][0] = 0 #does not point to premise
+                    #     continue
+                    while np.argmax(arg_pred[i][tgt_index]) != 2: #not first premise token
                         tgt_index -= 1
-                        if tgt_index == j:
-                            print('fuck me up fam squared')
+                        if tgt_index == j: #does not point to claim
                             break
                     dist_pred[i][j][0] = tgt_index - j
             f.write(u'i: ' + str(i) + ' - phase 1: ' + str(dist_pred[i]) + '\n')
@@ -321,7 +343,7 @@ class NeuralTrainer:
                 src_orig = k
                 src_arg = np.argmax(arg_pred[i][k])
                 pred_dist = dist_pred[i][k][0]
-                if src_arg == 1:
+                if src_arg == 1: #non-arg
                     k += 1
                     continue
                 if pred_dist == 0:
@@ -330,7 +352,7 @@ class NeuralTrainer:
                     tgt_freq = {pred_dist: 1}
 
                 m =  k + 1
-                while (m < text_size) and (np.argmax(arg_pred[i][m]) == src_arg):
+                while (m < text_size) and (np.argmax(arg_pred[i][m]) == 0):
                     pred_dist = dist_pred[i][m][0]
                     if pred_dist == 0:
                         tgt_orig = 'none'
@@ -364,7 +386,7 @@ class NeuralTrainer:
             f.write(u'i: ' + str(i) + ' - phase 2: ' + str(dist_pred[i]) + '\n')
         f.close()
         print('=========== DONE ===========')
-        return dist_pred
+        return (arg_pred, dist_pred)
 
 
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
@@ -384,10 +406,10 @@ class NeuralTrainer:
 
         self.write_evaluated_tests_to_file(x_test, y_pred_class, y_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_BCorr')
 
-        c_pred_dist = self.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
+        (y_pred_class, c_pred_dist) = self.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
 
         self.write_evaluated_tests_to_file(x_test, y_pred_class, c_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath)
-        spanEvalAt1 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 1.0)
+        spanEvalAt1 = self.spanEval(y_pred_class, y_pred_dist, z, 1.0)
         spanEvalAt075 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 0.75)
         spanEvalAt050 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 0.50)
         tagEval = self.tagEval(y_pred_class, unencodedY)
@@ -406,10 +428,9 @@ class NeuralTrainer:
         kfold = KFold(n_splits=n_folds, shuffle=True, random_state=seed)
 
         csv_header = 'Fold'
-        for i in range(0, self.num_tags):
-            tag = self.tags[i].split(',')
-            arg_type = tag[-1][:-1]
-            csv_header += ',' + arg_type + ',Total ' + arg_type
+        for i in range(1, self.num_tags):
+            tag = self.arg_classes[i]
+            csv_header += ',' + tag + ',Total ' + tag
         csv_header += '\n'
         csv_entries_dist = ''
         csv_entries_edge = ''
@@ -461,6 +482,7 @@ class NeuralTrainer:
             csv_entries_dist = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries_dist)
             csv_entries_edge = self.distance_stats_to_csv(scores[2], foldNumber, csv_entries_edge)
             foldNumber += 1
+            break
 
         print('Average results for the ten folds:')
         self.prettyPrintResults(cvscores)
@@ -609,8 +631,8 @@ class NeuralTrainer:
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 75
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> at 50
 
-        premise_index = self.tags.index('(I,premise)')
-        claim_index = self.tags.index('(I,claim)')
+        premise_index = self.tags.index('(P)')
+        claim_index = self.tags.index('(C)')
 
         print('Accuracy - ' + str(round(scores[0], 4)))
 
@@ -642,15 +664,15 @@ class NeuralTrainer:
         print('Precision')
         print('\t'.join(self.tags))
         print(str(round(scores[1][0][0], 3)) + '   ' + str(round(scores[1][0][1], 3)) + '     ' + str(
-            round(scores[1][0][2], 3)))
+            round(scores[1][0][2], 3)) + '   ' + str(round(scores[1][0][3], 3)))
         print('Recall')
         print('\t'.join(self.tags))
         print(str(round(scores[1][1][0], 3)) + '   ' + str(round(scores[1][1][1], 3)) + '     ' + str(
-            round(scores[1][1][2], 3)))
+            round(scores[1][1][2], 3)) + '   ' + str(round(scores[1][1][3], 3)))
         print('F1')
         print('\t'.join(self.tags))
         print(str(round(scores[1][2][0], 3)) + '   ' + str(round(scores[1][2][1], 3)) + '     ' + str(
-            round(scores[1][2][2], 3)))
+            round(scores[1][2][2], 3)) + '   ' + str(round(scores[1][2][3], 3)))
 
     def write_evaluated_tests_to_file(self, x_test, y_pred_class, y_pred_dist, testSet, text_dir, dumpPath):
         invword_index = {v: k for k, v in self.word_index.items()}
@@ -686,11 +708,29 @@ class NeuralTrainer:
             startPosition = 0
             currentPosition = 0
             lastTag = text[0]
+            is_arg = False
             for tag in text:
-                if tag != lastTag:
+                if tag == 3: # first premise token
+                    is_arg = True
                     endPosition = currentPosition - 1
                     textSpans[startPosition] = endPosition
                     startPosition = currentPosition
+                elif tag == 4: # first claim token
+                    is_arg = True
+                    endPosition = currentPosition - 1
+                    textSpans[startPosition] = endPosition
+                    startPosition = currentPosition
+                elif tag == 2 and tag != lastTag: # first non-arg token
+                    is_arg = False
+                    endPosition = currentPosition - 1
+                    textSpans[startPosition] = endPosition
+                    startPosition = currentPosition
+                elif tag == 1 and not is_arg: # invalid I tag
+                    print('\n!!!!!!!!!!!!\nMISTAKE\n!!!!!!!!!!!!\n')
+                    if tag != lastTag:
+                        endPosition = currentPosition - 1
+                        textSpans[startPosition] = endPosition
+                        startPosition = currentPosition
                 lastTag = tag
                 currentPosition += 1
             endPosition = currentPosition - 1
@@ -698,13 +738,6 @@ class NeuralTrainer:
             spans.append(textSpans)
 
         return spans
-
-    def trimSpans(self, predictedSpanStart, predictedSpanEnd, goldSpans):
-        trimmedSpans = {}
-        for goldSpanStart, goldSpanEnd in goldSpans[0].items():
-            if ((predictedSpanStart >= goldSpanStart) and (predictedSpanEnd <= goldSpanEnd)):
-                trimmedSpans[predictedSpanStart] = predictedSpanEnd
-        return trimmedSpans
 
     def spanEval(self, y_pred_class, y_pred_dist, unencodedY, threshold):
         goldSpans = self.spanCreator(unencodedY)
@@ -724,14 +757,16 @@ class NeuralTrainer:
             classes = np.add(classes, 1)
 
             for spanStart, spanEnd in goldSpans[i].items():
-                goldSpanTypes[unencodedY[i][spanStart] - 1] += 1
+                span_start_tag = unencodedY[i][spanStart]
+                goldSpanTypes[span_start_tag - 1] += 1
 
             for spanStart, spanEnd in goldSpans[i].items():
                 predicted = classes[spanStart:spanEnd + 1]
                 possibleSpans = self.spanCreator([predicted])
 
                 for possibleSpanStart, possibleSpanEnd in possibleSpans[0].items():
-                    predictedSpanTypes[classes[spanStart + possibleSpanStart] - 1] += 1
+                    predicted_start_tag = classes[spanStart + possibleSpanStart]
+                    predictedSpanTypes[predicted_start_tag - 1] += 1
                 for possibleSpanStart, possibleSpanEnd in possibleSpans[0].items():
                     if (((possibleSpanEnd - possibleSpanStart + 1) >= ((spanEnd - spanStart + 1) * threshold))
                             and (classes[spanStart + possibleSpanStart] == unencodedY[i][
@@ -747,7 +782,7 @@ class NeuralTrainer:
 
         precision_arg = 0
         goldSpanTypes_arg = 0
-        for i in range(1,self.num_tags):
+        for i in range(0, self.num_tags):
             precision_arg += precisionCorrectSpans[i]
             goldSpanTypes_arg += goldSpanTypes[i]
         accuracy = precision_arg / goldSpanTypes_arg
@@ -760,8 +795,8 @@ class NeuralTrainer:
             if ((precision[i] + recall[i]) != 0):
                 f1[i] = 2 * ((precision[i] * recall[i]) / (precision[i] + recall[i]))
 
-        premise_index = self.tags.index('(I,premise)')
-        claim_index = self.tags.index('(I,claim)')
+        premise_index = self.tags.index('(P)')
+        claim_index = self.tags.index('(C)')
         print('Accuracy at ' + str(threshold) + ' - ' + str(round(accuracy, 3)))
         print('Precision for premises at ' + str(threshold) + ' - ' + str(round(precision[premise_index], 3)))
         print('Precision for claims at ' + str(threshold) + ' - ' + str(round(precision[claim_index], 3)))

@@ -34,13 +34,24 @@ class RelationTagProcessor:
             self.processTags(fileName)
 
     def tag_count(self, tags_list):
+        is_premise = False
+        is_claim = False
         for tag in tags_list:
             if tag == '':
                 continue
             tag_elements = tag.split(',')
             if tag_elements[0][1] == 'O':
                 self.numNArg += 1
-            elif tag_elements[1] == 'premise':
+            elif tag_elements[0][1] == 'P':
+                is_premise = True
+                is_claim = False
                 self.numPremise += 1
-            elif tag_elements[1] == 'claim':
+            elif tag_elements[0][1] == 'C':
+                is_premise = False
+                is_claim = True
                 self.numClaim += 1
+            elif tag_elements[0][1] == 'I':
+                if is_premise:
+                    self.numPremise += 1
+                elif is_claim:
+                    self.numClaim += 1

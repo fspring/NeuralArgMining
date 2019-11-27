@@ -115,23 +115,25 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
     print(np.shape(text_sequences), np.shape(tag_sequences[0]), np.shape(unencoded_tags))
     print(textSequencer.maxlen)
 
+    print(unencoded_tags[0])
+
     # print('Number of Tokens:', tags_to_eval.numNArg + tags_to_eval.numClaim + tags_to_eval.numPremise)
     # print('Number of Claims Tokens:', tags_to_eval.numClaim)
     # print('Number of Premises Tokens:', tags_to_eval.numPremise)
 
-    trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
+    # trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
     # trainer.create_model()
-    trainer.create_baseline_model()
-
-    startTime = datetime.datetime.now().replace(microsecond=0)
-
-    trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags)
-
-    endTime = datetime.datetime.now().replace(microsecond=0)
-    timeTaken = endTime - startTime
-
-    print("Time elapsed:")
-    print(timeTaken)
+    # # trainer.create_baseline_model()
+    #
+    # startTime = datetime.datetime.now().replace(microsecond=0)
+    #
+    # trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags)
+    #
+    # endTime = datetime.datetime.now().replace(microsecond=0)
+    # timeTaken = endTime - startTime
+    #
+    # print("Time elapsed:")
+    # print(timeTaken)
 
 
 def main():
@@ -150,8 +152,8 @@ def main():
         newDirectory = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(6))
         dumpPath = r'Dumps/' + newDirectory
     os.makedirs(dumpPath)
-    os.makedirs(dumpPath + '_baseline')
-    # os.makedirs(dumpPath + '_BCorr')
+    os.makedirs(dumpPath + '_BCorr')
+    # os.makedirs(dumpPath + '_baseline')
 
     os.environ['PYTHONHASHSEED'] = '0'
     np.random.seed(42)
