@@ -277,8 +277,8 @@ class claimsAndPremises:
             word = words[wordIndex]
             if (wordIndex == 0):
                 tag = '(' + type + ',' + distance + ')'
-            elif ((word == '.') or (word == ':') or (word == ';') or (word == '?') or (word == '!')):
-                tag = '(O,|)'
+            # elif ((word == '.') or (word == ':') or (word == ';') or (word == '?') or (word == '!')):
+            #     tag = '(O,|)'
             else:
                 tag = '(I,' + distance + ')'
             taggedWord = Word(word,tag)

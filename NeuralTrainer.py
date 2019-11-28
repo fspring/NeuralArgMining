@@ -409,7 +409,7 @@ class NeuralTrainer:
         (y_pred_class, c_pred_dist) = self.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
 
         self.write_evaluated_tests_to_file(x_test, y_pred_class, c_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath)
-        spanEvalAt1 = self.spanEval(y_pred_class, y_pred_dist, z, 1.0)
+        spanEvalAt1 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 1.0)
         spanEvalAt075 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 0.75)
         spanEvalAt050 = self.spanEval(y_pred_class, y_pred_dist, unencodedY, 0.50)
         tagEval = self.tagEval(y_pred_class, unencodedY)
@@ -476,13 +476,12 @@ class NeuralTrainer:
             Y_test_dist = np.array(Y_test_dist)
             unencoded_Y = np.array(unencoded_Y)
 
-            # scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
-            scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            # scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             cvscores = self.handleScores(cvscores, scores[0], n_folds)
             csv_entries_dist = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries_dist)
             csv_entries_edge = self.distance_stats_to_csv(scores[2], foldNumber, csv_entries_edge)
             foldNumber += 1
-            break
 
         print('Average results for the ten folds:')
         self.prettyPrintResults(cvscores)
