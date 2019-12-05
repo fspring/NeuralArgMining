@@ -72,7 +72,9 @@ class NeuralTrainer:
         self.model = None
         self.tags = ['']*num_tags
         self.arg_classes = ['']*num_tags
+        self.transition_matrix = None
         self.read_tag_mapping()
+        self.set_transition_matrix()
 
     def read_tag_mapping(self):
         f = open('tag_mapping.txt', 'r', encoding='utf-8')
@@ -93,8 +95,58 @@ class NeuralTrainer:
                 self.arg_classes[i] = 'claim'
             elif tags[i] == '(I)':
                 self.arg_classes[i] = 'inside'
-            else:
-                print('AAAAAAAAAAAAAAAAAAAAAAAAAA')
+
+    # def set_transition_matrix(self):
+    #     transition_matrix = np.array([[1]*self.num_tags]*self.num_tags)
+    #     # matrix is initialized to 1
+    #     # this function sets some entries to 0
+    #     for i in range(0, self.num_tags):
+    #         if self.tags[i] == '(O)':
+    #             for j in range(0, self.num_tags):
+    #                 if self.tags[j] == '(I)': # only impossible transition from (O)
+    #                     transition_matrix[i][j] = 0
+    #         elif self.tags[i] == '(P)':
+    #             for j in range(0, self.num_tags):
+    #                 if not self.tags[j] == '(I)': # only possible transition from (P)
+    #                     transition_matrix[i][j] = 0
+    #         elif self.tags[i] == '(C)':
+    #             for j in range(0, self.num_tags):
+    #                 if not self.tags[j] == '(I)': # only possible transition from (C)
+    #                     transition_matrix[i][j] = 0
+    #     # all transitions from (I) are possible
+    #     self.transition_matrix = keras.initializers.Constant(transition_matrix)
+
+
+    def set_transition_matrix(self):
+        transition_matrix = np.array([[1]*self.num_tags]*self.num_tags)
+        # matrix is initialized to 1
+        # this function sets some entries to 0
+        for i in range(0, self.num_tags):
+            if self.tags[i] == '(O)':
+                for j in range(0, self.num_tags):
+                    if self.tags[j] == '(P)': # impossible transition to (O)
+                        transition_matrix[i][j] = 0
+                    elif self.tags[j] == '(C)': # impossible transition to (O)
+                        transition_matrix[i][j] = 0
+            elif self.tags[i] == '(P)':
+                for j in range(0, self.num_tags):
+                    if self.tags[j] == '(P)': # impossible transition to (P)
+                        transition_matrix[i][j] = 0
+                    elif self.tags[j] == '(C)': # impossible transition to (P)
+                        transition_matrix[i][j] = 0
+            elif self.tags[i] == '(C)':
+                for j in range(0, self.num_tags):
+                    if self.tags[j] == '(P)': # impossible transition to (C)
+                        transition_matrix[i][j] = 0
+                    elif self.tags[j] == '(C)': # impossible transition to (C)
+                        transition_matrix[i][j] = 0
+            elif self.tags[i] == '(I)':
+                for j in range(0, self.num_tags):
+                    if self.tags[j] == '(O)': # impossible transition to (I)
+                        transition_matrix[i][j] = 0
+        # all transitions from (I) are possible
+        print(transition_matrix)
+        self.transition_matrix = transition_matrix
 
 
     def decodeTags(self, tags):
@@ -135,8 +187,8 @@ class NeuralTrainer:
 
     def create_CRF(self, biLSTM_tensor, learn, test):
         crf_tensor = TimeDistributed(Dense(20, activation='relu'))(biLSTM_tensor)
-
-        crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, name='crf_layer')
+        chain_matrix = keras.initializers.Constant(self.transition_matrix)
+        crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, chain_initializer=chain_matrix, name='crf_layer')
 
         crf_tensor = crf(crf_tensor)
 
@@ -167,6 +219,9 @@ class NeuralTrainer:
 
         # self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
         self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        # w = self.model.get_weights()
+        # for i in range(0, len(w)):
+        #     print(i, len(w[i]))
 
     def create_baseline_model(self):
         input = Input(shape=(self.maxlen,))
@@ -280,7 +335,8 @@ class NeuralTrainer:
         print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
 
         (y_pred_class, b_pred_dist) = self.predict_baseline_distances_claim(y_pred_class)
-
+        
+        os.makedirs(self.dumpPath + '_baseline')
         self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
         spanEvalAt1 = self.spanEval(y_pred_class, b_pred_dist, unencodedY, 1.0)
         spanEvalAt075 = self.spanEval(y_pred_class, b_pred_dist, unencodedY, 0.75)
@@ -395,6 +451,23 @@ class NeuralTrainer:
         y_train = [y_train_class,y_train_dist]
         self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
 
+        # layer = self.model.get_layer('crf_layer')
+        # weights = layer.get_weights()
+        # gen_matrix = weights[1]
+
+        # print('before:', gen_matrix)
+
+        # for i in range(0, self.num_tags):
+        #     for j in range(0, self.num_tags):
+        #         if self.transition_matrix[i][j] == 0:
+        #             gen_matrix[i][j] = 0
+        
+        # print('after:', gen_matrix)
+        # weights[1] = gen_matrix
+
+        # self.model.get_layer('crf_layer').set_weights(weights)
+        # print('check:', self.model.get_layer('crf_layer').get_weights()[1])
+
         y_test = [y_test_class,y_test_dist]
         scores = self.model.evaluate(x_test, y_test, batch_size=8, verbose=1)
         [y_pred_class, y_pred_dist] = self.model.predict(x_test)
@@ -403,7 +476,8 @@ class NeuralTrainer:
         print("%s: %.2f%%" % (self.model.metrics_names[3], scores[3] * 100))
         print("%s: %.2f%%" % (self.model.metrics_names[4], scores[4] * 100))
         print("%s: %.2f%%" % (self.model.metrics_names[2], scores[2] * 100))
-
+        if not os.path.exists(self.dumpPath + '_BCorr'):
+            os.makedirs(self.dumpPath + '_BCorr')
         self.write_evaluated_tests_to_file(x_test, y_pred_class, y_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_BCorr')
 
         (y_pred_class, c_pred_dist) = self.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
@@ -482,6 +556,7 @@ class NeuralTrainer:
             csv_entries_dist = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries_dist)
             csv_entries_edge = self.distance_stats_to_csv(scores[2], foldNumber, csv_entries_edge)
             foldNumber += 1
+            break
 
         print('Average results for the ten folds:')
         self.prettyPrintResults(cvscores)

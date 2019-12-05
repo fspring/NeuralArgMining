@@ -144,14 +144,12 @@ def main():
 
     assert args.model_name in ["FtEn", "FtPt", "MSuEn", "MUnEn", "VMSuEn", "VMUnEn", "MSuPt", "MUnPt", "VMSuPt", "VMUnPt", "MSuEnPt", "MUnEnPt", "VMSuEnPt", "VMUnEnPt"]
 
-    newDirectory = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(6))
-    dumpPath = r'Dumps/' + newDirectory
-    while os.path.exists(dumpPath):
-        newDirectory = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(6))
-        dumpPath = r'Dumps/' + newDirectory
-    os.makedirs(dumpPath)
-    os.makedirs(dumpPath + '_BCorr')
-    # os.makedirs(dumpPath + '_baseline')
+    # newDirectory = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(6))
+    # dumpPath = r'Dumps/' + newDirectory
+    # while os.path.exists(dumpPath):
+    #     newDirectory = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(6))
+    #     dumpPath = r'Dumps/' + newDirectory
+    # os.makedirs(dumpPath)
 
     os.environ['PYTHONHASHSEED'] = '0'
     np.random.seed(42)
@@ -161,14 +159,23 @@ def main():
     if 'EnPt' in args.model_name:
         textDirectory = 'CorpusOutputPunctuation/rel/texts'
         tagDirectory = 'CorpusOutputPunctuation/rel/tags'
+        dumpPath = r'Dumps/EnPt'
+        if not os.path.exists(dumpPath):
+            os.makedirs(dumpPath)
         addTexts = True
     elif 'Pt' in args.model_name:
         textDirectory = 'CorpusOutputPunctuation/rel/texts'
         tagDirectory = 'CorpusOutputPunctuation/rel/tags'
+        dumpPath = r'Dumps/Pt'
+        if not os.path.exists(dumpPath):
+            os.makedirs(dumpPath)
         addTexts = False
     else:
         textDirectory = 'essaysClaimsPremisesPunctuation/rel/texts'
         tagDirectory = 'essaysClaimsPremisesPunctuation/rel/tags'
+        dumpPath = r'Dumps/En'
+        if not os.path.exists(dumpPath):
+            os.makedirs(dumpPath)
         addTexts = False
 
     embeddings = args.model_name + 'Emb'
