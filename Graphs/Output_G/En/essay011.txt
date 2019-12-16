@@ -1,35 +1,43 @@
 digraph G {
-	65 -> 63;
-	99 -> 73;
-	139 -> 118;
-	139 -> 121;
-	335 -> 336;
-	63 [label="says",color=green];
-	65 [label=""anima sana in corpore sano" ,
- which means",color=blue];
-	73 [label="that healthy body
- is basis for healthy",color=green];
-	99 [label="more we
- practice , the better we
- feel",color=blue];
-	118 [label="health",color=green];
-	139 [label="if the
- entire nation , from their
- school ages begin going for
- sports and try doing that
- everyday , eventually it may
- help to build healthy nation
+	235 -> 334;
+	260 -> 334;
+	277 -> 334;
+	301 -> 334;
+	314 -> 334;
+	235 [label="almost all natural science discoveries were
+ made by direct observation ,
+ which is a part of
+ physical education",color=blue];
+	334 [label="putting physical
+ activities in early steps of
+ human development would finally lead
+ to mentally healthy society",color=green];
+	260 [label="financial sustainability of a region mostly
+ depends on how healthy the
+ population is",color=blue];
+	334 [label="putting physical
+ activities in early steps of
+ human development would finally lead
+ to mentally healthy society",color=green];
+	277 [label="the money invested into
+ physical education program can save
+ allocations into healthcare , since
+ the nation is comparatively healthy
 ",color=blue];
-	121 [label="everyday physical activity",color=green];
-	139 [label="if the
- entire nation , from their
- school ages begin going for
- sports and try doing that
- everyday , eventually it may
- help to build healthy nation
-",color=blue];
-	335 [label="physical",color=blue];
-	336 [label="activities in early steps of
+	334 [label="putting physical
+ activities in early steps of
+ human development would finally lead
+ to mentally healthy society",color=green];
+	301 [label="physically healthy people can contribute
+ more both into economical and
+ social development",color=blue];
+	334 [label="putting physical
+ activities in early steps of
+ human development would finally lead
+ to mentally healthy society",color=green];
+	314 [label="as",color=blue];
+	334 [label="putting physical
+ activities in early steps of
  human development would finally lead
  to mentally healthy society",color=green];
 }

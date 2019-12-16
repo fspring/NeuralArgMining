@@ -1,56 +1,18 @@
 digraph G {
-	85 -> 61;
-	85 -> 66;
-	85 -> 73;
-	120 -> 84;
 	236 -> 281;
 	250 -> 281;
 	262 -> 281;
-	61 [label="enjoying watching television shows",color=green];
-	85 [label="kill time by tracking these channels
- so at the end of
- the day we understand it
- is late for doing any
- other activities",color=blue];
-	66 [label="it is really time consuming
- task",color=green];
-	85 [label="kill time by tracking these channels
- so at the end of
- the day we understand it
- is late for doing any
- other activities",color=blue];
-	73 [label="emergence of new
- television channels or shows are
- not surprising",color=green];
-	85 [label="kill time by tracking these channels
- so at the end of
- the day we understand it
- is late for doing any
- other activities",color=blue];
-	84 [label="we",color=green];
-	120 [label="at the end , there is
- no time for call to
- our parents or friends",color=blue];
 	236 [label="some thriller or action movies
  advertise negative activities such as
  doing criminal activity",color=blue];
-	281 [label="killing our time , making
- us lazy , and advertising
- negative behaviors are just only
- few",color=green];
+	281 [label="killing our time",color=green];
 	250 [label="these genre of programs has more
  negative effects on our teenagers
 ",color=blue];
-	281 [label="killing our time , making
- us lazy , and advertising
- negative behaviors are just only
- few",color=green];
+	281 [label="killing our time",color=green];
 	262 [label="they usually try to
  mimic what they see on
  movies in their daily behaviors
 ",color=blue];
-	281 [label="killing our time , making
- us lazy , and advertising
- negative behaviors are just only
- few",color=green];
+	281 [label="killing our time",color=green];
 }

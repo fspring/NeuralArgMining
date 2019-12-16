@@ -1,14 +1,7 @@
 digraph G {
-	112 -> 96;
-	128 -> 98;
-	128 -> 101;
-	112 -> 105;
-	96 [label="the",color=green];
-	112 [label="by having cctv cameras
- at workplace , crimes such
- as robbery can be trimmed
- down",color=blue];
-	98 [label="increasing theft",color=green];
+	128 -> 226;
+	167 -> 226;
+	200 -> 226;
 	128 [label="this is because
  when a shop is attacked
  by thieves , the clips
@@ -16,17 +9,23 @@ digraph G {
  as a source of evidence
  to help the thieves to
  be traced",color=blue];
-	101 [label="and",color=green];
-	128 [label="this is because
- when a shop is attacked
- by thieves , the clips
- taken by these cameras serve
- as a source of evidence
- to help the thieves to
- be traced",color=blue];
-	105 [label="workers at the",color=green];
-	112 [label="by having cctv cameras
- at workplace , crimes such
- as robbery can be trimmed
- down",color=blue];
+	226 [label="cctvs must be put in
+ all workplace so that crime
+ rates can be minimized",color=green];
+	167 [label="policemen used the videos
+ captured by the cctv cameras
+ to trace and successfully catch
+ a group of robbers who
+ broke into a seven eleven
+ shop during the midnight",color=blue];
+	226 [label="cctvs must be put in
+ all workplace so that crime
+ rates can be minimized",color=green];
+	200 [label="as the employees know that they
+ are under constant surveillance ,
+ they will less likely steal
+ from the shops",color=blue];
+	226 [label="cctvs must be put in
+ all workplace so that crime
+ rates can be minimized",color=green];
 }

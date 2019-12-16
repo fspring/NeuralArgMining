@@ -1,21 +1,2 @@
 digraph G {
-	96 -> 77;
-	216 -> 190;
-	77 [label="maintaining one’s cultural identity
- is a key important rule
- to help individuals emerge in
- the new multicultural environments",color=green];
-	96 [label="take australia for example ,
- immigrants from varieties of nations
- have a day called multicultural
- day where people from each
- country prepare their food and
- traditional activities for displaying in
- the public venues",color=blue];
-	190 [label="is crucial to keep one’s identity
- for",color=green];
-	216 [label="for instance , children immigrated
- to a new country will
- face social troubles in school
- with new friends",color=blue];
 }

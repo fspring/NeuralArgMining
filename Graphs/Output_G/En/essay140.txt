@@ -1,39 +1,18 @@
 digraph G {
-	124 -> 221;
-	148 -> 197;
-	196 -> 155;
-	156 -> 197;
-	177 -> 197;
-	191 -> 197;
-	124 [label="female students
- are more often likely to
- grab more number of top
- scorer positions in every year
- higher secondary school examinations",color=blue];
-	221 [label="of india's second largest bank
+	214 -> 254;
+	214 [label="chanda kochhar
+ , who is the ceo
+ of india's second largest bank
  called icici bank and prominently
  awarded as the country's most
  powerful female head in business
- sector",color=green];
-	148 [label="female students are
- highly interested in learning",color=blue];
-	197 [label="take huge responsibilities in
- their workplace , despite its
- intensive stress and pressure",color=green];
-	155 [label="courses",color=green];
-	196 [label="to",color=blue];
-	156 [label="such as mechanical engineering which
- demands",color=blue];
-	197 [label="take huge responsibilities in
- their workplace , despite its
- intensive stress and pressure",color=green];
-	177 [label="due to increasing exposure
- on current affairs and",color=blue];
-	197 [label="take huge responsibilities in
- their workplace , despite its
- intensive stress and pressure",color=green];
-	191 [label="female graduates are",color=blue];
-	197 [label="take huge responsibilities in
- their workplace , despite its
- intensive stress and pressure",color=green];
+ sector",color=blue];
+	254 [label="every student
+ either male or female should
+ be given fairly equal opportunity
+ to purse their education in
+ all university subjects , provided
+ they should meet the required
+ qualifications rather than putting limitations
+ based on their gender",color=green];
 }

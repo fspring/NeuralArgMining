@@ -1,22 +1,13 @@
 digraph G {
-	121 -> 82;
-	235 -> 208;
-	235 -> 214;
-	235 -> 218;
-	82 [label="should",color=green];
-	121 [label="such people might fail to
- get cured in time ,
- thus influencing their working efficiency
- , which would destabilize the
- production of the industry",color=blue];
-	208 [label="public",color=green];
-	235 [label="have had the capacity to pay
- for the both privately",color=blue];
-	214 [label="subsidize health
- care",color=green];
-	235 [label="have had the capacity to pay
- for the both privately",color=blue];
-	218 [label="education",color=green];
-	235 [label="have had the capacity to pay
- for the both privately",color=blue];
+	68 -> 47;
+	47 [label="it is the government
+ that should be obligated to
+ fund the health care and
+ education for citizens",color=green];
+	68 [label="citizens enjoy the
+ right to live in a
+ harmonious and stable environment ,
+ which should be enabled by
+ the government , the leader
+ of the society",color=blue];
 }

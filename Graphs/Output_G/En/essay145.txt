@@ -1,61 +1,23 @@
 digraph G {
-	111 -> 71;
-	123 -> 81;
-	138 -> 93;
-	138 -> 101;
-	138 -> 110;
-	123 -> 195;
-	214 -> 183;
-	310 -> 307;
-	353 -> 354;
-	71 [label="i develop my own perspective
-",color=green];
-	111 [label="we have , the more
- chances we can increase our
- knowledge",color=blue];
-	81 [label="the former",color=green];
-	123 [label="for example ,
- library is a good place
- for students to study or
- research",color=blue];
-	93 [label="improving",color=green];
-	138 [label="they can concentrate
- on the subjects with a
- tranquil ambience ; also ,
- there are a lot of
- references for students to utilize
-",color=blue];
-	101 [label="lies in an inevitable fact
- that",color=green];
-	138 [label="they can concentrate
- on the subjects with a
- tranquil ambience ; also ,
- there are a lot of
- references for students to utilize
-",color=blue];
-	110 [label="facilities",color=green];
-	138 [label="they can concentrate
- on the subjects with a
- tranquil ambience ; also ,
- there are a lot of
- references for students to utilize
-",color=blue];
-	123 [label="for example ,
- library is a good place
- for students to study or
- research",color=blue];
-	195 [label="crucial aspect is that students",color=green];
-	183 [label="that certain facilities
- are beneficial to students",color=green];
-	214 [label="consider a
- circumstance in which a student
+	214 -> 268;
+	215 -> 268;
+	232 -> 268;
+	246 -> 268;
+	272 -> 268;
+	214 [label="consider",color=blue];
+	268 [label="from",color=green];
+	215 [label="a circumstance in which a student
  who is a member of
  jazz ensemble in their school
 ",color=blue];
-	307 [label="hiring prestigious teachers",color=green];
-	310 [label="because they can impart their students
- well",color=blue];
-	353 [label="good",color=blue];
-	354 [label="teacher but
- is decided",color=green];
+	268 [label="from",color=green];
+	232 [label="he must need a
+ better auditorium for him to
+ have an extraordinary performance",color=blue];
+	268 [label="from",color=green];
+	246 [label="with",color=blue];
+	268 [label="from",color=green];
+	268 [label="from",color=green];
+	272 [label="we are capable of
+",color=blue];
 }

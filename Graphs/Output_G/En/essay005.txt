@@ -1,26 +1,18 @@
 digraph G {
-	90 -> 64;
-	181 -> 225;
-	224 -> 225;
-	64 [label="studying at
- an overseas university gives individuals
- the opportunity to improve social
- skills by interacting and communicating
- with students from different origins
- and cultures",color=green];
-	90 [label="to the peers studying in the
- home country , it will
- be more likely for the
- one who is living overseas
- to be successful in adapting
- himself/herself into new environments and
- situations in life",color=blue];
-	181 [label="the one will learn living
- without depending on anyone else
+	194 -> 245;
+	207 -> 245;
+	194 [label="employers are
+ mostly looking for people who
+ have international and language skills
 ",color=blue];
-	225 [label="who has studied and lived overseas
- will become more eligible",color=green];
-	224 [label="one",color=blue];
-	225 [label="who has studied and lived overseas
- will become more eligible",color=green];
+	245 [label="there are many difficulties a student
+ might face when studying and
+ living overseas",color=green];
+	207 [label="becoming successful in this
+ study will give the student
+ an edge in job market
+",color=blue];
+	245 [label="there are many difficulties a student
+ might face when studying and
+ living overseas",color=green];
 }

@@ -1,45 +1,33 @@
 digraph G {
-	127 -> 112;
-	361 -> 343;
-	361 -> 351;
-	361 -> 356;
-	408 -> 445;
-	457 -> 455;
-	112 [label="there will be lesser
- job opportunities for the fresh
- graduates",color=green];
-	127 [label="most of them will
- be forced to take up
- careers which are poles apart
- from what they had studied
- for",color=blue];
-	343 [label="be better if
- at an older age",color=green];
-	361 [label="the expertise of the senior
- workers who had retired should
- never be underestimated",color=blue];
-	351 [label="opportunities",color=green];
-	361 [label="the expertise of the senior
- workers who had retired should
- never be underestimated",color=blue];
-	356 [label="younger",color=green];
-	361 [label="the expertise of the senior
- workers who had retired should
- never be underestimated",color=blue];
-	408 [label="the retiree come
- over to the companies or
- hospitals to have regular sessions
- with the present staffs to
- bridge the gap between them
- and to pass on their
- knowledge",color=blue];
-	445 [label="that age limit should be set
- for retirement",color=green];
-	455 [label="will come",color=green];
-	457 [label="a certain time when
- the older generation should hand
- over the responsibility to the
- fresh comers who are certainly
- waiting to be given a
- choice to prove themselves",color=blue];
+	153 -> 340;
+	301 -> 340;
+	318 -> 340;
+	375 -> 441;
+	153 [label="a medical graduate
+ might find it very disheartened
+ when he had to spend
+ around five precious years studying
+ medicine and at the end
+ of the day , he
+ will have to take up
+ another profession rather than doctor
+ due to the insufficient job
+ opportunities available",color=blue];
+	340 [label="it would",color=green];
+	301 [label="they will not be able
+ to give their best in
+ whatever they are doing",color=blue];
+	340 [label="it would",color=green];
+	318 [label="the academic institution
+ will have to pay for
+ his medical bills , resulting
+ in more loss for the
+ institution",color=blue];
+	340 [label="it would",color=green];
+	375 [label="their invaluable experiences and knowledge in
+ their respective fields such as
+ engineering , medicine , and
+ law can certainly be beneficial
+ to the younger generation",color=blue];
+	441 [label="it",color=green];
 }

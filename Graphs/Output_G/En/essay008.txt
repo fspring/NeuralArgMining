@@ -1,31 +1,11 @@
 digraph G {
-	120 -> 106;
-	187 -> 167;
-	187 -> 181;
-	106 [label="government should guarantee that all
- people have equal and convenient
- access to it",color=green];
-	120 [label="so a lack of well-established primary
- education goes hand in hand
- with a high rate of
- illiteracy , and this interplay
- seriously compromises a country's future
-",color=blue];
-	167 [label="of the key points
- governments should set on agenda
- is to educate more",color=green];
-	187 [label="that's not enough ,
- for higher education , which
- represent the cutting edge of
- a country's academic achievements ,
- act as the vanguard in
- economic and social advance",color=blue];
-	181 [label="future citizens through elementary education
+	216 -> 250;
+	216 [label="the high technology and new
+ ideas applied into practice may
+ not only lead a country
+ to flourish but also elevate
+ its status in the international
+ community",color=blue];
+	250 [label="themselve well by donation or invention
 ",color=green];
-	187 [label="that's not enough ,
- for higher education , which
- represent the cutting edge of
- a country's academic achievements ,
- act as the vanguard in
- economic and social advance",color=blue];
 }

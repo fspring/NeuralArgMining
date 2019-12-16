@@ -1,25 +1,33 @@
 digraph G {
-	187 -> 256;
-	213 -> 256;
-	231 -> 229;
-	187 [label="as a recent interview
- with josh trumm – the
- founder of the 'teachers global
- group'- reveals , human interactions
- will never be imitated by
- computers",color=blue];
-	256 [label="because only a teacher can
- feel and connect with pupils
- , be a friend and
- a model",color=green];
-	213 [label="'this verbal and
- non-verbal communication between teachers and
- children is the",color=blue];
-	256 [label="because only a teacher can
- feel and connect with pupils
- , be a friend and
- a model",color=green];
-	229 [label="education",color=green];
+	83 -> 163;
+	110 -> 163;
+	231 -> 163;
+	231 -> 256;
+	246 -> 256;
+	83 [label="lessons are more
+ attractive and easier to understand
+ when they are put on
+ a power point presentation and
+ then presented with a lcd
+ projector",color=blue];
+	163 [label="no matter how
+ advanced technology will be",color=green];
+	110 [label="scientists",color=blue];
+	163 [label="no matter how
+ advanced technology will be",color=green];
+	163 [label="no matter how
+ advanced technology will be",color=green];
 	231 [label="without someone who can explain
- and understand their",color=blue];
+ and understand their problems ,
+ pupils cannot actually learn'",color=blue];
+	231 [label="without someone who can explain
+ and understand their problems ,
+ pupils cannot actually learn'",color=blue];
+	256 [label="because only a teacher can
+ feel and connect with pupils
+",color=green];
+	246 [label="i",color=blue];
+	256 [label="because only a teacher can
+ feel and connect with pupils
+",color=green];
 }

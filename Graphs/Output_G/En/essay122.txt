@@ -1,53 +1,17 @@
 digraph G {
-	92 -> 73;
-	174 -> 152;
-	220 -> 269;
-	230 -> 269;
-	240 -> 269;
-	73 [label="i think that
- the new high school will
- bring a lots of opportunities
- for student concerned in education
-",color=green];
-	92 [label="their old high school
- is pretty old and need
- in new educational materials ,
- repairing of the place for
- sport activities",color=blue];
-	152 [label="new",color=green];
-	174 [label="after classes
- students and not only the
- students will get together in
- building of high school ,
- participate in different competitions",color=blue];
-	220 [label="this will increase the social connections
- of the students",color=blue];
-	269 [label="this new
- construction has a lot of
- advantages like new connections between
- students from different communities ,
- also the new educational equipment
- will increase the students' enthusiasm
- toward studying",color=green];
+	230 -> 302;
+	240 -> 302;
 	230 [label="the only disadvantage is the noisiness
  of the competitions",color=blue];
-	269 [label="this new
- construction has a lot of
- advantages like new connections between
- students from different communities ,
- also the new educational equipment
- will increase the students' enthusiasm
- toward studying",color=green];
+	302 [label="is the nosiness of
+ competitions which students will participate
+",color=green];
 	240 [label="the people living in the neighborhood
  will be a bit perturbed
  , but i think this
  isn't a important reason for
  ceasing the competitions",color=blue];
-	269 [label="this new
- construction has a lot of
- advantages like new connections between
- students from different communities ,
- also the new educational equipment
- will increase the students' enthusiasm
- toward studying",color=green];
+	302 [label="is the nosiness of
+ competitions which students will participate
+",color=green];
 }

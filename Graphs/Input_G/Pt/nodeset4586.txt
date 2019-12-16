@@ -5,5 +5,5 @@ digraph G {
 	38 [label="Alberto João
  Jardim aconselhou o seu sucessor
  a não se vergar ao
- Governo de Lisboa",color=green];
+ Governo de Lisboa .",color=green];
 }

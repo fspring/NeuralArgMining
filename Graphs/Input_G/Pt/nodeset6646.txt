@@ -5,5 +5,5 @@ digraph G {
  recente apresentada na GNR ,
 ",color=blue];
 	91 [label="nada apontava para um
- desfecho destes",color=green];
+ desfecho destes .",color=green];
 }

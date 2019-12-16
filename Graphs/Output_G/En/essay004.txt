@@ -1,62 +1,11 @@
 digraph G {
-	87 -> 54;
-	87 -> 63;
-	87 -> 70;
-	182 -> 169;
-	182 -> 171;
-	233 -> 229;
-	54 [label="it is
- an undeniable fact that",color=green];
-	87 [label="many american soldiers came
- to thailand for a break
- and involved in sexual and
- drug activities , these huge
- demands caused many local businesses
- opened and expanded , even
- illegally involved in under-age prostitutes
- to maximize their profits",color=blue];
-	63 [label="cultures",color=green];
-	87 [label="many american soldiers came
- to thailand for a break
- and involved in sexual and
- drug activities , these huge
- demands caused many local businesses
- opened and expanded , even
- illegally involved in under-age prostitutes
- to maximize their profits",color=blue];
-	70 [label="cultural",color=green];
-	87 [label="many american soldiers came
- to thailand for a break
- and involved in sexual and
- drug activities , these huge
- demands caused many local businesses
- opened and expanded , even
- illegally involved in under-age prostitutes
- to maximize their profits",color=blue];
-	169 [label="tourism",color=green];
-	182 [label="as the australia’s great
- barrier reef has shown ,
- the billion visitors per annum
- has generated immense destruction to
- this nature wonder , namely
- breaking the corals caused by
- walking or throwing boat’s anchors
- , dropping fuel and other
- sorts of pollutions",color=blue];
-	171 [label="create harms",color=green];
-	182 [label="as the australia’s great
- barrier reef has shown ,
- the billion visitors per annum
- has generated immense destruction to
- this nature wonder , namely
- breaking the corals caused by
- walking or throwing boat’s anchors
- , dropping fuel and other
- sorts of pollutions",color=blue];
+	229 -> 252;
 	229 [label="many marine
- lives have",color=green];
-	233 [label="been endangered ,
+ lives have been endangered ,
  in the extremes part of
  the reef become uninhabitable for
  these marine species",color=blue];
+	252 [label="it is apparent that
+ tourism has threatened the nature
+ environments",color=green];
 }

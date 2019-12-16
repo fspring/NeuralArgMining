@@ -10,11 +10,11 @@ digraph G {
 	19 [label="as provas do Grand Slam prosseguem
  a política de reforço dos
  prémios , conforme ficou definido
-",color=blue];
+ .",color=blue];
 	122 [label="A tendência está
  generalizada e não se manifesta
  apenas nas provas do Grand
- Slam",color=green];
+ Slam .",color=green];
 	36 [label="De Roland Garros veio
  a notícia de que o
  prize-money global chegará aos 28
@@ -24,33 +24,33 @@ digraph G {
 	122 [label="A tendência está
  generalizada e não se manifesta
  apenas nas provas do Grand
- Slam",color=green];
+ Slam .",color=green];
 	66 [label="uma verba 150 mil
  euros superior à do ano
- passado",color=blue];
+ passado .",color=blue];
 	122 [label="A tendência está
  generalizada e não se manifesta
  apenas nas provas do Grand
- Slam",color=green];
+ Slam .",color=green];
 	77 [label="Mesmo assim ,
  na Austrália foram distribuídos 27,5
  milhões de euros (2,13 para
  os vencedores , enquanto Wimbledon
  pagou 30,4 milhões no ano
- passado",color=blue];
+ passado .",color=blue];
 	122 [label="A tendência está
  generalizada e não se manifesta
  apenas nas provas do Grand
- Slam",color=green];
+ Slam .",color=green];
 	102 [label="Quanto ao US
  Open , a edição passada
  pagou 28,1 milhões de euros
  , cabendo 2,2 milhões aos
- vencedores",color=blue];
+ vencedores .",color=blue];
 	122 [label="A tendência está
  generalizada e não se manifesta
  apenas nas provas do Grand
- Slam",color=green];
+ Slam .",color=green];
 	137 [label="Dados da imprensa
  internacional apontam no sentido de
  os Masters 1.000 também apresentarem
@@ -68,10 +68,12 @@ digraph G {
 ",color=blue];
 	215 [label="esta estratégia também melhora o
  montante de prémios de quem
- mais vezes sai vencedor",color=green];
+ mais vezes sai vencedor .
+",color=green];
 	215 [label="esta estratégia também melhora o
  montante de prémios de quem
- mais vezes sai vencedor",color=green];
+ mais vezes sai vencedor .
+",color=green];
 	230 [label="No ano passado , o
  sérvio Novak Djokovic somou sete
  troféus , incluindo Wimbledon e

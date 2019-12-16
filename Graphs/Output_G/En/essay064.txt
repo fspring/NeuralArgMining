@@ -1,63 +1,24 @@
 digraph G {
-	108 -> 63;
-	108 -> 67;
-	108 -> 69;
-	269 -> 333;
-	286 -> 333;
-	311 -> 333;
-	63 [label="educators should",color=green];
-	108 [label="this is because
- children have to be proficient
- at computers and the internet
- if they want to join
- online games , which ,
- in fact , helps children
- acquire a particularly powerful skill
- at work in future",color=blue];
-	67 [label="importance",color=green];
-	108 [label="this is because
- children have to be proficient
- at computers and the internet
- if they want to join
- online games , which ,
- in fact , helps children
- acquire a particularly powerful skill
- at work in future",color=blue];
-	69 [label="traditional",color=green];
-	108 [label="this is because
- children have to be proficient
- at computers and the internet
- if they want to join
- online games , which ,
- in fact , helps children
- acquire a particularly powerful skill
- at work in future",color=blue];
+	250 -> 329;
+	269 -> 329;
+	286 -> 329;
+	311 -> 329;
+	250 [label="communicating with a variety of people
+ will not be an issue
+ for these children any more
+",color=blue];
+	329 [label="there",color=green];
 	269 [label="it is
  the educational functions traditional games
  hold that keep them alive
  today",color=blue];
-	333 [label="that children may
- be exposed to unhealthy contents
- , such as violence or
- pornography , arranged in the
- games by such",color=green];
+	329 [label="there",color=green];
 	286 [label="these traditional games were elaborately
  devised by educators and have
  been proven effective in improving
  children's skills on different aspects
  in previous teaching practices",color=blue];
-	333 [label="that children may
- be exposed to unhealthy contents
- , such as violence or
- pornography , arranged in the
- games by such",color=green];
-	311 [label="by contrast , modern games
- are developed by game companies
- for the purpose of profits
-",color=blue];
-	333 [label="that children may
- be exposed to unhealthy contents
- , such as violence or
- pornography , arranged in the
- games by such",color=green];
+	329 [label="there",color=green];
+	311 [label="by",color=blue];
+	329 [label="there",color=green];
 }

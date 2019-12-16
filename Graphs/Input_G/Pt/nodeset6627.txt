@@ -20,33 +20,33 @@ digraph G {
  os democratas e legado transmitido
  pelas gerações mais antigas a
  todos os jovens de hoje
-",color=blue];
+ .",color=blue];
 	164 [label="Por essa razão a Assembleia Municipal
  do Barreiro decidiu delibera saudar
  o 25 de Abril de
  1974 , bem como a
  celebração livre , em Portugal
  , do dia 1 de
- Maio",color=green];
+ Maio .",color=green];
 	131 [label="Esse é um legado
  que importa estimar e preservar
  na afirmação e desenvolvimento plenos
  dos indivíduos , numa relação
  de proximidade afectiva com a
  Pátria e com o mundo
- – é sublinhado",color=blue];
+ – é sublinhado .",color=blue];
 	164 [label="Por essa razão a Assembleia Municipal
  do Barreiro decidiu delibera saudar
  o 25 de Abril de
  1974 , bem como a
  celebração livre , em Portugal
  , do dia 1 de
- Maio",color=green];
+ Maio .",color=green];
 	242 [label="Desconhecemos o conteúdo
  da referida saudação",color=green];
 	251 [label="a mesma não foi
  divulgada aos órgãos de comunicação
- social",color=blue];
+ social .",color=blue];
 	343 [label="hoje ,
  mais de dois milhões e
  setecentos mil portugueses vivem abaixo
@@ -65,7 +65,8 @@ digraph G {
  , no corte de salários
  , no aumento injusto e
  inaceitável do horários de trabalho
- para as 40 horas",color=blue];
+ para as 40 horas .
+",color=blue];
 	449 [label="é expressa a – oposição às
  politicas económicas e sociais levadas
  a cabo pelo governo PSD/CDS
@@ -77,7 +78,7 @@ digraph G {
 	466 [label="que afundam o país
  , promovem a desigualdade ,
  a pobreza , a fome
- e a miséria",color=blue];
+ e a miséria .",color=blue];
 	599 [label="Salienta-se que hoje em Portugal –
  uma em cada três crianças
  vive em risco de pobreza
@@ -91,7 +92,7 @@ digraph G {
  com que nos confrontamos",color=green];
 	616 [label="é muito elevado o
  número daquelas que chegam à
- escola com fome",color=blue];
+ escola com fome .",color=blue];
 	648 [label="No contexto
  social , politico e económico
  em que nos encontramos em
@@ -102,7 +103,7 @@ digraph G {
 	629 [label="O desemprego dos jovens atingiu os
  35% e está a subir
  ininterruptamente desde Outubro de 2014
- , afirma-se",color=blue];
+ , afirma-se .",color=blue];
 	648 [label="No contexto
  social , politico e económico
  em que nos encontramos em

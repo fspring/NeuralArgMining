@@ -1,2 +1,15 @@
 digraph G {
+	18 -> 0;
+	0 [label="os quatro países vão reforçar a
+ cooperação nas questões da imigração
+ , terrorismo e tráfico de
+ droga .",color=green];
+	18 [label="esta manhã foram
+ assinados vários acordos nestas áreas
+ , numa reunião que decorreu
+ no forte de são julião
+ da barra em oeiras ,
+ e que contou com os
+ ministros da administração interna dos
+ quatros países .",color=blue];
 }

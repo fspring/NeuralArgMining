@@ -1,24 +1,76 @@
 digraph G {
-	239 -> 258;
-	270 -> 280;
-	272 -> 280;
-	295 -> 280;
-	295 -> 294;
-	295 -> 350;
-	239 [label="let's then
+	92 -> 280;
+	112 -> 280;
+	239 -> 280;
+	254 -> 280;
+	345 -> 280;
+	92 [label="the audiences have their
+ own judgement and are not
+ likely to be misled or
+ influenced by some art work
 ",color=blue];
-	258 [label="some of the
+	280 [label="restrictions on exposure to adolescents should
+ apply as adolescents are not
+ mature enough to avoid being
+ led astray by these contents
+ ; however , in the
+ case of adults being the
+ audience , there's really nothing
+ to hide – these negative
+ things objectively exist on this
+ planet and it is impossible
+ for adults to be brain-washed
+ only because of some pieces
+ of creative art",color=green];
+	112 [label="it is needless to
+ say that art inevitably involves
+ imagination , exaggeration and sometimes
+ is purely fabricated ; regardless
+ of whether the work of
+ art is based on truth
+ or not , it is
+ the public's authority to determine
+ how to interpret its meaning
+",color=blue];
+	280 [label="restrictions on exposure to adolescents should
+ apply as adolescents are not
+ mature enough to avoid being
+ led astray by these contents
+ ; however , in the
+ case of adults being the
+ audience , there's really nothing
+ to hide – these negative
+ things objectively exist on this
+ planet and it is impossible
+ for adults to be brain-washed
+ only because of some pieces
+ of creative art",color=green];
+	239 [label="let's then
+ take a look at the
+ impact that art has posed
+ on individuals",color=blue];
+	280 [label="restrictions on exposure to adolescents should
+ apply as adolescents are not
+ mature enough to avoid being
+ led astray by these contents
+ ; however , in the
+ case of adults being the
+ audience , there's really nothing
+ to hide – these negative
+ things objectively exist on this
+ planet and it is impossible
+ for adults to be brain-washed
+ only because of some pieces
+ of creative art",color=green];
+	254 [label="it is
+ undeniable that some of the
  art work may contain negative
- implications such as insanity",color=green];
-	270 [label=",",color=blue];
+ implications such as insanity ,
+ violence , eroticism etc",color=blue];
 	280 [label="restrictions on exposure to adolescents should
- apply",color=green];
-	272 [label=",",color=blue];
-	280 [label="restrictions on exposure to adolescents should
- apply",color=green];
-	280 [label="restrictions on exposure to adolescents should
- apply",color=green];
-	295 [label="being led astray by these contents
+ apply as adolescents are not
+ mature enough to avoid being
+ led astray by these contents
  ; however , in the
  case of adults being the
  audience , there's really nothing
@@ -27,9 +79,11 @@ digraph G {
  planet and it is impossible
  for adults to be brain-washed
  only because of some pieces
- of creative art",color=blue];
-	294 [label="avoid",color=green];
-	295 [label="being led astray by these contents
+ of creative art",color=green];
+	280 [label="restrictions on exposure to adolescents should
+ apply as adolescents are not
+ mature enough to avoid being
+ led astray by these contents
  ; however , in the
  case of adults being the
  audience , there's really nothing
@@ -38,19 +92,6 @@ digraph G {
  planet and it is impossible
  for adults to be brain-washed
  only because of some pieces
- of creative art",color=blue];
-	295 [label="being led astray by these contents
- ; however , in the
- case of adults being the
- audience , there's really nothing
- to hide – these negative
- things objectively exist on this
- planet and it is impossible
- for adults to be brain-washed
- only because of some pieces
- of creative art",color=blue];
-	350 [label="i do not root for the
- idea that restrictions should be
- put on artists work ;
- on the",color=green];
+ of creative art",color=green];
+	345 [label="by way",color=blue];
 }

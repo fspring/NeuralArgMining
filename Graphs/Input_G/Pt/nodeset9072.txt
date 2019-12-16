@@ -8,5 +8,5 @@ digraph G {
  entre momentos de tédio ,
  fases de inquietação , períodos
  de inspiração e tempos de
- alegria",color=blue];
+ alegria .",color=blue];
 }

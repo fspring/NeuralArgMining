@@ -1,2 +1,7 @@
 digraph G {
+	0 -> 38;
+	0 [label="qualquer",color=blue];
+	38 [label="a mera intenção
+ de cometer um crime não
+ conta como crime .",color=green];
 }

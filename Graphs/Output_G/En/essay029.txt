@@ -1,21 +1,29 @@
 digraph G {
-	73 -> 55;
-	212 -> 227;
-	219 -> 227;
-	55 [label="extra income that women earn will
- contribute to their family's expenses
-",color=green];
-	73 [label="a wife can
+	67 -> 110;
+	85 -> 110;
+	150 -> 175;
+	162 -> 175;
+	67 [label="by taking up a
+ job , a wife can
  earn more money to support
  her family life",color=blue];
-	212 [label="besides the gorvernment's policies
- on limited",color=blue];
-	227 [label="many employers are willing
- to offer part-time jobs for
- women",color=green];
-	219 [label="and their
- husbands'",color=blue];
-	227 [label="many employers are willing
- to offer part-time jobs for
- women",color=green];
+	110 [label="it is a normal practice for
+ women to be helpmates in
+ earning money",color=green];
+	85 [label="this is really necessary in cases
+ of her husband's low salary
+ and the difficulty of getting
+ a good job at the
+ present",color=blue];
+	110 [label="it is a normal practice for
+ women to be helpmates in
+ earning money",color=green];
+	150 [label="these things in turn will make
+ them more confident , independent
+",color=blue];
+	175 [label="it",color=green];
+	162 [label="these women will set
+ a good example for their
+ children",color=blue];
+	175 [label="it",color=green];
 }

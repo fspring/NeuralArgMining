@@ -14,5 +14,5 @@ digraph G {
  Croácia e a Grécia",color=green];
 	85 [label="Merkel e o governo alemão
  tudo farão para que isso
- não aconteça",color=blue];
+ não aconteça .",color=blue];
 }

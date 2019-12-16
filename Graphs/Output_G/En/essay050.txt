@@ -1,32 +1,77 @@
 digraph G {
-	94 -> 66;
+	87 -> 66;
+	87 -> 274;
+	124 -> 274;
+	135 -> 274;
+	169 -> 274;
 	185 -> 274;
-	301 -> 283;
-	285 -> 341;
+	195 -> 274;
+	198 -> 274;
+	212 -> 274;
+	219 -> 274;
+	256 -> 274;
 	66 [label="many university authorities provide music
  lessons for their students so
  that they live and study
  in a harmony with music
 ",color=green];
-	94 [label="who spend
- a great deal of their
- time studying different academic subjects
- should have an opportunity to
- cope with the stress gained
- during school time",color=blue];
+	87 [label="i",color=blue];
+	87 [label="i",color=blue];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
+	124 [label="music can
+ be a useful and interesting
+ solution",color=blue];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
+	135 [label="if musical activity involves many participants
+ , there will be co-operation
+ and developed team work in
+ the group , which is
+ , of course , beneficial
+ in their future life",color=blue];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
+	169 [label="students with
+ a quite poor academic background
+ can show themselves in the
+ music",color=blue];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
 	185 [label="the calm atmosphere in the class
  might be created",color=blue];
 	274 [label="music and
  other entertaining subjects should be
  optional",color=green];
-	283 [label="nowadays",color=green];
-	301 [label="students are to develop their
- professional skills by learning occupation-related
- subjects , rather than playing
- on guitar or singing a
- song",color=blue];
-	285 [label="time is the most valuable thing
- in life with increased pace
+	195 [label="by",color=blue];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
+	198 [label="it is",color=blue];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
+	212 [label="in our hectic life
+ ,",color=blue];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
+	219 [label="demand is
+ not for musically orientated students
+ , but for academically developed
+ employees",color=blue];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
+	256 [label="students can not obtain supposed
+ impacts , unless they get
+ interested in it more seriously
 ",color=blue];
-	341 [label="field in an",color=green];
+	274 [label="music and
+ other entertaining subjects should be
+ optional",color=green];
 }

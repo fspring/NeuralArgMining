@@ -1,31 +1,22 @@
 digraph G {
-	54 -> 33;
-	54 -> 47;
-	54 -> 51;
-	156 -> 136;
-	33 [label="in the area
- of health",color=green];
+	54 -> 131;
+	156 -> 131;
 	54 [label="high population
  in poorer countries due to
  lack of family planning caused
  the proportion of doctors unbalance
  to the quantity of resident
 ",color=blue];
-	47 [label="and",color=green];
-	54 [label="high population
- in poorer countries due to
- lack of family planning caused
- the proportion of doctors unbalance
- to the quantity of resident
-",color=blue];
-	51 [label="richer",color=green];
-	54 [label="high population
- in poorer countries due to
- lack of family planning caused
- the proportion of doctors unbalance
- to the quantity of resident
-",color=blue];
-	136 [label="poorer",color=green];
+	131 [label="it is generally agreed that
+ poorer countries often lack of
+ teachers in schools as well
+ as lecturers in higher education
+ institutions",color=green];
+	131 [label="it is generally agreed that
+ poorer countries often lack of
+ teachers in schools as well
+ as lecturers in higher education
+ institutions",color=green];
 	156 [label="education for these countries normally
  is not free so only
  certain group of students can

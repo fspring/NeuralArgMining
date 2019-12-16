@@ -1,21 +1,36 @@
 digraph G {
-	118 -> 92;
-	311 -> 304;
-	92 [label="it would be easier
- for the juries to make
- a decision if they know
- about the past information about
- the criminal",color=green];
-	118 [label="knowing their background
- very well will enable the
- juries to analyze the crime
- before coming up with a
- judgment",color=blue];
-	304 [label="when the
- background of the convicted is
-",color=green];
-	311 [label="'dug' deeper and is revealed
- to mass of anonymous people
- , his privacy is being
- jeopardized",color=blue];
+	157 -> 229;
+	185 -> 229;
+	199 -> 229;
+	157 [label="the juries will be
+ able to know weather the
+ individual committed the crime intentionally
+ or due to circumstances by
+ knowing the facts about the
+ person",color=blue];
+	229 [label="exposing them
+ to the past records of
+ the criminal can give them
+ more room to think rationally
+ and finally put the pieces
+ together in order to produce
+ a more meaningful decision",color=green];
+	185 [label="punishment can be given in accordance
+ to the condition",color=blue];
+	229 [label="exposing them
+ to the past records of
+ the criminal can give them
+ more room to think rationally
+ and finally put the pieces
+ together in order to produce
+ a more meaningful decision",color=green];
+	199 [label="a fair
+ trial can be achieved",color=blue];
+	229 [label="exposing them
+ to the past records of
+ the criminal can give them
+ more room to think rationally
+ and finally put the pieces
+ together in order to produce
+ a more meaningful decision",color=green];
 }

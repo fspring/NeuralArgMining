@@ -1,14 +1,11 @@
 digraph G {
-	113 -> 146;
-	158 -> 159;
-	113 [label="capital punishment curbs
- the inspiration and prospects of
- other hateful crimes",color=blue];
-	146 [label="the rate of crime and
- violence is effectively decreased",color=green];
-	158 [label="capital",color=blue];
-	159 [label="punishment saves
- a lot of government funding
- which is wasted in maintenance
- of these hardcore criminals",color=green];
+	256 -> 308;
+	256 [label="if an individual murders someone
+ for self-defense , then such
+ a crime is not heinous
+",color=blue];
+	308 [label="terrorists or any
+ other criminal who lacks empathy
+ for other human lives deserve
+ capital punishment",color=green];
 }

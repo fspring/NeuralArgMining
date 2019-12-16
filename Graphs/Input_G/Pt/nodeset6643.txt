@@ -9,37 +9,37 @@ digraph G {
  de promover jornalismo de alta
  qualidade através da tecnologia e
  inovação , foi hoje anunciado
-",color=blue];
+ .",color=blue];
 	64 [label="A Google sempre quis ser uma
  amiga e parceira da indústria
  de notícias , diz ,
  citado pela agência France-Presse ,
  o responsável da empresa pelas
  parcerias estratégicas na Europa ,
- Carlo DAsaro Biondo",color=green];
+ Carlo DAsaro Biondo .",color=green];
 	36 [label="A iniciativa - com
  o nome Digital News Initiative
  DNI - surge após o
  comportamento concorrencial da Google ter
  sido questionado pela Comissão Europeia
- em tempos recentes",color=blue];
+ em tempos recentes .",color=blue];
 	64 [label="A Google sempre quis ser uma
  amiga e parceira da indústria
  de notícias , diz ,
  citado pela agência France-Presse ,
  o responsável da empresa pelas
  parcerias estratégicas na Europa ,
- Carlo DAsaro Biondo",color=green];
+ Carlo DAsaro Biondo .",color=green];
 	64 [label="A Google sempre quis ser uma
  amiga e parceira da indústria
  de notícias , diz ,
  citado pela agência France-Presse ,
  o responsável da empresa pelas
  parcerias estratégicas na Europa ,
- Carlo DAsaro Biondo",color=green];
+ Carlo DAsaro Biondo .",color=green];
 	99 [label="Contudo , reconheceu o responsável ,
  várias vezes houve uma má
  interpretação do relacionamento da Google
  com a indústria dos media
-",color=blue];
+ .",color=blue];
 }

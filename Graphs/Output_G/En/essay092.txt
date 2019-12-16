@@ -1,12 +1,29 @@
 digraph G {
-	222 -> 202;
-	202 [label="aesthetic knowledge or poor
- originality develop their own senses
- of fashion when treasuring the
- latest fashion",color=green];
-	222 [label="fashion trends , such
- people would have a hard
- time choosing and matching clothes
- , let alone forming their
- own dressing styles",color=blue];
+	118 -> 290;
+	161 -> 290;
+	261 -> 290;
+	118 [label="when individuals keep
+ the habit of grasping the
+ world's cutting-edge fashion information ,
+ they are gradually changing their
+ attitudes to viewing the world
+ , which means they are
+ more open to accept diverse
+ voices from people around the
+ world",color=blue];
+	290 [label="the world would look monotonous",color=green];
+	161 [label="if they stuck to their
+ own fashion styles , disregarding
+ the world's top fashion designers'
+ achievements , they would stay
+ conservative in their own worlds
+",color=blue];
+	290 [label="the world would look monotonous",color=green];
+	261 [label="individuals purchase their clothes according
+ to the latest fashion trends
+ , which may result in
+ the phenomenon that people would
+ wear the same style of
+ clothes",color=blue];
+	290 [label="the world would look monotonous",color=green];
 }

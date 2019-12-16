@@ -8,5 +8,6 @@ digraph G {
  Crescimento 2015-2019 , apresentado em
  Abril do ano passado pelo
  governo PSD/CDS , era de
- 2,0%",color=blue];
+ 2,0% . O Governo do
+ PS prevê agora 2,1%",color=blue];
 }

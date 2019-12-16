@@ -1,6 +1,5 @@
 digraph G {
-	158 -> 196;
-	243 -> 265;
+	158 -> 195;
 	158 [label="these devices and
  machines are very common in
  all parts of the world
@@ -9,16 +8,7 @@ digraph G {
  of things that newspapers can
  not provide in only some
  pages",color=blue];
-	196 [label="print media has failed to
+	195 [label="the print media has failed to
  keep its important role in
  the provision of information",color=green];
-	243 [label="recognize that the
- internet service is being provided
- at a low cost or
- even free in many countries
-",color=blue];
-	265 [label="as to whether or not a
- person spends an extra money
- buying newspapers to receive the
- same",color=green];
 }

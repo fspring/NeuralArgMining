@@ -1,52 +1,20 @@
 digraph G {
-	112 -> 105;
-	112 -> 109;
-	148 -> 209;
-	194 -> 180;
-	227 -> 196;
-	227 -> 204;
-	227 -> 209;
-	218 -> 221;
-	105 [label="there",color=green];
-	112 [label=", the balance of
- nature will broke down ,
- and we , human ,
- will die out as well
+	162 -> 132;
+	162 -> 191;
+	132 [label="the animal experiments accelerate
+ the vanishing of some categories
+ of animals",color=green];
+	162 [label="though animal experiments have
+ negative impact on the natural
+ balance , it is necessary
+ to make sure that people
+ can live a long life
 ",color=blue];
-	109 [label="in the
- world",color=green];
-	112 [label=", the balance of
- nature will broke down ,
- and we , human ,
- will die out as well
+	162 [label="though animal experiments have
+ negative impact on the natural
+ balance , it is necessary
+ to make sure that people
+ can live a long life
 ",color=blue];
-	148 [label="doing this various
- testing is a hazard of
- human's future and next generation
-",color=blue];
-	209 [label="something to
- insure that the new",color=green];
-	180 [label="people",color=green];
-	194 [label="that every
-",color=blue];
-	196 [label="new kind food or pill
- may be",color=green];
-	227 [label="the new foods or
- medicines are invented to promote
- the quantity of human's life
-",color=blue];
-	204 [label=",",color=green];
-	227 [label="the new foods or
- medicines are invented to promote
- the quantity of human's life
-",color=blue];
-	209 [label="something to
- insure that the new",color=green];
-	227 [label="the new foods or
- medicines are invented to promote
- the quantity of human's life
-",color=blue];
-	218 [label="instead of making
-",color=blue];
-	221 [label="people",color=green];
+	191 [label="it is",color=green];
 }

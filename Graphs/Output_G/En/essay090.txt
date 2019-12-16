@@ -1,2 +1,8 @@
 digraph G {
+	275 -> 309;
+	275 [label="i had to never judge with
+ people's appearance",color=blue];
+	309 [label="many people
+ play role to cheat the
+ others",color=green];
 }

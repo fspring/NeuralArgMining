@@ -1,19 +1,16 @@
 digraph G {
-	160 -> 139;
+	197 -> 265;
 	241 -> 265;
 	251 -> 265;
-	139 [label="students gain
-",color=green];
-	160 [label="those who feel that students learn
- far more from other sources
- , such as the internet
- and television , firmly believe
- that within this sources students
- learn lots of things which
- they can't learn in classes
-",color=blue];
-	241 [label="for instance , discovery channel
- has many instructive episodes",color=blue];
+	197 [label="they can only input
+ some key words and google
+ it , and then there
+ are numberless articles and websites
+ related to it",color=blue];
+	265 [label="think that students learn far more
+ from their teachers than from
+ other source",color=green];
+	241 [label="for instance",color=blue];
 	265 [label="think that students learn far more
  from their teachers than from
  other source",color=green];

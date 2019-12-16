@@ -1,10 +1,53 @@
 digraph G {
-	91 -> 80;
-	328 -> 414;
-	80 [label="me",color=green];
-	91 [label="in the",color=blue];
-	328 [label="some extent ,
- the gap between rich people
+	115 -> 96;
+	115 -> 191;
+	147 -> 191;
+	170 -> 191;
+	331 -> 371;
+	96 [label="the progress of material technology
+ leads to the sharp fall
+ of price of a great
+ number of products",color=green];
+	115 [label="about ten years ago , mobile
+ phones ware very expensive for
+ most members of my country
+ , only a few of
+ rich individuals have enough money
+ to buy one",color=blue];
+	115 [label="about ten years ago , mobile
+ phones ware very expensive for
+ most members of my country
+ , only a few of
+ rich individuals have enough money
+ to buy one",color=blue];
+	191 [label="technical developments improve productivity ,
+ which help people to escape
+ from daily chores , and
+ invest more time and energy
+ in studying and living a
+ more meaningful life",color=green];
+	147 [label="mobile phones become a
+ common one of household items
+ , which due to the
+ cheaper materials and better producing
+ technologies",color=blue];
+	191 [label="technical developments improve productivity ,
+ which help people to escape
+ from daily chores , and
+ invest more time and energy
+ in studying and living a
+ more meaningful life",color=green];
+	170 [label="most members of our society can
+ benefit from the consequences of
+ technical advancements , especially the
+ poor people",color=blue];
+	191 [label="technical developments improve productivity ,
+ which help people to escape
+ from daily chores , and
+ invest more time and energy
+ in studying and living a
+ more meaningful life",color=green];
+	331 [label="the gap between rich people
  and poor is widen by
  technology , because only the
  rich people have ability to
@@ -12,8 +55,7 @@ digraph G {
  , and these products can
  help them to earn more
  in return",color=blue];
-	414 [label="the human
- being can be benefit a
- lot and perpetually from the
- advancement of it",color=green];
+	371 [label="i think it is a
+ limp opposition to the remarkable
+ advantages of technology",color=green];
 }

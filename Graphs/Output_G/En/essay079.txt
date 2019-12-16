@@ -1,25 +1,39 @@
 digraph G {
-	83 -> 74;
-	83 -> 79;
-	191 -> 178;
-	191 -> 180;
-	191 -> 182;
-	74 [label="give priority
- to public",color=green];
-	83 [label="is because the
+	82 -> 178;
+	217 -> 320;
+	253 -> 320;
+	279 -> 320;
+	82 [label="this is because the
  government plays the role of
- a leader among citizens",color=blue];
-	79 [label="and",color=green];
-	83 [label="is because the
- government plays the role of
- a leader among citizens",color=blue];
-	178 [label="arts",color=green];
-	191 [label="arts can enrich people's cultural
- lives",color=blue];
-	180 [label="by",color=green];
-	191 [label="arts can enrich people's cultural
- lives",color=blue];
-	182 [label="means",color=green];
-	191 [label="arts can enrich people's cultural
- lives",color=blue];
+ a leader among citizens ,
+ which should discharge the responsibility
+ of making optimal use of
+ the tax money to keep
+ society safe and stable",color=blue];
+	178 [label="arts should by
+ no means been disregarded by
+ the government",color=green];
+	217 [label="they require various entertainment
+ such as music , movies
+ or books to them ease
+ their minds and release pressure
+",color=blue];
+	320 [label="arts serve cultural and economic purposes
+",color=green];
+	253 [label="of the local
+ community , funding arts is
+ beneficial to the local cultural
+ and economic development",color=blue];
+	320 [label="arts serve cultural and economic purposes
+",color=green];
+	279 [label="this means
+ preserving local arts may promote
+ the preservation of the local
+ cultural heritage , which not
+ only helps the local people
+ have a sense of belonging
+ but also contributes to the
+ booming local tourism industry",color=blue];
+	320 [label="arts serve cultural and economic purposes
+",color=green];
 }

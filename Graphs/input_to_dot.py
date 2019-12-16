@@ -12,10 +12,10 @@ for filename in files:
     fd = open(dir + '/' + filename, 'r', encoding='utf-8')
     entries = fd.readlines()
     fd.close()
-    fields = entries[0].split('\t') #[text, (IO,arg,dist)]
+    fields = entries[0].split('\t') #['text', '(T,d)\n'] , T in {C, P, I}
 
-    tag = fields[1].split(',')
-    arg = tag[1]
+    tag = fields[-1].split(',') #['(T', 'd)\n'] , T in {C, P, I}
+    arg = tag[0][-1]
     text = fields[0]
     if tag[-1][:-2] == '|':
         dist = 0
@@ -27,23 +27,24 @@ for filename in files:
 
     i = 1
     while i < len(entries):
-        fields = entries[i].split('\t') #[text, (IO,arg,dist)]
-        tag = fields[-1].split(',')
-        while tag[1] == arg:
+        fields = entries[i].split('\t') #['text', '(T,d)\n'] , T in {C, P, I}
+        tag = fields[-1].split(',') #['(T', 'd)\n'] , T in {C, P, I}
+        while tag[0][-1] == 'I' and (arg == 'P' or arg == 'C'):
             end = i
             text += ' ' + fields[0]
-            i += 1
             if i%5 == 0:
                 text +='\n'
+            i += 1
             if i >= len(entries):
                 break
-            fields = entries[i].split('\t') #[text, (IO,arg,dist)]
-            tag = fields[-1].split(',')
-        spans[begin] = [arg, (begin, end), begin + dist, text]
+            fields = entries[i].split('\t')  #['text', '(T,d)\n'] , T in {C, P, I}
+            tag = fields[-1].split(',') #['(T', 'd)\n'] , T in {C, P, I}
+        if arg == 'P' or arg == 'C':
+            spans[begin] = [arg, (begin, end), begin + dist, text]
         if i >= len(entries):
             break
         tag = fields[-1].split(',')
-        arg = tag[1]
+        arg = tag[0][-1]
         text = fields[0]
         if tag[-1][:-2] == '|':
             dist = 0
@@ -56,7 +57,7 @@ for filename in files:
     edges = ''
     attrs = ''
     for span_id in spans.keys():
-        if spans[span_id][0] == 'premise':
+        if spans[span_id][0] == 'P':
             link = spans[span_id][2]
             if link == span_id:
                 continue
@@ -64,7 +65,7 @@ for filename in files:
             attrs += '\t' + str(span_id) + ' [label=\"' + spans[span_id][3] + '\",color=blue];\n'
             attrs += '\t' + str(link) + ' [label=\"' + spans[link][3] + '\",color=green];\n'
 
-        elif spans[span_id][0] == 'claim':
+        elif spans[span_id][0] == 'C':
             link = spans[span_id][2]
             if link == span_id:
                 continue

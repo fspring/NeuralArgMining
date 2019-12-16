@@ -1,23 +1,27 @@
 digraph G {
-	90 -> 315;
-	97 -> 322;
-	121 -> 322;
-	186 -> 165;
-	237 -> 185;
-	186 -> 322;
-	212 -> 322;
-	237 -> 315;
-	276 -> 315;
-	300 -> 315;
-	90 [label="women nowadays are",color=blue];
-	315 [label="in a society where females are
-",color=green];
-	97 [label="they may be successful
+	68 -> 54;
+	68 -> 90;
+	121 -> 165;
+	184 -> 165;
+	54 [label="the fairness
+ between males and females is
+ inevitable in such a developed
+ society",color=green];
+	68 [label="gone are the
+ days when women could do
+ nothing rather than stick to
+ boring house work and take
+ care of children",color=blue];
+	68 [label="gone are the
+ days when women could do
+ nothing rather than stick to
+ boring house work and take
+ care of children",color=blue];
+	90 [label="women nowadays are much more active
+ , they may be successful
  businessmen , they join the
  political world , they become
- scientists and so on",color=blue];
-	322 [label="equal opportunities compared with
- males would",color=green];
+ scientists and so on",color=green];
 	121 [label="the "weaker" gender as often
  be thought has enough right
  as well as ability to
@@ -26,58 +30,18 @@ digraph G {
  other men , not to
  mention they even perform better
  in some fields",color=blue];
-	322 [label="equal opportunities compared with
- males would",color=green];
 	165 [label="the revolution in females' right has
  brought about many benefits not
  only to themselves but society
  as well",color=green];
-	186 [label="burden of families , for
+	165 [label="the revolution in females' right has
+ brought about many benefits not
+ only to themselves but society
+ as well",color=green];
+	184 [label="the financial
+ burden of families , for
  instance , has decreased significantly
  with both the wives and
  the husbands working to earn
  money",color=blue];
-	185 [label="financial",color=green];
-	237 [label="such changes do lead
- to some negative results like
- an upward trend in divorce
- rate or , under many
- circumstances , women find it
- difficult to balance their work
- and their traditional role as
- the wives",color=blue];
-	186 [label="burden of families , for
- instance , has decreased significantly
- with both the wives and
- the husbands working to earn
- money",color=blue];
-	322 [label="equal opportunities compared with
- males would",color=green];
-	212 [label="women have the outstanding
- instinct to take up some
- careers like healthcare or human
- resource management due to their
- patience and elaboration",color=blue];
-	322 [label="equal opportunities compared with
- males would",color=green];
-	237 [label="such changes do lead
- to some negative results like
- an upward trend in divorce
- rate or , under many
- circumstances , women find it
- difficult to balance their work
- and their traditional role as
- the wives",color=blue];
-	315 [label="in a society where females are
-",color=green];
-	276 [label="children might enjoy less care
- from parents as they are
- both busy with their work
-",color=blue];
-	315 [label="in a society where females are
-",color=green];
-	300 [label="women should find the best way
- to overcome such challenges",color=blue];
-	315 [label="in a society where females are
-",color=green];
 }

@@ -1,22 +1,12 @@
 digraph G {
 	365 -> 0;
-	365 -> 33;
 	0 [label="Dias 20 e 21 de
  Maio , a Nersant- Associação
  Empresarial da Região de Santarém
  celebra a Inovação e o
  Empreendedorismo , com a realização
  de um evento no Convento
- de S",color=green];
-	365 [label="seminários e reuniões , estarão
- em exposição , durante todo
- o evento , os novos
- negócios dos empresários que criaram
- o seu projecto empresarial ao
- abrigo do Sítio do Empreendedor
- , bem como a Bolsa
- de Tecnologias",color=blue];
-	33 [label="Francisco ,
+ de S . Francisco ,
  em Santarém",color=green];
 	365 [label="seminários e reuniões , estarão
  em exposição , durante todo

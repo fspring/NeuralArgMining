@@ -4,9 +4,9 @@ digraph G {
  gritou não pagamos , numa
  referência à dívida que a
  madeira contraiu sob a sua
- liderança",color=blue];
+ liderança .",color=blue];
 	38 [label="alberto joão jardim
  aconselhou o seu sucessor a
  não se vergar ao governo
- de lisboa",color=green];
+ de lisboa .",color=green];
 }

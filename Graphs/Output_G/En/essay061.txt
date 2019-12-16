@@ -1,50 +1,82 @@
 digraph G {
-	218 -> 364;
-	231 -> 364;
-	258 -> 374;
-	293 -> 281;
-	318 -> 289;
-	318 -> 291;
+	63 -> 53;
+	63 -> 176;
+	77 -> 176;
+	93 -> 135;
+	109 -> 176;
+	150 -> 176;
+	205 -> 176;
+	184 -> 374;
+	205 -> 374;
+	218 -> 374;
 	293 -> 374;
-	318 -> 374;
-	338 -> 374;
+	318 -> 364;
+	338 -> 364;
+	53 [label="in the modern
+ world , computers are used
+ everywhere",color=green];
+	63 [label="right from flying
+ planes to sending a small
+ document , computers are needed
+",color=blue];
+	63 [label="right from flying
+ planes to sending a small
+ document , computers are needed
+",color=blue];
+	176 [label="future prospects of computers are
+ very bright",color=green];
+	77 [label="they are used in
+ space programs , wars ,
+ hospitals , schools and so
+ on",color=blue];
+	176 [label="future prospects of computers are
+ very bright",color=green];
+	93 [label="computers have made
+ human life more easy ,
+ convenient and lightning fast",color=blue];
+	135 [label="it can be sent in few
+ minutes by typing a email
+ and few clicks",color=green];
+	109 [label="in earlier
+ days , if one had
+ to send a message to
+ someone in other country ,
+ it used to take months
+",color=blue];
+	176 [label="future prospects of computers are
+ very bright",color=green];
+	150 [label="computers provide speed , increase efficiency
+ , accuracy , precision ,
+ help to increase productivity and
+ other countless benefits are provided
+ by it",color=blue];
+	176 [label="future prospects of computers are
+ very bright",color=green];
+	176 [label="future prospects of computers are
+ very bright",color=green];
+	205 [label="nanotechnology is working to make computers
+ to the order of microscopic
+ levels",color=blue];
+	184 [label="from a
+ computer as big as a
+ room , it has now
+ been minimized to the size
+ of a palm",color=blue];
+	374 [label="dependence on
+ computers is not a bad
+ thing",color=green];
+	205 [label="nanotechnology is working to make computers
+ to the order of microscopic
+ levels",color=blue];
+	374 [label="dependence on
+ computers is not a bad
+ thing",color=green];
 	218 [label="research on making
  computerized drone soldiers (unmanned computer
  controlled) is going on",color=blue];
-	364 [label="computers have
- provided security and sophistication too
-",color=green];
-	231 [label="there is no end to
- the evolution of computers",color=blue];
-	364 [label="computers have
- provided security and sophistication too
-",color=green];
-	258 [label="privacy breach ,
- leak of confidential documents ,
- cyber attacks , identity theft
- , frauds etc",color=blue];
 	374 [label="dependence on
  computers is not a bad
-",color=green];
-	281 [label="from a countless list",color=green];
-	293 [label="they have even
- invaded mental health of humans
- , for example , fad
- (facebook addiction disorder - excessive
- use of social networking website
- facebook)",color=blue];
-	289 [label="to",color=green];
-	318 [label="computers have intruded
- our lives to the effect
- that a satellite can peep
- into our homes and privates
- lives",color=blue];
-	291 [label="materials",color=green];
-	318 [label="computers have intruded
- our lives to the effect
- that a satellite can peep
- into our homes and privates
- lives",color=blue];
+ thing",color=green];
 	293 [label="they have even
  invaded mental health of humans
  , for example , fad
@@ -53,20 +85,20 @@ digraph G {
  facebook)",color=blue];
 	374 [label="dependence on
  computers is not a bad
-",color=green];
+ thing",color=green];
 	318 [label="computers have intruded
  our lives to the effect
  that a satellite can peep
  into our homes and privates
  lives",color=blue];
-	374 [label="dependence on
- computers is not a bad
+	364 [label="computers have
+ provided security and sophistication too
 ",color=green];
 	338 [label="the recent case
  of wikileaks , leaking confidential
  data is an example of
  how computers are harmful",color=blue];
-	374 [label="dependence on
- computers is not a bad
+	364 [label="computers have
+ provided security and sophistication too
 ",color=green];
 }

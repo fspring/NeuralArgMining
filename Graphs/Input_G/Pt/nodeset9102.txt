@@ -7,7 +7,15 @@ digraph G {
  debater o que quer que
  seja",color=blue];
 	67 [label="O resultado ficou
- à vista de todos",color=green];
+ à vista de todos :
+ como espectáculo televisivo foi aflitivo
+ de ver , até pela
+ baixeza das picardias ; e
+ como hipótese de esclarecimento –
+ era essa a justificação do
+ canal público para esta infeliz
+ iniciativa – foi simplesmente um
+ insuportável desastre",color=green];
 	152 [label="nada até agora
  tinha ainda atingido o nível
  do serão televisivo de terça-feira

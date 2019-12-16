@@ -1,35 +1,49 @@
 digraph G {
-	288 -> 274;
-	288 -> 278;
-	288 -> 282;
-	288 -> 284;
-	274 [label="may",color=green];
+	163 -> 270;
+	212 -> 270;
+	288 -> 367;
+	315 -> 367;
+	163 [label="if people are
+ equipped with a single international
+ language , they can tell
+ each other smoothly about their
+ countries' specific cultures such as
+ the traditional customs or the
+ modern lifestyles , which enables
+ people to expand their outlooks
+ , viewing the world in
+ new angles",color=blue];
+	270 [label="a single international language may",color=green];
+	212 [label="when people travel to
+ foreign countries , the local
+ people can introduce the tourist
+ attractions to such people with
+ the command of the universal
+ language , helping foreign visitors
+ have an enjoyable exotic experience
+",color=blue];
+	270 [label="a single international language may",color=green];
 	288 [label="this is because
  people may be impressed by
  the cultural values brought with
  the universal language , eroding
  a sense of national belong
 ",color=blue];
-	278 [label="extent",color=green];
-	288 [label="this is because
- people may be impressed by
- the cultural values brought with
- the universal language , eroding
- a sense of national belong
-",color=blue];
-	282 [label="cultural",color=green];
-	288 [label="this is because
- people may be impressed by
- the cultural values brought with
- the universal language , eroding
- a sense of national belong
-",color=blue];
-	284 [label="of a
+	367 [label="single international language contributes
+ to global community in terms
+ of economic and cultural communication
 ",color=green];
-	288 [label="this is because
- people may be impressed by
- the cultural values brought with
- the universal language , eroding
- a sense of national belong
-",color=blue];
+	315 [label="some asians are seeking individualism ,
+ previously denied by many asian
+ countries , due to the
+ fact that they have gradually
+ identified with such values expressed
+ in american movies , which
+ are imported by the governments
+ as a result of the
+ proliferation of english",color=blue];
+	367 [label="single international language contributes
+ to global community in terms
+ of economic and cultural communication
+",color=green];
 }

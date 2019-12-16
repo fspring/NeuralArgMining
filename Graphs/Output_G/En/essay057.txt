@@ -1,16 +1,16 @@
 digraph G {
-	47 -> 30;
-	49 -> 35;
-	120 -> 113;
-	30 [label="creative artists must",color=green];
-	47 [label="again",color=blue];
-	35 [label="the freedom to express their ideas
+	21 -> 30;
+	196 -> 215;
+	21 [label="creativity originates in a free
+ mind",color=blue];
+	30 [label="creative artists must be given the
+ freedom to express their ideas
  without any restrictions",color=green];
-	49 [label="creative artists
- like michaelangelo , picasso ,
- salman rushdie , shakespeare etc
-",color=blue];
-	113 [label="innovative works makes
- people realize things in",color=green];
-	120 [label="a peaceful",color=blue];
+	196 [label="frank zappa once said ,
+ "mind is like a parachute
+ , it doesn't work if
+ its not open“",color=blue];
+	215 [label="restrictions would just curb the innovative
+ ideas of the artists and
+ would limit their brains",color=green];
 }

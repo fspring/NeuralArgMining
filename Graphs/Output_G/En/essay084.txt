@@ -1,12 +1,21 @@
 digraph G {
-	211 -> 246;
-	211 [label="if the government provides those
- without work with a mobile
- phone , they will be
- able to find themselves an
- occupation in order to live
- and survive",color=blue];
-	246 [label="supplying hand phones to the
- unemployed is a waste of
- the taxpayers' money",color=green];
+	99 -> 64;
+	290 -> 323;
+	64 [label="to",color=green];
+	99 [label="when people
+ without jobs have hand phones
+ that have access to the
+ internet , they will be
+ able to browse the net
+ for more job opportunities",color=blue];
+	290 [label="the money can be used to
+ build more amenities for the
+ public or given to the
+ poor so that they can
+ use it to help them
+ earn a living",color=blue];
+	323 [label="the money can
+ be used for other intentions
+ rather than giving hand phones
+ to the unemployed",color=green];
 }

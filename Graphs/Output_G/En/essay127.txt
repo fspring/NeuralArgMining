@@ -1,41 +1,41 @@
 digraph G {
-	128 -> 129;
-	179 -> 199;
-	220 -> 312;
-	222 -> 341;
-	276 -> 302;
-	285 -> 302;
-	128 [label="the",color=blue];
-	129 [label="environment today
- is serious damaged",color=green];
-	179 [label="it has
- been proved that living in
- this kind of condition will
- result in some mental diseases
-",color=blue];
-	199 [label="the environment
- our grandparents live is more
- comfortable than",color=green];
-	220 [label="today",color=blue];
-	312 [label="it is only a
-",color=green];
+	83 -> 116;
+	222 -> 318;
+	268 -> 301;
+	285 -> 301;
+	83 [label="if you are
+ not able to handle your
+ jobs , then someone will
+ replace you right away",color=blue];
+	116 [label="lives in the old days
+ is easier than today",color=green];
 	222 [label="we are able to
  read the news all over
  the world , to chat
  with people through the internet
  , or to travel around
- the world by planes",color=blue];
-	341 [label="what we loss will never
- be returned",color=green];
-	276 [label="then we will be in
+ the world by planes ;
+ however , it also means
+ that any thing happens in
+ the world will affect our
+ life",color=blue];
+	318 [label="people are put
+ too much focus on making
+ wealth and progress in technology
+ ;",color=green];
+	268 [label="if we cannot
+ react properly and immediately ,
+ then we will be in
  a vulnerable situation",color=blue];
-	302 [label="there some people live
+	301 [label="while there some people live
  in a pretty good condition
-",color=green];
+ , it is only a
+ minority",color=green];
 	285 [label="we have no choice but have
  to live in a fast
  pace",color=blue];
-	302 [label="there some people live
+	301 [label="while there some people live
  in a pretty good condition
-",color=green];
+ , it is only a
+ minority",color=green];
 }

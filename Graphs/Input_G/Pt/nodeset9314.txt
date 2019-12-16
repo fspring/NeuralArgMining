@@ -3,5 +3,6 @@ digraph G {
 	14 [label="É inesperado",color=green];
 	17 [label="achava que havia
  um mínimo de cuidado quando
- se mexesse na Educação",color=blue];
+ se mexesse na Educação .
+",color=blue];
 }

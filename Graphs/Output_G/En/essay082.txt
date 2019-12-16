@@ -1,6 +1,13 @@
 digraph G {
-	220 -> 211;
-	211 [label="advertising",color=green];
+	110 -> 201;
+	127 -> 220;
+	110 [label="very important for many businesses to
+ increase sales and hence profits
+",color=blue];
+	201 [label="it can be seen that
+ some people have",color=green];
+	127 [label="advertising can bring them
+ many benefits",color=blue];
 	220 [label="a huge amount of different advertisements
  could be sent automatically by
  a system to personal phones
@@ -8,5 +15,5 @@ digraph G {
  is generally known as spam
  , and causes discomfort or
  even annoyance to many people
-",color=blue];
+",color=green];
 }

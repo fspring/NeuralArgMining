@@ -3,5 +3,14 @@ digraph G {
 	100 [label="Um incidente alarmante ocorreu perto
  da costa líbia",color=green];
 	109 [label="segundo um comunicado do Ministério dos
- Transportes italiano",color=blue];
+ Transportes italiano : uma embarcação
+ da guarda-costeira italiana , que
+ socorria uma das canoas com
+ imigrantes subsaarianos , foi abordada
+ por uma lancha rápida vinda
+ da costa e quatro homens
+ armados de metralhadoras kalachnikov ameaçaram
+ as forças italianas , exigindo
+ que abandonassem o barco vazio
+ .",color=blue];
 }

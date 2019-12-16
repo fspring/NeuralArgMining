@@ -11,5 +11,6 @@ digraph G {
  político de Merkel",color=green];
 	94 [label="Um país não aceita um líder
  em quem não confia para
- garantir a sua segurança",color=blue];
+ garantir a sua segurança .
+",color=blue];
 }

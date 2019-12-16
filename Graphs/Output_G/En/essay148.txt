@@ -1,32 +1,40 @@
 digraph G {
-	27 -> 15;
-	48 -> 42;
-	272 -> 327;
-	284 -> 327;
-	15 [label="countries in the world cannot have
- a single culture",color=green];
-	27 [label="in my view ,
- a single modern culture is
- being created by modern technology
- for",color=blue];
-	42 [label="the",color=green];
+	61 -> 48;
+	61 -> 126;
+	138 -> 126;
+	272 -> 318;
 	48 [label="most of the
  countries have the same educational
- system based on technology",color=blue];
+ system based on technology",color=green];
+	61 [label="teachers give topics to the
+ students who should research on
+ the internet to find data
+ , and then students should
+ type their research by using
+ computer and even give a
+ presentation by using powerpoint",color=blue];
+	61 [label="teachers give topics to the
+ students who should research on
+ the internet to find data
+ , and then students should
+ type their research by using
+ computer and even give a
+ presentation by using powerpoint",color=blue];
+	126 [label="new technology has created some
+ similar jobs all around the
+ world",color=green];
+	126 [label="new technology has created some
+ similar jobs all around the
+ world",color=green];
+	138 [label="computer technology is
+ a growing job in most
+ of the countries , and
+ students are being encouraged to
+ study in this field",color=blue];
 	272 [label="cooks can find many
  new food recipes easily on
  the internet",color=blue];
-	327 [label="and we can see
- many similarities in many cultures
-",color=green];
-	284 [label="for example
- , two days ago ,
- i went to a canadian
- restaurant , and i ate
- noodle , sushi , which
- are chinese foods , and
- greek salad",color=blue];
-	327 [label="and we can see
- many similarities in many cultures
+	318 [label="new technology has
+ affected cultures of the world
 ",color=green];
 }

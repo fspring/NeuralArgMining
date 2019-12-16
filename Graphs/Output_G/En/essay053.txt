@@ -1,19 +1,46 @@
 digraph G {
-	166 -> 113;
-	176 -> 283;
+	100 -> 300;
+	121 -> 300;
+	152 -> 300;
+	179 -> 166;
 	179 -> 300;
-	196 -> 283;
-	200 -> 300;
-	212 -> 300;
-	113 [label="agriculture and as
- a mode of",color=green];
+	200 -> 283;
+	250 -> 283;
+	270 -> 283;
+	100 [label="other animals such as , horses
+ , cattles and donkeys for
+ farming , agriculture and as
+ a mode of transportation",color=blue];
+	300 [label="animal rights are meant to set
+ limits on human behavior and
+ manipulation of them should be
+ punished as a serious crime
+",color=green];
+	121 [label="many people keep pets like
+ dogs and cats , trained
+ them as service dogs and
+ snuffing dogs which are very
+ helpful to police force and
+ even to some blind peoples
+",color=blue];
+	300 [label="animal rights are meant to set
+ limits on human behavior and
+ manipulation of them should be
+ punished as a serious crime
+",color=green];
+	152 [label="they are kept for
+ security purposes in houses",color=blue];
+	300 [label="animal rights are meant to set
+ limits on human behavior and
+ manipulation of them should be
+ punished as a serious crime
+",color=green];
 	166 [label="many farmers and owners exploit
- animals beyond their limits",color=blue];
-	176 [label="for instance",color=blue];
-	283 [label="human being should
- behave as a guardian to
- animals rather than as their
- lord or masters",color=green];
+ animals beyond their limits",color=green];
+	179 [label="cows are
+ often injected by oxytocin ,
+ a hormone which is used
+ to forcibly increase lactation",color=blue];
 	179 [label="cows are
  often injected by oxytocin ,
  a hormone which is used
@@ -23,26 +50,24 @@ digraph G {
  manipulation of them should be
  punished as a serious crime
 ",color=green];
-	196 [label="this in turn",color=blue];
+	200 [label="causes lots of discomfort and pain
+ to the cattle",color=blue];
 	283 [label="human being should
  behave as a guardian to
  animals rather than as their
  lord or masters",color=green];
-	200 [label="causes lots of discomfort and pain
- to the cattle",color=blue];
-	300 [label="animal rights are meant to set
- limits on human behavior and
- manipulation of them should be
- punished as a serious crime
-",color=green];
-	212 [label="thousand of animals undergo
- painful suffering or death as
- a result of scientific research
- of drugs and various products
-",color=blue];
-	300 [label="animal rights are meant to set
- limits on human behavior and
- manipulation of them should be
- punished as a serious crime
-",color=green];
+	250 [label="equestrian sport where horses run miles
+ and miles and beaten up
+ by jockeys to make them
+ run more faster",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
+	270 [label="and above all pleasure hunting of
+ defenseless animals",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
 }

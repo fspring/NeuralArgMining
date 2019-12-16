@@ -1,24 +1,41 @@
 digraph G {
-	41 -> 46;
-	156 -> 155;
-	325 -> 372;
-	41 [label="governmental and non-governmental organizations have
+	175 -> 235;
+	195 -> 297;
+	246 -> 235;
+	246 -> 297;
+	269 -> 297;
+	175 [label="aiding help poor countries in this
+ situation solve their economical problems
+ and run their own business
 ",color=blue];
-	46 [label="been focus on being harmony
- and contribute to aid to
- poor countries",color=green];
-	155 [label="factors",color=green];
-	156 [label="such as light , electricity
- , load , highways ,
- natural resources , technology and
- buildings for companies",color=blue];
-	325 [label="when america mortgage loan system went
- bad , several economies of
- european and asian countries fluctuated
- , even any countries had
- to be gotten international supports
- to block its bankrupt",color=blue];
-	372 [label="poor countries to make
- its economy strong and building
- humane concepts to people",color=green];
+	235 [label="aiding campaign gives a chance to
+ considerate about poor people",color=green];
+	195 [label="republic of korea used to be
+ the poorest country even compared
+ to others in africa in
+ 1960's",color=blue];
+	297 [label="the campaigns might include
+ practical benefits",color=green];
+	235 [label="aiding campaign gives a chance to
+ considerate about poor people",color=green];
+	246 [label="if people in rich countries
+ ponder poor people suffering from
+ poverty and diseases , they
+ would never take their abundance
+ for granted",color=blue];
+	246 [label="if people in rich countries
+ ponder poor people suffering from
+ poverty and diseases , they
+ would never take their abundance
+ for granted",color=blue];
+	297 [label="the campaigns might include
+ practical benefits",color=green];
+	269 [label="it not
+ only raises the notice the
+ meaning of harmony and love
+ , but also be a
+ good chance to learn humane
+ doctrine of globalization",color=blue];
+	297 [label="the campaigns might include
+ practical benefits",color=green];
 }

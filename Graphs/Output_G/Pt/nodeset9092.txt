@@ -4,5 +4,6 @@ digraph G {
  das esmolas que poderiam mendigar
 ",color=green];
 	63 [label="ganham a vida
- com o seu trabalho",color=blue];
+ com o seu trabalho .
+",color=blue];
 }

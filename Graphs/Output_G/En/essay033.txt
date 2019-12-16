@@ -1,24 +1,2 @@
 digraph G {
-	56 -> 47;
-	122 -> 108;
-	160 -> 225;
-	47 [label="effects",color=green];
-	56 [label="people prefer to recognize globalization
- as a threat to ethnic
- and religious values of people
- of their country",color=blue];
-	108 [label="globalization contribute",color=green];
-	122 [label="developing globalization , people
- can have more access to
- many natural resources of the
- world and it leads to
- increasing the pace of scientific
- and economic promotions of the
- entire world",color=blue];
-	160 [label="globalization can be considered a chance
- for people of each country
- to promote their lifestyle through
- the stuffs and services imported
- from other countries",color=blue];
-	225 [label="rather classify myself in the",color=green];
 }

@@ -13,7 +13,7 @@ digraph G {
 	28 [label="Terá de
  mostrar igualmente que tem uma
  solução viável para a crise
- dos refugiados",color=blue];
+ dos refugiados .",color=blue];
 	92 [label="Mas pode chegar
  à conclusão que a sua
  energia política se esgotou e

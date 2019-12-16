@@ -1,16 +1,37 @@
 digraph G {
-	56 -> 50;
-	264 -> 237;
-	50 [label="benefits",color=green];
-	56 [label="advantage of high-tech medical care
- is that people are better
- taken care so that they
- have a good health",color=blue];
-	237 [label="capital",color=green];
-	264 [label="they have
- given their effort to the
- society so that young people
- , the governments have a
- responsibility to improve the medicare
- system",color=blue];
+	76 -> 153;
+	126 -> 235;
+	189 -> 235;
+	76 [label="they can contribute effectively to
+ the development of the economy
+ because healthy workers can create
+ more productivity",color=blue];
+	153 [label="young people will
+ be happy as their parents
+ , grandparents are healthy",color=green];
+	126 [label="a community with the elderly
+ who have a good health
+ has a major role to
+ play in a sustainable development
+ of a society",color=blue];
+	235 [label="that the capital that spend on
+ taking care the elderly is
+ contributed by these people during
+ their working time , so
+ they are worth to have
+ good care",color=green];
+	189 [label="some people
+ maintain that the increase in
+ life expectancy puts a high
+ pressure on the economic system
+ because more pension have to
+ spend for medicare instead of
+ investing in other sectors of
+ the economic system",color=blue];
+	235 [label="that the capital that spend on
+ taking care the elderly is
+ contributed by these people during
+ their working time , so
+ they are worth to have
+ good care",color=green];
 }

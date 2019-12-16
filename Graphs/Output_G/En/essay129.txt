@@ -1,11 +1,18 @@
 digraph G {
-	75 -> 66;
-	175 -> 170;
-	66 [label="own",color=green];
-	75 [label="is , i prefer to live
- in a higher pace condition
-",color=blue];
-	170 [label="can",color=green];
-	175 [label="we have to be eager in
- our lives",color=blue];
+	210 -> 261;
+	234 -> 261;
+	210 [label="if i can avoid being a
+ sluggish person , i can
+ have a higher probability of
+ fulfilling my dream successfully",color=blue];
+	261 [label="from this case we are
+ capable of",color=green];
+	234 [label="i had
+ spent more time on practicing
+ playing piano so that i
+ won a piano competition ,
+ defeating those spending less time
+ on practicing",color=blue];
+	261 [label="from this case we are
+ capable of",color=green];
 }

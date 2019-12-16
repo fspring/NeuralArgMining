@@ -1,23 +1,84 @@
 digraph G {
-	52 -> 45;
-	288 -> 324;
-	45 [label="when they are away from home
-",color=green];
+	52 -> 208;
+	114 -> 99;
+	114 -> 208;
+	139 -> 208;
+	165 -> 208;
+	225 -> 324;
+	261 -> 324;
+	276 -> 324;
 	52 [label="they will have to
  pay a lot of bills
- , because they will have
- to find a lodging or
- at least a place where
- to live and in order
- to have less expenses they
- will have to find a
- co-tenant , who they may
- not like",color=blue];
-	288 [label=", they will
- not be able to ask
- him for advice",color=blue];
+ ,",color=blue];
+	208 [label="the young adults
+ may encounter is to find
+ a co-tenant , who they
+ do not like",color=green];
+	99 [label="living in
+ their own houses will save
+ the young adults a lot
+ of money",color=green];
+	114 [label="if they
+ live separate from their parents
+ they will have to pay
+ for a loan , electricity
+ , water or even for
+ a meal",color=blue];
+	114 [label="if they
+ live separate from their parents
+ they will have to pay
+ for a loan , electricity
+ , water or even for
+ a meal",color=blue];
+	208 [label="the young adults
+ may encounter is to find
+ a co-tenant , who they
+ do not like",color=green];
+	139 [label="if the
+ young adults still study they
+ will have to combine studying
+ with working , because they
+ will not have money to
+ pay for everything",color=blue];
+	208 [label="the young adults
+ may encounter is to find
+ a co-tenant , who they
+ do not like",color=green];
+	165 [label="there will not be such worries
+ when young adults live in
+ their own home , because
+ parents will take care for
+ them",color=blue];
+	208 [label="the young adults
+ may encounter is to find
+ a co-tenant , who they
+ do not like",color=green];
+	225 [label="his habits may be totally different
+ from theirs , his behavior
+ may be inappropriate , but
+ they will have to live
+ with him or even share
+ a room , in order
+ to have less expenses",color=blue];
 	324 [label="for the
  young adults it will be
  better to live with their
- parents",color=green];
+ parents , because of the
+ benefits they will have",color=green];
+	261 [label="living with such a person
+ may be a huge problem
+ for the young adults",color=blue];
+	324 [label="for the
+ young adults it will be
+ better to live with their
+ parents , because of the
+ benefits they will have",color=green];
+	276 [label="when the co-tenant do not
+ share their interests and points
+ of",color=blue];
+	324 [label="for the
+ young adults it will be
+ better to live with their
+ parents , because of the
+ benefits they will have",color=green];
 }

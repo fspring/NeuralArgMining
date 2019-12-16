@@ -1,18 +1,31 @@
 digraph G {
-	118 -> 105;
-	250 -> 303;
+	83 -> 62;
+	229 -> 303;
+	253 -> 303;
 	268 -> 303;
 	285 -> 303;
-	105 [label="only when we see the real
- mummy , can we experience
-",color=green];
-	118 [label="in order to
- help visitors to learn more
- about the exhibits , museums
- hold various activities which make
- visitors be part of what
- they are seeing",color=blue];
-	250 [label="what's more , not all the
+	62 [label="people may not get
+ a spiritual experience since pictures
+ online are only limited to
+ a screen size",color=green];
+	83 [label="the exhibits in
+ museums or galleries are all
+ life size and visitors can
+ get a more direct felling
+",color=blue];
+	229 [label="you can't
+ see the texture of the
+ artwork which is very important
+ to study the skills used
+ by the artist",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	253 [label="not all the
  details of the artwork can
  be shown on the computer
  screen",color=blue];

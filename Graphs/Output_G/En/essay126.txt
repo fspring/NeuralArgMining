@@ -1,34 +1,57 @@
 digraph G {
-	165 -> 140;
-	165 -> 156;
-	187 -> 312;
-	210 -> 342;
-	339 -> 342;
-	140 [label="it's",color=green];
-	165 [label="because of the similarity i talked
- before , acquaintances probably not
+	88 -> 77;
+	121 -> 311;
+	127 -> 323;
+	173 -> 323;
+	187 -> 323;
+	197 -> 323;
+	210 -> 323;
+	77 [label="friends are people who
+ have great compatibility with each
+ other",color=green];
+	88 [label="after two years
+ in college i have found
+ sometimes there is more differences
+ between people than similarities ,
+",color=blue];
+	121 [label="sometimes acquaintances are just acquaintances
+",color=blue];
+	311 [label="a friend is a person
+ you care about",color=green];
+	127 [label="we spend time together
+ but we could never be
+ friend",color=blue];
+	323 [label="friends are the
+ most important people in my
+ life second to my family
+",color=green];
+	173 [label="acquaintances probably not
  able to understand you better
  than your friends",color=blue];
-	156 [label="close",color=green];
-	165 [label="because of the similarity i talked
- before , acquaintances probably not
- able to understand you better
- than your friends",color=blue];
+	323 [label="friends are the
+ most important people in my
+ life second to my family
+",color=green];
 	187 [label="they wouldn't even spare
  time to consider your feelings
 ",color=blue];
-	312 [label="friend is a person
- you care about",color=green];
+	323 [label="friends are the
+ most important people in my
+ life second to my family
+",color=green];
+	197 [label="everyone play the role
+ of acquaintance and friend at
+ the same time",color=blue];
+	323 [label="friends are the
+ most important people in my
+ life second to my family
+",color=green];
 	210 [label="being friendly is a good way
  to treat a acquaintance but
  way not enough for a
  friend",color=blue];
-	342 [label="person who has only
- one or two close friends
-",color=green];
-	339 [label="the kind
- of",color=blue];
-	342 [label="person who has only
- one or two close friends
+	323 [label="friends are the
+ most important people in my
+ life second to my family
 ",color=green];
 }

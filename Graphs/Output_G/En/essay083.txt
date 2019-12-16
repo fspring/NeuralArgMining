@@ -1,34 +1,31 @@
 digraph G {
-	102 -> 77;
-	145 -> 125;
-	197 -> 190;
-	244 -> 277;
-	77 [label="that pursuit of nuclear
- technology one way or the
- other leads towards atomic weapons
+	102 -> 92;
+	102 -> 145;
+	175 -> 145;
+	92 [label="last century has witnessed
+ the horrors of such weapons
 ",color=green];
 	102 [label="if each country pursues
  the fusion and fission process
  some of them may try
  to mold it for military
  usage",color=blue];
-	125 [label="to fortify my opinion is that
- even civil usages of atomic
- power pose a dire threat
- of radio activity",color=green];
+	102 [label="if each country pursues
+ the fusion and fission process
+ some of them may try
+ to mold it for military
+ usage",color=blue];
 	145 [label="for example recently there has been
  an incident in which an
  atomic power house leaked tons
  of radio active material into
  air when an earthquake hit
- the surrounding area",color=blue];
-	190 [label="inevitable",color=green];
-	197 [label="while",color=blue];
-	244 [label="this waste
- is many times more lethal
- to our environment than any
-",color=blue];
-	277 [label="nuclear power may appear
- silver bullet for energy crisis
- but",color=green];
+ the surrounding area",color=green];
+	145 [label="for example recently there has been
+ an incident in which an
+ atomic power house leaked tons
+ of radio active material into
+ air when an earthquake hit
+ the surrounding area",color=green];
+	175 [label="this",color=blue];
 }

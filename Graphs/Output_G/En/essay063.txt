@@ -1,29 +1,122 @@
 digraph G {
-	90 -> 82;
-	158 -> 203;
-	388 -> 376;
+	154 -> 82;
+	154 -> 207;
+	185 -> 225;
+	251 -> 388;
+	310 -> 388;
+	323 -> 388;
+	405 -> 382;
+	405 -> 388;
+	405 -> 534;
+	442 -> 509;
+	471 -> 509;
 	82 [label="with the development of
- science and technology ,",color=green];
-	90 [label="more advanced kitchen facilities , such
+ science and technology , more
+ advanced kitchen facilities , such
  as the modern microwaves or
  the advanced pressure cookers ,
  have been created and invented
  to help people prepare and
  cook food in a very
- short time",color=blue];
-	158 [label="there was a
+ short time",color=green];
+	154 [label="in recent
+ years , there was a
  significant increase in the number
  of people from all walks
  of life realizing this valuable
  benefit of those technologies in
  doing their housework",color=blue];
-	203 [label="it is certain
- that spending less time on
+	154 [label="in recent
+ years , there was a
+ significant increase in the number
+ of people from all walks
+ of life realizing this valuable
+ benefit of those technologies in
+ doing their housework",color=blue];
+	207 [label="spending less time on
  cooking will be the main
  trend in near future",color=green];
-	376 [label="it is true",color=green];
+	185 [label="and this figure still continuously go
+ up along with the improvement
+ of science and technology",color=blue];
+	225 [label="most of young people prefer to
+ have meals at restaurants because
+ they want to invest more
+ time in their work or
+ study to improve themselves",color=green];
+	251 [label="according to a recent survey
+ , 89% of people have
+ come to think that ,
+ since they have been put
+ in the situation which is
+ filled with competitions and pressures
+ , they have to use
+ a lot of time to
+ work hard , to update
+ themselves , to acquire all
+ kinds of skills and so
+ on",color=blue];
 	388 [label="using technology or
  advanced facilities do not make
  food lose its nutrition and
- quality",color=blue];
+ quality",color=green];
+	310 [label="they find hard to have time
+ to prepare and cook a
+ meal",color=blue];
+	388 [label="using technology or
+ advanced facilities do not make
+ food lose its nutrition and
+ quality",color=green];
+	323 [label="even they have
+ some spare time , they
+ prefer to go out with
+ friends to relax and relieve
+ the pressure from work and
+ study",color=blue];
+	388 [label="using technology or
+ advanced facilities do not make
+ food lose its nutrition and
+ quality",color=green];
+	382 [label="as a matter of
+ fact",color=green];
+	405 [label="with the help of ozone machines
+ , bacterias , mold spores
+ , or pesticide in vegetables
+ , fruits and foods will
+ be killed and removed ,
+",color=blue];
+	388 [label="using technology or
+ advanced facilities do not make
+ food lose its nutrition and
+ quality",color=green];
+	405 [label="with the help of ozone machines
+ , bacterias , mold spores
+ , or pesticide in vegetables
+ , fruits and foods will
+ be killed and removed ,
+",color=blue];
+	405 [label="with the help of ozone machines
+ , bacterias , mold spores
+ , or pesticide in vegetables
+ , fruits and foods will
+ be killed and removed ,
+",color=blue];
+	534 [label="people will
+ spend less time in cooking
+ food",color=green];
+	442 [label="along with the high
+ living standard , requirements of
+ quality products in almost restaurants
+ , nowadays , are under
+ severe control and supervision by
+ appropriate authorities",color=blue];
+	509 [label="there are
+ many solid reasons",color=green];
+	471 [label="it is quite easy to
+ have a nutritious meal with
+ guaranteed quality , but do
+ not waste a lot of
+ time",color=blue];
+	509 [label="there are
+ many solid reasons",color=green];
 }

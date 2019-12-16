@@ -1,57 +1,32 @@
 digraph G {
-	84 -> 140;
-	96 -> 140;
-	115 -> 140;
-	152 -> 262;
+	152 -> 244;
 	172 -> 244;
-	200 -> 244;
+	181 -> 244;
+	198 -> 244;
 	216 -> 244;
-	84 [label="roommate turns
- down the music or television
- volume at night time",color=blue];
-	140 [label="having a considered roommate is significantly
- imperative to our school life
-",color=green];
-	96 [label="sometimes we will not know
- what we have done until
- we have a taste of
- our own medicine",color=blue];
-	140 [label="having a considered roommate is significantly
- imperative to our school life
-",color=green];
-	115 [label="at all times , think about
- the other's feeling before doing
- any self-centered action would help
- to improve the roommate relationship
- tremendously",color=blue];
-	140 [label="having a considered roommate is significantly
- imperative to our school life
-",color=green];
 	152 [label="it will not only
  prevent conflicts but also to
  have a friend or even
  a family member",color=blue];
-	262 [label="and we could have
- better understanding of each others
-",color=green];
+	244 [label="communication",color=green];
 	172 [label="communication is as well
  making a good roommate",color=blue];
-	244 [label="communication is
- very important as it would
- clear up the",color=green];
-	200 [label="think this is a piece of
+	244 [label="communication",color=green];
+	181 [label="people have different habit in
+ daily life , such as
+ tidy the blanket in the
+ morning",color=blue];
+	244 [label="communication",color=green];
+	198 [label="one might think
+ this is a piece of
  cake while other would consider
  it as immense project",color=blue];
-	244 [label="communication is
- very important as it would
- clear up the",color=green];
+	244 [label="communication",color=green];
 	216 [label="if one requested to move
  out just because his roommate
  do not tidy up the
  blanket in the morning might
  be crying over split milk
 ",color=blue];
-	244 [label="communication is
- very important as it would
- clear up the",color=green];
+	244 [label="communication",color=green];
 }

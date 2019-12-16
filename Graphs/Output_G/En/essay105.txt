@@ -1,36 +1,6 @@
 digraph G {
-	97 -> 74;
-	97 -> 77;
-	242 -> 208;
-	242 -> 289;
-	74 [label="advanced technology
-",color=green];
-	97 [label="if people in poorer
- countries gain access to these
- drugs , their health situations
- may be better",color=blue];
-	77 [label="the developed world has
- achieved remarkable breakthroughs in making
- medicines , which can cure
- a variety of serious illnesses
-",color=green];
-	97 [label="if people in poorer
- countries gain access to these
- drugs , their health situations
- may be better",color=blue];
-	208 [label="measure",color=green];
-	242 [label="it is advisable for
- the government to encourage medical
- production by supplying land for
- building factories and reducing part
- of the taxes",color=blue];
-	242 [label="it is advisable for
- the government to encourage medical
- production by supplying land for
- building factories and reducing part
- of the taxes",color=blue];
-	289 [label="with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
+	73 -> 48;
+	48 [label="more",color=green];
+	73 [label="with advanced technology
+",color=blue];
 }

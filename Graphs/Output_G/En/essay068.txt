@@ -1,11 +1,27 @@
 digraph G {
-	136 -> 167;
-	138 -> 167;
+	112 -> 156;
+	124 -> 226;
+	136 -> 156;
+	175 -> 243;
+	208 -> 226;
+	112 [label="is",color=blue];
+	156 [label="excessive violence would offer",color=green];
+	124 [label="it should
+ be reporting and reflecting true
+ phenomenon in the society",color=blue];
+	226 [label="we cannot",color=green];
 	136 [label="violence",color=blue];
-	167 [label="detrimental influence to the
- society as well",color=green];
-	138 [label="as one of
- the",color=blue];
-	167 [label="detrimental influence to the
- society as well",color=green];
+	156 [label="excessive violence would offer",color=green];
+	175 [label="it is recently reported in the
+ news that a seventeen-year-old boy
+ killed all his family members
+ , one sister and two
+ parents out of hatred and
+ jealousy",color=blue];
+	243 [label="what",color=green];
+	208 [label="we are inclined
+ to take extreme approach to
+ tackle a small problem due
+ to excessive violence exposure",color=blue];
+	226 [label="we cannot",color=green];
 }

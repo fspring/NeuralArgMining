@@ -1,11 +1,16 @@
 digraph G {
-	199 -> 247;
-	199 [label="this means
- some powerful countries provide financial
- support in order to acquire
- the right to exploit the
- local resources and target the
- local labour market",color=blue];
-	247 [label="countries should not totally
- depend on the",color=green];
+	87 -> 123;
+	87 [label="most developing countries are
+ lack of educational resources ,
+ such as experienced teachers ,
+ evaluation systems and teaching facilities
+ , which is usually neglected
+ by local authorities",color=blue];
+	123 [label="if the developed
+ countries are unwilling to share
+ their successful experience in education
+ , the developing countries will
+ remain undeveloped , even though
+ they gain a great deal
+ of economic support",color=green];
 }

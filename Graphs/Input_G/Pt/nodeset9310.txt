@@ -7,9 +7,10 @@ digraph G {
 	10 [label="haveria uma revisão constitucional para
  consagrar o parlamentarismo e introduzir
  a eleição presidencial no Parlamento
-",color=green];
+ .",color=green];
 	26 [label="Mas isso não ira
- acontecer",color=green];
+ acontecer .",color=green];
 	59 [label="Ora , sem a esquerda ,
- não há revisão constitucional",color=blue];
+ não há revisão constitucional .
+",color=blue];
 }

@@ -2,9 +2,9 @@ digraph G {
 	0 -> 12;
 	0 [label="A guarda costeira italiana acolheu
  mais de mil emigrantes da
- Líbia",color=blue];
+ Líbia .",color=blue];
 	12 [label="Nos últimos dias
  têm-se intensificado estas viagens de
  africanos que querem ir para
- a Europa",color=green];
+ a Europa .",color=green];
 }

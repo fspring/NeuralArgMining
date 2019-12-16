@@ -1,39 +1,17 @@
 digraph G {
 	13 -> 0;
-	13 -> 5;
-	118 -> 108;
-	0 [label="a suspensão da descrença",color=green];
+	119 -> 108;
+	0 [label="a suspensão da descrença , neste
+ caso , tem ainda outra
+ causa :",color=green];
 	13 [label="a suspeita de
  que este neo-despesismo não corresponde
  a nenhuma política de justiça
- social , mas à simples
- necessidade de pagar ao pcp
- o seu apoio parlamentar ,
- satisfazendo as suas clientelas sindicais
- – o que também explica
- a entrega do ensino público
- à tutela de mário nogueira
-",color=blue];
-	5 [label="neste",color=green];
-	13 [label="a suspeita de
- que este neo-despesismo não corresponde
- a nenhuma política de justiça
- social , mas à simples
- necessidade de pagar ao pcp
- o seu apoio parlamentar ,
- satisfazendo as suas clientelas sindicais
- – o que também explica
- a entrega do ensino público
- à tutela de mário nogueira
-",color=blue];
+ social ,",color=blue];
 	108 [label="os defensores da
  soberania orçamental esquecem-se de um
- pormenor",color=green];
-	118 [label="a comissão europeia
+ pormenor :",color=green];
+	119 [label="comissão europeia
  interfere nos nossos orçamentos ,
- não apenas porque estamos no
- euro , mas porque nós
- interferimos nos orçamentos dos outros
- europeus , pedindo-lhes dinheiro para
- os nossos défices",color=blue];
+",color=blue];
 }

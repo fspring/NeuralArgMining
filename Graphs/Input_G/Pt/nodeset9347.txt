@@ -3,11 +3,11 @@ digraph G {
 	0 [label="Já se percebeu que a
  distribuição dos refugiados pelos Estados
  membros da União Europeia não
- funciona",color=green];
+ funciona .",color=green];
 	17 [label="Não só muitos
  desses países , sob pressão
  das opiniões públicas internas ,
  não aceitam essa solução ,
  como os próprios refugiados também
- não a querem",color=blue];
+ não a querem .",color=blue];
 }

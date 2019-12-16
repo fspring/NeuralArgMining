@@ -1,35 +1,31 @@
 digraph G {
-	105 -> 81;
-	105 -> 94;
-	105 -> 96;
-	158 -> 147;
-	158 -> 149;
-	81 [label="been",color=green];
-	105 [label="whether it can work out for
+	92 -> 143;
+	185 -> 143;
+	296 -> 143;
+	92 [label="in the farming products
+ and in the real estate
+ area ; however , whether
+ it can work out for
  alleviating traffic and pollution pressure
- ought to be",color=blue];
-	94 [label="farming",color=green];
-	105 [label="whether it can work out for
- alleviating traffic and pollution pressure
- ought to be",color=blue];
-	96 [label="and in the real estate
-",color=green];
-	105 [label="whether it can work out for
- alleviating traffic and pollution pressure
- ought to be",color=blue];
-	147 [label="to",color=green];
-	158 [label="pollutions are not
- just caused by the burning
- of oil , chemical pollutants
- , extra lights , also
- constitute considerable amount of pollution
-",color=blue];
-	149 [label="petrol price
-",color=green];
-	158 [label="pollutions are not
- just caused by the burning
- of oil , chemical pollutants
- , extra lights , also
- constitute considerable amount of pollution
-",color=blue];
+ ought to be evaluated",color=blue];
+	143 [label="it seems not
+ easy to increase petrol price
+ instantly",color=green];
+	143 [label="it seems not
+ easy to increase petrol price
+ instantly",color=green];
+	185 [label="the improvements of work efficiency also
+ attribute to the speed-up of
+ working pace , resulting in
+ traffic jams during rush-hours",color=blue];
+	296 [label="cultivating a sense of environmental
+ protection would also work out
+ , though it might not
+ be into effect immediately ,
+ but in the long run
+ , it would be a
+ wise choice",color=blue];
+	143 [label="it seems not
+ easy to increase petrol price
+ instantly",color=green];
 }

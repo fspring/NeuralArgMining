@@ -1,18 +1,31 @@
 digraph G {
-	220 -> 266;
-	220 [label="when schools can give such kind
- of opportunity the students are
- likely do their best and
- succeed in their future lives
- which is one of the
- point most people get education
+	83 -> 124;
+	99 -> 124;
+	140 -> 124;
+	83 [label="not allowing students
+ their desired subjects to be
+ chosen is a restriction of
+ human rights",color=blue];
+	124 [label="students should
+ choose their classes to have
+ progress in their studies and
+ grades",color=green];
+	99 [label="as children
+ of independent country we should
+ know our rights and opportunities
+ we have in order to
+ achieve our goals and dreams
 ",color=blue];
-	266 [label="as a young women i
- want my children to get
- knowledge they have desire to
- study in order to have
- distinguished achievement so it has
- advantage not only for him
- or her but for society
- as well",color=green];
+	124 [label="students should
+ choose their classes to have
+ progress in their studies and
+ grades",color=green];
+	124 [label="students should
+ choose their classes to have
+ progress in their studies and
+ grades",color=green];
+	140 [label="we can avoid conflicts among students
+ and teachers which can be
+ enjoyable and productive for both
+ instructor and students",color=blue];
 }

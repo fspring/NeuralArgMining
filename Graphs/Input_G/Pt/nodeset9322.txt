@@ -11,7 +11,7 @@ digraph G {
  por novos conceitos pro fascistas
  levando á desumanização dos Estados
  e à vergonha dos povos
-",color=green];
+ .",color=green];
 	14 [label="os especuladores financeiros agradecem e vão
  alegremente enriquecendo , enquanto que
  as economias vão estagnando ou
@@ -24,5 +24,5 @@ digraph G {
  por novos conceitos pro fascistas
  levando á desumanização dos Estados
  e à vergonha dos povos
-",color=green];
+ .",color=green];
 }

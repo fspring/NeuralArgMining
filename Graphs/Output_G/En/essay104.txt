@@ -1,2 +1,52 @@
 digraph G {
+	120 -> 98;
+	118 -> 207;
+	120 -> 207;
+	147 -> 207;
+	161 -> 207;
+	179 -> 207;
+	98 [label="the internet is
+ an adequate source of academic
+ information , which will potentially
+ fulfill the needs of university
+ pupils",color=green];
+	120 [label="not only are lectures available online
+ , it is also applicable
+ to find reference e-books as
+ well as multi-aspect documents on
+ the cyberspace",color=blue];
+	118 [label="nowadays",color=blue];
+	207 [label="the internet offers a
+ more effective and practical method
+ of studying",color=green];
+	120 [label="not only are lectures available online
+ , it is also applicable
+ to find reference e-books as
+ well as multi-aspect documents on
+ the cyberspace",color=blue];
+	207 [label="the internet offers a
+ more effective and practical method
+ of studying",color=green];
+	147 [label="the internet has grown
+ to become the largest virtual
+ library ever",color=blue];
+	207 [label="the internet offers a
+ more effective and practical method
+ of studying",color=green];
+	161 [label="with the use of the
+ internet , distance and time
+ seem to be no more
+ a hindrance",color=blue];
+	207 [label="the internet offers a
+ more effective and practical method
+ of studying",color=green];
+	179 [label="college students
+ can save their time browsing
+ for necessary information through the
+ web instead of spending hours
+ wandering in bookstores or libraries
+",color=blue];
+	207 [label="the internet offers a
+ more effective and practical method
+ of studying",color=green];
 }

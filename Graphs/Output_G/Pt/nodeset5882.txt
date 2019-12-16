@@ -1,2 +1,8 @@
 digraph G {
+	235 -> 225;
+	225 [label="o lance do golo do boavista
+ é ilegal",color=green];
+	235 [label="está um atleta em fora de
+ jogo , acrescentou paulo sérgio
+",color=blue];
 }

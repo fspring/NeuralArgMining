@@ -1,14 +1,6 @@
 digraph G {
-	85 -> 52;
-	128 -> 110;
-	248 -> 280;
-	52 [label="a full health education
- from their childhoods , children
- will have good habits of
- taking care of their own
- health and these habits may
- be kept in their adolescences
-",color=green];
+	85 -> 110;
+	279 -> 314;
 	85 [label="if a child is educated to
  have a hygienic lifestyle at
  a very young age ,
@@ -18,22 +10,15 @@ digraph G {
  especially children necessary knowledge to
  protect themselves from risks of
  diseases",color=green];
-	128 [label="instead of afraid
- or panic , they may
- be calmer if unfortunately committing
- some normal diseases such as
- allergy or illness in seasonal
- changes",color=blue];
-	248 [label="as human resources
- play a key role in
- the development of a country
- , investing money to enhance
- the general health state is
- a",color=blue];
-	280 [label="the cost of treatment is often
+	279 [label="because the
+ cost of treatment is often
  much higher than that of
  prevention , the government can
  save a lot of money
  for our country's health budget
-",color=green];
+",color=blue];
+	314 [label="we should
+ give more priority to health
+ education and preventative measures than
+ to treatment",color=green];
 }

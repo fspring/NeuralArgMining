@@ -7,5 +7,5 @@ digraph G {
  , democracia , em respeito
  pelo estado de direito ,
  pela propriedade privada e pelos
- direitos individuais",color=blue];
+ direitos individuais .",color=blue];
 }

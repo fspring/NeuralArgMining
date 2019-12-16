@@ -1,9 +1,11 @@
 digraph G {
 	40 -> 12;
 	50 -> 79;
+	64 -> 79;
 	104 -> 79;
 	201 -> 501;
 	228 -> 501;
+	255 -> 501;
 	289 -> 322;
 	459 -> 441;
 	510 -> 501;
@@ -11,26 +13,32 @@ digraph G {
  na moda e servem para
  quase tudo",color=green];
 	40 [label="um pouco de tudo pode
- ser servido por Drones",color=blue];
+ ser servido por Drones .
+",color=blue];
 	50 [label="Mas este fantástico boom da
  tecnologia está a causar problemas
- de ordem organizacional , com
- a ausência de regras e
+ de ordem organizacional ,",color=blue];
+	79 [label="A Administração da Aviação Federal dos
+ Estados Unidos FAA deu um
+ importante passo ao apresentar um
+ regulamento para a utilização rotineira
+ de Drones comerciais .",color=green];
+	64 [label="com a ausência de regras e
  leis há já situações complicadas
- com perigosas utilizações",color=blue];
+ com perigosas utilizações .",color=blue];
 	79 [label="A Administração da Aviação Federal dos
  Estados Unidos FAA deu um
  importante passo ao apresentar um
  regulamento para a utilização rotineira
- de Drones comerciais",color=green];
+ de Drones comerciais .",color=green];
 	79 [label="A Administração da Aviação Federal dos
  Estados Unidos FAA deu um
  importante passo ao apresentar um
  regulamento para a utilização rotineira
- de Drones comerciais",color=green];
+ de Drones comerciais .",color=green];
 	104 [label="A agência apresentou os requisitos propostos
  para aviões comerciais não tripulados
- Drones",color=blue];
+ Drones .",color=blue];
 	201 [label="Estas regras , contudo
  , podem levar a que
  algumas atividades , como os
@@ -38,35 +46,41 @@ digraph G {
  obrigadas a tentar criar situações
  de exceção",color=blue];
 	501 [label="Nós tentamos ser flexíveis
- na composição destas regras",color=green];
+ na composição destas regras .
+",color=green];
 	228 [label="Enquanto a
  regulamentação prevê uma ampla utilização
  de Drones para gravar programas
  de TV ou filmes ,
  o levantamento dos terrenos agrícolas
  ou inspecionar uma ponte ,
- não prevê uma das atividades
+",color=blue];
+	501 [label="Nós tentamos ser flexíveis
+ na composição destas regras .
+",color=green];
+	255 [label="não prevê uma das atividades
  tão requerida pela Amazon ,
  como é a sua utilização
  em entregas levadas a cabo
  pela gigante das compras online
-",color=blue];
+ .",color=blue];
 	501 [label="Nós tentamos ser flexíveis
- na composição destas regras",color=green];
+ na composição destas regras .
+",color=green];
 	289 [label="Em resposta , a Amazon lançou
  de seguida um comunicado ,
  admitindo que as regras propostas
  não iriam permitir a utilização
  do seu Prime Air ,
  o Drone do serviço de
- entregas",color=blue];
+ entregas .",color=blue];
 	322 [label="A FAA precisa
  de começar e terminar de
  forma expedita , o processo
  formal para endereçar as necessidades
  do nosso negócio e ,
  em última instância , as
- dos nossos clientes",color=green];
+ dos nossos clientes .",color=green];
 	441 [label="A atenção à integração
  com segurança de Drones no
  espaço aéreo dos Estados Unidos
@@ -74,9 +88,10 @@ digraph G {
 	459 [label="a Amazon , no final de
  2013 , revelou os seus
  planos para utilizar Drones na
- entrega comercial",color=blue];
+ entrega comercial .",color=blue];
 	501 [label="Nós tentamos ser flexíveis
- na composição destas regras",color=green];
+ na composição destas regras .
+",color=green];
 	510 [label="Queremos manter o nível excepcional
  que hoje temos em termos
  de segurança da aviação sem

@@ -10,5 +10,5 @@ digraph G {
 	18 [label="Até ao
  fim do Verão passado ,
  a Chanceler alemã gozava de
- uma posição invejável",color=blue];
+ uma posição invejável .",color=blue];
 }

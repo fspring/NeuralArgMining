@@ -1,65 +1,37 @@
 digraph G {
-	93 -> 69;
-	169 -> 236;
-	250 -> 230;
-	255 -> 236;
-	255 -> 333;
-	287 -> 333;
-	302 -> 333;
-	69 [label="scale sports
- games make people focus on
- attractive contests instead of international
- disputes",color=green];
-	93 [label="will be proved
+	92 -> 124;
+	287 -> 329;
+	302 -> 329;
+	303 -> 329;
+	92 [label="this will be proved
  by analysing how sports events
  may be an important link
  to the peace , and
  by how they encourage people
  to display their national symbols
 ",color=blue];
-	169 [label="gulf war
- , its citizens tried to
- catch any incoming news about
- the footballworld cup through their
- portable receivers",color=blue];
-	236 [label="these sporting occasions are a
- good opportunity for people to
- be proud of their",color=green];
-	230 [label="friendship",color=green];
-	250 [label="country",color=blue];
-	236 [label="these sporting occasions are a
- good opportunity for people to
- be proud of their",color=green];
-	255 [label="when the football world cup was
- organised in south africa ,
- its citizens filled up the
- stadiums , cheered and waved
- national flags to support their
- national team on the field
-",color=blue];
-	255 [label="when the football world cup was
- organised in south africa ,
- its citizens filled up the
- stadiums , cheered and waved
- national flags to support their
- national team on the field
-",color=blue];
-	333 [label="people can freely
- express their patriotic feelings during
- international sports events",color=green];
+	124 [label="during times
+ of war , people living
+ in badly affected countries can
+ forget about the gloomy environment
+ and maintain a link with
+ the rest of the world
+ by listening to international sports
+ event",color=green];
 	287 [label="south african national and
  traditional songs were played in
  the streets throughout the night
 ",color=blue];
-	333 [label="people can freely
- express their patriotic feelings during
- international sports events",color=green];
-	302 [label="this example demonstrates how
+	329 [label="it is
+",color=green];
+	302 [label="this",color=blue];
+	329 [label="it is
+",color=green];
+	303 [label="example demonstrates how
  people might take numerous elements
  from their roots and history
  to proudly display them while
  supporting their team",color=blue];
-	333 [label="people can freely
- express their patriotic feelings during
- international sports events",color=green];
+	329 [label="it is
+",color=green];
 }

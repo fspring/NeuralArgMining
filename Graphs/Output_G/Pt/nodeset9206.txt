@@ -1,7 +1,2 @@
 digraph G {
-	55 -> 45;
-	45 [label="presidentes viveram",color=green];
-	55 [label="soares nunca deixou de chocar com
- o chamado ex-secretariado , irritando
- sucessivos líderes socialistas",color=blue];
 }
