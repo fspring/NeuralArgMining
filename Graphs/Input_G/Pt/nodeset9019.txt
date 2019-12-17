@@ -1,9 +1,11 @@
 digraph G {
 	19 -> 4;
-	4 [label="a distribui√ß√£o dos refugiados pelos Estados
- membros da Uni√£o Europeia n√£o
- funciona",color=green];
-	19 [label="muitos desses pa√≠ses , sob press√£o
- das opini√µes p√∫blicas internas ,
- n√£o aceitam essa solu√ß√£o",color=blue];
+	4 [label="a distribuiÁ„o
+ dos refugiados pelos Estados membros
+ da Uni„o Europeia n„o funciona
+",color=green];
+	19 [label="muitos desses
+ paÌses , sob press„o das
+ opiniıes p˙blicas internas , n„o
+ aceitam essa soluÁ„o",color=blue];
 }

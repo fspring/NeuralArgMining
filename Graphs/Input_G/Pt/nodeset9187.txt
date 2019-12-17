@@ -1,18 +1,19 @@
 digraph G {
 	33 -> 79;
-	33 [label="Deve ficar
- clar√≠ssimo para quem queira viver
- na Europa que uma das
- regras a que devem obedi√™ncia
- √© a da liberdade religiosa
- e que essa lei se
- imp√µe a todos os que
- c√° vivem , incluindo gente
- de origem √°rabe .",color=blue];
-	79 [label="os mu√ßulmanos ter-se-√£o de habituar n√£o
- s√≥ a ter uma religi√£o
- minorit√°ria , mas sobretudo a
- aceitar pacificamente que haja convers√µes
- ao Cristianismo entre elementos da
- sua comunidade .",color=green];
+	33 [label="Deve ficar clarÌssimo
+ para quem queira viver na
+ Europa que uma das regras
+ a que devem obediÍncia È
+ a da liberdade religiosa e
+ que essa lei se impıe
+ a todos os que c·
+ vivem , incluindo gente de
+ origem ·rabe .",color=blue];
+	79 [label="os muÁulmanos
+ ter-se-„o de habituar n„o sÛ
+ a ter uma religi„o minorit·ria
+ , mas sobretudo a aceitar
+ pacificamente que haja conversıes ao
+ Cristianismo entre elementos da sua
+ comunidade .",color=green];
 }

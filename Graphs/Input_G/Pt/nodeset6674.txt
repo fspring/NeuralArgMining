@@ -1,14 +1,13 @@
 digraph G {
 	27 -> 12;
-	12 [label="E o pior
- , segundo consta , seria
- um segundo resgate .",color=green];
-	27 [label="Os portugueses conseguiram
- mesmo convencer-se de que o
- ajustamento financeiro negociado em 2011
- com a Comiss√£o Europeia ,
- o BCE e o FMI
- foi a maior calamidade que
- nos podia ter acontecido .
-",color=blue];
+	12 [label="E o pior ,
+ segundo consta , seria um
+ segundo resgate .",color=green];
+	27 [label="Os portugueses conseguiram mesmo
+ convencer-se de que o ajustamento
+ financeiro negociado em 2011 com
+ a Comiss„o Europeia , o
+ BCE e o FMI foi
+ a maior calamidade que nos
+ podia ter acontecido .",color=blue];
 }

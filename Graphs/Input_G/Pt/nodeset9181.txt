@@ -1,11 +1,11 @@
 digraph G {
 	68 -> 87;
-	68 [label="Para eles
- as mulheres europeias s√£o ostensivamente
- uma afronta √† sua maneira
- de pensar e estar no
- mundo",color=blue];
-	87 [label="pelo se sentem
- no direito de as atacar
- verbal e fisicamente",color=green];
+	68 [label="Para eles as
+ mulheres europeias s„o ostensivamente uma
+ afronta ‡ sua maneira de
+ pensar e estar no mundo
+",color=blue];
+	87 [label="pelo se sentem no
+ direito de as atacar verbal
+ e fisicamente",color=green];
 }

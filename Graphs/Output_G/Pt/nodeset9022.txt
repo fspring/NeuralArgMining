@@ -1,7 +1,7 @@
 digraph G {
 	12 -> 0;
-	0 [label="n√£o √© pelo crescimento econ√≥mico que
- se vai reduzir o d√©fice
+	0 [label="n„o È pelo crescimento econÛmico que
+ se vai reduzir o dÈfice
 ",color=green];
 	12 [label="o crescimento previsto no
  programa de estabilidade e crescimento

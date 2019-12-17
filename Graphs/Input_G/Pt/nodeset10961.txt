@@ -1,15 +1,15 @@
 digraph G {
 	4 -> 23;
 	36 -> 45;
-	4 [label="reposi√ß√£o dos cortes salariais na fun√ß√£o
- p√∫blica que foi feita a
- partir dos 675 euros",color=blue];
-	23 [label="aumento da
- despesa de 450 milh√µes de
- euros este ano",color=green];
-	36 [label="descida do IVA na
- restaura√ß√£o a partir de Julho
-",color=blue];
-	45 [label="vai custar 168 milh√µes de
- euros",color=green];
+	4 [label="reposiÁ„o dos
+ cortes salariais na funÁ„o p˙blica
+ que foi feita a partir
+ dos 675 euros",color=blue];
+	23 [label="aumento da despesa
+ de 450 milhıes de euros
+ este ano",color=green];
+	36 [label="descida do IVA na restauraÁ„o
+ a partir de Julho",color=blue];
+	45 [label="vai custar 168 milhıes de euros
+",color=green];
 }

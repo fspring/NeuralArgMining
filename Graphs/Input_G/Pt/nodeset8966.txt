@@ -1,15 +1,14 @@
 digraph G {
 	0 -> 38;
-	0 [label="Qualquer pessoa educada pela televis√£o
- e pelo cinema sabe que
- para se poder concluir que
- algu√©m cometeu um crime √©
- preciso determinar se teve os
- meios , os motivos ,
- e ainda a oportunidade para
- o fazer .",color=blue];
-	38 [label="A mera
- inten√ß√£o de cometer um crime
- n√£o conta como crime .
-",color=green];
+	0 [label="Qualquer pessoa educada pela televis„o e
+ pelo cinema sabe que para
+ se poder concluir que alguÈm
+ cometeu um crime È preciso
+ determinar se teve os meios
+ , os motivos , e
+ ainda a oportunidade para o
+ fazer .",color=blue];
+	38 [label="A mera intenÁ„o
+ de cometer um crime n„o
+ conta como crime .",color=green];
 }

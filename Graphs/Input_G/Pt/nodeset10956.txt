@@ -1,18 +1,17 @@
 digraph G {
 	0 -> 15;
 	85 -> 31;
-	0 [label="H√° quem comece a defender
- uma alternativa , sobretudo na
- Alemanha e na √Åustria",color=blue];
-	15 [label="o fecho das fronteiras dos
- dois pa√≠ses com o sul
-",color=green];
-	31 [label="cria√ß√£o de uma esp√©cie
- de mini-Schengen do Norte ,
- deixando de fora a It√°lia
- , a Eslov√©nia , a
- Cro√°cia e a Gr√©cia",color=green];
-	85 [label="Merkel e o governo alem√£o
- tudo far√£o para que isso
- n√£o aconte√ßa .",color=blue];
+	0 [label="H· quem comece a defender uma
+ alternativa , sobretudo na Alemanha
+ e na ¡ustria",color=blue];
+	15 [label="o fecho das fronteiras dos dois
+ paÌses com o sul",color=green];
+	31 [label="criaÁ„o de uma espÈcie de
+ mini-Schengen do Norte , deixando
+ de fora a It·lia ,
+ a EslovÈnia , a Cro·cia
+ e a GrÈcia",color=green];
+	85 [label="Merkel e o governo alem„o tudo
+ far„o para que isso n„o
+ aconteÁa .",color=blue];
 }

@@ -1,6 +1,6 @@
 digraph G {
 	63 -> 54;
-	54 [label="n√£o vivem
+	54 [label="n„o vivem
  das esmolas que poderiam mendigar
 ",color=green];
 	63 [label="ganham a vida

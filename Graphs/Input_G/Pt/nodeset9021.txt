@@ -1,22 +1,20 @@
 digraph G {
 	30 -> 0;
 	95 -> 73;
-	0 [label="O Governo n√£o chega l√°
- mas fez o caminho quase
- todo e apresenta 2,6% de
- d√©fice para este ano .
- √â uma evolu√ß√£o que deve
- registar-se de forma positiva",color=green];
-	30 [label="ainda estamos longe da consolida√ß√£o
- fiscal",color=blue];
-	73 [label="Se em
- vez do programa do Governo
- olharmos para o programa eleitoral
- do PS , a evolu√ß√£o
- √© ainda mais not√°vel .
-",color=green];
-	95 [label="Ant√≥nio Costa come√ßou por trabalhar
- com um d√©fice or√ßamental previsional
- de 3% para este ano
+	0 [label="O Governo n„o chega l· mas
+ fez o caminho quase todo
+ e apresenta 2,6% de dÈfice
+ para este ano . …
+ uma evoluÁ„o que deve registar-se
+ de forma positiva",color=green];
+	30 [label="ainda estamos longe da consolidaÁ„o fiscal
 ",color=blue];
+	73 [label="Se em vez
+ do programa do Governo olharmos
+ para o programa eleitoral do
+ PS , a evoluÁ„o È
+ ainda mais not·vel .",color=green];
+	95 [label="AntÛnio Costa comeÁou por trabalhar com
+ um dÈfice orÁamental previsional de
+ 3% para este ano",color=blue];
 }

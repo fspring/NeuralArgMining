@@ -1,11 +1,11 @@
 digraph G {
 	81 -> 97;
-	81 [label="Entretanto , o influxo
- na Alemanha prossegue ao ritmo
- de mais de 3000 por
- dia ,",color=blue];
-	97 [label="o que promete
- adicionar este ano outro milh√£o
- ao milh√£o do ano passado
- .",color=green];
+	81 [label="Entretanto , o influxo na
+ Alemanha prossegue ao ritmo de
+ mais de 3000 por dia
+ ,",color=blue];
+	97 [label="o que promete adicionar
+ este ano outro milh„o ao
+ milh„o do ano passado .
+",color=green];
 }

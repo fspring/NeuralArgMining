@@ -1,17 +1,17 @@
 digraph G {
 	103 -> 45;
-	45 [label="a histÃ³ria dos Ãºltimos quarenta
- anos jÃ¡ nos deveria ter
- ensinado que nÃ£o Ã© possÃ­vel
- adivinhar o que um presidente
- vai ser a partir da
- sua campanha , nem sequer
- da sua suposta personalidade",color=green];
-	103 [label="Em 1995
- , Sampaio propunha-se ser o
- presidente mais parlamentar de sempre
- , e ei-lo , em
- 2004 , a dissolver um
- parlamento com uma maioria absoluta
- .",color=blue];
+	45 [label="a história dos últimos quarenta anos
+ já nos deveria ter ensinado
+ que não é possível adivinhar
+ o que um presidente vai
+ ser a partir da sua
+ campanha , nem sequer da
+ sua suposta personalidade",color=green];
+	103 [label="Em 1995 ,
+ Sampaio propunha-se ser o presidente
+ mais parlamentar de sempre ,
+ e ei-lo , em 2004
+ , a dissolver um parlamento
+ com uma maioria absoluta .
+",color=blue];
 }

@@ -1,15 +1,15 @@
 digraph G {
 	18 -> 0;
-	0 [label="Os quatro pa√≠ses v√£o refor√ßar
- a coopera√ß√£o nas quest√µes da
- imigra√ß√£o , terrorismo e tr√°fico
- de droga .",color=green];
-	18 [label="Esta manh√£
- foram assinados v√°rios acordos nestas
- √°reas , numa reuni√£o que
- decorreu no Forte de S√£o
- Juli√£o da Barra em Oeiras
- , e que contou com
- os ministros da Administra√ß√£o Interna
- dos quatros pa√≠ses .",color=blue];
+	0 [label="Os quatro paÌses v„o reforÁar a
+ cooperaÁ„o nas questıes da imigraÁ„o
+ , terrorismo e tr·fico de
+ droga .",color=green];
+	18 [label="Esta manh„ foram
+ assinados v·rios acordos nestas ·reas
+ , numa reuni„o que decorreu
+ no Forte de S„o Juli„o
+ da Barra em Oeiras ,
+ e que contou com os
+ ministros da AdministraÁ„o Interna dos
+ quatros paÌses .",color=blue];
 }

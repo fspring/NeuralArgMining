@@ -1,17 +1,17 @@
 digraph G {
 	63 -> 50;
-	50 [label="Quando nos sentimos menos encorajados
- a cair nessa tenta√ß√£o invocamos
- raz√µes log√≠sticas .",color=green];
-	63 [label="Sabendo genericamente
- que devemos amar o pr√≥ximo
- , diremos que n√£o havia
- ningu√©m por perto ; ou
- que n√£o t√≠nhamos qualquer ideia
- daquilo que numa determinada circunst√¢ncia
- seria considerado amar ; ou
- at√© que n√£o teria havido
- uma raz√£o particular suficientemente forte
- para amar algu√©m em particular
- .",color=blue];
+	50 [label="Quando nos sentimos menos encorajados a
+ cair nessa tentaÁ„o invocamos razıes
+ logÌsticas .",color=green];
+	63 [label="Sabendo genericamente que
+ devemos amar o prÛximo ,
+ diremos que n„o havia ninguÈm
+ por perto ; ou que
+ n„o tÌnhamos qualquer ideia daquilo
+ que numa determinada circunst‚ncia seria
+ considerado amar ; ou atÈ
+ que n„o teria havido uma
+ raz„o particular suficientemente forte para
+ amar alguÈm em particular .
+",color=blue];
 }

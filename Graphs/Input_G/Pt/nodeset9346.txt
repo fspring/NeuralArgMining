@@ -1,22 +1,22 @@
 digraph G {
 	10 -> 92;
 	28 -> 92;
-	10 [label="Merkel ter√° que demonstrar que
- recuperou a rela√ß√£o de m√∫tua
- compreens√£o com a maioria do
- eleitorado alem√£o",color=blue];
-	92 [label="Mas pode chegar
- √† conclus√£o que a sua
- energia pol√≠tica se esgotou e
- que o seu tempo chegou
- ao fim",color=green];
-	28 [label="Ter√° de
- mostrar igualmente que tem uma
- solu√ß√£o vi√°vel para a crise
- dos refugiados .",color=blue];
-	92 [label="Mas pode chegar
- √† conclus√£o que a sua
- energia pol√≠tica se esgotou e
- que o seu tempo chegou
- ao fim",color=green];
+	10 [label="Merkel ter· que demonstrar que recuperou
+ a relaÁ„o de m˙tua compreens„o
+ com a maioria do eleitorado
+ alem„o",color=blue];
+	92 [label="Mas pode chegar ‡
+ conclus„o que a sua energia
+ polÌtica se esgotou e que
+ o seu tempo chegou ao
+ fim",color=green];
+	28 [label="Ter· de mostrar
+ igualmente que tem uma soluÁ„o
+ vi·vel para a crise dos
+ refugiados .",color=blue];
+	92 [label="Mas pode chegar ‡
+ conclus„o que a sua energia
+ polÌtica se esgotou e que
+ o seu tempo chegou ao
+ fim",color=green];
 }

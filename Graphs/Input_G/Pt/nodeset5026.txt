@@ -1,16 +1,17 @@
 digraph G {
 	109 -> 100;
-	100 [label="Um incidente alarmante ocorreu perto
- da costa l√≠bia",color=green];
-	109 [label="segundo um comunicado do Minist√©rio dos
- Transportes italiano : uma embarca√ß√£o
- da guarda-costeira italiana , que
- socorria uma das canoas com
- imigrantes subsaarianos , foi abordada
- por uma lancha r√°pida vinda
- da costa e quatro homens
- armados de metralhadoras kalachnikov amea√ßaram
- as for√ßas italianas , exigindo
- que abandonassem o barco vazio
- .",color=blue];
+	100 [label="Um incidente alarmante ocorreu perto da
+ costa lÌbia",color=green];
+	109 [label="segundo um
+ comunicado do MinistÈrio dos Transportes
+ italiano : uma embarcaÁ„o da
+ guarda-costeira italiana , que socorria
+ uma das canoas com imigrantes
+ subsaarianos , foi abordada por
+ uma lancha r·pida vinda da
+ costa e quatro homens armados
+ de metralhadoras kalachnikov ameaÁaram as
+ forÁas italianas , exigindo que
+ abandonassem o barco vazio .
+",color=blue];
 }

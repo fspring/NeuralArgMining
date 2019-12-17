@@ -1,10 +1,9 @@
 digraph G {
 	6 -> 2;
-	2 [label="Gosto de Cavaco
- .",color=green];
-	6 [label="Sempre o apreciei pol√≠tica
- e civicamente , n√£o √©
- de agora , mas agora
- gosto de o afirmar .
-",color=blue];
+	2 [label="Gosto de Cavaco .
+",color=green];
+	6 [label="Sempre o apreciei polÌtica e
+ civicamente , n„o È de
+ agora , mas agora gosto
+ de o afirmar .",color=blue];
 }

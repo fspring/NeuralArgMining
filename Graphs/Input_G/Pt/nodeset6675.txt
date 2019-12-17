@@ -1,10 +1,10 @@
 digraph G {
 	87 -> 0;
-	0 [label="A Uni√£o Europeia de 2016
- j√° n√£o √© a de
- 2011 .",color=green];
-	87 [label="A Gr√©cia ,
- o ano passado , testou
- os limites da toler√¢ncia dos
- outros contribuintes europeus .",color=blue];
+	0 [label="A Uni„o Europeia de 2016 j·
+ n„o È a de 2011
+ .",color=green];
+	87 [label="A GrÈcia , o
+ ano passado , testou os
+ limites da toler‚ncia dos outros
+ contribuintes europeus .",color=blue];
 }

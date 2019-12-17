@@ -1,17 +1,16 @@
 digraph G {
 	15 -> 7;
 	32 -> 50;
-	7 [label="os estados dever√£o
- restringir a entrada de imigrantes
-",color=green];
-	15 [label="por forma a preservar o
- nosso actual modo de vida
- , liberdade e cultura",color=blue];
-	32 [label="a entrada descontrolada
- e em grandes n√∫meros de
- cidad√£os √°rabes , poder√° colocar
- tudo isto em causa",color=blue];
-	50 [label="havendo por isso um direito
- superior de exclus√£o que deve
- ser exercido",color=green];
+	7 [label="os estados dever„o restringir
+ a entrada de imigrantes",color=green];
+	15 [label="por forma a preservar o nosso
+ actual modo de vida ,
+ liberdade e cultura",color=blue];
+	32 [label="a entrada descontrolada e
+ em grandes n˙meros de cidad„os
+ ·rabes , poder· colocar tudo
+ isto em causa",color=blue];
+	50 [label="havendo por isso um direito superior
+ de exclus„o que deve ser
+ exercido",color=green];
 }

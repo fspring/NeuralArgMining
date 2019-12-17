@@ -73,6 +73,6 @@ for filename in files:
             attrs += '\t' + str(span_id) + ' [label=\"' + spans[span_id][3] + '\",color=green];\n'
             attrs += '\t' + str(link) + ' [label=\"' + spans[link][3] + '\",color=blue];\n'
 
-    fd = open(graph_dir + '/' + filename, 'w', encoding='utf-8')
+    fd = open(graph_dir + '/' + filename, 'w')
     fd.write(graph_header + edges + attrs + '}')
     fd.close()

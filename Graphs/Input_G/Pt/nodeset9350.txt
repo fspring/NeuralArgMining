@@ -1,9 +1,9 @@
 digraph G {
 	0 -> 20;
-	0 [label="os dados que est√£o no
- documento s√£o ainda escassos mas
- a partir deles √© poss√≠vel
- tirar j√° algumas conclus√µes",color=blue];
-	20 [label="o caminho or√ßamental que este
- governo come√ßa a percorrer",color=green];
+	0 [label="os dados que est„o no documento
+ s„o ainda escassos mas a
+ partir deles È possÌvel tirar
+ j· algumas conclusıes",color=blue];
+	20 [label="o caminho orÁamental que este governo
+ comeÁa a percorrer",color=green];
 }

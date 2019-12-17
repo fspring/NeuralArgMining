@@ -1,19 +1,19 @@
 digraph G {
 	55 -> 43;
-	43 [label="todos os
- presidentes viveram em tens√£o com
- a sua fam√≠lia pol√≠tica",color=green];
-	55 [label="Soares nunca deixou de chocar
- com o chamado ex-secretariado ,
- irritando sucessivos l√≠deres socialistas .
- Sampaio n√£o esperou por Guterres
- para se candidatar em 1995
- , e em 2004 provocou
- a demiss√£o de um secret√°rio-geral
- do PS . Cavaco Silva
- afastou-se de Santana Lopes em
- 2005 , e em 2009
- foi acusado de n√£o ajudar
- o PSD embora S√≥crates o
- acusasse do contr√°rio .",color=blue];
+	43 [label="todos os presidentes
+ viveram em tens„o com a
+ sua famÌlia polÌtica",color=green];
+	55 [label="Soares nunca deixou de chocar com
+ o chamado ex-secretariado , irritando
+ sucessivos lÌderes socialistas . Sampaio
+ n„o esperou por Guterres para
+ se candidatar em 1995 ,
+ e em 2004 provocou a
+ demiss„o de um secret·rio-geral do
+ PS . Cavaco Silva afastou-se
+ de Santana Lopes em 2005
+ , e em 2009 foi
+ acusado de n„o ajudar o
+ PSD embora SÛcrates o acusasse
+ do contr·rio .",color=blue];
 }

@@ -1,8 +1,8 @@
 digraph G {
 	37 -> 30;
-	30 [label="ainda estamos longe da consolidaÃ§Ã£o
- fiscal",color=green];
-	37 [label="nunca devemos esquecer
- que mais dÃ©fice significa mais
- dÃ­vida",color=blue];
+	30 [label="ainda estamos longe da consolidação fiscal
+",color=green];
+	37 [label="nunca devemos esquecer que
+ mais défice significa mais dívida
+",color=blue];
 }

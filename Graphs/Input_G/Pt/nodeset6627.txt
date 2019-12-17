@@ -8,107 +8,113 @@ digraph G {
 	599 -> 648;
 	616 -> 648;
 	629 -> 648;
-	70 [label="Marcos na afirmaÃ§Ã£o da democracia
- Na moÃ§Ã£o dos sociais democratas
- refere-se que o 25 de
- Abril e 1Âº de Maio
- , representam â€“ marcos na
- afirmaÃ§Ã£o da democracia , da
- liberdade e da valorizaÃ§Ã£o do
- trabalho que constituem , em
- simultÃ¢neo , patrimÃ³nio de todos
- os democratas e legado transmitido
- pelas geraÃ§Ãµes mais antigas a
- todos os jovens de hoje
+	70 [label="Marcos na afirmação da democracia Na
+ moção dos sociais democratas refere-se
+ que o 25 de Abril
+ e 1º de Maio ,
+ representam – marcos na afirmação
+ da democracia , da liberdade
+ e da valorização do trabalho
+ que constituem , em simultâneo
+ , património de todos os
+ democratas e legado transmitido pelas
+ gerações mais antigas a todos
+ os jovens de hoje .
+",color=blue];
+	164 [label="Por essa
+ razão a Assembleia Municipal do
+ Barreiro decidiu delibera saudar o
+ 25 de Abril de 1974
+ , bem como a celebração
+ livre , em Portugal ,
+ do dia 1 de Maio
+ .",color=green];
+	131 [label="Esse é um legado que
+ importa estimar e preservar na
+ afirmação e desenvolvimento plenos dos
+ indivíduos , numa relação de
+ proximidade afectiva com a Pátria
+ e com o mundo –
+ é sublinhado .",color=blue];
+	164 [label="Por essa
+ razão a Assembleia Municipal do
+ Barreiro decidiu delibera saudar o
+ 25 de Abril de 1974
+ , bem como a celebração
+ livre , em Portugal ,
+ do dia 1 de Maio
+ .",color=green];
+	242 [label="Desconhecemos o conteúdo da
+ referida saudação",color=green];
+	251 [label="a mesma não foi divulgada
+ aos órgãos de comunicação social
  .",color=blue];
-	164 [label="Por essa razÃ£o a Assembleia Municipal
- do Barreiro decidiu delibera saudar
- o 25 de Abril de
- 1974 , bem como a
- celebraÃ§Ã£o livre , em Portugal
- , do dia 1 de
- Maio .",color=green];
-	131 [label="Esse Ã© um legado
- que importa estimar e preservar
- na afirmaÃ§Ã£o e desenvolvimento plenos
- dos indivÃ­duos , numa relaÃ§Ã£o
- de proximidade afectiva com a
- PÃ¡tria e com o mundo
- â€“ Ã© sublinhado .",color=blue];
-	164 [label="Por essa razÃ£o a Assembleia Municipal
- do Barreiro decidiu delibera saudar
- o 25 de Abril de
- 1974 , bem como a
- celebraÃ§Ã£o livre , em Portugal
- , do dia 1 de
- Maio .",color=green];
-	242 [label="Desconhecemos o conteÃºdo
- da referida saudaÃ§Ã£o",color=green];
-	251 [label="a mesma nÃ£o foi
- divulgada aos Ã³rgÃ£os de comunicaÃ§Ã£o
- social .",color=blue];
-	343 [label="hoje ,
- mais de dois milhÃµes e
- setecentos mil portugueses vivem abaixo
- do limiar da pobreza ,
- e este nÃºmero continua a
- crescer",color=blue];
-	449 [label="Ã© expressa a â€“ oposiÃ§Ã£o Ã s
- politicas econÃ³micas e sociais levadas
- a cabo pelo governo PSD/CDS
- ,",color=green];
-	394 [label="Refere-se que â€“ o ataque Ã 
- AdministraÃ§Ã£o PÃºblica se contabiliza jÃ¡
- no despedimento de mais de
- 72.000 trabalhadores , no encerramento
- de centenas de serviÃ§os pÃºblicos
- , no corte de salÃ¡rios
- , no aumento injusto e
- inaceitÃ¡vel do horÃ¡rios de trabalho
- para as 40 horas .
+	343 [label="hoje , mais
+ de dois milhões e setecentos
+ mil portugueses vivem abaixo do
+ limiar da pobreza , e
+ este número continua a crescer
 ",color=blue];
-	449 [label="Ã© expressa a â€“ oposiÃ§Ã£o Ã s
- politicas econÃ³micas e sociais levadas
- a cabo pelo governo PSD/CDS
- ,",color=green];
-	449 [label="Ã© expressa a â€“ oposiÃ§Ã£o Ã s
- politicas econÃ³micas e sociais levadas
- a cabo pelo governo PSD/CDS
- ,",color=green];
-	466 [label="que afundam o paÃ­s
- , promovem a desigualdade ,
- a pobreza , a fome
- e a misÃ©ria .",color=blue];
-	599 [label="Salienta-se que hoje em Portugal â€“
- uma em cada trÃªs crianÃ§as
- vive em risco de pobreza
-",color=blue];
-	648 [label="No contexto
- social , politico e econÃ³mico
- em que nos encontramos em
- 2015 , comemoramos o 41Âº
- aniversÃ¡rio do 25 de Abril
- , conscientes das enormes dificuldades
- com que nos confrontamos",color=green];
-	616 [label="Ã© muito elevado o
- nÃºmero daquelas que chegam Ã 
- escola com fome .",color=blue];
-	648 [label="No contexto
- social , politico e econÃ³mico
- em que nos encontramos em
- 2015 , comemoramos o 41Âº
- aniversÃ¡rio do 25 de Abril
- , conscientes das enormes dificuldades
- com que nos confrontamos",color=green];
-	629 [label="O desemprego dos jovens atingiu os
- 35% e estÃ¡ a subir
- ininterruptamente desde Outubro de 2014
- , afirma-se .",color=blue];
-	648 [label="No contexto
- social , politico e econÃ³mico
- em que nos encontramos em
- 2015 , comemoramos o 41Âº
- aniversÃ¡rio do 25 de Abril
- , conscientes das enormes dificuldades
- com que nos confrontamos",color=green];
+	449 [label="é expressa
+ a – oposição às politicas
+ económicas e sociais levadas a
+ cabo pelo governo PSD/CDS ,
+",color=green];
+	394 [label="Refere-se que
+ – o ataque à Administração
+ Pública se contabiliza já no
+ despedimento de mais de 72.000
+ trabalhadores , no encerramento de
+ centenas de serviços públicos ,
+ no corte de salários ,
+ no aumento injusto e inaceitável
+ do horários de trabalho para
+ as 40 horas .",color=blue];
+	449 [label="é expressa
+ a – oposição às politicas
+ económicas e sociais levadas a
+ cabo pelo governo PSD/CDS ,
+",color=green];
+	449 [label="é expressa
+ a – oposição às politicas
+ económicas e sociais levadas a
+ cabo pelo governo PSD/CDS ,
+",color=green];
+	466 [label="que afundam o país ,
+ promovem a desigualdade , a
+ pobreza , a fome e
+ a miséria .",color=blue];
+	599 [label="Salienta-se que
+ hoje em Portugal – uma
+ em cada três crianças vive
+ em risco de pobreza",color=blue];
+	648 [label="No contexto social
+ , politico e económico em
+ que nos encontramos em 2015
+ , comemoramos o 41º aniversário
+ do 25 de Abril ,
+ conscientes das enormes dificuldades com
+ que nos confrontamos",color=green];
+	616 [label="é muito elevado o número
+ daquelas que chegam à escola
+ com fome .",color=blue];
+	648 [label="No contexto social
+ , politico e económico em
+ que nos encontramos em 2015
+ , comemoramos o 41º aniversário
+ do 25 de Abril ,
+ conscientes das enormes dificuldades com
+ que nos confrontamos",color=green];
+	629 [label="O desemprego
+ dos jovens atingiu os 35%
+ e está a subir ininterruptamente
+ desde Outubro de 2014 ,
+ afirma-se .",color=blue];
+	648 [label="No contexto social
+ , politico e económico em
+ que nos encontramos em 2015
+ , comemoramos o 41º aniversário
+ do 25 de Abril ,
+ conscientes das enormes dificuldades com
+ que nos confrontamos",color=green];
 }

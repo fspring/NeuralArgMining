@@ -1,9 +1,9 @@
 digraph G {
 	10 -> 0;
-	0 [label="Mas os pr√≥ximos dois meses
- ser√£o igualmente muito importantes",color=green];
-	10 [label="Merkel ter√° que demonstrar que
- recuperou a rela√ß√£o de m√∫tua
- compreens√£o com a maioria do
- eleitorado alem√£o",color=blue];
+	0 [label="Mas os prÛximos dois meses ser„o
+ igualmente muito importantes",color=green];
+	10 [label="Merkel ter· que demonstrar que recuperou
+ a relaÁ„o de m˙tua compreens„o
+ com a maioria do eleitorado
+ alem„o",color=blue];
 }

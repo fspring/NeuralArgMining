@@ -1,6 +1,7 @@
 digraph G {
 	9 -> 0;
-	0 [label="Mas afinal as eleiÃ§Ãµes presidenciais
- sÃ£o quase irrelevantes .",color=green];
-	9 [label="NinguÃ©m liga a campanha .",color=blue];
+	0 [label="Mas afinal as eleições presidenciais são
+ quase irrelevantes .",color=green];
+	9 [label="Ninguém liga
+ a campanha .",color=blue];
 }

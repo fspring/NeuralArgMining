@@ -1,9 +1,9 @@
 digraph G {
 	0 -> 89;
-	0 [label="A Mafalda Ribeiro n√£o √©
- uma coitadinha",color=blue];
-	89 [label="uma lutadora que chegou , por
- m√©rito pr√≥prio , ao p√≥dio
- dos vencedores da vida .
-",color=green];
+	0 [label="A Mafalda Ribeiro n„o È uma
+ coitadinha",color=blue];
+	89 [label="uma lutadora
+ que chegou , por mÈrito
+ prÛprio , ao pÛdio dos
+ vencedores da vida .",color=green];
 }

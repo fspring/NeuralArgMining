@@ -2,23 +2,24 @@ digraph G {
 	13 -> 0;
 	62 -> 77;
 	129 -> 119;
-	0 [label="A suspens√£o da descren√ßa",color=green];
-	13 [label="a suspeita
- de que este neo-despesismo n√£o
- corresponde a nenhuma pol√≠tica de
- justi√ßa social , mas √†
- simples necessidade de pagar ao
- PCP o seu apoio parlamentar
- , satisfazendo as suas clientelas
- sindicais",color=blue];
-	62 [label="Por enquanto ,
- as larguezas monet√°rias do BCE
- mant√™m os mercados anestesiados",color=blue];
-	77 [label="os mercados servem
- ainda √†s musas governamentais para
- se passarem a si pr√≥prias
- atestados de bom comportamento",color=green];
-	119 [label="Comiss√£o Europeia interfere nos nossos or√ßamentos
-",color=green];
-	129 [label="estamos no Euro",color=blue];
+	0 [label="A suspens„o da descrenÁa",color=green];
+	13 [label="a suspeita de
+ que este neo-despesismo n„o corresponde
+ a nenhuma polÌtica de justiÁa
+ social , mas ‡ simples
+ necessidade de pagar ao PCP
+ o seu apoio parlamentar ,
+ satisfazendo as suas clientelas sindicais
+",color=blue];
+	62 [label="Por enquanto , as
+ larguezas monet·rias do BCE mantÍm
+ os mercados anestesiados",color=blue];
+	77 [label="os mercados servem ainda
+ ‡s musas governamentais para se
+ passarem a si prÛprias atestados
+ de bom comportamento",color=green];
+	119 [label="Comiss„o Europeia
+ interfere nos nossos orÁamentos",color=green];
+	129 [label="estamos no
+ Euro",color=blue];
 }

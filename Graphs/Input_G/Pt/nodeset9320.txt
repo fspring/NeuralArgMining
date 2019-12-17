@@ -1,21 +1,21 @@
 digraph G {
 	0 -> 38;
-	0 [label="A mais de sete anos
- do estouro financeiro de 2008
- e do in√≠cio da grande
- recess√£o mundial do s√©culo XXI
- , a Europa exibe um
- novo mapa da pobreza que
- , segundo a organiza√ß√£o humanit√°ria
- Oxfam International",color=blue];
-	38 [label="pode levar
- 25 anos para ser revertido
- . As medidas de ajuste
- para equilibrar os mais de
- quatro trili√µes de euros gastos
- no resgate de bancos e
- Estados est√£o provocando uma explos√£o
- dos n√∫meros da pobreza e
- j√° n√£o s√≥ nos pa√≠ses
- do sul .",color=green];
+	0 [label="A mais de sete anos do
+ estouro financeiro de 2008 e
+ do inÌcio da grande recess„o
+ mundial do sÈculo XXI ,
+ a Europa exibe um novo
+ mapa da pobreza que ,
+ segundo a organizaÁ„o humanit·ria Oxfam
+ International",color=blue];
+	38 [label="pode levar 25
+ anos para ser revertido .
+ As medidas de ajuste para
+ equilibrar os mais de quatro
+ triliıes de euros gastos no
+ resgate de bancos e Estados
+ est„o provocando uma explos„o dos
+ n˙meros da pobreza e j·
+ n„o sÛ nos paÌses do
+ sul .",color=green];
 }

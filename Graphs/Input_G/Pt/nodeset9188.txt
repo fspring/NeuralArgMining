@@ -1,13 +1,14 @@
 digraph G {
 	72 -> 44;
-	44 [label="Em 2014 , a sa√≠da limpa
- foi anunciada e , com
- isso , o governo P√†F
- declarou o sucesso da sua
- pol√≠tica . Infelizmente , √©
- mentira .",color=green];
-	72 [label="Ao contr√°rio do
- que se apregoa , na
- pr√°tica estamos com um programa
- cautelar .",color=blue];
+	44 [label="Em 2014
+ , a saÌda limpa foi
+ anunciada e , com isso
+ , o governo P‡F declarou
+ o sucesso da sua polÌtica
+ . Infelizmente , È mentira
+ .",color=green];
+	72 [label="Ao contr·rio do que
+ se apregoa , na pr·tica
+ estamos com um programa cautelar
+ .",color=blue];
 }

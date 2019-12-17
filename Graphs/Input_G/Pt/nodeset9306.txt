@@ -1,15 +1,14 @@
 digraph G {
 	57 -> 71;
 	67 -> 71;
-	57 [label="ningu√©m que j√°
- fumou deixa absolutamente de ser
- fumador",color=blue];
-	71 [label="nunca se passa a
- n√£o-fumador , mas sim a
- ex-fumador",color=green];
-	67 [label="Dizem estes especialistas
+	57 [label="ninguÈm que j· fumou
+ deixa absolutamente de ser fumador
 ",color=blue];
-	71 [label="nunca se passa a
- n√£o-fumador , mas sim a
- ex-fumador",color=green];
+	71 [label="nunca se passa a n„o-fumador
+ , mas sim a ex-fumador
+",color=green];
+	67 [label="Dizem estes especialistas",color=blue];
+	71 [label="nunca se passa a n„o-fumador
+ , mas sim a ex-fumador
+",color=green];
 }

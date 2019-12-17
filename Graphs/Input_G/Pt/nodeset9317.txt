@@ -1,13 +1,12 @@
 digraph G {
 	15 -> 0;
-	0 [label="Nunca ser√° demais repetir que
- este √© um problema criado
- fundamentalmente pelo pr√≥prio Ocidente .
-",color=green];
-	15 [label="Foi a mistura ocidental de
- incita√ß√£o e de in√©rcia que
- arrastou a guerra na S√≠ria
- e encheu a Turquia e
- o L√≠bano de milh√µes de
- deslocados .",color=blue];
+	0 [label="Nunca ser· demais repetir que este
+ È um problema criado fundamentalmente
+ pelo prÛprio Ocidente .",color=green];
+	15 [label="Foi a mistura ocidental de incitaÁ„o
+ e de inÈrcia que arrastou
+ a guerra na SÌria e
+ encheu a Turquia e o
+ LÌbano de milhıes de deslocados
+ .",color=blue];
 }

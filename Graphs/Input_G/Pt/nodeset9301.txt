@@ -2,26 +2,26 @@ digraph G {
 	28 -> 33;
 	62 -> 70;
 	231 -> 259;
-	28 [label="O cigarro
- Ã©-lhes vital",color=blue];
-	33 [label="sempre os
- ajudou , sempre lhes deu
- resposta e fez a transiÃ§Ã£o
- entre momentos de tÃ©dio ,
- fases de inquietaÃ§Ã£o , perÃ­odos
- de inspiraÃ§Ã£o e tempos de
- alegria",color=green];
-	62 [label="Fumar , para
- estas e estes",color=blue];
-	70 [label="tÃ£o essencial como respirar .
+	28 [label="O cigarro é-lhes
+ vital",color=blue];
+	33 [label="sempre os ajudou
+ , sempre lhes deu resposta
+ e fez a transição entre
+ momentos de tédio , fases
+ de inquietação , períodos de
+ inspiração e tempos de alegria
 ",color=green];
-	231 [label="NÃ£o hÃ¡ advertÃªncia pela
- negativa que os contagie pela
- positiva . Dizem os grandes
- especialistas nacionais e internacionais ,
- que Ã© tambÃ©m aÃ­ que
- reside o problema",color=blue];
-	259 [label="Nenhum viciado gosta que lhe falem
- nos efeitos nefastos do seu
- vÃ­cio",color=green];
+	62 [label="Fumar , para estas
+ e estes",color=blue];
+	70 [label="tão essencial como respirar .",color=green];
+	231 [label="Não há advertência pela negativa
+ que os contagie pela positiva
+ . Dizem os grandes especialistas
+ nacionais e internacionais , que
+ é também aí que reside
+ o problema",color=blue];
+	259 [label="Nenhum viciado
+ gosta que lhe falem nos
+ efeitos nefastos do seu vício
+",color=green];
 }

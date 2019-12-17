@@ -1,12 +1,12 @@
 digraph G {
 	40 -> 166;
-	40 [label="Pela raz√£o elementar de que
- n√£o √© razo√°vel colocar tantos
- candidatos ao mesmo tempo e
- de valia t√£o diferente a
- debater o que quer que
- seja",color=blue];
-	166 [label="N√£o nos podemos depois
- surpreender com o aumento dos
- n√≠veis de absten√ß√£o",color=green];
+	40 [label="Pela raz„o elementar de que n„o
+ È razo·vel colocar tantos candidatos
+ ao mesmo tempo e de
+ valia t„o diferente a debater
+ o que quer que seja
+",color=blue];
+	166 [label="N„o nos podemos depois surpreender
+ com o aumento dos nÌveis
+ de abstenÁ„o",color=green];
 }

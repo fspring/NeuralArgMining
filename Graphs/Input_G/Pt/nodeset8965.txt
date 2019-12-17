@@ -1,15 +1,15 @@
 digraph G {
 	18 -> 62;
-	18 [label="At√© ao
- fim do Ver√£o passado ,
- a Chanceler alem√£ gozava de
- uma posi√ß√£o invej√°vel . Era
- de longe a pol√≠tica mais
- popular do seu pa√≠s e
- o seu partido , a
- CDU , liderava nas sondagens
- com uma grande margem de
- avan√ßo .",color=blue];
-	62 [label="A situa√ß√£o alterou-se
- .",color=green];
+	18 [label="AtÈ ao fim
+ do Ver„o passado , a
+ Chanceler alem„ gozava de uma
+ posiÁ„o invej·vel . Era de
+ longe a polÌtica mais popular
+ do seu paÌs e o
+ seu partido , a CDU
+ , liderava nas sondagens com
+ uma grande margem de avanÁo
+ .",color=blue];
+	62 [label="A situaÁ„o alterou-se .
+",color=green];
 }

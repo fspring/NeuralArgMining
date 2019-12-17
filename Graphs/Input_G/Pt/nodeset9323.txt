@@ -1,26 +1,26 @@
 digraph G {
 	7 -> 48;
 	16 -> 48;
-	7 [label="Se n√£o se
- reverterem rapidamente as actuais pol√≠ticas
- ,",color=blue];
-	48 [label="a Europa
- n√£o tem futuro e ser√°
- apenas parte integrante de um
- mundo que est√° a globalizar
- a pobreza e da√≠ a
- barb√°rie !",color=green];
-	16 [label="insistindo numa austeridade castradora
- de qualquer processo de desenvolvimento
- sustentado , tendo apenas como
- prioridade pol√≠tica a estabilidade de
- um sistema financeiro minado de
- trafulhices , provocando custos sociais
- elevad√≠ssimos",color=blue];
-	48 [label="a Europa
- n√£o tem futuro e ser√°
- apenas parte integrante de um
- mundo que est√° a globalizar
- a pobreza e da√≠ a
- barb√°rie !",color=green];
+	7 [label="Se n„o se reverterem
+ rapidamente as actuais polÌticas ,
+",color=blue];
+	48 [label="a Europa n„o
+ tem futuro e ser· apenas
+ parte integrante de um mundo
+ que est· a globalizar a
+ pobreza e daÌ a barb·rie
+ !",color=green];
+	16 [label="insistindo numa austeridade castradora de
+ qualquer processo de desenvolvimento sustentado
+ , tendo apenas como prioridade
+ polÌtica a estabilidade de um
+ sistema financeiro minado de trafulhices
+ , provocando custos sociais elevadÌssimos
+",color=blue];
+	48 [label="a Europa n„o
+ tem futuro e ser· apenas
+ parte integrante de um mundo
+ que est· a globalizar a
+ pobreza e daÌ a barb·rie
+ !",color=green];
 }

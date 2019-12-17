@@ -1,10 +1,10 @@
 digraph G {
 	82 -> 105;
-	82 [label="Os algarismos baixos
- que hoje , ao fim
- de quatro dÃ©cadas , aferem
- o seu Ã­ndice de popularidade
- ,",color=blue];
-	105 [label="um bom Ã¡libi para os
- detractores e maledicentes",color=green];
+	82 [label="Os algarismos baixos que
+ hoje , ao fim de
+ quatro décadas , aferem o
+ seu índice de popularidade ,
+",color=blue];
+	105 [label="um bom álibi para os detractores
+ e maledicentes",color=green];
 }

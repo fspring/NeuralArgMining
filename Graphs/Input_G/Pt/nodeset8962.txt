@@ -3,32 +3,32 @@ digraph G {
 	87 -> 177;
 	110 -> 104;
 	191 -> 177;
-	0 [label="A Uni√£o Europeia de 2016
- j√° n√£o √© a de
- 2011 .",color=blue];
-	177 [label="Seria da mais
- elementar prud√™ncia n√£o voltar a
- precisar de lhe pedir dinheiro
- .",color=green];
-	87 [label="A Gr√©cia ,
- o ano passado , testou
- os limites da toler√¢ncia dos
- outros contribuintes europeus .",color=blue];
-	177 [label="Seria da mais
- elementar prud√™ncia n√£o voltar a
- precisar de lhe pedir dinheiro
- .",color=green];
-	104 [label="Desde ent√£o , tudo piorou .
+	0 [label="A Uni„o Europeia de 2016 j·
+ n„o È a de 2011
+ .",color=blue];
+	177 [label="Seria da mais elementar
+ prudÍncia n„o voltar a precisar
+ de lhe pedir dinheiro .
 ",color=green];
-	110 [label="O fluxo de migrantes agravou
- o peso do euroceptismo nos
- governos .",color=blue];
-	177 [label="Seria da mais
- elementar prud√™ncia n√£o voltar a
- precisar de lhe pedir dinheiro
- .",color=green];
-	191 [label="√â que nos arriscamos
- a descobrir que desta vez
- talvez ningu√©m se queira ingerir
- na nossa vida .",color=blue];
+	87 [label="A GrÈcia , o
+ ano passado , testou os
+ limites da toler‚ncia dos outros
+ contribuintes europeus .",color=blue];
+	177 [label="Seria da mais elementar
+ prudÍncia n„o voltar a precisar
+ de lhe pedir dinheiro .
+",color=green];
+	104 [label="Desde ent„o
+ , tudo piorou .",color=green];
+	110 [label="O fluxo de migrantes agravou o
+ peso do euroceptismo nos governos
+ .",color=blue];
+	177 [label="Seria da mais elementar
+ prudÍncia n„o voltar a precisar
+ de lhe pedir dinheiro .
+",color=green];
+	191 [label="… que nos arriscamos a
+ descobrir que desta vez talvez
+ ninguÈm se queira ingerir na
+ nossa vida .",color=blue];
 }

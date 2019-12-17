@@ -1,18 +1,18 @@
 digraph G {
 	87 -> 126;
-	87 [label="Em breve ,
- os avan√ßos nesta √°rea permitir√£o
- regenerar corretamente qualquer tipo de
- c√©lula do nosso organismo a
- partir , por exemplo ,
- de uma c√©lula nossa da
- pele , alterando de forma
- direcionada a sua programa√ß√£o gen√©tica
- .",color=blue];
-	126 [label="Assim , talvez no
- futuro aquelas c√©lulas estaminais do
- cord√£o umbilical , que congelamos
- aquando do nascimento dos nossos
- filhos , venham a ter
- plena utilidade ;",color=green];
+	87 [label="Em breve , os
+ avanÁos nesta ·rea permitir„o regenerar
+ corretamente qualquer tipo de cÈlula
+ do nosso organismo a partir
+ , por exemplo , de
+ uma cÈlula nossa da pele
+ , alterando de forma direcionada
+ a sua programaÁ„o genÈtica .
+",color=blue];
+	126 [label="Assim , talvez no futuro
+ aquelas cÈlulas estaminais do cord„o
+ umbilical , que congelamos aquando
+ do nascimento dos nossos filhos
+ , venham a ter plena
+ utilidade ;",color=green];
 }

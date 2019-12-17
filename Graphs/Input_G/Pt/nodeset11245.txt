@@ -1,10 +1,11 @@
 digraph G {
 	1 -> 34;
-	1 [label="as suas dores constantes
- ? Surpreendentemente , para Mafalda
- s√£o apenas um detalhe",color=blue];
-	34 [label="Deus lhe deu , como reconhece
- , uma capacidade fant√°stica de
- se conseguir esquecer de todas
- as coisas m√°s",color=green];
+	1 [label="as suas dores constantes ?
+ Surpreendentemente , para Mafalda s„o
+ apenas um detalhe",color=blue];
+	34 [label="Deus lhe
+ deu , como reconhece ,
+ uma capacidade fant·stica de se
+ conseguir esquecer de todas as
+ coisas m·s",color=green];
 }

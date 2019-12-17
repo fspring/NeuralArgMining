@@ -1,15 +1,15 @@
 digraph G {
 	122 -> 142;
-	122 [label="O confisco da
- Dinamarca , a expuls√£o da
- Su√©cia , a priva√ß√£o da
- nacionalidade em Fran√ßa",color=blue];
-	142 [label="a Europa de
- 2010 e de 2011 ,
- que votou milh√µes de euros
- de aux√≠lio √† Gr√©cia ,
- √† Irlanda , a Chipre
- , √† Espanha e a
- Portugal , talvez j√° n√£o
- exista",color=green];
+	122 [label="O confisco da Dinamarca
+ , a expuls„o da SuÈcia
+ , a privaÁ„o da nacionalidade
+ em FranÁa",color=blue];
+	142 [label="a Europa de 2010
+ e de 2011 , que
+ votou milhıes de euros de
+ auxÌlio ‡ GrÈcia , ‡
+ Irlanda , a Chipre ,
+ ‡ Espanha e a Portugal
+ , talvez j· n„o exista
+",color=green];
 }

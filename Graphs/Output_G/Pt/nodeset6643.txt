@@ -1,19 +1,19 @@
 digraph G {
 	64 -> 0;
-	0 [label="a tecnolÃ³gica norte-americana google estabeleceu um
- acordo de 150 milhÃµes de
+	0 [label="a tecnológica norte-americana google estabeleceu um
+ acordo de 150 milhões de
  euros com oito editores de
  media europeus no sentido de
  promover jornalismo de alta qualidade
- atravÃ©s da tecnologia e inovaÃ§Ã£o
+ através da tecnologia e inovação
  , foi hoje anunciado .
 ",color=green];
 	64 [label="a google
  sempre quis ser uma amiga
- e parceira da indÃºstria de
- notÃ­cias , diz , citado
- pela agÃªncia france-presse , o
- responsÃ¡vel da empresa pelas parcerias
- estratÃ©gicas na europa , carlo
+ e parceira da indústria de
+ notícias , diz , citado
+ pela agência france-presse , o
+ responsável da empresa pelas parcerias
+ estratégicas na europa , carlo
  dasaro biondo .",color=blue];
 }

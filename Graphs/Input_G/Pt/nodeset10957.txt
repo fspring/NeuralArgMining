@@ -1,9 +1,8 @@
 digraph G {
 	0 -> 26;
-	0 [label="A divulgaÃ§Ã£o do EsboÃ§o do
- OrÃ§amento do Estado para este
- ano",color=blue];
-	26 [label="o anÃºncio do fim
- da austeridade foi manifestamente exagerado
-",color=green];
+	0 [label="A divulgação do Esboço do Orçamento
+ do Estado para este ano
+",color=blue];
+	26 [label="o anúncio do fim da
+ austeridade foi manifestamente exagerado",color=green];
 }

@@ -1,8 +1,8 @@
 digraph G {
 	251 -> 242;
-	242 [label="Desconhecemos o conte√∫do
- da referida sauda√ß√£o",color=green];
-	251 [label="a mesma n√£o foi
- divulgada aos √≥rg√£os de comunica√ß√£o
- social",color=blue];
+	242 [label="Desconhecemos o conte˙do da
+ referida saudaÁ„o",color=green];
+	251 [label="a mesma n„o foi divulgada
+ aos Ûrg„os de comunicaÁ„o social
+",color=blue];
 }

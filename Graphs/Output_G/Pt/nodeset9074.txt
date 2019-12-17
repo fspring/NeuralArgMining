@@ -2,8 +2,8 @@ digraph G {
 	0 -> 38;
 	0 [label="a mais de sete anos do
  estouro financeiro de 2008 e
- do in√≠cio da grande recess√£o
- mundial do s√©culo xxi ,
+ do inÌcio da grande recess„o
+ mundial do sÈculo xxi ,
  a europa exibe um novo
  mapa da pobreza que ,
 ",color=blue];

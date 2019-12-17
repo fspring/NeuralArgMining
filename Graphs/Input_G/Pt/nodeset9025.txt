@@ -1,11 +1,11 @@
 digraph G {
 	70 -> 50;
-	50 [label="Quando nenhum destes requisitos se
- verifica , a nossa situaÃ§Ã£o
- nÃ£o Ã© muito diferente da
- do criminoso inepto",color=green];
-	70 [label="apesar das suas intenÃ§Ãµes e
- da sua vontade , nÃ£o
- conseguiu fazer mal a ninguÃ©m
- .",color=blue];
+	50 [label="Quando nenhum destes requisitos se verifica
+ , a nossa situação não
+ é muito diferente da do
+ criminoso inepto",color=green];
+	70 [label="apesar das suas intenções e da
+ sua vontade , não conseguiu
+ fazer mal a ninguém .
+",color=blue];
 }

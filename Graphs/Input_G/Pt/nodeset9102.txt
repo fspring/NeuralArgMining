@@ -1,26 +1,25 @@
 digraph G {
 	45 -> 67;
 	152 -> 166;
-	45 [label="n√£o √© razo√°vel colocar tantos
- candidatos ao mesmo tempo e
- de valia t√£o diferente a
- debater o que quer que
- seja",color=blue];
-	67 [label="O resultado ficou
- √† vista de todos :
- como espect√°culo televisivo foi aflitivo
- de ver , at√© pela
- baixeza das picardias ; e
- como hip√≥tese de esclarecimento ‚Äì
- era essa a justifica√ß√£o do
- canal p√∫blico para esta infeliz
- iniciativa ‚Äì foi simplesmente um
- insuport√°vel desastre",color=green];
-	152 [label="nada at√© agora
- tinha ainda atingido o n√≠vel
- do ser√£o televisivo de ter√ßa-feira
+	45 [label="n„o È razo·vel colocar tantos candidatos
+ ao mesmo tempo e de
+ valia t„o diferente a debater
+ o que quer que seja
 ",color=blue];
-	166 [label="N√£o nos podemos depois
- surpreender com o aumento dos
- n√≠veis de absten√ß√£o",color=green];
+	67 [label="O resultado ficou ‡
+ vista de todos : como
+ espect·culo televisivo foi aflitivo de
+ ver , atÈ pela baixeza
+ das picardias ; e como
+ hipÛtese de esclarecimento ñ era
+ essa a justificaÁ„o do canal
+ p˙blico para esta infeliz iniciativa
+ ñ foi simplesmente um insuport·vel
+ desastre",color=green];
+	152 [label="nada atÈ agora tinha
+ ainda atingido o nÌvel do
+ ser„o televisivo de terÁa-feira",color=blue];
+	166 [label="N„o nos podemos depois surpreender
+ com o aumento dos nÌveis
+ de abstenÁ„o",color=green];
 }

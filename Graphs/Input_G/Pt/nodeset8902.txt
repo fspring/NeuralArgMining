@@ -1,16 +1,17 @@
 digraph G {
 	8 -> 0;
 	44 -> 27;
-	0 [label="A narrativa or√ßamental do governo
- n√£o pegou .",color=green];
-	8 [label="Pouca gente
- parece disposta √† suspens√£o da
- descren√ßa",color=blue];
-	27 [label="M√°rio Centeno devia
- ter lido menos J .M
- . Keynes e mais H
- .P . Lovecraft .",color=green];
-	44 [label="Algures , Lovecraft explica que no
- g√©nero fant√°stico √© um erro
- exagerar na fantasia .",color=blue];
+	0 [label="A narrativa orÁamental do governo n„o
+ pegou .",color=green];
+	8 [label="Pouca gente parece
+ disposta ‡ suspens„o da descrenÁa
+",color=blue];
+	27 [label="M·rio Centeno devia ter
+ lido menos J .M .
+ Keynes e mais H .P
+ . Lovecraft .",color=green];
+	44 [label="Algures ,
+ Lovecraft explica que no gÈnero
+ fant·stico È um erro exagerar
+ na fantasia .",color=blue];
 }

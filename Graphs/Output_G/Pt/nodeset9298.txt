@@ -1,7 +1,7 @@
 digraph G {
 	0 -> 38;
 	0 [label="qualquer",color=blue];
-	38 [label="a mera inten√ß√£o
- de cometer um crime n√£o
+	38 [label="a mera intenÁ„o
+ de cometer um crime n„o
  conta como crime .",color=green];
 }

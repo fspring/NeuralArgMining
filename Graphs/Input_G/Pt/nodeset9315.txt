@@ -1,10 +1,10 @@
 digraph G {
 	0 -> 20;
-	0 [label="Eu acho que o ministro
- interrompeu a meio do ano
- um processo que estava montado
- com outro objetivo .",color=blue];
-	20 [label="estragou tudo : estragou o
- anterior e estragou o futuro
- .",color=green];
+	0 [label="Eu acho que o ministro interrompeu
+ a meio do ano um
+ processo que estava montado com
+ outro objetivo .",color=blue];
+	20 [label="estragou tudo : estragou o anterior
+ e estragou o futuro .
+",color=green];
 }

@@ -2,19 +2,19 @@ digraph G {
 	31 -> 54;
 	115 -> 107;
 	31 [label="dispensou as notabilidades que aproveitam
- estas ocasi√µes para aparecer na
- fotografia , n√£o deu trabalho
- aos especialistas em dar li√ß√µes
+ estas ocasiıes para aparecer na
+ fotografia , n„o deu trabalho
+ aos especialistas em dar liÁıes
  aos candidatos .",color=blue];
 	54 [label="marcelo rebelo
- de sousa √© mesmo um
+ de sousa È mesmo um
  candidato livre e independente ,
- e √© disso que os
- oligarcas n√£o gostam .",color=green];
-	107 [label="a mat√©ria da acusa√ß√£o
- √© indiferente",color=green];
-	115 [label="a quest√£o √© a mesma :
- ele n√£o precisa deles ,
- e eles n√£o lhe perdoam
+ e È disso que os
+ oligarcas n„o gostam .",color=green];
+	107 [label="a matÈria da acusaÁ„o
+ È indiferente",color=green];
+	115 [label="a quest„o È a mesma :
+ ele n„o precisa deles ,
+ e eles n„o lhe perdoam
 ",color=blue];
 }

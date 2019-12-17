@@ -1,9 +1,9 @@
 digraph G {
 	27 -> 16;
-	16 [label="E para quem estiver
- interessado , a not√≠cia √©
- desalentadora :",color=green];
-	27 [label="ele n√£o tem
- nenhuma inten√ß√£o de mudar o
- cen√°rio .",color=blue];
+	16 [label="E para quem estiver interessado
+ , a notÌcia È desalentadora
+ :",color=green];
+	27 [label="ele n„o tem nenhuma
+ intenÁ„o de mudar o cen·rio
+ .",color=blue];
 }

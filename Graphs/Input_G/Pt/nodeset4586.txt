@@ -1,9 +1,9 @@
 digraph G {
 	15 -> 38;
-	15 [label="O ainda presidente do governo
- regional gritou N√£o Pagamos",color=blue];
-	38 [label="Alberto Jo√£o
- Jardim aconselhou o seu sucessor
- a n√£o se vergar ao
- Governo de Lisboa .",color=green];
+	15 [label="O ainda presidente do governo regional
+ gritou N„o Pagamos",color=blue];
+	38 [label="Alberto Jo„o Jardim
+ aconselhou o seu sucessor a
+ n„o se vergar ao Governo
+ de Lisboa .",color=green];
 }

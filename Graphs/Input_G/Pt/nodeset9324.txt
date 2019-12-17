@@ -1,14 +1,14 @@
 digraph G {
 	0 -> 10;
 	18 -> 10;
-	0 [label="A crise dos refugiados na
- Alemanha e na Europa",color=blue];
-	10 [label="acabar com o consulado pol√≠tico
- de Merkel",color=green];
-	10 [label="acabar com o consulado pol√≠tico
- de Merkel",color=green];
-	18 [label="At√© ao
- fim do Ver√£o passado ,
- a Chanceler alem√£ gozava de
- uma posi√ß√£o invej√°vel .",color=blue];
+	0 [label="A crise dos refugiados na Alemanha
+ e na Europa",color=blue];
+	10 [label="acabar com o consulado polÌtico de
+ Merkel",color=green];
+	10 [label="acabar com o consulado polÌtico de
+ Merkel",color=green];
+	18 [label="AtÈ ao fim
+ do Ver„o passado , a
+ Chanceler alem„ gozava de uma
+ posiÁ„o invej·vel .",color=blue];
 }

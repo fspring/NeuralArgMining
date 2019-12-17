@@ -1,23 +1,24 @@
 digraph G {
 	16 -> 26;
 	79 -> 62;
-	16 [label="Como t√™m tanto medo
- de um como de outro
- ,",color=blue];
-	26 [label="perpetuam o impasse por
- n√£o conseguirem decidir qual dos
- dois travar primeiro .",color=green];
-	62 [label="consegue taxas de
- sucesso fant√°sticas por fazer uma
- abordagem diferente aos que pretendem
- deixar de fumar :",color=green];
-	79 [label="em vez de sublinhar a possibilidade
- de cancros e outras doen√ßas
- terr√≠veis , refor√ßa as extraordin√°rias
- conquistas dos que cortam com
- o tabaco , nomeadamente na
- rela√ß√£o consigo mesmos , em
- campos de intimidade e profundidade
- a que normalmente outros n√£o
- chegam .",color=blue];
+	16 [label="Como tÍm tanto medo de
+ um como de outro ,
+",color=blue];
+	26 [label="perpetuam o impasse por n„o
+ conseguirem decidir qual dos dois
+ travar primeiro .",color=green];
+	62 [label="consegue taxas de sucesso
+ fant·sticas por fazer uma abordagem
+ diferente aos que pretendem deixar
+ de fumar :",color=green];
+	79 [label="em vez
+ de sublinhar a possibilidade de
+ cancros e outras doenÁas terrÌveis
+ , reforÁa as extraordin·rias conquistas
+ dos que cortam com o
+ tabaco , nomeadamente na relaÁ„o
+ consigo mesmos , em campos
+ de intimidade e profundidade a
+ que normalmente outros n„o chegam
+ .",color=blue];
 }

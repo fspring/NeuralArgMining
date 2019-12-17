@@ -1,8 +1,9 @@
 digraph G {
 	1 -> 9;
-	1 [label="h√° algo que Mafalda
- sofre com dificuldade",color=blue];
-	9 [label="a falsa compaix√£o dos que ,
- para aliviar a sua situa√ß√£o
- , quereriam elimin√°-la",color=green];
+	1 [label="h· algo que Mafalda sofre
+ com dificuldade",color=blue];
+	9 [label="a falsa
+ compaix„o dos que , para
+ aliviar a sua situaÁ„o ,
+ quereriam elimin·-la",color=green];
 }

@@ -1,13 +1,13 @@
 digraph G {
 	17 -> 0;
-	0 [label="J√° se percebeu que a
- distribui√ß√£o dos refugiados pelos Estados
- membros da Uni√£o Europeia n√£o
- funciona .",color=green];
-	17 [label="N√£o s√≥ muitos
- desses pa√≠ses , sob press√£o
- das opini√µes p√∫blicas internas ,
- n√£o aceitam essa solu√ß√£o ,
- como os pr√≥prios refugiados tamb√©m
- n√£o a querem .",color=blue];
+	0 [label="J· se percebeu que a distribuiÁ„o
+ dos refugiados pelos Estados membros
+ da Uni„o Europeia n„o funciona
+ .",color=green];
+	17 [label="N„o sÛ muitos desses
+ paÌses , sob press„o das
+ opiniıes p˙blicas internas , n„o
+ aceitam essa soluÁ„o , como
+ os prÛprios refugiados tambÈm n„o
+ a querem .",color=blue];
 }

@@ -1,9 +1,8 @@
 digraph G {
 	26 -> 16;
-	16 [label="2016 serÃ¡ decisivo para
- o futuro polÃ­tico de Merkel
-",color=green];
-	26 [label="Durante este ano ,
- haverÃ¡ cinco eleiÃ§Ãµes regionais nos
- Lander",color=blue];
+	16 [label="2016 será decisivo para o
+ futuro político de Merkel",color=green];
+	26 [label="Durante este ano , haverá
+ cinco eleições regionais nos Lander
+",color=blue];
 }

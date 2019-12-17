@@ -1,8 +1,8 @@
 digraph G {
 	15 -> 0;
-	0 [label="h√° quem comece a defender uma
+	0 [label="h· quem comece a defender uma
  alternativa , sobretudo na alemanha
- e na √°ustria :",color=green];
+ e na ·ustria :",color=green];
 	15 [label="o fecho das fronteiras dos dois
- pa√≠ses com o sul",color=blue];
+ paÌses com o sul",color=blue];
 }
