@@ -7,3 +7,4 @@ Dumps/
 Graphs/Images/
 requirements.txt
 tag_check.py
+*_debug.*

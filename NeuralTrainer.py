@@ -373,10 +373,12 @@ class NeuralTrainer:
         print('=========== CORRECTING ===========') #debug
         f = open('correction_debug.txt', 'w')
         for i in range(0, len(dist_pred)):
+            f.write(u'i: ' + str(i) + '\n')
             is_premise = False
             is_claim = False
             text_size = len(np.trim_zeros(unencodedY[i]))
             for j in range(0, text_size): #ensure dist points to first token in arg comp or zero
+                f.write(u'orig: ' + str(arg_pred[i][j]) + '\t' + str(dist_pred[i][j]) + '\n')
                 src_arg = np.argmax(arg_pred[i][j])
                 pred_dist = int(round(dist_pred[i][j][0]))
                 if src_arg == 1: #non-arg
@@ -394,9 +396,9 @@ class NeuralTrainer:
                         dist_pred[i][j][0] = 0
                         continue
                     tgt_index = j + pred_dist
-                    # if (tgt_index >= text_size) or (np.argmax(arg_pred[i][tgt_index]) != 3):
-                    #     dist_pred[i][j][0] = 0 #does not point to claim
-                    #     continue
+                    if tgt_index >= text_size:
+                        dist_pred[i][j][0] = 0 #points outside of text
+                        continue
                     while np.argmax(arg_pred[i][tgt_index]) != 3: #not first claim token
                         tgt_index -= 1
                         if tgt_index == j: #does not point to claim
@@ -409,15 +411,17 @@ class NeuralTrainer:
                         dist_pred[i][j][0] = 0
                         continue
                     tgt_index = j + pred_dist
-                    # if (tgt_index >= text_size) or (np.argmax(arg_pred[i][tgt_index]) != 0):
-                    #     dist_pred[i][j][0] = 0 #does not point to premise
-                    #     continue
+                    if tgt_index >= text_size:
+                        dist_pred[i][j][0] = 0 #points outside of text
+                        continue
                     while np.argmax(arg_pred[i][tgt_index]) != 2: #not first premise token
                         tgt_index -= 1
                         if tgt_index == j: #does not point to claim
                             break
                     dist_pred[i][j][0] = tgt_index - j
-            f.write(u'i: ' + str(i) + ' - phase 1: ' + str(dist_pred[i]) + '\n')
+                f.write(u'phase 1: ' + str(arg_pred[i][j]) + '\t' + str(dist_pred[i][j]) + '\n')
+
+            # f.write(u'i: ' + str(i) + ' - phase 1: ' + str(dist_pred[i]) + '\n')
             k = 0
             while k < text_size: #ensure uniformity: all tokens in src arg comp point to same tgt token
                 src_orig = k
@@ -460,13 +464,12 @@ class NeuralTrainer:
                     if 'none' in most_freq:
                         most_freq = [0]
                     else:
-                        for i in range(0, len(most_freq)):
-                            most_freq[i] = int(most_freq[i])
+                        for n in range(0, len(most_freq)):
+                            most_freq[n] = int(most_freq[n])
                         most_freq = [min(most_freq)] #decides closest
                 if most_freq[0] == 'none' or most_freq[0] == 0:
                     for l in range(src_orig, k):
                         dist_pred[i][l] = [0]
-                        continue
                 else:
                     for l in range(src_orig, k):
                         dist_pred[i][l] = most_freq
@@ -484,19 +487,19 @@ class NeuralTrainer:
         y_train = [y_train_class,y_train_dist]
         self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
 
-        # layer = self.model.get_layer('crf_layer')
-        # weights = layer.get_weights()
-        # gen_matrix = weights[1]
-        #
+        layer = self.model.get_layer('crf_layer')
+        weights = layer.get_weights()
+        gen_matrix = weights[1]
+
         # print('before:', gen_matrix) #debug
-        #
-        # for i in range(0, self.num_tags):
-        #     for j in range(0, self.num_tags):
-        #         if self.transition_matrix[i][j] == 1:
-        #             gen_matrix[i][j] = 1
-        #
+
+        for i in range(0, self.num_tags):
+            for j in range(0, self.num_tags):
+                if self.transition_matrix[i][j] == 1:
+                    gen_matrix[i][j] = 1
+
         # print('after:', gen_matrix) #debug
-        # weights[1] = gen_matrix
+        weights[1] = gen_matrix
 
         self.model.get_layer('crf_layer').set_weights(weights)
         # print('check:', self.model.get_layer('crf_layer').get_weights()[1]) #debug
