@@ -1,6 +1,6 @@
 import numpy as np
 ## for each premise find closest claim ahead
-def predict_baseline_distances_claim(self, pred_tags):
+def predict_baseline_distances_claim(pred_tags):
     pred_dists = []
     for i in range(0, len(pred_tags)):
         is_premise = False
@@ -33,10 +33,10 @@ def predict_baseline_distances_claim(self, pred_tags):
 
             file_dists.append([dist])
         pred_dists.append(file_dists)
-    return pred_dists
+    return (pred_tags, pred_dists)
 
 ## for each premise find closest arg_component ahead
-def predict_baseline_distances_next(self, pred_tags):
+def predict_baseline_distances_next(pred_tags):
     pred_dists = []
     for i in range(0, len(pred_tags)):
         file_dists = []
@@ -61,7 +61,7 @@ def predict_baseline_distances_next(self, pred_tags):
     return pred_dists
 
 ## for each premise find closest claim ahead and for each claim find closest premise ahead
-def predict_baseline_distances_all_next(self, pred_tags):
+def predict_baseline_distances_all_next(pred_tags):
     pred_dists = []
     for i in range(0, len(pred_tags)):
         file_dists = []

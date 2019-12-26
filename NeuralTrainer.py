@@ -8,8 +8,6 @@ import PostProcessing as pp
 
 from sklearn.model_selection import KFold
 
-from sklearn.metrics import precision_recall_fscore_support
-from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_absolute_error
 
 import keras
@@ -79,6 +77,7 @@ class NeuralTrainer:
         self.set_transition_matrix()
         num_measures = 1 + 3*(num_tags - 2)
         self.evaluator = ev.Evaluator(self.num_tags, num_measures, self.tags)
+        self.postprocessing = pp.PostProcessing(self.num_tags, self.tags)
 
     def read_tag_mapping(self):
         f = open('tag_mapping.txt', 'r', encoding='utf-8')
@@ -223,18 +222,29 @@ class NeuralTrainer:
 
         (y_pred_class, b_pred_dist) = rb.predict_baseline_distances_claim(y_pred_class)
 
-        os.makedirs(self.dumpPath + '_baseline')
-        self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
+        if len(y_pred_class) != len(b_pred_dist):
+            print('not same nr files')
+        else:
+            for i in range(0, len(y_pred_class)):
+                if len(y_pred_class[i]) != len(b_pred_dist[i]):
+                    print(i, 'not same file length')
 
-        spanEvalAt1 = self.evaluator.spanEval(y_pred_class, unencodedY, 1.0)
-        spanEvalAt075 = self.evaluator.spanEval(y_pred_class, unencodedY, 0.75)
-        spanEvalAt050 = self.evaluator.spanEval(y_pred_class, unencodedY, 0.50)
-        tagEval = self.evaluator.tagEval(y_pred_class, unencodedY)
+        if not os.path.exists(self.dumpPath + '_baseline'):
+            os.makedirs(self.dumpPath + '_baseline')
+        self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
+        
+        (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
+
+        spanEvalAt1 = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
+        spanEvalAt075 = self.evaluator.spanEval(pred_spans, true_spans, 0.75)
+        spanEvalAt050 = self.evaluator.spanEval(pred_spans, true_spans, 0.50)
+        tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
         print('------- Distances Baseline -------')
         dist_eval = self.evaluator.dist_eval(b_pred_dist, y_test_dist, y_test_class, unencodedY)
 
         return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
+    
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
 
@@ -270,14 +280,16 @@ class NeuralTrainer:
             os.makedirs(self.dumpPath + '_BCorr')
         self.write_evaluated_tests_to_file(x_test, y_pred_class, y_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_BCorr')
 
-        (y_pred_class, c_pred_dist) = pp.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
+        (y_pred_class, c_pred_dist) = self.postprocessing.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
 
         self.write_evaluated_tests_to_file(x_test, y_pred_class, c_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath)
 
-        spanEvalAt1 = self.evaluator.spanEval(y_pred_class, unencodedY, 1.0)
-        spanEvalAt075 = self.evaluator.spanEval(y_pred_class, unencodedY, 0.75)
-        spanEvalAt050 = self.evaluator.spanEval(y_pred_class, unencodedY, 0.50)
-        tagEval = self.evaluator.tagEval(y_pred_class, unencodedY)
+        (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
+
+        spanEvalAt1 = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
+        spanEvalAt075 = self.evaluator.spanEval(pred_spans, true_spans, 0.75)
+        spanEvalAt050 = self.evaluator.spanEval(pred_spans, true_spans, 0.50)
+        tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
         print('------- Distances from model -------')
         dist_eval = self.evaluator.dist_eval(c_pred_dist, y_test_dist, y_test_class, unencodedY)
@@ -334,8 +346,8 @@ class NeuralTrainer:
             Y_test_dist = np.array(Y_test_dist)
             unencoded_Y = np.array(unencoded_Y)
 
-            scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
-            # scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            # scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             cvscores = self.evaluator.handleScores(cvscores, scores[0], n_folds)
             csv_entries_dist = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries_dist)
             foldNumber += 1
