@@ -202,12 +202,14 @@ class NeuralTrainer:
 
         # self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
-    def create_baseline_model(self):
+    def create_baseline_model(self, type):
         input = Input(shape=(self.maxlen,))
 
         biLSTM_tensor = self.create_biLSTM(input)
-        crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
-        # crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
+        if type == 'dual':
+            crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
+        else:
+            crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
 
         self.model = Model(input=input, output=crf_tensor)
         # print(self.model.summary()) #debug

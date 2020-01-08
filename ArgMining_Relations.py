@@ -127,13 +127,13 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath, mo
     # print('model_type:', model_type) #debug
     trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
     if model_type == 'baseline':
-        trainer.create_baseline_model()
+        trainer.create_baseline_model('baseline')
     elif model_type == 'crf_dist':
         trainer.create_model()
     elif model_type == 'dual':
         baseline_trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
         baseline_trainer.save_weights = True
-        baseline_trainer.create_baseline_model()
+        baseline_trainer.create_baseline_model('dual')
         baseline_trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, 'baseline')
         trainer.save_weights = True
         trainer.create_model()
