@@ -1,8 +1,21 @@
 digraph G {
+	77 -> 37;
 	77 -> 64;
-	208 -> 267;
-	231 -> 267;
-	309 -> 351;
+	77 -> 209;
+	109 -> 209;
+	137 -> 209;
+	179 -> 161;
+	179 -> 209;
+	37 [label="no one else is
+ better than our parents in
+ terms of teachers",color=green];
+	77 [label="as we were born
+ , parents taught us from
+ the very little things such
+ as how to smile ,
+ how to walk to the
+ ordinary routines such as eating
+",color=blue];
 	64 [label="parents are
  our teachers from the very
  early time in our life
@@ -14,27 +27,50 @@ digraph G {
  how to walk to the
  ordinary routines such as eating
 ",color=blue];
-	208 [label="believe we will
- never forget what our parents
- have taught us because we
- use it every day",color=blue];
-	267 [label="even when we grow
- older",color=green];
-	231 [label="i will never forget what
- my parents told me about
- how to be grateful to
- other people who help me
+	77 [label="as we were born
+ , parents taught us from
+ the very little things such
+ as how to smile ,
+ how to walk to the
+ ordinary routines such as eating
 ",color=blue];
-	267 [label="even when we grow
- older",color=green];
-	309 [label="my older
- brother has got married and
- lived independently for two years
- but when he faces difficulties
- in his work or his
- life , he comes back
- to meet our parents and
- ask for advice",color=blue];
-	351 [label="that parents are our best
- teachers",color=green];
+	209 [label="we will
+ never forget what our parents
+ have taught us",color=green];
+	109 [label="when we
+ grow bigger , they teach
+ us many fairy tales and
+ several important ethic lessons that
+ affect us till the end
+ of our lives",color=blue];
+	209 [label="we will
+ never forget what our parents
+ have taught us",color=green];
+	137 [label="at school we study
+ bigger things about sciences and
+ languages , but after school
+ we learn from our parents
+",color=blue];
+	209 [label="we will
+ never forget what our parents
+ have taught us",color=green];
+	161 [label="we spend most of our
+ time at home with our
+ families than it at school
+",color=green];
+	179 [label="when we
+ leave school , maybe we
+ will forget parts of the
+ lessons we learn at school
+ if we do not experience
+ them in life",color=blue];
+	179 [label="when we
+ leave school , maybe we
+ will forget parts of the
+ lessons we learn at school
+ if we do not experience
+ them in life",color=blue];
+	209 [label="we will
+ never forget what our parents
+ have taught us",color=green];
 }

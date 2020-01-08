@@ -1,12 +1,17 @@
 digraph G {
-	419 -> 446;
-	419 [label="try something
- new can indeed make people
- become special , while it
- does not mean successful",color=blue];
-	446 [label="doing what we already known
- can still leads us to
- succeed because the advantages of
- this are relatively greater than
- that of the opposite",color=green];
+	157 -> 211;
+	185 -> 211;
+	157 [label="he can focus on
+ certain companies which he thinks
+ is worth it to invest
+ , and then just waits
+ for the not so high
+ but constant income",color=blue];
+	211 [label="we can commence",color=green];
+	185 [label="he does not have to invest
+ some dangerous companies to get
+ higher profit which might lead
+ him to bankrupt in a
+ short time",color=blue];
+	211 [label="we can commence",color=green];
 }

@@ -1,11 +1,14 @@
 digraph G {
-	61 -> 39;
-	176 -> 135;
-	176 -> 150;
+	61 -> 43;
+	61 -> 210;
+	111 -> 99;
+	111 -> 210;
+	156 -> 210;
 	176 -> 235;
-	210 -> 235;
-	39 [label="it is
- true that people use",color=green];
+	43 [label="people use their
+ money to become an inspiration
+ are definitely not a good
+ mirror for young people",color=green];
 	61 [label="we definitely do not want
  our children to spend money
  on luxurious custom or lifestyle
@@ -14,36 +17,54 @@ digraph G {
  people are not symbols of
  any talent but showing off
 ",color=blue];
-	135 [label="it is not easy to influence
- young people these",color=green];
-	176 [label="we are giving chances to
- many teenagers to show their
- intelligence in different talent shows
- , for example ; the
- voice , x factor or
- next top models etc",color=blue];
-	150 [label="of life skills",color=green];
-	176 [label="we are giving chances to
- many teenagers to show their
- intelligence in different talent shows
- , for example ; the
- voice , x factor or
- next top models etc",color=blue];
-	176 [label="we are giving chances to
- many teenagers to show their
- intelligence in different talent shows
- , for example ; the
- voice , x factor or
- next top models etc",color=blue];
-	235 [label="only money and glamour look are
- not enough for a person
- to be recognized anymore",color=green];
+	61 [label="we definitely do not want
+ our children to spend money
+ on luxurious custom or lifestyle
+ just to be similar to
+ someone , especially when these
+ people are not symbols of
+ any talent but showing off
+",color=blue];
 	210 [label="to become a star and an
  inspiration for people , a
  person need to have real
  talent to compete with other
- candidates",color=blue];
+ candidates",color=green];
+	99 [label="the young
+ generation these days is very
+ conscious toward positive lifestyles",color=green];
+	111 [label="they are mostly being educated
+ at very early ages by
+ family or schools as to
+ distinguish what is benefit for
+ them",color=blue];
+	111 [label="they are mostly being educated
+ at very early ages by
+ family or schools as to
+ distinguish what is benefit for
+ them",color=blue];
+	210 [label="to become a star and an
+ inspiration for people , a
+ person need to have real
+ talent to compete with other
+ candidates",color=green];
+	156 [label="it seems to me",color=blue];
+	210 [label="to become a star and an
+ inspiration for people , a
+ person need to have real
+ talent to compete with other
+ candidates",color=green];
+	176 [label="we are giving chances to
+ many teenagers to show their
+ intelligence in different talent shows
+ , for example ; the
+ voice , x factor or
+ next top models etc",color=blue];
 	235 [label="only money and glamour look are
  not enough for a person
- to be recognized anymore",color=green];
+ to be recognized anymore ,
+ it is importance that they
+ have to have achievements in
+ order to be a muse
+ to youngsters",color=green];
 }

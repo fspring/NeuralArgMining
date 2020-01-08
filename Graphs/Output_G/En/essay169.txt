@@ -1,42 +1,140 @@
 digraph G {
-	68 -> 41;
-	164 -> 148;
-	322 -> 390;
-	332 -> 402;
-	345 -> 402;
-	365 -> 402;
-	41 [label="professors should",color=green];
-	68 [label="the professors’ duty
+	81 -> 68;
+	81 -> 148;
+	130 -> 148;
+	168 -> 148;
+	168 -> 263;
+	191 -> 263;
+	207 -> 263;
+	223 -> 263;
+	233 -> 263;
+	244 -> 263;
+	281 -> 263;
+	281 -> 377;
+	306 -> 386;
+	322 -> 386;
+	332 -> 386;
+	345 -> 377;
+	364 -> 386;
+	68 [label="the professors� duty
  is to nurture students ,
- and prepare excellent courses",color=blue];
-	148 [label="professors should",color=green];
-	164 [label="the other
- hand , if professors are
+ and prepare excellent courses",color=green];
+	81 [label="if professors spend a lot
+ of time on research ,
+ he will cut the time
+ on preparing courses is reduced
+ , which may decrease the
+ quality of classes",color=blue];
+	81 [label="if professors spend a lot
+ of time on research ,
+ he will cut the time
+ on preparing courses is reduced
+ , which may decrease the
+ quality of classes",color=blue];
+	148 [label="professors should pay
+ more attention on how to
+ teach students rather than conduct
+ research",color=green];
+	130 [label="professors should provide well-preparation courses to
+ convey the state-of-art knowledge for
+ college and university students",color=blue];
+	148 [label="professors should pay
+ more attention on how to
+ teach students rather than conduct
+ research",color=green];
+	148 [label="professors should pay
+ more attention on how to
+ teach students rather than conduct
+ research",color=green];
+	168 [label="if professors are
  busy in doing research ,
  ignoring preparing appropriate courses for
  students , it would ruin
  the reputation of universities",color=blue];
+	168 [label="if professors are
+ busy in doing research ,
+ ignoring preparing appropriate courses for
+ students , it would ruin
+ the reputation of universities",color=blue];
+	263 [label="professors could teach
+ students through research and projects
+",color=green];
+	191 [label="students are unsatisfied with the
+ unprepared course , and the
+ enrollment of universities may decline
+",color=blue];
+	263 [label="professors could teach
+ students through research and projects
+",color=green];
+	207 [label="many students would not
+ choose these kinds of universities
+ to study",color=blue];
+	263 [label="professors could teach
+ students through research and projects
+",color=green];
+	223 [label="hardly can professors
+ find assistants to help with
+ projects",color=blue];
+	263 [label="professors could teach
+ students through research and projects
+",color=green];
+	233 [label="it is adverse
+ to the whole academic field
+",color=blue];
+	263 [label="professors could teach
+ students through research and projects
+",color=green];
+	244 [label="spending more
+ time to nurture excellent students
+ is more consequential to professors
+ , rather than research",color=blue];
+	263 [label="professors could teach
+ students through research and projects
+",color=green];
+	263 [label="professors could teach
+ students through research and projects
+",color=green];
+	281 [label="through to use the equipment
+ and invent their own work
+ , they may get more
+ experience in the process of
+ research",color=blue];
+	281 [label="through to use the equipment
+ and invent their own work
+ , they may get more
+ experience in the process of
+ research",color=blue];
+	377 [label="professor should concern about
+ preparing class",color=green];
+	306 [label="electronic students always invent new
+ machines such as robots ,
+ mp3 and remote control car
+",color=blue];
+	386 [label="conducting research is helpful for
+ professors and students to some
+ extent",color=green];
 	322 [label="they can manage the
  electric theory in practical skills
 ",color=blue];
-	390 [label="for professors and students to some
+	386 [label="conducting research is helpful for
+ professors and students to some
  extent",color=green];
 	332 [label="and some students will
  be rewarded by investing new
  inventions",color=blue];
-	402 [label="of doing research is
- growing students’ solid theory fundamental
-",color=green];
+	386 [label="conducting research is helpful for
+ professors and students to some
+ extent",color=green];
 	345 [label="only under specific circumstance , when
  students master all of the
  systematic knowledge , can they
  accomplish research",color=blue];
-	402 [label="of doing research is
- growing students’ solid theory fundamental
-",color=green];
-	365 [label="is requires professors provide high quality
+	377 [label="professor should concern about
+ preparing class",color=green];
+	364 [label="this is
+ requires professors provide high quality
  courses",color=blue];
-	402 [label="of doing research is
- growing students’ solid theory fundamental
-",color=green];
+	386 [label="conducting research is helpful for
+ professors and students to some
+ extent",color=green];
 }

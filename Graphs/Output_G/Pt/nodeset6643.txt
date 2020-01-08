@@ -1,13 +1,11 @@
 digraph G {
-	64 -> 0;
-	0 [label="a tecnológica norte-americana google estabeleceu um
- acordo de 150 milhões de
- euros com oito editores de
- media europeus no sentido de
- promover jornalismo de alta qualidade
- através da tecnologia e inovação
- , foi hoje anunciado .
-",color=green];
+	36 -> 64;
+	36 [label="a iniciativa - com o
+ nome digital news initiative dni
+ - surge após o comportamento
+ concorrencial da google ter sido
+ questionado pela comissão europeia em
+ tempos recentes",color=blue];
 	64 [label="a google
  sempre quis ser uma amiga
  e parceira da indústria de
@@ -15,5 +13,5 @@ digraph G {
  pela agência france-presse , o
  responsável da empresa pelas parcerias
  estratégicas na europa , carlo
- dasaro biondo .",color=blue];
+ dasaro biondo",color=green];
 }

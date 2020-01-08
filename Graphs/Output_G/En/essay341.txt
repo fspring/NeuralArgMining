@@ -1,2 +1,21 @@
 digraph G {
+	131 -> 287;
+	157 -> 287;
+	131 [label="traditional skills rely little on
+ fossil energy , it is
+ more environmentally-friendly , which should
+ be promoted to reduce the
+ threat of climate change",color=blue];
+	287 [label="protection of tradition is
+ not only important for the
+ entire society currently , but
+ also contributes to the next
+ generation",color=green];
+	157 [label="those tradition-related things convey
+ traditional culture and values",color=blue];
+	287 [label="protection of tradition is
+ not only important for the
+ entire society currently , but
+ also contributes to the next
+ generation",color=green];
 }

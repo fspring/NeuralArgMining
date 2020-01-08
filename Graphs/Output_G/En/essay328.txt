@@ -1,11 +1,24 @@
 digraph G {
-	96 -> 80;
+	80 -> 52;
+	258 -> 300;
+	274 -> 300;
+	52 [label="boys and girls should
+ study together in the sense
+ that they have a chance
+ to know each other and
+ learn how to behave with
+ an opposite sex",color=green];
 	80 [label="school is a small society for
  students , which prepares them
- for the future",color=green];
-	96 [label="by attending to the same
- school , students can learn
- how to view the opposite
- gender in classes as a
- friend or a classmate",color=blue];
+ for the future life",color=blue];
+	258 [label="boys and girls
+ will try to show their
+ capabilities and abilities in the
+ class ,",color=blue];
+	300 [label="the productivity of the class will
+ be increased",color=green];
+	274 [label="they will
+ study increasingly",color=blue];
+	300 [label="the productivity of the class will
+ be increased",color=green];
 }

@@ -1,2 +1,8 @@
 digraph G {
+	17 -> 14;
+	14 [label="é inesperado
+",color=green];
+	17 [label="achava que havia um
+ mínimo de cuidado quando se
+ mexesse na educação",color=blue];
 }

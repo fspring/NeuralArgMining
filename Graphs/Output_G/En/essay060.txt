@@ -1,11 +1,60 @@
 digraph G {
-	263 -> 368;
-	295 -> 368;
-	311 -> 368;
-	322 -> 368;
-	336 -> 368;
-	344 -> 368;
-	357 -> 368;
+	179 -> 161;
+	179 -> 214;
+	200 -> 214;
+	212 -> 214;
+	230 -> 214;
+	230 -> 368;
+	263 -> 388;
+	295 -> 388;
+	311 -> 388;
+	322 -> 388;
+	344 -> 388;
+	357 -> 388;
+	161 [label="during high school , many
+ students face a dilemma to
+ decide which stream should they
+ major in",color=green];
+	179 [label="working or
+ traveling for some time ,
+ after high school , can
+ help them to find their
+ field of interest",color=blue];
+	179 [label="working or
+ traveling for some time ,
+ after high school , can
+ help them to find their
+ field of interest",color=blue];
+	214 [label="students can
+ save a little money to
+ support their university education by
+ doing a job",color=green];
+	200 [label="it will also help them to
+ learn professional setup by working
+",color=blue];
+	214 [label="students can
+ save a little money to
+ support their university education by
+ doing a job",color=green];
+	212 [label="financially ,",color=blue];
+	214 [label="students can
+ save a little money to
+ support their university education by
+ doing a job",color=green];
+	214 [label="students can
+ save a little money to
+ support their university education by
+ doing a job",color=green];
+	230 [label="some students even utilize this time
+ for preparation of their desired
+ university course",color=blue];
+	230 [label="some students even utilize this time
+ for preparation of their desired
+ university course",color=blue];
+	368 [label="the sole purpose
+ of education is to nurture
+ a young mind and not
+ thrust studies on them",color=green];
 	263 [label="when students work
  during these breaks , the
  feel of money gives them
@@ -13,49 +62,43 @@ digraph G {
  is enough for them and
  they go in a utopia
 ",color=blue];
-	368 [label="the sole purpose
- of education is to nurture
- a young mind and not
- thrust studies on them",color=green];
+	388 [label="a break should
+ be necessarily allowed to young
+ minds between their high school
+ and university studies",color=green];
 	295 [label="my cousin started working in a
  customer care centre after high
  school and got distracted",color=blue];
-	368 [label="the sole purpose
- of education is to nurture
- a young mind and not
- thrust studies on them",color=green];
+	388 [label="a break should
+ be necessarily allowed to young
+ minds between their high school
+ and university studies",color=green];
 	311 [label="when he started his university
  studies , he failed miserably
 ",color=blue];
-	368 [label="the sole purpose
- of education is to nurture
- a young mind and not
- thrust studies on them",color=green];
+	388 [label="a break should
+ be necessarily allowed to young
+ minds between their high school
+ and university studies",color=green];
 	322 [label="students can also indulge
  in smoking or drinking during
  this time",color=blue];
-	368 [label="the sole purpose
- of education is to nurture
- a young mind and not
- thrust studies on them",color=green];
-	336 [label="the break should be an
- optional thing",color=blue];
-	368 [label="the sole purpose
- of education is to nurture
- a young mind and not
- thrust studies on them",color=green];
+	388 [label="a break should
+ be necessarily allowed to young
+ minds between their high school
+ and university studies",color=green];
 	344 [label="it varies
  from individual to individual ,
  how they utilize that period
 ",color=blue];
-	368 [label="the sole purpose
- of education is to nurture
- a young mind and not
- thrust studies on them",color=green];
+	388 [label="a break should
+ be necessarily allowed to young
+ minds between their high school
+ and university studies",color=green];
 	357 [label="a break gives students
  more benefits than harms",color=blue];
-	368 [label="the sole purpose
- of education is to nurture
- a young mind and not
- thrust studies on them",color=green];
+	388 [label="a break should
+ be necessarily allowed to young
+ minds between their high school
+ and university studies",color=green];
 }

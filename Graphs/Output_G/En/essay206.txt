@@ -1,19 +1,23 @@
 digraph G {
-	101 -> 65;
-	101 -> 82;
-	65 [label="such",color=green];
-	101 [label="one of the conditions that
- helps us to be healthy
- is good weather and less
- population that exist in a
- small town",color=blue];
-	82 [label="of living in a
- small town is a healthy
- life that we can obtain
- due to many",color=green];
-	101 [label="one of the conditions that
- helps us to be healthy
- is good weather and less
- population that exist in a
- small town",color=blue];
+	228 -> 219;
+	228 -> 257;
+	219 [label="another advantage
+ of small towns is living
+ costs",color=green];
+	228 [label="living cost is
+ one of the important concerns
+ in every society and then
+ , in a small town
+ living cost is fewer than
+ in big cities",color=blue];
+	228 [label="living cost is
+ one of the important concerns
+ in every society and then
+ , in a small town
+ living cost is fewer than
+ in big cities",color=blue];
+	257 [label="in a small town
+ we can live in big
+ houses with good landscapes ,
+ also",color=green];
 }

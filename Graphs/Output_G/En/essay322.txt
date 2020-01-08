@@ -1,16 +1,30 @@
 digraph G {
-	71 -> 57;
-	71 -> 60;
+	71 -> 189;
+	86 -> 189;
+	100 -> 232;
 	114 -> 232;
-	57 [label="ancestors",color=green];
+	169 -> 189;
 	71 [label="they show the history of
  nations and previous generations who
  lived in the city",color=blue];
-	60 [label="no one can determine the price
- of the historic buildings",color=green];
-	71 [label="they show the history of
- nations and previous generations who
- lived in the city",color=blue];
+	189 [label="it is
+ a valuable opportunities for any
+ city having historic buildings to
+ show them to new visitors
+",color=green];
+	86 [label="they show the lifestyle of
+ people who lived in thousands
+ of years ago",color=blue];
+	189 [label="it is
+ a valuable opportunities for any
+ city having historic buildings to
+ show them to new visitors
+",color=green];
+	100 [label="they show us how they survive
+ , or how they defend
+ themselves etc",color=blue];
+	232 [label="we should preserve historic
+ buildings in the city",color=green];
 	114 [label="by investigating
  about their structures , we
  can understand how much they
@@ -18,4 +32,14 @@ digraph G {
  building",color=blue];
 	232 [label="we should preserve historic
  buildings in the city",color=green];
+	169 [label="it is
+ interesting for most people to
+ know about the way people
+ live in thousands years ago
+",color=blue];
+	189 [label="it is
+ a valuable opportunities for any
+ city having historic buildings to
+ show them to new visitors
+",color=green];
 }

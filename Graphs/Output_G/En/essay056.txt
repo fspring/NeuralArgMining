@@ -1,9 +1,19 @@
 digraph G {
-	83 -> 98;
-	83 [label="in my country
- , english is a required
- course from elementary school",color=blue];
-	98 [label="studying abroad is
- easy and becomes hot among
- youngsters",color=green];
+	111 -> 75;
+	111 -> 277;
+	75 [label="communication between countries and cultures become
+ convenient",color=green];
+	111 [label="language obstacle is no longer
+ a problem , which results
+ in mutual understanding and trust
+ between their mother land and
+ the host country",color=blue];
+	111 [label="language obstacle is no longer
+ a problem , which results
+ in mutual understanding and trust
+ between their mother land and
+ the host country",color=blue];
+	277 [label="the prevalent usage of
+ english brings benefits to people
+ and countries all around",color=green];
 }

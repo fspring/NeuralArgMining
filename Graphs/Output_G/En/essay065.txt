@@ -1,5 +1,29 @@
 digraph G {
+	87 -> 57;
+	87 -> 120;
 	134 -> 120;
+	57 [label="taking care of thousands
+ of citizens who suffer from
+ disease or illiteracy is more
+ urgent and pragmatic than building
+ theaters or sports stadiums",color=green];
+	87 [label="an uneducated person may
+ barely appreciate musicals , whereas
+ a physical damaged person ,
+ resulting from the lack of
+ medical treatment , may no
+ longer participate in any sports
+ games",color=blue];
+	87 [label="an uneducated person may
+ barely appreciate musicals , whereas
+ a physical damaged person ,
+ resulting from the lack of
+ medical treatment , may no
+ longer participate in any sports
+ games",color=blue];
+	120 [label="providing education and medical care is
+ more essential and prioritized to
+ the government",color=green];
 	120 [label="providing education and medical care is
  more essential and prioritized to
  the government",color=green];

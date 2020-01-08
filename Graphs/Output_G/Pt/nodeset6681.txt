@@ -2,5 +2,6 @@ digraph G {
 	16 -> 0;
 	0 [label="cavaco desconcertou , é certo",color=green];
 	16 [label="tinha uma diferente escala de
- prioridades",color=blue];
+ prioridades , veio com outra
+ carta de intenções",color=blue];
 }

@@ -1,26 +1,12 @@
 digraph G {
-	110 -> 85;
-	110 -> 89;
-	85 [label="housing grows continuously",color=green];
-	110 [label="ordinary people , especially the younger
- generation , will fall into
- a certain pattern - work
- , pay bills for housing
- , work ; and i
- am sure that it will
- increase people's dissatisfaction of the
- government",color=blue];
-	89 [label="a comfortable
- place to live in will
- be a luxury to the
- middle class and the low
- class",color=green];
-	110 [label="ordinary people , especially the younger
- generation , will fall into
- a certain pattern - work
- , pay bills for housing
- , work ; and i
- am sure that it will
- increase people's dissatisfaction of the
- government",color=blue];
+	236 -> 269;
+	236 [label="build a new building has
+ following prerequisites , land that
+ has been sold by the
+ government via formal procedures ,
+ a reliable construction company and
+ tremendous amount of labor",color=blue];
+	269 [label="hundreds of
+ problems would occur during the
+ construction",color=green];
 }

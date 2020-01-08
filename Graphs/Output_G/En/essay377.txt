@@ -1,8 +1,52 @@
 digraph G {
-	118 -> 111;
-	111 [label="one deserves what",color=green];
+	79 -> 62;
+	79 -> 188;
+	107 -> 188;
+	118 -> 252;
+	209 -> 252;
+	62 [label="outstanding academic students are
+ eligible for university due to
+ their intellectual advantage",color=green];
+	79 [label="such abstract
+ or complicated informatin , easily
+ absorbed by those students ,
+ may prove as a matter
+ of pressure for those who
+ lack equivalent skills",color=blue];
+	79 [label="such abstract
+ or complicated informatin , easily
+ absorbed by those students ,
+ may prove as a matter
+ of pressure for those who
+ lack equivalent skills",color=blue];
+	188 [label="there is a
+ tendency for social vices to
+ rise if university is to
+ be restricted to only the
+ best people",color=green];
+	107 [label="it is undeniable that
+ one deserves what he has
+ done",color=blue];
+	188 [label="there is a
+ tendency for social vices to
+ rise if university is to
+ be restricted to only the
+ best people",color=green];
 	118 [label="university is like
  a gift presented to those
  who have gone to great
  length to attain",color=blue];
+	252 [label="it will yield more
+ negative results than positive ones
+",color=green];
+	209 [label="apart from
+ the disheartened ones , many
+ devoiding of neccessary preparations are
+ likely to be recipes for
+ failure when applying for jobs
+ , mostly the white-collar ones
+",color=blue];
+	252 [label="it will yield more
+ negative results than positive ones
+",color=green];
 }

@@ -1,8 +1,32 @@
 digraph G {
-	275 -> 309;
-	275 [label="i had to never judge with
- people's appearance",color=blue];
-	309 [label="many people
- play role to cheat the
- others",color=green];
+	131 -> 116;
+	131 -> 162;
+	246 -> 288;
+	116 [label="we have to be aware
+ to never judge with their
+ appearance",color=green];
+	131 [label="some people cheat their fiance
+ before marriage by showing a
+ cheerful face and well spoken
+ ; however , after getting
+ marriage they show their real
+ personality",color=blue];
+	131 [label="some people cheat their fiance
+ before marriage by showing a
+ cheerful face and well spoken
+ ; however , after getting
+ marriage they show their real
+ personality",color=blue];
+	162 [label="there are some people
+ who are black skin ,
+ fat and frown , nonetheless
+ they might be a great
+ person for leaving and colleague
+",color=green];
+	246 [label="she asked me to stay
+ with her till my parents
+ come , also she was
+ great in hospitality and her
+ behavior was unforgettable",color=blue];
+	288 [label="the best",color=green];
 }

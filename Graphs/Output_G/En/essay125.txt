@@ -1,40 +1,22 @@
 digraph G {
-	66 -> 93;
-	223 -> 360;
-	244 -> 360;
+	223 -> 275;
+	244 -> 275;
 	285 -> 275;
-	285 -> 360;
-	312 -> 360;
-	329 -> 360;
-	332 -> 360;
-	66 [label="in this wonderful academic environment
- , everyone is provided with
- varieties and gigantic number of
- information by a lot of
- professors and well-trained teachers",color=blue];
-	93 [label="people are able
- to strengthen their knowledge",color=green];
 	223 [label="my brother are
  studying in an international university
  with a mixed community include
  vietnam , brazil , argentina
  , etc",color=blue];
-	360 [label="some want to enjoy new experiences
- , some are going to
- prepare for their future career
- , while others are eager
- to develop their understanding",color=green];
+	275 [label="preparing for career is an essential
+ function of university",color=green];
 	244 [label="and he
  told me that he is
  very excited for experiencing such
  new environment , which is
  one of his main purposes
  when attending university",color=blue];
-	360 [label="some want to enjoy new experiences
- , some are going to
- prepare for their future career
- , while others are eager
- to develop their understanding",color=green];
+	275 [label="preparing for career is an essential
+ function of university",color=green];
 	275 [label="preparing for career is an essential
  function of university",color=green];
 	285 [label="students not only do homework ,
@@ -42,38 +24,4 @@ digraph G {
  also need to participate in
  volunteer work , internship and
  part time job",color=blue];
-	285 [label="students not only do homework ,
- assignment and attend class but
- also need to participate in
- volunteer work , internship and
- part time job",color=blue];
-	360 [label="some want to enjoy new experiences
- , some are going to
- prepare for their future career
- , while others are eager
- to develop their understanding",color=green];
-	312 [label="they can have some
- experiences in the outside world
- and discover what their life
- goals are",color=blue];
-	360 [label="some want to enjoy new experiences
- , some are going to
- prepare for their future career
- , while others are eager
- to develop their understanding",color=green];
-	329 [label="after",color=blue];
-	360 [label="some want to enjoy new experiences
- , some are going to
- prepare for their future career
- , while others are eager
- to develop their understanding",color=green];
-	332 [label="they know where and
- what to put high emphasis
- on in order to achieve
- their objectives",color=blue];
-	360 [label="some want to enjoy new experiences
- , some are going to
- prepare for their future career
- , while others are eager
- to develop their understanding",color=green];
 }

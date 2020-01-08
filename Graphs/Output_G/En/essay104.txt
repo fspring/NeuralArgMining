@@ -1,52 +1,123 @@
 digraph G {
-	120 -> 98;
-	118 -> 207;
-	120 -> 207;
-	147 -> 207;
-	161 -> 207;
-	179 -> 207;
+	118 -> 81;
+	118 -> 98;
+	118 -> 360;
+	147 -> 360;
+	161 -> 360;
+	179 -> 360;
+	219 -> 207;
+	219 -> 360;
+	268 -> 360;
+	293 -> 360;
+	312 -> 360;
+	341 -> 360;
+	81 [label="the internet will pave way
+ for a more accessible and
+ convenient learning",color=green];
+	118 [label="nowadays , not
+ only are lectures available online
+ , it is also applicable
+ to find reference e-books as
+ well as multi-aspect documents on
+ the cyberspace",color=blue];
 	98 [label="the internet is
  an adequate source of academic
  information , which will potentially
  fulfill the needs of university
  pupils",color=green];
-	120 [label="not only are lectures available online
+	118 [label="nowadays , not
+ only are lectures available online
  , it is also applicable
  to find reference e-books as
  well as multi-aspect documents on
  the cyberspace",color=blue];
-	118 [label="nowadays",color=blue];
-	207 [label="the internet offers a
- more effective and practical method
- of studying",color=green];
-	120 [label="not only are lectures available online
+	118 [label="nowadays , not
+ only are lectures available online
  , it is also applicable
  to find reference e-books as
  well as multi-aspect documents on
  the cyberspace",color=blue];
-	207 [label="the internet offers a
- more effective and practical method
- of studying",color=green];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	147 [label="the internet has grown
  to become the largest virtual
  library ever",color=blue];
-	207 [label="the internet offers a
- more effective and practical method
- of studying",color=green];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	161 [label="with the use of the
  internet , distance and time
  seem to be no more
  a hindrance",color=blue];
-	207 [label="the internet offers a
- more effective and practical method
- of studying",color=green];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	179 [label="college students
  can save their time browsing
  for necessary information through the
  web instead of spending hours
  wandering in bookstores or libraries
 ",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	207 [label="the internet offers a
  more effective and practical method
  of studying",color=green];
+	219 [label="while virtual
+ flowcharts and animations may simplify
+ complicated scientific processes , google
+ and wikipedia are always accessible
+ for detailed responses to every
+ query",color=blue];
+	219 [label="while virtual
+ flowcharts and animations may simplify
+ complicated scientific processes , google
+ and wikipedia are always accessible
+ for detailed responses to every
+ query",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
+	268 [label="have you ever
+ imagined what it would be
+ like to stay at home
+ and attend a lecture by
+ a famous speaker in finland
+ simultaneously",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
+	293 [label="this fairy tale
+ turns out to be true
+ thanks to technical and internet
+ advances",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
+	312 [label="the internet have several
+ drawbacks which can affect the
+ education system negatively , for
+ instance internet abuse and black
+ webs",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
+	341 [label="these problems are mainly triggered
+ by students' wrong approach towards
+ the internet not the internet
+ itself",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 }

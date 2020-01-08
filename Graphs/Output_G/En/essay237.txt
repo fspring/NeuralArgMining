@@ -1,2 +1,13 @@
 digraph G {
+	158 -> 139;
+	139 [label="people will
+ consume these rubbish foods more
+ and we have to deal
+ with a lot of fat
+ diseases",color=green];
+	158 [label="television and movies
+ also make people to spend
+ more time on their couch
+ than with their family and
+ friends , especially children",color=blue];
 }

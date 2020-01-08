@@ -1,95 +1,43 @@
 digraph G {
-	46 -> 45;
-	100 -> 80;
-	100 -> 251;
+	57 -> 81;
+	102 -> 81;
+	102 -> 251;
 	121 -> 251;
 	141 -> 251;
-	182 -> 163;
-	182 -> 251;
-	204 -> 251;
-	220 -> 251;
-	234 -> 251;
-	45 [label="go",color=green];
-	46 [label="to study in another place
- that foreign language are spoken
-",color=blue];
-	80 [label=", going to another country to
+	57 [label="going to another place
+ to learn language is better
+ choice",color=blue];
+	81 [label="going to another country to
  learn language is a good
  environment to stimulate people to
  learn language",color=green];
-	100 [label="example , everyone around me speaks
+	81 [label="going to another country to
+ learn language is a good
+ environment to stimulate people to
+ learn language",color=green];
+	102 [label="everyone around me speaks
  foreign language , and then
  i have to improve myself
  to communicate with people",color=blue];
-	100 [label="example , everyone around me speaks
+	102 [label="everyone around me speaks
  foreign language , and then
  i have to improve myself
  to communicate with people",color=blue];
 	251 [label="learning language from foreign country
  is better than learning language
- in home country because i
- have to improve myself to
- communicate with other people",color=green];
+ in home country",color=green];
 	121 [label="if i could not communicate
  with other people , i
  could not even buy food
  to sacrifice my hunger",color=blue];
 	251 [label="learning language from foreign country
  is better than learning language
- in home country because i
- have to improve myself to
- communicate with other people",color=green];
+ in home country",color=green];
 	141 [label="this environment makes me want
  to develop myself to be
  able to communicate with people
  that speak foreign language",color=blue];
 	251 [label="learning language from foreign country
  is better than learning language
- in home country because i
- have to improve myself to
- communicate with other people",color=green];
-	163 [label="having friend that
- speaks another language is help
- people to professional in that
- language",color=green];
-	182 [label="english school in outside
- my home country , there
- are many people that come
- from different places and from
- different languages",color=blue];
-	182 [label="english school in outside
- my home country , there
- are many people that come
- from different places and from
- different languages",color=blue];
-	251 [label="learning language from foreign country
- is better than learning language
- in home country because i
- have to improve myself to
- communicate with other people",color=green];
-	204 [label="the only
- language that i could talk
- to make friends is english
- language",color=blue];
-	251 [label="learning language from foreign country
- is better than learning language
- in home country because i
- have to improve myself to
- communicate with other people",color=green];
-	220 [label="i could talk with my friend
- without worrying about speaking wrong
-",color=blue];
-	251 [label="learning language from foreign country
- is better than learning language
- in home country because i
- have to improve myself to
- communicate with other people",color=green];
-	234 [label="makes me
- have a progress in foreign
- language faster",color=blue];
-	251 [label="learning language from foreign country
- is better than learning language
- in home country because i
- have to improve myself to
- communicate with other people",color=green];
+ in home country",color=green];
 }

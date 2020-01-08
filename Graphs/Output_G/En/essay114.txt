@@ -1,33 +1,60 @@
 digraph G {
-	83 -> 163;
-	110 -> 163;
-	231 -> 163;
-	231 -> 256;
-	246 -> 256;
+	83 -> 57;
+	70 -> 277;
+	83 -> 277;
+	110 -> 158;
+	131 -> 158;
+	141 -> 277;
+	163 -> 158;
+	187 -> 277;
+	257 -> 277;
+	57 [label="computers need to be
+ operated by people",color=green];
 	83 [label="lessons are more
  attractive and easier to understand
  when they are put on
  a power point presentation and
  then presented with a lcd
  projector",color=blue];
+	70 [label="technological tools are must-haves for the
+ classroom of today",color=blue];
+	277 [label="there can be no
+ school without a teacher",color=green];
+	83 [label="lessons are more
+ attractive and easier to understand
+ when they are put on
+ a power point presentation and
+ then presented with a lcd
+ projector",color=blue];
+	277 [label="there can be no
+ school without a teacher",color=green];
+	110 [label="scientists prove that every classroom needs
+ trained staff to use these
+ interactive and innovative ways of
+ teaching",color=blue];
+	158 [label="children need human
+ interactions",color=green];
+	131 [label="nowadays the learning process benefits
+ greatly from computers",color=blue];
+	158 [label="children need human
+ interactions",color=green];
+	141 [label="they are just tools for
+ teachers and they cannot work
+ properly without human's touch",color=blue];
+	277 [label="there can be no
+ school without a teacher",color=green];
+	158 [label="children need human
+ interactions",color=green];
 	163 [label="no matter how
- advanced technology will be",color=green];
-	110 [label="scientists",color=blue];
-	163 [label="no matter how
- advanced technology will be",color=green];
-	163 [label="no matter how
- advanced technology will be",color=green];
-	231 [label="without someone who can explain
- and understand their problems ,
- pupils cannot actually learn'",color=blue];
-	231 [label="without someone who can explain
- and understand their problems ,
- pupils cannot actually learn'",color=blue];
-	256 [label="because only a teacher can
+ advanced technology will be",color=blue];
+	187 [label="as a recent interview
+ with josh trumm –",color=blue];
+	277 [label="there can be no
+ school without a teacher",color=green];
+	257 [label="only a teacher can
  feel and connect with pupils
-",color=green];
-	246 [label="i",color=blue];
-	256 [label="because only a teacher can
- feel and connect with pupils
-",color=green];
+ , be a friend and
+ a model",color=blue];
+	277 [label="there can be no
+ school without a teacher",color=green];
 }

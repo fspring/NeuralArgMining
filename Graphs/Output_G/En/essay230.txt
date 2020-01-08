@@ -1,29 +1,100 @@
 digraph G {
-	139 -> 127;
-	246 -> 316;
-	295 -> 324;
+	101 -> 75;
+	101 -> 127;
+	145 -> 127;
+	145 -> 343;
+	164 -> 315;
+	196 -> 315;
+	246 -> 225;
+	246 -> 315;
+	274 -> 315;
+	291 -> 315;
+	75 [label="it is the best way for
+ teenage children to take a
+ part-time job to prepare their
+ adult life",color=green];
+	101 [label="when children get a job
+ , they are able to
+ earn money by themselves ,
+ instead of getting pocket money
+ from their parents",color=blue];
+	101 [label="when children get a job
+ , they are able to
+ earn money by themselves ,
+ instead of getting pocket money
+ from their parents",color=blue];
 	127 [label="it is an oppertunity
  to learn how to deal
  with money",color=green];
-	139 [label="take me
- as an example , when
- i was 16 , i
+	127 [label="it is an oppertunity
+ to learn how to deal
+ with money",color=green];
+	145 [label="when i was 16 , i
  found a job during summer
  vacation and earned some money
  by own",color=blue];
+	145 [label="when i was 16 , i
+ found a job during summer
+ vacation and earned some money
+ by own",color=blue];
+	343 [label="to encourage children
+ taking a part-time job is
+ a good choice for them
+ to get prepared for adult
+ life",color=green];
+	164 [label="at the
+ beginning of the semester ,
+ i was told to buy
+ a text book",color=blue];
+	315 [label="to help their children to adapt
+ adult life , parents should
+ let them experience it as
+ much as they can",color=green];
+	196 [label="i finally realized that i
+ should learn to make a
+ plan before i spend my
+ money , and that did
+ influence me in my life
+ now",color=blue];
+	315 [label="to help their children to adapt
+ adult life , parents should
+ let them experience it as
+ much as they can",color=green];
+	225 [label="by taking a part-time job ,
+ they certainly have to be
+ responsible for anything they have
+ done",color=green];
 	246 [label="if a student get a
  job in a company but
  he is frequently late for
  work , the company may
  reduce his payment or even
  fire him",color=blue];
-	316 [label="help their children to adapt
- adult life",color=green];
-	295 [label="he will learn that he has
+	246 [label="if a student get a
+ job in a company but
+ he is frequently late for
+ work , the company may
+ reduce his payment or even
+ fire him",color=blue];
+	315 [label="to help their children to adapt
+ adult life , parents should
+ let them experience it as
+ much as they can",color=green];
+	274 [label="to compare
+ with the school life ,
+ they might suffer only a
+ small punishment at school",color=blue];
+	315 [label="to help their children to adapt
+ adult life , parents should
+ let them experience it as
+ much as they can",color=green];
+	291 [label="under the circumstances , he
+ will learn that he has
  to obey the rule and
  take responsibility for their work
 ",color=blue];
-	324 [label="parents should
+	315 [label="to help their children to adapt
+ adult life , parents should
  let them experience it as
- much as",color=green];
+ much as they can",color=green];
 }

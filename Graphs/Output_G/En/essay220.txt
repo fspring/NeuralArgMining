@@ -1,58 +1,100 @@
 digraph G {
-	70 -> 30;
-	70 -> 34;
-	89 -> 49;
-	89 -> 57;
-	180 -> 163;
-	312 -> 265;
-	312 -> 270;
-	331 -> 349;
-	30 [label="staying with the",color=green];
-	70 [label="one of the most significant upsides
- is that the young adult
- can have more experience with
- his parents",color=blue];
-	34 [label="for longer
- time does more benefits than
- disadvantages to the young adult
-",color=green];
-	70 [label="one of the most significant upsides
- is that the young adult
- can have more experience with
- his parents",color=blue];
-	49 [label="is based
- on creating memories with parents
-",color=green];
+	89 -> 215;
+	108 -> 215;
+	124 -> 264;
+	149 -> 264;
+	161 -> 215;
+	180 -> 171;
+	180 -> 264;
+	196 -> 215;
+	224 -> 215;
+	224 -> 264;
+	244 -> 331;
+	289 -> 331;
+	312 -> 331;
 	89 [label="the young
  adult has to try to
  create memories with his dad
  and mom in the early
  age",color=blue];
-	57 [label="saving money",color=green];
-	89 [label="the young
- adult has to try to
- create memories with his dad
- and mom in the early
- age",color=blue];
-	163 [label="undergoing with parents
-",color=green];
+	215 [label="another daily expense is also the
+ considerable outgoings",color=green];
+	108 [label="when having a
+ job , it is of
+ low possibilities to work in
+ his hometown",color=blue];
+	215 [label="another daily expense is also the
+ considerable outgoings",color=green];
+	124 [label="if he
+ lives with his parents for
+ longer time , they have
+ more chances to share the
+ feelings , exercise , and
+ travel together",color=blue];
+	264 [label="the young
+ adult needs father and mother's
+ suggestions",color=green];
+	149 [label="all memories
+ become priceless treasure as time
+ passes by",color=blue];
+	264 [label="the young
+ adult needs father and mother's
+ suggestions",color=green];
+	161 [label="i think undergoing with parents
+ is worthwhile",color=blue];
+	215 [label="another daily expense is also the
+ considerable outgoings",color=green];
+	171 [label="living at home costs less
+ than living outside",color=green];
 	180 [label="learning to be independent means that
  the young adult needs to
  leave home",color=blue];
-	265 [label="young adult",color=green];
-	312 [label="if the parents do
- not help him immediately ,
- he would have to suffer
- more pain",color=blue];
-	270 [label="mother's",color=green];
+	180 [label="learning to be independent means that
+ the young adult needs to
+ leave home",color=blue];
+	264 [label="the young
+ adult needs father and mother's
+ suggestions",color=green];
+	196 [label="he may have to rent
+ a house and the rental
+ would become a burden for
+ parents",color=blue];
+	215 [label="another daily expense is also the
+ considerable outgoings",color=green];
+	215 [label="another daily expense is also the
+ considerable outgoings",color=green];
+	224 [label="spending much
+ money may not result in
+ what the parents expect their
+ children to be",color=blue];
+	224 [label="spending much
+ money may not result in
+ what the parents expect their
+ children to be",color=blue];
+	264 [label="the young
+ adult needs father and mother's
+ suggestions",color=green];
+	244 [label="the parents
+ can save money , if
+ their children live with them
+ longer",color=blue];
+	331 [label="taking advice from parents ,
+ the young adult can go
+ through obstacles easily",color=green];
+	289 [label="they are
+ the people who are most
+ familiar with him can give
+ a suitable advice and lead
+ him to the right way
+",color=blue];
+	331 [label="taking advice from parents ,
+ the young adult can go
+ through obstacles easily",color=green];
 	312 [label="if the parents do
  not help him immediately ,
  he would have to suffer
  more pain",color=blue];
 	331 [label="taking advice from parents ,
  the young adult can go
- through obstacles easily",color=blue];
-	349 [label="living with
- parents longer brings about memories
- with parents",color=green];
+ through obstacles easily",color=green];
 }

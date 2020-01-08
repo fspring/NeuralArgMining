@@ -1,23 +1,21 @@
 digraph G {
-	128 -> 226;
-	167 -> 226;
+	112 -> 86;
+	112 -> 226;
 	200 -> 226;
-	128 [label="this is because
- when a shop is attacked
- by thieves , the clips
- taken by these cameras serve
- as a source of evidence
- to help the thieves to
- be traced",color=blue];
-	226 [label="cctvs must be put in
- all workplace so that crime
- rates can be minimized",color=green];
-	167 [label="policemen used the videos
- captured by the cctv cameras
- to trace and successfully catch
- a group of robbers who
- broke into a seven eleven
- shop during the midnight",color=blue];
+	406 -> 431;
+	86 [label="cctv cameras should be installed
+ in every premise to combat
+ the ever increasing theft rate
+ and to protect the workers
+ at the workplace",color=green];
+	112 [label="by having cctv cameras
+ at workplace , crimes such
+ as robbery can be trimmed
+ down",color=blue];
+	112 [label="by having cctv cameras
+ at workplace , crimes such
+ as robbery can be trimmed
+ down",color=blue];
 	226 [label="cctvs must be put in
  all workplace so that crime
  rates can be minimized",color=green];
@@ -28,4 +26,12 @@ digraph G {
 	226 [label="cctvs must be put in
  all workplace so that crime
  rates can be minimized",color=green];
+	406 [label="opponents of this system should
+ try to comprehend the situation
+ and take actions to prevent
+ themselves from being victims of
+ crime",color=blue];
+	431 [label="cctv cameras are essential and
+ therefore must be installed in
+ every premise",color=green];
 }

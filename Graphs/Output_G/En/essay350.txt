@@ -1,21 +1,73 @@
 digraph G {
-	148 -> 107;
-	175 -> 147;
-	251 -> 240;
-	107 [label="media is to publish
+	190 -> 102;
+	127 -> 301;
+	140 -> 301;
+	159 -> 317;
+	178 -> 301;
+	190 -> 317;
+	251 -> 217;
+	251 -> 317;
+	102 [label="a very important responsibility
+ of media is to publish
  information about the current affairs
- as quickly",color=green];
-	148 [label="everyone wanted to
+ as quickly as possible specially
+ when there is a crisis
+",color=green];
+	190 [label="instead of waiting for next publication
+ , people can get trustworthy
+ information about the current incidents
+ from internet within an hour
+ or two",color=blue];
+	127 [label="this helps readers to
+ get updated and act accordingly
+",color=blue];
+	301 [label="internet provides efficient search facility
+ where one can search the
+ topic and get the details
+",color=green];
+	140 [label="when the aircraft mh 370 went
+ missing , everyone wanted to
  know the details about this
  tragic incident",color=blue];
-	147 [label=",",color=green];
-	175 [label="such situations , newspapers and magazines
+	301 [label="internet provides efficient search facility
+ where one can search the
+ topic and get the details
+",color=green];
+	159 [label="the friends
+ and families of passengers and
+ crews were impatient to know
+ the truth",color=blue];
+	317 [label="this feature of digital
+ media is not supported by
+ newspapers and magazines",color=green];
+	178 [label="newspapers and magazines
  can not respond as fast
  as digital media",color=blue];
-	240 [label="for research",color=green];
+	301 [label="internet provides efficient search facility
+ where one can search the
+ topic and get the details
+",color=green];
+	190 [label="instead of waiting for next publication
+ , people can get trustworthy
+ information about the current incidents
+ from internet within an hour
+ or two",color=blue];
+	317 [label="this feature of digital
+ media is not supported by
+ newspapers and magazines",color=green];
+	217 [label="digital media will rule
+ over paper and magazines",color=green];
 	251 [label="one research fellow may want
  to know how a small
  village named oramaki in japan
  was suffering after second world
  war",color=blue];
+	251 [label="one research fellow may want
+ to know how a small
+ village named oramaki in japan
+ was suffering after second world
+ war",color=blue];
+	317 [label="this feature of digital
+ media is not supported by
+ newspapers and magazines",color=green];
 }

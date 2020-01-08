@@ -1,10 +1,15 @@
 digraph G {
-	88 -> 75;
-	123 -> 80;
-	123 -> 247;
-	173 -> 247;
-	205 -> 247;
-	75 [label="especially at primary level",color=green];
+	88 -> 61;
+	123 -> 243;
+	156 -> 243;
+	173 -> 243;
+	205 -> 243;
+	61 [label="no one can argue the
+ importance to include health lessons
+ in school programmes , especially
+ at primary level , in
+ the hope of raising people's
+ awareness",color=green];
 	88 [label="children should be
  taught about balanced diets ,
  nutritious food as well as
@@ -12,7 +17,6 @@ digraph G {
  will have a fundamental grasp
  of how to lead a
  healthy lifestyle",color=blue];
-	80 [label="in the",color=green];
 	123 [label="it is much
  easier for people at early
  ages to form a habit
@@ -20,14 +24,15 @@ digraph G {
  not consuming too much fast
  food , over-fried food or
  intoxicants",color=blue];
-	123 [label="it is much
- easier for people at early
- ages to form a habit
- of , for instance ,
- not consuming too much fast
- food , over-fried food or
- intoxicants",color=blue];
-	247 [label="to the materialistic diversion
+	243 [label="i have to
+ concede to the materialistic diversion
+ from treatment to health education
+ and preventative measures",color=green];
+	156 [label="it will be of economic
+ benefit to pre-empt certain kinds
+ of diseases",color=blue];
+	243 [label="i have to
+ concede to the materialistic diversion
  from treatment to health education
  and preventative measures",color=green];
 	173 [label="such unpreventable illnesses
@@ -37,7 +42,8 @@ digraph G {
  but to lengthen his longevity
  for 1 or 2 more
  years",color=blue];
-	247 [label="to the materialistic diversion
+	243 [label="i have to
+ concede to the materialistic diversion
  from treatment to health education
  and preventative measures",color=green];
 	205 [label="if humans tend to keep fit
@@ -47,7 +53,8 @@ digraph G {
  or other diseases that require
  expensive treatments will never stand
  a chance",color=blue];
-	247 [label="to the materialistic diversion
+	243 [label="i have to
+ concede to the materialistic diversion
  from treatment to health education
  and preventative measures",color=green];
 }

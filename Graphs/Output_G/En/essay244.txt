@@ -1,32 +1,96 @@
 digraph G {
-	104 -> 75;
-	132 -> 313;
-	291 -> 262;
-	273 -> 264;
+	85 -> 75;
+	85 -> 313;
+	104 -> 210;
+	120 -> 313;
+	131 -> 210;
+	158 -> 210;
+	191 -> 210;
+	231 -> 210;
+	290 -> 313;
+	299 -> 313;
 	75 [label="television shows make people forget what
  is really important",color=green];
+	85 [label="one who has favorite programs tends
+ to be obessed with them
+ when they are on air
+",color=blue];
+	85 [label="one who has favorite programs tends
+ to be obessed with them
+ when they are on air
+",color=blue];
+	313 [label="it is detrimental
+ to communication among members in
+ group , family or friends
+ or whatever , to sit
+ in front of television and
+ just stare forward",color=green];
 	104 [label="they cannot
  make appointment or go out
  with their family or friends
- at that time since they
- think the programs are so
+ at that time",color=blue];
+	210 [label="even when people watch television together
+ , there is no chance
+ for them to have conversation
+ in front of television",color=green];
+	120 [label="they think the programs are so
  crucial to their lives",color=blue];
-	132 [label="of my friends ,
+	313 [label="it is detrimental
+ to communication among members in
+ group , family or friends
+ or whatever , to sit
+ in front of television and
+ just stare forward",color=green];
+	131 [label="one of my friends ,
  for example , once cancelled
  an appointment to play basketball
  with in order to watch
  the favorite television show "infinete
  challenges"",color=blue];
+	210 [label="even when people watch television together
+ , there is no chance
+ for them to have conversation
+ in front of television",color=green];
+	158 [label="this is not
+ only about basketball , but
+ also about our friendship ,
+ which depends on how often
+ we meet and have a
+ chance to talk to each
+ other",color=blue];
+	210 [label="even when people watch television together
+ , there is no chance
+ for them to have conversation
+ in front of television",color=green];
+	191 [label="watching television alone at home
+ , my friend lost the
+ opportunity to increase cohesion between
+ us",color=blue];
+	210 [label="even when people watch television together
+ , there is no chance
+ for them to have conversation
+ in front of television",color=green];
+	210 [label="even when people watch television together
+ , there is no chance
+ for them to have conversation
+ in front of television",color=green];
+	231 [label="watching television program together is
+ not that different from watching
+ same program alone",color=blue];
+	290 [label="it is natural they behave in
+ that way",color=blue];
 	313 [label="it is detrimental
  to communication among members in
- group",color=green];
-	262 [label="sense",color=green];
-	291 [label="is natural they behave in
- that way because television shows
+ group , family or friends
+ or whatever , to sit
+ in front of television and
+ just stare forward",color=green];
+	299 [label="television shows
  don't require any participation",color=blue];
-	264 [label="closeness",color=green];
-	273 [label="reported that most
- of people don't converse with
- their family when they are
- watching television together",color=blue];
+	313 [label="it is detrimental
+ to communication among members in
+ group , family or friends
+ or whatever , to sit
+ in front of television and
+ just stare forward",color=green];
 }

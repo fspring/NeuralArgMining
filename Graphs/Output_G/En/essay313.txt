@@ -1,17 +1,80 @@
 digraph G {
-	243 -> 360;
-	254 -> 360;
+	91 -> 79;
+	91 -> 344;
+	111 -> 344;
+	117 -> 344;
+	143 -> 231;
+	164 -> 231;
+	171 -> 344;
+	181 -> 344;
+	214 -> 344;
+	243 -> 231;
+	303 -> 344;
+	79 [label="pets are
+ our friends as well as
+ certain human beings are",color=green];
+	91 [label="similarly to friends , indeed
+ , they are always with
+ us and they are there
+ if we feel alone",color=blue];
+	91 [label="similarly to friends , indeed
+ , they are always with
+ us and they are there
+ if we feel alone",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	111 [label="we can talk to them
+",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	117 [label="they listen to us
+ , more than some people
+ will ever do",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	143 [label="when i was
+ 14 years old , my
+ uncle passed away and i
+ felt like everything was no
+ longer important",color=blue];
+	231 [label="pets are useful for a
+ variety of things",color=green];
+	164 [label="talking to
+ my friends was frustrating",color=blue];
+	231 [label="pets are useful for a
+ variety of things",color=green];
+	171 [label="none of them have ever
+ felt that way",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	181 [label="i was all alone at
+ home for a long time
+ , my dog was near
+ me and it seemed to
+ me that only him could
+ understand my deeply feelings",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	214 [label="pets aren't
+ able to speak with us
+ , we can nonetheless count
+ on them",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	231 [label="pets are useful for a
+ variety of things",color=green];
 	243 [label="nowadays the pet
  therapy is becoming more popular
  than before",color=blue];
-	360 [label="namely they are our friends and
- they can be useful in
- many situations",color=green];
-	254 [label="researchers have
- discovered that pets can bring
- benefits in a huge amount
- of illnesses",color=blue];
-	360 [label="namely they are our friends and
- they can be useful in
- many situations",color=green];
+	303 [label="their presence make
+ them feel better",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
 }

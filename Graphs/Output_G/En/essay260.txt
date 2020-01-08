@@ -1,8 +1,14 @@
 digraph G {
 	95 -> 77;
-	211 -> 193;
+	95 -> 256;
+	110 -> 256;
+	119 -> 318;
+	150 -> 330;
+	155 -> 330;
+	173 -> 330;
+	211 -> 192;
 	211 -> 318;
-	279 -> 256;
+	241 -> 318;
 	279 -> 318;
 	302 -> 318;
 	77 [label="being positively different from
@@ -12,7 +18,50 @@ digraph G {
 	95 [label="as living in a competent world
  , we are like playing
  a survival game",color=blue];
-	193 [label="unique can create
+	95 [label="as living in a competent world
+ , we are like playing
+ a survival game",color=blue];
+	256 [label="it gains such a tremendous
+ success is",color=green];
+	110 [label="only who has the sharpest weapon
+ can survive",color=blue];
+	256 [label="it gains such a tremendous
+ success is",color=green];
+	119 [label="if you
+ don't make yourself outstanding enough
+ or you fail to distinguish
+ yourself from others , you
+ will be easily replaced and
+ eliminated by someone who is
+ better than you",color=blue];
+	318 [label="being different and
+ unique is the better way
+ to achieve success",color=green];
+	150 [label="take myself for",color=blue];
+	330 [label="it not only shows your competence
+ but also creates your own
+ value , making you take
+ the lead in your way
+ towards success",color=green];
+	155 [label="when i was in college ,
+ i was always chosen to
+ be the presenter of group
+ report",color=blue];
+	330 [label="it not only shows your competence
+ but also creates your own
+ value , making you take
+ the lead in your way
+ towards success",color=green];
+	173 [label="i was the
+ only one in my group
+ who could present the report
+ thoroughly and fluently",color=blue];
+	330 [label="it not only shows your competence
+ but also creates your own
+ value , making you take
+ the lead in your way
+ towards success",color=green];
+	192 [label="being unique can create
  your own value which can
  never be taken by others
 ",color=green];
@@ -31,13 +80,12 @@ digraph G {
 	318 [label="being different and
  unique is the better way
  to achieve success",color=green];
-	256 [label="it",color=green];
-	279 [label="it has
- its operating systems that can
- run smoother than any other
- companies and its design always
- wins the popularity among consumers
-",color=blue];
+	241 [label="take the most popular and
+ prestigious technology company- apple- for
+ example",color=blue];
+	318 [label="being different and
+ unique is the better way
+ to achieve success",color=green];
 	279 [label="it has
  its operating systems that can
  run smoother than any other
@@ -49,7 +97,7 @@ digraph G {
  to achieve success",color=green];
 	302 [label="it is the uniqueness
  of apple design that creates
- its own",color=blue];
+ its own value",color=blue];
 	318 [label="being different and
  unique is the better way
  to achieve success",color=green];

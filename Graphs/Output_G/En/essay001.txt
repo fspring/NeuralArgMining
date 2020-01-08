@@ -1,2 +1,46 @@
 digraph G {
+	118 -> 98;
+	118 -> 215;
+	146 -> 215;
+	188 -> 215;
+	98 [label="through cooperation ,
+ children can learn about interpersonal
+ skills which are significant in
+ the future life of all
+ students",color=green];
+	118 [label="what we acquired
+ from team work is not
+ only how to achieve the
+ same goal with others but
+ more importantly , how to
+ get along with others",color=blue];
+	118 [label="what we acquired
+ from team work is not
+ only how to achieve the
+ same goal with others but
+ more importantly , how to
+ get along with others",color=blue];
+	215 [label="the significance of competition is that
+ how to become more excellence
+ to gain the victory",color=green];
+	146 [label="during the process of cooperation
+ , children can learn about
+ how to listen to opinions
+ of others , how to
+ communicate with others , how
+ to think comprehensively , and
+ even how to compromise with
+ other team members when conflicts
+ occurred",color=blue];
+	215 [label="the significance of competition is that
+ how to become more excellence
+ to gain the victory",color=green];
+	188 [label="all of these
+ skills help them to get
+ on well with other people
+ and will benefit them for
+ the whole life",color=blue];
+	215 [label="the significance of competition is that
+ how to become more excellence
+ to gain the victory",color=green];
 }

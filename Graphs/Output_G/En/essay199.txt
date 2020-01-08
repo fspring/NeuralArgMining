@@ -1,10 +1,41 @@
 digraph G {
-	155 -> 222;
-	188 -> 222;
-	155 [label="for example , answering our homework
+	103 -> 70;
+	103 -> 130;
+	158 -> 145;
+	158 -> 221;
+	173 -> 221;
+	188 -> 221;
+	70 [label="i am a type of person
+ who cannot comprehend my subjects
+ unless i am alone",color=green];
+	103 [label="we have a
+ lot of subjects which require
+ us to sit and study
+ alone such as math",color=blue];
+	103 [label="we have a
+ lot of subjects which require
+ us to sit and study
+ alone such as math",color=blue];
+	130 [label="i can take advantage of every
+ minute without wasting by studying
+ alone",color=green];
+	145 [label="we are building our personalities when
+ we study alone",color=green];
+	158 [label="answering our homework
  alone encourages us to be
  more responsible and independent",color=blue];
-	222 [label="are many ways to
+	158 [label="answering our homework
+ alone encourages us to be
+ more responsible and independent",color=blue];
+	221 [label="there are many ways to
+ study and it is our
+ right to choose which is
+ suitable for our characters whether
+ alone or with group",color=green];
+	173 [label="it motivates us
+ to be accurate in our
+ work in the future",color=blue];
+	221 [label="there are many ways to
  study and it is our
  right to choose which is
  suitable for our characters whether
@@ -16,7 +47,7 @@ digraph G {
  my ability in the future
  to become more precise and
  careful",color=blue];
-	222 [label="are many ways to
+	221 [label="there are many ways to
  study and it is our
  right to choose which is
  suitable for our characters whether

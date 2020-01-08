@@ -1,33 +1,29 @@
 digraph G {
-	61 -> 91;
-	140 -> 91;
+	61 -> 51;
+	61 -> 174;
 	140 -> 271;
-	174 -> 262;
-	194 -> 262;
-	223 -> 262;
+	194 -> 271;
+	223 -> 271;
+	237 -> 271;
+	51 [label="using computer constantly has bad
+ influence on children's eyes",color=green];
 	61 [label="when they concentrate on computer
  for too long , their
  eyes will get tired ,
  which is the main reason
  for some eyes problems ,
  typically shortsighted",color=blue];
-	91 [label="children who play games too
- much on computer can seriously
- lack communicating skills , they
- will know little about the
- outside life",color=green];
-	91 [label="children who play games too
- much on computer can seriously
- lack communicating skills , they
- will know little about the
- outside life",color=green];
-	140 [label="several teenagers play games without rest
- , which leads to health
- depression , a typical example
- is the death of korean
- gamer , who had a
- non-stop playing for 3 days
-",color=blue];
+	61 [label="when they concentrate on computer
+ for too long , their
+ eyes will get tired ,
+ which is the main reason
+ for some eyes problems ,
+ typically shortsighted",color=blue];
+	174 [label="even people
+ who are not interested in
+ online game can still be
+ negatively affected by using computer
+ too much",color=green];
 	140 [label="several teenagers play games without rest
  , which leads to health
  depression , a typical example
@@ -36,29 +32,29 @@ digraph G {
  non-stop playing for 3 days
 ",color=blue];
 	271 [label="it still has its bad
- side",color=green];
-	174 [label="even people
- who are not interested in
- online game can still be
- negatively affected by using computer
- too much",color=blue];
-	262 [label="computer is a crucial
- part of human life",color=green];
+ side , especially for children
+",color=green];
 	194 [label="some social
  surveys have shown that a
  few children use computer for
  studying purpose , most of
  them are attracted by facebook
  , blog , etc",color=blue];
-	262 [label="computer is a crucial
- part of human life",color=green];
+	271 [label="it still has its bad
+ side , especially for children
+",color=green];
 	223 [label="due to this
  neglect , they will have
  a bad result in school
- because when they can not
+",color=blue];
+	271 [label="it still has its bad
+ side , especially for children
+",color=green];
+	237 [label="when they can not
  live without internet , they
  will have no time for
  their studying",color=blue];
-	262 [label="computer is a crucial
- part of human life",color=green];
+	271 [label="it still has its bad
+ side , especially for children
+",color=green];
 }

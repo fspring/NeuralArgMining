@@ -4,7 +4,7 @@ de (I)    0.000
 informação (I)    0.000
 estão (I)    0.000
 inacessíveis (I)    0.000
-devido (I)    0.000
+devido (O)    0.000
 , (O)    0.000
 segundo (O)    0.000
 dados (O)    0.000
@@ -13,7 +13,7 @@ grupo (O)    0.000
 cofina (O)    0.000
 , (O)    0.000
 a (O)    0.000
-graves (C)    0.000
+graves (P)    0.000
 problemas (I)    0.000
 técnicos (I)    0.000
 na (I)    0.000

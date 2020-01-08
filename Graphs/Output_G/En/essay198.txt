@@ -1,17 +1,43 @@
 digraph G {
-	75 -> 35;
-	177 -> 144;
-	35 [label="certainly spend money on the public
- transportation system because it",color=green];
+	75 -> 61;
+	75 -> 144;
+	129 -> 109;
+	156 -> 144;
+	169 -> 247;
+	61 [label="the using of public transportation
+ reduces the amount of resources
+ using on transportation",color=green];
+	75 [label="cars depend on gasoline , which
+ is a non-renewable resource",color=blue];
 	75 [label="cars depend on gasoline , which
  is a non-renewable resource",color=blue];
 	144 [label="public transportation
- helps",color=green];
-	177 [label="the less gas exhaust
+ helps to solve the air
+ pollution problems",color=green];
+	109 [label="if the
+ public transportation is efficiently used
+ , the amount of gasoline
+ consuming per person will be
+ much lower",color=green];
+	129 [label="and this
+",color=blue];
+	144 [label="public transportation
+ helps to solve the air
+ pollution problems",color=green];
+	156 [label="public transports use much less
+ gasoline to carry people than
+ private cars",color=blue];
+	169 [label="it means
+ that by using public transports
+ , the less gas exhaust
  is pumped to the air
  and people will no longer
  have to bear the stuffy
  situation on the roads ,
  which is always full of
  fumes",color=blue];
+	247 [label="governments should hesitate to
+ invest in public transportation ,
+ a healthy , safe and
+ economical way of transporting",color=green];
 }

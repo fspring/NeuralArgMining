@@ -1,6 +1,29 @@
 digraph G {
-	202 -> 236;
+	124 -> 86;
+	150 -> 255;
+	202 -> 240;
+	86 [label="a large factory can stimulate
+ local economic growth and reduce
+ the unemployment rate",color=green];
+	124 [label="the factory
+ is not isolated , other
+ industries and business will be
+ quickly established",color=blue];
+	150 [label="the estate industry will be boosted
+ in order to satisfy the
+ workers' accommodation need",color=blue];
+	255 [label="how to improve the disadvantages of
+ building a factory would be
+ more important than whether to
+ build it",color=green];
 	202 [label="in some industrial cities
-",color=blue];
-	236 [label="it",color=green];
+ , a large proportion of
+ the workers are suffering various
+ breathing problems , such as
+ asthma which can be caused
+ by waste ashes and certain
+ chemical substances",color=blue];
+	240 [label="there will be more factories built
+ with the development of our
+ society",color=green];
 }

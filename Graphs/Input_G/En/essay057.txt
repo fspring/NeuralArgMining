@@ -73,9 +73,9 @@ digraph G {
  given the freedom of expression
 ",color=green];
 	196 [label="Frank Zappa once said
- , "Mind is like a
+ , Mind is like a
  parachute , it doesn't work
- if its not open“",color=blue];
+ if its not open",color=blue];
 	231 [label="Like the media ,
  artists should also be given
  the freedom to express their

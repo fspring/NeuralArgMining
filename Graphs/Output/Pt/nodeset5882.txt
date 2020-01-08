@@ -240,8 +240,8 @@ em (I)    0.000
 fora (I)    0.000
 de (I)    0.000
 jogo (I)    0.000
-, (I)    0.000
-acrescentou (I)    0.000
-paulo (I)    0.000
-sérgio (I)    0.000
+, (O)    0.000
+acrescentou (O)    0.000
+paulo (O)    0.000
+sérgio (O)    0.000
 . (O)    0.000

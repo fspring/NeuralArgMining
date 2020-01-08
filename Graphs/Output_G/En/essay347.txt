@@ -1,13 +1,13 @@
 digraph G {
-	49 -> 26;
-	49 -> 101;
-	126 -> 132;
-	175 -> 176;
-	213 -> 184;
-	190 -> 227;
-	213 -> 191;
-	266 -> 268;
-	26 [label="that people will be swayed
+	49 -> 27;
+	49 -> 180;
+	124 -> 141;
+	151 -> 249;
+	152 -> 296;
+	213 -> 296;
+	230 -> 249;
+	274 -> 296;
+	27 [label="people will be swayed
  by the advertising and buy
  things they do not need
  it for their life",color=green];
@@ -18,7 +18,9 @@ digraph G {
  to boosts the sales ,
  and some people , especially
  adolescent may buy things from
- their favourite singer advertised",color=blue];
+ their favourite singer advertised to
+ support their idol instead of
+ to fill their needs",color=blue];
 	49 [label="in most
  asian countries , advertisement company
  usually hire popular singers or
@@ -26,37 +28,59 @@ digraph G {
  to boosts the sales ,
  and some people , especially
  adolescent may buy things from
- their favourite singer advertised",color=blue];
-	101 [label="look more gorgeous and with
- good quality in advertisement ,
- people are more likely to
- buy goods impulsively",color=green];
-	126 [label="advertisement",color=blue];
-	132 [label="that it is what
- they want , even though
- it is not the real
- needs of the society",color=green];
-	175 [label="need",color=blue];
-	176 [label="it",color=green];
-	184 [label="very personal
- things for individuals ,",color=green];
-	213 [label="it is unlikely
- to buy things impulsively for
- adults who have concern of
- arranging",color=blue];
-	190 [label="the",color=blue];
-	227 [label="disposable income",color=green];
-	191 [label="advertisement is not the only
+ their favourite singer advertised to
+ support their idol instead of
+ to fill their needs",color=blue];
+	180 [label="buying habit is a very personal
+ things for individuals , the
+ advertisement is not the only
  cause for people to buy
- ,",color=green];
+ , sometimes it depends on
+ one's needs and ability of
+ consumption",color=green];
+	124 [label="a good
+ advertisement can convince people to
+ believe that it is what
+ they want ,",color=blue];
+	141 [label="it is not the real
+ needs of the society",color=green];
+	151 [label="and",color=blue];
+	249 [label="children and
+ adolescents who is not economic
+ independence is more possible to
+ buy things impulsively without considering
+ whether they need it or
+ not",color=green];
+	152 [label="there are always people
+ purchase particular products swayed by
+ advertising which makes it a
+ trend to follow for other
+ people who is unnecessarily need
+ it",color=blue];
+	296 [label="buying habit is people's choice
+ to make , not entirely
+ affected by advertisements",color=green];
 	213 [label="it is unlikely
  to buy things impulsively for
  adults who have concern of
- arranging",color=blue];
-	266 [label="whether they",color=blue];
-	268 [label="need it or
- not , since they do
+ arranging disposable income",color=blue];
+	296 [label="buying habit is people's choice
+ to make , not entirely
+ affected by advertisements",color=green];
+	230 [label="most of them have to allocate
+ the money if they doing
+ other purchase",color=blue];
+	249 [label="children and
+ adolescents who is not economic
+ independence is more possible to
+ buy things impulsively without considering
+ whether they need it or
+ not",color=green];
+	274 [label="they do
  not have financial pressure from
  life and ability to define
- what is necessary",color=green];
+ what is necessary",color=blue];
+	296 [label="buying habit is people's choice
+ to make , not entirely
+ affected by advertisements",color=green];
 }

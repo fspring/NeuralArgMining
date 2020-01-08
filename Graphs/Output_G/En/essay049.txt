@@ -1,2 +1,65 @@
 digraph G {
+	111 -> 87;
+	111 -> 195;
+	138 -> 195;
+	159 -> 195;
+	229 -> 287;
+	253 -> 287;
+	87 [label="mobile phones and other
+ tools of modern communication facilitate
+ not only contact with friends
+ and relatives in faraway places
+ but also global business",color=green];
+	111 [label="with the click of a
+ button , the vast amount
+ of information can be transmitted
+ from america to china in
+ just a few seconds",color=blue];
+	111 [label="with the click of a
+ button , the vast amount
+ of information can be transmitted
+ from america to china in
+ just a few seconds",color=blue];
+	195 [label="these new forms of communication do
+ bring a great deal of
+ convenience to humankind",color=green];
+	138 [label="it is generally
+ felt that the access to
+ these tools of communication is
+ available in every corner of
+ the world",color=blue];
+	195 [label="these new forms of communication do
+ bring a great deal of
+ convenience to humankind",color=green];
+	159 [label="with a
+ mobile phone or a laptop
+ , a person can talk
+ or send messages online at
+ a bus stop , in
+ a corner shop or anywhere
+ they could imagine",color=blue];
+	195 [label="these new forms of communication do
+ bring a great deal of
+ convenience to humankind",color=green];
+	229 [label="they further
+ point out that the wide
+ spread use of these efficient
+ and effective ways of communication
+ costs a considerable amount of
+ money",color=blue];
+	287 [label="people who live in
+ poverty are less likely to
+ be benefited from modern communication
+ technologies",color=green];
+	253 [label="anyone who aims
+ to use these innovations have
+ to not only pay for
+ the appliances such as a
+ mobile phone or a computer
+ but also cover up costs
+ for communication services",color=blue];
+	287 [label="people who live in
+ poverty are less likely to
+ be benefited from modern communication
+ technologies",color=green];
 }

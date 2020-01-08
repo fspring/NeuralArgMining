@@ -1,5 +1,17 @@
 digraph G {
+	76 -> 123;
 	87 -> 123;
+	201 -> 157;
+	227 -> 246;
+	76 [label="education is an essential part
+ in development",color=blue];
+	123 [label="if the developed
+ countries are unwilling to share
+ their successful experience in education
+ , the developing countries will
+ remain undeveloped , even though
+ they gain a great deal
+ of economic support",color=green];
 	87 [label="most developing countries are
  lack of educational resources ,
  such as experienced teachers ,
@@ -13,4 +25,22 @@ digraph G {
  remain undeveloped , even though
  they gain a great deal
  of economic support",color=green];
+	157 [label="the critical method to
+ improve the condition of poor
+ countries is to help them
+ build up a complete educational
+ system instead of financial aid
+",color=green];
+	201 [label="some powerful countries provide financial
+ support in order to acquire
+ the right to exploit the
+ local resources and target the
+ local labour market",color=blue];
+	227 [label="they rarely provide local
+ residents with any technological aid
+ and even cause contamination in
+ some areas",color=blue];
+	246 [label="developing countries should not totally
+ depend on the financial support
+ from powerful countries",color=green];
 }

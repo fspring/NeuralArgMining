@@ -1,26 +1,24 @@
 digraph G {
-	38 -> 71;
-	151 -> 67;
-	139 -> 71;
-	151 -> 83;
-	38 [label="some",color=blue];
-	71 [label="if you live in a
+	67 -> 42;
+	87 -> 237;
+	42 [label="if a child grows
+ up in a big city
+ they will be all day
+ at home at the computer
+ or at the video-game",color=green];
+	67 [label="this is not true
+ if you live in a
  neighborhood with other people about
- your",color=green];
-	67 [label="this is not",color=green];
-	151 [label="that he had to study
- a lot to pass the
- test to enter the university
+ your age as i did
 ",color=blue];
-	71 [label="if you live in a
- neighborhood with other people about
- your",color=green];
-	139 [label="have a
- friend that grew up in
- the countryside",color=blue];
-	83 [label="as",color=green];
-	151 [label="that he had to study
- a lot to pass the
- test to enter the university
-",color=blue];
+	87 [label="my friends and i
+ used to play soccer ,
+ bike , climb trees and
+ do a lot of other
+ stuff every day",color=blue];
+	237 [label="they will grow up
+ in a good neighborhood of
+ a big city and they
+ will be very happy about
+ it",color=green];
 }

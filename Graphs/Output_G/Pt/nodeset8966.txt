@@ -1,2 +1,10 @@
 digraph G {
+	19 -> 12;
+	12 [label="poder concluir que alguém
+ cometeu um crime",color=green];
+	19 [label="é preciso
+ determinar se teve os meios
+ , os motivos , e
+ ainda a oportunidade para o
+ fazer",color=blue];
 }

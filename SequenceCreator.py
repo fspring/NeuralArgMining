@@ -7,7 +7,7 @@ class SequenceCreator:
         self.texts_to_eval = texts_to_eval
         self.use_maxlen = use_maxlen
 
-        self.english_text_maxsize = 735
+        self.text_maxsize = 741
         self.maxlen = 0
 
         self.sequences = []
@@ -27,13 +27,16 @@ class SequenceCreator:
         if self.use_maxlen:
             self.maxlen = maxlen
         else:
-            self.maxlen = self.english_text_maxsize
+            self.maxlen = self.text_maxsize
 
         for sequence in self.sequences:
             while len(sequence) < self.maxlen:
                 sequence.append(0)
+            # if len(sequence) != self.maxlen:#debug
+            #     print('wrong len', len(sequence))#debug
             new_sequences.append(sequence)
         self.sequences = new_sequences
+        # print('use maxlen?', self.use_maxlen, 'maxlen:', self.maxlen) #debug
 
     def create_sequences(self):
         token = Tokenizer(filters='')

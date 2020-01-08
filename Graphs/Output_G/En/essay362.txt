@@ -1,25 +1,76 @@
 digraph G {
-	56 -> 48;
-	56 -> 53;
-	302 -> 339;
-	48 [label="their unresponsiveness to
+	74 -> 59;
+	74 -> 161;
+	99 -> 161;
+	128 -> 161;
+	177 -> 161;
+	261 -> 334;
+	299 -> 334;
+	59 [label="old workers
+ are not a patch on
+ the younger ones for their
+ unchanged paradigm",color=green];
+	74 [label="the old
+ were raised in poverty ,
+ probably caused by war ,
+ look at the world from
+ a negative and pessimistic",color=blue];
+	74 [label="the old
+ were raised in poverty ,
+ probably caused by war ,
+ look at the world from
+ a negative and pessimistic",color=blue];
+	161 [label="their unresponsiveness can be attributed
+ to their attitude towards life
 ",color=green];
-	56 [label="and foremost , old workers
- are not a patch on
- the younger ones for their
- unchanged paradigm",color=blue];
-	53 [label="workplace",color=green];
-	56 [label="and foremost , old workers
- are not a patch on
- the younger ones for their
- unchanged paradigm",color=blue];
-	302 [label="old workers , but
+	99 [label="the misery
+ is so ingrained in their
+ mind that they refuse to
+ change , or more precisely
+ , to accept the existence
+ of such modernity",color=blue];
+	161 [label="their unresponsiveness can be attributed
+ to their attitude towards life
+",color=green];
+	128 [label="most would rather
+ choose to piece together parts
+ of a machine than have
+ it done by a robot
+ for their disbelief of its
+ efficiency and safety compared with
+ human's capability",color=blue];
+	161 [label="their unresponsiveness can be attributed
+ to their attitude towards life
+",color=green];
+	161 [label="their unresponsiveness can be attributed
+ to their attitude towards life
+",color=green];
+	177 [label="they are aware of
+ their deteriorating health and lack
+ of enthusiasm comes with their
+ taste for monotony and safe
+ ideology",color=blue];
+	261 [label="who would the employer choose
+ , an old man with
+ old-fashioned education and a young
+ man who is not only
+ good at fundermentaly subject ,
+ but also knows how to
+ program or how to speak
+ foreign languages",color=blue];
+	334 [label="workers over
+ 50 have proven themselves subordinate
+ to the following generation in
+ all aspects",color=green];
+	299 [label="not to
+ undermine old workers , but
  their lack of authority over
  such basically required fields in
  this day and age leads
  to their incompetence in every
  modern workplace",color=blue];
-	339 [label="themselves subordinate
+	334 [label="workers over
+ 50 have proven themselves subordinate
  to the following generation in
  all aspects",color=green];
 }

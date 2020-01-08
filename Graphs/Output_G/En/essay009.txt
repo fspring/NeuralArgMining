@@ -1,32 +1,44 @@
 digraph G {
+	74 -> 49;
+	74 -> 63;
 	152 -> 244;
 	172 -> 244;
 	181 -> 244;
 	198 -> 244;
-	216 -> 244;
+	49 [label="the most
+ important quality of roommates is
+ being considered",color=green];
+	74 [label="consideration is
+ always important in relationship",color=blue];
+	63 [label="communication is also
+ another essential particularity of a
+ good roommate",color=green];
+	74 [label="consideration is
+ always important in relationship",color=blue];
 	152 [label="it will not only
  prevent conflicts but also to
  have a friend or even
  a family member",color=blue];
-	244 [label="communication",color=green];
+	244 [label="communication is
+ very important as it would
+ clear up the misinterpretation",color=green];
 	172 [label="communication is as well
  making a good roommate",color=blue];
-	244 [label="communication",color=green];
+	244 [label="communication is
+ very important as it would
+ clear up the misinterpretation",color=green];
 	181 [label="people have different habit in
  daily life , such as
  tidy the blanket in the
  morning",color=blue];
-	244 [label="communication",color=green];
+	244 [label="communication is
+ very important as it would
+ clear up the misinterpretation",color=green];
 	198 [label="one might think
  this is a piece of
  cake while other would consider
  it as immense project",color=blue];
-	244 [label="communication",color=green];
-	216 [label="if one requested to move
- out just because his roommate
- do not tidy up the
- blanket in the morning might
- be crying over split milk
-",color=blue];
-	244 [label="communication",color=green];
+	244 [label="communication is
+ very important as it would
+ clear up the misinterpretation",color=green];
 }

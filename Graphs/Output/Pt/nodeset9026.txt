@@ -108,7 +108,7 @@ amar (I)    0.000
 alguém (I)    0.000
 em (I)    0.000
 particular (I)    0.000
-. (I)    0.000
+. (O)    0.000
 estas (O)    0.000
 razões (O)    0.000
 são (O)    0.000

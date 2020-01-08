@@ -1,12 +1,62 @@
 digraph G {
-	76 -> 46;
-	46 [label="honest expression and fluency in
- communicating",color=green];
-	76 [label=", if you are in
+	65 -> 53;
+	65 -> 153;
+	77 -> 153;
+	107 -> 380;
+	124 -> 380;
+	139 -> 380;
+	164 -> 380;
+	172 -> 380;
+	249 -> 380;
+	53 [label="everyone agrees that
+ e-mail has been a great
+ way of communication",color=green];
+	65 [label="you can talk to others from
+ thousands mile",color=blue];
+	65 [label="you can talk to others from
+ thousands mile",color=blue];
+	153 [label="writing e-mail helps
+ people express honestly",color=green];
+	77 [label="if you are in
  vietnam and another person is
  in the us - half
  of the earth , no
  matter how far it is
  , you can keep contact
 ",color=blue];
+	153 [label="writing e-mail helps
+ people express honestly",color=green];
+	107 [label="we will never have
+ to worry if our mails
+ will be sent to the
+ right address",color=blue];
+	380 [label="e-mail is the greatest way for
+ major people to use",color=green];
+	124 [label="if the
+ address is wrong , then
+ you will know right away
+",color=blue];
+	380 [label="e-mail is the greatest way for
+ major people to use",color=green];
+	139 [label="e-mail doesn't
+ take too much time :
+ just a click",color=blue];
+	380 [label="e-mail is the greatest way for
+ major people to use",color=green];
+	164 [label="the face-to-face
+ conversations make them feel stupid
+",color=blue];
+	380 [label="e-mail is the greatest way for
+ major people to use",color=green];
+	172 [label="sometimes , their ideas
+ are not expressed as exactly
+ as they expect",color=blue];
+	380 [label="e-mail is the greatest way for
+ major people to use",color=green];
+	249 [label="i don't
+ have to worry about any
+ other thing can make my
+ opinion become unpersuasive",color=blue];
+	380 [label="e-mail is the greatest way for
+ major people to use",color=green];
 }

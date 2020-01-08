@@ -1,2 +1,56 @@
 digraph G {
+	94 -> 307;
+	122 -> 307;
+	142 -> 237;
+	153 -> 237;
+	255 -> 293;
+	262 -> 293;
+	281 -> 293;
+	94 [label="they should
+ not decide their future major
+ without trying a broad range
+ of subjects , otherwise they
+ might miss valuable encounter with
+ the subject",color=blue];
+	307 [label="students should find interesting
+ subjects and acquire general knowledge
+ to prepare higher education at
+ tertiary education",color=green];
+	122 [label="a would-be mathematician student
+ may be strongly intrigued by
+ philosophy and make a success
+ in the field",color=blue];
+	307 [label="students should find interesting
+ subjects and acquire general knowledge
+ to prepare higher education at
+ tertiary education",color=green];
+	142 [label="students should obtain knowledge
+ from a variety of academic
+ fields",color=blue];
+	237 [label="high school students should
+ learn broadly and prepare future
+ learning at university",color=green];
+	153 [label="general education plays
+ a significant role in specialized
+ education",color=blue];
+	237 [label="high school students should
+ learn broadly and prepare future
+ learning at university",color=green];
+	255 [label="students have tendency to shun difficulties
+",color=blue];
+	293 [label="schools should be
+ responsible for their future and
+ protect them",color=green];
+	262 [label="they might avoid tough
+ courses , but instead attend
+ mainly mickey mouse courses and
+ enjoy themselves too much",color=blue];
+	293 [label="schools should be
+ responsible for their future and
+ protect them",color=green];
+	281 [label="this might result in limited
+ choices in the future",color=blue];
+	293 [label="schools should be
+ responsible for their future and
+ protect them",color=green];
 }

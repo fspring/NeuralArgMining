@@ -1,28 +1,118 @@
 digraph G {
-	353 -> 472;
-	372 -> 472;
-	404 -> 411;
-	412 -> 440;
-	417 -> 440;
+	96 -> 79;
+	96 -> 185;
+	109 -> 401;
+	120 -> 401;
+	143 -> 401;
+	157 -> 401;
+	172 -> 401;
+	203 -> 185;
+	203 -> 401;
+	216 -> 401;
+	228 -> 401;
+	235 -> 401;
+	267 -> 401;
+	283 -> 401;
+	305 -> 401;
+	309 -> 401;
+	314 -> 401;
+	353 -> 401;
+	406 -> 401;
+	410 -> 471;
+	79 [label="doing outdoor
+ activities such as soccer and
+ baseball is good for one's
+ health",color=green];
+	96 [label="last year , i spent
+ my summer time playing soccer
+ and baseball",color=blue];
+	96 [label="last year , i spent
+ my summer time playing soccer
+ and baseball",color=blue];
+	185 [label="outdoor activities not only improves my
+ health but also gives me
+ chances to communicate with more
+ people",color=green];
+	109 [label="playing baseball
+ provided my upper body for
+ hitting and throwing",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	120 [label="soccer , on the other hand
+ , developed my lower body
+ for kicking and endurance for
+ playing full 90-minute-games",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	143 [label="practicing these sports
+ helped me greatly",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	157 [label="playing these sports is
+ to keep my body fit
+ , make me ultimately refreshed
+",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	172 [label="after that summer ,
+ my body is stronger and
+ endurance is better",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	185 [label="outdoor activities not only improves my
+ health but also gives me
+ chances to communicate with more
+ people",color=green];
+	203 [label="when i was
+ ten years old , i
+ was a shy girl",color=blue];
+	203 [label="when i was
+ ten years old , i
+ was a shy girl",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	216 [label="my mother took me to
+ the national camp",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	228 [label="i just ate
+ and played alone",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	235 [label="but on the third day ,
+ while i was swimming ,
+ a friendly girl came and
+ greeted me , we became
+ friend later and she taught
+ me how to swim effectively
+",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	267 [label="on the next day
+ , we played together and
+ she introduced me to her
+ friends",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	283 [label="thanks to her
+ and outdoor activities such as
+ going skiing , climbing the
+ mountain , i had a
+ lot of friends",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	305 [label="the national camp",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	309 [label="if ,
+ for example ,",color=blue];
+	401 [label="indoor activities are fun",color=green];
+	314 [label="i hadn't
+ participate in that camping ,
+ i wouldn't have had many
+ friends like today",color=blue];
+	401 [label="indoor activities are fun",color=green];
 	353 [label="if you spend
  your spare time at home
  or something like that ,
  you can't enjoy beautiful nature
 ",color=blue];
-	472 [label="myself choose outdoor activities
- to spend my leisure time
-",color=green];
-	372 [label="spending time outdoors",color=blue];
-	472 [label="myself choose outdoor activities
- to spend my leisure time
-",color=green];
-	404 [label="fun",color=blue];
-	411 [label="activities",color=green];
-	412 [label="like reading a book
-",color=blue];
-	440 [label="this advantage cannot outweigh",color=green];
-	417 [label="watching tv or listening
+	401 [label="indoor activities are fun",color=green];
+	401 [label="indoor activities are fun",color=green];
+	406 [label="there's no doubt that",color=blue];
+	410 [label="indoor activities like reading a book
+ , watching tv or listening
  to music can bring us
  lots of joy",color=blue];
-	440 [label="this advantage cannot outweigh",color=green];
+	471 [label="i myself choose outdoor activities
+ to spend my leisure time
+",color=green];
 }

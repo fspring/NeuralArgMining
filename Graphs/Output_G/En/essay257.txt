@@ -1,12 +1,23 @@
 digraph G {
 	99 -> 89;
-	259 -> 432;
-	279 -> 432;
-	301 -> 432;
-	332 -> 432;
-	354 -> 423;
-	390 -> 428;
-	416 -> 415;
+	99 -> 332;
+	118 -> 332;
+	133 -> 412;
+	148 -> 412;
+	173 -> 424;
+	185 -> 412;
+	199 -> 412;
+	212 -> 412;
+	225 -> 332;
+	236 -> 259;
+	301 -> 259;
+	279 -> 332;
+	301 -> 332;
+	315 -> 332;
+	316 -> 412;
+	354 -> 412;
+	377 -> 412;
+	390 -> 412;
 	89 [label="famous people
  are usually diligent people not
  lucky people",color=green];
@@ -14,39 +25,118 @@ digraph G {
  make you a professional man/woman
  which are powerful in his
  or her job",color=blue];
+	99 [label="hard work
+ make you a professional man/woman
+ which are powerful in his
+ or her job",color=blue];
+	332 [label="you have to work
+ hard to learn and to
+ get a lot of information
+ before doing a project in
+ good way",color=green];
+	118 [label="when you work
+ hard you decrease portion of
+ chance in your success",color=blue];
+	332 [label="you have to work
+ hard to learn and to
+ get a lot of information
+ before doing a project in
+ good way",color=green];
+	133 [label="in football game
+ it is said that penalty-kick
+ need good chance to be
+ goal",color=blue];
+	412 [label="any great success need
+ great work not great luck
+",color=green];
+	148 [label="statically the chance
+ of being goal is fifty-fifty
+",color=blue];
+	412 [label="any great success need
+ great work not great luck
+",color=green];
+	173 [label="it is not
+ for which ronaldo is more
+ fortune than me",color=blue];
+	424 [label="luck is
+ one factor in reaching goal
+ but its impact is extraneous
+ and we must not reckon
+ on luck in our plans
+",color=green];
+	185 [label="definitely it is for which he
+ have more practice and exercise
+ than me",color=blue];
+	412 [label="any great success need
+ great work not great luck
+",color=green];
+	199 [label="he do
+ a lot of exercise in
+ football field every day ,
+ so",color=blue];
+	412 [label="any great success need
+ great work not great luck
+",color=green];
+	212 [label="it is not for
+ which he is luckier than
+ me",color=blue];
+	412 [label="any great success need
+ great work not great luck
+",color=green];
+	225 [label="we cannot always lean on our
+ luck to be successful",color=blue];
+	332 [label="you have to work
+ hard to learn and to
+ get a lot of information
+ before doing a project in
+ good way",color=green];
+	236 [label="i don't want to disavow
+ the role of luck in
+ success , but as you
+ know it hardly accompany us
+",color=blue];
 	259 [label="for example
  you prepare for toefl or
  other multiple-choice test which has
  four option to choose in
- every question",color=blue];
-	432 [label="its impact is extraneous
- and we must not reckon
- on luck in our plans
-",color=green];
+ every question",color=green];
+	259 [label="for example
+ you prepare for toefl or
+ other multiple-choice test which has
+ four option to choose in
+ every question",color=green];
+	301 [label="if you pick up any
+ choice by chance you would
+ fail the exam",color=blue];
 	279 [label="you cannot
  prepare for it without any
  study and rely on your
  luck , even if you
  be a very lucky",color=blue];
-	432 [label="its impact is extraneous
- and we must not reckon
- on luck in our plans
-",color=green];
-	301 [label="if you pick up any
- choice by chance you would
- fail the exam",color=blue];
-	432 [label="its impact is extraneous
- and we must not reckon
- on luck in our plans
-",color=green];
 	332 [label="you have to work
  hard to learn and to
  get a lot of information
  before doing a project in
- good way",color=blue];
-	432 [label="its impact is extraneous
- and we must not reckon
- on luck in our plans
+ good way",color=green];
+	301 [label="if you pick up any
+ choice by chance you would
+ fail the exam",color=blue];
+	332 [label="you have to work
+ hard to learn and to
+ get a lot of information
+ before doing a project in
+ good way",color=green];
+	315 [label="undoubtedly",color=blue];
+	332 [label="you have to work
+ hard to learn and to
+ get a lot of information
+ before doing a project in
+ good way",color=green];
+	316 [label="it is wise advice which
+ you have hard study to
+ success on exam",color=blue];
+	412 [label="any great success need
+ great work not great luck
 ",color=green];
 	354 [label="the most
  fortunate people in the word
@@ -54,14 +144,19 @@ digraph G {
  build a high tower just
  by her or his chance
 ",color=blue];
-	423 [label="though luck is
- one",color=green];
+	412 [label="any great success need
+ great work not great luck
+",color=green];
+	377 [label="these plans is done
+ by someone who is mastered
+ in his/her work",color=blue];
+	412 [label="any great success need
+ great work not great luck
+",color=green];
 	390 [label="undoubtedly such people do work hard
  and have great experiences because
  of their hard works",color=blue];
-	428 [label="in reaching goal
+	412 [label="any great success need
+ great work not great luck
 ",color=green];
-	415 [label="need",color=green];
-	416 [label="great work not great luck
-",color=blue];
 }

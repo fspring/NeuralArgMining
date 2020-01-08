@@ -1,57 +1,77 @@
 digraph G {
-	88 -> 77;
-	121 -> 311;
-	127 -> 323;
-	173 -> 323;
-	187 -> 323;
-	197 -> 323;
-	210 -> 323;
+	52 -> 28;
+	52 -> 140;
+	77 -> 140;
+	127 -> 140;
+	173 -> 311;
+	187 -> 311;
+	197 -> 311;
+	210 -> 311;
+	228 -> 311;
+	260 -> 311;
+	28 [label="it's better to
+ have one or two close
+ friends than to have a
+ large number of casual acquaintances
+",color=green];
+	52 [label="being a friend with
+ someone is different from only
+ being acquaintant",color=blue];
+	52 [label="being a friend with
+ someone is different from only
+ being acquaintant",color=blue];
+	140 [label="it's much easier to have some
+ casual acquaintances than have some
+ close friends",color=green];
 	77 [label="friends are people who
  have great compatibility with each
- other",color=green];
-	88 [label="after two years
- in college i have found
- sometimes there is more differences
- between people than similarities ,
-",color=blue];
-	121 [label="sometimes acquaintances are just acquaintances
-",color=blue];
-	311 [label="a friend is a person
- you care about",color=green];
+ other",color=blue];
+	140 [label="it's much easier to have some
+ casual acquaintances than have some
+ close friends",color=green];
 	127 [label="we spend time together
  but we could never be
  friend",color=blue];
-	323 [label="friends are the
- most important people in my
- life second to my family
-",color=green];
+	140 [label="it's much easier to have some
+ casual acquaintances than have some
+ close friends",color=green];
 	173 [label="acquaintances probably not
  able to understand you better
  than your friends",color=blue];
-	323 [label="friends are the
- most important people in my
- life second to my family
-",color=green];
+	311 [label="a friend is a person
+ you care about",color=green];
 	187 [label="they wouldn't even spare
  time to consider your feelings
 ",color=blue];
-	323 [label="friends are the
- most important people in my
- life second to my family
-",color=green];
+	311 [label="a friend is a person
+ you care about",color=green];
 	197 [label="everyone play the role
  of acquaintance and friend at
  the same time",color=blue];
-	323 [label="friends are the
- most important people in my
- life second to my family
-",color=green];
+	311 [label="a friend is a person
+ you care about",color=green];
 	210 [label="being friendly is a good way
  to treat a acquaintance but
  way not enough for a
  friend",color=blue];
-	323 [label="friends are the
- most important people in my
- life second to my family
-",color=green];
+	311 [label="a friend is a person
+ you care about",color=green];
+	228 [label="when my friend
+ is sick , i would
+ not only ask if he
+ is okay like an acquaintance
+ but do my best to
+ make him get well as
+ soon as possible",color=blue];
+	311 [label="a friend is a person
+ you care about",color=green];
+	260 [label="if my friend is going to
+ the wrong direction in his
+ life trail , i will
+ try my best to pull
+ him back , but not
+ stand and stare like it's
+ not of my business",color=blue];
+	311 [label="a friend is a person
+ you care about",color=green];
 }

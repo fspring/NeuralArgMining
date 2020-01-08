@@ -1,39 +1,72 @@
 digraph G {
+	75 -> 38;
+	75 -> 110;
+	94 -> 125;
+	105 -> 125;
+	136 -> 125;
+	136 -> 325;
+	170 -> 235;
+	195 -> 235;
 	217 -> 235;
-	227 -> 235;
-	250 -> 251;
-	269 -> 311;
-	291 -> 311;
-	302 -> 311;
+	38 [label="paying for teacher
+ base on grade that students
+ got is not appropriate ,
+ and it is not fair
+ for teacher",color=green];
+	75 [label="main task of teacher to give
+ knowledge to students , and
+ this role have to finish
+ in time",color=blue];
+	75 [label="main task of teacher to give
+ knowledge to students , and
+ this role have to finish
+ in time",color=blue];
+	110 [label="it is not possible for teachers
+ to pay attention to individual
+ students in class",color=green];
+	94 [label="there are
+ certain period of time for
+ teachers to teach",color=blue];
+	125 [label="teachers have to manage to teach
+ every topics by schedule",color=green];
+	105 [label="in these short time",color=blue];
+	125 [label="teachers have to manage to teach
+ every topics by schedule",color=green];
+	125 [label="teachers have to manage to teach
+ every topics by schedule",color=green];
+	136 [label="if teachers pay attention to
+ specific students , their work
+ might not finish on time
+ , and this might make
+ many student miss some field
+ in topics that they should
+ know",color=blue];
+	136 [label="if teachers pay attention to
+ specific students , their work
+ might not finish on time
+ , and this might make
+ many student miss some field
+ in topics that they should
+ know",color=blue];
+	325 [label="i totally disagree with this statement
+ that teachers should be paid
+ by how much their students
+ learn",color=green];
+	170 [label="learning abilities in each students is
+ different",color=blue];
+	235 [label="teachers should not be paid by
+ testing result that students get
+",color=green];
+	195 [label="some students might understand all topics
+ that they had learnt but
+ some are not",color=blue];
+	235 [label="teachers should not be paid by
+ testing result that students get
+",color=green];
 	217 [label="this problems depend on
  how hard study they do
 ",color=blue];
 	235 [label="teachers should not be paid by
  testing result that students get
-",color=green];
-	227 [label="it is not teachers
- fault",color=blue];
-	235 [label="teachers should not be paid by
- testing result that students get
-",color=green];
-	250 [label="could",color=blue];
-	251 [label="lead to a big problem
- if schools pay teachers by
- grade",color=green];
-	269 [label="in quality
- of education",color=blue];
-	311 [label="grade that students get should
- not be in evaluating teacher
-",color=green];
-	291 [label="teachers may just give high
- grades to get higher salary
-",color=blue];
-	311 [label="grade that students get should
- not be in evaluating teacher
-",color=green];
-	302 [label="this problem should not
- be happened",color=blue];
-	311 [label="grade that students get should
- not be in evaluating teacher
 ",color=green];
 }

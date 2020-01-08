@@ -1,40 +1,70 @@
 digraph G {
-	30 -> 50;
-	104 -> 138;
-	180 -> 138;
-	155 -> 257;
-	214 -> 169;
+	80 -> 138;
+	102 -> 138;
+	180 -> 155;
 	180 -> 257;
-	30 [label="to",color=blue];
-	50 [label="because of the",color=green];
-	104 [label="when i
+	202 -> 257;
+	214 -> 257;
+	230 -> 257;
+	80 [label="being by nature introvert , i
+ have to spend much time
+ and efforts on adjusting to
+ surroundings and especially new people
+",color=blue];
+	138 [label="my productivity boosts
+ when style of work is
+ appropriate with my type of
+ temper",color=green];
+	102 [label="once , when i
  was working on presentation with
- strangers",color=blue];
+ strangers , i sat aside
+ and so prepared more than
+ half of work myself instead
+ of making attempts to get
+ acquainted with unknown people",color=blue];
 	138 [label="my productivity boosts
  when style of work is
  appropriate with my type of
  temper",color=green];
-	138 [label="my productivity boosts
- when style of work is
- appropriate with my type of
- temper",color=green];
-	180 [label="i must not divide tasks and
- duties between team members",color=blue];
 	155 [label="working alone allows me to avoid
  spending time and efforts on
- many things that",color=blue];
+ many things that are an
+ integral part of teamwork",color=green];
+	180 [label="i must not divide tasks and
+ duties between team members ,
+ share responsibility and benefits ,
+ and spend time on teambuilding
+",color=blue];
+	180 [label="i must not divide tasks and
+ duties between team members ,
+ share responsibility and benefits ,
+ and spend time on teambuilding
+",color=blue];
 	257 [label="type of temper and
  advantages of individual work are
- the most persuasive",color=green];
-	169 [label="are an
- integral part of",color=green];
+ the most persuasive arguments in
+ favor of studying alone",color=green];
+	202 [label="these advantages are especially
+ important in situations of shortage
+ of time",color=blue];
+	257 [label="type of temper and
+ advantages of individual work are
+ the most persuasive arguments in
+ favor of studying alone",color=green];
 	214 [label="about a
  year ago i was lucky
  to become a participant of
  student brainstorming game",color=blue];
-	180 [label="i must not divide tasks and
- duties between team members",color=blue];
 	257 [label="type of temper and
  advantages of individual work are
- the most persuasive",color=green];
+ the most persuasive arguments in
+ favor of studying alone",color=green];
+	230 [label="to my rivals' surprise , being
+ the only member of my
+ own "team" i gained a
+ victory",color=blue];
+	257 [label="type of temper and
+ advantages of individual work are
+ the most persuasive arguments in
+ favor of studying alone",color=green];
 }

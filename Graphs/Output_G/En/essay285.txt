@@ -1,35 +1,78 @@
 digraph G {
-	172 -> 161;
-	172 -> 334;
-	259 -> 304;
-	273 -> 304;
-	161 [label="online class could not provide
- knowledge about social skills",color=green];
-	172 [label="instance , in a
+	104 -> 84;
+	104 -> 223;
+	117 -> 223;
+	130 -> 223;
+	144 -> 223;
+	174 -> 223;
+	190 -> 223;
+	211 -> 223;
+	247 -> 223;
+	334 -> 304;
+	84 [label="learning in
+ classroom could provide more information
+ and make students more comprehend
+ in subjects that they had
+ learnt",color=green];
+	104 [label="in classroom
+ have many equipment to demonstrate
+ real example",color=blue];
+	104 [label="in classroom
+ have many equipment to demonstrate
+ real example",color=blue];
+	223 [label="learning in classroom
+ , student could have healthier
+ life",color=green];
+	117 [label="in biology class ,
+ learning anatomy by operating fog
+ have many benefits",color=blue];
+	223 [label="learning in classroom
+ , student could have healthier
+ life",color=green];
+	130 [label="learner could learn how to use
+ tools and see actual organs
+ of fog",color=blue];
+	223 [label="learning in classroom
+ , student could have healthier
+ life",color=green];
+	144 [label="unlike classroom
+ , online class just only
+ study in textbook not learnin
+ real situation",color=blue];
+	223 [label="learning in classroom
+ , student could have healthier
+ life",color=green];
+	174 [label="in a
  classroom , teacher could give
  assignment to student to work
  as a group",color=blue];
-	172 [label="instance , in a
- classroom , teacher could give
- assignment to student to work
- as a group",color=blue];
+	223 [label="learning in classroom
+ , student could have healthier
+ life",color=green];
+	190 [label="this could help students to learn
+ how to deal with people
+ , how to collaborate with
+ people in their group",color=blue];
+	223 [label="learning in classroom
+ , student could have healthier
+ life",color=green];
+	211 [label="this important skill cannot be
+ gotten in online classes",color=blue];
+	223 [label="learning in classroom
+ , student could have healthier
+ life",color=green];
+	223 [label="learning in classroom
+ , student could have healthier
+ life",color=green];
+	247 [label="classroom have specialist trainer
+ to teach students to it
+ right way",color=blue];
+	304 [label="classroom could
+ provide real actual example to
+ make students more understand in
+ their subject",color=green];
 	334 [label="classroom could
  provide exercise class to set
  students to have a good
-",color=green];
-	259 [label="if student
- do it by themselves ,
- they might be hurt themselves
-",color=blue];
-	304 [label="classroom could
- provide real actual example to
- make students more understand in
- their subject",color=green];
-	273 [label="make students have
- healthier life which online class
- cannot provide",color=blue];
-	304 [label="classroom could
- provide real actual example to
- make students more understand in
- their subject",color=green];
+ health",color=blue];
 }

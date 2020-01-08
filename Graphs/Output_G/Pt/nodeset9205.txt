@@ -1,20 +1,2 @@
 digraph G {
-	31 -> 54;
-	115 -> 107;
-	31 [label="dispensou as notabilidades que aproveitam
- estas ocasiões para aparecer na
- fotografia , não deu trabalho
- aos especialistas em dar lições
- aos candidatos .",color=blue];
-	54 [label="marcelo rebelo
- de sousa é mesmo um
- candidato livre e independente ,
- e é disso que os
- oligarcas não gostam .",color=green];
-	107 [label="a matéria da acusação
- é indiferente",color=green];
-	115 [label="a questão é a mesma :
- ele não precisa deles ,
- e eles não lhe perdoam
-",color=blue];
 }

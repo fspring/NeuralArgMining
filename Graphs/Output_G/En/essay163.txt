@@ -1,27 +1,102 @@
 digraph G {
-	108 -> 67;
-	108 -> 94;
+	91 -> 132;
+	108 -> 132;
+	148 -> 132;
+	148 -> 335;
+	165 -> 335;
+	196 -> 335;
+	212 -> 335;
+	228 -> 408;
+	254 -> 408;
 	280 -> 408;
-	351 -> 341;
+	351 -> 328;
+	351 -> 408;
 	384 -> 408;
-	67 [label="have always wanted to
- find a job in a
- big company which locates in
- a prosperous city",color=green];
-	108 [label="what's more i
- can save plenty of money
- on transportation if i choose
- to live in the city
-",color=blue];
-	94 [label="choose a
+	91 [label="i will absolutely choose a
  place to live that is
  not too far from my
- workplace",color=green];
+ workplace",color=blue];
+	132 [label="life in a big
+ city will not be so
+ dull as in a small
+ town",color=green];
 	108 [label="what's more i
  can save plenty of money
  on transportation if i choose
  to live in the city
 ",color=blue];
+	132 [label="life in a big
+ city will not be so
+ dull as in a small
+ town",color=green];
+	132 [label="life in a big
+ city will not be so
+ dull as in a small
+ town",color=green];
+	148 [label="you can enjoy
+ modern life and have more
+ access to the advanced facilities
+",color=blue];
+	148 [label="you can enjoy
+ modern life and have more
+ access to the advanced facilities
+",color=blue];
+	335 [label="living in a big city considering
+ the chance of receiving better
+ education of our offspring",color=green];
+	165 [label="you can visit museums to learn
+ history , and go to
+ a more equipped library to
+ enjoy reading , or you
+ can go to a sports
+ center for exercising",color=blue];
+	335 [label="living in a big city considering
+ the chance of receiving better
+ education of our offspring",color=green];
+	196 [label="a small town may be
+ less developed to satisfy all
+ these kinds of needs",color=blue];
+	335 [label="living in a big city considering
+ the chance of receiving better
+ education of our offspring",color=green];
+	212 [label="living in big cities
+ means more exposure to stimulation
+ , like all kinds of
+ information",color=blue];
+	335 [label="living in a big city considering
+ the chance of receiving better
+ education of our offspring",color=green];
+	228 [label="if one can
+ efficiently acquire the information ,
+ then , there might come
+ along more opportunities for him
+ to achieve his goals",color=blue];
+	408 [label="if i want
+ to live a more convenient
+ life with more access to
+ modern facilities as well as
+ with more exposure to various
+ opportunities , and have my
+ children receive a better education
+ , a big city is
+ the place to live in
+",color=green];
+	254 [label="there are
+ various advertisements here an there
+ , whether on the leaflets
+ or on the big screen
+ showing things of all sorts
+ in commercial zones",color=blue];
+	408 [label="if i want
+ to live a more convenient
+ life with more access to
+ modern facilities as well as
+ with more exposure to various
+ opportunities , and have my
+ children receive a better education
+ , a big city is
+ the place to live in
+",color=green];
 	280 [label="if one is seeking a job
  right in the city or
  planing somewhere to travel ,
@@ -42,8 +117,8 @@ digraph G {
  , a big city is
  the place to live in
 ",color=green];
-	341 [label="the chance of receiving better
- education of our offspring",color=green];
+	328 [label="there is also
+ another",color=green];
 	351 [label="schools in big cities may
  receive more funds from whether
  the local comities or the
@@ -51,6 +126,23 @@ digraph G {
  them more equipped with advanced
  teaching facilities and attract more
  excellent teachers",color=blue];
+	351 [label="schools in big cities may
+ receive more funds from whether
+ the local comities or the
+ government , which may make
+ them more equipped with advanced
+ teaching facilities and attract more
+ excellent teachers",color=blue];
+	408 [label="if i want
+ to live a more convenient
+ life with more access to
+ modern facilities as well as
+ with more exposure to various
+ opportunities , and have my
+ children receive a better education
+ , a big city is
+ the place to live in
+",color=green];
 	384 [label="our children
  thus will have a better
  chance of pursuing high-quality education

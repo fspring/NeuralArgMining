@@ -1,12 +1,12 @@
 digraph G {
-	100 -> 81;
-	81 [label="that the country's culture is
- passed down mainly through traditional
- skills and ways of life
-",color=green];
-	100 [label="in vietnam , many water puppet
- shows which once demonstrated our
- seasonal agriculture and communal activities
- , are today substituted by
- cinemas and music concerts",color=blue];
+	126 -> 202;
+	126 [label="this means the young generation
+ can solely get access to
+ their ancestor's early life through
+ books and images , which
+ otherwise would be much more
+ easily absorbed",color=blue];
+	202 [label="study form their mistakes
+ helps us accomplish our goal
+ with smooth sailing",color=green];
 }

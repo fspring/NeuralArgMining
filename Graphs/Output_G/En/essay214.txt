@@ -1,94 +1,86 @@
 digraph G {
-	97 -> 14;
-	149 -> 122;
-	126 -> 196;
-	149 -> 196;
-	174 -> 196;
-	261 -> 229;
-	323 -> 292;
-	349 -> 314;
-	420 -> 433;
-	14 [label="be encouraged
- to",color=green];
-	97 [label=", one smoking in
+	150 -> 89;
+	122 -> 196;
+	150 -> 196;
+	204 -> 314;
+	261 -> 433;
+	299 -> 433;
+	323 -> 314;
+	323 -> 433;
+	349 -> 433;
+	367 -> 433;
+	383 -> 433;
+	89 [label="smoking should
+ be prohibited everywhere in the
+ society , one smoking in
  a restaurant is considered to
  enjoy his time with the
- ignorance of others' health",color=blue];
-	122 [label="the",color=green];
-	149 [label=", if
- there is only one person
+ ignorance of others' health",color=green];
+	150 [label="if there is only one person
  smoking in a restaurant ,
  all others will smoke unconsciously
  and their health is under
  attacked",color=blue];
-	126 [label="which comes from the smoker's
+	122 [label="the second-hand smoke ,
+ which comes from the smoker's
  mouth , puts an even
  greater threat on surrounding people's
  health than the smoker himself
 ",color=blue];
 	196 [label="smoking in restaurants should be
- strictly banned because it makes
- the restaurant a polluted place
- which threatens every customer's health
-",color=green];
-	149 [label=", if
- there is only one person
+ strictly banned",color=green];
+	150 [label="if there is only one person
  smoking in a restaurant ,
  all others will smoke unconsciously
  and their health is under
  attacked",color=blue];
 	196 [label="smoking in restaurants should be
- strictly banned because it makes
+ strictly banned",color=green];
+	204 [label="it makes
  the restaurant a polluted place
  which threatens every customer's health
-",color=green];
-	174 [label="is because
- some burned substance in a
- cigarette can easily deteriorate a
- person's respiratory system after he/she
- inhales it",color=blue];
-	196 [label="smoking in restaurants should be
- strictly banned because it makes
- the restaurant a polluted place
- which threatens every customer's health
-",color=green];
-	229 [label="that second-hand
- smoke imposes on them ,
- the disgusting smoke will severely
- affect their appetite , or
- , in other words ,
- spoil their meals and make
- them an unpleasant experience",color=green];
+",color=blue];
+	314 [label="smoking does
+ no good to the smoker
+ himself",color=green];
 	261 [label="the smoke exhaled from the
  smoker often makes other people
  feel uncomfortable or disgusted ,
  thus affecting their mood in
  having their meals",color=blue];
-	292 [label="can indirectly decrease the
- restaurants' popularity because fewer people
+	433 [label="it is",color=green];
+	299 [label="fewer people
  are willing to consume there
- due",color=green];
+ due to their unpleasant experiences
+",color=blue];
+	433 [label="it is",color=green];
+	314 [label="smoking does
+ no good to the smoker
+ himself",color=green];
 	323 [label="not only does
  it aggravate his health ,
  making him more subject to
  respiratory diseases , but also
  it damages his public image
  and reputation",color=blue];
-	314 [label="smoking does
- no good to the",color=green];
+	323 [label="not only does
+ it aggravate his health ,
+ making him more subject to
+ respiratory diseases , but also
+ it damages his public image
+ and reputation",color=blue];
+	433 [label="it is",color=green];
 	349 [label="this is
- especially true when the smoker
- is a popular political figure
- or an entertainmening celebrity ,
- because most people see smoking
+ especially",color=blue];
+	433 [label="it is",color=green];
+	367 [label="most people see smoking
  in restaurants as an impolite
  human behavior",color=blue];
-	420 [label="it spoils the smoker's reputation and
- threats other people's health",color=blue];
-	433 [label="it is unwise
- to smoke in a restaurant
- as well as other public
- places , and relevant state
- laws should be codified to
- strictly prohibit it",color=green];
+	433 [label="it is",color=green];
+	383 [label="the public are
+ likely to believe that the
+ smoker lacks basic civility and
+ should not be encouraged to
+ be a public leader",color=blue];
+	433 [label="it is",color=green];
 }

@@ -43,6 +43,7 @@ keras.utils.generic_utils.get_custom_objects().update({'pentanh': Pentanh()})
 
 def preprocess_tags(textDirectory, tagDirectory, addTexts):
     ### PROCESS TEXT INPUT ###
+    # print('process text') #debug
     all_texts = tr.TextReader(commonTextDirectory)
     all_texts.readTexts()
 
@@ -56,6 +57,7 @@ def preprocess_tags(textDirectory, tagDirectory, addTexts):
 
     englishTextSequences = []
     if addTexts:
+        # print('proccess eng text') #debug
         englishTexts = tr.TextReader(englishTextsDirectory)
         englishTexts.readTexts()
 
@@ -65,6 +67,7 @@ def preprocess_tags(textDirectory, tagDirectory, addTexts):
         englishTextSequences = englishTextSequencer.sequences
 
     ### PROCESS TAG INPUT ###
+    # print('process tag') #debug
     all_tags = tp.RelationTagProcessor(commonTagDirectory)
     all_tags.readTags()
 
@@ -83,9 +86,10 @@ def preprocess_tags(textDirectory, tagDirectory, addTexts):
     tagSequencer.encode_onehot()
     tag_sequences = tagSequencer.encoded_sequences
 
-    englishTagSequences = []
+    englishTagSequences = [[], []]
     if addTexts:
-        english_tags = tp.TagProcessor(englishTagDirectory)
+        # print('proccess eng tag') #debug
+        english_tags = tp.RelationTagProcessor(englishTagDirectory)
         english_tags.readTags()
 
         englishTagSequencer = sc.SequenceCreator(all_tags, english_tags, False)
@@ -95,11 +99,11 @@ def preprocess_tags(textDirectory, tagDirectory, addTexts):
         english_tags.num_tags = tagSequencer.n_tags
 
         englishTagSequencer.encode_onehot()
-        englishTagSequences = englishTagSequencer.encoded_sequences
+        englishTagSequences = [englishTagSequencer.encoded_sequences, english_tags.distance_tags_list]
 
     return (textSequencer, tagSequencer, englishTextSequences, englishTagSequences, tags_to_eval)
 
-def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
+def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath, model_type):
     preprocess_start_time = datetime.datetime.now().replace(microsecond=0)
 
     (textSequencer, tagSequencer, englishTextSequences, englishTagSequences, tags_to_eval) = preprocess_tags(textDirectory, tagDirectory, addTexts)
@@ -113,19 +117,31 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath):
     unencoded_tags = tagSequencer.sequences
 
     print(np.shape(text_sequences), np.shape(tag_sequences[0]), np.shape(unencoded_tags))
+    print(np.shape(englishTextSequences), np.shape(englishTagSequences[0]))
     print(textSequencer.maxlen)
 
     # print('Number of Tokens:', tags_to_eval.numNArg + tags_to_eval.numClaim + tags_to_eval.numPremise)
     # print('Number of Claims Tokens:', tags_to_eval.numClaim)
     # print('Number of Premises Tokens:', tags_to_eval.numPremise)
 
+    # print('model_type:', model_type) #debug
     trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
-    trainer.create_model()
-    # trainer.create_baseline_model()
+    if model_type == 'baseline':
+        trainer.create_baseline_model()
+    elif model_type == 'crf_dist':
+        trainer.create_model()
+    elif model_type == 'dual':
+        baseline_trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
+        baseline_trainer.save_weights = True
+        baseline_trainer.create_baseline_model()
+        baseline_trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, 'baseline')
+        trainer.save_weights = True
+        trainer.create_model()
+        model_type = 'crf_dist'
 
     startTime = datetime.datetime.now().replace(microsecond=0)
 
-    trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags)
+    trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, model_type)
 
     endTime = datetime.datetime.now().replace(microsecond=0)
     timeTaken = endTime - startTime
@@ -139,10 +155,12 @@ def main():
     parser = argparse.ArgumentParser(description='Train and evaluate the argumentation mining models')
     parser.add_argument('model_name', type=str, default='', help='The abbreviature of the model to test: FtEn; FtPt; MSuEn; MUnEn; VMSuEn; VMUnEn; MSuPt; MUnPt; VMSuPt; VMUnPt; MSuEnPt; MUnEnPt; VMSuEnPt; VMUnEnPt')
     parser.add_argument('--cuda', type=bool_flag, default=False, help="Run on GPU")
+    parser.add_argument('model_type', type=str, default='crf_dist', help='Type of model: baseline, crf_dist or dual')
 
     args = parser.parse_args()
 
     assert args.model_name in ["FtEn", "FtPt", "MSuEn", "MUnEn", "VMSuEn", "VMUnEn", "MSuPt", "MUnPt", "VMSuPt", "VMUnPt", "MSuEnPt", "MUnEnPt", "VMSuEnPt", "VMUnEnPt"]
+    assert args.model_type in ['baseline', 'crf_dist', 'dual']
 
     # newDirectory = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(6))
     # dumpPath = r'Dumps/' + newDirectory
@@ -182,10 +200,10 @@ def main():
 
     if args.cuda:
         with tf.device('/gpu:0'):
-            fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath)
+            fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath, args.model_type)
     else:
         with tf.device('/cpu:0'):
-            fullSequence(textDirectory,tagDirectory, addTexts, embeddings, dumpPath)
+            fullSequence(textDirectory,tagDirectory, addTexts, embeddings, dumpPath, args.model_type)
 
 
 if __name__ == '__main__':

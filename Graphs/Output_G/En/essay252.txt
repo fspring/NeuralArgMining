@@ -1,31 +1,80 @@
 digraph G {
-	96 -> 79;
-	276 -> 267;
-	306 -> 274;
+	218 -> 96;
+	112 -> 228;
+	127 -> 228;
+	140 -> 228;
+	148 -> 228;
+	166 -> 228;
+	218 -> 228;
+	277 -> 376;
 	293 -> 376;
-	306 -> 376;
-	334 -> 376;
-	364 -> 376;
-	79 [label="it's very
- suitable for children to develop
- senses of music and art
- when they are young",color=green];
+	306 -> 364;
+	333 -> 364;
 	96 [label="children absorb things quickly and
  they bear exact the ability
  needed in music and art-imagination
+",color=green];
+	218 [label="they are essential
+ to our spiritual life",color=blue];
+	112 [label="music and art are
+ not like math or language
+ which has more strict rules
 ",color=blue];
-	267 [label="parents shouldn't put so
- much stress",color=green];
-	276 [label="since learning too many skills
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	127 [label="they are more abstract
+ , requiring creativity and imagination
+ to be enriched",color=blue];
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	140 [label="children are privileged to have these
+ abilities",color=blue];
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	148 [label="they are given
+ more freedom and their imagination
+ has not yet been killed
+ due to reality circumstances",color=blue];
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	166 [label="even if their performances are
+ just some simple drawings and
+ melodies , music and art
+ still bring out children's joy
+ of flying in imagination",color=blue];
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	218 [label="they are essential
+ to our spiritual life",color=blue];
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	277 [label="learning too many skills
  seems to be a burden
  for them",color=blue];
-	274 [label="children",color=green];
-	306 [label="if parents push their 5
- years old child to play
- piano 8 hours a day
- just like a professional performer
- , that might be too
- much",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art and they
+ are indeed valuable to people
+ not only in their young
+ stage",color=green];
 	293 [label="it depends on
  how you value these learning
  activities to be like",color=blue];
@@ -34,7 +83,6 @@ digraph G {
  music and art and they
  are indeed valuable to people
  not only in their young
- stage , but in every
  stage",color=green];
 	306 [label="if parents push their 5
  years old child to play
@@ -42,34 +90,16 @@ digraph G {
  just like a professional performer
  , that might be too
  much",color=blue];
-	376 [label="young age is the perfect
- time for children to learn
- music and art and they
- are indeed valuable to people
- not only in their young
- stage , but in every
- stage",color=green];
-	334 [label="a child
+	364 [label="it will
+ not be such pressure on
+ children",color=green];
+	333 [label="in a child
  stage , music and art
  are more like an open
  door to introduce the art
  world than training area to
  acquire specific skills",color=blue];
-	376 [label="young age is the perfect
- time for children to learn
- music and art and they
- are indeed valuable to people
- not only in their young
- stage , but in every
- stage",color=green];
 	364 [label="it will
  not be such pressure on
- children",color=blue];
-	376 [label="young age is the perfect
- time for children to learn
- music and art and they
- are indeed valuable to people
- not only in their young
- stage , but in every
- stage",color=green];
+ children",color=green];
 }

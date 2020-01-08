@@ -1,20 +1,60 @@
 digraph G {
-	80 -> 77;
-	118 -> 79;
-	266 -> 341;
-	77 [label="at",color=green];
-	80 [label="what you are good at helps
+	79 -> 69;
+	216 -> 332;
+	234 -> 332;
+	266 -> 332;
+	282 -> 332;
+	290 -> 332;
+	313 -> 332;
+	69 [label="you should
+ focus on what you are
+ good at",color=green];
+	79 [label="focusing what
+ you are good at helps
  you attain your goal",color=blue];
-	79 [label="focusing",color=green];
-	118 [label=", albert einstein
- , one of the most
- competent physicians in history ,
- devoted most of his life
- to develop theory in physics
- and finally established special and
- general relativity",color=blue];
+	216 [label="if you keep doing what
+ you already do well ,
+ you can be better good
+ at it",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
+",color=green];
+	234 [label="when you're
+ doing something well , you
+ will feel more satisfied and
+ more interested in it",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
+",color=green];
 	266 [label="i used to be good
  at math when i was
  in junior high school",color=blue];
-	341 [label="will be better",color=green];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
+",color=green];
+	282 [label="i was really satisfied
+ with the fact that",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
+",color=green];
+	290 [label="i could do preferably , i
+ became to absorb myself to
+ try more advanced level of
+ math problems",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
+",color=green];
+	313 [label="i could not
+ only get higher scores in
+ math test but also solve
+ the university-level problems",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
+",color=green];
 }

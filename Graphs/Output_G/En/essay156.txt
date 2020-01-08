@@ -1,35 +1,66 @@
 digraph G {
-	76 -> 37;
-	54 -> 191;
-	144 -> 160;
-	214 -> 191;
-	257 -> 273;
-	37 [label="violence in movies has
- negative effects on youngsters mostly
- on their behaviors , emotions
- & study",color=green];
+	59 -> 119;
+	76 -> 119;
+	85 -> 119;
+	102 -> 119;
+	131 -> 159;
+	144 -> 159;
+	202 -> 257;
+	227 -> 257;
+	240 -> 257;
+	59 [label="children behaviors
+ are the most concerning matter
+ which parents are always trying
+ to do their best",color=blue];
+	119 [label="unexpectedly the
+ violent behavior has effected on
+ child’s behaviors",color=green];
 	76 [label="nowadays children are more involved
  in tv programs",color=blue];
-	54 [label="in",color=blue];
-	191 [label="study of youngsters shall always
- been controlled",color=green];
-	144 [label="dying is
- always a disappointing happening",color=blue];
-	160 [label="these scenes are in tv ,
+	119 [label="unexpectedly the
+ violent behavior has effected on
+ child’s behaviors",color=green];
+	85 [label="imagine an actor who is a
+ child’s favorite is doing violent
+ roles",color=blue];
+	119 [label="unexpectedly the
+ violent behavior has effected on
+ child’s behaviors",color=green];
+	102 [label="the child would imitate
+ the actor's behaviors in order
+ to look like to him
+",color=blue];
+	119 [label="unexpectedly the
+ violent behavior has effected on
+ child’s behaviors",color=green];
+	131 [label="human beings are very sensitive
+ , especially of youngsters",color=blue];
+	159 [label="if these
+ scenes are in tv ,
  they would probably have their
  negative effects on the viewer
  who could be a child
 ",color=green];
-	191 [label="study of youngsters shall always
- been controlled",color=green];
-	214 [label="he has
- to study for the exam
-",color=blue];
+	144 [label="dying is
+ always a disappointing happening",color=blue];
+	159 [label="if these
+ scenes are in tv ,
+ they would probably have their
+ negative effects on the viewer
+ who could be a child
+",color=green];
+	202 [label="a child watches a
+ frightening movie",color=blue];
 	257 [label="the study of a
- youngster would affected terribly",color=blue];
-	273 [label="that growing of
- violence in films have definitely
- negative effects on youngsters mostly
- on their study , emotions
- and behaviors",color=green];
+ youngster would affected terribly",color=green];
+	227 [label="he is thinking about
+ the movie or whatever has
+ happened in it ,",color=blue];
+	257 [label="the study of a
+ youngster would affected terribly",color=green];
+	240 [label="it is obvious that he wouldn’t
+ be able to concentrate on
+ his study perfectly",color=blue];
+	257 [label="the study of a
+ youngster would affected terribly",color=green];
 }

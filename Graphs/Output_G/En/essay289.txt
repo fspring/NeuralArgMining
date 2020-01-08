@@ -1,51 +1,107 @@
 digraph G {
-	29 -> 57;
-	83 -> 128;
-	126 -> 128;
-	194 -> 300;
-	266 -> 330;
-	299 -> 300;
-	348 -> 349;
-	29 [label="teachers could
- amplify their",color=blue];
+	70 -> 57;
+	70 -> 126;
+	83 -> 150;
+	106 -> 150;
+	160 -> 240;
+	169 -> 331;
+	177 -> 331;
+	195 -> 331;
+	208 -> 331;
+	217 -> 331;
+	223 -> 331;
+	251 -> 240;
+	251 -> 331;
+	267 -> 297;
+	348 -> 376;
+	355 -> 376;
 	57 [label="students should be asked
  to evaluate their teachers",color=green];
+	70 [label="evaluating teachers made by students could
+ improve teachers' performance",color=blue];
+	70 [label="evaluating teachers made by students could
+ improve teachers' performance",color=blue];
+	126 [label="teachers could improve themselves by
+ speaking slower to make sure
+ that students could get all
+ information that they want to
+ give",color=green];
 	83 [label="evaluation made by
  students is similar to feedback
  from customer that business owners
  need to know in order
  to improve their product",color=blue];
-	128 [label="improve themselves by
- speaking slower to make sure
- that students could get all
- information that they want",color=green];
-	126 [label="teachers could",color=blue];
-	128 [label="improve themselves by
- speaking slower to make sure
- that students could get all
- information that they want",color=green];
-	194 [label=", in
- many cooperation such as microsoft
+	150 [label="evaluating from students could improve teachers'
+ performance",color=green];
+	106 [label="students might complain about their
+ teachers spoke too fast that
+ students could not catch up
+ on information",color=blue];
+	150 [label="evaluating from students could improve teachers'
+ performance",color=green];
+	160 [label="this evaluation from students could improve
+ schools' quality",color=blue];
+	240 [label="people who get the most advantage
+ from evaluation is students",color=green];
+	169 [label="teachers could
+ augment their quality",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	177 [label="when school gather teachers
+ that have great performance ,
+ school are gaining higher quality
+",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	195 [label="in many cooperation such as microsoft
  that could produce many great
- products because they have employees
+ products",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	208 [label="they have employees
  whose performance are very high
 ",color=blue];
-	300 [label="study from great schools which have
- great performance teacher",color=green];
-	266 [label="because teachers are always adapt
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	217 [label="schools could produce intellectual
+ students",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	223 [label="school have teachers
+ who are always improve their
+ quality from evaluation made by
+ students",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	240 [label="people who get the most advantage
+ from evaluation is students",color=green];
+	251 [label="students could study in class
+ that have teachers who have
+ experienced and greater performance",color=blue];
+	251 [label="students could study in class
+ that have teachers who have
+ experienced and greater performance",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	267 [label="teachers are always adapt
  the way they teach in
  order to make students easy
  to understand their subjects ,
  students could comprehend their subject
  easily",color=blue];
-	330 [label="that school should ask students to
- evaluate their teachers because teachers
- could improve their performance",color=green];
-	299 [label="who",color=blue];
-	300 [label="study from great schools which have
- great performance teacher",color=green];
-	348 [label="schools",color=blue];
-	349 [label="are also
- improve their quality because they
- have high performance teachers",color=green];
+	297 [label="students , who study
+ from great schools which have
+ great performance teacher , graduate
+ with great knowledge to survive
+ in next steps of life
+",color=green];
+	348 [label="schools are also
+ improve their quality",color=blue];
+	376 [label="there are benefits to ask
+ students to evaluate their teachers
+",color=green];
+	355 [label="they have high performance teachers",color=blue];
+	376 [label="there are benefits to ask
+ students to evaluate their teachers
+",color=green];
 }

@@ -1,12 +1,67 @@
 digraph G {
-	116 -> 61;
+	75 -> 61;
+	75 -> 172;
+	95 -> 172;
+	120 -> 172;
+	144 -> 172;
+	187 -> 172;
+	324 -> 393;
 	61 [label="discussion face to face in
  a meeting is much better
- than",color=green];
-	116 [label="the result shows that the
- 1st group used 30 minutes
+ than by emails",color=green];
+	75 [label="an experiment conducted by the beijing
+ university asked two groups of
+ people to discuss the budget
+ of an activity",color=blue];
+	75 [label="an experiment conducted by the beijing
+ university asked two groups of
+ people to discuss the budget
+ of an activity",color=blue];
+	172 [label="work in person can
+ indirectly improve the quality and
+ the efficiency of the project
+",color=green];
+	95 [label="the first group was asked to
+ discuss in person , while
+ the second group was asked
+ to discuss by email",color=blue];
+	172 [label="work in person can
+ indirectly improve the quality and
+ the efficiency of the project
+",color=green];
+	120 [label="the 1st group used 30 minutes
  to reach the agreement on
  the budget , while it
  takes 30 hours for the
  later one",color=blue];
+	172 [label="work in person can
+ indirectly improve the quality and
+ the efficiency of the project
+",color=green];
+	144 [label="the similar
+ experiment done by other scientist
+ show the same result that
+ people can reach an agreement
+ quickly if they could talk
+ to each other",color=blue];
+	172 [label="work in person can
+ indirectly improve the quality and
+ the efficiency of the project
+",color=green];
+	172 [label="work in person can
+ indirectly improve the quality and
+ the efficiency of the project
+",color=green];
+	187 [label="there will be less
+ conflicts or fight amongst the
+ team members",color=blue];
+	324 [label="it is
+ a classroom or campus projects
+ , there is few possibility
+ that the project members are
+ located in different areas",color=blue];
+	393 [label="i prefer the
+ project members to work in
+ person rather them by email
+",color=green];
 }

@@ -1,30 +1,31 @@
 digraph G {
-	79 -> 66;
-	196 -> 176;
-	196 -> 270;
-	219 -> 251;
-	250 -> 251;
-	66 [label="people normally have lots of
- things to do",color=green];
-	79 [label="they donâ€™t
- have much time to spend
- in the kitchen",color=blue];
-	176 [label="prepare that food",color=green];
+	114 -> 239;
+	196 -> 239;
+	219 -> 239;
+	114 [label="if an
+ engineer needs to make a
+ project , but he needs
+ to deliver it tomorrow ,
+ he could save hours preparing
+ a food with the microwave
+ instead of cooking everything from
+ scratch",color=blue];
+	239 [label="ease to
+ prepare food has improved people’s
+ lives",color=green];
 	196 [label="if a guy wants to
  prepare a dinner to his
- girlfriend",color=blue];
-	196 [label="if a guy wants to
- prepare a dinner to his
- girlfriend",color=blue];
-	270 [label="because some industrial foods are very
- bad for their health",color=green];
+ girlfriend , he could just
+ buy some food that comes
+ with instructions",color=blue];
+	239 [label="ease to
+ prepare food has improved people’s
+ lives",color=green];
 	219 [label="normally you
  just need to put it
  into the oven and wait
  some time",color=blue];
-	251 [label="mainly because of the development
- of the technology",color=green];
-	250 [label="happened",color=blue];
-	251 [label="mainly because of the development
- of the technology",color=green];
+	239 [label="ease to
+ prepare food has improved people’s
+ lives",color=green];
 }

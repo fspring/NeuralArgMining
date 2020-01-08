@@ -1,23 +1,56 @@
 digraph G {
-	94 -> 85;
-	304 -> 367;
-	316 -> 354;
-	85 [label="be",color=green];
+	107 -> 94;
+	107 -> 210;
+	136 -> 210;
+	173 -> 210;
+	194 -> 210;
+	220 -> 210;
 	94 [label="a person
  with good manner will give
  others a fine personal impression
+",color=green];
+	107 [label="through those impressions ,
+ a person was easily to
+ get acquired with others and
+ blended with the community that
+ surrounded him as soon as
+ possible",color=blue];
+	107 [label="through those impressions ,
+ a person was easily to
+ get acquired with others and
+ blended with the community that
+ surrounded him as soon as
+ possible",color=blue];
+	210 [label="people will get respect from politeness
+ within each other",color=green];
+	136 [label="i worked in a new
+ company , if i am
+ a guy with good manners
+ and treating everyone well ,
+ my new colleagues will accept
+ me , even then i
+ will be approved by the
+ employers",color=blue];
+	210 [label="people will get respect from politeness
+ within each other",color=green];
+	173 [label="in opposite situation
+ if i am being rude
+ , i can not get
+ along well with each other
 ",color=blue];
-	304 [label="and a
- degree of social civilization depend
- on its people's qualities",color=blue];
-	367 [label="people should be polite
- to others in a such
- busy and crowded world",color=green];
-	316 [label="in order to create a
- better living environment for ourselves
- and our offsprings , our
- behaviors must be asked with
- politeness and good manners",color=blue];
-	354 [label="the reducing
- of criminal rate",color=green];
+	210 [label="people will get respect from politeness
+ within each other",color=green];
+	194 [label="i will
+ be fired and have no
+ other choice but lost my
+ job",color=blue];
+	210 [label="people will get respect from politeness
+ within each other",color=green];
+	210 [label="people will get respect from politeness
+ within each other",color=green];
+	220 [label="politeness and tender words not only
+ can help the speaker to
+ earn a good reputation but
+ also that encourage the listeners
+ who were in need",color=blue];
 }

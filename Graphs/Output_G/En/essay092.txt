@@ -1,7 +1,40 @@
 digraph G {
+	118 -> 64;
+	118 -> 84;
 	118 -> 290;
 	161 -> 290;
+	191 -> 306;
 	261 -> 290;
+	64 [label="fashion trends
+ have a more essential role
+ to play in people's lives
+ than personal dressing styles",color=green];
+	118 [label="when individuals keep
+ the habit of grasping the
+ world's cutting-edge fashion information ,
+ they are gradually changing their
+ attitudes to viewing the world
+ , which means they are
+ more open to accept diverse
+ voices from people around the
+ world",color=blue];
+	84 [label="following fashion
+ trends enables people to keep
+ up with the world's latest
+ transformations , which is of
+ vital importance if we consider
+ the fact that people are
+ living in a global village
+ today",color=green];
+	118 [label="when individuals keep
+ the habit of grasping the
+ world's cutting-edge fashion information ,
+ they are gradually changing their
+ attitudes to viewing the world
+ , which means they are
+ more open to accept diverse
+ voices from people around the
+ world",color=blue];
 	118 [label="when individuals keep
  the habit of grasping the
  world's cutting-edge fashion information ,
@@ -19,6 +52,14 @@ digraph G {
  conservative in their own worlds
 ",color=blue];
 	290 [label="the world would look monotonous",color=green];
+	191 [label="they might fall behind shortly
+",color=blue];
+	306 [label="people should , especially for
+ ones lacking basic aesthetic knowledge
+ , care more about fashion
+ trends in lives as they
+ can keep pace with the
+ world's changes",color=green];
 	261 [label="individuals purchase their clothes according
  to the latest fashion trends
  , which may result in

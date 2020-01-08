@@ -1,27 +1,46 @@
 digraph G {
-	51 -> 38;
-	51 -> 193;
-	106 -> 81;
-	134 -> 92;
-	106 -> 288;
-	134 -> 288;
-	154 -> 155;
-	179 -> 193;
-	238 -> 323;
-	254 -> 323;
-	273 -> 288;
-	278 -> 288;
-	38 [label="i",color=green];
+	65 -> 51;
+	65 -> 288;
+	77 -> 288;
+	106 -> 323;
+	134 -> 193;
+	155 -> 193;
+	162 -> 227;
+	179 -> 227;
+	238 -> 288;
+	254 -> 288;
 	51 [label="all professors and students need
  to have a modern and
- well-equipped library because , after
- internet , library plays an
+ well-equipped library",color=green];
+	65 [label="after internet , library plays an
  important role in research",color=blue];
-	51 [label="all professors and students need
- to have a modern and
- well-equipped library because , after
- internet , library plays an
+	65 [label="after internet , library plays an
  important role in research",color=blue];
+	288 [label="most sports facilities
+ except buildings are usually can
+ be used in short-time and
+ they are not persistent for
+ a long-time",color=green];
+	77 [label="sport is important ,
+ it does not have the
+ same priority of library has
+",color=blue];
+	288 [label="most sports facilities
+ except buildings are usually can
+ be used in short-time and
+ they are not persistent for
+ a long-time",color=green];
+	106 [label="in my university number of
+ students who use the library
+ is much more than students
+ do sports activities",color=blue];
+	323 [label="they are critical
+ part of universities and a
+ good university has to have
+ a modern library",color=green];
+	134 [label="most libraries
+ are free not for students
+ also for public",color=blue];
 	193 [label="there are good
  ways for sports activities to
  compensate their expenses , but
@@ -29,77 +48,39 @@ digraph G {
  libraries to find a good
  way for have an income
 ",color=green];
-	81 [label="it does not have the
- same priority of library has
-",color=green];
-	106 [label="in my university number of
- students who use the library
- is much more than students
- do sports activities",color=blue];
-	92 [label="in addition only small
- part of students attend sport
- activities",color=green];
-	134 [label="most libraries
- are free not for students
- also for public",color=blue];
-	106 [label="in my university number of
- students who use the library
- is much more than students
- do sports activities",color=blue];
-	288 [label="most sports facilities
- except buildings are usually can
- be used in short-time and
- they are not persistent for
- a long-time",color=green];
-	134 [label="most libraries
- are free not for students
- also for public",color=blue];
-	288 [label="most sports facilities
- except buildings are usually can
- be used in short-time and
- they are not persistent for
- a long-time",color=green];
-	154 [label="but",color=blue];
 	155 [label="sport activities have a good income
- because every sport has different
+",color=blue];
+	193 [label="there are good
+ ways for sports activities to
+ compensate their expenses , but
+ it is very hard for
+ libraries to find a good
+ way for have an income
+",color=green];
+	162 [label="every sport has different
  matches and for each match
  they have a lot sponsors
-",color=green];
+",color=blue];
+	227 [label="investing in libraries has
+ a long-time result",color=green];
 	179 [label="they have
  this chance to sell their
  important matches tickets",color=blue];
-	193 [label="there are good
- ways for sports activities to
- compensate their expenses , but
- it is very hard for
- libraries to find a good
- way for have an income
-",color=green];
+	227 [label="investing in libraries has
+ a long-time result",color=green];
 	238 [label="a library can
  buy a lot of new
  books or they can buy
  more computers",color=blue];
-	323 [label="they are critical
- part of universities and a
- good university has to have
- a modern library",color=green];
-	254 [label="most of
- the library facilities are stable
- and you can use them
- for a long time",color=blue];
-	323 [label="they are critical
- part of universities and a
- good university has to have
- a modern library",color=green];
-	273 [label="in the far
- future ,",color=blue];
 	288 [label="most sports facilities
  except buildings are usually can
  be used in short-time and
  they are not persistent for
  a long-time",color=green];
-	278 [label="they become more
- valuable",color=blue];
+	254 [label="most of
+ the library facilities are stable
+ and you can use them
+ for a long time",color=blue];
 	288 [label="most sports facilities
  except buildings are usually can
  be used in short-time and

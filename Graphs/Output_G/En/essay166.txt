@@ -1,28 +1,73 @@
 digraph G {
-	88 -> 95;
-	128 -> 95;
-	215 -> 299;
-	247 -> 255;
-	88 [label="supply",color=blue];
-	95 [label="can offer me many more vacancies
+	66 -> 92;
+	106 -> 324;
+	123 -> 308;
+	139 -> 203;
+	172 -> 308;
+	185 -> 203;
+	214 -> 203;
+	247 -> 308;
+	282 -> 308;
+	287 -> 308;
+	66 [label="it will be easier for
+ me to find an engineering
+ job in the city",color=blue];
+	92 [label="a big city can
+ offer me many more vacancies
  than a small town",color=green];
-	95 [label="can offer me many more vacancies
- than a small town",color=green];
-	128 [label="cafes and restaurants
+	106 [label="at the weekends , there
+ is a great number of
+ things to do in the
+ metropolis",color=blue];
+	324 [label="i would
+ choose to live in a
+ big city",color=green];
+	123 [label="there are numerous
+ bars , cafes and restaurants
  where i can go with
  my friends",color=blue];
-	215 [label="am keen on museums and it
- would be a pleasure for
- me to spend several hours
- a week in front of
- famous paintings , sculptures or
- artifacts",color=blue];
-	299 [label="small towns
- have picturesque nature and pure
- air , big cities offer
+	308 [label="big cities offer
  countless amount of opportunities and
  entertainment places",color=green];
-	247 [label="city offers free",color=blue];
-	255 [label="everyone who is interested in art
-",color=green];
+	139 [label="multinational cities
+ have restaurants with different national
+ cuisines",color=blue];
+	203 [label="cultural life of
+ a metropolis is always an
+ entertaining one",color=green];
+	172 [label="a night club is
+ an interesting place to visit
+ for young people",color=blue];
+	308 [label="big cities offer
+ countless amount of opportunities and
+ entertainment places",color=green];
+	185 [label="there a person can listen to
+ music , make new friends
+ or enjoy a a drink
+ alone",color=blue];
+	203 [label="cultural life of
+ a metropolis is always an
+ entertaining one",color=green];
+	203 [label="cultural life of
+ a metropolis is always an
+ entertaining one",color=green];
+	214 [label="i am
+",color=blue];
+	247 [label="city offers free exhibitions
+ which are available for everyone
+ who is interested in art
+",color=blue];
+	308 [label="big cities offer
+ countless amount of opportunities and
+ entertainment places",color=green];
+	282 [label="if i feel bad
+ ,",color=blue];
+	308 [label="big cities offer
+ countless amount of opportunities and
+ entertainment places",color=green];
+	287 [label="city can provide a
+ high quality help",color=blue];
+	308 [label="big cities offer
+ countless amount of opportunities and
+ entertainment places",color=green];
 }

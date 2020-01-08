@@ -1,13 +1,105 @@
 digraph G {
-	188 -> 167;
+	72 -> 40;
+	72 -> 58;
+	72 -> 227;
+	84 -> 227;
+	110 -> 227;
+	156 -> 386;
+	179 -> 167;
+	179 -> 227;
+	189 -> 227;
+	203 -> 227;
 	296 -> 386;
+	347 -> 386;
+	40 [label="online classes should never replace classroom
+ learning",color=green];
+	72 [label="in the classroom environment
+ you can learn from your
+ classmates",color=blue];
+	58 [label="classroom learning is
+ the best way to provide
+ education comparing to online classes
+",color=green];
+	72 [label="in the classroom environment
+ you can learn from your
+ classmates",color=blue];
+	72 [label="in the classroom environment
+ you can learn from your
+ classmates",color=blue];
+	227 [label="professors play vital role
+ in classroom learning , most
+ of them are specialists is
+ their subjects , and they
+ help you by giving valuable
+ information and useful skills",color=green];
+	84 [label="if you
+ see any of your classmates
+ who is performing better ,
+ it will force you for
+ making your performance more better
+",color=blue];
+	227 [label="professors play vital role
+ in classroom learning , most
+ of them are specialists is
+ their subjects , and they
+ help you by giving valuable
+ information and useful skills",color=green];
+	110 [label="when i was in first year
+ in b com , i
+ was not serious in my
+ study , but when i
+ saw some of my friends
+ who took better grades than
+ me , it influenced me
+ and i intended to do
+ better in my subjects",color=blue];
+	227 [label="professors play vital role
+ in classroom learning , most
+ of them are specialists is
+ their subjects , and they
+ help you by giving valuable
+ information and useful skills",color=green];
+	156 [label="finally i got 1st rank
+ in final exam",color=blue];
+	386 [label="the classroom learning is the
+ best way to provide education
+ for these reasons",color=green];
 	167 [label="in classroom learning you
  have to complete study work
  on time",color=green];
-	188 [label="moreover you can
+	179 [label="it makes
+ you perfect in time management
+ skills",color=blue];
+	179 [label="it makes
+ you perfect in time management
+ skills",color=blue];
+	227 [label="professors play vital role
+ in classroom learning , most
+ of them are specialists is
+ their subjects , and they
+ help you by giving valuable
+ information and useful skills",color=green];
+	189 [label="you can
  learn by participating in group
  studies how to communicate with
  others",color=blue];
+	227 [label="professors play vital role
+ in classroom learning , most
+ of them are specialists is
+ their subjects , and they
+ help you by giving valuable
+ information and useful skills",color=green];
+	203 [label="it makes you
+ communication and of course your
+ group skills better , which
+ can help you in your
+ future and career",color=blue];
+	227 [label="professors play vital role
+ in classroom learning , most
+ of them are specialists is
+ their subjects , and they
+ help you by giving valuable
+ information and useful skills",color=green];
 	296 [label="for toefl ibt coaching first
  i was depend on some
  online courses , but after
@@ -21,5 +113,14 @@ digraph G {
 ",color=blue];
 	386 [label="the classroom learning is the
  best way to provide education
- for",color=green];
+ for these reasons",color=green];
+	347 [label="it's undeniable that online
+ classes have some advantages so
+ they could be used as
+ supplementary , but they could
+ not be substitute of existing
+ classroom learning",color=blue];
+	386 [label="the classroom learning is the
+ best way to provide education
+ for these reasons",color=green];
 }

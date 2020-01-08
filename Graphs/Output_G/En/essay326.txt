@@ -1,31 +1,10 @@
 digraph G {
-	53 -> 46;
-	53 -> 50;
-	64 -> 52;
-	265 -> 322;
-	278 -> 322;
-	46 [label="computers have an",color=green];
-	53 [label="in economic ,
+	67 -> 46;
+	46 [label="computers have an important and
+ inevitable role in economic ,
  business , and other part
- of societies",color=blue];
-	50 [label="and",color=green];
-	53 [label="in economic ,
- business , and other part
- of societies",color=blue];
-	52 [label="role",color=green];
-	64 [label="in addition
- , they make the way
+ of societies",color=green];
+	67 [label="they make the way
  of living easier by doing
  our routine duties",color=blue];
-	265 [label="by contrast , excessive use of
- computers has brought many difficulties
-",color=blue];
-	322 [label="benefit more from coming
- computers into their lives",color=green];
-	278 [label="results show that
- teenagers who are addicted to
- computer games show more violent
- and stressful behaviors",color=blue];
-	322 [label="benefit more from coming
- computers into their lives",color=green];
 }

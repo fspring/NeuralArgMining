@@ -1,28 +1,41 @@
 digraph G {
-	87 -> 66;
-	87 -> 274;
-	124 -> 274;
-	135 -> 274;
+	77 -> 48;
+	92 -> 66;
+	77 -> 274;
+	92 -> 274;
+	135 -> 337;
 	169 -> 274;
-	185 -> 274;
-	195 -> 274;
-	198 -> 274;
-	212 -> 274;
-	219 -> 274;
-	256 -> 274;
-	66 [label="many university authorities provide music
- lessons for their students so
- that they live and study
+	185 -> 337;
+	219 -> 329;
+	242 -> 274;
+	285 -> 337;
+	48 [label="music has a
+ great power which can positively
+ influence on human being and
+ its psychology",color=green];
+	77 [label="they live and study
  in a harmony with music
-",color=green];
-	87 [label="i",color=blue];
-	87 [label="i",color=blue];
+",color=blue];
+	66 [label="many university authorities provide music
+ lessons for their students",color=green];
+	92 [label="students , who spend
+ a great deal of their
+ time studying different academic subjects
+ should have an opportunity to
+ cope with the stress gained
+ during school time",color=blue];
+	77 [label="they live and study
+ in a harmony with music
+",color=blue];
 	274 [label="music and
  other entertaining subjects should be
  optional",color=green];
-	124 [label="music can
- be a useful and interesting
- solution",color=blue];
+	92 [label="students , who spend
+ a great deal of their
+ time studying different academic subjects
+ should have an opportunity to
+ cope with the stress gained
+ during school time",color=blue];
 	274 [label="music and
  other entertaining subjects should be
  optional",color=green];
@@ -32,9 +45,9 @@ digraph G {
  the group , which is
  , of course , beneficial
  in their future life",color=blue];
-	274 [label="music and
- other entertaining subjects should be
- optional",color=green];
+	337 [label="students must know their
+ field in an advanced level
+",color=green];
 	169 [label="students with
  a quite poor academic background
  can show themselves in the
@@ -44,34 +57,25 @@ digraph G {
  optional",color=green];
 	185 [label="the calm atmosphere in the class
  might be created",color=blue];
-	274 [label="music and
- other entertaining subjects should be
- optional",color=green];
-	195 [label="by",color=blue];
-	274 [label="music and
- other entertaining subjects should be
- optional",color=green];
-	198 [label="it is",color=blue];
-	274 [label="music and
- other entertaining subjects should be
- optional",color=green];
-	212 [label="in our hectic life
- ,",color=blue];
-	274 [label="music and
- other entertaining subjects should be
- optional",color=green];
+	337 [label="students must know their
+ field in an advanced level
+",color=green];
 	219 [label="demand is
  not for musically orientated students
  , but for academically developed
  employees",color=blue];
+	329 [label="in order
+",color=green];
+	242 [label="music is the art
+ which requires special attitude towards
+ it",color=blue];
 	274 [label="music and
  other entertaining subjects should be
  optional",color=green];
-	256 [label="students can not obtain supposed
- impacts , unless they get
- interested in it more seriously
+	285 [label="time is the most valuable thing
+ in life with increased pace
 ",color=blue];
-	274 [label="music and
- other entertaining subjects should be
- optional",color=green];
+	337 [label="students must know their
+ field in an advanced level
+",color=green];
 }

@@ -1,21 +1,29 @@
 digraph G {
-	100 -> 300;
-	121 -> 300;
-	152 -> 300;
+	100 -> 74;
+	100 -> 283;
+	121 -> 283;
+	152 -> 283;
 	179 -> 166;
-	179 -> 300;
-	200 -> 283;
-	250 -> 283;
-	270 -> 283;
+	179 -> 212;
+	196 -> 283;
+	74 [label="human being
+ has driven many animals for
+ their personal use such as
+ , cows and other milch
+ animals for yielding milk from
+ them",color=green];
 	100 [label="other animals such as , horses
  , cattles and donkeys for
  farming , agriculture and as
  a mode of transportation",color=blue];
-	300 [label="animal rights are meant to set
- limits on human behavior and
- manipulation of them should be
- punished as a serious crime
-",color=green];
+	100 [label="other animals such as , horses
+ , cattles and donkeys for
+ farming , agriculture and as
+ a mode of transportation",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
 	121 [label="many people keep pets like
  dogs and cats , trained
  them as service dogs and
@@ -23,18 +31,16 @@ digraph G {
  helpful to police force and
  even to some blind peoples
 ",color=blue];
-	300 [label="animal rights are meant to set
- limits on human behavior and
- manipulation of them should be
- punished as a serious crime
-",color=green];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
 	152 [label="they are kept for
  security purposes in houses",color=blue];
-	300 [label="animal rights are meant to set
- limits on human behavior and
- manipulation of them should be
- punished as a serious crime
-",color=green];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
 	166 [label="many farmers and owners exploit
  animals beyond their limits",color=green];
 	179 [label="cows are
@@ -45,27 +51,14 @@ digraph G {
  often injected by oxytocin ,
  a hormone which is used
  to forcibly increase lactation",color=blue];
-	300 [label="animal rights are meant to set
- limits on human behavior and
- manipulation of them should be
- punished as a serious crime
+	212 [label="thousand of animals undergo
+ painful suffering or death as
+ a result of scientific research
+ of drugs and various products
 ",color=green];
-	200 [label="causes lots of discomfort and pain
+	196 [label="this in turn , causes
+ lots of discomfort and pain
  to the cattle",color=blue];
-	283 [label="human being should
- behave as a guardian to
- animals rather than as their
- lord or masters",color=green];
-	250 [label="equestrian sport where horses run miles
- and miles and beaten up
- by jockeys to make them
- run more faster",color=blue];
-	283 [label="human being should
- behave as a guardian to
- animals rather than as their
- lord or masters",color=green];
-	270 [label="and above all pleasure hunting of
- defenseless animals",color=blue];
 	283 [label="human being should
  behave as a guardian to
  animals rather than as their

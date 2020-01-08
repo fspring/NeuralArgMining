@@ -1,29 +1,8 @@
 digraph G {
-	69 -> 59;
-	236 -> 209;
-	300 -> 370;
-	333 -> 365;
-	59 [label="so",color=green];
-	69 [label="the scenario
- students relief themselves",color=blue];
-	209 [label="scientific",color=green];
-	236 [label="an instance , in my
- school we used to get
- several vacations after our quarterly
- exams",color=blue];
-	300 [label="during my all vacations , i
- used to miss my school
- due to which i used
- to restart my session with
- great enthusiasm of learning and
- scoring good marks in new
- quarter",color=blue];
-	370 [label="heel stressful mind and boost desire
- of resuming to the regular
- schedule",color=green];
-	333 [label="vacations are not
- only required by students but
- also by professionals and housekeepers
+	120 -> 95;
+	95 [label="several vacations throughout the year will
+ keep stress level of students
+ low",color=green];
+	120 [label="student's get relief form exam pressure
 ",color=blue];
-	365 [label="some time on themselves",color=green];
 }

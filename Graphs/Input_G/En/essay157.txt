@@ -57,7 +57,7 @@ digraph G {
 	154 [label="it is very important to know
  facts about some events or
  problem , not only estimations
-",color=blue];
+ ",color=blue];
 	203 [label="you have
  to look through different sources
  before you manage to find
@@ -108,7 +108,7 @@ digraph G {
  influence",color=green];
 	280 [label="The gossip-based information dramatically influenced
  the prices and only after
- official announcement the "salt-panic" was
+ official announcement the salt-panic was
  over",color=blue];
 	305 [label="it is very important to
  be confident of the information

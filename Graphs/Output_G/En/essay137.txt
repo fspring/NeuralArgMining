@@ -1,61 +1,10 @@
 digraph G {
-	96 -> 175;
-	117 -> 175;
-	130 -> 175;
-	156 -> 175;
-	204 -> 175;
-	196 -> 269;
+	92 -> 66;
 	204 -> 269;
-	233 -> 269;
-	96 [label="these emotions are shared locally
- in our village or city
- , nationally in our own
- country but even internationally too
-",color=blue];
-	175 [label="if the general atmosphere during the
- show is peaceful and fraternal
- , the reality is different
+	66 [label="world sport events provide positive
+ waves for number of people
 ",color=green];
-	117 [label="obviously these events gather
- people and their nationalist pride
- feeling is increased",color=blue];
-	175 [label="if the general atmosphere during the
- show is peaceful and fraternal
- , the reality is different
-",color=green];
-	130 [label="for example , the football world
- cup taking place every four
- years is a very followed
- event during which everyone is
- having fun",color=blue];
-	175 [label="if the general atmosphere during the
- show is peaceful and fraternal
- , the reality is different
-",color=green];
-	156 [label="these sports events are not
- essential in other issues such
- as politics or other international
- affairs",color=blue];
-	175 [label="if the general atmosphere during the
- show is peaceful and fraternal
- , the reality is different
-",color=green];
-	175 [label="if the general atmosphere during the
- show is peaceful and fraternal
- , the reality is different
-",color=green];
-	204 [label="after the
- olympics games are finished ,
- everything came back to normal
- and all the game competition
- is forgotten by the majority
-",color=blue];
-	196 [label="this is the "calm before
- the storm"",color=blue];
-	269 [label="an international
- sports event is a very
- good thing to gather people
-",color=green];
+	92 [label="their favorite team",color=blue];
 	204 [label="after the
  olympics games are finished ,
  everything came back to normal
@@ -65,17 +14,7 @@ digraph G {
 	269 [label="an international
  sports event is a very
  good thing to gather people
-",color=green];
-	233 [label="putin was pleased
- to open the last winter
- olympic games and gather international
- countries , but actually it
- has been just facade and
- putin didn't listen international warning
- after he conquered the crimea
-",color=blue];
-	269 [label="an international
- sports event is a very
- good thing to gather people
-",color=green];
+ , let them dream ,
+ being proud of their nationality
+ and forget problems",color=green];
 }

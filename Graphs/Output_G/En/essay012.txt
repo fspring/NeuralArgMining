@@ -1,11 +1,11 @@
 digraph G {
 	68 -> 53;
-	68 -> 304;
-	117 -> 221;
-	177 -> 200;
-	235 -> 304;
-	252 -> 304;
-	274 -> 304;
+	68 -> 325;
+	115 -> 325;
+	155 -> 200;
+	235 -> 220;
+	235 -> 325;
+	274 -> 325;
 	53 [label="email can be
  count as one of the
  most beneficial results of modern
@@ -30,11 +30,9 @@ digraph G {
  many accidents may cause problem
  that the post could not
  be delivered",color=blue];
-	304 [label="biomedical engineers
- can make artificial heart valves
- which works well and doctors
- can implant them easily",color=green];
-	117 [label="all people can take
+	325 [label="technology has helped us to have
+ more comfortable life",color=green];
+	115 [label="nowadays , all people can take
  advantage of internet to have
  their own email free ,
  and send their emails to
@@ -42,42 +40,31 @@ digraph G {
  besides they can be sure
  if their emails have been
  delivered or not",color=blue];
-	221 [label="technological innovations which help people
- around the world is related
- to medical equipments",color=green];
-	177 [label="not only with the
- help of sending email ,
- but also using credit cards
- to pay all necessary fees
- online",color=blue];
+	325 [label="technology has helped us to have
+ more comfortable life",color=green];
+	155 [label="another important aspect on technology is
+ transferring money",color=blue];
 	200 [label="with the advent of internet and
  online paying systems , you
  can do many thing at
  your home easily",color=green];
+	220 [label="another technological innovations which help people
+ around the world is related
+ to medical equipments",color=green];
 	235 [label="biomedical engineers could make a significant
  effect on increasing life expectancy
  the world",color=blue];
-	304 [label="biomedical engineers
- can make artificial heart valves
- which works well and doctors
- can implant them easily",color=green];
-	252 [label="one of their inventions
- was related to artificial heart
- valves which can be count
- as a turning point in
- heart surgeries",color=blue];
-	304 [label="biomedical engineers
- can make artificial heart valves
- which works well and doctors
- can implant them easily",color=green];
+	235 [label="biomedical engineers could make a significant
+ effect on increasing life expectancy
+ the world",color=blue];
+	325 [label="technology has helped us to have
+ more comfortable life",color=green];
 	274 [label="in the
  past time doctors used pig
  heart's valve to implant ,
  but the patient could not
  be alive more than 3
  years after the replacement",color=blue];
-	304 [label="biomedical engineers
- can make artificial heart valves
- which works well and doctors
- can implant them easily",color=green];
+	325 [label="technology has helped us to have
+ more comfortable life",color=green];
 }

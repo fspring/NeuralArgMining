@@ -1,40 +1,76 @@
 digraph G {
-	134 -> 90;
-	144 -> 108;
-	144 -> 112;
-	169 -> 120;
-	167 -> 226;
-	255 -> 226;
-	90 [label="professional life",color=green];
+	134 -> 215;
+	169 -> 215;
+	182 -> 215;
+	258 -> 339;
+	280 -> 339;
+	307 -> 339;
 	134 [label="by working
  too long , they often
- become tired",color=blue];
-	108 [label="of us",color=green];
-	144 [label="lazy and
+ become tired , lazy and
  reluctant to carry out physical
  exercise in order to remain
  fit and healthy and eventually
  loose health and become sick
 ",color=blue];
-	112 [label="to the fact that
- people",color=green];
-	144 [label="lazy and
- reluctant to carry out physical
- exercise in order to remain
- fit and healthy and eventually
- loose health and become sick
-",color=blue];
-	120 [label="working",color=green];
+	215 [label="these workaholic people do not spend
+ time for the contribution of
+ society by actively participating in
+ any social campaign",color=green];
 	169 [label="they become
  extensively addicted to their work
  and become workaholic type persons
 ",color=blue];
-	167 [label="moreover",color=blue];
-	226 [label="society",color=green];
-	226 [label="society",color=green];
-	255 [label="for instance , i would take
+	215 [label="these workaholic people do not spend
+ time for the contribution of
+ society by actively participating in
+ any social campaign",color=green];
+	182 [label="the repercussion are so
+ severe that their families and
+ friends remain deprived off their
+ attention and in the end
+ they end up losing balance
+ between their family and personal
+ life",color=blue];
+	215 [label="these workaholic people do not spend
+ time for the contribution of
+ society by actively participating in
+ any social campaign",color=green];
+	258 [label="i would take
  my boss's example ; he
  has been working for extended
  hours in office for many
  years",color=blue];
+	339 [label="government must
+ include the clause of maximum
+ number of working hours in
+ its labor law and enforce
+ to all companies for ensuring
+ their employees do not spend
+ extended hours in companies",color=green];
+	280 [label="his health and personal life was
+ drastically affected as he broke
+ up with his wife and
+ his family life has totally
+ been in chaos and cries
+",color=blue];
+	339 [label="government must
+ include the clause of maximum
+ number of working hours in
+ its labor law and enforce
+ to all companies for ensuring
+ their employees do not spend
+ extended hours in companies",color=green];
+	307 [label="he started regretting afterwards
+ and now trying to manage
+ his work but it seems
+ to be too late for
+ him",color=blue];
+	339 [label="government must
+ include the clause of maximum
+ number of working hours in
+ its labor law and enforce
+ to all companies for ensuring
+ their employees do not spend
+ extended hours in companies",color=green];
 }

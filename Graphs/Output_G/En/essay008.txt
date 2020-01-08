@@ -1,11 +1,23 @@
 digraph G {
-	216 -> 250;
+	191 -> 313;
+	216 -> 247;
+	191 [label="for higher education , which
+ represent the cutting edge of
+ a country's academic achievements ,
+ act as the vanguard in
+ economic and social advance",color=blue];
+	313 [label="a government should
+ spare effort on young children
+ education as well as universities
+ , both are crucial on
+ the way to a brighter
+ future",color=green];
 	216 [label="the high technology and new
  ideas applied into practice may
  not only lead a country
  to flourish but also elevate
  its status in the international
  community",color=blue];
-	250 [label="themselve well by donation or invention
-",color=green];
+	247 [label="universities can support themselve
+ well by",color=green];
 }

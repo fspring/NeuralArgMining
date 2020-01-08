@@ -1,69 +1,70 @@
 digraph G {
-	138 -> 107;
-	172 -> 347;
-	193 -> 347;
-	242 -> 294;
-	286 -> 285;
-	316 -> 294;
-	316 -> 312;
+	121 -> 102;
+	121 -> 282;
+	138 -> 282;
+	172 -> 206;
+	216 -> 206;
+	216 -> 347;
+	316 -> 240;
+	294 -> 347;
 	316 -> 347;
-	107 [label="attending class is more
+	102 [label="in terms of learning
+ , attending class is more
  effective than simply studying alone
  to pass the exams",color=green];
+	121 [label="classes are designed diligently for
+ the students and professors absolutely
+ bear more knowledge than the
+ students",color=blue];
+	121 [label="classes are designed diligently for
+ the students and professors absolutely
+ bear more knowledge than the
+ students",color=blue];
+	282 [label="this is",color=green];
 	138 [label="professors not only
  have the knowledge , but
  also equip with experiences ,
  knowing how to guide their
  students toward their academic achievements
 ",color=blue];
+	282 [label="this is",color=green];
 	172 [label="attending class is the
  most persuasive way for the
  students to show respect to
  the professor as well as
  themselves",color=blue];
+	206 [label="class attendances are regarded as
+ critical as examination performances",color=green];
+	206 [label="class attendances are regarded as
+ critical as examination performances",color=green];
+	216 [label="those who even achieve high
+ scores on exams could fail
+ if they didn't show up
+ in the classes",color=blue];
+	216 [label="those who even achieve high
+ scores on exams could fail
+ if they didn't show up
+ in the classes",color=blue];
 	347 [label="students can learn more
  thoroughly as well as showing
  respect for professors and themselves
  through attending classes",color=green];
-	193 [label="many professors grade
- their students with class attendances
-",color=blue];
+	240 [label="if students already understand the contents
+ on the class enough to
+ pass the exams or they
+ can study the course on
+ their own",color=green];
+	316 [label="even if students believe",color=blue];
+	294 [label="professors can
+ always give students more than
+ students themselves could because of
+ the experiences and their qualifications
+ as professors",color=blue];
 	347 [label="students can learn more
  thoroughly as well as showing
  respect for professors and themselves
  through attending classes",color=green];
-	242 [label="already",color=blue];
-	294 [label="professors can
- always give students more than
- students themselves could because of
- the experiences and their qualifications
-",color=green];
-	285 [label="rather",color=green];
-	286 [label="immodest way of",color=blue];
-	294 [label="professors can
- always give students more than
- students themselves could because of
- the experiences and their qualifications
-",color=green];
-	316 [label="even if students believe that
- they are so brilliant to
- surpass their professors , they
- can still go to the
- classes to discuss with professors
- and classmates",color=blue];
-	312 [label="professors",color=green];
-	316 [label="even if students believe that
- they are so brilliant to
- surpass their professors , they
- can still go to the
- classes to discuss with professors
- and classmates",color=blue];
-	316 [label="even if students believe that
- they are so brilliant to
- surpass their professors , they
- can still go to the
- classes to discuss with professors
- and classmates",color=blue];
+	316 [label="even if students believe",color=blue];
 	347 [label="students can learn more
  thoroughly as well as showing
  respect for professors and themselves

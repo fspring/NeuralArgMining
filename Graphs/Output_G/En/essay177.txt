@@ -1,52 +1,106 @@
 digraph G {
-	25 -> 16;
-	105 -> 94;
-	255 -> 182;
-	255 -> 186;
-	255 -> 189;
-	255 -> 246;
+	30 -> 16;
+	25 -> 241;
+	30 -> 241;
+	44 -> 241;
+	58 -> 241;
+	68 -> 241;
+	134 -> 241;
+	153 -> 241;
+	185 -> 171;
+	185 -> 241;
+	205 -> 241;
+	220 -> 241;
+	255 -> 241;
 	284 -> 317;
+	295 -> 317;
 	16 [label="studying at home by using
  technology is convenient",color=green];
-	25 [label="the biggest advantage is that your
- classroom and instructor are available
+	30 [label="your classroom and instructor are available
  24 hours a day",color=blue];
-	94 [label="attending an
- education course at home requires
- persistence and patience",color=green];
-	105 [label="especially when you don't have an
- instructor there to guide you
- , it is up to
- you to make sure that
- you understand and complete all
- course requirements",color=blue];
-	182 [label="traditional",color=green];
+	25 [label="the biggest advantage is that",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	30 [label="your classroom and instructor are available
+ 24 hours a day",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	44 [label="you could
+ make your own schedule for
+ completing the requirements of the
+ course",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	58 [label="you can study
+ any time you want",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	68 [label="if you aren't
+ extremely dedicated or have good
+ time management skills , it
+ may be very difficult to
+ complete a course at home
+",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	134 [label="students may
+ raise questions and they may
+ have problems of understanding some
+ specific topics or subjects",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	153 [label="it may be
+ a predicament when you face
+ some problems in learning without
+ any help",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	171 [label="studying at home is very
+ different from traditional learning",color=green];
+	185 [label="distance education courses don't take place
+ in a classroom , where
+ you are surrounded by your
+ teachers and classmates",color=blue];
+	185 [label="distance education courses don't take place
+ in a classroom , where
+ you are surrounded by your
+ teachers and classmates",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	205 [label="students may find that it is
+ hard to study without being
+ kept under supervision",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	220 [label="if you are the type that
+ gets easily distracted , a
+ distance-learning program may not be
+ for you",color=blue];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
+	241 [label="there is an advantage of
+ traditional school - socialization- establishes
+ relationship with classmates",color=green];
 	255 [label="we can learn a lot from
- programs at home ; however
- , our computers or televisions
- can't teach us how to
- get along with people",color=blue];
-	186 [label="education courses",color=green];
-	255 [label="we can learn a lot from
- programs at home ; however
- , our computers or televisions
- can't teach us how to
- get along with people",color=blue];
-	189 [label="take",color=green];
-	255 [label="we can learn a lot from
- programs at home ; however
- , our computers or televisions
- can't teach us how to
- get along with people",color=blue];
-	246 [label="traditional",color=green];
-	255 [label="we can learn a lot from
- programs at home ; however
- , our computers or televisions
- can't teach us how to
- get along with people",color=blue];
+ programs at home",color=blue];
 	284 [label="students may
  learn how to cooperate with
  classmates from teamwork",color=blue];
+	317 [label="distance education can't replace
+ traditional school",color=green];
+	295 [label="studying alone at home might deprive
+ us of these significant and
+ valuable opportunities",color=blue];
 	317 [label="distance education can't replace
  traditional school",color=green];
 }

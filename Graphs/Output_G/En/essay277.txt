@@ -1,2 +1,52 @@
 digraph G {
+	147 -> 140;
+	147 -> 209;
+	166 -> 209;
+	184 -> 209;
+	253 -> 285;
+	263 -> 285;
+	140 [label="it would improve students' social behavior
+",color=green];
+	147 [label="if students only rely
+ on concepts and ideas theorically
+ , they would not realize
+ human's mind very well",color=blue];
+	147 [label="if students only rely
+ on concepts and ideas theorically
+ , they would not realize
+ human's mind very well",color=blue];
+	209 [label="these way
+ students are teached to control
+ their fears and concerns in
+ facing facts",color=green];
+	166 [label="they should understand objects more
+ that concepts to obtain the
+ ability of analyzing matters well
+",color=blue];
+	209 [label="these way
+ students are teached to control
+ their fears and concerns in
+ facing facts",color=green];
+	184 [label="if they
+ deal more with facts ,
+ they can realize social situations
+ effectively and so improve their
+ social communication in everyday life
+",color=blue];
+	209 [label="these way
+ students are teached to control
+ their fears and concerns in
+ facing facts",color=green];
+	253 [label="concerns and anxieties
+ are very destructive in everybody's
+ life",color=blue];
+	285 [label="learning facts is more beneficial for
+ students in both social and
+ individual life",color=green];
+	263 [label="it can prevent
+ person to progress and thrive
+ in every position",color=blue];
+	285 [label="learning facts is more beneficial for
+ students in both social and
+ individual life",color=green];
 }

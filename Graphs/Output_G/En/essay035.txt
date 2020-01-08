@@ -1,2 +1,44 @@
 digraph G {
+	71 -> 163;
+	101 -> 163;
+	112 -> 163;
+	142 -> 163;
+	71 [label="it is not about the
+ function or quality of the
+ commodities themselves but really the
+ promotion of the good feeling
+ of possessing the product",color=blue];
+	163 [label="advertisements can be
+ falseful and exaggerated , it
+ is also true that it
+ plays and important role economically
+",color=green];
+	101 [label="huge cooperation hire celebrities as
+ the face of their product
+",color=blue];
+	163 [label="advertisements can be
+ falseful and exaggerated , it
+ is also true that it
+ plays and important role economically
+",color=green];
+	112 [label="by casting famous singers
+ in their television advertisement ,
+ motorcycles or clothes for example
+ , sales increase significantly since
+ youngsters , as the target
+ consumers , love celebrities",color=blue];
+	163 [label="advertisements can be
+ falseful and exaggerated , it
+ is also true that it
+ plays and important role economically
+",color=green];
+	142 [label="having these products shows
+ their status , the quality
+ obviously is not relatively important
+",color=blue];
+	163 [label="advertisements can be
+ falseful and exaggerated , it
+ is also true that it
+ plays and important role economically
+",color=green];
 }

@@ -1,33 +1,11 @@
 digraph G {
-	110 -> 67;
-	144 -> 96;
-	144 -> 102;
-	222 -> 244;
-	67 [label="it is",color=green];
-	110 [label="many researchers have convinced that many
- kinds of vegetable contain antioxydant
- which can prevent cancer",color=blue];
-	96 [label="health improvement is the",color=green];
-	144 [label="that a
- meal without meat can lead
- to a lack of protein
- intake , it is proved
- that many kinds of bean
- such as soy bean or
- pea are also comparable protein
- sources",color=blue];
-	102 [label="for vegetarian",color=green];
-	144 [label="that a
- meal without meat can lead
- to a lack of protein
- intake , it is proved
- that many kinds of bean
- such as soy bean or
- pea are also comparable protein
- sources",color=blue];
-	222 [label="it is often said
- that this view is rather
- unscientific",color=blue];
-	244 [label="one's own
- religious practices",color=green];
+	208 -> 239;
+	208 [label="eating their meat
+ mean you eat the flesh
+ of your parent sentient beings
+",color=blue];
+	239 [label="it is
+ vital to follow one's own
+ religious practices which can bring
+ the enlightenment in mind",color=green];
 }

@@ -1,15 +1,115 @@
 digraph G {
-	359 -> 403;
+	67 -> 24;
+	84 -> 48;
+	78 -> 102;
+	84 -> 102;
+	112 -> 349;
+	133 -> 403;
+	160 -> 403;
+	198 -> 403;
+	239 -> 264;
+	245 -> 264;
+	359 -> 349;
+	359 -> 423;
+	371 -> 423;
 	379 -> 423;
-	359 [label="most students
- will do the part-time job
- in their holiday , so
- it will not effect on
- their study",color=blue];
+	24 [label="it is
+ better for parents to encourage
+ them to take part-time jobs
+",color=green];
+	67 [label="most people they contact
+ with are also",color=blue];
+	48 [label="there are a
+ few opportunities for students to
+ know how to live adult
+ life in the university",color=green];
+	84 [label="they can
+ work with many kinds of
+ people , and most of
+ whom are adults",color=blue];
+	78 [label="when students do
+ part-time jobs ,",color=blue];
+	102 [label="they can teach students
+ many things about adult life
+",color=green];
+	84 [label="they can
+ work with many kinds of
+ people , and most of
+ whom are adults",color=blue];
+	102 [label="they can teach students
+ many things about adult life
+",color=green];
+	112 [label="my friend lisa ,
+ who is doing part-time job
+ now , tells me that
+ it is fabulous to take
+ it",color=blue];
+	349 [label="the part-time
+ job will effect student' study
+",color=green];
+	133 [label="through part-time job
+ , she makes friends with
+ different kinds of people and
+ they let her know the
+ different aspects of adult life
+",color=blue];
 	403 [label="taking the part-time
  job can let students experience
  the real adult life and
  know more about it",color=green];
+	160 [label="lisa thought in adult life ,
+ work is the core ;
+ but after she knows these
+ friends , she changes her
+ mind that the true core
+ for the adult life is
+ responsibility but not work",color=blue];
+	403 [label="taking the part-time
+ job can let students experience
+ the real adult life and
+ know more about it",color=green];
+	198 [label="thanks to the
+ information her new friends has
+ provided ; now she is
+ more confidence about her future
+ adult life",color=blue];
+	403 [label="taking the part-time
+ job can let students experience
+ the real adult life and
+ know more about it",color=green];
+	239 [label="we do
+ not experience it ,",color=blue];
+	264 [label="we need
+ part-time job to teach us
+ how hard the real adult
+ life can be",color=green];
+	245 [label="it is very difficult for us
+ to really know how tense
+ the adult life can be
+",color=blue];
+	264 [label="we need
+ part-time job to teach us
+ how hard the real adult
+ life can be",color=green];
+	349 [label="the part-time
+ job will effect student' study
+",color=green];
+	359 [label="most students
+ will do the part-time job
+ in their holiday , so
+",color=blue];
+	359 [label="most students
+ will do the part-time job
+ in their holiday , so
+",color=blue];
+	423 [label="parents should encourage
+ students to take the part-time
+ job",color=green];
+	371 [label="it will not effect on
+ their study",color=blue];
+	423 [label="parents should encourage
+ students to take the part-time
+ job",color=green];
 	379 [label="compared with
  playing computers every day ,
  doing part-time jobs is the

@@ -1,33 +1,61 @@
 digraph G {
-	95 -> 52;
-	95 -> 62;
-	95 -> 68;
-	135 -> 84;
-	135 -> 86;
-	52 [label="although it will take
- some time",color=green];
-	95 [label="basic economic class can help the
- students touch the surface of
- this field , let them
- to know what this subject
- mainly discuss",color=blue];
-	62 [label="school students",color=green];
-	95 [label="basic economic class can help the
- students touch the surface of
- this field , let them
- to know what this subject
- mainly discuss",color=blue];
-	68 [label="on basic economics
+	84 -> 53;
+	84 -> 137;
+	95 -> 187;
+	119 -> 187;
+	151 -> 137;
+	227 -> 187;
+	53 [label="it will take
+ some time on it ,
+ high school students should take
+ a course on basic economics
 ",color=green];
+	84 [label="it can
+ provide students a sense of
+ direction in academy",color=blue];
+	84 [label="it can
+ provide students a sense of
+ direction in academy",color=blue];
+	137 [label="students may study harder
+ for their economic dreams",color=green];
 	95 [label="basic economic class can help the
  students touch the surface of
  this field , let them
  to know what this subject
  mainly discuss",color=blue];
-	84 [label="it",color=green];
-	135 [label="finally , students may study harder
- for their economic dreams",color=blue];
-	86 [label="provide students",color=green];
-	135 [label="finally , students may study harder
- for their economic dreams",color=blue];
+	187 [label="there is also an
+ intimate connection between economy and
+ enterprises , students can also
+ gain knowledge more practical and
+ vivid",color=green];
+	119 [label="that will
+ help the students cultivate their
+ own interest and a sense
+ of career orientation",color=blue];
+	187 [label="there is also an
+ intimate connection between economy and
+ enterprises , students can also
+ gain knowledge more practical and
+ vivid",color=green];
+	137 [label="students may study harder
+ for their economic dreams",color=green];
+	151 [label="economy is always correlate with
+ politics , students can study
+ specialized knowledge along with some
+ politian status , which may
+ open their vision toward the
+ nation and don't get limited
+ in the textbooks",color=blue];
+	187 [label="there is also an
+ intimate connection between economy and
+ enterprises , students can also
+ gain knowledge more practical and
+ vivid",color=green];
+	227 [label="they may feel more
+ readily to learn the knowledge
+ in this field and save
+ much time , with that
+ they are able to study
+ more efficiently and more deeply
+ than other students",color=blue];
 }

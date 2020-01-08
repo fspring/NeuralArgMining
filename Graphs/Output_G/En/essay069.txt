@@ -1,17 +1,20 @@
 digraph G {
-	68 -> 54;
+	54 -> 90;
 	68 -> 90;
-	121 -> 165;
+	121 -> 237;
 	184 -> 165;
+	184 -> 237;
+	212 -> 237;
+	258 -> 237;
 	54 [label="the fairness
  between males and females is
  inevitable in such a developed
- society",color=green];
-	68 [label="gone are the
- days when women could do
- nothing rather than stick to
- boring house work and take
- care of children",color=blue];
+ society",color=blue];
+	90 [label="women nowadays are much more active
+ , they may be successful
+ businessmen , they join the
+ political world , they become
+ scientists and so on",color=green];
 	68 [label="gone are the
  days when women could do
  nothing rather than stick to
@@ -30,10 +33,9 @@ digraph G {
  other men , not to
  mention they even perform better
  in some fields",color=blue];
-	165 [label="the revolution in females' right has
- brought about many benefits not
- only to themselves but society
- as well",color=green];
+	237 [label="such changes do lead
+ to some negative results like
+ an upward trend in",color=green];
 	165 [label="the revolution in females' right has
  brought about many benefits not
  only to themselves but society
@@ -44,4 +46,28 @@ digraph G {
  with both the wives and
  the husbands working to earn
  money",color=blue];
+	184 [label="the financial
+ burden of families , for
+ instance , has decreased significantly
+ with both the wives and
+ the husbands working to earn
+ money",color=blue];
+	237 [label="such changes do lead
+ to some negative results like
+ an upward trend in",color=green];
+	212 [label="women have the outstanding
+ instinct to take up some
+ careers like healthcare or human
+ resource management due to their
+ patience and elaboration",color=blue];
+	237 [label="such changes do lead
+ to some negative results like
+ an upward trend in",color=green];
+	237 [label="such changes do lead
+ to some negative results like
+ an upward trend in",color=green];
+	258 [label="women find it
+ difficult to balance their work
+ and their traditional role as
+ the wives",color=blue];
 }

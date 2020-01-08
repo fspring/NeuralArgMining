@@ -1,31 +1,25 @@
 digraph G {
-	97 -> 46;
-	122 -> 78;
-	122 -> 85;
+	257 -> 412;
+	321 -> 412;
 	339 -> 412;
 	364 -> 412;
-	46 [label="a",color=green];
-	97 [label="even though when we
- are not borne",color=blue];
-	78 [label="that i want
- to make is",color=green];
-	122 [label="to clarify my point
- i would like to say
- a memory from my childhood
- , when i was at
- age 7 my father gave
- me monthly money to buy
- thing that i liked",color=blue];
-	85 [label="sociologists found that our characteristics and
- personality forms early in life
- ,",color=green];
-	122 [label="to clarify my point
- i would like to say
- a memory from my childhood
- , when i was at
- age 7 my father gave
- me monthly money to buy
- thing that i liked",color=blue];
+	386 -> 412;
+	257 [label="even in rich families
+ if children did not learn
+ to manage their own money
+ , when they grow up
+ they will become unappreciative and
+ dependent persons who want to
+ just used their parents prosperity
+",color=blue];
+	412 [label="children should be free
+ to spend money",color=green];
+	321 [label="he became an arrogant person
+ who could not stand on
+ his feet and always asked
+ for money",color=blue];
+	412 [label="children should be free
+ to spend money",color=green];
 	339 [label="his parent
  tried a lot and hired
  some experts to learn him
@@ -33,30 +27,19 @@ digraph G {
  life , but unfortunately it
  was useless",color=blue];
 	412 [label="children should be free
- to spend money to they
- what they want , in
- my opinion it is very
- important to learn our children
- from their beginning of their
- life to be financially responsible
- persons , because our personality
- form in childhood and it
- is not easy to change
- it in adulthood",color=green];
+ to spend money",color=green];
 	364 [label="finally one
  night , having fun with
  his irresponsible friend in his
  luxuries car , he crashed
  a truck and died",color=blue];
 	412 [label="children should be free
- to spend money to they
- what they want , in
- my opinion it is very
- important to learn our children
- from their beginning of their
- life to be financially responsible
- persons , because our personality
- form in childhood and it
- is not easy to change
- it in adulthood",color=green];
+ to spend money",color=green];
+	386 [label="not only did he cause
+ lots of damage to the
+ society property , but also
+ bring sorry to his family
+",color=blue];
+	412 [label="children should be free
+ to spend money",color=green];
 }

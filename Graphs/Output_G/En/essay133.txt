@@ -1,18 +1,18 @@
 digraph G {
-	196 -> 241;
-	217 -> 241;
-	196 [label="communication by feature-computer such as
- email and internet help busy
- businessmen to make deal with
- relation even in different country
+	85 -> 66;
+	217 -> 240;
+	66 [label="computer can influence society ,
+ and people's lives have already
+ been controlled by device",color=green];
+	85 [label="this modern device has been a
+ major hindrance to some people
 ",color=blue];
-	241 [label="era technology like this age
-",color=green];
 	217 [label="this is due to
  using computer more efficient and
  , many workers cannot do
  more in work without computer
 ",color=blue];
-	241 [label="era technology like this age
-",color=green];
+	240 [label="in era technology like this age
+ , computer becomes important thing
+ in human life",color=green];
 }

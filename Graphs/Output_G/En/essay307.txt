@@ -1,41 +1,85 @@
 digraph G {
-	105 -> 219;
-	169 -> 219;
-	186 -> 219;
-	211 -> 219;
+	89 -> 56;
+	89 -> 243;
+	105 -> 152;
+	126 -> 152;
+	167 -> 152;
+	186 -> 243;
+	211 -> 243;
+	56 [label="mass media deal too much
+ with superficial things for different
+",color=green];
+	89 [label="gutter press
+ and tabloid tv are more
+ and more replacing quality papers
+ or documentaries programs",color=blue];
+	89 [label="gutter press
+ and tabloid tv are more
+ and more replacing quality papers
+ or documentaries programs",color=blue];
+	243 [label="television , magazines
+ and newspapers pay too much
+ attention of peoples' private lives
+ for all the reasons mentioned
+ above , namely to increase
+ audience or readership and to
+ give exciting and shocking news
+ to a society which feed
+ upon gutter press and tabloid
+ tv",color=green];
 	105 [label="thanks to the internet , we
  can go online and have
  access to information from all
- over the world and therefore
- mass media don't need any
+ over the world",color=blue];
+	152 [label="we live in a
+ society where the most important
+ thing is appearance and gossip
+",color=green];
+	126 [label="mass media don't need any
  more to keep informed people
  but their goal is to
  have enough readers or tv
  audience",color=blue];
-	219 [label="which people
- are put into artificial environments
- and situations , for example
+	152 [label="we live in a
+ society where the most important
+ thing is appearance and gossip
 ",color=green];
-	169 [label="unscrupulous paparazzi
+	152 [label="we live in a
+ society where the most important
+ thing is appearance and gossip
+",color=green];
+	167 [label="nowadays , unscrupulous paparazzi
  constantly follow celebrities just to
  take a photo while they
  are eating or training",color=blue];
-	219 [label="which people
- are put into artificial environments
- and situations , for example
-",color=green];
 	186 [label="newspapers often receive accusations of
  checkbook journalism ; this means
  that magazines pay people a
  lot of money for stories
  or photos",color=blue];
-	219 [label="which people
+	243 [label="television , magazines
+ and newspapers pay too much
+ attention of peoples' private lives
+ for all the reasons mentioned
+ above , namely to increase
+ audience or readership and to
+ give exciting and shocking news
+ to a society which feed
+ upon gutter press and tabloid
+ tv",color=green];
+	211 [label="there are reality tv ,
+ television programs in which people
  are put into artificial environments
  and situations , for example
-",color=green];
-	211 [label="there are reality",color=blue];
-	219 [label="which people
- are put into artificial environments
- and situations , for example
-",color=green];
+ like "big brother"",color=blue];
+	243 [label="television , magazines
+ and newspapers pay too much
+ attention of peoples' private lives
+ for all the reasons mentioned
+ above , namely to increase
+ audience or readership and to
+ give exciting and shocking news
+ to a society which feed
+ upon gutter press and tabloid
+ tv",color=green];
 }

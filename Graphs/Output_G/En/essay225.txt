@@ -1,18 +1,35 @@
 digraph G {
-	113 -> 96;
-	130 -> 111;
-	96 [label="action we make are watched
- closely and judged by the
- community",color=green];
-	113 [label="though responsibilies exist
- , we are much more
- free to do what we
- would like to",color=blue];
-	111 [label="childhood",color=green];
-	130 [label="being late for school or laughing
- at a place where you
- aren't supposed to do not
- have consequences as serious as
- that would be if you
- were an adult",color=blue];
+	160 -> 232;
+	184 -> 232;
+	209 -> 232;
+	246 -> 232;
+	160 [label="another great thing about being a
+ child is possibility learning new
+ and interesting things about the
+ world you live in every
+ single day",color=blue];
+	232 [label="childhood is the period
+ of time in which a
+ person is surprised most",color=green];
+	184 [label="being a
+ child means that you are
+ new in this world and
+ every single thing around you
+ is there to be discovered
+ by you",color=blue];
+	232 [label="childhood is the period
+ of time in which a
+ person is surprised most",color=green];
+	209 [label="there are
+ lots of new facts you
+ can learn , stories you
+ can listen to and things
+ you can see",color=blue];
+	232 [label="childhood is the period
+ of time in which a
+ person is surprised most",color=green];
+	232 [label="childhood is the period
+ of time in which a
+ person is surprised most",color=green];
+	246 [label="using your imagination and",color=blue];
 }

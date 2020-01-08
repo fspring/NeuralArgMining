@@ -1,2 +1,57 @@
 digraph G {
+	89 -> 50;
+	89 -> 285;
+	103 -> 197;
+	155 -> 285;
+	174 -> 197;
+	220 -> 197;
+	50 [label="it should increase the level of
+ control to protect the public
+ against inappropriate contents and unsuitable
+ foreign cultures",color=green];
+	89 [label="they have
+ a serious impact on people
+ in their puberty",color=blue];
+	89 [label="they have
+ a serious impact on people
+ in their puberty",color=blue];
+	285 [label="the government should regulate the correct
+ amount of violent and sexual
+ content and censor the culturally
+ unsuitable information",color=green];
+	103 [label="an internet cartoon
+ comedy called happy tree is
+ extremely brutal , where the
+ characters usually have their heads
+ or limbs tear off",color=blue];
+	197 [label="the government should disclose
+ the information to the media
+ in a timely manner ,
+ especially for disasters and outbreak
+ of new diseases",color=green];
+	155 [label="a few years ago there was
+ a japanese game show which
+ involved throwing cream cakes to
+ the loser",color=blue];
+	285 [label="the government should regulate the correct
+ amount of violent and sexual
+ content and censor the culturally
+ unsuitable information",color=green];
+	174 [label="this is
+ actually very environmentally unfriendly",color=blue];
+	197 [label="the government should disclose
+ the information to the media
+ in a timely manner ,
+ especially for disasters and outbreak
+ of new diseases",color=green];
+	197 [label="the government should disclose
+ the information to the media
+ in a timely manner ,
+ especially for disasters and outbreak
+ of new diseases",color=green];
+	220 [label="taking the sars in 2003 as
+ an example , the chinese
+ government limited the amount of
+ information for public access which
+ therefore causes numerous deaths",color=blue];
 }

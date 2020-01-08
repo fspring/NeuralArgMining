@@ -1,54 +1,56 @@
 digraph G {
-	80 -> 59;
-	161 -> 142;
-	161 -> 148;
-	161 -> 152;
-	161 -> 154;
+	80 -> 41;
+	80 -> 261;
+	101 -> 261;
 	161 -> 244;
-	227 -> 244;
-	59 [label="why the
- father's role should be equal
- to the mother's role is
- the nature of parantage",color=green];
+	188 -> 244;
+	226 -> 244;
+	41 [label="fatherhood is a as vital
+ part of a healty parantage
+ as much as motherhood",color=green];
 	80 [label="the role models within a family
  play a significant role in
  the development of the child's
  characteristics",color=blue];
-	142 [label="that fatherood is as
- important",color=green];
+	80 [label="the role models within a family
+ play a significant role in
+ the development of the child's
+ characteristics",color=blue];
+	261 [label="fatherhood should be as present
+ as motherhood in a child's
+ life",color=green];
+	101 [label="in a traditional turkish family
+ , while a mother has
+ a sincere and thoughtful approach
+ to the child , a
+ father role must be present
+ as authoritarian and conversative to
+ raise a well-behaved child",color=blue];
+	261 [label="fatherhood should be as present
+ as motherhood in a child's
+ life",color=green];
 	161 [label="we are living in a
  society that puts a significant
  importance to gender equality in
  every aspect of the life
- , including relationships",color=blue];
-	148 [label="motherhood",color=green];
-	161 [label="we are living in a
- society that puts a significant
- importance to gender equality in
- every aspect of the life
- , including relationships",color=blue];
-	152 [label="of",color=green];
-	161 [label="we are living in a
- society that puts a significant
- importance to gender equality in
- every aspect of the life
- , including relationships",color=blue];
-	154 [label="relationships",color=green];
-	161 [label="we are living in a
- society that puts a significant
- importance to gender equality in
- every aspect of the life
- , including relationships",color=blue];
-	161 [label="we are living in a
- society that puts a significant
- importance to gender equality in
- every aspect of the life
- , including relationships",color=blue];
+",color=blue];
 	244 [label="having and
  raising children should not be
  different than any other daily
  activity",color=green];
-	227 [label="of the couple duties
+	188 [label="a family formed
+ by a woman with a
+ housewife role who looks after
+ the home and takes care
+ of children and a man
+ who brings money home can
+ not be seen anymore in
+ today's society",color=blue];
+	244 [label="having and
+ raising children should not be
+ different than any other daily
+ activity",color=green];
+	226 [label="all of the couple duties
  are performed equally and interchangeably
  by individuals",color=blue];
 	244 [label="having and

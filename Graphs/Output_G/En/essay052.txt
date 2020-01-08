@@ -1,2 +1,76 @@
 digraph G {
+	66 -> 52;
+	66 -> 156;
+	89 -> 156;
+	100 -> 156;
+	120 -> 156;
+	137 -> 156;
+	172 -> 226;
+	203 -> 226;
+	52 [label="it promotes the communication
+ and interaction between different countries
+ more conveniently and clearly",color=green];
+	66 [label="in the ancient time ,
+ the different languages and geography
+ set barriers for people to
+ exchange their goods and ideas
+",color=blue];
+	66 [label="in the ancient time ,
+ the different languages and geography
+ set barriers for people to
+ exchange their goods and ideas
+",color=blue];
+	156 [label="the dominated status of english
+ has destroyed culture diversity and
+ many less-used languages become extinct
+",color=green];
+	89 [label="the innovation
+ of plane and train solved
+ the geographical barriers",color=blue];
+	156 [label="the dominated status of english
+ has destroyed culture diversity and
+ many less-used languages become extinct
+",color=green];
+	100 [label="if we can popularize the use
+ of english , the language
+ hinder will disappear as well
+",color=blue];
+	156 [label="the dominated status of english
+ has destroyed culture diversity and
+ many less-used languages become extinct
+",color=green];
+	120 [label="english is a beautiful language ,
+ which is more systematical and
+ extensive than many other languages
+",color=blue];
+	156 [label="the dominated status of english
+ has destroyed culture diversity and
+ many less-used languages become extinct
+",color=green];
+	137 [label="learning english can foster
+ people's sentiment and nourish their
+ literature and art",color=blue];
+	156 [label="the dominated status of english
+ has destroyed culture diversity and
+ many less-used languages become extinct
+",color=green];
+	172 [label="even english is a
+ sophisticated language ; it does
+ not express every detail of
+ life especially in asia countries
+ , which have totally different
+ linguistic system",color=blue];
+	226 [label="these languages have special significance
+ for people who belong to
+ them and using english to
+ replace them is crudity",color=green];
+	203 [label="language contains many
+ aspects of people's daily life
+ , which is influenced by
+ culture , environment as well
+ as religious",color=blue];
+	226 [label="these languages have special significance
+ for people who belong to
+ them and using english to
+ replace them is crudity",color=green];
 }

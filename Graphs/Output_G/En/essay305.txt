@@ -1,14 +1,32 @@
 digraph G {
-	50 -> 62;
-	110 -> 62;
-	50 [label="maturity to choose their choice",color=blue];
+	89 -> 62;
+	89 -> 76;
+	272 -> 388;
+	319 -> 388;
 	62 [label="going to classes should
  be optional for the students
 ",color=green];
-	62 [label="going to classes should
- be optional for the students
-",color=green];
-	110 [label="they didn't explain the contents in
- order to understand by the
- students",color=blue];
+	89 [label="some lecturers
+ in our university read the
+ same text in the reference
+ books for that particular course
+ module",color=blue];
+	76 [label="going to classes are sometimes
+ waste of the time",color=green];
+	89 [label="some lecturers
+ in our university read the
+ same text in the reference
+ books for that particular course
+ module",color=blue];
+	272 [label="they have to schedule
+ the lectures time , studying
+ time and working time",color=blue];
+	388 [label="to make use
+ of time",color=green];
+	319 [label="they can
+ meet other university students and
+ build up the relationships with
+ them",color=blue];
+	388 [label="to make use
+ of time",color=green];
 }

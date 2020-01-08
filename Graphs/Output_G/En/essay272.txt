@@ -1,19 +1,24 @@
 digraph G {
-	79 -> 57;
-	79 -> 60;
-	57 [label="begin with",color=green];
-	79 [label="unlike email
- , send message by using
- mail service could be lost
- and could be sent to
- wrong address",color=blue];
-	60 [label="telephones and email help people ,
- who live far away from
- other people , to connect
- each",color=green];
-	79 [label="unlike email
- , send message by using
- mail service could be lost
- and could be sent to
- wrong address",color=blue];
+	198 -> 256;
+	220 -> 247;
+	264 -> 256;
+	198 [label="sometime when i
+ argue with my friends ,
+ i cannot express my self
+ to my friends at that
+ moment",color=blue];
+	256 [label="telephones and email make me
+ feel personal",color=green];
+	220 [label="when i have a time to
+ realize what had happened ,
+ i could explain the real
+ thought that i want to
+ express without emotion",color=blue];
+	247 [label="these types of communications
+ make me feel personal",color=green];
+	256 [label="telephones and email make me
+ feel personal",color=green];
+	264 [label="i could
+ directly connect with people that
+ i love",color=blue];
 }

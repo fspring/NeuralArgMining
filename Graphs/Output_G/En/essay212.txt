@@ -1,95 +1,43 @@
 digraph G {
-	69 -> 94;
-	101 -> 70;
-	101 -> 81;
-	126 -> 94;
-	126 -> 194;
-	270 -> 397;
-	296 -> 397;
+	101 -> 213;
+	126 -> 213;
+	153 -> 213;
+	221 -> 213;
 	317 -> 397;
-	329 -> 397;
-	361 -> 397;
-	69 [label=",",color=blue];
-	94 [label="if they
- follow the new customs",color=green];
-	70 [label="if i migrated to another",color=green];
 	101 [label="when people migrate to a
  new country , they are
  likely to suffer the culture
- shock , because of the
- difference between two cultures",color=blue];
-	81 [label="it will be easier for
- people to assimilate into a
- new country",color=green];
-	101 [label="when people migrate to a
- new country , they are
- likely to suffer the culture
- shock , because of the
- difference between two cultures",color=blue];
-	94 [label="if they
- follow the new customs",color=green];
+ shock",color=blue];
+	213 [label="keeping own customs
+ stably might cause discrimination",color=green];
 	126 [label="the custom is just a
  form of the culture and
  following the custom is a
  good way to know more
  about this culture",color=blue];
-	126 [label="the custom is just a
- form of the culture and
- following the custom is a
- good way to know more
- about this culture",color=blue];
-	194 [label="people understand
- the culture , and then
- they adapt to the new
- country",color=green];
-	270 [label="one example of this is that
- the chinese immigrants in indonesia
- in 1969",color=blue];
-	397 [label="the immigrants should follow
- the customs in the new
- country , which can help
- them survive from the culture
- shock sooner , and assimilate
- to a new culture",color=green];
-	296 [label="while the indonesians stopped working
- at 4:00 pm and went
- home for rest , chinese
- immigrants were still working",color=blue];
-	397 [label="the immigrants should follow
- the customs in the new
- country , which can help
- them survive from the culture
- shock sooner , and assimilate
- to a new culture",color=green];
+	213 [label="keeping own customs
+ stably might cause discrimination",color=green];
+	153 [label="if one wore
+ in white and went to
+ common viharas to observe a
+ rather longer-than-usual , full-length buddhist
+ sutra in buddha's birthday in
+ india , he or she
+ would learn something about indian
+ religion and culture",color=blue];
+	213 [label="keeping own customs
+ stably might cause discrimination",color=green];
+	213 [label="keeping own customs
+ stably might cause discrimination",color=green];
+	221 [label="when people insist to keep
+ their own customs and refuse
+ to accept the new one
+ , they regard themselves as
+ a special group in the
+ new country",color=blue];
 	317 [label="being much richer than
  local people , they faced
  the discrimination",color=blue];
-	397 [label="the immigrants should follow
- the customs in the new
- country , which can help
- them survive from the culture
- shock sooner , and assimilate
- to a new culture",color=green];
-	329 [label="their houses
- and private cars were buried
- by local people , because
- the locals were jealous of
- chinese people , who had
- so much wealth , which
- should have been theirs",color=blue];
-	397 [label="the immigrants should follow
- the customs in the new
- country , which can help
- them survive from the culture
- shock sooner , and assimilate
- to a new culture",color=green];
-	361 [label="if the chinese immigrants had
- followed the local customs and
- assimilated into indonesia , they
- would not have been regards
- as a group of chinese
- and discrimination might have been
- alleviated",color=blue];
 	397 [label="the immigrants should follow
  the customs in the new
  country , which can help

@@ -1,10 +1,108 @@
 digraph G {
+	70 -> 87;
+	108 -> 87;
+	108 -> 361;
+	124 -> 361;
+	145 -> 361;
+	154 -> 361;
+	170 -> 361;
+	183 -> 361;
+	268 -> 361;
 	302 -> 361;
+	325 -> 361;
+	70 [label="every day comes with new challenges
+ for them like walking",color=blue];
+	87 [label="those challenges of their
+ initial life teach them important
+ survival lessons which help them
+ for whole life",color=green];
+	87 [label="those challenges of their
+ initial life teach them important
+ survival lessons which help them
+ for whole life",color=green];
+	108 [label="when they tried
+ to learn walking , they
+ stumble and hurt themselves many
+ times",color=blue];
+	108 [label="when they tried
+ to learn walking , they
+ stumble and hurt themselves many
+ times",color=blue];
+	361 [label="every experience in life whether
+ it is good or bad
+ always gives us something to
+ learn and keep for life
+",color=green];
+	124 [label="they slowly
+ tune their technique and learned
+ to walk",color=blue];
+	361 [label="every experience in life whether
+ it is good or bad
+ always gives us something to
+ learn and keep for life
+",color=green];
+	145 [label="no known scientist has success in
+ first attempt",color=blue];
+	361 [label="every experience in life whether
+ it is good or bad
+ always gives us something to
+ learn and keep for life
+",color=green];
+	154 [label="scientists try
+ and test many specimens before
+ they get they want",color=blue];
+	361 [label="every experience in life whether
+ it is good or bad
+ always gives us something to
+ learn and keep for life
+",color=green];
+	170 [label="thomas edison tested around 10000 bulbs
+ before inventing light bulb",color=blue];
+	361 [label="every experience in life whether
+ it is good or bad
+ always gives us something to
+ learn and keep for life
+",color=green];
+	183 [label="all the initial
+ experiments would be difficult and
+ frustrating for him but he
+ searched for more options and
+ learnt new findings with each
+ experiment even when he was
+ failing in his attempts and
+ finally found break through",color=blue];
+	361 [label="every experience in life whether
+ it is good or bad
+ always gives us something to
+ learn and keep for life
+",color=green];
+	268 [label="when i moved
+ to college hostel after school
+ , first few days were
+ very unsettling for me because
+ first time i was away
+ from parent and staying with
+ people i had not known
+",color=blue];
+	361 [label="every experience in life whether
+ it is good or bad
+ always gives us something to
+ learn and keep for life
+",color=green];
 	302 [label="i had felt very
  fragile and emotionally distracted ,
  but then slowly i started
  adjusting with roommates and built
  connection with them",color=blue];
+	361 [label="every experience in life whether
+ it is good or bad
+ always gives us something to
+ learn and keep for life
+",color=green];
+	325 [label="i also became more casual and
+ social with others , this
+ experience increased my communication skill
+ and social speaking skills",color=blue];
 	361 [label="every experience in life whether
  it is good or bad
  always gives us something to

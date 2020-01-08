@@ -1,17 +1,62 @@
 digraph G {
-	113 -> 77;
-	196 -> 164;
-	77 [label="to keep in touch
- with loved ones in faraway
- places",color=green];
+	93 -> 238;
+	113 -> 296;
+	139 -> 274;
+	157 -> 238;
+	175 -> 274;
+	192 -> 274;
+	255 -> 274;
+	93 [label="technology revolutionized the
+ way we communicate and in
+ present , it is almost
+ possible to do everything without
+ tete-a-tete",color=blue];
+	238 [label="by communicating via
+ internet or phone , we
+ cannot express our ideas and
+ feelings fully",color=green];
 	113 [label="by means of
  some software such as skype
  , msn , whatsapp we
  can get in touch with
  everybody whenever we want",color=blue];
-	164 [label="the development
- of technology was",color=green];
-	196 [label="40% of people met even
+	296 [label="the development of technology impacted
+ on the means of communication
+ among people very positively by
+ making it easier and more
+ comfortable",color=green];
+	139 [label="in earlier
+ times , people didn't leave
+ for faraway places ,",color=blue];
+	274 [label="the rate
+ of divorces is increasing day
+ by day",color=green];
+	157 [label="this is also one
+ salient prove that the development
+ of technology was a very
+ positive",color=blue];
+	238 [label="by communicating via
+ internet or phone , we
+ cannot express our ideas and
+ feelings fully",color=green];
+	175 [label="by means of some communication tools
+ , it has become very
+ easy to make new friends
+",color=blue];
+	274 [label="the rate
+ of divorces is increasing day
+ by day",color=green];
+	192 [label="according to statistics ,
+ 40% of people met even
  their life partners via internet
 ",color=blue];
+	274 [label="the rate
+ of divorces is increasing day
+ by day",color=green];
+	255 [label="during such conversations , some of
+ our words can make a
+ completely different sense",color=blue];
+	274 [label="the rate
+ of divorces is increasing day
+ by day",color=green];
 }

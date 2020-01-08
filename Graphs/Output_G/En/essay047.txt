@@ -1,2 +1,45 @@
 digraph G {
+	149 -> 89;
+	128 -> 182;
+	195 -> 262;
+	238 -> 262;
+	89 [label="human beings
+ are responsible for the heavy
+ pollution and severe damage to
+ the natural habitats of many
+ wild animals , it is
+ our responsibility to create a
+ natural and safe environment for
+ animals to live in",color=green];
+	149 [label="if rural
+ animals are captured in the
+ zoo for a long period
+ , it would have negative
+ influences on both the physical
+ and psychological status of the
+ creatures",color=blue];
+	128 [label="the limited space
+ and the artificial trees and
+ lakes can not fully compensate
+ the animals for their loss
+",color=blue];
+	182 [label="the wild species would
+ suffer from isolation and depression
+",color=green];
+	195 [label="zoos are more likely to be
+ a killer rather than a
+ protector in protecting wild lives
+",color=blue];
+	262 [label="the strict laws prohibiting
+ poaching would provide a shelter
+ for various kinds of animals
+ in natural habitat",color=green];
+	238 [label="they further point
+ out that the endangered species
+ preserved in zoos would never
+ die of illegal hunting",color=blue];
+	262 [label="the strict laws prohibiting
+ poaching would provide a shelter
+ for various kinds of animals
+ in natural habitat",color=green];
 }

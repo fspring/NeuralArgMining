@@ -1,71 +1,73 @@
 digraph G {
-	137 -> 274;
-	176 -> 274;
-	199 -> 274;
-	232 -> 274;
-	242 -> 274;
-	137 [label="unlike the organic plant
- foods , industrialized fertilizers are
+	59 -> 109;
+	78 -> 109;
+	143 -> 276;
+	176 -> 276;
+	217 -> 294;
+	232 -> 294;
+	242 -> 276;
+	258 -> 294;
+	59 [label="applying the
+ advanced fertilizers in combine with
+ the automatic reaping resources increase
+ farmers' economic profit",color=blue];
+	109 [label="the production
+ and labour cost of each
+ kilogram of the agriculture products
+ dramatically decreased",color=green];
+	78 [label="artificial fertilizers catalyze
+ the capacity of each inch
+ of farmland in order to
+ churn out the crops ,
+ and automatic machinery enhances the
+ work efficiency of the harvest
+",color=blue];
+	109 [label="the production
+ and labour cost of each
+ kilogram of the agriculture products
+ dramatically decreased",color=green];
+	143 [label="industrialized fertilizers are
  made of unusual chemicals ,
  which are not only varying
  the gene of crops into
  those unknown substances but also
  remaining inside of plants permanently
 ",color=blue];
-	274 [label="even though
- newly developed plant foods and
+	276 [label="newly developed plant foods and
  machinery make significant financial success
- for the farmers , it
- is convincing that the demerits
- of applying these new developments
- in the agriculture industry cannot
- be overlooked",color=green];
+ for the farmers",color=green];
 	176 [label="consumers who intake those fertilized
  products on a regular base
  tend to suffer a series
  of disease in the future
 ",color=blue];
-	274 [label="even though
- newly developed plant foods and
+	276 [label="newly developed plant foods and
  machinery make significant financial success
- for the farmers , it
- is convincing that the demerits
- of applying these new developments
- in the agriculture industry cannot
- be overlooked",color=green];
-	199 [label="excessively relying
- on the electronic equipment for
- harvest causes several impacts to
- the society",color=blue];
-	274 [label="even though
- newly developed plant foods and
- machinery make significant financial success
- for the farmers , it
- is convincing that the demerits
+ for the farmers",color=green];
+	217 [label="it worsens the air
+ pollution by releasing the excessive
+ exhaust emission",color=blue];
+	294 [label="the demerits
  of applying these new developments
  in the agriculture industry cannot
  be overlooked",color=green];
 	232 [label="manual harvest prevents severe
  environmental damages",color=blue];
-	274 [label="even though
- newly developed plant foods and
- machinery make significant financial success
- for the farmers , it
- is convincing that the demerits
+	294 [label="the demerits
  of applying these new developments
  in the agriculture industry cannot
  be overlooked",color=green];
 	242 [label="mechanical reaper causes the
  rise of the unemployment rate
  in the farming industry ,
- possibly because high-end reaping plants
+ possibly",color=blue];
+	276 [label="newly developed plant foods and
+ machinery make significant financial success
+ for the farmers",color=green];
+	258 [label="high-end reaping plants
  replace a large number of
  workers in the fields",color=blue];
-	274 [label="even though
- newly developed plant foods and
- machinery make significant financial success
- for the farmers , it
- is convincing that the demerits
+	294 [label="the demerits
  of applying these new developments
  in the agriculture industry cannot
  be overlooked",color=green];

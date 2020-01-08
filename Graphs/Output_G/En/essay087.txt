@@ -1,2 +1,17 @@
 digraph G {
+	227 -> 293;
+	243 -> 293;
+	227 [label="when you work for
+ yourself you can punch in
+ and punch out whenever you
+ want",color=blue];
+	293 [label="working for the
+",color=green];
+	243 [label="sometimes some occasions
+ happen to people for example
+ a disease , sticking in
+ a traffic jam and sometime
+ going on a vacation",color=blue];
+	293 [label="working for the
+",color=green];
 }

@@ -1,14 +1,18 @@
 digraph G {
-	158 -> 195;
-	158 [label="these devices and
- machines are very common in
- all parts of the world
- , making it easier for
- people to read a number
- of things that newspapers can
- not provide in only some
- pages",color=blue];
-	195 [label="the print media has failed to
- keep its important role in
- the provision of information",color=green];
+	94 -> 63;
+	366 -> 387;
+	63 [label="newspapers have lost
+ their competitive advantage to sustain
+ their prolonged existence",color=green];
+	94 [label="to obtain
+ information , using the internet
+ is quicker and more convenient
+ than reading newspapers",color=blue];
+	366 [label="this is simply the contributor
+ to the deforestation which is
+ happening all over the world
+ today",color=blue];
+	387 [label="newspapers' production will have
+ to face environmentalists on its
+ way to be alive",color=green];
 }

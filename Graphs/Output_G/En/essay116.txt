@@ -1,20 +1,22 @@
 digraph G {
+	111 -> 87;
 	213 -> 273;
-	236 -> 273;
+	87 [label="artists should be funded
+ is because art helps to
+ improve the quality of our
+ lives as well as attracting
+ tourists",color=green];
+	111 [label="monuments that represent each city
+ do not only illustrate the
+ city's history and culture ,
+ but also make the city
+ more beautiful and an attractive
+ place for tourists",color=blue];
 	213 [label="young people are
  also able to get more
  knowledge about their country's history
  and culture by observing various
  work crafts",color=blue];
-	273 [label="this type of
- talent has to be valued
- as other types of talents
- such as talent in science
- or literature",color=green];
-	236 [label="why artists should be helped
- is because talent in art
- is extremely precious and should
- not be wasted",color=blue];
 	273 [label="this type of
  talent has to be valued
  as other types of talents

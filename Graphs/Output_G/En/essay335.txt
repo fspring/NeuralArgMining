@@ -1,11 +1,15 @@
 digraph G {
-	83 -> 74;
-	74 [label="connecting people
-",color=green];
-	83 [label="in addition ,
- world wide web offers humanity
+	121 -> 86;
+	86 [label="world wide web offers humanity
  to access to information ,
  which they want to know
  for less than 10 seconds
-",color=blue];
+",color=green];
+	121 [label="nowadays technology is entering into
+ our society really quick and
+ scientists develop robots , which
+ help people cope with their
+ problems or just invent coffee
+ machines , engines with integrated
+ computers and etc",color=blue];
 }

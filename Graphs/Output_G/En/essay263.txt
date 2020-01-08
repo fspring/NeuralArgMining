@@ -1,12 +1,23 @@
 digraph G {
-	56 -> 48;
-	393 -> 445;
+	107 -> 83;
+	107 -> 96;
+	396 -> 445;
 	408 -> 445;
-	424 -> 445;
-	48 [label="professional in",color=green];
-	56 [label="to enroll a success",color=blue];
-	393 [label="of course ,
- it may be true when
+	428 -> 445;
+	83 [label="having a large
+ scale of different knowledge is
+ the key to success",color=green];
+	107 [label="when one knows different
+ region's works , it will
+ help one to get a
+ friend much easier",color=blue];
+	96 [label="the following will present my
+ points",color=green];
+	107 [label="when one knows different
+ region's works , it will
+ help one to get a
+ friend much easier",color=blue];
+	396 [label="it may be true when
  talking about this topic",color=blue];
 	445 [label="when the advantages and disadvantages of
  whether having the knowledge in
@@ -20,8 +31,7 @@ digraph G {
  whether having the knowledge in
  different fields is better or
  not are carefully compared",color=green];
-	424 [label="in this
- way , it wonâ€™t be
+	428 [label="it won’t be
  a problem at all",color=blue];
 	445 [label="when the advantages and disadvantages of
  whether having the knowledge in

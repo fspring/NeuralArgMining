@@ -1,11 +1,8 @@
 digraph G {
 	72 -> 58;
-	217 -> 355;
-	230 -> 355;
+	193 -> 355;
 	270 -> 355;
 	284 -> 355;
-	303 -> 355;
-	314 -> 355;
 	58 [label="having hobbies and
  doing physical activities is the
  best way to keep fit
@@ -16,16 +13,12 @@ digraph G {
  doing some sport and hobbies
  can prevent us from becoming
  too fat or short-sighted",color=blue];
-	217 [label="humans are not robots
- ; we can't keep working
- for twenty-four hours",color=blue];
-	355 [label="it is good for us to
- have hobbies and do physical
- activities which are different from
- our work",color=green];
-	230 [label="doing sports or hobbies for a
- short time can recharge our
- batteries",color=blue];
+	193 [label="at school ,
+ students have breaks every class
+ so that they can relax
+ for a few minutes and
+ prepare for the next class
+",color=blue];
 	355 [label="it is good for us to
  have hobbies and do physical
  activities which are different from
@@ -42,25 +35,6 @@ digraph G {
  i will take my guitar
  and play the song green
  sleeves",color=blue];
-	355 [label="it is good for us to
- have hobbies and do physical
- activities which are different from
- our work",color=green];
-	303 [label="it makes me
- feel better and gives me
- the confidence",color=blue];
-	355 [label="it is good for us to
- have hobbies and do physical
- activities which are different from
- our work",color=green];
-	314 [label="although it
- may take us a lot
- of times to develop our
- personal hobbies , but doing
- so can bring us a
- healthy body , a refreshed
- mind and a way to
- release pressure and sadness",color=blue];
 	355 [label="it is good for us to
  have hobbies and do physical
  activities which are different from

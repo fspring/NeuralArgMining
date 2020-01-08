@@ -1,18 +1,11 @@
 digraph G {
-	313 -> 377;
-	333 -> 377;
-	313 [label="if you do
- them fast too , the
- first acknowledgement of your boss
- encourages you to work harder
-",color=blue];
-	377 [label="which says people should
- work faster even more risky
-",color=green];
-	333 [label="turns you to
- a person who has skill
- of working without hesitation",color=blue];
-	377 [label="which says people should
- work faster even more risky
-",color=green];
+	104 -> 91;
+	91 [label="if persons work rapidly ,
+ they will have more chance
+ to study",color=green];
+	104 [label="attending in
+ some classes which try to
+ increase the skills of employees
+ can be considered as an
+ absolutely effective parameter",color=blue];
 }

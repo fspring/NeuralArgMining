@@ -1,27 +1,86 @@
 digraph G {
-	190 -> 175;
-	245 -> 358;
-	287 -> 276;
-	175 [label="is perfectly work for everyone to
+	139 -> 62;
+	139 -> 276;
+	148 -> 276;
+	162 -> 276;
+	230 -> 172;
+	230 -> 276;
+	252 -> 276;
+	259 -> 276;
+	307 -> 276;
+	314 -> 373;
+	327 -> 373;
+	62 [label="reducing stress by listening
+ to music , playing sports
+ , and doing meditation are
+ easy and practical ways",color=green];
+	139 [label="i always
+ listen music from my mp3
+ player",color=blue];
+	139 [label="i always
+ listen music from my mp3
+ player",color=blue];
+	276 [label="meditation also one of the
+ ways to reduce the stress
+",color=green];
+	148 [label="i could enjoy
+ listening music without thinking of
+ people around me",color=blue];
+	276 [label="meditation also one of the
+ ways to reduce the stress
+",color=green];
+	162 [label="i feel happy when
+ i listen music",color=blue];
+	276 [label="meditation also one of the
+ ways to reduce the stress
+",color=green];
+	172 [label="another way that is
+ perfectly work for everyone to
  reduce the stress is exercise
 ",color=green];
-	190 [label="i alway have many things in
- my mind such as a
- difficult of my work that
- i have to finish in
- time",color=blue];
-	245 [label="i feel that after working out
- , i am easily to
+	230 [label="after work , i always do
+ exercise , and jogging is
+ my favorite sport",color=blue];
+	230 [label="after work , i always do
+ exercise , and jogging is
+ my favorite sport",color=blue];
+	276 [label="meditation also one of the
+ ways to reduce the stress
+",color=green];
+	252 [label="i am easily to
  fall asleep",color=blue];
-	358 [label="there are many
+	276 [label="meditation also one of the
+ ways to reduce the stress
+",color=green];
+	259 [label="exercising not
+ only reduce my stress but
+ also make me get a
+ good health",color=blue];
+	276 [label="meditation also one of the
  ways to reduce the stress
 ",color=green];
 	276 [label="meditation also one of the
  ways to reduce the stress
 ",color=green];
-	287 [label="when i have many
- things to think about ,
- and this make me stress
- , i will do meditation
+	307 [label="meditation is easy way
+ to relax",color=blue];
+	314 [label="it is
+ not require any equipment ,
+ and it take few minutes
 ",color=blue];
+	373 [label="listening to music
+ , exercising , and doing
+ meditation are the most activities
+ that people could do to
+ escape from stress",color=green];
+	327 [label="a way to do
+ meditation is that i just
+ sit down , close my
+ eyes , and count my
+ breath",color=blue];
+	373 [label="listening to music
+ , exercising , and doing
+ meditation are the most activities
+ that people could do to
+ escape from stress",color=green];
 }

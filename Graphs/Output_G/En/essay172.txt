@@ -1,16 +1,19 @@
 digraph G {
-	78 -> 40;
-	98 -> 69;
-	116 -> 209;
-	174 -> 167;
-	253 -> 209;
-	278 -> 369;
-	298 -> 369;
-	351 -> 352;
-	357 -> 369;
-	368 -> 369;
-	40 [label=", if i had to choose
- , i would prefer to
+	78 -> 47;
+	78 -> 67;
+	78 -> 253;
+	98 -> 253;
+	116 -> 253;
+	122 -> 253;
+	143 -> 253;
+	180 -> 168;
+	180 -> 412;
+	200 -> 253;
+	217 -> 409;
+	235 -> 253;
+	262 -> 253;
+	331 -> 409;
+	47 [label="i would prefer to
  live in an apartment in
  the community rather than in
  the university dormitories",color=green];
@@ -19,76 +22,92 @@ digraph G {
  preset rules , in the
  apartment you set your own
  rules",color=blue];
-	69 [label="provides a
+	67 [label="an apartment provides a
  lot more freedom than a
  dormitory",color=green];
+	78 [label="while in a
+ dormitory you have to obey
+ preset rules , in the
+ apartment you set your own
+ rules",color=blue];
+	78 [label="while in a
+ dormitory you have to obey
+ preset rules , in the
+ apartment you set your own
+ rules",color=blue];
+	253 [label="the studying conditions
+ are better in an apartment
+",color=green];
 	98 [label="you are free
  to have visits at any
  time or to be left
  alone if you want",color=blue];
+	253 [label="the studying conditions
+ are better in an apartment
+",color=green];
 	116 [label="an apartment offers more privacy
- because you can choose to
+",color=blue];
+	253 [label="the studying conditions
+ are better in an apartment
+",color=green];
+	122 [label="you can choose to
  have your own room instead
  of sharing with another student
 ",color=blue];
-	209 [label="to and
- return from the university everyday
+	253 [label="the studying conditions
+ are better in an apartment
 ",color=green];
-	167 [label="that an apartment is
+	143 [label="you also get
+ more space than you would
+ in a dormitory",color=blue];
+	253 [label="the studying conditions
+ are better in an apartment
+",color=green];
+	168 [label="an apartment is
  more expensive",color=green];
-	174 [label="this is
- only partially true , you
- could rent the extra rooms
+	180 [label="you could rent the extra rooms
  in the apartment to other
  people and rent would be
  a lot cheaper",color=blue];
-	209 [label="to and
+	180 [label="you could rent the extra rooms
+ in the apartment to other
+ people and rent would be
+ a lot cheaper",color=blue];
+	412 [label="living in an apartment
+ outshine those of living in
+ a dormitory",color=green];
+	200 [label="transportation is another issue , you
+ have to go to and
  return from the university everyday
+",color=blue];
+	253 [label="the studying conditions
+ are better in an apartment
+",color=green];
+	217 [label="you could choose to
+ use public transportation , a
+ cheaper option , or to
+ have a car",color=blue];
+	409 [label="the advantages
+ of",color=green];
+	235 [label="the car is an expensive option
+ , but also offers freedom
+ of schedule and destination",color=blue];
+	253 [label="the studying conditions
+ are better in an apartment
 ",color=green];
 	253 [label="the studying conditions
  are better in an apartment
- because you don't have all
+",color=green];
+	262 [label="you don't have all
  the noise and distractions that
  you often have in dormitories
 ",color=blue];
-	278 [label="lot of students
- often complain about their roommate
- playing music too loud or
- bringing friends over at inappropriate
- times",color=blue];
-	369 [label="in a
- dormitory , and being surrounded
- by students also has some
- advantages , like being able
- to get help with any
- academic issues from",color=green];
-	298 [label="since in an
- apartment you don't have a
- roommate , you won't have
- this problem , and as
- a result you would be
- able to concentrate better",color=blue];
-	369 [label="in a
- dormitory , and being surrounded
- by students also has some
- advantages , like being able
- to get help with any
- academic issues from",color=green];
-	351 [label="or",color=blue];
-	352 [label="study",color=green];
-	357 [label="you set your own
- schedules",color=blue];
-	369 [label="in a
- dormitory , and being surrounded
- by students also has some
- advantages , like being able
- to get help with any
- academic issues from",color=green];
-	368 [label="living",color=blue];
-	369 [label="in a
- dormitory , and being surrounded
- by students also has some
- advantages , like being able
- to get help with any
- academic issues from",color=green];
+	331 [label="you won't have a problem
+ if you are the one
+ who wants to play music
+ , bring friends over ,
+ or study late at night
+",color=blue];
+	409 [label="the advantages
+ of",color=green];
 }

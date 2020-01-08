@@ -1,24 +1,85 @@
 digraph G {
-	63 -> 56;
-	204 -> 173;
-	262 -> 307;
-	56 [label="effective than human",color=green];
-	63 [label=", machines do
- not need rest , which
- means they can work as
- long as employers want and
- consistently produce high quality products
- without any mistakes",color=blue];
-	173 [label="extensive of using
- machines ,",color=green];
+	53 -> 152;
+	60 -> 289;
+	93 -> 289;
+	113 -> 289;
+	124 -> 289;
+	172 -> 289;
+	204 -> 289;
+	219 -> 289;
+	237 -> 289;
+	266 -> 289;
+	53 [label="machines are more
+ effective than human",color=blue];
+	152 [label="the disadvantages of machines
+ that bring to us should
+ not be neglected by people
+",color=green];
+	60 [label="not like human ,",color=blue];
+	289 [label="we cannot
+ deny machines are play a
+ vital role in people living
+ and working",color=green];
+	93 [label="using machines can
+ save company's money",color=blue];
+	289 [label="we cannot
+ deny machines are play a
+ vital role in people living
+ and working",color=green];
+	113 [label="employers do not
+ need to spend money on
+ employee's welfare",color=blue];
+	289 [label="we cannot
+ deny machines are play a
+ vital role in people living
+ and working",color=green];
+	124 [label="the company
+ only needs some technicians to
+ make sure machines are working
+ on the right track or
+ replace some part when machines
+ are not working",color=blue];
+	289 [label="we cannot
+ deny machines are play a
+ vital role in people living
+ and working",color=green];
+	172 [label="of extensive of using
+ machines , many people loss
+ their job",color=blue];
+	289 [label="we cannot
+ deny machines are play a
+ vital role in people living
+ and working",color=green];
 	204 [label="using of
  machines are also pose serious
  pollution and energy dissipation",color=blue];
-	262 [label="you can imagine ,
- if thousands of families use
+	289 [label="we cannot
+ deny machines are play a
+ vital role in people living
+ and working",color=green];
+	219 [label="nowadays people
+ prefer to use dish-washing machine
+ to wash dishes and plates
+ rather than hand washing",color=blue];
+	289 [label="we cannot
+ deny machines are play a
+ vital role in people living
+ and working",color=green];
+	237 [label="they did not know
+ that compared with hand washing
+ dish-washing machine consume at least
+ 2 times water and electricity
+ to wash these tableware",color=blue];
+	289 [label="we cannot
+ deny machines are play a
+ vital role in people living
+ and working",color=green];
+	266 [label="if thousands of families use
  dish-washing machines , how many
  water and how much electricity
  will be wasted",color=blue];
-	307 [label="machines should draws more
- attentions as well",color=green];
+	289 [label="we cannot
+ deny machines are play a
+ vital role in people living
+ and working",color=green];
 }

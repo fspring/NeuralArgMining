@@ -1,24 +1,2 @@
 digraph G {
-	85 -> 166;
-	145 -> 166;
-	177 -> 166;
-	85 [label="internet and computer also offer a
- more comprehensive access to knowledge
- , ranging from visual to
- aural stimuli , which make
- learning an ever enjoyable experience
- , especially for children",color=blue];
-	166 [label="information",color=green];
-	145 [label="much information as the internet may
- provide , most of the
- sources are unjustified by experts
-",color=blue];
-	166 [label="information",color=green];
-	166 [label="information",color=green];
-	177 [label="the computer can show
- whether an answer to a
- particular question is right or
- wrong but it cannot give
- as an in-depth explanation as
- a human teacher can",color=blue];
 }

@@ -1,2 +1,118 @@
 digraph G {
+	128 -> 178;
+	206 -> 256;
+	216 -> 256;
+	238 -> 256;
+	292 -> 447;
+	313 -> 447;
+	319 -> 447;
+	332 -> 447;
+	346 -> 447;
+	410 -> 447;
+	128 [label="as a authoritative
+ dentist in my province ,
+ my mother has worked for
+ 25 years",color=blue];
+	178 [label="great achievement needs
+ someone keen on one task
+ for long time",color=green];
+	206 [label="doing different tasks makes employees
+ and employers much happier",color=blue];
+	256 [label="changing the type of work
+ will be fresh and elicit
+ their potential to adapt a
+ new environment , which ,
+ according to psychology theories ,
+ makes workers relaxed and happier
+",color=green];
+	216 [label="workers , who work for
+ an ordinary company or industry
+ , will be sick of
+ same tasks day by day
+",color=blue];
+	256 [label="changing the type of work
+ will be fresh and elicit
+ their potential to adapt a
+ new environment , which ,
+ according to psychology theories ,
+ makes workers relaxed and happier
+",color=green];
+	238 [label="they can be
+ familiar with their job ,
+ changing of job is what
+ serve to their happier",color=blue];
+	256 [label="changing the type of work
+ will be fresh and elicit
+ their potential to adapt a
+ new environment , which ,
+ according to psychology theories ,
+ makes workers relaxed and happier
+",color=green];
+	292 [label="consider every workers have
+ ability to do several kinds
+ of work , employers will
+ be satisfied by the generating
+ benefits",color=blue];
+	447 [label="doing same task day
+ and night just server to
+ increase our psychological burden ,
+ connecting with different types of
+ job is capable give us
+ more colors to our life
+",color=green];
+	313 [label="they both will
+ be happy",color=blue];
+	447 [label="doing same task day
+ and night just server to
+ increase our psychological burden ,
+ connecting with different types of
+ job is capable give us
+ more colors to our life
+",color=green];
+	319 [label="the change
+ of job , not the
+ same task day by day
+",color=blue];
+	447 [label="doing same task day
+ and night just server to
+ increase our psychological burden ,
+ connecting with different types of
+ job is capable give us
+ more colors to our life
+",color=green];
+	332 [label="different types of tasks
+ during workday brings more challenges
+ , making life colorful",color=blue];
+	447 [label="doing same task day
+ and night just server to
+ increase our psychological burden ,
+ connecting with different types of
+ job is capable give us
+ more colors to our life
+",color=green];
+	346 [label="just like a song ,
+ if i did not have
+ challenge , life would be
+ blue",color=blue];
+	447 [label="doing same task day
+ and night just server to
+ increase our psychological burden ,
+ connecting with different types of
+ job is capable give us
+ more colors to our life
+",color=green];
+	410 [label="as the saying of a chinese
+ writer , the color of
+ life is rooted not in
+ japanese cherry blossom or canadian
+ maple leaf , but rather
+ there always exists new things
+ and challenge",color=blue];
+	447 [label="doing same task day
+ and night just server to
+ increase our psychological burden ,
+ connecting with different types of
+ job is capable give us
+ more colors to our life
+",color=green];
 }

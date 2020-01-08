@@ -1,37 +1,66 @@
 digraph G {
-	116 -> 101;
-	167 -> 342;
-	290 -> 342;
+	166 -> 245;
+	174 -> 245;
+	203 -> 245;
+	218 -> 342;
+	273 -> 342;
+	279 -> 342;
+	291 -> 342;
+	295 -> 342;
 	320 -> 342;
-	101 [label="subject thus become more interested
- and active in acquiring the
- knowledge on that subject",color=green];
-	116 [label="take chemistry for example ,
- merely memorizing the names of
- the substances and the structural
- formulas seems to be very
- boring , while representing where
- and how those chemical reactions
- really happen near students will
- raise their curiosity and lead
- them to digest those theories
- learned from the class",color=blue];
-	167 [label="i was in senior
- high school , my chemical
+	166 [label="while i was in senior
+ high school",color=blue];
+	245 [label="by bridging the theories",color=green];
+	174 [label="my chemical
  teacher once showed us how
  the detergent dissolves oil by
  an experiment and later on
  taught us how to describe
  this process with formal structural
  formulas",color=blue];
+	245 [label="by bridging the theories",color=green];
+	203 [label="this type of
+ learning method is more fun
+ and eventually the results are
+ good",color=blue];
+	245 [label="by bridging the theories",color=green];
+	218 [label="i connected the
+ visual images of that experiment
+ with the formula and i
+ barely forget , even though
+ now i'm not studying chemistry
+ anymore",color=blue];
 	342 [label="using life experiences and
  examples to demonstrate the knowledge
  on a subject is an
  effective way to attract students'
  attention and keep them eager
- on learning , not",color=green];
-	290 [label=", in law class , students
- are informed their rights and
+ on learning",color=green];
+	273 [label="this will address
+ students' interests",color=blue];
+	342 [label="using life experiences and
+ examples to demonstrate the knowledge
+ on a subject is an
+ effective way to attract students'
+ attention and keep them eager
+ on learning",color=green];
+	279 [label="it's the
+ assignment that needs real life
+ participation",color=blue];
+	342 [label="using life experiences and
+ examples to demonstrate the knowledge
+ on a subject is an
+ effective way to attract students'
+ attention and keep them eager
+ on learning",color=green];
+	291 [label="in law class ,",color=blue];
+	342 [label="using life experiences and
+ examples to demonstrate the knowledge
+ on a subject is an
+ effective way to attract students'
+ attention and keep them eager
+ on learning",color=green];
+	295 [label="students are informed their rights and
  duties and they are taught
  how they can apply law
  to different situations that might
@@ -41,7 +70,7 @@ digraph G {
  on a subject is an
  effective way to attract students'
  attention and keep them eager
- on learning , not",color=green];
+ on learning",color=green];
 	320 [label="when any one of the situations
  occurs , they can think
  independently and figure out how
@@ -51,5 +80,5 @@ digraph G {
  on a subject is an
  effective way to attract students'
  attention and keep them eager
- on learning , not",color=green];
+ on learning",color=green];
 }

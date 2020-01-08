@@ -1,8 +1,52 @@
 digraph G {
-	145 -> 121;
-	121 [label="schools provide lots of academic
- knowledge to students",color=green];
+	89 -> 72;
+	89 -> 145;
+	130 -> 121;
+	130 -> 145;
+	164 -> 145;
+	243 -> 280;
+	72 [label="schools offer to students
+ a good environment with experienced
+ professors and high quality programs
+ for studying",color=green];
+	89 [label="it creates
+ the best conditions for students
+ education and can force them
+ to focus on their school
+ work instead of wasting their
+ time to do useless things
+",color=blue];
+	89 [label="it creates
+ the best conditions for students
+ education and can force them
+ to focus on their school
+ work instead of wasting their
+ time to do useless things
+",color=blue];
 	145 [label="they have more opprotunities to find
  a job and to be
- successful in the future",color=blue];
+ successful in the future",color=green];
+	121 [label="schools provide lots of academic
+ knowledge to students",color=green];
+	130 [label="students may learn professional skills ,
+ expand their understandings and gain
+ experiences",color=blue];
+	130 [label="students may learn professional skills ,
+ expand their understandings and gain
+ experiences",color=blue];
+	145 [label="they have more opprotunities to find
+ a job and to be
+ successful in the future",color=green];
+	145 [label="they have more opprotunities to find
+ a job and to be
+ successful in the future",color=green];
+	164 [label="as we
+ know , employer always prefer
+ to hire an employee of
+ high degree who have professional
+ skills",color=blue];
+	243 [label="they can get
+ more experiences that can not
+ be obtained at school",color=blue];
+	280 [label="students should study at school",color=green];
 }

@@ -1,9 +1,13 @@
 digraph G {
 	115 -> 96;
 	115 -> 191;
-	147 -> 191;
+	145 -> 191;
 	170 -> 191;
-	331 -> 371;
+	220 -> 191;
+	273 -> 373;
+	295 -> 373;
+	331 -> 373;
+	344 -> 373;
 	96 [label="the progress of material technology
  leads to the sharp fall
  of price of a great
@@ -26,7 +30,7 @@ digraph G {
  invest more time and energy
  in studying and living a
  more meaningful life",color=green];
-	147 [label="mobile phones become a
+	145 [label="today , mobile phones become a
  common one of household items
  , which due to the
  cheaper materials and better producing
@@ -47,15 +51,52 @@ digraph G {
  invest more time and energy
  in studying and living a
  more meaningful life",color=green];
+	191 [label="technical developments improve productivity ,
+ which help people to escape
+ from daily chores , and
+ invest more time and energy
+ in studying and living a
+ more meaningful life",color=green];
+	220 [label="with the development of internet ,
+ we can enjoy the pleasure
+ and conveniences which it brings
+ about for us every day
+",color=blue];
+	273 [label="we can talk
+ with our friends online ,
+ no matter where we are
+ and how far between us
+",color=blue];
+	373 [label="it is a
+ limp opposition to the remarkable
+ advantages of technology , and
+ technology is not the root
+ cause of the gap",color=green];
+	295 [label="the internet gives everyone access to
+ the same information , this
+",color=blue];
+	373 [label="it is a
+ limp opposition to the remarkable
+ advantages of technology , and
+ technology is not the root
+ cause of the gap",color=green];
 	331 [label="the gap between rich people
  and poor is widen by
- technology , because only the
+ technology ,",color=blue];
+	373 [label="it is a
+ limp opposition to the remarkable
+ advantages of technology , and
+ technology is not the root
+ cause of the gap",color=green];
+	344 [label="only the
  rich people have ability to
  afford the expensive high-tech products
  , and these products can
  help them to earn more
  in return",color=blue];
-	371 [label="i think it is a
+	373 [label="it is a
  limp opposition to the remarkable
- advantages of technology",color=green];
+ advantages of technology , and
+ technology is not the root
+ cause of the gap",color=green];
 }

@@ -1,11 +1,20 @@
 digraph G {
+	119 -> 176;
 	141 -> 176;
-	207 -> 329;
-	229 -> 329;
-	253 -> 329;
-	275 -> 329;
-	299 -> 340;
-	310 -> 340;
+	207 -> 345;
+	253 -> 345;
+	275 -> 345;
+	299 -> 345;
+	310 -> 345;
+	119 [label="sport events
+ with the spirit of healthiness
+ , honesty and fairness can
+ help strengthen understanding , friendship
+ and solidarity among nations",color=blue];
+	176 [label="sporting occasions play an essential
+ role in raising patriotic emotions
+ in both athletes and spectators
+",color=green];
 	141 [label="after sharing competitive but interesting
  moments in each competition ,
  the competitors often shake hands
@@ -22,46 +31,36 @@ digraph G {
  his responsibilities and he wants
  to contribute more to his
  beloved country",color=blue];
-	329 [label="the hooligans
- only took a minority of
- people",color=green];
-	229 [label="when witnessing
- our national flags flying proudly
- among others , many of
- us can stop hiding our
- pride and happiness",color=blue];
-	329 [label="the hooligans
- only took a minority of
- people",color=green];
+	345 [label="sport events help to wake up
+ love and responsibilities strongly in
+ each citizen",color=green];
 	253 [label="when vietnam became
  the champion of seagames for
  the first time in 2008
  , a festival atmosphere permeated
  into the streets",color=blue];
-	329 [label="the hooligans
- only took a minority of
- people",color=green];
+	345 [label="sport events help to wake up
+ love and responsibilities strongly in
+ each citizen",color=green];
 	275 [label="people from all ages turned out
  to the streets with flags
  , banners and they sang
  aloud songs of ho chi
  minh president",color=blue];
-	329 [label="the hooligans
- only took a minority of
- people",color=green];
+	345 [label="sport events help to wake up
+ love and responsibilities strongly in
+ each citizen",color=green];
 	299 [label="the eager
  atmosphere lasted many next days
 ",color=blue];
-	340 [label="it can be said that sport
- events help to wake up
+	345 [label="sport events help to wake up
  love and responsibilities strongly in
  each citizen",color=green];
 	310 [label="some hooligans were so excited that
  they took part in motor
  racing or using fireworks illegally
 ",color=blue];
-	340 [label="it can be said that sport
- events help to wake up
+	345 [label="sport events help to wake up
  love and responsibilities strongly in
  each citizen",color=green];
 }

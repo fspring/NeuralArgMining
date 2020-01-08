@@ -1,28 +1,75 @@
 digraph G {
-	61 -> 39;
+	57 -> 39;
+	57 -> 245;
+	80 -> 245;
+	93 -> 245;
 	146 -> 245;
-	192 -> 161;
-	214 -> 164;
-	210 -> 230;
+	161 -> 245;
+	192 -> 179;
+	192 -> 245;
 	39 [label="environment pollution
+ one of the primary reasons
+ why life in cities is
+ becoming worse than ever before
 ",color=green];
-	61 [label="especially cars , and factories'
+	57 [label="exhaust from transportation ,
+ especially cars , and factories'
  tosix fumes can lead people
  to face with various respiratory
  deseases",color=blue];
+	57 [label="exhaust from transportation ,
+ especially cars , and factories'
+ tosix fumes can lead people
+ to face with various respiratory
+ deseases",color=blue];
+	245 [label="life in big cities can have
+ negative effects on people's health
+",color=green];
+	80 [label="water pollution makes people's health become
+ more critical",color=blue];
+	245 [label="life in big cities can have
+ negative effects on people's health
+",color=green];
+	93 [label="dangerous bacterias and
+ germs in polluted water can
+ go indirectly into people's bodies
+ and create severe problems ,
+ which may result in death
+ if the patients are not
+ treated in time",color=blue];
+	245 [label="life in big cities can have
+ negative effects on people's health
+",color=green];
 	146 [label="recent investigations reveal that toxic
  foods are sold pervasively in
  today's market",color=blue];
 	245 [label="life in big cities can have
  negative effects on people's health
 ",color=green];
-	161 [label="overpopulation",color=green];
+	161 [label="overpopulation may make people suffer
+ from infectious deseases , especially
+ cough , sneezing and illness
+",color=blue];
+	245 [label="life in big cities can have
+ negative effects on people's health
+",color=green];
+	179 [label="living in
+ such cities also means living
+ in high crime rate areas
+",color=green];
 	192 [label="unemployed workers or school
  dropouts can easily commit crime
  from petty offence to felony
- such as burglary",color=blue];
-	164 [label="people",color=green];
-	214 [label="vandalism",color=blue];
-	210 [label="pickpocketing",color=blue];
-	230 [label="healthy",color=green];
+ such as burglary , pickpocketing
+ , trickery , vandalism ,
+ smuggling or even murder",color=blue];
+	192 [label="unemployed workers or school
+ dropouts can easily commit crime
+ from petty offence to felony
+ such as burglary , pickpocketing
+ , trickery , vandalism ,
+ smuggling or even murder",color=blue];
+	245 [label="life in big cities can have
+ negative effects on people's health
+",color=green];
 }

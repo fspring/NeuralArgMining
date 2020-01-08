@@ -1,2 +1,66 @@
 digraph G {
+	90 -> 70;
+	121 -> 197;
+	156 -> 197;
+	192 -> 197;
+	263 -> 197;
+	70 [label="every human being has the right
+ to live and no authority
+ is empowered to deprive one
+ of life",color=green];
+	90 [label="what criminals cause to the society
+ , specifically to the victims
+ , is indeed significantly offensive
+ , they are humans and
+ their lives need to be
+ valued",color=blue];
+	121 [label="execution does not resolve the
+ consequences of crime , not
+ to mention it could put
+ the criminal's family through hardship
+ while the pain of the
+ victim's kin is never to
+ be consoled",color=blue];
+	197 [label="living a miserable life
+ with restriction to the world
+ outside and sustaining the feeling
+ of guilt every day in
+ a dark bounded room are
+ much more obsessing than being
+ killed right away",color=green];
+	156 [label="capital punishment is certainly not
+ the only option to control
+ the amount of crimes ,
+ life imprisonment is just as
+ effective by detaining the criminals
+ in prison for the rest
+ of their lives",color=blue];
+	197 [label="living a miserable life
+ with restriction to the world
+ outside and sustaining the feeling
+ of guilt every day in
+ a dark bounded room are
+ much more obsessing than being
+ killed right away",color=green];
+	192 [label="in terms of punishment
+ ,",color=blue];
+	197 [label="living a miserable life
+ with restriction to the world
+ outside and sustaining the feeling
+ of guilt every day in
+ a dark bounded room are
+ much more obsessing than being
+ killed right away",color=green];
+	197 [label="living a miserable life
+ with restriction to the world
+ outside and sustaining the feeling
+ of guilt every day in
+ a dark bounded room are
+ much more obsessing than being
+ killed right away",color=green];
+	263 [label="many people are
+ executed for the crime they
+ did not commit , which
+ leads to a question of
+ fairness in judicial system",color=blue];
 }

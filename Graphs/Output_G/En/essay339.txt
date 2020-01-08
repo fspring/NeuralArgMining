@@ -1,8 +1,2 @@
 digraph G {
-	65 -> 54;
-	54 [label="own values
-",color=green];
-	65 [label="competitive children are more likely to
- be confident enough to handle
- the situations independently",color=blue];
 }

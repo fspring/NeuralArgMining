@@ -1,37 +1,83 @@
 digraph G {
-	84 -> 68;
-	225 -> 207;
-	310 -> 278;
-	386 -> 372;
-	412 -> 507;
-	435 -> 507;
-	439 -> 507;
-	455 -> 507;
-	463 -> 507;
-	493 -> 507;
-	499 -> 507;
-	68 [label="great planning and
- organizing ability is able to
- cause our actions more efficient
- and productive",color=green];
-	84 [label="take myself
- as an example , i
- used to be overwhelmed by
+	90 -> 278;
+	121 -> 278;
+	123 -> 278;
+	164 -> 372;
+	225 -> 372;
+	248 -> 372;
+	289 -> 278;
+	289 -> 372;
+	310 -> 372;
+	341 -> 372;
+	356 -> 372;
+	386 -> 508;
+	395 -> 508;
+	435 -> 508;
+	439 -> 508;
+	453 -> 508;
+	462 -> 508;
+	463 -> 508;
+	90 [label="i used to be overwhelmed by
  the burden of preparing for
  the final exam , submitting
  my paper , and finishing
  my internship work at the
  end of each term",color=blue];
-	207 [label=", which may ruin
- one's whole effort over a
- very long time",color=green];
+	278 [label="things have been
+ changing all the time",color=green];
+	121 [label="yet ,",color=blue];
+	278 [label="things have been
+ changing all the time",color=green];
+	123 [label="in this year
+ , following the suggestion of
+ my roommate , john ,
+ i make a to-do list
+ to plan and organize perfectly
+ everything i should get done
+ in the final and hence
+ take every tasks and trivials
+ into control",color=blue];
+	278 [label="things have been
+ changing all the time",color=green];
+	164 [label="this plan
+ ability helps me a lot
+ , making me climb to
+ the top rank of the
+ class while finishing everything else
+",color=blue];
+	372 [label="it is not need
+ for young people to possess
+ this ability",color=green];
 	225 [label="the employees in every company have
  to create profit as much
  as they can for their
  supervisors and complete their assignments
  perfectly",color=blue];
+	372 [label="it is not need
+ for young people to possess
+ this ability",color=green];
+	248 [label="if some employees
+ lack the ability to plan
+ and organize ahead , they
+ may get the procrastination and
+ therefore take into action until
+ the deadline is imminent",color=blue];
+	372 [label="it is not need
+ for young people to possess
+ this ability",color=green];
 	278 [label="things have been
  changing all the time",color=green];
+	289 [label="the deadline
+ of task is shifted to
+ an earlier date for the
+ change of company's schedule",color=blue];
+	289 [label="the deadline
+ of task is shifted to
+ an earlier date for the
+ change of company's schedule",color=blue];
+	372 [label="it is not need
+ for young people to possess
+ this ability",color=green];
 	310 [label="those employees who did not plan
  and finish their assignments ahead
  of time perhaps are unable
@@ -41,24 +87,35 @@ digraph G {
 	372 [label="it is not need
  for young people to possess
  this ability",color=green];
+	341 [label="every employee can not afford
+ this kind of loss",color=blue];
+	372 [label="it is not need
+ for young people to possess
+ this ability",color=green];
+	356 [label="the ability to plan and
+ organize can be learned until
+ obtaining a job",color=blue];
+	372 [label="it is not need
+ for young people to possess
+ this ability",color=green];
 	386 [label="this ability is also essential
- for young people since young
- people can overcome their bad
+ for young people",color=blue];
+	508 [label="the ability to
+ plan and organize is undoubtedly
+ a powerful and sharp weapon
+ that we must be armed
+ with",color=green];
+	395 [label="young people can overcome their bad
  habits and fulfill their goals
  more quickly with this ability
 ",color=blue];
-	412 [label="as searching information on
- the internet , young people
- are probably distracted by other
- attractions such as online games
- or social webs",color=blue];
-	507 [label="so the ability to
+	508 [label="the ability to
  plan and organize is undoubtedly
  a powerful and sharp weapon
  that we must be armed
  with",color=green];
 	435 [label="at this circumstances",color=blue];
-	507 [label="so the ability to
+	508 [label="the ability to
  plan and organize is undoubtedly
  a powerful and sharp weapon
  that we must be armed
@@ -67,14 +124,21 @@ digraph G {
  surf on the internet for
  hours and end up no
  where",color=blue];
-	507 [label="so the ability to
+	508 [label="the ability to
  plan and organize is undoubtedly
  a powerful and sharp weapon
  that we must be armed
  with",color=green];
-	455 [label="obviously a huge waste of time
+	453 [label="it is obviously
+ a huge waste of time
 ",color=blue];
-	507 [label="so the ability to
+	508 [label="the ability to
+ plan and organize is undoubtedly
+ a powerful and sharp weapon
+ that we must be armed
+ with",color=green];
+	462 [label="but",color=blue];
+	508 [label="the ability to
  plan and organize is undoubtedly
  a powerful and sharp weapon
  that we must be armed
@@ -85,20 +149,7 @@ digraph G {
  to their plans , they
  could get their work done
  quickly beyond their imagination",color=blue];
-	507 [label="so the ability to
- plan and organize is undoubtedly
- a powerful and sharp weapon
- that we must be armed
- with",color=green];
-	493 [label="complex society ,
- we ,",color=blue];
-	507 [label="so the ability to
- plan and organize is undoubtedly
- a powerful and sharp weapon
- that we must be armed
- with",color=green];
-	499 [label="people",color=blue];
-	507 [label="so the ability to
+	508 [label="the ability to
  plan and organize is undoubtedly
  a powerful and sharp weapon
  that we must be armed

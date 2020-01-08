@@ -1,44 +1,28 @@
 digraph G {
-	75 -> 41;
-	91 -> 54;
-	110 -> 66;
-	110 -> 68;
-	75 -> 186;
-	126 -> 186;
+	54 -> 29;
+	54 -> 42;
+	74 -> 186;
 	144 -> 186;
-	41 [label="that indispensable public services like
- hospital and school worth every
- penny investing",color=green];
-	75 [label="if these facilities were not spent
- adequately , our standard of
- living would deteriorate",color=blue];
+	29 [label="both public
+ services and arts worth investment
+",color=green];
 	54 [label="investing in
  hospitals helps improve people's health
-",color=green];
-	91 [label="our standard of living also
- depend on another factor -
- spiritual life which is related
- closely with arts",color=blue];
-	66 [label="assists",color=green];
-	110 [label="arts include many forms and music
- as well as cinema are
- the most typical",color=blue];
-	68 [label="raising our children's
- education level",color=green];
-	110 [label="arts include many forms and music
- as well as cinema are
- the most typical",color=blue];
-	75 [label="if these facilities were not spent
+ , also , in schools
+ assists with raising our children's
+ education level",color=blue];
+	42 [label="indispensable public services like
+ hospital and school worth every
+ penny investing",color=green];
+	54 [label="investing in
+ hospitals helps improve people's health
+ , also , in schools
+ assists with raising our children's
+ education level",color=blue];
+	74 [label="apparently if
+ these facilities were not spent
  adequately , our standard of
  living would deteriorate",color=blue];
-	186 [label="both arts and public services
- are important to the community
- and should be invested properly
-",color=green];
-	126 [label="two art forms not only
- provide the public with entertainment
- but also contribute significantly to
- the economy",color=blue];
 	186 [label="both arts and public services
  are important to the community
  and should be invested properly

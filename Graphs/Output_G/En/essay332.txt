@@ -1,36 +1,85 @@
 digraph G {
-	76 -> 117;
-	151 -> 143;
-	148 -> 155;
-	161 -> 149;
-	262 -> 265;
-	266 -> 263;
-	76 [label="at younger age people are
- less likely to get a
- high paying job , so
- it can be a difficult
- task to pay for rent
- , food , utilities and
- other expenses to sustain yourself
-",color=blue];
+	66 -> 117;
+	161 -> 352;
+	179 -> 304;
+	198 -> 304;
+	257 -> 304;
+	272 -> 304;
+	325 -> 352;
+	66 [label="living on your own is
+ a huge financial commitment",color=blue];
 	117 [label="living with parents is
  a wise choice for adults
  until they get a head
  start to their professional career
  with a reasonable income",color=green];
-	143 [label="of living with
- parents for",color=green];
-	151 [label="of time is the",color=blue];
-	148 [label="a",color=blue];
-	155 [label="enhanced emotional attachment with them",color=green];
-	149 [label="longer period
-",color=green];
 	161 [label="parents have valuable advice to
  their children as they go
  through the changes in their
  adult life",color=blue];
-	262 [label="to",color=blue];
-	265 [label="advantages",color=green];
-	263 [label="take",color=green];
-	266 [label="of the",color=blue];
+	352 [label="to cope with the
+ physiological and psychological changes of
+ adult life , to make
+ financial life a less struggle
+ and to prevent oneself digress
+ from their destined path ,
+ it is important for young
+ adults to live with their
+ parents for a longer period
+ of time",color=green];
+	179 [label="living together
+ develops the environment of discussing
+ adult's physiological and psychological changes
+ face to face with their
+ parents",color=blue];
+	304 [label="young adults
+ should only consider living on
+ their own only after they
+ are sure they could sustain
+ on their own",color=green];
+	198 [label="young adults will
+ feel reluctant to discuss such
+ problems with their parents if
+ they move out and live
+ on their own",color=blue];
+	304 [label="young adults
+ should only consider living on
+ their own only after they
+ are sure they could sustain
+ on their own",color=green];
+	257 [label="most young adults are
+ inclined to take unprecedented advantages
+ of the freedom they have
+",color=blue];
+	304 [label="young adults
+ should only consider living on
+ their own only after they
+ are sure they could sustain
+ on their own",color=green];
+	272 [label="it is good thing
+ if living with parents does
+ not give freedom for young
+ people to party all night
+ , smoke or do drugs
+",color=blue];
+	304 [label="young adults
+ should only consider living on
+ their own only after they
+ are sure they could sustain
+ on their own",color=green];
+	325 [label="it is unwise to trade the
+ opportunity of living with parents
+ for a longer period of
+ time for some late night
+ parties or drugs",color=blue];
+	352 [label="to cope with the
+ physiological and psychological changes of
+ adult life , to make
+ financial life a less struggle
+ and to prevent oneself digress
+ from their destined path ,
+ it is important for young
+ adults to live with their
+ parents for a longer period
+ of time",color=green];
 }

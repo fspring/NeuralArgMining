@@ -1,2 +1,19 @@
 digraph G {
+	71 -> 21;
+	162 -> 243;
+	21 [label="government should provide those education
+ to their people ;",color=green];
+	71 [label="i don't think it is
+ also fair for the government
+ as the government has been
+ paying a lot of money
+ for their students' primary and
+ secondary education",color=blue];
+	162 [label="they will be more
+ responsible with their studies when
+ they pay the fees themselves
+",color=blue];
+	243 [label="government should not
+ pay for the university fees
+",color=green];
 }

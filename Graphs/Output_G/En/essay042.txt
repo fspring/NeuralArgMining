@@ -1,2 +1,25 @@
 digraph G {
+	118 -> 182;
+	137 -> 182;
+	118 [label="it is an
+ important phase for them to
+ study hard and get into
+ the high school they want
+",color=blue];
+	182 [label="creating an enjoyable working
+ environment is more realistic and
+ essential if one wishes an
+ increase in productivity and better
+ employee performances",color=green];
+	137 [label="if the teachers receive
+ higher salaries , they will
+ be willing to spend more
+ extra time mentoring the youngsters
+ rather than hoping they learn
+ in cram schools and",color=blue];
+	182 [label="creating an enjoyable working
+ environment is more realistic and
+ essential if one wishes an
+ increase in productivity and better
+ employee performances",color=green];
 }

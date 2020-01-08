@@ -1,20 +1,27 @@
 digraph G {
-	89 -> 205;
-	117 -> 205;
-	142 -> 205;
-	179 -> 205;
+	89 -> 80;
+	89 -> 231;
+	102 -> 231;
+	117 -> 200;
+	162 -> 200;
+	179 -> 200;
+	184 -> 200;
+	80 [label="they are the best advisor for
+ their children",color=green];
 	89 [label="they have
  experienced a large numbers of
- stuffs during their life ,
- so if children listen to
+ stuffs during their life",color=blue];
+	89 [label="they have
+ experienced a large numbers of
+ stuffs during their life",color=blue];
+	231 [label="it is a good idea
+ to ask parents and adult
+ relatives to give a piece
+ of advice",color=green];
+	102 [label="if children listen to
  their advices they can prevent
  happening worst things",color=blue];
-	205 [label="people from young ages to old
- ages are free to make
- a decision , nonetheless sometimes
- to prevent some problems coming
- up for young individuals ,
- it is a good idea
+	231 [label="it is a good idea
  to ask parents and adult
  relatives to give a piece
  of advice",color=green];
@@ -23,36 +30,17 @@ digraph G {
  as time and money ,
  and enjoy they life with
  the best way",color=blue];
-	205 [label="people from young ages to old
- ages are free to make
- a decision , nonetheless sometimes
- to prevent some problems coming
- up for young individuals ,
- it is a good idea
- to ask parents and adult
- relatives to give a piece
- of advice",color=green];
-	142 [label="i",color=blue];
-	205 [label="people from young ages to old
- ages are free to make
- a decision , nonetheless sometimes
- to prevent some problems coming
- up for young individuals ,
- it is a good idea
- to ask parents and adult
- relatives to give a piece
- of advice",color=green];
+	200 [label="it makes no difference",color=green];
+	162 [label="unfortunately nowadays there are
+ some individuals who cheat the
+ others for gaining more power
+ and money",color=blue];
+	200 [label="it makes no difference",color=green];
 	179 [label="they cheat
- young ages because they believe
+ young ages",color=blue];
+	200 [label="it makes no difference",color=green];
+	184 [label="they believe
  they are immature and they
  can trap them easily",color=blue];
-	205 [label="people from young ages to old
- ages are free to make
- a decision , nonetheless sometimes
- to prevent some problems coming
- up for young individuals ,
- it is a good idea
- to ask parents and adult
- relatives to give a piece
- of advice",color=green];
+	200 [label="it makes no difference",color=green];
 }

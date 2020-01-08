@@ -1,19 +1,83 @@
 digraph G {
-	84 -> 71;
-	268 -> 322;
+	27 -> 68;
+	85 -> 68;
+	85 -> 344;
+	104 -> 236;
+	121 -> 356;
+	132 -> 356;
+	151 -> 344;
+	192 -> 236;
+	226 -> 236;
+	268 -> 236;
+	243 -> 322;
 	286 -> 322;
 	305 -> 322;
-	71 [label="taught me to be more
- prudent person to",color=green];
-	84 [label=", in
- math class , the way
+	27 [label="i could improve the
+ way that i solve problems
+ , improve how i take
+ care of my health ,
+ and improve to plan my
+ life for future",color=blue];
+	68 [label="studying in university
+ taught me to be more
+ prudent person to solve problems
+",color=green];
+	68 [label="studying in university
+ taught me to be more
+ prudent person to solve problems
+",color=green];
+	85 [label="in math class , the way
  that we learnt to find
  an answer by doing step
  by step",color=blue];
+	85 [label="in math class , the way
+ that we learnt to find
+ an answer by doing step
+ by step",color=blue];
+	344 [label="i could
+ find a better way to
+ solve problems",color=green];
+	104 [label="start with
+ find cause of problem and
+ the way to do research
+ to solve the problem",color=blue];
+	236 [label="i can",color=green];
+	121 [label="i could adapt this method
+ to use my real life
+",color=blue];
+	356 [label="experiences could shape me to
+ be more aware about my
+ health",color=green];
+	132 [label="when i want to
+ go to somewhere , i
+ try to find the way
+ to reach to destination",color=blue];
+	356 [label="experiences could shape me to
+ be more aware about my
+ health",color=green];
+	151 [label="which ways are shortest and
+ which ways are less consume
+ my time",color=blue];
+	344 [label="i could
+ find a better way to
+ solve problems",color=green];
+	192 [label="reading and listening the
+ news about choosing a good
+ diet are the way to
+ keep myself are more healthy
+",color=blue];
+	236 [label="i can",color=green];
+	226 [label="this food are not have
+ chemical",color=blue];
+	236 [label="i can",color=green];
+	236 [label="i can",color=green];
 	268 [label="i read about
  saving money for my retire
  is a good plan for
  my life",color=blue];
+	243 [label="this experience teach
+ me to aware my health
+",color=blue];
 	322 [label="experiences that shape my
  thinking and the way to
  live my life are teach

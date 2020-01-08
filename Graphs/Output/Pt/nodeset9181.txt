@@ -66,7 +66,7 @@ que (O)    0.000
 os (O)    0.000
 acolhe (O)    0.000
 . (O)    0.000
-para (C)    0.000
+para (P)    0.000
 eles (I)    0.000
 as (I)    0.000
 mulheres (I)    0.000
@@ -84,8 +84,8 @@ e (I)    0.000
 estar (I)    0.000
 no (I)    0.000
 mundo (I)    0.000
-, (I)    0.000
-pelo (I)    0.000
+, (O)    0.000
+pelo (C)    0.000
 se (I)    0.000
 sentem (I)    0.000
 no (I)    0.000

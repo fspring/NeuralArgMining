@@ -1,23 +1,41 @@
 digraph G {
-	214 -> 268;
-	215 -> 268;
-	232 -> 268;
-	246 -> 268;
-	272 -> 268;
-	214 [label="consider",color=blue];
-	268 [label="from",color=green];
-	215 [label="a circumstance in which a student
- who is a member of
- jazz ensemble in their school
+	126 -> 114;
+	126 -> 199;
+	138 -> 199;
+	162 -> 199;
+	364 -> 400;
+	114 [label="the more
+ chances we can increase our
+ knowledge",color=green];
+	126 [label="library is a good place
+ for students to study or
+ research",color=blue];
+	126 [label="library is a good place
+ for students to study or
+ research",color=blue];
+	199 [label="students are
+ not always staying in classrooms
+",color=green];
+	138 [label="they can concentrate
+ on the subjects with a
+ tranquil ambience ; also ,
+ there are a lot of
+ references for students to utilize
 ",color=blue];
-	268 [label="from",color=green];
-	232 [label="he must need a
- better auditorium for him to
- have an extraordinary performance",color=blue];
-	268 [label="from",color=green];
-	246 [label="with",color=blue];
-	268 [label="from",color=green];
-	268 [label="from",color=green];
-	272 [label="we are capable of
-",color=blue];
+	199 [label="students are
+ not always staying in classrooms
+",color=green];
+	162 [label="with this convenient and
+ versatile facility , students can
+ improve their learning condition",color=blue];
+	199 [label="students are
+ not always staying in classrooms
+",color=green];
+	364 [label="it is
+ useless to hire a super
+ famous teacher to teach those
+ who behaviors as sluggards",color=blue];
+	400 [label="the advantages of this are relatively
+ greater than that of the
+ other",color=green];
 }

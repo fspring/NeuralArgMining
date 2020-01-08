@@ -1,58 +1,58 @@
 digraph G {
-	139 -> 165;
-	249 -> 184;
-	213 -> 316;
-	231 -> 316;
-	249 -> 316;
+	56 -> 44;
+	66 -> 165;
+	84 -> 165;
+	101 -> 165;
+	213 -> 196;
 	268 -> 316;
-	139 [label="testing is
- a very important aspect of
- life , and still the
- majority of tests do not
- allow you to work in
- team",color=blue];
+	44 [label="the capability
+ of working independly is more
+ significant",color=green];
+	56 [label="effective cooperation can make things
+ easier and faster , but
+",color=blue];
+	66 [label="in many important cases when
+ team-working is not possible ,
+ the ability to work alone
+ will help",color=blue];
 	165 [label="if you want to get brilliant
  achievements such as going to
  college , acing your school's
- final tests",color=green];
-	184 [label="you should
- consider learning",color=green];
-	249 [label="when we
- work in team , we
- still think individually because our
- brain are not connected but
- separate",color=blue];
+ final tests , you should
+ consider learning to work on
+ your own",color=green];
+	84 [label="the apperant
+ example is that there are
+ a lot of tests that
+ do not allow team-working",color=blue];
+	165 [label="if you want to get brilliant
+ achievements such as going to
+ college , acing your school's
+ final tests , you should
+ consider learning to work on
+ your own",color=green];
+	101 [label="let's imagine that you perform
+ really well when you can
+ discuss the problems with other
+ people , but you have
+ no experience of working alone
+ , standardized tests such as
+ sat , toefl may be
+ your nightmares",color=blue];
+	165 [label="if you want to get brilliant
+ achievements such as going to
+ college , acing your school's
+ final tests , you should
+ consider learning to work on
+ your own",color=green];
+	196 [label="the ability to work alone
+ will help you increase your
+ ability to work with other
+ people",color=green];
 	213 [label="working in team
  does not mean that you
  do not have to come
  up with your ideas",color=blue];
-	316 [label="the capablity of working alone
- is the foundation for the
- skill to work in team
- and plays a significant role
- in a lot of situations
-",color=green];
-	231 [label="everybody in a team must
- have his/her own opinion first
- , then discuss them with
- other members",color=blue];
-	316 [label="the capablity of working alone
- is the foundation for the
- skill to work in team
- and plays a significant role
- in a lot of situations
-",color=green];
-	249 [label="when we
- work in team , we
- still think individually because our
- brain are not connected but
- separate",color=blue];
-	316 [label="the capablity of working alone
- is the foundation for the
- skill to work in team
- and plays a significant role
- in a lot of situations
-",color=green];
 	268 [label="when everyone in
  a team can come up
  with his/her own ideas ,

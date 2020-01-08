@@ -1,33 +1,59 @@
 digraph G {
-	73 -> 57;
+	105 -> 85;
+	105 -> 247;
+	119 -> 247;
 	172 -> 161;
-	215 -> 207;
-	215 -> 339;
+	172 -> 339;
+	186 -> 339;
+	202 -> 247;
+	219 -> 339;
+	235 -> 247;
 	256 -> 247;
 	256 -> 339;
 	276 -> 339;
 	289 -> 339;
-	306 -> 339;
-	324 -> 339;
-	57 [label="doing research is a
- method of self-improvement for professors
-",color=green];
-	73 [label="the research projects
- provide communication with the outside
-",color=blue];
+	85 [label="by doing research , professors could
+ catch up with the latest
+ development of modern technologies",color=green];
+	105 [label="my professor took part in several
+ research projects when i was
+ in college",color=blue];
+	105 [label="my professor took part in several
+ research projects when i was
+ in college",color=blue];
+	247 [label="doing research could also
+ improve the teaching quality",color=green];
+	119 [label="he was
+ often invited to do speech
+ in other universities",color=blue];
+	247 [label="doing research could also
+ improve the teaching quality",color=green];
 	161 [label="professors should fully use the
  research-friendly environment provided by universities
 ",color=green];
 	172 [label="it is very common
  to see state-of-the-art laboratories in
  the campus",color=blue];
-	207 [label="to discourage professors from
- using those advantages",color=green];
-	215 [label="we all know that einstein developed
- the theory of general relativity
- when he was a professor
- in hu berlin",color=blue];
-	215 [label="we all know that einstein developed
+	172 [label="it is very common
+ to see state-of-the-art laboratories in
+ the campus",color=blue];
+	339 [label="it is
+ natural to support the professors
+ spending more time on doing
+ research",color=green];
+	186 [label="you could not find another
+ place with so much talent
+ people gathering together",color=blue];
+	339 [label="it is
+ natural to support the professors
+ spending more time on doing
+ research",color=green];
+	202 [label="there is really no
+ reason to discourage professors from
+",color=blue];
+	247 [label="doing research could also
+ improve the teaching quality",color=green];
+	219 [label="einstein developed
  the theory of general relativity
  when he was a professor
  in hu berlin",color=blue];
@@ -35,6 +61,10 @@ digraph G {
  natural to support the professors
  spending more time on doing
  research",color=green];
+	235 [label="universities positively contribute the professors' success
+",color=blue];
+	247 [label="doing research could also
+ improve the teaching quality",color=green];
 	247 [label="doing research could also
  improve the teaching quality",color=green];
 	256 [label="with the help of research
@@ -60,21 +90,6 @@ digraph G {
  remembered the experience of being
  an assistant in one of
  my professor's research project",color=blue];
-	339 [label="it is
- natural to support the professors
- spending more time on doing
- research",color=green];
-	306 [label="by participating in it ,
- i had opportunities to use
- theories on textbooks in real
- life experiments",color=blue];
-	339 [label="it is
- natural to support the professors
- spending more time on doing
- research",color=green];
-	324 [label="the research
- project provides a more efficient
- way of teaching",color=blue];
 	339 [label="it is
  natural to support the professors
  spending more time on doing

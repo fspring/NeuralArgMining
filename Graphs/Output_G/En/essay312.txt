@@ -1,33 +1,81 @@
 digraph G {
-	59 -> 47;
-	59 -> 89;
-	120 -> 89;
-	165 -> 111;
-	47 [label="essential",color=green];
-	59 [label="should spend
+	89 -> 58;
+	189 -> 264;
+	199 -> 264;
+	218 -> 405;
+	235 -> 405;
+	244 -> 405;
+	331 -> 405;
+	346 -> 427;
+	357 -> 405;
+	383 -> 405;
+	58 [label="money should spend
  on facilities in school or
  update resources , which are
  beneficial to school rather than
- just instructors",color=blue];
-	59 [label="should spend
- on facilities in school or
- update resources , which are
- beneficial to school rather than
- just instructors",color=blue];
+ just instructors",color=green];
 	89 [label="the school
  should put more emphasis on
- students instead of professors",color=green];
-	89 [label="the school
- should put more emphasis on
- students instead of professors",color=green];
-	120 [label="by renewing some facilities in school
- so students will spend more
- time at school doing assignment
+ students instead of professors",color=blue];
+	189 [label="the competition
+ between peers enhances and forms
+ a circulation",color=blue];
+	264 [label="the ultimate
+ purpose is to change ,
+ to motivate students to be
+ better",color=green];
+	199 [label="in my
+ school , the classrooms in
+ my university are old and
+ kind of shabby",color=blue];
+	264 [label="the ultimate
+ purpose is to change ,
+ to motivate students to be
+ better",color=green];
+	218 [label="i prefer spending
+ money in a coffee shop
+ to staying at school to
+ finish my assignment",color=blue];
+	405 [label="students' tuition is not only for
+ the professors but also for
+ their quality of learning at
+ university",color=green];
+	235 [label="it's unpleasant to stay at school
 ",color=blue];
-	111 [label="is to",color=green];
-	165 [label="to say , students have a
- better environment to working on
- their assignments so the quality
- of their assignments will improve
+	405 [label="students' tuition is not only for
+ the professors but also for
+ their quality of learning at
+ university",color=green];
+	244 [label="coffee shops
+ are not always quiet ,
+ so my classmates and i
+ often finish our work roughly
 ",color=blue];
+	405 [label="students' tuition is not only for
+ the professors but also for
+ their quality of learning at
+ university",color=green];
+	331 [label="they earn more money",color=blue];
+	405 [label="students' tuition is not only for
+ the professors but also for
+ their quality of learning at
+ university",color=green];
+	346 [label="there was news about raising
+ professors' salary in my country
+",color=blue];
+	427 [label="i against providing more
+ money to professors",color=green];
+	357 [label="this event provoked a
+ demonstration composing of students mostly
+",color=blue];
+	405 [label="students' tuition is not only for
+ the professors but also for
+ their quality of learning at
+ university",color=green];
+	383 [label="if the policy
+ of raising salary was",color=blue];
+	405 [label="students' tuition is not only for
+ the professors but also for
+ their quality of learning at
+ university",color=green];
 }

@@ -1,34 +1,5 @@
 digraph G {
-	100 -> 79;
-	207 -> 264;
-	228 -> 264;
 	236 -> 264;
-	79 [label="many large
- companies and universities often locate
- in cities which are hailed
- as promising lands to develop
- their career",color=green];
-	100 [label="they move to big cities to
- pursue academic career and find
- jobs in order to have
- a higher standard of living
-",color=blue];
-	207 [label="cities cannot provide adequate
- space for thousands of dwellers
- that might lead to poor
- housing conditions and sanitation",color=blue];
-	264 [label="young people
- tend to study or work
- in urban areas since these
- provide them many educational opportunities
- and career potentials",color=green];
-	228 [label="it might put
- strain on the environment",color=blue];
-	264 [label="young people
- tend to study or work
- in urban areas since these
- provide them many educational opportunities
- and career potentials",color=green];
 	236 [label="if there are more people
  in the cities , there
  would be large numbers of

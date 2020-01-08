@@ -1,6 +1,14 @@
 digraph G {
 	113 -> 101;
-	264 -> 258;
+	113 -> 273;
+	131 -> 326;
+	170 -> 160;
+	170 -> 326;
+	192 -> 326;
+	210 -> 273;
+	217 -> 273;
+	248 -> 273;
+	280 -> 326;
 	303 -> 326;
 	101 [label="committing to our goal helps
  creating personal worth",color=green];
@@ -8,13 +16,63 @@ digraph G {
  true potential of my body
  and mind as i decided
  to train myself hard",color=blue];
-	258 [label="the responsibility",color=green];
-	264 [label="too heavy
+	113 [label="i realized the
+ true potential of my body
+ and mind as i decided
+ to train myself hard",color=blue];
+	273 [label="the responsibility is
+ worthy of carrying",color=green];
+	131 [label="even if i were not
+ to win this medal ,
+ i acknowledged the great amount
+ of my endeavor as i
+ could keep my tired legs
+ running",color=blue];
+	326 [label="one should not",color=green];
+	160 [label="one who learns the great difficulty
+ will become stronger",color=green];
+	170 [label="i remembered how i was suffered
+ in the first round when
+ i was last person who
+ touched the line",color=blue];
+	170 [label="i remembered how i was suffered
+ in the first round when
+ i was last person who
+ touched the line",color=blue];
+	326 [label="one should not",color=green];
+	192 [label="i did not give
+ up , and believed that
+ i would be better in
+ the next round because",color=blue];
+	326 [label="one should not",color=green];
+	210 [label="i knew how to improve myself
+",color=blue];
+	273 [label="the responsibility is
+ worthy of carrying",color=green];
+	217 [label="i had been a
+ loser for a thousand time
+ before the first winning ,
+ and suffering from losing in
+ each competition makes me stronger
+",color=blue];
+	273 [label="the responsibility is
+ worthy of carrying",color=green];
+	248 [label="we , as
+ an average people , might
+ feel that the responsibility to
+ our goal is too heavy
  to carry on",color=blue];
+	273 [label="the responsibility is
+ worthy of carrying",color=green];
+	280 [label="when the distance is longer and
+ harder to achieve , a
+ runner who can go beyond
+ his limit will proud of
+ himself",color=blue];
+	326 [label="one should not",color=green];
 	303 [label="he can feel
  the sweetness of triumph because
  he did not stop pursing
  his goal",color=blue];
-	326 [label="one should not give up
-",color=green];
+	326 [label="one should not",color=green];
 }

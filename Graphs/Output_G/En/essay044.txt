@@ -1,8 +1,25 @@
 digraph G {
+	57 -> 137;
+	76 -> 137;
 	91 -> 137;
-	109 -> 156;
+	204 -> 156;
 	181 -> 224;
 	204 -> 224;
+	57 [label="there is a lot
+ of water shortage to generate
+ electricity many countries still rely
+ only on this source",color=blue];
+	137 [label="it would be a
+ good implication by the government
+ to generate electricity from other
+ available sources",color=green];
+	76 [label="to generate such a vast
+ energy the fundamental resources are
+ falling short",color=blue];
+	137 [label="it would be a
+ good implication by the government
+ to generate electricity from other
+ available sources",color=green];
 	91 [label="during summer there will be
  a lot of power cut
  in the developing countries such
@@ -11,31 +28,25 @@ digraph G {
  good implication by the government
  to generate electricity from other
  available sources",color=green];
-	109 [label="if the
- government encourage the use of
- nuclear , solar or wind
- energy there might not be
- any problem in distributing the
- required amount electricity",color=blue];
 	156 [label="the sources most widely used
  currently to generate power releases
  extensive amount of gases into
  the atmosphere which increases global
  warming",color=green];
+	204 [label="the use
+ of nuclear energy as an
+ alternative to the hydro-kinetic energy
+ causes less atmospheric pollution",color=blue];
 	181 [label="the use of a solar
  cooker instead of an electric
  cooker would certainly reduce the
  global warming",color=blue];
 	224 [label="it would
- be a better implication by
- the government to promote other
- sources of energy",color=green];
+",color=green];
 	204 [label="the use
  of nuclear energy as an
  alternative to the hydro-kinetic energy
  causes less atmospheric pollution",color=blue];
 	224 [label="it would
- be a better implication by
- the government to promote other
- sources of energy",color=green];
+",color=green];
 }

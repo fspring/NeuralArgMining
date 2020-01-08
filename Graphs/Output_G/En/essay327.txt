@@ -1,30 +1,29 @@
 digraph G {
-	92 -> 75;
-	196 -> 160;
+	117 -> 137;
+	182 -> 262;
+	196 -> 262;
 	212 -> 262;
 	225 -> 262;
-	245 -> 262;
-	75 [label="the ability of learning in the
- childhood period is more powerful
- than other periods of life
-",color=green];
-	92 [label="thereby students in the
- beginning of their education can
- learn faster and easier in
- compare to a young one
- to understand a foreign language
-",color=blue];
-	160 [label="of that students have not any
- responsibility and other difficulty in
- comparison with a young man
- , we can infer that
- why this time is the
+	117 [label="they can easily understand
+ the language structure and memorize
+ the vocabularies",color=blue];
+	137 [label="the persistence of learning
+ a knowledge in the childhood
+ is more than other period
+ of lives",color=green];
+	182 [label="this time is the
  best time to learn any
- language",color=green];
+ language",color=blue];
+	262 [label="they would be able
+ to develop their personalities and
+ sense of reliance",color=green];
 	196 [label="learning a foreign language helps
  students tremendously to comprehend what
  happens in the around world
 ",color=blue];
+	262 [label="they would be able
+ to develop their personalities and
+ sense of reliance",color=green];
 	212 [label="they would be able
  to understand other cultures and
  costumes",color=blue];
@@ -35,12 +34,6 @@ digraph G {
  of power to communicate better
  with peers in other parts
  of the world",color=blue];
-	262 [label="they would be able
- to develop their personalities and
- sense of reliance",color=green];
-	245 [label="having knowledge about other countries and
- their languages lead to extend
- the child's vision",color=blue];
 	262 [label="they would be able
  to develop their personalities and
  sense of reliance",color=green];

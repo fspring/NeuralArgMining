@@ -1,7 +1,13 @@
 digraph G {
 	117 -> 101;
-	298 -> 288;
-	298 -> 295;
+	117 -> 204;
+	141 -> 204;
+	153 -> 204;
+	163 -> 204;
+	178 -> 399;
+	215 -> 204;
+	361 -> 399;
+	376 -> 399;
 	101 [label="living your life on the
  fast lane is very stressful
  and can affect your health
@@ -11,19 +17,61 @@ digraph G {
  take a certain time off
  , your body will react
  to your stressful lifestyle",color=blue];
-	288 [label="cultivate his friendships
-",color=green];
-	298 [label="when you are
- faced with difficult tasks and
- you do them in a
- rush , you are more
- likely to do avoidable errors
- or mistakes",color=blue];
-	295 [label="takes time",color=green];
-	298 [label="when you are
- faced with difficult tasks and
- you do them in a
- rush , you are more
- likely to do avoidable errors
- or mistakes",color=blue];
+	117 [label="if you are always
+ hurried and you do not
+ take a certain time off
+ , your body will react
+ to your stressful lifestyle",color=blue];
+	204 [label="living your
+ life at a slower pace
+ increases your happiness",color=green];
+	141 [label="many hardworking people have diseases
+ , like the burn-out syndrome
+",color=blue];
+	204 [label="living your
+ life at a slower pace
+ increases your happiness",color=green];
+	153 [label="their bodies cannot
+ hold the pace",color=blue];
+	204 [label="living your
+ life at a slower pace
+ increases your happiness",color=green];
+	163 [label="my father had
+ a a breakdown several years
+ ago due to his stressful
+ job",color=blue];
+	204 [label="living your
+ life at a slower pace
+ increases your happiness",color=green];
+	178 [label="after several weeks
+ off his body was restored
+ , now he has reduced
+ the tempo of his lifestyle
+ and is doing fine",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	204 [label="living your
+ life at a slower pace
+ increases your happiness",color=green];
+	215 [label="if you are always facing excessive
+ stress you cannot care for
+ your beloved's",color=blue];
+	361 [label="i once wrote an essay
+ in a hurry and got
+ a bad grade ,",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	376 [label="i made few mistakes i
+ could have avoided",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
 }

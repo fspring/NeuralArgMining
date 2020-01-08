@@ -1,9 +1,22 @@
 digraph G {
-	132 -> 209;
-	132 [label="other people visit museums
- are the most boring expirience
- of a trip",color=blue];
-	209 [label="museums are
+	121 -> 231;
+	145 -> 208;
+	121 [label="kind of knowledge speaks very
+ highly of you",color=blue];
+	231 [label="it's fun and educational",color=green];
+	145 [label="my cousin pedro literaly hates to
+ visit museums but he really
+ enjoyed his visit to the
+ famous london - madame tussaud
+ museum , it was kind
+ of art entertainment but also
+ that visit helped him to
+ understand the artist works ,
+ and in addition he started
+ to respect and admire other
+ types of arts that offers
+ in other museums",color=blue];
+	208 [label="the museums are
  a visual source to know
  the history , tradition and
  culture of any place in

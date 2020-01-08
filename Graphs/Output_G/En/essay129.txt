@@ -1,18 +1,27 @@
 digraph G {
-	210 -> 261;
-	234 -> 261;
-	210 [label="if i can avoid being a
- sluggish person , i can
- have a higher probability of
- fulfilling my dream successfully",color=blue];
-	261 [label="from this case we are
- capable of",color=green];
-	234 [label="i had
- spent more time on practicing
- playing piano so that i
- won a piano competition ,
- defeating those spending less time
- on practicing",color=blue];
-	261 [label="from this case we are
- capable of",color=green];
+	125 -> 169;
+	136 -> 169;
+	357 -> 386;
+	125 [label="i just failed to participate in
+ the university entrance exam",color=blue];
+	169 [label="we can
+ start",color=green];
+	136 [label="i thought i had enough
+ time for eating breakfast and
+ transporting to the testing place
+ ; while i was stocked
+ in a traffic jam and
+ then missed the first test
+",color=blue];
+	169 [label="we can
+ start",color=green];
+	357 [label="it is really joyful
+ for me that i can
+ immerse in the joy of
+ the victory and accomplishment",color=blue];
+	386 [label="living in a higher pace
+ is better because the advantages
+ of this are qualitatively greater
+ than that of the opposite
+",color=green];
 }

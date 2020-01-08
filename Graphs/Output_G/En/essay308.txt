@@ -1,29 +1,59 @@
 digraph G {
-	190 -> 288;
-	234 -> 288;
-	268 -> 288;
-	190 [label="week , i went to the
- city center to meet my
- friends",color=blue];
-	288 [label="that staying in
+	85 -> 30;
+	85 -> 134;
+	148 -> 134;
+	173 -> 289;
+	182 -> 289;
+	189 -> 289;
+	268 -> 289;
+	30 [label="i prefer to spend my entire
+ live in one place which
+ is my hometown",color=green];
+	85 [label="in here , i have a
+ lot of friends , and
+ we usually spend free time
+ to play sports like soccer
+ , basketball and of course
+ we have a lot of
+ fun",color=blue];
+	85 [label="in here , i have a
+ lot of friends , and
+ we usually spend free time
+ to play sports like soccer
+ , basketball and of course
+ we have a lot of
+ fun",color=blue];
+	134 [label="if anyone
+ needs help , his neighbor
+ will help as much as
+ possible",color=green];
+	134 [label="if anyone
+ needs help , his neighbor
+ will help as much as
+ possible",color=green];
+	148 [label="nowhere else can
+ give me some people like
+ in here",color=blue];
+	173 [label="we have large
+ streets but few cars",color=blue];
+	289 [label="staying in
  one place is better than
  moving number of places",color=green];
-	234 [label="i have
- been gone to some places
- to travel and stay for
- a short time , and
- i realize that the environment
- in some place isn't clean
- and fresh like my home
- town",color=blue];
-	288 [label="that staying in
+	182 [label="we can move easily
+ to anywhere",color=blue];
+	289 [label="staying in
+ one place is better than
+ moving number of places",color=green];
+	189 [label="last week
+ , i went to the
+ city center to meet my
+ friends",color=blue];
+	289 [label="staying in
  one place is better than
  moving number of places",color=green];
 	268 [label="there were a
- lot of people so the
- environment can't be keep clean
-",color=blue];
-	288 [label="that staying in
+ lot of people",color=blue];
+	289 [label="staying in
  one place is better than
  moving number of places",color=green];
 }

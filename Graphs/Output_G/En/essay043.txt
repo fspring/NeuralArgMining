@@ -1,15 +1,8 @@
 digraph G {
 	92 -> 124;
-	287 -> 329;
-	302 -> 329;
-	303 -> 329;
-	92 [label="this will be proved
- by analysing how sports events
- may be an important link
- to the peace , and
- by how they encourage people
- to display their national symbols
-",color=blue];
+	189 -> 124;
+	161 -> 236;
+	92 [label="this will be",color=blue];
 	124 [label="during times
  of war , people living
  in badly affected countries can
@@ -18,20 +11,24 @@ digraph G {
  the rest of the world
  by listening to international sports
  event",color=green];
-	287 [label="south african national and
- traditional songs were played in
- the streets throughout the night
+	124 [label="during times
+ of war , people living
+ in badly affected countries can
+ forget about the gloomy environment
+ and maintain a link with
+ the rest of the world
+ by listening to international sports
+ event",color=green];
+	189 [label="this clearly
 ",color=blue];
-	329 [label="it is
-",color=green];
-	302 [label="this",color=blue];
-	329 [label="it is
-",color=green];
-	303 [label="example demonstrates how
- people might take numerous elements
- from their roots and history
- to proudly display them while
- supporting their team",color=blue];
-	329 [label="it is
+	161 [label="when irak was hardly struck
+ by the second gulf war
+ , its citizens tried to
+ catch any incoming news about
+ the footballworld cup through their
+ portable receivers",color=blue];
+	236 [label="these sporting occasions are a
+ good opportunity for people to
+ be proud of their country
 ",color=green];
 }

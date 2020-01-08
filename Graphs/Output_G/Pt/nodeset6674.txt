@@ -1,2 +1,12 @@
 digraph G {
+	60 -> 27;
+	27 [label="os portugueses conseguiram mesmo
+ convencer-se de que o ajustamento
+ financeiro negociado em 2011 com
+ a comissão europeia , o
+ bce e o fmi foi
+ a maior calamidade que nos
+ podia ter acontecido",color=green];
+	60 [label="nunca quisemos compreender que foi uma
+ ajuda",color=blue];
 }

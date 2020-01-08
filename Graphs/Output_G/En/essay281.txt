@@ -1,35 +1,100 @@
 digraph G {
-	88 -> 61;
-	180 -> 167;
-	180 -> 172;
-	257 -> 224;
-	311 -> 325;
-	61 [label="as you can see that
- after great economic recession",color=green];
+	88 -> 48;
+	128 -> 158;
+	136 -> 158;
+	180 -> 158;
+	167 -> 217;
+	180 -> 217;
+	198 -> 217;
+	205 -> 217;
+	257 -> 217;
+	257 -> 325;
+	279 -> 325;
+	338 -> 382;
+	355 -> 382;
+	361 -> 382;
+	48 [label="government should pay
+ attention on basic needs of
+ people first",color=green];
 	88 [label="when people did
  not have money , they
  had to rob other people
 ",color=blue];
+	128 [label="government should invest
+ to create more jobs",color=blue];
+	158 [label="people have a
+ good quality life",color=green];
+	136 [label="when people have jobs ,
+ they did not have to
+ steal money",color=blue];
+	158 [label="people have a
+ good quality life",color=green];
+	158 [label="people have a
+ good quality life",color=green];
+	180 [label="industrial in many countries still emit
+ high intense of carbon dioxide
+ , which caused of greenhouse
+ effect",color=blue];
 	167 [label="environment is also important
-",color=green];
+ issue that everyone depend on
+ it",color=blue];
+	217 [label="government take care of
+ this issue by declare regulate
+ to control emission of carbon
+ dioxide",color=green];
 	180 [label="industrial in many countries still emit
  high intense of carbon dioxide
  , which caused of greenhouse
  effect",color=blue];
-	172 [label="that everyone depend on
- it",color=green];
-	180 [label="industrial in many countries still emit
- high intense of carbon dioxide
- , which caused of greenhouse
- effect",color=blue];
-	224 [label="declare regulate
- to control",color=green];
+	217 [label="government take care of
+ this issue by declare regulate
+ to control emission of carbon
+ dioxide",color=green];
+	198 [label="greenhouse effect causes
+ of climate change",color=blue];
+	217 [label="government take care of
+ this issue by declare regulate
+ to control emission of carbon
+ dioxide",color=green];
+	205 [label="these impact on every living creature
+ in the world",color=blue];
+	217 [label="government take care of
+ this issue by declare regulate
+ to control emission of carbon
+ dioxide",color=green];
+	217 [label="government take care of
+ this issue by declare regulate
+ to control emission of carbon
+ dioxide",color=green];
 	257 [label="if we lived in
  good environment , our life
  would be better",color=blue];
-	311 [label="when society had problems ,
- it could impact to a
- nation",color=blue];
+	257 [label="if we lived in
+ good environment , our life
+ would be better",color=blue];
 	325 [label="government should create campaign to fill
  love to family",color=green];
+	279 [label="if everyone
+ in family did not have
+ time to spend with each
+ other , that family could
+ have problems , if family
+ had problems , it mean
+ society could have problems",color=blue];
+	325 [label="government should create campaign to fill
+ love to family",color=green];
+	338 [label="setting event once
+ a week to gather everyone
+ in family to spend time
+ with each other",color=blue];
+	382 [label="government should spend money
+ on basic people needs",color=green];
+	355 [label="when family understand each other",color=blue];
+	382 [label="government should spend money
+ on basic people needs",color=green];
+	361 [label="it mean society and a
+ nation will not have much
+ trouble",color=blue];
+	382 [label="government should spend money
+ on basic people needs",color=green];
 }

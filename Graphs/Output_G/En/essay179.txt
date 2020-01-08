@@ -1,26 +1,52 @@
 digraph G {
-	70 -> 49;
-	70 -> 53;
-	224 -> 220;
-	324 -> 323;
-	49 [label="our body's
- way",color=green];
-	70 [label="stress may be a positive mobilization
- to drive for success",color=blue];
-	53 [label="responding to any
- kind of",color=green];
-	70 [label="stress may be a positive mobilization
- to drive for success",color=blue];
-	220 [label="realization",color=green];
-	224 [label="stress takes
- a toll on our health
-",color=blue];
-	323 [label="we",color=green];
-	324 [label="may try
- to conquer our distress by
- sharing our worry with friends
- or families , doing exercise
- regularly , and trying to
- see our troubles in a
- different way",color=blue];
+	125 -> 266;
+	170 -> 266;
+	232 -> 299;
+	250 -> 266;
+	278 -> 299;
+	125 [label="in the frenetic , fast-paced world
+ , it is a very
+ common predicament that all of
+ us , from the young
+ to the senior , feel
+ depressed caused by stress ,
+ such as financial problems ,
+ exam stress , relationship difficulties
+ and work overload",color=blue];
+	266 [label="some people have physical problems
+ , such as insomnia and
+ headaches",color=green];
+	170 [label="some people regard stress as a
+ power , which overcomes the
+ obstacles to motivate themselves to
+ do their best ; other
+ people cannot charge of their
+ thoughts , emotions , and
+ the way they deal with
+ problems",color=blue];
+	266 [label="some people have physical problems
+ , such as insomnia and
+ headaches",color=green];
+	232 [label="it is known that
+ the modern life is frequently
+ full of hassles , frustrations
+ , and demands",color=blue];
+	299 [label="we should
+ reduce and cope with our
+ stress in the goal of
+ balancing our mind and body
+",color=green];
+	250 [label="this is one of the",color=blue];
+	266 [label="some people have physical problems
+ , such as insomnia and
+ headaches",color=green];
+	278 [label="melancholia , the
+ most fatal problem , even
+ leads some people to commit
+ suicide",color=blue];
+	299 [label="we should
+ reduce and cope with our
+ stress in the goal of
+ balancing our mind and body
+",color=green];
 }

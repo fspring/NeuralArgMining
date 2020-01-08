@@ -1,40 +1,78 @@
 digraph G {
+	42 -> 13;
+	28 -> 69;
+	42 -> 109;
 	78 -> 69;
-	128 -> 234;
-	149 -> 218;
+	78 -> 218;
+	91 -> 109;
+	128 -> 109;
+	128 -> 218;
 	157 -> 218;
-	195 -> 218;
+	170 -> 218;
+	13 [label="life in a
+ city is much better than
+ life in the countryside",color=green];
+	42 [label="the schools and the
+ universities have well equipped classes
+ and the famous professors would
+ like to work in such
+ places",color=blue];
+	28 [label="in the city
+ there is much better education
+ system",color=blue];
+	69 [label="city provides
+ more work opportunities than the
+ countryside",color=green];
+	42 [label="the schools and the
+ universities have well equipped classes
+ and the famous professors would
+ like to work in such
+ places",color=blue];
+	109 [label="in the
+ urban areas there are also
+ more citizens what means",color=green];
 	69 [label="city provides
  more work opportunities than the
  countryside",color=green];
 	78 [label="there are not
  only more jobs , but
  they are also well-paid",color=blue];
+	78 [label="there are not
+ only more jobs , but
+ they are also well-paid",color=blue];
+	218 [label="living in the
+ city is much better nowadays
+",color=green];
+	91 [label="of course living in a
+ city is more expensive ,
+ but incomes are higher too
+",color=blue];
+	109 [label="in the
+ urban areas there are also
+ more citizens what means",color=green];
+	109 [label="in the
+ urban areas there are also
+ more citizens what means",color=green];
 	128 [label="meeting and knowing
  new people's tradition is an
  unforgettable experience , which could
  influence on one's previous habits
 ",color=blue];
-	234 [label="today living
- in the rural places is
- in most causes connected with
- agrarian lifestyle",color=green];
-	149 [label="the city
- has well-organised lines of transport
+	128 [label="meeting and knowing
+ new people's tradition is an
+ unforgettable experience , which could
+ influence on one's previous habits
 ",color=blue];
 	218 [label="living in the
  city is much better nowadays
 ",color=green];
 	157 [label="the buses and trains
  are more frequent than in
- the countryside , so the
- city provides better communication",color=blue];
+ the countryside",color=blue];
 	218 [label="living in the
  city is much better nowadays
 ",color=green];
-	195 [label="peaceful and close to the nature
- areas could help to avoid
- worries and sadness",color=blue];
+	170 [label="the city provides better communication",color=blue];
 	218 [label="living in the
  city is much better nowadays
 ",color=green];

@@ -17,11 +17,11 @@ com (O)    0.000
 outro (O)    0.000
 objetivo (O)    0.000
 . (O)    0.000
-portanto (O)    0.000
-estragou (O)    0.000
-tudo (O)    0.000
-: (O)    0.000
-estragou (P)    0.000
+portanto (C)    0.000
+estragou (I)    0.000
+tudo (I)    0.000
+: (I)    0.000
+estragou (I)    0.000
 o (I)    0.000
 anterior (I)    0.000
 e (I)    0.000

@@ -1,12 +1,12 @@
-mas (C)    0.000
-há (I)    0.000
+mas (O)    0.000
+há (P)    0.000
 algo (I)    0.000
 que (I)    0.000
 mafalda (I)    0.000
 sofre (I)    0.000
 com (I)    0.000
 dificuldade (I)    0.000
-: (I)    0.000
+: (O)    0.000
 a (C)    0.000
 falsa (I)    0.000
 compaixão (I)    0.000

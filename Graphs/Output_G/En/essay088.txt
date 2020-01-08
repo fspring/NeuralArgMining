@@ -1,2 +1,10 @@
 digraph G {
+	75 -> 55;
+	55 [label="a defeated person has to try
+ and try until to achieve
+ her or his goal",color=green];
+	75 [label="when people face with a failure
+ they can learn a large
+ number of things from that
+ failure ,",color=blue];
 }

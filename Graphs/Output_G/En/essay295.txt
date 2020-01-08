@@ -1,18 +1,14 @@
 digraph G {
-	123 -> 101;
+	158 -> 310;
 	246 -> 234;
-	277 -> 278;
-	101 [label="distinguishing fact of the learning
- with a teacher is that
- you can ask about problems
- related your studies",color=green];
-	123 [label=", when we
- encounter difficulty in our study
- which we can not make
- out , that asking the
- difficulty from our teacher is
- propitious way for us to
- solve it instantly",color=blue];
+	282 -> 387;
+	296 -> 387;
+	324 -> 387;
+	158 [label="professors and teachers
+ have much experience and knowledge
+",color=blue];
+	310 [label="being without a teacher has shortcomings
+",color=green];
 	234 [label="the learning
  with a teacher is more
  efficient than by myself",color=green];
@@ -20,6 +16,17 @@ digraph G {
  with little help of a
  teacher within less time than
  do it by ourself",color=blue];
-	277 [label="right",color=blue];
-	278 [label="direction",color=green];
+	282 [label="this gives us opportunity
+ to rise our educational level
+ to an exited degree",color=blue];
+	387 [label="the learning with a
+ teacher is better",color=green];
+	296 [label="knowledge may be thereby better
+ improved and strengthened",color=blue];
+	387 [label="the learning with a
+ teacher is better",color=green];
+	324 [label="if someone
+ faced so",color=blue];
+	387 [label="the learning with a
+ teacher is better",color=green];
 }

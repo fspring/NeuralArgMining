@@ -1,25 +1,49 @@
 digraph G {
-	88 -> 66;
-	284 -> 281;
-	66 [label="if physical education is removed
- from the syllabus , there
- will be considerable negative effects
- on students’ health",color=green];
-	88 [label="after studying and
- sitting in the classroom for
- the whole morning , it
- is better for students to
- do some outdoor activities ,
- such as stretching , jogging
- and playing ball games ,
- in order to improve their
- learning ability during the afternoon
- classes",color=blue];
-	281 [label="not",color=green];
-	284 [label="idea because
- most young people would rather
- watch tv or play computer
- games after school instead of
- learning life skills from their
- parents",color=blue];
+	171 -> 225;
+	188 -> 225;
+	262 -> 225;
+	262 -> 310;
+	171 [label="it is more important for
+ a person to success in
+ life than to success only
+ academically",color=blue];
+	225 [label="school education should not only focus
+ on the academic development of
+ a student as it is
+ much more crucial to teach
+ them how to be independent
+ and live a good life
+",color=green];
+	188 [label="success in life
+ should be the ultimate goal
+ of a student , which
+ requires more than academic knowledge
+ , but also practical life
+ skills such as cooking ,
+ good communication skills and teamwork
+ spirit",color=blue];
+	225 [label="school education should not only focus
+ on the academic development of
+ a student as it is
+ much more crucial to teach
+ them how to be independent
+ and live a good life
+",color=green];
+	225 [label="school education should not only focus
+ on the academic development of
+ a student as it is
+ much more crucial to teach
+ them how to be independent
+ and live a good life
+",color=green];
+	262 [label="students can learn practical
+ skills after school hours from
+ their parents",color=blue];
+	262 [label="students can learn practical
+ skills after school hours from
+ their parents",color=blue];
+	310 [label="parents are usually too busy with
+ their daily jobs to teach
+ their children the life skills
+",color=green];
 }

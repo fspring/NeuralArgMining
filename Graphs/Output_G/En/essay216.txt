@@ -1,2 +1,128 @@
 digraph G {
+	67 -> 30;
+	67 -> 52;
+	67 -> 56;
+	67 -> 261;
+	93 -> 261;
+	107 -> 261;
+	119 -> 261;
+	134 -> 261;
+	178 -> 161;
+	178 -> 261;
+	214 -> 261;
+	236 -> 261;
+	273 -> 261;
+	304 -> 344;
+	327 -> 344;
+	30 [label="the most possible solution to these
+ problems is improving roads and
+ highways",color=green];
+	67 [label="the buses , cars
+ and trains regularly emit a
+ noxious gas which causes lots
+ of fatal diseases such as
+ lung cancer and pneumonia",color=blue];
+	52 [label="we all know that
+",color=green];
+	67 [label="the buses , cars
+ and trains regularly emit a
+ noxious gas which causes lots
+ of fatal diseases such as
+ lung cancer and pneumonia",color=blue];
+	56 [label="upgrading public transportation will surely
+ aggravate the pollution and accidents
+",color=green];
+	67 [label="the buses , cars
+ and trains regularly emit a
+ noxious gas which causes lots
+ of fatal diseases such as
+ lung cancer and pneumonia",color=blue];
+	67 [label="the buses , cars
+ and trains regularly emit a
+ noxious gas which causes lots
+ of fatal diseases such as
+ lung cancer and pneumonia",color=blue];
+	261 [label="spending on renovating the highways
+ and roads can improve the
+ quality",color=green];
+	93 [label="the sound emanates
+ from the engines can worsen
+ our hearing",color=blue];
+	261 [label="spending on renovating the highways
+ and roads can improve the
+ quality",color=green];
+	107 [label="there are many accidents
+ happening on the roads",color=blue];
+	261 [label="spending on renovating the highways
+ and roads can improve the
+ quality",color=green];
+	119 [label="in my
+ country , buses are attributed
+ to the cause of skyrocketing
+ of accidents",color=blue];
+	261 [label="spending on renovating the highways
+ and roads can improve the
+ quality",color=green];
+	134 [label="each year
+ , vietnam has approximately twelve
+ thousand people die of accidents
+ which is equivalent to the
+ death toll of the tsunami
+ in japan",color=blue];
+	261 [label="spending on renovating the highways
+ and roads can improve the
+ quality",color=green];
+	161 [label="investing in roads and highways
+ can broaden the area and
+ allow more public transportation to
+ work",color=green];
+	178 [label="not only buses
+ but also other personal vehicles
+ can move easily on the
+ roads",color=blue];
+	178 [label="not only buses
+ but also other personal vehicles
+ can move easily on the
+ roads",color=blue];
+	261 [label="spending on renovating the highways
+ and roads can improve the
+ quality",color=green];
+	214 [label="it is
+ extremely troublesome for me to
+ escape from the crowd on
+ the roads in only one
+ hour",color=blue];
+	261 [label="spending on renovating the highways
+ and roads can improve the
+ quality",color=green];
+	236 [label="if the roads are enlarged
+ , everyone can go home
+ in short time and there
+ are hardly any collisions",color=blue];
+	261 [label="spending on renovating the highways
+ and roads can improve the
+ quality",color=green];
+	261 [label="spending on renovating the highways
+ and roads can improve the
+ quality",color=green];
+	273 [label="all of us
+ are afraid of moving on
+ the rough roads with lots
+ of portholes",color=blue];
+	304 [label="we should
+ not accuse the drivers of
+ causing accidents because a part
+ of the responsibility belongs to
+ the authorities",color=blue];
+	344 [label="the advantages
+ of upgrading the roads which
+ i mentioned above are totally
+ convincing and indispensable",color=green];
+	327 [label="a smooth surface makes
+ the transportation and movement become
+ safer and easier",color=blue];
+	344 [label="the advantages
+ of upgrading the roads which
+ i mentioned above are totally
+ convincing and indispensable",color=green];
 }

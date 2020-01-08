@@ -1,5 +1,12 @@
 digraph G {
-	89 -> 262;
+	89 -> 52;
+	89 -> 71;
+	89 -> 251;
+	148 -> 127;
+	52 [label="while some of them
+ are disturbing , we can
+ not overlook other merits the
+ advertisements bring",color=green];
 	89 [label="they are
  not in the purpose of
  making profits but taking a
@@ -7,6 +14,32 @@ digraph G {
  , good moral traits and
  calling for helps for the
  disabled and the poor",color=blue];
-	262 [label="we can not deny
- all of them",color=green];
+	71 [label="it is unfair to restrict
+ those public service advertisements which
+ are creative and inspiring",color=green];
+	89 [label="they are
+ not in the purpose of
+ making profits but taking a
+ role of disseminating valued culture
+ , good moral traits and
+ calling for helps for the
+ disabled and the poor",color=blue];
+	89 [label="they are
+ not in the purpose of
+ making profits but taking a
+ role of disseminating valued culture
+ , good moral traits and
+ calling for helps for the
+ disabled and the poor",color=blue];
+	251 [label="advertisements have its social responsibility
+ and contribute to economic growth
+",color=green];
+	127 [label="publicizing brand image or
+ a particular product of mass
+ media could boost sales for
+ companies",color=green];
+	148 [label="it could simulate
+ household spending and therefore promote
+ the economic development of the
+ whole country",color=blue];
 }

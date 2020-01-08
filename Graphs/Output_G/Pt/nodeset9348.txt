@@ -1,2 +1,9 @@
 digraph G {
+	73 -> 88;
+	73 [label="mais um acidente
+ semelhante ao da noite da
+ passagem de ano em colónia
+",color=blue];
+	88 [label="o fim político
+ de merkel",color=green];
 }

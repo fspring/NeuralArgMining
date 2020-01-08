@@ -1,2 +1,12 @@
 digraph G {
+	92 -> 71;
+	71 [label="children are free whatever they
+ want to do , they
+ are not restricted and their
+ limitation are really rare",color=green];
+	92 [label="they are in the
+ age of growth and they
+ are allowed whatever they want
+ to do to experience new
+ stuffs",color=blue];
 }

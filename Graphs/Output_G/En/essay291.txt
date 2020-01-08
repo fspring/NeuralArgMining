@@ -1,53 +1,80 @@
 digraph G {
-	147 -> 110;
-	120 -> 299;
-	168 -> 299;
-	196 -> 193;
-	211 -> 299;
-	259 -> 299;
+	120 -> 110;
+	120 -> 300;
+	147 -> 300;
+	168 -> 196;
+	211 -> 196;
+	211 -> 279;
+	235 -> 279;
+	254 -> 279;
+	258 -> 279;
 	110 [label="studying in advance education take a
-",color=green];
-	147 [label="only good students have
- potentials to success programs more
- that those who are not
- considered as good students",color=blue];
+ huge of money",color=green];
 	120 [label="college and university do not want
  people who not qualify for
  to waste their money in
  these expensive courses and waste
  their time",color=blue];
-	299 [label="that college
- and university should be available
+	120 [label="college and university do not want
+ people who not qualify for
+ to waste their money in
+ these expensive courses and waste
+ their time",color=blue];
+	300 [label="college and university should be available
+ for all students who want
+ to pursue their goal",color=green];
+	147 [label="only good students have
+ potentials to success programs more
+ that those who are not
+ considered as good students",color=blue];
+	300 [label="college and university should be available
  for all students who want
  to pursue their goal",color=green];
 	168 [label="mediocre students are
  not have a chance to
  gain these advance knowledge from
  college and university",color=blue];
-	299 [label="that college
- and university should be available
- for all students who want
- to pursue their goal",color=green];
-	193 [label="people",color=green];
 	196 [label="all students should have equal
  opportunity to study in higher
- education",color=blue];
+ education",color=green];
+	196 [label="all students should have equal
+ opportunity to study in higher
+ education",color=green];
 	211 [label="higher education take a lot
  of money and a lot
  of time however moderate students
  should have a chance to
  try",color=blue];
-	299 [label="that college
- and university should be available
- for all students who want
- to pursue their goal",color=green];
-	259 [label="a good
+	211 [label="higher education take a lot
+ of money and a lot
+ of time however moderate students
+ should have a chance to
+ try",color=blue];
+	279 [label="mediocre students
+ should have opportunity to be
+ trained in college and university
+",color=green];
+	235 [label="has strongly ambition could pursue and
+ success their goal even they
+ are not classified as a
+ good student because",color=blue];
+	279 [label="mediocre students
+ should have opportunity to be
+ trained in college and university
+",color=green];
+	254 [label="people can
+ change",color=blue];
+	279 [label="mediocre students
+ should have opportunity to be
+ trained in college and university
+",color=green];
+	258 [label="with a good
  environment in college or university
  is encouraging students to study
  harder for a good future
 ",color=blue];
-	299 [label="that college
- and university should be available
- for all students who want
- to pursue their goal",color=green];
+	279 [label="mediocre students
+ should have opportunity to be
+ trained in college and university
+",color=green];
 }

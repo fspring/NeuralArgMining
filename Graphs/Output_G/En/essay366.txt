@@ -1,13 +1,14 @@
 digraph G {
-	44 -> 32;
-	197 -> 260;
-	32 [label="celebrities can be dangerous
- for the youth",color=green];
-	44 [label="by looking
- at how health and personality
- of young people is affected
- by following celebrities as their
- mentors",color=blue];
+	179 -> 259;
+	197 -> 264;
+	241 -> 259;
+	179 [label="adolescents follow
+ not only the make up
+ and attire of their favorite
+ stars but also their behavior
+",color=blue];
+	259 [label="it can
+",color=green];
 	197 [label="for instance recently in
  a poll conducted by an
  american magazine it was found
@@ -16,6 +17,11 @@ digraph G {
  use derogatory words and abusive
  language at home and at
  schools",color=blue];
-	260 [label="can be said that when young
- people follow celebrities",color=green];
+	264 [label="when young
+ people follow celebrities ,",color=green];
+	241 [label="these glamorous celebrities have a
+ poor effect on the conduct
+ of young people",color=blue];
+	259 [label="it can
+",color=green];
 }

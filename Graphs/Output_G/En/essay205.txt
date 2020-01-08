@@ -1,49 +1,59 @@
 digraph G {
-	170 -> 133;
-	253 -> 436;
-	275 -> 436;
-	311 -> 303;
-	336 -> 310;
-	354 -> 355;
-	399 -> 421;
-	133 [label="attendance saves time
- and money",color=green];
+	160 -> 141;
+	160 -> 208;
+	170 -> 208;
+	189 -> 208;
+	334 -> 421;
+	344 -> 421;
+	371 -> 421;
+	398 -> 421;
+	141 [label="some students might learn better
+ at home on their own
+ , for instance , by
+ reading the textbook",color=green];
+	160 [label="this problem occurs especially if the
+ lecturer is lethargic",color=blue];
+	160 [label="this problem occurs especially if the
+ lecturer is lethargic",color=blue];
+	208 [label="being free to
+ stay away from classes improves
+ flexibility and therefore quality of
+ student life",color=green];
 	170 [label="by letting students choose not to
  attend class you give them
  the opportunity to escape bad
  teaching",color=blue];
-	253 [label="policy students are
- able to postpone the learning
- to the afternoon which gives
- a feeling of freedom and
- improves time efficiency",color=blue];
-	436 [label="the improvement of students' current
- experience as well as the
- valuable skills and knowledge they
- obtain for",color=green];
-	275 [label="research has shown that the more
- satisfied the students are with
- those life aspects , the
- better they perform in academic
- areas",color=blue];
-	436 [label="the improvement of students' current
- experience as well as the
- valuable skills and knowledge they
- obtain for",color=green];
-	303 [label="types of motivation
-",color=green];
-	311 [label="which comes from your own
- mindset",color=blue];
-	310 [label="motivation",color=green];
-	336 [label="is known to be much
- more desirable because it leads
+	208 [label="being free to
+ stay away from classes improves
+ flexibility and therefore quality of
+ student life",color=green];
+	189 [label="they are
+ able to save precious study
+ time and dive into the
+ course syllabus independently",color=blue];
+	208 [label="being free to
+ stay away from classes improves
+ flexibility and therefore quality of
+ student life",color=green];
+	334 [label="intrinsic motivation
+ is known to be much
+ more",color=blue];
+	421 [label="going to classes should be
+ optional for students",color=green];
+	344 [label="it leads
  to better learning and well-being
 ",color=blue];
-	354 [label="in",color=blue];
-	355 [label="order to gain intrinsic motivation students
- need to become aware of
-",color=green];
-	399 [label="are crucial
+	421 [label="going to classes should be
+ optional for students",color=green];
+	371 [label="by giving students the freedom
+ to choose about class attendance
+ they might rather be thinking
+ about why they decided to
+ study and learn to motivate
+ themselves",color=blue];
+	421 [label="going to classes should be
+ optional for students",color=green];
+	398 [label="these are crucial
  skills for the duration of
  their study and their whole
  life time",color=blue];

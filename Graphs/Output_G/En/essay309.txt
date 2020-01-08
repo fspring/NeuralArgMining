@@ -1,28 +1,80 @@
 digraph G {
-	58 -> 50;
-	239 -> 298;
-	261 -> 298;
-	274 -> 298;
-	50 [label="and",color=green];
+	78 -> 58;
+	78 -> 178;
+	107 -> 178;
+	124 -> 178;
+	164 -> 178;
+	191 -> 178;
+	216 -> 301;
+	242 -> 301;
+	274 -> 301;
 	58 [label="living in a
  dormitory helps students to familiarize
  themselves with the academic environment
- of the university",color=blue];
-	239 [label="in addition
- , students also have to
- focus on their study ,
- and try to maintain their
- grades higher",color=blue];
-	298 [label="to me that
- it becomes hard for students
+ of the university",color=green];
+	78 [label="students can have
+ an opportunity to take part
+ in many kind of extracurricular
+ activities happing around the campus
+ such as attending conversation club
+ , or joining sports club
+",color=blue];
+	78 [label="students can have
+ an opportunity to take part
+ in many kind of extracurricular
+ activities happing around the campus
+ such as attending conversation club
+ , or joining sports club
+",color=blue];
+	178 [label="living off campus
+ prepares students for the real
+ life",color=green];
+	107 [label="students can also have
+ more chance of interaction with
+ their teachers and classmates",color=blue];
+	178 [label="living off campus
+ prepares students for the real
+ life",color=green];
+	124 [label="it is
+ easier for students to get
+ help when facing problem such
+ as if students have problem
+ in solving their math question
+ , they can easily ask
+ for help to their roommates
+ , classmates , or teachers
+",color=blue];
+	178 [label="living off campus
+ prepares students for the real
+ life",color=green];
+	164 [label="living in
+ dormitory is always helpful to
+ students",color=blue];
+	178 [label="living off campus
+ prepares students for the real
+ life",color=green];
+	178 [label="living off campus
+ prepares students for the real
+ life",color=green];
+	191 [label="students can learn many new
+ things such as how to
+ become responsible , independent ,
+ punctual , co-operative compared to
+ living in university dormitories",color=blue];
+	216 [label="they are responsible to take
+ care of everything including paying
+ their apartment rent on time
+ , and dealing with the
+ utility bills",color=blue];
+	301 [label="it becomes hard for students
  to choose between their living
  options since both living accommodation
  have its own benefits",color=green];
-	261 [label="students also have a chance
- to know about the community
- around them",color=blue];
-	298 [label="to me that
- it becomes hard for students
+	242 [label="students also have to
+ focus on their study ,
+ and try to maintain their
+ grades higher",color=blue];
+	301 [label="it becomes hard for students
  to choose between their living
  options since both living accommodation
  have its own benefits",color=green];
@@ -30,8 +82,7 @@ digraph G {
  the people , and socializing
  with them prepares students for
  the life after graduation",color=blue];
-	298 [label="to me that
- it becomes hard for students
+	301 [label="it becomes hard for students
  to choose between their living
  options since both living accommodation
  have its own benefits",color=green];

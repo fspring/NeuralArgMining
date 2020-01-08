@@ -1,27 +1,43 @@
 digraph G {
-	106 -> 257;
-	184 -> 246;
-	213 -> 246;
+	106 -> 95;
+	106 -> 243;
+	123 -> 243;
+	143 -> 243;
+	213 -> 243;
+	95 [label="non-smoking public would be undoubtedly benefited
+ by enforcing such restrain",color=green];
 	106 [label="prior to 1980's public places
  in sri lanka , illustrates
  unpleasant situation where people smoked
  freely",color=blue];
-	257 [label="governments would consider smoke
- banning in public places following
- footsteps of sri lanka",color=green];
-	184 [label="further enforcement
- banned smoking in capital in
- sri lanka has reduced this
- consumption related diseases and deaths
- , as per the ministry
- of health",color=blue];
-	246 [label="proven benefits people enjoy this
+	106 [label="prior to 1980's public places
+ in sri lanka , illustrates
+ unpleasant situation where people smoked
+ freely",color=blue];
+	243 [label="it has been
+ proven benefits people enjoy this
+ arrangement",color=green];
+	123 [label="even in public
+ transportation they engaged in this
+ intolerant bad habit , some
+ instances that lead to belligerent
+ incidents",color=blue];
+	243 [label="it has been
+ proven benefits people enjoy this
+ arrangement",color=green];
+	143 [label="after enforcing restrictions
+ the situation came to control
+ and this act as benefit
+ rendered to the public",color=blue];
+	243 [label="it has been
+ proven benefits people enjoy this
  arrangement",color=green];
 	213 [label="smoking restrictions has
  successfully daunted public from this
  bad puffing that put less
  strain on country's healthcare systems
 ",color=blue];
-	246 [label="proven benefits people enjoy this
+	243 [label="it has been
+ proven benefits people enjoy this
  arrangement",color=green];
 }

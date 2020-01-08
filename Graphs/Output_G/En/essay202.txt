@@ -1,41 +1,46 @@
 digraph G {
-	120 -> 117;
+	106 -> 131;
+	119 -> 156;
 	182 -> 261;
-	201 -> 261;
-	227 -> 261;
-	328 -> 336;
-	117 [label="disputes",color=green];
-	120 [label="once had a co-worker who was
+	305 -> 350;
+	328 -> 350;
+	106 [label="if they do not cooperate
+ , there will be lots
+ of disputes",color=blue];
+	131 [label="he always left office sharp
+ on time without giving any
+ consideration whether the work has
+ been finished or not",color=green];
+	119 [label="i once
+ had a co-worker who was
  too family conscious",color=blue];
+	156 [label="i had to do his
+ work in order to protect
+ him from getting caught to
+ the supervisor who was a
+ very authoritative person",color=green];
 	182 [label="one day i wanted
- to be off early because
- i had to take my
- mother to the doctor",color=blue];
+ to be off early",color=blue];
 	261 [label="if the co-workers do not
  corporate with each other that
  would be devastating in a
  work environment",color=green];
-	201 [label="when i requested my co-worker
- to give a helping hand
- to finish my work early
- , he turned down my
- request giving a silly excuse
-",color=blue];
-	261 [label="if the co-workers do not
- corporate with each other that
- would be devastating in a
- work environment",color=green];
-	227 [label="from that day onwards
- i did not offer him
- any support and finally he
- was transferred from our",color=blue];
-	261 [label="if the co-workers do not
- corporate with each other that
- would be devastating in a
- work environment",color=green];
+	305 [label="i came across a situation once
+ such that one of my
+ subordinates used to suspect his
+ co-worker for carrying tales to
+ me",color=blue];
+	350 [label="i never encourage tale carriers as
+ a principle and therefore his
+ co-worker gave up talking ill
+ against him with me",color=green];
 	328 [label="to a certain
- extent his",color=blue];
-	336 [label="as his co-worker made several
+ extent his suspicion was valid
+ as his co-worker made several
  attempts to highlight the drawbacks
- of him",color=green];
+ of him",color=blue];
+	350 [label="i never encourage tale carriers as
+ a principle and therefore his
+ co-worker gave up talking ill
+ against him with me",color=green];
 }

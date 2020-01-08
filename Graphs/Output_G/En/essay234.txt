@@ -1,54 +1,78 @@
 digraph G {
-	66 -> 35;
-	66 -> 65;
-	123 -> 103;
-	196 -> 209;
-	242 -> 218;
-	258 -> 233;
-	258 -> 241;
+	71 -> 35;
+	71 -> 103;
+	183 -> 103;
+	123 -> 290;
+	137 -> 290;
+	151 -> 290;
+	183 -> 233;
+	244 -> 233;
+	244 -> 290;
+	258 -> 290;
+	273 -> 290;
 	35 [label="standardized tests are valuable option for
  educational system as long as
  it would help teachers to
  know if the students are
  really getting knowledge",color=green];
-	66 [label="due to the fact that
- they help teachers to fairly
+	71 [label="they help teachers to fairly
  grade the students",color=blue];
-	65 [label="preferable",color=green];
-	66 [label="due to the fact that
- they help teachers to fairly
+	71 [label="they help teachers to fairly
  grade the students",color=blue];
 	103 [label="exams could be
  the only way for teachers
- to see the real",color=green];
+ to see the real abilities
+ of those students",color=green];
+	103 [label="exams could be
+ the only way for teachers
+ to see the real abilities
+ of those students",color=green];
+	183 [label="they will never
+ try to solve problems on
+ their own",color=blue];
 	123 [label="many teachers rely
  only on the exam results
  while grading the class ,
- so the usage of standardized
+",color=blue];
+	290 [label="standardized tests are required over those
+ who don’t",color=green];
+	137 [label="the usage of standardized
  tests is the superior option
  for them",color=blue];
-	196 [label="standardized tests offer them such
- chance",color=blue];
-	209 [label="schools should
- require students to take standardized
- tests",color=green];
-	218 [label="as long as
- this option helps",color=green];
-	242 [label=", since in this
+	290 [label="standardized tests are required over those
+ who don’t",color=green];
+	151 [label="standardized tests can be good
+ chance for students to apply
+ their knowledge on practice",color=blue];
+	290 [label="standardized tests are required over those
+ who don’t",color=green];
+	183 [label="they will never
+ try to solve problems on
+ their own",color=blue];
+	233 [label="requirement to take
+ standardized tests is the right
+ choice",color=green];
+	233 [label="requirement to take
+ standardized tests is the right
+ choice",color=green];
+	244 [label="in this
  case teachers can compare the
  level of knowledge of different
  students",color=blue];
-	233 [label="requirement to take
- standardized tests is the",color=green];
+	244 [label="in this
+ case teachers can compare the
+ level of knowledge of different
+ students",color=blue];
+	290 [label="standardized tests are required over those
+ who don’t",color=green];
 	258 [label="in any class
  there will be students who
  will show low academic performance
- , so teachers could work
+ , so",color=blue];
+	290 [label="standardized tests are required over those
+ who don’t",color=green];
+	273 [label="teachers could work
  with them more intensively",color=blue];
-	241 [label="choice",color=green];
-	258 [label="in any class
- there will be students who
- will show low academic performance
- , so teachers could work
- with them more intensively",color=blue];
+	290 [label="standardized tests are required over those
+ who don’t",color=green];
 }

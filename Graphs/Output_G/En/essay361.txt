@@ -1,20 +1,58 @@
 digraph G {
-	78 -> 44;
-	198 -> 262;
-	217 -> 262;
-	44 [label="spend",color=green];
+	78 -> 66;
+	104 -> 165;
+	119 -> 255;
+	181 -> 255;
+	200 -> 255;
+	217 -> 255;
+	66 [label="tv is one of the
+ prime source of data and
+ information",color=green];
 	78 [label="there are international
  and local news channels like
  bbc , cnbc , etv
  gujarati , etv marathi etc
  to keep individuals updated about
  latest happenings",color=blue];
-	198 [label="sometimes , students
- watch restrictive programs not allowed
+	104 [label="by watching
+ tv , children can develop
+ skills in extra-curriculum activities",color=blue];
+	165 [label="watching tv for a continuously long
+ hours can adversely impact children
+ health",color=green];
+	119 [label="cooking programs
+ teach about how to make
+ new dishes and similarly ,
+ sports events like cricket ,
+ football can teach leadership skills
+ , team building skills ,
+ communication skills and many more
+ that can help students in
+ their future jobs",color=blue];
+	255 [label="demerits of watching tv outweigh its
+ merits and thus if students
+ were allowed to freely watch
+ tv without any proper controls
+ by parents or teachers then
+ it would produce more negative
+ effects on children",color=green];
+	181 [label="they can get poor eyesight
+ in early ages of childhood
+ , and also develop back
+ pain",color=blue];
+	255 [label="demerits of watching tv outweigh its
+ merits and thus if students
+ were allowed to freely watch
+ tv without any proper controls
+ by parents or teachers then
+ it would produce more negative
+ effects on children",color=green];
+	200 [label="students watch restrictive programs not allowed
  for their ages and this
  can have major psychological consequences
 ",color=blue];
-	262 [label="and thus if students
+	255 [label="demerits of watching tv outweigh its
+ merits and thus if students
  were allowed to freely watch
  tv without any proper controls
  by parents or teachers then
@@ -27,7 +65,8 @@ digraph G {
  distracted from study during exam
  period and this can seriously
  impact their grades",color=blue];
-	262 [label="and thus if students
+	255 [label="demerits of watching tv outweigh its
+ merits and thus if students
  were allowed to freely watch
  tv without any proper controls
  by parents or teachers then

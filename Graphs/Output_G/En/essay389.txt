@@ -1,38 +1,12 @@
 digraph G {
-	28 -> 18;
-	57 -> 43;
-	198 -> 266;
-	218 -> 266;
-	228 -> 266;
-	18 [label="its national budget
- yearly",color=green];
-	28 [label="undertakings are made
- to make it accessible and
- affordable to all",color=blue];
-	43 [label="education",color=green];
+	73 -> 57;
 	57 [label="in a developing country
  , not many can afford
  to send their children to
- school",color=blue];
-	198 [label="a further specific
- education can teach an individual
- with skills enough to make
- a living and be self-sufficient
-",color=blue];
-	266 [label="education plays an important role
- in the socioeconomic status of
- a country",color=green];
-	218 [label="well-informed man can
- act sensibly and make sound
- judgment",color=blue];
-	266 [label="education plays an important role
- in the socioeconomic status of
- a country",color=green];
-	228 [label="in the same
- way , a skillful man
- contributes favorably and is valuable
- to the society",color=blue];
-	266 [label="education plays an important role
- in the socioeconomic status of
- a country",color=green];
+ school",color=green];
+	73 [label="there are government
+ schools where tuition fees are
+ practically free but they are
+ not aplenty and mostly are
+ situated in the cities",color=blue];
 }

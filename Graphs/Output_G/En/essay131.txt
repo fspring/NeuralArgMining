@@ -1,30 +1,18 @@
 digraph G {
-	125 -> 266;
-	171 -> 266;
 	195 -> 266;
 	234 -> 266;
-	125 [label="there is also a burden on
- the government to highly concern
- about the people mental health
- initiatives which would be unconsciously
- or sensibly provided by the
- arts",color=blue];
-	266 [label="not only could investing in
- art be considered as wasting
- money at any kind",color=green];
-	171 [label="no developed country could be
- named that music , painting
- , literature and other fields
- of arts are out of
- its government consideration",color=blue];
-	266 [label="not only could investing in
- art be considered as wasting
- money at any kind",color=green];
 	195 [label="enriching people's life and enlightening their
- thoughts",color=blue];
+ thoughts , the arts basically
+ affect the enhancement of societies
+ in many positive ways",color=blue];
 	266 [label="not only could investing in
  art be considered as wasting
- money at any kind",color=green];
+ money at any kind ,
+ but also it would enriches
+ the culture of the society
+ and governments and individuals would
+ benefit from it in multiple
+ ways",color=green];
 	234 [label="the investment
  could be paid back through
  the values of the created
@@ -34,5 +22,10 @@ digraph G {
 ",color=blue];
 	266 [label="not only could investing in
  art be considered as wasting
- money at any kind",color=green];
+ money at any kind ,
+ but also it would enriches
+ the culture of the society
+ and governments and individuals would
+ benefit from it in multiple
+ ways",color=green];
 }

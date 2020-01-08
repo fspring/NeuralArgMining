@@ -1,16 +1,89 @@
 digraph G {
-	90 -> 79;
-	304 -> 400;
-	396 -> 400;
-	79 [label="it will
- be",color=green];
-	90 [label="we can guess the ending of
- the movies or dramas",color=blue];
-	304 [label="but in
- fact",color=blue];
-	400 [label="people no matter how the story
- ends",color=green];
-	396 [label="they will be good",color=blue];
-	400 [label="people no matter how the story
- ends",color=green];
+	202 -> 220;
+	259 -> 234;
+	259 -> 416;
+	267 -> 381;
+	268 -> 381;
+	280 -> 381;
+	308 -> 381;
+	324 -> 381;
+	340 -> 381;
+	347 -> 381;
+	362 -> 381;
+	371 -> 381;
+	396 -> 416;
+	202 [label="even in the real
+ world , good people can
+ get a bad ending sometimes
+",color=blue];
+	220 [label="it happen more often in the
+ real world than in those
+ movies",color=green];
+	234 [label="if children
+ always watch the tv programs
+ that good people get rewarded
+ , they may think it
+ will be true in the
+ real world",color=green];
+	259 [label="they will
+ be misleading by those movies
+",color=blue];
+	259 [label="they will
+ be misleading by those movies
+",color=blue];
+	416 [label="movies and tv programs should
+ present different stories in which
+ good people get reward or
+ get nothing",color=green];
+	267 [label="and",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	268 [label="they may act
+ like good people in order
+ to get reward",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	280 [label="once they find the good people
+ are not always get rewarded
+ , they may feel upset
+ and not to be a
+ good person",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	308 [label="the good people
+ do good things no matter
+ the ending is good or
+ not",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	324 [label="we should
+ tell this to the young
+ children to avoid the misunderstanding
+",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	340 [label="those good endings sometimes are helpful
+",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	347 [label="some people may be
+ encouraged to do good things
+",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	362 [label="this kind of behavior
+ won’t last long",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	371 [label="someday they will realize the
+ truth",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	396 [label="they will be good people
+ no matter how the story
+ ends",color=blue];
+	416 [label="movies and tv programs should
+ present different stories in which
+ good people get reward or
+ get nothing",color=green];
 }

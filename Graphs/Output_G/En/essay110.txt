@@ -1,30 +1,36 @@
 digraph G {
-	61 -> 42;
-	61 -> 88;
-	119 -> 88;
-	42 [label="taxes are the income
- for every country in the
- world and they are extremely
- important for developing countries",color=green];
-	61 [label="if people are paying taxes
- , that means they are
- taking part in the development
- of their country as well
- as the country's economy",color=blue];
-	61 [label="if people are paying taxes
- , that means they are
- taking part in the development
- of their country as well
- as the country's economy",color=blue];
-	88 [label="they have fulfilled
- their duty as a citizen
-",color=green];
-	88 [label="they have fulfilled
- their duty as a citizen
-",color=green];
+	119 -> 268;
+	142 -> 268;
+	155 -> 268;
+	182 -> 166;
 	119 [label="in order
  to develop a country ,
  citizens must obey laws ,
  which were imposed by the
  government",color=blue];
+	268 [label="being a citizen
+ involves in a number of
+ duties , other than paying
+ taxes",color=green];
+	142 [label="the crime rate is
+ reduced and society becomes a
+ peaceful place ,",color=blue];
+	268 [label="being a citizen
+ involves in a number of
+ duties , other than paying
+ taxes",color=green];
+	155 [label="the country will develop at a
+ rapid pace",color=blue];
+	268 [label="being a citizen
+ involves in a number of
+ duties , other than paying
+ taxes",color=green];
+	166 [label="being a citizen in society
+ should protect the country's culture
+ and history",color=green];
+	182 [label="people should have knowledge
+ about their own culture and
+ history by studying at school
+ with full concentration or reading
+ them from books",color=blue];
 }

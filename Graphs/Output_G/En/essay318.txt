@@ -1,26 +1,38 @@
 digraph G {
-	103 -> 101;
-	170 -> 147;
-	170 -> 156;
-	162 -> 164;
-	101 [label="them",color=green];
-	103 [label="driving cars during
- the rush hours might is
- bound to polluting cities's environment
- , but laws protect drivers
- to do so",color=blue];
-	147 [label="traffic",color=green];
-	170 [label="why drivers should pay a fine
- only for driving their own
- cars in a particular time
+	86 -> 71;
+	147 -> 390;
+	163 -> 390;
+	187 -> 390;
+	247 -> 390;
+	71 [label="no additional payment should be
+ charged on them",color=green];
+	86 [label="capitalism enfranchised people's right to
+ own properties , and consequently
+ , their rights to use
+ them",color=blue];
+	147 [label="traffic jam is a
+ natural phenomenon that nobody is
+ able to shun or ban
 ",color=blue];
-	156 [label="able to shun or ban
-",color=green];
-	170 [label="why drivers should pay a fine
- only for driving their own
- cars in a particular time
-",color=blue];
-	162 [label="so it",color=blue];
-	164 [label="is out
- of drivers' control",color=green];
+	390 [label=""rush hours" are usually not the
+ direct consequence of drivers",color=green];
+	163 [label="it is out
+ of drivers' control",color=blue];
+	390 [label=""rush hours" are usually not the
+ direct consequence of drivers",color=green];
+	187 [label="wars are notorious ,
+ but you can't blame the
+ soldiers who are justing fight
+ for their countries",color=blue];
+	390 [label=""rush hours" are usually not the
+ direct consequence of drivers",color=green];
+	247 [label="majority of the families
+ buy cars simply for a
+ safer and easier conveyance ,
+ and charging them too much
+ fee adds a lot to
+ their burden and is actually
+ jeopardizing their rights",color=blue];
+	390 [label=""rush hours" are usually not the
+ direct consequence of drivers",color=green];
 }

@@ -1,2 +1,9 @@
 digraph G {
+	64 -> 52;
+	52 [label="a nova estratégia terá
+ que ser bem clara antes
+ do verão",color=green];
+	64 [label="durante o
+ qual o número de refugiados
+ aumentará de novo",color=blue];
 }

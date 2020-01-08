@@ -1,41 +1,67 @@
 digraph G {
-	235 -> 334;
-	260 -> 334;
-	277 -> 334;
-	301 -> 334;
-	314 -> 334;
-	235 [label="almost all natural science discoveries were
- made by direct observation ,
- which is a part of
- physical education",color=blue];
-	334 [label="putting physical
- activities in early steps of
- human development would finally lead
- to mentally healthy society",color=green];
-	260 [label="financial sustainability of a region mostly
- depends on how healthy the
- population is",color=blue];
-	334 [label="putting physical
- activities in early steps of
- human development would finally lead
- to mentally healthy society",color=green];
-	277 [label="the money invested into
- physical education program can save
- allocations into healthcare , since
- the nation is comparatively healthy
+	59 -> 22;
+	169 -> 353;
+	186 -> 353;
+	204 -> 334;
+	206 -> 353;
+	235 -> 353;
+	291 -> 260;
+	277 -> 353;
+	291 -> 353;
+	320 -> 334;
+	22 [label="the physical education part
+ should",color=green];
+	59 [label="the ancient
+",color=blue];
+	169 [label="when we
+ practice outdoors and indoors sports
+ , many aspects are getting
+ clearer",color=blue];
+	353 [label="it ends up
+ with financially competitive country",color=green];
+	186 [label="when a person goes jogging
+ everyday , eventually he can
+ understand his own body through
+ direct observation",color=blue];
+	353 [label="it ends up
+ with financially competitive country",color=green];
+	204 [label="alike ,
 ",color=blue];
 	334 [label="putting physical
  activities in early steps of
  human development would finally lead
  to mentally healthy society",color=green];
-	301 [label="physically healthy people can contribute
- more both into economical and
- social development",color=blue];
-	334 [label="putting physical
- activities in early steps of
- human development would finally lead
- to mentally healthy society",color=green];
-	314 [label="as",color=blue];
+	206 [label="the school basketball team gains
+ more knowledge on how to
+ succeed in some particular kind
+ of throwing the ball into
+ hoot practicing rather than learning
+ theoretically",color=blue];
+	353 [label="it ends up
+ with financially competitive country",color=green];
+	235 [label="almost all natural science discoveries were
+ made by direct observation ,
+ which is a part of
+ physical education",color=blue];
+	353 [label="it ends up
+ with financially competitive country",color=green];
+	260 [label="financial sustainability of a region mostly
+ depends on how healthy the
+ population is",color=green];
+	291 [label="the nation is comparatively healthy
+",color=blue];
+	277 [label="the money invested into
+ physical education program can save
+ allocations into healthcare",color=blue];
+	353 [label="it ends up
+ with financially competitive country",color=green];
+	291 [label="the nation is comparatively healthy
+",color=blue];
+	353 [label="it ends up
+ with financially competitive country",color=green];
+	320 [label="the better a person feels ,
+ the better his brain works
+",color=blue];
 	334 [label="putting physical
  activities in early steps of
  human development would finally lead

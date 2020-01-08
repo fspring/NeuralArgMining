@@ -1,92 +1,21 @@
 digraph G {
-	107 -> 232;
-	133 -> 232;
-	146 -> 232;
-	188 -> 329;
-	200 -> 329;
-	205 -> 329;
-	214 -> 347;
-	283 -> 232;
-	268 -> 329;
-	283 -> 329;
-	313 -> 329;
-	107 [label="since our parents receive
+	108 -> 45;
+	108 -> 94;
+	45 [label="one can achieve success more easily
+ with the help from his
+ or her",color=green];
+	108 [label="our parents receive
  better education than our grandparents
  did , they can provide
  more advices and helps in
  our career",color=blue];
-	232 [label="family members can help
- us in many other aspects
+	94 [label="more and
+ more people have the opportunity
+ to receive education from university
 ",color=green];
-	133 [label="seldom people have
- the chance to attend a
- collage",color=blue];
-	232 [label="family members can help
- us in many other aspects
-",color=green];
-	146 [label="my grandparents did not get
- a education even in high
- school , so when my
- father had difficulty in solving
- a problem in his childhood
- , he had to go
- to his teacher for help
-",color=blue];
-	232 [label="family members can help
- us in many other aspects
-",color=green];
-	188 [label="i grow up
- in a better condition than
- my father did",color=blue];
-	329 [label="our parents
- and other family members can
- help us a lot in
- our life",color=green];
-	200 [label="whenever i have problems ,",color=blue];
-	329 [label="our parents
- and other family members can
- help us a lot in
- our life",color=green];
-	205 [label="i can always ask my parents
- for help",color=blue];
-	329 [label="our parents
- and other family members can
- help us a lot in
- our life",color=green];
-	214 [label="they can
- solve the problem quickly because
- they have learned quite a
- lot",color=blue];
-	347 [label="with the help of
- our family",color=green];
-	232 [label="family members can help
- us in many other aspects
-",color=green];
-	283 [label="parents are quite
- experienced than their child ,
- they can guide them toward
- the right direction",color=blue];
-	268 [label="he shared his
- own experience with me ,
- which helped me quite a
- lot",color=blue];
-	329 [label="our parents
- and other family members can
- help us a lot in
- our life",color=green];
-	283 [label="parents are quite
- experienced than their child ,
- they can guide them toward
- the right direction",color=blue];
-	329 [label="our parents
- and other family members can
- help us a lot in
- our life",color=green];
-	313 [label="what they want
- is help their child to
- make a progress",color=blue];
-	329 [label="our parents
- and other family members can
- help us a lot in
- our life",color=green];
+	108 [label="our parents receive
+ better education than our grandparents
+ did , they can provide
+ more advices and helps in
+ our career",color=blue];
 }

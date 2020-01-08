@@ -1,29 +1,73 @@
 digraph G {
-	186 -> 318;
-	215 -> 318;
-	248 -> 318;
+	50 -> 318;
+	83 -> 318;
+	123 -> 318;
+	157 -> 318;
+	186 -> 235;
+	215 -> 235;
+	287 -> 318;
+	50 [label="in order to meet the needs
+ of tourists , local governments
+ are likely to build more
+ facilities and infrastructures around tourist
+ attractions , which may result
+ in the destruction of natural
+ habitats",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	83 [label="tourism also creates
+ more pollution and waste ,
+ including growing emission of greenhouse
+ gases , dumped leftovers and
+ overuse of water , power
+ and other kind of energy
+ in luxurious hotels",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	123 [label="tourism puts great
+ pressure on ecosystem and local
+ resources , and it should
+ not be encouraged",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	157 [label="holiday makers flocking to
+ other countries are not only
+ bound to spend on tickets
+ of attractions , but also
+ pay for food , accommodation
+ , transportation and entertainment",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
 	186 [label="both local people and governments
  can make a large amount
  of money through these services
  , and more employment opportunities
  can be created as well
 ",color=blue];
-	318 [label="the prosperity of
- tourism can provide benefits for
- people on a global scale
-",color=green];
+	235 [label="the increasing development of tourism is
+ a boon to travelers as
+ well",color=green];
 	215 [label="the revenue earned form tourism can
  be used in turn to
  reduce pollution and protect the
  environment",color=blue];
-	318 [label="the prosperity of
- tourism can provide benefits for
- people on a global scale
-",color=green];
-	248 [label="the provision of
- direct airlines makes it possible
- for them to travel conveniently
- and comfortably",color=blue];
+	235 [label="the increasing development of tourism is
+ a boon to travelers as
+ well",color=green];
+	287 [label="both locals and tourists
+ can experience more cultures than
+ ever before , and they
+ can be more open-minded to
+ eliminate preconceptions and deepen mutual
+ understanding among nations",color=blue];
 	318 [label="the prosperity of
  tourism can provide benefits for
  people on a global scale

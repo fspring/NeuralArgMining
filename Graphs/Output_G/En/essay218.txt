@@ -1,7 +1,83 @@
 digraph G {
-	207 -> 275;
-	207 [label="to find your first
- love",color=blue];
-	275 [label="the most happiest moments in a
- person's life",color=green];
+	46 -> 190;
+	66 -> 270;
+	82 -> 190;
+	96 -> 270;
+	130 -> 270;
+	151 -> 190;
+	176 -> 190;
+	203 -> 190;
+	203 -> 270;
+	231 -> 270;
+	246 -> 270;
+	46 [label="they do not have to
+ worry about bills , jobs
+ , how would their life
+ be in the future",color=blue];
+	190 [label="school memories are one of the
+ best memories in a person's
+ life",color=green];
+	66 [label="they just worry about two
+ things : to have fun
+ , learn and be happy
+",color=blue];
+	270 [label="childhood is , indeed",color=green];
+	82 [label="a child's daily life
+ is school , playing and
+ sleeping",color=blue];
+	190 [label="school memories are one of the
+ best memories in a person's
+ life",color=green];
+	96 [label="when i was young i
+ just came home from school
+ and then i would took
+ my bike or soccer ball
+ and go out and play
+ with my friends in my
+ neighborhood",color=blue];
+	270 [label="childhood is , indeed",color=green];
+	130 [label="i did not have to worry
+ about costs and other things
+ , i just had fun
+ and learned",color=blue];
+	270 [label="childhood is , indeed",color=green];
+	151 [label="people are most creative when
+ they were children , children
+ imagine new things and games
+ just to have fun and
+ be happy",color=blue];
+	190 [label="school memories are one of the
+ best memories in a person's
+ life",color=green];
+	176 [label="childhood is the period where
+ people go to school and
+ learn",color=blue];
+	190 [label="school memories are one of the
+ best memories in a person's
+ life",color=green];
+	190 [label="school memories are one of the
+ best memories in a person's
+ life",color=green];
+	203 [label="there you learn
+ , to find your first
+ love , to make new
+ long-lasting friendships and of-course you
+ will have a lot of
+ fun",color=blue];
+	203 [label="there you learn
+ , to find your first
+ love , to make new
+ long-lasting friendships and of-course you
+ will have a lot of
+ fun",color=blue];
+	270 [label="childhood is , indeed",color=green];
+	231 [label="my father's best moments in
+ his life are in his
+ school years",color=blue];
+	270 [label="childhood is , indeed",color=green];
+	246 [label="he is still in-touch with
+ some of his classmates and
+ sometimes they get together and
+ share their childhood memories",color=blue];
+	270 [label="childhood is , indeed",color=green];
 }

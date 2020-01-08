@@ -1,13 +1,57 @@
 digraph G {
-	68 -> 47;
-	47 [label="it is the government
- that should be obligated to
- fund the health care and
- education for citizens",color=green];
+	68 -> 173;
+	95 -> 173;
+	226 -> 292;
+	235 -> 292;
+	248 -> 292;
 	68 [label="citizens enjoy the
  right to live in a
  harmonious and stable environment ,
  which should be enabled by
  the government , the leader
  of the society",color=blue];
+	173 [label="the government should
+ be accountable for citizens' health
+ care and education to keep
+ society safe and stable",color=green];
+	95 [label="if citizens had no access to
+ health care and education ,
+ their physical health and psychological
+ soundness would be at risk
+",color=blue];
+	173 [label="the government should
+ be accountable for citizens' health
+ care and education to keep
+ society safe and stable",color=green];
+	226 [label="a great number of people
+ , in fact",color=blue];
+	292 [label="the government should fund
+ the deprived for their health
+ care and education , who
+ are the group in real
+ need for the authority's help
+",color=green];
+	235 [label="have had the capacity to pay
+ for the both privately",color=blue];
+	292 [label="the government should fund
+ the deprived for their health
+ care and education , who
+ are the group in real
+ need for the authority's help
+",color=green];
+	248 [label="the government should
+ give priority to more pressing
+ problems related to social members'
+ wellbeing , such as soaring
+ crime rate , aids epidemic
+ or the shortage of infrastructure
+ , which are requiring financial
+ resources from the government to
+ address",color=blue];
+	292 [label="the government should fund
+ the deprived for their health
+ care and education , who
+ are the group in real
+ need for the authority's help
+",color=green];
 }

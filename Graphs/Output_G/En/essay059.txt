@@ -1,11 +1,37 @@
 digraph G {
-	256 -> 308;
-	256 [label="if an individual murders someone
- for self-defense , then such
- a crime is not heinous
-",color=blue];
-	308 [label="terrorists or any
- other criminal who lacks empathy
- for other human lives deserve
- capital punishment",color=green];
+	50 -> 37;
+	50 -> 146;
+	102 -> 146;
+	113 -> 146;
+	125 -> 146;
+	272 -> 291;
+	37 [label="strict laws , like
+ capital punishment , are essential
+",color=green];
+	50 [label="capital punishment is",color=blue];
+	50 [label="capital punishment is",color=blue];
+	146 [label="the rate of crime and
+ violence is effectively decreased",color=green];
+	102 [label="capital punishment protects the
+ society from hardcore criminals",color=blue];
+	146 [label="the rate of crime and
+ violence is effectively decreased",color=green];
+	113 [label="capital punishment curbs
+ the inspiration and prospects of
+ other hateful crimes",color=blue];
+	146 [label="the rate of crime and
+ violence is effectively decreased",color=green];
+	125 [label="when a criminal mind knows the
+ quantum of punishment , they
+ will fear and not commit
+ such crimes",color=blue];
+	146 [label="the rate of crime and
+ violence is effectively decreased",color=green];
+	272 [label="only deserving criminals ,
+ who commit such hateful crimes
+ in their proper senses are
+ subjected to capital punishment",color=blue];
+	291 [label="capital punishment is essential to
+ control violence in the society
+",color=green];
 }

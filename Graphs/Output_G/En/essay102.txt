@@ -1,9 +1,5 @@
 digraph G {
 	83 -> 62;
-	229 -> 303;
-	253 -> 303;
-	268 -> 303;
-	285 -> 303;
 	62 [label="people may not get
  a spiritual experience since pictures
  online are only limited to
@@ -13,48 +9,4 @@ digraph G {
  life size and visitors can
  get a more direct felling
 ",color=blue];
-	229 [label="you can't
- see the texture of the
- artwork which is very important
- to study the skills used
- by the artist",color=blue];
-	303 [label="we still need
- museums and art galleries but
- computers can be introduced to
- museums and galleries in order
- to help visitors to know
- more about the art works
- or historical objects",color=green];
-	253 [label="not all the
- details of the artwork can
- be shown on the computer
- screen",color=blue];
-	303 [label="we still need
- museums and art galleries but
- computers can be introduced to
- museums and galleries in order
- to help visitors to know
- more about the art works
- or historical objects",color=green];
-	268 [label="some details might
- be dim since the resolution
- ratio of the screen is
- not high enough",color=blue];
-	303 [label="we still need
- museums and art galleries but
- computers can be introduced to
- museums and galleries in order
- to help visitors to know
- more about the art works
- or historical objects",color=green];
-	285 [label="these may influence the comprehension of
- the art work or historical
- objects",color=blue];
-	303 [label="we still need
- museums and art galleries but
- computers can be introduced to
- museums and galleries in order
- to help visitors to know
- more about the art works
- or historical objects",color=green];
 }

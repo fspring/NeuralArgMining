@@ -1,16 +1,2 @@
 digraph G {
-	21 -> 30;
-	196 -> 215;
-	21 [label="creativity originates in a free
- mind",color=blue];
-	30 [label="creative artists must be given the
- freedom to express their ideas
- without any restrictions",color=green];
-	196 [label="frank zappa once said ,
- "mind is like a parachute
- , it doesn't work if
- its not open“",color=blue];
-	215 [label="restrictions would just curb the innovative
- ideas of the artists and
- would limit their brains",color=green];
 }

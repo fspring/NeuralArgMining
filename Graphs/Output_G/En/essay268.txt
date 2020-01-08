@@ -1,53 +1,68 @@
 digraph G {
-	47 -> 108;
-	142 -> 90;
-	142 -> 108;
-	319 -> 393;
-	348 -> 393;
-	47 [label="30",color=blue];
-	108 [label="to",color=green];
-	90 [label="too much money for equipping the
+	115 -> 89;
+	174 -> 309;
+	183 -> 309;
+	228 -> 309;
+	237 -> 309;
+	263 -> 406;
+	286 -> 406;
+	89 [label="spending too
+ much money for equipping the
  gyms or constructing football/basketball courts
- are really",color=green];
-	142 [label="when she gets to
- the dorm , she is
- really full of energy and
- after taking a shower ,
- she is ready to start
- a good day",color=blue];
-	108 [label="to",color=green];
-	142 [label="when she gets to
- the dorm , she is
- really full of energy and
- after taking a shower ,
- she is ready to start
- a good day",color=blue];
-	319 [label="for students
- who want to gather with
- their friends or want to
- go out to meet new
- people , university programs are
- the last place they would
- choose",color=blue];
-	393 [label="the importance of
- doing sports in the success
- of university students , but
- i think both sports and
+ are really not necessary to
+ encourage students to do sports
+",color=green];
+	115 [label="my roommate , mary , always
+ wakes up 6 in the
+ morning and spends 1 hour
+ doing sport in the park
+ which is near our dormitory
+",color=blue];
+	174 [label="she is
+ doing exercise without spending a
+ cent",color=blue];
+	309 [label="spending money
+ on social activities looks like
+ wasting money",color=green];
+	183 [label="what the university
+ should do is informing the
+ students the benefits of doing
+ sport by hanging some posters
+ in the campus , inviting
+ some athletes to lecture for
+ students and encourage them to
+ spend some time for their
+ body and health",color=blue];
+	309 [label="spending money
+ on social activities looks like
+ wasting money",color=green];
+	228 [label="students choose their
+ major based on their interests
+",color=blue];
+	309 [label="spending money
+ on social activities looks like
+ wasting money",color=green];
+	237 [label="the university should provide
+ the best equipment needed for
+ physical education students",color=blue];
+	309 [label="spending money
+ on social activities looks like
+ wasting money",color=green];
+	263 [label="for an engineer
+ or a medicine student i
+ do not find it fair
+ enough to equip gyms instead
+ of their laboratories",color=blue];
+	406 [label="i think both sports and
  social activities should not receive
  equal amount of money with
  libraries and laboratories",color=green];
-	348 [label="for example when
- i and my friends want
- to spend time with each
- other , we prefer to
- go out of university to
- the places where we do
- not want to be disturbed
- by any familiar people",color=blue];
-	393 [label="the importance of
- doing sports in the success
- of university students , but
- i think both sports and
+	286 [label="it really make the students
+ enthusiastic to use innovative technology
+ to learn and maybe find
+ new things in their field
+",color=blue];
+	406 [label="i think both sports and
  social activities should not receive
  equal amount of money with
  libraries and laboratories",color=green];

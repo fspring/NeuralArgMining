@@ -1,13 +1,95 @@
 digraph G {
-	46 -> 60;
-	88 -> 66;
-	46 [label="studies",color=blue];
-	60 [label="like we",color=green];
-	66 [label="animals",color=green];
+	60 -> 31;
+	60 -> 150;
+	88 -> 76;
+	88 -> 150;
+	117 -> 252;
+	184 -> 150;
+	184 -> 252;
+	195 -> 252;
+	217 -> 252;
+	222 -> 252;
+	236 -> 252;
+	31 [label="we must help animals live
+ safely and comfortably in their
+ own environment",color=green];
+	60 [label="like we , human beings ,
+ animals are delivered to this
+ world with genetic instincts",color=blue];
+	60 [label="like we , human beings ,
+ animals are delivered to this
+ world with genetic instincts",color=blue];
+	150 [label="various zoos do not have the
+ proper implements or policies that
+ assure the quality of animal
+ care",color=green];
+	76 [label="skills which help them live
+ and",color=green];
 	88 [label="when we captivate
  animals and put them to
  live a style of life
  that they are unfamiliar with
  , they begin to loose
  those in-born instincts",color=blue];
+	88 [label="when we captivate
+ animals and put them to
+ live a style of life
+ that they are unfamiliar with
+ , they begin to loose
+ those in-born instincts",color=blue];
+	150 [label="various zoos do not have the
+ proper implements or policies that
+ assure the quality of animal
+ care",color=green];
+	117 [label="when they are released
+ or in the worst case
+ , when they escape ,
+ they act disorientated and this
+ contributes to the animal mortality
+ rate",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	150 [label="various zoos do not have the
+ proper implements or policies that
+ assure the quality of animal
+ care",color=green];
+	184 [label="i was
+ shocked by the cruelty which
+ animals were treated",color=blue];
+	184 [label="i was
+ shocked by the cruelty which
+ animals were treated",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	195 [label="i can not think of any
+ staff memeber who did not
+ have an improper behaviour towards
+ the animlas in the zoo
+",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	217 [label="they beat them up
+",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	222 [label="they did not wanted
+ to eat their",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	236 [label="it was a way to
+ train the animals",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
 }

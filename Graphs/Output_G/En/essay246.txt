@@ -1,24 +1,31 @@
 digraph G {
 	73 -> 250;
-	162 -> 250;
-	176 -> 250;
+	130 -> 108;
+	130 -> 250;
 	73 [label="if someone decided
  to quit his job without
  really thinking about the alternative
  , or a plan b
  , he could end up
- being unemployed , because of
- his speedy decision",color=blue];
+ being unemployed",color=blue];
 	250 [label="a hurried decision is almost never
  a good one",color=green];
-	162 [label="he wouldn't have been
- unemployed",color=blue];
-	250 [label="a hurried decision is almost never
- a good one",color=green];
-	176 [label="not only goes to waste
- , but also , could
- affect the entire life of
- the person",color=blue];
+	108 [label="making a rushed
+ decision could also mean that
+ the person is missing out
+ on a potential opportunity",color=green];
+	130 [label="if this person had waited and
+ thought his decision through he
+ wouldn't have missed out on
+ the job opening in the
+ same firm , but at
+ a different position",color=blue];
+	130 [label="if this person had waited and
+ thought his decision through he
+ wouldn't have missed out on
+ the job opening in the
+ same firm , but at
+ a different position",color=blue];
 	250 [label="a hurried decision is almost never
  a good one",color=green];
 }

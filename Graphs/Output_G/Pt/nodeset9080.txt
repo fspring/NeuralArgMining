@@ -1,2 +1,11 @@
 digraph G {
+	19 -> 4;
+	4 [label="a distribuição
+ dos refugiados pelos estados membros
+ da união europeia não funciona
+",color=green];
+	19 [label="muitos desses
+ países , sob pressão das
+ opiniões públicas internas , não
+ aceitam essa solução",color=blue];
 }

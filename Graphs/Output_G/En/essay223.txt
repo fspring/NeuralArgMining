@@ -1,19 +1,94 @@
 digraph G {
 	68 -> 61;
-	112 -> 282;
-	315 -> 314;
+	68 -> 166;
+	85 -> 285;
+	104 -> 314;
+	112 -> 314;
+	120 -> 314;
+	130 -> 314;
+	174 -> 314;
+	220 -> 314;
+	238 -> 314;
+	256 -> 314;
+	271 -> 314;
 	61 [label="television has useful and educational
  programs",color=green];
 	68 [label="not only the
  up-to-date news , but also
  there are many programs which
  has educational purposes",color=blue];
+	68 [label="not only the
+ up-to-date news , but also
+ there are many programs which
+ has educational purposes",color=blue];
+	166 [label="tv is helpful to relieve
+ our stresses",color=green];
+	85 [label="if children can use those programs
+ wisely , they can learn
+ many information from it",color=blue];
+	285 [label="the television can have violent programs
+ , however , if children
+ can use tv programs wisely
+ , there are more positive
+ effects than negative effects",color=green];
+	104 [label="in korea
+ , there's program called ebs
+",color=blue];
+	314 [label="it has
+ useful and educational programs and
+ quite helpful to relieve stresses
+ for children",color=green];
 	112 [label="it is targeted for
  children to teenager",color=blue];
-	282 [label="of course , the
- television can have",color=green];
-	314 [label="it",color=green];
-	315 [label="has useful and educational programs and
+	314 [label="it has
+ useful and educational programs and
  quite helpful to relieve stresses
- for children",color=blue];
+ for children",color=green];
+	120 [label="we can study subjects through ebs
+ lecture",color=blue];
+	314 [label="it has
+ useful and educational programs and
+ quite helpful to relieve stresses
+ for children",color=green];
+	130 [label="there are many documentary films such
+ as the life of a
+ great man in korea",color=blue];
+	314 [label="it has
+ useful and educational programs and
+ quite helpful to relieve stresses
+ for children",color=green];
+	174 [label="there are
+ many tv programs such as
+ sports programs",color=blue];
+	314 [label="it has
+ useful and educational programs and
+ quite helpful to relieve stresses
+ for children",color=green];
+	220 [label="i got too much stress from
+ the school",color=blue];
+	314 [label="it has
+ useful and educational programs and
+ quite helpful to relieve stresses
+ for children",color=green];
+	238 [label="after i watch
+ the soccer match between korea
+ and japan , the stress
+ was gone",color=blue];
+	314 [label="it has
+ useful and educational programs and
+ quite helpful to relieve stresses
+ for children",color=green];
+	256 [label="this soccer match helped me
+ to continue my academic career
+ in the school ,",color=blue];
+	314 [label="it has
+ useful and educational programs and
+ quite helpful to relieve stresses
+ for children",color=green];
+	271 [label="it helped me to relieve
+ my stress",color=blue];
+	314 [label="it has
+ useful and educational programs and
+ quite helpful to relieve stresses
+ for children",color=green];
 }

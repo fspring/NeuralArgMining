@@ -1,8 +1,23 @@
 digraph G {
+	55 -> 5;
+	55 -> 110;
 	67 -> 110;
 	85 -> 110;
-	150 -> 175;
-	162 -> 175;
+	213 -> 241;
+	5 [label="married women nowadays have right to
+ take up jobs like men
+ when employment discrimination based on
+ gender have been erased significantly
+",color=green];
+	55 [label="extra income that women earn will
+ contribute to their family's expenses
+",color=blue];
+	55 [label="extra income that women earn will
+ contribute to their family's expenses
+",color=blue];
+	110 [label="it is a normal practice for
+ women to be helpmates in
+ earning money",color=green];
 	67 [label="by taking up a
  job , a wife can
  earn more money to support
@@ -18,12 +33,12 @@ digraph G {
 	110 [label="it is a normal practice for
  women to be helpmates in
  earning money",color=green];
-	150 [label="these things in turn will make
- them more confident , independent
-",color=blue];
-	175 [label="it",color=green];
-	162 [label="these women will set
- a good example for their
- children",color=blue];
-	175 [label="it",color=green];
+	213 [label="the gorvernment's policies
+ on limited families and their
+ husbands' sharing in the housework
+ , many employers are willing
+ to offer part-time jobs for
+ women",color=blue];
+	241 [label="a well-organized home does not
+ need the housewife's",color=green];
 }

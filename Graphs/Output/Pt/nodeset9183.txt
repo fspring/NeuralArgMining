@@ -73,8 +73,8 @@ dos (I)    0.000
 seus (I)    0.000
 fiéis (I)    0.000
 emigrados (I)    0.000
-. (I)    0.000
-eis (P)    0.000
+. (O)    0.000
+eis (C)    0.000
 um (I)    0.000
 efeito (I)    0.000
 positivo (I)    0.000

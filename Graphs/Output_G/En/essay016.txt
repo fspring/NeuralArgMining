@@ -1,20 +1,61 @@
 digraph G {
-	162 -> 132;
-	162 -> 191;
+	104 -> 195;
+	132 -> 195;
+	163 -> 148;
+	173 -> 195;
+	249 -> 286;
+	266 -> 286;
+	104 [label="if there
+ are no animals in the
+ world , the balance of
+ nature will broke down ,
+ and we , human ,
+ will die out as well
+",color=blue];
+	195 [label="every new kind food or pill
+ may be noxious , and
+ scientists must do something to
+ insure that the new invention
+ benefits people instead of making
+ people ill or even dying
+",color=green];
 	132 [label="the animal experiments accelerate
  the vanishing of some categories
- of animals",color=green];
-	162 [label="though animal experiments have
+ of animals",color=blue];
+	195 [label="every new kind food or pill
+ may be noxious , and
+ scientists must do something to
+ insure that the new invention
+ benefits people instead of making
+ people ill or even dying
+",color=green];
+	148 [label="doing this various
+ testing is a hazard of
+ human's future and next generation
+",color=green];
+	163 [label="animal experiments have
  negative impact on the natural
- balance , it is necessary
+ balance ,",color=blue];
+	173 [label="it is necessary
  to make sure that people
  can live a long life
 ",color=blue];
-	162 [label="though animal experiments have
- negative impact on the natural
- balance , it is necessary
- to make sure that people
- can live a long life
-",color=blue];
-	191 [label="it is",color=green];
+	195 [label="every new kind food or pill
+ may be noxious , and
+ scientists must do something to
+ insure that the new invention
+ benefits people instead of making
+ people ill or even dying
+",color=green];
+	249 [label="they cannot
+ take the place of animals
+ to test the new foods
+ or medicines",color=blue];
+	286 [label="there is some disadvantages of
+",color=green];
+	266 [label="it also have potentially harm
+ for human's health without any
+ testing",color=blue];
+	286 [label="there is some disadvantages of
+",color=green];
 }

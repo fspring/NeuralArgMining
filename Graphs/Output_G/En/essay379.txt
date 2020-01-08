@@ -1,2 +1,61 @@
 digraph G {
+	70 -> 27;
+	125 -> 297;
+	152 -> 297;
+	203 -> 297;
+	234 -> 297;
+	269 -> 297;
+	27 [label="there are still many
+ other aspects which should be
+ seen as important as income
+ when people choose a job
+",color=green];
+	70 [label="money is very essential in order
+ to meet human' basic needs
+",color=blue];
+	125 [label="people who are woking in art
+ or painting industries , for
+ example , will find it
+ quite difficult to live comfortably
+ and enjoyably",color=blue];
+	297 [label="income is still a
+ vital determination impacting us on
+ choices of careers",color=green];
+	152 [label="they are doing what
+ they love , their income
+ however seems to be quite
+ low compared to many other
+ career paths",color=blue];
+	297 [label="income is still a
+ vital determination impacting us on
+ choices of careers",color=green];
+	203 [label="there are plenty
+ of people , who are
+ now really successful , have
+ started working in challenging as
+ well as competitive fields as
+ singers , dancers and painters
+",color=blue];
+	297 [label="income is still a
+ vital determination impacting us on
+ choices of careers",color=green];
+	234 [label="important factors
+ in choosing a job such
+ as level of happiness ,
+ satisfaction of jobs , personal
+ relationships , professional skills ,
+ working environment , managers and
+ colleagues should not be underestimated
+",color=blue];
+	297 [label="income is still a
+ vital determination impacting us on
+ choices of careers",color=green];
+	269 [label="some people
+ choose a career due to
+ their desire to help others
+ and contribute positively to their
+ countries and societies",color=blue];
+	297 [label="income is still a
+ vital determination impacting us on
+ choices of careers",color=green];
 }

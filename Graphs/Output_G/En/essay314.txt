@@ -1,46 +1,96 @@
 digraph G {
-	244 -> 234;
-	244 -> 454;
-	284 -> 440;
-	319 -> 440;
-	350 -> 440;
-	379 -> 440;
-	403 -> 440;
-	234 [label="both minimum
- time completion and also criterion
- of quality",color=green];
-	244 [label="even when
- we managed to keep up
- with the pace by neglecting
- the details of a project
- and only aim for a
- general frame of the project
- , this will not be
- something satisfy for the company
- and clients",color=blue];
-	244 [label="even when
- we managed to keep up
- with the pace by neglecting
- the details of a project
- and only aim for a
- general frame of the project
- , this will not be
- something satisfy for the company
- and clients",color=blue];
+	97 -> 69;
+	97 -> 83;
+	97 -> 350;
+	109 -> 350;
+	147 -> 442;
+	158 -> 454;
+	178 -> 454;
+	199 -> 454;
+	272 -> 350;
+	284 -> 442;
+	301 -> 442;
+	319 -> 442;
+	362 -> 350;
+	362 -> 442;
+	379 -> 454;
+	407 -> 442;
+	429 -> 442;
+	69 [label="it might
+ not be the most beneficial
+ move to our society",color=green];
+	97 [label="even simple issues in
+ our daily life like homework
+ require accuracy",color=blue];
+	83 [label="even when the
+ world operates in fast pace
+ , it still requires accuracy
+",color=green];
+	97 [label="even simple issues in
+ our daily life like homework
+ require accuracy",color=blue];
+	97 [label="even simple issues in
+ our daily life like homework
+ require accuracy",color=blue];
+	350 [label="some work cannot tolerate any mistakes
+ at all ,",color=green];
+	109 [label="if we
+ rush through the work by
+ taking risk of making mistakes
+ , we are actually making
+ zero effort going through our
+ study roughly only for the
+ purpose of fill in before
+ the deadline",color=blue];
+	350 [label="some work cannot tolerate any mistakes
+ at all ,",color=green];
+	147 [label="it only fulfills the
+ work itself which is rather
+ worthless",color=blue];
+	442 [label="we need to catch
+ up with the pace of
+ the world",color=green];
+	158 [label="it is our
+ capability of work that we
+ should improve rather than holding
+ the belief in completing it
+",color=blue];
 	454 [label="it is
  necessary for us to be
- extraordinarily cautious since rough work
- is intolerable when we want
- to stay competitive",color=green];
+ extraordinarily cautious",color=green];
+	178 [label="it may take
+ time to keep up with
+ the others if w need
+ to review our work multiple
+ times",color=blue];
+	454 [label="it is
+ necessary for us to be
+ extraordinarily cautious",color=green];
+	199 [label="with consistent
+ work soon enough we'll be
+ able to bring up our
+ speed in completion of work
+",color=blue];
+	454 [label="it is
+ necessary for us to be
+ extraordinarily cautious",color=green];
+	272 [label="this will not be
+ something satisfy for the company
+ and clients",color=blue];
+	350 [label="some work cannot tolerate any mistakes
+ at all ,",color=green];
 	284 [label="we soon
  will be out of the
  picture even when we kept
- up with the pace since
- when the problem reveals itself
+ up with the pace",color=blue];
+	442 [label="we need to catch
+ up with the pace of
+ the world",color=green];
+	301 [label="when the problem reveals itself
  we'll have to go back
  and fix the mistakes we
  have made",color=blue];
-	440 [label="even when we need to catch
+	442 [label="we need to catch
  up with the pace of
  the world",color=green];
 	319 [label="this might
@@ -48,16 +98,20 @@ digraph G {
  time consuming than a neat
  completion of work at the
  start",color=blue];
-	440 [label="even when we need to catch
+	442 [label="we need to catch
  up with the pace of
  the world",color=green];
 	350 [label="some work cannot tolerate any mistakes
- at all , for instance
- , in official missions like
+ at all ,",color=green];
+	362 [label="in official missions like
  the work done by nasa
  , a tiny mistake can
  be catastrophic",color=blue];
-	440 [label="even when we need to catch
+	362 [label="in official missions like
+ the work done by nasa
+ , a tiny mistake can
+ be catastrophic",color=blue];
+	442 [label="we need to catch
  up with the pace of
  the world",color=green];
 	379 [label="a miscalculation
@@ -66,17 +120,20 @@ digraph G {
  failure of the whole project
  which might worth trillions of
  dollars",color=blue];
-	440 [label="even when we need to catch
- up with the pace of
- the world",color=green];
-	403 [label="in such circumstances
- , even when the scientists
+	454 [label="it is
+ necessary for us to be
+ extraordinarily cautious",color=green];
+	407 [label="even when the scientists
  want to finish off quickly
  , but they couldn't miss
  even a single part of
- the mission since it may
+ the mission",color=blue];
+	442 [label="we need to catch
+ up with the pace of
+ the world",color=green];
+	429 [label="it may
  trigger loads of problems",color=blue];
-	440 [label="even when we need to catch
+	442 [label="we need to catch
  up with the pace of
  the world",color=green];
 }

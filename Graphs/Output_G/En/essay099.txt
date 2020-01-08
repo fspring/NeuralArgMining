@@ -1,2 +1,77 @@
 digraph G {
+	81 -> 281;
+	96 -> 149;
+	115 -> 281;
+	132 -> 281;
+	165 -> 281;
+	187 -> 281;
+	199 -> 281;
+	216 -> 281;
+	243 -> 281;
+	81 [label="it not only enhances the
+ confidence of a student but
+ also makes them independent",color=blue];
+	281 [label="i would agree to idea
+ of taking a break before
+",color=green];
+	96 [label="student's who works tend to
+ gather better financial resources which
+ they can rely on during
+ their university studies",color=blue];
+	149 [label="taking a
+",color=green];
+	115 [label="this experience also makes them aware
+ of what they would like
+ to make of their life
+",color=blue];
+	281 [label="i would agree to idea
+ of taking a break before
+",color=green];
+	132 [label="they develop broader view
+ and can make a better
+ choice of their future studies
+ or courses",color=blue];
+	281 [label="i would agree to idea
+ of taking a break before
+",color=green];
+	165 [label="once student's starts earning , they
+ might not like to go
+ back to studies where they
+ would lose their financial independence
+",color=blue];
+	281 [label="i would agree to idea
+ of taking a break before
+",color=green];
+	187 [label="they might even find
+ it difficult to adapt to
+ education environment",color=blue];
+	281 [label="i would agree to idea
+ of taking a break before
+",color=green];
+	199 [label="there is
+ also a risk of student
+ never going back to university
+ or higher education",color=blue];
+	281 [label="i would agree to idea
+ of taking a break before
+",color=green];
+	216 [label="some might take some short
+ term courses instead of proper
+ and complete university education ,
+ which will help them to
+ get a better job and
+ salaries",color=blue];
+	281 [label="i would agree to idea
+ of taking a break before
+",color=green];
+	243 [label="this might only
+ help them in a short
+ run as it is a
+ known fact that to make
+ a reasonable career in longer
+ runs , one needs a
+ proper and higher qualification",color=blue];
+	281 [label="i would agree to idea
+ of taking a break before
+",color=green];
 }

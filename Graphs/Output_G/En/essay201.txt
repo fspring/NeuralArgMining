@@ -1,8 +1,16 @@
 digraph G {
 	51 -> 39;
-	255 -> 207;
-	255 -> 326;
-	293 -> 340;
+	51 -> 244;
+	91 -> 244;
+	113 -> 244;
+	152 -> 244;
+	186 -> 175;
+	186 -> 244;
+	199 -> 244;
+	209 -> 339;
+	257 -> 339;
+	271 -> 339;
+	293 -> 339;
 	39 [label="conservation is
  more urgent now than at
  any time in history",color=green];
@@ -14,32 +22,93 @@ digraph G {
  which means that the biodiversity
  of our home is grievously
  endangered",color=blue];
-	207 [label="advertising",color=green];
-	255 [label="confess that art is one of
+	51 [label="according to a statistic conducted
+ by the international animal preserving
+ association , we have only
+ ten percent of the animals
+ that have ever existed ,
+ which means that the biodiversity
+ of our home is grievously
+ endangered",color=blue];
+	244 [label="conservation leads
+ us to a higher standard
+ of living",color=green];
+	91 [label="rising sea levels , caused
+ by global warming , have
+ reached a level that is
+ threatening human's life in many
+ countries",color=blue];
+	244 [label="conservation leads
+ us to a higher standard
+ of living",color=green];
+	113 [label="if we continue
+ discharging carbon dioxide with non-environmentally
+ friendly cars , nations like
+ japan will be submerged and
+ weather patterns could change ,
+ causing flooding , drought ,
+ and an increasing amount of
+ damaging storms",color=blue];
+	244 [label="conservation leads
+ us to a higher standard
+ of living",color=green];
+	152 [label="the ecosystem is in
+ its worst condition ever and
+ if we didn't take harsh
+ measures now , we never
+ will",color=blue];
+	244 [label="conservation leads
+ us to a higher standard
+ of living",color=green];
+	175 [label="supporting environment protection will benefit the
+ company eventually",color=green];
+	186 [label="an increasing amount of people
+ pay more attention to conservation
+",color=blue];
+	186 [label="an increasing amount of people
+ pay more attention to conservation
+",color=blue];
+	244 [label="conservation leads
+ us to a higher standard
+ of living",color=green];
+	199 [label="sponsoring conservation
+ is a more efficient method
+ of advertising",color=blue];
+	244 [label="conservation leads
+ us to a higher standard
+ of living",color=green];
+	209 [label="just imagine
+ if the project your company
+ is sponsoring effectively improves the
+ environment , then your company
+ would be known as an
+ environmentally-friendly company and benefit from
+ it in this consumer-oriented society
+",color=blue];
+	339 [label="i still
+ hold the environment protection for
+ long-term interest",color=green];
+	257 [label="art is one of
  the best ways of entertaining
- human beings , but ,
- with exhaust fumes and acid
+ human beings ,",color=blue];
+	339 [label="i still
+ hold the environment protection for
+ long-term interest",color=green];
+	271 [label="with exhaust fumes and acid
  rain , we do not
  have the energy and enthusiasm
  to appreciate the paintings or
  photographs",color=blue];
-	255 [label="confess that art is one of
- the best ways of entertaining
- human beings , but ,
- with exhaust fumes and acid
- rain , we do not
- have the energy and enthusiasm
- to appreciate the paintings or
- photographs",color=blue];
-	326 [label="art will benefit the human
- beings and the company in
- short-term interest",color=green];
+	339 [label="i still
+ hold the environment protection for
+ long-term interest",color=green];
 	293 [label="biodiversity and a
  more beautiful nature are not
  only the results of abetter
  environment but also are the
  necessities of photography and other
  types of art",color=blue];
-	340 [label="still hold the environment protection for
+	339 [label="i still
+ hold the environment protection for
  long-term interest",color=green];
 }

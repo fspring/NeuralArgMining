@@ -1,5 +1,54 @@
 digraph G {
-	169 -> 204;
+	70 -> 51;
+	70 -> 151;
+	88 -> 151;
+	118 -> 248;
+	169 -> 151;
+	169 -> 248;
+	204 -> 248;
+	265 -> 248;
+	51 [label="in most industrialized countries ,
+ there is a number of
+ companies that holds heavy factories
+ in their constitutions",color=green];
+	70 [label="the waste products and harmful gases
+ produced by these factories cause
+ a significant amount of air
+ pollution",color=blue];
+	70 [label="the waste products and harmful gases
+ produced by these factories cause
+ a significant amount of air
+ pollution",color=blue];
+	151 [label="private individuals cause air pollution
+ in several ways such as
+ inessential use of cars and
+ house heating",color=green];
+	88 [label="while these companies
+ make a huge amount of
+ money from their businesses ,
+ most of them are not
+ considering to take precautions to
+ reduce the amount of air
+ pollution",color=blue];
+	151 [label="private individuals cause air pollution
+ in several ways such as
+ inessential use of cars and
+ house heating",color=green];
+	118 [label="if these companies
+ were obliged to pay to
+ clean up the air pollution
+ , they would at least
+ make an effort to reduce
+ the amount of air pollution
+ they cause",color=blue];
+	248 [label="governments should restrict
+ the use of products that
+ cause air pollution for both
+ individuals and companies",color=green];
+	151 [label="private individuals cause air pollution
+ in several ways such as
+ inessential use of cars and
+ house heating",color=green];
 	169 [label="as house
  heating is a major need
  in the winter time ,
@@ -7,7 +56,32 @@ digraph G {
  to use filters to reduce
  the amount of pollution that
  the heating causes",color=blue];
+	169 [label="as house
+ heating is a major need
+ in the winter time ,
+ some households do not consider
+ to use filters to reduce
+ the amount of pollution that
+ the heating causes",color=blue];
+	248 [label="governments should restrict
+ the use of products that
+ cause air pollution for both
+ individuals and companies",color=green];
 	204 [label="some expensive
  vehicles cause a huge amount
- of pollution",color=green];
+ of pollution",color=blue];
+	248 [label="governments should restrict
+ the use of products that
+ cause air pollution for both
+ individuals and companies",color=green];
+	248 [label="governments should restrict
+ the use of products that
+ cause air pollution for both
+ individuals and companies",color=green];
+	265 [label="governments also should use an amount
+ of money from their budgets
+ to clean up the air
+ , instead of putting all
+ the responsibility to companies and
+ private individuals",color=blue];
 }

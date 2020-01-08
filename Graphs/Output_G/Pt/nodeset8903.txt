@@ -1,10 +1,17 @@
 digraph G {
 	13 -> 0;
+	129 -> 119;
 	0 [label="a suspensão da descrença",color=green];
 	13 [label="a suspeita de
  que este neo-despesismo não corresponde
  a nenhuma política de justiça
  social , mas à simples
  necessidade de pagar ao pcp
- o seu apoio parlamentar",color=blue];
+ o seu apoio parlamentar ,
+ satisfazendo as suas clientelas sindicais
+",color=blue];
+	119 [label="comissão europeia
+ interfere nos nossos orçamentos",color=green];
+	129 [label="estamos no
+ euro",color=blue];
 }

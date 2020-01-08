@@ -2,10 +2,10 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import os
 
-golden_path = 'Input_G/Pt'
-predict_path = 'Output_G/Pt'
-# golden_path = 'Input_G/En'
-# predict_path = 'Output_G/En'
+# golden_path = 'Input_G/Pt'
+# predict_path = 'Output_G/Pt'
+golden_path = 'Input_G/En'
+predict_path = 'Output_G/En'
 
 def node_subst_cost(n1, n2):
     text1 = n1['label'].lower()
@@ -52,6 +52,7 @@ golden_files = [f for f in os.listdir(golden_path) if os.path.isfile(os.path.joi
 total_ged = []
 data = {}
 for filename in golden_files:
+    print(filename)
     golden_graph = nx.drawing.nx_pydot.read_dot(golden_path + '/' + filename)
     predict_graph = nx.drawing.nx_pydot.read_dot(predict_path + '/' + filename)
 

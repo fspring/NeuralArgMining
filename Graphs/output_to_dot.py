@@ -1,10 +1,10 @@
 import os
 
-dir = 'Output/Pt'
-graph_dir = 'Output_G/Pt'
+# dir = 'Output/Pt'
+# graph_dir = 'Output_G/Pt'
 
-# dir = 'Output/En'
-# graph_dir = 'Output_G/En'
+dir = 'Output/En'
+graph_dir = 'Output_G/En'
 
 files = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
 

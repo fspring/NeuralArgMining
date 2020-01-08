@@ -1,11 +1,15 @@
 digraph G {
-	305 -> 334;
-	305 [label="through this way , they may
- miss some important parts in
- virtue of the chaotic and
- incoherent study",color=blue];
-	334 [label="convinced that
- communicating and studying with peer
- group is a good way
- for learning materials",color=green];
+	148 -> 104;
+	104 [label="being present
+ at classes provide students with
+ opportunity of communicating with other
+ students that is beneficial for
+ understanding new material by reviewing
+ them throughout the free times
+ in college",color=green];
+	148 [label="if they do
+ not attend classes they cannot
+ use the help of others
+ for assisting them to comprehend
+ difficult problems",color=blue];
 }

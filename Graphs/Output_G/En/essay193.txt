@@ -1,27 +1,117 @@
 digraph G {
-	54 -> 18;
-	71 -> 44;
-	79 -> 66;
-	191 -> 307;
-	18 [label="society",color=green];
-	54 [label="use of
+	53 -> 42;
+	79 -> 300;
+	97 -> 300;
+	136 -> 300;
+	148 -> 300;
+	167 -> 300;
+	176 -> 300;
+	182 -> 300;
+	210 -> 300;
+	276 -> 300;
+	42 [label="the government have to
+ spend more money on improving
+ it",color=green];
+	53 [label="the use of
  public transportation is the best
  way to conserve natural resources
-",color=blue];
-	44 [label="have to
- spend more money",color=green];
-	71 [label="depend on oil and gasoline
- to move",color=blue];
-	66 [label="gradually run out",color=green];
+ gradually run out",color=blue];
 	79 [label="if people
  use too many private cars
  , the oil and gasoline
  nonrenewable will run out quickly
 ",color=blue];
-	191 [label="if we use the public
- transportation , less cars will
- be used and less pollution
- will be emitted",color=blue];
-	307 [label="for the modern society
- facing a lot of",color=green];
+	300 [label="public transportation has a lot of
+ advantages for the modern society
+ facing a lot of problems
+ : the environmental population ,
+ the isolation in life ,
+ the depletion of natural resources
+",color=green];
+	97 [label="instead of using many
+ private cars , people can
+ use public transportation , such
+ as bus , train ,
+ subway , each one can
+ get far more people and
+ less oil and gasoline are
+ used up per person",color=blue];
+	300 [label="public transportation has a lot of
+ advantages for the modern society
+ facing a lot of problems
+ : the environmental population ,
+ the isolation in life ,
+ the depletion of natural resources
+",color=green];
+	136 [label="the use of public transportation
+ helps in reducing the air
+ pollution",color=blue];
+	300 [label="public transportation has a lot of
+ advantages for the modern society
+ facing a lot of problems
+ : the environmental population ,
+ the isolation in life ,
+ the depletion of natural resources
+",color=green];
+	148 [label="cars use oil
+ and gasoline and send out
+ gas such as carbon dioxide
+ , heat and so on
+",color=blue];
+	300 [label="public transportation has a lot of
+ advantages for the modern society
+ facing a lot of problems
+ : the environmental population ,
+ the isolation in life ,
+ the depletion of natural resources
+",color=green];
+	167 [label="they cause pollution and
+ make the earth warmer",color=blue];
+	300 [label="public transportation has a lot of
+ advantages for the modern society
+ facing a lot of problems
+ : the environmental population ,
+ the isolation in life ,
+ the depletion of natural resources
+",color=green];
+	176 [label="the more cars are driven
+ ,",color=blue];
+	300 [label="public transportation has a lot of
+ advantages for the modern society
+ facing a lot of problems
+ : the environmental population ,
+ the isolation in life ,
+ the depletion of natural resources
+",color=green];
+	182 [label="the more pollution will
+ be put into air",color=blue];
+	300 [label="public transportation has a lot of
+ advantages for the modern society
+ facing a lot of problems
+ : the environmental population ,
+ the isolation in life ,
+ the depletion of natural resources
+",color=green];
+	210 [label="the atmosphere , surrounding us ,
+ will be protected and help
+ us more healthy",color=blue];
+	300 [label="public transportation has a lot of
+ advantages for the modern society
+ facing a lot of problems
+ : the environmental population ,
+ the isolation in life ,
+ the depletion of natural resources
+",color=green];
+	276 [label="when using public transportation ,
+ we have a chance to
+ meet more people and more
+ chances to discovery new aspects
+ of life",color=blue];
+	300 [label="public transportation has a lot of
+ advantages for the modern society
+ facing a lot of problems
+ : the environmental population ,
+ the isolation in life ,
+ the depletion of natural resources
+",color=green];
 }

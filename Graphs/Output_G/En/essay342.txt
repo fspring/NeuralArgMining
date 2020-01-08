@@ -1,11 +1,23 @@
 digraph G {
 	117 -> 346;
+	135 -> 346;
+	150 -> 301;
+	169 -> 301;
 	210 -> 192;
+	210 -> 301;
+	248 -> 346;
+	266 -> 346;
+	316 -> 346;
 	117 [label="a competitive child is
  usually more motivated to pursue
  a goal or to face
- difficulties independently , but it
- is also risky that children
+ difficulties independently",color=blue];
+	346 [label="schools and adults should put
+ a sense of cooperation in
+ children to make them becoming
+ a useful adult whether in
+ society or community",color=green];
+	135 [label="it is also risky that children
  are becoming too competitive to
  cooperating with others",color=blue];
 	346 [label="schools and adults should put
@@ -13,6 +25,20 @@ digraph G {
  children to make them becoming
  a useful adult whether in
  society or community",color=green];
+	150 [label="being competitive leads them to success
+ , but could also restrict
+ them in many ways",color=blue];
+	301 [label="competitive child would have more
+ motivation and perspective that leads
+ them to success",color=green];
+	169 [label="it might
+ be hard for a competitive
+ person to deal or manage
+ in a team work project
+",color=blue];
+	301 [label="competitive child would have more
+ motivation and perspective that leads
+ them to success",color=green];
 	192 [label="cooperation is also an
  essential quality for children ,
  no matter in school activities
@@ -24,4 +50,44 @@ digraph G {
  solve problems or to achieve
  a goal easily by working
  as a team",color=blue];
+	210 [label="having a good cooperating spirit helps
+ kids to communicate and get
+ along with others , which
+ gives them more possibility to
+ solve problems or to achieve
+ a goal easily by working
+ as a team",color=blue];
+	301 [label="competitive child would have more
+ motivation and perspective that leads
+ them to success",color=green];
+	248 [label="in society ,
+ there is hardly anyone who
+ could has big achievement by
+ oneself",color=blue];
+	346 [label="schools and adults should put
+ a sense of cooperation in
+ children to make them becoming
+ a useful adult whether in
+ society or community",color=green];
+	266 [label="famous singers or movie stars
+ , despite of their talent
+ to make them successful ,
+ there are always a team
+ to manage works or deal
+ with things",color=blue];
+	346 [label="schools and adults should put
+ a sense of cooperation in
+ children to make them becoming
+ a useful adult whether in
+ society or community",color=green];
+	316 [label="it would not help them
+ much once they enter to
+ society or company which required
+ more about skill of team
+ work",color=blue];
+	346 [label="schools and adults should put
+ a sense of cooperation in
+ children to make them becoming
+ a useful adult whether in
+ society or community",color=green];
 }

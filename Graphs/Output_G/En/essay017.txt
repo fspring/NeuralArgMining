@@ -1,18 +1,17 @@
 digraph G {
-	236 -> 281;
-	250 -> 281;
+	73 -> 53;
 	262 -> 281;
-	236 [label="some thriller or action movies
- advertise negative activities such as
- doing criminal activity",color=blue];
-	281 [label="killing our time",color=green];
-	250 [label="these genre of programs has more
- negative effects on our teenagers
-",color=blue];
-	281 [label="killing our time",color=green];
+	53 [label="television devastate families
+ ties",color=green];
+	73 [label="emergence of new
+ television channels or shows are
+ not surprising",color=blue];
 	262 [label="they usually try to
  mimic what they see on
  movies in their daily behaviors
 ",color=blue];
-	281 [label="killing our time",color=green];
+	281 [label="killing our time , making
+ us lazy , and advertising
+ negative behaviors are just only
+ few",color=green];
 }

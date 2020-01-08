@@ -1,2 +1,15 @@
 digraph G {
+	19 -> 0;
+	0 [label="rebelo de sousa foi o único
+ candidato que percebeu que deveria
+ fazer campanha para uma maioria
+ de indiferentes",color=green];
+	19 [label="todos os
+ outros candidatos apenas os outros
+ 5 que contam ; o
+ resto não passa de folclore
+ deprimente , mascarado de democracia
+ esforçam-se para introduzir uma dimensão
+ politica na campanha , mas
+ sem sucesso",color=blue];
 }

@@ -1,26 +1,79 @@
 digraph G {
-	121 -> 184;
-	144 -> 184;
+	89 -> 79;
+	89 -> 191;
+	121 -> 191;
+	131 -> 191;
+	146 -> 191;
+	167 -> 191;
+	204 -> 191;
+	266 -> 345;
+	284 -> 345;
+	79 [label="it helps
+ academic institutions maintain their high
+ education quality",color=green];
+	89 [label="unlike middle
+ school or high school ,
+ university and college require far
+ a lot of ability and
+ skills to keep up with
+ an enormous amount of complex
+ knowledge",color=blue];
+	89 [label="unlike middle
+ school or high school ,
+ university and college require far
+ a lot of ability and
+ skills to keep up with
+ an enormous amount of complex
+ knowledge",color=blue];
+	191 [label="it gives better human resources
+ for sophisticated purposes",color=green];
 	121 [label="some students may be capable
  in high schools , but
- the pressure of higher education
+",color=blue];
+	191 [label="it gives better human resources
+ for sophisticated purposes",color=green];
+	131 [label="the pressure of higher education
  is tough even for talented
  ones",color=blue];
-	184 [label="university should
- only accept good students because
- it gives better human resources
+	191 [label="it gives better human resources
  for sophisticated purposes",color=green];
-	144 [label="explains why
- it is only suitable for
+	146 [label="it is only suitable for
  a limited people , and
  opening up for everyone will
  be fatal for institutions ,
- since they need to somehow
+",color=blue];
+	191 [label="it gives better human resources
+ for sophisticated purposes",color=green];
+	167 [label="they need to somehow
  lower the materials so that
  it is practical for everyone
 ",color=blue];
-	184 [label="university should
- only accept good students because
- it gives better human resources
+	191 [label="it gives better human resources
  for sophisticated purposes",color=green];
+	191 [label="it gives better human resources
+ for sophisticated purposes",color=green];
+	204 [label="this may
+ lead to 'social division' ,
+ when someone with high education
+ refuses to do the called
+ 'low jobs' , but actually
+ it gives no harm to
+ the whole community",color=blue];
+	266 [label="i think limiting the number
+ of people who can be
+ admitted by universities is a
+ good choice",color=blue];
+	345 [label="everyone should have a compulsory education
+ level up to high school
+",color=green];
+	284 [label="it will
+ reward the motivation of students
+ and constantly keep them in
+ the difficult level of learning
+ , which makes them do
+ the best to improve themselves
+",color=blue];
+	345 [label="everyone should have a compulsory education
+ level up to high school
+",color=green];
 }

@@ -1,17 +1,23 @@
 digraph G {
-	80 -> 144;
-	110 -> 144;
-	80 [label="we must acknowledge that complete data
+	84 -> 55;
+	84 -> 163;
+	110 -> 163;
+	179 -> 163;
+	55 [label="past behaviour determines the future actions
+",color=green];
+	84 [label="complete data
  concerning the history of a
  sued person creates more opportunity
  for jury members to build
  an overall picture of defendant's
  personality",color=blue];
-	144 [label="in order
- for the jury to come
- up with an objective decision
- not depending on the past
- experience , the court should
+	84 [label="complete data
+ concerning the history of a
+ sued person creates more opportunity
+ for jury members to build
+ an overall picture of defendant's
+ personality",color=blue];
+	163 [label="the court should
  provide with details relevant to
  a particular case only",color=green];
 	110 [label="past record might be useful to
@@ -21,11 +27,16 @@ digraph G {
  concerns serious crimes , such
  as kidnapping or a murder
 ",color=blue];
-	144 [label="in order
- for the jury to come
- up with an objective decision
- not depending on the past
- experience , the court should
+	163 [label="the court should
  provide with details relevant to
  a particular case only",color=green];
+	163 [label="the court should
+ provide with details relevant to
+ a particular case only",color=green];
+	179 [label="a defendant
+ with number of past crimes
+ has more chance to be
+ found guilty compared to a
+ person with no or lighter
+ criminal record",color=blue];
 }

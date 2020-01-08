@@ -1,12 +1,33 @@
 digraph G {
-	261 -> 325;
-	261 [label="for instance , as lots
+	93 -> 74;
+	197 -> 297;
+	264 -> 297;
+	74 [label="spending too
+ much time on phones may
+ exert adverse effects on social
+ life",color=green];
+	93 [label="as people increasingly
+ tend to focus and relay
+ on phones , they may
+ lose their interest on daily
+ activities like meeting with their
+ friends so that distraction may
+ be developed during study or
+ social activities",color=blue];
+	197 [label="many games involve children
+ helping their character to kill
+ or shoot , which many
+ lead to increased aggressive feelings
+ , thoughts and behaviours",color=blue];
+	297 [label="mobile phones have shortened
+ the distance of communication",color=green];
+	264 [label="as lots
  of chatting apps available online
  such as "weichat" , people
  tend to send instant messages
  free of charge by using
  their phones rather than face
  to face communication",color=blue];
-	325 [label="although mobile phones brings convenience of
- communication",color=green];
+	297 [label="mobile phones have shortened
+ the distance of communication",color=green];
 }

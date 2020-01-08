@@ -1,2 +1,41 @@
 digraph G {
+	93 -> 292;
+	106 -> 292;
+	125 -> 181;
+	152 -> 292;
+	191 -> 181;
+	93 [label="it helps people
+ distinguish between nations and even
+ regions in a country",color=blue];
+	292 [label="all languages should be
+ preserved and developed as much
+ as possible",color=green];
+	106 [label="the clearance of minority of
+ language means that a national
+ traditional , customs and habitants
+ do not exist",color=blue];
+	292 [label="all languages should be
+ preserved and developed as much
+ as possible",color=green];
+	125 [label="governments should spend money on keeping
+ and preserving these things for
+ the rich diversity of cultures
+ which make our world more
+ interesting",color=blue];
+	181 [label="there are some drawbacks from
+ saving minority languages",color=green];
+	152 [label="it is a pride
+ of the country with a
+ rage of culture which is
+ easy to educate people to
+ love their country more",color=blue];
+	292 [label="all languages should be
+ preserved and developed as much
+ as possible",color=green];
+	181 [label="there are some drawbacks from
+ saving minority languages",color=green];
+	191 [label="governments invest money on doing
+ that , it is hard
+ to gain the good results
+",color=blue];
 }

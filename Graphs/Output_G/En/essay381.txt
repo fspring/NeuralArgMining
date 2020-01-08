@@ -1,23 +1,24 @@
 digraph G {
-	105 -> 59;
-	81 -> 74;
-	81 -> 79;
-	59 [label="which",color=green];
-	105 [label="criminals todays are very sophisticated so
- they spend a large amount
- of money to acquire modern
- weapons to cope with the
- police and serve their own
- nefarious needs",color=blue];
-	74 [label="we",color=green];
-	81 [label="with guns or any other
+	74 -> 181;
+	152 -> 181;
+	74 [label="we need
+ to consider that police armed
+ with guns or any other
  kinds of legal weapons just
  attempts to protect not only
  civilians but also himself",color=blue];
-	79 [label="police armed
-",color=green];
-	81 [label="with guns or any other
- kinds of legal weapons just
- attempts to protect not only
- civilians but also himself",color=blue];
+	181 [label="a society that its police
+ force carries guns will be
+ definitely seen as a highly
+ violent one",color=green];
+	152 [label="while on duty ,
+ not only are private citizens
+ affected but facilities such as
+ cars , houses , streets
+ are likely to be destroyed
+ by guns",color=blue];
+	181 [label="a society that its police
+ force carries guns will be
+ definitely seen as a highly
+ violent one",color=green];
 }

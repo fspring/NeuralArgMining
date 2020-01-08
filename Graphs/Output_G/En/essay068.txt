@@ -1,27 +1,31 @@
 digraph G {
-	112 -> 156;
-	124 -> 226;
-	136 -> 156;
-	175 -> 243;
-	208 -> 226;
-	112 [label="is",color=blue];
-	156 [label="excessive violence would offer",color=green];
-	124 [label="it should
- be reporting and reflecting true
- phenomenon in the society",color=blue];
-	226 [label="we cannot",color=green];
-	136 [label="violence",color=blue];
-	156 [label="excessive violence would offer",color=green];
+	104 -> 136;
+	175 -> 230;
+	203 -> 230;
+	104 [label="media ,
+ such as tv or film
+ , is considered as the
+ correct information source regulated by
+ the government",color=blue];
+	136 [label="violence , as one of
+ the facts in the real
+ world , certainly has to
+ be reported",color=green];
 	175 [label="it is recently reported in the
  news that a seventeen-year-old boy
  killed all his family members
  , one sister and two
  parents out of hatred and
  jealousy",color=blue];
-	243 [label="what",color=green];
-	208 [label="we are inclined
+	230 [label="our society is occupied with the
+ violent scenes and plots at
+ present",color=green];
+	203 [label="in the real
+ world , we are inclined
  to take extreme approach to
  tackle a small problem due
  to excessive violence exposure",color=blue];
-	226 [label="we cannot",color=green];
+	230 [label="our society is occupied with the
+ violent scenes and plots at
+ present",color=green];
 }

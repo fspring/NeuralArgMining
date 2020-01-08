@@ -1,45 +1,79 @@
 digraph G {
-	94 -> 323;
-	172 -> 323;
-	177 -> 323;
-	193 -> 323;
-	201 -> 323;
-	220 -> 323;
-	240 -> 323;
+	79 -> 41;
+	79 -> 316;
+	94 -> 316;
+	119 -> 316;
+	154 -> 316;
+	172 -> 316;
+	204 -> 316;
+	220 -> 316;
+	240 -> 316;
+	285 -> 316;
+	299 -> 316;
+	41 [label="their salary at a lower
+ level would be more appropriate
+ compared with other peoples in
+ scientific or social , economic
+ fields",color=green];
+	79 [label="they have
+ an exceptional ability that other
+ people do not own",color=blue];
+	79 [label="they have
+ an exceptional ability that other
+ people do not own",color=blue];
+	316 [label="their privilege of salary seems
+ groundless , while the main
+ work forces receive modest salaries
+ which only enable them to
+ afford bare necessities",color=green];
 	94 [label="hardly anyone
  could play basketball as skillfully
  as michael jordan - a
  legendary former american player who
  won several times in the
  nba championship",color=blue];
-	323 [label="while the main
+	316 [label="their privilege of salary seems
+ groundless , while the main
+ work forces receive modest salaries
+ which only enable them to
+ afford bare necessities",color=green];
+	119 [label="they also
+ point out that these people
+ have to undergo painstaking and
+ industrious training , let alone
+ participate in a great number
+ of contests to be recognized
+ and prove themselves",color=blue];
+	316 [label="their privilege of salary seems
+ groundless , while the main
+ work forces receive modest salaries
+ which only enable them to
+ afford bare necessities",color=green];
+	154 [label="there are
+ many singers and athletes ,
+ few of whom could rise
+ to fame and victory ultimately
+",color=blue];
+	316 [label="their privilege of salary seems
+ groundless , while the main
  work forces receive modest salaries
  which only enable them to
  afford bare necessities",color=green];
 	172 [label="overcoming all these obstacles
-",color=blue];
-	323 [label="while the main
- work forces receive modest salaries
- which only enable them to
- afford bare necessities",color=green];
-	177 [label="they should be paid
+ , they should be paid
  a great deal of money
  for their extraordinary efforts",color=blue];
-	323 [label="while the main
+	316 [label="their privilege of salary seems
+ groundless , while the main
  work forces receive modest salaries
  which only enable them to
  afford bare necessities",color=green];
-	193 [label="their talents should
- not be overrated",color=blue];
-	323 [label="while the main
- work forces receive modest salaries
- which only enable them to
- afford bare necessities",color=green];
-	201 [label="people say that singers and
+	204 [label="singers and
  athletes , in fact ,
  contribute insignificantly to the development
  of the society",color=blue];
-	323 [label="while the main
+	316 [label="their privilege of salary seems
+ groundless , while the main
  work forces receive modest salaries
  which only enable them to
  afford bare necessities",color=green];
@@ -47,7 +81,8 @@ digraph G {
  they give to the audiences
  are only valuable in aesthetic
  and entertaining terms",color=blue];
-	323 [label="while the main
+	316 [label="their privilege of salary seems
+ groundless , while the main
  work forces receive modest salaries
  which only enable them to
  afford bare necessities",color=green];
@@ -60,7 +95,25 @@ digraph G {
  and athletes do not play
  a helpful part in improving
  the material life",color=blue];
-	323 [label="while the main
+	316 [label="their privilege of salary seems
+ groundless , while the main
+ work forces receive modest salaries
+ which only enable them to
+ afford bare necessities",color=green];
+	285 [label="they commit themselves to promoting relaxation
+ and enjoyment for the audience
+",color=blue];
+	316 [label="their privilege of salary seems
+ groundless , while the main
+ work forces receive modest salaries
+ which only enable them to
+ afford bare necessities",color=green];
+	299 [label="their contribution
+ is less important than those
+ from doctors or scientists ,
+ albeit necessary",color=blue];
+	316 [label="their privilege of salary seems
+ groundless , while the main
  work forces receive modest salaries
  which only enable them to
  afford bare necessities",color=green];

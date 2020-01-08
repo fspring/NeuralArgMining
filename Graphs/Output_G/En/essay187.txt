@@ -1,32 +1,94 @@
 digraph G {
+	76 -> 264;
+	86 -> 264;
+	102 -> 264;
+	113 -> 264;
 	165 -> 137;
-	165 -> 140;
-	165 -> 143;
-	165 -> 146;
-	156 -> 187;
-	137 [label="when",color=green];
+	165 -> 264;
+	197 -> 264;
+	208 -> 264;
+	283 -> 264;
+	76 [label="he is not jumping into
+ the foreign country",color=blue];
+	264 [label="there are
+ lots of evidences show that
+ communication is the most important
+ factor in learning a new
+ language",color=green];
+	86 [label="he can set aside enough
+ time and energy dedicated to
+ learning the language",color=blue];
+	264 [label="there are
+ lots of evidences show that
+ communication is the most important
+ factor in learning a new
+ language",color=green];
+	102 [label="all the learners are
+ probably from the same country
+",color=blue];
+	264 [label="there are
+ lots of evidences show that
+ communication is the most important
+ factor in learning a new
+ language",color=green];
+	113 [label="all these people
+ most likely have learned the
+ language , more or less
+ , in the same way
+",color=blue];
+	264 [label="there are
+ lots of evidences show that
+ communication is the most important
+ factor in learning a new
+ language",color=green];
+	137 [label="when a new learner
+ wants to learn a new
+ language in the country in
+ which it is spoken ,
+ he has the opportunity to
+ communicate with natives",color=green];
 	165 [label="he may find native friends and
  may participate in groups where
  members are people from the
  foreign country",color=blue];
-	140 [label="learner wants",color=green];
 	165 [label="he may find native friends and
  may participate in groups where
  members are people from the
  foreign country",color=blue];
-	143 [label="learn",color=green];
-	165 [label="he may find native friends and
- may participate in groups where
- members are people from the
- foreign country",color=blue];
-	146 [label="language",color=green];
-	165 [label="he may find native friends and
- may participate in groups where
- members are people from the
- foreign country",color=blue];
-	156 [label="he has the opportunity to
- communicate with natives",color=blue];
-	187 [label="it leads to better
- understanding of language essential skills
-",color=green];
+	264 [label="there are
+ lots of evidences show that
+ communication is the most important
+ factor in learning a new
+ language",color=green];
+	197 [label="he also has access
+ to the most up-to-date language
+",color=blue];
+	264 [label="there are
+ lots of evidences show that
+ communication is the most important
+ factor in learning a new
+ language",color=green];
+	208 [label="he can learn
+ most useful idioms , proverbs
+ and so many other things
+ which the former person ,
+ person 'a' , does not
+ have access to",color=blue];
+	264 [label="there are
+ lots of evidences show that
+ communication is the most important
+ factor in learning a new
+ language",color=green];
+	264 [label="there are
+ lots of evidences show that
+ communication is the most important
+ factor in learning a new
+ language",color=green];
+	283 [label="when you are
+ exposed to an environment where
+ everybody talks to you in
+ the new language you want
+ to learn and expects you
+ express words from the same
+ language",color=blue];
 }

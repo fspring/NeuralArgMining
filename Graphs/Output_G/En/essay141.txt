@@ -1,7 +1,8 @@
 digraph G {
 	111 -> 210;
 	135 -> 210;
-	171 -> 210;
+	147 -> 210;
+	169 -> 210;
 	183 -> 210;
 	111 [label="face-to face communication can lead
  us to convince or complain
@@ -12,7 +13,14 @@ digraph G {
 	135 [label="he once complained a service of
  a restaurant",color=blue];
 	210 [label="we can commence to",color=green];
-	171 [label="my uncle acquired a new
+	147 [label="he directly went to
+ the boss and told the
+ boss that something wrong occurred
+ on the meal--a fly concealed
+ in it",color=blue];
+	210 [label="we can commence to",color=green];
+	169 [label="afterward ,
+ my uncle acquired a new
  service thanks to face-to face
  communication",color=blue];
 	210 [label="we can commence to",color=green];

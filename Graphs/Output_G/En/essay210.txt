@@ -1,30 +1,38 @@
 digraph G {
-	72 -> 52;
-	72 -> 63;
-	194 -> 192;
+	115 -> 103;
+	115 -> 189;
+	167 -> 189;
 	219 -> 255;
-	52 [label="education and preventative measures
- should receive a greater budget
- is",color=green];
-	72 [label="decreasing the number of
- patients in the health system
- can lead hospitals and healthcare
- centers to be managed effectively
- which will result in better
- treatments for current patients",color=blue];
-	63 [label="potential improvements",color=green];
-	72 [label="decreasing the number of
- patients in the health system
- can lead hospitals and healthcare
- centers to be managed effectively
- which will result in better
- treatments for current patients",color=blue];
-	192 [label="should be",color=green];
-	194 [label="providing means
+	103 [label="society should be
+ educated and became aware of
+ health issues",color=green];
+	115 [label="the potential precautions on the way
+ of illnesses can be taken
+ instead of trying to provide
+ treatment for the increasing number
+ of patients",color=blue];
+	115 [label="the potential precautions on the way
+ of illnesses can be taken
+ instead of trying to provide
+ treatment for the increasing number
+ of patients",color=blue];
+	189 [label="a government's
+ role should be providing means
  that lead its citizens to
  learn how to prevent from
  potential illness that can cause
- misery in people's lives",color=blue];
+ misery in people's lives",color=green];
+	167 [label="there is nothing more
+ important than health in a
+ human's life and the happiness
+ and welfare come with health
+",color=blue];
+	189 [label="a government's
+ role should be providing means
+ that lead its citizens to
+ learn how to prevent from
+ potential illness that can cause
+ misery in people's lives",color=green];
 	219 [label="the marketing
  campaign of ministry of health
  in turkey which aimed smoking

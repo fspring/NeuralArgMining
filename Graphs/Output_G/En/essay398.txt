@@ -1,7 +1,6 @@
 digraph G {
 	57 -> 31;
-	261 -> 307;
-	289 -> 307;
+	57 -> 45;
 	31 [label="many different characters exist between
  male and female students",color=green];
 	57 [label="most of male students
@@ -10,30 +9,13 @@ digraph G {
  , and they are more
  rational and logical than girls
  in many cases",color=blue];
-	261 [label="universities should encourage more girls
- to choose science subjects and
- more boys to study the
- humanities , and this could
- avoid imbalance of gender in
- some subjects",color=blue];
-	307 [label="it is necessary for
- universities to respect the individual
- choice of subject due to
- the diversity of boys and
- girls , and we ca
- not forcedly put the same
- numbers of males and females
- into every subject",color=green];
-	289 [label="it would
- affect students' mental health to
- study in the environment of
- single gender",color=blue];
-	307 [label="it is necessary for
- universities to respect the individual
- choice of subject due to
- the diversity of boys and
- girls , and we ca
- not forcedly put the same
- numbers of males and females
- into every subject",color=green];
+	45 [label="boys and girls have the diversity
+ in psychological modes and individuality
+",color=green];
+	57 [label="most of male students
+ tend to use their left
+ brain to think and act
+ , and they are more
+ rational and logical than girls
+ in many cases",color=blue];
 }

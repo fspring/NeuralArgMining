@@ -1,20 +1,65 @@
 digraph G {
-	99 -> 54;
-	282 -> 303;
-	54 [label="with the
- latter because the internet gives
- daily necessary information",color=green];
+	99 -> 232;
+	124 -> 232;
+	171 -> 232;
+	175 -> 315;
+	196 -> 315;
+	212 -> 315;
+	248 -> 315;
+	267 -> 315;
 	99 [label="they want
  an information that can help
  them in daily life which
  the internet can provide all
  of these to people",color=blue];
-	282 [label="people can learn other
- countries's culture and tradition which
- makes them have more knowledge
- about that nations",color=blue];
-	303 [label="people are satisfied
- with the internet and sometimes
- even thanks it because it
- helps us in studying",color=green];
+	232 [label="the internet makes the
+ world becomes smaller which is
+ a good thing",color=green];
+	124 [label="a businessman
+ who has no time to
+ watch a television or read
+ a newspaper can receive news
+ and check stock markets easily
+ via the internet",color=blue];
+	232 [label="the internet makes the
+ world becomes smaller which is
+ a good thing",color=green];
+	171 [label="many people such as",color=blue];
+	232 [label="the internet makes the
+ world becomes smaller which is
+ a good thing",color=green];
+	175 [label="students can take online courses to
+ study at home or they
+ can watch beneficial videos which
+ also teach them knowledge",color=blue];
+	315 [label="it helps us in studying ,
+ doing business and exploring the
+ world",color=green];
+	196 [label="not only students but also
+ everyone could get more information
+ and knowledge",color=blue];
+	315 [label="it helps us in studying ,
+ doing business and exploring the
+ world",color=green];
+	212 [label="people who have problems
+ with their health can search
+ for more information about it
+",color=blue];
+	315 [label="it helps us in studying ,
+ doing business and exploring the
+ world",color=green];
+	248 [label="people who have
+ no time or have financial
+ problems could travel around the
+ world by using the internet
+",color=blue];
+	315 [label="it helps us in studying ,
+ doing business and exploring the
+ world",color=green];
+	267 [label="they can see lots
+ of picture and videos of
+ many interesting places",color=blue];
+	315 [label="it helps us in studying ,
+ doing business and exploring the
+ world",color=green];
 }

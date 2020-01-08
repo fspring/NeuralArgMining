@@ -1,57 +1,106 @@
 digraph G {
-	93 -> 81;
-	93 -> 128;
-	158 -> 146;
-	177 -> 201;
+	81 -> 50;
+	81 -> 125;
+	107 -> 125;
+	146 -> 201;
 	181 -> 201;
-	190 -> 201;
+	253 -> 406;
+	270 -> 394;
+	281 -> 394;
+	313 -> 394;
+	339 -> 394;
+	352 -> 406;
+	376 -> 406;
+	50 [label="alternative means of transportation and international
+ laws in controlling automobiles should
+ be introduced",color=green];
 	81 [label="an increase in the number
  of automobiles brings about environmental
- pollution",color=green];
-	93 [label="since automobile exhaust
- and carbon dioxides emission have
- bad impacts on the air
- , the air gets to
+ pollution",color=blue];
+	81 [label="an increase in the number
+ of automobiles brings about environmental
+ pollution",color=blue];
+	125 [label="it is crucial to alter automobiles
+ to the other means of
+ transportation and to legislate to
+ control automobiles",color=green];
+	107 [label="the air gets to
  be polluted and it causes
  respiratory disease of the local
  inhabitants",color=blue];
-	93 [label="since automobile exhaust
- and carbon dioxides emission have
- bad impacts on the air
- , the air gets to
- be polluted and it causes
- respiratory disease of the local
- inhabitants",color=blue];
-	128 [label="to alter automobiles
+	125 [label="it is crucial to alter automobiles
  to the other means of
  transportation and to legislate to
  control automobiles",color=green];
 	146 [label="an increase in the number
  of automobiles causes terrible traffic
- congestion",color=green];
-	158 [label="once we get
- into the traffic jam ,
- it forces us to waste
- our time for a while
-",color=blue];
-	177 [label="what",color=blue];
+ congestion",color=blue];
 	201 [label="the methods to reduce the
  number of automobiles and to
  control car ownership and use
  should be immediately planned and
  implemented",color=green];
 	181 [label="traffic congestion irritates drivers and
- as a",color=blue];
-	201 [label="the methods to reduce the
- number of automobiles and to
- control car ownership and use
- should be immediately planned and
- implemented",color=green];
-	190 [label="it leads to an increase of
+ as a result , it
+ leads to an increase of
  traffic accidents",color=blue];
 	201 [label="the methods to reduce the
  number of automobiles and to
  control car ownership and use
  should be immediately planned and
  implemented",color=green];
+	253 [label="alternative forms which
+ emit less carbon dioxides and
+ gasses than automobiles are ideal
+",color=blue];
+	406 [label="alternative forms of transport and
+ international laws on controlling automobiles
+ are necessary due to the
+ environmental protection and the alleviation
+ of traffic congestion",color=green];
+	270 [label="rental bicycle system has been introduced
+ in several european countries",color=blue];
+	394 [label="some people
+ claim the convenience of automobile
+",color=green];
+	281 [label="this system is that at
+ the corner of each district
+ , the rental bicycles are
+ placed and the people can
+ ride it to the other
+ districts with a small fee
+",color=blue];
+	394 [label="some people
+ claim the convenience of automobile
+",color=green];
+	313 [label="bicycle expels neither
+ carbon dioxides nor harmful gasses
+",color=blue];
+	394 [label="some people
+ claim the convenience of automobile
+",color=green];
+	339 [label="the introduction
+ of international laws can be
+ also effective",color=blue];
+	394 [label="some people
+ claim the convenience of automobile
+",color=green];
+	352 [label="there are some regulations
+ to limit the use of
+ automobiles by time and to
+ allow the people possess one
+ car only",color=blue];
+	406 [label="alternative forms of transport and
+ international laws on controlling automobiles
+ are necessary due to the
+ environmental protection and the alleviation
+ of traffic congestion",color=green];
+	376 [label="these attempts to reduce automobiles
+ can ease traffic congestion and
+ environmental pollution",color=blue];
+	406 [label="alternative forms of transport and
+ international laws on controlling automobiles
+ are necessary due to the
+ environmental protection and the alleviation
+ of traffic congestion",color=green];
 }

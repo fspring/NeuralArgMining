@@ -1,26 +1,79 @@
 digraph G {
-	86 -> 30;
-	239 -> 196;
-	239 -> 199;
-	30 [label="both of studying hard and playing
- sports are part of life
- to children",color=green];
-	86 [label="for instance , children who
+	89 -> 75;
+	89 -> 196;
+	121 -> 257;
+	153 -> 271;
+	158 -> 271;
+	167 -> 271;
+	185 -> 271;
+	217 -> 257;
+	225 -> 271;
+	248 -> 257;
+	75 [label="children will be growing up and
+ looking for their job",color=green];
+	89 [label="children who
  always studying hard and getting
  high achievement , it will
  be easy to pass qualification
  for work and they are
  more likely to find great
  work at multinational company",color=blue];
-	196 [label="children",color=green];
-	239 [label="will make
- children getting lots of friends
- , so they can contribute
- positively to community",color=blue];
-	199 [label="playing sport
+	89 [label="children who
+ always studying hard and getting
+ high achievement , it will
+ be easy to pass qualification
+ for work and they are
+ more likely to find great
+ work at multinational company",color=blue];
+	196 [label="children who always playing sport
+ like football , they will
+ be active as a person
+ and learn to become team-player
 ",color=green];
-	239 [label="will make
- children getting lots of friends
- , so they can contribute
+	121 [label="if they working at multinational
+ company as the result is
+ they can earn higher salary
+",color=blue];
+	257 [label="playing sport makes children
+ getting healthy and become children's
+ well-being",color=green];
+	153 [label="at the same
+ time ,",color=blue];
+	271 [label="both studying hard at school
+ and playing sports can improve
+ children's future",color=green];
+	158 [label="playing sports will
+ give good effects on children
+",color=blue];
+	271 [label="both studying hard at school
+ and playing sports can improve
+ children's future",color=green];
+	167 [label="there are many popular
+ sports among children such as
+ football , basketball , and
+ volleyball",color=blue];
+	271 [label="both studying hard at school
+ and playing sports can improve
+ children's future",color=green];
+	185 [label="there are many benefit when children
+ doing sport",color=blue];
+	271 [label="both studying hard at school
+ and playing sports can improve
+ children's future",color=green];
+	217 [label="it will be good
+ for children",color=blue];
+	257 [label="playing sport makes children
+ getting healthy and become children's
+ well-being",color=green];
+	225 [label="indirectly they will learn how to
+ socialize each other as a
+ team",color=blue];
+	271 [label="both studying hard at school
+ and playing sports can improve
+ children's future",color=green];
+	248 [label="they can contribute
  positively to community",color=blue];
+	257 [label="playing sport makes children
+ getting healthy and become children's
+ well-being",color=green];
 }

@@ -1,2 +1,49 @@
 digraph G {
+	122 -> 175;
+	133 -> 175;
+	148 -> 175;
+	271 -> 175;
+	243 -> 298;
+	258 -> 298;
+	122 [label="co-education helps both genders
+ to gel well with each
+ other",color=blue];
+	175 [label="females studying in girl's colleges are
+ too shy to face boys
+",color=green];
+	133 [label="it helps them
+ how to behave and cooperate
+ and work together",color=blue];
+	175 [label="females studying in girl's colleges are
+ too shy to face boys
+",color=green];
+	148 [label="students studying in
+ boy's colleges do not generally
+ know how to talk to
+ a female or behave in
+ front of them",color=blue];
+	175 [label="females studying in girl's colleges are
+ too shy to face boys
+",color=green];
+	175 [label="females studying in girl's colleges are
+ too shy to face boys
+",color=green];
+	271 [label="women like margaret thatcher ,
+ indira gandhi , mari curie
+ etc",color=blue];
+	243 [label="this kind of
+ gender biased approach is detrimental
+ for the development of the
+ society",color=blue];
+	298 [label="both genders have
+ equal rights and universities should
+ accept them in equal numbers
+",color=green];
+	258 [label="time and again
+ , women have proved their
+ mettle in every field",color=blue];
+	298 [label="both genders have
+ equal rights and universities should
+ accept them in equal numbers
+",color=green];
 }

@@ -1,14 +1,6 @@
 digraph G {
-	52 -> 38;
-	216 -> 256;
-	38 [label="health budgets to
- health education and means for
- precautions",color=green];
-	52 [label="education and preventative measures
- should receive a greater budget
- is the potential improvements in
- health system",color=blue];
-	216 [label="for example , the marketing
+	219 -> 255;
+	219 [label="the marketing
  campaign of ministry of health
  in turkey which aimed smoking
  problem among the youth increased
@@ -16,7 +8,7 @@ digraph G {
  quit smoking and adapted a
  better lifestyle after the campaign
 ",color=blue];
-	256 [label="greater proportion of the budget
+	255 [label="a greater proportion of the budget
  should be allotted to education
  and prevention issues in comparison
  with treatment due to achieve

@@ -1,58 +1,56 @@
 digraph G {
-	109 -> 85;
-	153 -> 142;
-	188 -> 308;
-	203 -> 308;
-	232 -> 216;
-	246 -> 308;
-	283 -> 308;
-	85 [label="some culture people",color=green];
-	109 [label="some part
+	85 -> 213;
+	108 -> 213;
+	132 -> 213;
+	154 -> 213;
+	184 -> 213;
+	202 -> 213;
+	280 -> 315;
+	85 [label="some culture people believe that they
+ dance in order to sacrifice
+ to their god so they
+ will be get a happy
+ life",color=blue];
+	213 [label="many culture ,
+ people have many ways to
+ entertain themselves",color=green];
+	108 [label="or some part
  of the world that are
  in arid area believe that
  if they danced , the
  rain would come",color=blue];
-	142 [label="dancing can represent to
- civilization of that culture",color=green];
-	153 [label=", i have
+	213 [label="many culture ,
+ people have many ways to
+ entertain themselves",color=green];
+	132 [label="dancing are the part
+ of people belief",color=blue];
+	213 [label="many culture ,
+ people have many ways to
+ entertain themselves",color=green];
+	154 [label="i have
  seen many western movies that
  when a kingdom have visitor
  from another kingdom , king
  or queen would dance to
  show a splendid of their
  kingdom culture",color=blue];
-	188 [label=", the way
- that they costume and also
- a music while they dance
-",color=blue];
-	308 [label="is an important
- part of culture because dancing
- are represent to",color=green];
-	203 [label="this is a
- civilization of their culture",color=blue];
-	308 [label="is an important
- part of culture because dancing
- are represent to",color=green];
-	216 [label="people have many ways to
+	213 [label="many culture ,
+ people have many ways to
  entertain themselves",color=green];
-	232 [label="both people who see
- and dance also have a
- good time",color=blue];
-	246 [label=", many event , such
- as christmas , last christmas
- i went to mall to
- buy gifts , and i
- was entertained by group of
- people in santa custom dancing
- in christmas song",color=blue];
-	308 [label="is an important
- part of culture because dancing
- are represent to",color=green];
-	283 [label="people around me
+	184 [label="the way
+ of movement",color=blue];
+	213 [label="many culture ,
+ people have many ways to
+ entertain themselves",color=green];
+	202 [label="all this is a
+ civilization of their culture",color=blue];
+	213 [label="many culture ,
+ people have many ways to
+ entertain themselves",color=green];
+	280 [label="i felt that people around me
  happy and group of santas
  also happy to see people
  happy",color=blue];
-	308 [label="is an important
- part of culture because dancing
- are represent to",color=green];
+	315 [label="dancing are represent to believe of
+ people",color=green];
 }

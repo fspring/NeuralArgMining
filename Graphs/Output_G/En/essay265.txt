@@ -1,25 +1,10 @@
 digraph G {
-	78 -> 56;
-	227 -> 330;
+	81 -> 56;
 	56 [label="we need to know and
  learn about the theoritical basis
  of our future job",color=green];
-	78 [label="in school ,
- we are able to identify
+	81 [label="we are able to identify
  skills required for our future
  job and work on mastering
  and learning them",color=blue];
-	227 [label="if you need help
- with getting a job ,
- by commuincating with people offering
- jobs whom you treat well
- and therefore they respect you
- as well , you can
- achieve your goal",color=blue];
-	330 [label="none of those factors are important
- and sufficient enough by themselves
- and we should notice to
- both of them because each
- of them has its own
- benefits",color=green];
 }

@@ -1,2 +1,9 @@
 digraph G {
+	18 -> 10;
+	10 [label="acabar com o consulado político de
+ merkel",color=green];
+	18 [label="até ao fim
+ do verão passado , a
+ chanceler alemã gozava de uma
+ posição invejável",color=blue];
 }

@@ -1,33 +1,79 @@
 digraph G {
-	261 -> 205;
+	81 -> 55;
+	93 -> 300;
+	111 -> 300;
+	133 -> 413;
+	149 -> 420;
+	169 -> 300;
+	194 -> 413;
+	211 -> 300;
 	216 -> 413;
-	235 -> 424;
+	235 -> 413;
 	261 -> 413;
-	352 -> 383;
-	205 [label="away from home",color=green];
-	261 [label="if he had no car
- , he wouldn't be able
- to see his family at
- the weekends so for him
- his automobile is a great
- benefit - not only in
- financial but also in social
- terms",color=blue];
+	337 -> 300;
+	55 [label="people are now able to overcome
+ long distances in a short
+ amount of time",color=green];
+	81 [label="many people are now able
+ to maintain relationships over great
+ distances",color=blue];
+	93 [label="they can visit
+ each other regularly by using
+ their vehicle",color=blue];
+	300 [label="the automobile allows people to travel
+ more often and thus get
+ to know the world",color=green];
+	111 [label="my car has always been
+ a great help to see
+ my childhood friends very often
+ although i lived in another
+ city",color=blue];
+	300 [label="the automobile allows people to travel
+ more often and thus get
+ to know the world",color=green];
+	133 [label="i was also
+ able to establish a relationship
+ with a man living 89
+ kilometers away",color=blue];
+	413 [label="cars cause a
+ lot of pollution",color=green];
+	149 [label="thanks to
+ my car we could see
+ each other at the weekends
+ and are still a happy
+ couple today",color=blue];
+	420 [label="they provide flexibility , which is
+ important in nearly all areas
+ of life",color=green];
+	169 [label="without my
+ automobile we would probably not
+ have been able to develop
+ a relationship",color=blue];
+	300 [label="the automobile allows people to travel
+ more often and thus get
+ to know the world",color=green];
+	194 [label="people are
+ able to drive to work
+ and can work further away
+ from home",color=blue];
+	413 [label="cars cause a
+ lot of pollution",color=green];
+	211 [label="they are more flexible",color=blue];
+	300 [label="the automobile allows people to travel
+ more often and thus get
+ to know the world",color=green];
 	216 [label="my father for example has
  always been working all around
- germany and because of that
- earned more money",color=blue];
+ germany and",color=blue];
 	413 [label="cars cause a
- lot of pollution because they
- provide flexibility",color=green];
+ lot of pollution",color=green];
 	235 [label="he used his car to drive
  to the other end of
  the country , worked there
  during the week and came
  home for the weekend",color=blue];
-	424 [label="which is
- important in nearly all areas
- of life",color=green];
+	413 [label="cars cause a
+ lot of pollution",color=green];
 	261 [label="if he had no car
  , he wouldn't be able
  to see his family at
@@ -37,16 +83,12 @@ digraph G {
  financial but also in social
  terms",color=blue];
 	413 [label="cars cause a
- lot of pollution because they
- provide flexibility",color=green];
-	352 [label="there are still places
- in nearly every country in
- the world that cannot be
- reached by public transportation and
- can only be visited by
- car",color=blue];
-	383 [label="who own a
- vehicle have greater access to
- more places and will see
- more of the world",color=green];
+ lot of pollution",color=green];
+	300 [label="the automobile allows people to travel
+ more often and thus get
+ to know the world",color=green];
+	337 [label="they are mainly using
+ public transport and are thus
+ limited in accessing certain areas
+",color=blue];
 }

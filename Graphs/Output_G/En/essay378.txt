@@ -1,79 +1,93 @@
 digraph G {
-	196 -> 142;
-	196 -> 144;
-	154 -> 269;
-	156 -> 290;
-	183 -> 269;
-	185 -> 276;
-	193 -> 290;
-	196 -> 298;
-	231 -> 228;
-	250 -> 276;
-	264 -> 269;
-	268 -> 269;
-	142 [label="professional",color=green];
-	196 [label="parents are facing difficult generation
- gap with their children because
- they are less likely to
- know how to handle family
- conflicts in an efficient way
-",color=blue];
-	144 [label="experienced in
- terms of promoting children's communication
+	90 -> 56;
+	90 -> 74;
+	90 -> 276;
+	115 -> 290;
+	156 -> 139;
+	156 -> 276;
+	196 -> 276;
+	206 -> 276;
+	227 -> 276;
+	243 -> 276;
+	56 [label="the teacher is the best
+ option for children's education in
+ some aspects",color=green];
+	90 [label="to be able to obtain the
+ teacher certificates , people need
+ years of training at their
+ normal schools to learn theoretical
+ knowledge",color=blue];
+	74 [label="school teachers
+ are more qualified than parents
+ in the field of education
 ",color=green];
-	196 [label="parents are facing difficult generation
- gap with their children because
- they are less likely to
- know how to handle family
- conflicts in an efficient way
+	90 [label="to be able to obtain the
+ teacher certificates , people need
+ years of training at their
+ normal schools to learn theoretical
+ knowledge",color=blue];
+	90 [label="to be able to obtain the
+ teacher certificates , people need
+ years of training at their
+ normal schools to learn theoretical
+ knowledge",color=blue];
+	276 [label="it was impossible for them
+ to be a good teacher
+",color=green];
+	115 [label="in comparison to teachers , parents
+ tend to have less knowledge
+ to teach their children's subjects
+ such as mathematics and physics
 ",color=blue];
-	154 [label="example",color=blue];
-	269 [label="to teach
- their children",color=green];
+	290 [label="teachers are the best for children's
+ education",color=green];
+	139 [label="teaching staff
+ are professional and experienced in
+ terms of promoting children's communication
+ skills",color=green];
 	156 [label="after many years of teaching
  experience , teacher are able
  to know how to help
  children to develop important life
  skills such as learning personal
- boundaries",color=blue];
-	290 [label="teachers are the best for children's
- education",color=green];
-	183 [label="facing",color=blue];
-	269 [label="to teach
- their children",color=green];
-	185 [label="problems and",color=blue];
+ boundaries , facing future problems
+ and learning important conflict resolution
+ skills",color=blue];
+	156 [label="after many years of teaching
+ experience , teacher are able
+ to know how to help
+ children to develop important life
+ skills such as learning personal
+ boundaries , facing future problems
+ and learning important conflict resolution
+ skills",color=blue];
 	276 [label="it was impossible for them
  to be a good teacher
 ",color=green];
-	193 [label="by",color=blue];
-	290 [label="teachers are the best for children's
- education",color=green];
 	196 [label="parents are facing difficult generation
- gap with their children because
- they are less likely to
+ gap with their children",color=blue];
+	276 [label="it was impossible for them
+ to be a good teacher
+",color=green];
+	206 [label="they are less likely to
  know how to handle family
  conflicts in an efficient way
 ",color=blue];
-	298 [label="not only do
- they contribute much to children's
- professional skills but also they
- can teach their students important
- social communication techniques in order
- to survive in this competitive
- world",color=green];
-	228 [label="with teachers",color=green];
-	231 [label="parents do not have enough
+	276 [label="it was impossible for them
+ to be a good teacher
+",color=green];
+	227 [label="compared with teachers ,
+ parents do not have enough
  time to spend with their
  children",color=blue];
-	250 [label="crisis and it is necessary for
+	276 [label="it was impossible for them
+ to be a good teacher
+",color=green];
+	243 [label="nowadays we are
+ facing a global economic crisis
+ and it is necessary for
  both parents to work",color=blue];
 	276 [label="it was impossible for them
  to be a good teacher
 ",color=green];
-	264 [label="only",color=blue];
-	269 [label="to teach
- their children",color=green];
-	268 [label="them",color=blue];
-	269 [label="to teach
- their children",color=green];
 }

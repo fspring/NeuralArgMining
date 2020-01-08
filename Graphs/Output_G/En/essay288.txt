@@ -1,23 +1,74 @@
 digraph G {
-	111 -> 71;
-	122 -> 73;
-	351 -> 372;
-	71 [label="facing",color=green];
+	123 -> 111;
+	123 -> 224;
+	136 -> 224;
+	146 -> 224;
+	158 -> 224;
+	180 -> 224;
+	210 -> 224;
+	244 -> 224;
+	361 -> 372;
 	111 [label="people will have more ways
  to go to a place
-",color=blue];
-	73 [label="traffic congestion every
 ",color=green];
-	122 [label="since now buses are
+	123 [label="now buses are
  only a kind of public
  transportation in this community ,
- it makes people in this
+",color=blue];
+	123 [label="now buses are
+ only a kind of public
+ transportation in this community ,
+",color=blue];
+	224 [label="the buses
+ provide merely two routes in
+ this community",color=green];
+	136 [label="it makes people in this
  area have no choice",color=blue];
-	351 [label="the necessary energy will slowly
- be used up , since
- people use less their own
+	224 [label="the buses
+ provide merely two routes in
+ this community",color=green];
+	146 [label="they must take only a
+ bus to go to another
+ place",color=blue];
+	224 [label="the buses
+ provide merely two routes in
+ this community",color=green];
+	158 [label="if a subway
+ and a sky train are
+ available here , it will
+ be more convenience to them
+",color=blue];
+	224 [label="the buses
+ provide merely two routes in
+ this community",color=green];
+	180 [label="people can estimate time from taking
+ a subway train due to
+ the train schedule",color=blue];
+	224 [label="the buses
+ provide merely two routes in
+ this community",color=green];
+	210 [label="this improvement will decrease a bad
+ traffic on the road indirectly
+",color=blue];
+	224 [label="the buses
+ provide merely two routes in
+ this community",color=green];
+	224 [label="the buses
+ provide merely two routes in
+ this community",color=green];
+	244 [label="if a
+ place i intend to go
+ is not in the route
+ of buses , i still
+ have to take a bus
+ that does not bring me
+ to my destination but go
+ to the center station first
+ to exchange to another bus
+",color=blue];
+	361 [label="people use less their own
  cars",color=blue];
 	372 [label="the transportation is an
  elementary factor which directly affects
- to peopleâ€™s living",color=green];
+ to people’s living",color=green];
 }

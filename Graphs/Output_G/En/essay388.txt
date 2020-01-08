@@ -1,2 +1,42 @@
 digraph G {
+	63 -> 84;
+	94 -> 84;
+	94 -> 158;
+	104 -> 183;
+	137 -> 158;
+	63 [label="fewer guns available
+ mean less crime",color=blue];
+	84 [label="stringent gun
+ control does not decrease violence
+ and crime",color=green];
+	84 [label="stringent gun
+ control does not decrease violence
+ and crime",color=green];
+	94 [label="most gun
+ violence is committed with guns
+ obtained illegally",color=blue];
+	94 [label="most gun
+ violence is committed with guns
+ obtained illegally",color=blue];
+	158 [label="the root of
+ violence is criminal mind not
+ the weapon itself",color=green];
+	104 [label="people who
+ are intent to commit crime
+ and control cities through gang
+ violence and other means will
+ find a way to continue
+ to use guns , regardless
+ of gun control",color=blue];
+	183 [label="it is important
+ to manage their people's actions
+ rather than gun used in
+ violent crimes",color=green];
+	137 [label="there will be law
+ non-abiding people anywhere in the
+ world , either polices or
+ common citizens",color=blue];
+	158 [label="the root of
+ violence is criminal mind not
+ the weapon itself",color=green];
 }

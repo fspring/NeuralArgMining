@@ -1,7 +1,33 @@
 digraph G {
-	126 -> 167;
-	225 -> 274;
-	126 [label="that women tend to work
+	74 -> 93;
+	127 -> 93;
+	127 -> 167;
+	199 -> 259;
+	74 [label="the proportion
+ of women is rising year
+ by year in many parts
+ of the world recently",color=blue];
+	93 [label="the issue stimulates
+ the stakeholders from many places
+ to think what kind of
+ preparations they should take for
+ stabilising the economic growth and
+ the quality life of people
+",color=green];
+	93 [label="the issue stimulates
+ the stakeholders from many places
+ to think what kind of
+ preparations they should take for
+ stabilising the economic growth and
+ the quality life of people
+",color=green];
+	127 [label="women tend to work
+ in various fields which in
+ the past normally done by
+ men such as being engineers
+ , and dealing with machines
+",color=blue];
+	127 [label="women tend to work
  in various fields which in
  the past normally done by
  men such as being engineers
@@ -10,16 +36,13 @@ digraph G {
 	167 [label="female students are indicated
  having the same potential and
  capability as men",color=green];
-	225 [label="learning from human's history , education
- provides someone to widen his
- or her knowledge and experience
- for facing the real situation
- of workplace through subject taught
- in college",color=blue];
-	274 [label="the needs
- for having developed-skills and gaining
- degree certificate in order to
- build someone's career are totally
- needed to implement and applied
- for any gender",color=green];
+	199 [label="these days
+ , it is so hard
+ for young people to get
+ a proper job when they
+ have not degree certificate from
+ universities",color=blue];
+	259 [label="giving equal
+ education for both men and
+ women is a must",color=green];
 }

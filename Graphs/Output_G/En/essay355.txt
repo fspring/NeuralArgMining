@@ -1,22 +1,38 @@
 digraph G {
-	227 -> 295;
-	240 -> 295;
+	111 -> 86;
+	230 -> 295;
 	257 -> 295;
-	227 [label="this way , grasping
- a new language will be
+	275 -> 295;
+	280 -> 295;
+	86 [label="children might not be really
+ comfortable with the use of
+ a language other than their
+ native tongue when they are
+ in their kindergarten years",color=green];
+	111 [label="learning at school must be
+ convenient for them if they
+ speak in a way that
+ they are used to",color=blue];
+	230 [label="grasping a new language will be
  natural to them",color=blue];
 	295 [label="the use of foreign language instruction
  as early as kindergarten is
-",color=green];
-	240 [label="in addition , the",color=blue];
-	295 [label="the use of foreign language instruction
- as early as kindergarten is
-",color=green];
+ supported by some",color=green];
 	257 [label="teachers will not find
  it difficult to make students
  learn such new concept in
  their teenage years",color=blue];
 	295 [label="the use of foreign language instruction
  as early as kindergarten is
-",color=green];
+ supported by some",color=green];
+	275 [label="it is",color=blue];
+	295 [label="the use of foreign language instruction
+ as early as kindergarten is
+ supported by some",color=green];
+	280 [label="the advantages of early introduction of
+ foreign language outweigh its disadvantages
+",color=blue];
+	295 [label="the use of foreign language instruction
+ as early as kindergarten is
+ supported by some",color=green];
 }

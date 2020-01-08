@@ -1,35 +1,76 @@
 digraph G {
-	89 -> 51;
-	366 -> 438;
-	383 -> 447;
-	392 -> 438;
-	408 -> 438;
-	51 [label="prefer to live with a
- roommate",color=green];
-	89 [label="if you
- have roommates , you can
- split the rent and utilities
- among them",color=blue];
-	366 [label="when my computer mysteriously broke
- down , i dialed up
- the manufacturer and asked for
- help",color=blue];
-	438 [label="i prefer to
- live with a roommate",color=green];
+	104 -> 78;
+	160 -> 311;
+	203 -> 311;
+	219 -> 311;
+	237 -> 311;
+	250 -> 311;
+	271 -> 311;
+	282 -> 311;
+	298 -> 311;
+	337 -> 311;
+	383 -> 454;
+	78 [label="living with a
+ roommate saves me a lot
+ of money",color=green];
+	104 [label="this means
+ you can get more for
+ less",color=blue];
+	160 [label="i was able to save a
+ lot of money by sharing
+ wasted heating and rooms with
+ my friend and splitting the
+ bills",color=blue];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	203 [label="it is always
+ easier to socialize when you
+ have a lot of people
+ around you",color=blue];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	219 [label="you can
+ invite your roommates' friends over
+ to your room and have
+ fun together",color=blue];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	237 [label="one night , my
+ roommate , millan , brought
+ his friends along",color=blue];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	250 [label="even though his friends and i
+ were total strangers to each
+ other , we quickly got
+ to know each other",color=blue];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	271 [label="we soon found out that
+ everyone loved playing video games
+",color=blue];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	282 [label="we played a video
+ game called 'halo' together all
+ night , and became good
+ friends",color=blue];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	298 [label="living with a
+ roommate made socializing much easier
+ for me",color=blue];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	337 [label="when you run into
+ a problem , you can
+ ask your roommates if they
+ can help",color=blue];
 	383 [label="they failed to
  give me any useful solutions
 ",color=blue];
-	447 [label="i always will",color=green];
-	392 [label="to my surprise ,
- one of my roommates noticed
- my problems and offered to
- help",color=blue];
-	438 [label="i prefer to
- live with a roommate",color=green];
-	408 [label="he was very
- good with computers , and
- he managed to fix the
- problem quickly",color=blue];
-	438 [label="i prefer to
- live with a roommate",color=green];
+	454 [label="it offers
+ me many advantages",color=green];
 }

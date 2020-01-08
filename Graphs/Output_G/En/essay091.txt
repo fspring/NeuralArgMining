@@ -1,8 +1,10 @@
 digraph G {
-	163 -> 270;
+	163 -> 366;
 	212 -> 270;
-	288 -> 367;
-	315 -> 367;
+	291 -> 270;
+	291 -> 366;
+	315 -> 366;
+	333 -> 366;
 	163 [label="if people are
  equipped with a single international
  language , they can tell
@@ -13,7 +15,10 @@ digraph G {
  people to expand their outlooks
  , viewing the world in
  new angles",color=blue];
-	270 [label="a single international language may",color=green];
+	366 [label="a single international language contributes
+ to global community in terms
+ of economic and cultural communication
+",color=green];
 	212 [label="when people travel to
  foreign countries , the local
  people can introduce the tourist
@@ -22,27 +27,42 @@ digraph G {
  language , helping foreign visitors
  have an enjoyable exotic experience
 ",color=blue];
-	270 [label="a single international language may",color=green];
-	288 [label="this is because
- people may be impressed by
+	270 [label="a single international language may ,
+ to some extent , erode
+ the cultural identity of a
+ nation",color=green];
+	270 [label="a single international language may ,
+ to some extent , erode
+ the cultural identity of a
+ nation",color=green];
+	291 [label="people may be impressed by
  the cultural values brought with
  the universal language , eroding
  a sense of national belong
 ",color=blue];
-	367 [label="single international language contributes
+	291 [label="people may be impressed by
+ the cultural values brought with
+ the universal language , eroding
+ a sense of national belong
+",color=blue];
+	366 [label="a single international language contributes
  to global community in terms
  of economic and cultural communication
 ",color=green];
 	315 [label="some asians are seeking individualism ,
  previously denied by many asian
- countries , due to the
- fact that they have gradually
+ countries",color=blue];
+	366 [label="a single international language contributes
+ to global community in terms
+ of economic and cultural communication
+",color=green];
+	333 [label="they have gradually
  identified with such values expressed
  in american movies , which
  are imported by the governments
  as a result of the
  proliferation of english",color=blue];
-	367 [label="single international language contributes
+	366 [label="a single international language contributes
  to global community in terms
  of economic and cultural communication
 ",color=green];

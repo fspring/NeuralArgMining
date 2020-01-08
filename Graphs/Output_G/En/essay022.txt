@@ -1,49 +1,18 @@
 digraph G {
-	151 -> 108;
-	245 -> 218;
-	245 -> 285;
-	260 -> 285;
-	108 [label="there are numerous
- job opportunities for those who
- do not have the certification
- of university graduation , such
- as mechanics , sales persons
- , or engineers , and
- , furthermore , labors for
- graduates are in short supply
+	285 -> 343;
+	299 -> 343;
+	285 [label="diverse experiences in the campus life
+ can make the young generation
+ more competently",color=blue];
+	343 [label="higher education does
+ not guarantee young students' success
 ",color=green];
-	151 [label="the labor market for highly
- educated students is now too
- competitive to get a job
- after finishing their studying",color=blue];
-	218 [label="universities provide not
- only skills for careers ,
- but also academic knowledge for
- the human race , such
- as bio science , politics
- , and medicine",color=green];
-	245 [label="these academic values are necessary to
- the progress of the world
-",color=blue];
-	245 [label="these academic values are necessary to
- the progress of the world
-",color=blue];
-	285 [label="diverse experiences in the campus life
- can make the young generation
- more competently because there are
+	299 [label="there are
  a number of chances through
  internships , deeper discussion ,
  independent life , and exchange
- scholarships",color=green];
-	260 [label="many researches in the ivory-tower have
- created ingenious discoveries and achievements
- for the development of modern
- society",color=blue];
-	285 [label="diverse experiences in the campus life
- can make the young generation
- more competently because there are
- a number of chances through
- internships , deeper discussion ,
- independent life , and exchange
- scholarships",color=green];
+ scholarships",color=blue];
+	343 [label="higher education does
+ not guarantee young students' success
+",color=green];
 }

@@ -1,25 +1,119 @@
 digraph G {
-	87 -> 77;
-	300 -> 282;
-	366 -> 392;
-	77 [label="environmental protection is far
- more urgent than economic developments
-",color=green];
+	128 -> 87;
+	104 -> 282;
+	120 -> 282;
+	168 -> 154;
+	168 -> 282;
+	188 -> 392;
+	211 -> 392;
+	228 -> 392;
+	249 -> 392;
+	257 -> 392;
+	266 -> 392;
+	297 -> 282;
+	336 -> 392;
+	359 -> 392;
 	87 [label="all the living creatures
  live together on our mother
  earth and she is the
- only one",color=blue];
+ only one",color=green];
+	128 [label="just like",color=blue];
+	104 [label="without earth
+ , whatever great civil constructions
+ and economic achievements will end
+ up in vain because",color=blue];
 	282 [label="economic issues are global
  and critical as well thus
- can not be",color=green];
-	300 [label="that if the economic is in
- a very bad situation ,
- people would revolt instantly ,
- while environmental problems seem to
- be more like chronic diseases
- that would not burst out
- right away",color=blue];
-	366 [label="the truth and keep focusing
+ can not be put aside
+",color=green];
+	120 [label="we will all perish as she's
+ gone",color=blue];
+	282 [label="economic issues are global
+ and critical as well thus
+ can not be put aside
+",color=green];
+	154 [label="the influence
+ on environmental problems are boarder
+ and more profound than economic
+ issues",color=green];
+	168 [label="environmental problems are
+ global rather than local ,
+ which means that no countries
+ can be spared from these
+ problems",color=blue];
+	168 [label="environmental problems are
+ global rather than local ,
+ which means that no countries
+ can be spared from these
+ problems",color=blue];
+	282 [label="economic issues are global
+ and critical as well thus
+ can not be put aside
+",color=green];
+	188 [label="take global warming
+ for example , when the
+ temperature increases , the whole
+ globe is affected , suffering
+ the hotter weather together",color=blue];
+	392 [label="environmental conservation is more
+ essential than economic developments in
+ the aspects of urgency and
+ ranges of influence",color=green];
+	211 [label="the melting ice mountain not
+ only jeopardizes habitats of animals
+ living in the polar region
+ , but",color=blue];
+	392 [label="environmental conservation is more
+ essential than economic developments in
+ the aspects of urgency and
+ ranges of influence",color=green];
+	228 [label="its effects of
+ the rising sea level also
+ endangers the residents living in
+ the small island near the
+ equator",color=blue];
+	392 [label="environmental conservation is more
+ essential than economic developments in
+ the aspects of urgency and
+ ranges of influence",color=green];
+	249 [label="the rising
+ sea water could drown them
+",color=blue];
+	392 [label="environmental conservation is more
+ essential than economic developments in
+ the aspects of urgency and
+ ranges of influence",color=green];
+	257 [label="environmental issues can not
+ be divided by nationality because
+",color=blue];
+	392 [label="environmental conservation is more
+ essential than economic developments in
+ the aspects of urgency and
+ ranges of influence",color=green];
+	266 [label="all humans are simply entwined
+ together by our only home-earth
+",color=blue];
+	392 [label="environmental conservation is more
+ essential than economic developments in
+ the aspects of urgency and
+ ranges of influence",color=green];
+	282 [label="economic issues are global
+ and critical as well thus
+ can not be put aside
+",color=green];
+	297 [label="they may",color=blue];
+	336 [label="the truth is that we've
+ been encountering so many sighs
+ and warnings of global climate
+ anomalies and other environmental crisis
+ right now",color=blue];
+	392 [label="environmental conservation is more
+ essential than economic developments in
+ the aspects of urgency and
+ ranges of influence",color=green];
+	359 [label="it would
+ be unwise to still deny
+ the truth and keep focusing
  on economic developments and unfortunately
  , usually the economic developments
  are even the causes of

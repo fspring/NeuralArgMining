@@ -1,8 +1,34 @@
 digraph G {
-	183 -> 242;
-	220 -> 242;
-	223 -> 242;
-	251 -> 242;
+	59 -> 46;
+	129 -> 169;
+	155 -> 169;
+	183 -> 169;
+	46 [label="flourishing economies can go hand
+ in hand with environmental preservation
+",color=green];
+	59 [label="some countries
+ may place economic developments ahead
+ of environmental protection , thus
+ ruining the local environments",color=blue];
+	129 [label="unchecked and
+ reckless uses of the local
+ raw materials may happen ,
+ which can put a strain
+ on the natural resources",color=blue];
+	169 [label="the booming
+ economy can be closely linked
+ to the preservation of the
+ environment",color=green];
+	155 [label="the economic development and environmental protection
+ can be conflicting",color=blue];
+	169 [label="the booming
+ economy can be closely linked
+ to the preservation of the
+ environment",color=green];
+	169 [label="the booming
+ economy can be closely linked
+ to the preservation of the
+ environment",color=green];
 	183 [label="with people raising
  their awareness of the green
  economy , the products free
@@ -11,23 +37,4 @@ digraph G {
  eco-friendly businesses can make a
  favorable impression on customers today
  , triggering sales",color=blue];
-	242 [label="taking environmental consequences seriously
- can enhance working efficiencies",color=green];
-	220 [label="for",color=blue];
-	242 [label="taking environmental consequences seriously
- can enhance working efficiencies",color=green];
-	223 [label="electronic bicycles powered
- by clean energy resources have
- been well received among people
- in recent years",color=blue];
-	242 [label="taking environmental consequences seriously
- can enhance working efficiencies",color=green];
-	242 [label="taking environmental consequences seriously
- can enhance working efficiencies",color=green];
-	251 [label="if a firm is environmentally
- conscious , it may have
- to make optimal use of
- its resources to improve its
- production lines and equipment ,
- which can boost productivity",color=blue];
 }

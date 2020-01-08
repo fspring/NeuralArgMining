@@ -1,37 +1,12 @@
 digraph G {
-	90 -> 63;
-	90 -> 73;
-	226 -> 199;
-	291 -> 295;
-	296 -> 295;
-	300 -> 301;
-	63 [label="making college education
- free would cost too much
-",color=green];
-	90 [label="there are many other needs which
- should come first , such
- as providing health care to
- all american , or improving
- public schools",color=blue];
-	73 [label="would divert public
+	72 -> 36;
+	36 [label="it would cost too much
+ , the college education is
+ a personal's choice , and
+ there are many ways to
+ fund a college education",color=green];
+	72 [label="it would divert public
  funds from other needs such
  as law enforcement , infrastructure
- and so",color=green];
-	90 [label="there are many other needs which
- should come first , such
- as providing health care to
- all american , or improving
- public schools",color=blue];
-	199 [label="people should
- make",color=green];
-	226 [label="people who cannot afford to
- pay their tuition benefit from
- the scholarship , financial aids
- , and other funds",color=blue];
-	291 [label="the money is not",color=blue];
-	295 [label="given",color=green];
-	295 [label="given",color=green];
-	296 [label="to individual",color=blue];
-	300 [label="these",color=blue];
-	301 [label="contributions",color=green];
+ and so forth",color=blue];
 }

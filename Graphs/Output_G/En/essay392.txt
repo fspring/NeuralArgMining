@@ -1,9 +1,17 @@
 digraph G {
-	97 -> 82;
+	97 -> 69;
+	97 -> 232;
+	142 -> 232;
+	167 -> 232;
+	186 -> 232;
+	261 -> 232;
 	280 -> 305;
-	82 [label="government and corporations have
+	69 [label="solving some
+ environmental problems needs large budgets
+ and various technologies , and
+ the government and corporations have
  the ability to deal with
- these",color=green];
+ these problems",color=green];
 	97 [label="air pollution and water
  quality has concerned many countries
  , and the government is
@@ -13,6 +21,64 @@ digraph G {
  also can enhance their technologies
  to curb emission of contaminated
  water and substances",color=blue];
+	97 [label="air pollution and water
+ quality has concerned many countries
+ , and the government is
+ able to implement some policies
+ and invest money to reduce
+ air pollution , while companies
+ also can enhance their technologies
+ to curb emission of contaminated
+ water and substances",color=blue];
+	232 [label="it is possible for
+ ordinary people to participate in
+ some actions of environment protection
+ , and they also can
+ benefit from the improvement of
+ environment",color=green];
+	142 [label="individuals are unable to
+ cope with these things",color=blue];
+	232 [label="it is possible for
+ ordinary people to participate in
+ some actions of environment protection
+ , and they also can
+ benefit from the improvement of
+ environment",color=green];
+	167 [label="it is necessary for
+ every citizen to have the
+ awareness and knowledge of environment
+ protection",color=blue];
+	232 [label="it is possible for
+ ordinary people to participate in
+ some actions of environment protection
+ , and they also can
+ benefit from the improvement of
+ environment",color=green];
+	186 [label="we should convey corresponding policies
+ and knowledge to the public
+ and society , and the
+ government controls many influential media
+ , such as tv stations
+ and newspapers , which can
+ provide plenty of environmental knowledge
+ and related policies to citizens
+",color=blue];
+	232 [label="it is possible for
+ ordinary people to participate in
+ some actions of environment protection
+ , and they also can
+ benefit from the improvement of
+ environment",color=green];
+	232 [label="it is possible for
+ ordinary people to participate in
+ some actions of environment protection
+ , and they also can
+ benefit from the improvement of
+ environment",color=green];
+	261 [label="many people driving private cars
+ could cause air pollution ,
+ and overusing plastic packages would
+ affect the environment",color=blue];
 	280 [label="if people can gradually change some
  lifestyles in these daily activities
  , this will have many

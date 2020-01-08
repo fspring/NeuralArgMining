@@ -1,11 +1,29 @@
 digraph G {
+	76 -> 50;
+	76 -> 64;
 	76 -> 131;
-	102 -> 268;
+	102 -> 131;
+	150 -> 131;
 	150 -> 268;
 	176 -> 268;
-	208 -> 268;
-	227 -> 268;
-	240 -> 268;
+	194 -> 268;
+	50 [label="students can acquire more benefits from
+ the remote education",color=green];
+	76 [label="students who use distance-learning programs
+ can cut down their commuting
+ time , tuition fees ,
+ textbook fees and so forth
+ just by an internet connection
+",color=blue];
+	64 [label="studying at
+ home save the pupils enormous
+ time and considerable expense",color=green];
+	76 [label="students who use distance-learning programs
+ can cut down their commuting
+ time , tuition fees ,
+ textbook fees and so forth
+ just by an internet connection
+",color=blue];
 	76 [label="students who use distance-learning programs
  can cut down their commuting
  time , tuition fees ,
@@ -22,10 +40,19 @@ digraph G {
  countryside and the children whose
  families are living below the
  poverty-line",color=blue];
-	268 [label="traditional education has
- some merits like feedbacks and
- inspirations that cannot be replaced
- in the near future",color=green];
+	131 [label="long-distance education provides students the
+ opportunity to access the immense
+ knowledge resources and a variety
+ of teaching approaches",color=green];
+	131 [label="long-distance education provides students the
+ opportunity to access the immense
+ knowledge resources and a variety
+ of teaching approaches",color=green];
+	150 [label="pupils can obtain materials for their
+ curricula just by one mouse
+ click , such as science
+ reports , study posts ,
+ documentary records , etc",color=blue];
 	150 [label="pupils can obtain materials for their
  curricula just by one mouse
  click , such as science
@@ -38,31 +65,15 @@ digraph G {
 	176 [label="a student can even select
  a specific online course based
  on his own preference and
- time schedule so he can
+ time schedule so",color=blue];
+	268 [label="traditional education has
+ some merits like feedbacks and
+ inspirations that cannot be replaced
+ in the near future",color=green];
+	194 [label="he can
  control the learning progress and
  make satisfactory achievement on this
  course",color=blue];
-	268 [label="traditional education has
- some merits like feedbacks and
- inspirations that cannot be replaced
- in the near future",color=green];
-	208 [label="it",color=blue];
-	268 [label="traditional education has
- some merits like feedbacks and
- inspirations that cannot be replaced
- in the near future",color=green];
-	227 [label="these make remarkable contributions
- in providing immediate feedbacks and
- cultivating pupils' personalities",color=blue];
-	268 [label="traditional education has
- some merits like feedbacks and
- inspirations that cannot be replaced
- in the near future",color=green];
-	240 [label="but with the improvements in streaming
- and sensor technologies , remote
- education can eliminate the obstacles
- of distance and body contacts
-",color=blue];
 	268 [label="traditional education has
  some merits like feedbacks and
  inspirations that cannot be replaced

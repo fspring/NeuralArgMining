@@ -123,7 +123,7 @@ digraph G {
  other occasions we still need
  criticism",color=green];
 	284 [label="As one Chinese idiom goes :
- "The good medicine tastes bitter“
+ The good medicine tastes bitter
 ",color=blue];
 	431 [label="criticism is essential especially
  in group working but in

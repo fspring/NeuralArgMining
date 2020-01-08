@@ -1,2 +1,16 @@
 digraph G {
+	109 -> 100;
+	100 [label="um incidente alarmante ocorreu perto da
+ costa líbia",color=green];
+	109 [label="segundo um
+ comunicado do ministério dos transportes
+ italiano : uma embarcação da
+ guarda-costeira italiana , que socorria
+ uma das canoas com imigrantes
+ subsaarianos , foi abordada por
+ uma lancha rápida vinda da
+ costa e quatro homens armados
+ de metralhadoras kalachnikov ameaçaram as
+ forças italianas , exigindo que
+ abandonassem o barco vazio",color=blue];
 }

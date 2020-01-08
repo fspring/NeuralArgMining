@@ -1,7 +1,12 @@
 digraph G {
+	102 -> 85;
 	255 -> 359;
 	278 -> 359;
-	301 -> 359;
+	85 [label="tourism can vastly boost economic development
+ in a particular state or
+ region",color=green];
+	102 [label="not only through direct
+ expenditure from tourists",color=blue];
 	255 [label="compared to the tourism industry ,
  other alternatives , like resource
  extraction and manufacture , are
@@ -13,15 +18,6 @@ digraph G {
  hundreds and thousands of tons
  of contamination into rivers ,
  causing severe water pollution",color=blue];
-	359 [label="the tourism
- sector is desirable for its
- important socioeconomic advantages",color=green];
-	301 [label="the dramatic majority of tourist
- , particularly those who tend
- to spending a wealth of
- time and money locating and
- visiting rustic villages , are
- well educated",color=blue];
 	359 [label="the tourism
  sector is desirable for its
  important socioeconomic advantages",color=green];

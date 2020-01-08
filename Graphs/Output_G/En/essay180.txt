@@ -1,55 +1,94 @@
 digraph G {
-	83 -> 37;
-	83 -> 44;
-	100 -> 56;
-	100 -> 59;
-	100 -> 67;
-	245 -> 193;
-	245 -> 204;
-	37 [label="groups provide a place
-",color=green];
-	83 [label="the groups play
- an essential role in the
- process of socialization , from
- children to adults",color=blue];
-	44 [label="gain",color=green];
-	83 [label="the groups play
- an essential role in the
- process of socialization , from
- children to adults",color=blue];
-	56 [label="in the",color=green];
-	100 [label="we begin taking part in groups
- or organizations during the early
- days of life , and
- especially most people continue their
- social participation in all through
- life",color=blue];
-	59 [label="place",color=green];
-	100 [label="we begin taking part in groups
- or organizations during the early
- days of life , and
- especially most people continue their
- social participation in all through
- life",color=blue];
-	67 [label="society",color=green];
-	100 [label="we begin taking part in groups
- or organizations during the early
- days of life , and
- especially most people continue their
- social participation in all through
- life",color=blue];
-	193 [label="almost of us
- live in the environment of
- groups",color=green];
-	245 [label="for example , as a student
+	203 -> 150;
+	225 -> 301;
+	248 -> 301;
+	269 -> 409;
+	322 -> 301;
+	322 -> 409;
+	341 -> 409;
+	349 -> 409;
+	352 -> 409;
+	374 -> 409;
+	385 -> 409;
+	150 [label="it is likely for them to
+ join student organization of their
+ major in order to expand
+ their experiences or communicate with
+ others",color=green];
+	203 [label="by participating in
+ an organization , it is
+ a positive way for people
+ to obtain some experiences on
+ a particular purpose",color=blue];
+	225 [label="a solid group can be a
+ suited environment , which provides
+ people to improve themselves or
+ broaden their horizons",color=blue];
+	301 [label="it is advantage which increase
+ an opportunity on my resume
+ for the sake of getting
+ a better job",color=green];
+	248 [label="as a student
  majoring in mass media ,
  i have taken part in
  mass media student group for
  a year",color=blue];
-	204 [label="participating",color=green];
-	245 [label="for example , as a student
- majoring in mass media ,
- i have taken part in
- mass media student group for
- a year",color=blue];
+	301 [label="it is advantage which increase
+ an opportunity on my resume
+ for the sake of getting
+ a better job",color=green];
+	269 [label="when being
+ in the department of art
+ , i have not only
+ learned how to do a
+ project , but also known
+ some famous artists during the
+ term",color=blue];
+	409 [label="they lit
+ the light for the poor
+ and victims ;",color=green];
+	301 [label="it is advantage which increase
+ an opportunity on my resume
+ for the sake of getting
+ a better job",color=green];
+	322 [label="groups and organizations would
+ lead people to take action
+ or achieve their goal",color=blue];
+	322 [label="groups and organizations would
+ lead people to take action
+ or achieve their goal",color=blue];
+	409 [label="they lit
+ the light for the poor
+ and victims ;",color=green];
+	341 [label="there are various charities in
+ the world",color=blue];
+	409 [label="they lit
+ the light for the poor
+ and victims ;",color=green];
+	349 [label="tzu chi
+",color=blue];
+	409 [label="they lit
+ the light for the poor
+ and victims ;",color=green];
+	352 [label="a non-profit buddhism organization
+ in taiwan , is famous
+ for contributing to the social
+ and community services , and
+ medical care",color=blue];
+	409 [label="they lit
+ the light for the poor
+ and victims ;",color=green];
+	374 [label="they bring
+ hopes and inspire others with
+ their generous spirit",color=blue];
+	409 [label="they lit
+ the light for the poor
+ and victims ;",color=green];
+	385 [label="for accomplishing their missions , the
+ charity should gather people who
+ are volunteers and sponsors for
+ those difficult tasks",color=blue];
+	409 [label="they lit
+ the light for the poor
+ and victims ;",color=green];
 }

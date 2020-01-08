@@ -1,13 +1,36 @@
 digraph G {
-	110 -> 201;
-	127 -> 220;
-	110 [label="very important for many businesses to
- increase sales and hence profits
+	137 -> 220;
+	178 -> 220;
+	187 -> 220;
+	137 [label="customers of telecommunication services
+ will have an idea about
+ the current offers of different
+ companies and hence they can
+ compare them and then have
+ a better decision in choosing
+ their internet or mobile phone
+ plans",color=blue];
+	220 [label="a huge amount of different advertisements
+ could be sent automatically by
+ a system to personal phones
+ or email addresses , this
+ is generally known as spam
+ , and causes discomfort or
+ even annoyance to many people
+",color=green];
+	178 [label="it is easy
 ",color=blue];
-	201 [label="it can be seen that
- some people have",color=green];
-	127 [label="advertising can bring them
- many benefits",color=blue];
+	220 [label="a huge amount of different advertisements
+ could be sent automatically by
+ a system to personal phones
+ or email addresses , this
+ is generally known as spam
+ , and causes discomfort or
+ even annoyance to many people
+",color=green];
+	187 [label="advertising is a positive
+ part of life will garner
+ strong support",color=blue];
 	220 [label="a huge amount of different advertisements
  could be sent automatically by
  a system to personal phones

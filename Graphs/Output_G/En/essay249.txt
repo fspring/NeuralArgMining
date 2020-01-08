@@ -1,16 +1,40 @@
 digraph G {
-	43 -> 60;
-	92 -> 77;
-	92 -> 86;
-	43 [label="who are addicted
- to tv",color=blue];
-	60 [label="television in amount of time",color=green];
-	77 [label="children should",color=green];
+	106 -> 92;
+	329 -> 409;
+	348 -> 409;
+	367 -> 409;
+	379 -> 409;
 	92 [label="children generally have weak
  self-control , and thus they
- lose their time easily",color=blue];
-	86 [label="excessively",color=green];
-	92 [label="children generally have weak
- self-control , and thus they
- lose their time easily",color=blue];
+ lose their time easily",color=green];
+	106 [label="watching tv for a long
+ time without doing homework is
+ one of major headaches that
+ most of children have brought
+ to their parents",color=blue];
+	329 [label="there are
+ many programs on tv or
+ movies that are harmful to
+ children in metal and physical
+ health",color=blue];
+	409 [label="it doesn't
+",color=green];
+	348 [label="how can anyone
+ expect children could do well
+ at school if they have
+ those abnormal behaviors",color=blue];
+	409 [label="it doesn't
+",color=green];
+	367 [label="in concerning the social
+ relationship with peers , some
+ may support that",color=blue];
+	409 [label="it doesn't
+",color=green];
+	379 [label="children should
+ watch tv and movies for
+ their rich contents that could
+ give children some topics in
+ conversation",color=blue];
+	409 [label="it doesn't
+",color=green];
 }

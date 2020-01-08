@@ -1,41 +1,53 @@
 digraph G {
-	30 -> 21;
-	102 -> 94;
-	95 -> 96;
-	102 -> 165;
-	163 -> 165;
-	219 -> 263;
-	21 [label="serious movies have a wide
- variety of",color=green];
+	30 -> 0;
+	30 -> 20;
+	30 -> 281;
+	40 -> 281;
+	48 -> 281;
+	64 -> 281;
+	81 -> 281;
+	0 [label="i prefer the serious movies which
+ are simple , touching and
+ powerful",color=green];
 	30 [label="entertaining movies are created to amuse
  people",color=blue];
-	94 [label="not",color=green];
-	102 [label=""click" is a very
- interesting comedy , with a
- serious approach about the importance
- of having a balanced life
- between family and work businesses
+	20 [label="most serious movies have a wide
+ variety of content",color=green];
+	30 [label="entertaining movies are created to amuse
+ people",color=blue];
+	30 [label="entertaining movies are created to amuse
+ people",color=blue];
+	281 [label="i prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
+	40 [label="most entertaining movies are empty and
+ nonsensical",color=blue];
+	281 [label="i prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
+	48 [label="compared with the
+ entertainment film , the serious
+ film may be more worthwhile
+ and meaningful",color=blue];
+	281 [label="i prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
+	64 [label="serious movies
+ usually designed to express one
+ or more thinking about love
+ , humaneness ; moreover",color=blue];
+	281 [label="i prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
+	81 [label="it may point out the
+ dark sides of the society
 ",color=blue];
-	95 [label="all",color=blue];
-	96 [label="of serious movies are",color=green];
-	102 [label=""click" is a very
- interesting comedy , with a
- serious approach about the importance
- of having a balanced life
- between family and work businesses
-",color=blue];
-	165 [label="are usually beyond words and images
- which make us think about
- ourselves",color=green];
-	163 [label="serious movies",color=blue];
-	165 [label="are usually beyond words and images
- which make us think about
- ourselves",color=green];
-	219 [label="after watching
- the movie , we may
- learn a lesson between jewels
- and death",color=blue];
-	263 [label="movie tell you
- how to see the world
- in a",color=green];
+	281 [label="i prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
 }

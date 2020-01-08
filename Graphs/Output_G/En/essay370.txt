@@ -1,49 +1,49 @@
 digraph G {
-	182 -> 73;
-	82 -> 262;
+	78 -> 48;
+	78 -> 61;
+	78 -> 262;
+	93 -> 262;
 	115 -> 262;
-	157 -> 262;
-	205 -> 254;
-	73 [label="users to its
-",color=green];
-	182 [label="the existence of skype
- , viber or yahoo has
- notably reduced even the longest
- distance into one click",color=blue];
-	82 [label="there used to be
+	158 -> 262;
+	233 -> 262;
+	48 [label="future developments in
+ it will put the users
+ at their own expense",color=green];
+	78 [label="in the past
+ , there used to be
  world wide web or e-mail
- , but the cyber world
+ ,",color=blue];
+	61 [label="with the rapid developing pace
+",color=green];
+	78 [label="in the past
+ , there used to be
+ world wide web or e-mail
+ ,",color=blue];
+	78 [label="in the past
+ , there used to be
+ world wide web or e-mail
+ ,",color=blue];
+	262 [label="its effect",color=green];
+	93 [label="the cyber world
  now varies form games ,
  online tv shows to means
  of communication , and probably
  still keeps going",color=blue];
-	262 [label="its effect on the
- users' independence and prositution should
- not be out of concern
-",color=green];
+	262 [label="its effect",color=green];
 	115 [label="such irrisistible temptations drift people from
  the real world to the
  unreal ones , resulting in
  their dependence on technical equipment
 ",color=blue];
-	262 [label="its effect on the
- users' independence and prositution should
- not be out of concern
-",color=green];
-	157 [label=", staying inside with
+	262 [label="its effect",color=green];
+	158 [label="staying inside with
  computer and mobile phone will
  always be the first alternative
 ",color=blue];
-	262 [label="its effect on the
- users' independence and prositution should
- not be out of concern
-",color=green];
-	205 [label="rarely do people go out of
- their comfot zone , provided
- with snack and air conditioner
- , to assemble with others
- in flesh",color=blue];
-	254 [label="the contribution
- of it to the society
-",color=green];
+	262 [label="its effect",color=green];
+	233 [label="their action will
+ make a beeline for obesity
+ , short-sighted , diabetes and
+ other heart-related problems",color=blue];
+	262 [label="its effect",color=green];
 }

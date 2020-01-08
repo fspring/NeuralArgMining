@@ -1,2 +1,9 @@
 digraph G {
+	264 -> 287;
+	264 [label="fail to
+ create this familiarity makes them
+ felt isolated , in the
+ extreme can lead to social
+ disorder like autism",color=blue];
+	287 [label="it is clear",color=green];
 }

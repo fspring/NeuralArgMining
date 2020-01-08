@@ -91,7 +91,7 @@ secretário-geral (I)    0.000
 do (I)    0.000
 ps (I)    0.000
 . (I)    0.000
-cavaco (C)    0.000
+cavaco (I)    0.000
 silva (I)    0.000
 afastou-se (I)    0.000
 de (I)    0.000
@@ -116,7 +116,7 @@ o (I)    0.000
 acusasse (I)    0.000
 do (I)    0.000
 contrário (I)    0.000
-. (I)    0.000
+. (O)    0.000
 não (O)    0.000
 é (O)    0.000
 um (O)    0.000

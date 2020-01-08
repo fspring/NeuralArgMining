@@ -1,49 +1,11 @@
 digraph G {
-	26 -> 97;
-	72 -> 97;
-	144 -> 202;
 	166 -> 202;
-	187 -> 202;
-	242 -> 265;
-	26 [label="people in the past never
- dreamed of talking to anyone
- whenever they wanted or see
- someone overseas on a computer
- screen , both of these
- can be achieved with cellphone
- and internet",color=blue];
-	97 [label="technology inspires children to
- create new things",color=green];
-	72 [label="i don't deny that
- technology may have some negative
- effects on children , but
- i",color=blue];
-	97 [label="technology inspires children to
- create new things",color=green];
-	144 [label="bill gates
- was attracted by the original
- huge computer , then he
- did everything he could to
- understand how it worked",color=blue];
-	202 [label="instead of interfering children's
- creativity",color=green];
 	166 [label="after he had figured out
  all the stuff , he
  then began to promote the
  computer",color=blue];
 	202 [label="instead of interfering children's
- creativity",color=green];
-	187 [label="he successfully invented a
- computer that was easy to
- use and lightweight",color=blue];
-	202 [label="instead of interfering children's
- creativity",color=green];
-	242 [label="with highly advanced technology
- , children are able to
- get information from foreign countries
- and even communicate with foreign
- friends",color=blue];
-	265 [label="they will be able to learn
- about different cultures and different
- ways of thinking",color=green];
+ creativity , technology actually encourages
+ children to learn and to
+ create",color=green];
 }

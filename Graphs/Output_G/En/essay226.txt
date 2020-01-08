@@ -1,6 +1,20 @@
 digraph G {
-	180 -> 155;
-	351 -> 380;
+	83 -> 155;
+	180 -> 273;
+	205 -> 376;
+	244 -> 273;
+	290 -> 273;
+	290 -> 376;
+	332 -> 376;
+	350 -> 376;
+	364 -> 376;
+	83 [label="as everyone's life
+ is too short to risk
+ trying anything without any prepare
+ , we all should learn
+ about other's mistakes so that
+ we can avoid making the
+ same ones",color=blue];
 	155 [label="past obviously saves ourselves a bunch
  of failures and times",color=green];
 	180 [label="if the predecessors' mistakes are the
@@ -8,10 +22,67 @@ digraph G {
  to the goals , others'
  accomplishment can be served as
  the direct way",color=blue];
-	351 [label="are only some of many
+	273 [label="the past is
+ the basis in which people
+ can use to develope new
+ knowledge , inventions",color=green];
+	205 [label="by looking into the ways other
+ people use to achieve their
+ targets , we have the
+ chance to make those mine
+ , put them into practice
+ and , of course ,
+ be successful like them",color=blue];
+	376 [label="the past's mistakes , success
+ and knowledge all have crucial
+ impact on people's lives today
+",color=green];
+	244 [label="edison's statement
+ "genius is 1 percent inspiration
+ and 99 percent perspiration" is
+ still helpful for everyone today
+ , and probably in the
+ future",color=blue];
+	273 [label="the past is
+ the basis in which people
+ can use to develope new
+ knowledge , inventions",color=green];
+	273 [label="the past is
+ the basis in which people
+ can use to develope new
+ knowledge , inventions",color=green];
+	290 [label="if it had not been for
+ those knowledge in the past
+ , we could never be
+ as modern as today",color=blue];
+	290 [label="if it had not been for
+ those knowledge in the past
+ , we could never be
+ as modern as today",color=blue];
+	376 [label="the past's mistakes , success
+ and knowledge all have crucial
+ impact on people's lives today
+",color=green];
+	332 [label="how can the comtemporary
+ scientists study the earth's gravity
+ without the apple which fall
+ on newton's head",color=blue];
+	376 [label="the past's mistakes , success
+ and knowledge all have crucial
+ impact on people's lives today
+",color=green];
+	350 [label="they are only some of many
  precious knowledge that the past
  presents us",color=blue];
-	380 [label="success and knowledge all have crucial
+	376 [label="the past's mistakes , success
+ and knowledge all have crucial
+ impact on people's lives today
+",color=green];
+	364 [label="we cannot
+ ignore them in any way
+",color=blue];
+	376 [label="the past's mistakes , success
+ and knowledge all have crucial
  impact on people's lives today
 ",color=green];
 }

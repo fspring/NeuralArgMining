@@ -8,8 +8,6 @@ import PostProcessing as pp
 
 from sklearn.model_selection import KFold
 
-from sklearn.metrics import precision_recall_fscore_support
-from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_absolute_error
 
 import keras
@@ -75,10 +73,12 @@ class NeuralTrainer:
         self.tags = ['']*num_tags
         self.arg_classes = ['']*num_tags
         self.transition_matrix = None
+        self.save_weights = False
         self.read_tag_mapping()
         self.set_transition_matrix()
         num_measures = 1 + 3*(num_tags - 2)
         self.evaluator = ev.Evaluator(self.num_tags, num_measures, self.tags)
+        self.postprocessing = pp.PostProcessing(self.num_tags, self.tags)
 
     def read_tag_mapping(self):
         f = open('tag_mapping.txt', 'r', encoding='utf-8')
@@ -193,17 +193,21 @@ class NeuralTrainer:
         self.model = Model(input=input, output=[crf_tensor,dist_tensor])
         # print(self.model.summary()) #debug
 
-        # self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-        self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
         # w = self.model.get_weights()
         # for i in range(0, len(w)):
         #     print(i, len(w[i])) #debug
+        if self.save_weights:
+            self.model.load_weights('baseline_weights.h5', by_name=True)
 
+        # self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        
     def create_baseline_model(self):
         input = Input(shape=(self.maxlen,))
 
         biLSTM_tensor = self.create_biLSTM(input)
-        crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
+        crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
+        # crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
 
         self.model = Model(input=input, output=crf_tensor)
         # print(self.model.summary()) #debug
@@ -212,6 +216,8 @@ class NeuralTrainer:
 
     def train_baseline_model(self, x_train, y_train, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
+        print('x train shape:', x_train.shape, 'x test shape:', x_test.shape)
+        print('y train shape:', y_train.shape, 'y test shape:', y_test_class.shape)
 
         self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
 
@@ -223,18 +229,29 @@ class NeuralTrainer:
 
         (y_pred_class, b_pred_dist) = rb.predict_baseline_distances_claim(y_pred_class)
 
-        os.makedirs(self.dumpPath + '_baseline')
-        self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
+        if len(y_pred_class) != len(b_pred_dist):
+            print('not same nr files')
+        else:
+            for i in range(0, len(y_pred_class)):
+                if len(y_pred_class[i]) != len(b_pred_dist[i]):
+                    print(i, 'not same file length')
 
-        spanEvalAt1 = self.evaluator.spanEval(y_pred_class, unencodedY, 1.0)
-        spanEvalAt075 = self.evaluator.spanEval(y_pred_class, unencodedY, 0.75)
-        spanEvalAt050 = self.evaluator.spanEval(y_pred_class, unencodedY, 0.50)
-        tagEval = self.evaluator.tagEval(y_pred_class, unencodedY)
+        if not os.path.exists(self.dumpPath + '_baseline'):
+            os.makedirs(self.dumpPath + '_baseline')
+        self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
+        
+        (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
+
+        spanEvalAt1 = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
+        spanEvalAt075 = self.evaluator.spanEval(pred_spans, true_spans, 0.75)
+        spanEvalAt050 = self.evaluator.spanEval(pred_spans, true_spans, 0.50)
+        tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
         print('------- Distances Baseline -------')
         dist_eval = self.evaluator.dist_eval(b_pred_dist, y_test_dist, y_test_class, unencodedY)
 
         return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
+    
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
 
@@ -270,21 +287,23 @@ class NeuralTrainer:
             os.makedirs(self.dumpPath + '_BCorr')
         self.write_evaluated_tests_to_file(x_test, y_pred_class, y_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_BCorr')
 
-        (y_pred_class, c_pred_dist) = pp.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
+        (y_pred_class, c_pred_dist) = self.postprocessing.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
 
         self.write_evaluated_tests_to_file(x_test, y_pred_class, c_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath)
 
-        spanEvalAt1 = self.evaluator.spanEval(y_pred_class, unencodedY, 1.0)
-        spanEvalAt075 = self.evaluator.spanEval(y_pred_class, unencodedY, 0.75)
-        spanEvalAt050 = self.evaluator.spanEval(y_pred_class, unencodedY, 0.50)
-        tagEval = self.evaluator.tagEval(y_pred_class, unencodedY)
+        (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
+
+        spanEvalAt1 = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
+        spanEvalAt075 = self.evaluator.spanEval(pred_spans, true_spans, 0.75)
+        spanEvalAt050 = self.evaluator.spanEval(pred_spans, true_spans, 0.50)
+        tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
         print('------- Distances from model -------')
         dist_eval = self.evaluator.dist_eval(c_pred_dist, y_test_dist, y_test_class, unencodedY)
 
         return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
 
-    def crossValidate(self, X, Y, additionalX, additionalY, unencodedY):
+    def crossValidate(self, X, Y, additionalX, additionalY, unencodedY, model_type):
         seed = 42
         n_folds = 10
         foldNumber  = 1
@@ -301,8 +320,14 @@ class NeuralTrainer:
 
         cvscores = self.evaluator.empty_cvscores()
 
+
+        print(np.array(X).shape)
+        print(np.array(Y[0]).shape, np.array(Y[1]).shape)
+
         Y_class = Y[0] # Component identification
         Y_dist = Y[1] # Distances between related components
+        additionalY_class = additionalY[0]
+        additionalY_dist = additionalY[1]
         for train, test in kfold.split(X, unencodedY):
             print('-------- Fold', foldNumber,'--------')
             X_train = []
@@ -324,7 +349,8 @@ class NeuralTrainer:
                 unencoded_Y.append(unencodedY[testIndex])
 
             X_train = X_train + additionalX
-            Y_train_class = Y_train_class + additionalY
+            Y_train_class = Y_train_class + additionalY_class
+            Y_train_dist = Y_train_dist + additionalY_dist
 
             X_train = np.array(X_train)
             Y_train_class = np.array(Y_train_class)
@@ -334,8 +360,18 @@ class NeuralTrainer:
             Y_test_dist = np.array(Y_test_dist)
             unencoded_Y = np.array(unencoded_Y)
 
-            scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
-            # scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            print('after additional x shape:', X_train.shape)
+            print('after additional y class shape:', Y_train_class.shape)
+            print('after additional y dist shape:', Y_train_dist.shape)
+            print('test x shape:', X_test.shape)
+            print('test y class index:', Y_test_class.shape)
+            print('test y dist index:', Y_test_dist.shape)
+
+            scores = None
+            if model_type == 'baseline':
+                scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
+            elif model_type == 'crf_dist':
+                scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             cvscores = self.evaluator.handleScores(cvscores, scores[0], n_folds)
             csv_entries_dist = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries_dist)
             foldNumber += 1
@@ -346,6 +382,9 @@ class NeuralTrainer:
         f = open('model_dist_predictions_ften.csv', 'w')
         f.write(csv_header + csv_entries_dist)
         f.close()
+
+        if self.save_weights and model_type == 'baseline':
+            self.model.save_weights('baseline_weights.h5')
 
         return cvscores
 

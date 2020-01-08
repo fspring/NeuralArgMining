@@ -1,6 +1,22 @@
 digraph G {
 	73 -> 48;
-	48 [label="more",color=green];
+	242 -> 267;
+	48 [label="more lives will
+ be saved by the use
+ of effective medicines",color=green];
 	73 [label="with advanced technology
+ , the developed world has
+ achieved remarkable breakthroughs in making
+ medicines , which can cure
+ a variety of serious illnesses
 ",color=blue];
+	242 [label="it is advisable for
+ the government to encourage medical
+ production by supplying land for
+ building factories and reducing part
+ of the taxes",color=blue];
+	267 [label="charitable organizations can buy
+ medicines from developed countries and
+ distribute to the undeveloped world
+ for free",color=green];
 }

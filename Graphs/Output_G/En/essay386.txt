@@ -1,17 +1,36 @@
 digraph G {
-	116 -> 66;
-	225 -> 277;
-	269 -> 277;
-	66 [label="classmates themselves creat a competitive
+	77 -> 65;
+	77 -> 154;
+	178 -> 261;
+	225 -> 261;
+	65 [label="the classmates themselves creat a competitive
  atmoshphere which incent the children
 ",color=green];
-	116 [label="a psychological perspective , the
- feeling of being subordinate to
- their peers exert enormous pressure
- on the children , which
- subsequently transforms into some sort
- of stimulants and boosts the
- children's academic performances",color=blue];
+	77 [label="in high school ,
+ for instance , an individual
+ cannot resist studying painstakingly through
+ day and night when the
+ others who are astoundingly ambitious
+ and set sights on prestigious
+ universities around the globe are
+ doing the same",color=blue];
+	77 [label="in high school ,
+ for instance , an individual
+ cannot resist studying painstakingly through
+ day and night when the
+ others who are astoundingly ambitious
+ and set sights on prestigious
+ universities around the globe are
+ doing the same",color=blue];
+	154 [label="when it
+ comes to knowledge and the
+ acquisition of such , classmates
+ are second to none",color=green];
+	178 [label="students share even
+ more time together than with
+ their parents ,",color=blue];
+	261 [label="classmates are unrivalled by the
+ children's parents as",color=green];
 	225 [label="sharing the same age , children
  are at their most comfort
  to exchange ideas , to
@@ -19,11 +38,6 @@ digraph G {
  without fear of parental punishments
  , resulting in deeper comprehension
 ",color=blue];
-	277 [label="two crucial commodities leading
- to a successful presentation at
- school",color=green];
-	269 [label="they",color=blue];
-	277 [label="two crucial commodities leading
- to a successful presentation at
- school",color=green];
+	261 [label="classmates are unrivalled by the
+ children's parents as",color=green];
 }

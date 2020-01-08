@@ -1,25 +1,36 @@
 digraph G {
-	100 -> 151;
-	119 -> 151;
-	133 -> 151;
+	100 -> 88;
+	100 -> 287;
+	119 -> 287;
+	133 -> 287;
 	161 -> 151;
+	161 -> 287;
+	189 -> 287;
+	215 -> 287;
+	244 -> 287;
+	88 [label="many facts about
+ solar system can be discovered
+",color=green];
 	100 [label="a picture of planet earth proved
  that the earth is round
  , not flat",color=blue];
-	151 [label="people can know more about
- the planet earth itself",color=green];
+	100 [label="a picture of planet earth proved
+ that the earth is round
+ , not flat",color=blue];
+	287 [label="human beings should travel
+ to outer space",color=green];
 	119 [label="it is
  the earth which goes around
  the sun , not vice
  versa",color=blue];
-	151 [label="people can know more about
- the planet earth itself",color=green];
+	287 [label="human beings should travel
+ to outer space",color=green];
 	133 [label="if it was
  not for the space exploration
  , we would never know
  these facts",color=blue];
-	151 [label="people can know more about
- the planet earth itself",color=green];
+	287 [label="human beings should travel
+ to outer space",color=green];
 	151 [label="people can know more about
  the planet earth itself",color=green];
 	161 [label="by observing planet earth from
@@ -27,4 +38,32 @@ digraph G {
  find out ample things for
  example about the atmosphere of
  the planet earth",color=blue];
+	161 [label="by observing planet earth from
+ outer space , people can
+ find out ample things for
+ example about the atmosphere of
+ the planet earth",color=blue];
+	287 [label="human beings should travel
+ to outer space",color=green];
+	189 [label="people can
+ work on something to prevent
+ earth hazards such as global
+ warming",color=blue];
+	287 [label="human beings should travel
+ to outer space",color=green];
+	215 [label="as astronauts need to travel to
+ outer space which does not
+ have any oxygen to breathe
+ in , scientists are compelled
+ to do research on the
+ oxygen tanks",color=blue];
+	287 [label="human beings should travel
+ to outer space",color=green];
+	244 [label="oxygen tanks
+ , for instance , are
+ proved useful not only in
+ outer space but also underwater
+",color=blue];
+	287 [label="human beings should travel
+ to outer space",color=green];
 }

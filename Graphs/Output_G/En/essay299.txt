@@ -1,32 +1,54 @@
 digraph G {
-	111 -> 77;
-	223 -> 176;
-	223 -> 181;
-	256 -> 245;
-	260 -> 247;
-	77 [label="subsequent",color=green];
+	111 -> 176;
+	116 -> 176;
+	151 -> 290;
+	191 -> 176;
+	191 -> 290;
+	208 -> 290;
+	260 -> 290;
 	111 [label="in the earlier periods ,
- it was not easy to
+",color=blue];
+	176 [label="colleges and universities have introduced
+ foreign language course as a
+ part of their curriculum",color=green];
+	116 [label="it was not easy to
  find a teacher to learn
  a foreign languge",color=blue];
-	176 [label="colleges and universities",color=green];
-	223 [label="highly qualified foreign
- language teachers are easily accessible
- in various schools and colleges
-",color=blue];
-	181 [label="foreign language",color=green];
-	223 [label="highly qualified foreign
- language teachers are easily accessible
- in various schools and colleges
-",color=blue];
-	245 [label="role",color=green];
-	256 [label="our own country",color=blue];
-	247 [label="reducing the separation between
- learning a foreign languge in
-",color=green];
+	176 [label="colleges and universities have introduced
+ foreign language course as a
+ part of their curriculum",color=green];
+	151 [label="in indian sub-continent there are
+ large number of centers opened
+ for getting trained in variety
+ of languages like french ,
+ german etc",color=blue];
+	290 [label="it is better for people to
+ learn a foreign language in
+ their own country",color=green];
+	176 [label="colleges and universities have introduced
+ foreign language course as a
+ part of their curriculum",color=green];
+	191 [label="students can choose any language
+ from the set of languages
+ available at a university",color=blue];
+	191 [label="students can choose any language
+ from the set of languages
+ available at a university",color=blue];
+	290 [label="it is better for people to
+ learn a foreign language in
+ their own country",color=green];
+	208 [label="it is very
+ easy to learn a foreign
+ in our own country",color=blue];
+	290 [label="it is better for people to
+ learn a foreign language in
+ their own country",color=green];
 	260 [label="a large number of foreign language
  courses are available online and
  there are various forums where
  people can discuss their problems
  on different foreign languages",color=blue];
+	290 [label="it is better for people to
+ learn a foreign language in
+ their own country",color=green];
 }

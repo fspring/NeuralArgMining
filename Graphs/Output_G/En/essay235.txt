@@ -1,25 +1,35 @@
 digraph G {
-	107 -> 55;
-	107 -> 61;
-	133 -> 72;
-	107 -> 98;
-	107 -> 101;
+	61 -> 259;
 	107 -> 259;
-	55 [label="the admission in good universities",color=green];
-	107 [label="in today’s world education
- is getting expensive , and
- people are tending to apply
- for self-finance education in order
- to get the admission",color=blue];
+	133 -> 259;
+	178 -> 232;
+	212 -> 232;
 	61 [label="they have to think about
- work along with the",color=green];
-	107 [label="in today’s world education
+ work along with the studies
+ , and this left them
+ with only one choice ,
+ which is work",color=blue];
+	259 [label="universities have
+ to look over the issues
+ face by most of the
+ scholars ; their message should
+ be spread education , not
+ making money , and motivate
+ those scholars who want to
+ get education",color=green];
+	107 [label="in today�s world education
  is getting expensive , and
  people are tending to apply
  for self-finance education in order
  to get the admission",color=blue];
-	72 [label="and this left them
- with only",color=green];
+	259 [label="universities have
+ to look over the issues
+ face by most of the
+ scholars ; their message should
+ be spread education , not
+ making money , and motivate
+ those scholars who want to
+ get education",color=green];
 	133 [label="the scholars are
  facing a lot of difficulties
  apart from their high requirements
@@ -29,25 +39,31 @@ digraph G {
  while getting admission such as
  accommodation , food , traveling
  , clothing , etc",color=blue];
-	98 [label="of",color=green];
-	107 [label="in today’s world education
- is getting expensive , and
- people are tending to apply
- for self-finance education in order
- to get the admission",color=blue];
-	101 [label="become",color=green];
-	107 [label="in today’s world education
- is getting expensive , and
- people are tending to apply
- for self-finance education in order
- to get the admission",color=blue];
-	107 [label="in today’s world education
- is getting expensive , and
- people are tending to apply
- for self-finance education in order
- to get the admission",color=blue];
 	259 [label="universities have
  to look over the issues
  face by most of the
+ scholars ; their message should
+ be spread education , not
+ making money , and motivate
+ those scholars who want to
+ get education",color=green];
+	178 [label="it is hard
+ to get manage two things
+ at a time for instance
+ , working and studying is
+ not an easy job for
+ the scholars , they need
+ to concentrate on their studies
+",color=blue];
+	232 [label="the idea of free
+ of charge education inspires those
+ scholars",color=green];
+	212 [label="mphils and phds scholars
+ are probably engage in the
+ research work , which takes
+ their full concentration and surveys
+",color=blue];
+	232 [label="the idea of free
+ of charge education inspires those
  scholars",color=green];
 }
