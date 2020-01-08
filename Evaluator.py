@@ -31,7 +31,7 @@ class Evaluator:
             prev_tag = -1
 
             text_size = len(text)
-            
+
             for i in range(0, text_size):
                 tag = text[i]
                 if tag == 1: #should not exist
@@ -77,7 +77,7 @@ class Evaluator:
         pred_spans_dict_list = self.spanCreator(pred_spans)
 
         empty = list(map(float,np.zeros(self.num_tags)))
-        
+
         precision = copy.deepcopy(empty)
         recall = copy.deepcopy(empty)
         f1 = copy.deepcopy(empty)
@@ -86,7 +86,7 @@ class Evaluator:
         relevant_spans = copy.deepcopy(empty) # total number of premises and claims
 
         true_positives = copy.deepcopy(empty) # number of correctly predicted premises and claims
-        
+
         for i in range(0, len(true_spans_dict_list)): #for each text
             true_spans_dict = true_spans_dict_list[i]
             pred_spans_dict = pred_spans_dict_list[i]
@@ -95,7 +95,7 @@ class Evaluator:
                 true_tag = true_spans[i][true_start]
 
                 relevant_spans[true_tag - 1] += 1
-                
+
                 for pred_start, pred_end in pred_spans_dict.items():
                     pred_tag = pred_spans[i][pred_start]
 
@@ -107,7 +107,7 @@ class Evaluator:
                             true_positives[true_tag - 1] += 1
 
                     elif true_start <= pred_start and pred_start <= true_end: #exists intersection
-                        
+
                         if pred_end <= true_end: #pred span contained in true span
                             if pred_tag == true_tag: #same tag
                                 span_intersection = pred_end - pred_start
@@ -115,7 +115,7 @@ class Evaluator:
                                 overlap = span_intersection / span_union
                                 if overlap >= threshold: #is correct
                                     true_positives[true_tag - 1] += 1
-                        
+
                         elif pred_end > true_end: #pred span end exceeds true span
                             if pred_tag == true_tag: #same tag
                                 span_intersection = true_end - pred_start
@@ -196,7 +196,7 @@ class Evaluator:
 
     def tagEval(self, pred_spans, true_spans):
         i = 0
-        
+
         precision = []
         recall = []
         f1 = []
@@ -204,16 +204,16 @@ class Evaluator:
 
         nr_texts = len(true_spans)
         nr_classes = self.num_tags - 1 #I tag removed after training
-        
+
         for i in range(0, nr_texts): #for each text
 
             accuracy.append(accuracy_score(true_spans[i], pred_spans[i]))
             scores = precision_recall_fscore_support(true_spans[i], pred_spans[i])
-            
+
             precision.append(np.pad(scores[0], (0,(nr_classes - len(scores[0]))), 'constant'))
             recall.append(np.pad(scores[1], (0,(nr_classes - len(scores[0]))), 'constant'))
             f1.append(np.pad(scores[2], (0,(nr_classes - len(scores[0]))), 'constant'))
-            
+
         print("Accuracy = %.3f%% (+/- %.3f%%)" % (np.mean(accuracy), np.std(accuracy)))
         precision = self.prettyPrintScore(precision, 'Precision')
         recall = self.prettyPrintScore(recall, 'Recall')

@@ -201,7 +201,7 @@ class NeuralTrainer:
             self.model.load_weights('baseline_weights.h5', by_name=True)
 
         # self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-        
+
     def create_baseline_model(self):
         input = Input(shape=(self.maxlen,))
 
@@ -239,7 +239,7 @@ class NeuralTrainer:
         if not os.path.exists(self.dumpPath + '_baseline'):
             os.makedirs(self.dumpPath + '_baseline')
         self.write_evaluated_tests_to_file(x_test, y_pred_class, b_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_baseline')
-        
+
         (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
 
         spanEvalAt1 = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
@@ -251,7 +251,7 @@ class NeuralTrainer:
         dist_eval = self.evaluator.dist_eval(b_pred_dist, y_test_dist, y_test_class, unencodedY)
 
         return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
-    
+
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
 
