@@ -1,23 +1,22 @@
 digraph G {
-	86 -> 302;
+	86 -> 200;
 	113 -> 200;
-	136 -> 302;
-	154 -> 302;
-	173 -> 302;
-	212 -> 200;
+	136 -> 200;
+	154 -> 200;
+	173 -> 200;
 	212 -> 302;
 	231 -> 302;
 	244 -> 302;
+	251 -> 302;
 	265 -> 302;
 	86 [label="games and applications installed in
  phones have occupied much of
  their time , leaving them
  lesser time for their studies
  and other school activities",color=blue];
-	302 [label="the negative impacts brought
- about by mobile phones are
- harmful to a person’s education
- and character",color=green];
+	200 [label="juveniles who possess mobile phones have
+ great tendencies to become materialistic
+",color=green];
 	113 [label="internet capable phones
  help influence the young ones
  to become more interested in
@@ -30,36 +29,26 @@ digraph G {
  i was once addicted to
  a certain game on my
  cellular phone",color=blue];
-	302 [label="the negative impacts brought
- about by mobile phones are
- harmful to a person’s education
- and character",color=green];
+	200 [label="juveniles who possess mobile phones have
+ great tendencies to become materialistic
+",color=green];
 	154 [label="i have
  spent most of my time
  trying to reach a higher
  level to show-off to my
  friends",color=blue];
-	302 [label="the negative impacts brought
- about by mobile phones are
- harmful to a person’s education
- and character",color=green];
+	200 [label="juveniles who possess mobile phones have
+ great tendencies to become materialistic
+",color=green];
 	173 [label="that goal has
  led me to my lost
  in interest on doing my
  homework and i ended up
  failing one subject in that
  semester",color=blue];
-	302 [label="the negative impacts brought
- about by mobile phones are
- harmful to a person’s education
- and character",color=green];
 	200 [label="juveniles who possess mobile phones have
  great tendencies to become materialistic
 ",color=green];
-	212 [label="they would not only
- purchase a phone because of
- its functionality but also for
- its brand",color=blue];
 	212 [label="they would not only
  purchase a phone because of
  its functionality but also for
@@ -77,6 +66,13 @@ digraph G {
  and character",color=green];
 	244 [label="most of
  these juveniles are students",color=blue];
+	302 [label="the negative impacts brought
+ about by mobile phones are
+ harmful to a person’s education
+ and character",color=green];
+	251 [label="they would need their parents
+ to support them financially for
+ what they want",color=blue];
 	302 [label="the negative impacts brought
  about by mobile phones are
  harmful to a person’s education

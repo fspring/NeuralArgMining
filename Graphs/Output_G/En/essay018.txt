@@ -1,2 +1,101 @@
 digraph G {
+	85 -> 236;
+	102 -> 236;
+	115 -> 236;
+	131 -> 236;
+	144 -> 236;
+	161 -> 236;
+	171 -> 236;
+	183 -> 236;
+	193 -> 236;
+	210 -> 236;
+	218 -> 236;
+	269 -> 308;
+	279 -> 308;
+	290 -> 308;
+	85 [label="women have proved themselves in every
+ field whether it is indoor
+ or outdoor",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	102 [label="nowadays women are working
+ in home as well as
+ in the sky",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	115 [label="they are acting as a good
+ housewife and they are flying
+ planes also",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	131 [label="university authority must not be
+ biased on ground of the
+ gender discrimination",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	144 [label="they must
+ consider the academic record of
+ the student as main criteria
+ of admission",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	161 [label="the current job market affects
+ the decision of universities",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	171 [label="every university designs its courses
+ according to the need of
+ employers",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	183 [label="the job selection
+ criteria are pre decided",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	193 [label="employers need male
+ candidates for the heavy work
+ such as repairing and installation
+ of heavy machine",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	210 [label="they prefer male staff for night
+ shifts",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	218 [label="they want female
+ candidates for soft natured work
+ like counseling , teaching ,
+ designing etc",color=blue];
+	236 [label="universities follow the requirement of
+ job providers and decide subject
+ suitable for particular gender",color=green];
+	269 [label="our youth
+ has become very confident towards
+ his career",color=blue];
+	308 [label="we must give
+ them opportunity to achieve their
+ goal",color=green];
+	279 [label="they are
+ not ready to be bound
+ in certain limitations",color=blue];
+	308 [label="we must give
+ them opportunity to achieve their
+ goal",color=green];
+	290 [label="female candidates also do not care
+ about any restriction posed by
+ the society and the employer
+",color=blue];
+	308 [label="we must give
+ them opportunity to achieve their
+ goal",color=green];
 }

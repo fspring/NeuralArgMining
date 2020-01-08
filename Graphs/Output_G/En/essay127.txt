@@ -1,15 +1,32 @@
 digraph G {
+	58 -> 116;
 	65 -> 116;
+	73 -> 116;
+	78 -> 116;
 	83 -> 116;
 	101 -> 116;
 	128 -> 199;
-	222 -> 210;
-	222 -> 318;
-	253 -> 318;
-	268 -> 302;
-	285 -> 318;
+	135 -> 199;
+	156 -> 199;
+	179 -> 199;
+	220 -> 303;
+	253 -> 303;
+	268 -> 303;
+	285 -> 303;
+	58 [label="life is simple
+ in the past",color=blue];
+	116 [label="lives in the old days
+ is easier than today",color=green];
 	65 [label="nowadays , all humans compete together
 ",color=blue];
+	116 [label="lives in the old days
+ is easier than today",color=green];
+	73 [label="world population getting
+ higher",color=blue];
+	116 [label="lives in the old days
+ is easier than today",color=green];
+	78 [label="competition is getting
+ fierce",color=blue];
 	116 [label="lives in the old days
  is easier than today",color=green];
 	83 [label="if you are
@@ -28,45 +45,59 @@ digraph G {
 	199 [label="the environment
  our grandparents live is more
  comfortable than today",color=green];
-	210 [label="the third reason is that the
- pace of life",color=green];
-	222 [label="we are able to
+	135 [label="looking out the windows , what
+ i see isn't sky ,
+ trees or mountains , but
+ is coldly high buildings",color=blue];
+	199 [label="the environment
+ our grandparents live is more
+ comfortable than today",color=green];
+	156 [label="everyday , i walk on
+ hard roads , breath in
+ polluted air , and live
+ in a limited space",color=blue];
+	199 [label="the environment
+ our grandparents live is more
+ comfortable than today",color=green];
+	179 [label="it has
+ been proved that living in
+ this kind of condition will
+ result in some mental diseases
+",color=blue];
+	199 [label="the environment
+ our grandparents live is more
+ comfortable than today",color=green];
+	220 [label="today , we are able to
  read the news all over
  the world , to chat
  with people through the internet
  , or to travel around
  the world by planes",color=blue];
-	222 [label="we are able to
- read the news all over
- the world , to chat
- with people through the internet
- , or to travel around
- the world by planes",color=blue];
-	318 [label="people are put
- too much focus on making
- wealth and progress in technology
-",color=green];
+	303 [label="some people live
+ in a pretty good condition
+ , it is only a
+ minority",color=green];
 	253 [label="it also means
  that any thing happens in
  the world will affect our
  life",color=blue];
-	318 [label="people are put
- too much focus on making
- wealth and progress in technology
-",color=green];
+	303 [label="some people live
+ in a pretty good condition
+ , it is only a
+ minority",color=green];
 	268 [label="if we cannot
  react properly and immediately ,
  then we will be in
  a vulnerable situation",color=blue];
-	302 [label="there some people live
+	303 [label="some people live
  in a pretty good condition
  , it is only a
  minority",color=green];
 	285 [label="we have no choice but have
  to live in a fast
  pace",color=blue];
-	318 [label="people are put
- too much focus on making
- wealth and progress in technology
-",color=green];
+	303 [label="some people live
+ in a pretty good condition
+ , it is only a
+ minority",color=green];
 }

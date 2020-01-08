@@ -1,21 +1,11 @@
 digraph G {
-	80 -> 120;
 	135 -> 195;
-	147 -> 305;
-	169 -> 310;
-	210 -> 305;
-	231 -> 310;
-	251 -> 310;
+	147 -> 195;
+	169 -> 195;
+	210 -> 231;
+	251 -> 305;
+	261 -> 305;
 	283 -> 305;
-	80 [label="society does need an advertising but
- it is our responsibility to
- control the content and what
- kind of goods and services
- we would like to offer
- to our customers",color=blue];
-	120 [label="advertising alcohol , cigarettes , goods
- and services with adult content
- should be prohibited",color=green];
 	135 [label="these kind of ads will have
  negative effect to our children
 ",color=blue];
@@ -27,32 +17,34 @@ digraph G {
  and later to start consume
  it on a daily basis
 ",color=blue];
-	305 [label="modern society needs advertising",color=green];
+	195 [label="by advertising companies , businesses ,
+ firms and individuals promote their
+ goods and services",color=green];
 	169 [label="some countries
  take this issue seriously and
  advertising alcohol , cigarettes and
  materials with adult content is
  banned on those countries",color=blue];
-	310 [label="ads will keep us well informed
- about new products and services
-",color=green];
+	195 [label="by advertising companies , businesses ,
+ firms and individuals promote their
+ goods and services",color=green];
 	210 [label="thanks to ads we learn about
  new products , we can
  compare them and choose what’s
  the best for us",color=blue];
-	305 [label="modern society needs advertising",color=green];
 	231 [label="these days , not only
  many businesses , but also
  governments have to rely on
- advertising",color=blue];
-	310 [label="ads will keep us well informed
- about new products and services
-",color=green];
+ advertising",color=green];
 	251 [label="tourism makes up one-third of
  the czech republic's economy",color=blue];
-	310 [label="ads will keep us well informed
- about new products and services
-",color=green];
+	305 [label="modern society needs advertising",color=green];
+	261 [label="in order to promote the
+ country's attractions , the czech
+ government has to advertise and
+ sell its services to foreign
+ consumers",color=blue];
+	305 [label="modern society needs advertising",color=green];
 	283 [label="only well planned
  and well targeted advertising will
  bring more foreign tourists to

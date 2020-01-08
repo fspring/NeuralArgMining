@@ -1,22 +1,10 @@
 digraph G {
-	85 -> 139;
-	96 -> 139;
 	123 -> 139;
-	160 -> 139;
+	160 -> 234;
+	197 -> 234;
+	224 -> 234;
+	244 -> 267;
 	251 -> 267;
-	85 [label="teachers teach students how to write
- , read and calculate",color=blue];
-	139 [label="students gain
- most of the knowledge through
- teachers and learn what is
- right and wrong with the
- assistance of teachers",color=green];
-	96 [label="they are in kindergarten",color=blue];
-	139 [label="students gain
- most of the knowledge through
- teachers and learn what is
- right and wrong with the
- assistance of teachers",color=green];
 	123 [label="it is teachers
  that help them with obstacles
  in schooling",color=blue];
@@ -25,12 +13,28 @@ digraph G {
  teachers and learn what is
  right and wrong with the
  assistance of teachers",color=green];
-	139 [label="students gain
- most of the knowledge through
- teachers and learn what is
- right and wrong with the
- assistance of teachers",color=green];
-	160 [label="those who feel",color=blue];
+	160 [label="those who feel that students learn
+ far more from other sources
+ , such as the internet
+ and television",color=blue];
+	234 [label="good television
+ programs do teach students",color=green];
+	197 [label="they can only input
+ some key words and google
+ it , and then there
+ are numberless articles and websites
+ related to it",color=blue];
+	234 [label="good television
+ programs do teach students",color=green];
+	224 [label="students learn
+ things easily",color=blue];
+	234 [label="good television
+ programs do teach students",color=green];
+	244 [label="discovery channel
+ has many instructive episodes",color=blue];
+	267 [label="students learn far more
+ from their teachers than from
+ other source",color=green];
 	251 [label="students have knowledge of others
  cultures , outer space etc
 ",color=blue];

@@ -1,2 +1,71 @@
 digraph G {
+	85 -> 270;
+	128 -> 270;
+	139 -> 270;
+	145 -> 270;
+	166 -> 270;
+	193 -> 270;
+	206 -> 270;
+	85 [label="internet and computer also offer a
+ more comprehensive access to knowledge
+ , ranging from visual to
+ aural stimuli , which make
+ learning an ever enjoyable experience
+ , especially for children",color=blue];
+	270 [label="internet can be a useful tool
+ for education , at no
+ time will the unique role
+ of human teachers be replaced
+",color=green];
+	128 [label="the educational benefits
+ that the internet may yield
+ are undeniable",color=blue];
+	270 [label="internet can be a useful tool
+ for education , at no
+ time will the unique role
+ of human teachers be replaced
+",color=green];
+	139 [label="there still
+ remain certain shortcomings",color=blue];
+	270 [label="internet can be a useful tool
+ for education , at no
+ time will the unique role
+ of human teachers be replaced
+",color=green];
+	145 [label="much information as the internet may
+ provide , most of the
+ sources are unjustified by experts
+",color=blue];
+	270 [label="internet can be a useful tool
+ for education , at no
+ time will the unique role
+ of human teachers be replaced
+",color=green];
+	166 [label="information from those sources is
+ subject to question",color=blue];
+	270 [label="internet can be a useful tool
+ for education , at no
+ time will the unique role
+ of human teachers be replaced
+",color=green];
+	193 [label="it cannot give
+ as an in-depth explanation as
+ a human teacher can",color=blue];
+	270 [label="internet can be a useful tool
+ for education , at no
+ time will the unique role
+ of human teachers be replaced
+",color=green];
+	206 [label="through face-to-face communication , teachers
+ can also pinpoint the weaknesses
+ of each student and therefore
+ , adjusting and tailoring his
+ or her teaching methodology to
+ meet the levels or the
+ demands of those students",color=blue];
+	270 [label="internet can be a useful tool
+ for education , at no
+ time will the unique role
+ of human teachers be replaced
+",color=green];
 }

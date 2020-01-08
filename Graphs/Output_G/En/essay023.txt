@@ -1,40 +1,76 @@
 digraph G {
-	97 -> 89;
-	97 -> 324;
-	125 -> 316;
+	97 -> 180;
+	125 -> 180;
+	153 -> 180;
 	189 -> 324;
-	287 -> 316;
-	89 [label="mobile phones
- are not out of expectation
-",color=green];
+	229 -> 324;
+	245 -> 324;
+	253 -> 324;
+	273 -> 324;
+	287 -> 324;
 	97 [label="speaking loudly on the
  phone in public areas ,
  such as schools , libraries
  and hospitals appears to be
  very impolite and offensive",color=blue];
-	97 [label="speaking loudly on the
- phone in public areas ,
- such as schools , libraries
- and hospitals appears to be
- very impolite and offensive",color=blue];
-	324 [label="the contribution
- of the mobile phone to
- our modern society is prominent
- and people's dependence on it
- is irreversible",color=green];
+	180 [label="some harmful effects on our health
+ are lethal",color=green];
 	125 [label="some students utilize their cell phones
  as an effective cheating tools
  in examinations in which they
  can send and receive answers
  by texting each other",color=blue];
-	316 [label="nothing can be overused without
- side effects",color=green];
+	180 [label="some harmful effects on our health
+ are lethal",color=green];
+	153 [label="it is not
+ impossible to solve these problems
+ , as long as some
+ regulations and rules can be
+ effectively implemented",color=blue];
+	180 [label="some harmful effects on our health
+ are lethal",color=green];
 	189 [label="it has
  been proved that overusing of
  the electronic devices including mobile
  phones could lead to higher
  possibility of suffering hearing loss
- and even cancers ,",color=blue];
+ and even cancers , although
+ the further investigation are needed
+",color=blue];
+	324 [label="the contribution
+ of the mobile phone to
+ our modern society is prominent
+ and people's dependence on it
+ is irreversible",color=green];
+	229 [label="there is
+ panic among people that their
+ conversation can be intercepted by
+ the third party",color=blue];
+	324 [label="the contribution
+ of the mobile phone to
+ our modern society is prominent
+ and people's dependence on it
+ is irreversible",color=green];
+	245 [label="this possibility exists all the time
+",color=blue];
+	324 [label="the contribution
+ of the mobile phone to
+ our modern society is prominent
+ and people's dependence on it
+ is irreversible",color=green];
+	253 [label="a more efficient
+ and reliable system can also
+ be invented to guarantee the
+ private information of users",color=blue];
+	324 [label="the contribution
+ of the mobile phone to
+ our modern society is prominent
+ and people's dependence on it
+ is irreversible",color=green];
+	273 [label="the mobile phone
+ has become a dispensable multifunctional
+ tools in people's daily life
+",color=blue];
 	324 [label="the contribution
  of the mobile phone to
  our modern society is prominent
@@ -46,6 +82,9 @@ digraph G {
  , a music player ,
  a personal organizer and so
  forth",color=blue];
-	316 [label="nothing can be overused without
- side effects",color=green];
+	324 [label="the contribution
+ of the mobile phone to
+ our modern society is prominent
+ and people's dependence on it
+ is irreversible",color=green];
 }

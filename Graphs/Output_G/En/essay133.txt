@@ -1,12 +1,39 @@
 digraph G {
-	85 -> 66;
+	97 -> 169;
+	128 -> 169;
+	180 -> 240;
+	196 -> 240;
 	217 -> 240;
-	66 [label="computer can influence society ,
- and people's lives have already
- been controlled by device",color=green];
-	85 [label="this modern device has been a
- major hindrance to some people
+	97 [label="a study conducted by
+ mediabank shows that majority of
+ australian adults do not socialize
+ with their families and friends
+ as much as they used
+ to",color=blue];
+	169 [label="using computer
+ can make people easier to
+ complete their work",color=green];
+	128 [label="they spend almost
+ nine hours a day dealing
+ with computers as to produce
+ efficient time in working",color=blue];
+	169 [label="using computer
+ can make people easier to
+ complete their work",color=green];
+	180 [label="businessmen , for example , use
+ computer device to presentation or
+ communication with their colleagues",color=blue];
+	240 [label="in era technology like this age
+ , computer becomes important thing
+ in human life",color=green];
+	196 [label="communication by feature-computer such as
+ email and internet help busy
+ businessmen to make deal with
+ relation even in different country
 ",color=blue];
+	240 [label="in era technology like this age
+ , computer becomes important thing
+ in human life",color=green];
 	217 [label="this is due to
  using computer more efficient and
  , many workers cannot do

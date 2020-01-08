@@ -1,52 +1,134 @@
 digraph G {
-	118 -> 92;
-	118 -> 229;
-	141 -> 229;
-	157 -> 229;
-	92 [label="it would be easier
- for the juries to make
- a decision if they know
- about the past information about
- the criminal",color=green];
+	118 -> 350;
+	141 -> 350;
+	157 -> 350;
+	185 -> 350;
+	199 -> 350;
+	206 -> 350;
+	212 -> 350;
+	229 -> 350;
+	265 -> 350;
+	291 -> 350;
+	304 -> 350;
+	328 -> 350;
 	118 [label="knowing their background
  very well will enable the
  juries to analyze the crime
  before coming up with a
  judgment",color=blue];
-	118 [label="knowing their background
- very well will enable the
- juries to analyze the crime
- before coming up with a
- judgment",color=blue];
-	229 [label="exposing them
- to the past records of
- the criminal can give them
- more room to think rationally
- and finally put the pieces
- together in order to produce
- a more meaningful decision",color=green];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
 	141 [label="take a person who has
  not murdered anyone but is
  suddenly found to be guilty
 ",color=blue];
-	229 [label="exposing them
- to the past records of
- the criminal can give them
- more room to think rationally
- and finally put the pieces
- together in order to produce
- a more meaningful decision",color=green];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
 	157 [label="the juries will be
  able to know weather the
  individual committed the crime intentionally
  or due to circumstances by
  knowing the facts about the
  person",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
+	185 [label="punishment can be given in accordance
+ to the condition",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
+	199 [label="a fair
+ trial can be achieved",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
+	206 [label="as",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
+	212 [label="juries are a group
+ of people who have no
+ or less knowledge regarding law
+",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
 	229 [label="exposing them
  to the past records of
  the criminal can give them
  more room to think rationally
  and finally put the pieces
  together in order to produce
- a more meaningful decision",color=green];
+ a more meaningful decision",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
+	265 [label="the juries will have a sense
+ of relief that they have
+ come up with better conclusion
+ based on plenty of evidences
+",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
+	291 [label="the convicted will also receive
+ a fair action",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
+	304 [label="when the
+ background of the convicted is
+ 'dug' deeper and is revealed
+ to mass of anonymous people
+ , his privacy is being
+ jeopardized",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
+	328 [label="if finally he
+ is proven innocent , he
+ may feel embarrassed to face
+ the public",color=blue];
+	350 [label="the crimes done by criminals should
+ be brought to light and
+ the public should be aware
+ of it so that they
+ will not become a victim
+ as well",color=green];
 }

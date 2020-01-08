@@ -1,2 +1,124 @@
 digraph G {
+	21 -> 30;
+	45 -> 113;
+	72 -> 113;
+	98 -> 113;
+	130 -> 283;
+	147 -> 283;
+	167 -> 283;
+	182 -> 283;
+	196 -> 283;
+	215 -> 283;
+	231 -> 283;
+	250 -> 283;
+	263 -> 283;
+	21 [label="creativity originates in a free
+ mind",color=blue];
+	30 [label="creative artists must be given the
+ freedom to express their ideas
+ without any restrictions",color=green];
+	45 [label="time and again , creative artists
+ like michaelangelo , picasso ,
+ salman rushdie , shakespeare etc
+ . have made artistic works
+ which gave a social message
+",color=blue];
+	113 [label="innovative works makes
+ people realize things in a
+ peaceful way and peep into
+ their own conscience",color=green];
+	72 [label="right from sculptures to
+ paintings , books to drama
+ and movies , all these
+ artistic works have reflected the
+ contemporary social issues of different
+ eras",color=blue];
+	113 [label="innovative works makes
+ people realize things in a
+ peaceful way and peep into
+ their own conscience",color=green];
+	98 [label="creative works help
+ to create social awareness by
+ giving a social message",color=blue];
+	113 [label="innovative works makes
+ people realize things in a
+ peaceful way and peep into
+ their own conscience",color=green];
+	130 [label="it helps to raise issues and
+ criticize the wrong doings of
+ the governments",color=blue];
+	283 [label="artists should have
+ self-awareness not to create vulgar
+ , hurtful or useless works
+ which do not serve any
+ purpose",color=green];
+	147 [label="bangladeshi writer taslima nasrin
+ was accused of acting against
+ the government , just because
+ she raised a social issue
+",color=blue];
+	283 [label="artists should have
+ self-awareness not to create vulgar
+ , hurtful or useless works
+ which do not serve any
+ purpose",color=green];
+	167 [label="this type of approach
+ is a hurdle in promoting
+ creative minds",color=blue];
+	283 [label="artists should have
+ self-awareness not to create vulgar
+ , hurtful or useless works
+ which do not serve any
+ purpose",color=green];
+	182 [label="creativity also gives aesthetic
+ charm",color=blue];
+	283 [label="artists should have
+ self-awareness not to create vulgar
+ , hurtful or useless works
+ which do not serve any
+ purpose",color=green];
+	196 [label="frank zappa once said ,
+ mind is like a parachute
+ , it doesn't work if
+ its not open",color=blue];
+	283 [label="artists should have
+ self-awareness not to create vulgar
+ , hurtful or useless works
+ which do not serve any
+ purpose",color=green];
+	215 [label="restrictions would just curb the innovative
+ ideas of the artists and
+ would limit their",color=blue];
+	283 [label="artists should have
+ self-awareness not to create vulgar
+ , hurtful or useless works
+ which do not serve any
+ purpose",color=green];
+	231 [label="like the media , artists
+ should also be given the
+ freedom to express their ideas
+ freely",color=blue];
+	283 [label="artists should have
+ self-awareness not to create vulgar
+ , hurtful or useless works
+ which do not serve any
+ purpose",color=green];
+	250 [label="artists should also know not to
+ hurt the sentiments of the
+ people",color=blue];
+	283 [label="artists should have
+ self-awareness not to create vulgar
+ , hurtful or useless works
+ which do not serve any
+ purpose",color=green];
+	263 [label="many artists have
+ been involved in controversies because
+ of hurting the religious or
+ social beliefs of the common
+ people",color=blue];
+	283 [label="artists should have
+ self-awareness not to create vulgar
+ , hurtful or useless works
+ which do not serve any
+ purpose",color=green];
 }

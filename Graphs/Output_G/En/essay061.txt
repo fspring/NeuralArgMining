@@ -3,15 +3,17 @@ digraph G {
 	63 -> 150;
 	77 -> 150;
 	93 -> 150;
-	184 -> 364;
-	205 -> 364;
-	218 -> 364;
-	231 -> 364;
+	109 -> 150;
+	133 -> 150;
+	184 -> 249;
+	205 -> 249;
+	218 -> 249;
+	231 -> 249;
 	255 -> 364;
 	286 -> 364;
-	293 -> 374;
+	293 -> 364;
 	318 -> 364;
-	338 -> 374;
+	338 -> 364;
 	53 [label="in the modern
  world , computers are used
  everywhere",color=blue];
@@ -46,31 +48,47 @@ digraph G {
  help to increase productivity and
  other countless benefits are provided
  by it",color=green];
+	109 [label="in earlier
+ days , if one had
+ to send a message to
+ someone in other country ,
+ it used to take months
+",color=blue];
+	150 [label="computers provide speed , increase efficiency
+ , accuracy , precision ,
+ help to increase productivity and
+ other countless benefits are provided
+ by it",color=green];
+	133 [label="today , it
+ can be sent in few
+ minutes by typing a email
+ and few clicks",color=blue];
+	150 [label="computers provide speed , increase efficiency
+ , accuracy , precision ,
+ help to increase productivity and
+ other countless benefits are provided
+ by it",color=green];
 	184 [label="from a
  computer as big as a
  room , it has now
  been minimized to the size
  of a palm",color=blue];
-	364 [label="computers have
- provided security and sophistication too
-",color=green];
+	249 [label="computers have
+ made humans over-dependent",color=green];
 	205 [label="nanotechnology is working to make computers
  to the order of microscopic
  levels",color=blue];
-	364 [label="computers have
- provided security and sophistication too
-",color=green];
+	249 [label="computers have
+ made humans over-dependent",color=green];
 	218 [label="research on making
  computerized drone soldiers (unmanned computer
  controlled) is going on",color=blue];
-	364 [label="computers have
- provided security and sophistication too
-",color=green];
+	249 [label="computers have
+ made humans over-dependent",color=green];
 	231 [label="there is no end to
  the evolution of computers",color=blue];
-	364 [label="computers have
- provided security and sophistication too
-",color=green];
+	249 [label="computers have
+ made humans over-dependent",color=green];
 	255 [label="virus programs , privacy breach ,
  leak of confidential documents ,
  cyber attacks , identity theft
@@ -78,35 +96,30 @@ digraph G {
  some of its demerits ,
  from a countless list",color=blue];
 	364 [label="computers have
- provided security and sophistication too
-",color=green];
+ provided security and sophistication",color=green];
 	286 [label="computers expose children to vulgar
  materials",color=blue];
 	364 [label="computers have
- provided security and sophistication too
-",color=green];
+ provided security and sophistication",color=green];
 	293 [label="they have even
  invaded mental health of humans
  , for example , fad
  (facebook addiction disorder - excessive
  use of social networking website
  facebook)",color=blue];
-	374 [label="dependence on
- computers is not a bad
- thing",color=green];
+	364 [label="computers have
+ provided security and sophistication",color=green];
 	318 [label="computers have intruded
  our lives to the effect
  that a satellite can peep
  into our homes and privates
  lives",color=blue];
 	364 [label="computers have
- provided security and sophistication too
-",color=green];
+ provided security and sophistication",color=green];
 	338 [label="the recent case
  of wikileaks , leaking confidential
  data is an example of
  how computers are harmful",color=blue];
-	374 [label="dependence on
- computers is not a bad
- thing",color=green];
+	364 [label="computers have
+ provided security and sophistication",color=green];
 }

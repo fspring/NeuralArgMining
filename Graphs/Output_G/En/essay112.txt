@@ -1,2 +1,73 @@
 digraph G {
+	80 -> 261;
+	117 -> 261;
+	136 -> 261;
+	152 -> 261;
+	171 -> 261;
+	178 -> 261;
+	190 -> 261;
+	205 -> 261;
+	222 -> 261;
+	80 [label="they are also relatively versatile ;
+ different types of exam questions
+ , for example , multiple-choice
+ questions and essay tasks ,
+ can test different sorts of
+ reasoning ability",color=blue];
+	261 [label="exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
+	117 [label="test-wise candidates can often
+ perform well on exams without
+ having good underlying knowledge or
+ skills",color=blue];
+	261 [label="exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
+	136 [label="some test-takers perform cannot achieve
+ a satisfying result because of
+ anxiety",color=blue];
+	261 [label="exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
+	152 [label="teachers and learners focus
+ only on theses aspects of
+ the curriculum that are likely
+ to be tested",color=blue];
+	261 [label="exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
+	171 [label="narrowing the educational experience for
+ all",color=blue];
+	261 [label="exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
+	178 [label="a number of
+",color=blue];
+	261 [label="exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
+	190 [label="wherever possible , exams should match
+ the content and activities of
+ the learning environment",color=blue];
+	261 [label="exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
+	205 [label="exam task should be varied to
+ give fair opportunities to candidates
+ with different types of skills
+",color=blue];
+	261 [label="exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
+	222 [label="other types of assessment
+ should also be considered ,
+ assignment writing , for example
+ , to assess independent learning
+ and research skills , or
+ group projects , to measure
+ teamwork ability",color=blue];
+	261 [label="exams have a role to
+ play in ensuring proper and
+ objective assessment of achievement",color=green];
 }

@@ -1,102 +1,98 @@
 digraph G {
-	115 -> 96;
-	115 -> 191;
-	145 -> 191;
-	170 -> 191;
-	220 -> 191;
-	273 -> 373;
-	295 -> 373;
-	331 -> 373;
-	344 -> 373;
+	96 -> 170;
+	115 -> 170;
+	145 -> 170;
+	220 -> 399;
+	247 -> 399;
+	271 -> 399;
+	273 -> 399;
+	295 -> 399;
+	331 -> 399;
+	344 -> 399;
+	373 -> 399;
 	96 [label="the progress of material technology
  leads to the sharp fall
  of price of a great
- number of products",color=green];
+ number of products",color=blue];
+	170 [label="most members of our society can
+ benefit from the consequences of
+ technical advancements , especially the
+ poor people",color=green];
 	115 [label="about ten years ago , mobile
  phones ware very expensive for
  most members of my country
  , only a few of
  rich individuals have enough money
  to buy one",color=blue];
-	115 [label="about ten years ago , mobile
- phones ware very expensive for
- most members of my country
- , only a few of
- rich individuals have enough money
- to buy one",color=blue];
-	191 [label="technical developments improve productivity ,
- which help people to escape
- from daily chores , and
- invest more time and energy
- in studying and living a
- more meaningful life",color=green];
+	170 [label="most members of our society can
+ benefit from the consequences of
+ technical advancements , especially the
+ poor people",color=green];
 	145 [label="today , mobile phones become a
  common one of household items
  , which due to the
  cheaper materials and better producing
  technologies",color=blue];
-	191 [label="technical developments improve productivity ,
- which help people to escape
- from daily chores , and
- invest more time and energy
- in studying and living a
- more meaningful life",color=green];
 	170 [label="most members of our society can
  benefit from the consequences of
  technical advancements , especially the
- poor people",color=blue];
-	191 [label="technical developments improve productivity ,
- which help people to escape
- from daily chores , and
- invest more time and energy
- in studying and living a
- more meaningful life",color=green];
-	191 [label="technical developments improve productivity ,
- which help people to escape
- from daily chores , and
- invest more time and energy
- in studying and living a
- more meaningful life",color=green];
+ poor people",color=green];
 	220 [label="with the development of internet ,
  we can enjoy the pleasure
  and conveniences which it brings
  about for us every day
 ",color=blue];
+	399 [label="the good
+ technology bringing to us is
+ undeniable",color=green];
+	247 [label="we had to spend
+ a lot of time searching
+ information and waiting for letters
+ of our friends who lived
+ far away from us",color=blue];
+	399 [label="the good
+ technology bringing to us is
+ undeniable",color=green];
+	271 [label="nowadays",color=blue];
+	399 [label="the good
+ technology bringing to us is
+ undeniable",color=green];
 	273 [label="we can talk
  with our friends online ,
  no matter where we are
  and how far between us
 ",color=blue];
-	373 [label="it is a
- limp opposition to the remarkable
- advantages of technology , and
- technology is not the root
- cause of the gap",color=green];
+	399 [label="the good
+ technology bringing to us is
+ undeniable",color=green];
 	295 [label="the internet gives everyone access to
  the same information , this
-",color=blue];
-	373 [label="it is a
- limp opposition to the remarkable
- advantages of technology , and
- technology is not the root
- cause of the gap",color=green];
+ therefore leads to greater equality
+ between individuals",color=blue];
+	399 [label="the good
+ technology bringing to us is
+ undeniable",color=green];
 	331 [label="the gap between rich people
  and poor is widen by
- technology ,",color=blue];
-	373 [label="it is a
- limp opposition to the remarkable
- advantages of technology , and
- technology is not the root
- cause of the gap",color=green];
+ technology",color=blue];
+	399 [label="the good
+ technology bringing to us is
+ undeniable",color=green];
 	344 [label="only the
  rich people have ability to
  afford the expensive high-tech products
  , and these products can
  help them to earn more
  in return",color=blue];
+	399 [label="the good
+ technology bringing to us is
+ undeniable",color=green];
 	373 [label="it is a
  limp opposition to the remarkable
  advantages of technology , and
  technology is not the root
- cause of the gap",color=green];
+ cause of the gap",color=blue];
+	399 [label="the good
+ technology bringing to us is
+ undeniable",color=green];
 }

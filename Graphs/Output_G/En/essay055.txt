@@ -1,11 +1,21 @@
 digraph G {
+	91 -> 207;
 	113 -> 207;
-	129 -> 303;
-	155 -> 331;
-	184 -> 303;
-	228 -> 331;
-	247 -> 303;
+	129 -> 207;
+	155 -> 207;
+	184 -> 207;
+	228 -> 303;
 	260 -> 303;
+	287 -> 303;
+	91 [label="with some basic knowledge of
+ diverse fields , students have
+ more options in choosing specialized
+ areas or jobs in the
+ future",color=blue];
+	207 [label="this education model can
+ cultivate more talents who specialized
+ in different areas and increase
+ studying effectiveness",color=green];
 	113 [label="teenagers are still
  too young and immature to
  decide what they are going
@@ -20,41 +30,32 @@ digraph G {
  subjects balances their schoolwork stress
  and fosters their enthusiasm on
  classes",color=blue];
-	303 [label="concentrating on one
- subject can reduce students' pressure
- and foster the effectiveness in
- training talents , while its
- shortfalls are so vital to
- students' future",color=green];
+	207 [label="this education model can
+ cultivate more talents who specialized
+ in different areas and increase
+ studying effectiveness",color=green];
 	155 [label="still many teenagers cannot enjoy the
  variation of the curriculum ,
  instead , they feel more
  stressful with so much homework
  and exams to be done
 ",color=blue];
-	331 [label="i do support the view
- of learning all school subjects
-",color=green];
+	207 [label="this education model can
+ cultivate more talents who specialized
+ in different areas and increase
+ studying effectiveness",color=green];
 	184 [label="most students
  regard the extra knowledge useless
  and impractical for their future
  jobs",color=blue];
-	303 [label="concentrating on one
- subject can reduce students' pressure
- and foster the effectiveness in
- training talents , while its
- shortfalls are so vital to
- students' future",color=green];
+	207 [label="this education model can
+ cultivate more talents who specialized
+ in different areas and increase
+ studying effectiveness",color=green];
 	228 [label="students can devote
  more time and efforts in
  one subject and reduce pressure
  from other subjects",color=blue];
-	331 [label="i do support the view
- of learning all school subjects
-",color=green];
-	247 [label="the drawbacks of this
- teaching method cannot be neglected
-",color=blue];
 	303 [label="concentrating on one
  subject can reduce students' pressure
  and foster the effectiveness in
@@ -66,6 +67,15 @@ digraph G {
  regret their original choice and
  change their specialized field in
  their further study",color=blue];
+	303 [label="concentrating on one
+ subject can reduce students' pressure
+ and foster the effectiveness in
+ training talents , while its
+ shortfalls are so vital to
+ students' future",color=green];
+	287 [label="the dullness of course
+ may deeply influence their passion
+ on study",color=blue];
 	303 [label="concentrating on one
  subject can reduce students' pressure
  and foster the effectiveness in

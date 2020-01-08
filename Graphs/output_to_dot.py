@@ -1,9 +1,11 @@
 import os
 
 # dir = 'Output/Pt'
+# dir = 'Output/Pt_baseline'
 # graph_dir = 'Output_G/Pt'
 
-dir = 'Output/En'
+# dir = 'Output/En'
+dir = 'Output/En_baseline'
 graph_dir = 'Output_G/En'
 
 files = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
@@ -17,6 +19,8 @@ for filename in files:
 
     arg = fields[1][1]
     text = fields[0]
+    text = text.replace('\"', '')
+    text = text.replace('\“', '')
     dist = int(float(fields[-1][:-1]))
     begin = end = 0
 
@@ -52,6 +56,8 @@ for filename in files:
             link = spans[span_id][2]
             if link == span_id:
                 continue
+            if link not in spans.keys():
+                print(span_id, link)
             edges += '\t' + str(span_id) + ' -> ' + str(link) + ';\n'
             attrs += '\t' + str(span_id) + ' [label=\"' + spans[span_id][3] + '\",color=blue];\n'
             attrs += '\t' + str(link) + ' [label=\"' + spans[link][3] + '\",color=green];\n'

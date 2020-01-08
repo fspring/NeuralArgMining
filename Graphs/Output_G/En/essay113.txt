@@ -1,7 +1,42 @@
 digraph G {
+	33 -> 101;
+	54 -> 101;
+	82 -> 101;
 	125 -> 183;
-	174 -> 156;
-	174 -> 183;
+	156 -> 183;
+	246 -> 320;
+	265 -> 320;
+	285 -> 320;
+	298 -> 320;
+	33 [label="in the area
+ of health , poorer nations
+ normally have less quantity of
+ doctors and nurses compared to
+ richer nations",color=blue];
+	101 [label="richer nations can contribute by
+ delegating doctors and nurses to
+ these power nations as well
+ as donate money to build
+ hospitals",color=green];
+	54 [label="high population
+ in poorer countries due to
+ lack of family planning caused
+ the proportion of doctors unbalance
+ to the quantity of resident
+",color=blue];
+	101 [label="richer nations can contribute by
+ delegating doctors and nurses to
+ these power nations as well
+ as donate money to build
+ hospitals",color=green];
+	82 [label="poorer nations are lack
+ of hospitals to fulfill the
+ demand of the patients",color=blue];
+	101 [label="richer nations can contribute by
+ delegating doctors and nurses to
+ these power nations as well
+ as donate money to build
+ hospitals",color=green];
 	125 [label="in the area of education ,
  it is generally agreed that
  poorer countries often lack of
@@ -15,13 +50,40 @@ digraph G {
 	156 [label="education for these countries normally
  is not free so only
  certain group of students can
- afford it",color=green];
-	174 [label="in order
- to solve",color=blue];
-	174 [label="in order
- to solve",color=blue];
+ afford it",color=blue];
 	183 [label="richer countries can
  allocate experienced educators to train
  more teachers and lecturers in
  poorer countries",color=green];
+	246 [label="trading are less active in
+ poorer countries may also be
+ caused by incomplete transportation infrastructure
+",color=blue];
+	320 [label="richer nations should take more responsibility
+ for helping the poorer nations
+ in all health , education
+ and trade",color=green];
+	265 [label="residents in rural areas still depend
+ on their own farm for
+ food production",color=blue];
+	320 [label="richer nations should take more responsibility
+ for helping the poorer nations
+ in all health , education
+ and trade",color=green];
+	285 [label="richer nations can provide financial service
+ to poorer countries to encourage
+ trading",color=blue];
+	320 [label="richer nations should take more responsibility
+ for helping the poorer nations
+ in all health , education
+ and trade",color=green];
+	298 [label="the former can
+ also give consultation on setting
+ up a complete and efficient
+ transportation infrastructure to support trading
+",color=blue];
+	320 [label="richer nations should take more responsibility
+ for helping the poorer nations
+ in all health , education
+ and trade",color=green];
 }

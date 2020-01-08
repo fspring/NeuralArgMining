@@ -1,25 +1,29 @@
 digraph G {
-	81 -> 50;
 	81 -> 125;
+	94 -> 125;
 	107 -> 125;
 	146 -> 201;
+	158 -> 201;
 	181 -> 201;
-	253 -> 406;
+	253 -> 394;
 	270 -> 394;
 	281 -> 394;
 	313 -> 394;
+	322 -> 394;
 	339 -> 394;
-	352 -> 406;
-	376 -> 406;
-	50 [label="alternative means of transportation and international
- laws in controlling automobiles should
- be introduced",color=green];
+	352 -> 394;
+	376 -> 394;
 	81 [label="an increase in the number
  of automobiles brings about environmental
  pollution",color=blue];
-	81 [label="an increase in the number
- of automobiles brings about environmental
- pollution",color=blue];
+	125 [label="it is crucial to alter automobiles
+ to the other means of
+ transportation and to legislate to
+ control automobiles",color=green];
+	94 [label="automobile exhaust
+ and carbon dioxides emission have
+ bad impacts on the air
+",color=blue];
 	125 [label="it is crucial to alter automobiles
  to the other means of
  transportation and to legislate to
@@ -40,6 +44,16 @@ digraph G {
  control car ownership and use
  should be immediately planned and
  implemented",color=green];
+	158 [label="once we get
+ into the traffic jam ,
+ it forces us to waste
+ our time for a while
+",color=blue];
+	201 [label="the methods to reduce the
+ number of automobiles and to
+ control car ownership and use
+ should be immediately planned and
+ implemented",color=green];
 	181 [label="traffic congestion irritates drivers and
  as a result , it
  leads to an increase of
@@ -53,11 +67,9 @@ digraph G {
  emit less carbon dioxides and
  gasses than automobiles are ideal
 ",color=blue];
-	406 [label="alternative forms of transport and
- international laws on controlling automobiles
- are necessary due to the
- environmental protection and the alleviation
- of traffic congestion",color=green];
+	394 [label="some people
+ claim the convenience of automobile
+",color=green];
 	270 [label="rental bicycle system has been introduced
  in several european countries",color=blue];
 	394 [label="some people
@@ -79,6 +91,12 @@ digraph G {
 	394 [label="some people
  claim the convenience of automobile
 ",color=green];
+	322 [label="it is a better
+ form to protect environment than
+ automobile",color=blue];
+	394 [label="some people
+ claim the convenience of automobile
+",color=green];
 	339 [label="the introduction
  of international laws can be
  also effective",color=blue];
@@ -90,17 +108,13 @@ digraph G {
  automobiles by time and to
  allow the people possess one
  car only",color=blue];
-	406 [label="alternative forms of transport and
- international laws on controlling automobiles
- are necessary due to the
- environmental protection and the alleviation
- of traffic congestion",color=green];
+	394 [label="some people
+ claim the convenience of automobile
+",color=green];
 	376 [label="these attempts to reduce automobiles
  can ease traffic congestion and
  environmental pollution",color=blue];
-	406 [label="alternative forms of transport and
- international laws on controlling automobiles
- are necessary due to the
- environmental protection and the alleviation
- of traffic congestion",color=green];
+	394 [label="some people
+ claim the convenience of automobile
+",color=green];
 }

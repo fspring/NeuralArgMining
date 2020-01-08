@@ -1,17 +1,23 @@
 digraph G {
-	99 -> 223;
-	129 -> 223;
-	148 -> 223;
-	155 -> 223;
+	99 -> 211;
+	129 -> 211;
+	148 -> 211;
+	186 -> 211;
+	246 -> 323;
 	263 -> 323;
-	342 -> 323;
+	290 -> 323;
+	360 -> 418;
+	379 -> 418;
+	406 -> 418;
 	99 [label="when people
  without jobs have hand phones
  that have access to the
  internet , they will be
  able to browse the net
  for more job opportunities",color=blue];
-	223 [label="they will be
+	211 [label="if the government provides those
+ without work with a mobile
+ phone , they will be
  able to find themselves an
  occupation in order to live
  and survive",color=green];
@@ -20,26 +26,44 @@ digraph G {
  work section to find a
  job that is suitable for
  them",color=blue];
-	223 [label="they will be
+	211 [label="if the government provides those
+ without work with a mobile
+ phone , they will be
  able to find themselves an
  occupation in order to live
  and survive",color=green];
 	148 [label="with the help
- of the net",color=blue];
-	223 [label="they will be
- able to find themselves an
- occupation in order to live
- and survive",color=green];
-	155 [label="they can also do more research
+ of the net , they
+ can also do more research
  on the work that they
  have found apart from looking
  up on how they can
  prepare themselves for the job
 ",color=blue];
-	223 [label="they will be
+	211 [label="if the government provides those
+ without work with a mobile
+ phone , they will be
  able to find themselves an
  occupation in order to live
  and survive",color=green];
+	186 [label="the mobile phones can also
+ be used to make calls
+ with the companies in which
+ they would like to work
+ with",color=blue];
+	211 [label="if the government provides those
+ without work with a mobile
+ phone , they will be
+ able to find themselves an
+ occupation in order to live
+ and survive",color=green];
+	246 [label="supplying hand phones to the
+ unemployed is a waste of
+ the taxpayers' money",color=blue];
+	323 [label="the money can
+ be used for other intentions
+ rather than giving hand phones
+ to the unemployed",color=green];
 	263 [label="the money instead
  of being used to supply
  the electronic gadget can be
@@ -49,12 +73,41 @@ digraph G {
  be used for other intentions
  rather than giving hand phones
  to the unemployed",color=green];
+	290 [label="the money can be used to
+ build more amenities for the
+ public or given to the
+ poor so that they can
+ use it to help them
+ earn a living",color=blue];
 	323 [label="the money can
  be used for other intentions
  rather than giving hand phones
  to the unemployed",color=green];
-	342 [label="when hand phones are
- provided for free , many
- would want to take advantage
- of this opportunity",color=blue];
+	360 [label="it will not be surprising that
+ in order to obtain a
+ mobile phone , they make
+ themselves jobless",color=blue];
+	418 [label="till now ,
+ there are no surveys or
+ evidences that prove this method
+ in effective in reducing the
+ rate of unemployment",color=green];
+	379 [label="some might
+ even go to the extent
+ of lying that they are
+ on unemployment to make them
+ eligible to get the phones
+",color=blue];
+	418 [label="till now ,
+ there are no surveys or
+ evidences that prove this method
+ in effective in reducing the
+ rate of unemployment",color=green];
+	406 [label="the public's money is spent
+ worthlessly",color=blue];
+	418 [label="till now ,
+ there are no surveys or
+ evidences that prove this method
+ in effective in reducing the
+ rate of unemployment",color=green];
 }

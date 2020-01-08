@@ -1,16 +1,21 @@
 digraph G {
-	89 -> 79;
-	89 -> 191;
-	121 -> 191;
-	131 -> 191;
-	146 -> 191;
-	167 -> 191;
-	204 -> 191;
-	266 -> 345;
+	79 -> 184;
+	89 -> 184;
+	121 -> 184;
+	143 -> 184;
+	167 -> 184;
+	191 -> 345;
+	204 -> 345;
+	226 -> 345;
+	235 -> 345;
+	268 -> 345;
 	284 -> 345;
+	314 -> 345;
 	79 [label="it helps
  academic institutions maintain their high
- education quality",color=green];
+ education quality",color=blue];
+	184 [label="university should
+ only accept good students",color=green];
 	89 [label="unlike middle
  school or high school ,
  university and college require far
@@ -18,54 +23,72 @@ digraph G {
  skills to keep up with
  an enormous amount of complex
  knowledge",color=blue];
-	89 [label="unlike middle
- school or high school ,
- university and college require far
- a lot of ability and
- skills to keep up with
- an enormous amount of complex
- knowledge",color=blue];
-	191 [label="it gives better human resources
- for sophisticated purposes",color=green];
+	184 [label="university should
+ only accept good students",color=green];
 	121 [label="some students may be capable
  in high schools , but
-",color=blue];
-	191 [label="it gives better human resources
- for sophisticated purposes",color=green];
-	131 [label="the pressure of higher education
+ the pressure of higher education
  is tough even for talented
  ones",color=blue];
-	191 [label="it gives better human resources
- for sophisticated purposes",color=green];
-	146 [label="it is only suitable for
+	184 [label="university should
+ only accept good students",color=green];
+	143 [label="that explains why
+ it is only suitable for
  a limited people , and
  opening up for everyone will
- be fatal for institutions ,
-",color=blue];
-	191 [label="it gives better human resources
- for sophisticated purposes",color=green];
+ be fatal for institutions",color=blue];
+	184 [label="university should
+ only accept good students",color=green];
 	167 [label="they need to somehow
  lower the materials so that
  it is practical for everyone
 ",color=blue];
+	184 [label="university should
+ only accept good students",color=green];
 	191 [label="it gives better human resources
- for sophisticated purposes",color=green];
-	191 [label="it gives better human resources
- for sophisticated purposes",color=green];
+ for sophisticated purposes",color=blue];
+	345 [label="everyone should have a compulsory education
+ level up to high school
+ , but the above divisions
+ should be only the realm
+ of the best students",color=green];
 	204 [label="this may
  lead to 'social division' ,
  when someone with high education
  refuses to do the called
- 'low jobs' , but actually
- it gives no harm to
+ 'low jobs'",color=blue];
+	345 [label="everyone should have a compulsory education
+ level up to high school
+ , but the above divisions
+ should be only the realm
+ of the best students",color=green];
+	226 [label="it gives no harm to
  the whole community",color=blue];
-	266 [label="i think limiting the number
+	345 [label="everyone should have a compulsory education
+ level up to high school
+ , but the above divisions
+ should be only the realm
+ of the best students",color=green];
+	235 [label="those standard jobs will always be
+ available for everyone , while
+ complex ones should be only
+ handled by the best people
+ , who start their career
+ from the best institutions",color=blue];
+	345 [label="everyone should have a compulsory education
+ level up to high school
+ , but the above divisions
+ should be only the realm
+ of the best students",color=green];
+	268 [label="limiting the number
  of people who can be
  admitted by universities is a
  good choice",color=blue];
 	345 [label="everyone should have a compulsory education
  level up to high school
-",color=green];
+ , but the above divisions
+ should be only the realm
+ of the best students",color=green];
 	284 [label="it will
  reward the motivation of students
  and constantly keep them in
@@ -75,5 +98,18 @@ digraph G {
 ",color=blue];
 	345 [label="everyone should have a compulsory education
  level up to high school
-",color=green];
+ , but the above divisions
+ should be only the realm
+ of the best students",color=green];
+	314 [label="this improves
+ the overall quality of education
+ and gives the best people
+ to serve in the most
+ necessary needs of the society
+",color=blue];
+	345 [label="everyone should have a compulsory education
+ level up to high school
+ , but the above divisions
+ should be only the realm
+ of the best students",color=green];
 }

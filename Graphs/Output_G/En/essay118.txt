@@ -1,5 +1,4 @@
 digraph G {
-	79 -> 41;
 	79 -> 316;
 	94 -> 316;
 	119 -> 316;
@@ -10,14 +9,6 @@ digraph G {
 	240 -> 316;
 	285 -> 316;
 	299 -> 316;
-	41 [label="their salary at a lower
- level would be more appropriate
- compared with other peoples in
- scientific or social , economic
- fields",color=green];
-	79 [label="they have
- an exceptional ability that other
- people do not own",color=blue];
 	79 [label="they have
  an exceptional ability that other
  people do not own",color=blue];

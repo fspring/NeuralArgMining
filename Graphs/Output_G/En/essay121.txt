@@ -1,42 +1,21 @@
 digraph G {
-	160 -> 68;
-	101 -> 195;
-	139 -> 195;
-	151 -> 195;
+	101 -> 151;
+	125 -> 151;
 	160 -> 195;
-	68 [label="if there is
- not any control on the
- businesses and they are permitted
- to do everything they want
- , they will threaten the
- beings' life such as human
- , animals and plants",color=green];
-	160 [label="a few months ago it was
- broadcast from tv that a
- company which produced baby milk
- , sold milk which did
- not have quality and it
- caused a few babies die
-",color=blue];
 	101 [label="as every day we read
  and hear in televisions and
  newspapers that some factories hit
  the environment by their toxic
  substances",color=blue];
-	195 [label="all companies , factories and businesses
- should be monitored by governments
- and executive",color=green];
-	139 [label="they will
- produce products with low qualities
- and high prices ,",color=blue];
-	195 [label="all companies , factories and businesses
- should be monitored by governments
- and executive",color=green];
 	151 [label="they might hit consumer's life
-",color=blue];
-	195 [label="all companies , factories and businesses
- should be monitored by governments
- and executive",color=green];
+",color=green];
+	125 [label="if we let them do anything
+ they can to just make
+ a profit , they will
+ produce products with low qualities
+ and high prices",color=blue];
+	151 [label="they might hit consumer's life
+",color=green];
 	160 [label="a few months ago it was
  broadcast from tv that a
  company which produced baby milk
@@ -46,5 +25,8 @@ digraph G {
 ",color=blue];
 	195 [label="all companies , factories and businesses
  should be monitored by governments
- and executive",color=green];
+ and executive , and they
+ do not have to let
+ do anything they want just
+ due to making profit",color=green];
 }

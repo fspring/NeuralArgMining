@@ -1,44 +1,53 @@
 digraph G {
-	91 -> 354;
-	114 -> 354;
-	139 -> 354;
-	149 -> 351;
-	164 -> 354;
-	228 -> 351;
-	237 -> 354;
-	278 -> 354;
+	91 -> 216;
+	114 -> 216;
+	139 -> 216;
+	149 -> 216;
+	164 -> 216;
+	197 -> 216;
+	237 -> 351;
+	263 -> 351;
+	278 -> 351;
 	308 -> 351;
+	326 -> 351;
 	91 [label="before email and mobile phone
  , human beings communicated by
  meeting directly , sending letters
  or later , calling from
  home phones",color=blue];
-	354 [label="the threat
- from email and text messaging
- to the status of written
- language",color=green];
+	216 [label="the popularity of email and
+ text messaging , as a
+ result , leads to the
+ losing of written language's position
+",color=green];
 	114 [label="such ways
  usually made people have troubles
  for the expensiveness , difficulties
  in far communication or emergency
  and the loss of information
 ",color=blue];
-	354 [label="the threat
- from email and text messaging
- to the status of written
- language",color=green];
+	216 [label="the popularity of email and
+ text messaging , as a
+ result , leads to the
+ losing of written language's position
+",color=green];
 	139 [label="email and
  cell phones have improved the
  obstacles above",color=blue];
-	354 [label="the threat
- from email and text messaging
- to the status of written
- language",color=green];
+	216 [label="the popularity of email and
+ text messaging , as a
+ result , leads to the
+ losing of written language's position
+",color=green];
 	149 [label="people can
  send or receive electronic letters
  anywhere and anytime they want
 ",color=blue];
-	351 [label="we cannot deny",color=green];
+	216 [label="the popularity of email and
+ text messaging , as a
+ result , leads to the
+ losing of written language's position
+",color=green];
 	164 [label="thanks to
  the function provided by email
  and text messaging (sms) ,
@@ -47,36 +56,66 @@ digraph G {
  information , even to many
  people at the same time
 ",color=blue];
-	354 [label="the threat
- from email and text messaging
- to the status of written
- language",color=green];
-	228 [label="leads to the
+	216 [label="the popularity of email and
+ text messaging , as a
+ result , leads to the
  losing of written language's position
-",color=blue];
-	351 [label="we cannot deny",color=green];
+",color=green];
+	197 [label="they are so convenient
+ that the majority of population
+ prefer to use them instead
+ of some traditional ways",color=blue];
+	216 [label="the popularity of email and
+ text messaging , as a
+ result , leads to the
+ losing of written language's position
+",color=green];
 	237 [label="people tend to use
  slangs and abbreviated words to
  shorten their writing and save
  more time in communicating for
  other activities",color=blue];
-	354 [label="the threat
+	351 [label="we cannot deny the threat
  from email and text messaging
  to the status of written
- language",color=green];
+ language because their obvious popularity
+",color=green];
+	263 [label="language in writing
+ is not in its original
+ form",color=blue];
+	351 [label="we cannot deny the threat
+ from email and text messaging
+ to the status of written
+ language because their obvious popularity
+",color=green];
 	278 [label="people compose a
  message with only emoticons (the
  expressions by face created by
  service providers) , which means
  there is no room for
  writing or typing texts",color=blue];
-	354 [label="the threat
+	351 [label="we cannot deny the threat
  from email and text messaging
  to the status of written
- language",color=green];
+ language because their obvious popularity
+",color=green];
 	308 [label="it is more
  dangerous that youngsters sometimes use
  such new languages in their
  studying , writing assignments",color=blue];
-	351 [label="we cannot deny",color=green];
+	351 [label="we cannot deny the threat
+ from email and text messaging
+ to the status of written
+ language because their obvious popularity
+",color=green];
+	326 [label="if that tendency continues at
+ a rapid pace , written
+ language may face up to
+ a real problem about its
+ stand",color=blue];
+	351 [label="we cannot deny the threat
+ from email and text messaging
+ to the status of written
+ language because their obvious popularity
+",color=green];
 }

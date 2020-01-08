@@ -199,7 +199,7 @@ zappa (I)    0.000
 once (I)    0.000
 said (I)    0.000
 , (I)    0.000
-"mind (I)    0.000
+mind (I)    0.000
 is (I)    0.000
 like (I)    0.000
 a (I)    0.000
@@ -211,7 +211,7 @@ work (I)    0.000
 if (I)    0.000
 its (I)    0.000
 not (I)    0.000
-open“ (I)    0.000
+open (I)    0.000
 . (O)    0.000
 restrictions (P)    0.000
 would (I)    0.000

@@ -1,16 +1,60 @@
 digraph G {
-	177 -> 256;
+	64 -> 177;
+	77 -> 177;
+	100 -> 177;
+	124 -> 177;
+	154 -> 177;
 	198 -> 256;
-	222 -> 314;
-	271 -> 256;
+	222 -> 256;
+	271 -> 314;
+	289 -> 314;
+	64 [label="games help
+ adults relax and become more
+",color=blue];
 	177 [label="adults often do not
  pursue games as a competitive
  activity , while children are
  always keen on competition and
- winning",color=blue];
-	256 [label="adults often consider such behaviors
- as childish and drop them
- immediately",color=green];
+ winning",color=green];
+	77 [label="more often , the
+ pressure of work and family
+ commitment force them to abandon
+ their lifelong hobbies",color=blue];
+	177 [label="adults often do not
+ pursue games as a competitive
+ activity , while children are
+ always keen on competition and
+ winning",color=green];
+	100 [label="they cannot spend enough time and
+ effort to their favorite games
+ as they did in 15
+ or 20 years ago",color=blue];
+	177 [label="adults often do not
+ pursue games as a competitive
+ activity , while children are
+ always keen on competition and
+ winning",color=green];
+	124 [label="in my
+ country , except for a
+ minor part of professional athletes
+ , the majority of people
+ stop playing games seriously as
+ soon as they find a
+ decent job",color=blue];
+	177 [label="adults often do not
+ pursue games as a competitive
+ activity , while children are
+ always keen on competition and
+ winning",color=green];
+	154 [label="they often
+ feel that such games become
+ more troublesome than enjoyable for
+ their daily lives",color=blue];
+	177 [label="adults often do not
+ pursue games as a competitive
+ activity , while children are
+ always keen on competition and
+ winning",color=green];
 	198 [label="for youngsters ,
  maintaining their desire to win
  often develops many outstanding characteristics
@@ -25,16 +69,27 @@ digraph G {
  she never gives up when
  facing a difficult situation ,
  or even becoming hurt",color=blue];
-	314 [label="adults do
- need to play games ,
- but their styles are often
- distinct from children's , which
- are often less competitive and
- more enjoyable",color=green];
 	256 [label="adults often consider such behaviors
  as childish and drop them
  immediately",color=green];
 	271 [label="a competitive person usually finds
  it difficult to cooperate with
  friends and colleagues",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	289 [label="they no
+ longer play games for any
+ moderate achievements , and gradually
+ lose their interest in such
+ activities",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
 }

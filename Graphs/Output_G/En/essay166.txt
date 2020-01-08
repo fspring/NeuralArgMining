@@ -1,46 +1,59 @@
 digraph G {
+	55 -> 92;
 	66 -> 92;
-	106 -> 324;
-	123 -> 308;
+	81 -> 92;
+	123 -> 203;
 	139 -> 203;
-	172 -> 308;
+	148 -> 203;
+	172 -> 203;
 	185 -> 203;
-	214 -> 203;
-	247 -> 308;
-	282 -> 308;
-	287 -> 308;
+	214 -> 265;
+	243 -> 265;
+	275 -> 298;
+	55 [label="big city life provides many opportunities
+",color=blue];
+	92 [label="a big city can
+ offer me many more vacancies
+ than a small town",color=green];
 	66 [label="it will be easier for
  me to find an engineering
  job in the city",color=blue];
 	92 [label="a big city can
  offer me many more vacancies
  than a small town",color=green];
-	106 [label="at the weekends , there
- is a great number of
- things to do in the
- metropolis",color=blue];
-	324 [label="i would
- choose to live in a
- big city",color=green];
+	81 [label="electrical engineering deals with problems
+ concerning electricity supply",color=blue];
+	92 [label="a big city can
+ offer me many more vacancies
+ than a small town",color=green];
 	123 [label="there are numerous
  bars , cafes and restaurants
  where i can go with
  my friends",color=blue];
-	308 [label="big cities offer
- countless amount of opportunities and
- entertainment places",color=green];
+	203 [label="cultural life of
+ a metropolis is always an
+ entertaining one",color=green];
 	139 [label="multinational cities
  have restaurants with different national
  cuisines",color=blue];
 	203 [label="cultural life of
  a metropolis is always an
  entertaining one",color=green];
+	148 [label="i am fond
+ of italian food , and
+ if there is an italian
+ restaurant in the city ,
+ i will definitely visit it
+",color=blue];
+	203 [label="cultural life of
+ a metropolis is always an
+ entertaining one",color=green];
 	172 [label="a night club is
  an interesting place to visit
  for young people",color=blue];
-	308 [label="big cities offer
- countless amount of opportunities and
- entertainment places",color=green];
+	203 [label="cultural life of
+ a metropolis is always an
+ entertaining one",color=green];
 	185 [label="there a person can listen to
  music , make new friends
  or enjoy a a drink
@@ -48,26 +61,27 @@ digraph G {
 	203 [label="cultural life of
  a metropolis is always an
  entertaining one",color=green];
-	203 [label="cultural life of
- a metropolis is always an
- entertaining one",color=green];
 	214 [label="i am
-",color=blue];
-	247 [label="city offers free exhibitions
+ keen on museums and it
+ would be a pleasure for
+ me to spend several hours
+ a week in front of
+ famous paintings , sculptures or
+ artifacts",color=blue];
+	265 [label="cities have better medical facilities than
+ in the countryside",color=green];
+	243 [label="on special dates
+ , city offers free exhibitions
  which are available for everyone
  who is interested in art
 ",color=blue];
-	308 [label="big cities offer
- countless amount of opportunities and
- entertainment places",color=green];
-	282 [label="if i feel bad
- ,",color=blue];
-	308 [label="big cities offer
- countless amount of opportunities and
- entertainment places",color=green];
-	287 [label="city can provide a
+	265 [label="cities have better medical facilities than
+ in the countryside",color=green];
+	275 [label="this can at least assure me
+ that if i feel bad
+ , city can provide a
  high quality help",color=blue];
-	308 [label="big cities offer
- countless amount of opportunities and
- entertainment places",color=green];
+	298 [label="while small towns
+ have picturesque nature and pure
+ air",color=green];
 }

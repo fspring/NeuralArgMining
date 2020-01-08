@@ -1,22 +1,17 @@
 digraph G {
-	77 -> 60;
+	60 -> 151;
 	77 -> 151;
 	126 -> 151;
-	229 -> 270;
+	169 -> 256;
+	182 -> 256;
+	229 -> 256;
 	60 [label="tourists from different cultures will probably
  cause changes to the cultural
  identity of the tourist destinations
+",color=blue];
+	151 [label="international tourism can create negative
+ impacts on the destination countries
 ",color=green];
-	77 [label="take thailand for example
- , in the vietnam war
- , many american soldiers came
- to thailand for a break
- and involved in sexual and
- drug activities , these huge
- demands caused many local businesses
- opened and expanded , even
- illegally involved in under-age prostitutes
- to maximize their profits",color=blue];
 	77 [label="take thailand for example
  , in the vietnam war
  , many american soldiers came
@@ -38,12 +33,28 @@ digraph G {
 	151 [label="international tourism can create negative
  impacts on the destination countries
 ",color=green];
+	169 [label="tourism increasingly
+ create harms to the natural
+ habitats of the destination appeals
+",color=blue];
+	256 [label="tourism has threatened the nature
+ environments",color=green];
+	182 [label="as the australia’s great
+ barrier reef has shown ,
+ the billion visitors per annum
+ has generated immense destruction to
+ this nature wonder , namely
+ breaking the corals caused by
+ walking or throwing boat’s anchors
+ , dropping fuel and other
+ sorts of pollutions",color=blue];
+	256 [label="tourism has threatened the nature
+ environments",color=green];
 	229 [label="many marine
  lives have been endangered ,
  in the extremes part of
  the reef become uninhabitable for
  these marine species",color=blue];
-	270 [label="the tourism has created threatening pressure
- on both the sociocultural and
- natural environments",color=green];
+	256 [label="tourism has threatened the nature
+ environments",color=green];
 }

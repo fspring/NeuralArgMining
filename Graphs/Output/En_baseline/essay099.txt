@@ -311,7 +311,7 @@ or (I)    0.000
 by (I)    0.000
 working (I)    0.000
 . (O)    0.000
-they (P)  235.000
+they (P)  0.000
 tend (I)    0.000
 to (I)    0.000
 contribute (I)    0.000

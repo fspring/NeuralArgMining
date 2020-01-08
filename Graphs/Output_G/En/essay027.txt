@@ -1,7 +1,8 @@
 digraph G {
 	76 -> 123;
 	87 -> 123;
-	201 -> 157;
+	157 -> 246;
+	201 -> 246;
 	227 -> 246;
 	76 [label="education is an essential part
  in development",color=blue];
@@ -30,12 +31,18 @@ digraph G {
  countries is to help them
  build up a complete educational
  system instead of financial aid
-",color=green];
+",color=blue];
+	246 [label="developing countries should not totally
+ depend on the financial support
+ from powerful countries",color=green];
 	201 [label="some powerful countries provide financial
  support in order to acquire
  the right to exploit the
  local resources and target the
  local labour market",color=blue];
+	246 [label="developing countries should not totally
+ depend on the financial support
+ from powerful countries",color=green];
 	227 [label="they rarely provide local
  residents with any technological aid
  and even cause contamination in

@@ -1,6 +1,33 @@
 digraph G {
+	83 -> 121;
+	106 -> 121;
 	191 -> 313;
-	216 -> 247;
+	216 -> 313;
+	243 -> 313;
+	258 -> 313;
+	263 -> 313;
+	278 -> 313;
+	83 [label="elementary education ,
+ like the base of a
+ architecture , is the fundamental
+ requirement to be a qualified
+ citizen in today's society ,
+",color=blue];
+	121 [label="a lack of well-established primary
+ education goes hand in hand
+ with a high rate of
+ illiteracy , and this interplay
+ seriously compromises a country's future
+ development",color=green];
+	106 [label="government should guarantee that all
+ people have equal and convenient
+ access to it",color=blue];
+	121 [label="a lack of well-established primary
+ education goes hand in hand
+ with a high rate of
+ illiteracy , and this interplay
+ seriously compromises a country's future
+ development",color=green];
 	191 [label="for higher education , which
  represent the cutting edge of
  a country's academic achievements ,
@@ -18,6 +45,48 @@ digraph G {
  to flourish but also elevate
  its status in the international
  community",color=blue];
-	247 [label="universities can support themselve
- well by",color=green];
+	313 [label="a government should
+ spare effort on young children
+ education as well as universities
+ , both are crucial on
+ the way to a brighter
+ future",color=green];
+	243 [label="some may argue
+ that universities can support themselve
+ well by donation or invention
+",color=blue];
+	313 [label="a government should
+ spare effort on young children
+ education as well as universities
+ , both are crucial on
+ the way to a brighter
+ future",color=green];
+	258 [label="this argument is
+ invalid",color=blue];
+	313 [label="a government should
+ spare effort on young children
+ education as well as universities
+ , both are crucial on
+ the way to a brighter
+ future",color=green];
+	263 [label="researches into humanities
+ and art still need large
+ amount of money",color=blue];
+	313 [label="a government should
+ spare effort on young children
+ education as well as universities
+ , both are crucial on
+ the way to a brighter
+ future",color=green];
+	278 [label="government's big budget
+ on universities may attract more
+ excellent intellectuals and researchers into
+ the country and enjoy a
+ higher reputation worldwide",color=blue];
+	313 [label="a government should
+ spare effort on young children
+ education as well as universities
+ , both are crucial on
+ the way to a brighter
+ future",color=green];
 }

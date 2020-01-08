@@ -1,18 +1,49 @@
 digraph G {
-	195 -> 266;
+	93 -> 158;
+	115 -> 158;
+	125 -> 158;
+	171 -> 218;
+	195 -> 218;
 	234 -> 266;
+	93 [label="no one should
+ suffer from any sort of
+ deficiency in field of health
+ , education , transportation and
+ communication",color=blue];
+	158 [label="the arts play
+ a pivotal role in all-round
+ development of a society",color=green];
+	115 [label="these could only help individuals with
+ their physical requirements",color=blue];
+	158 [label="the arts play
+ a pivotal role in all-round
+ development of a society",color=green];
+	125 [label="there is also a burden on
+ the government to highly concern
+ about the people mental health
+ initiatives which would be unconsciously
+ or sensibly provided by the
+ arts",color=blue];
+	158 [label="the arts play
+ a pivotal role in all-round
+ development of a society",color=green];
+	171 [label="no developed country could be
+ named that music , painting
+ , literature and other fields
+ of arts are out of
+ its government consideration",color=blue];
+	218 [label="investing in art
+ could bring employment opportunities and
+ could end in return of
+ capital occasionally",color=green];
 	195 [label="enriching people's life and enlightening their
  thoughts , the arts basically
  affect the enhancement of societies
  in many positive ways",color=blue];
-	266 [label="not only could investing in
- art be considered as wasting
- money at any kind ,
- but also it would enriches
- the culture of the society
- and governments and individuals would
- benefit from it in multiple
- ways",color=green];
+	218 [label="investing in art
+ could bring employment opportunities and
+ could end in return of
+ capital occasionally",color=green];
 	234 [label="the investment
  could be paid back through
  the values of the created
@@ -22,10 +53,5 @@ digraph G {
 ",color=blue];
 	266 [label="not only could investing in
  art be considered as wasting
- money at any kind ,
- but also it would enriches
- the culture of the society
- and governments and individuals would
- benefit from it in multiple
- ways",color=green];
+ money at any kind",color=green];
 }

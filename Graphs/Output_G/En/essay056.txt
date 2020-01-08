@@ -1,18 +1,61 @@
 digraph G {
-	111 -> 75;
-	111 -> 277;
-	75 [label="communication between countries and cultures become
- convenient",color=green];
+	83 -> 98;
+	87 -> 98;
+	111 -> 238;
+	149 -> 238;
+	171 -> 238;
+	186 -> 238;
+	209 -> 238;
+	227 -> 238;
+	248 -> 277;
+	83 [label="in my country
+ ,",color=blue];
+	98 [label="studying abroad is
+ easy and becomes hot among
+ youngsters",color=green];
+	87 [label="english is a required
+ course from elementary school",color=blue];
+	98 [label="studying abroad is
+ easy and becomes hot among
+ youngsters",color=green];
 	111 [label="language obstacle is no longer
  a problem , which results
  in mutual understanding and trust
  between their mother land and
  the host country",color=blue];
-	111 [label="language obstacle is no longer
- a problem , which results
- in mutual understanding and trust
- between their mother land and
- the host country",color=blue];
+	238 [label="the culture heritage
+ and nation identity",color=green];
+	149 [label="researchers ,
+ especially those who work on
+ high-tech , would have wider
+ range of references if they
+ are good at english",color=blue];
+	238 [label="the culture heritage
+ and nation identity",color=green];
+	171 [label="taking it industry for an
+ example , top technical science
+ is published in english",color=blue];
+	238 [label="the culture heritage
+ and nation identity",color=green];
+	186 [label="it's neither to get a
+ translated version of these articles
+ , nor to always have
+ a translator besides",color=blue];
+	238 [label="the culture heritage
+ and nation identity",color=green];
+	209 [label="they have
+ no choice but choosing english
+ as a second language",color=blue];
+	238 [label="the culture heritage
+ and nation identity",color=green];
+	227 [label="english is making lesser-known
+ languages disappear ever year",color=blue];
+	238 [label="the culture heritage
+ and nation identity",color=green];
+	248 [label="this is really
+ short-sighted , ignoring the rapid
+ development of native economy and
+ society",color=blue];
 	277 [label="the prevalent usage of
  english brings benefits to people
  and countries all around",color=green];

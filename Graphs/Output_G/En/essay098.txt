@@ -1,10 +1,9 @@
 digraph G {
-	83 -> 73;
-	202 -> 292;
+	83 -> 128;
+	165 -> 238;
+	182 -> 238;
+	202 -> 238;
 	259 -> 292;
-	73 [label="children can learn
- about the hardship of earning
- money",color=green];
 	83 [label="when they take
  some kind of paid work
  such as looking after babies
@@ -14,6 +13,29 @@ digraph G {
  which make them mature and
  can deal with many different
  situations in real life",color=blue];
+	128 [label="they are likely
+ to understand their parents' hardship
+ , to respect values of
+ money and to form a
+ good habit of saving",color=green];
+	165 [label="whether they can earn money or
+ not will depend on their
+ effectiveness and attitudes in working
+",color=blue];
+	238 [label="children will be
+ more material , neglect their
+ study for earning money or
+ be exploited by the employers
+",color=green];
+	182 [label="to keep their jobs
+ , children will have to
+ try their best to finish
+ their duties",color=blue];
+	238 [label="children will be
+ more material , neglect their
+ study for earning money or
+ be exploited by the employers
+",color=green];
 	202 [label="if a child works
  as a shop assistant ,
  he will have to keep
@@ -21,12 +43,11 @@ digraph G {
  products , calculate prices correctly
  and take responsibilities for any
  lost",color=blue];
-	292 [label="if children take part
- in some kind of paid
- work with their parents' permission
- , they can learn lively
- lessons and become mature and
- responsible",color=green];
+	238 [label="children will be
+ more material , neglect their
+ study for earning money or
+ be exploited by the employers
+",color=green];
 	259 [label="if children
  get good care and instructions
  from their parents , they

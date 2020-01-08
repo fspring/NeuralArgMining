@@ -1,28 +1,11 @@
 digraph G {
-	87 -> 75;
-	87 -> 195;
 	111 -> 195;
-	131 -> 322;
+	131 -> 195;
 	165 -> 195;
-	215 -> 343;
-	245 -> 316;
-	75 [label="technology plays a key role in
- promoting traditional techniques and lifestyles
-",color=green];
-	87 [label="in terms of time
- and space , technology makes
- it more efficient and effective
- to promote the traditional skills
- and ways of life",color=blue];
-	87 [label="in terms of time
- and space , technology makes
- it more efficient and effective
- to promote the traditional skills
- and ways of life",color=blue];
-	195 [label="technology enriches the way of displaying
- traditional cultural heritage , making
- it more vivid and appealing
-",color=green];
+	215 -> 274;
+	245 -> 274;
+	288 -> 343;
+	322 -> 343;
 	111 [label="in the past , only
  when people went to the
  local place could they experience
@@ -32,15 +15,10 @@ digraph G {
  it more vivid and appealing
 ",color=green];
 	131 [label="this means individuals who were
- engaged in work and therefore
- could not spare time to
- travel or restricted by traffic
- conditions had to miss the
- chance to appreciate the traditional
- skills",color=blue];
-	322 [label="people tend to follow
- the trend back to the
- tradition in the recent years
+ engaged in work and",color=blue];
+	195 [label="technology enriches the way of displaying
+ traditional cultural heritage , making
+ it more vivid and appealing
 ",color=green];
 	165 [label="with the access to the internet
  , one of the greatest
@@ -58,12 +36,30 @@ digraph G {
  state-of-the-art technological methods , such
  as robots and led screens
 ",color=blue];
-	343 [label="technology indeed supports
- the preservation and promotion of
- traditional techniques and lifestyles",color=green];
+	274 [label="technology may
+ have a detrimental effect on
+ the traditional lifestyles",color=green];
 	245 [label="many tourists around the world marveled
  at the perfect synthesis of
  the modern technology and the
  traditional culture",color=blue];
-	316 [label="this is not the",color=green];
+	274 [label="technology may
+ have a detrimental effect on
+ the traditional lifestyles",color=green];
+	288 [label="people , especially
+ youngsters , are crazier about
+ fresh and advanced things ,
+ such as digital products ,
+ thus becoming indifferent to traditional
+ techniques",color=blue];
+	343 [label="technology indeed supports
+ the preservation and promotion of
+ traditional techniques and lifestyles",color=green];
+	322 [label="people tend to follow
+ the trend back to the
+ tradition in the recent years
+",color=blue];
+	343 [label="technology indeed supports
+ the preservation and promotion of
+ traditional techniques and lifestyles",color=green];
 }

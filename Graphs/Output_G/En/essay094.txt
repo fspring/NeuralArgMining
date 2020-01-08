@@ -1,115 +1,108 @@
 digraph G {
-	24 -> 35;
-	248 -> 50;
-	85 -> 280;
-	134 -> 280;
-	153 -> 280;
-	173 -> 280;
-	189 -> 280;
-	204 -> 280;
-	229 -> 280;
-	248 -> 280;
-	24 [label="it will
- bring many",color=blue];
-	35 [label="health education",color=green];
+	50 -> 262;
+	85 -> 262;
+	110 -> 262;
+	128 -> 262;
+	153 -> 262;
+	173 -> 262;
+	189 -> 262;
+	204 -> 262;
+	229 -> 262;
+	249 -> 262;
+	280 -> 314;
+	293 -> 314;
 	50 [label="thank to a full health education
  from their childhoods , children
  will have good habits of
  taking care of their own
  health and these habits may
  be kept in their adolescences
-",color=green];
-	248 [label="as human resources
- play a key role in
- the development of a country
- , investing money to enhance
+",color=blue];
+	262 [label="investing money to enhance
  the general health state is
- a totally right decision",color=blue];
+ a totally right decision",color=green];
 	85 [label="if a child is educated to
  have a hygienic lifestyle at
  a very young age ,
  he also keeps it when
  older",color=blue];
-	280 [label="the cost of treatment is often
- much higher than that of
- prevention , the government can
- save a lot of money
- for our country's health budget
-",color=green];
-	134 [label="they may
+	262 [label="investing money to enhance
+ the general health state is
+ a totally right decision",color=green];
+	110 [label="health education will prepare for people
+ especially children necessary knowledge to
+ protect themselves from risks of
+ diseases",color=blue];
+	262 [label="investing money to enhance
+ the general health state is
+ a totally right decision",color=green];
+	128 [label="instead of afraid
+ or panic , they may
  be calmer if unfortunately committing
  some normal diseases such as
  allergy or illness in seasonal
  changes",color=blue];
-	280 [label="the cost of treatment is often
- much higher than that of
- prevention , the government can
- save a lot of money
- for our country's health budget
-",color=green];
+	262 [label="investing money to enhance
+ the general health state is
+ a totally right decision",color=green];
 	153 [label="many diseases which
  may be cured easily can
  turn to serious ones if
  we do not have right
  treatment",color=blue];
-	280 [label="the cost of treatment is often
- much higher than that of
- prevention , the government can
- save a lot of money
- for our country's health budget
-",color=green];
+	262 [label="investing money to enhance
+ the general health state is
+ a totally right decision",color=green];
 	173 [label="health education will
  help people to have right
  choices of treatment to recover
  more quickly",color=blue];
-	280 [label="the cost of treatment is often
- much higher than that of
- prevention , the government can
- save a lot of money
- for our country's health budget
-",color=green];
+	262 [label="investing money to enhance
+ the general health state is
+ a totally right decision",color=green];
 	189 [label="preventative measures
  will help improve general health
  state of all citizens",color=blue];
-	280 [label="the cost of treatment is often
- much higher than that of
- prevention , the government can
- save a lot of money
- for our country's health budget
-",color=green];
+	262 [label="investing money to enhance
+ the general health state is
+ a totally right decision",color=green];
 	204 [label="vaccines will
  guarantee that pregnant women and
  their babies are protected from
  serious infectious diseases such as
  flu , smallpox , rubella
  so on",color=blue];
-	280 [label="the cost of treatment is often
- much higher than that of
- prevention , the government can
- save a lot of money
- for our country's health budget
-",color=green];
+	262 [label="investing money to enhance
+ the general health state is
+ a totally right decision",color=green];
 	229 [label="when huge
  injection campaigns are organized throughout
  our country , the community's
  health state will be improved
  remarkably",color=blue];
-	280 [label="the cost of treatment is often
- much higher than that of
- prevention , the government can
- save a lot of money
- for our country's health budget
-",color=green];
-	248 [label="as human resources
+	262 [label="investing money to enhance
+ the general health state is
+ a totally right decision",color=green];
+	249 [label="human resources
  play a key role in
  the development of a country
- , investing money to enhance
+",color=blue];
+	262 [label="investing money to enhance
  the general health state is
- a totally right decision",color=blue];
+ a totally right decision",color=green];
 	280 [label="the cost of treatment is often
  much higher than that of
- prevention , the government can
+ prevention",color=blue];
+	314 [label="we should
+ give more priority to health
+ education and preventative measures than
+ to treatment",color=green];
+	293 [label="the government can
  save a lot of money
  for our country's health budget
-",color=green];
+",color=blue];
+	314 [label="we should
+ give more priority to health
+ education and preventative measures than
+ to treatment",color=green];
 }

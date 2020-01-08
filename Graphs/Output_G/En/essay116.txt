@@ -1,25 +1,71 @@
 digraph G {
-	111 -> 87;
-	213 -> 273;
-	87 [label="artists should be funded
- is because art helps to
- improve the quality of our
- lives as well as attracting
- tourists",color=green];
+	111 -> 234;
+	143 -> 234;
+	163 -> 234;
+	178 -> 234;
+	199 -> 234;
+	213 -> 234;
+	243 -> 298;
+	257 -> 298;
+	273 -> 298;
 	111 [label="monuments that represent each city
  do not only illustrate the
  city's history and culture ,
  but also make the city
  more beautiful and an attractive
  place for tourists",color=blue];
+	234 [label="another",color=green];
+	143 [label="some countries depend
+ on tourism as their main
+ source of revenue , thus
+ , the governments should help
+ arts",color=blue];
+	234 [label="another",color=green];
+	163 [label="their work crafts
+ are very necessary to boost
+ the tourist industry",color=blue];
+	234 [label="another",color=green];
+	178 [label="sculptures and paintings
+ in the museums and art
+ galleries generally reflect the culture
+ and civilization of every generation
+",color=blue];
+	234 [label="another",color=green];
+	199 [label="culture and
+ history of a country can
+ be reserved and assured by
+ art",color=blue];
+	234 [label="another",color=green];
 	213 [label="young people are
  also able to get more
  knowledge about their country's history
  and culture by observing various
  work crafts",color=blue];
+	234 [label="another",color=green];
+	243 [label="talent in art
+ is extremely precious and should
+ not be wasted",color=blue];
+	298 [label="art is a
+ very valuable object for every
+ country and the talent in
+ this area cannot be discovered
+ everywhere",color=green];
+	257 [label="not many people are
+ blessed in the talent of
+ paintings and work crafts",color=blue];
+	298 [label="art is a
+ very valuable object for every
+ country and the talent in
+ this area cannot be discovered
+ everywhere",color=green];
 	273 [label="this type of
  talent has to be valued
  as other types of talents
  such as talent in science
- or literature",color=green];
+ or literature",color=blue];
+	298 [label="art is a
+ very valuable object for every
+ country and the talent in
+ this area cannot be discovered
+ everywhere",color=green];
 }

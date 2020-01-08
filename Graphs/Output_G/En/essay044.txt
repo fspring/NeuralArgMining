@@ -1,10 +1,17 @@
 digraph G {
+	47 -> 137;
 	57 -> 137;
 	76 -> 137;
 	91 -> 137;
-	204 -> 156;
+	109 -> 137;
 	181 -> 224;
 	204 -> 224;
+	47 [label="the major source of
+ energy today is water",color=blue];
+	137 [label="it would be a
+ good implication by the government
+ to generate electricity from other
+ available sources",color=green];
 	57 [label="there is a lot
  of water shortage to generate
  electricity many countries still rely
@@ -28,25 +35,30 @@ digraph G {
  good implication by the government
  to generate electricity from other
  available sources",color=green];
-	156 [label="the sources most widely used
- currently to generate power releases
- extensive amount of gases into
- the atmosphere which increases global
- warming",color=green];
-	204 [label="the use
- of nuclear energy as an
- alternative to the hydro-kinetic energy
- causes less atmospheric pollution",color=blue];
+	109 [label="if the
+ government encourage the use of
+ nuclear , solar or wind
+ energy there might not be
+ any problem in distributing the
+ required amount electricity",color=blue];
+	137 [label="it would be a
+ good implication by the government
+ to generate electricity from other
+ available sources",color=green];
 	181 [label="the use of a solar
  cooker instead of an electric
  cooker would certainly reduce the
  global warming",color=blue];
 	224 [label="it would
-",color=green];
+ be a better implication by
+ the government to promote other
+ sources of energy",color=green];
 	204 [label="the use
  of nuclear energy as an
  alternative to the hydro-kinetic energy
  causes less atmospheric pollution",color=blue];
 	224 [label="it would
-",color=green];
+ be a better implication by
+ the government to promote other
+ sources of energy",color=green];
 }

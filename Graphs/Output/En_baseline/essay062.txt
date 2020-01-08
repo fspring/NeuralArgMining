@@ -321,7 +321,7 @@ of (I)    0.000
 the (I)    0.000
 society (I)    0.000
 . (O)    0.000
-both (P)  225.000
+both (P)  0.000
 genders (I)    0.000
 are (I)    0.000
 the (I)    0.000

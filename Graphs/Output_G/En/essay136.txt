@@ -1,14 +1,18 @@
 digraph G {
-	97 -> 79;
-	97 -> 312;
-	135 -> 292;
+	79 -> 221;
+	97 -> 221;
+	130 -> 221;
+	161 -> 221;
+	191 -> 221;
 	233 -> 292;
 	256 -> 292;
 	79 [label="the widespread
  of alternative sources of knowledge
  has played an important role
  in students' acquisition of knowledge
-",color=green];
+",color=blue];
+	221 [label="technologies are vital in students'
+ learning",color=green];
 	97 [label="computers can be programmed
  to provide an endless numbers
  of questions in diverse range
@@ -16,23 +20,32 @@ digraph G {
  the students answer these questions
  , the facts has been
  learned and reinforced",color=blue];
-	97 [label="computers can be programmed
- to provide an endless numbers
- of questions in diverse range
- of fields , and as
- the students answer these questions
- , the facts has been
- learned and reinforced",color=blue];
-	312 [label="alternative sources information and
- traditional education systems are equally
- important in children's development",color=green];
-	135 [label="the reading and listening parts of
+	221 [label="technologies are vital in students'
+ learning",color=green];
+	130 [label="a case in point is the
+ reading and listening parts of
  toefl ibt exams , as
  candidates have to answer many
  questions in a limited period
  of time",color=blue];
-	292 [label="formal education approaches are
- also indispensable",color=green];
+	221 [label="technologies are vital in students'
+ learning",color=green];
+	161 [label="when students have some academic
+ problems , they can post
+ those to some websites and
+ receive correct answers from unknown
+ people in faraway places without
+ any costs",color=blue];
+	221 [label="technologies are vital in students'
+ learning",color=green];
+	191 [label="in the past , conducting
+ a research require long hours
+ of searching in library shelves
+ , now all can be
+ done at a click of
+ a button",color=blue];
+	221 [label="technologies are vital in students'
+ learning",color=green];
 	233 [label="schools and university
  are places in which students
  gather to be educated and

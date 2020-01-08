@@ -1,12 +1,217 @@
 digraph G {
-	83 -> 62;
+	14 -> 303;
+	25 -> 303;
+	39 -> 303;
+	46 -> 303;
+	62 -> 303;
+	70 -> 303;
+	83 -> 303;
+	105 -> 303;
+	118 -> 303;
+	130 -> 303;
+	148 -> 303;
+	166 -> 303;
+	188 -> 303;
+	206 -> 303;
+	229 -> 303;
+	253 -> 303;
+	268 -> 303;
+	274 -> 303;
+	285 -> 303;
+	14 [label="we can
+ see the art works and
+ historical objects online",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	25 [label="most people nowadays prefer to use
+ the internet to search for
+ art work",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	39 [label="the internet
+ really brings them convenience",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	46 [label="we can browse the art
+ work from all over the
+ world at home",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
 	62 [label="people may not get
- a spiritual experience since pictures
- online are only limited to
- a screen size",color=green];
+ a spiritual experience",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	70 [label="pictures online are only limited to
+ a screen size",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
 	83 [label="the exhibits in
  museums or galleries are all
  life size and visitors can
  get a more direct felling
 ",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	105 [label="only when we see the real
+ mummy , can we experience
+ mystique",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	118 [label="in order to
+ help visitors to learn more
+ about the exhibits",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	130 [label="museums hold various activities which make
+ visitors be part of what
+ they are seeing",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	148 [label="at american museum
+ of natural history , you
+ can make a bone-by-bone reproduction
+ of the museum's stegosaurus",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	166 [label="at museum of art in
+ new york , you can
+ look at 17th century instruments
+ while listening to their music
+",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	188 [label="if you "visit"
+ the museum online , you
+ may not able to get
+ this kind of experience",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	206 [label="seeing an art work on
+ computer screen is not the
+ same as you watch it
+ by your own eyes",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	229 [label="you can't
+ see the texture of the
+ artwork which is very important
+ to study the skills used
+ by the artist",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	253 [label="not all the
+ details of the artwork can
+ be shown on the computer
+ screen",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	268 [label="some details might
+ be dim",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	274 [label="the resolution
+ ratio of the screen is
+ not high enough",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
+	285 [label="these may influence the comprehension of
+ the art work or historical
+ objects",color=blue];
+	303 [label="we still need
+ museums and art galleries but
+ computers can be introduced to
+ museums and galleries in order
+ to help visitors to know
+ more about the art works
+ or historical objects",color=green];
 }

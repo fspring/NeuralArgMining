@@ -1,12 +1,76 @@
 digraph G {
-	92 -> 71;
-	71 [label="children are free whatever they
- want to do , they
- are not restricted and their
- limitation are really rare",color=green];
+	92 -> 114;
+	126 -> 237;
+	139 -> 237;
+	177 -> 237;
+	204 -> 237;
+	205 -> 237;
 	92 [label="they are in the
  age of growth and they
  are allowed whatever they want
  to do to experience new
  stuffs",color=blue];
+	114 [label="there is
+ no argument and punishment for
+ them",color=green];
+	126 [label="in this age they are
+ not expected to be responsible
+",color=blue];
+	237 [label="they not only free
+ to do whatever they want
+ without any confine or punishment
+ , but also they are
+ free and have a lot
+ of time in their hands
+ to try and experience new
+ things and enjoy them",color=green];
+	139 [label="they do
+ not have to educate and
+ they do not have to
+ work , so they have
+ a lot of time in
+ their hand to enjoy this
+ stage of their life",color=blue];
+	237 [label="they not only free
+ to do whatever they want
+ without any confine or punishment
+ , but also they are
+ free and have a lot
+ of time in their hands
+ to try and experience new
+ things and enjoy them",color=green];
+	177 [label="i made a large
+ number of friends in this
+ age , and i almost
+ traveled to all cities of
+ my county when i was
+ in kindergarten",color=blue];
+	237 [label="they not only free
+ to do whatever they want
+ without any confine or punishment
+ , but also they are
+ free and have a lot
+ of time in their hands
+ to try and experience new
+ things and enjoy them",color=green];
+	204 [label="also",color=blue];
+	237 [label="they not only free
+ to do whatever they want
+ without any confine or punishment
+ , but also they are
+ free and have a lot
+ of time in their hands
+ to try and experience new
+ things and enjoy them",color=green];
+	205 [label="i got familiar with different kind
+ of animals and plants in
+ this age",color=blue];
+	237 [label="they not only free
+ to do whatever they want
+ without any confine or punishment
+ , but also they are
+ free and have a lot
+ of time in their hands
+ to try and experience new
+ things and enjoy them",color=green];
 }

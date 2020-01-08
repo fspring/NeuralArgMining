@@ -1,44 +1,81 @@
 digraph G {
-	74 -> 49;
-	74 -> 63;
+	74 -> 140;
+	84 -> 140;
+	96 -> 140;
+	115 -> 140;
 	152 -> 244;
 	172 -> 244;
 	181 -> 244;
 	198 -> 244;
-	49 [label="the most
- important quality of roommates is
- being considered",color=green];
+	216 -> 244;
+	249 -> 286;
+	256 -> 286;
 	74 [label="consideration is
  always important in relationship",color=blue];
-	63 [label="communication is also
- another essential particularity of a
- good roommate",color=green];
-	74 [label="consideration is
- always important in relationship",color=blue];
+	140 [label="having a considered roommate is significantly
+ imperative to our school life
+",color=green];
+	84 [label="roommate turns
+ down the music or television
+ volume at night time",color=blue];
+	140 [label="having a considered roommate is significantly
+ imperative to our school life
+",color=green];
+	96 [label="sometimes we will not know
+ what we have done until
+ we have a taste of
+ our own medicine",color=blue];
+	140 [label="having a considered roommate is significantly
+ imperative to our school life
+",color=green];
+	115 [label="at all times , think about
+ the other's feeling before doing
+ any self-centered action would help
+ to improve the roommate relationship
+ tremendously",color=blue];
+	140 [label="having a considered roommate is significantly
+ imperative to our school life
+",color=green];
 	152 [label="it will not only
  prevent conflicts but also to
  have a friend or even
  a family member",color=blue];
 	244 [label="communication is
- very important as it would
- clear up the misinterpretation",color=green];
+ very important",color=green];
 	172 [label="communication is as well
  making a good roommate",color=blue];
 	244 [label="communication is
- very important as it would
- clear up the misinterpretation",color=green];
+ very important",color=green];
 	181 [label="people have different habit in
  daily life , such as
  tidy the blanket in the
  morning",color=blue];
 	244 [label="communication is
- very important as it would
- clear up the misinterpretation",color=green];
+ very important",color=green];
 	198 [label="one might think
  this is a piece of
  cake while other would consider
  it as immense project",color=blue];
 	244 [label="communication is
- very important as it would
- clear up the misinterpretation",color=green];
+ very important",color=green];
+	216 [label="if one requested to move
+ out just because his roommate
+ do not tidy up the
+ blanket in the morning might
+ be crying over split milk
+",color=blue];
+	244 [label="communication is
+ very important",color=green];
+	249 [label="it would
+ clear up the misinterpretation",color=blue];
+	286 [label="consideration and communication , in
+ my personal opinion , are
+ the most important quality",color=green];
+	256 [label="through communication , bonded are
+ build and we could have
+ better understanding of each others
+",color=blue];
+	286 [label="consideration and communication , in
+ my personal opinion , are
+ the most important quality",color=green];
 }

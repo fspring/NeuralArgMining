@@ -1,33 +1,29 @@
 digraph G {
-	93 -> 296;
-	112 -> 296;
+	73 -> 112;
+	93 -> 112;
 	159 -> 225;
-	174 -> 296;
-	177 -> 296;
-	202 -> 296;
-	241 -> 225;
-	237 -> 296;
-	241 -> 296;
+	174 -> 225;
+	202 -> 225;
+	237 -> 279;
 	259 -> 279;
-	93 [label="we hear some
- news from time to time
- that someone was hurt by
- accident during the hunting",color=blue];
-	296 [label="the guns should be strictly
- limited and the government should
- enforce a series of laws
- to prevent our societies from
- violence",color=green];
+	73 [label="the accidents cannot
+ be completely avoided although only
+ those who have gun licenses
+ can purchase guns",color=blue];
 	112 [label="the fewer guns possessed
  , the fewer accidents would
  happened , our surroundings would
  be safer with lower accident
- rates",color=blue];
-	296 [label="the guns should be strictly
- limited and the government should
- enforce a series of laws
- to prevent our societies from
- violence",color=green];
+ rates",color=green];
+	93 [label="we hear some
+ news from time to time
+ that someone was hurt by
+ accident during the hunting",color=blue];
+	112 [label="the fewer guns possessed
+ , the fewer accidents would
+ happened , our surroundings would
+ be safer with lower accident
+ rates",color=green];
 	159 [label="guns will
  create a violent society if
  the trend continues",color=blue];
@@ -35,54 +31,31 @@ digraph G {
  raise the rates of suicide
 ",color=green];
 	174 [label="in american
- ,",color=blue];
-	296 [label="the guns should be strictly
- limited and the government should
- enforce a series of laws
- to prevent our societies from
- violence",color=green];
-	177 [label="young adults and even
+ , young adults and even
  juveniles can get access to
  guns , which leads to
  the tragedies of school gun
  shooting",color=blue];
-	296 [label="the guns should be strictly
- limited and the government should
- enforce a series of laws
- to prevent our societies from
- violence",color=green];
+	225 [label="the possession of guns can also
+ raise the rates of suicide
+",color=green];
 	202 [label="some terrorists are able
  to possess more advanced weapons
  than the police , which
  makes citizens always live in
  danger",color=blue];
-	296 [label="the guns should be strictly
- limited and the government should
- enforce a series of laws
- to prevent our societies from
- violence",color=green];
 	225 [label="the possession of guns can also
  raise the rates of suicide
 ",color=green];
-	241 [label="firearms remain the most common
+	237 [label="in the us ,
+ firearms remain the most common
  method of suicide , accounting
  for about 50 per cent
 ",color=blue];
-	237 [label="in the us",color=blue];
-	296 [label="the guns should be strictly
- limited and the government should
- enforce a series of laws
- to prevent our societies from
- violence",color=green];
-	241 [label="firearms remain the most common
- method of suicide , accounting
- for about 50 per cent
-",color=blue];
-	296 [label="the guns should be strictly
- limited and the government should
- enforce a series of laws
- to prevent our societies from
- violence",color=green];
+	279 [label="considering the
+ rise in accident rates ,
+ violent crime rates and suicide
+ rates",color=green];
 	259 [label="there is
  an increasing trend of adolescent
  suicides and suicides among those

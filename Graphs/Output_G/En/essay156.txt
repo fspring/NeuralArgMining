@@ -2,10 +2,13 @@ digraph G {
 	59 -> 119;
 	76 -> 119;
 	85 -> 119;
-	102 -> 119;
+	98 -> 119;
 	131 -> 159;
 	144 -> 159;
+	153 -> 159;
+	190 -> 257;
 	202 -> 257;
+	214 -> 257;
 	227 -> 257;
 	240 -> 257;
 	59 [label="children behaviors
@@ -26,7 +29,8 @@ digraph G {
 	119 [label="unexpectedly the
  violent behavior has effected on
  child’s behaviors",color=green];
-	102 [label="the child would imitate
+	98 [label="in this case
+ , the child would imitate
  the actor's behaviors in order
  to look like to him
 ",color=blue];
@@ -49,13 +53,30 @@ digraph G {
  negative effects on the viewer
  who could be a child
 ",color=green];
+	153 [label="killing is worse
+",color=blue];
+	159 [label="if these
+ scenes are in tv ,
+ they would probably have their
+ negative effects on the viewer
+ who could be a child
+",color=green];
+	190 [label="the study of youngsters shall always
+ been controlled",color=blue];
+	257 [label="the study of a
+ youngster would affected terribly",color=green];
 	202 [label="a child watches a
  frightening movie",color=blue];
 	257 [label="the study of a
  youngster would affected terribly",color=green];
+	214 [label="he has
+ to study for the exam
+",color=blue];
+	257 [label="the study of a
+ youngster would affected terribly",color=green];
 	227 [label="he is thinking about
  the movie or whatever has
- happened in it ,",color=blue];
+ happened in it",color=blue];
 	257 [label="the study of a
  youngster would affected terribly",color=green];
 	240 [label="it is obvious that he wouldn’t

@@ -1,27 +1,59 @@
 digraph G {
-	125 -> 169;
-	136 -> 169;
+	98 -> 175;
+	125 -> 175;
+	210 -> 270;
+	234 -> 270;
+	301 -> 386;
+	340 -> 386;
 	357 -> 386;
+	98 [label="we need to
+ save time for accomplishing some
+ important tasks , and a
+ fitting example of which can
+ be found in my experience
+ of missing exam",color=blue];
+	175 [label="we have to be eager in
+ our lives",color=green];
 	125 [label="i just failed to participate in
- the university entrance exam",color=blue];
-	169 [label="we can
- start",color=green];
-	136 [label="i thought i had enough
+ the university entrance exam because
+ i thought i had enough
  time for eating breakfast and
  transporting to the testing place
  ; while i was stocked
  in a traffic jam and
  then missed the first test
 ",color=blue];
-	169 [label="we can
- start",color=green];
+	175 [label="we have to be eager in
+ our lives",color=green];
+	210 [label="if i can avoid being a
+ sluggish person , i can
+ have a higher probability of
+ fulfilling my dream successfully",color=blue];
+	270 [label="keeping our pace higher is important
+",color=green];
+	234 [label="i had
+ spent more time on practicing
+ playing piano so that i
+ won a piano competition ,
+ defeating those spending less time
+ on practicing",color=blue];
+	270 [label="keeping our pace higher is important
+",color=green];
+	301 [label="it is not necessary for
+ them to notice the time
+ control or acquire the fame
+ of succeed",color=blue];
+	386 [label="living in a higher pace
+ is better",color=green];
+	340 [label="those people with slower pace losing
+ the piano competition can be
+ really happy",color=blue];
+	386 [label="living in a higher pace
+ is better",color=green];
 	357 [label="it is really joyful
  for me that i can
  immerse in the joy of
  the victory and accomplishment",color=blue];
 	386 [label="living in a higher pace
- is better because the advantages
- of this are qualitatively greater
- than that of the opposite
-",color=green];
+ is better",color=green];
 }

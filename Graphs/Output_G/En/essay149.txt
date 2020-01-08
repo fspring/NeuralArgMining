@@ -1,21 +1,124 @@
 digraph G {
-	108 -> 45;
-	108 -> 94;
-	45 [label="one can achieve success more easily
- with the help from his
- or her",color=green];
-	108 [label="our parents receive
- better education than our grandparents
- did , they can provide
- more advices and helps in
- our career",color=blue];
+	94 -> 232;
+	108 -> 232;
+	118 -> 232;
+	129 -> 232;
+	146 -> 232;
+	159 -> 232;
+	182 -> 232;
+	188 -> 232;
+	200 -> 232;
+	214 -> 232;
+	221 -> 232;
+	245 -> 329;
+	268 -> 329;
+	283 -> 329;
+	302 -> 329;
+	313 -> 329;
 	94 [label="more and
  more people have the opportunity
  to receive education from university
+",color=blue];
+	232 [label="family members can help
+ us in many other aspects
 ",color=green];
 	108 [label="our parents receive
  better education than our grandparents
- did , they can provide
+ did",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	118 [label="they can provide
  more advices and helps in
  our career",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	129 [label="in the
+ past , seldom people have
+ the chance to attend a
+ collage",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	146 [label="my grandparents did not get
+ a education even in high
+ school",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	159 [label="when my
+ father had difficulty in solving
+ a problem in his childhood
+ , he had to go
+ to his teacher for help
+",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	182 [label="things have changed a
+ lot",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	188 [label="i grow up
+ in a better condition than
+ my father did",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	200 [label="whenever i have problems , i
+ can always ask my parents
+ for help",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	214 [label="they can
+ solve the problem quickly",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	221 [label="they have learned quite a
+ lot",color=blue];
+	232 [label="family members can help
+ us in many other aspects
+",color=green];
+	245 [label="when i did not know what
+ major to choose when i
+ attend university , my father
+ told a lot",color=blue];
+	329 [label="our parents
+ and other family members can
+ help us a lot in
+ our life",color=green];
+	268 [label="he shared his
+ own experience with me ,
+ which helped me quite a
+ lot",color=blue];
+	329 [label="our parents
+ and other family members can
+ help us a lot in
+ our life",color=green];
+	283 [label="parents are quite
+ experienced than their child ,
+ they can guide them toward
+ the right direction",color=blue];
+	329 [label="our parents
+ and other family members can
+ help us a lot in
+ our life",color=green];
+	302 [label="parents can told their
+ children as many as they
+ can",color=blue];
+	329 [label="our parents
+ and other family members can
+ help us a lot in
+ our life",color=green];
+	313 [label="what they want
+ is help their child to
+ make a progress",color=blue];
+	329 [label="our parents
+ and other family members can
+ help us a lot in
+ our life",color=green];
 }

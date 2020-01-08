@@ -1,37 +1,42 @@
 digraph G {
-	146 -> 111;
-	212 -> 173;
-	212 -> 175;
-	212 -> 198;
-	212 -> 250;
+	111 -> 175;
+	151 -> 175;
+	198 -> 366;
+	212 -> 366;
+	250 -> 366;
+	269 -> 366;
+	286 -> 366;
+	314 -> 366;
+	329 -> 366;
 	111 [label="children have to be proficient
  at computers and the internet
  if they want to join
- online games",color=green];
-	146 [label="at the",color=blue];
-	173 [label="i think",color=green];
-	212 [label="unlike most modern games
- which focus on the interactions
- between children and machines ,
- traditional games provide a relaxing
- and enjoyable atmosphere where children
- can chat , laugh and
- cooperate face to face",color=blue];
+ online games , which ,
+ in fact , helps children
+ acquire a particularly powerful skill
+ at work in future",color=blue];
 	175 [label="traditional games are still indispensible in
  children's learning process , even
  much more essential than modern
  games , especially in modern
  society",color=green];
-	212 [label="unlike most modern games
- which focus on the interactions
- between children and machines ,
- traditional games provide a relaxing
- and enjoyable atmosphere where children
- can chat , laugh and
- cooperate face to face",color=blue];
+	151 [label="children have the chance to
+ experience the state-of-the-art technology ,
+ raising their awareness of innovation
+ rather than stay conservative",color=blue];
+	175 [label="traditional games are still indispensible in
+ children's learning process , even
+ much more essential than modern
+ games , especially in modern
+ society",color=green];
 	198 [label="one primary merit
  of traditional games is that
  they foster children's communication skills
+",color=blue];
+	366 [label="traditional games should be ,
+ by no means , ignored
+ by parents and teachers with
+ the advent of modern games
 ",color=green];
 	212 [label="unlike most modern games
  which focus on the interactions
@@ -40,15 +45,58 @@ digraph G {
  and enjoyable atmosphere where children
  can chat , laugh and
  cooperate face to face",color=blue];
-	212 [label="unlike most modern games
- which focus on the interactions
- between children and machines ,
- traditional games provide a relaxing
- and enjoyable atmosphere where children
- can chat , laugh and
- cooperate face to face",color=blue];
+	366 [label="traditional games should be ,
+ by no means , ignored
+ by parents and teachers with
+ the advent of modern games
+",color=green];
 	250 [label="communicating with a variety of people
  will not be an issue
  for these children any more
+",color=blue];
+	366 [label="traditional games should be ,
+ by no means , ignored
+ by parents and teachers with
+ the advent of modern games
+",color=green];
+	269 [label="it is
+ the educational functions traditional games
+ hold that keep them alive
+ today",color=blue];
+	366 [label="traditional games should be ,
+ by no means , ignored
+ by parents and teachers with
+ the advent of modern games
+",color=green];
+	286 [label="these traditional games were elaborately
+ devised by educators and have
+ been proven effective in improving
+ children's skills on different aspects
+ in previous teaching practices",color=blue];
+	366 [label="traditional games should be ,
+ by no means , ignored
+ by parents and teachers with
+ the advent of modern games
+",color=green];
+	314 [label="modern games
+ are developed by game companies
+ for the purpose of profits
+",color=blue];
+	366 [label="traditional games should be ,
+ by no means , ignored
+ by parents and teachers with
+ the advent of modern games
+",color=green];
+	329 [label="there is
+ a risk that children may
+ be exposed to unhealthy contents
+ , such as violence or
+ pornography , arranged in the
+ games by such companies to
+ secure financial survival",color=blue];
+	366 [label="traditional games should be ,
+ by no means , ignored
+ by parents and teachers with
+ the advent of modern games
 ",color=green];
 }
