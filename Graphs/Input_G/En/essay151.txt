@@ -12,110 +12,104 @@ digraph G {
 	266 -> 317;
 	271 -> 317;
 	286 -> 317;
-	71 [label="using single language through
- out the world is a
- positive change which is helping
- the world to become a
- better place to live",color=green];
-	111 [label="Due to globalization ,
- many people are traveling for
- professional trips",color=blue];
-	95 [label="A world with fewer languages
- helps us interact with each
- other in a better way
-",color=green];
-	125 [label="communicating in single language will
- reduce the problems of travelers
- in daily activities like ordering
- food in a restaurant or
- in going around places",color=blue];
-	111 [label="Due to globalization ,
- many people are traveling for
- professional trips",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
-	125 [label="communicating in single language will
- reduce the problems of travelers
- in daily activities like ordering
- food in a restaurant or
- in going around places",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
-	152 [label="students who migrate
- for better education would not
- have to go through lot
- of stress",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
-	168 [label="they can
- easily make new friends and
- can be part of any
- discussions which is otherwise not
- possible in a world with
- multiple languages ; this in
- turn makes it easy to
- adjust in new environment",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
-	205 [label="Single language also reduces misunderstandings
- between people",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
-	217 [label="exchange of knowledge
- in different sectors of research
- like electronics , medical ,
- astronomy etc would become easier
+	71 [label="using single language through out
+ the world is a positive
+ change which is helping the
+ world to become a better
+ place to live",color=green];
+	111 [label="Due to globalization , many
+ people are traveling for professional
+ trips",color=blue];
+	95 [label="A world with fewer languages helps
+ us interact with each other
+ in a better way",color=green];
+	125 [label="communicating in single language will reduce
+ the problems of travelers in
+ daily activities like ordering food
+ in a restaurant or in
+ going around places",color=blue];
+	111 [label="Due to globalization , many
+ people are traveling for professional
+ trips",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
+	125 [label="communicating in single language will reduce
+ the problems of travelers in
+ daily activities like ordering food
+ in a restaurant or in
+ going around places",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
+	152 [label="students who migrate for
+ better education would not have
+ to go through lot of
+ stress",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
+	168 [label="they can easily
+ make new friends and can
+ be part of any discussions
+ which is otherwise not possible
+ in a world with multiple
+ languages ; this in turn
+ makes it easy to adjust
+ in new environment",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
+	205 [label="Single language also reduces misunderstandings between
+ people",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
+	217 [label="exchange of knowledge in
+ different sectors of research like
+ electronics , medical , astronomy
+ etc would become easier",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
+	241 [label="few people are worried about
+ the dying local languages",color=green];
+	251 [label="These languages are the basis
+ for the origination and initial
+ communication between different cultures",color=blue];
+	251 [label="These languages are the basis
+ for the origination and initial
+ communication between different cultures",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
+	266 [label="They represent local culture",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
+	271 [label="As the usage of these
+ languages decrease , culture also
+ changes accordingly",color=blue];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
+	286 [label="these languages are tightly coupled
+ with history ; all the
+ olden day literature and scripts
+ will be impossible to decipher
+ if these languages are lost
 ",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
-	241 [label="few people are worried
- about the dying local languages
-",color=green];
-	251 [label="These languages are the
- basis for the origination and
- initial communication between different cultures
-",color=blue];
-	251 [label="These languages are the
- basis for the origination and
- initial communication between different cultures
-",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
-	266 [label="They represent local culture
-",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
-	271 [label="As the usage of
- these languages decrease , culture
- also changes accordingly",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
-	286 [label="these languages are tightly
- coupled with history ; all
- the olden day literature and
- scripts will be impossible to
- decipher if these languages are
- lost",color=blue];
-	317 [label="change is inevitable
- and that usage of one
- language across the world is
- a positive one",color=green];
+	317 [label="change is inevitable and
+ that usage of one language
+ across the world is a
+ positive one",color=green];
 }

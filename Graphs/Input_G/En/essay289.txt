@@ -20,117 +20,109 @@ digraph G {
 	355 -> 348;
 	355 -> 376;
 	363 -> 376;
-	57 [label="students should be
- asked to evaluate their teachers
+	57 [label="students should be asked
+ to evaluate their teachers",color=green];
+	70 [label="Evaluating teachers made by students could
+ improve teachers' performance",color=blue];
+	70 [label="Evaluating teachers made by students could
+ improve teachers' performance",color=blue];
+	150 [label="evaluating from students could improve teachers'
+ performance",color=green];
+	83 [label="evaluation made by
+ students is similar to feedback
+ from customer that business owners
+ need to know in order
+ to improve their product",color=blue];
+	150 [label="evaluating from students could improve teachers'
+ performance",color=green];
+	106 [label="Students might complain about their
+ teachers spoke too fast that
+ students could not catch up
+ on information",color=blue];
+	150 [label="evaluating from students could improve teachers'
+ performance",color=green];
+	126 [label="teachers could improve themselves by
+ speaking slower to make sure
+ that students could get all
+ information that they want to
+ give",color=blue];
+	150 [label="evaluating from students could improve teachers'
+ performance",color=green];
+	160 [label="this evaluation from students could improve
+ schools' quality",color=green];
+	169 [label="Teachers could
+ augment their quality",color=blue];
+	169 [label="Teachers could
+ augment their quality",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	177 [label="When school gather teachers
+ that have great performance ,
+ school are gaining higher quality
+",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	195 [label="in many cooperation such as Microsoft
+ that could produce many great
+ products",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	208 [label="they have employees
+ whose performance are very high
+",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	217 [label="Schools could produce intellectual
+ students",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	223 [label="school have teachers
+ who are always improve their
+ quality from evaluation made by
+ students",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	240 [label="people who get the most advantage
+ from evaluation is students",color=green];
+	251 [label="Students could study in class
+ that have teachers who have
+ experienced and greater performance",color=blue];
+	251 [label="Students could study in class
+ that have teachers who have
+ experienced and greater performance",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	267 [label="teachers are always adapt
+ the way they teach in
+ order to make students easy
+ to understand their subjects",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	286 [label="students could comprehend their subject
+ easily",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	297 [label="students , who study
+ from great schools which have
+ great performance teacher , graduate
+ with great knowledge to survive
+ in next steps of life
+",color=blue];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	331 [label="school should ask students to
+ evaluate their teachers",color=green];
+	355 [label="they have high performance teachers",color=blue];
+	348 [label="schools are also
+ improve their quality",color=green];
+	355 [label="they have high performance teachers",color=blue];
+	355 [label="they have high performance teachers",color=blue];
+	376 [label="there are benefits to ask
+ students to evaluate their teachers
 ",color=green];
-	70 [label="Evaluating teachers made by students
- could improve teachers' performance",color=blue];
-	70 [label="Evaluating teachers made by students
- could improve teachers' performance",color=blue];
-	150 [label="evaluating from students could improve
- teachers' performance",color=green];
-	83 [label="evaluation made
- by students is similar to
- feedback from customer that business
- owners need to know in
- order to improve their product
-",color=blue];
-	150 [label="evaluating from students could improve
- teachers' performance",color=green];
-	106 [label="Students might complain about
- their teachers spoke too fast
- that students could not catch
- up on information",color=blue];
-	150 [label="evaluating from students could improve
- teachers' performance",color=green];
-	126 [label="teachers could improve themselves
- by speaking slower to make
- sure that students could get
- all information that they want
- to give",color=blue];
-	150 [label="evaluating from students could improve
- teachers' performance",color=green];
-	160 [label="this evaluation from students could
- improve schools' quality",color=green];
-	169 [label="Teachers could augment their quality",color=blue];
-	169 [label="Teachers could augment their quality",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	177 [label="When school gather
- teachers that have great performance
- , school are gaining higher
- quality",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	195 [label="in many cooperation such as
- Microsoft that could produce many
- great products",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	208 [label="they have
- employees whose performance are very
- high",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	217 [label="Schools could produce
- intellectual students",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	223 [label="school have
- teachers who are always improve
- their quality from evaluation made
- by students",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	240 [label="people who get the most
- advantage from evaluation is students
+	363 [label="students are easy
+ to understand their subjects",color=blue];
+	376 [label="there are benefits to ask
+ students to evaluate their teachers
 ",color=green];
-	251 [label="Students could study in
- class that have teachers who
- have experienced and greater performance
-",color=blue];
-	251 [label="Students could study in
- class that have teachers who
- have experienced and greater performance
-",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	267 [label="teachers are always
- adapt the way they teach
- in order to make students
- easy to understand their subjects
-",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	286 [label="students could comprehend their
- subject easily",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	297 [label="students , who
- study from great schools which
- have great performance teacher ,
- graduate with great knowledge to
- survive in next steps of
- life",color=blue];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	331 [label="school should ask students
- to evaluate their teachers",color=green];
-	355 [label="they have high performance teachers
-",color=blue];
-	348 [label="schools are
- also improve their quality",color=green];
-	355 [label="they have high performance teachers
-",color=blue];
-	355 [label="they have high performance teachers
-",color=blue];
-	376 [label="there are benefits to
- ask students to evaluate their
- teachers",color=green];
-	363 [label="students are
- easy to understand their subjects
-",color=blue];
-	376 [label="there are benefits to
- ask students to evaluate their
- teachers",color=green];
 }

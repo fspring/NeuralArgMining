@@ -10,81 +10,82 @@ digraph G {
 	273 -> 243;
 	257 -> 321;
 	273 -> 321;
-	93 [label="art helps
- to improve the quality of
- our lives as well as
- attracting tourists",color=blue];
-	157 [label="the governments should
- help arts",color=green];
-	111 [label="monuments that represent each
- city do not only illustrate
- the city's history and culture
- , but also make the
- city more beautiful and an
- attractive place for tourists",color=blue];
-	157 [label="the governments should
- help arts",color=green];
-	143 [label="some countries
- depend on tourism as their
- main source of revenue",color=blue];
-	157 [label="the governments should
- help arts",color=green];
-	157 [label="the governments should
- help arts",color=green];
-	163 [label="their work
- crafts are very necessary to
- boost the tourist industry",color=blue];
-	163 [label="their work
- crafts are very necessary to
- boost the tourist industry",color=blue];
-	321 [label="governments should help and
- encourage artists to continue their
- work",color=green];
-	178 [label="sculptures and
- paintings in the museums and
- art galleries generally reflect the
- culture and civilization of every
- generation",color=blue];
-	199 [label="culture and history of a country
- can be reserved and assured
- by art",color=green];
-	199 [label="culture and history of a country
- can be reserved and assured
- by art",color=green];
-	213 [label="Young people
- are also able to get
- more knowledge about their country's
- history and culture by observing
- various work crafts",color=blue];
-	213 [label="Young people
- are also able to get
- more knowledge about their country's
- history and culture by observing
- various work crafts",color=blue];
-	321 [label="governments should help and
- encourage artists to continue their
- work",color=green];
-	243 [label="talent in
- art is extremely precious and
- should not be wasted",color=green];
-	273 [label="this type
- of talent has to be
- valued as other types of
- talents such as talent in
- science or literature",color=blue];
-	257 [label="not many people
- are blessed in the talent
- of paintings and work crafts
+	93 [label="art helps to
+ improve the quality of our
+ lives as well as attracting
+ tourists",color=blue];
+	157 [label="the governments should help
+ arts",color=green];
+	111 [label="monuments that represent each city
+ do not only illustrate the
+ city's history and culture ,
+ but also make the city
+ more beautiful and an attractive
+ place for tourists",color=blue];
+	157 [label="the governments should help
+ arts",color=green];
+	143 [label="some countries depend
+ on tourism as their main
+ source of revenue",color=blue];
+	157 [label="the governments should help
+ arts",color=green];
+	157 [label="the governments should help
+ arts",color=green];
+	163 [label="their work crafts
+ are very necessary to boost
+ the tourist industry",color=blue];
+	163 [label="their work crafts
+ are very necessary to boost
+ the tourist industry",color=blue];
+	321 [label="governments should help and encourage
+ artists to continue their work
+",color=green];
+	178 [label="sculptures and paintings
+ in the museums and art
+ galleries generally reflect the culture
+ and civilization of every generation
 ",color=blue];
-	321 [label="governments should help and
- encourage artists to continue their
- work",color=green];
-	273 [label="this type
- of talent has to be
- valued as other types of
- talents such as talent in
- science or literature",color=blue];
-	321 [label="governments should help and
- encourage artists to continue their
- work",color=green];
+	199 [label="culture and
+ history of a country can
+ be reserved and assured by
+ art",color=green];
+	199 [label="culture and
+ history of a country can
+ be reserved and assured by
+ art",color=green];
+	213 [label="Young people are
+ also able to get more
+ knowledge about their country's history
+ and culture by observing various
+ work crafts",color=blue];
+	213 [label="Young people are
+ also able to get more
+ knowledge about their country's history
+ and culture by observing various
+ work crafts",color=blue];
+	321 [label="governments should help and encourage
+ artists to continue their work
+",color=green];
+	243 [label="talent in art
+ is extremely precious and should
+ not be wasted",color=green];
+	273 [label="this type of
+ talent has to be valued
+ as other types of talents
+ such as talent in science
+ or literature",color=blue];
+	257 [label="not many people are
+ blessed in the talent of
+ paintings and work crafts",color=blue];
+	321 [label="governments should help and encourage
+ artists to continue their work
+",color=green];
+	273 [label="this type of
+ talent has to be valued
+ as other types of talents
+ such as talent in science
+ or literature",color=blue];
+	321 [label="governments should help and encourage
+ artists to continue their work
+",color=green];
 }

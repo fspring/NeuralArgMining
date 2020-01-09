@@ -234,7 +234,7 @@ than (I)    0.000
 hand (I)    0.000
 washing (I)    0.000
 . (O)    0.000
-but (P)   53.000
+but (O)    0.000
 they (P)   52.000
 did (I)    0.000
 not (I)    0.000

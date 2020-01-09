@@ -8,79 +8,79 @@ digraph G {
 	187 -> 321;
 	226 -> 321;
 	265 -> 300;
-	43 [label="this great
- invention in the 21st century
- causes many problems in our
- society",color=green];
-	62 [label="spending too much
- time on mobiles phones many
- exert an adverse effect on
- our social skills",color=blue];
-	62 [label="spending too much
- time on mobiles phones many
- exert an adverse effect on
- our social skills",color=blue];
-	143 [label="it is
- harmful for us to use
- mobile phones frequently",color=green];
-	82 [label="as people ,
- especially teenagers increasingly tend to
- focus on their phones ,
- they may lose their interests
- on daily activities such as
- meeting with friends , and
- this lack of communication may
- impair their future negotiation and
- interpersonal skills",color=blue];
-	143 [label="it is
- harmful for us to use
- mobile phones frequently",color=green];
-	125 [label="continuous use of mobile phones
- may also damage children's eyesight
- and physical posture",color=blue];
-	143 [label="it is
- harmful for us to use
- mobile phones frequently",color=green];
-	156 [label="the growing number of
- mobiles games will impact their
- mental development",color=green];
-	171 [label="there many game applications
- available online and many of
- them are quite aggressive in
- nature",color=blue];
-	171 [label="there many game applications
- available online and many of
- them are quite aggressive in
- nature",color=blue];
-	321 [label="it also gives rise
- to many social problems such
- as children's social skills and
- their mental health",color=green];
-	187 [label="In these games
- , children are rewarded to
- help their characters to kill
- or shoot monsters or characters
- controlled by other players ,
- and this many lead to
- development of aggressive feelings ,
- thoughts and behaviors",color=blue];
-	321 [label="it also gives rise
- to many social problems such
- as children's social skills and
- their mental health",color=green];
-	226 [label="frequent conflicts may occur
- during communication",color=blue];
-	321 [label="it also gives rise
- to many social problems such
- as children's social skills and
- their mental health",color=green];
-	265 [label="as most of the telecommunication
- companies provide us with access
- to the internet via our
- phones , people are able
- to enjoy sending instant messages
- and making international calls free
- of charge",color=blue];
-	300 [label="mobile phones have shortened the
- distance of communication",color=green];
+	43 [label="this great invention
+ in the 21st century causes
+ many problems in our society
+",color=green];
+	62 [label="spending too much time
+ on mobiles phones many exert
+ an adverse effect on our
+ social skills",color=blue];
+	62 [label="spending too much time
+ on mobiles phones many exert
+ an adverse effect on our
+ social skills",color=blue];
+	143 [label="it is harmful
+ for us to use mobile
+ phones frequently",color=green];
+	82 [label="as people , especially
+ teenagers increasingly tend to focus
+ on their phones , they
+ may lose their interests on
+ daily activities such as meeting
+ with friends , and this
+ lack of communication may impair
+ their future negotiation and interpersonal
+ skills",color=blue];
+	143 [label="it is harmful
+ for us to use mobile
+ phones frequently",color=green];
+	125 [label="continuous use of mobile phones may
+ also damage children's eyesight and
+ physical posture",color=blue];
+	143 [label="it is harmful
+ for us to use mobile
+ phones frequently",color=green];
+	156 [label="the growing number of mobiles
+ games will impact their mental
+ development",color=green];
+	171 [label="there many game applications available
+ online and many of them
+ are quite aggressive in nature
+",color=blue];
+	171 [label="there many game applications available
+ online and many of them
+ are quite aggressive in nature
+",color=blue];
+	321 [label="it also gives rise to
+ many social problems such as
+ children's social skills and their
+ mental health",color=green];
+	187 [label="In these games ,
+ children are rewarded to help
+ their characters to kill or
+ shoot monsters or characters controlled
+ by other players , and
+ this many lead to development
+ of aggressive feelings , thoughts
+ and behaviors",color=blue];
+	321 [label="it also gives rise to
+ many social problems such as
+ children's social skills and their
+ mental health",color=green];
+	226 [label="frequent conflicts may occur during
+ communication",color=blue];
+	321 [label="it also gives rise to
+ many social problems such as
+ children's social skills and their
+ mental health",color=green];
+	265 [label="as most of the telecommunication companies
+ provide us with access to
+ the internet via our phones
+ , people are able to
+ enjoy sending instant messages and
+ making international calls free of
+ charge",color=blue];
+	300 [label="mobile phones have shortened the distance
+ of communication",color=green];
 }

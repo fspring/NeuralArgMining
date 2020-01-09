@@ -52,7 +52,7 @@ of (I)    0.000
 traditonal (I)    0.000
 culture (I)    0.000
 . (O)    0.000
-thanks (P)  133.000
+thanks (C)    0.000
 to (I)    0.000
 modern (I)    0.000
 technology (I)    0.000
@@ -66,7 +66,7 @@ with (I)    0.000
 many (I)    0.000
 gadgets (I)    0.000
 . (O)    0.000
-the (P)  119.000
+the (P)   96.000
 invention (I)    0.000
 of (I)    0.000
 mobile (I)    0.000
@@ -105,7 +105,7 @@ machineries (I)    0.000
 . (O)    0.000
 however (O)    0.000
 , (O)    0.000
-these (P)   80.000
+these (P)   57.000
 newfangled (I)    0.000
 practices (I)    0.000
 has (I)    0.000
@@ -118,7 +118,7 @@ ones (I)    0.000
 for (O)    0.000
 instance (O)    0.000
 , (O)    0.000
-factories (P)   67.000
+factories (P)   44.000
 equipped (I)    0.000
 with (I)    0.000
 new (I)    0.000
@@ -162,7 +162,7 @@ the (I)    0.000
 old-physical (I)    0.000
 ones (I)    0.000
 . (O)    0.000
-many (P)   23.000
+many (C)    0.000
 old (I)    0.000
 traditionally (I)    0.000
 cultural (I)    0.000

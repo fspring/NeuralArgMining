@@ -1,23 +1,29 @@
 digraph G {
-	52 -> 99;
-	63 -> 99;
+	52 -> 36;
+	52 -> 205;
+	63 -> 205;
 	114 -> 205;
 	139 -> 205;
 	155 -> 205;
 	165 -> 205;
 	181 -> 205;
 	190 -> 205;
-	225 -> 324;
-	261 -> 324;
-	276 -> 324;
+	225 -> 205;
 	302 -> 324;
+	36 [label="their lives are going to
+ be more difficult , when
+ they are away from home
+",color=green];
 	52 [label="they will have to
  pay a lot of bills
 ",color=blue];
-	99 [label="living in
- their own houses will save
- the young adults a lot
- of money",color=green];
+	52 [label="they will have to
+ pay a lot of bills
+",color=blue];
+	205 [label="another problem that the young adults
+ may encounter is to find
+ a co-tenant , who they
+ do not like",color=green];
 	63 [label="they will have
  to find a lodging or
  at least a place where
@@ -26,10 +32,10 @@ digraph G {
  will have to find a
  co-tenant , who they may
  not like",color=blue];
-	99 [label="living in
- their own houses will save
- the young adults a lot
- of money",color=green];
+	205 [label="another problem that the young adults
+ may encounter is to find
+ a co-tenant , who they
+ do not like",color=green];
 	114 [label="if they
  live separate from their parents
  they will have to pay
@@ -74,6 +80,10 @@ digraph G {
  may encounter is to find
  a co-tenant , who they
  do not like",color=green];
+	205 [label="another problem that the young adults
+ may encounter is to find
+ a co-tenant , who they
+ do not like",color=green];
 	225 [label="his habits may be totally different
  from theirs , his behavior
  may be inappropriate , but
@@ -81,26 +91,6 @@ digraph G {
  with him or even share
  a room , in order
  to have less expenses",color=blue];
-	324 [label="for the
- young adults it will be
- better to live with their
- parents",color=green];
-	261 [label="living with such a person
- may be a huge problem
- for the young adults",color=blue];
-	324 [label="for the
- young adults it will be
- better to live with their
- parents",color=green];
-	276 [label="when the co-tenant do not
- share their interests and points
- of view , they will
- not be able to ask
- him for advice",color=blue];
-	324 [label="for the
- young adults it will be
- better to live with their
- parents",color=green];
 	302 [label="they are most likely
  to quarrel every day ,
  instead of to help each

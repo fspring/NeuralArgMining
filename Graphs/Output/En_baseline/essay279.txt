@@ -169,7 +169,7 @@ in (I)    0.000
 the (I)    0.000
 world (I)    0.000
 . (O)    0.000
-many (P)   61.000
+many (P)  132.000
 people (I)    0.000
 such (I)    0.000
 as (I)    0.000
@@ -194,7 +194,7 @@ teach (I)    0.000
 them (I)    0.000
 knowledge (I)    0.000
 . (O)    0.000
-not (P)   36.000
+not (P)  107.000
 only (I)    0.000
 students (I)    0.000
 but (I)    0.000
@@ -210,7 +210,7 @@ knowledge (I)    0.000
 for (O)    0.000
 instance (O)    0.000
 , (O)    0.000
-people (P)   20.000
+people (P)   91.000
 who (I)    0.000
 have (I)    0.000
 problems (I)    0.000
@@ -230,7 +230,7 @@ but (O)    0.000
 not (O)    0.000
 least (O)    0.000
 , (O)    0.000
-the (C)    0.000
+the (P)   71.000
 internet (I)    0.000
 makes (I)    0.000
 the (I)    0.000

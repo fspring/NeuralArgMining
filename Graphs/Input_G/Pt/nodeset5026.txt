@@ -12,6 +12,5 @@ digraph G {
  costa e quatro homens armados
  de metralhadoras kalachnikov ameaçaram as
  forças italianas , exigindo que
- abandonassem o barco vazio .
-",color=blue];
+ abandonassem o barco vazio",color=blue];
 }

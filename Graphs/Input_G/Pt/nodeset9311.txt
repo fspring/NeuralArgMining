@@ -2,8 +2,7 @@ digraph G {
 	52 -> 40;
 	40 [label="Foi o primeiro a perceber a
  irrelevância do que o espera
- .",color=green];
+",color=green];
 	52 [label="Como mostra a campanha
- que esta a fazer .
-",color=blue];
+ que esta a fazer",color=blue];
 }

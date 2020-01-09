@@ -7,89 +7,82 @@ digraph G {
 	215 -> 237;
 	246 -> 357;
 	280 -> 357;
-	83 [label="we should
- attach more importance to cooperation
- during primary education",color=green];
-	118 [label="What we
- acquired from team work is
- not only how to achieve
- the same goal with others
- but more importantly , how
- to get along with others
-",color=blue];
-	98 [label="through cooperation
+	83 [label="we should attach
+ more importance to cooperation during
+ primary education",color=green];
+	118 [label="What we acquired
+ from team work is not
+ only how to achieve the
+ same goal with others but
+ more importantly , how to
+ get along with others",color=blue];
+	98 [label="through cooperation ,
+ children can learn about interpersonal
+ skills which are significant in
+ the future life of all
+ students",color=green];
+	118 [label="What we acquired
+ from team work is not
+ only how to achieve the
+ same goal with others but
+ more importantly , how to
+ get along with others",color=blue];
+	118 [label="What we acquired
+ from team work is not
+ only how to achieve the
+ same goal with others but
+ more importantly , how to
+ get along with others",color=blue];
+	393 [label="a more cooperative
+ attitudes towards life is more
+ profitable in one's success",color=green];
+	146 [label="During the process of cooperation
  , children can learn about
- interpersonal skills which are significant
- in the future life of
- all students",color=green];
-	118 [label="What we
- acquired from team work is
- not only how to achieve
- the same goal with others
- but more importantly , how
- to get along with others
+ how to listen to opinions
+ of others , how to
+ communicate with others , how
+ to think comprehensively , and
+ even how to compromise with
+ other team members when conflicts
+ occurred",color=blue];
+	393 [label="a more cooperative
+ attitudes towards life is more
+ profitable in one's success",color=green];
+	188 [label="All of these
+ skills help them to get
+ on well with other people
+ and will benefit them for
+ the whole life",color=blue];
+	393 [label="a more cooperative
+ attitudes towards life is more
+ profitable in one's success",color=green];
+	215 [label="the significance of competition is that
+ how to become more excellence
+ to gain the victory",color=blue];
+	237 [label="competition makes the society
+ more effective",color=green];
+	246 [label="when we consider about the
+ question that how to win
+ the game , we always
+ find that we need the
+ cooperation",color=blue];
+	357 [label="without the cooperation ,
+ there would be no victory
+ of competition",color=green];
+	280 [label="Take Olympic games which is a
+ form of competition for instance
+ , it is hard to
+ imagine how an athlete could
+ win the game without the
+ training of his or her
+ coach , and the help
+ of other professional staffs such
+ as the people who take
+ care of his diet ,
+ and those who are in
+ charge of the medical care
 ",color=blue];
-	118 [label="What we
- acquired from team work is
- not only how to achieve
- the same goal with others
- but more importantly , how
- to get along with others
-",color=blue];
-	393 [label="a more
- cooperative attitudes towards life is
- more profitable in one's success
-",color=green];
-	146 [label="During the process of
- cooperation , children can learn
- about how to listen to
- opinions of others , how
- to communicate with others ,
- how to think comprehensively ,
- and even how to compromise
- with other team members when
- conflicts occurred",color=blue];
-	393 [label="a more
- cooperative attitudes towards life is
- more profitable in one's success
-",color=green];
-	188 [label="All of
- these skills help them to
- get on well with other
- people and will benefit them
- for the whole life",color=blue];
-	393 [label="a more
- cooperative attitudes towards life is
- more profitable in one's success
-",color=green];
-	215 [label="the significance of competition is
- that how to become more
- excellence to gain the victory
-",color=blue];
-	237 [label="competition makes the
- society more effective",color=green];
-	246 [label="when we consider about
- the question that how to
- win the game , we
- always find that we need
- the cooperation",color=blue];
-	357 [label="without the cooperation
- , there would be no
- victory of competition",color=green];
-	280 [label="Take Olympic games which is
- a form of competition for
- instance , it is hard
- to imagine how an athlete
- could win the game without
- the training of his or
- her coach , and the
- help of other professional staffs
- such as the people who
- take care of his diet
- , and those who are
- in charge of the medical
- care",color=blue];
-	357 [label="without the cooperation
- , there would be no
- victory of competition",color=green];
+	357 [label="without the cooperation ,
+ there would be no victory
+ of competition",color=green];
 }

@@ -59,7 +59,7 @@ it (O)    0.000
 is (O)    0.000
 clear (O)    0.000
 that (O)    0.000
-most (P)  110.000
+most (C)    0.000
 advertisements (I)    0.000
 so (I)    0.000
 exaggerate (I)    0.000
@@ -219,7 +219,7 @@ from (I)    0.000
 these (I)    0.000
 producers (I)    0.000
 . (O)    0.000
-take (P)  327.000
+take (P)    0.000
 coca (I)    0.000
 cola (I)    0.000
 for (I)    0.000
@@ -245,7 +245,7 @@ money (I)    0.000
 in (I)    0.000
 advertising (I)    0.000
 . (O)    0.000
-no (P)  301.000
+no (P)    0.000
 wonder (I)    0.000
 why (I)    0.000
 this (I)    0.000
@@ -267,7 +267,7 @@ but (O)    0.000
 not (O)    0.000
 least (O)    0.000
 , (O)    0.000
-online (P)  279.000
+online (P)    0.000
 advertisement (I)    0.000
 is (I)    0.000
 one (I)    0.000

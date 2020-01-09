@@ -21,7 +21,7 @@ viu-a (O)    0.000
 nós (O)    0.000
 lembramo-nos (O)    0.000
 : (O)    0.000
-uma (P)  717.000
+uma (P)    0.000
 primeira (I)    0.000
 fase (I)    0.000
 , (I)    0.000

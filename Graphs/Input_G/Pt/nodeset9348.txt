@@ -12,5 +12,5 @@ digraph G {
 	94 [label="Um país
  não aceita um líder em
  quem não confia para garantir
- a sua segurança .",color=blue];
+ a sua segurança",color=blue];
 }

@@ -78,10 +78,10 @@ for (I)    0.000
 them (I)    0.000
 like (I)    0.000
 walking (I)    0.000
-, (O)    0.000
-eating (O)    0.000
-, (O)    0.000
-etc (O)    0.000
+, (I)    0.000
+eating (I)    0.000
+, (I)    0.000
+etc (I)    0.000
 . (O)    0.000
 , (O)    0.000
 but (O)    0.000
@@ -106,7 +106,7 @@ life (I)    0.000
 for (O)    0.000
 example (O)    0.000
 , (O)    0.000
-when (P)   26.000
+when (P)  113.000
 they (I)    0.000
 tried (I)    0.000
 to (I)    0.000
@@ -122,7 +122,7 @@ many (I)    0.000
 times (I)    0.000
 . (O)    0.000
 but (O)    0.000
-they (P)   10.000
+they (P)   97.000
 slowly (I)    0.000
 tune (I)    0.000
 their (I)    0.000
@@ -132,7 +132,7 @@ learned (I)    0.000
 to (I)    0.000
 walk (I)    0.000
 . (O)    0.000
-all (C)    0.000
+all (P)   87.000
 inventions (I)    0.000
 and (I)    0.000
 experiments (I)    0.000

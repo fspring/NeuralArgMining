@@ -7,68 +7,67 @@ digraph G {
 	186 -> 271;
 	208 -> 271;
 	242 -> 271;
-	25 [label="It is disagreed that computer
- can affect children in a
- negative way if they use
- a computer on a daily
- basis",color=green];
-	81 [label="The best thing about
- internet is the availability of
- information in the form of
- text , image or video
- related to almost everything",color=blue];
-	81 [label="The best thing about
- internet is the availability of
- information in the form of
- text , image or video
- related to almost everything",color=blue];
-	176 [label="computer impacts children on
- a positive note",color=green];
-	105 [label="through computer children can access
- internet to gather knowledge on
- the subjects they are studying
- or they are interested about
+	25 [label="It is disagreed that computer can
+ affect children in a negative
+ way if they use a
+ computer on a daily basis
+",color=green];
+	81 [label="The best thing about internet
+ is the availability of information
+ in the form of text
+ , image or video related
+ to almost everything",color=blue];
+	81 [label="The best thing about internet
+ is the availability of information
+ in the form of text
+ , image or video related
+ to almost everything",color=blue];
+	176 [label="computer impacts children on a
+ positive note",color=green];
+	105 [label="through computer children can access internet
+ to gather knowledge on the
+ subjects they are studying or
+ they are interested about",color=blue];
+	176 [label="computer impacts children on a
+ positive note",color=green];
+	130 [label="students preparing for delivering speech on
+ a certain topic can browse
+ through internet to learn each
+ and every minute details of
+ the subject matter",color=blue];
+	176 [label="computer impacts children on a
+ positive note",color=green];
+	155 [label="It's hard to get everything at
+ a same place unless children
+ are not familiar with computers
 ",color=blue];
-	176 [label="computer impacts children on
- a positive note",color=green];
-	130 [label="students preparing for delivering speech
- on a certain topic can
- browse through internet to learn
- each and every minute details
- of the subject matter",color=blue];
-	176 [label="computer impacts children on
- a positive note",color=green];
-	155 [label="It's hard to get everything
- at a same place unless
- children are not familiar with
- computers",color=blue];
-	176 [label="computer impacts children on
- a positive note",color=green];
-	186 [label="computers enable people to
- prepare presentations , draw complex
- graphs and pictures , document
- thesis in a simple though
- efficient way",color=blue];
-	271 [label="it's clear that computer
- has a positive effect on
- the children",color=green];
-	208 [label="When children
- are allowed to play around
- with computer from a very
- early age , they get
- acquainted with the previously mentioned
- skills and become expert before
- facing professional world",color=blue];
-	271 [label="it's clear that computer
- has a positive effect on
- the children",color=green];
-	242 [label="students who used
- to prepare Microsoft PowerPoint presentation
- for their school projects ,
- get an edge over others
- at an early stage of
- their career",color=blue];
-	271 [label="it's clear that computer
- has a positive effect on
- the children",color=green];
+	176 [label="computer impacts children on a
+ positive note",color=green];
+	186 [label="computers enable people to prepare
+ presentations , draw complex graphs
+ and pictures , document thesis
+ in a simple though efficient
+ way",color=blue];
+	271 [label="it's clear that computer has
+ a positive effect on the
+ children",color=green];
+	208 [label="When children are
+ allowed to play around with
+ computer from a very early
+ age , they get acquainted
+ with the previously mentioned skills
+ and become expert before facing
+ professional world",color=blue];
+	271 [label="it's clear that computer has
+ a positive effect on the
+ children",color=green];
+	242 [label="students who used to
+ prepare Microsoft PowerPoint presentation for
+ their school projects , get
+ an edge over others at
+ an early stage of their
+ career",color=blue];
+	271 [label="it's clear that computer has
+ a positive effect on the
+ children",color=green];
 }

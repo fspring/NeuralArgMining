@@ -9,77 +9,75 @@ digraph G {
 	228 -> 290;
 	258 -> 290;
 	271 -> 290;
-	69 [label="great success requires taking great risks
-",color=blue];
-	290 [label="it is important to take
- risks",color=green];
-	76 [label="There are always interesting
- and useful experiences that successful
- people can learn them only
- by trying new things",color=blue];
-	161 [label="These experiences can only
- be obtained by trying new
- things and canâ€™t be always
- found in books",color=green];
-	98 [label="if you
- want to know how to
- act effectively when communicating with
- people , you can try
- something new like salesmanship in
- various stores and places",color=blue];
-	161 [label="These experiences can only
- be obtained by trying new
- things and canâ€™t be always
- found in books",color=green];
-	125 [label="By selling goods or other
- commodities you will face different
- people with different behaviors and
- personalities",color=blue];
-	161 [label="These experiences can only
- be obtained by trying new
- things and canâ€™t be always
- found in books",color=green];
-	145 [label="you will learn how to
- behave people in different situations
- and jobs in the future
-",color=blue];
-	161 [label="These experiences can only
- be obtained by trying new
- things and canâ€™t be always
- found in books",color=green];
-	183 [label="great success
+	69 [label="great success
  requires taking great risks",color=blue];
-	290 [label="it is important to take
- risks",color=green];
-	190 [label="If you want to gain
- very high profits in investments
- , you should use great
- and very high amounts of
- money in very risky financial
- decisions and dealings in which
- you may lose much amount
- of money",color=blue];
-	290 [label="it is important to take
- risks",color=green];
-	228 [label="If you
- want to achieve a remarkable
- success in an important exam
- , you should risk studying
- all the time and sacrificing
- your free time and your
- favorite hobbies",color=blue];
-	290 [label="it is important to take
- risks",color=green];
-	258 [label="The more
- you take risks , the
- greater your successes will be
+	290 [label="it is important to take risks
+",color=green];
+	76 [label="There are always interesting and
+ useful experiences that successful people
+ can learn them only by
+ trying new things",color=blue];
+	161 [label="These experiences can only be
+ obtained by trying new things
+ and can’t be always found
+ in books",color=green];
+	98 [label="if you want
+ to know how to act
+ effectively when communicating with people
+ , you can try something
+ new like salesmanship in various
+ stores and places",color=blue];
+	161 [label="These experiences can only be
+ obtained by trying new things
+ and can’t be always found
+ in books",color=green];
+	125 [label="By selling goods or other commodities
+ you will face different people
+ with different behaviors and personalities
 ",color=blue];
-	290 [label="it is important to take
- risks",color=green];
-	271 [label="If you donâ€™t take
- any risks , you will
- have an ordinary life with
- average successes",color=blue];
-	290 [label="it is important to take
- risks",color=green];
+	161 [label="These experiences can only be
+ obtained by trying new things
+ and can’t be always found
+ in books",color=green];
+	145 [label="you will learn how to behave
+ people in different situations and
+ jobs in the future",color=blue];
+	161 [label="These experiences can only be
+ obtained by trying new things
+ and can’t be always found
+ in books",color=green];
+	183 [label="great success requires
+ taking great risks",color=blue];
+	290 [label="it is important to take risks
+",color=green];
+	190 [label="If you want to gain very
+ high profits in investments ,
+ you should use great and
+ very high amounts of money
+ in very risky financial decisions
+ and dealings in which you
+ may lose much amount of
+ money",color=blue];
+	290 [label="it is important to take risks
+",color=green];
+	228 [label="If you want
+ to achieve a remarkable success
+ in an important exam ,
+ you should risk studying all
+ the time and sacrificing your
+ free time and your favorite
+ hobbies",color=blue];
+	290 [label="it is important to take risks
+",color=green];
+	258 [label="The more you
+ take risks , the greater
+ your successes will be",color=blue];
+	290 [label="it is important to take risks
+",color=green];
+	271 [label="If you don’t take any
+ risks , you will have
+ an ordinary life with average
+ successes",color=blue];
+	290 [label="it is important to take risks
+",color=green];
 }

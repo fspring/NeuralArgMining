@@ -4,7 +4,7 @@ digraph G {
  presidência da Impresa SIC ,
  etc . assinala que este
  grupo de media caminha para
- um beco .",color=blue];
+ um beco",color=blue];
 	24 [label="O quadro
- é cinzento :",color=green];
+ é cinzento",color=green];
 }

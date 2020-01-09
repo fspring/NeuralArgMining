@@ -13,128 +13,130 @@ digraph G {
 	287 -> 318;
 	339 -> 318;
 	339 -> 333;
-	39 [label="tourism can have a negative impact
- on the natural environment",color=green];
-	50 [label="In order to meet the
- needs of tourists , local
- governments are likely to build
- more facilities and infrastructures around
- tourist attractions , which may
- result in the destruction of
- natural habitats",color=blue];
-	50 [label="In order to meet the
- needs of tourists , local
- governments are likely to build
- more facilities and infrastructures around
- tourist attractions , which may
- result in the destruction of
- natural habitats",color=blue];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	83 [label="Tourism also
- creates more pollution and waste
- , including growing emission of
- greenhouse gases , dumped leftovers
- and overuse of water ,
- power and other kind of
- energy in luxurious hotels",color=blue];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	123 [label="tourism puts
- great pressure on ecosystem and
- local resources , and it
- should not be encouraged",color=blue];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	142 [label="flourishing tourism in
- a place can be very
- rewarding in terms of local
- economy",color=green];
-	157 [label="Holiday makers flocking
- to other countries are not
- only bound to spend on
- tickets of attractions , but
- also pay for food ,
- accommodation , transportation and entertainment
+	39 [label="tourism can
+ have a negative impact on
+ the natural environment",color=green];
+	50 [label="In order to meet the needs
+ of tourists , local governments
+ are likely to build more
+ facilities and infrastructures around tourist
+ attractions , which may result
+ in the destruction of natural
+ habitats",color=blue];
+	50 [label="In order to meet the needs
+ of tourists , local governments
+ are likely to build more
+ facilities and infrastructures around tourist
+ attractions , which may result
+ in the destruction of natural
+ habitats",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	83 [label="Tourism also creates
+ more pollution and waste ,
+ including growing emission of greenhouse
+ gases , dumped leftovers and
+ overuse of water , power
+ and other kind of energy
+ in luxurious hotels",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	123 [label="tourism puts great
+ pressure on ecosystem and local
+ resources , and it should
+ not be encouraged",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	142 [label="flourishing tourism in a
+ place can be very rewarding
+ in terms of local economy
+",color=green];
+	157 [label="Holiday makers flocking to
+ other countries are not only
+ bound to spend on tickets
+ of attractions , but also
+ pay for food , accommodation
+ , transportation and entertainment",color=blue];
+	157 [label="Holiday makers flocking to
+ other countries are not only
+ bound to spend on tickets
+ of attractions , but also
+ pay for food , accommodation
+ , transportation and entertainment",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	186 [label="Both local people and governments
+ can make a large amount
+ of money through these services
+ , and more employment opportunities
+ can be created as well
 ",color=blue];
-	157 [label="Holiday makers flocking
- to other countries are not
- only bound to spend on
- tickets of attractions , but
- also pay for food ,
- accommodation , transportation and entertainment
-",color=blue];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	186 [label="Both local people and
- governments can make a large
- amount of money through these
- services , and more employment
- opportunities can be created as
- well",color=blue];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	215 [label="the revenue earned form tourism
- can be used in turn
- to reduce pollution and protect
- the environment",color=blue];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	235 [label="the increasing development of tourism
- is a boon to travelers
- as well",color=green];
-	248 [label="The provision
- of direct airlines makes it
- possible for them to travel
- conveniently and comfortably",color=blue];
-	248 [label="The provision
- of direct airlines makes it
- possible for them to travel
- conveniently and comfortably",color=blue];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	264 [label="With adequate local facilities and services
- available , they can spend
- more of their holidays having
- fun and relaxing",color=blue];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	287 [label="both locals and
- tourists can experience more cultures
- than ever before , and
- they can be more open-minded
- to eliminate preconceptions and deepen
- mutual understanding among nations",color=blue];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	318 [label="the prosperity
- of tourism can provide benefits
- for people on a global
- scale",color=green];
-	339 [label="they are outweighed by advantages and
- can be tackled if proper
- measures are taken",color=blue];
-	333 [label="there are
- some inevitable problems",color=green];
-	339 [label="they are outweighed by advantages and
- can be tackled if proper
- measures are taken",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	215 [label="the revenue earned form tourism can
+ be used in turn to
+ reduce pollution and protect the
+ environment",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	235 [label="the increasing development of tourism is
+ a boon to travelers as
+ well",color=green];
+	248 [label="The provision of
+ direct airlines makes it possible
+ for them to travel conveniently
+ and comfortably",color=blue];
+	248 [label="The provision of
+ direct airlines makes it possible
+ for them to travel conveniently
+ and comfortably",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	264 [label="With adequate
+ local facilities and services available
+ , they can spend more
+ of their holidays having fun
+ and relaxing",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	287 [label="both locals and tourists
+ can experience more cultures than
+ ever before , and they
+ can be more open-minded to
+ eliminate preconceptions and deepen mutual
+ understanding among nations",color=blue];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	318 [label="the prosperity of
+ tourism can provide benefits for
+ people on a global scale
+",color=green];
+	339 [label="they are
+ outweighed by advantages and can
+ be tackled if proper measures
+ are taken",color=blue];
+	333 [label="there are some
+ inevitable problems",color=green];
+	339 [label="they are
+ outweighed by advantages and can
+ be tackled if proper measures
+ are taken",color=blue];
 }

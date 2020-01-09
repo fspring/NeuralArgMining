@@ -1,5 +1,5 @@
-e (C)    0.000
-as (I)    0.000
+e (O)    0.000
+as (P)   33.000
 suas (I)    0.000
 dores (I)    0.000
 constantes (I)    0.000

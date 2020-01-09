@@ -31,7 +31,7 @@ cigarro (I)    0.000
 é-lhes (I)    0.000
 vital (I)    0.000
 porque (O)    0.000
-sempre (P)  707.000
+sempre (P)    0.000
 os (I)    0.000
 ajudou (I)    0.000
 , (I)    0.000

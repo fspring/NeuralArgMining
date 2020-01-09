@@ -393,7 +393,7 @@ believe (I)    0.000
 in (I)    0.000
 fellowship (I)    0.000
 . (O)    0.000
-this (P)  153.000
+this (P)    0.000
 helps (I)    0.000
 them (I)    0.000
 to (I)    0.000
@@ -412,7 +412,7 @@ relationships (I)    0.000
 after (O)    0.000
 all (O)    0.000
 , (O)    0.000
-you (P)  134.000
+you (P)    0.000
 spend (I)    0.000
 most (I)    0.000
 of (I)    0.000
@@ -421,7 +421,7 @@ day (I)    0.000
 at (I)    0.000
 office (I)    0.000
 . (O)    0.000
-if (P)  125.000
+if (P)    0.000
 you (I)    0.000
 have (I)    0.000
 a (I)    0.000

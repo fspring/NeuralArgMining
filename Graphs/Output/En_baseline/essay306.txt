@@ -37,9 +37,9 @@ life (O)    0.000
 easier (O)    0.000
 . (O)    0.000
 although (O)    0.000
-i (O)    0.000
-conceded (O)    0.000
-technology (C)    0.000
+i (C)    0.000
+conceded (I)    0.000
+technology (I)    0.000
 may (I)    0.000
 make (I)    0.000
 people's (I)    0.000
@@ -49,7 +49,7 @@ in (I)    0.000
 some (I)    0.000
 aspects (I)    0.000
 , (O)    0.000
-the (P)   21.000
+the (C)    0.000
 convenience (I)    0.000
 it (I)    0.000
 brings (I)    0.000
@@ -94,7 +94,7 @@ people's (I)    0.000
 life (I)    0.000
 simpler (I)    0.000
 . (O)    0.000
-with (P)   57.000
+with (P)   21.000
 a (I)    0.000
 private (I)    0.000
 car (I)    0.000
@@ -115,7 +115,7 @@ vehicle (I)    0.000
 . (O)    0.000
 alternatively (O)    0.000
 , (O)    0.000
-if (P)   36.000
+if (C)    0.000
 you (I)    0.000
 would (I)    0.000
 like (I)    0.000
@@ -151,7 +151,7 @@ times (I)    0.000
 . (O)    0.000
 second (O)    0.000
 , (O)    0.000
-technology (C)    0.000
+technology (P)   92.000
 also (I)    0.000
 makes (I)    0.000
 teaching (I)    0.000

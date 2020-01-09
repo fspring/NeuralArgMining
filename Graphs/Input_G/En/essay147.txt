@@ -12,118 +12,129 @@ digraph G {
 	256 -> 314;
 	271 -> 314;
 	289 -> 314;
-	33 [label="games are
- no longer too important for
- them",color=green];
-	60 [label="Someone may argue that games
- help adults relax and become
- more balanced in life",color=blue];
-	50 [label="games become unnecessary for people
- when their careers begin",color=green];
-	60 [label="Someone may argue that games
- help adults relax and become
- more balanced in life",color=blue];
-	60 [label="Someone may argue that games
- help adults relax and become
- more balanced in life",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
-	77 [label="more often ,
- the pressure of work and
- family commitment force them to
- abandon their lifelong hobbies",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
-	100 [label="they cannot spend enough time
- and effort to their favorite
- games as they did in
- 15 or 20 years ago
-",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
-	124 [label="in my country , except for
- a minor part of professional
- athletes , the majority of
- people stop playing games seriously
- as soon as they find
- a decent job",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
-	154 [label="They often feel that such games
- become more troublesome than enjoyable
- for their daily lives",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
-	177 [label="adults often do
- not pursue games as a
- competitive activity , while children
- are always keen on competition
- and winning",color=green];
-	198 [label="For youngsters
- , maintaining their desire to
- win often develops many outstanding
- characteristics whether they participate sport
- events or not",color=blue];
-	198 [label="For youngsters
- , maintaining their desire to
- win often develops many outstanding
- characteristics whether they participate sport
- events or not",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
-	222 [label="my younger sister
- likes fencing , and thanks
- to her desire to win
- , she never gives up
- when facing a difficult situation
- , or even becoming hurt
-",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
-	256 [label="adults often consider such
- behaviors as childish and drop
- them immediately",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
-	271 [label="a competitive person usually
- finds it difficult to cooperate
- with friends and colleagues",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
-	289 [label="they no longer play games for
- any moderate achievements , and
- gradually lose their interest in
- such activities",color=blue];
-	314 [label="adults do need to play games
- , but their styles are
- often distinct from children's ,
- which are often less competitive
- and more enjoyable",color=green];
+	33 [label="games are no
+ longer too important for them
+",color=green];
+	60 [label="Someone may argue that games help
+ adults relax and become more
+ balanced in life",color=blue];
+	50 [label="games become unnecessary for people when
+ their careers begin",color=green];
+	60 [label="Someone may argue that games help
+ adults relax and become more
+ balanced in life",color=blue];
+	60 [label="Someone may argue that games help
+ adults relax and become more
+ balanced in life",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	77 [label="more often , the
+ pressure of work and family
+ commitment force them to abandon
+ their lifelong hobbies",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	100 [label="they cannot spend enough time and
+ effort to their favorite games
+ as they did in 15
+ or 20 years ago",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	124 [label="in my
+ country , except for a
+ minor part of professional athletes
+ , the majority of people
+ stop playing games seriously as
+ soon as they find a
+ decent job",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	154 [label="They often
+ feel that such games become
+ more troublesome than enjoyable for
+ their daily lives",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	177 [label="adults often do not
+ pursue games as a competitive
+ activity , while children are
+ always keen on competition and
+ winning",color=green];
+	198 [label="For youngsters ,
+ maintaining their desire to win
+ often develops many outstanding characteristics
+ whether they participate sport events
+ or not",color=blue];
+	198 [label="For youngsters ,
+ maintaining their desire to win
+ often develops many outstanding characteristics
+ whether they participate sport events
+ or not",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	222 [label="my younger sister likes
+ fencing , and thanks to
+ her desire to win ,
+ she never gives up when
+ facing a difficult situation ,
+ or even becoming hurt",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	256 [label="adults often consider such behaviors
+ as childish and drop them
+ immediately",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	271 [label="a competitive person usually finds
+ it difficult to cooperate with
+ friends and colleagues",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
+	289 [label="they no
+ longer play games for any
+ moderate achievements , and gradually
+ lose their interest in such
+ activities",color=blue];
+	314 [label="adults do
+ need to play games ,
+ but their styles are often
+ distinct from children's , which
+ are often less competitive and
+ more enjoyable",color=green];
 }

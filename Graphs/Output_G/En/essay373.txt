@@ -27,7 +27,7 @@ digraph G {
  the basic and vital rights
  of a human being",color=green];
 	183 [label="it is regarded
- as the "legalized revenge" to
+ as the legalized revenge to
  victims' family",color=blue];
 	196 [label="death penalty neither controls the
  violent in society nor creates

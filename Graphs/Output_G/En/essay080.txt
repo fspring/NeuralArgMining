@@ -1,22 +1,22 @@
 digraph G {
-	65 -> 174;
+	81 -> 65;
 	81 -> 174;
 	107 -> 174;
 	128 -> 174;
 	148 -> 174;
-	192 -> 307;
-	224 -> 307;
-	240 -> 307;
-	268 -> 307;
-	295 -> 307;
+	195 -> 331;
+	224 -> 321;
+	240 -> 321;
+	260 -> 321;
+	268 -> 321;
 	65 [label="animals should be considered non-human persons
  and they should have the
- right of having freedom",color=blue];
-	174 [label="zoos provide
- the public with good entertainment
- and also help to ensure
- the balance of the ecology
-",color=green];
+ right of having freedom",color=green];
+	81 [label="this is so unfair for
+ them to be taken out
+ of their natural environment and
+ to be kept in small
+ enclosures",color=blue];
 	81 [label="this is so unfair for
  them to be taken out
  of their natural environment and
@@ -55,42 +55,35 @@ digraph G {
  and also help to ensure
  the balance of the ecology
 ",color=green];
-	192 [label="many people , especially
- young children enjoy going to
+	195 [label="especially young children enjoy going to
  zoos and see their favorite
  animals , cute baby-born animals
  and the animals that are
  from the different corners of
  the world",color=blue];
-	307 [label="both of the arguments
- have strong supports , but
-",color=green];
+	331 [label="it is",color=green];
 	224 [label="zoos provide
  educational information about the lives
  of different animals to the
  public",color=blue];
-	307 [label="both of the arguments
- have strong supports , but
-",color=green];
+	321 [label="more good come from zoos
+ than bad",color=green];
 	240 [label="zoos play an important role in
  reserving many breeds of animal
  and preventing them from being
  missing from life",color=blue];
-	307 [label="both of the arguments
- have strong supports , but
-",color=green];
+	321 [label="more good come from zoos
+ than bad",color=green];
+	260 [label="this is due to the fact
+",color=blue];
+	321 [label="more good come from zoos
+ than bad",color=green];
 	268 [label="in zoos ,
  animals are kept in enclosures
  which simulate their own habitats
  and also endangered animals are
  being protected from their predators
  or hunters",color=blue];
-	307 [label="both of the arguments
- have strong supports , but
-",color=green];
-	295 [label="zoos are needed to keep the
- nature balanced",color=blue];
-	307 [label="both of the arguments
- have strong supports , but
-",color=green];
+	321 [label="more good come from zoos
+ than bad",color=green];
 }

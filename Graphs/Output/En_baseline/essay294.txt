@@ -159,7 +159,7 @@ world (I)    0.000
 . (O)    0.000
 secondly (O)    0.000
 , (O)    0.000
-professors (P)   86.000
+professors (C)    0.000
 should (I)    0.000
 fully (I)    0.000
 use (I)    0.000
@@ -170,7 +170,7 @@ provided (I)    0.000
 by (I)    0.000
 universities (I)    0.000
 . (O)    0.000
-it (P)   75.000
+it (P)   30.000
 is (I)    0.000
 very (I)    0.000
 common (I)    0.000
@@ -184,7 +184,7 @@ campus (I)    0.000
 . (O)    0.000
 also (O)    0.000
 , (O)    0.000
-you (P)   61.000
+you (P)   16.000
 could (I)    0.000
 not (I)    0.000
 find (I)    0.000
@@ -200,7 +200,7 @@ together (I)    0.000
 . (O)    0.000
 consequently (O)    0.000
 , (O)    0.000
-there (P)   45.000
+there (C)    0.000
 is (I)    0.000
 really (I)    0.000
 no (I)    0.000

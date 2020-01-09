@@ -7,65 +7,63 @@ digraph G {
 	158 -> 266;
 	189 -> 239;
 	208 -> 239;
-	79 [label="people avoid eating meat mostly for
- the sake of their health
- and relegious aspect",color=green];
-	110 [label="Many researchers have convinced that
- many kinds of vegetable contain
- antioxydant which can prevent cancer
+	79 [label="people avoid
+ eating meat mostly for the
+ sake of their health and
+ relegious aspect",color=green];
+	110 [label="Many researchers have convinced that many
+ kinds of vegetable contain antioxydant
+ which can prevent cancer",color=blue];
+	96 [label="health improvement is the main
+ reason for vegetarian diet to
+ become so popular",color=green];
+	110 [label="Many researchers have convinced that many
+ kinds of vegetable contain antioxydant
+ which can prevent cancer",color=blue];
+	110 [label="Many researchers have convinced that many
+ kinds of vegetable contain antioxydant
+ which can prevent cancer",color=blue];
+	266 [label="people choose to become vegetarians
+ for health and religious concern
+ rather than the benefits of
+ animals",color=green];
+	131 [label="a vegetable diet can do
+ good for our health",color=blue];
+	266 [label="people choose to become vegetarians
+ for health and religious concern
+ rather than the benefits of
+ animals",color=green];
+	145 [label="a meal without meat can lead
+ to a lack of protein
+ intake",color=blue];
+	266 [label="people choose to become vegetarians
+ for health and religious concern
+ rather than the benefits of
+ animals",color=green];
+	158 [label="it is proved
+ that many kinds of bean
+ such as soy bean or
+ pea are also comparable protein
+ sources",color=blue];
+	266 [label="people choose to become vegetarians
+ for health and religious concern
+ rather than the benefits of
+ animals",color=green];
+	189 [label="Some religion
+ , such as Buddha ,
+ believes that animals were human
+ being in their previous life
 ",color=blue];
-	96 [label="health improvement is the
- main reason for vegetarian diet
- to become so popular",color=green];
-	110 [label="Many researchers have convinced that
- many kinds of vegetable contain
- antioxydant which can prevent cancer
+	239 [label="it is
+ vital to follow one's own
+ religious practices which can bring
+ the enlightenment in mind",color=green];
+	208 [label="eating their meat
+ mean you eat the flesh
+ of your parent sentient beings
 ",color=blue];
-	110 [label="Many researchers have convinced that
- many kinds of vegetable contain
- antioxydant which can prevent cancer
-",color=blue];
-	266 [label="people choose to become
- vegetarians for health and religious
- concern rather than the benefits
- of animals",color=green];
-	131 [label="a vegetable diet can
- do good for our health
-",color=blue];
-	266 [label="people choose to become
- vegetarians for health and religious
- concern rather than the benefits
- of animals",color=green];
-	145 [label="a meal without meat can
- lead to a lack of
- protein intake",color=blue];
-	266 [label="people choose to become
- vegetarians for health and religious
- concern rather than the benefits
- of animals",color=green];
-	158 [label="it is
- proved that many kinds of
- bean such as soy bean
- or pea are also comparable
- protein sources",color=blue];
-	266 [label="people choose to become
- vegetarians for health and religious
- concern rather than the benefits
- of animals",color=green];
-	189 [label="Some religion , such as Buddha
- , believes that animals were
- human being in their previous
- life",color=blue];
-	239 [label="it is vital to follow one's
- own religious practices which can
- bring the enlightenment in mind
-",color=green];
-	208 [label="eating their
- meat mean you eat the
- flesh of your parent sentient
- beings",color=blue];
-	239 [label="it is vital to follow one's
- own religious practices which can
- bring the enlightenment in mind
-",color=green];
+	239 [label="it is
+ vital to follow one's own
+ religious practices which can bring
+ the enlightenment in mind",color=green];
 }

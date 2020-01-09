@@ -146,7 +146,7 @@ a (I)    0.000
 small (I)    0.000
 town (I)    0.000
 . (O)    0.000
-you (P)   64.000
+you (P)  180.000
 can (I)    0.000
 enjoy (I)    0.000
 modern (I)    0.000
@@ -163,7 +163,7 @@ facilities (I)    0.000
 for (O)    0.000
 instance (O)    0.000
 , (O)    0.000
-you (P)   47.000
+you (P)  163.000
 can (I)    0.000
 visit (I)    0.000
 museums (I)    0.000
@@ -194,7 +194,7 @@ for (I)    0.000
 exercising (I)    0.000
 . (O)    0.000
 but (O)    0.000
-a (P)   16.000
+a (P)  132.000
 small (I)    0.000
 town (I)    0.000
 may (I)    0.000
@@ -210,7 +210,7 @@ of (I)    0.000
 needs (I)    0.000
 . (O)    0.000
 furthermore (O)    0.000
-living (C)    0.000
+living (P)  116.000
 in (I)    0.000
 big (I)    0.000
 cities (I)    0.000
@@ -226,7 +226,7 @@ kinds (I)    0.000
 of (I)    0.000
 information (I)    0.000
 . (O)    0.000
-if (P)  180.000
+if (P)  100.000
 one (I)    0.000
 can (I)    0.000
 efficiently (I)    0.000
@@ -252,7 +252,7 @@ goals (I)    0.000
 for (O)    0.000
 example (O)    0.000
 , (O)    0.000
-there (P)  154.000
+there (P)   74.000
 are (I)    0.000
 various (I)    0.000
 advertisements (I)    0.000
@@ -278,7 +278,7 @@ in (I)    0.000
 commercial (I)    0.000
 zones (I)    0.000
 . (O)    0.000
-if (P)  128.000
+if (P)   48.000
 one (I)    0.000
 is (I)    0.000
 seeking (I)    0.000
@@ -326,7 +326,7 @@ relatively (I)    0.000
 wise (I)    0.000
 choice (I)    0.000
 . (O)    0.000
-there (P)   80.000
+there (C)    0.000
 is (I)    0.000
 also (I)    0.000
 another (I)    0.000

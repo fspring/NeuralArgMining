@@ -20,163 +20,170 @@ digraph G {
 	402 -> 456;
 	427 -> 456;
 	439 -> 446;
-	42 [label="it is one's
- hard work that helps him
- reach his target",color=green];
-	74 [label="Luck is something intangible and no
- one can guarantee that it
- would ever come your way
+	42 [label="it is one's hard
+ work that helps him reach
+ his target",color=green];
+	74 [label="Luck is
+ something intangible and no one
+ can guarantee that it would
+ ever come your way",color=blue];
+	56 [label="if you depend only on
+ luck for all your accomplishments
+ , you are taking a
+ great risk",color=green];
+	74 [label="Luck is
+ something intangible and no one
+ can guarantee that it would
+ ever come your way",color=blue];
+	74 [label="Luck is
+ something intangible and no one
+ can guarantee that it would
+ ever come your way",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	91 [label="If it doesn't work ,
+ it would be a great
+ disappointment",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	104 [label="if you
+ strive hard to achieve what
+ you want , then your
+ hard work would take you
+ at least closer to your
+ final goal",color=blue];
+	134 [label="all my
+ accomplishments were backed by my
+ hard work , not my
+ luck",color=green];
+	134 [label="all my
+ accomplishments were backed by my
+ hard work , not my
+ luck",color=green];
+	149 [label="I never
+ did encounter any disappointments of
+ missing my goals",color=blue];
+	149 [label="I never
+ did encounter any disappointments of
+ missing my goals",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	186 [label="those who believe in hard
+ work are clear about their
+ goals and know about their
+ final destination",color=green];
+	204 [label="They carefully
+ organize the process of achieving
+ their targets and continue to
+ evaluate their progress until they
+ reach the final goal",color=blue];
+	204 [label="They carefully
+ organize the process of achieving
+ their targets and continue to
+ evaluate their progress until they
+ reach the final goal",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	226 [label="If you believe in luck
+ , you would be clueless
+ about where you are heading
 ",color=blue];
-	56 [label="if you depend only
- on luck for all your
- accomplishments , you are taking
- a great risk",color=green];
-	74 [label="Luck is something intangible and no
- one can guarantee that it
- would ever come your way
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	245 [label="a friend of mine , who
+ had severe financial constraints ,
+ had the habit of buying
+ lottery tickets thinking that one
+ day he would win a
+ lottery",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	273 [label="He was living
+ in an illusion that he
+ can solve his financial issues
+ with this lottery",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	292 [label="up to this day
+ his luck has not appeared
+ and problems have got further
+ worsened",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	310 [label="if you work hard , luck
+ too might shine on you
+ and take you some more
+ steps further ahead from your
+ actual target",color=green];
+	337 [label="my boss worked tirelessly
+ for his promotion",color=blue];
+	337 [label="my boss worked tirelessly
+ for his promotion",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	345 [label="He looked at every aspect that
+ he needed to qualify for
+ the promotion",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	359 [label="He realized
+ that having a master's degree
+ would be a great credential
+ for him to outperform his
+ competitors",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	379 [label="he had
+ many commitments at home and
+ work , he somehow managed
+ to complete this degree before
+ he was eligible to apply
 ",color=blue];
-	74 [label="Luck is something intangible and no
- one can guarantee that it
- would ever come your way
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	402 [label="At the end he
+ was not only able to
+ get the promotion amidst a
+ stiff competition but also got
+ nominated for a foreign scholarship
 ",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	91 [label="If it doesn't work
- , it would be a
- great disappointment",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	104 [label="if you strive hard to achieve
- what you want , then
- your hard work would take
- you at least closer to
- your final goal",color=blue];
-	134 [label="all my accomplishments were backed by
- my hard work , not
- my luck",color=green];
-	134 [label="all my accomplishments were backed by
- my hard work , not
- my luck",color=green];
-	149 [label="I never did encounter any disappointments
- of missing my goals",color=blue];
-	149 [label="I never did encounter any disappointments
- of missing my goals",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	186 [label="those who believe in
- hard work are clear about
- their goals and know about
- their final destination",color=green];
-	204 [label="They carefully organize the process of
- achieving their targets and continue
- to evaluate their progress until
- they reach the final goal
-",color=blue];
-	204 [label="They carefully organize the process of
- achieving their targets and continue
- to evaluate their progress until
- they reach the final goal
-",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	226 [label="If you believe in
- luck , you would be
- clueless about where you are
- heading",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	245 [label="a friend of mine ,
- who had severe financial constraints
- , had the habit of
- buying lottery tickets thinking that
- one day he would win
- a lottery",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	273 [label="He was
- living in an illusion that
- he can solve his financial
- issues with this lottery",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	292 [label="up to this
- day his luck has not
- appeared and problems have got
- further worsened",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	310 [label="if you work hard ,
- luck too might shine on
- you and take you some
- more steps further ahead from
- your actual target",color=green];
-	337 [label="my boss worked
- tirelessly for his promotion",color=blue];
-	337 [label="my boss worked
- tirelessly for his promotion",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	345 [label="He looked at every aspect
- that he needed to qualify
- for the promotion",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	359 [label="He realized that having a master's
- degree would be a great
- credential for him to outperform
- his competitors",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	379 [label="he had many commitments at home
- and work , he somehow
- managed to complete this degree
- before he was eligible to
- apply",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	402 [label="At the end
- he was not only able
- to get the promotion amidst
- a stiff competition but also
- got nominated for a foreign
- scholarship",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	427 [label="he had more
- credentials than other officers in
- his capacity",color=blue];
-	456 [label="I strongly believe in
- hard working that would not
- easily disappoint you as luck
- sometimes does",color=green];
-	439 [label="it is good to be lucky
-",color=blue];
-	446 [label="depending on luck for
- everything is not good",color=green];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	427 [label="he had more credentials
+ than other officers in his
+ capacity",color=blue];
+	456 [label="I strongly believe in hard
+ working that would not easily
+ disappoint you as luck sometimes
+ does",color=green];
+	439 [label="it is
+ good to be lucky",color=blue];
+	446 [label="depending on luck for everything
+ is not good",color=green];
 }

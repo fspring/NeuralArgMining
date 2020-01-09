@@ -14,137 +14,144 @@ digraph G {
 	299 -> 329;
 	409 -> 379;
 	409 -> 428;
-	77 [label="children should be
- forbidden in watching television or
- movies excessively",color=green];
-	92 [label="children generally have
- weak self-control , and thus
- they lose their time easily
+	77 [label="children should be forbidden
+ in watching television or movies
+ excessively",color=green];
+	92 [label="children generally have weak
+ self-control , and thus they
+ lose their time easily",color=blue];
+	92 [label="children generally have weak
+ self-control , and thus they
+ lose their time easily",color=blue];
+	106 [label="Watching TV for a long
+ time without doing homework is
+ one of major headaches that
+ most of children have brought
+ to their parents",color=green];
+	106 [label="Watching TV for a long
+ time without doing homework is
+ one of major headaches that
+ most of children have brought
+ to their parents",color=green];
+	213 [label="I , therefore
+ , did extremely bad at
+ school due to the lack
+ of studying",color=blue];
+	142 [label="Whenever I back to
+ home from school , the
+ first thing I would do
+ is turning on the television
+ and sit there for hours
 ",color=blue];
-	92 [label="children generally have
- weak self-control , and thus
- they lose their time easily
+	428 [label="In considering whether
+ the time children watching on
+ TV or movies should be
+ constrained , I hold a
+ strongly positive point of view
+ toward this issue",color=green];
+	167 [label="I could watch TV
+ for hours , but I
+ could hardly sit in front
+ of my desk to do
+ homework for few minutes",color=blue];
+	428 [label="In considering whether
+ the time children watching on
+ TV or movies should be
+ constrained , I hold a
+ strongly positive point of view
+ toward this issue",color=green];
+	191 [label="I could memorize all channels
+ that TV programs was playing
+ , but I could barely
+ memorize any word on the
+ textbook",color=blue];
+	428 [label="In considering whether
+ the time children watching on
+ TV or movies should be
+ constrained , I hold a
+ strongly positive point of view
+ toward this issue",color=green];
+	213 [label="I , therefore
+ , did extremely bad at
+ school due to the lack
+ of studying",color=blue];
+	428 [label="In considering whether
+ the time children watching on
+ TV or movies should be
+ constrained , I hold a
+ strongly positive point of view
+ toward this issue",color=green];
+	231 [label="sometimes programs on TV are
+ full of violence and sex
+ which are harmful to children
 ",color=blue];
-	106 [label="Watching TV for a
- long time without doing homework
- is one of major headaches
- that most of children have
- brought to their parents",color=green];
-	106 [label="Watching TV for a
- long time without doing homework
- is one of major headaches
- that most of children have
- brought to their parents",color=green];
-	213 [label="I ,
- therefore , did extremely bad
- at school due to the
- lack of studying",color=blue];
-	142 [label="Whenever I back
- to home from school ,
- the first thing I would
- do is turning on the
- television and sit there for
- hours",color=blue];
-	428 [label="In considering
- whether the time children watching
- on TV or movies should
- be constrained , I hold
- a strongly positive point of
- view toward this issue",color=green];
-	167 [label="I could watch
- TV for hours , but
- I could hardly sit in
- front of my desk to
- do homework for few minutes
-",color=blue];
-	428 [label="In considering
- whether the time children watching
- on TV or movies should
- be constrained , I hold
- a strongly positive point of
- view toward this issue",color=green];
-	191 [label="I could memorize all
- channels that TV programs was
- playing , but I could
- barely memorize any word on
- the textbook",color=blue];
-	428 [label="In considering
- whether the time children watching
- on TV or movies should
- be constrained , I hold
- a strongly positive point of
- view toward this issue",color=green];
-	213 [label="I ,
- therefore , did extremely bad
- at school due to the
- lack of studying",color=blue];
-	428 [label="In considering
- whether the time children watching
- on TV or movies should
- be constrained , I hold
- a strongly positive point of
- view toward this issue",color=green];
-	231 [label="sometimes programs on TV
- are full of violence and
- sex which are harmful to
- children",color=blue];
-	329 [label="there are many programs on TV
- or movies that are harmful
- to children in metal and
- physical health",color=green];
-	247 [label="Children are not
- mature enough to make a
- judgment of what is good
- or bad",color=blue];
-	329 [label="there are many programs on TV
- or movies that are harmful
- to children in metal and
- physical health",color=green];
-	264 [label="they are likely to imitate the
- behaviors on TV out of
- their curiosity",color=blue];
-	329 [label="there are many programs on TV
- or movies that are harmful
- to children in metal and
- physical health",color=green];
-	278 [label="Recently ,
- more and more children smoke
-",color=blue];
-	329 [label="there are many programs on TV
- or movies that are harmful
- to children in metal and
- physical health",color=green];
-	286 [label="they imitate actors' behaviors
- on TV or movies",color=blue];
-	329 [label="there are many programs on TV
- or movies that are harmful
- to children in metal and
- physical health",color=green];
-	299 [label="according to some statistics , there
- are more and more children
- have violent tendency , and
- the reports attribute this to
- TV programs and movies",color=blue];
-	329 [label="there are many programs on TV
- or movies that are harmful
- to children in metal and
- physical health",color=green];
-	379 [label="children should watch TV and movies
- for their rich contents that
- could give children some topics
- in conversation",color=green];
-	409 [label="it doesn't mean that children should
- do it overtime and without
- being taken care what they
- are watching",color=blue];
-	409 [label="it doesn't mean that children should
- do it overtime and without
- being taken care what they
- are watching",color=blue];
-	428 [label="In considering
- whether the time children watching
- on TV or movies should
- be constrained , I hold
- a strongly positive point of
- view toward this issue",color=green];
+	329 [label="there are
+ many programs on TV or
+ movies that are harmful to
+ children in metal and physical
+ health",color=green];
+	247 [label="Children are not mature
+ enough to make a judgment
+ of what is good or
+ bad",color=blue];
+	329 [label="there are
+ many programs on TV or
+ movies that are harmful to
+ children in metal and physical
+ health",color=green];
+	264 [label="they are
+ likely to imitate the behaviors
+ on TV out of their
+ curiosity",color=blue];
+	329 [label="there are
+ many programs on TV or
+ movies that are harmful to
+ children in metal and physical
+ health",color=green];
+	278 [label="Recently , more
+ and more children smoke",color=blue];
+	329 [label="there are
+ many programs on TV or
+ movies that are harmful to
+ children in metal and physical
+ health",color=green];
+	286 [label="they imitate actors' behaviors on
+ TV or movies",color=blue];
+	329 [label="there are
+ many programs on TV or
+ movies that are harmful to
+ children in metal and physical
+ health",color=green];
+	299 [label="according to
+ some statistics , there are
+ more and more children have
+ violent tendency , and the
+ reports attribute this to TV
+ programs and movies",color=blue];
+	329 [label="there are
+ many programs on TV or
+ movies that are harmful to
+ children in metal and physical
+ health",color=green];
+	379 [label="children should
+ watch TV and movies for
+ their rich contents that could
+ give children some topics in
+ conversation",color=green];
+	409 [label="it doesn't
+ mean that children should do
+ it overtime and without being
+ taken care what they are
+ watching",color=blue];
+	409 [label="it doesn't
+ mean that children should do
+ it overtime and without being
+ taken care what they are
+ watching",color=blue];
+	428 [label="In considering whether
+ the time children watching on
+ TV or movies should be
+ constrained , I hold a
+ strongly positive point of view
+ toward this issue",color=green];
 }

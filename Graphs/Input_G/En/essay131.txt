@@ -9,101 +9,100 @@ digraph G {
 	195 -> 283;
 	234 -> 218;
 	234 -> 283;
-	47 [label="this investment in
- field of the arts would
- be in the best interest
- of a society",color=green];
-	93 [label="no one
- should suffer from any sort
- of deficiency in field of
- health , education , transportation
- and communication",color=blue];
-	73 [label="governments are
- liable for providing societies with
- appropriate public services and adequate
- facilities in an efficient way
-",color=green];
-	93 [label="no one
- should suffer from any sort
- of deficiency in field of
- health , education , transportation
- and communication",color=blue];
-	93 [label="no one
- should suffer from any sort
- of deficiency in field of
- health , education , transportation
- and communication",color=blue];
-	283 [label="it would
- enriches the culture of the
- society and governments and individuals
- would benefit from it in
- multiple ways",color=green];
-	115 [label="these could only help individuals
- with their physical requirements",color=blue];
-	283 [label="it would
- enriches the culture of the
- society and governments and individuals
- would benefit from it in
- multiple ways",color=green];
-	125 [label="There is also a burden
- on the government to highly
- concern about the people mental
- health initiatives which would be
- unconsciously or sensibly provided by
- the arts",color=blue];
-	283 [label="it would
- enriches the culture of the
- society and governments and individuals
- would benefit from it in
- multiple ways",color=green];
-	158 [label="the arts
- play a pivotal role in
- all-round development of a society
-",color=green];
-	171 [label="No developed country could
- be named that music ,
- painting , literature and other
- fields of arts are out
- of its government consideration",color=blue];
-	171 [label="No developed country could
- be named that music ,
- painting , literature and other
- fields of arts are out
- of its government consideration",color=blue];
-	283 [label="it would
- enriches the culture of the
- society and governments and individuals
- would benefit from it in
- multiple ways",color=green];
-	195 [label="Enriching people's life and enlightening
- their thoughts , the arts
- basically affect the enhancement of
- societies in many positive ways
+	47 [label="this investment in field
+ of the arts would be
+ in the best interest of
+ a society",color=green];
+	93 [label="no one should
+ suffer from any sort of
+ deficiency in field of health
+ , education , transportation and
+ communication",color=blue];
+	73 [label="governments are liable
+ for providing societies with appropriate
+ public services and adequate facilities
+ in an efficient way",color=green];
+	93 [label="no one should
+ suffer from any sort of
+ deficiency in field of health
+ , education , transportation and
+ communication",color=blue];
+	93 [label="no one should
+ suffer from any sort of
+ deficiency in field of health
+ , education , transportation and
+ communication",color=blue];
+	283 [label="it would enriches
+ the culture of the society
+ and governments and individuals would
+ benefit from it in multiple
+ ways",color=green];
+	115 [label="these could only help individuals with
+ their physical requirements",color=blue];
+	283 [label="it would enriches
+ the culture of the society
+ and governments and individuals would
+ benefit from it in multiple
+ ways",color=green];
+	125 [label="There is also a burden on
+ the government to highly concern
+ about the people mental health
+ initiatives which would be unconsciously
+ or sensibly provided by the
+ arts",color=blue];
+	283 [label="it would enriches
+ the culture of the society
+ and governments and individuals would
+ benefit from it in multiple
+ ways",color=green];
+	158 [label="the arts play
+ a pivotal role in all-round
+ development of a society",color=green];
+	171 [label="No developed country could be
+ named that music , painting
+ , literature and other fields
+ of arts are out of
+ its government consideration",color=blue];
+	171 [label="No developed country could be
+ named that music , painting
+ , literature and other fields
+ of arts are out of
+ its government consideration",color=blue];
+	283 [label="it would enriches
+ the culture of the society
+ and governments and individuals would
+ benefit from it in multiple
+ ways",color=green];
+	195 [label="Enriching people's life and enlightening their
+ thoughts , the arts basically
+ affect the enhancement of societies
+ in many positive ways",color=blue];
+	283 [label="it would enriches
+ the culture of the society
+ and governments and individuals would
+ benefit from it in multiple
+ ways",color=green];
+	218 [label="investing in art
+ could bring employment opportunities and
+ could end in return of
+ capital occasionally",color=green];
+	234 [label="The investment
+ could be paid back through
+ the values of the created
+ works of art which as
+ a matter of fact should
+ be considered as national possessions
 ",color=blue];
-	283 [label="it would
- enriches the culture of the
- society and governments and individuals
- would benefit from it in
- multiple ways",color=green];
-	218 [label="investing in
- art could bring employment opportunities
- and could end in return
- of capital occasionally",color=green];
-	234 [label="The investment could be paid back
- through the values of the
- created works of art which
- as a matter of fact
- should be considered as national
- possessions",color=blue];
-	234 [label="The investment could be paid back
- through the values of the
- created works of art which
- as a matter of fact
- should be considered as national
- possessions",color=blue];
-	283 [label="it would
- enriches the culture of the
- society and governments and individuals
- would benefit from it in
- multiple ways",color=green];
+	234 [label="The investment
+ could be paid back through
+ the values of the created
+ works of art which as
+ a matter of fact should
+ be considered as national possessions
+",color=blue];
+	283 [label="it would enriches
+ the culture of the society
+ and governments and individuals would
+ benefit from it in multiple
+ ways",color=green];
 }

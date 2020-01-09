@@ -15,7 +15,7 @@ educação (O)    0.000
 é (C)    0.000
 inesperado (I)    0.000
 porque (O)    0.000
-achava (P)  723.000
+achava (P)    0.000
 que (I)    0.000
 havia (I)    0.000
 um (I)    0.000

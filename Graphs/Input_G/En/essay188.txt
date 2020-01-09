@@ -10,105 +10,103 @@ digraph G {
 	252 -> 225;
 	252 -> 301;
 	281 -> 301;
-	19 [label="physical exercise is a crucial part
- of every school day",color=green];
-	91 [label="the rate of obesity
- in children has increased every
- year , it will be
- very beneficial for children to
- have a daily physical activity
- and get a break from
- being sitting several hours at
- school",color=blue];
-	76 [label="Physical activity helps children
- to grow up physically healthier
+	19 [label="physical exercise
+ is a crucial part of
+ every school day",color=green];
+	91 [label="the rate of obesity in
+ children has increased every year
+ , it will be very
+ beneficial for children to have
+ a daily physical activity and
+ get a break from being
+ sitting several hours at school
+",color=blue];
+	76 [label="Physical activity helps children to
+ grow up physically healthier",color=green];
+	91 [label="the rate of obesity in
+ children has increased every year
+ , it will be very
+ beneficial for children to have
+ a daily physical activity and
+ get a break from being
+ sitting several hours at school
+",color=blue];
+	91 [label="the rate of obesity in
+ children has increased every year
+ , it will be very
+ beneficial for children to have
+ a daily physical activity and
+ get a break from being
+ sitting several hours at school
+",color=blue];
+	301 [label="Including physical activity in children's
+ school day should be strongly
+ considered",color=green];
+	130 [label="exercise will help them to not
+ be less exposed to illness
+ related with cardiovascular , higher
+ blood and cholesterol issues",color=blue];
+	301 [label="Including physical activity in children's
+ school day should be strongly
+ considered",color=green];
+	151 [label="Daily exercise will help also
+ to develop children's brain function
 ",color=green];
-	91 [label="the rate of obesity
- in children has increased every
- year , it will be
- very beneficial for children to
- have a daily physical activity
- and get a break from
- being sitting several hours at
- school",color=blue];
-	91 [label="the rate of obesity
- in children has increased every
- year , it will be
- very beneficial for children to
- have a daily physical activity
- and get a break from
- being sitting several hours at
- school",color=blue];
-	301 [label="Including physical activity in
- children's school day should be
- strongly considered",color=green];
-	130 [label="exercise will help them to
- not be less exposed to
- illness related with cardiovascular ,
- higher blood and cholesterol issues
+	162 [label="It is well known
+ how important it is to
+ exercise regularly to help the
+ body system to work better
 ",color=blue];
-	301 [label="Including physical activity in
- children's school day should be
- strongly considered",color=green];
-	151 [label="Daily exercise will help
- also to develop children's brain
- function",color=green];
-	162 [label="It is well
- known how important it is
- to exercise regularly to help
- the body system to work
- better",color=blue];
-	162 [label="It is well
- known how important it is
- to exercise regularly to help
- the body system to work
- better",color=blue];
-	301 [label="Including physical activity in
- children's school day should be
- strongly considered",color=green];
-	182 [label="When people exercise
- , the respiratory system's function
- is enhanced , helping all
- organs , including the brain
- , to get more oxygen
- in",color=blue];
-	301 [label="Including physical activity in
- children's school day should be
- strongly considered",color=green];
-	207 [label="Daily exercise will
- provide children with a mental
- break which will boost them
- to be efficient learners",color=blue];
-	301 [label="Including physical activity in
- children's school day should be
- strongly considered",color=green];
-	225 [label="Having children in the daily
- exercise routine from an early
- age will teach them the
- important value of having physical
- activity in their every day
- routine",color=green];
-	252 [label="Children are bombarded
- with lectures about nutrition and
- physical activity ; however ,
- they will be more beneficed
- if that knowledge can be
- put in practice",color=blue];
-	252 [label="Children are bombarded
- with lectures about nutrition and
- physical activity ; however ,
- they will be more beneficed
- if that knowledge can be
- put in practice",color=blue];
-	301 [label="Including physical activity in
- children's school day should be
- strongly considered",color=green];
-	281 [label="they can stick with
- the routine and make the
- daily physical activities a good
- habit on their whole life
+	162 [label="It is well known
+ how important it is to
+ exercise regularly to help the
+ body system to work better
 ",color=blue];
-	301 [label="Including physical activity in
- children's school day should be
- strongly considered",color=green];
+	301 [label="Including physical activity in children's
+ school day should be strongly
+ considered",color=green];
+	182 [label="When people exercise ,
+ the respiratory system's function is
+ enhanced , helping all organs
+ , including the brain ,
+ to get more oxygen in
+",color=blue];
+	301 [label="Including physical activity in children's
+ school day should be strongly
+ considered",color=green];
+	207 [label="Daily exercise will provide
+ children with a mental break
+ which will boost them to
+ be efficient learners",color=blue];
+	301 [label="Including physical activity in children's
+ school day should be strongly
+ considered",color=green];
+	225 [label="Having children in the daily exercise
+ routine from an early age
+ will teach them the important
+ value of having physical activity
+ in their every day routine
+",color=green];
+	252 [label="Children are bombarded with
+ lectures about nutrition and physical
+ activity ; however , they
+ will be more beneficed if
+ that knowledge can be put
+ in practice",color=blue];
+	252 [label="Children are bombarded with
+ lectures about nutrition and physical
+ activity ; however , they
+ will be more beneficed if
+ that knowledge can be put
+ in practice",color=blue];
+	301 [label="Including physical activity in children's
+ school day should be strongly
+ considered",color=green];
+	281 [label="they can stick with the
+ routine and make the daily
+ physical activities a good habit
+ on their whole life",color=blue];
+	301 [label="Including physical activity in children's
+ school day should be strongly
+ considered",color=green];
 }

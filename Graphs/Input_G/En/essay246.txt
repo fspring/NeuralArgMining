@@ -9,78 +9,76 @@ digraph G {
 	231 -> 173;
 	194 -> 250;
 	231 -> 250;
-	5 [label="every fast and not well
- thought decision is a wasted
- one",color=green];
-	36 [label="making a quick decision
- means that it's not very
- thought out , and that
- it hasn't been checked from
- all its aspects",color=blue];
-	36 [label="making a quick decision
- means that it's not very
- thought out , and that
- it hasn't been checked from
- all its aspects",color=blue];
-	61 [label="making quick decisions leads
- to probable bad results",color=green];
-	61 [label="making quick decisions leads
- to probable bad results",color=green];
-	73 [label="if someone
- decided to quit his job
- without really thinking about the
- alternative , or a plan
- B , he could end
- up being unemployed , because
- of his speedy decision",color=blue];
-	73 [label="if someone
- decided to quit his job
- without really thinking about the
- alternative , or a plan
- B , he could end
- up being unemployed , because
- of his speedy decision",color=blue];
-	250 [label="a hurried decision is almost
- never a good one",color=green];
-	108 [label="making a
- rushed decision could also mean
- that the person is missing
- out on a potential opportunity
+	5 [label="every fast and not well thought
+ decision is a wasted one
 ",color=green];
-	162 [label="he wouldn't have
- been unemployed",color=blue];
-	130 [label="if this person had waited
- and thought his decision through
- he wouldn't have missed out
- on the job opening in
- the same firm , but
- at a different position",color=blue];
-	250 [label="a hurried decision is almost
- never a good one",color=green];
-	162 [label="he wouldn't have
- been unemployed",color=blue];
-	250 [label="a hurried decision is almost
- never a good one",color=green];
-	173 [label="hasty decisions
- , not only goes to
- waste , but also ,
- could affect the entire life
- of the person",color=green];
-	231 [label="his life had taken
- a turn to the worst
-",color=blue];
-	194 [label="To put it differently , is
- that after this person has
- quit his job and became
- unemployed , he can no
- longer pay his bills nor
- buy what he needs for
- his everyday needs",color=blue];
-	250 [label="a hurried decision is almost
- never a good one",color=green];
-	231 [label="his life had taken
- a turn to the worst
-",color=blue];
-	250 [label="a hurried decision is almost
- never a good one",color=green];
+	36 [label="making a quick decision means
+ that it's not very thought
+ out , and that it
+ hasn't been checked from all
+ its aspects",color=blue];
+	36 [label="making a quick decision means
+ that it's not very thought
+ out , and that it
+ hasn't been checked from all
+ its aspects",color=blue];
+	61 [label="making quick decisions leads to
+ probable bad results",color=green];
+	61 [label="making quick decisions leads to
+ probable bad results",color=green];
+	73 [label="if someone decided
+ to quit his job without
+ really thinking about the alternative
+ , or a plan B
+ , he could end up
+ being unemployed , because of
+ his speedy decision",color=blue];
+	73 [label="if someone decided
+ to quit his job without
+ really thinking about the alternative
+ , or a plan B
+ , he could end up
+ being unemployed , because of
+ his speedy decision",color=blue];
+	250 [label="a hurried decision is almost never
+ a good one",color=green];
+	108 [label="making a rushed
+ decision could also mean that
+ the person is missing out
+ on a potential opportunity",color=green];
+	162 [label="he wouldn't have been
+ unemployed",color=blue];
+	130 [label="if this person had waited and
+ thought his decision through he
+ wouldn't have missed out on
+ the job opening in the
+ same firm , but at
+ a different position",color=blue];
+	250 [label="a hurried decision is almost never
+ a good one",color=green];
+	162 [label="he wouldn't have been
+ unemployed",color=blue];
+	250 [label="a hurried decision is almost never
+ a good one",color=green];
+	173 [label="hasty decisions ,
+ not only goes to waste
+ , but also , could
+ affect the entire life of
+ the person",color=green];
+	231 [label="his life had taken a
+ turn to the worst",color=blue];
+	194 [label="To put
+ it differently , is that
+ after this person has quit
+ his job and became unemployed
+ , he can no longer
+ pay his bills nor buy
+ what he needs for his
+ everyday needs",color=blue];
+	250 [label="a hurried decision is almost never
+ a good one",color=green];
+	231 [label="his life had taken a
+ turn to the worst",color=blue];
+	250 [label="a hurried decision is almost never
+ a good one",color=green];
 }

@@ -15,120 +15,121 @@ digraph G {
 	323 -> 386;
 	338 -> 386;
 	354 -> 386;
-	8 [label="human needs
- for farmland , housing and
- industry are more important",color=green];
-	83 [label="land used
- for farmland , housing and
- industry can benefit more to
- the whole society",color=blue];
-	60 [label="human needs for farmland ,
+	8 [label="human needs for
+ farmland , housing and industry
+ are more important",color=green];
+	83 [label="land used for
+ farmland , housing and industry
+ can benefit more to the
+ whole society",color=blue];
+	60 [label="human needs for farmland , housing
+ and industry are more important
+",color=green];
+	83 [label="land used for
+ farmland , housing and industry
+ can benefit more to the
+ whole society",color=blue];
+	83 [label="land used for
+ farmland , housing and industry
+ can benefit more to the
+ whole society",color=blue];
+	187 [label="the needs for farmland
+ , housing and industry are
+ more important",color=green];
+	104 [label="the economy
+ of the whole society will
+ be developed with the help
+ of agriculture , real estate
+ industry and industry , in
+ particularly industry which is the
+ pillar industry of national economy
+",color=blue];
+	187 [label="the needs for farmland
+ , housing and industry are
+ more important",color=green];
+	138 [label="they produce plenty
+ of profits",color=blue];
+	187 [label="the needs for farmland
+ , housing and industry are
+ more important",color=green];
+	148 [label="the society will
+ be stable and harmony due
+ to more farmland and industry
+",color=blue];
+	187 [label="the needs for farmland
+ , housing and industry are
+ more important",color=green];
+	167 [label="more farmlands and industries
+ can provide more job opportunities
+ which can decrease the unemployment
+ rate and crime rate",color=blue];
+	187 [label="the needs for farmland
+ , housing and industry are
+ more important",color=green];
+	201 [label="farmland , housing and industry
+ can satisfy the desire of
+ human that living a better
+ life",color=green];
+	223 [label="farming , housing
+ and industry provide us the
+ food we eat , place
+ we live , clothes we
+ wear , which are essential
+ to live",color=blue];
+	223 [label="farming , housing
+ and industry provide us the
+ food we eat , place
+ we live , clothes we
+ wear , which are essential
+ to live",color=blue];
+	386 [label="human needs for farmland ,
  housing and industry are more
  important",color=green];
-	83 [label="land used
- for farmland , housing and
- industry can benefit more to
- the whole society",color=blue];
-	83 [label="land used
- for farmland , housing and
- industry can benefit more to
- the whole society",color=blue];
-	187 [label="the needs for
- farmland , housing and industry
- are more important",color=green];
-	104 [label="the economy of the whole society
- will be developed with the
- help of agriculture , real
- estate industry and industry ,
- in particularly industry which is
- the pillar industry of national
+	249 [label="Especially in
+ some poor areas , survival
+ is the most significant thing
+",color=blue];
+	386 [label="human needs for farmland ,
+ housing and industry are more
+ important",color=green];
+	265 [label="highly developed agriculture and industry can
+ improve our living conditions which
+ allow us have a good
+ quality life",color=blue];
+	386 [label="human needs for farmland ,
+ housing and industry are more
+ important",color=green];
+	293 [label="farmland , housing
+ and industry will occupy the
+ land used for endangered animals
+",color=blue];
+	307 [label="it can do good
+ to protect the endangered animals
+",color=green];
+	307 [label="it can do good
+ to protect the endangered animals
+",color=green];
+	323 [label="agriculture and industry
+ make a contribution to the
  economy",color=blue];
-	187 [label="the needs for
- farmland , housing and industry
- are more important",color=green];
-	138 [label="they produce
- plenty of profits",color=blue];
-	187 [label="the needs for
- farmland , housing and industry
- are more important",color=green];
-	148 [label="the society
- will be stable and harmony
- due to more farmland and
- industry",color=blue];
-	187 [label="the needs for
- farmland , housing and industry
- are more important",color=green];
-	167 [label="more farmlands and
- industries can provide more job
- opportunities which can decrease the
- unemployment rate and crime rate
-",color=blue];
-	187 [label="the needs for
- farmland , housing and industry
- are more important",color=green];
-	201 [label="farmland , housing and
- industry can satisfy the desire
- of human that living a
- better life",color=green];
-	223 [label="farming ,
- housing and industry provide us
- the food we eat ,
- place we live , clothes
- we wear , which are
- essential to live",color=blue];
-	223 [label="farming ,
- housing and industry provide us
- the food we eat ,
- place we live , clothes
- we wear , which are
- essential to live",color=blue];
-	386 [label="human needs for farmland
- , housing and industry are
- more important",color=green];
-	249 [label="Especially in some poor areas ,
- survival is the most significant
- thing",color=blue];
-	386 [label="human needs for farmland
- , housing and industry are
- more important",color=green];
-	265 [label="highly developed agriculture and industry
- can improve our living conditions
- which allow us have a
- good quality life",color=blue];
-	386 [label="human needs for farmland
- , housing and industry are
- more important",color=green];
-	293 [label="farmland ,
- housing and industry will occupy
- the land used for endangered
- animals",color=blue];
-	307 [label="it can do
- good to protect the endangered
- animals",color=green];
-	307 [label="it can do
- good to protect the endangered
- animals",color=green];
-	323 [label="agriculture and
- industry make a contribution to
- the economy",color=blue];
-	323 [label="agriculture and
- industry make a contribution to
- the economy",color=blue];
-	386 [label="human needs for farmland
- , housing and industry are
- more important",color=green];
-	338 [label="we can
- have more advanced methods to
- take care of endangered animals
-",color=blue];
-	386 [label="human needs for farmland
- , housing and industry are
- more important",color=green];
-	354 [label="we can invent new technique to
- help endangered animals to produce
- offspring to be sure they
- would not distinct",color=blue];
-	386 [label="human needs for farmland
- , housing and industry are
- more important",color=green];
+	323 [label="agriculture and industry
+ make a contribution to the
+ economy",color=blue];
+	386 [label="human needs for farmland ,
+ housing and industry are more
+ important",color=green];
+	338 [label="we can have
+ more advanced methods to take
+ care of endangered animals",color=blue];
+	386 [label="human needs for farmland ,
+ housing and industry are more
+ important",color=green];
+	354 [label="we can
+ invent new technique to help
+ endangered animals to produce offspring
+ to be sure they would
+ not distinct",color=blue];
+	386 [label="human needs for farmland ,
+ housing and industry are more
+ important",color=green];
 }

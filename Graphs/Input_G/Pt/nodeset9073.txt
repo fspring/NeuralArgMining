@@ -6,11 +6,11 @@ digraph G {
 ",color=blue];
 	26 [label="perpetuam o impasse por não
  conseguirem decidir qual dos dois
- travar primeiro .",color=green];
+ travar primeiro",color=green];
 	62 [label="consegue taxas de sucesso
  fantásticas por fazer uma abordagem
  diferente aos que pretendem deixar
- de fumar :",color=green];
+ de fumar",color=green];
 	79 [label="em vez
  de sublinhar a possibilidade de
  cancros e outras doenças terríveis
@@ -20,5 +20,5 @@ digraph G {
  consigo mesmos , em campos
  de intimidade e profundidade a
  que normalmente outros não chegam
- .",color=blue];
+",color=blue];
 }

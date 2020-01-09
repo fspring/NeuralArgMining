@@ -58,13 +58,13 @@ digraph G {
 	211 [label="watching a live football game
  is an exceptional experience",color=green];
 	221 [label="you can watch it at
- home , but "easy come
- , easy go" , you
+ home , but easy come
+ , easy go , you
  will quickly forget it ,
  like a movie",color=blue];
 	221 [label="you can watch it at
- home , but "easy come
- , easy go" , you
+ home , but easy come
+ , easy go , you
  will quickly forget it ,
  like a movie",color=blue];
 	315 [label="watch a football match on television
@@ -84,7 +84,7 @@ digraph G {
 	289 [label="if it
  is a crucial win to
  acclaim a trophy , you
- will be "on site" to
+ will be on site to
  witness and celebrate the victory
 ",color=blue];
 	315 [label="watch a football match on television

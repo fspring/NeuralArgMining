@@ -10,7 +10,7 @@ dia (I)    0.000
 da (I)    0.000
 defesa (I)    0.000
 nacional (I)    0.000
-paula (I)    0.000
+paula (O)    0.000
 rebelo (O)    0.000
 28 (O)    0.000
 abr (O)    0.000
@@ -31,7 +31,7 @@ vila (P)   80.000
 nova (I)    0.000
 de (I)    0.000
 gaia (I)    0.000
-os (I)    0.000
+os (O)    0.000
 pais (O)    0.000
 de (O)    0.000
 ana (P)   73.000

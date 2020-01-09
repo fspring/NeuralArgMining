@@ -1,80 +1,36 @@
 digraph G {
-	72 -> 193;
-	99 -> 193;
-	121 -> 193;
-	136 -> 193;
-	156 -> 193;
-	172 -> 193;
-	204 -> 213;
-	229 -> 258;
-	241 -> 258;
-	271 -> 303;
+	72 -> 55;
+	99 -> 121;
+	136 -> 121;
+	213 -> 258;
+	55 [label="training time can provide employee interesting
+ time outside working office to
+ refresh their mind",color=green];
 	72 [label="in company we always
  have to deal with so
  many stressful situations such as
  negotiating with difficult customer ,
  complaining from boss , etc
 ",color=blue];
-	193 [label="providing training will
- make employees happy with their
- current job",color=green];
 	99 [label="we can
  unleash uncomfortable in training classes
  by making new friends ,
  joking in class , enjoying
  new knowledge",color=blue];
-	193 [label="providing training will
- make employees happy with their
- current job",color=green];
 	121 [label="employees fell that they are
  valuable if they are trained
-",color=blue];
-	193 [label="providing training will
- make employees happy with their
- current job",color=green];
+",color=green];
+	121 [label="employees fell that they are
+ valuable if they are trained
+",color=green];
 	136 [label="the employees know that their
  company is investing on them
  for future development of their
  company",color=blue];
-	193 [label="providing training will
- make employees happy with their
- current job",color=green];
-	156 [label="they will think about develop
- long term career with their
- company",color=blue];
-	193 [label="providing training will
- make employees happy with their
- current job",color=green];
-	172 [label="employees will be very
- proud of themselves when they
- are provided training while others
- don't have this opportunity",color=blue];
-	193 [label="providing training will
- make employees happy with their
- current job",color=green];
-	204 [label="it help
- them improve their professional business
- knowledge",color=blue];
 	213 [label="having professional training
  help employees gain more confidence
- in their business",color=green];
-	229 [label="they will
- finish their jobs with excellent
- result",color=blue];
+ in their business ,",color=blue];
 	258 [label="providing professional training
  as a reward for good
  work has many advantages",color=green];
-	241 [label="excellent working result will make
- them very happy as well
- as their boss",color=blue];
-	258 [label="providing professional training
- as a reward for good
- work has many advantages",color=green];
-	271 [label="training can help employees refresh
- their mind as well as
- make them happy , focus
- on work",color=blue];
-	303 [label="training can be
- effective in encouraging further good
- work",color=green];
 }

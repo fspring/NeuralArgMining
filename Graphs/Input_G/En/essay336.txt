@@ -6,67 +6,69 @@ digraph G {
 	166 -> 257;
 	197 -> 257;
 	225 -> 257;
-	71 [label="Fame is a great
- responsibility for public people as
- their admirers are very sensitive
- to any acts of their
- idols",color=blue];
-	129 [label="children may see that this behavior
- is inexcusable",color=green];
-	92 [label="Celebrity scandals and
- gossips can quickly reach the
- public which perceive it very
- negatively",color=blue];
-	129 [label="children may see that this behavior
- is inexcusable",color=green];
-	110 [label="celebrities who received attention for
- overuse of drugs or alcohol
- are likely to get public
- disgrace",color=blue];
-	129 [label="children may see that this behavior
- is inexcusable",color=green];
-	143 [label="too much
- news coverage to famous people
- seems to have a negative
- influence on the choice of
- children of their future professions
+	71 [label="Fame is a great responsibility
+ for public people as their
+ admirers are very sensitive to
+ any acts of their idols
+",color=blue];
+	129 [label="children may
+ see that this behavior is
+ inexcusable",color=green];
+	92 [label="Celebrity scandals and gossips
+ can quickly reach the public
+ which perceive it very negatively
+",color=blue];
+	129 [label="children may
+ see that this behavior is
+ inexcusable",color=green];
+	110 [label="celebrities who received attention for overuse
+ of drugs or alcohol are
+ likely to get public disgrace
+",color=blue];
+	129 [label="children may
+ see that this behavior is
+ inexcusable",color=green];
+	143 [label="too much news
+ coverage to famous people seems
+ to have a negative influence
+ on the choice of children
+ of their future professions",color=green];
+	166 [label="As recent surveys showed ,
+ inspired by the fame and
+ wealth , children now prefer
+ more to become an actor/actress
+ or a sports star than
+ it was in the past
+",color=blue];
+	166 [label="As recent surveys showed ,
+ inspired by the fame and
+ wealth , children now prefer
+ more to become an actor/actress
+ or a sports star than
+ it was in the past
+",color=blue];
+	257 [label="parents should be more
+ worried about their children's attitudes
+ to the 'cult of celebrity'
 ",color=green];
-	166 [label="As recent surveys showed
- , inspired by the fame
- and wealth , children now
- prefer more to become an
- actor/actress or a sports star
- than it was in the
- past",color=blue];
-	166 [label="As recent surveys showed
- , inspired by the fame
- and wealth , children now
- prefer more to become an
- actor/actress or a sports star
- than it was in the
- past",color=blue];
-	257 [label="parents should be
- more worried about their children's
- attitudes to the 'cult of
- celebrity'",color=green];
-	197 [label="Many schools for
- preparation of so-called stars and
- various advertisements about famous people
- may mislead with the fact
- that this profession is highly
- required and easy reachable",color=blue];
-	257 [label="parents should be
- more worried about their children's
- attitudes to the 'cult of
- celebrity'",color=green];
-	225 [label="This may confuse children who
- should not choose their future
- job because of the influence
- of the mass media ,
- but from the basis of
- their own interests",color=blue];
-	257 [label="parents should be
- more worried about their children's
- attitudes to the 'cult of
- celebrity'",color=green];
+	197 [label="Many schools for preparation
+ of so-called stars and various
+ advertisements about famous people may
+ mislead with the fact that
+ this profession is highly required
+ and easy reachable",color=blue];
+	257 [label="parents should be more
+ worried about their children's attitudes
+ to the 'cult of celebrity'
+",color=green];
+	225 [label="This may confuse children who should
+ not choose their future job
+ because of the influence of
+ the mass media , but
+ from the basis of their
+ own interests",color=blue];
+	257 [label="parents should be more
+ worried about their children's attitudes
+ to the 'cult of celebrity'
+",color=green];
 }

@@ -11,110 +11,106 @@ digraph G {
 	172 -> 270;
 	198 -> 270;
 	232 -> 270;
-	22 [label="it is the
- responsibility of these disadvantaged citizens
- , rather than the government
- , to help them out
+	22 [label="it is the responsibility
+ of these disadvantaged citizens ,
+ rather than the government ,
+ to help them out",color=green];
+	52 [label="Tax revenue is collected
+ from those who works",color=blue];
+	41 [label="Government money should be spent
+ on publicly beneficial programs only
 ",color=green];
-	52 [label="Tax revenue is
- collected from those who works
-",color=blue];
-	41 [label="Government money should be
- spent on publicly beneficial programs
- only",color=green];
-	52 [label="Tax revenue is
- collected from those who works
-",color=blue];
-	52 [label="Tax revenue is
- collected from those who works
-",color=blue];
-	270 [label="direct financial support may not
- be a wise option and
- people should rely on themselves
- to get out of the
- adversity",color=green];
-	61 [label="Spending them on helping
- those not make contribution to
- society would not sound fair
- to tax payers",color=blue];
-	270 [label="direct financial support may not
- be a wise option and
- people should rely on themselves
- to get out of the
- adversity",color=green];
-	81 [label="there are other pressing
- demands on the government expenditure
- , such as health care
- service and education",color=blue];
-	270 [label="direct financial support may not
- be a wise option and
- people should rely on themselves
- to get out of the
- adversity",color=green];
-	100 [label="addressing unemployment should have low
- priority",color=blue];
-	270 [label="direct financial support may not
- be a wise option and
- people should rely on themselves
- to get out of the
- adversity",color=green];
-	114 [label="to survive in this competitive world
- , one has to work
- hard and equip themselves well
+	52 [label="Tax revenue is collected
+ from those who works",color=blue];
+	52 [label="Tax revenue is collected
+ from those who works",color=blue];
+	270 [label="direct financial support may not be
+ a wise option and people
+ should rely on themselves to
+ get out of the adversity
 ",color=green];
-	131 [label="If they could get
- free financial help from the
- government , they might end
- up with out any motivation
- to work at all",color=blue];
-	131 [label="If they could get
- free financial help from the
- government , they might end
- up with out any motivation
- to work at all",color=blue];
-	270 [label="direct financial support may not
- be a wise option and
- people should rely on themselves
- to get out of the
- adversity",color=green];
-	158 [label="this does
- not mean we should leave
- alone those who do need
- assistance",color=green];
-	172 [label="They are already
- in reverse circumstances and it
- would be rather difficult for
- them to overcome the difficulties
- without external support",color=blue];
-	172 [label="They are already
- in reverse circumstances and it
- would be rather difficult for
- them to overcome the difficulties
- without external support",color=blue];
-	270 [label="direct financial support may not
- be a wise option and
- people should rely on themselves
- to get out of the
- adversity",color=green];
-	198 [label="the government
- ought to set up free
- vocational trainings or to provide
- interest-free bank loans for them
- , so that they can
- have the chance to get
- back to work",color=blue];
-	270 [label="direct financial support may not
- be a wise option and
- people should rely on themselves
- to get out of the
- adversity",color=green];
-	232 [label="it is beneficial
- to the society as a
- whole when the jobless can
- make contribution again",color=blue];
-	270 [label="direct financial support may not
- be a wise option and
- people should rely on themselves
- to get out of the
- adversity",color=green];
+	61 [label="Spending them on helping those
+ not make contribution to society
+ would not sound fair to
+ tax payers",color=blue];
+	270 [label="direct financial support may not be
+ a wise option and people
+ should rely on themselves to
+ get out of the adversity
+",color=green];
+	81 [label="there are other pressing demands
+ on the government expenditure ,
+ such as health care service
+ and education",color=blue];
+	270 [label="direct financial support may not be
+ a wise option and people
+ should rely on themselves to
+ get out of the adversity
+",color=green];
+	100 [label="addressing unemployment should have low priority
+",color=blue];
+	270 [label="direct financial support may not be
+ a wise option and people
+ should rely on themselves to
+ get out of the adversity
+",color=green];
+	114 [label="to survive
+ in this competitive world ,
+ one has to work hard
+ and equip themselves well",color=green];
+	131 [label="If they could get free
+ financial help from the government
+ , they might end up
+ with out any motivation to
+ work at all",color=blue];
+	131 [label="If they could get free
+ financial help from the government
+ , they might end up
+ with out any motivation to
+ work at all",color=blue];
+	270 [label="direct financial support may not be
+ a wise option and people
+ should rely on themselves to
+ get out of the adversity
+",color=green];
+	158 [label="this does not
+ mean we should leave alone
+ those who do need assistance
+",color=green];
+	172 [label="They are already in
+ reverse circumstances and it would
+ be rather difficult for them
+ to overcome the difficulties without
+ external support",color=blue];
+	172 [label="They are already in
+ reverse circumstances and it would
+ be rather difficult for them
+ to overcome the difficulties without
+ external support",color=blue];
+	270 [label="direct financial support may not be
+ a wise option and people
+ should rely on themselves to
+ get out of the adversity
+",color=green];
+	198 [label="the government ought
+ to set up free vocational
+ trainings or to provide interest-free
+ bank loans for them ,
+ so that they can have
+ the chance to get back
+ to work",color=blue];
+	270 [label="direct financial support may not be
+ a wise option and people
+ should rely on themselves to
+ get out of the adversity
+",color=green];
+	232 [label="it is beneficial to
+ the society as a whole
+ when the jobless can make
+ contribution again",color=blue];
+	270 [label="direct financial support may not be
+ a wise option and people
+ should rely on themselves to
+ get out of the adversity
+",color=green];
 }

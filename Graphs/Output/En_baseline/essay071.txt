@@ -56,8 +56,8 @@ of (I)    0.000
 them (I)    0.000
 are (I)    0.000
 disturbing (I)    0.000
-, (I)    0.000
-we (I)    0.000
+, (O)    0.000
+we (C)    0.000
 can (I)    0.000
 not (I)    0.000
 overlook (I)    0.000
@@ -146,7 +146,7 @@ a (O)    0.000
 larger (O)    0.000
 sense (O)    0.000
 , (O)    0.000
-it (P)   65.000
+it (C)    0.000
 could (I)    0.000
 simulate (I)    0.000
 household (I)    0.000

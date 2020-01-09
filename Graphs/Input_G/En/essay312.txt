@@ -22,131 +22,137 @@ digraph G {
 	357 -> 427;
 	367 -> 427;
 	383 -> 427;
-	44 [label="The professors are essential",color=green];
-	51 [label="the schools are established
- for students",color=blue];
-	51 [label="the schools are established
- for students",color=blue];
-	58 [label="Money should
- spend on facilities in school
- or update resources , which
- are beneficial to school rather
- than just instructors",color=green];
-	58 [label="Money should
- spend on facilities in school
- or update resources , which
- are beneficial to school rather
- than just instructors",color=green];
-	103 [label="the most
- efficient way to improve the
- education is to guide the
- students to learn actively",color=blue];
-	89 [label="the school should put more emphasis
- on students instead of professors
+	44 [label="The professors
+ are essential",color=green];
+	51 [label="the schools are established for
+ students",color=blue];
+	51 [label="the schools are established for
+ students",color=blue];
+	58 [label="Money should spend
+ on facilities in school or
+ update resources , which are
+ beneficial to school rather than
+ just instructors",color=green];
+	58 [label="Money should spend
+ on facilities in school or
+ update resources , which are
+ beneficial to school rather than
+ just instructors",color=green];
+	103 [label="the most efficient
+ way to improve the education
+ is to guide the students
+ to learn actively",color=blue];
+	89 [label="the school
+ should put more emphasis on
+ students instead of professors",color=green];
+	103 [label="the most efficient
+ way to improve the education
+ is to guide the students
+ to learn actively",color=blue];
+	103 [label="the most efficient
+ way to improve the education
+ is to guide the students
+ to learn actively",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	120 [label="By renewing some facilities in school
+ so students will spend more
+ time at school doing assignment
+",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	137 [label="A comfortable environment can
+ attract people to stay longer
+",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	149 [label="students spend
+ more time on school to
+ make a good circulation of
+ learning",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	168 [label="students have a
+ better environment to working on
+ their assignments",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	179 [label="the quality
+ of their assignments will improve
+",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	189 [label="the competition
+ between peers enhances and forms
+ a circulation",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	199 [label="In my
+ school , the classrooms in
+ my university are old and
+ kind of shabby",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	218 [label="I prefer spending
+ money in a coffee shop
+ to staying at school to
+ finish my assignment",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	235 [label="It's unpleasant to stay at school
+",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	244 [label="coffee shops
+ are not always quiet ,
+ so my classmates and I
+ often finish our work roughly
+",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	264 [label="the ultimate
+ purpose is to change ,
+ to motivate students to be
+ better",color=blue];
+	278 [label="To improve education
+ , spending more money to
+ raise professors' salary is inappropriate
 ",color=green];
-	103 [label="the most
- efficient way to improve the
- education is to guide the
- students to learn actively",color=blue];
-	103 [label="the most
- efficient way to improve the
- education is to guide the
- students to learn actively",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	120 [label="By renewing some facilities in
- school so students will spend
- more time at school doing
- assignment",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	137 [label="A comfortable environment
- can attract people to stay
- longer",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	149 [label="students spend more time on school
- to make a good circulation
- of learning",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	168 [label="students have
- a better environment to working
- on their assignments",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	179 [label="the quality of their assignments will
- improve",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	189 [label="the competition between peers enhances and
- forms a circulation",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	199 [label="In my school , the classrooms
- in my university are old
- and kind of shabby",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	218 [label="I prefer
- spending money in a coffee
- shop to staying at school
- to finish my assignment",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	235 [label="It's unpleasant to stay at
- school",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	244 [label="coffee shops are not always quiet
- , so my classmates and
- I often finish our work
- roughly",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	264 [label="the ultimate purpose is to change
- , to motivate students to
- be better",color=blue];
-	278 [label="To improve
- education , spending more money
- to raise professors' salary is
- inappropriate",color=green];
-	278 [label="To improve
- education , spending more money
- to raise professors' salary is
- inappropriate",color=green];
-	324 [label="High-salary instructors don't teach students harder
- because they earn more money
+	278 [label="To improve education
+ , spending more money to
+ raise professors' salary is inappropriate
+",color=green];
+	324 [label="High-salary instructors
+ don't teach students harder because
+ they earn more money",color=blue];
+	324 [label="High-salary instructors
+ don't teach students harder because
+ they earn more money",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	336 [label="There won't be any effect
+ if school does so",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	346 [label="There was news about raising
+ professors' salary in my country
 ",color=blue];
-	324 [label="High-salary instructors don't teach students harder
- because they earn more money
+	427 [label="I against providing more
+ money to professors",color=green];
+	357 [label="This event provoked a
+ demonstration composing of students mostly
 ",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	336 [label="There won't be any
- effect if school does so
-",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	346 [label="There was news about
- raising professors' salary in my
- country",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	357 [label="This event provoked
- a demonstration composing of students
- mostly",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	367 [label="The proposal of
- the demonstration was eliminating the
- raising salaries",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
-	383 [label="if the
- policy of raising salary was
- supported , the demonstration would
- not happen",color=blue];
-	427 [label="I against providing
- more money to professors",color=green];
+	427 [label="I against providing more
+ money to professors",color=green];
+	367 [label="The proposal of the
+ demonstration was eliminating the raising
+ salaries",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
+	383 [label="if the policy
+ of raising salary was supported
+ , the demonstration would not
+ happen",color=blue];
+	427 [label="I against providing more
+ money to professors",color=green];
 }

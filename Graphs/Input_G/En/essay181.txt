@@ -15,116 +15,100 @@ digraph G {
 	270 -> 300;
 	277 -> 300;
 	284 -> 300;
-	0 [label="I will be happy to
- hear that the government has
- a plan to build a
- new university in my community
-",color=green];
-	83 [label="suppose you
- live in a faraway community
- where there is no single
- university and you might not
- want to leave your family
-",color=blue];
-	60 [label="This new university will allow
- a great number of people
- in my community to have
- a chance to study",color=green];
-	83 [label="suppose you
- live in a faraway community
- where there is no single
- university and you might not
- want to leave your family
-",color=blue];
-	83 [label="suppose you
- live in a faraway community
- where there is no single
- university and you might not
- want to leave your family
-",color=blue];
-	300 [label="I myself agree with the
- plan to build the university
-",color=green];
-	106 [label="If you would like
- to attend a business school
- , you have to travel
- across the country to get
- to a distant university",color=blue];
-	300 [label="I myself agree with the
- plan to build the university
-",color=green];
-	130 [label="He or she definitely can
- get in the business school
- in the proposed community's university
-",color=blue];
-	300 [label="I myself agree with the
- plan to build the university
-",color=green];
-	148 [label="the university
- will have to hire professors
- , employees and etc",color=blue];
-	201 [label="This can also help
- stimulate the local economy",color=green];
-	162 [label="a number vacant
- positions need to be filled
-",color=blue];
-	201 [label="This can also help
- stimulate the local economy",color=green];
-	172 [label="there will be
- more opportunities to work in
- the community",color=blue];
-	201 [label="This can also help
- stimulate the local economy",color=green];
-	185 [label="when people have jobs ,
- they will have money to
- spend on goods and services
-",color=blue];
-	201 [label="This can also help
- stimulate the local economy",color=green];
-	212 [label="building the university
- may lead to some social
- problems",color=green];
-	222 [label="A number of
- people then may come from
- any other communities in order
- to get in to or
- get the jobs at the
- university",color=blue];
-	222 [label="A number of
- people then may come from
- any other communities in order
- to get in to or
- get the jobs at the
- university",color=blue];
-	300 [label="I myself agree with the
- plan to build the university
-",color=green];
-	247 [label="When many people
- congregate in one place ,
- I think that some kinds
- of social problems will follow
-",color=blue];
-	300 [label="I myself agree with the
- plan to build the university
-",color=green];
-	266 [label="Traffic may worsen",color=blue];
-	300 [label="I myself agree with the
- plan to build the university
-",color=green];
-	270 [label="More wastes have to be
- managed",color=blue];
-	300 [label="I myself agree with the
- plan to build the university
-",color=green];
-	277 [label="Maybe crime rate
- will also increase",color=blue];
-	300 [label="I myself agree with the
- plan to build the university
-",color=green];
-	284 [label="These social problems may impair the
- quality of life in the
+	0 [label="I will be happy to hear
+ that the government has a
+ plan to build a new
+ university in my community",color=green];
+	83 [label="suppose you live
+ in a faraway community where
+ there is no single university
+ and you might not want
+ to leave your family",color=blue];
+	60 [label="This new university will allow a
+ great number of people in
+ my community to have a
+ chance to study",color=green];
+	83 [label="suppose you live
+ in a faraway community where
+ there is no single university
+ and you might not want
+ to leave your family",color=blue];
+	83 [label="suppose you live
+ in a faraway community where
+ there is no single university
+ and you might not want
+ to leave your family",color=blue];
+	300 [label="I myself agree with the plan
+ to build the university",color=green];
+	106 [label="If you would like to
+ attend a business school ,
+ you have to travel across
+ the country to get to
+ a distant university",color=blue];
+	300 [label="I myself agree with the plan
+ to build the university",color=green];
+	130 [label="He or she definitely can get
+ in the business school in
+ the proposed community's university",color=blue];
+	300 [label="I myself agree with the plan
+ to build the university",color=green];
+	148 [label="the university will
+ have to hire professors ,
+ employees and etc",color=blue];
+	201 [label="This can also help stimulate
+ the local economy",color=green];
+	162 [label="a number vacant positions
+ need to be filled",color=blue];
+	201 [label="This can also help stimulate
+ the local economy",color=green];
+	172 [label="there will be more
+ opportunities to work in the
  community",color=blue];
-	300 [label="I myself agree with the
- plan to build the university
+	201 [label="This can also help stimulate
+ the local economy",color=green];
+	185 [label="when people have jobs , they
+ will have money to spend
+ on goods and services",color=blue];
+	201 [label="This can also help stimulate
+ the local economy",color=green];
+	212 [label="building the university may
+ lead to some social problems
 ",color=green];
+	222 [label="A number of people
+ then may come from any
+ other communities in order to
+ get in to or get
+ the jobs at the university
+",color=blue];
+	222 [label="A number of people
+ then may come from any
+ other communities in order to
+ get in to or get
+ the jobs at the university
+",color=blue];
+	300 [label="I myself agree with the plan
+ to build the university",color=green];
+	247 [label="When many people congregate
+ in one place , I
+ think that some kinds of
+ social problems will follow",color=blue];
+	300 [label="I myself agree with the plan
+ to build the university",color=green];
+	266 [label="Traffic may worsen",color=blue];
+	300 [label="I myself agree with the plan
+ to build the university",color=green];
+	270 [label="More wastes have to be managed
+",color=blue];
+	300 [label="I myself agree with the plan
+ to build the university",color=green];
+	277 [label="Maybe crime rate will
+ also increase",color=blue];
+	300 [label="I myself agree with the plan
+ to build the university",color=green];
+	284 [label="These social
+ problems may impair the quality
+ of life in the community
+",color=blue];
+	300 [label="I myself agree with the plan
+ to build the university",color=green];
 }

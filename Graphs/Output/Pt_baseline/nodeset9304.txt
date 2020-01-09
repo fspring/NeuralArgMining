@@ -1,6 +1,6 @@
 a (P)   24.000
-saída (O)    0.000
-de (P)   22.000
+saída (I)    0.000
+de (I)    0.000
 pedro (I)    0.000
 norton (I)    0.000
 da (I)    0.000

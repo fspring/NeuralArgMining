@@ -307,7 +307,7 @@ easily (I)    0.000
 . (O)    0.000
 lastly (O)    0.000
 , (O)    0.000
-having (P)   63.000
+having (P)   42.000
 more (I)    0.000
 kinds (I)    0.000
 of (I)    0.000
@@ -334,7 +334,7 @@ advantages (O)    0.000
 for (O)    0.000
 instance (O)    0.000
 , (O)    0.000
-people (P)   36.000
+people (P)   15.000
 can (I)    0.000
 save (I)    0.000
 their (I)    0.000
@@ -349,7 +349,7 @@ getting (I)    0.000
 more (I)    0.000
 expensive (I)    0.000
 . (O)    0.000
-the (P)   21.000
+the (C)    0.000
 necessary (I)    0.000
 energy (I)    0.000
 will (I)    0.000

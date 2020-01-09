@@ -6,9 +6,9 @@ digraph G {
  , o governo PàF declarou
  o sucesso da sua política
  . Infelizmente , é mentira
- .",color=green];
+",color=green];
 	72 [label="Ao contrário do que
  se apregoa , na prática
  estamos com um programa cautelar
- .",color=blue];
+",color=blue];
 }

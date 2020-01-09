@@ -97,7 +97,7 @@ carlo (I)    0.000
 dasaro (I)    0.000
 biondo (I)    0.000
 . (O)    0.000
-contudo (P)  641.000
+contudo (P)    0.000
 , (I)    0.000
 reconheceu (I)    0.000
 o (I)    0.000
@@ -119,7 +119,7 @@ indústria (I)    0.000
 dos (I)    0.000
 media (I)    0.000
 . (O)    0.000
-no (P)  619.000
+no (P)    0.000
 acordo (I)    0.000
 agora (I)    0.000
 assinado (I)    0.000
@@ -151,7 +151,7 @@ investigação (I)    0.000
 da (I)    0.000
 indústria (I)    0.000
 . (O)    0.000
-o (P)  587.000
+o (P)    0.000
 digital (I)    0.000
 news (I)    0.000
 initiative (I)    0.000

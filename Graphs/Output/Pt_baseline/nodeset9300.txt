@@ -42,7 +42,7 @@ atitude (I)    0.000
 um (O)    0.000
 estilo (O)    0.000
 . (O)    0.000
-os (C)    0.000
+os (P)  130.000
 gestos (I)    0.000
 de (I)    0.000
 mão (I)    0.000
@@ -181,9 +181,9 @@ existir (I)    0.000
 pensar (I)    0.000
 , (I)    0.000
 escrever (I)    0.000
-ou (O)    0.000
-articular (O)    0.000
-ideias (O)    0.000
+ou (I)    0.000
+articular (I)    0.000
+ideias (I)    0.000
 sem (O)    0.000
 a (O)    0.000
 ajuda (O)    0.000

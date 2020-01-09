@@ -27,7 +27,7 @@ digraph G {
  the earth since",color=green];
 	97 [label="these wastes including household
  waste and industrial waste are
- so big that a "new"
+ so big that a new
  continent is now being formed
  in the sea from garbage
 ",color=blue];

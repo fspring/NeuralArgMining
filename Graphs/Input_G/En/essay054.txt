@@ -8,74 +8,75 @@ digraph G {
 	156 -> 250;
 	168 -> 250;
 	205 -> 216;
-	46 [label="some museums and art
- galleries will not disappear",color=green];
-	60 [label="technology indeed simplifies people's life
- all the time",color=blue];
-	60 [label="technology indeed simplifies people's life
- all the time",color=blue];
-	71 [label="people who watch exhibitions
- on TV or internet at
- home , save the time
- and money on the road
- , which is increasingly significant
- particularly to people in modern
- society",color=green];
-	71 [label="people who watch exhibitions
- on TV or internet at
- home , save the time
- and money on the road
- , which is increasingly significant
- particularly to people in modern
- society",color=green];
-	104 [label="in accordance with recent research ,
- experts suggest the lifestyle of
- individuals in modern society is
- unhealthy",color=blue];
-	104 [label="in accordance with recent research ,
- experts suggest the lifestyle of
- individuals in modern society is
- unhealthy",color=blue];
-	250 [label="museums and art galleries are
- necessary to be preserved for
- its importance of education and
- culture",color=green];
-	122 [label="they lack of
- physical exercise and face-to-face communication
+	46 [label="some museums and art galleries
+ will not disappear",color=green];
+	60 [label="technology indeed simplifies people's life all
+ the time",color=blue];
+	60 [label="technology indeed simplifies people's life all
+ the time",color=blue];
+	71 [label="people who watch exhibitions on
+ TV or internet at home
+ , save the time and
+ money on the road ,
+ which is increasingly significant particularly
+ to people in modern society
+",color=green];
+	71 [label="people who watch exhibitions on
+ TV or internet at home
+ , save the time and
+ money on the road ,
+ which is increasingly significant particularly
+ to people in modern society
+",color=green];
+	104 [label="in accordance
+ with recent research , experts
+ suggest the lifestyle of individuals
+ in modern society is unhealthy
 ",color=blue];
-	250 [label="museums and art galleries are
- necessary to be preserved for
- its importance of education and
- culture",color=green];
-	136 [label="the importance of museums
- and art galleries is plain
- in terms of education and
- culture",color=green];
-	156 [label="authentic exhibits cannot be
- completely displayed only by images
- and videos",color=blue];
-	156 [label="authentic exhibits cannot be
- completely displayed only by images
- and videos",color=blue];
-	250 [label="museums and art galleries are
- necessary to be preserved for
- its importance of education and
- culture",color=green];
-	168 [label="It is
- like travelling to a place
- is much better than viewing
- the landscape of that place
- on TV or photos ,
- so the best method to
- learn one thing is to
- experience it",color=blue];
-	250 [label="museums and art galleries are
- necessary to be preserved for
- its importance of education and
- culture",color=green];
-	205 [label="museums and art galleries preserve
- some culture heritages",color=blue];
-	216 [label="these buildings will not
- disappear unless people abandon their
- culture",color=green];
+	104 [label="in accordance
+ with recent research , experts
+ suggest the lifestyle of individuals
+ in modern society is unhealthy
+",color=blue];
+	250 [label="museums and art galleries are necessary
+ to be preserved for its
+ importance of education and culture
+",color=green];
+	122 [label="they lack of physical
+ exercise and face-to-face communication",color=blue];
+	250 [label="museums and art galleries are necessary
+ to be preserved for its
+ importance of education and culture
+",color=green];
+	136 [label="the importance of museums and
+ art galleries is plain in
+ terms of education and culture
+",color=green];
+	156 [label="authentic exhibits cannot be completely
+ displayed only by images and
+ videos",color=blue];
+	156 [label="authentic exhibits cannot be completely
+ displayed only by images and
+ videos",color=blue];
+	250 [label="museums and art galleries are necessary
+ to be preserved for its
+ importance of education and culture
+",color=green];
+	168 [label="It is like
+ travelling to a place is
+ much better than viewing the
+ landscape of that place on
+ TV or photos , so
+ the best method to learn
+ one thing is to experience
+ it",color=blue];
+	250 [label="museums and art galleries are necessary
+ to be preserved for its
+ importance of education and culture
+",color=green];
+	205 [label="museums and art galleries preserve some
+ culture heritages",color=blue];
+	216 [label="these buildings will not disappear
+ unless people abandon their culture
+",color=green];
 }

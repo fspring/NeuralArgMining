@@ -68,8 +68,8 @@ digraph G {
 	183 [label="pieter padang ,
  minion creator , has brilliant
  idea to alter part of
- song lyric "i swear" become
- "underwear" when the minion sing
+ song lyric i swear become
+ underwear when the minion sing
  in despicable me",color=blue];
 	302 [label="the huge sums of
  modern artists receives related to
@@ -88,7 +88,7 @@ digraph G {
  with other field of job
 ",color=green];
 	248 [label="a musician playing
- "i swear" several times receives
+ i swear several times receives
  different earnings that padang got
 ",color=blue];
 	302 [label="the huge sums of

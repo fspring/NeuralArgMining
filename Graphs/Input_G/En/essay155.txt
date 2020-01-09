@@ -16,112 +16,110 @@ digraph G {
 	282 -> 304;
 	311 -> 304;
 	311 -> 329;
-	68 [label="smoking should
- not be permitted , especially
- in public places like restaurants
-",color=green];
-	93 [label="restaurants are
- places where people come and
- pay some money to enjoy
- their meals",color=blue];
-	93 [label="restaurants are
- places where people come and
- pay some money to enjoy
- their meals",color=blue];
-	108 [label="Smoking in
- restaurants will absolutely disturb other
- people in enjoying their meals
-",color=green];
-	108 [label="Smoking in
- restaurants will absolutely disturb other
- people in enjoying their meals
-",color=green];
-	121 [label="They will not be
- able to enjoy their meals
- while breathing in smoke around
- them",color=blue];
-	121 [label="They will not be
- able to enjoy their meals
- while breathing in smoke around
- them",color=blue];
-	329 [label="smoking should not be permitted in
- restaurants",color=green];
-	139 [label="restaurants are places that people usually
- come with their families",color=blue];
-	169 [label="Smoking in restaurants can give a
- bad example to the children
-",color=green];
-	153 [label="there will
- be children , grandparents ,
- as well as pregnant women
- inside the restaurants",color=blue];
-	169 [label="Smoking in restaurants can give a
- bad example to the children
-",color=green];
-	169 [label="Smoking in restaurants can give a
- bad example to the children
-",color=green];
-	181 [label="Children have a high
- potential to imitate what adults
- do",color=blue];
-	181 [label="Children have a high
- potential to imitate what adults
- do",color=blue];
-	329 [label="smoking should not be permitted in
- restaurants",color=green];
-	192 [label="they have really
- high curiosity towards something",color=blue];
-	329 [label="smoking should not be permitted in
- restaurants",color=green];
-	200 [label="Smoking in restaurants also can
- affect the elders' health ,
- especially if they have problems
- with their hearts and lungs
-",color=green];
-	221 [label="The most dangerous people
- that would be affected by
- smoke are the pregnant women
+	68 [label="smoking should not
+ be permitted , especially in
+ public places like restaurants",color=green];
+	93 [label="restaurants are places
+ where people come and pay
+ some money to enjoy their
+ meals",color=blue];
+	93 [label="restaurants are places
+ where people come and pay
+ some money to enjoy their
+ meals",color=blue];
+	108 [label="Smoking in restaurants
+ will absolutely disturb other people
+ in enjoying their meals",color=green];
+	108 [label="Smoking in restaurants
+ will absolutely disturb other people
+ in enjoying their meals",color=green];
+	121 [label="They will not be able
+ to enjoy their meals while
+ breathing in smoke around them
 ",color=blue];
-	221 [label="The most dangerous people
- that would be affected by
- smoke are the pregnant women
+	121 [label="They will not be able
+ to enjoy their meals while
+ breathing in smoke around them
 ",color=blue];
-	329 [label="smoking should not be permitted in
- restaurants",color=green];
-	236 [label="they will breathe in
- the contaminated air and it
- will disrupt the growth of
- the babies",color=blue];
-	329 [label="smoking should not be permitted in
- restaurants",color=green];
-	258 [label="passive smokers
- will have a lot of
- health risks",color=blue];
-	304 [label="it is unfair for passive smokers
+	329 [label="smoking should
+ not be permitted in restaurants
 ",color=green];
-	268 [label="When they
- are around the active smokers
- , they will inhale hazardous
- smoke",color=blue];
-	304 [label="it is unfair for passive smokers
-",color=green];
-	282 [label="Stroke , heart
- disorders , hearing loss ,
- and cancers are some diseases
- that can attack passive smokers
+	139 [label="restaurants are
+ places that people usually come
+ with their families",color=blue];
+	169 [label="Smoking in
+ restaurants can give a bad
+ example to the children",color=green];
+	153 [label="there will be
+ children , grandparents , as
+ well as pregnant women inside
+ the restaurants",color=blue];
+	169 [label="Smoking in
+ restaurants can give a bad
+ example to the children",color=green];
+	169 [label="Smoking in
+ restaurants can give a bad
+ example to the children",color=green];
+	181 [label="Children have a high potential
+ to imitate what adults do
 ",color=blue];
-	304 [label="it is unfair for passive smokers
-",color=green];
-	304 [label="it is unfair for passive smokers
-",color=green];
-	311 [label="they do not smoke
- but they have same health
- risks as the active one
+	181 [label="Children have a high potential
+ to imitate what adults do
 ",color=blue];
-	311 [label="they do not smoke
- but they have same health
- risks as the active one
+	329 [label="smoking should
+ not be permitted in restaurants
+",color=green];
+	192 [label="they have really high
+ curiosity towards something",color=blue];
+	329 [label="smoking should
+ not be permitted in restaurants
+",color=green];
+	200 [label="Smoking in restaurants also can affect
+ the elders' health , especially
+ if they have problems with
+ their hearts and lungs",color=green];
+	221 [label="The most dangerous people that
+ would be affected by smoke
+ are the pregnant women",color=blue];
+	221 [label="The most dangerous people that
+ would be affected by smoke
+ are the pregnant women",color=blue];
+	329 [label="smoking should
+ not be permitted in restaurants
+",color=green];
+	236 [label="they will breathe in the
+ contaminated air and it will
+ disrupt the growth of the
+ babies",color=blue];
+	329 [label="smoking should
+ not be permitted in restaurants
+",color=green];
+	258 [label="passive smokers will
+ have a lot of health
+ risks",color=blue];
+	304 [label="it is
+ unfair for passive smokers",color=green];
+	268 [label="When they are
+ around the active smokers ,
+ they will inhale hazardous smoke
 ",color=blue];
-	329 [label="smoking should not be permitted in
- restaurants",color=green];
+	304 [label="it is
+ unfair for passive smokers",color=green];
+	282 [label="Stroke , heart disorders
+ , hearing loss , and
+ cancers are some diseases that
+ can attack passive smokers",color=blue];
+	304 [label="it is
+ unfair for passive smokers",color=green];
+	304 [label="it is
+ unfair for passive smokers",color=green];
+	311 [label="they do not smoke but
+ they have same health risks
+ as the active one",color=blue];
+	311 [label="they do not smoke but
+ they have same health risks
+ as the active one",color=blue];
+	329 [label="smoking should
+ not be permitted in restaurants
+",color=green];
 }

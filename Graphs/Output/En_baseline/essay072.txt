@@ -93,7 +93,7 @@ ameliorating (I)    0.000
 physical (I)    0.000
 health (I)    0.000
 . (O)    0.000
-any (P)   85.000
+any (P)  135.000
 kinds (I)    0.000
 of (I)    0.000
 sports (I)    0.000
@@ -119,7 +119,7 @@ system (I)    0.000
 . (O)    0.000
 moreover (O)    0.000
 , (O)    0.000
-these (P)   59.000
+these (P)  109.000
 sports (I)    0.000
 can (I)    0.000
 also (I)    0.000
@@ -134,7 +134,7 @@ in (I)    0.000
 human (I)    0.000
 body (I)    0.000
 . (O)    0.000
-the (P)   44.000
+the (P)   94.000
 latter (I)    0.000
 one (I)    0.000
 is (I)    0.000
@@ -152,7 +152,7 @@ suffer (I)    0.000
 from (I)    0.000
 obesity (I)    0.000
 . (O)    0.000
-many (P)   26.000
+many (P)   76.000
 studies (I)    0.000
 has (I)    0.000
 points (I)    0.000
@@ -178,14 +178,14 @@ from (I)    0.000
 insufficient (I)    0.000
 exercises (I)    0.000
 . (O)    0.000
-sports (C)    0.000
+sports (P)   50.000
 activities (I)    0.000
 can (I)    0.000
 improve (I)    0.000
 mental (I)    0.000
 health (I)    0.000
-as (O)    0.000
-well (O)    0.000
+as (I)    0.000
+well (I)    0.000
 . (O)    0.000
 when (P)   41.000
 people (I)    0.000

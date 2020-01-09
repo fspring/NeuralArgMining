@@ -252,7 +252,7 @@ languages (I)    0.000
 this (O)    0.000
 is (O)    0.000
 because (O)    0.000
-language (P)   61.000
+language (P)   88.000
 can (I)    0.000
 be (I)    0.000
 seen (I)    0.000
@@ -269,7 +269,7 @@ communication (I)    0.000
 in (O)    0.000
 addition (O)    0.000
 , (O)    0.000
-forming (P)   44.000
+forming (P)   71.000
 a (I)    0.000
 language (I)    0.000
 must (I)    0.000
@@ -281,7 +281,7 @@ years (I)    0.000
 ; (O)    0.000
 thus (O)    0.000
 , (O)    0.000
-it (P)   32.000
+it (P)   59.000
 deserves (I)    0.000
 to (I)    0.000
 be (I)    0.000
@@ -294,7 +294,7 @@ but (O)    0.000
 not (O)    0.000
 least (O)    0.000
 , (O)    0.000
-language (P)   19.000
+language (P)   46.000
 is (I)    0.000
 one (I)    0.000
 of (I)    0.000
@@ -313,7 +313,7 @@ world (I)    0.000
 . (O)    0.000
 therefore (O)    0.000
 , (O)    0.000
-saving (C)    0.000
+saving (P)   27.000
 the (I)    0.000
 use (I)    0.000
 of (I)    0.000

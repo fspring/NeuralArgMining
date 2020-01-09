@@ -176,7 +176,7 @@ puxar (I)    0.000
 pela (I)    0.000
 criatividade (I)    0.000
 porque (O)    0.000
-os (P)  562.000
+os (P)    0.000
 contemplados (I)    0.000
 serão (I)    0.000
 os (I)    0.000

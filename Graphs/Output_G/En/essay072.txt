@@ -1,60 +1,55 @@
 digraph G {
-	95 -> 180;
-	121 -> 180;
-	136 -> 180;
-	154 -> 180;
-	189 -> 230;
-	206 -> 230;
-	218 -> 230;
+	95 -> 256;
+	121 -> 256;
+	136 -> 256;
+	144 -> 256;
+	154 -> 256;
+	189 -> 256;
+	206 -> 256;
+	218 -> 256;
 	95 [label="any kinds of sports , such
  as jogging , swimming ,
  or playing basketball , can
  effectively facilitate human respiration and
  circulation system",color=blue];
-	180 [label="sports activities can improve mental health
-",color=green];
+	256 [label="many activities can let humans
+ relax",color=green];
 	121 [label="these sports can also strengthen
  muscles and lessen surplus adipose
  tissues in human body",color=blue];
-	180 [label="sports activities can improve mental health
-",color=green];
+	256 [label="many activities can let humans
+ relax",color=green];
 	136 [label="the latter one is of
- particular importance because nowadays more
+ particular importance because",color=blue];
+	256 [label="many activities can let humans
+ relax",color=green];
+	144 [label="nowadays more
  and more people are suffer
  from obesity",color=blue];
-	180 [label="sports activities can improve mental health
-",color=green];
+	256 [label="many activities can let humans
+ relax",color=green];
 	154 [label="many studies
  has points out that numbers
  of overweight people have increased
  in developed countries in recent
  years , which mainly results
  from insufficient exercises",color=blue];
-	180 [label="sports activities can improve mental health
-",color=green];
+	256 [label="many activities can let humans
+ relax",color=green];
 	189 [label="when people
  exercise , the neuron cells
  in the brain release a
  chemical compound named dopamine",color=blue];
-	230 [label="rigorous exercise can also hone one's
- will , which enable people
- to be able to tackle
- stringent problems and arduous tasks
-",color=green];
+	256 [label="many activities can let humans
+ relax",color=green];
 	206 [label="this hormone can delight one's
  mind , creating positive feelings
 ",color=blue];
-	230 [label="rigorous exercise can also hone one's
- will , which enable people
- to be able to tackle
- stringent problems and arduous tasks
-",color=green];
+	256 [label="many activities can let humans
+ relax",color=green];
 	218 [label="good exercises can
  often successfully alleviating one's heavy
  burdens",color=blue];
-	230 [label="rigorous exercise can also hone one's
- will , which enable people
- to be able to tackle
- stringent problems and arduous tasks
-",color=green];
+	256 [label="many activities can let humans
+ relax",color=green];
 }

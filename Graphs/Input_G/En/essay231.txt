@@ -9,93 +9,93 @@ digraph G {
 	149 -> 178;
 	206 -> 194;
 	206 -> 237;
-	0 [label="Itâ€™s certainly better for children
- to grow up in a
- big city",color=green];
-	67 [label="this is not
- true if you live in
- a neighborhood with other people
- about your age as I
- did",color=blue];
-	42 [label="if a child
- grows up in a big
- city they will be all
- day at home at the
- computer or at the video-game
-",color=green];
-	67 [label="this is not
- true if you live in
- a neighborhood with other people
- about your age as I
- did",color=blue];
-	67 [label="this is not
- true if you live in
- a neighborhood with other people
- about your age as I
- did",color=blue];
-	237 [label="they will grow
- up in a good neighborhood
- of a big city and
- they will be very happy
- about it",color=green];
-	87 [label="My friends and
- I used to play soccer
- , bike , climb trees
- and do a lot of
- other stuff every day",color=blue];
-	237 [label="they will grow
- up in a good neighborhood
- of a big city and
- they will be very happy
- about it",color=green];
-	110 [label="We did play video-games ,
- but that wasn't our main
- activity",color=blue];
-	237 [label="they will grow
- up in a good neighborhood
- of a big city and
- they will be very happy
- about it",color=green];
-	122 [label="In a big
- city there are more kinds
- of people and more things
- to do",color=blue];
-	237 [label="they will grow
- up in a good neighborhood
- of a big city and
- they will be very happy
- about it",color=green];
-	138 [label="I have
- a friend that grew up
- in the countryside",color=blue];
-	178 [label="In a
- big city you have more
- qualified teachers and a better
- access to technology",color=green];
-	149 [label="He said that he had to
- study a lot to pass
- the test to enter the
- university",color=blue];
-	178 [label="In a
- big city you have more
- qualified teachers and a better
- access to technology",color=green];
-	194 [label="Growing up in the countryside is
- not such a good experience
-",color=green];
-	206 [label="you wonâ€™t know a
- lot of people , there
- are gossips everywhere , and
- your life will be really
- limited",color=blue];
-	206 [label="you wonâ€™t know a
- lot of people , there
- are gossips everywhere , and
- your life will be really
- limited",color=blue];
-	237 [label="they will grow
- up in a good neighborhood
- of a big city and
- they will be very happy
- about it",color=green];
+	0 [label="It’s certainly better for children to
+ grow up in a big
+ city",color=green];
+	67 [label="this is not true
+ if you live in a
+ neighborhood with other people about
+ your age as I did
+",color=blue];
+	42 [label="if a child grows
+ up in a big city
+ they will be all day
+ at home at the computer
+ or at the video-game",color=green];
+	67 [label="this is not true
+ if you live in a
+ neighborhood with other people about
+ your age as I did
+",color=blue];
+	67 [label="this is not true
+ if you live in a
+ neighborhood with other people about
+ your age as I did
+",color=blue];
+	237 [label="they will grow up
+ in a good neighborhood of
+ a big city and they
+ will be very happy about
+ it",color=green];
+	87 [label="My friends and I
+ used to play soccer ,
+ bike , climb trees and
+ do a lot of other
+ stuff every day",color=blue];
+	237 [label="they will grow up
+ in a good neighborhood of
+ a big city and they
+ will be very happy about
+ it",color=green];
+	110 [label="We did play video-games , but
+ that wasn't our main activity
+",color=blue];
+	237 [label="they will grow up
+ in a good neighborhood of
+ a big city and they
+ will be very happy about
+ it",color=green];
+	122 [label="In a big city
+ there are more kinds of
+ people and more things to
+ do",color=blue];
+	237 [label="they will grow up
+ in a good neighborhood of
+ a big city and they
+ will be very happy about
+ it",color=green];
+	138 [label="I have a
+ friend that grew up in
+ the countryside",color=blue];
+	178 [label="In a big
+ city you have more qualified
+ teachers and a better access
+ to technology",color=green];
+	149 [label="He said
+ that he had to study
+ a lot to pass the
+ test to enter the university
+",color=blue];
+	178 [label="In a big
+ city you have more qualified
+ teachers and a better access
+ to technology",color=green];
+	194 [label="Growing up
+ in the countryside is not
+ such a good experience",color=green];
+	206 [label="you won’t know a lot
+ of people , there are
+ gossips everywhere , and your
+ life will be really limited
+",color=blue];
+	206 [label="you won’t know a lot
+ of people , there are
+ gossips everywhere , and your
+ life will be really limited
+",color=blue];
+	237 [label="they will grow up
+ in a good neighborhood of
+ a big city and they
+ will be very happy about
+ it",color=green];
 }

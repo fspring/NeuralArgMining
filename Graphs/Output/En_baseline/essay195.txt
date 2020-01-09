@@ -157,7 +157,7 @@ country (I)    0.000
 to (I)    0.000
 improve (I)    0.000
 . (O)    0.000
-the (P)   82.000
+the (P)   12.000
 agriculture (I)    0.000
 field (I)    0.000
 has (I)    0.000
@@ -169,7 +169,7 @@ a (I)    0.000
 market (I)    0.000
 part (I)    0.000
 . (O)    0.000
-the (P)   70.000
+the (C)    0.000
 centre (I)    0.000
 of (I)    0.000
 research (I)    0.000
@@ -190,7 +190,7 @@ products (I)    0.000
 for (O)    0.000
 example (O)    0.000
 , (O)    0.000
-the (P)   49.000
+the (P)   12.000
 dates (I)    0.000
 are (I)    0.000
 the (I)    0.000
@@ -202,7 +202,7 @@ in (I)    0.000
 my (I)    0.000
 country (I)    0.000
 . (O)    0.000
-the (P)   37.000
+the (C)    0.000
 centre (I)    0.000
 of (I)    0.000
 research (I)    0.000
@@ -321,7 +321,7 @@ is (I)    0.000
 more (I)    0.000
 important (I)    0.000
 because (O)    0.000
-we (P)   66.000
+we (P)   36.000
 have (I)    0.000
 to (I)    0.000
 be (I)    0.000
@@ -340,7 +340,7 @@ field (I)    0.000
 . (O)    0.000
 for (O)    0.000
 me (O)    0.000
-being (P)   47.000
+being (P)   17.000
 a (I)    0.000
 developed (I)    0.000
 country (I)    0.000
@@ -355,9 +355,9 @@ focus (I)    0.000
 only (I)    0.000
 in (I)    0.000
 business (I)    0.000
-, (I)    0.000
-but (I)    0.000
-we (I)    0.000
+, (O)    0.000
+but (O)    0.000
+we (C)    0.000
 have (I)    0.000
 to (I)    0.000
 focus (I)    0.000

@@ -2,7 +2,7 @@ digraph G {
 	14 -> 0;
 	0 [label="Já podemos fazer algumas contas sobre
  as opções sociais na reposição
- de rendimentos .",color=green];
+ de rendimentos",color=green];
 	14 [label="Já sabíamos
  que as pensões mais baixas
  aumentariam , no máximo ,
@@ -10,5 +10,5 @@ digraph G {
  por mês e que os
  abonos de famílias sobem ,
  quanto muito , 5 euros
- .",color=blue];
+",color=blue];
 }

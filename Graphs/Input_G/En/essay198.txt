@@ -10,79 +10,77 @@ digraph G {
 	169 -> 275;
 	213 -> 242;
 	223 -> 242;
-	33 [label="governments should
- certainly spend money on the
- public transportation system",color=green];
-	75 [label="Cars depend on gasoline ,
- which is a non-renewable resource
+	33 [label="governments should certainly
+ spend money on the public
+ transportation system",color=green];
+	75 [label="Cars depend on gasoline , which
+ is a non-renewable resource",color=blue];
+	61 [label="the using of public transportation
+ reduces the amount of resources
+ using on transportation",color=green];
+	88 [label="the more cars
+ we use means that the
+ faster gasoline in this world
+ is used up",color=blue];
+	75 [label="Cars depend on gasoline , which
+ is a non-renewable resource",color=blue];
+	275 [label="spending money on improving public transportation
+ is necessary",color=green];
+	88 [label="the more cars
+ we use means that the
+ faster gasoline in this world
+ is used up",color=blue];
+	275 [label="spending money on improving public transportation
+ is necessary",color=green];
+	109 [label="if the
+ public transportation is efficiently used
+ , the amount of gasoline
+ consuming per person will be
+ much lower",color=blue];
+	275 [label="spending money on improving public transportation
+ is necessary",color=green];
+	130 [label="this definitely helps to reserve our
+ invaluable natural resource , gasoline
 ",color=blue];
-	61 [label="the using of public
- transportation reduces the amount of
- resources using on transportation",color=green];
-	88 [label="the more
- cars we use means that
- the faster gasoline in this
- world is used up",color=blue];
-	75 [label="Cars depend on gasoline ,
- which is a non-renewable resource
-",color=blue];
-	275 [label="spending money on improving public
- transportation is necessary",color=green];
-	88 [label="the more
- cars we use means that
- the faster gasoline in this
- world is used up",color=blue];
-	275 [label="spending money on improving public
- transportation is necessary",color=green];
-	109 [label="if the public transportation is efficiently
- used , the amount of
- gasoline consuming per person will
- be much lower",color=blue];
-	275 [label="spending money on improving public
- transportation is necessary",color=green];
-	130 [label="this definitely helps to reserve
- our invaluable natural resource ,
- gasoline",color=blue];
-	275 [label="spending money on improving public
- transportation is necessary",color=green];
-	144 [label="public transportation helps to solve the
- air pollution problems",color=green];
-	156 [label="public transports use much
- less gasoline to carry people
- than private cars",color=blue];
-	156 [label="public transports use much
- less gasoline to carry people
- than private cars",color=blue];
-	275 [label="spending money on improving public
- transportation is necessary",color=green];
-	169 [label="It means that by using public
- transports , the less gas
- exhaust is pumped to the
- air and people will no
- longer have to bear the
- stuffy situation on the roads
- , which is always full
- of fumes",color=blue];
-	275 [label="spending money on improving public
- transportation is necessary",color=green];
-	213 [label="using public
- transportation is much safer than
- private transportation",color=blue];
-	242 [label="there is no
- reason that governments should hesitate
- to invest in public transportation
- , a healthy , safe
- and economical way of transporting
-",color=green];
-	223 [label="According to
- National Safety Council , riding
- the bus is over 170
- times safer than private care
-",color=blue];
-	242 [label="there is no
- reason that governments should hesitate
- to invest in public transportation
- , a healthy , safe
- and economical way of transporting
-",color=green];
+	275 [label="spending money on improving public transportation
+ is necessary",color=green];
+	144 [label="public transportation
+ helps to solve the air
+ pollution problems",color=green];
+	156 [label="public transports use much less
+ gasoline to carry people than
+ private cars",color=blue];
+	156 [label="public transports use much less
+ gasoline to carry people than
+ private cars",color=blue];
+	275 [label="spending money on improving public transportation
+ is necessary",color=green];
+	169 [label="It means
+ that by using public transports
+ , the less gas exhaust
+ is pumped to the air
+ and people will no longer
+ have to bear the stuffy
+ situation on the roads ,
+ which is always full of
+ fumes",color=blue];
+	275 [label="spending money on improving public transportation
+ is necessary",color=green];
+	213 [label="using public transportation
+ is much safer than private
+ transportation",color=blue];
+	242 [label="there is no reason
+ that governments should hesitate to
+ invest in public transportation ,
+ a healthy , safe and
+ economical way of transporting",color=green];
+	223 [label="According to National
+ Safety Council , riding the
+ bus is over 170 times
+ safer than private care",color=blue];
+	242 [label="there is no reason
+ that governments should hesitate to
+ invest in public transportation ,
+ a healthy , safe and
+ economical way of transporting",color=green];
 }

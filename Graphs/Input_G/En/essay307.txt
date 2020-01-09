@@ -8,112 +8,113 @@ digraph G {
 	167 -> 243;
 	186 -> 243;
 	211 -> 243;
-	56 [label="mass media deal too
- much with superficial things",color=green];
-	89 [label="Gutter press and Tabloid TV are
- more and more replacing quality
- papers or documentaries programs",color=blue];
-	72 [label="television and newspapers
- focus on famous peoples' lives
- in order to increase their
- audience or readership",color=green];
-	89 [label="Gutter press and Tabloid TV are
- more and more replacing quality
- papers or documentaries programs",color=blue];
-	89 [label="Gutter press and Tabloid TV are
- more and more replacing quality
- papers or documentaries programs",color=blue];
-	243 [label="television ,
- magazines and newspapers pay too
- much attention of peoples' private
- lives for all the reasons
- mentioned above , namely to
- increase audience or readership and
- to give exciting and shocking
- news to a society which
- feed upon gutter press and
- Tabloid TV",color=green];
-	105 [label="Thanks to the Internet ,
- we can go online and
- have access to information from
- all over the world",color=blue];
-	243 [label="television ,
- magazines and newspapers pay too
- much attention of peoples' private
- lives for all the reasons
- mentioned above , namely to
- increase audience or readership and
- to give exciting and shocking
- news to a society which
- feed upon gutter press and
- Tabloid TV",color=green];
-	126 [label="mass media don't need
- any more to keep informed
- people but their goal is
- to have enough readers or
- TV audience",color=blue];
-	243 [label="television ,
- magazines and newspapers pay too
- much attention of peoples' private
- lives for all the reasons
- mentioned above , namely to
- increase audience or readership and
- to give exciting and shocking
- news to a society which
- feed upon gutter press and
- Tabloid TV",color=green];
-	152 [label="we live in
- a society where the most
- important thing is appearance and
- gossip",color=green];
-	167 [label="Nowadays , unscrupulous
- paparazzi constantly follow celebrities just
- to take a photo while
- they are eating or training
-",color=blue];
-	167 [label="Nowadays , unscrupulous
- paparazzi constantly follow celebrities just
- to take a photo while
- they are eating or training
-",color=blue];
-	243 [label="television ,
- magazines and newspapers pay too
- much attention of peoples' private
- lives for all the reasons
- mentioned above , namely to
- increase audience or readership and
- to give exciting and shocking
- news to a society which
- feed upon gutter press and
- Tabloid TV",color=green];
-	186 [label="Newspapers often receive accusations
- of checkbook journalism ; this
- means that magazines pay people
- a lot of money for
- stories or photos",color=blue];
-	243 [label="television ,
- magazines and newspapers pay too
- much attention of peoples' private
- lives for all the reasons
- mentioned above , namely to
- increase audience or readership and
- to give exciting and shocking
- news to a society which
- feed upon gutter press and
- Tabloid TV",color=green];
-	211 [label="there are Reality TV
- , television programs in which
- people are put into artificial
- environments and situations , for
- example like "Big Brother"",color=blue];
-	243 [label="television ,
- magazines and newspapers pay too
- much attention of peoples' private
- lives for all the reasons
- mentioned above , namely to
- increase audience or readership and
- to give exciting and shocking
- news to a society which
- feed upon gutter press and
- Tabloid TV",color=green];
+	56 [label="mass media deal too much
+ with superficial things",color=green];
+	89 [label="Gutter press
+ and Tabloid TV are more
+ and more replacing quality papers
+ or documentaries programs",color=blue];
+	72 [label="television and newspapers focus
+ on famous peoples' lives in
+ order to increase their audience
+ or readership",color=green];
+	89 [label="Gutter press
+ and Tabloid TV are more
+ and more replacing quality papers
+ or documentaries programs",color=blue];
+	89 [label="Gutter press
+ and Tabloid TV are more
+ and more replacing quality papers
+ or documentaries programs",color=blue];
+	243 [label="television , magazines
+ and newspapers pay too much
+ attention of peoples' private lives
+ for all the reasons mentioned
+ above , namely to increase
+ audience or readership and to
+ give exciting and shocking news
+ to a society which feed
+ upon gutter press and Tabloid
+ TV",color=green];
+	105 [label="Thanks to the Internet , we
+ can go online and have
+ access to information from all
+ over the world",color=blue];
+	243 [label="television , magazines
+ and newspapers pay too much
+ attention of peoples' private lives
+ for all the reasons mentioned
+ above , namely to increase
+ audience or readership and to
+ give exciting and shocking news
+ to a society which feed
+ upon gutter press and Tabloid
+ TV",color=green];
+	126 [label="mass media don't need any
+ more to keep informed people
+ but their goal is to
+ have enough readers or TV
+ audience",color=blue];
+	243 [label="television , magazines
+ and newspapers pay too much
+ attention of peoples' private lives
+ for all the reasons mentioned
+ above , namely to increase
+ audience or readership and to
+ give exciting and shocking news
+ to a society which feed
+ upon gutter press and Tabloid
+ TV",color=green];
+	152 [label="we live in a
+ society where the most important
+ thing is appearance and gossip
+",color=green];
+	167 [label="Nowadays , unscrupulous paparazzi
+ constantly follow celebrities just to
+ take a photo while they
+ are eating or training",color=blue];
+	167 [label="Nowadays , unscrupulous paparazzi
+ constantly follow celebrities just to
+ take a photo while they
+ are eating or training",color=blue];
+	243 [label="television , magazines
+ and newspapers pay too much
+ attention of peoples' private lives
+ for all the reasons mentioned
+ above , namely to increase
+ audience or readership and to
+ give exciting and shocking news
+ to a society which feed
+ upon gutter press and Tabloid
+ TV",color=green];
+	186 [label="Newspapers often receive accusations of
+ checkbook journalism ; this means
+ that magazines pay people a
+ lot of money for stories
+ or photos",color=blue];
+	243 [label="television , magazines
+ and newspapers pay too much
+ attention of peoples' private lives
+ for all the reasons mentioned
+ above , namely to increase
+ audience or readership and to
+ give exciting and shocking news
+ to a society which feed
+ upon gutter press and Tabloid
+ TV",color=green];
+	211 [label="there are Reality TV ,
+ television programs in which people
+ are put into artificial environments
+ and situations , for example
+ like Big Brother",color=blue];
+	243 [label="television , magazines
+ and newspapers pay too much
+ attention of peoples' private lives
+ for all the reasons mentioned
+ above , namely to increase
+ audience or readership and to
+ give exciting and shocking news
+ to a society which feed
+ upon gutter press and Tabloid
+ TV",color=green];
 }

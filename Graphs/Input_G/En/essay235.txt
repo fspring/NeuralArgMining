@@ -9,107 +9,111 @@ digraph G {
 	135 -> 261;
 	180 -> 234;
 	214 -> 234;
-	16 [label="universities should provide free
- of cost education to the
- interested scholars",color=green];
-	49 [label="many of the interested scholars failed
- to get the admission in
- good universities",color=blue];
-	28 [label="now-a-days universities
- with good name charge high
- fees and this leads one
- to think about affordability",color=green];
-	49 [label="many of the interested scholars failed
- to get the admission in
- good universities",color=blue];
-	49 [label="many of the interested scholars failed
- to get the admission in
- good universities",color=blue];
-	261 [label="universities have to look
- over the issues face by
- most of the scholars ;
- their message should be spread
- education , not making money
- , and motivate those scholars
- who want to get education
-",color=green];
-	63 [label="they have
- to think about work along
- with the studies , and
- this left them with only
- one choice , which is
- work",color=blue];
-	261 [label="universities have to look
- over the issues face by
- most of the scholars ;
- their message should be spread
- education , not making money
- , and motivate those scholars
- who want to get education
-",color=green];
-	87 [label="University is more
- likely to become a money
- making business",color=blue];
-	98 [label="the issue
- of affordability has become crucial
- to the students",color=green];
-	98 [label="the issue
- of affordability has become crucial
- to the students",color=green];
-	109 [label="In todayâ€™s world education is getting
- expensive , and people are
- tending to apply for self-finance
- education in order to get
- the admission",color=blue];
-	109 [label="In todayâ€™s world education is getting
- expensive , and people are
- tending to apply for self-finance
- education in order to get
- the admission",color=blue];
-	261 [label="universities have to look
- over the issues face by
- most of the scholars ;
- their message should be spread
- education , not making money
- , and motivate those scholars
- who want to get education
-",color=green];
-	135 [label="the scholars are facing a
- lot of difficulties apart from
- their high requirements of previous
- education , they has a
- lot to face the other
- difficulties and burden while getting
- admission such as accommodation ,
- food , traveling , clothing
- , etc",color=blue];
-	261 [label="universities have to look
- over the issues face by
- most of the scholars ;
- their message should be spread
- education , not making money
- , and motivate those scholars
- who want to get education
-",color=green];
-	180 [label="it is hard to get
- manage two things at a
- time for instance , working
- and studying is not an
- easy job for the scholars
- , they need to concentrate
- on their studies",color=blue];
-	234 [label="The idea of free of charge
- education inspires those scholars who
- really want to put their
- efforts and get a degree
- from best universities",color=green];
-	214 [label="MPhils and PhDs scholars are probably
- engage in the research work
- , which takes their full
- concentration and surveys",color=blue];
-	234 [label="The idea of free of charge
- education inspires those scholars who
- really want to put their
- efforts and get a degree
- from best universities",color=green];
+	16 [label="universities should provide free of
+ cost education to the interested
+ scholars",color=green];
+	49 [label="many of
+ the interested scholars failed to
+ get the admission in good
+ universities",color=blue];
+	28 [label="now-a-days universities with
+ good name charge high fees
+ and this leads one to
+ think about affordability",color=green];
+	49 [label="many of
+ the interested scholars failed to
+ get the admission in good
+ universities",color=blue];
+	49 [label="many of
+ the interested scholars failed to
+ get the admission in good
+ universities",color=blue];
+	261 [label="universities have to look over
+ the issues face by most
+ of the scholars ; their
+ message should be spread education
+ , not making money ,
+ and motivate those scholars who
+ want to get education",color=green];
+	63 [label="they have to
+ think about work along with
+ the studies , and this
+ left them with only one
+ choice , which is work
+",color=blue];
+	261 [label="universities have to look over
+ the issues face by most
+ of the scholars ; their
+ message should be spread education
+ , not making money ,
+ and motivate those scholars who
+ want to get education",color=green];
+	87 [label="University is more likely
+ to become a money making
+ business",color=blue];
+	98 [label="the issue of
+ affordability has become crucial to
+ the students",color=green];
+	98 [label="the issue of
+ affordability has become crucial to
+ the students",color=green];
+	109 [label="In today’s
+ world education is getting expensive
+ , and people are tending
+ to apply for self-finance education
+ in order to get the
+ admission",color=blue];
+	109 [label="In today’s
+ world education is getting expensive
+ , and people are tending
+ to apply for self-finance education
+ in order to get the
+ admission",color=blue];
+	261 [label="universities have to look over
+ the issues face by most
+ of the scholars ; their
+ message should be spread education
+ , not making money ,
+ and motivate those scholars who
+ want to get education",color=green];
+	135 [label="the scholars are facing a lot
+ of difficulties apart from their
+ high requirements of previous education
+ , they has a lot
+ to face the other difficulties
+ and burden while getting admission
+ such as accommodation , food
+ , traveling , clothing ,
+ etc",color=blue];
+	261 [label="universities have to look over
+ the issues face by most
+ of the scholars ; their
+ message should be spread education
+ , not making money ,
+ and motivate those scholars who
+ want to get education",color=green];
+	180 [label="it is hard to get manage
+ two things at a time
+ for instance , working and
+ studying is not an easy
+ job for the scholars ,
+ they need to concentrate on
+ their studies",color=blue];
+	234 [label="The idea
+ of free of charge education
+ inspires those scholars who really
+ want to put their efforts
+ and get a degree from
+ best universities",color=green];
+	214 [label="MPhils and
+ PhDs scholars are probably engage
+ in the research work ,
+ which takes their full concentration
+ and surveys",color=blue];
+	234 [label="The idea
+ of free of charge education
+ inspires those scholars who really
+ want to put their efforts
+ and get a degree from
+ best universities",color=green];
 }

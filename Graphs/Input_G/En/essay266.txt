@@ -12,105 +12,105 @@ digraph G {
 	274 -> 341;
 	305 -> 341;
 	326 -> 341;
-	70 [label="the advertising is not the
- main cause of unhealthy eating
- habits",color=green];
-	96 [label="The key to forming
- a healthy eating pattern lies
- in people's concept of wholesome
- diets and self-control",color=blue];
-	86 [label="advertising is not entirely
- decisive on personal eating habit
+	70 [label="the advertising is not the main
+ cause of unhealthy eating habits
 ",color=green];
-	96 [label="The key to forming
- a healthy eating pattern lies
- in people's concept of wholesome
- diets and self-control",color=blue];
-	96 [label="The key to forming
- a healthy eating pattern lies
- in people's concept of wholesome
- diets and self-control",color=blue];
-	341 [label="advertising is not the
- primary reason of unhealthy eating
- habits",color=green];
-	118 [label="advertising always
- makes the products so tempting
- , regardless of whether they
- might bring negative effects on
- the human body",color=blue];
-	341 [label="advertising is not the
- primary reason of unhealthy eating
- habits",color=green];
-	141 [label="advertising is not the
- only information source for people
+	96 [label="The key to forming a
+ healthy eating pattern lies in
+ people's concept of wholesome diets
+ and self-control",color=blue];
+	86 [label="advertising is not entirely decisive
+ on personal eating habit",color=green];
+	96 [label="The key to forming a
+ healthy eating pattern lies in
+ people's concept of wholesome diets
+ and self-control",color=blue];
+	96 [label="The key to forming a
+ healthy eating pattern lies in
+ people's concept of wholesome diets
+ and self-control",color=blue];
+	341 [label="advertising is not the primary
+ reason of unhealthy eating habits
+",color=green];
+	118 [label="advertising always makes
+ the products so tempting ,
+ regardless of whether they might
+ bring negative effects on the
+ human body",color=blue];
+	341 [label="advertising is not the primary
+ reason of unhealthy eating habits
+",color=green];
+	141 [label="advertising is not the only
+ information source for people",color=blue];
+	341 [label="advertising is not the primary
+ reason of unhealthy eating habits
+",color=green];
+	151 [label="People can still acquire different
+ viewpoints about foods from other
+ sources , like news or
+ magazines",color=blue];
+	341 [label="advertising is not the primary
+ reason of unhealthy eating habits
+",color=green];
+	168 [label="As long as
+ people are clear about how
+ to maintain a healthy body
+ and they persistently keep track
+ of their eating habits ,
+ they can successfully prevent themselves
+ from those temptations",color=blue];
+	341 [label="advertising is not the primary
+ reason of unhealthy eating habits
+",color=green];
+	200 [label="It will be not persuasive if
+ people just blame the advertising
+ sector of a fast-food company
+ for making them so fat
+ and not reassess their own
+ behaviors",color=blue];
+	341 [label="advertising is not the primary
+ reason of unhealthy eating habits
+",color=green];
+	230 [label="in the era when people are
+ becoming conscious of a healthier
+ lifestyle , some companies are
+ actually aiming at this rising
+ trend and start to promote
+ healthy foods",color=blue];
+	263 [label="advertising may even
+ bring healthier eating habits to
+ the people",color=green];
+	263 [label="advertising may even
+ bring healthier eating habits to
+ the people",color=green];
+	274 [label="Think about
+ the recently popular organic foods
+ that are claimed to grow
+ in an environment without pesticide
+ and those crude foods in
+ which less salt or less
+ sugar are added",color=blue];
+	274 [label="Think about
+ the recently popular organic foods
+ that are claimed to grow
+ in an environment without pesticide
+ and those crude foods in
+ which less salt or less
+ sugar are added",color=blue];
+	341 [label="advertising is not the primary
+ reason of unhealthy eating habits
+",color=green];
+	305 [label="These are the main traits that
+ advertising is hitting on and
+ the overall results are good
 ",color=blue];
-	341 [label="advertising is not the
- primary reason of unhealthy eating
- habits",color=green];
-	151 [label="People can still acquire
- different viewpoints about foods from
- other sources , like news
- or magazines",color=blue];
-	341 [label="advertising is not the
- primary reason of unhealthy eating
- habits",color=green];
-	168 [label="As long
- as people are clear about
- how to maintain a healthy
- body and they persistently keep
- track of their eating habits
- , they can successfully prevent
- themselves from those temptations",color=blue];
-	341 [label="advertising is not the
- primary reason of unhealthy eating
- habits",color=green];
-	200 [label="It will be not persuasive
- if people just blame the
- advertising sector of a fast-food
- company for making them so
- fat and not reassess their
- own behaviors",color=blue];
-	341 [label="advertising is not the
- primary reason of unhealthy eating
- habits",color=green];
-	230 [label="in the era when people
- are becoming conscious of a
- healthier lifestyle , some companies
- are actually aiming at this
- rising trend and start to
- promote healthy foods",color=blue];
-	263 [label="advertising may
- even bring healthier eating habits
- to the people",color=green];
-	263 [label="advertising may
- even bring healthier eating habits
- to the people",color=green];
-	274 [label="Think about the recently popular organic
- foods that are claimed to
- grow in an environment without
- pesticide and those crude foods
- in which less salt or
- less sugar are added",color=blue];
-	274 [label="Think about the recently popular organic
- foods that are claimed to
- grow in an environment without
- pesticide and those crude foods
- in which less salt or
- less sugar are added",color=blue];
-	341 [label="advertising is not the
- primary reason of unhealthy eating
- habits",color=green];
-	305 [label="These are the main traits
- that advertising is hitting on
- and the overall results are
- good",color=blue];
-	341 [label="advertising is not the
- primary reason of unhealthy eating
- habits",color=green];
-	326 [label="the advertising industry bolsters
- people's awareness of having a
- healthy lifestyle",color=blue];
-	341 [label="advertising is not the
- primary reason of unhealthy eating
- habits",color=green];
+	341 [label="advertising is not the primary
+ reason of unhealthy eating habits
+",color=green];
+	326 [label="the advertising industry bolsters people's
+ awareness of having a healthy
+ lifestyle",color=blue];
+	341 [label="advertising is not the primary
+ reason of unhealthy eating habits
+",color=green];
 }

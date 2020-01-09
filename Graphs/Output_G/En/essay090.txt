@@ -1,40 +1,16 @@
 digraph G {
-	33 -> 162;
-	99 -> 162;
-	116 -> 162;
+	131 -> 116;
 	131 -> 162;
-	190 -> 288;
-	210 -> 288;
 	246 -> 288;
-	275 -> 288;
-	33 [label="we can never
- judge about a person with
- his or her appearance",color=blue];
-	162 [label="there are some people
- who are black skin ,
- fat and frown , nonetheless
- they might be a great
- person for leaving and colleague
-",color=green];
-	99 [label="there are
- people who play a role
- and cheat the other individuals
- with their playing",color=blue];
-	162 [label="there are some people
- who are black skin ,
- fat and frown , nonetheless
- they might be a great
- person for leaving and colleague
-",color=green];
 	116 [label="we have to be aware
  to never judge with their
- appearance",color=blue];
-	162 [label="there are some people
- who are black skin ,
- fat and frown , nonetheless
- they might be a great
- person for leaving and colleague
-",color=green];
+ appearance",color=green];
+	131 [label="some people cheat their fiance
+ before marriage by showing a
+ cheerful face and well spoken
+ ; however , after getting
+ marriage they show their real
+ personality",color=blue];
 	131 [label="some people cheat their fiance
  before marriage by showing a
  cheerful face and well spoken
@@ -47,42 +23,10 @@ digraph G {
  they might be a great
  person for leaving and colleague
 ",color=green];
-	190 [label="i have a neighbor who are
- old , black skin and
- frown and i had always
- panicked of her",color=blue];
-	288 [label="the best way
- to judge about individuals' is
- to be familiar with their
- personality not with their appearance
-",color=green];
-	210 [label="one day in a cold winter
- while i was getting back
- to home from school i
- realized that i lost my
- keys , so i could
- not do anything before my
- parents getting back home",color=blue];
-	288 [label="the best way
- to judge about individuals' is
- to be familiar with their
- personality not with their appearance
-",color=green];
 	246 [label="she asked me to stay
  with her till my parents
  come , also she was
  great in hospitality and her
  behavior was unforgettable",color=blue];
-	288 [label="the best way
- to judge about individuals' is
- to be familiar with their
- personality not with their appearance
-",color=green];
-	275 [label="i had to never judge with
- people's appearance",color=blue];
-	288 [label="the best way
- to judge about individuals' is
- to be familiar with their
- personality not with their appearance
-",color=green];
+	288 [label="the best",color=green];
 }

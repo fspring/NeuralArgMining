@@ -68,7 +68,7 @@ criminoso (I)    0.000
 inepto (I)    0.000
 que (O)    0.000
 , (O)    0.000
-apesar (P)  670.000
+apesar (P)    0.000
 das (I)    0.000
 suas (I)    0.000
 intenções (I)    0.000

@@ -4,5 +4,5 @@ digraph G {
  , havia uma queixa recente
  apresentada na GNR ,",color=blue];
 	91 [label="nada apontava para um desfecho
- destes .",color=green];
+ destes",color=green];
 }

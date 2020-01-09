@@ -13,125 +13,125 @@ digraph G {
 	360 -> 312;
 	341 -> 388;
 	360 -> 388;
-	81 [label="the Internet will pave
- way for a more accessible
- and convenient learning",color=green];
-	118 [label="Nowadays ,
- not only are lectures available
- online , it is also
- applicable to find reference e-books
- as well as multi-aspect documents
- on the cyberspace",color=blue];
-	98 [label="the Internet
- is an adequate source of
- academic information , which will
- potentially fulfill the needs of
- university pupils",color=green];
-	147 [label="the Internet has
- grown to become the largest
- virtual library ever",color=blue];
-	118 [label="Nowadays ,
- not only are lectures available
- online , it is also
- applicable to find reference e-books
- as well as multi-aspect documents
- on the cyberspace",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
-	147 [label="the Internet has
- grown to become the largest
- virtual library ever",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
-	161 [label="with the use of
- the Internet , distance and
- time seem to be no
- more a hindrance",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
-	179 [label="College students can save their time
- browsing for necessary information through
- the web instead of spending
- hours wandering in bookstores or
- libraries",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
-	207 [label="the Internet offers
- a more effective and practical
- method of studying",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
-	219 [label="While virtual flowcharts and animations may
- simplify complicated scientific processes ,
- Google and Wikipedia are always
- accessible for detailed responses to
- every query",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
-	248 [label="the Internet
- will become an indispensable part
- in academic training",color=green];
-	268 [label="Have you
- ever imagined what it would
- be like to stay at
- home and attend a lecture
- by a famous speaker in
- Finland simultaneously",color=blue];
-	268 [label="Have you
- ever imagined what it would
- be like to stay at
- home and attend a lecture
- by a famous speaker in
- Finland simultaneously",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
-	293 [label="This fairy
- tale turns out to be
- true thanks to technical and
- internet advances",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
-	312 [label="the Internet have
- several drawbacks which can affect
- the education system negatively ,
- for instance internet abuse and
- black webs",color=green];
-	360 [label="what we are to do
- is a change in learners'
- attitude not an elimination of
- the Internet from academic study
+	81 [label="the Internet will pave way
+ for a more accessible and
+ convenient learning",color=green];
+	118 [label="Nowadays , not
+ only are lectures available online
+ , it is also applicable
+ to find reference e-books as
+ well as multi-aspect documents on
+ the cyberspace",color=blue];
+	98 [label="the Internet is
+ an adequate source of academic
+ information , which will potentially
+ fulfill the needs of university
+ pupils",color=green];
+	147 [label="the Internet has grown
+ to become the largest virtual
+ library ever",color=blue];
+	118 [label="Nowadays , not
+ only are lectures available online
+ , it is also applicable
+ to find reference e-books as
+ well as multi-aspect documents on
+ the cyberspace",color=blue];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
+	147 [label="the Internet has grown
+ to become the largest virtual
+ library ever",color=blue];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
+	161 [label="with the use of the
+ Internet , distance and time
+ seem to be no more
+ a hindrance",color=blue];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
+	179 [label="College students
+ can save their time browsing
+ for necessary information through the
+ web instead of spending hours
+ wandering in bookstores or libraries
 ",color=blue];
-	341 [label="these problems are mainly
- triggered by students' wrong approach
- towards the Internet not the
- Internet itself",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
-	360 [label="what we are to do
- is a change in learners'
- attitude not an elimination of
- the Internet from academic study
-",color=blue];
-	388 [label="I would
- like to reiterate the necessity
- of the Internet in learning
- process",color=green];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
+	207 [label="the Internet offers a
+ more effective and practical method
+ of studying",color=blue];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
+	219 [label="While virtual
+ flowcharts and animations may simplify
+ complicated scientific processes , Google
+ and Wikipedia are always accessible
+ for detailed responses to every
+ query",color=blue];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
+	248 [label="the Internet will
+ become an indispensable part in
+ academic training",color=green];
+	268 [label="Have you ever
+ imagined what it would be
+ like to stay at home
+ and attend a lecture by
+ a famous speaker in Finland
+ simultaneously",color=blue];
+	268 [label="Have you ever
+ imagined what it would be
+ like to stay at home
+ and attend a lecture by
+ a famous speaker in Finland
+ simultaneously",color=blue];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
+	293 [label="This fairy tale
+ turns out to be true
+ thanks to technical and internet
+ advances",color=blue];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
+	312 [label="the Internet have several
+ drawbacks which can affect the
+ education system negatively , for
+ instance internet abuse and black
+ webs",color=green];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ Internet from academic study",color=blue];
+	341 [label="these problems are mainly triggered
+ by students' wrong approach towards
+ the Internet not the Internet
+ itself",color=blue];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ Internet from academic study",color=blue];
+	388 [label="I would like
+ to reiterate the necessity of
+ the Internet in learning process
+",color=green];
 }

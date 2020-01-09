@@ -1,39 +1,32 @@
 digraph G {
-	97 -> 129;
-	121 -> 129;
-	162 -> 185;
-	208 -> 255;
+	97 -> 255;
+	162 -> 255;
 	214 -> 255;
+	218 -> 255;
 	97 [label="the punishment will be
  clear in the mind of
  professional criminals and they will
  not feel fear while committing
  a crime",color=blue];
-	129 [label="it is
- necessary to have a look
- behind crime",color=green];
-	121 [label="laws and rules are there
- for people",color=blue];
-	129 [label="it is
- necessary to have a look
- behind crime",color=green];
+	255 [label="fixed punishment will reduce the space
+ between poor and rich people
+ and everyone will understand the
+ importance of each other",color=green];
 	162 [label="the person who committed
  crime first time and the
  professional criminals should not be
  imprisoned at same place",color=blue];
-	185 [label="fixed punishment will reduce the time
- taken by judges to give
- their judgement and it will
- be effective economically for the
- government",color=green];
-	208 [label="everyone should be
- treated equally",color=blue];
 	255 [label="fixed punishment will reduce the space
  between poor and rich people
  and everyone will understand the
  importance of each other",color=green];
 	214 [label="sometimes we
- see that a poor person
+ see",color=blue];
+	255 [label="fixed punishment will reduce the space
+ between poor and rich people
+ and everyone will understand the
+ importance of each other",color=green];
+	218 [label="a poor person
  who do not have much
  money for hiring a good
  lawyer they get imprisoned even

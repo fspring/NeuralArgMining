@@ -1,10 +1,19 @@
 digraph G {
+	86 -> 67;
 	86 -> 227;
 	111 -> 227;
 	136 -> 227;
 	153 -> 227;
-	171 -> 227;
 	213 -> 227;
+	67 [label="students can learn invaluable
+ experiences through the period of
+ time working for the institutions
+ they are assigned to",color=green];
+	86 [label="in most school curriculums ,
+ the courses are theoretical and
+ often by instructors speaking to
+ students sitting in the classroom
+",color=blue];
 	86 [label="in most school curriculums ,
  the courses are theoretical and
  often by instructors speaking to
@@ -32,18 +41,6 @@ digraph G {
  companies , the unpaid interns
  can no doubt save some
  money",color=blue];
-	227 [label="companies save time and
- resources for searching new staffs
- and organizing an orientation",color=green];
-	171 [label="the younger generations can help
- them generate new ideas as
- the students are not bound
- to restricted workload and they
- tend to have greater imagination
- , which can be essentially
- helpful when they are making
- a new advertisement or slogan
-",color=blue];
 	227 [label="companies save time and
  resources for searching new staffs
  and organizing an orientation",color=green];

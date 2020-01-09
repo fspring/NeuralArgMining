@@ -8,7 +8,7 @@ igualmente (I)    0.000
 muito (I)    0.000
 importantes (I)    0.000
 . (O)    0.000
-merkel (P)  730.000
+merkel (P)    0.000
 terá (I)    0.000
 que (I)    0.000
 demonstrar (I)    0.000
@@ -26,7 +26,7 @@ do (I)    0.000
 eleitorado (I)    0.000
 alemão (I)    0.000
 . (O)    0.000
-terá (P)  712.000
+terá (P)    0.000
 de (I)    0.000
 mostrar (I)    0.000
 igualmente (I)    0.000

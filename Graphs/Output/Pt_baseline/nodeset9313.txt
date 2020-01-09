@@ -17,7 +17,7 @@ maioria (I)    0.000
 de (I)    0.000
 indiferentes (I)    0.000
 . (O)    0.000
-todos (P)  721.000
+todos (P)    0.000
 os (I)    0.000
 outros (I)    0.000
 candidatos (I)    0.000

@@ -10,118 +10,122 @@ digraph G {
 	261 -> 245;
 	261 -> 357;
 	299 -> 357;
-	59 [label="old workers are not a patch
- on the younger ones for
- their unchanged paradigm",color=green];
-	74 [label="The old were raised in poverty
- , probably caused by war
- , look at the world
- from a negative and pessimistic
- point of view",color=blue];
-	74 [label="The old were raised in poverty
- , probably caused by war
- , look at the world
- from a negative and pessimistic
- point of view",color=blue];
-	357 [label="it is still
- of great importance to remain
- the harmonious coexistence of both
- sides for the smooth sailing
- of the company",color=green];
-	99 [label="The misery is so ingrained in
- their mind that they refuse
- to change , or more
- precisely , to accept the
- existence of such modernity",color=blue];
-	357 [label="it is still
- of great importance to remain
- the harmonious coexistence of both
- sides for the smooth sailing
- of the company",color=green];
-	128 [label="most would
- rather choose to piece together
- parts of a machine than
- have it done by a
- robot for their disbelief of
- its efficiency and safety compared
- with human's capability",color=blue];
-	357 [label="it is still
- of great importance to remain
- the harmonious coexistence of both
- sides for the smooth sailing
- of the company",color=green];
-	161 [label="their unresponsiveness can be
- attributed to their attitude towards
- life",color=green];
-	176 [label="that they are aware
- of their deteriorating health and
- lack of enthusiasm comes with
- their taste for monotony and
- safe ideology",color=blue];
-	176 [label="that they are aware
- of their deteriorating health and
- lack of enthusiasm comes with
- their taste for monotony and
- safe ideology",color=blue];
-	357 [label="it is still
- of great importance to remain
- the harmonious coexistence of both
- sides for the smooth sailing
- of the company",color=green];
-	198 [label="This ,
- by all means , is
- outweigh by youngsters' adventurousness and
- bravery",color=blue];
-	357 [label="it is still
- of great importance to remain
- the harmonious coexistence of both
- sides for the smooth sailing
- of the company",color=green];
-	212 [label="Blatantly seen ,
- success of most companies stems
- from young people , whose
- enterprising ideas that catch up
- with the world is regarded
- as wind of refreshment",color=blue];
-	357 [label="it is still
- of great importance to remain
- the harmonious coexistence of both
- sides for the smooth sailing
- of the company",color=green];
-	245 [label="knowledge is worth mentioning as
- a key factor to help
- young workers outrank the elderly
+	59 [label="old workers
+ are not a patch on
+ the younger ones for their
+ unchanged paradigm",color=green];
+	74 [label="The old
+ were raised in poverty ,
+ probably caused by war ,
+ look at the world from
+ a negative and pessimistic point
+ of view",color=blue];
+	74 [label="The old
+ were raised in poverty ,
+ probably caused by war ,
+ look at the world from
+ a negative and pessimistic point
+ of view",color=blue];
+	357 [label="it is still of
+ great importance to remain the
+ harmonious coexistence of both sides
+ for the smooth sailing of
+ the company",color=green];
+	99 [label="The misery
+ is so ingrained in their
+ mind that they refuse to
+ change , or more precisely
+ , to accept the existence
+ of such modernity",color=blue];
+	357 [label="it is still of
+ great importance to remain the
+ harmonious coexistence of both sides
+ for the smooth sailing of
+ the company",color=green];
+	128 [label="most would rather
+ choose to piece together parts
+ of a machine than have
+ it done by a robot
+ for their disbelief of its
+ efficiency and safety compared with
+ human's capability",color=blue];
+	357 [label="it is still of
+ great importance to remain the
+ harmonious coexistence of both sides
+ for the smooth sailing of
+ the company",color=green];
+	161 [label="their unresponsiveness can be attributed
+ to their attitude towards life
 ",color=green];
-	261 [label="Who would the employer
- choose , an old man
- with old-fashioned education and a
- young man who is not
- only good at fundermentaly subject
- , but also knows how
- to program or how to
- speak foreign languages",color=blue];
-	261 [label="Who would the employer
- choose , an old man
- with old-fashioned education and a
- young man who is not
- only good at fundermentaly subject
- , but also knows how
- to program or how to
- speak foreign languages",color=blue];
-	357 [label="it is still
- of great importance to remain
- the harmonious coexistence of both
- sides for the smooth sailing
- of the company",color=green];
-	299 [label="Not to undermine old workers ,
- but their lack of authority
- over such basically required fields
- in this day and age
- leads to their incompetence in
- every modern workplace",color=blue];
-	357 [label="it is still
- of great importance to remain
- the harmonious coexistence of both
- sides for the smooth sailing
- of the company",color=green];
+	176 [label="that they are aware of
+ their deteriorating health and lack
+ of enthusiasm comes with their
+ taste for monotony and safe
+ ideology",color=blue];
+	176 [label="that they are aware of
+ their deteriorating health and lack
+ of enthusiasm comes with their
+ taste for monotony and safe
+ ideology",color=blue];
+	357 [label="it is still of
+ great importance to remain the
+ harmonious coexistence of both sides
+ for the smooth sailing of
+ the company",color=green];
+	198 [label="This , by
+ all means , is outweigh
+ by youngsters' adventurousness and bravery
+",color=blue];
+	357 [label="it is still of
+ great importance to remain the
+ harmonious coexistence of both sides
+ for the smooth sailing of
+ the company",color=green];
+	212 [label="Blatantly seen , success
+ of most companies stems from
+ young people , whose enterprising
+ ideas that catch up with
+ the world is regarded as
+ wind of refreshment",color=blue];
+	357 [label="it is still of
+ great importance to remain the
+ harmonious coexistence of both sides
+ for the smooth sailing of
+ the company",color=green];
+	245 [label="knowledge is worth mentioning as a
+ key factor to help young
+ workers outrank the elderly",color=green];
+	261 [label="Who would the employer choose
+ , an old man with
+ old-fashioned education and a young
+ man who is not only
+ good at fundermentaly subject ,
+ but also knows how to
+ program or how to speak
+ foreign languages",color=blue];
+	261 [label="Who would the employer choose
+ , an old man with
+ old-fashioned education and a young
+ man who is not only
+ good at fundermentaly subject ,
+ but also knows how to
+ program or how to speak
+ foreign languages",color=blue];
+	357 [label="it is still of
+ great importance to remain the
+ harmonious coexistence of both sides
+ for the smooth sailing of
+ the company",color=green];
+	299 [label="Not to
+ undermine old workers , but
+ their lack of authority over
+ such basically required fields in
+ this day and age leads
+ to their incompetence in every
+ modern workplace",color=blue];
+	357 [label="it is still of
+ great importance to remain the
+ harmonious coexistence of both sides
+ for the smooth sailing of
+ the company",color=green];
 }

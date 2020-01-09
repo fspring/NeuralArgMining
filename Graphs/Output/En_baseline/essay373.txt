@@ -126,7 +126,7 @@ reasons (O)    0.000
 . (O)    0.000
 firstly (O)    0.000
 , (O)    0.000
-capital (P)   68.000
+capital (C)    0.000
 punishment (I)    0.000
 is (I)    0.000
 a (I)    0.000
@@ -371,7 +371,7 @@ wisely (O)    0.000
 punishments (O)    0.000
 ? (O)    0.000
 as (O)    0.000
-we (P)   89.000
+we (O)    0.000
 can (O)    0.000
 see (O)    0.000
 some (P)   86.000

@@ -1,12 +1,15 @@
 digraph G {
+	99 -> 88;
 	99 -> 193;
 	119 -> 193;
 	145 -> 193;
-	179 -> 193;
-	229 -> 299;
-	249 -> 299;
-	266 -> 299;
-	278 -> 299;
+	216 -> 299;
+	88 [label="pictures can influence
+ the way people think",color=green];
+	99 [label="nowadays horrendous
+ images are displayed on the
+ cigarette boxes to illustrate the
+ consequences of smoking",color=blue];
 	99 [label="nowadays horrendous
  images are displayed on the
  cigarette boxes to illustrate the
@@ -34,47 +37,9 @@ digraph G {
  that images in the absence
  of words can obviously claim
  the attraction of many",color=green];
-	179 [label="images are
- also widely used in newspapers
- , magazines and advertisements",color=blue];
-	193 [label="it is undeniable
- that images in the absence
- of words can obviously claim
- the attraction of many",color=green];
-	229 [label="with only
- pictures , everyone is left
- to their own interpretation on
- how they perceive the images
-",color=blue];
-	299 [label="both images
- and words go hand in
- hand and one cannot wholly
- emphasise on only one aspect
- , either images or words
-",color=green];
-	249 [label="this is
- different when words are used
- to explain what the illustration
- is about",color=blue];
-	299 [label="both images
- and words go hand in
- hand and one cannot wholly
- emphasise on only one aspect
- , either images or words
-",color=green];
-	266 [label="the primary way of educating
- students is also by this
- way",color=blue];
-	299 [label="both images
- and words go hand in
- hand and one cannot wholly
- emphasise on only one aspect
- , either images or words
-",color=green];
-	278 [label="academic textbooks these
- days are laden with words
- besides pictures to guide the
- readers to comprehend better",color=blue];
+	216 [label="written words are also vital
+ in order to spread across
+ certain messages",color=blue];
 	299 [label="both images
  and words go hand in
  hand and one cannot wholly

@@ -84,7 +84,7 @@ with (I)    0.000
 their (I)    0.000
 phones (I)    0.000
 . (O)    0.000
-games (P)  114.000
+games (P)  216.000
 and (I)    0.000
 applications (I)    0.000
 installed (I)    0.000
@@ -111,7 +111,7 @@ activities (I)    0.000
 . (O)    0.000
 similarly (O)    0.000
 , (O)    0.000
-internet (P)   87.000
+internet (P)  189.000
 capable (I)    0.000
 phones (I)    0.000
 help (I)    0.000
@@ -134,7 +134,7 @@ doing (I)    0.000
 school (I)    0.000
 works (I)    0.000
 . (O)    0.000
-in (P)   64.000
+in (P)  166.000
 my (I)    0.000
 college (I)    0.000
 days (I)    0.000
@@ -152,7 +152,7 @@ my (I)    0.000
 cellular (I)    0.000
 phone (I)    0.000
 . (O)    0.000
-i (P)   46.000
+i (P)  148.000
 have (I)    0.000
 spent (I)    0.000
 most (I)    0.000
@@ -171,7 +171,7 @@ to (I)    0.000
 my (I)    0.000
 friends (I)    0.000
 . (O)    0.000
-that (P)   27.000
+that (P)  129.000
 goal (I)    0.000
 has (I)    0.000
 led (I)    0.000
@@ -198,7 +198,7 @@ semester (I)    0.000
 . (O)    0.000
 secondly (O)    0.000
 , (O)    0.000
-juveniles (C)    0.000
+juveniles (P)  102.000
 who (I)    0.000
 possess (I)    0.000
 mobile (I)    0.000

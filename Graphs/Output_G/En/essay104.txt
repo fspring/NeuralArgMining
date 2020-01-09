@@ -1,94 +1,123 @@
 digraph G {
-	118 -> 248;
-	147 -> 248;
-	161 -> 248;
-	179 -> 248;
-	207 -> 248;
-	219 -> 248;
-	268 -> 312;
-	293 -> 312;
-	341 -> 388;
-	360 -> 388;
+	118 -> 81;
+	118 -> 98;
+	118 -> 360;
+	147 -> 360;
+	161 -> 360;
+	179 -> 360;
+	219 -> 207;
+	219 -> 360;
+	268 -> 360;
+	293 -> 360;
+	312 -> 360;
+	341 -> 360;
+	81 [label="the internet will pave way
+ for a more accessible and
+ convenient learning",color=green];
 	118 [label="nowadays , not
  only are lectures available online
  , it is also applicable
  to find reference e-books as
  well as multi-aspect documents on
  the cyberspace",color=blue];
-	248 [label="the internet will
- become an indispensable part in
- academic training",color=green];
+	98 [label="the internet is
+ an adequate source of academic
+ information , which will potentially
+ fulfill the needs of university
+ pupils",color=green];
+	118 [label="nowadays , not
+ only are lectures available online
+ , it is also applicable
+ to find reference e-books as
+ well as multi-aspect documents on
+ the cyberspace",color=blue];
+	118 [label="nowadays , not
+ only are lectures available online
+ , it is also applicable
+ to find reference e-books as
+ well as multi-aspect documents on
+ the cyberspace",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	147 [label="the internet has grown
  to become the largest virtual
  library ever",color=blue];
-	248 [label="the internet will
- become an indispensable part in
- academic training",color=green];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	161 [label="with the use of the
  internet , distance and time
  seem to be no more
  a hindrance",color=blue];
-	248 [label="the internet will
- become an indispensable part in
- academic training",color=green];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	179 [label="college students
  can save their time browsing
  for necessary information through the
  web instead of spending hours
  wandering in bookstores or libraries
 ",color=blue];
-	248 [label="the internet will
- become an indispensable part in
- academic training",color=green];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	207 [label="the internet offers a
  more effective and practical method
- of studying",color=blue];
-	248 [label="the internet will
- become an indispensable part in
- academic training",color=green];
+ of studying",color=green];
 	219 [label="while virtual
  flowcharts and animations may simplify
  complicated scientific processes , google
  and wikipedia are always accessible
  for detailed responses to every
  query",color=blue];
-	248 [label="the internet will
- become an indispensable part in
- academic training",color=green];
+	219 [label="while virtual
+ flowcharts and animations may simplify
+ complicated scientific processes , google
+ and wikipedia are always accessible
+ for detailed responses to every
+ query",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	268 [label="have you ever
  imagined what it would be
  like to stay at home
  and attend a lecture by
  a famous speaker in finland
  simultaneously",color=blue];
-	312 [label="the internet have several
- drawbacks which can affect the
- education system negatively , for
- instance internet abuse and black
- webs",color=green];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	293 [label="this fairy tale
  turns out to be true
  thanks to technical and internet
  advances",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	312 [label="the internet have several
  drawbacks which can affect the
  education system negatively , for
  instance internet abuse and black
- webs",color=green];
+ webs",color=blue];
+	360 [label="what we are to do is
+ a change in learners' attitude
+ not an elimination of the
+ internet from academic study",color=green];
 	341 [label="these problems are mainly triggered
  by students' wrong approach towards
  the internet not the internet
  itself",color=blue];
-	388 [label="i would like
- to reiterate the necessity of
- the internet in learning process
-",color=green];
 	360 [label="what we are to do is
  a change in learners' attitude
  not an elimination of the
- internet from academic study",color=blue];
-	388 [label="i would like
- to reiterate the necessity of
- the internet in learning process
-",color=green];
+ internet from academic study",color=green];
 }

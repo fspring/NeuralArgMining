@@ -48,7 +48,7 @@ first (O)    0.000
 reason (O)    0.000
 is (O)    0.000
 that (O)    0.000
-games (C)    0.000
+games (P)  127.000
 become (I)    0.000
 unnecessary (I)    0.000
 for (I)    0.000
@@ -58,10 +58,10 @@ their (I)    0.000
 careers (I)    0.000
 begin (I)    0.000
 . (O)    0.000
-someone (C)    0.000
-may (I)    0.000
-argue (I)    0.000
-that (I)    0.000
+someone (O)    0.000
+may (O)    0.000
+argue (O)    0.000
+that (O)    0.000
 games (P)  113.000
 help (I)    0.000
 adults (I)    0.000
@@ -69,9 +69,9 @@ relax (I)    0.000
 and (I)    0.000
 become (I)    0.000
 more (I)    0.000
-balanced (O)    0.000
-in (O)    0.000
-life (O)    0.000
+balanced (I)    0.000
+in (I)    0.000
+life (I)    0.000
 . (O)    0.000
 but (O)    0.000
 , (O)    0.000
@@ -92,7 +92,7 @@ abandon (I)    0.000
 their (I)    0.000
 lifelong (I)    0.000
 hobbies (I)    0.000
-, (O)    0.000
+, (I)    0.000
 and (O)    0.000
 as (O)    0.000
 a (O)    0.000

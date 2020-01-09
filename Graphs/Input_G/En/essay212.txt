@@ -15,133 +15,129 @@ digraph G {
 	329 -> 397;
 	341 -> 397;
 	361 -> 397;
-	63 [label="I would
- follow the new customs ,
- if I migrated to another
+	63 [label="I would follow
+ the new customs , if
+ I migrated to another country
+",color=green];
+	101 [label="When people migrate to a
+ new country , they are
+ likely to suffer the culture
+ shock , because of the
+ difference between two cultures",color=blue];
+	81 [label="it will be easier for
+ people to assimilate into a
+ new country , if they
+ follow the new customs",color=green];
+	101 [label="When people migrate to a
+ new country , they are
+ likely to suffer the culture
+ shock , because of the
+ difference between two cultures",color=blue];
+	101 [label="When people migrate to a
+ new country , they are
+ likely to suffer the culture
+ shock , because of the
+ difference between two cultures",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
  country",color=green];
-	101 [label="When people migrate to
- a new country , they
- are likely to suffer the
- culture shock , because of
- the difference between two cultures
-",color=blue];
-	81 [label="it will be easier
- for people to assimilate into
- a new country , if
- they follow the new customs
-",color=green];
-	101 [label="When people migrate to
- a new country , they
- are likely to suffer the
- culture shock , because of
- the difference between two cultures
-",color=blue];
-	101 [label="When people migrate to
- a new country , they
- are likely to suffer the
- culture shock , because of
- the difference between two cultures
-",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	126 [label="The custom is just
- a form of the culture
- and following the custom is
- a good way to know
- more about this culture",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	153 [label="if one
- wore in white and went
- to common Viharas to observe
- a rather longer-than-usual , full-length
- Buddhist sutra in Buddha's Birthday
- in India , he or
- she would learn something about
- Indian religion and culture",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	194 [label="people understand the culture , and
- then they adapt to the
+	126 [label="The custom is just a
+ form of the culture and
+ following the custom is a
+ good way to know more
+ about this culture",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	153 [label="if one wore
+ in white and went to
+ common Viharas to observe a
+ rather longer-than-usual , full-length Buddhist
+ sutra in Buddha's Birthday in
+ India , he or she
+ would learn something about Indian
+ religion and culture",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	194 [label="people understand
+ the culture , and then
+ they adapt to the new
+ country",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	213 [label="keeping own customs
+ stably might cause discrimination",color=green];
+	221 [label="When people insist to keep
+ their own customs and refuse
+ to accept the new one
+ , they regard themselves as
+ a special group in the
  new country",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	213 [label="keeping own
- customs stably might cause discrimination
-",color=green];
-	221 [label="When people insist to
- keep their own customs and
- refuse to accept the new
- one , they regard themselves
- as a special group in
- the new country",color=blue];
-	221 [label="When people insist to
- keep their own customs and
- refuse to accept the new
- one , they regard themselves
- as a special group in
- the new country",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	249 [label="The local people may also regard
- them as a special group
- as well and separate them
- from the main-stream society",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	270 [label="One example of this is
- that the Chinese immigrants in
- Indonesia in 1969",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	284 [label="They formed Chinatown and kept Chinese
- language and customs in it
-",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	296 [label="While the Indonesians stopped
- working at 4:00 pm and
- went home for rest ,
- Chinese immigrants were still working
-",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	317 [label="being much richer
- than local people , they
- faced the discrimination",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	329 [label="Their houses and private cars were
- buried by local people",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	341 [label="the locals were jealous
- of Chinese people , who
- had so much wealth ,
- which should have been theirs
-",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
-	361 [label="If the Chinese immigrants
- had followed the local customs
- and assimilated into Indonesia ,
- they would not have been
- regards as a group of
- Chinese and discrimination might have
- been alleviated",color=blue];
-	397 [label="the immigrants should
- follow the customs in the
- new country",color=green];
+	221 [label="When people insist to keep
+ their own customs and refuse
+ to accept the new one
+ , they regard themselves as
+ a special group in the
+ new country",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	249 [label="The local
+ people may also regard them
+ as a special group as
+ well and separate them from
+ the main-stream society",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	270 [label="One example of this is that
+ the Chinese immigrants in Indonesia
+ in 1969",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	284 [label="They formed
+ Chinatown and kept Chinese language
+ and customs in it",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	296 [label="While the Indonesians stopped working
+ at 4:00 pm and went
+ home for rest , Chinese
+ immigrants were still working",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	317 [label="being much richer than
+ local people , they faced
+ the discrimination",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	329 [label="Their houses
+ and private cars were buried
+ by local people",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	341 [label="the locals were jealous of
+ Chinese people , who had
+ so much wealth , which
+ should have been theirs",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
+	361 [label="If the Chinese immigrants had
+ followed the local customs and
+ assimilated into Indonesia , they
+ would not have been regards
+ as a group of Chinese
+ and discrimination might have been
+ alleviated",color=blue];
+	397 [label="the immigrants should follow
+ the customs in the new
+ country",color=green];
 }

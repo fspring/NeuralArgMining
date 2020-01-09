@@ -10,110 +10,113 @@ digraph G {
 	228 -> 305;
 	250 -> 305;
 	280 -> 305;
-	61 [label="by using different sources
- of information we can guarantee
- its reliability",color=green];
-	73 [label="Some people
- may disinform you on purpose
- , that's why it is
- rather unwise to make conclusions
- before you are confident of
- the information",color=blue];
-	73 [label="Some people
- may disinform you on purpose
- , that's why it is
- rather unwise to make conclusions
- before you are confident of
- the information",color=blue];
-	305 [label="it is very important to
- be confident of the information
- , which you use ,
- especially when your conclusion or
- decision may have a great
- influence",color=green];
-	101 [label="Russian news announced that
- the war between Osetia and
- Georgia had been initiated by
- Georgia , however , european
- news announced that it was
- initiated by Russia",color=blue];
-	305 [label="it is very important to
- be confident of the information
- , which you use ,
- especially when your conclusion or
- decision may have a great
- influence",color=green];
-	129 [label="After a while the situation became
- clear , but before that
- a lot of people had
- already condemned the actions of
- Russia",color=blue];
-	305 [label="it is very important to
- be confident of the information
- , which you use ,
- especially when your conclusion or
- decision may have a great
- influence",color=green];
-	154 [label="it is very important to know
- facts about some events or
- problem , not only estimations
- ",color=blue];
-	203 [label="you have
- to look through different sources
- before you manage to find
- some reliable facts",color=green];
-	172 [label="it can help
- you to make your own
- conclusion or estimate",color=blue];
-	203 [label="you have
- to look through different sources
- before you manage to find
- some reliable facts",color=green];
-	203 [label="you have
- to look through different sources
- before you manage to find
- some reliable facts",color=green];
-	219 [label="It is possible to make a
- wrong decision",color=blue];
-	219 [label="It is possible to make a
- wrong decision",color=blue];
-	305 [label="it is very important to
- be confident of the information
- , which you use ,
- especially when your conclusion or
- decision may have a great
- influence",color=green];
-	228 [label="you have
- just used someone's personal opinion
- as a source of information
- , but it was actually
- wrong",color=blue];
-	305 [label="it is very important to
- be confident of the information
- , which you use ,
- especially when your conclusion or
- decision may have a great
- influence",color=green];
-	250 [label="several years ago in Moscow
- salt became two times more
- expensive only in one week
- , because people thought that
- soon there would be no
- salt in the shops",color=blue];
-	305 [label="it is very important to
- be confident of the information
- , which you use ,
- especially when your conclusion or
- decision may have a great
- influence",color=green];
-	280 [label="The gossip-based information dramatically influenced
- the prices and only after
- official announcement the salt-panic was
- over",color=blue];
-	305 [label="it is very important to
- be confident of the information
- , which you use ,
- especially when your conclusion or
- decision may have a great
- influence",color=green];
+	61 [label="by using different sources of
+ information we can guarantee its
+ reliability",color=green];
+	73 [label="Some people may
+ disinform you on purpose ,
+ that's why it is rather
+ unwise to make conclusions before
+ you are confident of the
+ information",color=blue];
+	73 [label="Some people may
+ disinform you on purpose ,
+ that's why it is rather
+ unwise to make conclusions before
+ you are confident of the
+ information",color=blue];
+	305 [label="it is very important to be
+ confident of the information ,
+ which you use , especially
+ when your conclusion or decision
+ may have a great influence
+",color=green];
+	101 [label="Russian news announced that the
+ war between Osetia and Georgia
+ had been initiated by Georgia
+ , however , european news
+ announced that it was initiated
+ by Russia",color=blue];
+	305 [label="it is very important to be
+ confident of the information ,
+ which you use , especially
+ when your conclusion or decision
+ may have a great influence
+",color=green];
+	129 [label="After a
+ while the situation became clear
+ , but before that a
+ lot of people had already
+ condemned the actions of Russia
+",color=blue];
+	305 [label="it is very important to be
+ confident of the information ,
+ which you use , especially
+ when your conclusion or decision
+ may have a great influence
+",color=green];
+	154 [label="it is
+ very important to know facts
+ about some events or problem
+ , not only estimations",color=blue];
+	203 [label="you have to
+ look through different sources before
+ you manage to find some
+ reliable facts",color=green];
+	172 [label="it can help you
+ to make your own conclusion
+ or estimate",color=blue];
+	203 [label="you have to
+ look through different sources before
+ you manage to find some
+ reliable facts",color=green];
+	203 [label="you have to
+ look through different sources before
+ you manage to find some
+ reliable facts",color=green];
+	219 [label="It is
+ possible to make a wrong
+ decision",color=blue];
+	219 [label="It is
+ possible to make a wrong
+ decision",color=blue];
+	305 [label="it is very important to be
+ confident of the information ,
+ which you use , especially
+ when your conclusion or decision
+ may have a great influence
+",color=green];
+	228 [label="you have just
+ used someone's personal opinion as
+ a source of information ,
+ but it was actually wrong
+",color=blue];
+	305 [label="it is very important to be
+ confident of the information ,
+ which you use , especially
+ when your conclusion or decision
+ may have a great influence
+",color=green];
+	250 [label="several years ago in Moscow salt
+ became two times more expensive
+ only in one week ,
+ because people thought that soon
+ there would be no salt
+ in the shops",color=blue];
+	305 [label="it is very important to be
+ confident of the information ,
+ which you use , especially
+ when your conclusion or decision
+ may have a great influence
+",color=green];
+	280 [label="The gossip-based information dramatically influenced the
+ prices and only after official
+ announcement the salt-panic was over
+",color=blue];
+	305 [label="it is very important to be
+ confident of the information ,
+ which you use , especially
+ when your conclusion or decision
+ may have a great influence
+",color=green];
 }

@@ -1,23 +1,19 @@
 digraph G {
-	65 -> 164;
+	82 -> 70;
 	82 -> 164;
-	102 -> 164;
-	123 -> 164;
-	141 -> 164;
-	182 -> 300;
-	213 -> 300;
-	246 -> 300;
-	259 -> 300;
-	276 -> 300;
-	65 [label="it is undoubtedly certain that students
- can gain their practical experience
+	141 -> 123;
+	141 -> 246;
+	182 -> 164;
+	182 -> 329;
+	213 -> 329;
+	276 -> 329;
+	70 [label="students can gain their practical experience
  by getting involved extra jobs
-",color=blue];
-	164 [label="students who
- take on a part time
- job are often more confident
- and independent than other ones
 ",color=green];
+	82 [label="part-time jobs furnish them
+ with precious chance to practice
+ what they are learning at
+ their universities",color=blue];
 	82 [label="part-time jobs furnish them
  with precious chance to practice
  what they are learning at
@@ -27,29 +23,23 @@ digraph G {
  job are often more confident
  and independent than other ones
 ",color=green];
-	102 [label="that seems to be
- more essential the present shortage
- of sufficiently practical conditions supplied
- in universities",color=blue];
-	164 [label="students who
- take on a part time
- job are often more confident
- and independent than other ones
-",color=green];
 	123 [label="students who get
  part time jobs have not
  only academic knowledge but also
- hands-on experience",color=blue];
-	164 [label="students who
- take on a part time
- job are often more confident
- and independent than other ones
-",color=green];
+ hands-on experience",color=green];
 	141 [label="having experienced in working environment
  during student time offers a
  distinct advantage when they apply
  for jobs after their graduation
 ",color=blue];
+	141 [label="having experienced in working environment
+ during student time offers a
+ distinct advantage when they apply
+ for jobs after their graduation
+",color=blue];
+	246 [label="doing extra jobs helps student
+ with money for their accommodation
+",color=green];
 	164 [label="students who
  take on a part time
  job are often more confident
@@ -61,11 +51,16 @@ digraph G {
  ideas can be raised without
  hesitation , then students' confidence
  could be significantly gained",color=blue];
-	300 [label="that helps students from being reliant
- on their families as well
- as is a well-prepared condition
- for their independent later life
-",color=green];
+	182 [label="by constant communicating with
+ other colleagues daily in a
+ company environment where their new
+ ideas can be raised without
+ hesitation , then students' confidence
+ could be significantly gained",color=blue];
+	329 [label="having a
+ part time job during your
+ student time will offer students
+ many clear benefits",color=green];
 	213 [label="working conditions require
  students the independency in thinking
  , working , and solving
@@ -73,36 +68,17 @@ digraph G {
  helpful when the characteristic is
  applied to tackle subjects in
  their universities",color=blue];
-	300 [label="that helps students from being reliant
- on their families as well
- as is a well-prepared condition
- for their independent later life
-",color=green];
-	246 [label="doing extra jobs helps student
- with money for their accommodation
-",color=blue];
-	300 [label="that helps students from being reliant
- on their families as well
- as is a well-prepared condition
- for their independent later life
-",color=green];
-	259 [label="high studying
- tuition , added with raising
- accommodation expenses are becoming a
- huge burden to students",color=blue];
-	300 [label="that helps students from being reliant
- on their families as well
- as is a well-prepared condition
- for their independent later life
-",color=green];
+	329 [label="having a
+ part time job during your
+ student time will offer students
+ many clear benefits",color=green];
 	276 [label="with the money they earn
  from extra jobs , which
  normally is not much ,
  those difficulties could be partially
  solved",color=blue];
-	300 [label="that helps students from being reliant
- on their families as well
- as is a well-prepared condition
- for their independent later life
-",color=green];
+	329 [label="having a
+ part time job during your
+ student time will offer students
+ many clear benefits",color=green];
 }

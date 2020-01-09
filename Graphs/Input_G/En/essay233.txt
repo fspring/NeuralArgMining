@@ -8,75 +8,79 @@ digraph G {
 	219 -> 239;
 	271 -> 239;
 	282 -> 260;
-	66 [label="people normally have lots
- of things to do",color=blue];
-	91 [label="being able to prepare
- a tasty food just putting
- it into the microwave or
- into the oven is awesome
-",color=green];
-	79 [label="they donâ€™t have much time to
- spend in the kitchen",color=blue];
-	91 [label="being able to prepare
- a tasty food just putting
- it into the microwave or
- into the oven is awesome
-",color=green];
-	91 [label="being able to prepare
- a tasty food just putting
- it into the microwave or
- into the oven is awesome
-",color=green];
-	114 [label="if an engineer needs to make
- a project , but he
- needs to deliver it tomorrow
- , he could save hours
- preparing a food with the
- microwave instead of cooking everything
- from scratch",color=blue];
-	114 [label="if an engineer needs to make
- a project , but he
- needs to deliver it tomorrow
- , he could save hours
- preparing a food with the
- microwave instead of cooking everything
- from scratch",color=blue];
-	239 [label="ease to prepare food has improved
- peopleâ€™s lives",color=green];
-	150 [label="when someone wants to prepare
- a good food alone for
- some reason , some time
- ago he/she would need to
- be a very good cook
- to prepare that food ,
- but nowadays is very easy
- to prepare a healthy and
- tasty food",color=green];
-	196 [label="if a guy wants
- to prepare a dinner to
- his girlfriend , he could
- just buy some food that
- comes with instructions",color=blue];
-	196 [label="if a guy wants
- to prepare a dinner to
- his girlfriend , he could
- just buy some food that
- comes with instructions",color=blue];
-	239 [label="ease to prepare food has improved
- peopleâ€™s lives",color=green];
-	219 [label="Normally you just need to put
- it into the oven and
- wait some time",color=blue];
-	239 [label="ease to prepare food has improved
- peopleâ€™s lives",color=green];
-	239 [label="ease to prepare food has improved
- peopleâ€™s lives",color=green];
-	271 [label="some industrial foods are
- very bad for their health
+	66 [label="people normally have lots of
+ things to do",color=blue];
+	91 [label="being able to prepare a
+ tasty food just putting it
+ into the microwave or into
+ the oven is awesome",color=green];
+	79 [label="they don’t
+ have much time to spend
+ in the kitchen",color=blue];
+	91 [label="being able to prepare a
+ tasty food just putting it
+ into the microwave or into
+ the oven is awesome",color=green];
+	91 [label="being able to prepare a
+ tasty food just putting it
+ into the microwave or into
+ the oven is awesome",color=green];
+	114 [label="if an
+ engineer needs to make a
+ project , but he needs
+ to deliver it tomorrow ,
+ he could save hours preparing
+ a food with the microwave
+ instead of cooking everything from
+ scratch",color=blue];
+	114 [label="if an
+ engineer needs to make a
+ project , but he needs
+ to deliver it tomorrow ,
+ he could save hours preparing
+ a food with the microwave
+ instead of cooking everything from
+ scratch",color=blue];
+	239 [label="ease to
+ prepare food has improved people’s
+ lives",color=green];
+	150 [label="when someone wants to prepare a
+ good food alone for some
+ reason , some time ago
+ he/she would need to be
+ a very good cook to
+ prepare that food , but
+ nowadays is very easy to
+ prepare a healthy and tasty
+ food",color=green];
+	196 [label="if a guy wants to
+ prepare a dinner to his
+ girlfriend , he could just
+ buy some food that comes
+ with instructions",color=blue];
+	196 [label="if a guy wants to
+ prepare a dinner to his
+ girlfriend , he could just
+ buy some food that comes
+ with instructions",color=blue];
+	239 [label="ease to
+ prepare food has improved people’s
+ lives",color=green];
+	219 [label="Normally you
+ just need to put it
+ into the oven and wait
+ some time",color=blue];
+	239 [label="ease to
+ prepare food has improved people’s
+ lives",color=green];
+	239 [label="ease to
+ prepare food has improved people’s
+ lives",color=green];
+	271 [label="some industrial foods are very
+ bad for their health",color=blue];
+	260 [label="But people should be careful with
+ what they eat",color=green];
+	282 [label="they should buy only
+ food from well known brands
 ",color=blue];
-	260 [label="But people should be careful
- with what they eat",color=green];
-	282 [label="they should buy
- only food from well known
- brands",color=blue];
 }

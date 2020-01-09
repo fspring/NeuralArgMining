@@ -1,9 +1,9 @@
 digraph G {
 	10 -> 0;
 	0 [label="Rebelo de Sousa poderia ter feito
- uma campanha diferente .",color=green];
+ uma campanha diferente",color=green];
 	10 [label="Poderia ter decidido defender o semi-presidencialismo
  contra a irrelevância a que
  foi condenado pela crise europeia
- .",color=blue];
+",color=blue];
 }

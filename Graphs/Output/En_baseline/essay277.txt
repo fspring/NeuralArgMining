@@ -68,7 +68,7 @@ choice (O)    0.000
 . (O)    0.000
 first (O)    0.000
 , (O)    0.000
-when (P)   52.000
+when (P)   29.000
 students (I)    0.000
 learn (I)    0.000
 facts (I)    0.000
@@ -97,7 +97,7 @@ case (O)    0.000
 in (O)    0.000
 point (O)    0.000
 , (O)    0.000
-more (P)   23.000
+more (C)    0.000
 information (I)    0.000
 about (I)    0.000
 facts (I)    0.000
@@ -145,7 +145,7 @@ students' (I)    0.000
 social (I)    0.000
 behavior (I)    0.000
 . (O)    0.000
-if (P)   83.000
+if (P)   19.000
 students (I)    0.000
 only (I)    0.000
 rely (I)    0.000
@@ -164,7 +164,7 @@ mind (I)    0.000
 very (I)    0.000
 well (I)    0.000
 . (O)    0.000
-they (P)   64.000
+they (C)    0.000
 should (I)    0.000
 understand (I)    0.000
 objects (I)    0.000
@@ -182,7 +182,7 @@ well (I)    0.000
 . (O)    0.000
 thus (O)    0.000
 , (O)    0.000
-if (P)   46.000
+if (C)    0.000
 they (I)    0.000
 deal (I)    0.000
 more (I)    0.000

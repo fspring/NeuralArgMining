@@ -1,11 +1,8 @@
 digraph G {
-	94 -> 237;
-	122 -> 237;
+	94 -> 307;
+	122 -> 307;
 	142 -> 237;
 	153 -> 237;
-	163 -> 237;
-	199 -> 237;
-	222 -> 237;
 	255 -> 293;
 	262 -> 293;
 	281 -> 293;
@@ -15,16 +12,18 @@ digraph G {
  of subjects , otherwise they
  might miss valuable encounter with
  the subject",color=blue];
-	237 [label="high school students should
- learn broadly and prepare future
- learning at university",color=green];
+	307 [label="students should find interesting
+ subjects and acquire general knowledge
+ to prepare higher education at
+ tertiary education",color=green];
 	122 [label="a would-be mathematician student
  may be strongly intrigued by
  philosophy and make a success
  in the field",color=blue];
-	237 [label="high school students should
- learn broadly and prepare future
- learning at university",color=green];
+	307 [label="students should find interesting
+ subjects and acquire general knowledge
+ to prepare higher education at
+ tertiary education",color=green];
 	142 [label="students should obtain knowledge
  from a variety of academic
  fields",color=blue];
@@ -34,30 +33,6 @@ digraph G {
 	153 [label="general education plays
  a significant role in specialized
  education",color=blue];
-	237 [label="high school students should
- learn broadly and prepare future
- learning at university",color=green];
-	163 [label="science today ,
- for example , is said
- to be more and more
- specialized , but in order
- to solve a problem scientists
- have to combine knowledge from
- chemistry to physics",color=blue];
-	237 [label="high school students should
- learn broadly and prepare future
- learning at university",color=green];
-	199 [label="textbooks used
- in higher education are labelled
- particular subjects , in fact
- they require basic understanding of
- other subjects",color=blue];
-	237 [label="high school students should
- learn broadly and prepare future
- learning at university",color=green];
-	222 [label="you sometimes need knowledge
- about physics to read a
- text on chemistry",color=blue];
 	237 [label="high school students should
  learn broadly and prepare future
  learning at university",color=green];

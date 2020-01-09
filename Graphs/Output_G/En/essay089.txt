@@ -1,41 +1,19 @@
 digraph G {
-	53 -> 101;
 	61 -> 101;
-	70 -> 101;
-	110 -> 129;
-	139 -> 178;
+	139 -> 203;
 	156 -> 178;
 	186 -> 215;
-	203 -> 215;
-	53 [label="day by day
- population is increasing",color=blue];
-	101 [label="farmlands are vital for human
- life",color=green];
 	61 [label="human needs for food is
  increasing as well",color=blue];
 	101 [label="farmlands are vital for human
  life",color=green];
-	70 [label="we need farmland to grow crops
- such as wheat and corn
- , and there is no
- doubt that without food people
- cannot alive for more than
- some weeks",color=blue];
-	101 [label="farmlands are vital for human
- life",color=green];
-	110 [label="people need shelters to protect themselves
- from mother nature such as
- wind and flood and wild
- animals",color=blue];
-	129 [label="they need
- land to build their houses
- on it",color=green];
 	139 [label="dwelling is
  one of the most important
  human needs after food which
  is undeniable",color=blue];
-	178 [label="some lands should
- be assigned to industry",color=green];
+	203 [label="the population of
+ endangered animals are less than
+ people's population",color=green];
 	156 [label="human need some crucial things
  to continue their life ,
  and most of them are
@@ -45,11 +23,6 @@ digraph G {
 	186 [label="todays life has some difficulty
  which become comfortable with the
  help of industry",color=blue];
-	215 [label="they do not need so much
- land that people need",color=green];
-	203 [label="the population of
- endangered animals are less than
- people's population",color=blue];
 	215 [label="they do not need so much
  land that people need",color=green];
 }

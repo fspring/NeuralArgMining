@@ -14,17 +14,17 @@ digraph G {
  natural phenomenon that nobody is
  able to shun or ban
 ",color=blue];
-	390 [label=""rush hours" are usually not the
+	390 [label="rush hours are usually not the
  direct consequence of drivers",color=green];
 	163 [label="it is out
  of drivers' control",color=blue];
-	390 [label=""rush hours" are usually not the
+	390 [label="rush hours are usually not the
  direct consequence of drivers",color=green];
 	187 [label="wars are notorious ,
  but you can't blame the
  soldiers who are justing fight
  for their countries",color=blue];
-	390 [label=""rush hours" are usually not the
+	390 [label="rush hours are usually not the
  direct consequence of drivers",color=green];
 	247 [label="majority of the families
  buy cars simply for a
@@ -33,6 +33,6 @@ digraph G {
  fee adds a lot to
  their burden and is actually
  jeopardizing their rights",color=blue];
-	390 [label=""rush hours" are usually not the
+	390 [label="rush hours are usually not the
  direct consequence of drivers",color=green];
 }

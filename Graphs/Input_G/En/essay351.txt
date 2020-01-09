@@ -6,75 +6,76 @@ digraph G {
 	151 -> 177;
 	209 -> 177;
 	209 -> 244;
-	33 [label="there are
- other equally vital aspects that
- need to be considered in
- this regard",color=green];
-	74 [label="aspects such as : friendly colleagues
- , environment and work-place condition
- , sometimes , have even
- more impact on person's happiness
- and quality of life",color=blue];
-	55 [label="in order for people to
- cover their daily and general
- needs they need money as
- well",color=green];
-	74 [label="aspects such as : friendly colleagues
- , environment and work-place condition
- , sometimes , have even
- more impact on person's happiness
- and quality of life",color=blue];
-	74 [label="aspects such as : friendly colleagues
- , environment and work-place condition
- , sometimes , have even
- more impact on person's happiness
- and quality of life",color=blue];
-	244 [label="I disagree with the idea that
- salary outweighs any other motivators
+	33 [label="there are other
+ equally vital aspects that need
+ to be considered in this
+ regard",color=green];
+	74 [label="aspects such
+ as : friendly colleagues ,
+ environment and work-place condition ,
+ sometimes , have even more
+ impact on person's happiness and
+ quality of life",color=blue];
+	55 [label="in order for people to cover
+ their daily and general needs
+ they need money as well
 ",color=green];
-	100 [label="People , for instance ,
- who don't like their co-workers
- and working condition are considered
- less satisfied with their jobs
- , despite of a high
- salary",color=blue];
-	244 [label="I disagree with the idea that
- salary outweighs any other motivators
-",color=green];
-	151 [label="most of the satisfaction
- of a job comes to
- people from their professional achievements
- , skills and the position
- they reach",color=blue];
-	177 [label="career promotion or
- getting some kind of credit
- from the administration of a
- company or organization are ,
- likely , more enjoyable achievements
- than getting a high salary
-",color=green];
-	177 [label="career promotion or
- getting some kind of credit
- from the administration of a
- company or organization are ,
- likely , more enjoyable achievements
- than getting a high salary
-",color=green];
-	209 [label="people , who work in monotonous
- jobs , where no achievements
- or a new positions can
- be reached feel themselves more
- dissatisfied , even though they
- have a very good salaries
+	74 [label="aspects such
+ as : friendly colleagues ,
+ environment and work-place condition ,
+ sometimes , have even more
+ impact on person's happiness and
+ quality of life",color=blue];
+	74 [label="aspects such
+ as : friendly colleagues ,
+ environment and work-place condition ,
+ sometimes , have even more
+ impact on person's happiness and
+ quality of life",color=blue];
+	244 [label="I disagree
+ with the idea that salary
+ outweighs any other motivators",color=green];
+	100 [label="People , for instance , who
+ don't like their co-workers and
+ working condition are considered less
+ satisfied with their jobs ,
+ despite of a high salary
 ",color=blue];
-	209 [label="people , who work in monotonous
- jobs , where no achievements
- or a new positions can
- be reached feel themselves more
- dissatisfied , even though they
- have a very good salaries
-",color=blue];
-	244 [label="I disagree with the idea that
- salary outweighs any other motivators
-",color=green];
+	244 [label="I disagree
+ with the idea that salary
+ outweighs any other motivators",color=green];
+	151 [label="most of the satisfaction of
+ a job comes to people
+ from their professional achievements ,
+ skills and the position they
+ reach",color=blue];
+	177 [label="career promotion or getting
+ some kind of credit from
+ the administration of a company
+ or organization are , likely
+ , more enjoyable achievements than
+ getting a high salary",color=green];
+	177 [label="career promotion or getting
+ some kind of credit from
+ the administration of a company
+ or organization are , likely
+ , more enjoyable achievements than
+ getting a high salary",color=green];
+	209 [label="people ,
+ who work in monotonous jobs
+ , where no achievements or
+ a new positions can be
+ reached feel themselves more dissatisfied
+ , even though they have
+ a very good salaries",color=blue];
+	209 [label="people ,
+ who work in monotonous jobs
+ , where no achievements or
+ a new positions can be
+ reached feel themselves more dissatisfied
+ , even though they have
+ a very good salaries",color=blue];
+	244 [label="I disagree
+ with the idea that salary
+ outweighs any other motivators",color=green];
 }

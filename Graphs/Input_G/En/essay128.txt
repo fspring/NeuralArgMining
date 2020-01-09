@@ -8,78 +8,79 @@ digraph G {
 	163 -> 183;
 	207 -> 254;
 	220 -> 254;
-	25 [label="high school should permit students
- to choose courses they want
- for several reasons which are
- freedom of choice , to
- have progress in students grades
- and knowledge as well as
- to help students explore their
- aptitude",color=green];
-	83 [label="Not allowing
- students their desired subjects to
- be chosen is a restriction
- of human rights",color=blue];
-	70 [label="students should have a right
- to choose what they want
- to study",color=green];
-	83 [label="Not allowing
- students their desired subjects to
- be chosen is a restriction
- of human rights",color=blue];
-	83 [label="Not allowing
- students their desired subjects to
- be chosen is a restriction
- of human rights",color=blue];
-	270 [label="I want my children to
- get knowledge they have desire
- to study in order to
- have distinguished achievement",color=green];
-	99 [label="As children of independent country we
- should know our rights and
- opportunities we have in order
- to achieve our goals and
- dreams",color=blue];
-	270 [label="I want my children to
- get knowledge they have desire
- to study in order to
- have distinguished achievement",color=green];
-	124 [label="students should choose their classes to
- have progress in their studies
- and grades",color=blue];
-	183 [label="Giving chance
- students to choose their interested
- fields of study is merit
+	25 [label="high school should permit students to
+ choose courses they want for
+ several reasons which are freedom
+ of choice , to have
+ progress in students grades and
+ knowledge as well as to
+ help students explore their aptitude
 ",color=green];
-	140 [label="we can avoid conflicts among
- students and teachers which can
- be enjoyable and productive for
- both instructor and students",color=blue];
-	183 [label="Giving chance
- students to choose their interested
- fields of study is merit
-",color=green];
-	163 [label="when I
- was taking art class everyone
- shared the same interests and
- it was easy to understand
- each other",color=blue];
-	183 [label="Giving chance
- students to choose their interested
- fields of study is merit
-",color=green];
-	207 [label="he or she
- can explore in an area
- she/he has an aptitude",color=blue];
-	254 [label="this type of opportunities can raise
- future geniuses",color=green];
-	220 [label="When schools can give such
- kind of opportunity the students
- are likely do their best
- and succeed in their future
- lives which is one of
- the point most people get
- education",color=blue];
-	254 [label="this type of opportunities can raise
- future geniuses",color=green];
+	83 [label="Not allowing students
+ their desired subjects to be
+ chosen is a restriction of
+ human rights",color=blue];
+	70 [label="students should have a right to
+ choose what they want to
+ study",color=green];
+	83 [label="Not allowing students
+ their desired subjects to be
+ chosen is a restriction of
+ human rights",color=blue];
+	83 [label="Not allowing students
+ their desired subjects to be
+ chosen is a restriction of
+ human rights",color=blue];
+	270 [label="I want my children to get
+ knowledge they have desire to
+ study in order to have
+ distinguished achievement",color=green];
+	99 [label="As children
+ of independent country we should
+ know our rights and opportunities
+ we have in order to
+ achieve our goals and dreams
+",color=blue];
+	270 [label="I want my children to get
+ knowledge they have desire to
+ study in order to have
+ distinguished achievement",color=green];
+	124 [label="students should
+ choose their classes to have
+ progress in their studies and
+ grades",color=blue];
+	183 [label="Giving chance students
+ to choose their interested fields
+ of study is merit",color=green];
+	140 [label="we can avoid conflicts among students
+ and teachers which can be
+ enjoyable and productive for both
+ instructor and students",color=blue];
+	183 [label="Giving chance students
+ to choose their interested fields
+ of study is merit",color=green];
+	163 [label="when I was
+ taking art class everyone shared
+ the same interests and it
+ was easy to understand each
+ other",color=blue];
+	183 [label="Giving chance students
+ to choose their interested fields
+ of study is merit",color=green];
+	207 [label="he or she can
+ explore in an area she/he
+ has an aptitude",color=blue];
+	254 [label="this type
+ of opportunities can raise future
+ geniuses",color=green];
+	220 [label="When schools can give such kind
+ of opportunity the students are
+ likely do their best and
+ succeed in their future lives
+ which is one of the
+ point most people get education
+",color=blue];
+	254 [label="this type
+ of opportunities can raise future
+ geniuses",color=green];
 }

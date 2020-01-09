@@ -18,140 +18,138 @@ digraph G {
 	306 -> 376;
 	333 -> 376;
 	364 -> 376;
-	58 [label="children should
- learn music and art in
- a young age",color=green];
-	96 [label="Children absorb things quickly
- and they bear exact the
- ability needed in music and
- art-imagination",color=blue];
-	79 [label="it's very suitable for children to
- develop senses of music and
- art when they are young
-",color=green];
-	96 [label="Children absorb things quickly
- and they bear exact the
- ability needed in music and
- art-imagination",color=blue];
-	96 [label="Children absorb things quickly
- and they bear exact the
- ability needed in music and
- art-imagination",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	112 [label="Music and art
- are not like math or
- language which has more strict
- rules",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	127 [label="They are more
- abstract , requiring creativity and
- imagination to be enriched",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	140 [label="Children are privileged to have
- these abilities",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	148 [label="they are
- given more freedom and their
- imagination has not yet been
- killed due to reality circumstances
+	58 [label="children should learn
+ music and art in a
+ young age",color=green];
+	96 [label="Children absorb things quickly and
+ they bear exact the ability
+ needed in music and art-imagination
 ",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	166 [label="Even if their performances
- are just some simple drawings
- and melodies , music and
- art still bring out children's
- joy of flying in imagination
+	79 [label="it's very
+ suitable for children to develop
+ senses of music and art
+ when they are young",color=green];
+	96 [label="Children absorb things quickly and
+ they bear exact the ability
+ needed in music and art-imagination
 ",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	193 [label="music and
- art are life-long cultivation worthy
- of investing",color=blue];
-	228 [label="even if
- children are not going to
- be great musicians or artists
- , learning music and art
- is still worthy",color=green];
-	203 [label="They teach
- us how to appreciate beauty
- and express feelings in a
- creative way",color=blue];
-	228 [label="even if
- children are not going to
- be great musicians or artists
- , learning music and art
- is still worthy",color=green];
-	218 [label="They are
- essential to our spiritual life
+	96 [label="Children absorb things quickly and
+ they bear exact the ability
+ needed in music and art-imagination
 ",color=blue];
-	228 [label="even if
- children are not going to
- be great musicians or artists
- , learning music and art
- is still worthy",color=green];
-	228 [label="even if
- children are not going to
- be great musicians or artists
- , learning music and art
- is still worthy",color=green];
-	249 [label="it can nourish your temper and
- serve as a leisure",color=blue];
-	249 [label="it can nourish your temper and
- serve as a leisure",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	267 [label="parents shouldn't put
- so much stress on children
-",color=green];
-	277 [label="learning too many
- skills seems to be a
- burden for them",color=blue];
-	277 [label="learning too many
- skills seems to be a
- burden for them",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	293 [label="it depends
- on how you value these
- learning activities to be like
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	112 [label="Music and art are
+ not like math or language
+ which has more strict rules
 ",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	306 [label="If parents push their
- 5 years old child to
- play piano 8 hours a
- day just like a professional
- performer , that might be
- too much",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	333 [label="In a
- child stage , music and
- art are more like an
- open door to introduce the
- art world than training area
- to acquire specific skills",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
-	364 [label="it will not be such pressure
- on children",color=blue];
-	376 [label="young age is the
- perfect time for children to
- learn music and art",color=green];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	127 [label="They are more abstract
+ , requiring creativity and imagination
+ to be enriched",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	140 [label="Children are privileged to have these
+ abilities",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	148 [label="they are given
+ more freedom and their imagination
+ has not yet been killed
+ due to reality circumstances",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	166 [label="Even if their performances are
+ just some simple drawings and
+ melodies , music and art
+ still bring out children's joy
+ of flying in imagination",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	193 [label="music and art
+ are life-long cultivation worthy of
+ investing",color=blue];
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	203 [label="They teach us
+ how to appreciate beauty and
+ express feelings in a creative
+ way",color=blue];
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	218 [label="They are essential
+ to our spiritual life",color=blue];
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	228 [label="even if children
+ are not going to be
+ great musicians or artists ,
+ learning music and art is
+ still worthy",color=green];
+	249 [label="it can
+ nourish your temper and serve
+ as a leisure",color=blue];
+	249 [label="it can
+ nourish your temper and serve
+ as a leisure",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	267 [label="parents shouldn't put so
+ much stress on children",color=green];
+	277 [label="learning too many skills
+ seems to be a burden
+ for them",color=blue];
+	277 [label="learning too many skills
+ seems to be a burden
+ for them",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	293 [label="it depends on
+ how you value these learning
+ activities to be like",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	306 [label="If parents push their 5
+ years old child to play
+ piano 8 hours a day
+ just like a professional performer
+ , that might be too
+ much",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	333 [label="In a child
+ stage , music and art
+ are more like an open
+ door to introduce the art
+ world than training area to
+ acquire specific skills",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
+	364 [label="it will
+ not be such pressure on
+ children",color=blue];
+	376 [label="young age is the perfect
+ time for children to learn
+ music and art",color=green];
 }

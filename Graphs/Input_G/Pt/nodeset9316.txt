@@ -6,6 +6,5 @@ digraph G {
  ,",color=blue];
 	97 [label="o que promete adicionar
  este ano outro milhão ao
- milhão do ano passado .
-",color=green];
+ milhão do ano passado",color=green];
 }

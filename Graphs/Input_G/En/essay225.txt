@@ -12,110 +12,115 @@ digraph G {
 	264 -> 320;
 	294 -> 320;
 	307 -> 320;
-	6 [label="childhood is the happiest
- period of one's life",color=green];
-	56 [label="Starting with our adulthood
- , we are strictly bounded
- with our responsibilities in our
- daily lives",color=blue];
-	56 [label="Starting with our adulthood
- , we are strictly bounded
- with our responsibilities in our
- daily lives",color=blue];
-	109 [label="during our childhood , though responsibilies
- exist , we are much
- more free to do what
- we would like to",color=green];
-	73 [label="We are
- told at what hour we
- shall wake up , how
- we shall dress up and
- how we shall behave",color=blue];
-	109 [label="during our childhood , though responsibilies
- exist , we are much
- more free to do what
- we would like to",color=green];
-	95 [label="Every action we make are
- watched closely and judged by
- the community",color=blue];
-	109 [label="during our childhood , though responsibilies
- exist , we are much
- more free to do what
- we would like to",color=green];
-	109 [label="during our childhood , though responsibilies
- exist , we are much
- more free to do what
- we would like to",color=green];
-	130 [label="Being late for school or
- laughing at a place where
- you aren't supposed to do
- not have consequences as serious
- as that would be if
- you were an adult",color=blue];
-	130 [label="Being late for school or
- laughing at a place where
- you aren't supposed to do
- not have consequences as serious
- as that would be if
- you were an adult",color=blue];
-	320 [label="Childhood , in several aspects
- , is the happiest period
- of our lives",color=green];
-	160 [label="Another great thing about being
- a child is possibility learning
- new and interesting things about
- the world you live in
- every single day",color=blue];
-	232 [label="childhood is the
- period of time in which
- a person is surprised most
-",color=green];
-	184 [label="Being a child means that you
- are new in this world
- and every single thing around
- you is there to be
- discovered by you",color=blue];
-	232 [label="childhood is the
- period of time in which
- a person is surprised most
-",color=green];
-	209 [label="There are lots of new facts
- you can learn , stories
- you can listen to and
- things you can see",color=blue];
-	232 [label="childhood is the
- period of time in which
- a person is surprised most
-",color=green];
-	246 [label="Using your imagination and
- saying what you think freely
- is another great thing about
- being a child",color=green];
-	264 [label="Children are not judged about the
- things they say as much
- as the adults , and
- freedom to express yourself is
- a very important for developing
- a colorful imagination",color=blue];
-	264 [label="Children are not judged about the
- things they say as much
- as the adults , and
- freedom to express yourself is
- a very important for developing
- a colorful imagination",color=blue];
-	320 [label="Childhood , in several aspects
- , is the happiest period
- of our lives",color=green];
-	294 [label="In adulthood , people are forced
- to express themselves in boundaries
-",color=blue];
-	320 [label="Childhood , in several aspects
- , is the happiest period
- of our lives",color=green];
-	307 [label="they are in
- no way free to think
- or use their imagination",color=blue];
-	320 [label="Childhood , in several aspects
- , is the happiest period
- of our lives",color=green];
+	6 [label="childhood is the happiest period
+ of one's life",color=green];
+	56 [label="Starting with our adulthood ,
+ we are strictly bounded with
+ our responsibilities in our daily
+ lives",color=blue];
+	56 [label="Starting with our adulthood ,
+ we are strictly bounded with
+ our responsibilities in our daily
+ lives",color=blue];
+	109 [label="during our
+ childhood , though responsibilies exist
+ , we are much more
+ free to do what we
+ would like to",color=green];
+	73 [label="We are told
+ at what hour we shall
+ wake up , how we
+ shall dress up and how
+ we shall behave",color=blue];
+	109 [label="during our
+ childhood , though responsibilies exist
+ , we are much more
+ free to do what we
+ would like to",color=green];
+	95 [label="Every action we make are watched
+ closely and judged by the
+ community",color=blue];
+	109 [label="during our
+ childhood , though responsibilies exist
+ , we are much more
+ free to do what we
+ would like to",color=green];
+	109 [label="during our
+ childhood , though responsibilies exist
+ , we are much more
+ free to do what we
+ would like to",color=green];
+	130 [label="Being late for school or laughing
+ at a place where you
+ aren't supposed to do not
+ have consequences as serious as
+ that would be if you
+ were an adult",color=blue];
+	130 [label="Being late for school or laughing
+ at a place where you
+ aren't supposed to do not
+ have consequences as serious as
+ that would be if you
+ were an adult",color=blue];
+	320 [label="Childhood , in several aspects ,
+ is the happiest period of
+ our lives",color=green];
+	160 [label="Another great thing about being a
+ child is possibility learning new
+ and interesting things about the
+ world you live in every
+ single day",color=blue];
+	232 [label="childhood is the period
+ of time in which a
+ person is surprised most",color=green];
+	184 [label="Being a
+ child means that you are
+ new in this world and
+ every single thing around you
+ is there to be discovered
+ by you",color=blue];
+	232 [label="childhood is the period
+ of time in which a
+ person is surprised most",color=green];
+	209 [label="There are
+ lots of new facts you
+ can learn , stories you
+ can listen to and things
+ you can see",color=blue];
+	232 [label="childhood is the period
+ of time in which a
+ person is surprised most",color=green];
+	246 [label="Using your imagination and saying
+ what you think freely is
+ another great thing about being
+ a child",color=green];
+	264 [label="Children are
+ not judged about the things
+ they say as much as
+ the adults , and freedom
+ to express yourself is a
+ very important for developing a
+ colorful imagination",color=blue];
+	264 [label="Children are
+ not judged about the things
+ they say as much as
+ the adults , and freedom
+ to express yourself is a
+ very important for developing a
+ colorful imagination",color=blue];
+	320 [label="Childhood , in several aspects ,
+ is the happiest period of
+ our lives",color=green];
+	294 [label="In adulthood
+ , people are forced to
+ express themselves in boundaries",color=blue];
+	320 [label="Childhood , in several aspects ,
+ is the happiest period of
+ our lives",color=green];
+	307 [label="they are in no
+ way free to think or
+ use their imagination",color=blue];
+	320 [label="Childhood , in several aspects ,
+ is the happiest period of
+ our lives",color=green];
 }

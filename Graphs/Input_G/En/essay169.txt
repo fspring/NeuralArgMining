@@ -21,153 +21,149 @@ digraph G {
 	364 -> 377;
 	386 -> 412;
 	400 -> 412;
-	14 [label="research could bring funding and latest
- achievements in the field",color=blue];
-	25 [label="the research takes up too
- much teaching time",color=green];
-	41 [label="professors should spend more
- time on preparing courses than
+	14 [label="research could
+ bring funding and latest achievements
+ in the field",color=blue];
+	25 [label="the research takes up too much
+ teaching time",color=green];
+	41 [label="professors should spend more time
+ on preparing courses than research
+",color=green];
+	60 [label="professors should assist students to acquire
+ knowledge",color=blue];
+	60 [label="professors should assist students to acquire
+ knowledge",color=blue];
+	148 [label="professors should pay
+ more attention on how to
+ teach students rather than conduct
  research",color=green];
-	60 [label="professors should assist students to
- acquire knowledge",color=blue];
-	60 [label="professors should assist students to
- acquire knowledge",color=blue];
-	148 [label="professors should
- pay more attention on how
- to teach students rather than
- conduct research",color=green];
-	68 [label="The professorsâ€™
- duty is to nurture students
- , and prepare excellent courses
+	68 [label="The professors’ duty
+ is to nurture students ,
+ and prepare excellent courses",color=blue];
+	148 [label="professors should pay
+ more attention on how to
+ teach students rather than conduct
+ research",color=green];
+	81 [label="If professors spend a lot
+ of time on research ,
+ he will cut the time
+ on preparing courses is reduced
+ , which may decrease the
+ quality of classes",color=blue];
+	148 [label="professors should pay
+ more attention on how to
+ teach students rather than conduct
+ research",color=green];
+	110 [label="The reason why people enter a
+ university is that they want
+ to learn cutting-edged technologies",color=blue];
+	148 [label="professors should pay
+ more attention on how to
+ teach students rather than conduct
+ research",color=green];
+	130 [label="professors should provide well-preparation courses to
+ convey the state-of-art knowledge for
+ college and university students",color=blue];
+	148 [label="professors should pay
+ more attention on how to
+ teach students rather than conduct
+ research",color=green];
+	168 [label="if professors are
+ busy in doing research ,
+ ignoring preparing appropriate courses for
+ students , it would ruin
+ the reputation of universities",color=blue];
+	244 [label="spending more
+ time to nurture excellent students
+ is more consequential to professors
+ , rather than research",color=green];
+	191 [label="Students are unsatisfied with the
+ unprepared course , and the
+ enrollment of universities may decline
 ",color=blue];
-	148 [label="professors should
- pay more attention on how
- to teach students rather than
- conduct research",color=green];
-	81 [label="If professors spend a
- lot of time on research
- , he will cut the
- time on preparing courses is
- reduced , which may decrease
- the quality of classes",color=blue];
-	148 [label="professors should
- pay more attention on how
- to teach students rather than
- conduct research",color=green];
-	110 [label="The reason why people enter
- a university is that they
- want to learn cutting-edged technologies
+	244 [label="spending more
+ time to nurture excellent students
+ is more consequential to professors
+ , rather than research",color=green];
+	207 [label="Many students would not
+ choose these kinds of universities
+ to study",color=blue];
+	244 [label="spending more
+ time to nurture excellent students
+ is more consequential to professors
+ , rather than research",color=green];
+	223 [label="hardly can professors
+ find assistants to help with
+ projects",color=blue];
+	244 [label="spending more
+ time to nurture excellent students
+ is more consequential to professors
+ , rather than research",color=green];
+	233 [label="It is adverse
+ to the whole academic field
 ",color=blue];
-	148 [label="professors should
- pay more attention on how
- to teach students rather than
- conduct research",color=green];
-	130 [label="professors should provide well-preparation courses
- to convey the state-of-art knowledge
- for college and university students
-",color=blue];
-	148 [label="professors should
- pay more attention on how
- to teach students rather than
- conduct research",color=green];
-	168 [label="if professors
- are busy in doing research
- , ignoring preparing appropriate courses
- for students , it would
- ruin the reputation of universities
-",color=blue];
-	244 [label="spending more time to nurture excellent
- students is more consequential to
- professors , rather than research
+	244 [label="spending more
+ time to nurture excellent students
+ is more consequential to professors
+ , rather than research",color=green];
+	263 [label="professors could teach
+ students through research and projects
 ",color=green];
-	191 [label="Students are unsatisfied with
- the unprepared course , and
- the enrollment of universities may
- decline",color=blue];
-	244 [label="spending more time to nurture excellent
- students is more consequential to
- professors , rather than research
-",color=green];
-	207 [label="Many students would
- not choose these kinds of
- universities to study",color=blue];
-	244 [label="spending more time to nurture excellent
- students is more consequential to
- professors , rather than research
-",color=green];
-	223 [label="hardly can
- professors find assistants to help
- with projects",color=blue];
-	244 [label="spending more time to nurture excellent
- students is more consequential to
- professors , rather than research
-",color=green];
-	233 [label="It is
- adverse to the whole academic
- field",color=blue];
-	244 [label="spending more time to nurture excellent
- students is more consequential to
- professors , rather than research
-",color=green];
-	263 [label="professors could
- teach students through research and
- projects",color=green];
-	272 [label="Some students enjoy
- taking part in some research
+	272 [label="Some students enjoy taking
+ part in some research",color=blue];
+	272 [label="Some students enjoy taking
+ part in some research",color=blue];
+	425 [label="Professors could combine doing research and
+ preparing good courses in a
+ dynamic way",color=green];
+	281 [label="Through to use the equipment
+ and invent their own work
+ , they may get more
+ experience in the process of
+ research",color=blue];
+	425 [label="Professors could combine doing research and
+ preparing good courses in a
+ dynamic way",color=green];
+	306 [label="electronic students always invent new
+ machines such as robots ,
+ MP3 and remote control car
 ",color=blue];
-	272 [label="Some students enjoy
- taking part in some research
+	425 [label="Professors could combine doing research and
+ preparing good courses in a
+ dynamic way",color=green];
+	322 [label="They can manage the
+ electric theory in practical skills
 ",color=blue];
-	425 [label="Professors could combine doing research
- and preparing good courses in
- a dynamic way",color=green];
-	281 [label="Through to use the
- equipment and invent their own
- work , they may get
- more experience in the process
- of research",color=blue];
-	425 [label="Professors could combine doing research
- and preparing good courses in
- a dynamic way",color=green];
-	306 [label="electronic students always invent
- new machines such as robots
- , MP3 and remote control
- car",color=blue];
-	425 [label="Professors could combine doing research
- and preparing good courses in
- a dynamic way",color=green];
-	322 [label="They can manage
- the electric theory in practical
- skills",color=blue];
-	425 [label="Professors could combine doing research
- and preparing good courses in
- a dynamic way",color=green];
-	332 [label="And some students
- will be rewarded by investing
- new inventions",color=blue];
-	425 [label="Professors could combine doing research
- and preparing good courses in
- a dynamic way",color=green];
-	345 [label="only under specific circumstance ,
- when students master all of
- the systematic knowledge , can
- they accomplish research",color=blue];
-	377 [label="professor should concern
- about preparing class",color=green];
-	364 [label="This is requires professors provide high
- quality courses",color=blue];
-	377 [label="professor should concern
- about preparing class",color=green];
-	386 [label="conducting research is helpful
- for professors and students to
- some extent",color=blue];
-	412 [label="Only by developing
- students , can we have
- a better academic field",color=green];
-	400 [label="the precondition of doing research
- is growing studentsâ€™ solid theory
- fundamental",color=blue];
-	412 [label="Only by developing
- students , can we have
- a better academic field",color=green];
+	425 [label="Professors could combine doing research and
+ preparing good courses in a
+ dynamic way",color=green];
+	332 [label="And some students will
+ be rewarded by investing new
+ inventions",color=blue];
+	425 [label="Professors could combine doing research and
+ preparing good courses in a
+ dynamic way",color=green];
+	345 [label="only under specific circumstance , when
+ students master all of the
+ systematic knowledge , can they
+ accomplish research",color=blue];
+	377 [label="professor should concern about
+ preparing class",color=green];
+	364 [label="This is
+ requires professors provide high quality
+ courses",color=blue];
+	377 [label="professor should concern about
+ preparing class",color=green];
+	386 [label="conducting research is helpful for
+ professors and students to some
+ extent",color=blue];
+	412 [label="Only by developing students
+ , can we have a
+ better academic field",color=green];
+	400 [label="the precondition of doing research is
+ growing students’ solid theory fundamental
+",color=blue];
+	412 [label="Only by developing students
+ , can we have a
+ better academic field",color=green];
 }

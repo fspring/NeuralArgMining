@@ -11,7 +11,7 @@ era (I)    0.000
 da (I)    0.000
 biologia (I)    0.000
 . (O)    0.000
-durante (P)  727.000
+durante (P)    0.000
 a (I)    0.000
 última (I)    0.000
 década (I)    0.000
@@ -42,7 +42,7 @@ meios (I)    0.000
 de (I)    0.000
 comunicação (I)    0.000
 . (O)    0.000
-a (P)  696.000
+a (P)    0.000
 biologia (I)    0.000
 , (I)    0.000
 passou (I)    0.000

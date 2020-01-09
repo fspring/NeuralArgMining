@@ -6,81 +6,78 @@ digraph G {
 	161 -> 235;
 	176 -> 235;
 	210 -> 235;
-	43 [label="people use
- their money to become an
- inspiration are definitely not a
- good mirror for young people
-",color=green];
-	61 [label="We definitely do not
- want our children to spend
- money on luxurious custom or
- lifestyle just to be similar
- to someone , especially when
- these people are not symbols
- of any talent but showing
- off",color=blue];
-	61 [label="We definitely do not
- want our children to spend
- money on luxurious custom or
- lifestyle just to be similar
- to someone , especially when
- these people are not symbols
- of any talent but showing
- off",color=blue];
-	300 [label="celebrities nowadays give more good
- influence on young people than
- they were previously",color=green];
-	99 [label="the young generation these days is
- very conscious toward positive lifestyles
+	43 [label="people use their
+ money to become an inspiration
+ are definitely not a good
+ mirror for young people",color=green];
+	61 [label="We definitely do not want
+ our children to spend money
+ on luxurious custom or lifestyle
+ just to be similar to
+ someone , especially when these
+ people are not symbols of
+ any talent but showing off
 ",color=blue];
-	135 [label="it is not easy to
- influence young people these days
- when they are well equipped
- of life skills",color=green];
-	111 [label="They are mostly being
- educated at very early ages
- by family or schools as
- to distinguish what is benefit
- for them",color=blue];
-	135 [label="it is not easy to
- influence young people these days
- when they are well equipped
- of life skills",color=green];
-	161 [label="not many people can
- exist in the celebrities' world
- without any talents or achievements
+	61 [label="We definitely do not want
+ our children to spend money
+ on luxurious custom or lifestyle
+ just to be similar to
+ someone , especially when these
+ people are not symbols of
+ any talent but showing off
 ",color=blue];
-	235 [label="only money and glamour look
- are not enough for a
- person to be recognized anymore
- , it is importance that
- they have to have achievements
- in order to be a
- muse to youngsters",color=green];
-	176 [label="We are giving chances
- to many teenagers to show
- their intelligence in different talent
- shows , for example ;
- The Voice , X Factor
- or Next Top Models etc
-",color=blue];
-	235 [label="only money and glamour look
- are not enough for a
- person to be recognized anymore
- , it is importance that
- they have to have achievements
- in order to be a
- muse to youngsters",color=green];
-	210 [label="to become a star and
- an inspiration for people ,
- a person need to have
- real talent to compete with
- other candidates",color=blue];
-	235 [label="only money and glamour look
- are not enough for a
- person to be recognized anymore
- , it is importance that
- they have to have achievements
- in order to be a
- muse to youngsters",color=green];
+	300 [label="celebrities nowadays give more good influence
+ on young people than they
+ were previously",color=green];
+	99 [label="the young
+ generation these days is very
+ conscious toward positive lifestyles",color=blue];
+	135 [label="it is not easy to influence
+ young people these days when
+ they are well equipped of
+ life skills",color=green];
+	111 [label="They are mostly being educated
+ at very early ages by
+ family or schools as to
+ distinguish what is benefit for
+ them",color=blue];
+	135 [label="it is not easy to influence
+ young people these days when
+ they are well equipped of
+ life skills",color=green];
+	161 [label="not many people can exist
+ in the celebrities' world without
+ any talents or achievements",color=blue];
+	235 [label="only money and glamour look are
+ not enough for a person
+ to be recognized anymore ,
+ it is importance that they
+ have to have achievements in
+ order to be a muse
+ to youngsters",color=green];
+	176 [label="We are giving chances to
+ many teenagers to show their
+ intelligence in different talent shows
+ , for example ; The
+ Voice , X Factor or
+ Next Top Models etc",color=blue];
+	235 [label="only money and glamour look are
+ not enough for a person
+ to be recognized anymore ,
+ it is importance that they
+ have to have achievements in
+ order to be a muse
+ to youngsters",color=green];
+	210 [label="to become a star and an
+ inspiration for people , a
+ person need to have real
+ talent to compete with other
+ candidates",color=blue];
+	235 [label="only money and glamour look are
+ not enough for a person
+ to be recognized anymore ,
+ it is importance that they
+ have to have achievements in
+ order to be a muse
+ to youngsters",color=green];
 }

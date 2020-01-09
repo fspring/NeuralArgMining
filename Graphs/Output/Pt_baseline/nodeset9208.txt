@@ -169,7 +169,7 @@ apresentado (I)    0.000
 desde (O)    0.000
 logo (O)    0.000
 porque (O)    0.000
-teve (P)  569.000
+teve (P)    0.000
 a (I)    0.000
 coragem (I)    0.000
 de (I)    0.000

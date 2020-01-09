@@ -19,109 +19,125 @@ digraph G {
 	294 -> 344;
 	303 -> 344;
 	312 -> 344;
-	66 [label="pets should be treated
- like human beings",color=green];
-	91 [label="Similarly to friends ,
- indeed , they are always
- with us and they are
- there if we feel alone
+	66 [label="pets should be treated like
+ human beings",color=green];
+	91 [label="Similarly to friends , indeed
+ , they are always with
+ us and they are there
+ if we feel alone",color=blue];
+	79 [label="pets are
+ our friends as well as
+ certain human beings are",color=green];
+	91 [label="Similarly to friends , indeed
+ , they are always with
+ us and they are there
+ if we feel alone",color=blue];
+	91 [label="Similarly to friends , indeed
+ , they are always with
+ us and they are there
+ if we feel alone",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	111 [label="We can talk to them
 ",color=blue];
-	79 [label="pets are our friends as well
- as certain human beings are
-",color=green];
-	91 [label="Similarly to friends ,
- indeed , they are always
- with us and they are
- there if we feel alone
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	117 [label="they listen to us
+ , more than some people
+ will ever do",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	143 [label="When I was
+ 14 years old , my
+ uncle passed away and I
+ felt like everything was no
+ longer important",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	164 [label="Talking to
+ my friends was frustrating",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	171 [label="none of them have ever
+ felt that way",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	181 [label="I was all alone at
+ home for a long time
 ",color=blue];
-	91 [label="Similarly to friends ,
- indeed , they are always
- with us and they are
- there if we feel alone
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	192 [label="my dog was near
+ me and it seemed to
+ me that only him could
+ understand my deeply feelings",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	214 [label="pets aren't
+ able to speak with us
 ",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	111 [label="We can talk to
- them",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	117 [label="they listen to
- us , more than some
- people will ever do",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	143 [label="When I
- was 14 years old ,
- my uncle passed away and
- I felt like everything was
- no longer important",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	164 [label="Talking to my friends was frustrating
-",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	171 [label="none of them have
- ever felt that way",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	181 [label="I was all alone
- at home for a long
- time",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	192 [label="my dog was
- near me and it seemed
- to me that only him
- could understand my deeply feelings
-",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	214 [label="pets aren't able to speak with
- us",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	222 [label="we can nonetheless
- count on them",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	231 [label="pets are useful for
- a variety of things",color=green];
-	243 [label="nowadays the
- pet therapy is becoming more
- popular than before",color=blue];
-	243 [label="nowadays the
- pet therapy is becoming more
- popular than before",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	254 [label="Researchers have discovered that pets can
- bring benefits in a huge
- amount of illnesses",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	269 [label="There are dogs who lead blind
- people around the city",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	281 [label="without them they could
- not go around all alone
-",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	294 [label="pets are important for depressed people
- as well",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	303 [label="their presence
- make them feel better",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
-	312 [label="there are dogs
- who are educated in order
- to find out criminals or
- to use their sense of
- smell to find drugs",color=blue];
-	344 [label="pets deserve to be treated like
- family members",color=green];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	222 [label="we can nonetheless count
+ on them",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	231 [label="pets are useful for a
+ variety of things",color=green];
+	243 [label="nowadays the pet
+ therapy is becoming more popular
+ than before",color=blue];
+	243 [label="nowadays the pet
+ therapy is becoming more popular
+ than before",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	254 [label="Researchers have
+ discovered that pets can bring
+ benefits in a huge amount
+ of illnesses",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	269 [label="There are
+ dogs who lead blind people
+ around the city",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	281 [label="without them they could not
+ go around all alone",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	294 [label="pets are
+ important for depressed people as
+ well",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	303 [label="their presence make
+ them feel better",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
+	312 [label="there are dogs who
+ are educated in order to
+ find out criminals or to
+ use their sense of smell
+ to find drugs",color=blue];
+	344 [label="pets deserve
+ to be treated like family
+ members",color=green];
 }

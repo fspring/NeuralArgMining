@@ -79,7 +79,7 @@ follows (O)    0.000
 . (O)    0.000
 firstly (O)    0.000
 , (O)    0.000
-the (P)   27.000
+the (C)    0.000
 students (I)    0.000
 are (I)    0.000
 not (I)    0.000
@@ -100,13 +100,13 @@ love (O)    0.000
 physics (O)    0.000
 . (O)    0.000
 but (O)    0.000
-i (O)    0.000
-don't (O)    0.000
-like (O)    0.000
-electronics (O)    0.000
+i (P)  126.000
+don't (I)    0.000
+like (I)    0.000
+electronics (I)    0.000
 , (O)    0.000
 because (O)    0.000
-electronics (C)    0.000
+electronics (P)  120.000
 cannot (I)    0.000
 always (I)    0.000
 be (I)    0.000
@@ -116,7 +116,7 @@ the (I)    0.000
 real (I)    0.000
 world (I)    0.000
 . (O)    0.000
-and (P)  235.000
+and (P)  110.000
 i (I)    0.000
 have (I)    0.000
 had (I)    0.000
@@ -130,7 +130,7 @@ study (I)    0.000
 the (I)    0.000
 electronics (I)    0.000
 . (O)    0.000
-but (P)  221.000
+but (P)   96.000
 i (I)    0.000
 constantly (I)    0.000
 achieve (I)    0.000
@@ -145,8 +145,8 @@ of (I)    0.000
 the (I)    0.000
 physics (I)    0.000
 . (O)    0.000
-and (P)  206.000
-if (P)  205.000
+and (P)   81.000
+if (I)    0.000
 i (I)    0.000
 cannot (I)    0.000
 attend (I)    0.000
@@ -181,7 +181,7 @@ and (I)    0.000
 over (I)    0.000
 again (I)    0.000
 . (O)    0.000
-luckily (P)  170.000
+luckily (P)   45.000
 , (I)    0.000
 in (I)    0.000
 our (I)    0.000
@@ -199,7 +199,7 @@ score (I)    0.000
 you (I)    0.000
 reach (I)    0.000
 . (O)    0.000
-and (P)  152.000
+and (P)   27.000
 i (I)    0.000
 can (I)    0.000
 study (I)    0.000
@@ -210,7 +210,7 @@ of (I)    0.000
 my (I)    0.000
 electronics (I)    0.000
 . (O)    0.000
-and (P)  141.000
+and (P)   16.000
 at (I)    0.000
 last (I)    0.000
 , (I)    0.000
@@ -226,7 +226,7 @@ exam (I)    0.000
 . (O)    0.000
 secondly (O)    0.000
 , (O)    0.000
-if (P)  125.000
+if (C)    0.000
 the (I)    0.000
 university (I)    0.000
 take (I)    0.000
@@ -380,7 +380,7 @@ or (I)    0.000
 not (I)    0.000
 . (O)    0.000
 but (O)    0.000
-the (C)    0.000
+the (P)   20.000
 benefit (I)    0.000
 of (I)    0.000
 free (I)    0.000

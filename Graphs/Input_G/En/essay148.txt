@@ -11,128 +11,124 @@ digraph G {
 	245 -> 318;
 	272 -> 318;
 	287 -> 318;
-	31 [label="a single modern culture
- is being created by modern
- technology",color=green];
-	61 [label="Teachers give topics to
- the students who should research
- on the internet to find
- data , and then students
- should type their research by
- using computer and even give
- a presentation by using PowerPoint
-",color=blue];
-	48 [label="most of
- the countries have the same
- educational system based on technology
+	31 [label="a single modern culture is
+ being created by modern technology
 ",color=green];
-	61 [label="Teachers give topics to
- the students who should research
- on the internet to find
- data , and then students
- should type their research by
- using computer and even give
- a presentation by using PowerPoint
-",color=blue];
-	61 [label="Teachers give topics to
- the students who should research
- on the internet to find
- data , and then students
- should type their research by
- using computer and even give
- a presentation by using PowerPoint
-",color=blue];
-	318 [label="new technology
- has affected cultures of the
- world , and we can
- see many similarities in many
- cultures",color=green];
-	99 [label="students who are studying in Iran
- use the same software ,
- Microsoft , to type their
- homework or have presentation compared
- to Canadian students",color=blue];
-	318 [label="new technology
- has affected cultures of the
- world , and we can
- see many similarities in many
- cultures",color=green];
-	126 [label="new technology has created
- some similar jobs all around
- the world",color=green];
-	138 [label="Computer technology
- is a growing job in
- most of the countries ,
- and students are being encouraged
- to study in this field
-",color=blue];
-	138 [label="Computer technology
- is a growing job in
- most of the countries ,
- and students are being encouraged
- to study in this field
-",color=blue];
-	318 [label="new technology
- has affected cultures of the
- world , and we can
- see many similarities in many
- cultures",color=green];
-	164 [label="many immigrants in Canada who have
- the degree in computer technology
- fields can easily go to
- Canadian universities and find jobs
- with good salaries",color=blue];
-	318 [label="new technology
- has affected cultures of the
- world , and we can
- see many similarities in many
- cultures",color=green];
-	193 [label="jobs that
- are related to technology are
- in demand in most of
- the countries",color=blue];
-	318 [label="new technology
- has affected cultures of the
- world , and we can
- see many similarities in many
- cultures",color=green];
-	213 [label="there are
- some cultures such as making
- foods which are unicq in
- each culture , and technology
- cannot affect them",color=green];
-	245 [label="many countries such as Canada
- , the USA , and
- British have many restaurants which
- serve many foods form different
- countries and cultures",color=blue];
-	245 [label="many countries such as Canada
- , the USA , and
- British have many restaurants which
- serve many foods form different
- countries and cultures",color=blue];
-	318 [label="new technology
- has affected cultures of the
- world , and we can
- see many similarities in many
- cultures",color=green];
-	272 [label="cooks can find
- many new food recipes easily
- on the Internet",color=blue];
-	318 [label="new technology
- has affected cultures of the
- world , and we can
- see many similarities in many
- cultures",color=green];
-	287 [label="two days ago
- , I went to a
- Canadian restaurant , and I
- ate noodle , sushi ,
- which are Chinese foods ,
- and Greek salad",color=blue];
-	318 [label="new technology
- has affected cultures of the
- world , and we can
- see many similarities in many
- cultures",color=green];
+	61 [label="Teachers give topics to the
+ students who should research on
+ the internet to find data
+ , and then students should
+ type their research by using
+ computer and even give a
+ presentation by using PowerPoint",color=blue];
+	48 [label="most of the
+ countries have the same educational
+ system based on technology",color=green];
+	61 [label="Teachers give topics to the
+ students who should research on
+ the internet to find data
+ , and then students should
+ type their research by using
+ computer and even give a
+ presentation by using PowerPoint",color=blue];
+	61 [label="Teachers give topics to the
+ students who should research on
+ the internet to find data
+ , and then students should
+ type their research by using
+ computer and even give a
+ presentation by using PowerPoint",color=blue];
+	318 [label="new technology has
+ affected cultures of the world
+ , and we can see
+ many similarities in many cultures
+",color=green];
+	99 [label="students who
+ are studying in Iran use
+ the same software , Microsoft
+ , to type their homework
+ or have presentation compared to
+ Canadian students",color=blue];
+	318 [label="new technology has
+ affected cultures of the world
+ , and we can see
+ many similarities in many cultures
+",color=green];
+	126 [label="new technology has created some
+ similar jobs all around the
+ world",color=green];
+	138 [label="Computer technology is
+ a growing job in most
+ of the countries , and
+ students are being encouraged to
+ study in this field",color=blue];
+	138 [label="Computer technology is
+ a growing job in most
+ of the countries , and
+ students are being encouraged to
+ study in this field",color=blue];
+	318 [label="new technology has
+ affected cultures of the world
+ , and we can see
+ many similarities in many cultures
+",color=green];
+	164 [label="many immigrants
+ in Canada who have the
+ degree in computer technology fields
+ can easily go to Canadian
+ universities and find jobs with
+ good salaries",color=blue];
+	318 [label="new technology has
+ affected cultures of the world
+ , and we can see
+ many similarities in many cultures
+",color=green];
+	193 [label="jobs that are
+ related to technology are in
+ demand in most of the
+ countries",color=blue];
+	318 [label="new technology has
+ affected cultures of the world
+ , and we can see
+ many similarities in many cultures
+",color=green];
+	213 [label="there are some
+ cultures such as making foods
+ which are unicq in each
+ culture , and technology cannot
+ affect them",color=green];
+	245 [label="many countries such as Canada ,
+ the USA , and British
+ have many restaurants which serve
+ many foods form different countries
+ and cultures",color=blue];
+	245 [label="many countries such as Canada ,
+ the USA , and British
+ have many restaurants which serve
+ many foods form different countries
+ and cultures",color=blue];
+	318 [label="new technology has
+ affected cultures of the world
+ , and we can see
+ many similarities in many cultures
+",color=green];
+	272 [label="cooks can find many
+ new food recipes easily on
+ the Internet",color=blue];
+	318 [label="new technology has
+ affected cultures of the world
+ , and we can see
+ many similarities in many cultures
+",color=green];
+	287 [label="two days ago ,
+ I went to a Canadian
+ restaurant , and I ate
+ noodle , sushi , which
+ are Chinese foods , and
+ Greek salad",color=blue];
+	318 [label="new technology has
+ affected cultures of the world
+ , and we can see
+ many similarities in many cultures
+",color=green];
 }

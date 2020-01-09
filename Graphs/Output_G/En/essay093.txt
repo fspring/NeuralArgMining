@@ -1,39 +1,25 @@
 digraph G {
-	87 -> 113;
-	122 -> 247;
+	87 -> 58;
 	133 -> 247;
-	152 -> 247;
 	170 -> 247;
 	193 -> 247;
-	218 -> 247;
+	58 [label="it is inhumane
+ to watch one's fellowman struggle
+ against famine and poverty without
+ doing anything to help ,
+ especially when the onlooker takes
+ no effort to do so
+",color=green];
 	87 [label="compassion , a virtue
  preached in almost all religions
  from buddhism to mohammedanism ,
  is what distinguishes us human
  beings from animals",color=blue];
-	113 [label="such aid could
- also create a win-win situation
-",color=green];
-	122 [label="underdeveloped nations no doubt
- receive direct benefits through such
- deeds",color=blue];
-	247 [label="wealthy nations' offering in
- need is not only a
- moral deed , but also
- a worthwhile one which will
- one day pay off in
- other ways",color=green];
 	133 [label="for developed nations
  , new medical problems may
  very well arise from the
- work in underdeveloped nations",color=blue];
-	247 [label="wealthy nations' offering in
- need is not only a
- moral deed , but also
- a worthwhile one which will
- one day pay off in
- other ways",color=green];
-	152 [label="related research is conducted
+ work in underdeveloped nations ;
+ thus related research is conducted
  accordingly to conquer the problem
  , promoting the development of
  the pharmaceutical industry",color=blue];
@@ -60,18 +46,6 @@ digraph G {
  broaden their global market ,
  but also facilitate future international
  commerce",color=blue];
-	247 [label="wealthy nations' offering in
- need is not only a
- moral deed , but also
- a worthwhile one which will
- one day pay off in
- other ways",color=green];
-	218 [label="the underdeveloped nations
- , in return , may
- export local agricultural products ,
- mineral products with discount to
- the former , boosting each
- other's economy",color=blue];
 	247 [label="wealthy nations' offering in
  need is not only a
  moral deed , but also

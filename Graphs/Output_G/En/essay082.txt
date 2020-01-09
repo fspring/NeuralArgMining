@@ -1,36 +1,42 @@
 digraph G {
-	124 -> 206;
-	137 -> 206;
-	154 -> 206;
-	259 -> 313;
-	280 -> 313;
-	124 [label="to consumers
- , advertising can bring them
- many benefits",color=blue];
-	206 [label="some",color=green];
+	137 -> 220;
+	178 -> 220;
+	187 -> 220;
 	137 [label="customers of telecommunication services
  will have an idea about
  the current offers of different
- companies and",color=blue];
-	206 [label="some",color=green];
-	154 [label="they can
+ companies and hence they can
  compare them and then have
  a better decision in choosing
  their internet or mobile phone
  plans",color=blue];
-	206 [label="some",color=green];
-	259 [label="advertising can
- be very expensive and not
- every advertising campaign can be
- done successfully and brings good
- results",color=blue];
-	313 [label="it is felt
- that more good comes from
- advertising than bad",color=green];
-	280 [label="advertising is believed by many ,
- a financial burden to businesses
+	220 [label="a huge amount of different advertisements
+ could be sent automatically by
+ a system to personal phones
+ or email addresses , this
+ is generally known as spam
+ , and causes discomfort or
+ even annoyance to many people
+",color=green];
+	178 [label="it is easy
 ",color=blue];
-	313 [label="it is felt
- that more good comes from
- advertising than bad",color=green];
+	220 [label="a huge amount of different advertisements
+ could be sent automatically by
+ a system to personal phones
+ or email addresses , this
+ is generally known as spam
+ , and causes discomfort or
+ even annoyance to many people
+",color=green];
+	187 [label="advertising is a positive
+ part of life will garner
+ strong support",color=blue];
+	220 [label="a huge amount of different advertisements
+ could be sent automatically by
+ a system to personal phones
+ or email addresses , this
+ is generally known as spam
+ , and causes discomfort or
+ even annoyance to many people
+",color=green];
 }

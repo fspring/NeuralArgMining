@@ -15,107 +15,109 @@ digraph G {
 	290 -> 341;
 	306 -> 341;
 	314 -> 341;
-	41 [label="human activities are having
- a bad effect upon our
- planet",color=green];
-	77 [label="In recent decades
- , concurrently with the increase
- of human consume , the
- waste discarded by human also
- multiplies",color=blue];
-	71 [label="People are corrupting their
- ecosphere",color=green];
-	77 [label="In recent decades
- , concurrently with the increase
- of human consume , the
- waste discarded by human also
- multiplies",color=blue];
-	77 [label="In recent decades
- , concurrently with the increase
- of human consume , the
- waste discarded by human also
- multiplies",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	97 [label="These wastes including
- household waste and industrial waste
- are so big that a
- "new" continent is now being
- formed in the sea from
- garbage",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	124 [label="the industrial exhaust gases are adulterating
- the air , causing the
- insalubrious phenomenon such as acid
- rain , global warming or
- climate change",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	150 [label="people are draining the Earth's
- natural resources",color=green];
-	172 [label="nowadays , the
- exploitation activities of these resources
- are increasing dramatically to adapt
- to the infinite need of
- people",color=blue];
-	158 [label="These resources
- such as oil , coal
- are vital for human activity
+	41 [label="human activities are having a
+ bad effect upon our planet
+",color=green];
+	77 [label="In recent decades ,
+ concurrently with the increase of
+ human consume , the waste
+ discarded by human also multiplies
 ",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	172 [label="nowadays , the
- exploitation activities of these resources
- are increasing dramatically to adapt
- to the infinite need of
- people",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	192 [label="Researchers indicated that
- most of natural resources are
- un-recyclable and only several decades
- after , the Earth's natural
- resources are totally exhausted",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	215 [label="At that time , human
- activity will be seriously affected
- due to the dependence on
- these resources",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	235 [label="people are endangering other species'
- live",color=green];
-	242 [label="Hunting has been
- a fundamental activity of human
- for having food",color=blue];
-	242 [label="Hunting has been
- a fundamental activity of human
- for having food",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	254 [label="Through million years of hunting ,
- especially in recent centuries with
- the innovation of rifle and
- dynamite , people have killed
- many animals and even have
- made some kinds of them
- become extinct",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	290 [label="people , suffering from the
- population pressure , are expanding
- their living area",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	306 [label="the living area of
- other species narrowed",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
-	314 [label="This narrowing of living region is
- pushing many creatures to the
- brink of extinction",color=blue];
-	341 [label="human activity are gradually
- destroy the Earth",color=green];
+	71 [label="People are corrupting their ecosphere
+",color=green];
+	77 [label="In recent decades ,
+ concurrently with the increase of
+ human consume , the waste
+ discarded by human also multiplies
+",color=blue];
+	77 [label="In recent decades ,
+ concurrently with the increase of
+ human consume , the waste
+ discarded by human also multiplies
+",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	97 [label="These wastes including household
+ waste and industrial waste are
+ so big that a new
+ continent is now being formed
+ in the sea from garbage
+",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	124 [label="the industrial
+ exhaust gases are adulterating the
+ air , causing the insalubrious
+ phenomenon such as acid rain
+ , global warming or climate
+ change",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	150 [label="people are draining the Earth's natural
+ resources",color=green];
+	172 [label="nowadays , the exploitation
+ activities of these resources are
+ increasing dramatically to adapt to
+ the infinite need of people
+",color=blue];
+	158 [label="These resources such
+ as oil , coal are
+ vital for human activity",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	172 [label="nowadays , the exploitation
+ activities of these resources are
+ increasing dramatically to adapt to
+ the infinite need of people
+",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	192 [label="Researchers indicated that most
+ of natural resources are un-recyclable
+ and only several decades after
+ , the Earth's natural resources
+ are totally exhausted",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	215 [label="At that time , human activity
+ will be seriously affected due
+ to the dependence on these
+ resources",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	235 [label="people are endangering other species' live
+",color=green];
+	242 [label="Hunting has been a
+ fundamental activity of human for
+ having food",color=blue];
+	242 [label="Hunting has been a
+ fundamental activity of human for
+ having food",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	254 [label="Through million
+ years of hunting , especially
+ in recent centuries with the
+ innovation of rifle and dynamite
+ , people have killed many
+ animals and even have made
+ some kinds of them become
+ extinct",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	290 [label="people , suffering from the population
+ pressure , are expanding their
+ living area",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	306 [label="the living area of other
+ species narrowed",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
+	314 [label="This narrowing
+ of living region is pushing
+ many creatures to the brink
+ of extinction",color=blue];
+	341 [label="human activity are gradually destroy
+ the Earth",color=green];
 }

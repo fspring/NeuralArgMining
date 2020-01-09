@@ -1,12 +1,12 @@
 import os
-
-# dir = 'Output/Pt'
+import re
+dir = 'Output/Pt'
 # dir = 'Output/Pt_baseline'
-# graph_dir = 'Output_G/Pt'
+graph_dir = 'Output_G/Pt'
 
 # dir = 'Output/En'
-dir = 'Output/En_baseline'
-graph_dir = 'Output_G/En'
+# dir = 'Output/En_baseline'
+# graph_dir = 'Output_G/En'
 
 files = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
 
@@ -20,6 +20,7 @@ for filename in files:
     arg = fields[1][1]
     text = fields[0]
     text = text.replace('\"', '')
+    text = text.replace('\”', '')
     text = text.replace('\“', '')
     dist = int(float(fields[-1][:-1]))
     begin = end = 0
@@ -31,7 +32,11 @@ for filename in files:
         fields = entries[i].split(' ') #[text, (T), dist] , T in {C, P, I}
         while fields[1][1] == 'I' and (arg == 'P' or arg == 'C'):
             end = i
-            text += ' ' + fields[0]
+            text_aux = fields[0]
+            text_aux = text_aux.replace('\"', '')
+            text_aux = text_aux.replace('\”', '')
+            text_aux = text_aux.replace('\“', '')
+            text += ' ' + text_aux
             if i%5 == 0:
                 text +='\n'
             i += 1
@@ -44,6 +49,9 @@ for filename in files:
             break
         arg = fields[1][1]
         text = fields[0]
+        text = text.replace('\"', '')
+        text = text.replace('\”', '')
+        text = text.replace('\“', '')
         dist = int(float(fields[-1][:-1]))
         begin = end = int(i)
         i += 1

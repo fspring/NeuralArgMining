@@ -86,7 +86,7 @@ raising (I)    0.000
 people's (I)    0.000
 awareness (I)    0.000
 . (O)    0.000
-children (P)  155.000
+children (P)   68.000
 should (I)    0.000
 be (I)    0.000
 taught (I)    0.000
@@ -101,9 +101,9 @@ well (I)    0.000
 as (I)    0.000
 harmful (I)    0.000
 ones (I)    0.000
-, (O)    0.000
-thereby (O)    0.000
-they (P)  138.000
+, (I)    0.000
+thereby (I)    0.000
+they (I)    0.000
 will (I)    0.000
 have (I)    0.000
 a (I)    0.000
@@ -121,7 +121,7 @@ what (O)    0.000
 is (O)    0.000
 more (O)    0.000
 , (O)    0.000
-it (P)  120.000
+it (P)   33.000
 is (I)    0.000
 much (I)    0.000
 easier (I)    0.000
@@ -154,7 +154,7 @@ intoxicants (I)    0.000
 in (O)    0.000
 addition (O)    0.000
 , (O)    0.000
-it (P)   87.000
+it (C)    0.000
 will (I)    0.000
 be (I)    0.000
 of (I)    0.000

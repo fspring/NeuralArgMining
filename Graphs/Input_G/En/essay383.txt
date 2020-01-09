@@ -4,48 +4,48 @@ digraph G {
 	124 -> 242;
 	182 -> 166;
 	182 -> 242;
-	77 [label="thanks to modern
- technology invented recently , human
- life has been improved dramatically
-",color=green];
-	91 [label="Air-conditioners , computers ,
- cellphones , washing machines ,
- for example , is likely
- to be seen as greatest
- inventions helping people to reduce
- stress and time for other
- activities",color=blue];
-	91 [label="Air-conditioners , computers ,
- cellphones , washing machines ,
- for example , is likely
- to be seen as greatest
- inventions helping people to reduce
- stress and time for other
- activities",color=blue];
-	242 [label="technology has a
- great contribution to our lives
- and civilization",color=green];
-	124 [label="applying technological science into the preparation
- of medications also plays a
- significant role in saving the
- number of patients' lives",color=blue];
-	242 [label="technology has a
- great contribution to our lives
- and civilization",color=green];
-	166 [label="technological products have devastated
- the natural environment indirectly through
- its production process",color=green];
-	182 [label="exploiting and collecting
- raw materials as well as
- essential fuels to serve the
- production of technological products have
- destroyed nature seriously",color=blue];
-	182 [label="exploiting and collecting
- raw materials as well as
- essential fuels to serve the
- production of technological products have
- destroyed nature seriously",color=blue];
-	242 [label="technology has a
- great contribution to our lives
- and civilization",color=green];
+	77 [label="thanks to modern technology
+ invented recently , human life
+ has been improved dramatically",color=green];
+	91 [label="Air-conditioners , computers , cellphones
+ , washing machines , for
+ example , is likely to
+ be seen as greatest inventions
+ helping people to reduce stress
+ and time for other activities
+",color=blue];
+	91 [label="Air-conditioners , computers , cellphones
+ , washing machines , for
+ example , is likely to
+ be seen as greatest inventions
+ helping people to reduce stress
+ and time for other activities
+",color=blue];
+	242 [label="technology has a great
+ contribution to our lives and
+ civilization",color=green];
+	124 [label="applying technological
+ science into the preparation of
+ medications also plays a significant
+ role in saving the number
+ of patients' lives",color=blue];
+	242 [label="technology has a great
+ contribution to our lives and
+ civilization",color=green];
+	166 [label="technological products have devastated the
+ natural environment indirectly through its
+ production process",color=green];
+	182 [label="exploiting and collecting raw
+ materials as well as essential
+ fuels to serve the production
+ of technological products have destroyed
+ nature seriously",color=blue];
+	182 [label="exploiting and collecting raw
+ materials as well as essential
+ fuels to serve the production
+ of technological products have destroyed
+ nature seriously",color=blue];
+	242 [label="technology has a great
+ contribution to our lives and
+ civilization",color=green];
 }

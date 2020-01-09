@@ -459,7 +459,7 @@ robbers (I)    0.000
 . (O)    0.000
 admittedly (O)    0.000
 , (O)    0.000
-privacies (P)   0.000
+privacies (P)    0.000
 are (I)    0.000
 lost (I)    0.000
 with (I)    0.000
@@ -471,7 +471,7 @@ cameras (I)    0.000
 . (O)    0.000
 nonetheless (O)    0.000
 , (O)    0.000
-safety (P)   0.000
+safety (P)    0.000
 should (I)    0.000
 be (I)    0.000
 put (I)    0.000

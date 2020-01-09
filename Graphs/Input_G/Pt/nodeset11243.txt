@@ -5,5 +5,5 @@ digraph G {
 	89 [label="uma lutadora
  que chegou , por mérito
  próprio , ao pódio dos
- vencedores da vida .",color=green];
+ vencedores da vida",color=green];
 }

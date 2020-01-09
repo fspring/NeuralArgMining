@@ -1,32 +1,17 @@
 digraph G {
-	100 -> 165;
-	124 -> 165;
-	150 -> 165;
-	171 -> 255;
-	202 -> 255;
-	236 -> 255;
-	100 [label="to manufacture goods , there must
- be the demand of laborers
- , from which the local
- residents can benefit",color=blue];
-	165 [label="the main disadvantage is contamination",color=green];
+	124 -> 86;
+	150 -> 255;
+	202 -> 240;
+	86 [label="a large factory can stimulate
+ local economic growth and reduce
+ the unemployment rate",color=green];
 	124 [label="the factory
  is not isolated , other
  industries and business will be
- quickly established , resulting in
- economic growth of local area
-",color=blue];
-	165 [label="the main disadvantage is contamination",color=green];
+ quickly established",color=blue];
 	150 [label="the estate industry will be boosted
  in order to satisfy the
  workers' accommodation need",color=blue];
-	165 [label="the main disadvantage is contamination",color=green];
-	171 [label="it is true that some
- area are suffering the dire
- consequences caused by overdeveloping the
- industry , such as water
- pollution , overcrowded traffic and
- medical problems",color=blue];
 	255 [label="how to improve the disadvantages of
  building a factory would be
  more important than whether to
@@ -38,16 +23,7 @@ digraph G {
  asthma which can be caused
  by waste ashes and certain
  chemical substances",color=blue];
-	255 [label="how to improve the disadvantages of
- building a factory would be
- more important than whether to
- build it",color=green];
-	236 [label="it is inevitable that there
- will be more factories built
+	240 [label="there will be more factories built
  with the development of our
- society",color=blue];
-	255 [label="how to improve the disadvantages of
- building a factory would be
- more important than whether to
- build it",color=green];
+ society",color=green];
 }

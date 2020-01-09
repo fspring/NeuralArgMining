@@ -1,36 +1,43 @@
 digraph G {
-	93 -> 108;
-	121 -> 169;
-	139 -> 169;
+	108 -> 93;
+	108 -> 304;
+	121 -> 304;
+	153 -> 139;
 	153 -> 169;
-	181 -> 200;
-	192 -> 200;
-	221 -> 304;
-	236 -> 304;
-	258 -> 304;
+	192 -> 169;
+	181 -> 337;
+	192 -> 337;
+	200 -> 337;
+	221 -> 337;
+	236 -> 337;
+	282 -> 258;
 	268 -> 304;
 	282 -> 304;
-	311 -> 329;
 	93 [label="restaurants are places
  where people come and pay
  some money to enjoy their
- meals",color=blue];
+ meals",color=green];
 	108 [label="smoking in restaurants
  will absolutely disturb other people
- in enjoying their meals",color=green];
+ in enjoying their meals",color=blue];
+	108 [label="smoking in restaurants
+ will absolutely disturb other people
+ in enjoying their meals",color=blue];
+	304 [label="it is
+ unfair for passive smokers",color=green];
 	121 [label="they will not be able
  to enjoy their meals while
  breathing in smoke around them
 ",color=blue];
-	169 [label="smoking in
- restaurants can give a bad
- example to the children",color=green];
+	304 [label="it is
+ unfair for passive smokers",color=green];
 	139 [label="restaurants are
  places that people usually come
- with their families",color=blue];
-	169 [label="smoking in
- restaurants can give a bad
- example to the children",color=green];
+ with their families",color=green];
+	153 [label="there will be
+ children , grandparents , as
+ well as pregnant women inside
+ the restaurants",color=blue];
 	153 [label="there will be
  children , grandparents , as
  well as pregnant women inside
@@ -38,35 +45,49 @@ digraph G {
 	169 [label="smoking in
  restaurants can give a bad
  example to the children",color=green];
+	169 [label="smoking in
+ restaurants can give a bad
+ example to the children",color=green];
+	192 [label="they have really high
+ curiosity towards something",color=blue];
 	181 [label="children have a high potential
  to imitate what adults do
 ",color=blue];
-	200 [label="smoking in restaurants also can affect
- the elders' health , especially
- if they have problems with
- their hearts and lungs",color=green];
+	337 [label="there will be a
+ lot of people get disadvantaged
+",color=green];
 	192 [label="they have really high
  curiosity towards something",color=blue];
+	337 [label="there will be a
+ lot of people get disadvantaged
+",color=green];
 	200 [label="smoking in restaurants also can affect
  the elders' health , especially
  if they have problems with
- their hearts and lungs",color=green];
+ their hearts and lungs",color=blue];
+	337 [label="there will be a
+ lot of people get disadvantaged
+",color=green];
 	221 [label="the most dangerous people that
  would be affected by smoke
  are the pregnant women",color=blue];
-	304 [label="it is
- unfair for passive smokers",color=green];
+	337 [label="there will be a
+ lot of people get disadvantaged
+",color=green];
 	236 [label="they will breathe in the
  contaminated air and it will
  disrupt the growth of the
  babies",color=blue];
-	304 [label="it is
- unfair for passive smokers",color=green];
+	337 [label="there will be a
+ lot of people get disadvantaged
+",color=green];
 	258 [label="passive smokers will
  have a lot of health
- risks",color=blue];
-	304 [label="it is
- unfair for passive smokers",color=green];
+ risks",color=green];
+	282 [label="stroke , heart disorders
+ , hearing loss , and
+ cancers are some diseases that
+ can attack passive smokers",color=blue];
 	268 [label="when they are
  around the active smokers ,
  they will inhale hazardous smoke
@@ -79,10 +100,4 @@ digraph G {
  can attack passive smokers",color=blue];
 	304 [label="it is
  unfair for passive smokers",color=green];
-	311 [label="they do not smoke but
- they have same health risks
- as the active one",color=blue];
-	329 [label="smoking should
- not be permitted in restaurants
-",color=green];
 }

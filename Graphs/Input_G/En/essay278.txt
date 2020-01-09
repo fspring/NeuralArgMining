@@ -13,99 +13,94 @@ digraph G {
 	288 -> 365;
 	320 -> 365;
 	340 -> 365;
-	59 [label="these activities have the same efficient
- role in students' lives",color=green];
-	85 [label="besides the good body shape
- , sports have very vital
- effects on human's healthfulness",color=blue];
-	85 [label="besides the good body shape
- , sports have very vital
- effects on human's healthfulness",color=blue];
-	170 [label="sports are necessary for students
- to acquire their energy and
- health",color=green];
-	104 [label="our body and moral health depend
- to physical activities directly",color=blue];
-	170 [label="sports are necessary for students
- to acquire their energy and
- health",color=green];
-	121 [label="last month I had
- very difficult exam that I
- forced to study for one
- week back to back",color=blue];
-	170 [label="sports are necessary for students
- to acquire their energy and
- health",color=green];
-	140 [label="After that exam , I
- felt depressed and exhausted",color=blue];
-	170 [label="sports are necessary for students
- to acquire their energy and
- health",color=green];
-	152 [label="I decided to
- go to gym to recuperate
- and it responded very well
+	59 [label="these activities
+ have the same efficient role
+ in students' lives",color=green];
+	85 [label="besides the good body shape ,
+ sports have very vital effects
+ on human's healthfulness",color=blue];
+	85 [label="besides the good body shape ,
+ sports have very vital effects
+ on human's healthfulness",color=blue];
+	170 [label="sports are necessary for students to
+ acquire their energy and health
+",color=green];
+	104 [label="our body
+ and moral health depend to
+ physical activities directly",color=blue];
+	170 [label="sports are necessary for students to
+ acquire their energy and health
+",color=green];
+	121 [label="last month I had very
+ difficult exam that I forced
+ to study for one week
+ back to back",color=blue];
+	170 [label="sports are necessary for students to
+ acquire their energy and health
+",color=green];
+	140 [label="After that exam , I felt
+ depressed and exhausted",color=blue];
+	170 [label="sports are necessary for students to
+ acquire their energy and health
+",color=green];
+	152 [label="I decided to go
+ to gym to recuperate and
+ it responded very well",color=blue];
+	170 [label="sports are necessary for students to
+ acquire their energy and health
+",color=green];
+	184 [label="besides the
+ academic knowledge , the awareness
+ of social behavior is an
+ important factor for human's life
 ",color=blue];
-	170 [label="sports are necessary for students
- to acquire their energy and
- health",color=green];
-	184 [label="besides the academic knowledge , the
- awareness of social behavior is
- an important factor for human's
- life",color=blue];
-	261 [label="social activities have same
- rights to receive monetary support
-",color=green];
-	207 [label="students should be
- prepared to present in society
- after their graduation",color=blue];
-	261 [label="social activities have same
- rights to receive monetary support
-",color=green];
-	220 [label="social activities can help them
- to be familiar with other's
- mind and different environment",color=blue];
-	261 [label="social activities have same
- rights to receive monetary support
-",color=green];
-	239 [label="social groups and classes are significant
- factors to prepare students to
- contribute in discussion and encounter
- real social environment",color=blue];
-	261 [label="social activities have same
- rights to receive monetary support
-",color=green];
-	273 [label="they bring
- about students to be happier
- and to have more fun
- and entertainments",color=green];
-	288 [label="If we
- follow just one wing of
- my life i .e .
- , studying as a student
- , after some whiles it
- would be boring and we
- wouldn't have any motivation",color=blue];
-	288 [label="If we
- follow just one wing of
- my life i .e .
- , studying as a student
- , after some whiles it
- would be boring and we
- wouldn't have any motivation",color=blue];
-	365 [label="sports and social activities should
- obtain analogous concern and money
-",color=green];
-	320 [label="Such activities can help us
- to pick up with other
- students and have more friends
-",color=blue];
-	365 [label="sports and social activities should
- obtain analogous concern and money
-",color=green];
-	340 [label="more friends and new experience
- inspire the feeling of happiness
- and excitement in me",color=blue];
-	365 [label="sports and social activities should
- obtain analogous concern and money
-",color=green];
+	261 [label="social activities have same rights
+ to receive monetary support",color=green];
+	207 [label="students should be prepared
+ to present in society after
+ their graduation",color=blue];
+	261 [label="social activities have same rights
+ to receive monetary support",color=green];
+	220 [label="social activities can help them to
+ be familiar with other's mind
+ and different environment",color=blue];
+	261 [label="social activities have same rights
+ to receive monetary support",color=green];
+	239 [label="social groups
+ and classes are significant factors
+ to prepare students to contribute
+ in discussion and encounter real
+ social environment",color=blue];
+	261 [label="social activities have same rights
+ to receive monetary support",color=green];
+	273 [label="they bring about
+ students to be happier and
+ to have more fun and
+ entertainments",color=green];
+	288 [label="If we follow
+ just one wing of my
+ life i .e . ,
+ studying as a student ,
+ after some whiles it would
+ be boring and we wouldn't
+ have any motivation",color=blue];
+	288 [label="If we follow
+ just one wing of my
+ life i .e . ,
+ studying as a student ,
+ after some whiles it would
+ be boring and we wouldn't
+ have any motivation",color=blue];
+	365 [label="sports and social activities should obtain
+ analogous concern and money",color=green];
+	320 [label="Such activities can help us to
+ pick up with other students
+ and have more friends",color=blue];
+	365 [label="sports and social activities should obtain
+ analogous concern and money",color=green];
+	340 [label="more friends and new experience inspire
+ the feeling of happiness and
+ excitement in me",color=blue];
+	365 [label="sports and social activities should obtain
+ analogous concern and money",color=green];
 }

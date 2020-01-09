@@ -63,7 +63,7 @@ be (O)    0.000
 carefully (O)    0.000
 explained (O)    0.000
 . (O)    0.000
-it (P)   99.000
+it (C)    0.000
 is (I)    0.000
 undoubtedly (I)    0.000
 certain (I)    0.000
@@ -80,7 +80,7 @@ involved (I)    0.000
 extra (I)    0.000
 jobs (I)    0.000
 . (O)    0.000
-part-time (P)   82.000
+part-time (P)   59.000
 jobs (I)    0.000
 furnish (I)    0.000
 them (I)    0.000
@@ -100,7 +100,7 @@ universities (I)    0.000
 in (O)    0.000
 addition (O)    0.000
 , (O)    0.000
-that (P)   62.000
+that (P)   39.000
 seems (I)    0.000
 to (I)    0.000
 be (I)    0.000
@@ -121,7 +121,7 @@ as (O)    0.000
 a (O)    0.000
 result (O)    0.000
 , (O)    0.000
-students (P)   41.000
+students (P)   18.000
 who (I)    0.000
 get (I)    0.000
 part (I)    0.000
@@ -139,7 +139,7 @@ experience (I)    0.000
 . (O)    0.000
 moreover (O)    0.000
 , (O)    0.000
-having (P)   23.000
+having (C)    0.000
 experienced (I)    0.000
 in (I)    0.000
 working (I)    0.000
@@ -180,7 +180,7 @@ than (I)    0.000
 other (I)    0.000
 ones (I)    0.000
 . (O)    0.000
-by (P)  118.000
+by (P)   64.000
 constant (I)    0.000
 communicating (I)    0.000
 with (I)    0.000
@@ -211,7 +211,7 @@ gained (I)    0.000
 . (O)    0.000
 also (O)    0.000
 , (O)    0.000
-working (P)   87.000
+working (P)   33.000
 conditions (I)    0.000
 require (I)    0.000
 students (I)    0.000
@@ -244,7 +244,7 @@ universities (I)    0.000
 . (O)    0.000
 lastly (O)    0.000
 , (O)    0.000
-doing (P)   54.000
+doing (C)    0.000
 extra (I)    0.000
 jobs (I)    0.000
 helps (I)    0.000

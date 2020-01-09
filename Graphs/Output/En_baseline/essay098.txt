@@ -94,8 +94,8 @@ as (I)    0.000
 looking (I)    0.000
 after (I)    0.000
 babies (I)    0.000
-, (I)    0.000
-doing (I)    0.000
+, (O)    0.000
+doing (P)   31.000
 housework (I)    0.000
 and (I)    0.000
 keeping (I)    0.000
@@ -151,10 +151,10 @@ saving (I)    0.000
 . (O)    0.000
 secondly (O)    0.000
 , (O)    0.000
-when (O)    0.000
-children (O)    0.000
-take (O)    0.000
-jobs (O)    0.000
+when (C)    0.000
+children (I)    0.000
+take (I)    0.000
+jobs (I)    0.000
 , (O)    0.000
 they (O)    0.000
 tend (O)    0.000

@@ -1,88 +1,41 @@
 digraph G {
-	107 -> 184;
-	126 -> 184;
-	138 -> 184;
-	162 -> 184;
-	199 -> 278;
-	207 -> 278;
-	214 -> 278;
-	232 -> 278;
-	246 -> 278;
-	311 -> 391;
-	339 -> 391;
-	364 -> 391;
-	107 [label="the more advanced facilities
- we have , the more
+	126 -> 114;
+	126 -> 199;
+	138 -> 199;
+	162 -> 199;
+	364 -> 400;
+	114 [label="the more
  chances we can increase our
- knowledge",color=blue];
-	184 [label="certain facilities
- are beneficial to students",color=green];
+ knowledge",color=green];
 	126 [label="library is a good place
  for students to study or
  research",color=blue];
-	184 [label="certain facilities
- are beneficial to students",color=green];
+	126 [label="library is a good place
+ for students to study or
+ research",color=blue];
+	199 [label="students are
+ not always staying in classrooms
+",color=green];
 	138 [label="they can concentrate
  on the subjects with a
  tranquil ambience ; also ,
  there are a lot of
  references for students to utilize
 ",color=blue];
-	184 [label="certain facilities
- are beneficial to students",color=green];
+	199 [label="students are
+ not always staying in classrooms
+",color=green];
 	162 [label="with this convenient and
  versatile facility , students can
  improve their learning condition",color=blue];
-	184 [label="certain facilities
- are beneficial to students",color=green];
 	199 [label="students are
  not always staying in classrooms
-",color=blue];
-	278 [label="students would prefer
- school to spending on improving
- facilities",color=green];
-	207 [label="they have numerous activities
- in school",color=blue];
-	278 [label="students would prefer
- school to spending on improving
- facilities",color=green];
-	214 [label="consider a
- circumstance in which a student
- who is a member of
- jazz ensemble in their school
-",color=blue];
-	278 [label="students would prefer
- school to spending on improving
- facilities",color=green];
-	232 [label="he must need a
- better auditorium for him to
- have an extraordinary performance",color=blue];
-	278 [label="students would prefer
- school to spending on improving
- facilities",color=green];
-	246 [label="with this distinguished performance ,
- the student would acquire an
- unforgettable and valuable experience burring
- deeply in his mind",color=blue];
-	278 [label="students would prefer
- school to spending on improving
- facilities",color=green];
-	311 [label="they can impart their students
- well",color=blue];
-	391 [label="improving facilities is the best
- way for school",color=green];
-	339 [label="a student
- is good or not do
- not depend on whether he
- has a good teacher but
- is decided by his effort
- on study",color=blue];
-	391 [label="improving facilities is the best
- way for school",color=green];
+",color=green];
 	364 [label="it is
  useless to hire a super
  famous teacher to teach those
  who behaviors as sluggards",color=blue];
-	391 [label="improving facilities is the best
- way for school",color=green];
+	400 [label="the advantages of this are relatively
+ greater than that of the
+ other",color=green];
 }

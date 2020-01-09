@@ -54,7 +54,7 @@ a (I)    0.000
 grécia (I)    0.000
 . (O)    0.000
 seria (O)    0.000
-uma (P)  684.000
+uma (P)    0.000
 solução (I)    0.000
 muito (I)    0.000
 má (I)    0.000
@@ -83,7 +83,7 @@ crise (O)    0.000
 do (O)    0.000
 euro (O)    0.000
 . (O)    0.000
-merkel (P)  655.000
+merkel (P)    0.000
 e (I)    0.000
 o (I)    0.000
 governo (I)    0.000

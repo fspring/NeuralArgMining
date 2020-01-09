@@ -6,7 +6,7 @@ digraph G {
  a Comissão Europeia , o
  BCE e o FMI foi
  a maior calamidade que nos
- podia ter acontecido .",color=green];
+ podia ter acontecido",color=green];
 	60 [label="Nunca quisemos compreender que foi uma
- ajuda .",color=blue];
+ ajuda",color=blue];
 }

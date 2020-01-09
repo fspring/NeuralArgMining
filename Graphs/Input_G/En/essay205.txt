@@ -12,102 +12,106 @@ digraph G {
 	354 -> 371;
 	398 -> 371;
 	398 -> 417;
-	70 [label="students should be free not
- to attend classes",color=green];
-	160 [label="This problem occurs especially if
- the lecturer is lethargic",color=blue];
-	141 [label="some students might learn
- better at home on their
- own , for instance ,
- by reading the textbook",color=green];
-	160 [label="This problem occurs especially if
- the lecturer is lethargic",color=blue];
-	160 [label="This problem occurs especially if
- the lecturer is lethargic",color=blue];
-	417 [label="it is clear
- that going to classes should
- be optional for students",color=green];
-	170 [label="By letting students choose not
- to attend class you give
- them the opportunity to escape
- bad teaching",color=blue];
-	417 [label="it is clear
- that going to classes should
- be optional for students",color=green];
-	189 [label="they are able to save precious
- study time and dive into
- the course syllabus independently",color=blue];
-	417 [label="it is clear
- that going to classes should
- be optional for students",color=green];
-	208 [label="being free
- to stay away from classes
- improves flexibility and therefore quality
- of student life",color=green];
-	224 [label="Sometimes the wild party on Thursday
- night is too good to
- end already at midnight only
- because of a lecture on
- Friday in the morning",color=blue];
-	224 [label="Sometimes the wild party on Thursday
- night is too good to
- end already at midnight only
- because of a lecture on
- Friday in the morning",color=blue];
-	417 [label="it is clear
- that going to classes should
- be optional for students",color=green];
-	250 [label="With a liberal policy students
- are able to postpone the
- learning to the afternoon which
- gives a feeling of freedom
- and improves time efficiency",color=blue];
-	417 [label="it is clear
- that going to classes should
- be optional for students",color=green];
-	275 [label="Research has shown that the
- more satisfied the students are
- with those life aspects ,
- the better they perform in
- academic areas",color=blue];
-	417 [label="it is clear
- that going to classes should
- be optional for students",color=green];
-	334 [label="Intrinsic motivation is known to be
- much more desirable because it
- leads to better learning and
- well-being",color=blue];
-	371 [label="By giving students the
- freedom to choose about class
- attendance they might rather be
- thinking about why they decided
- to study and learn to
- motivate themselves",color=green];
-	354 [label="in order to gain intrinsic motivation
- students need to become aware
- of their strengths and aims
+	70 [label="students should be free not to
+ attend classes",color=green];
+	160 [label="This problem occurs especially if the
+ lecturer is lethargic",color=blue];
+	141 [label="some students might learn better
+ at home on their own
+ , for instance , by
+ reading the textbook",color=green];
+	160 [label="This problem occurs especially if the
+ lecturer is lethargic",color=blue];
+	160 [label="This problem occurs especially if the
+ lecturer is lethargic",color=blue];
+	417 [label="it is clear that
+ going to classes should be
+ optional for students",color=green];
+	170 [label="By letting students choose not to
+ attend class you give them
+ the opportunity to escape bad
+ teaching",color=blue];
+	417 [label="it is clear that
+ going to classes should be
+ optional for students",color=green];
+	189 [label="they are
+ able to save precious study
+ time and dive into the
+ course syllabus independently",color=blue];
+	417 [label="it is clear that
+ going to classes should be
+ optional for students",color=green];
+	208 [label="being free to
+ stay away from classes improves
+ flexibility and therefore quality of
+ student life",color=green];
+	224 [label="Sometimes the
+ wild party on Thursday night
+ is too good to end
+ already at midnight only because
+ of a lecture on Friday
+ in the morning",color=blue];
+	224 [label="Sometimes the
+ wild party on Thursday night
+ is too good to end
+ already at midnight only because
+ of a lecture on Friday
+ in the morning",color=blue];
+	417 [label="it is clear that
+ going to classes should be
+ optional for students",color=green];
+	250 [label="With a liberal policy students are
+ able to postpone the learning
+ to the afternoon which gives
+ a feeling of freedom and
+ improves time efficiency",color=blue];
+	417 [label="it is clear that
+ going to classes should be
+ optional for students",color=green];
+	275 [label="Research has shown that the more
+ satisfied the students are with
+ those life aspects , the
+ better they perform in academic
+ areas",color=blue];
+	417 [label="it is clear that
+ going to classes should be
+ optional for students",color=green];
+	334 [label="Intrinsic motivation
+ is known to be much
+ more desirable because it leads
+ to better learning and well-being
 ",color=blue];
-	371 [label="By giving students the
- freedom to choose about class
- attendance they might rather be
- thinking about why they decided
- to study and learn to
- motivate themselves",color=green];
-	371 [label="By giving students the
- freedom to choose about class
- attendance they might rather be
- thinking about why they decided
- to study and learn to
- motivate themselves",color=green];
-	398 [label="These are
- crucial skills for the duration
- of their study and their
- whole life time",color=blue];
-	398 [label="These are
- crucial skills for the duration
- of their study and their
- whole life time",color=blue];
-	417 [label="it is clear
- that going to classes should
- be optional for students",color=green];
+	371 [label="By giving students the freedom
+ to choose about class attendance
+ they might rather be thinking
+ about why they decided to
+ study and learn to motivate
+ themselves",color=green];
+	354 [label="in order
+ to gain intrinsic motivation students
+ need to become aware of
+ their strengths and aims",color=blue];
+	371 [label="By giving students the freedom
+ to choose about class attendance
+ they might rather be thinking
+ about why they decided to
+ study and learn to motivate
+ themselves",color=green];
+	371 [label="By giving students the freedom
+ to choose about class attendance
+ they might rather be thinking
+ about why they decided to
+ study and learn to motivate
+ themselves",color=green];
+	398 [label="These are crucial
+ skills for the duration of
+ their study and their whole
+ life time",color=blue];
+	398 [label="These are crucial
+ skills for the duration of
+ their study and their whole
+ life time",color=blue];
+	417 [label="it is clear that
+ going to classes should be
+ optional for students",color=green];
 }

@@ -96,7 +96,7 @@ the (O)    0.000
 inevitable (O)    0.000
 fact (O)    0.000
 that (O)    0.000
-we (P)   77.000
+we (C)    0.000
 need (I)    0.000
 to (I)    0.000
 save (I)    0.000
@@ -289,7 +289,7 @@ some (O)    0.000
 people (O)    0.000
 proclaiming (O)    0.000
 that (O)    0.000
-with (C)    0.000
+with (P)   49.000
 a (I)    0.000
 slower (I)    0.000
 pace (I)    0.000
@@ -297,9 +297,9 @@ can (I)    0.000
 enjoy (I)    0.000
 their (I)    0.000
 lives (I)    0.000
-more (I)    0.000
+more (O)    0.000
 because (O)    0.000
-it (P)   85.000
+it (P)   39.000
 is (I)    0.000
 not (I)    0.000
 necessary (I)    0.000
@@ -338,7 +338,7 @@ do (O)    0.000
 not (O)    0.000
 think (O)    0.000
 that (O)    0.000
-those (P)   46.000
+those (C)    0.000
 people (I)    0.000
 with (I)    0.000
 slower (I)    0.000

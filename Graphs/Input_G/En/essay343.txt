@@ -3,44 +3,43 @@ digraph G {
 	61 -> 87;
 	113 -> 87;
 	221 -> 202;
-	42 [label="advertisement bring more
- benefits than harms to our
- lives",color=green];
-	61 [label="most advertisements so exaggerate
- the quality of their products
- that they often ignore some
- negative effects of what they
- sell",color=blue];
-	61 [label="most advertisements so exaggerate
- the quality of their products
- that they often ignore some
- negative effects of what they
- sell",color=blue];
-	87 [label="all of things
- are advertised as the best
- ones result in the confusing
- for users in picking out
- the most suitable goods",color=green];
-	87 [label="all of things
- are advertised as the best
- ones result in the confusing
- for users in picking out
- the most suitable goods",color=green];
-	113 [label="some kinds
- of shampoo , namely Sunsilk
- , Clear , Dove are
- publicized as magic items to
- recreate injured hair with the
- number of other benefits",color=blue];
-	202 [label="advertisement enables to
- support users in getting accustomed
- to enterprises and know thoroughly
- items sold from these producers
+	42 [label="advertisement bring more benefits
+ than harms to our lives
 ",color=green];
-	221 [label="Take Coca cola for
- an example , this drinking
- firm is well-known as one
- of companies invested a major
- part of their money in
- advertising",color=blue];
+	61 [label="most advertisements so exaggerate the
+ quality of their products that
+ they often ignore some negative
+ effects of what they sell
+",color=blue];
+	61 [label="most advertisements so exaggerate the
+ quality of their products that
+ they often ignore some negative
+ effects of what they sell
+",color=blue];
+	87 [label="all of things are
+ advertised as the best ones
+ result in the confusing for
+ users in picking out the
+ most suitable goods",color=green];
+	87 [label="all of things are
+ advertised as the best ones
+ result in the confusing for
+ users in picking out the
+ most suitable goods",color=green];
+	113 [label="some kinds of
+ shampoo , namely Sunsilk ,
+ Clear , Dove are publicized
+ as magic items to recreate
+ injured hair with the number
+ of other benefits",color=blue];
+	202 [label="advertisement enables to support
+ users in getting accustomed to
+ enterprises and know thoroughly items
+ sold from these producers",color=green];
+	221 [label="Take Coca cola for an
+ example , this drinking firm
+ is well-known as one of
+ companies invested a major part
+ of their money in advertising
+",color=blue];
 }

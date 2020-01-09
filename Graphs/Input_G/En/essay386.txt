@@ -7,80 +7,77 @@ digraph G {
 	178 -> 261;
 	201 -> 261;
 	225 -> 261;
-	47 [label="the classmates should
- be regarded as the most
- important influence on individual achievements
+	47 [label="the classmates should be
+ regarded as the most important
+ influence on individual achievements",color=green];
+	77 [label="In high school ,
+ for instance , an individual
+ cannot resist studying painstakingly through
+ day and night when the
+ others who are astoundingly ambitious
+ and set sights on prestigious
+ universities around the globe are
+ doing the same",color=blue];
+	65 [label="the classmates themselves creat a competitive
+ atmoshphere which incent the children
 ",color=green];
-	77 [label="In high school
- , for instance , an
- individual cannot resist studying painstakingly
- through day and night when
- the others who are astoundingly
- ambitious and set sights on
- prestigious universities around the globe
- are doing the same",color=blue];
-	65 [label="the classmates themselves creat a
- competitive atmoshphere which incent the
- children",color=green];
-	77 [label="In high school
- , for instance , an
- individual cannot resist studying painstakingly
- through day and night when
- the others who are astoundingly
- ambitious and set sights on
- prestigious universities around the globe
- are doing the same",color=blue];
-	77 [label="In high school
- , for instance , an
- individual cannot resist studying painstakingly
- through day and night when
- the others who are astoundingly
- ambitious and set sights on
- prestigious universities around the globe
- are doing the same",color=blue];
-	261 [label="classmates are unrivalled by
- the children's parents",color=green];
-	115 [label="From a psychological perspective ,
- the feeling of being subordinate
- to their peers exert enormous
- pressure on the children ,
- which subsequently transforms into some
- sort of stimulants and boosts
- the children's academic performances",color=blue];
-	261 [label="classmates are unrivalled by
- the children's parents",color=green];
-	154 [label="when it comes to knowledge and
- the acquisition of such ,
- classmates are second to none
-",color=green];
-	178 [label="students share
- even more time together than
- with their parents , explaining
- a great deal of wisdom
- they absorb from each others
+	77 [label="In high school ,
+ for instance , an individual
+ cannot resist studying painstakingly through
+ day and night when the
+ others who are astoundingly ambitious
+ and set sights on prestigious
+ universities around the globe are
+ doing the same",color=blue];
+	77 [label="In high school ,
+ for instance , an individual
+ cannot resist studying painstakingly through
+ day and night when the
+ others who are astoundingly ambitious
+ and set sights on prestigious
+ universities around the globe are
+ doing the same",color=blue];
+	261 [label="classmates are unrivalled by the
+ children's parents",color=green];
+	115 [label="From a psychological perspective , the
+ feeling of being subordinate to
+ their peers exert enormous pressure
+ on the children , which
+ subsequently transforms into some sort
+ of stimulants and boosts the
+ children's academic performances",color=blue];
+	261 [label="classmates are unrivalled by the
+ children's parents",color=green];
+	154 [label="when it
+ comes to knowledge and the
+ acquisition of such , classmates
+ are second to none",color=green];
+	178 [label="students share even
+ more time together than with
+ their parents , explaining a
+ great deal of wisdom they
+ absorb from each others",color=blue];
+	178 [label="students share even
+ more time together than with
+ their parents , explaining a
+ great deal of wisdom they
+ absorb from each others",color=blue];
+	261 [label="classmates are unrivalled by the
+ children's parents",color=green];
+	201 [label="it can be , for
+ example , lessons on the
+ class , social skills or
+ general etiquettes that are sometimes
+ overlooked by parents",color=blue];
+	261 [label="classmates are unrivalled by the
+ children's parents",color=green];
+	225 [label="Sharing the same age , children
+ are at their most comfort
+ to exchange ideas , to
+ query and interpret abstract concepts
+ without fear of parental punishments
+ , resulting in deeper comprehension
 ",color=blue];
-	178 [label="students share
- even more time together than
- with their parents , explaining
- a great deal of wisdom
- they absorb from each others
-",color=blue];
-	261 [label="classmates are unrivalled by
- the children's parents",color=green];
-	201 [label="it can be ,
- for example , lessons on
- the class , social skills
- or general etiquettes that are
- sometimes overlooked by parents",color=blue];
-	261 [label="classmates are unrivalled by
- the children's parents",color=green];
-	225 [label="Sharing the same age ,
- children are at their most
- comfort to exchange ideas ,
- to query and interpret abstract
- concepts without fear of parental
- punishments , resulting in deeper
- comprehension",color=blue];
-	261 [label="classmates are unrivalled by
- the children's parents",color=green];
+	261 [label="classmates are unrivalled by the
+ children's parents",color=green];
 }

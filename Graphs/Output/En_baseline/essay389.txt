@@ -55,7 +55,7 @@ of (I)    0.000
 a (I)    0.000
 country (I)    0.000
 . (O)    0.000
-in (P)   89.000
+in (P)  209.000
 a (I)    0.000
 developing (I)    0.000
 country (I)    0.000
@@ -71,7 +71,7 @@ children (I)    0.000
 to (I)    0.000
 school (I)    0.000
 . (O)    0.000
-there (P)   73.000
+there (P)  193.000
 are (I)    0.000
 government (I)    0.000
 schools (I)    0.000
@@ -94,7 +94,7 @@ in (I)    0.000
 the (I)    0.000
 cities (I)    0.000
 . (O)    0.000
-they (P)   50.000
+they (P)  170.000
 are (I)    0.000
 not (I)    0.000
 reachable (I)    0.000
@@ -108,7 +108,7 @@ mountains (I)    0.000
 or (I)    0.000
 islands (I)    0.000
 . (O)    0.000
-these (P)   36.000
+these (P)  156.000
 children (I)    0.000
 whose (I)    0.000
 parents (I)    0.000
@@ -144,7 +144,7 @@ as (O)    0.000
 a (O)    0.000
 result (O)    0.000
 , (O)    0.000
-these (C)    0.000
+these (P)  120.000
 children (I)    0.000
 remain (I)    0.000
 uneducated (I)    0.000
@@ -176,7 +176,7 @@ lawyers (O)    0.000
 or (O)    0.000
 engineers (O)    0.000
 . (O)    0.000
-basic (C)    0.000
+basic (P)   88.000
 education (I)    0.000
 teaches (I)    0.000
 one (I)    0.000
@@ -186,7 +186,7 @@ read (I)    0.000
 and (I)    0.000
 write (I)    0.000
 . (O)    0.000
-supplementary (P)   59.000
+supplementary (P)   78.000
 education (I)    0.000
 provides (I)    0.000
 him (I)    0.000
@@ -196,7 +196,7 @@ knowledge (I)    0.000
 and (I)    0.000
 information (I)    0.000
 . (O)    0.000
-a (P)   49.000
+a (P)   68.000
 further (I)    0.000
 specific (I)    0.000
 education (I)    0.000
@@ -215,7 +215,7 @@ and (I)    0.000
 be (I)    0.000
 self-sufficient (I)    0.000
 . (O)    0.000
-a (P)   30.000
+a (P)   49.000
 well-informed (I)    0.000
 man (I)    0.000
 can (I)    0.000
@@ -231,7 +231,7 @@ the (O)    0.000
 same (O)    0.000
 way (O)    0.000
 , (O)    0.000
-a (P)   14.000
+a (P)   33.000
 skillful (I)    0.000
 man (I)    0.000
 contributes (I)    0.000
@@ -245,7 +245,7 @@ society (I)    0.000
 . (O)    0.000
 collectively (O)    0.000
 , (O)    0.000
-the (C)    0.000
+the (P)   19.000
 benefits (I)    0.000
 of (I)    0.000
 education (I)    0.000

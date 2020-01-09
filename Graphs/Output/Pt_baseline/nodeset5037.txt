@@ -34,7 +34,7 @@ conforme (O)    0.000
 ficou (O)    0.000
 definido (O)    0.000
 . (O)    0.000
-de (P)  704.000
+de (P)    0.000
 roland (I)    0.000
 garros (I)    0.000
 veio (I)    0.000
@@ -120,7 +120,7 @@ milhões (O)    0.000
 aos (O)    0.000
 vencedores (O)    0.000
 . (O)    0.000
-a (P)  618.000
+a (P)    0.000
 tendência (I)    0.000
 está (I)    0.000
 generalizada (I)    0.000

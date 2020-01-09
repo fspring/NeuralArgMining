@@ -9,81 +9,80 @@ digraph G {
 	219 -> 291;
 	235 -> 291;
 	264 -> 291;
-	57 [label="they are able
- to sustain their cultural identities
- and doing so help they
- keep their origin values",color=green];
-	77 [label="maintaining oneâ€™s cultural
- identity is a key important
- rule to help individuals emerge
- in the new multicultural environments
+	57 [label="they are able to
+ sustain their cultural identities and
+ doing so help they keep
+ their origin values",color=green];
+	77 [label="maintaining one’s cultural identity
+ is a key important rule
+ to help individuals emerge in
+ the new multicultural environments",color=blue];
+	77 [label="maintaining one’s cultural identity
+ is a key important rule
+ to help individuals emerge in
+ the new multicultural environments",color=blue];
+	177 [label="sustaining the cultural values
+ of immigrants is paramount essential
+",color=green];
+	96 [label="Take Australia for example ,
+ immigrants from varieties of nations
+ have a day called multicultural
+ day where people from each
+ country prepare their food and
+ traditional activities for displaying in
+ the public venues",color=blue];
+	177 [label="sustaining the cultural values
+ of immigrants is paramount essential
+",color=green];
+	130 [label="Many Australians come this day to
+ enjoy the shows , learn
+ about the cultures and admire
+ the diverse values",color=blue];
+	177 [label="sustaining the cultural values
+ of immigrants is paramount essential
+",color=green];
+	150 [label="These feedbacks , in turn ,
+ help raise one’s pride of
+ their cultures and help people
+ understand each other more",color=blue];
+	177 [label="sustaining the cultural values
+ of immigrants is paramount essential
+",color=green];
+	189 [label="it is
+ crucial to keep one’s identity
 ",color=blue];
-	77 [label="maintaining oneâ€™s cultural
- identity is a key important
- rule to help individuals emerge
- in the new multicultural environments
-",color=blue];
-	177 [label="sustaining the cultural
- values of immigrants is paramount
- essential",color=green];
-	96 [label="Take Australia for example
- , immigrants from varieties of
- nations have a day called
- multicultural day where people from
- each country prepare their food
- and traditional activities for displaying
- in the public venues",color=blue];
-	177 [label="sustaining the cultural
- values of immigrants is paramount
- essential",color=green];
-	130 [label="Many Australians come this day
- to enjoy the shows ,
- learn about the cultures and
- admire the diverse values",color=blue];
-	177 [label="sustaining the cultural
- values of immigrants is paramount
- essential",color=green];
-	150 [label="These feedbacks , in turn
- , help raise oneâ€™s pride
- of their cultures and help
- people understand each other more
-",color=blue];
-	177 [label="sustaining the cultural
- values of immigrants is paramount
- essential",color=green];
-	189 [label="it is crucial to keep oneâ€™s
- identity",color=blue];
-	291 [label="keeping the cultural traditions
- in the destination countries is
- tremendous important",color=green];
-	197 [label="they need a
- connection back to their country
- as well as teach their
- children their value of origin
-",color=blue];
-	291 [label="keeping the cultural traditions
- in the destination countries is
- tremendous important",color=green];
-	219 [label="children immigrated to a new country
- will face social troubles in
- school with new friends",color=blue];
-	291 [label="keeping the cultural traditions
- in the destination countries is
- tremendous important",color=green];
-	235 [label="In this new environment ,
- parent should find friends coming
- from their same country so
- that they can socialize in
- a very familiar manner as
- feeling being home",color=blue];
-	291 [label="keeping the cultural traditions
- in the destination countries is
- tremendous important",color=green];
-	264 [label="Fail to create this familiarity makes
- them felt isolated , in
- the extreme can lead to
- social disorder like autism",color=blue];
-	291 [label="keeping the cultural traditions
- in the destination countries is
- tremendous important",color=green];
+	291 [label="keeping the cultural traditions in
+ the destination countries is tremendous
+ important",color=green];
+	197 [label="they need a connection
+ back to their country as
+ well as teach their children
+ their value of origin",color=blue];
+	291 [label="keeping the cultural traditions in
+ the destination countries is tremendous
+ important",color=green];
+	219 [label="children immigrated
+ to a new country will
+ face social troubles in school
+ with new friends",color=blue];
+	291 [label="keeping the cultural traditions in
+ the destination countries is tremendous
+ important",color=green];
+	235 [label="In this new environment , parent
+ should find friends coming from
+ their same country so that
+ they can socialize in a
+ very familiar manner as feeling
+ being home",color=blue];
+	291 [label="keeping the cultural traditions in
+ the destination countries is tremendous
+ important",color=green];
+	264 [label="Fail to
+ create this familiarity makes them
+ felt isolated , in the
+ extreme can lead to social
+ disorder like autism",color=blue];
+	291 [label="keeping the cultural traditions in
+ the destination countries is tremendous
+ important",color=green];
 }

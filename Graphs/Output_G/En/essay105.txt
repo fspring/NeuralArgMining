@@ -1,108 +1,22 @@
 digraph G {
-	73 -> 287;
-	97 -> 287;
-	115 -> 287;
-	130 -> 287;
-	150 -> 287;
-	170 -> 287;
-	179 -> 287;
-	207 -> 287;
-	224 -> 287;
-	233 -> 287;
-	242 -> 287;
-	267 -> 287;
+	73 -> 48;
+	242 -> 267;
+	48 [label="more lives will
+ be saved by the use
+ of effective medicines",color=green];
 	73 [label="with advanced technology
  , the developed world has
  achieved remarkable breakthroughs in making
  medicines , which can cure
  a variety of serious illnesses
 ",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
-	97 [label="if people in poorer
- countries gain access to these
- drugs , their health situations
- may be better",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
-	115 [label="the reduction in cost of medicines
- therefore shows the sign of
- humanity",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
-	130 [label="the current cost of medicines is
- , in fact , reasonable
- and based on the medicines'
- effectiveness",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
-	150 [label="the process of researching , testing
- and producing drugs in masses
- costs a substantial amount of
- money",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
-	170 [label="these products prove to ensure human
- health completely",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
-	179 [label="suppose companies
- were forced to reduce the
- cost of drugs , they
- would make no profit ,
- even running up debt because
- of production expenditure",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
-	207 [label="the measure cannot be
- adopted , otherwise those companies
- will go into liquidation",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
-	224 [label="this is
- not a long-term solution",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
-	233 [label="there are other
- measures to improve the situation
-",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
 	242 [label="it is advisable for
  the government to encourage medical
  production by supplying land for
  building factories and reducing part
  of the taxes",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
 	267 [label="charitable organizations can buy
  medicines from developed countries and
  distribute to the undeveloped world
- for free",color=blue];
-	287 [label="i disagree with reducing
- the cost of medicines ,
- which may exacerbate their qualities
-",color=green];
+ for free",color=green];
 }

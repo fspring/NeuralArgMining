@@ -12,99 +12,99 @@ digraph G {
 	262 -> 419;
 	326 -> 370;
 	350 -> 370;
-	71 [label="no additional payment should
- be charged on them",color=green];
-	86 [label="Capitalism enfranchised people's right
- to own properties , and
- consequently , their rights to
- use them",color=blue];
-	86 [label="Capitalism enfranchised people's right
- to own properties , and
- consequently , their rights to
- use them",color=blue];
-	128 [label="charging them
- extra fee might seems to
- be out of the jurisdiction
-",color=green];
-	103 [label="Driving cars
- during the rush hours might
- is bound to polluting cities's
- environment , but laws protect
- drivers to do so",color=blue];
-	128 [label="charging them
- extra fee might seems to
- be out of the jurisdiction
-",color=green];
-	128 [label="charging them
- extra fee might seems to
- be out of the jurisdiction
-",color=green];
-	163 [label="it is
- out of drivers' control",color=blue];
-	147 [label="traffic jam is
- a natural phenomenon that nobody
- is able to shun or
- ban",color=blue];
-	419 [label="charging drivers for another fee for
- this could be unreasonable and
- irrational",color=green];
-	163 [label="it is
- out of drivers' control",color=blue];
-	419 [label="charging drivers for another fee for
- this could be unreasonable and
- irrational",color=green];
-	187 [label="Wars are notorious
- , but you can't blame
- the soldiers who are justing
- fight for their countries",color=blue];
-	419 [label="charging drivers for another fee for
- this could be unreasonable and
- irrational",color=green];
-	205 [label="Buying a car spends hundreds
- of thousand ; paying for
- all sorts of fee takes
- another several-these are all ready
- too much for most of
- the families to bear",color=blue];
-	235 [label="Charging drivers one more fee
- makes no sense and is
- ridiculous",color=green];
-	235 [label="Charging drivers one more fee
- makes no sense and is
- ridiculous",color=green];
-	262 [label="charging them too
- much fee adds a lot
- to their burden and is
- actually jeopardizing their rights",color=blue];
-	247 [label="Majority of the
- families buy cars simply for
- a safer and easier conveyance
+	71 [label="no additional payment should be
+ charged on them",color=green];
+	86 [label="Capitalism enfranchised people's right to
+ own properties , and consequently
+ , their rights to use
+ them",color=blue];
+	86 [label="Capitalism enfranchised people's right to
+ own properties , and consequently
+ , their rights to use
+ them",color=blue];
+	128 [label="charging them extra
+ fee might seems to be
+ out of the jurisdiction",color=green];
+	103 [label="Driving cars during
+ the rush hours might is
+ bound to polluting cities's environment
+ , but laws protect drivers
+ to do so",color=blue];
+	128 [label="charging them extra
+ fee might seems to be
+ out of the jurisdiction",color=green];
+	128 [label="charging them extra
+ fee might seems to be
+ out of the jurisdiction",color=green];
+	163 [label="it is out
+ of drivers' control",color=blue];
+	147 [label="traffic jam is a
+ natural phenomenon that nobody is
+ able to shun or ban
 ",color=blue];
-	419 [label="charging drivers for another fee for
- this could be unreasonable and
- irrational",color=green];
-	262 [label="charging them too
- much fee adds a lot
- to their burden and is
- actually jeopardizing their rights",color=blue];
-	419 [label="charging drivers for another fee for
- this could be unreasonable and
- irrational",color=green];
-	326 [label="Sometimes traffic jam occur
- only due to the malfunction
- of a traffic light ,
- or unreasonable organization of roadways
+	419 [label="charging drivers
+ for another fee for this
+ could be unreasonable and irrational
+",color=green];
+	163 [label="it is out
+ of drivers' control",color=blue];
+	419 [label="charging drivers
+ for another fee for this
+ could be unreasonable and irrational
+",color=green];
+	187 [label="Wars are notorious ,
+ but you can't blame the
+ soldiers who are justing fight
+ for their countries",color=blue];
+	419 [label="charging drivers
+ for another fee for this
+ could be unreasonable and irrational
+",color=green];
+	205 [label="Buying a car spends hundreds of
+ thousand ; paying for all
+ sorts of fee takes another
+ several-these are all ready too
+ much for most of the
+ families to bear",color=blue];
+	235 [label="Charging drivers one more fee makes
+ no sense and is ridiculous
+",color=green];
+	235 [label="Charging drivers one more fee makes
+ no sense and is ridiculous
+",color=green];
+	262 [label="charging them too much
+ fee adds a lot to
+ their burden and is actually
+ jeopardizing their rights",color=blue];
+	247 [label="Majority of the families
+ buy cars simply for a
+ safer and easier conveyance",color=blue];
+	419 [label="charging drivers
+ for another fee for this
+ could be unreasonable and irrational
+",color=green];
+	262 [label="charging them too much
+ fee adds a lot to
+ their burden and is actually
+ jeopardizing their rights",color=blue];
+	419 [label="charging drivers
+ for another fee for this
+ could be unreasonable and irrational
+",color=green];
+	326 [label="Sometimes traffic jam occur only
+ due to the malfunction of
+ a traffic light , or
+ unreasonable organization of roadways",color=blue];
+	370 [label="charging drivers fees regardless of the
+ causes of the problems could
+ be ridiculous and even unlawful
+",color=green];
+	350 [label="the one who should be charged
+ for a fine is the
+ city planner , not drivers
 ",color=blue];
-	370 [label="charging drivers fees regardless of
- the causes of the problems
- could be ridiculous and even
- unlawful",color=green];
-	350 [label="the one who should be
- charged for a fine is
- the city planner , not
- drivers",color=blue];
-	370 [label="charging drivers fees regardless of
- the causes of the problems
- could be ridiculous and even
- unlawful",color=green];
+	370 [label="charging drivers fees regardless of the
+ causes of the problems could
+ be ridiculous and even unlawful
+",color=green];
 }

@@ -1,69 +1,9 @@
 digraph G {
-	101 -> 177;
-	130 -> 177;
-	150 -> 177;
-	189 -> 291;
-	219 -> 291;
-	235 -> 291;
-	251 -> 291;
-	264 -> 291;
-	101 [label="immigrants from varieties of nations
- have a day called multicultural
- day where people from each
- country prepare their food and
- traditional activities for displaying in
- the public venues",color=blue];
-	177 [label="sustaining the cultural values
- of immigrants is paramount essential
-",color=green];
-	130 [label="many australians come this day to
- enjoy the shows , learn
- about the cultures and admire
- the diverse values",color=blue];
-	177 [label="sustaining the cultural values
- of immigrants is paramount essential
-",color=green];
-	150 [label="these feedbacks , in turn ,
- help raise one’s pride of
- their cultures and help people
- understand each other more",color=blue];
-	177 [label="sustaining the cultural values
- of immigrants is paramount essential
-",color=green];
-	189 [label="it is
- crucial to keep one’s identity
- for they need a connection
- back to their country as
- well as teach their children
- their value of origin",color=blue];
-	291 [label="keeping the cultural traditions in
- the destination countries is tremendous
- important",color=green];
-	219 [label="children immigrated
- to a new country will
- face social troubles in school
- with new friends",color=blue];
-	291 [label="keeping the cultural traditions in
- the destination countries is tremendous
- important",color=green];
-	235 [label="in this new environment , parent
- should find friends coming from
- their same country",color=blue];
-	291 [label="keeping the cultural traditions in
- the destination countries is tremendous
- important",color=green];
-	251 [label="they can socialize in a
- very familiar manner as feeling
- being home",color=blue];
-	291 [label="keeping the cultural traditions in
- the destination countries is tremendous
- important",color=green];
+	264 -> 287;
 	264 [label="fail to
  create this familiarity makes them
  felt isolated , in the
  extreme can lead to social
  disorder like autism",color=blue];
-	291 [label="keeping the cultural traditions in
- the destination countries is tremendous
- important",color=green];
+	287 [label="it is clear",color=green];
 }

@@ -75,7 +75,7 @@ success (I)    0.000
 . (O)    0.000
 first (O)    0.000
 , (O)    0.000
-being (C)    0.000
+being (P)   42.000
 positively (I)    0.000
 different (I)    0.000
 from (I)    0.000
@@ -93,7 +93,7 @@ superior (I)    0.000
 than (I)    0.000
 others (I)    0.000
 . (O)    0.000
-as (P)  223.000
+as (P)   24.000
 living (I)    0.000
 in (I)    0.000
 a (I)    0.000
@@ -108,7 +108,7 @@ a (I)    0.000
 survival (I)    0.000
 game (I)    0.000
 . (O)    0.000
-only (P)  208.000
+only (P)    9.000
 who (I)    0.000
 has (I)    0.000
 the (I)    0.000
@@ -117,7 +117,7 @@ weapon (I)    0.000
 can (I)    0.000
 survive (I)    0.000
 . (O)    0.000
-if (P)  199.000
+if (C)    0.000
 you (I)    0.000
 don't (I)    0.000
 make (I)    0.000
@@ -261,8 +261,8 @@ a (I)    0.000
 tremendous (I)    0.000
 success (I)    0.000
 is (I)    0.000
-because (O)    0.000
-it (P)   54.000
+because (I)    0.000
+it (I)    0.000
 achieves (I)    0.000
 some (I)    0.000
 brilliant (I)    0.000

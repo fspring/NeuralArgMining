@@ -21,164 +21,165 @@ digraph G {
 	371 -> 381;
 	392 -> 381;
 	392 -> 416;
-	50 [label="if the good people always
- get an happy ending ,
- I donâ€™t think itâ€™s proper
+	50 [label="if the good people always get
+ an happy ending , I
+ don’t think it’s proper",color=green];
+	68 [label="if all the
+ story end up in the
+ same way , it will
+ be boring",color=blue];
+	68 [label="if all the
+ story end up in the
+ same way , it will
+ be boring",color=blue];
+	188 [label="we can’t always
+ let good people be rewarded
+ in movies or TV programs
 ",color=green];
-	68 [label="if all
- the story end up in
- the same way , it
- will be boring",color=blue];
-	68 [label="if all
- the story end up in
- the same way , it
- will be boring",color=blue];
-	188 [label="we canâ€™t
- always let good people be
- rewarded in movies or TV
- programs",color=green];
-	84 [label="If good people always win ,
- we can guess the ending
- of the movies or dramas
+	84 [label="If good
+ people always win , we
+ can guess the ending of
+ the movies or dramas",color=blue];
+	188 [label="we can’t always
+ let good people be rewarded
+ in movies or TV programs
+",color=green];
+	101 [label="Then we will feel less
+ interested in them",color=blue];
+	188 [label="we can’t always
+ let good people be rewarded
+ in movies or TV programs
+",color=green];
+	110 [label="But if the good people are
+ not always rewarded , we
+ will try to finish the
+ movie or dramas to find
+ out the end of the
+ story",color=blue];
+	188 [label="we can’t always
+ let good people be rewarded
+ in movies or TV programs
+",color=green];
+	141 [label="Hollywood stories usually have a
+ happy ending like a hero
+ beats a crime and get
+ a girl",color=blue];
+	188 [label="we can’t always
+ let good people be rewarded
+ in movies or TV programs
+",color=green];
+	159 [label="But now
+ many people , including me
+ , have been tired with
+ it",color=blue];
+	188 [label="we can’t always
+ let good people be rewarded
+ in movies or TV programs
+",color=green];
+	173 [label="I don’t want
+ to see the same kind
+ of ending again and again
 ",color=blue];
-	188 [label="we canâ€™t
- always let good people be
- rewarded in movies or TV
- programs",color=green];
-	101 [label="Then we will feel
- less interested in them",color=blue];
-	188 [label="we canâ€™t
- always let good people be
- rewarded in movies or TV
- programs",color=green];
-	110 [label="But if the good people
- are not always rewarded ,
- we will try to finish
- the movie or dramas to
- find out the end of
- the story",color=blue];
-	188 [label="we canâ€™t
- always let good people be
- rewarded in movies or TV
- programs",color=green];
-	141 [label="Hollywood stories usually have
- a happy ending like a
- hero beats a crime and
- get a girl",color=blue];
-	188 [label="we canâ€™t
- always let good people be
- rewarded in movies or TV
- programs",color=green];
-	159 [label="But now many people , including
- me , have been tired
- with it",color=blue];
-	188 [label="we canâ€™t
- always let good people be
- rewarded in movies or TV
- programs",color=green];
-	173 [label="I donâ€™t
- want to see the same
- kind of ending again and
- again",color=blue];
-	188 [label="we canâ€™t
- always let good people be
- rewarded in movies or TV
- programs",color=green];
-	202 [label="Even in the
- real world , good people
- can get a bad ending
- sometimes",color=blue];
-	234 [label="if children always watch the TV
- programs that good people get
- rewarded , they may think
- it will be true in
- the real world",color=green];
-	220 [label="it happen more often in
- the real world than in
- those movies",color=blue];
-	234 [label="if children always watch the TV
- programs that good people get
- rewarded , they may think
- it will be true in
- the real world",color=green];
-	234 [label="if children always watch the TV
- programs that good people get
- rewarded , they may think
- it will be true in
- the real world",color=green];
-	259 [label="They will be misleading by those
+	188 [label="we can’t always
+ let good people be rewarded
+ in movies or TV programs
+",color=green];
+	202 [label="Even in the real
+ world , good people can
+ get a bad ending sometimes
+",color=blue];
+	234 [label="if children
+ always watch the TV programs
+ that good people get rewarded
+ , they may think it
+ will be true in the
+ real world",color=green];
+	220 [label="it happen more often in the
+ real world than in those
  movies",color=blue];
-	259 [label="They will be misleading by those
- movies",color=blue];
-	416 [label="movies and TV programs
- should present different stories in
- which good people get reward
- or get nothing",color=green];
-	268 [label="they may
- act like good people in
- order to get reward",color=blue];
-	416 [label="movies and TV programs
- should present different stories in
- which good people get reward
- or get nothing",color=green];
-	280 [label="Once they find the good
- people are not always get
- rewarded , they may feel
- upset and not to be
- a good person",color=blue];
-	416 [label="movies and TV programs
- should present different stories in
- which good people get reward
- or get nothing",color=green];
-	308 [label="the good
- people do good things no
- matter the ending is good
- or not",color=blue];
-	416 [label="movies and TV programs
- should present different stories in
- which good people get reward
- or get nothing",color=green];
-	324 [label="we should tell this to the
- young children to avoid the
- misunderstanding",color=blue];
-	416 [label="movies and TV programs
- should present different stories in
- which good people get reward
- or get nothing",color=green];
-	340 [label="those good endings sometimes are
- helpful",color=blue];
-	381 [label="we should show people
- the truth in the stories
-",color=green];
-	347 [label="Some people may
- be encouraged to do good
- things",color=blue];
-	381 [label="we should show people
- the truth in the stories
-",color=green];
-	362 [label="this kind of
- behavior wonâ€™t last long",color=blue];
-	381 [label="we should show people
- the truth in the stories
-",color=green];
-	371 [label="someday they will realize
- the truth",color=blue];
-	381 [label="we should show people
- the truth in the stories
-",color=green];
-	381 [label="we should show people
- the truth in the stories
-",color=green];
-	392 [label="if they can
- , they will be good
- people no matter how the
- story ends",color=blue];
-	392 [label="if they can
- , they will be good
- people no matter how the
- story ends",color=blue];
-	416 [label="movies and TV programs
- should present different stories in
- which good people get reward
- or get nothing",color=green];
+	234 [label="if children
+ always watch the TV programs
+ that good people get rewarded
+ , they may think it
+ will be true in the
+ real world",color=green];
+	234 [label="if children
+ always watch the TV programs
+ that good people get rewarded
+ , they may think it
+ will be true in the
+ real world",color=green];
+	259 [label="They will
+ be misleading by those movies
+",color=blue];
+	259 [label="They will
+ be misleading by those movies
+",color=blue];
+	416 [label="movies and TV programs should
+ present different stories in which
+ good people get reward or
+ get nothing",color=green];
+	268 [label="they may act
+ like good people in order
+ to get reward",color=blue];
+	416 [label="movies and TV programs should
+ present different stories in which
+ good people get reward or
+ get nothing",color=green];
+	280 [label="Once they find the good people
+ are not always get rewarded
+ , they may feel upset
+ and not to be a
+ good person",color=blue];
+	416 [label="movies and TV programs should
+ present different stories in which
+ good people get reward or
+ get nothing",color=green];
+	308 [label="the good people
+ do good things no matter
+ the ending is good or
+ not",color=blue];
+	416 [label="movies and TV programs should
+ present different stories in which
+ good people get reward or
+ get nothing",color=green];
+	324 [label="we should
+ tell this to the young
+ children to avoid the misunderstanding
+",color=blue];
+	416 [label="movies and TV programs should
+ present different stories in which
+ good people get reward or
+ get nothing",color=green];
+	340 [label="those good endings sometimes are helpful
+",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	347 [label="Some people may be
+ encouraged to do good things
+",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	362 [label="this kind of behavior
+ won’t last long",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	371 [label="someday they will realize the
+ truth",color=blue];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	381 [label="we should show people the
+ truth in the stories",color=green];
+	392 [label="if they can ,
+ they will be good people
+ no matter how the story
+ ends",color=blue];
+	392 [label="if they can ,
+ they will be good people
+ no matter how the story
+ ends",color=blue];
+	416 [label="movies and TV programs should
+ present different stories in which
+ good people get reward or
+ get nothing",color=green];
 }

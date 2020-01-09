@@ -4,7 +4,7 @@ gosto (C)    0.000
 de (I)    0.000
 cavaco (I)    0.000
 . (O)    0.000
-sempre (P)  734.000
+sempre (P)    0.000
 o (I)    0.000
 apreciei (I)    0.000
 política (I)    0.000
@@ -23,7 +23,7 @@ de (I)    0.000
 o (I)    0.000
 afirmar (I)    0.000
 . (O)    0.000
-agora (P)  715.000
+agora (P)    0.000
 o (I)    0.000
 costume (I)    0.000
 é (I)    0.000

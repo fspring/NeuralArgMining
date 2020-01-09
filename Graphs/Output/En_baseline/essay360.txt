@@ -142,7 +142,7 @@ of (I)    0.000
 celebrity (I)    0.000
 status (I)    0.000
 . (O)    0.000
-this (P)   16.000
+this (O)    0.000
 is (O)    0.000
 detrimental (O)    0.000
 to (O)    0.000
@@ -176,7 +176,7 @@ accomplishments (I)    0.000
 . (O)    0.000
 firstly (O)    0.000
 , (O)    0.000
-celebrities (P)   59.000
+celebrities (P)  130.000
 such (I)    0.000
 as (I)    0.000
 sports (I)    0.000
@@ -197,7 +197,7 @@ fans (I)    0.000
 this (O)    0.000
 means (O)    0.000
 that (O)    0.000
-people (P)   38.000
+people (P)  109.000
 understand (I)    0.000
 that (I)    0.000
 the (I)    0.000
@@ -216,7 +216,7 @@ results (I)    0.000
 . (O)    0.000
 therefore (O)    0.000
 , (O)    0.000
-this (P)   19.000
+this (P)   90.000
 kind (I)    0.000
 of (I)    0.000
 self-made (I)    0.000
@@ -235,7 +235,7 @@ perseverance (I)    0.000
 . (O)    0.000
 secondly (O)    0.000
 , (O)    0.000
-other (C)    0.000
+other (P)   71.000
 celebrities (I)    0.000
 such (I)    0.000
 as (I)    0.000

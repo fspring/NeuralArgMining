@@ -58,7 +58,7 @@ the (O)    0.000
 one (O)    0.000
 hand (O)    0.000
 , (O)    0.000
-technology (P)   11.000
+technology (C)    0.000
 indeed (I)    0.000
 simplifies (I)    0.000
 people's (I)    0.000

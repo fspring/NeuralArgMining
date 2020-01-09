@@ -269,7 +269,7 @@ they (I)    0.000
 eat (I)    0.000
 , (O)    0.000
 because (O)    0.000
-some (P)  277.000
+some (P)    0.000
 industrial (I)    0.000
 foods (I)    0.000
 are (I)    0.000
@@ -280,7 +280,7 @@ their (I)    0.000
 health (I)    0.000
 , (O)    0.000
 so (O)    0.000
-they (P)  266.000
+they (P)    0.000
 should (I)    0.000
 buy (I)    0.000
 only (I)    0.000

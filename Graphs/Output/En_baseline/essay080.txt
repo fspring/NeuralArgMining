@@ -312,8 +312,8 @@ arguments (I)    0.000
 have (I)    0.000
 strong (I)    0.000
 supports (I)    0.000
-, (I)    0.000
-but (I)    0.000
+, (O)    0.000
+but (O)    0.000
 in (O)    0.000
 my (O)    0.000
 own (O)    0.000

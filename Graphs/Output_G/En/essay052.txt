@@ -1,19 +1,20 @@
 digraph G {
-	52 -> 156;
+	66 -> 52;
 	66 -> 156;
 	89 -> 156;
 	100 -> 156;
 	120 -> 156;
 	137 -> 156;
-	173 -> 226;
+	172 -> 226;
 	203 -> 226;
 	52 [label="it promotes the communication
  and interaction between different countries
- more conveniently and clearly",color=blue];
-	156 [label="the dominated status of english
- has destroyed culture diversity and
- many less-used languages become extinct
-",color=green];
+ more conveniently and clearly",color=green];
+	66 [label="in the ancient time ,
+ the different languages and geography
+ set barriers for people to
+ exchange their goods and ideas
+",color=blue];
 	66 [label="in the ancient time ,
  the different languages and geography
  set barriers for people to
@@ -53,7 +54,7 @@ digraph G {
  has destroyed culture diversity and
  many less-used languages become extinct
 ",color=green];
-	173 [label="english is a
+	172 [label="even english is a
  sophisticated language ; it does
  not express every detail of
  life especially in asia countries

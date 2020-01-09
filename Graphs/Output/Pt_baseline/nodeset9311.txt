@@ -50,7 +50,7 @@ que (I)    0.000
 o (I)    0.000
 espera (I)    0.000
 . (O)    0.000
-como (P)  688.000
+como (P)    0.000
 mostra (I)    0.000
 a (I)    0.000
 campanha (I)    0.000

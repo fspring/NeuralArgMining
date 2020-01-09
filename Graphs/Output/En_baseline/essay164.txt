@@ -202,7 +202,7 @@ their (I)    0.000
 current (I)    0.000
 job (I)    0.000
 because (O)    0.000
-it (P)    9.000
+it (P)   54.000
 help (I)    0.000
 them (I)    0.000
 improve (I)    0.000
@@ -211,7 +211,7 @@ professional (I)    0.000
 business (I)    0.000
 knowledge (I)    0.000
 . (O)    0.000
-having (C)    0.000
+having (P)   45.000
 professional (I)    0.000
 training (I)    0.000
 help (I)    0.000

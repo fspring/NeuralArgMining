@@ -7,12 +7,11 @@ digraph G {
  , por exemplo , de
  uma célula nossa da pele
  , alterando de forma direcionada
- a sua programação genética .
-",color=blue];
+ a sua programação genética",color=blue];
 	126 [label="Assim , talvez no futuro
  aquelas células estaminais do cordão
  umbilical , que congelamos aquando
  do nascimento dos nossos filhos
  , venham a ter plena
- utilidade ;",color=green];
+ utilidade",color=green];
 }

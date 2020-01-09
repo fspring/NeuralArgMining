@@ -6,63 +6,64 @@ digraph G {
 	169 -> 256;
 	182 -> 256;
 	229 -> 256;
-	35 [label="this industry has affected the
- cultural attributes and damaged the
- natural environment of the tourist
- destinations",color=green];
-	60 [label="tourists from different cultures will
- probably cause changes to the
- cultural identity of the tourist
- destinations",color=blue];
-	60 [label="tourists from different cultures will
- probably cause changes to the
- cultural identity of the tourist
- destinations",color=blue];
-	151 [label="international tourism can create
- negative impacts on the destination
- countries",color=green];
-	77 [label="Take Thailand for
- example , in the Vietnam
- War , many American soldiers
- came to Thailand for a
- break and involved in sexual
- and drug activities , these
- huge demands caused many local
- businesses opened and expanded ,
- even illegally involved in under-age
- prostitutes to maximize their profits
+	35 [label="this industry has affected the cultural
+ attributes and damaged the natural
+ environment of the tourist destinations
+",color=green];
+	60 [label="tourists from different cultures will probably
+ cause changes to the cultural
+ identity of the tourist destinations
 ",color=blue];
-	151 [label="international tourism can create
- negative impacts on the destination
- countries",color=green];
-	126 [label="This was due to
- the lack of adequate controls
- by authorities and lead to
- a bad image of Thailand
- tourism",color=blue];
-	151 [label="international tourism can create
- negative impacts on the destination
- countries",color=green];
-	169 [label="tourism increasingly create harms to the
- natural habitats of the destination
- appeals",color=blue];
-	256 [label="tourism has threatened the
- nature environments",color=green];
-	182 [label="As the Australiaâ€™s
- Great Barrier Reef has shown
- , the billion visitors per
- annum has generated immense destruction
- to this nature wonder ,
- namely breaking the corals caused
- by walking or throwing boatâ€™s
- anchors , dropping fuel and
- other sorts of pollutions",color=blue];
-	256 [label="tourism has threatened the
- nature environments",color=green];
-	229 [label="many marine lives have been endangered
- , in the extremes part
- of the reef become uninhabitable
- for these marine species",color=blue];
-	256 [label="tourism has threatened the
- nature environments",color=green];
+	60 [label="tourists from different cultures will probably
+ cause changes to the cultural
+ identity of the tourist destinations
+",color=blue];
+	151 [label="international tourism can create negative
+ impacts on the destination countries
+",color=green];
+	77 [label="Take Thailand for example
+ , in the Vietnam War
+ , many American soldiers came
+ to Thailand for a break
+ and involved in sexual and
+ drug activities , these huge
+ demands caused many local businesses
+ opened and expanded , even
+ illegally involved in under-age prostitutes
+ to maximize their profits",color=blue];
+	151 [label="international tourism can create negative
+ impacts on the destination countries
+",color=green];
+	126 [label="This was due to the
+ lack of adequate controls by
+ authorities and lead to a
+ bad image of Thailand tourism
+",color=blue];
+	151 [label="international tourism can create negative
+ impacts on the destination countries
+",color=green];
+	169 [label="tourism increasingly
+ create harms to the natural
+ habitats of the destination appeals
+",color=blue];
+	256 [label="tourism has threatened the nature
+ environments",color=green];
+	182 [label="As the Australia’s Great
+ Barrier Reef has shown ,
+ the billion visitors per annum
+ has generated immense destruction to
+ this nature wonder , namely
+ breaking the corals caused by
+ walking or throwing boat’s anchors
+ , dropping fuel and other
+ sorts of pollutions",color=blue];
+	256 [label="tourism has threatened the nature
+ environments",color=green];
+	229 [label="many marine
+ lives have been endangered ,
+ in the extremes part of
+ the reef become uninhabitable for
+ these marine species",color=blue];
+	256 [label="tourism has threatened the nature
+ environments",color=green];
 }

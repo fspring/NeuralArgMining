@@ -9,82 +9,82 @@ digraph G {
 	195 -> 252;
 	217 -> 252;
 	222 -> 252;
-	31 [label="we must help animals
- live safely and comfortably in
- their own environment",color=green];
-	60 [label="like we , human beings
- , animals are delivered to
- this world with genetic instincts
+	31 [label="we must help animals live
+ safely and comfortably in their
+ own environment",color=green];
+	60 [label="like we , human beings ,
+ animals are delivered to this
+ world with genetic instincts",color=blue];
+	44 [label="Many scientific
+ studies have revealed the detriment
+ that zoos have caused to
+ animals",color=green];
+	60 [label="like we , human beings ,
+ animals are delivered to this
+ world with genetic instincts",color=blue];
+	60 [label="like we , human beings ,
+ animals are delivered to this
+ world with genetic instincts",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	88 [label="When we captivate
+ animals and put them to
+ live a style of life
+ that they are unfamiliar with
+ , they begin to loose
+ those in-born instincts",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	117 [label="when they are released
+ or in the worst case
+ , when they escape ,
+ they act disorientated and this
+ contributes to the animal mortality
+ rate",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	150 [label="various zoos do not have the
+ proper implements or policies that
+ assure the quality of animal
+ care",color=green];
+	184 [label="I was
+ shocked by the cruelty which
+ animals were treated",color=blue];
+	184 [label="I was
+ shocked by the cruelty which
+ animals were treated",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	195 [label="I can not think of any
+ staff memeber who did not
+ have an improper behaviour towards
+ the animlas in the zoo
 ",color=blue];
-	44 [label="Many scientific studies have revealed the
- detriment that zoos have caused
- to animals",color=green];
-	60 [label="like we , human beings
- , animals are delivered to
- this world with genetic instincts
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	217 [label="They beat them up
 ",color=blue];
-	60 [label="like we , human beings
- , animals are delivered to
- this world with genetic instincts
-",color=blue];
-	252 [label="we have to
- assit animals and provide them
- the best quality of life
- possible",color=green];
-	88 [label="When we
- captivate animals and put them
- to live a style of
- life that they are unfamiliar
- with , they begin to
- loose those in-born instincts",color=blue];
-	252 [label="we have to
- assit animals and provide them
- the best quality of life
- possible",color=green];
-	117 [label="when they are
- released or in the worst
- case , when they escape
- , they act disorientated and
- this contributes to the animal
- mortality rate",color=blue];
-	252 [label="we have to
- assit animals and provide them
- the best quality of life
- possible",color=green];
-	150 [label="various zoos do not have
- the proper implements or policies
- that assure the quality of
- animal care",color=green];
-	184 [label="I was shocked by the cruelty
- which animals were treated",color=blue];
-	184 [label="I was shocked by the cruelty
- which animals were treated",color=blue];
-	252 [label="we have to
- assit animals and provide them
- the best quality of life
- possible",color=green];
-	195 [label="I can not think of
- any staff memeber who did
- not have an improper behaviour
- towards the animlas in the
- zoo",color=blue];
-	252 [label="we have to
- assit animals and provide them
- the best quality of life
- possible",color=green];
-	217 [label="They beat them
- up",color=blue];
-	252 [label="we have to
- assit animals and provide them
- the best quality of life
- possible",color=green];
-	222 [label="they did not
- wanted to eat their meals
- and then excused themselves saying
- that it was a way
- to train the animals",color=blue];
-	252 [label="we have to
- assit animals and provide them
- the best quality of life
- possible",color=green];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
+	222 [label="they did not wanted
+ to eat their meals and
+ then excused themselves saying that
+ it was a way to
+ train the animals",color=blue];
+	252 [label="we have to assit
+ animals and provide them the
+ best quality of life possible
+",color=green];
 }

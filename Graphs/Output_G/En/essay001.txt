@@ -1,26 +1,28 @@
 digraph G {
-	98 -> 237;
-	118 -> 237;
-	146 -> 237;
-	188 -> 237;
-	215 -> 237;
-	246 -> 357;
-	280 -> 357;
+	118 -> 98;
+	118 -> 215;
+	146 -> 215;
+	188 -> 215;
 	98 [label="through cooperation ,
  children can learn about interpersonal
  skills which are significant in
  the future life of all
- students",color=blue];
-	237 [label="competition makes the society
- more effective",color=green];
+ students",color=green];
 	118 [label="what we acquired
  from team work is not
  only how to achieve the
  same goal with others but
  more importantly , how to
  get along with others",color=blue];
-	237 [label="competition makes the society
- more effective",color=green];
+	118 [label="what we acquired
+ from team work is not
+ only how to achieve the
+ same goal with others but
+ more importantly , how to
+ get along with others",color=blue];
+	215 [label="the significance of competition is that
+ how to become more excellence
+ to gain the victory",color=green];
 	146 [label="during the process of cooperation
  , children can learn about
  how to listen to opinions
@@ -30,42 +32,15 @@ digraph G {
  even how to compromise with
  other team members when conflicts
  occurred",color=blue];
-	237 [label="competition makes the society
- more effective",color=green];
+	215 [label="the significance of competition is that
+ how to become more excellence
+ to gain the victory",color=green];
 	188 [label="all of these
  skills help them to get
  on well with other people
  and will benefit them for
  the whole life",color=blue];
-	237 [label="competition makes the society
- more effective",color=green];
 	215 [label="the significance of competition is that
  how to become more excellence
- to gain the victory",color=blue];
-	237 [label="competition makes the society
- more effective",color=green];
-	246 [label="when we consider about the
- question that how to win
- the game , we always
- find that we need the
- cooperation",color=blue];
-	357 [label="without the cooperation ,
- there would be no victory
- of competition",color=green];
-	280 [label="take olympic games which is a
- form of competition for instance
- , it is hard to
- imagine how an athlete could
- win the game without the
- training of his or her
- coach , and the help
- of other professional staffs such
- as the people who take
- care of his diet ,
- and those who are in
- charge of the medical care
-",color=blue];
-	357 [label="without the cooperation ,
- there would be no victory
- of competition",color=green];
+ to gain the victory",color=green];
 }

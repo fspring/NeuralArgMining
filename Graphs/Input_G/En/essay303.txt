@@ -18,146 +18,159 @@ digraph G {
 	361 -> 344;
 	361 -> 399;
 	376 -> 399;
-	76 [label="it is very important
- to live life at a
- slower pace",color=green];
-	117 [label="If you are
- always hurried and you do
- not take a certain time
- off , your body will
- react to your stressful lifestyle
+	76 [label="it is very important to
+ live life at a slower
+ pace",color=green];
+	117 [label="If you are always
+ hurried and you do not
+ take a certain time off
+ , your body will react
+ to your stressful lifestyle",color=blue];
+	101 [label="living your life on the
+ fast lane is very stressful
+ and can affect your health
+",color=green];
+	117 [label="If you are always
+ hurried and you do not
+ take a certain time off
+ , your body will react
+ to your stressful lifestyle",color=blue];
+	117 [label="If you are always
+ hurried and you do not
+ take a certain time off
+ , your body will react
+ to your stressful lifestyle",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	141 [label="Many hardworking people have diseases
+ , like the burn-out syndrome
 ",color=blue];
-	101 [label="living your life on
- the fast lane is very
- stressful and can affect your
- health",color=green];
-	117 [label="If you are
- always hurried and you do
- not take a certain time
- off , your body will
- react to your stressful lifestyle
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	153 [label="their bodies cannot
+ hold the pace",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	163 [label="my father had
+ a a breakdown several years
+ ago due to his stressful
+ job",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	178 [label="After several weeks
+ off his body was restored
+ , now he has reduced
+ the tempo of his lifestyle
+ and is doing fine",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	204 [label="living your
+ life at a slower pace
+ increases your happiness",color=green];
+	215 [label="If you are always facing excessive
+ stress you cannot care for
+ your beloved's",color=blue];
+	215 [label="If you are always facing excessive
+ stress you cannot care for
+ your beloved's",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	229 [label="If you
+ do not hurry yourself you
+ can take more time for
+ your family and friends",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	246 [label="Caring for your social environment
+ will increase your happiness and
+ also reduce your stress level
 ",color=blue];
-	117 [label="If you are
- always hurried and you do
- not take a certain time
- off , your body will
- react to your stressful lifestyle
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	265 [label="a friend of mine lives at
+ a slow pace and is
+ really satisfied about it",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	282 [label="he can enjoy his
+ family and cultivate his friendships
 ",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	141 [label="Many hardworking people have
- diseases , like the burn-out
- syndrome",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	153 [label="their bodies
- cannot hold the pace",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	163 [label="my father
- had a a breakdown several
- years ago due to his
- stressful job",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	178 [label="After several
- weeks off his body was
- restored , now he has
- reduced the tempo of his
- lifestyle and is doing fine
-",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	204 [label="living your life at a slower
- pace increases your happiness",color=green];
-	215 [label="If you are always facing
- excessive stress you cannot care
- for your beloved's",color=blue];
-	215 [label="If you are always facing
- excessive stress you cannot care
- for your beloved's",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	229 [label="If you do not hurry yourself
- you can take more time
- for your family and friends
-",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	246 [label="Caring for your social
- environment will increase your happiness
- and also reduce your stress
- level",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	265 [label="a friend of mine lives
- at a slow pace and
- is really satisfied about it
-",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	282 [label="he can enjoy
- his family and cultivate his
- friendships",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	294 [label="quality takes time",color=blue];
-	344 [label="you might make mistakes , you
- would not have done with
- more patience",color=green];
-	298 [label="When you
- are faced with difficult tasks
- and you do them in
- a rush , you are
- more likely to do avoidable
- errors or mistakes",color=blue];
-	344 [label="you might make mistakes , you
- would not have done with
- more patience",color=green];
-	324 [label="Doing tasks in a hurry may
- end up in not considering
- all necessary aspects or opportunities
-",color=blue];
-	344 [label="you might make mistakes , you
- would not have done with
- more patience",color=green];
-	344 [label="you might make mistakes , you
- would not have done with
- more patience",color=green];
-	361 [label="I once wrote an
- essay in a hurry and
- got a bad grade",color=blue];
-	361 [label="I once wrote an
- essay in a hurry and
- got a bad grade",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
-	376 [label="I made few mistakes
- I could have avoided",color=blue];
-	399 [label="living a slower life is advantageous
- for your health , your
- happiness and even the quality
- of your work",color=green];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	294 [label="quality takes
+ time",color=blue];
+	344 [label="you might
+ make mistakes , you would
+ not have done with more
+ patience",color=green];
+	298 [label="When you are
+ faced with difficult tasks and
+ you do them in a
+ rush , you are more
+ likely to do avoidable errors
+ or mistakes",color=blue];
+	344 [label="you might
+ make mistakes , you would
+ not have done with more
+ patience",color=green];
+	324 [label="Doing tasks
+ in a hurry may end
+ up in not considering all
+ necessary aspects or opportunities",color=blue];
+	344 [label="you might
+ make mistakes , you would
+ not have done with more
+ patience",color=green];
+	344 [label="you might
+ make mistakes , you would
+ not have done with more
+ patience",color=green];
+	361 [label="I once wrote an essay
+ in a hurry and got
+ a bad grade",color=blue];
+	361 [label="I once wrote an essay
+ in a hurry and got
+ a bad grade",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
+	376 [label="I made few mistakes I
+ could have avoided",color=blue];
+	399 [label="living a
+ slower life is advantageous for
+ your health , your happiness
+ and even the quality of
+ your work",color=green];
 }

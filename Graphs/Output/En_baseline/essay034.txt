@@ -298,7 +298,7 @@ find (I)    0.000
 a (I)    0.000
 job (I)    0.000
 , (O)    0.000
-studying (P)   12.000
+studying (P)    0.000
 at (I)    0.000
 school (I)    0.000
 is (I)    0.000
@@ -310,7 +310,7 @@ for (I)    0.000
 children's (I)    0.000
 future (I)    0.000
 . (O)    0.000
-there (C)    0.000
+there (P)    0.000
 are (I)    0.000
 many (I)    0.000
 ways (I)    0.000

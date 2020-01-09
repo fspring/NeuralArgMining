@@ -11,92 +11,95 @@ digraph G {
 	255 -> 293;
 	262 -> 293;
 	281 -> 293;
-	29 [label="students should study a broad range
- of subjects from literature to
- mathematics",color=green];
-	94 [label="They should not decide their future
- major without trying a broad
- range of subjects , otherwise
- they might miss valuable encounter
- with the subject",color=blue];
-	77 [label="students have to
- find one or more fields
- of study in which they
- are really interested",color=green];
-	94 [label="They should not decide their future
- major without trying a broad
- range of subjects , otherwise
- they might miss valuable encounter
- with the subject",color=blue];
-	94 [label="They should not decide their future
- major without trying a broad
- range of subjects , otherwise
- they might miss valuable encounter
- with the subject",color=blue];
-	307 [label="students should find
- interesting subjects and acquire general
- knowledge to prepare higher education
- at tertiary education",color=green];
-	122 [label="a would-be mathematician
- student may be strongly intrigued
- by philosophy and make a
- success in the field",color=blue];
-	307 [label="students should find
- interesting subjects and acquire general
- knowledge to prepare higher education
- at tertiary education",color=green];
-	142 [label="students should obtain
- knowledge from a variety of
- academic fields",color=blue];
-	237 [label="high school students
- should learn broadly and prepare
- future learning at university",color=green];
-	153 [label="General education
- plays a significant role in
- specialized education",color=blue];
-	237 [label="high school students
- should learn broadly and prepare
- future learning at university",color=green];
-	163 [label="Science today
- , for example , is
- said to be more and
- more specialized , but in
- order to solve a problem
- scientists have to combine knowledge
- from chemistry to physics",color=blue];
-	237 [label="high school students
- should learn broadly and prepare
- future learning at university",color=green];
-	199 [label="textbooks used in higher education are
- labelled particular subjects , in
- fact they require basic understanding
- of other subjects",color=blue];
-	237 [label="high school students
- should learn broadly and prepare
- future learning at university",color=green];
-	222 [label="you sometimes need
- knowledge about physics to read
- a text on chemistry",color=blue];
-	237 [label="high school students
- should learn broadly and prepare
- future learning at university",color=green];
-	255 [label="students have tendency to shun
- difficulties",color=blue];
-	293 [label="schools should
- be responsible for their future
- and protect them",color=green];
-	262 [label="They might avoid
- tough courses , but instead
- attend mainly Mickey Mouse courses
- and enjoy themselves too much
+	29 [label="students should
+ study a broad range of
+ subjects from literature to mathematics
+",color=green];
+	94 [label="They should
+ not decide their future major
+ without trying a broad range
+ of subjects , otherwise they
+ might miss valuable encounter with
+ the subject",color=blue];
+	77 [label="students have to find
+ one or more fields of
+ study in which they are
+ really interested",color=green];
+	94 [label="They should
+ not decide their future major
+ without trying a broad range
+ of subjects , otherwise they
+ might miss valuable encounter with
+ the subject",color=blue];
+	94 [label="They should
+ not decide their future major
+ without trying a broad range
+ of subjects , otherwise they
+ might miss valuable encounter with
+ the subject",color=blue];
+	307 [label="students should find interesting
+ subjects and acquire general knowledge
+ to prepare higher education at
+ tertiary education",color=green];
+	122 [label="a would-be mathematician student
+ may be strongly intrigued by
+ philosophy and make a success
+ in the field",color=blue];
+	307 [label="students should find interesting
+ subjects and acquire general knowledge
+ to prepare higher education at
+ tertiary education",color=green];
+	142 [label="students should obtain knowledge
+ from a variety of academic
+ fields",color=blue];
+	237 [label="high school students should
+ learn broadly and prepare future
+ learning at university",color=green];
+	153 [label="General education plays
+ a significant role in specialized
+ education",color=blue];
+	237 [label="high school students should
+ learn broadly and prepare future
+ learning at university",color=green];
+	163 [label="Science today ,
+ for example , is said
+ to be more and more
+ specialized , but in order
+ to solve a problem scientists
+ have to combine knowledge from
+ chemistry to physics",color=blue];
+	237 [label="high school students should
+ learn broadly and prepare future
+ learning at university",color=green];
+	199 [label="textbooks used
+ in higher education are labelled
+ particular subjects , in fact
+ they require basic understanding of
+ other subjects",color=blue];
+	237 [label="high school students should
+ learn broadly and prepare future
+ learning at university",color=green];
+	222 [label="you sometimes need knowledge
+ about physics to read a
+ text on chemistry",color=blue];
+	237 [label="high school students should
+ learn broadly and prepare future
+ learning at university",color=green];
+	255 [label="students have tendency to shun difficulties
 ",color=blue];
-	293 [label="schools should
- be responsible for their future
- and protect them",color=green];
-	281 [label="This might result in
- limited choices in the future
-",color=blue];
-	293 [label="schools should
- be responsible for their future
- and protect them",color=green];
+	293 [label="schools should be
+ responsible for their future and
+ protect them",color=green];
+	262 [label="They might avoid tough
+ courses , but instead attend
+ mainly Mickey Mouse courses and
+ enjoy themselves too much",color=blue];
+	293 [label="schools should be
+ responsible for their future and
+ protect them",color=green];
+	281 [label="This might result in limited
+ choices in the future",color=blue];
+	293 [label="schools should be
+ responsible for their future and
+ protect them",color=green];
 }

@@ -14,135 +14,124 @@ digraph G {
 	242 -> 331;
 	259 -> 331;
 	279 -> 331;
-	42 [label="all people who
- are able to work should
- pay tax to the government
-",color=green];
-	57 [label="it is the
- most important source of government's
- revenue , which is mainly
- used to serve all citizens
+	42 [label="all people who are
+ able to work should pay
+ tax to the government",color=green];
+	57 [label="it is the most
+ important source of government's revenue
+ , which is mainly used
+ to serve all citizens",color=blue];
+	57 [label="it is the most
+ important source of government's revenue
+ , which is mainly used
+ to serve all citizens",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	79 [label="a large
+ proportion of the tax is
+ spent on national defence and
+ in maintaining social stability",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	98 [label="every one can
+ work and live in a
+ peaceful environment",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	109 [label="The tax
+ is also used to pay
+ the salaries of workers working
+ in public service sectors ,
+ such as teachers and police
+ officers",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	134 [label="these workers
+ do not produce profit directly
 ",color=blue];
-	57 [label="it is the
- most important source of government's
- revenue , which is mainly
- used to serve all citizens
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	142 [label="what they do is
+ for the well-being of the
+ whole society",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	160 [label="citizens have other important responsibilities to
+ fulfil apart from paying tax
+",color=green];
+	176 [label="there are impoverished or disabled
+ people in every society ,
+ needing help and support from
+ others",color=blue];
+	176 [label="there are impoverished or disabled
+ people in every society ,
+ needing help and support from
+ others",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	197 [label="the government can provide
+ some fund to ease their
+ difficulties",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	209 [label="such financial
+ help is usually far from
+ enough",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	222 [label="aids from more capable
+ or wealthier citizens are particularly
+ crucial , which are a
+ great complement to government support
 ",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	79 [label="a large proportion of the tax
- is spent on national defence
- and in maintaining social stability
-",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	98 [label="every one
- can work and live in
- a peaceful environment",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	109 [label="The tax is also used to
- pay the salaries of workers
- working in public service sectors
- , such as teachers and
- police officers",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	134 [label="these workers do not produce profit
- directly",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	142 [label="what they do
- is for the well-being of
- the whole society",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	160 [label="citizens have other important responsibilities
- to fulfil apart from paying
- tax",color=green];
-	176 [label="there are impoverished or
- disabled people in every society
- , needing help and support
- from others",color=blue];
-	176 [label="there are impoverished or
- disabled people in every society
- , needing help and support
- from others",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	197 [label="the government can
- provide some fund to ease
- their difficulties",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	209 [label="such financial help is usually far
- from enough",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	222 [label="aids from more
- capable or wealthier citizens are
- particularly crucial , which are
- a great complement to government
- support",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	242 [label="Another responsibility all
- citizens should take is to
- maintain social stability together with
- the police force",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	259 [label="There are criminals in every society
- , and the number of
- policemen the government can hire
- is limited",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
-	279 [label="it is quite necessary for the
- local residents to take actions
- and ensure the safety of
- the communities , by doing
- things like reporting suspicious activities
- to the police department",color=blue];
-	331 [label="they have other critical
- obligations to take , in
- order to make our society
- function in an ordered way
-",color=green];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	242 [label="Another responsibility all citizens
+ should take is to maintain
+ social stability together with the
+ police force",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	259 [label="There are
+ criminals in every society ,
+ and the number of policemen
+ the government can hire is
+ limited",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
+	279 [label="it is
+ quite necessary for the local
+ residents to take actions and
+ ensure the safety of the
+ communities , by doing things
+ like reporting suspicious activities to
+ the police department",color=blue];
+	331 [label="they have other critical obligations
+ to take , in order
+ to make our society function
+ in an ordered way",color=green];
 }

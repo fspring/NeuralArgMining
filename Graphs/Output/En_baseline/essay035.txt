@@ -45,7 +45,7 @@ with (O)    0.000
 this (O)    0.000
 view (O)    0.000
 . (O)    0.000
-to (P)  128.000
+to (P)   24.000
 boost (I)    0.000
 their (I)    0.000
 sales (I)    0.000
@@ -69,7 +69,7 @@ of (O)    0.000
 the (O)    0.000
 time (O)    0.000
 , (O)    0.000
-it (P)  104.000
+it (C)    0.000
 is (I)    0.000
 not (I)    0.000
 about (I)    0.000

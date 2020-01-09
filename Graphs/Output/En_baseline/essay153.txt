@@ -100,12 +100,12 @@ to (I)    0.000
 understand (I)    0.000
 the (I)    0.000
 money (I)    0.000
-management (O)    0.000
-basics (O)    0.000
+management (I)    0.000
+basics (I)    0.000
 is (O)    0.000
 , (O)    0.000
 primarily (O)    0.000
-when (P)  211.000
+when (P)  186.000
 secondary (I)    0.000
 school (I)    0.000
 students (I)    0.000
@@ -155,7 +155,7 @@ confidence (I)    0.000
 for (O)    0.000
 example (O)    0.000
 , (O)    0.000
-while (P)  161.000
+while (P)  136.000
 i (I)    0.000
 was (I)    0.000
 a (I)    0.000
@@ -209,7 +209,7 @@ expenses (I)    0.000
 in (O)    0.000
 addition (O)    0.000
 , (O)    0.000
-if (P)  107.000
+if (P)   82.000
 financial (I)    0.000
 management (I)    0.000
 is (I)    0.000
@@ -248,7 +248,7 @@ minimized (I)    0.000
 for (O)    0.000
 example (O)    0.000
 , (O)    0.000
-buying (P)   68.000
+buying (P)   43.000
 a (I)    0.000
 gaming (I)    0.000
 console (I)    0.000
@@ -269,7 +269,7 @@ background (I)    0.000
 . (O)    0.000
 however (O)    0.000
 , (O)    0.000
-for (P)   47.000
+for (P)   22.000
 a (I)    0.000
 student (I)    0.000
 coming (I)    0.000
@@ -291,7 +291,7 @@ hour (I)    0.000
 . (O)    0.000
 hence (O)    0.000
 , (O)    0.000
-having (P)   25.000
+having (C)    0.000
 exposed (I)    0.000
 to (I)    0.000
 money (I)    0.000

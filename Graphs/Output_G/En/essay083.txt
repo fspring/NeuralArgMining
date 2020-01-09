@@ -1,21 +1,37 @@
 digraph G {
-	92 -> 131;
-	102 -> 131;
-	147 -> 223;
-	175 -> 223;
-	197 -> 223;
-	244 -> 277;
+	92 -> 78;
+	92 -> 197;
+	102 -> 197;
+	147 -> 131;
+	147 -> 197;
+	244 -> 197;
+	78 [label="pursuit of nuclear
+ technology one way or the
+ other leads towards atomic weapons
+",color=green];
 	92 [label="last century has witnessed
  the horrors of such weapons
 ",color=blue];
-	131 [label="even civil usages of atomic
- power pose a dire threat
- of radio activity",color=green];
+	92 [label="last century has witnessed
+ the horrors of such weapons
+",color=blue];
+	197 [label="while generating energy from
+ any source be it hydro
+ power or oil there always
+ is some wastage and so
+ is the case with nuclear
+ power",color=green];
 	102 [label="if each country pursues
  the fusion and fission process
  some of them may try
  to mold it for military
  usage",color=blue];
+	197 [label="while generating energy from
+ any source be it hydro
+ power or oil there always
+ is some wastage and so
+ is the case with nuclear
+ power",color=green];
 	131 [label="even civil usages of atomic
  power pose a dire threat
  of radio activity",color=green];
@@ -25,38 +41,27 @@ digraph G {
  of radio active material into
  air when an earthquake hit
  the surrounding area",color=blue];
-	223 [label="safely getting rid
- of nuclear waste is a
- daunting task and there has
- not been any permanent solution
- of it",color=green];
-	175 [label="this unfortunate event proves that no
- matter how much careful we
- are such accidents are inevitable
-",color=blue];
-	223 [label="safely getting rid
- of nuclear waste is a
- daunting task and there has
- not been any permanent solution
- of it",color=green];
+	147 [label="recently there has been
+ an incident in which an
+ atomic power house leaked tons
+ of radio active material into
+ air when an earthquake hit
+ the surrounding area",color=blue];
 	197 [label="while generating energy from
  any source be it hydro
  power or oil there always
  is some wastage and so
  is the case with nuclear
- power",color=blue];
-	223 [label="safely getting rid
- of nuclear waste is a
- daunting task and there has
- not been any permanent solution
- of it",color=green];
+ power",color=green];
+	197 [label="while generating energy from
+ any source be it hydro
+ power or oil there always
+ is some wastage and so
+ is the case with nuclear
+ power",color=green];
 	244 [label="this waste
  is many times more lethal
  to our environment than any
  of the other hazardous material
 ",color=blue];
-	277 [label="nuclear power may appear
- silver bullet for energy crisis
- but its disadvantages far outweigh
- the advantages",color=green];
 }

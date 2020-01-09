@@ -2,17 +2,15 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import os
 
-# golden_path = 'Input_G/Pt'
-# predict_path = 'Output_G/Pt'
-golden_path = 'Input_G/En'
-predict_path = 'Output_G/En'
+golden_path = 'Input_G/Pt'
+predict_path = 'Output_G/Pt'
+# golden_path = 'Input_G/En'
+# predict_path = 'Output_G/En'
 
 def node_subst_cost(n1, n2):
     text1 = n1['label'].lower()
     text2 = n2['label'].lower()
-    text1 = text1.replace('\"', '')
     text1 = text1.replace('\n', '')
-    text2 = text2.replace('\"', '')
     text2 = text2.replace('\n', '')
     text1 = text1.split(' ')
     text2 = text2.split(' ')
@@ -43,8 +41,6 @@ def node_subst_cost(n1, n2):
             i += 1
     cost = max(size1, size2) - max_len
     return cost
-
-
 
 
 golden_files = [f for f in os.listdir(golden_path) if os.path.isfile(os.path.join(golden_path, f))]

@@ -15,5 +15,5 @@ digraph G {
  , e em 2009 foi
  acusado de não ajudar o
  PSD embora Sócrates o acusasse
- do contrário .",color=blue];
+ do contrário",color=blue];
 }

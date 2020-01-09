@@ -1,95 +1,73 @@
 digraph G {
-	51 -> 165;
-	71 -> 165;
-	89 -> 165;
-	97 -> 165;
-	108 -> 165;
-	129 -> 165;
-	141 -> 165;
-	153 -> 165;
-	192 -> 345;
-	208 -> 345;
-	257 -> 345;
-	271 -> 345;
-	295 -> 345;
-	310 -> 345;
+	51 -> 141;
+	89 -> 177;
+	129 -> 177;
+	153 -> 141;
+	153 -> 177;
+	192 -> 354;
+	208 -> 354;
+	235 -> 345;
 	323 -> 345;
 	51 [label="an international sporting event is
  normal held in a country
  with huge interest from fans
  all over the world",color=blue];
-	165 [label="it really help to alleviate the
- tension",color=green];
-	71 [label="for the time of occasions
- , people regardless of nationality
- , origin and religion will
- live together",color=blue];
-	165 [label="it really help to alleviate the
- tension",color=green];
+	141 [label="due to this event north
+ korea showed a friendship and
+ enthuasism",color=green];
 	89 [label="people can
  understand more about a country
-",color=blue];
-	165 [label="it really help to alleviate the
- tension",color=green];
-	97 [label="it is useful to
+ , it is useful to
  ease tensions between nations",color=blue];
-	165 [label="it really help to alleviate the
- tension",color=green];
-	108 [label="in fifa world
- cup 2010 , the relation
- between north korea and south
- korea is dangerous for the
- warship sinking",color=blue];
-	165 [label="it really help to alleviate the
- tension",color=green];
+	177 [label="an international sporting event
+ also helps fans release patriotic
+ emotions in a safe way
+",color=green];
 	129 [label="the world
  suspected north korea of the
  aggressive action",color=blue];
-	165 [label="it really help to alleviate the
- tension",color=green];
+	177 [label="an international sporting event
+ also helps fans release patriotic
+ emotions in a safe way
+",color=green];
 	141 [label="due to this event north
  korea showed a friendship and
- enthuasism",color=blue];
-	165 [label="it really help to alleviate the
- tension",color=green];
+ enthuasism",color=green];
 	153 [label="it is rare
  times when people can learn
  about this country",color=blue];
-	165 [label="it really help to alleviate the
- tension",color=green];
+	153 [label="it is rare
+ times when people can learn
+ about this country",color=blue];
+	177 [label="an international sporting event
+ also helps fans release patriotic
+ emotions in a safe way
+",color=green];
 	192 [label="when they garther together
  to encourage their team ,
  they will show their patriotic
  emotions",color=blue];
-	345 [label="international sporting events will draw the
- international concern",color=green];
+	354 [label="it will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
 	208 [label="regardless of the
  competition between teams , their
  emotions are always released in
  a safe way due to
  the sole passion of the
  sport",color=blue];
-	345 [label="international sporting events will draw the
- international concern",color=green];
-	257 [label="they will try to
- create a beautiful image about
- their land and people",color=blue];
-	345 [label="international sporting events will draw the
- international concern",color=green];
-	271 [label="in olympic beijing 2008 ,
- chinese tried thier best to
- bring the world a spectacular
- image about their country",color=blue];
-	345 [label="international sporting events will draw the
- international concern",color=green];
-	295 [label="foreigners came here always received the
- support of friendly volunteers who
- were young students",color=blue];
-	345 [label="international sporting events will draw the
- international concern",color=green];
-	310 [label="they were welcomed by each chinese
- hospitality , beauty in each
- cities",color=blue];
+	354 [label="it will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
+	235 [label="all fans know that a sport
+ event will attract the attention
+ of whole the world and
+ a lot of public media
+",color=blue];
 	345 [label="international sporting events will draw the
  international concern",color=green];
 	323 [label="everythings is created

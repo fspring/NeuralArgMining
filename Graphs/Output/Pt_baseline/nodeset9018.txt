@@ -15,14 +15,14 @@ fazer (I)    0.000
 um (I)    0.000
 discurso (I)    0.000
 forte (I)    0.000
-para (I)    0.000
-matar (I)    0.000
+para (O)    0.000
+matar (P)   34.000
 as (I)    0.000
 suas (I)    0.000
 antigas (I)    0.000
 declarações (I)    0.000
-e (I)    0.000
-anunciar (I)    0.000
+e (O)    0.000
+anunciar (P)   28.000
 uma (I)    0.000
 nova (I)    0.000
 política (I)    0.000
@@ -62,7 +62,7 @@ antes (I)    0.000
 do (I)    0.000
 verão (I)    0.000
 – (O)    0.000
-durante (P)  676.000
+durante (P)    0.000
 o (I)    0.000
 qual (I)    0.000
 o (I)    0.000

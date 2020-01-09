@@ -120,7 +120,7 @@ in (I)    0.000
 many (I)    0.000
 aspects (I)    0.000
 . (O)    0.000
-developing (P)   72.000
+developing (P)  101.000
 globalization (I)    0.000
 , (I)    0.000
 people (I)    0.000
@@ -155,7 +155,7 @@ world (I)    0.000
 in (O)    0.000
 addition (O)    0.000
 , (O)    0.000
-they (P)   37.000
+they (P)   66.000
 admit (I)    0.000
 that (I)    0.000
 globalization (I)    0.000
@@ -192,7 +192,7 @@ globalization (O)    0.000
 idea (O)    0.000
 point (O)    0.000
 out (O)    0.000
-globalization (C)    0.000
+globalization (P)   29.000
 results (I)    0.000
 in (I)    0.000
 considerable (I)    0.000
@@ -200,9 +200,9 @@ decrease (I)    0.000
 in (I)    0.000
 global (I)    0.000
 tension (I)    0.000
-due (O)    0.000
-to (O)    0.000
-convergence (P)   19.000
+due (I)    0.000
+to (I)    0.000
+convergence (I)    0.000
 of (I)    0.000
 benefits (I)    0.000
 of (I)    0.000

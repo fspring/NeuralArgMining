@@ -83,10 +83,10 @@ a (O)    0.000
 small (O)    0.000
 town (O)    0.000
 . (O)    0.000
-in (P)   49.000
-here (I)    0.000
-, (I)    0.000
-i (I)    0.000
+in (O)    0.000
+here (O)    0.000
+, (O)    0.000
+i (P)   71.000
 have (I)    0.000
 a (I)    0.000
 lot (I)    0.000
@@ -116,7 +116,7 @@ lot (I)    0.000
 of (I)    0.000
 fun (I)    0.000
 . (O)    0.000
-every (P)   16.000
+every (P)   41.000
 people (I)    0.000
 in (I)    0.000
 my (I)    0.000
@@ -132,7 +132,7 @@ have (I)    0.000
 good (I)    0.000
 relationships (I)    0.000
 . (O)    0.000
-if (C)    0.000
+if (P)   25.000
 anyone (I)    0.000
 needs (I)    0.000
 help (I)    0.000
@@ -162,8 +162,8 @@ want (I)    0.000
 to (I)    0.000
 live (I)    0.000
 here (I)    0.000
-because (O)    0.000
-i (P)   61.000
+because (I)    0.000
+i (I)    0.000
 love (I)    0.000
 the (I)    0.000
 traffic (I)    0.000
@@ -171,7 +171,7 @@ system (I)    0.000
 in (I)    0.000
 here (I)    0.000
 . (O)    0.000
-we (P)   53.000
+we (P)  116.000
 have (I)    0.000
 large (I)    0.000
 streets (I)    0.000
@@ -180,14 +180,14 @@ few (I)    0.000
 cars (I)    0.000
 , (O)    0.000
 so (O)    0.000
-we (P)   44.000
+we (P)  107.000
 can (I)    0.000
 move (I)    0.000
 easily (I)    0.000
 to (I)    0.000
 anywhere (I)    0.000
 . (O)    0.000
-last (P)   37.000
+last (P)  100.000
 week (I)    0.000
 , (I)    0.000
 i (I)    0.000
@@ -201,7 +201,7 @@ meet (I)    0.000
 my (I)    0.000
 friends (I)    0.000
 . (O)    0.000
-the (P)   23.000
+the (P)   86.000
 traffic (I)    0.000
 in (I)    0.000
 the (I)    0.000
@@ -210,7 +210,7 @@ was (I)    0.000
 too (I)    0.000
 crowed (I)    0.000
 . (O)    0.000
-i (P)   14.000
+i (P)   77.000
 have (I)    0.000
 to (I)    0.000
 wait (I)    0.000
@@ -224,7 +224,7 @@ my (I)    0.000
 friend (I)    0.000
 house (I)    0.000
 . (O)    0.000
-i (C)    0.000
+i (P)   63.000
 also (I)    0.000
 love (I)    0.000
 the (I)    0.000
@@ -272,8 +272,8 @@ a (I)    0.000
 lot (I)    0.000
 of (I)    0.000
 people (I)    0.000
-so (O)    0.000
-the (P)   14.000
+so (I)    0.000
+the (I)    0.000
 environment (I)    0.000
 can't (I)    0.000
 be (I)    0.000
@@ -311,7 +311,7 @@ lot (I)    0.000
 of (I)    0.000
 experiences (I)    0.000
 but (O)    0.000
-living (P)  235.000
+living (P)    0.000
 in (I)    0.000
 one (I)    0.000
 place (I)    0.000

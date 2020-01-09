@@ -66,7 +66,7 @@ of (I)    0.000
 modern (I)    0.000
 technology (I)    0.000
 . (O)    0.000
-many (P)  132.000
+many (P)   87.000
 years (I)    0.000
 ago (I)    0.000
 , (I)    0.000
@@ -113,9 +113,9 @@ be (I)    0.000
 delivered (I)    0.000
 . (O)    0.000
 but (O)    0.000
-nowadays (P)   85.000
-, (I)    0.000
-all (I)    0.000
+nowadays (O)    0.000
+, (O)    0.000
+all (P)   38.000
 people (I)    0.000
 can (I)    0.000
 take (I)    0.000
@@ -153,7 +153,7 @@ delivered (I)    0.000
 or (I)    0.000
 not (I)    0.000
 . (O)    0.000
-another (P)   45.000
+another (C)    0.000
 important (I)    0.000
 aspect (I)    0.000
 on (I)    0.000

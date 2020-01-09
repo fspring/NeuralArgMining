@@ -4,5 +4,5 @@ digraph G {
 ",color=green];
 	17 [label="achava que havia um
  mínimo de cuidado quando se
- mexesse na Educação .",color=blue];
+ mexesse na Educação",color=blue];
 }

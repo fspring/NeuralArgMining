@@ -1,34 +1,50 @@
 digraph G {
-	83 -> 183;
-	99 -> 183;
-	124 -> 183;
+	83 -> 25;
+	83 -> 70;
+	83 -> 267;
+	99 -> 207;
 	140 -> 183;
 	163 -> 183;
-	207 -> 254;
-	220 -> 254;
+	220 -> 207;
+	220 -> 267;
+	254 -> 267;
+	25 [label="high school should permit students to
+ choose courses they want for
+ several reasons which are freedom
+ of choice , to have
+ progress in students grades and
+ knowledge as well as to
+ help students explore their aptitude
+",color=green];
 	83 [label="not allowing students
  their desired subjects to be
  chosen is a restriction of
  human rights",color=blue];
-	183 [label="giving chance students
- to choose their interested fields
- of study is merit",color=green];
+	70 [label="students should have a right to
+ choose what they want to
+ study",color=green];
+	83 [label="not allowing students
+ their desired subjects to be
+ chosen is a restriction of
+ human rights",color=blue];
+	83 [label="not allowing students
+ their desired subjects to be
+ chosen is a restriction of
+ human rights",color=blue];
+	267 [label="a young women i
+ want my children to get
+ knowledge they have desire to
+ study in order to have
+ distinguished achievement so",color=green];
 	99 [label="as children
  of independent country we should
  know our rights and opportunities
  we have in order to
  achieve our goals and dreams
 ",color=blue];
-	183 [label="giving chance students
- to choose their interested fields
- of study is merit",color=green];
-	124 [label="students should
- choose their classes to have
- progress in their studies and
- grades",color=blue];
-	183 [label="giving chance students
- to choose their interested fields
- of study is merit",color=green];
+	207 [label="he or she can
+ explore in an area she/he
+ has an aptitude",color=green];
 	140 [label="we can avoid conflicts among students
  and teachers which can be
  enjoyable and productive for both
@@ -46,10 +62,7 @@ digraph G {
  of study is merit",color=green];
 	207 [label="he or she can
  explore in an area she/he
- has an aptitude",color=blue];
-	254 [label="this type
- of opportunities can raise future
- geniuses",color=green];
+ has an aptitude",color=green];
 	220 [label="when schools can give such kind
  of opportunity the students are
  likely do their best and
@@ -57,7 +70,24 @@ digraph G {
  which is one of the
  point most people get education
 ",color=blue];
+	220 [label="when schools can give such kind
+ of opportunity the students are
+ likely do their best and
+ succeed in their future lives
+ which is one of the
+ point most people get education
+",color=blue];
+	267 [label="a young women i
+ want my children to get
+ knowledge they have desire to
+ study in order to have
+ distinguished achievement so",color=green];
 	254 [label="this type
  of opportunities can raise future
- geniuses",color=green];
+ geniuses",color=blue];
+	267 [label="a young women i
+ want my children to get
+ knowledge they have desire to
+ study in order to have
+ distinguished achievement so",color=green];
 }

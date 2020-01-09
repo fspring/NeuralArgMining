@@ -40,8 +40,8 @@ to (I)    0.000
 think (I)    0.000
 about (I)    0.000
 affordability (I)    0.000
-. (I)    0.000
-i (I)    0.000
+. (O)    0.000
+i (O)    0.000
 have (O)    0.000
 observed (O)    0.000
 that (O)    0.000

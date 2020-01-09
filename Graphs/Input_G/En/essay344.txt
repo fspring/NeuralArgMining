@@ -13,109 +13,101 @@ digraph G {
 	284 -> 273;
 	284 -> 335;
 	293 -> 335;
-	66 [label="in this occasion the
- government is not granted to
- hand in",color=green];
-	91 [label="the modern artists who
- implement their creative thinking onto
- high value creation are paid
- with immense sum by the
- art collector",color=blue];
-	78 [label="Proficiency brings
- perfectness in terms of art
- work",color=green];
-	91 [label="the modern artists who
- implement their creative thinking onto
- high value creation are paid
- with immense sum by the
- art collector",color=blue];
-	91 [label="the modern artists who
- implement their creative thinking onto
- high value creation are paid
- with immense sum by the
- art collector",color=blue];
-	335 [label="government cannot take steps to
- make the salary between modern
- artists and other job similar
+	66 [label="in this occasion the government
+ is not granted to hand
+ in",color=green];
+	91 [label="the modern artists who implement
+ their creative thinking onto high
+ value creation are paid with
+ immense sum by the art
+ collector",color=blue];
+	78 [label="Proficiency brings perfectness
+ in terms of art work
 ",color=green];
-	115 [label="the high sum which modern
- artists receive is related to
- the quality instead of the
- quantity and their rare talent
+	91 [label="the modern artists who implement
+ their creative thinking onto high
+ value creation are paid with
+ immense sum by the art
+ collector",color=blue];
+	91 [label="the modern artists who implement
+ their creative thinking onto high
+ value creation are paid with
+ immense sum by the art
+ collector",color=blue];
+	335 [label="government cannot take steps to make
+ the salary between modern artists
+ and other job similar",color=green];
+	115 [label="the high sum which modern artists
+ receive is related to the
+ quality instead of the quantity
+ and their rare talent",color=blue];
+	335 [label="government cannot take steps to make
+ the salary between modern artists
+ and other job similar",color=green];
+	139 [label="a 15
+ centimeter Buddha temple made by
+ hand is granted times in
+ comparison with factory production",color=blue];
+	335 [label="government cannot take steps to make
+ the salary between modern artists
+ and other job similar",color=green];
+	161 [label="modern artists also devote themselves
+ find a unique concept in
+ which ordinary people cannot do
+ , such making impossible become
+ possible",color=blue];
+	335 [label="government cannot take steps to make
+ the salary between modern artists
+ and other job similar",color=green];
+	183 [label="Pieter Padang ,
+ Minion creator , has brilliant
+ idea to alter part of
+ song lyric I swear become
+ underwear when the Minion sing
+ in Despicable Me",color=blue];
+	335 [label="government cannot take steps to make
+ the salary between modern artists
+ and other job similar",color=green];
+	210 [label="He granted huge sums for such
+ idea",color=blue];
+	335 [label="government cannot take steps to make
+ the salary between modern artists
+ and other job similar",color=green];
+	221 [label="labor working in the merchandise
+ factory receive coin of dollar
+ even they make a hundred
+ of 15 cm Buddha temples
+ a day",color=blue];
+	273 [label="government cannot equalize
+ the price of creation of
+ modern artist",color=green];
+	248 [label="a musician playing
+ I swear several times receives
+ different earnings that Padang got
 ",color=blue];
-	335 [label="government cannot take steps to
- make the salary between modern
- artists and other job similar
-",color=green];
-	139 [label="a 15 centimeter Buddha temple made
- by hand is granted times
- in comparison with factory production
-",color=blue];
-	335 [label="government cannot take steps to
- make the salary between modern
- artists and other job similar
-",color=green];
-	161 [label="modern artists also devote
- themselves find a unique concept
- in which ordinary people cannot
- do , such making impossible
- become possible",color=blue];
-	335 [label="government cannot take steps to
- make the salary between modern
- artists and other job similar
-",color=green];
-	183 [label="Pieter Padang
- , Minion creator , has
- brilliant idea to alter part
- of song lyric "I swear"
- become "underwear" when the Minion
- sing in Despicable Me",color=blue];
-	335 [label="government cannot take steps to
- make the salary between modern
- artists and other job similar
-",color=green];
-	210 [label="He granted huge sums for
- such idea",color=blue];
-	335 [label="government cannot take steps to
- make the salary between modern
- artists and other job similar
-",color=green];
-	221 [label="labor working in the
- merchandise factory receive coin of
- dollar even they make a
- hundred of 15 cm Buddha
- temples a day",color=blue];
-	273 [label="government cannot
- equalize the price of creation
- of modern artist",color=green];
-	248 [label="a musician
- playing "I swear" several times
- receives different earnings that Padang
- got",color=blue];
-	273 [label="government cannot
- equalize the price of creation
- of modern artist",color=green];
-	262 [label="the musician re-plays
- the song without any creation
-",color=blue];
-	273 [label="government cannot
- equalize the price of creation
- of modern artist",color=green];
-	273 [label="government cannot
- equalize the price of creation
- of modern artist",color=green];
-	284 [label="there is no certain parameter to
- value it",color=blue];
-	284 [label="there is no certain parameter to
- value it",color=blue];
-	335 [label="government cannot take steps to
- make the salary between modern
- artists and other job similar
-",color=green];
-	293 [label="art value
- is about taste",color=blue];
-	335 [label="government cannot take steps to
- make the salary between modern
- artists and other job similar
-",color=green];
+	273 [label="government cannot equalize
+ the price of creation of
+ modern artist",color=green];
+	262 [label="the musician re-plays the
+ song without any creation",color=blue];
+	273 [label="government cannot equalize
+ the price of creation of
+ modern artist",color=green];
+	273 [label="government cannot equalize
+ the price of creation of
+ modern artist",color=green];
+	284 [label="there is
+ no certain parameter to value
+ it",color=blue];
+	284 [label="there is
+ no certain parameter to value
+ it",color=blue];
+	335 [label="government cannot take steps to make
+ the salary between modern artists
+ and other job similar",color=green];
+	293 [label="art value is
+ about taste",color=blue];
+	335 [label="government cannot take steps to make
+ the salary between modern artists
+ and other job similar",color=green];
 }

@@ -21,170 +21,155 @@ digraph G {
 	383 -> 438;
 	392 -> 438;
 	408 -> 438;
-	50 [label="I prefer to live with
- a roommate",color=green];
-	89 [label="If you have roommates , you
- can split the rent and
- utilities among them",color=blue];
-	78 [label="Living with
- a roommate saves me a
- lot of money",color=green];
-	89 [label="If you have roommates , you
- can split the rent and
- utilities among them",color=blue];
-	89 [label="If you have roommates , you
- can split the rent and
- utilities among them",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	106 [label="you can get more
- for less",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	116 [label="last year , I
- shared a room off-campus with
- my friend , and we
- decided to split the rent
- and heating bills into half
- : I was able to
- save about fifty dollars for
- heating , and two hundred
- dollars for rent monthly",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	160 [label="I was able to save
- a lot of money by
- sharing wasted heating and rooms
- with my friend and splitting
- the bills",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	191 [label="living with a roommate
- also enables me to socialize
- more easily",color=green];
-	203 [label="It is
- always easier to socialize when
- you have a lot of
- people around you",color=blue];
-	203 [label="It is
- always easier to socialize when
- you have a lot of
- people around you",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	219 [label="You can invite your roommates' friends
- over to your room and
- have fun together",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	237 [label="one night ,
- my roommate , Millan ,
- brought his friends along",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	250 [label="Even though his friends and
- I were total strangers to
- each other , we quickly
- got to know each other
+	50 [label="I prefer to live with a
+ roommate",color=green];
+	89 [label="If you
+ have roommates , you can
+ split the rent and utilities
+ among them",color=blue];
+	78 [label="Living with a
+ roommate saves me a lot
+ of money",color=green];
+	89 [label="If you
+ have roommates , you can
+ split the rent and utilities
+ among them",color=blue];
+	89 [label="If you
+ have roommates , you can
+ split the rent and utilities
+ among them",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	106 [label="you can get more for
+ less",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	116 [label="last year , I shared
+ a room off-campus with my
+ friend , and we decided
+ to split the rent and
+ heating bills into half :
+ I was able to save
+ about fifty dollars for heating
+ , and two hundred dollars
+ for rent monthly",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	160 [label="I was able to save a
+ lot of money by sharing
+ wasted heating and rooms with
+ my friend and splitting the
+ bills",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	191 [label="living with a roommate also
+ enables me to socialize more
+ easily",color=green];
+	203 [label="It is always
+ easier to socialize when you
+ have a lot of people
+ around you",color=blue];
+	203 [label="It is always
+ easier to socialize when you
+ have a lot of people
+ around you",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	219 [label="You can
+ invite your roommates' friends over
+ to your room and have
+ fun together",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	237 [label="one night , my
+ roommate , Millan , brought
+ his friends along",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	250 [label="Even though his friends and I
+ were total strangers to each
+ other , we quickly got
+ to know each other",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	271 [label="We soon found out that
+ everyone loved playing video games
 ",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	271 [label="We soon found out
- that everyone loved playing video
- games",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	282 [label="We played a
- video game called 'Halo' together
- all night , and became
- good friends",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	298 [label="Living with
- a roommate made socializing much
- easier for me",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	311 [label="living with a roommate
- allows me to get help
-",color=green];
-	321 [label="It often is the
- case that your roommates have
- the skills or knowledge you
- need",color=blue];
-	321 [label="It often is the
- case that your roommates have
- the skills or knowledge you
- need",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	337 [label="When you run
- into a problem , you
- can ask your roommates if
- they can help",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	354 [label="Some of them may have something
- to offer",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	366 [label="when my computer mysteriously
- broke down , I dialed
- up the manufacturer and asked
- for help",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	383 [label="They failed
- to give me any useful
- solutions",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	392 [label="To my surprise
- , one of my roommates
- noticed my problems and offered
- to help",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
-	408 [label="He was
- very good with computers ,
- and he managed to fix
- the problem quickly",color=blue];
-	438 [label="I prefer
- to live with a roommate
- , and I always will
-",color=green];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	282 [label="We played a video
+ game called 'Halo' together all
+ night , and became good
+ friends",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	298 [label="Living with a
+ roommate made socializing much easier
+ for me",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	311 [label="living with a roommate allows
+ me to get help",color=green];
+	321 [label="It often is the case
+ that your roommates have the
+ skills or knowledge you need
+",color=blue];
+	321 [label="It often is the case
+ that your roommates have the
+ skills or knowledge you need
+",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	337 [label="When you run into
+ a problem , you can
+ ask your roommates if they
+ can help",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	354 [label="Some of
+ them may have something to
+ offer",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	366 [label="when my computer mysteriously broke
+ down , I dialed up
+ the manufacturer and asked for
+ help",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	383 [label="They failed to
+ give me any useful solutions
+",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	392 [label="To my surprise ,
+ one of my roommates noticed
+ my problems and offered to
+ help",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
+	408 [label="He was very
+ good with computers , and
+ he managed to fix the
+ problem quickly",color=blue];
+	438 [label="I prefer to
+ live with a roommate ,
+ and I always will",color=green];
 }

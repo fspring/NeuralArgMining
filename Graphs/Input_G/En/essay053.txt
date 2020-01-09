@@ -9,87 +9,84 @@ digraph G {
 	232 -> 283;
 	245 -> 283;
 	270 -> 283;
-	74 [label="Human being has driven many animals
- for their personal use such
- as , cows and other
- milch animals for yielding milk
- from them",color=green];
-	98 [label="Likewise ,
- other animals such as ,
- horses , cattles and donkeys
- for farming , agriculture and
- as a mode of transportation
+	74 [label="Human being
+ has driven many animals for
+ their personal use such as
+ , cows and other milch
+ animals for yielding milk from
+ them",color=green];
+	98 [label="Likewise , other
+ animals such as , horses
+ , cattles and donkeys for
+ farming , agriculture and as
+ a mode of transportation",color=blue];
+	98 [label="Likewise , other
+ animals such as , horses
+ , cattles and donkeys for
+ farming , agriculture and as
+ a mode of transportation",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
+	121 [label="Many people keep pets like
+ dogs and cats , trained
+ them as service dogs and
+ snuffing dogs which are very
+ helpful to police force and
+ even to some blind peoples
 ",color=blue];
-	98 [label="Likewise ,
- other animals such as ,
- horses , cattles and donkeys
- for farming , agriculture and
- as a mode of transportation
-",color=blue];
-	283 [label="human being
- should behave as a guardian
- to animals rather than as
- their lord or masters",color=green];
-	121 [label="Many people keep pets
- like dogs and cats ,
- trained them as service dogs
- and snuffing dogs which are
- very helpful to police force
- and even to some blind
- peoples",color=blue];
-	283 [label="human being
- should behave as a guardian
- to animals rather than as
- their lord or masters",color=green];
-	152 [label="They are kept
- for security purposes in houses
-",color=blue];
-	283 [label="human being
- should behave as a guardian
- to animals rather than as
- their lord or masters",color=green];
-	166 [label="many farmers and owners
- exploit animals beyond their limits
-",color=green];
-	179 [label="cows are often injected by Oxytocin
- , a hormone which is
- used to forcibly increase lactation
-",color=blue];
-	179 [label="cows are often injected by Oxytocin
- , a hormone which is
- used to forcibly increase lactation
-",color=blue];
-	283 [label="human being
- should behave as a guardian
- to animals rather than as
- their lord or masters",color=green];
-	196 [label="This in turn ,
- causes lots of discomfort and
- pain to the cattle",color=blue];
-	283 [label="human being
- should behave as a guardian
- to animals rather than as
- their lord or masters",color=green];
-	232 [label="Another example of
- this is cage farming which
- is against animal rights",color=blue];
-	283 [label="human being
- should behave as a guardian
- to animals rather than as
- their lord or masters",color=green];
-	245 [label="Many other practices like ,
- equestrian sport where horses run
- miles and miles and beaten
- up by jockeys to make
- them run more faster",color=blue];
-	283 [label="human being
- should behave as a guardian
- to animals rather than as
- their lord or masters",color=green];
-	270 [label="And above all pleasure hunting
- of defenseless animals",color=blue];
-	283 [label="human being
- should behave as a guardian
- to animals rather than as
- their lord or masters",color=green];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
+	152 [label="They are kept for
+ security purposes in houses",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
+	166 [label="many farmers and owners exploit
+ animals beyond their limits",color=green];
+	179 [label="cows are
+ often injected by Oxytocin ,
+ a hormone which is used
+ to forcibly increase lactation",color=blue];
+	179 [label="cows are
+ often injected by Oxytocin ,
+ a hormone which is used
+ to forcibly increase lactation",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
+	196 [label="This in turn , causes
+ lots of discomfort and pain
+ to the cattle",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
+	232 [label="Another example of this
+ is cage farming which is
+ against animal rights",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
+	245 [label="Many other practices like , equestrian
+ sport where horses run miles
+ and miles and beaten up
+ by jockeys to make them
+ run more faster",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
+	270 [label="And above all pleasure hunting of
+ defenseless animals",color=blue];
+	283 [label="human being should
+ behave as a guardian to
+ animals rather than as their
+ lord or masters",color=green];
 }

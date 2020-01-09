@@ -22,191 +22,192 @@ digraph G {
 	344 -> 322;
 	356 -> 383;
 	370 -> 383;
-	0 [label="Many circumstances that I experienced
- change the way I think
+	0 [label="Many circumstances that I experienced change
+ the way I think",color=green];
+	27 [label="I could improve the
+ way that I solve problems
+ , improve how I take
+ care of my health ,
+ and improve to plan my
+ life for future",color=blue];
+	11 [label="There are many experiences that
+ are improve my life in
+ many way",color=green];
+	27 [label="I could improve the
+ way that I solve problems
+ , improve how I take
+ care of my health ,
+ and improve to plan my
+ life for future",color=blue];
+	27 [label="I could improve the
+ way that I solve problems
+ , improve how I take
+ care of my health ,
+ and improve to plan my
+ life for future",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	68 [label="studying in university
+ taught me to be more
+ prudent person to solve problems
 ",color=green];
-	27 [label="I could improve
- the way that I solve
- problems , improve how I
- take care of my health
- , and improve to plan
- my life for future",color=blue];
-	11 [label="There are many experiences
- that are improve my life
- in many way",color=green];
-	27 [label="I could improve
- the way that I solve
- problems , improve how I
- take care of my health
- , and improve to plan
- my life for future",color=blue];
-	27 [label="I could improve
- the way that I solve
- problems , improve how I
- take care of my health
- , and improve to plan
- my life for future",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	68 [label="studying in
- university taught me to be
- more prudent person to solve
- problems",color=green];
-	85 [label="in math class , the
- way that we learnt to
- find an answer by doing
- step by step",color=blue];
-	85 [label="in math class , the
- way that we learnt to
- find an answer by doing
- step by step",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	104 [label="Start with find cause of problem
- and the way to do
- research to solve the problem
+	85 [label="in math class , the way
+ that we learnt to find
+ an answer by doing step
+ by step",color=blue];
+	85 [label="in math class , the way
+ that we learnt to find
+ an answer by doing step
+ by step",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	104 [label="Start with
+ find cause of problem and
+ the way to do research
+ to solve the problem",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	121 [label="I could adapt this method
+ to use my real life
 ",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	121 [label="I could adapt this
- method to use my real
- life",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	132 [label="When I want
- to go to somewhere ,
- I try to find the
- way to reach to destination
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	132 [label="When I want to
+ go to somewhere , I
+ try to find the way
+ to reach to destination",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	151 [label="Which ways are shortest and
+ which ways are less consume
+ my time",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	164 [label="I could
+ find a better way to
+ solve problems",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	176 [label="Some experiences could teach me
+ the way to take care
+ of myself",color=green];
+	214 [label="I am
+ always buy a quality food
+ such as organic food",color=blue];
+	192 [label="reading and listening the
+ news about choosing a good
+ diet are the way to
+ keep myself are more healthy
 ",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	151 [label="Which ways are shortest
- and which ways are less
- consume my time",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	164 [label="I could find a better way
- to solve problems",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	176 [label="Some experiences could teach
- me the way to take
- care of myself",color=green];
-	214 [label="I am always buy a quality
- food such as organic food
-",color=blue];
-	192 [label="reading and listening
- the news about choosing a
- good diet are the way
- to keep myself are more
- healthy",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	214 [label="I am always buy a quality
- food such as organic food
-",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	226 [label="This food are not
- have chemical",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	236 [label="I can have a
- good health",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	243 [label="This experience
- teach me to aware my
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	214 [label="I am
+ always buy a quality food
+ such as organic food",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	226 [label="This food are not have
+ chemical",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	236 [label="I can have a good
  health",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	254 [label="experiences are also change to plan
- for my future life",color=green];
-	286 [label="I start changing myself
- from spending many thing that
- I want to saving money
- for my entire life",color=blue];
-	268 [label="I read
- about saving money for my
- retire is a good plan
- for my life",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	286 [label="I start changing myself
- from spending many thing that
- I want to saving money
- for my entire life",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	305 [label="This experience change me to
- concern about making plan for
- my future life",color=blue];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	322 [label="experiences that shape
- my thinking and the way
- to live my life are
- teach me to be a
- better person",color=green];
-	344 [label="I could find a better way
- to solve problems",color=blue];
-	356 [label="experiences could shape me
- to be more aware about
- my health",color=blue];
-	383 [label="These experiences
- taught me to change my
- life to be a better
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
  person",color=green];
-	370 [label="these experiences could make me
- to make plan for my
+	243 [label="This experience teach
+ me to aware my health
+",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	254 [label="experiences are
+ also change to plan for
+ my future life",color=green];
+	286 [label="I start changing myself from
+ spending many thing that I
+ want to saving money for
+ my entire life",color=blue];
+	268 [label="I read about
+ saving money for my retire
+ is a good plan for
+ my life",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	286 [label="I start changing myself from
+ spending many thing that I
+ want to saving money for
+ my entire life",color=blue];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	305 [label="This experience change me to concern
+ about making plan for my
  future life",color=blue];
-	383 [label="These experiences
- taught me to change my
- life to be a better
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
  person",color=green];
+	322 [label="experiences that shape my
+ thinking and the way to
+ live my life are teach
+ me to be a better
+ person",color=green];
+	344 [label="I could
+ find a better way to
+ solve problems",color=blue];
+	356 [label="experiences could shape me to
+ be more aware about my
+ health",color=blue];
+	383 [label="These experiences taught
+ me to change my life
+ to be a better person
+",color=green];
+	370 [label="these experiences could make me to
+ make plan for my future
+ life",color=blue];
+	383 [label="These experiences taught
+ me to change my life
+ to be a better person
+",color=green];
 }

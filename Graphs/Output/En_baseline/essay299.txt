@@ -51,7 +51,7 @@ well (O)    0.000
 . (O)    0.000
 also (O)    0.000
 , (O)    0.000
-i (O)    0.000
+i (C)    0.000
 think (O)    0.000
 its (C)    0.000
 better (I)    0.000
@@ -99,7 +99,7 @@ a (I)    0.000
 foreign (I)    0.000
 language (I)    0.000
 as (O)    0.000
-it (P)  107.000
+it (P)   30.000
 requires (I)    0.000
 large (I)    0.000
 amount (I)    0.000
@@ -109,7 +109,7 @@ and (I)    0.000
 legal (I)    0.000
 formalities (I)    0.000
 . (O)    0.000
-in (P)   97.000
+in (P)   20.000
 the (I)    0.000
 earlier (I)    0.000
 periods (I)    0.000
@@ -129,7 +129,7 @@ foreign (I)    0.000
 languge (I)    0.000
 . (O)    0.000
 but (O)    0.000
-with (P)   77.000
+with (C)    0.000
 the (I)    0.000
 advent (I)    0.000
 of (I)    0.000

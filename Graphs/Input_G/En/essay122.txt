@@ -15,124 +15,111 @@ digraph G {
 	255 -> 323;
 	316 -> 299;
 	316 -> 323;
-	15 [label="The new high school will
- bring a lot of advantages
- to my community",color=green];
-	92 [label="Their old high
- school is pretty old and
- need in new educational materials
- , repairing of the place
- for sport activities",color=blue];
-	56 [label="new high school is
- a great addition to the
- educational system of my community
+	15 [label="The new high school will bring
+ a lot of advantages to
+ my community",color=green];
+	92 [label="Their old high school
+ is pretty old and need
+ in new educational materials ,
+ repairing of the place for
+ sport activities",color=blue];
+	56 [label="new high school is a
+ great addition to the educational
+ system of my community",color=green];
+	92 [label="Their old high school
+ is pretty old and need
+ in new educational materials ,
+ repairing of the place for
+ sport activities",color=blue];
+	76 [label="the new high school will
+ bring a lots of opportunities
+ for student concerned in education
 ",color=green];
-	92 [label="Their old high
- school is pretty old and
- need in new educational materials
- , repairing of the place
- for sport activities",color=blue];
-	76 [label="the new high school
- will bring a lots of
- opportunities for student concerned in
- education",color=green];
-	92 [label="Their old high
- school is pretty old and
- need in new educational materials
- , repairing of the place
- for sport activities",color=blue];
-	92 [label="Their old high
- school is pretty old and
- need in new educational materials
- , repairing of the place
- for sport activities",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
-	115 [label="the laboratory of physics and
- chemistry was in bad condition
+	92 [label="Their old high school
+ is pretty old and need
+ in new educational materials ,
+ repairing of the place for
+ sport activities",color=blue];
+	92 [label="Their old high school
+ is pretty old and need
+ in new educational materials ,
+ repairing of the place for
+ sport activities",color=blue];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	115 [label="the laboratory of physics and chemistry
+ was in bad condition",color=blue];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	127 [label="the students can't study
+ well during the classes",color=blue];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	136 [label="They will study with new
+ breath and great enthusiasm in
+ new school",color=blue];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	151 [label="the new high school will
+ be a place for new
+ connections between the student of
+ different communities and districts of
+ the city",color=green];
+	174 [label="After classes
+ students and not only the
+ students will get together in
+ building of high school ,
+ participate in different competitions",color=blue];
+	174 [label="After classes
+ students and not only the
+ students will get together in
+ building of high school ,
+ participate in different competitions",color=blue];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	198 [label="during the football
+ match the students of different
+ high schools will come and
+ after the competition they will
+ keep in touch",color=blue];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	220 [label="This will increase the social connections
+ of the students",color=blue];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	230 [label="The only disadvantage is the noisiness
+ of the competitions",color=blue];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	240 [label="The people living in the neighborhood
+ will be a bit perturbed
 ",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	255 [label="this isn't a important reason for
+ ceasing the competitions",color=blue];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
+	299 [label="The only
+ disadvantage is the nosiness of
+ competitions which students will participate
 ",color=green];
-	127 [label="the students can't
- study well during the classes
+	316 [label="it isn't a big deal
 ",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
-	136 [label="They will study with
- new breath and great enthusiasm
- in new school",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
-	151 [label="the new high school
- will be a place for
- new connections between the student
- of different communities and districts
- of the city",color=green];
-	174 [label="After classes students and not only
- the students will get together
- in building of high school
- , participate in different competitions
+	316 [label="it isn't a big deal
 ",color=blue];
-	174 [label="After classes students and not only
- the students will get together
- in building of high school
- , participate in different competitions
-",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
-	198 [label="during the
- football match the students of
- different high schools will come
- and after the competition they
- will keep in touch",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
-	220 [label="This will increase the social
- connections of the students",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
-	230 [label="The only disadvantage is the
- noisiness of the competitions",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
-	240 [label="The people living in the
- neighborhood will be a bit
- perturbed",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
-	255 [label="this isn't a important reason
- for ceasing the competitions",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
-	299 [label="The only disadvantage is the nosiness
- of competitions which students will
- participate",color=green];
-	316 [label="it isn't a big
- deal",color=blue];
-	316 [label="it isn't a big
- deal",color=blue];
-	323 [label="the new
- high school will be a
- great addition for my environment
-",color=green];
+	323 [label="the new high
+ school will be a great
+ addition for my environment",color=green];
 }

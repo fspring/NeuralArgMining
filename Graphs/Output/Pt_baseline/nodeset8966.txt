@@ -17,7 +17,7 @@ alguém (I)    0.000
 cometeu (I)    0.000
 um (I)    0.000
 crime (I)    0.000
-é (P)  721.000
+é (P)    0.000
 preciso (I)    0.000
 determinar (I)    0.000
 se (I)    0.000

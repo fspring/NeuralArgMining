@@ -2,7 +2,7 @@ digraph G {
 	12 -> 0;
 	0 [label="Não é pelo crescimento económico que
  se vai reduzir o défice
- .",color=green];
+",color=green];
 	12 [label="O crescimento previsto no
  Programa de Estabilidade e Crescimento
  2015-2019 , apresentado em Abril

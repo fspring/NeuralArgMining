@@ -1,33 +1,20 @@
 digraph G {
-	92 -> 119;
-	107 -> 119;
-	141 -> 345;
-	176 -> 345;
-	192 -> 345;
+	119 -> 176;
+	141 -> 176;
 	207 -> 345;
-	229 -> 345;
 	253 -> 345;
 	275 -> 345;
 	299 -> 345;
 	310 -> 345;
-	329 -> 345;
-	92 [label="a large number of
- people will gather in the
- host city for sport events
-",color=blue];
 	119 [label="sport events
  with the spirit of healthiness
  , honesty and fairness can
  help strengthen understanding , friendship
- and solidarity among nations",color=green];
-	107 [label="there are many good
- opportunities for discovering different cultures
-",color=blue];
-	119 [label="sport events
- with the spirit of healthiness
- , honesty and fairness can
- help strengthen understanding , friendship
- and solidarity among nations",color=green];
+ and solidarity among nations",color=blue];
+	176 [label="sporting occasions play an essential
+ role in raising patriotic emotions
+ in both athletes and spectators
+",color=green];
 	141 [label="after sharing competitive but interesting
  moments in each competition ,
  the competitors often shake hands
@@ -35,36 +22,15 @@ digraph G {
  , which can lead to
  an improvement in the relationships
  among nations",color=blue];
-	345 [label="sport events help to wake up
- love and responsibilities strongly in
- each citizen",color=green];
 	176 [label="sporting occasions play an essential
  role in raising patriotic emotions
  in both athletes and spectators
-",color=blue];
-	345 [label="sport events help to wake up
- love and responsibilities strongly in
- each citizen",color=green];
-	192 [label="seeing national flags be
- honored may be the most
- emotional moments to each athlete
-",color=blue];
-	345 [label="sport events help to wake up
- love and responsibilities strongly in
- each citizen",color=green];
+",color=green];
 	207 [label="the athlete also seems
  to be more aware of
  his responsibilities and he wants
  to contribute more to his
  beloved country",color=blue];
-	345 [label="sport events help to wake up
- love and responsibilities strongly in
- each citizen",color=green];
-	229 [label="when witnessing
- our national flags flying proudly
- among others , many of
- us can stop hiding our
- pride and happiness",color=blue];
 	345 [label="sport events help to wake up
  love and responsibilities strongly in
  each citizen",color=green];
@@ -94,12 +60,6 @@ digraph G {
  they took part in motor
  racing or using fireworks illegally
 ",color=blue];
-	345 [label="sport events help to wake up
- love and responsibilities strongly in
- each citizen",color=green];
-	329 [label="the hooligans
- only took a minority of
- people",color=blue];
 	345 [label="sport events help to wake up
  love and responsibilities strongly in
  each citizen",color=green];

@@ -65,7 +65,7 @@ taxas (I)    0.000
 de (I)    0.000
 sucesso (I)    0.000
 fantásticas (I)    0.000
-por (O)    0.000
+por (I)    0.000
 fazer (O)    0.000
 uma (P)   59.000
 abordagem (I)    0.000

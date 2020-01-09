@@ -61,7 +61,7 @@ digraph G {
  favor of studying alone",color=green];
 	230 [label="to my rivals' surprise , being
  the only member of my
- own "team" i gained a
+ own team i gained a
  victory",color=blue];
 	257 [label="type of temper and
  advantages of individual work are

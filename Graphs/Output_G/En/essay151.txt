@@ -1,42 +1,38 @@
 digraph G {
-	111 -> 241;
-	125 -> 241;
-	152 -> 241;
-	168 -> 241;
+	125 -> 322;
+	152 -> 317;
+	193 -> 322;
 	205 -> 241;
 	217 -> 241;
-	251 -> 317;
+	251 -> 241;
 	266 -> 317;
 	271 -> 317;
-	286 -> 317;
-	111 [label="due to globalization , many
- people are traveling for professional
- trips",color=blue];
-	241 [label="few people are worried about
- the dying local languages",color=green];
+	286 -> 322;
 	125 [label="communicating in single language will reduce
  the problems of travelers in
  daily activities like ordering food
  in a restaurant or in
  going around places",color=blue];
-	241 [label="few people are worried about
- the dying local languages",color=green];
+	322 [label="usage of one language
+ across the world is a
+ positive one",color=green];
 	152 [label="students who migrate for
  better education would not have
  to go through lot of
- stress",color=blue];
-	241 [label="few people are worried about
- the dying local languages",color=green];
-	168 [label="they can easily
+ stress as they can easily
  make new friends and can
  be part of any discussions
  which is otherwise not possible
  in a world with multiple
- languages ; this in turn
+ languages ;",color=blue];
+	317 [label="change is inevitable and
+",color=green];
+	193 [label="this in turn
  makes it easy to adjust
  in new environment",color=blue];
-	241 [label="few people are worried about
- the dying local languages",color=green];
+	322 [label="usage of one language
+ across the world is a
+ positive one",color=green];
 	205 [label="single language also reduces misunderstandings between
  people",color=blue];
 	241 [label="few people are worried about
@@ -47,33 +43,26 @@ digraph G {
  etc would become easier",color=blue];
 	241 [label="few people are worried about
  the dying local languages",color=green];
+	241 [label="few people are worried about
+ the dying local languages",color=green];
 	251 [label="these languages are the basis
  for the origination and initial
  communication between different cultures",color=blue];
-	317 [label="change is inevitable and
- that usage of one language
- across the world is a
- positive one",color=green];
 	266 [label="they represent local culture",color=blue];
 	317 [label="change is inevitable and
- that usage of one language
- across the world is a
- positive one",color=green];
+",color=green];
 	271 [label="as the usage of these
  languages decrease , culture also
  changes accordingly",color=blue];
 	317 [label="change is inevitable and
- that usage of one language
- across the world is a
- positive one",color=green];
+",color=green];
 	286 [label="these languages are tightly coupled
  with history ; all the
  olden day literature and scripts
  will be impossible to decipher
  if these languages are lost
 ",color=blue];
-	317 [label="change is inevitable and
- that usage of one language
+	322 [label="usage of one language
  across the world is a
  positive one",color=green];
 }

@@ -5,5 +5,5 @@ digraph G {
  bastante diferenciados ,",color=blue];
 	161 [label="não se prevê em curto
  lapso de tempo a sua
- transferência .",color=green];
+ transferência",color=green];
 }

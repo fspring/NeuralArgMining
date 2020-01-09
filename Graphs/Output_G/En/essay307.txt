@@ -71,7 +71,7 @@ digraph G {
  television programs in which people
  are put into artificial environments
  and situations , for example
- like "big brother"",color=blue];
+ like big brother",color=blue];
 	243 [label="television , magazines
  and newspapers pay too much
  attention of peoples' private lives

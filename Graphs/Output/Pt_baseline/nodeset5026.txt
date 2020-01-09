@@ -32,7 +32,7 @@ ilha (I)    0.000
 italiana (I)    0.000
 de (I)    0.000
 lampedusa (I)    0.000
-, (I)    0.000
+, (O)    0.000
 onde (O)    0.000
 regularmente (C)    0.000
 chegam (I)    0.000
@@ -98,7 +98,7 @@ operações (O)    0.000
 de (O)    0.000
 resgate (O)    0.000
 . (O)    0.000
-um (P)  129.000
+um (C)    0.000
 incidente (I)    0.000
 alarmante (I)    0.000
 ocorreu (I)    0.000
@@ -116,7 +116,7 @@ dos (O)    0.000
 transportes (O)    0.000
 italiano (O)    0.000
 : (O)    0.000
-uma (P)  111.000
+uma (P)   73.000
 embarcação (I)    0.000
 da (I)    0.000
 guarda-costeira (I)    0.000
@@ -189,7 +189,7 @@ da (O)    0.000
 guarda-costeira (O)    0.000
 italiana (O)    0.000
 . (O)    0.000
-cerca (P)   38.000
+cerca (C)    0.000
 de (I)    0.000
 330 (I)    0.000
 migrantes (I)    0.000
@@ -219,15 +219,15 @@ ou (I)    0.000
 morreram (I)    0.000
 de (I)    0.000
 frio (I)    0.000
-a (I)    0.000
-tentar (I)    0.000
+a (O)    0.000
+tentar (O)    0.000
 alcançar (O)    0.000
 a (O)    0.000
 costa (O)    0.000
 italiana (O)    0.000
 , (O)    0.000
 sob (O)    0.000
-condições (C)    0.000
-atmosféricas (I)    0.000
-adversas (I)    0.000
+condições (O)    0.000
+atmosféricas (O)    0.000
+adversas (O)    0.000
 . (O)    0.000

@@ -10,89 +10,82 @@ digraph G {
 	210 -> 285;
 	233 -> 285;
 	257 -> 285;
-	68 [label="working at
- home is worse and less
- efficient than working in the
- office",color=green];
-	100 [label="They can either get help
- from colleges or discuss about
- the work together",color=blue];
-	86 [label="while working in the
- office , people can interact
- with their colleges instantly",color=green];
-	100 [label="They can either get help
- from colleges or discuss about
- the work together",color=blue];
-	100 [label="They can either get help
- from colleges or discuss about
- the work together",color=blue];
-	285 [label="working in the office is
- obviously better than working at
- home in terms of efficiency
+	68 [label="working at home
+ is worse and less efficient
+ than working in the office
 ",color=green];
-	114 [label="Think about the big project that
- a group is working on
- , if any group member
- has new idea about the
- project , he/she can assemble
- his/her colleges right away and
- discuss",color=blue];
-	285 [label="working in the office is
- obviously better than working at
- home in terms of efficiency
-",color=green];
-	147 [label="It's more efficient
- and straight-forward than talking in
- the phone",color=blue];
-	285 [label="working in the office is
- obviously better than working at
- home in terms of efficiency
-",color=green];
-	162 [label="if oneâ€™s computer
- or Internet has any breakdown
- , he/she can call the
- MIS staff to fix",color=blue];
-	285 [label="working in the office is
- obviously better than working at
- home in terms of efficiency
-",color=green];
-	182 [label="working at home
- has many disadvantages that will
- no doubt lower the efficiency
- of works",color=green];
-	201 [label="people are easily distracted
- while working at home",color=blue];
-	201 [label="people are easily distracted
- while working at home",color=blue];
-	285 [label="working in the office is
- obviously better than working at
- home in terms of efficiency
-",color=green];
-	210 [label="It's hard to concentrate on
- work if people can grab
- the TV remote or some
- junk foods right away",color=blue];
-	285 [label="working in the office is
- obviously better than working at
- home in terms of efficiency
-",color=green];
-	233 [label="while people
- are working at home ,
- there will be no one
- supervising them , thus raises
- the chance of loafing",color=blue];
-	285 [label="working in the office is
- obviously better than working at
- home in terms of efficiency
-",color=green];
-	257 [label="people who work
- at home are more likely
- to miss the important events
- happening in the office ,
- like some announcements from the
- boss",color=blue];
-	285 [label="working in the office is
- obviously better than working at
- home in terms of efficiency
-",color=green];
+	100 [label="They can either get help from
+ colleges or discuss about the
+ work together",color=blue];
+	86 [label="while working in the office
+ , people can interact with
+ their colleges instantly",color=green];
+	100 [label="They can either get help from
+ colleges or discuss about the
+ work together",color=blue];
+	100 [label="They can either get help from
+ colleges or discuss about the
+ work together",color=blue];
+	285 [label="working in the office is obviously
+ better than working at home
+ in terms of efficiency",color=green];
+	114 [label="Think about
+ the big project that a
+ group is working on ,
+ if any group member has
+ new idea about the project
+ , he/she can assemble his/her
+ colleges right away and discuss
+",color=blue];
+	285 [label="working in the office is obviously
+ better than working at home
+ in terms of efficiency",color=green];
+	147 [label="It's more efficient and
+ straight-forward than talking in the
+ phone",color=blue];
+	285 [label="working in the office is obviously
+ better than working at home
+ in terms of efficiency",color=green];
+	162 [label="if one’s computer or
+ Internet has any breakdown ,
+ he/she can call the MIS
+ staff to fix",color=blue];
+	285 [label="working in the office is obviously
+ better than working at home
+ in terms of efficiency",color=green];
+	182 [label="working at home has
+ many disadvantages that will no
+ doubt lower the efficiency of
+ works",color=green];
+	201 [label="people are easily distracted while
+ working at home",color=blue];
+	201 [label="people are easily distracted while
+ working at home",color=blue];
+	285 [label="working in the office is obviously
+ better than working at home
+ in terms of efficiency",color=green];
+	210 [label="It's hard to concentrate on work
+ if people can grab the
+ TV remote or some junk
+ foods right away",color=blue];
+	285 [label="working in the office is obviously
+ better than working at home
+ in terms of efficiency",color=green];
+	233 [label="while people are
+ working at home , there
+ will be no one supervising
+ them , thus raises the
+ chance of loafing",color=blue];
+	285 [label="working in the office is obviously
+ better than working at home
+ in terms of efficiency",color=green];
+	257 [label="people who work at
+ home are more likely to
+ miss the important events happening
+ in the office , like
+ some announcements from the boss
+",color=blue];
+	285 [label="working in the office is obviously
+ better than working at home
+ in terms of efficiency",color=green];
 }

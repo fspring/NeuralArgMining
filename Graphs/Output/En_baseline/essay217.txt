@@ -103,8 +103,8 @@ are (I)    0.000
 experienced (I)    0.000
 in (I)    0.000
 life (I)    0.000
-so (O)    0.000
-they (P)   69.000
+so (I)    0.000
+they (I)    0.000
 can (I)    0.000
 give (I)    0.000
 you (I)    0.000

@@ -6,66 +6,65 @@ digraph G {
 	207 -> 228;
 	251 -> 291;
 	270 -> 291;
-	65 [label="Competitive children are more likely
- to be confident enough to
- handle the situations independently",color=green];
-	121 [label="This factor will lead
- them to be successful in
+	65 [label="Competitive children are more likely to
+ be confident enough to handle
+ the situations independently",color=green];
+	121 [label="This factor will lead them
+ to be successful in their
+ lives ahead",color=blue];
+	121 [label="This factor will lead them
+ to be successful in their
+ lives ahead",color=blue];
+	319 [label="people should
+ create a sense of co-operation
+ in their children to make
+ them feel more accomplished in
+ life",color=green];
+	146 [label="MNCs are mainly focusing on
+ a team work , and
+ a person with the competitive
+ mind would be having a
+ difficulty in managing the situation
+ with the team",color=blue];
+	319 [label="people should
+ create a sense of co-operation
+ in their children to make
+ them feel more accomplished in
+ life",color=green];
+	177 [label="those who wants to
+ create a sense of co-operation
+ in their children is a
+ symbol that they want to
+ make them sensible enough in
  their lives ahead",color=blue];
-	121 [label="This factor will lead
- them to be successful in
- their lives ahead",color=blue];
-	319 [label="people should create a sense of
- co-operation in their children to
- make them feel more accomplished
- in life",color=green];
-	146 [label="MNCs are mainly focusing
- on a team work ,
- and a person with the
- competitive mind would be having
- a difficulty in managing the
- situation with the team",color=blue];
-	319 [label="people should create a sense of
- co-operation in their children to
- make them feel more accomplished
- in life",color=green];
-	177 [label="those who wants
- to create a sense of
- co-operation in their children is
- a symbol that they want
- to make them sensible enough
- in their lives ahead",color=blue];
-	228 [label="they shall
- have an art of managing
- different situations of life with
- the help of a team
-",color=green];
-	207 [label="they will not
- be having a pace and
- an eager to get on
- the top as the competitors
- do",color=blue];
-	228 [label="they shall
- have an art of managing
- different situations of life with
- the help of a team
-",color=green];
-	251 [label="competitive children will be
- far more clever and faster
- than the co-operative child in
- an initial level",color=blue];
-	291 [label="co-operative child will have
- a potential of structuring and
- implementing new and innovative ideas
- with the help of a
- team",color=green];
-	270 [label="it will not help them
- to be on the success
- path for the long run
+	228 [label="they shall have
+ an art of managing different
+ situations of life with the
+ help of a team",color=green];
+	207 [label="they will not be
+ having a pace and an
+ eager to get on the
+ top as the competitors do
 ",color=blue];
-	291 [label="co-operative child will have
- a potential of structuring and
- implementing new and innovative ideas
- with the help of a
- team",color=green];
+	228 [label="they shall have
+ an art of managing different
+ situations of life with the
+ help of a team",color=green];
+	251 [label="competitive children will be far
+ more clever and faster than
+ the co-operative child in an
+ initial level",color=blue];
+	291 [label="co-operative child will have a
+ potential of structuring and implementing
+ new and innovative ideas with
+ the help of a team
+",color=green];
+	270 [label="it will not help them to
+ be on the success path
+ for the long run",color=blue];
+	291 [label="co-operative child will have a
+ potential of structuring and implementing
+ new and innovative ideas with
+ the help of a team
+",color=green];
 }

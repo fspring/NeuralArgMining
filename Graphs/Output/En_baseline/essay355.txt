@@ -84,7 +84,7 @@ to (O)    0.000
 begin (O)    0.000
 with (O)    0.000
 , (O)    0.000
-children (P)  194.000
+children (P)   73.000
 might (I)    0.000
 not (I)    0.000
 be (I)    0.000
@@ -109,7 +109,7 @@ their (I)    0.000
 kindergarten (I)    0.000
 years (I)    0.000
 . (O)    0.000
-learning (P)  169.000
+learning (P)   48.000
 at (I)    0.000
 school (I)    0.000
 must (I)    0.000
@@ -131,7 +131,7 @@ to (I)    0.000
 . (O)    0.000
 moreover (O)    0.000
 , (O)    0.000
-teachers (P)  147.000
+teachers (P)   26.000
 think (I)    0.000
 that (I)    0.000
 foreign (I)    0.000
@@ -157,7 +157,7 @@ to (O)    0.000
 consider (O)    0.000
 is (O)    0.000
 that (O)    0.000
-the (P)  121.000
+the (C)    0.000
 teacher (I)    0.000
 should (I)    0.000
 be (I)    0.000
@@ -183,7 +183,7 @@ it (O)    0.000
 is (O)    0.000
 undeniable (O)    0.000
 that (O)    0.000
-kids (P)   95.000
+kids (P)   45.000
 are (I)    0.000
 amazing (I)    0.000
 learners (I)    0.000
@@ -201,7 +201,7 @@ their (I)    0.000
 younger (I)    0.000
 years (I)    0.000
 . (O)    0.000
-the (P)   77.000
+the (P)   27.000
 introduction (I)    0.000
 of (I)    0.000
 foreign (I)    0.000
@@ -211,10 +211,10 @@ be (I)    0.000
 new (I)    0.000
 to (I)    0.000
 them (I)    0.000
-; (O)    0.000
-however (O)    0.000
-, (O)    0.000
-their (P)   64.000
+; (I)    0.000
+however (I)    0.000
+, (I)    0.000
+their (I)    0.000
 curiosity (I)    0.000
 will (I)    0.000
 drive (I)    0.000
@@ -228,7 +228,7 @@ in (O)    0.000
 this (O)    0.000
 way (O)    0.000
 , (O)    0.000
-grasping (P)   50.000
+grasping (C)    0.000
 a (I)    0.000
 new (I)    0.000
 language (I)    0.000

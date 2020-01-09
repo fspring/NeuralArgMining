@@ -13,7 +13,7 @@ pelo (I)    0.000
 próprio (I)    0.000
 ocidente (I)    0.000
 . (O)    0.000
-foi (P)  725.000
+foi (P)    0.000
 a (I)    0.000
 mistura (I)    0.000
 ocidental (I)    0.000
@@ -40,7 +40,7 @@ milhões (I)    0.000
 de (I)    0.000
 deslocados (I)    0.000
 . (O)    0.000
-e (P)  698.000
+e (P)    0.000
 foi (I)    0.000
 o (I)    0.000
 bizarro (I)    0.000

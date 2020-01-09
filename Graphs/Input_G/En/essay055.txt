@@ -9,79 +9,80 @@ digraph G {
 	228 -> 331;
 	260 -> 331;
 	287 -> 331;
-	75 [label="The benefits of teaching students
- different units are easily recognized
+	75 [label="The benefits of teaching students different
+ units are easily recognized",color=green];
+	91 [label="with some basic knowledge of
+ diverse fields , students have
+ more options in choosing specialized
+ areas or jobs in the
+ future",color=blue];
+	91 [label="with some basic knowledge of
+ diverse fields , students have
+ more options in choosing specialized
+ areas or jobs in the
+ future",color=blue];
+	331 [label="I do support the view
+ of learning all school subjects
 ",color=green];
-	91 [label="with some basic knowledge
- of diverse fields , students
- have more options in choosing
- specialized areas or jobs in
- the future",color=blue];
-	91 [label="with some basic knowledge
- of diverse fields , students
- have more options in choosing
- specialized areas or jobs in
- the future",color=blue];
-	331 [label="I do support the
- view of learning all school
- subjects",color=green];
-	113 [label="Teenagers are
- still too young and immature
- to decide what they are
- going to dedicate",color=blue];
-	331 [label="I do support the
- view of learning all school
- subjects",color=green];
-	129 [label="In students' point of view ,
- the combination of difficult and
- easy subjects balances their schoolwork
- stress and fosters their enthusiasm
- on classes",color=blue];
-	331 [label="I do support the
- view of learning all school
- subjects",color=green];
-	155 [label="still many teenagers cannot enjoy
- the variation of the curriculum
- , instead , they feel
- more stressful with so much
- homework and exams to be
- done",color=blue];
-	331 [label="I do support the
- view of learning all school
- subjects",color=green];
-	184 [label="most students regard the extra knowledge
- useless and impractical for their
- future jobs",color=blue];
-	331 [label="I do support the
- view of learning all school
- subjects",color=green];
-	207 [label="this education model
- can cultivate more talents who
- specialized in different areas and
- increase studying effectiveness",color=green];
-	228 [label="students can
- devote more time and efforts
- in one subject and reduce
- pressure from other subjects",color=blue];
-	228 [label="students can
- devote more time and efforts
- in one subject and reduce
- pressure from other subjects",color=blue];
-	331 [label="I do support the
- view of learning all school
- subjects",color=green];
-	260 [label="under such target-oriented education environment
- , teenagers may be hard
- to regret their original choice
- and change their specialized field
- in their further study",color=blue];
-	331 [label="I do support the
- view of learning all school
- subjects",color=green];
-	287 [label="the dullness of
- course may deeply influence their
- passion on study",color=blue];
-	331 [label="I do support the
- view of learning all school
- subjects",color=green];
+	113 [label="Teenagers are still
+ too young and immature to
+ decide what they are going
+ to dedicate",color=blue];
+	331 [label="I do support the view
+ of learning all school subjects
+",color=green];
+	129 [label="In students'
+ point of view , the
+ combination of difficult and easy
+ subjects balances their schoolwork stress
+ and fosters their enthusiasm on
+ classes",color=blue];
+	331 [label="I do support the view
+ of learning all school subjects
+",color=green];
+	155 [label="still many teenagers cannot enjoy the
+ variation of the curriculum ,
+ instead , they feel more
+ stressful with so much homework
+ and exams to be done
+",color=blue];
+	331 [label="I do support the view
+ of learning all school subjects
+",color=green];
+	184 [label="most students
+ regard the extra knowledge useless
+ and impractical for their future
+ jobs",color=blue];
+	331 [label="I do support the view
+ of learning all school subjects
+",color=green];
+	207 [label="this education model can
+ cultivate more talents who specialized
+ in different areas and increase
+ studying effectiveness",color=green];
+	228 [label="students can devote
+ more time and efforts in
+ one subject and reduce pressure
+ from other subjects",color=blue];
+	228 [label="students can devote
+ more time and efforts in
+ one subject and reduce pressure
+ from other subjects",color=blue];
+	331 [label="I do support the view
+ of learning all school subjects
+",color=green];
+	260 [label="under such target-oriented education environment ,
+ teenagers may be hard to
+ regret their original choice and
+ change their specialized field in
+ their further study",color=blue];
+	331 [label="I do support the view
+ of learning all school subjects
+",color=green];
+	287 [label="the dullness of course
+ may deeply influence their passion
+ on study",color=blue];
+	331 [label="I do support the view
+ of learning all school subjects
+",color=green];
 }

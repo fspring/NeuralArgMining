@@ -76,7 +76,7 @@ to (I)    0.000
 get (I)    0.000
 help (I)    0.000
 . (O)    0.000
-living (P)  233.000
+living (C)    0.000
 with (I)    0.000
 a (I)    0.000
 roommate (I)    0.000
@@ -87,7 +87,7 @@ lot (I)    0.000
 of (I)    0.000
 money (I)    0.000
 . (O)    0.000
-if (P)  222.000
+if (P)  102.000
 you (I)    0.000
 have (I)    0.000
 roommates (I)    0.000
@@ -104,7 +104,7 @@ them (I)    0.000
 . (O)    0.000
 this (O)    0.000
 means (O)    0.000
-you (P)  205.000
+you (P)   85.000
 can (I)    0.000
 get (I)    0.000
 more (I)    0.000
@@ -114,7 +114,7 @@ less (I)    0.000
 for (O)    0.000
 example (O)    0.000
 , (O)    0.000
-last (P)  195.000
+last (P)   75.000
 year (I)    0.000
 , (I)    0.000
 i (I)    0.000
@@ -158,7 +158,7 @@ for (I)    0.000
 rent (I)    0.000
 monthly (I)    0.000
 . (O)    0.000
-i (P)  151.000
+i (P)   31.000
 was (I)    0.000
 able (I)    0.000
 to (I)    0.000
@@ -189,7 +189,7 @@ lot (O)    0.000
 of (O)    0.000
 money (O)    0.000
 , (O)    0.000
-living (P)  120.000
+living (C)    0.000
 with (I)    0.000
 a (I)    0.000
 roommate (I)    0.000
@@ -319,7 +319,7 @@ to (I)    0.000
 get (I)    0.000
 help (I)    0.000
 . (O)    0.000
-it (P)  107.000
+it (P)  106.000
 often (I)    0.000
 is (I)    0.000
 the (I)    0.000
@@ -335,7 +335,7 @@ knowledge (I)    0.000
 you (I)    0.000
 need (I)    0.000
 . (O)    0.000
-when (P)   91.000
+when (P)   90.000
 you (I)    0.000
 run (I)    0.000
 into (I)    0.000
@@ -352,7 +352,7 @@ they (I)    0.000
 can (I)    0.000
 help (I)    0.000
 . (O)    0.000
-some (P)   74.000
+some (P)   73.000
 of (I)    0.000
 them (I)    0.000
 may (I)    0.000
@@ -364,7 +364,7 @@ offer (I)    0.000
 to (O)    0.000
 illustrate (O)    0.000
 , (O)    0.000
-when (P)   62.000
+when (P)   61.000
 my (I)    0.000
 computer (I)    0.000
 mysteriously (I)    0.000
@@ -381,7 +381,7 @@ asked (I)    0.000
 for (I)    0.000
 help (I)    0.000
 . (O)    0.000
-they (P)   45.000
+they (P)   44.000
 failed (I)    0.000
 to (I)    0.000
 give (I)    0.000
@@ -390,7 +390,7 @@ any (I)    0.000
 useful (I)    0.000
 solutions (I)    0.000
 . (O)    0.000
-to (P)   36.000
+to (P)   35.000
 my (I)    0.000
 surprise (I)    0.000
 , (I)    0.000
@@ -406,7 +406,7 @@ offered (I)    0.000
 to (I)    0.000
 help (I)    0.000
 . (O)    0.000
-he (P)   20.000
+he (P)   19.000
 was (I)    0.000
 very (I)    0.000
 good (I)    0.000
@@ -425,7 +425,7 @@ quickly (I)    0.000
 in (O)    0.000
 conclusion (O)    0.000
 , (O)    0.000
-while (O)    0.000
+while (C)    0.000
 many (C)    0.000
 people (I)    0.000
 decide (I)    0.000

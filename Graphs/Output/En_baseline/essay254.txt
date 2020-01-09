@@ -75,7 +75,7 @@ why (O)    0.000
 . (O)    0.000
 first (O)    0.000
 , (O)    0.000
-environmental (C)    0.000
+environmental (P)   77.000
 protection (I)    0.000
 is (I)    0.000
 far (I)    0.000

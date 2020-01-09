@@ -48,7 +48,7 @@ the (I)    0.000
 natural (I)    0.000
 environment (I)    0.000
 . (O)    0.000
-in (P)   92.000
+in (C)    0.000
 order (I)    0.000
 to (I)    0.000
 meet (I)    0.000
@@ -246,7 +246,7 @@ travelers (I)    0.000
 as (I)    0.000
 well (I)    0.000
 . (O)    0.000
-the (P)   70.000
+the (P)   16.000
 provision (I)    0.000
 of (I)    0.000
 direct (I)    0.000
@@ -262,7 +262,7 @@ conveniently (I)    0.000
 and (I)    0.000
 comfortably (I)    0.000
 . (O)    0.000
-with (P)   54.000
+with (C)    0.000
 adequate (I)    0.000
 local (I)    0.000
 facilities (I)    0.000
@@ -336,8 +336,8 @@ are (I)    0.000
 some (I)    0.000
 inevitable (I)    0.000
 problems (I)    0.000
-, (O)    0.000
-they (P)  209.000
+, (I)    0.000
+they (I)    0.000
 are (I)    0.000
 outweighed (I)    0.000
 by (I)    0.000

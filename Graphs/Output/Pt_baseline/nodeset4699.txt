@@ -62,7 +62,7 @@ de (I)    0.000
 ordem (I)    0.000
 organizacional (I)    0.000
 , (I)    0.000
-com (P)   15.000
+com (I)    0.000
 a (I)    0.000
 ausência (I)    0.000
 de (I)    0.000
@@ -508,7 +508,7 @@ composição (I)    0.000
 destas (I)    0.000
 regras (I)    0.000
 . (O)    0.000
-queremos (P)  230.000
+queremos (P)    0.000
 manter (I)    0.000
 o (I)    0.000
 nível (I)    0.000

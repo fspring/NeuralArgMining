@@ -430,7 +430,7 @@ in (I)    0.000
 reaching (I)    0.000
 goal (I)    0.000
 but (O)    0.000
-its (P)  116.000
+its (P)    0.000
 impact (I)    0.000
 is (I)    0.000
 extraneous (I)    0.000

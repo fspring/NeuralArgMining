@@ -8,75 +8,76 @@ digraph G {
 	162 -> 175;
 	212 -> 199;
 	212 -> 255;
-	5 [label="married women nowadays have right
- to take up jobs like
- men when employment discrimination based
- on gender have been erased
- significantly",color=green];
-	55 [label="extra income that women earn
- will contribute to their family's
- expenses",color=blue];
-	55 [label="extra income that women earn
- will contribute to their family's
- expenses",color=blue];
-	110 [label="it is a normal practice
- for women to be helpmates
- in earning money",color=green];
-	67 [label="By taking up
- a job , a wife
- can earn more money to
- support her family life",color=blue];
-	110 [label="it is a normal practice
- for women to be helpmates
- in earning money",color=green];
-	85 [label="This is really necessary in
- cases of her husband's low
- salary and the difficulty of
- getting a good job at
- the present",color=blue];
-	110 [label="it is a normal practice
- for women to be helpmates
- in earning money",color=green];
-	126 [label="working outside the house
- creates opportunities for married women
- to contact with the outer
- world , strengthen their character
- and show their capacity",color=blue];
-	175 [label="it is no doubt that
- they play roles as a
- mother and as a wife
- better",color=green];
-	150 [label="These things in turn will
- make them more confident ,
- independent",color=blue];
-	175 [label="it is no doubt that
- they play roles as a
- mother and as a wife
- better",color=green];
-	162 [label="These women will
- set a good example for
- their children",color=blue];
-	175 [label="it is no doubt that
- they play roles as a
- mother and as a wife
- better",color=green];
-	199 [label="there are many supporting conditions that
- help women balance housework and
- work",color=green];
-	212 [label="Besides the gorvernment's
- policies on limited families and
- their husbands' sharing in the
- housework , many employers are
- willing to offer part-time jobs
- for women",color=blue];
-	212 [label="Besides the gorvernment's
- policies on limited families and
- their husbands' sharing in the
- housework , many employers are
- willing to offer part-time jobs
- for women",color=blue];
-	255 [label="married women could go to
- work in order to enjoy
- the working life outside the
- home",color=green];
+	5 [label="married women nowadays have right to
+ take up jobs like men
+ when employment discrimination based on
+ gender have been erased significantly
+",color=green];
+	55 [label="extra income that women earn will
+ contribute to their family's expenses
+",color=blue];
+	55 [label="extra income that women earn will
+ contribute to their family's expenses
+",color=blue];
+	110 [label="it is a normal practice for
+ women to be helpmates in
+ earning money",color=green];
+	67 [label="By taking up a
+ job , a wife can
+ earn more money to support
+ her family life",color=blue];
+	110 [label="it is a normal practice for
+ women to be helpmates in
+ earning money",color=green];
+	85 [label="This is really necessary in cases
+ of her husband's low salary
+ and the difficulty of getting
+ a good job at the
+ present",color=blue];
+	110 [label="it is a normal practice for
+ women to be helpmates in
+ earning money",color=green];
+	126 [label="working outside the house creates
+ opportunities for married women to
+ contact with the outer world
+ , strengthen their character and
+ show their capacity",color=blue];
+	175 [label="it is no doubt that they
+ play roles as a mother
+ and as a wife better
+",color=green];
+	150 [label="These things in turn will make
+ them more confident , independent
+",color=blue];
+	175 [label="it is no doubt that they
+ play roles as a mother
+ and as a wife better
+",color=green];
+	162 [label="These women will set
+ a good example for their
+ children",color=blue];
+	175 [label="it is no doubt that they
+ play roles as a mother
+ and as a wife better
+",color=green];
+	199 [label="there are
+ many supporting conditions that help
+ women balance housework and work
+",color=green];
+	212 [label="Besides the gorvernment's policies
+ on limited families and their
+ husbands' sharing in the housework
+ , many employers are willing
+ to offer part-time jobs for
+ women",color=blue];
+	212 [label="Besides the gorvernment's policies
+ on limited families and their
+ husbands' sharing in the housework
+ , many employers are willing
+ to offer part-time jobs for
+ women",color=blue];
+	255 [label="married women could go to work
+ in order to enjoy the
+ working life outside the home
+",color=green];
 }

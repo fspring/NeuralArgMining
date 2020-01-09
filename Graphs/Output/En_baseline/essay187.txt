@@ -74,7 +74,7 @@ in (O)    0.000
 other (O)    0.000
 words (O)    0.000
 , (O)    0.000
-he (P)  270.000
+he (P)  132.000
 is (I)    0.000
 not (I)    0.000
 jumping (I)    0.000
@@ -84,7 +84,7 @@ foreign (I)    0.000
 country (I)    0.000
 . (O)    0.000
 therefore (O)    0.000
-he (P)  260.000
+he (P)  122.000
 can (I)    0.000
 set (I)    0.000
 aside (I)    0.000
@@ -100,7 +100,7 @@ language (I)    0.000
 . (O)    0.000
 besides (O)    0.000
 , (O)    0.000
-all (P)  244.000
+all (P)  106.000
 the (I)    0.000
 learners (I)    0.000
 are (I)    0.000
@@ -111,7 +111,7 @@ same (I)    0.000
 country (I)    0.000
 , (O)    0.000
 so (O)    0.000
-all (P)  233.000
+all (P)   95.000
 these (I)    0.000
 people (I)    0.000
 most (I)    0.000
@@ -135,7 +135,7 @@ the (O)    0.000
 other (O)    0.000
 hand (O)    0.000
 , (O)    0.000
-when (P)  209.000
+when (P)   71.000
 a (I)    0.000
 new (I)    0.000
 learner (I)    0.000
@@ -163,7 +163,7 @@ communicate (I)    0.000
 with (I)    0.000
 natives (I)    0.000
 . (O)    0.000
-he (P)  181.000
+he (P)   43.000
 may (I)    0.000
 find (I)    0.000
 native (I)    0.000
@@ -185,7 +185,7 @@ country (I)    0.000
 no (O)    0.000
 doubt (O)    0.000
 , (O)    0.000
-it (P)  159.000
+it (P)   21.000
 leads (I)    0.000
 to (I)    0.000
 better (I)    0.000
@@ -195,7 +195,7 @@ language (I)    0.000
 essential (I)    0.000
 skills (I)    0.000
 . (O)    0.000
-he (P)  149.000
+he (P)   11.000
 also (I)    0.000
 has (I)    0.000
 access (I)    0.000
@@ -206,7 +206,7 @@ up-to-date (I)    0.000
 language (I)    0.000
 . (O)    0.000
 thus (O)    0.000
-he (P)  138.000
+he (C)    0.000
 can (I)    0.000
 learn (I)    0.000
 most (I)    0.000
@@ -237,7 +237,7 @@ on (O)    0.000
 the (O)    0.000
 whole (O)    0.000
 , (O)    0.000
-if (P)  107.000
+if (P)   44.000
 i (I)    0.000
 wanted (I)    0.000
 to (I)    0.000
@@ -262,7 +262,7 @@ the (I)    0.000
 second (I)    0.000
 choice (I)    0.000
 . (O)    0.000
-there (P)   82.000
+there (P)   19.000
 are (I)    0.000
 lots (I)    0.000
 of (I)    0.000
@@ -281,7 +281,7 @@ a (I)    0.000
 new (I)    0.000
 language (I)    0.000
 . (O)    0.000
-when (P)   63.000
+when (C)    0.000
 you (I)    0.000
 are (I)    0.000
 exposed (I)    0.000

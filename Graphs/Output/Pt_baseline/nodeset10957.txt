@@ -6,9 +6,9 @@ do (I)    0.000
 orçamento (I)    0.000
 do (I)    0.000
 estado (I)    0.000
-para (O)    0.000
-este (O)    0.000
-ano (O)    0.000
+para (I)    0.000
+este (I)    0.000
+ano (I)    0.000
 – (O)    0.000
 é (O)    0.000
 mesmo (O)    0.000

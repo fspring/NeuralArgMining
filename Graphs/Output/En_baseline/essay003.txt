@@ -67,7 +67,7 @@ destinations (I)    0.000
 . (O)    0.000
 firstly (O)    0.000
 , (O)    0.000
-international (P)   74.000
+international (P)  160.000
 tourism (I)    0.000
 promotes (I)    0.000
 many (I)    0.000
@@ -86,7 +86,7 @@ demands (I)    0.000
 of (I)    0.000
 tourists (I)    0.000
 . (O)    0.000
-take (P)   55.000
+take (P)  141.000
 cambodia (I)    0.000
 for (I)    0.000
 example (I)    0.000
@@ -116,7 +116,7 @@ and (I)    0.000
 other (I)    0.000
 stores (I)    0.000
 . (O)    0.000
-these (P)   25.000
+these (P)  111.000
 demands (I)    0.000
 trigger (I)    0.000
 related (I)    0.000
@@ -141,7 +141,7 @@ living (I)    0.000
 standard (I)    0.000
 . (O)    0.000
 therefore (O)    0.000
-tourism (C)    0.000
+tourism (P)   86.000
 has (I)    0.000
 clearly (I)    0.000
 improved (I)    0.000

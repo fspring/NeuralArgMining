@@ -61,7 +61,7 @@ in (O)    0.000
 the (O)    0.000
 meantime (O)    0.000
 , (O)    0.000
-communication (C)    0.000
+communication (P)   77.000
 is (I)    0.000
 also (I)    0.000
 another (I)    0.000
@@ -246,8 +246,8 @@ communication (C)    0.000
 is (I)    0.000
 very (I)    0.000
 important (I)    0.000
-as (O)    0.000
-it (P)   37.000
+as (I)    0.000
+it (I)    0.000
 would (I)    0.000
 clear (I)    0.000
 up (I)    0.000

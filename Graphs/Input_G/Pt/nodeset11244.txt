@@ -1,7 +1,7 @@
 digraph G {
 	8 -> 24;
 	8 [label="Mafalda não tem
- uma atitude passiva :",color=blue];
+ uma atitude passiva",color=blue];
 	24 [label="Na sua
  vida não há tempo ,
  nem vagar , para as

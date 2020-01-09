@@ -93,7 +93,7 @@ on (I)    0.000
 the (I)    0.000
 street (I)    0.000
 . (O)    0.000
-buses (P)  107.000
+buses (P)  169.000
 and (I)    0.000
 trains (I)    0.000
 have (I)    0.000
@@ -120,7 +120,7 @@ options (I)    0.000
 . (O)    0.000
 apparently (O)    0.000
 , (O)    0.000
-a (P)   80.000
+a (P)  142.000
 bus (I)    0.000
 can (I)    0.000
 carry (I)    0.000
@@ -147,7 +147,7 @@ of (I)    0.000
 that (I)    0.000
 number (I)    0.000
 . (O)    0.000
-not (P)   53.000
+not (P)  115.000
 to (I)    0.000
 mention (I)    0.000
 the (I)    0.000
@@ -172,7 +172,7 @@ vehicles (I)    0.000
 . (O)    0.000
 together (O)    0.000
 , (O)    0.000
-they (P)   28.000
+they (P)   90.000
 will (I)    0.000
 lessen (I)    0.000
 the (I)    0.000
@@ -200,7 +200,7 @@ it (O)    0.000
 is (O)    0.000
 believed (O)    0.000
 that (O)    0.000
-if (C)    0.000
+if (P)   62.000
 some (I)    0.000
 of (I)    0.000
 the (I)    0.000

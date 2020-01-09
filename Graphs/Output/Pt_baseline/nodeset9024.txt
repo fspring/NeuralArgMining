@@ -30,8 +30,8 @@ se (O)    0.000
 percebe (O)    0.000
 . (O)    0.000
 porque (O)    0.000
-a (P)   42.000
-austeridade (I)    0.000
+a (O)    0.000
+austeridade (O)    0.000
 e (O)    0.000
 uma (O)    0.000
 necessidade (O)    0.000

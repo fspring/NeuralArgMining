@@ -12,105 +12,99 @@ digraph G {
 	238 -> 322;
 	280 -> 322;
 	295 -> 322;
-	40 [label="computers have made life easier
+	40 [label="computers have made life easier and
+ more convenient",color=green];
+	89 [label="Through computers
+ we can collect appropriate data
+ very quickly , store it
+ in the hard disc as
+ long as we want and
+ use it when needed",color=blue];
+	55 [label="computers brought convenience and easiness to
+ our life",color=green];
+	89 [label="Through computers
+ we can collect appropriate data
+ very quickly , store it
+ in the hard disc as
+ long as we want and
+ use it when needed",color=blue];
+	79 [label="computers through
+ internet made our access to
+ information easier",color=green];
+	89 [label="Through computers
+ we can collect appropriate data
+ very quickly , store it
+ in the hard disc as
+ long as we want and
+ use it when needed",color=blue];
+	89 [label="Through computers
+ we can collect appropriate data
+ very quickly , store it
+ in the hard disc as
+ long as we want and
+ use it when needed",color=blue];
+	336 [label="computers have made life easier
  and more convenient",color=green];
-	89 [label="Through computers we can collect appropriate
- data very quickly , store
- it in the hard disc
- as long as we want
- and use it when needed
+	116 [label="Search engines such as google
+ , yandex with many features
+ relevant to the characteristics of
+ the information needed enable search
+ of information in few minutes
 ",color=blue];
-	55 [label="computers brought convenience and easiness
- to our life",color=green];
-	89 [label="Through computers we can collect appropriate
- data very quickly , store
- it in the hard disc
- as long as we want
- and use it when needed
+	336 [label="computers have made life easier
+ and more convenient",color=green];
+	142 [label="Social networks such as
+ facebook , twitter have changed
+ traditional sources of information and
+ decreasing the monopolization of the
+ information by the governments",color=blue];
+	336 [label="computers have made life easier
+ and more convenient",color=green];
+	168 [label="with the use
+ of computers we spend less
+ time in search for information
+ , and can get it
+ from different sources",color=blue];
+	336 [label="computers have made life easier
+ and more convenient",color=green];
+	192 [label="in a globalized world
+ that we live computers made
+ communications faster , visual and
+ cheaper",color=blue];
+	322 [label="communication has become cheaper
+ , faster and visual",color=green];
+	208 [label="With the use
+ of email our messages can
+ be delivered to any person
+ in any part of the
+ world in few minutes",color=blue];
+	322 [label="communication has become cheaper
+ , faster and visual",color=green];
+	234 [label="it is
+ convenient",color=blue];
+	322 [label="communication has become cheaper
+ , faster and visual",color=green];
+	238 [label="you do not
+ need to mile to the
+ post office , but just
+ click the mouse of your
+ computer from the convenience of
+ your arm chair in order
+ to reach your friends ,
+ family members in any part
+ of the world",color=blue];
+	322 [label="communication has become cheaper
+ , faster and visual",color=green];
+	280 [label="Internet facilities such as msn ,
+ skype made visual communication possible
 ",color=blue];
-	79 [label="computers through internet made our access
- to information easier",color=green];
-	89 [label="Through computers we can collect appropriate
- data very quickly , store
- it in the hard disc
- as long as we want
- and use it when needed
-",color=blue];
-	89 [label="Through computers we can collect appropriate
- data very quickly , store
- it in the hard disc
- as long as we want
- and use it when needed
-",color=blue];
-	336 [label="computers have made life
- easier and more convenient",color=green];
-	116 [label="Search engines such as
- google , yandex with many
- features relevant to the characteristics
- of the information needed enable
- search of information in few
- minutes",color=blue];
-	336 [label="computers have made life
- easier and more convenient",color=green];
-	142 [label="Social networks such
- as facebook , twitter have
- changed traditional sources of information
- and decreasing the monopolization of
- the information by the governments
-",color=blue];
-	336 [label="computers have made life
- easier and more convenient",color=green];
-	168 [label="with the
- use of computers we spend
- less time in search for
- information , and can get
- it from different sources",color=blue];
-	336 [label="computers have made life
- easier and more convenient",color=green];
-	192 [label="in a globalized
- world that we live computers
- made communications faster , visual
- and cheaper",color=blue];
-	322 [label="communication has become
- cheaper , faster and visual
-",color=green];
-	208 [label="With the
- use of email our messages
- can be delivered to any
- person in any part of
- the world in few minutes
-",color=blue];
-	322 [label="communication has become
- cheaper , faster and visual
-",color=green];
-	234 [label="it is convenient",color=blue];
-	322 [label="communication has become
- cheaper , faster and visual
-",color=green];
-	238 [label="you do
- not need to mile to
- the post office , but
- just click the mouse of
- your computer from the convenience
- of your arm chair in
- order to reach your friends
- , family members in any
- part of the world",color=blue];
-	322 [label="communication has become
- cheaper , faster and visual
-",color=green];
-	280 [label="Internet facilities such as msn
- , skype made visual communication
- possible",color=blue];
-	322 [label="communication has become
- cheaper , faster and visual
-",color=green];
-	295 [label="via skype people not just
- communicate with their family members
- and friends , but also
- make interviews for employment ,
- enrolment into universities",color=blue];
-	322 [label="communication has become
- cheaper , faster and visual
-",color=green];
+	322 [label="communication has become cheaper
+ , faster and visual",color=green];
+	295 [label="via skype people not just communicate
+ with their family members and
+ friends , but also make
+ interviews for employment , enrolment
+ into universities",color=blue];
+	322 [label="communication has become cheaper
+ , faster and visual",color=green];
 }

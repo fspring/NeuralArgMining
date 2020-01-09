@@ -4,7 +4,7 @@ digraph G {
  especial propensão para a violência
  , em particular contra as
  mulheres , que não se
- encontra noutras religiões .",color=blue];
+ encontra noutras religiões",color=blue];
 	38 [label="para defender as
  mulheres , é necessário criticar
  o Islão , por muito

@@ -1,88 +1,11 @@
 digraph G {
-	66 -> 73;
-	84 -> 124;
-	109 -> 124;
-	147 -> 281;
-	177 -> 281;
-	198 -> 281;
-	226 -> 281;
-	236 -> 281;
-	250 -> 281;
+	73 -> 53;
 	262 -> 281;
-	66 [label="it is really time consuming
- task",color=blue];
+	53 [label="television devastate families
+ ties",color=green];
 	73 [label="emergence of new
  television channels or shows are
- not surprising",color=green];
-	84 [label="we kill
- time by tracking these channels
- so at the end of
- the day we understand it
- is late for doing any
- other activities",color=blue];
-	124 [label="there is
- no time for call to
- our parents or friends",color=green];
-	109 [label="this is
- a problem that suffers all
- of us everyday",color=blue];
-	124 [label="there is
- no time for call to
- our parents or friends",color=green];
-	147 [label="we usually spend our
- times in front of television
- for at least three ours
- a day when we come
- back home after eight-hour working
- in the office",color=blue];
-	281 [label="killing our time , making
- us lazy , and advertising
- negative behaviors are just only
- few reasons to show how
- television is destructive",color=green];
-	177 [label="we do not have
- time to spend for healthy
- activity such as going to
- a gym or doing other
- sports",color=blue];
-	281 [label="killing our time , making
- us lazy , and advertising
- negative behaviors are just only
- few reasons to show how
- television is destructive",color=green];
-	198 [label="this makes us
- a lazy person who prefers
- to do sedentary activities like
- watching television shows rather than
- be active and sociable",color=blue];
-	281 [label="killing our time , making
- us lazy , and advertising
- negative behaviors are just only
- few reasons to show how
- television is destructive",color=green];
-	226 [label="some television programs have a
- negative effect on viewers",color=blue];
-	281 [label="killing our time , making
- us lazy , and advertising
- negative behaviors are just only
- few reasons to show how
- television is destructive",color=green];
-	236 [label="some thriller or action movies
- advertise negative activities such as
- doing criminal activity",color=blue];
-	281 [label="killing our time , making
- us lazy , and advertising
- negative behaviors are just only
- few reasons to show how
- television is destructive",color=green];
-	250 [label="these genre of programs has more
- negative effects on our teenagers
-",color=blue];
-	281 [label="killing our time , making
- us lazy , and advertising
- negative behaviors are just only
- few reasons to show how
- television is destructive",color=green];
+ not surprising",color=blue];
 	262 [label="they usually try to
  mimic what they see on
  movies in their daily behaviors
@@ -90,6 +13,5 @@ digraph G {
 	281 [label="killing our time , making
  us lazy , and advertising
  negative behaviors are just only
- few reasons to show how
- television is destructive",color=green];
+ few",color=green];
 }

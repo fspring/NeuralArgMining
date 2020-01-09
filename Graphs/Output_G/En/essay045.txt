@@ -1,65 +1,17 @@
 digraph G {
-	52 -> 100;
-	61 -> 100;
-	81 -> 100;
-	114 -> 260;
-	131 -> 260;
-	158 -> 260;
-	172 -> 260;
-	198 -> 260;
-	232 -> 260;
-	52 [label="tax revenue is collected
- from those who works",color=blue];
-	100 [label="addressing unemployment should have low priority
+	61 -> 41;
+	61 -> 52;
+	41 [label="government money should be spent
+ on publicly beneficial programs only
 ",color=green];
 	61 [label="spending them on helping those
  not make contribution to society
  would not sound fair to
  tax payers",color=blue];
-	100 [label="addressing unemployment should have low priority
-",color=green];
-	81 [label="there are other pressing demands
- on the government expenditure ,
- such as health care service
- and education",color=blue];
-	100 [label="addressing unemployment should have low priority
-",color=green];
-	114 [label="to survive
- in this competitive world ,
- one has to work hard
- and equip themselves well",color=blue];
-	260 [label="the government should provide help for
- the disadvantaged people",color=green];
-	131 [label="if they could get free
- financial help from the government
- , they might end up
- with out any motivation to
- work at all",color=blue];
-	260 [label="the government should provide help for
- the disadvantaged people",color=green];
-	158 [label="this does not
- mean we should leave alone
- those who do need assistance
-",color=blue];
-	260 [label="the government should provide help for
- the disadvantaged people",color=green];
-	172 [label="they are already in
- reverse circumstances and it would
- be rather difficult for them
- to overcome the difficulties without
- external support",color=blue];
-	260 [label="the government should provide help for
- the disadvantaged people",color=green];
-	198 [label="the government ought
- to set up free vocational
- trainings or to provide interest-free
- bank loans for them",color=blue];
-	260 [label="the government should provide help for
- the disadvantaged people",color=green];
-	232 [label="it is beneficial to
- the society as a whole
- when the jobless can make
- contribution again",color=blue];
-	260 [label="the government should provide help for
- the disadvantaged people",color=green];
+	52 [label="tax revenue is collected
+ from those who works",color=green];
+	61 [label="spending them on helping those
+ not make contribution to society
+ would not sound fair to
+ tax payers",color=blue];
 }

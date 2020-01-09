@@ -11,105 +11,104 @@ digraph G {
 	179 -> 248;
 	203 -> 248;
 	226 -> 248;
-	35 [label="the prevalent of English brings
- a great number of benefits
- for people",color=green];
-	52 [label="it promotes the
- communication and interaction between different
- countries more conveniently and clearly
+	35 [label="the prevalent of English brings a
+ great number of benefits for
+ people",color=green];
+	52 [label="it promotes the communication
+ and interaction between different countries
+ more conveniently and clearly",color=blue];
+	52 [label="it promotes the communication
+ and interaction between different countries
+ more conveniently and clearly",color=blue];
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
+	66 [label="In the ancient time ,
+ the different languages and geography
+ set barriers for people to
+ exchange their goods and ideas
 ",color=blue];
-	52 [label="it promotes the
- communication and interaction between different
- countries more conveniently and clearly
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
+	89 [label="the innovation
+ of plane and train solved
+ the geographical barriers",color=blue];
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
+	100 [label="If we can popularize the use
+ of English , the language
+ hinder will disappear as well
 ",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
-	66 [label="In the ancient time
- , the different languages and
- geography set barriers for people
- to exchange their goods and
- ideas",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
-	89 [label="the innovation of plane and train
- solved the geographical barriers",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
-	100 [label="If we can popularize the
- use of English , the
- language hinder will disappear as
- well",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
-	120 [label="English is a beautiful language
- , which is more systematical
- and extensive than many other
- languages",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
-	137 [label="Learning English can
- foster people's sentiment and nourish
- their literature and art",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
-	156 [label="the dominated status of
- English has destroyed culture diversity
- and many less-used languages become
- extinct",color=green];
-	173 [label="English is
- a sophisticated language",color=blue];
-	173 [label="English is
- a sophisticated language",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
-	179 [label="it does not express every detail
- of life especially in Asia
- countries , which have totally
- different linguistic system",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
-	203 [label="language contains
- many aspects of people's daily
- life , which is influenced
- by culture , environment as
- well as religious",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
-	226 [label="these languages have special
- significance for people who belong
- to them and using English
- to replace them is crudity
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
+	120 [label="English is a beautiful language ,
+ which is more systematical and
+ extensive than many other languages
 ",color=blue];
-	248 [label="English as
- an elegant language should be
- advocated in many fields to
- expand the global trade and
- communications",color=green];
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
+	137 [label="Learning English can foster
+ people's sentiment and nourish their
+ literature and art",color=blue];
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
+	156 [label="the dominated status of English
+ has destroyed culture diversity and
+ many less-used languages become extinct
+",color=green];
+	173 [label="English is a
+ sophisticated language",color=blue];
+	173 [label="English is a
+ sophisticated language",color=blue];
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
+	179 [label="it does
+ not express every detail of
+ life especially in Asia countries
+ , which have totally different
+ linguistic system",color=blue];
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
+	203 [label="language contains many
+ aspects of people's daily life
+ , which is influenced by
+ culture , environment as well
+ as religious",color=blue];
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
+	226 [label="these languages have special significance
+ for people who belong to
+ them and using English to
+ replace them is crudity",color=blue];
+	248 [label="English as an
+ elegant language should be advocated
+ in many fields to expand
+ the global trade and communications
+",color=green];
 }

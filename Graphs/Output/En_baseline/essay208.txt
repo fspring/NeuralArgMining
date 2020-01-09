@@ -58,7 +58,7 @@ some (I)    0.000
 time (I)    0.000
 on (I)    0.000
 it (I)    0.000
-, (I)    0.000
+, (O)    0.000
 high (C)    0.000
 school (I)    0.000
 students (I)    0.000
@@ -82,7 +82,7 @@ the (O)    0.000
 primary (O)    0.000
 concern (O)    0.000
 , (O)    0.000
-it (P)  114.000
+it (C)    0.000
 can (I)    0.000
 provide (I)    0.000
 students (I)    0.000
@@ -93,7 +93,7 @@ direction (I)    0.000
 in (I)    0.000
 academy (I)    0.000
 . (O)    0.000
-basic (P)  103.000
+basic (P)  116.000
 economic (I)    0.000
 class (I)    0.000
 can (I)    0.000
@@ -117,7 +117,7 @@ subject (I)    0.000
 mainly (I)    0.000
 discuss (I)    0.000
 . (O)    0.000
-that (P)   79.000
+that (P)   92.000
 will (I)    0.000
 help (I)    0.000
 the (I)    0.000
@@ -135,7 +135,7 @@ orientation (I)    0.000
 . (O)    0.000
 finally (O)    0.000
 , (O)    0.000
-students (P)   61.000
+students (P)   74.000
 may (I)    0.000
 study (I)    0.000
 harder (I)    0.000
@@ -149,14 +149,14 @@ the (O)    0.000
 other (O)    0.000
 hand (O)    0.000
 , (O)    0.000
-economy (P)   47.000
+economy (P)   60.000
 is (I)    0.000
 always (I)    0.000
 correlate (I)    0.000
 with (I)    0.000
 politics (I)    0.000
-, (O)    0.000
-students (P)   40.000
+, (I)    0.000
+students (I)    0.000
 can (I)    0.000
 study (I)    0.000
 specialized (I)    0.000
@@ -185,7 +185,7 @@ textbooks (I)    0.000
 . (O)    0.000
 besides (O)    0.000
 , (O)    0.000
-there (P)   11.000
+there (P)   24.000
 is (I)    0.000
 also (I)    0.000
 an (I)    0.000
@@ -195,8 +195,8 @@ between (I)    0.000
 economy (I)    0.000
 and (I)    0.000
 enterprises (I)    0.000
-, (O)    0.000
-students (C)    0.000
+, (I)    0.000
+students (I)    0.000
 can (I)    0.000
 also (I)    0.000
 gain (I)    0.000

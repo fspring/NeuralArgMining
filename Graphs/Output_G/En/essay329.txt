@@ -79,7 +79,7 @@ digraph G {
  be different and pursue your
  dream to have a successful
  life",color=green];
-	286 [label="he heard lots of "no"
+	286 [label="he heard lots of no
  , furthermore one editor fired
  him alleging that he had
  no imagination , after all

@@ -80,7 +80,7 @@ of (O)    0.000
 all (O)    0.000
 , (O)    0.000
 although (O)    0.000
-it (C)    0.000
+it (P)  114.000
 is (I)    0.000
 too (I)    0.000
 strong (I)    0.000
@@ -202,7 +202,7 @@ be (I)    0.000
 strictly (I)    0.000
 banned (I)    0.000
 because (O)    0.000
-it (P)  110.000
+it (P)   32.000
 makes (I)    0.000
 the (I)    0.000
 restaurant (I)    0.000
@@ -234,7 +234,7 @@ imposes (O)    0.000
 on (O)    0.000
 them (O)    0.000
 , (O)    0.000
-the (P)   78.000
+the (C)    0.000
 disgusting (I)    0.000
 smoke (I)    0.000
 will (I)    0.000
@@ -321,7 +321,7 @@ the (I)    0.000
 smoker (I)    0.000
 himself (I)    0.000
 . (O)    0.000
-not (P)   86.000
+not (P)   60.000
 only (I)    0.000
 does (I)    0.000
 it (I)    0.000
@@ -347,7 +347,7 @@ image (I)    0.000
 and (I)    0.000
 reputation (I)    0.000
 . (O)    0.000
-this (P)   60.000
+this (P)   34.000
 is (I)    0.000
 especially (I)    0.000
 true (I)    0.000
@@ -365,7 +365,7 @@ entertainmening (I)    0.000
 celebrity (I)    0.000
 , (O)    0.000
 because (O)    0.000
-most (P)   42.000
+most (P)   16.000
 people (I)    0.000
 see (I)    0.000
 smoking (I)    0.000
@@ -381,7 +381,7 @@ at (O)    0.000
 this (O)    0.000
 point (O)    0.000
 , (O)    0.000
-the (P)   26.000
+the (C)    0.000
 public (I)    0.000
 are (I)    0.000
 likely (I)    0.000

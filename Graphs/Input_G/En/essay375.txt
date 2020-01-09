@@ -11,100 +11,101 @@ digraph G {
 	283 -> 356;
 	296 -> 356;
 	315 -> 356;
-	66 [label="no matter how widely
- they are spoken , every
- language should be protected from
- being disappeared",color=green];
-	102 [label="we need to
- consider that if the government
- expands the use scope of
- that languages , it can
- be really expensive",color=blue];
-	88 [label="saving regional
- languages could be seen as
- a waste of money",color=green];
-	102 [label="we need to
- consider that if the government
- expands the use scope of
- that languages , it can
- be really expensive",color=blue];
-	102 [label="we need to
- consider that if the government
- expands the use scope of
- that languages , it can
- be really expensive",color=blue];
-	356 [label="it will definitely impact
- seriously on many other aspects
- especially in the loss of
- our cultural heritages",color=green];
-	124 [label="educational programmes will need to be
- given so as to keep
- young people learning and using
- them",color=blue];
-	356 [label="it will definitely impact
- seriously on many other aspects
- especially in the loss of
- our cultural heritages",color=green];
-	145 [label="some certain areas in the
- Southern Vietnam have been trying
- to help their secondary school
- students who are originally from
- khmer people speak their language
- beside Vietnamese",color=blue];
-	356 [label="it will definitely impact
- seriously on many other aspects
- especially in the loss of
- our cultural heritages",color=green];
-	174 [label="the local government has recently struggled
- with their costly investments on
- language teachers , facilities and
- appropriate materials",color=blue];
-	356 [label="it will definitely impact
- seriously on many other aspects
- especially in the loss of
- our cultural heritages",color=green];
-	242 [label="the government should
- try to preserve minority languages
-",color=green];
-	254 [label="language can be seen as much
- more than just one method
- of communication",color=blue];
-	254 [label="language can be seen as much
- more than just one method
- of communication",color=blue];
-	356 [label="it will definitely impact
- seriously on many other aspects
- especially in the loss of
- our cultural heritages",color=green];
-	271 [label="forming a language must
- be undergone thousands of years
+	66 [label="no matter how widely they
+ are spoken , every language
+ should be protected from being
+ disappeared",color=green];
+	102 [label="we need to consider
+ that if the government expands
+ the use scope of that
+ languages , it can be
+ really expensive",color=blue];
+	88 [label="saving regional languages
+ could be seen as a
+ waste of money",color=green];
+	102 [label="we need to consider
+ that if the government expands
+ the use scope of that
+ languages , it can be
+ really expensive",color=blue];
+	102 [label="we need to consider
+ that if the government expands
+ the use scope of that
+ languages , it can be
+ really expensive",color=blue];
+	356 [label="it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
+	124 [label="educational programmes
+ will need to be given
+ so as to keep young
+ people learning and using them
 ",color=blue];
-	356 [label="it will definitely impact
- seriously on many other aspects
- especially in the loss of
- our cultural heritages",color=green];
-	283 [label="it deserves
- to be respected and preserved
-",color=blue];
-	356 [label="it will definitely impact
- seriously on many other aspects
- especially in the loss of
- our cultural heritages",color=green];
-	296 [label="language is one of
- the essential factors creating the
- differences and unique cutures in
- the world",color=blue];
-	356 [label="it will definitely impact
- seriously on many other aspects
- especially in the loss of
- our cultural heritages",color=green];
-	315 [label="saving the use of that
- kinds of languages in this
- case generally is the most
- important element of the cultural
- diversity's preservation",color=blue];
-	356 [label="it will definitely impact
- seriously on many other aspects
- especially in the loss of
- our cultural heritages",color=green];
+	356 [label="it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
+	145 [label="some certain areas in the Southern
+ Vietnam have been trying to
+ help their secondary school students
+ who are originally from khmer
+ people speak their language beside
+ Vietnamese",color=blue];
+	356 [label="it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
+	174 [label="the local
+ government has recently struggled with
+ their costly investments on language
+ teachers , facilities and appropriate
+ materials",color=blue];
+	356 [label="it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
+	242 [label="the government should try
+ to preserve minority languages",color=green];
+	254 [label="language can
+ be seen as much more
+ than just one method of
+ communication",color=blue];
+	254 [label="language can
+ be seen as much more
+ than just one method of
+ communication",color=blue];
+	356 [label="it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
+	271 [label="forming a language must be
+ undergone thousands of years",color=blue];
+	356 [label="it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
+	283 [label="it deserves to
+ be respected and preserved",color=blue];
+	356 [label="it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
+	296 [label="language is one of the
+ essential factors creating the differences
+ and unique cutures in the
+ world",color=blue];
+	356 [label="it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
+	315 [label="saving the use of that kinds
+ of languages in this case
+ generally is the most important
+ element of the cultural diversity's
+ preservation",color=blue];
+	356 [label="it will definitely impact seriously
+ on many other aspects especially
+ in the loss of our
+ cultural heritages",color=green];
 }

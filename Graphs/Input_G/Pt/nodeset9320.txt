@@ -17,5 +17,5 @@ digraph G {
  estão provocando uma explosão dos
  números da pobreza e já
  não só nos países do
- sul .",color=green];
+ sul",color=green];
 }

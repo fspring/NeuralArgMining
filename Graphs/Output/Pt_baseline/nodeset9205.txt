@@ -113,7 +113,7 @@ acusação (I)    0.000
 indiferente (I)    0.000
 , (O)    0.000
 porque (O)    0.000
-a (P)  625.000
+a (P)    0.000
 questão (I)    0.000
 é (I)    0.000
 a (I)    0.000

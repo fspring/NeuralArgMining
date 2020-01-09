@@ -17,132 +17,136 @@ digraph G {
 	295 -> 354;
 	310 -> 354;
 	323 -> 354;
-	33 [label="international sporting
- occasions are essential in easing
- international tensions and releasing patriotic
+	33 [label="international sporting occasions
+ are essential in easing international
+ tensions and releasing patriotic emotions
+ in a safe way",color=green];
+	51 [label="An international sporting event is
+ normal held in a country
+ with huge interest from fans
+ all over the world",color=blue];
+	51 [label="An international sporting event is
+ normal held in a country
+ with huge interest from fans
+ all over the world",color=blue];
+	165 [label="It really help to alleviate the
+ tension",color=green];
+	71 [label="For the time of occasions
+ , people regardless of nationality
+ , origin and religion will
+ live together",color=blue];
+	165 [label="It really help to alleviate the
+ tension",color=green];
+	89 [label="People can
+ understand more about a country
+",color=blue];
+	165 [label="It really help to alleviate the
+ tension",color=green];
+	97 [label="it is useful to
+ ease tensions between nations",color=blue];
+	165 [label="It really help to alleviate the
+ tension",color=green];
+	108 [label="in FIFA World
+ Cup 2010 , the relation
+ between North Korea and South
+ Korea is dangerous for the
+ warship sinking",color=blue];
+	165 [label="It really help to alleviate the
+ tension",color=green];
+	129 [label="The world
+ suspected North Korea of the
+ aggressive action",color=blue];
+	165 [label="It really help to alleviate the
+ tension",color=green];
+	141 [label="due to this event North
+ Korea showed a friendship and
+ enthuasism",color=blue];
+	165 [label="It really help to alleviate the
+ tension",color=green];
+	153 [label="It is rare
+ times when people can learn
+ about this country",color=blue];
+	165 [label="It really help to alleviate the
+ tension",color=green];
+	177 [label="an international sporting event
+ also helps fans release patriotic
  emotions in a safe way
 ",color=green];
-	51 [label="An international sporting event
- is normal held in a
- country with huge interest from
- fans all over the world
+	192 [label="When they garther together
+ to encourage their team ,
+ they will show their patriotic
+ emotions",color=blue];
+	192 [label="When they garther together
+ to encourage their team ,
+ they will show their patriotic
+ emotions",color=blue];
+	354 [label="It will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
+	208 [label="Regardless of the
+ competition between teams , their
+ emotions are always released in
+ a safe way due to
+ the sole passion of the
+ sport",color=blue];
+	354 [label="It will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
+	235 [label="all fans know that a sport
+ event will attract the attention
+ of whole the world and
+ a lot of public media
 ",color=blue];
-	51 [label="An international sporting event
- is normal held in a
- country with huge interest from
- fans all over the world
+	354 [label="It will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
+	257 [label="They will try to
+ create a beautiful image about
+ their land and people",color=blue];
+	354 [label="It will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
+	271 [label="In Olympic Beijing 2008 ,
+ Chinese tried thier best to
+ bring the world a spectacular
+ image about their country",color=blue];
+	354 [label="It will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
+	295 [label="foreigners came here always received the
+ support of friendly volunteers who
+ were young students",color=blue];
+	354 [label="It will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
+	310 [label="They were welcomed by each Chinese
+ hospitality , beauty in each
+ cities",color=blue];
+	354 [label="It will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
+	323 [label="Everythings is created
+ by patriotic emotions of Chinese
+ who wanted to bring a
+ beautiful China to the world
 ",color=blue];
-	165 [label="It really help to alleviate
- the tension",color=green];
-	71 [label="For the time of
- occasions , people regardless of
- nationality , origin and religion
- will live together",color=blue];
-	165 [label="It really help to alleviate
- the tension",color=green];
-	89 [label="People can understand more about a
- country",color=blue];
-	165 [label="It really help to alleviate
- the tension",color=green];
-	97 [label="it is useful
- to ease tensions between nations
-",color=blue];
-	165 [label="It really help to alleviate
- the tension",color=green];
-	108 [label="in FIFA
- World Cup 2010 , the
- relation between North Korea and
- South Korea is dangerous for
- the warship sinking",color=blue];
-	165 [label="It really help to alleviate
- the tension",color=green];
-	129 [label="The world suspected North Korea of
- the aggressive action",color=blue];
-	165 [label="It really help to alleviate
- the tension",color=green];
-	141 [label="due to this event
- North Korea showed a friendship
- and enthuasism",color=blue];
-	165 [label="It really help to alleviate
- the tension",color=green];
-	153 [label="It is
- rare times when people can
- learn about this country",color=blue];
-	165 [label="It really help to alleviate
- the tension",color=green];
-	177 [label="an international sporting
- event also helps fans release
- patriotic emotions in a safe
- way",color=green];
-	192 [label="When they garther
- together to encourage their team
- , they will show their
- patriotic emotions",color=blue];
-	192 [label="When they garther
- together to encourage their team
- , they will show their
- patriotic emotions",color=blue];
-	354 [label="It will make the world more
- peaceful by easing internation tensions
- and releasing patriotic emotions in
- a safe way",color=green];
-	208 [label="Regardless of
- the competition between teams ,
- their emotions are always released
- in a safe way due
- to the sole passion of
- the sport",color=blue];
-	354 [label="It will make the world more
- peaceful by easing internation tensions
- and releasing patriotic emotions in
- a safe way",color=green];
-	235 [label="all fans know that a
- sport event will attract the
- attention of whole the world
- and a lot of public
- media",color=blue];
-	354 [label="It will make the world more
- peaceful by easing internation tensions
- and releasing patriotic emotions in
- a safe way",color=green];
-	257 [label="They will try
- to create a beautiful image
- about their land and people
-",color=blue];
-	354 [label="It will make the world more
- peaceful by easing internation tensions
- and releasing patriotic emotions in
- a safe way",color=green];
-	271 [label="In Olympic Beijing 2008
- , Chinese tried thier best
- to bring the world a
- spectacular image about their country
-",color=blue];
-	354 [label="It will make the world more
- peaceful by easing internation tensions
- and releasing patriotic emotions in
- a safe way",color=green];
-	295 [label="foreigners came here always received
- the support of friendly volunteers
- who were young students",color=blue];
-	354 [label="It will make the world more
- peaceful by easing internation tensions
- and releasing patriotic emotions in
- a safe way",color=green];
-	310 [label="They were welcomed by each
- Chinese hospitality , beauty in
- each cities",color=blue];
-	354 [label="It will make the world more
- peaceful by easing internation tensions
- and releasing patriotic emotions in
- a safe way",color=green];
-	323 [label="Everythings is
- created by patriotic emotions of
- Chinese who wanted to bring
- a beautiful China to the
- world",color=blue];
-	354 [label="It will make the world more
- peaceful by easing internation tensions
- and releasing patriotic emotions in
- a safe way",color=green];
+	354 [label="It will
+ make the world more peaceful
+ by easing internation tensions and
+ releasing patriotic emotions in a
+ safe way",color=green];
 }

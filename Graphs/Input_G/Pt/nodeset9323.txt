@@ -9,7 +9,7 @@ digraph G {
  parte integrante de um mundo
  que está a globalizar a
  pobreza e daí a barbárie
- !",color=green];
+",color=green];
 	16 [label="insistindo numa austeridade castradora de
  qualquer processo de desenvolvimento sustentado
  , tendo apenas como prioridade
@@ -22,5 +22,5 @@ digraph G {
  parte integrante de um mundo
  que está a globalizar a
  pobreza e daí a barbárie
- !",color=green];
+",color=green];
 }

@@ -1,67 +1,18 @@
 digraph G {
-	76 -> 171;
-	87 -> 171;
-	98 -> 171;
-	112 -> 171;
-	126 -> 171;
-	153 -> 171;
-	207 -> 236;
-	256 -> 297;
+	76 -> 54;
 	264 -> 297;
+	54 [label="the main
+ advantage of high-tech medical care
+ is",color=green];
 	76 [label="they can contribute effectively to
  the development of the economy
 ",color=blue];
-	171 [label="the improvement of medical care
- makes a better life for
- all people",color=green];
-	87 [label="healthy workers can create
- more productivity",color=blue];
-	171 [label="the improvement of medical care
- makes a better life for
- all people",color=green];
-	98 [label="they do not
- have to spend more time
- in health checking or treatment
-",color=blue];
-	171 [label="the improvement of medical care
- makes a better life for
- all people",color=green];
-	112 [label="this saves an amount
- of time as well as
- cost",color=blue];
-	171 [label="the improvement of medical care
- makes a better life for
- all people",color=green];
-	126 [label="a community with the elderly
- who have a good health
- has a major role to
- play in a sustainable development
- of a society",color=blue];
-	171 [label="the improvement of medical care
- makes a better life for
- all people",color=green];
-	153 [label="young people will
- be happy as their parents
- , grandparents are healthy",color=blue];
-	171 [label="the improvement of medical care
- makes a better life for
- all people",color=green];
-	207 [label="more pension have to
- spend for medicare instead of
- investing in other sectors of
- the economic system",color=blue];
-	236 [label="the capital that spend on
- taking care the elderly is
- contributed by these people during
- their working time",color=green];
-	256 [label="they are worth to have
- good care",color=blue];
-	297 [label="the development of the
- health care system helps people
- have a better life",color=green];
 	264 [label="they have
  given their effort to the
- society so",color=blue];
+ society so that young people
+ , the governments have a
+ responsibility to improve the medicare
+ system",color=blue];
 	297 [label="the development of the
  health care system helps people
  have a better life",color=green];

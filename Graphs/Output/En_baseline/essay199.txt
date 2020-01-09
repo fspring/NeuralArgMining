@@ -54,7 +54,7 @@ build (I)    0.000
 my (I)    0.000
 personality (I)    0.000
 . (O)    0.000
-studying (P)  193.000
+studying (C)    0.000
 alone (I)    0.000
 helps (I)    0.000
 us (I)    0.000
@@ -68,7 +68,7 @@ lessons (I)    0.000
 for (O)    0.000
 instance (O)    0.000
 , (O)    0.000
-i (P)  179.000
+i (P)  103.000
 am (I)    0.000
 a (I)    0.000
 type (I)    0.000
@@ -84,7 +84,7 @@ i (I)    0.000
 am (I)    0.000
 alone (I)    0.000
 . (O)    0.000
-i (P)  163.000
+i (P)   87.000
 can (I)    0.000
 prepare (I)    0.000
 my (I)    0.000
@@ -101,7 +101,7 @@ all (I)    0.000
 . (O)    0.000
 moreover (O)    0.000
 , (O)    0.000
-we (P)  146.000
+we (P)   70.000
 have (I)    0.000
 a (I)    0.000
 lot (I)    0.000
@@ -128,7 +128,7 @@ in (O)    0.000
 my (O)    0.000
 opinion (O)    0.000
 , (O)    0.000
-i (P)  119.000
+i (P)   43.000
 can (I)    0.000
 take (I)    0.000
 advantage (I)    0.000
@@ -143,7 +143,7 @@ alone (I)    0.000
 . (O)    0.000
 additionally (O)    0.000
 , (O)    0.000
-we (P)  104.000
+we (P)   28.000
 are (I)    0.000
 building (I)    0.000
 our (I)    0.000
@@ -156,7 +156,7 @@ alone (I)    0.000
 for (O)    0.000
 example (O)    0.000
 , (O)    0.000
-answering (P)   91.000
+answering (P)   15.000
 our (I)    0.000
 homework (I)    0.000
 alone (I)    0.000
@@ -171,7 +171,7 @@ independent (I)    0.000
 . (O)    0.000
 also (O)    0.000
 , (O)    0.000
-it (P)   76.000
+it (C)    0.000
 motivates (I)    0.000
 us (I)    0.000
 to (I)    0.000
@@ -255,7 +255,7 @@ idea (I)    0.000
 of (I)    0.000
 studying (I)    0.000
 a (I)    0.000
-lone (O)    0.000
+lone (I)    0.000
 since (O)    0.000
 it (C)    0.000
 helps (I)    0.000

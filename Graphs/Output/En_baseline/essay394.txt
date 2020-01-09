@@ -177,7 +177,7 @@ the (O)    0.000
 fact (O)    0.000
 is (O)    0.000
 that (O)    0.000
-kids (P)   99.000
+kids (P)   34.000
 who (I)    0.000
 are (I)    0.000
 bad (I)    0.000
@@ -193,7 +193,7 @@ catching (I)    0.000
 up (I)    0.000
 lessons (I)    0.000
 . (O)    0.000
-it (P)   83.000
+it (P)   18.000
 resulted (I)    0.000
 in (I)    0.000
 the (I)    0.000
@@ -211,7 +211,7 @@ works (I)    0.000
 . (O)    0.000
 moreover (O)    0.000
 , (O)    0.000
-the (P)   65.000
+the (C)    0.000
 increasing (I)    0.000
 taking (I)    0.000
 advantage (I)    0.000

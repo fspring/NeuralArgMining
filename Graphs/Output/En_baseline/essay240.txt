@@ -61,11 +61,11 @@ i (O)    0.000
 am (O)    0.000
 in (O)    0.000
 favor (O)    0.000
-the (C)    0.000
-former (I)    0.000
-statement (I)    0.000
-that (I)    0.000
-some (I)    0.000
+the (O)    0.000
+former (O)    0.000
+statement (O)    0.000
+that (O)    0.000
+some (C)    0.000
 tough (I)    0.000
 experiences (I)    0.000
 people (I)    0.000
@@ -171,7 +171,7 @@ time (I)    0.000
 what's (O)    0.000
 more (O)    0.000
 , (O)    0.000
-people (P)  103.000
+people (C)    0.000
 who (I)    0.000
 experienced (I)    0.000
 lots (I)    0.000

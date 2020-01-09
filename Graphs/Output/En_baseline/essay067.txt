@@ -90,7 +90,7 @@ however (O)    0.000
 , (O)    0.000
 i (O)    0.000
 believe (O)    0.000
-the (P)   65.000
+the (P)  188.000
 audiences (I)    0.000
 have (I)    0.000
 their (I)    0.000
@@ -116,7 +116,7 @@ needless (O)    0.000
 to (O)    0.000
 say (O)    0.000
 that (O)    0.000
-art (P)   39.000
+art (P)  162.000
 inevitably (I)    0.000
 involves (I)    0.000
 imagination (I)    0.000
@@ -155,7 +155,7 @@ interpret (I)    0.000
 its (I)    0.000
 meaning (I)    0.000
 . (O)    0.000
-if (C)    0.000
+if (P)  123.000
 the (I)    0.000
 art (I)    0.000
 displays (I)    0.000

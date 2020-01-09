@@ -135,8 +135,8 @@ students (I)    0.000
 have (I)    0.000
 grown (I)    0.000
 up (I)    0.000
-, (O)    0.000
-they (P)   14.000
+, (I)    0.000
+they (I)    0.000
 have (I)    0.000
 enough (I)    0.000
 ability (I)    0.000
@@ -202,7 +202,7 @@ and (I)    0.000
 interesting (I)    0.000
 way (I)    0.000
 . (O)    0.000
-when (P)   68.000
+when (P)   87.000
 the (I)    0.000
 students (I)    0.000
 attend (I)    0.000
@@ -228,7 +228,7 @@ time (I)    0.000
 . (O)    0.000
 additionally (O)    0.000
 , (O)    0.000
-mostly (P)   42.000
+mostly (P)   61.000
 university (I)    0.000
 has (I)    0.000
 taken (I)    0.000
@@ -240,7 +240,7 @@ lectures (I)    0.000
 . (O)    0.000
 besides (O)    0.000
 , (O)    0.000
-most (P)   30.000
+most (P)   49.000
 of (I)    0.000
 the (I)    0.000
 university (I)    0.000
@@ -259,7 +259,7 @@ the (I)    0.000
 education (I)    0.000
 time (I)    0.000
 . (O)    0.000
-students (P)   11.000
+students (P)   30.000
 need (I)    0.000
 to (I)    0.000
 work (I)    0.000
@@ -270,7 +270,7 @@ basis (I)    0.000
 . (O)    0.000
 hence (O)    0.000
 , (O)    0.000
-they (C)    0.000
+they (P)   19.000
 have (I)    0.000
 to (I)    0.000
 schedule (I)    0.000
@@ -317,7 +317,7 @@ forth (I)    0.000
 . (O)    0.000
 from (O)    0.000
 that (O)    0.000
-they (P)   41.000
+they (P)   19.000
 can (I)    0.000
 meet (I)    0.000
 other (I)    0.000
@@ -336,15 +336,15 @@ a (O)    0.000
 nutshell (O)    0.000
 , (O)    0.000
 although (O)    0.000
-few (P)   22.000
+few (C)    0.000
 brilliant (I)    0.000
 lecturers (I)    0.000
 deliver (I)    0.000
 more (I)    0.000
 informative (I)    0.000
 lectures (I)    0.000
-, (I)    0.000
-some (I)    0.000
+, (O)    0.000
+some (P)   14.000
 are (I)    0.000
 boring (I)    0.000
 the (I)    0.000

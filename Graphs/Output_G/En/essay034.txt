@@ -1,22 +1,21 @@
 digraph G {
-	72 -> 145;
+	89 -> 72;
 	89 -> 145;
-	121 -> 145;
+	130 -> 121;
 	130 -> 145;
-	168 -> 194;
-	205 -> 280;
-	214 -> 280;
-	232 -> 280;
+	164 -> 145;
 	243 -> 280;
-	256 -> 280;
-	300 -> 312;
 	72 [label="schools offer to students
  a good environment with experienced
  professors and high quality programs
- for studying",color=blue];
-	145 [label="they have more opprotunities to find
- a job and to be
- successful in the future",color=green];
+ for studying",color=green];
+	89 [label="it creates
+ the best conditions for students
+ education and can force them
+ to focus on their school
+ work instead of wasting their
+ time to do useless things
+",color=blue];
 	89 [label="it creates
  the best conditions for students
  education and can force them
@@ -28,50 +27,26 @@ digraph G {
  a job and to be
  successful in the future",color=green];
 	121 [label="schools provide lots of academic
- knowledge to students",color=blue];
-	145 [label="they have more opprotunities to find
- a job and to be
- successful in the future",color=green];
+ knowledge to students",color=green];
+	130 [label="students may learn professional skills ,
+ expand their understandings and gain
+ experiences",color=blue];
 	130 [label="students may learn professional skills ,
  expand their understandings and gain
  experiences",color=blue];
 	145 [label="they have more opprotunities to find
  a job and to be
  successful in the future",color=green];
-	168 [label="employer always prefer
+	145 [label="they have more opprotunities to find
+ a job and to be
+ successful in the future",color=green];
+	164 [label="as we
+ know , employer always prefer
  to hire an employee of
  high degree who have professional
  skills",color=blue];
-	194 [label="children should
- interrupt their school work and
- get a job",color=green];
-	205 [label="whether children can learn a lot
- at school",color=blue];
-	280 [label="students should study at school",color=green];
-	214 [label="there are
- many subjects that will be
- of little value to them
- in the future",color=blue];
-	280 [label="students should study at school",color=green];
-	232 [label="children can learn social
- skills when they have a
- job",color=blue];
-	280 [label="students should study at school",color=green];
 	243 [label="they can get
  more experiences that can not
  be obtained at school",color=blue];
 	280 [label="students should study at school",color=green];
-	256 [label="working helps children be more
- independent and teach them to
- esteem and manage the money
- that they've earned",color=blue];
-	280 [label="students should study at school",color=green];
-	300 [label="studying at school is always the
- best choice for children's future
-",color=blue];
-	312 [label="there are many ways
- that can train children to
- learn independent and social skills
- instead of getting a job
-",color=green];
 }

@@ -187,7 +187,7 @@ health (I)    0.000
 are (I)    0.000
 lethal (I)    0.000
 . (O)    0.000
-it (P)  135.000
+it (P)   40.000
 has (I)    0.000
 been (I)    0.000
 proved (I)    0.000
@@ -227,7 +227,7 @@ is (O)    0.000
 about (O)    0.000
 techniques (O)    0.000
 . (O)    0.000
-there (P)   95.000
+there (C)    0.000
 is (I)    0.000
 panic (I)    0.000
 among (I)    0.000
@@ -243,7 +243,7 @@ the (I)    0.000
 third (I)    0.000
 party (I)    0.000
 . (O)    0.000
-this (P)   79.000
+this (P)   28.000
 possibility (I)    0.000
 exists (I)    0.000
 all (I)    0.000
@@ -251,7 +251,7 @@ the (I)    0.000
 time (I)    0.000
 . (O)    0.000
 but (O)    0.000
-a (P)   71.000
+a (P)   20.000
 more (I)    0.000
 efficient (I)    0.000
 and (I)    0.000
@@ -271,7 +271,7 @@ users (I)    0.000
 . (O)    0.000
 moreover (O)    0.000
 , (O)    0.000
-the (P)   51.000
+the (C)    0.000
 mobile (I)    0.000
 phone (I)    0.000
 has (I)    0.000

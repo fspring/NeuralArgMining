@@ -1,10 +1,10 @@
 import os
 
-dir = 'CorpusOutputPunctuation/rel'
-# dir = 'essaysClaimsPremisesPunctuation/rel/both'
+# dir = 'CorpusOutputPunctuation/rel'
+dir = 'essaysClaimsPremisesPunctuation/rel/both'
 
-graph_dir = 'Graphs/Input_G/Pt'
-# graph_dir = 'Graphs/Input_G/En'
+# graph_dir = 'Graphs/Input_G/Pt'
+graph_dir = 'Graphs/Input_G/En'
 
 files = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
 
@@ -17,6 +17,9 @@ for filename in files:
     tag = fields[-1].split(',') #['(T', 'd)\n'] , T in {C, P, I}
     arg = tag[0][-1]
     text = fields[0]
+    text = text.replace('\"', '')
+    text = text.replace('\”', '')
+    text = text.replace('\“', '')
     if tag[-1][:-2] == '|':
         dist = 0
     else:
@@ -31,7 +34,11 @@ for filename in files:
         tag = fields[-1].split(',') #['(T', 'd)\n'] , T in {C, P, I}
         while tag[0][-1] == 'I' and (arg == 'P' or arg == 'C'):
             end = i
-            text += ' ' + fields[0]
+            text_aux = fields[0]
+            text_aux = text_aux.replace('\"', '')
+            text_aux = text_aux.replace('\”', '')
+            text_aux = text_aux.replace('\“', '')
+            text += ' ' + text_aux
             if i%5 == 0:
                 text +='\n'
             i += 1
@@ -46,6 +53,9 @@ for filename in files:
         tag = fields[-1].split(',')
         arg = tag[0][-1]
         text = fields[0]
+        text = text.replace('\"', '')
+        text = text.replace('\”', '')
+        text = text.replace('\“', '')
         if tag[-1][:-2] == '|':
             dist = 0
         else:

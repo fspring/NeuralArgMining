@@ -1,40 +1,16 @@
 digraph G {
-	90 -> 156;
-	104 -> 156;
-	124 -> 156;
-	136 -> 156;
+	104 -> 136;
 	175 -> 230;
 	203 -> 230;
-	90 [label="they regard the violence as reasonable
- and justifiable",color=blue];
-	156 [label="excessive violence would offer misleading
- information to the public and
- exert detrimental influence to the
- society as well",color=green];
 	104 [label="media ,
  such as tv or film
  , is considered as the
  correct information source regulated by
  the government",color=blue];
-	156 [label="excessive violence would offer misleading
- information to the public and
- exert detrimental influence to the
- society as well",color=green];
-	124 [label="it should
- be reporting and reflecting true
- phenomenon in the society",color=blue];
-	156 [label="excessive violence would offer misleading
- information to the public and
- exert detrimental influence to the
- society as well",color=green];
 	136 [label="violence , as one of
  the facts in the real
  world , certainly has to
- be reported",color=blue];
-	156 [label="excessive violence would offer misleading
- information to the public and
- exert detrimental influence to the
- society as well",color=green];
+ be reported",color=green];
 	175 [label="it is recently reported in the
  news that a seventeen-year-old boy
  killed all his family members

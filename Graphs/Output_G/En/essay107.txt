@@ -1,28 +1,32 @@
 digraph G {
-	75 -> 122;
-	91 -> 122;
-	107 -> 122;
-	138 -> 198;
-	162 -> 198;
+	75 -> 252;
+	91 -> 252;
+	107 -> 252;
+	138 -> 122;
+	138 -> 252;
+	162 -> 252;
+	215 -> 198;
+	213 -> 252;
 	215 -> 252;
 	233 -> 252;
 	75 [label="the so-called concrete jungles have evolved
  endangering forests and wild life
 ",color=blue];
-	122 [label="large emissions of carbon
- monoxide gas from refrigerants like
- air conditioners have depleted ozone
- layer",color=green];
+	252 [label="earth is our home
+ and it should be protected
+",color=green];
 	91 [label="life saving oxygen is produced
  by trees after converting harmful
  carbon dioxide gas",color=blue];
-	122 [label="large emissions of carbon
- monoxide gas from refrigerants like
- air conditioners have depleted ozone
- layer",color=green];
+	252 [label="earth is our home
+ and it should be protected
+",color=green];
 	107 [label="wild life is very
  essential to maintain ecological balance
  on planet earth",color=blue];
+	252 [label="earth is our home
+ and it should be protected
+",color=green];
 	122 [label="large emissions of carbon
  monoxide gas from refrigerants like
  air conditioners have depleted ozone
@@ -32,10 +36,14 @@ digraph G {
  fact as it protects us
  from harmful ultra violet rays
 ",color=blue];
-	198 [label="either industrial waste
- or domestic waste produced everyday
- is badly polluting the planet
- earth",color=green];
+	138 [label="importance of ozone
+ layer is evident by the
+ fact as it protects us
+ from harmful ultra violet rays
+",color=blue];
+	252 [label="earth is our home
+ and it should be protected
+",color=green];
 	162 [label="excess emission of carbon
  dioxide gas mainly by vehicles
  around the world has increased
@@ -43,10 +51,21 @@ digraph G {
  pole which in turn has
  increased water level due to
  gradual melting of glaciers",color=blue];
+	252 [label="earth is our home
+ and it should be protected
+",color=green];
 	198 [label="either industrial waste
  or domestic waste produced everyday
  is badly polluting the planet
  earth",color=green];
+	215 [label="a large amount of unnoticed industrial
+ waste released in oceans effects
+ aquatic life to a large
+ extent",color=blue];
+	213 [label="for instance",color=blue];
+	252 [label="earth is our home
+ and it should be protected
+",color=green];
 	215 [label="a large amount of unnoticed industrial
  waste released in oceans effects
  aquatic life to a large

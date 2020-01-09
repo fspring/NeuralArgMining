@@ -127,7 +127,7 @@ orçamentos (I)    0.000
 não (O)    0.000
 apenas (O)    0.000
 porque (O)    0.000
-estamos (P)  611.000
+estamos (P)    0.000
 no (I)    0.000
 euro (I)    0.000
 , (O)    0.000

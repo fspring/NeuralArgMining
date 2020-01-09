@@ -24,7 +24,7 @@ político (I)    0.000
 de (I)    0.000
 merkel (I)    0.000
 . (O)    0.000
-durante (P)  714.000
+durante (P)    0.000
 este (I)    0.000
 ano (I)    0.000
 , (I)    0.000
@@ -35,12 +35,12 @@ regionais (I)    0.000
 nos (I)    0.000
 lander (I)    0.000
 . (O)    0.000
-se (O)    0.000
-a (O)    0.000
-cdu (O)    0.000
-sofrer (O)    0.000
-maus (O)    0.000
-resultados (O)    0.000
+se (P)    0.000
+a (I)    0.000
+cdu (I)    0.000
+sofrer (I)    0.000
+maus (I)    0.000
+resultados (I)    0.000
 – (O)    0.000
 e (O)    0.000
 sabe (O)    0.000

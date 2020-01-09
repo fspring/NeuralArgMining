@@ -1,102 +1,34 @@
 digraph G {
-	109 -> 210;
+	111 -> 210;
 	135 -> 210;
-	144 -> 210;
+	147 -> 210;
 	169 -> 210;
 	183 -> 210;
-	201 -> 210;
-	255 -> 351;
-	270 -> 351;
-	295 -> 351;
-	305 -> 351;
-	328 -> 351;
-	395 -> 443;
-	415 -> 443;
-	109 [label="sometimes ,
- face-to face communication can lead
+	111 [label="face-to face communication can lead
  us to convince or complain
  someone successfully , and a
  fitting example can be found
  from my uncle",color=blue];
-	210 [label="we can commence",color=green];
+	210 [label="we can commence to",color=green];
 	135 [label="he once complained a service of
  a restaurant",color=blue];
-	210 [label="we can commence",color=green];
-	144 [label="without exaggeration
- , he directly went to
+	210 [label="we can commence to",color=green];
+	147 [label="he directly went to
  the boss and told the
  boss that something wrong occurred
  on the meal--a fly concealed
  in it",color=blue];
-	210 [label="we can commence",color=green];
+	210 [label="we can commence to",color=green];
 	169 [label="afterward ,
  my uncle acquired a new
  service thanks to face-to face
  communication",color=blue];
-	210 [label="we can commence",color=green];
+	210 [label="we can commence to",color=green];
 	183 [label="if he just
  wrote something to complain on
  the website or by telephone
- , i do not",color=blue];
-	210 [label="we can commence",color=green];
-	201 [label="this problem would be thought
+ , i do not think
+ this problem would be thought
  important",color=blue];
-	210 [label="we can commence",color=green];
-	255 [label="i had received some harmful words
- on facebook from my best
- friend , eric",color=blue];
-	351 [label="communication by letters , email
- , or telephone can enable
- them to talk without scruple
- , which is also one
- of the most important parts
- in communication",color=green];
-	270 [label="he said that i was totally
- failed in building a good
- friendship and he did not
- want to be one of
- my friends anymore",color=blue];
-	351 [label="communication by letters , email
- , or telephone can enable
- them to talk without scruple
- , which is also one
- of the most important parts
- in communication",color=green];
-	295 [label="i just shocked and did not
- know what happened",color=blue];
-	351 [label="communication by letters , email
- , or telephone can enable
- them to talk without scruple
- , which is also one
- of the most important parts
- in communication",color=green];
-	305 [label="finally , i realized that his
- facebook account was stolen",color=blue];
-	351 [label="communication by letters , email
- , or telephone can enable
- them to talk without scruple
- , which is also one
- of the most important parts
- in communication",color=green];
-	328 [label="it is important
- to talk to people face-to-face
-",color=blue];
-	351 [label="communication by letters , email
- , or telephone can enable
- them to talk without scruple
- , which is also one
- of the most important parts
- in communication",color=green];
-	395 [label="it is conceivable that before we
- talk , it is necessary
- for us to be imprudent
- about our words",color=blue];
-	443 [label="i prefer to
- express my opinion in",color=green];
-	415 [label="talking without scruple is not the
- indispensable part in communication ;
- in contrast , it is
- usually detrimental to us",color=blue];
-	443 [label="i prefer to
- express my opinion in",color=green];
+	210 [label="we can commence to",color=green];
 }

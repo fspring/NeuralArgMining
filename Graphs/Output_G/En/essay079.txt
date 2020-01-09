@@ -1,31 +1,19 @@
 digraph G {
-	71 -> 154;
-	85 -> 154;
+	71 -> 56;
 	118 -> 154;
-	191 -> 258;
-	198 -> 258;
-	217 -> 258;
-	237 -> 258;
-	270 -> 337;
-	281 -> 337;
-	320 -> 337;
+	198 -> 191;
+	198 -> 337;
+	217 -> 320;
+	237 -> 337;
+	270 -> 320;
+	279 -> 320;
+	281 -> 320;
+	56 [label="arts are supposed to be
+ included in the government's investment
+ as well",color=green];
 	71 [label="the government should give priority
  to public services and facilities
 ",color=blue];
-	154 [label="public services
- and facilities should be given
- adequate attention by the authorities
- to maintain social stability",color=green];
-	85 [label="the government plays the role of
- a leader among citizens ,
- which should discharge the responsibility
- of making optimal use of
- the tax money to keep
- society safe and stable",color=blue];
-	154 [label="public services
- and facilities should be given
- adequate attention by the authorities
- to maintain social stability",color=green];
 	118 [label="public services such
  as education system or medical
  care can meet people's basic
@@ -39,36 +27,36 @@ digraph G {
  adequate attention by the authorities
  to maintain social stability",color=green];
 	191 [label="arts can enrich people's cultural
- lives",color=blue];
-	258 [label="funding arts is
- beneficial to the local cultural
- and economic development",color=green];
+ lives",color=green];
 	198 [label="currently , people
  are increasingly occupied with their
  work and studies due to
  the stiff competition",color=blue];
-	258 [label="funding arts is
- beneficial to the local cultural
- and economic development",color=green];
+	198 [label="currently , people
+ are increasingly occupied with their
+ work and studies due to
+ the stiff competition",color=blue];
+	337 [label="public services and facilities
+ are an integral part of
+ the government expenditure",color=green];
 	217 [label="they require various entertainment
  such as music , movies
  or books to them ease
  their minds and release pressure
 ",color=blue];
-	258 [label="funding arts is
- beneficial to the local cultural
- and economic development",color=green];
+	320 [label="arts serve",color=green];
 	237 [label="without arts , people
  would be at risk of
  suffering psychological problems",color=blue];
-	258 [label="funding arts is
- beneficial to the local cultural
- and economic development",color=green];
-	270 [label="cultural heritage constitutes an essential part
- of arts",color=blue];
 	337 [label="public services and facilities
  are an integral part of
  the government expenditure",color=green];
+	270 [label="cultural heritage constitutes an essential part
+ of arts",color=blue];
+	320 [label="arts serve",color=green];
+	279 [label="this means
+",color=blue];
+	320 [label="arts serve",color=green];
 	281 [label="preserving local arts may promote
  the preservation of the local
  cultural heritage , which not
@@ -76,12 +64,5 @@ digraph G {
  have a sense of belonging
  but also contributes to the
  booming local tourism industry",color=blue];
-	337 [label="public services and facilities
- are an integral part of
- the government expenditure",color=green];
-	320 [label="arts serve cultural and economic purposes
-",color=blue];
-	337 [label="public services and facilities
- are an integral part of
- the government expenditure",color=green];
+	320 [label="arts serve",color=green];
 }

@@ -23,7 +23,7 @@ digraph G {
  the distance of communication",color=green];
 	264 [label="as lots
  of chatting apps available online
- such as "weichat" , people
+ such as weichat , people
  tend to send instant messages
  free of charge by using
  their phones rather than face

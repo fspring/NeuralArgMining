@@ -61,7 +61,7 @@ poderiam (I)    0.000
 mendigar (I)    0.000
 , (O)    0.000
 porque (O)    0.000
-ganham (P)  677.000
+ganham (P)    0.000
 a (I)    0.000
 vida (I)    0.000
 com (I)    0.000

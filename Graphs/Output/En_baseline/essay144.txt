@@ -189,7 +189,7 @@ accept (I)    0.000
 good (I)    0.000
 students (I)    0.000
 because (O)    0.000
-it (P)  154.000
+it (P)  123.000
 gives (I)    0.000
 better (I)    0.000
 human (I)    0.000
@@ -202,7 +202,7 @@ some (O)    0.000
 people (O)    0.000
 argue (O)    0.000
 that (O)    0.000
-this (P)  141.000
+this (P)  110.000
 may (I)    0.000
 lead (I)    0.000
 to (I)    0.000
@@ -224,7 +224,7 @@ jobs' (I)    0.000
 , (O)    0.000
 but (O)    0.000
 actually (O)    0.000
-it (P)  119.000
+it (P)   88.000
 gives (I)    0.000
 no (I)    0.000
 harm (I)    0.000
@@ -233,7 +233,7 @@ the (I)    0.000
 whole (I)    0.000
 community (I)    0.000
 . (O)    0.000
-those (P)  110.000
+those (P)   79.000
 standard (I)    0.000
 jobs (I)    0.000
 will (I)    0.000
@@ -266,7 +266,7 @@ institutions (I)    0.000
 . (O)    0.000
 i (O)    0.000
 think (O)    0.000
-limiting (P)   77.000
+limiting (P)   46.000
 the (I)    0.000
 number (I)    0.000
 of (I)    0.000
@@ -282,7 +282,7 @@ a (I)    0.000
 good (I)    0.000
 choice (I)    0.000
 since (O)    0.000
-it (P)   61.000
+it (P)   30.000
 will (I)    0.000
 reward (I)    0.000
 the (I)    0.000
@@ -312,7 +312,7 @@ themselves (I)    0.000
 . (O)    0.000
 ultimately (O)    0.000
 , (O)    0.000
-this (P)   31.000
+this (C)    0.000
 improves (I)    0.000
 the (I)    0.000
 overall (I)    0.000

@@ -13,111 +13,97 @@ digraph G {
 	274 -> 313;
 	281 -> 313;
 	300 -> 313;
-	52 [label="boys and girls
- should study together",color=green];
-	80 [label="School is a small society
- for students , which prepares
- them for the future life
+	52 [label="boys and girls should
+ study together",color=green];
+	80 [label="School is a small society for
+ students , which prepares them
+ for the future life",color=blue];
+	80 [label="School is a small society for
+ students , which prepares them
+ for the future life",color=blue];
+	96 [label="By attending to the same
+ school , students can learn
+ how to view the opposite
+ gender in classes as a
+ friend or a classmate",color=green];
+	96 [label="By attending to the same
+ school , students can learn
+ how to view the opposite
+ gender in classes as a
+ friend or a classmate",color=green];
+	124 [label="a boy
+ would know how to speak
+ with a girl in every
+ situation and vice versa",color=blue];
+	124 [label="a boy
+ would know how to speak
+ with a girl in every
+ situation and vice versa",color=blue];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
+	141 [label="They would know how to
+ ask her in order to
+ cooperate with his study ,
+ how communicate with girls in
+ a group , etc",color=blue];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
+	168 [label="when they study
+ together and help each other
+ , they exercise the the
+ real life as they age
 ",color=blue];
-	80 [label="School is a small society
- for students , which prepares
- them for the future life
-",color=blue];
-	96 [label="By attending to the
- same school , students can
- learn how to view the
- opposite gender in classes as
- a friend or a classmate
-",color=green];
-	96 [label="By attending to the
- same school , students can
- learn how to view the
- opposite gender in classes as
- a friend or a classmate
-",color=green];
-	124 [label="a boy would know how to
- speak with a girl in
- every situation and vice versa
-",color=blue];
-	124 [label="a boy would know how to
- speak with a girl in
- every situation and vice versa
-",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
-	141 [label="They would know how
- to ask her in order
- to cooperate with his study
- , how communicate with girls
- in a group , etc
-",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
-	168 [label="when they
- study together and help each
- other , they exercise the
- the real life as they
- age",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
-	194 [label="attending both girls and boys in
- a same school cause many
- disadvantages for them",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
-	213 [label="outdoors relationships
- may expand and it may
- accompany with sexual relationship",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
-	228 [label="their thoughts
- deviate from the studies",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
-	237 [label="attending in the
- school having boys and girls
- might be beneficial for both
- to increase their motivation to
- study better",color=green];
-	300 [label="the productivity of the class
- will be increased",color=blue];
-	258 [label="Boys and
- girls will try to show
- their capabilities and abilities in
- the class",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
-	274 [label="they will study increasingly",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
-	281 [label="Boys do not like
- to seem weak in front
- of girls and vice versa
-",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
-	300 [label="the productivity of the class
- will be increased",color=blue];
-	313 [label="attending boys
- and girls in a same
- school would bring many advantages
-",color=green];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
+	194 [label="attending both
+ girls and boys in a
+ same school cause many disadvantages
+ for them",color=blue];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
+	213 [label="outdoors relationships may
+ expand and it may accompany
+ with sexual relationship",color=blue];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
+	228 [label="their thoughts deviate
+ from the studies",color=blue];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
+	237 [label="attending in the school
+ having boys and girls might
+ be beneficial for both to
+ increase their motivation to study
+ better",color=green];
+	300 [label="the productivity of the class will
+ be increased",color=blue];
+	258 [label="Boys and girls
+ will try to show their
+ capabilities and abilities in the
+ class",color=blue];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
+	274 [label="they will
+ study increasingly",color=blue];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
+	281 [label="Boys do not like to
+ seem weak in front of
+ girls and vice versa",color=blue];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
+	300 [label="the productivity of the class will
+ be increased",color=blue];
+	313 [label="attending boys and
+ girls in a same school
+ would bring many advantages",color=green];
 }

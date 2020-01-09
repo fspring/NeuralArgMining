@@ -9,95 +9,95 @@ digraph G {
 	183 -> 283;
 	216 -> 283;
 	246 -> 283;
-	58 [label="tourism plays
- an indispensable role in nurturing
- the economy in a way
- it is meant to be
+	58 [label="tourism plays an
+ indispensable role in nurturing the
+ economy in a way it
+ is meant to be",color=green];
+	78 [label="places of interest
+ often locate in the wilderness
+ areas , of which economy
+ , before their appearance ,
+ haven't blossmed yet",color=blue];
+	78 [label="places of interest
+ often locate in the wilderness
+ areas , of which economy
+ , before their appearance ,
+ haven't blossmed yet",color=blue];
+	325 [label="the combination of tourism and teaching
+ process is highly recommended in
+ pursuit of a harmonial relationship
+ between human and their surroundings
 ",color=green];
-	78 [label="places of
- interest often locate in the
- wilderness areas , of which
- economy , before their appearance
- , haven't blossmed yet",color=blue];
-	78 [label="places of
- interest often locate in the
- wilderness areas , of which
- economy , before their appearance
- , haven't blossmed yet",color=blue];
-	325 [label="the combination of tourism and
- teaching process is highly recommended
- in pursuit of a harmonial
- relationship between human and their
- surroundings",color=green];
-	100 [label="Not until the investment of
- some companies do chains of
- hotels and services spring up
-",color=blue];
-	325 [label="the combination of tourism and
- teaching process is highly recommended
- in pursuit of a harmonial
- relationship between human and their
- surroundings",color=green];
-	116 [label="It will , by
- all means , attract considerable
- attention which goes hand in
- hand with the enormous income
- for the local residents",color=blue];
-	325 [label="the combination of tourism and
- teaching process is highly recommended
- in pursuit of a harmonial
- relationship between human and their
- surroundings",color=green];
-	144 [label="tourism helps divert the local economy
- to its right direction ,
- which exploit the best out
- of its own potential",color=blue];
-	325 [label="the combination of tourism and
- teaching process is highly recommended
- in pursuit of a harmonial
- relationship between human and their
- surroundings",color=green];
-	169 [label="environmental damage is inevitable",color=blue];
-	283 [label="tourism should
- not be alledged to be
- notorous for its detriment to
- the ecological diversity",color=green];
-	174 [label="it is not tourism to be
- blamed for",color=blue];
-	283 [label="tourism should
- not be alledged to be
- notorous for its detriment to
- the ecological diversity",color=green];
-	183 [label="In order
- to turn a wilderness into
- a place of attraction ,
- the planners must have taken
- the nourishment of the sceneries
- into thorough consideration",color=blue];
-	283 [label="tourism should
- not be alledged to be
- notorous for its detriment to
- the ecological diversity",color=green];
-	216 [label="a fortune is spent
- on trimming the trees ,
- watering the flowers , preserving
- and balancing the local fauna
- and flora , in the
- hope of beautifying the wild
-",color=blue];
-	283 [label="tourism should
- not be alledged to be
- notorous for its detriment to
- the ecological diversity",color=green];
-	246 [label="Not to mention ecotourism
- , a new kind of
- environment-friendly service , which gives
- all environmentalists and nature lovers
- a hand in raising the
- awareness of people in protecting
- their coexistent creatures",color=blue];
-	283 [label="tourism should
- not be alledged to be
- notorous for its detriment to
- the ecological diversity",color=green];
+	100 [label="Not until the investment of some
+ companies do chains of hotels
+ and services spring up",color=blue];
+	325 [label="the combination of tourism and teaching
+ process is highly recommended in
+ pursuit of a harmonial relationship
+ between human and their surroundings
+",color=green];
+	116 [label="It will , by all
+ means , attract considerable attention
+ which goes hand in hand
+ with the enormous income for
+ the local residents",color=blue];
+	325 [label="the combination of tourism and teaching
+ process is highly recommended in
+ pursuit of a harmonial relationship
+ between human and their surroundings
+",color=green];
+	144 [label="tourism helps
+ divert the local economy to
+ its right direction , which
+ exploit the best out of
+ its own potential",color=blue];
+	325 [label="the combination of tourism and teaching
+ process is highly recommended in
+ pursuit of a harmonial relationship
+ between human and their surroundings
+",color=green];
+	169 [label="environmental damage
+ is inevitable",color=blue];
+	283 [label="tourism should not
+ be alledged to be notorous
+ for its detriment to the
+ ecological diversity",color=green];
+	174 [label="it is
+ not tourism to be blamed
+ for",color=blue];
+	283 [label="tourism should not
+ be alledged to be notorous
+ for its detriment to the
+ ecological diversity",color=green];
+	183 [label="In order to
+ turn a wilderness into a
+ place of attraction , the
+ planners must have taken the
+ nourishment of the sceneries into
+ thorough consideration",color=blue];
+	283 [label="tourism should not
+ be alledged to be notorous
+ for its detriment to the
+ ecological diversity",color=green];
+	216 [label="a fortune is spent on
+ trimming the trees , watering
+ the flowers , preserving and
+ balancing the local fauna and
+ flora , in the hope
+ of beautifying the wild",color=blue];
+	283 [label="tourism should not
+ be alledged to be notorous
+ for its detriment to the
+ ecological diversity",color=green];
+	246 [label="Not to mention ecotourism ,
+ a new kind of environment-friendly
+ service , which gives all
+ environmentalists and nature lovers a
+ hand in raising the awareness
+ of people in protecting their
+ coexistent creatures",color=blue];
+	283 [label="tourism should not
+ be alledged to be notorous
+ for its detriment to the
+ ecological diversity",color=green];
 }

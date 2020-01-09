@@ -1,19 +1,26 @@
 digraph G {
-	80 -> 150;
+	80 -> 66;
+	80 -> 255;
 	101 -> 150;
 	122 -> 150;
 	167 -> 255;
-	181 -> 255;
 	201 -> 255;
 	218 -> 255;
 	226 -> 255;
+	66 [label="qualification should be the foremost
+ measurement to determine the value
+ of a employer",color=green];
 	80 [label="it is of importance that workers
  should be well educated and
  trained to perform duties of
  their job",color=blue];
-	150 [label="the importance of social skills have
- been recognized by increasing number
- of employers",color=green];
+	80 [label="it is of importance that workers
+ should be well educated and
+ trained to perform duties of
+ their job",color=blue];
+	255 [label="qualification is still the fundamental determinant
+ of an employee's competency of
+ their jobs",color=green];
 	101 [label="people who work in professional
  fields such as medicals are
  required to have a university
@@ -32,13 +39,6 @@ digraph G {
 	167 [label="people nowadays are required
  to work as a team
  in their jobs frequently",color=blue];
-	255 [label="qualification is still the fundamental determinant
- of an employee's competency of
- their jobs",color=green];
-	181 [label="interpersonal skill plays an essential
- role in helping colleagues to
- cooperate with each other ,
- especially when conflicts arise",color=blue];
 	255 [label="qualification is still the fundamental determinant
  of an employee's competency of
  their jobs",color=green];

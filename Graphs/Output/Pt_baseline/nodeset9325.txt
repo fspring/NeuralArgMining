@@ -116,7 +116,7 @@ confiança (I)    0.000
 pelo (O)    0.000
 contrário (O)    0.000
 , (O)    0.000
-a (P)  622.000
+a (P)    0.000
 credibilidade (I)    0.000
 de (I)    0.000
 merkel (I)    0.000

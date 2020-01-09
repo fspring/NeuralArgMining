@@ -180,7 +180,7 @@ process (I)    0.000
 this (O)    0.000
 is (O)    0.000
 because (O)    0.000
-exploiting (P)   27.000
+exploiting (P)   60.000
 and (I)    0.000
 collecting (I)    0.000
 raw (I)    0.000
@@ -207,7 +207,7 @@ but (O)    0.000
 not (O)    0.000
 least (O)    0.000
 , (O)    0.000
-technology (C)    0.000
+technology (P)   33.000
 may (I)    0.000
 decrease (I)    0.000
 a (I)    0.000

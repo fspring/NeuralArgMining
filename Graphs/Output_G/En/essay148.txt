@@ -1,11 +1,10 @@
 digraph G {
-	61 -> 126;
-	99 -> 126;
-	164 -> 213;
-	193 -> 213;
+	61 -> 48;
 	245 -> 318;
-	272 -> 318;
 	287 -> 318;
+	48 [label="most of the
+ countries have the same educational
+ system based on technology",color=green];
 	61 [label="teachers give topics to the
  students who should research on
  the internet to find data
@@ -13,47 +12,11 @@ digraph G {
  type their research by using
  computer and even give a
  presentation by using powerpoint",color=blue];
-	126 [label="new technology has",color=green];
-	99 [label="students who
- are studying in iran use
- the same software , microsoft
- , to type their homework
- or have presentation compared to
- canadian students",color=blue];
-	126 [label="new technology has",color=green];
-	164 [label="many immigrants
- in canada who have the
- degree in computer technology fields
- can easily go to canadian
- universities and find jobs with
- good salaries",color=blue];
-	213 [label="there are some
- cultures such as making foods
- which are unicq in each
- culture , and technology cannot
- affect them",color=green];
-	193 [label="jobs that are
- related to technology are in
- demand in most of the
- countries",color=blue];
-	213 [label="there are some
- cultures such as making foods
- which are unicq in each
- culture , and technology cannot
- affect them",color=green];
 	245 [label="many countries such as canada ,
  the usa , and british
  have many restaurants which serve
  many foods form different countries
  and cultures",color=blue];
-	318 [label="new technology has
- affected cultures of the world
- , and we can see
- many similarities in many cultures
-",color=green];
-	272 [label="cooks can find many
- new food recipes easily on
- the internet",color=blue];
 	318 [label="new technology has
  affected cultures of the world
  , and we can see

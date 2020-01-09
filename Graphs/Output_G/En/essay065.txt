@@ -1,19 +1,19 @@
 digraph G {
-	57 -> 120;
+	87 -> 57;
 	87 -> 120;
-	148 -> 224;
-	167 -> 224;
-	193 -> 224;
-	245 -> 259;
-	298 -> 319;
+	134 -> 120;
 	57 [label="taking care of thousands
  of citizens who suffer from
  disease or illiteracy is more
  urgent and pragmatic than building
- theaters or sports stadiums",color=blue];
-	120 [label="providing education and medical care is
- more essential and prioritized to
- the government",color=green];
+ theaters or sports stadiums",color=green];
+	87 [label="an uneducated person may
+ barely appreciate musicals , whereas
+ a physical damaged person ,
+ resulting from the lack of
+ medical treatment , may no
+ longer participate in any sports
+ games",color=blue];
 	87 [label="an uneducated person may
  barely appreciate musicals , whereas
  a physical damaged person ,
@@ -24,52 +24,11 @@ digraph G {
 	120 [label="providing education and medical care is
  more essential and prioritized to
  the government",color=green];
-	148 [label="their existences are
- based on their marketing strategies
- , the condition of facilities
- and the volume of audience
-",color=blue];
-	224 [label="putting taxpayers'
- money on building theaters or
- sports stadiums is unfair to
- those who cannot use them
-",color=green];
-	167 [label="the competition among each
- of these facilities is an
- inevitable part of the free
- market , which should not
- be interfered by government",color=blue];
-	224 [label="putting taxpayers'
- money on building theaters or
- sports stadiums is unfair to
- those who cannot use them
-",color=green];
-	193 [label="the establishment of
- medical facilities or educational institutes
- is aimed to improve the
- health or education standard rather
- than earning profits , which
- deserves more funds from government
-",color=blue];
-	224 [label="putting taxpayers'
- money on building theaters or
- sports stadiums is unfair to
- those who cannot use them
-",color=green];
-	245 [label="not everyone is a fan of
- watching musicals on the spot
-",color=blue];
-	259 [label="it is
- a bit inappropriate to use
- the majority of citizens' tax
- funds to meet a minority
- of people's needs",color=green];
-	298 [label="they are accessed
- by every individual in our
- society on a daily basis
-",color=blue];
-	319 [label="budgets should
- be allocated more on medical
- care and education rather than
- on building entertaining facilities",color=green];
+	120 [label="providing education and medical care is
+ more essential and prioritized to
+ the government",color=green];
+	134 [label="entertaining facilities
+ such as cinemas , theaters
+ and sports stadiums are mostly
+ profit-oriented",color=blue];
 }

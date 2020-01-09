@@ -10,86 +10,86 @@ digraph G {
 	256 -> 336;
 	279 -> 336;
 	309 -> 336;
-	87 [label="being present at
- classes seems a wiser option
-",color=green];
-	136 [label="they can help each
- other for learning materials better
+	87 [label="being present at classes
+ seems a wiser option",color=green];
+	136 [label="they can help each other
+ for learning materials better",color=blue];
+	104 [label="being present
+ at classes provide students with
+ opportunity of communicating with other
+ students that is beneficial for
+ understanding new material by reviewing
+ them throughout the free times
+ in college",color=green];
+	136 [label="they can help each other
+ for learning materials better",color=blue];
+	136 [label="they can help each other
+ for learning materials better",color=blue];
+	336 [label="communicating and studying with peer
+ group is a good way
+ for learning materials",color=green];
+	148 [label="if they do
+ not attend classes they cannot
+ use the help of others
+ for assisting them to comprehend
+ difficult problems",color=blue];
+	336 [label="communicating and studying with peer
+ group is a good way
+ for learning materials",color=green];
+	180 [label="by the help of teachers ,
+ students can understand ideas faster
+ and easier",color=green];
+	194 [label="teachers explain
+ them thoroughly in the class
+ and after that give them
+ a lot of examples to
+ clarify the points",color=blue];
+	194 [label="teachers explain
+ them thoroughly in the class
+ and after that give them
+ a lot of examples to
+ clarify the points",color=blue];
+	336 [label="communicating and studying with peer
+ group is a good way
+ for learning materials",color=green];
+	215 [label="In this way attending classes not
+ only wastes their time but
+ also facilitates their understanding process
+ that takes them less time
+ for comprehending materials in comparison
+ with self-study",color=blue];
+	336 [label="communicating and studying with peer
+ group is a good way
+ for learning materials",color=green];
+	248 [label="appearing in class
+ makes students more conscientious",color=green];
+	256 [label="they have to obey class’s
+ disciplines and they practice to
+ be more perseverance in the
+ process of doing their assignments
 ",color=blue];
-	104 [label="being present at classes provide students
- with opportunity of communicating with
- other students that is beneficial
- for understanding new material by
- reviewing them throughout the free
- times in college",color=green];
-	136 [label="they can help each
- other for learning materials better
+	256 [label="they have to obey class’s
+ disciplines and they practice to
+ be more perseverance in the
+ process of doing their assignments
 ",color=blue];
-	136 [label="they can help each
- other for learning materials better
-",color=blue];
-	336 [label="communicating and studying with
- peer group is a good
- way for learning materials",color=green];
-	148 [label="if they
- do not attend classes they
- cannot use the help of
- others for assisting them to
- comprehend difficult problems",color=blue];
-	336 [label="communicating and studying with
- peer group is a good
- way for learning materials",color=green];
-	180 [label="by the help of teachers
- , students can understand ideas
- faster and easier",color=green];
-	194 [label="teachers explain them thoroughly in the
- class and after that give
- them a lot of examples
- to clarify the points",color=blue];
-	194 [label="teachers explain them thoroughly in the
- class and after that give
- them a lot of examples
- to clarify the points",color=blue];
-	336 [label="communicating and studying with
- peer group is a good
- way for learning materials",color=green];
-	215 [label="In this way attending classes
- not only wastes their time
- but also facilitates their understanding
- process that takes them less
- time for comprehending materials in
- comparison with self-study",color=blue];
-	336 [label="communicating and studying with
- peer group is a good
- way for learning materials",color=green];
-	248 [label="appearing in
- class makes students more conscientious
-",color=green];
-	256 [label="they have to obey
- classâ€™s disciplines and they practice
- to be more perseverance in
- the process of doing their
- assignments",color=blue];
-	256 [label="they have to obey
- classâ€™s disciplines and they practice
- to be more perseverance in
- the process of doing their
- assignments",color=blue];
-	336 [label="communicating and studying with
- peer group is a good
- way for learning materials",color=green];
-	279 [label="the ones who choose to study
- at home do not have
- any discipline for their studies
- and cannot force themselves to
- study in particular times",color=blue];
-	336 [label="communicating and studying with
- peer group is a good
- way for learning materials",color=green];
-	309 [label="they may miss some important parts
- in virtue of the chaotic
- and incoherent study",color=blue];
-	336 [label="communicating and studying with
- peer group is a good
- way for learning materials",color=green];
+	336 [label="communicating and studying with peer
+ group is a good way
+ for learning materials",color=green];
+	279 [label="the ones
+ who choose to study at
+ home do not have any
+ discipline for their studies and
+ cannot force themselves to study
+ in particular times",color=blue];
+	336 [label="communicating and studying with peer
+ group is a good way
+ for learning materials",color=green];
+	309 [label="they may
+ miss some important parts in
+ virtue of the chaotic and
+ incoherent study",color=blue];
+	336 [label="communicating and studying with peer
+ group is a good way
+ for learning materials",color=green];
 }

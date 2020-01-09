@@ -68,7 +68,7 @@ is (O)    0.000
 no (O)    0.000
 denying (O)    0.000
 that (O)    0.000
-our (C)    0.000
+our (P)   37.000
 environment (I)    0.000
 is (I)    0.000
 damaged (I)    0.000
@@ -105,7 +105,7 @@ animals (I)    0.000
 in (O)    0.000
 contrast (O)    0.000
 , (O)    0.000
-zoo (P)   50.000
+zoo (C)    0.000
 is (I)    0.000
 a (I)    0.000
 good (I)    0.000
@@ -171,7 +171,7 @@ behavior (I)    0.000
 towards (I)    0.000
 animals (I)    0.000
 . (O)    0.000
-in (P)   56.000
+in (P)   79.000
 the (I)    0.000
 zoos (I)    0.000
 , (I)    0.000
@@ -192,7 +192,7 @@ a (I)    0.000
 limited (I)    0.000
 area (I)    0.000
 . (O)    0.000
-when (P)   35.000
+when (P)   58.000
 children (I)    0.000
 pay (I)    0.000
 a (I)    0.000
@@ -227,7 +227,7 @@ animals (I)    0.000
 . (O)    0.000
 further (O)    0.000
 , (O)    0.000
-children (C)    0.000
+children (P)   23.000
 could (I)    0.000
 acquire (I)    0.000
 the (I)    0.000
@@ -250,7 +250,7 @@ the (O)    0.000
 other (O)    0.000
 hand (O)    0.000
 , (O)    0.000
-complained (P)   71.000
+complained (C)    0.000
 about (I)    0.000
 the (I)    0.000
 drawbacks (I)    0.000

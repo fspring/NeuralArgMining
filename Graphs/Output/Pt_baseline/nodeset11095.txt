@@ -17,7 +17,7 @@ maioria (I)    0.000
 de (I)    0.000
 indiferentes (I)    0.000
 . (O)    0.000
-todos (P)  721.000
+todos (P)    0.000
 os (I)    0.000
 outros (I)    0.000
 candidatos (I)    0.000
@@ -52,7 +52,7 @@ mas (I)    0.000
 sem (I)    0.000
 sucesso (I)    0.000
 . (O)    0.000
-a (P)  686.000
+a (P)    0.000
 indiferença (I)    0.000
 dos (I)    0.000
 portugueses (I)    0.000

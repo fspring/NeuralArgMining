@@ -9,91 +9,91 @@ digraph G {
 	189 -> 268;
 	206 -> 268;
 	218 -> 268;
-	50 [label="the most suitable method of
- reducing stress for modern people
- is by different kinds of
- exercise , which can not
- only improve health conditions but
- also bring positive emotions",color=green];
-	95 [label="Any kinds of sports ,
- such as jogging , swimming
- , or playing basketball ,
- can effectively facilitate human respiration
- and circulation system",color=blue];
-	85 [label="exercise play a crucial role
- in ameliorating physical health",color=green];
-	95 [label="Any kinds of sports ,
- such as jogging , swimming
- , or playing basketball ,
- can effectively facilitate human respiration
- and circulation system",color=blue];
-	95 [label="Any kinds of sports ,
- such as jogging , swimming
- , or playing basketball ,
- can effectively facilitate human respiration
- and circulation system",color=blue];
-	268 [label="the best
- way of diminishing stress is
- by exercises , which can
- benefit everyone not only physically
- but also mentally",color=green];
-	121 [label="these sports can also
- strengthen muscles and lessen surplus
- adipose tissues in human body
+	50 [label="the most suitable method of reducing
+ stress for modern people is
+ by different kinds of exercise
+ , which can not only
+ improve health conditions but also
+ bring positive emotions",color=green];
+	95 [label="Any kinds of sports , such
+ as jogging , swimming ,
+ or playing basketball , can
+ effectively facilitate human respiration and
+ circulation system",color=blue];
+	85 [label="exercise play a crucial role in
+ ameliorating physical health",color=green];
+	95 [label="Any kinds of sports , such
+ as jogging , swimming ,
+ or playing basketball , can
+ effectively facilitate human respiration and
+ circulation system",color=blue];
+	95 [label="Any kinds of sports , such
+ as jogging , swimming ,
+ or playing basketball , can
+ effectively facilitate human respiration and
+ circulation system",color=blue];
+	268 [label="the best way
+ of diminishing stress is by
+ exercises , which can benefit
+ everyone not only physically but
+ also mentally",color=green];
+	121 [label="these sports can also strengthen
+ muscles and lessen surplus adipose
+ tissues in human body",color=blue];
+	268 [label="the best way
+ of diminishing stress is by
+ exercises , which can benefit
+ everyone not only physically but
+ also mentally",color=green];
+	136 [label="The latter one is of
+ particular importance because nowadays more
+ and more people are suffer
+ from obesity",color=blue];
+	268 [label="the best way
+ of diminishing stress is by
+ exercises , which can benefit
+ everyone not only physically but
+ also mentally",color=green];
+	154 [label="Many studies
+ has points out that numbers
+ of overweight people have increased
+ in developed countries in recent
+ years , which mainly results
+ from insufficient exercises",color=blue];
+	268 [label="the best way
+ of diminishing stress is by
+ exercises , which can benefit
+ everyone not only physically but
+ also mentally",color=green];
+	180 [label="Sports activities can improve mental health
+",color=green];
+	189 [label="When people
+ exercise , the neuron cells
+ in the brain release a
+ chemical compound named Dopamine",color=blue];
+	189 [label="When people
+ exercise , the neuron cells
+ in the brain release a
+ chemical compound named Dopamine",color=blue];
+	268 [label="the best way
+ of diminishing stress is by
+ exercises , which can benefit
+ everyone not only physically but
+ also mentally",color=green];
+	206 [label="This hormone can delight one's
+ mind , creating positive feelings
 ",color=blue];
-	268 [label="the best
- way of diminishing stress is
- by exercises , which can
- benefit everyone not only physically
- but also mentally",color=green];
-	136 [label="The latter one is
- of particular importance because nowadays
- more and more people are
- suffer from obesity",color=blue];
-	268 [label="the best
- way of diminishing stress is
- by exercises , which can
- benefit everyone not only physically
- but also mentally",color=green];
-	154 [label="Many studies has points out that
- numbers of overweight people have
- increased in developed countries in
- recent years , which mainly
- results from insufficient exercises",color=blue];
-	268 [label="the best
- way of diminishing stress is
- by exercises , which can
- benefit everyone not only physically
- but also mentally",color=green];
-	180 [label="Sports activities can improve mental
- health",color=green];
-	189 [label="When people exercise , the neuron
- cells in the brain release
- a chemical compound named Dopamine
-",color=blue];
-	189 [label="When people exercise , the neuron
- cells in the brain release
- a chemical compound named Dopamine
-",color=blue];
-	268 [label="the best
- way of diminishing stress is
- by exercises , which can
- benefit everyone not only physically
- but also mentally",color=green];
-	206 [label="This hormone can delight
- one's mind , creating positive
- feelings",color=blue];
-	268 [label="the best
- way of diminishing stress is
- by exercises , which can
- benefit everyone not only physically
- but also mentally",color=green];
-	218 [label="good exercises
- can often successfully alleviating one's
- heavy burdens",color=blue];
-	268 [label="the best
- way of diminishing stress is
- by exercises , which can
- benefit everyone not only physically
- but also mentally",color=green];
+	268 [label="the best way
+ of diminishing stress is by
+ exercises , which can benefit
+ everyone not only physically but
+ also mentally",color=green];
+	218 [label="good exercises can
+ often successfully alleviating one's heavy
+ burdens",color=blue];
+	268 [label="the best way
+ of diminishing stress is by
+ exercises , which can benefit
+ everyone not only physically but
+ also mentally",color=green];
 }

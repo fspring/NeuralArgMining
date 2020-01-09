@@ -1,9 +1,20 @@
 digraph G {
+	111 -> 87;
 	111 -> 195;
 	138 -> 195;
 	159 -> 195;
-	234 -> 287;
+	229 -> 287;
 	253 -> 287;
+	87 [label="mobile phones and other
+ tools of modern communication facilitate
+ not only contact with friends
+ and relatives in faraway places
+ but also global business",color=green];
+	111 [label="with the click of a
+ button , the vast amount
+ of information can be transmitted
+ from america to china in
+ just a few seconds",color=blue];
 	111 [label="with the click of a
  button , the vast amount
  of information can be transmitted
@@ -30,7 +41,8 @@ digraph G {
 	195 [label="these new forms of communication do
  bring a great deal of
  convenience to humankind",color=green];
-	234 [label="the wide
+	229 [label="they further
+ point out that the wide
  spread use of these efficient
  and effective ways of communication
  costs a considerable amount of

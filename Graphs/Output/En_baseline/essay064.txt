@@ -109,7 +109,7 @@ trend (I)    0.000
 this (O)    0.000
 is (O)    0.000
 because (O)    0.000
-children (P)   64.000
+children (P)   40.000
 have (I)    0.000
 to (I)    0.000
 be (I)    0.000
@@ -149,7 +149,7 @@ the (O)    0.000
 same (O)    0.000
 time (O)    0.000
 , (O)    0.000
-children (P)   24.000
+children (C)    0.000
 have (I)    0.000
 the (I)    0.000
 chance (I)    0.000
@@ -196,7 +196,7 @@ in (I)    0.000
 modern (I)    0.000
 society (I)    0.000
 . (O)    0.000
-one (P)  168.000
+one (P)   71.000
 primary (I)    0.000
 merit (I)    0.000
 of (I)    0.000
@@ -210,7 +210,7 @@ children's (I)    0.000
 communication (I)    0.000
 skills (I)    0.000
 . (O)    0.000
-unlike (P)  154.000
+unlike (P)   57.000
 most (I)    0.000
 modern (I)    0.000
 games (I)    0.000
@@ -248,7 +248,7 @@ as (O)    0.000
 a (O)    0.000
 result (O)    0.000
 , (O)    0.000
-communicating (P)  116.000
+communicating (P)   19.000
 with (I)    0.000
 a (I)    0.000
 variety (I)    0.000
@@ -267,7 +267,7 @@ more (I)    0.000
 . (O)    0.000
 furthermore (O)    0.000
 , (O)    0.000
-it (P)   97.000
+it (C)    0.000
 is (I)    0.000
 the (I)    0.000
 educational (I)    0.000

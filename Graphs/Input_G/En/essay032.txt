@@ -11,120 +11,120 @@ digraph G {
 	304 -> 297;
 	304 -> 395;
 	325 -> 395;
-	104 [label="aiding poor countries has positive effects
- , overweighing its side-effects for
- the several reasons",color=green];
-	123 [label="poor counties
- suffer from shortage of basic
- materials and facilities to start
- businesses and make it richer
-",color=blue];
-	123 [label="poor counties
- suffer from shortage of basic
- materials and facilities to start
- businesses and make it richer
-",color=blue];
-	175 [label="Aiding help poor countries in
- this situation solve their economical
- problems and run their own
- business",color=green];
-	141 [label="To be out of
- poverty , it is fundamental
- to support basic industry related
- factors such as light ,
- electricity , load , highways
- , natural resources , technology
- and buildings for companies",color=blue];
-	175 [label="Aiding help poor countries in
- this situation solve their economical
- problems and run their own
- business",color=green];
-	175 [label="Aiding help poor countries in
- this situation solve their economical
- problems and run their own
- business",color=green];
-	195 [label="republic of Korea used to
- be the poorest country even
- compared to others in Africa
- in 1960's",color=blue];
-	195 [label="republic of Korea used to
- be the poorest country even
- compared to others in Africa
- in 1960's",color=blue];
-	395 [label="being a global neighbor by
- aiding poor countries would be
- continues by many organizations and
- volunteers , and it will
- make the earth a better
- place to live",color=green];
-	213 [label="Now that
- it has became strong economy
- country aiding poor countries after
- 10 years of aid from
- other counties",color=blue];
-	395 [label="being a global neighbor by
- aiding poor countries would be
- continues by many organizations and
- volunteers , and it will
- make the earth a better
- place to live",color=green];
-	235 [label="aiding campaign gives a chance
- to considerate about poor people
+	104 [label="aiding poor
+ countries has positive effects ,
+ overweighing its side-effects for the
+ several reasons",color=green];
+	123 [label="poor counties suffer
+ from shortage of basic materials
+ and facilities to start businesses
+ and make it richer",color=blue];
+	123 [label="poor counties suffer
+ from shortage of basic materials
+ and facilities to start businesses
+ and make it richer",color=blue];
+	175 [label="Aiding help poor countries in this
+ situation solve their economical problems
+ and run their own business
 ",color=green];
-	246 [label="If people in rich
- countries ponder poor people suffering
- from poverty and diseases ,
- they would never take their
- abundance for granted",color=blue];
-	246 [label="If people in rich
- countries ponder poor people suffering
- from poverty and diseases ,
- they would never take their
- abundance for granted",color=blue];
-	395 [label="being a global neighbor by
- aiding poor countries would be
- continues by many organizations and
- volunteers , and it will
- make the earth a better
- place to live",color=green];
-	269 [label="It not only raises the notice
- the meaning of harmony and
- love , but also be
- a good chance to learn
- humane doctrine of globalization",color=blue];
-	395 [label="being a global neighbor by
- aiding poor countries would be
- continues by many organizations and
- volunteers , and it will
- make the earth a better
- place to live",color=green];
-	297 [label="the campaigns might
- include practical benefits",color=green];
-	304 [label="In globalized world , the economies
- of several countries are in
- a big network and must
- influence on each others",color=blue];
-	304 [label="In globalized world , the economies
- of several countries are in
- a big network and must
- influence on each others",color=blue];
-	395 [label="being a global neighbor by
- aiding poor countries would be
- continues by many organizations and
- volunteers , and it will
- make the earth a better
- place to live",color=green];
-	325 [label="When America mortgage loan system
- went bad , several economies
- of European and Asian countries
- fluctuated , even any countries
- had to be gotten international
- supports to block its bankrupt
-",color=blue];
-	395 [label="being a global neighbor by
- aiding poor countries would be
- continues by many organizations and
- volunteers , and it will
- make the earth a better
- place to live",color=green];
+	141 [label="To be out of poverty
+ , it is fundamental to
+ support basic industry related factors
+ such as light , electricity
+ , load , highways ,
+ natural resources , technology and
+ buildings for companies",color=blue];
+	175 [label="Aiding help poor countries in this
+ situation solve their economical problems
+ and run their own business
+",color=green];
+	175 [label="Aiding help poor countries in this
+ situation solve their economical problems
+ and run their own business
+",color=green];
+	195 [label="republic of Korea used to be
+ the poorest country even compared
+ to others in Africa in
+ 1960's",color=blue];
+	195 [label="republic of Korea used to be
+ the poorest country even compared
+ to others in Africa in
+ 1960's",color=blue];
+	395 [label="being a global neighbor by aiding
+ poor countries would be continues
+ by many organizations and volunteers
+ , and it will make
+ the earth a better place
+ to live",color=green];
+	213 [label="Now that it
+ has became strong economy country
+ aiding poor countries after 10
+ years of aid from other
+ counties",color=blue];
+	395 [label="being a global neighbor by aiding
+ poor countries would be continues
+ by many organizations and volunteers
+ , and it will make
+ the earth a better place
+ to live",color=green];
+	235 [label="aiding campaign gives a chance to
+ considerate about poor people",color=green];
+	246 [label="If people in rich countries
+ ponder poor people suffering from
+ poverty and diseases , they
+ would never take their abundance
+ for granted",color=blue];
+	246 [label="If people in rich countries
+ ponder poor people suffering from
+ poverty and diseases , they
+ would never take their abundance
+ for granted",color=blue];
+	395 [label="being a global neighbor by aiding
+ poor countries would be continues
+ by many organizations and volunteers
+ , and it will make
+ the earth a better place
+ to live",color=green];
+	269 [label="It not
+ only raises the notice the
+ meaning of harmony and love
+ , but also be a
+ good chance to learn humane
+ doctrine of globalization",color=blue];
+	395 [label="being a global neighbor by aiding
+ poor countries would be continues
+ by many organizations and volunteers
+ , and it will make
+ the earth a better place
+ to live",color=green];
+	297 [label="the campaigns might include
+ practical benefits",color=green];
+	304 [label="In globalized
+ world , the economies of
+ several countries are in a
+ big network and must influence
+ on each others",color=blue];
+	304 [label="In globalized
+ world , the economies of
+ several countries are in a
+ big network and must influence
+ on each others",color=blue];
+	395 [label="being a global neighbor by aiding
+ poor countries would be continues
+ by many organizations and volunteers
+ , and it will make
+ the earth a better place
+ to live",color=green];
+	325 [label="When America mortgage loan system went
+ bad , several economies of
+ European and Asian countries fluctuated
+ , even any countries had
+ to be gotten international supports
+ to block its bankrupt",color=blue];
+	395 [label="being a global neighbor by aiding
+ poor countries would be continues
+ by many organizations and volunteers
+ , and it will make
+ the earth a better place
+ to live",color=green];
 }

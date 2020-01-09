@@ -10,71 +10,67 @@ digraph G {
 	251 -> 305;
 	261 -> 305;
 	283 -> 305;
-	80 [label="Society does need an advertising
- but it is our responsibility
- to control the content and
- what kind of goods and
- services we would like to
- offer to our customers",color=green];
-	135 [label="these kind of ads will
- have negative effect to our
- children",color=blue];
-	120 [label="advertising alcohol , cigarettes ,
- goods and services with adult
- content should be prohibited",color=green];
-	135 [label="these kind of ads will
- have negative effect to our
- children",color=blue];
-	135 [label="these kind of ads will
- have negative effect to our
- children",color=blue];
-	305 [label="modern society needs advertising",color=green];
-	147 [label="Youngsters might be
- tempted to buy cigarettes or
- alcohol and later to start
- consume it on a daily
- basis",color=blue];
-	305 [label="modern society needs advertising",color=green];
-	169 [label="some countries take this issue seriously
- and advertising alcohol , cigarettes
- and materials with adult content
- is banned on those countries
+	80 [label="Society does need an advertising but
+ it is our responsibility to
+ control the content and what
+ kind of goods and services
+ we would like to offer
+ to our customers",color=green];
+	135 [label="these kind of ads will have
+ negative effect to our children
+",color=blue];
+	120 [label="advertising alcohol , cigarettes , goods
+ and services with adult content
+ should be prohibited",color=green];
+	135 [label="these kind of ads will have
+ negative effect to our children
+",color=blue];
+	135 [label="these kind of ads will have
+ negative effect to our children
 ",color=blue];
 	305 [label="modern society needs advertising",color=green];
-	195 [label="by advertising companies , businesses
- , firms and individuals promote
- their goods and services",color=green];
-	210 [label="Thanks to ads we learn
- about new products , we
- can compare them and choose
- whatâ€™s the best for us
-",color=blue];
-	210 [label="Thanks to ads we learn
- about new products , we
- can compare them and choose
- whatâ€™s the best for us
+	147 [label="Youngsters might be tempted
+ to buy cigarettes or alcohol
+ and later to start consume
+ it on a daily basis
 ",color=blue];
 	305 [label="modern society needs advertising",color=green];
-	231 [label="These days , not
- only many businesses , but
- also governments have to rely
- on advertising",color=green];
-	251 [label="tourism makes up one-third
- of the Czech Republic's economy
-",color=blue];
-	251 [label="tourism makes up one-third
- of the Czech Republic's economy
-",color=blue];
+	169 [label="some countries
+ take this issue seriously and
+ advertising alcohol , cigarettes and
+ materials with adult content is
+ banned on those countries",color=blue];
 	305 [label="modern society needs advertising",color=green];
-	261 [label="In order to promote
- the country's attractions , the
- Czech government has to advertise
- and sell its services to
- foreign consumers",color=blue];
+	195 [label="by advertising companies , businesses ,
+ firms and individuals promote their
+ goods and services",color=green];
+	210 [label="Thanks to ads we learn about
+ new products , we can
+ compare them and choose what’s
+ the best for us",color=blue];
+	210 [label="Thanks to ads we learn about
+ new products , we can
+ compare them and choose what’s
+ the best for us",color=blue];
 	305 [label="modern society needs advertising",color=green];
-	283 [label="Only well
- planned and well targeted advertising
- will bring more foreign tourists
- to the country",color=blue];
+	231 [label="These days , not only
+ many businesses , but also
+ governments have to rely on
+ advertising",color=green];
+	251 [label="tourism makes up one-third of
+ the Czech Republic's economy",color=blue];
+	251 [label="tourism makes up one-third of
+ the Czech Republic's economy",color=blue];
+	305 [label="modern society needs advertising",color=green];
+	261 [label="In order to promote the
+ country's attractions , the Czech
+ government has to advertise and
+ sell its services to foreign
+ consumers",color=blue];
+	305 [label="modern society needs advertising",color=green];
+	283 [label="Only well planned
+ and well targeted advertising will
+ bring more foreign tourists to
+ the country",color=blue];
 	305 [label="modern society needs advertising",color=green];
 }

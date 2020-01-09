@@ -17,7 +17,7 @@ tirar (I)    0.000
 já (I)    0.000
 algumas (I)    0.000
 conclusões (I)    0.000
-sobre (I)    0.000
+sobre (O)    0.000
 o (C)    0.000
 caminho (I)    0.000
 orçamental (I)    0.000

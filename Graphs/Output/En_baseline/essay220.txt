@@ -169,7 +169,7 @@ worthwhile (I)    0.000
 . (O)    0.000
 furthermore (O)    0.000
 , (O)    0.000
-living (P)  160.000
+living (P)   73.000
 at (I)    0.000
 home (I)    0.000
 costs (I)    0.000
@@ -178,7 +178,7 @@ than (I)    0.000
 living (I)    0.000
 outside (I)    0.000
 . (O)    0.000
-learning (P)  151.000
+learning (P)   64.000
 to (I)    0.000
 be (I)    0.000
 independent (I)    0.000
@@ -194,7 +194,7 @@ home (I)    0.000
 . (O)    0.000
 therefore (O)    0.000
 , (O)    0.000
-he (P)  135.000
+he (P)   48.000
 may (I)    0.000
 have (I)    0.000
 to (I)    0.000
@@ -213,7 +213,7 @@ parents (I)    0.000
 . (O)    0.000
 moreover (O)    0.000
 , (O)    0.000
-another (P)  116.000
+another (P)   29.000
 daily (I)    0.000
 expense (I)    0.000
 is (I)    0.000
@@ -222,7 +222,7 @@ the (I)    0.000
 considerable (I)    0.000
 outgoings (I)    0.000
 . (O)    0.000
-spending (P)  107.000
+spending (P)   20.000
 much (I)    0.000
 money (I)    0.000
 may (I)    0.000
@@ -242,7 +242,7 @@ in (O)    0.000
 a (O)    0.000
 word (O)    0.000
 , (O)    0.000
-the (P)   87.000
+the (C)    0.000
 parents (I)    0.000
 can (I)    0.000
 save (I)    0.000

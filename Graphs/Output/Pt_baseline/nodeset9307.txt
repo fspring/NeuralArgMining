@@ -108,7 +108,7 @@ de (I)    0.000
 fumar (I)    0.000
 : (O)    0.000
 a (O)    0.000
-primeira (P)  630.000
+primeira (P)    0.000
 passa (I)    0.000
 por (I)    0.000
 reconhecer (I)    0.000
@@ -131,7 +131,7 @@ mais (I)    0.000
 querido (I)    0.000
 ; (O)    0.000
 a (O)    0.000
-segunda (P)  607.000
+segunda (P)    0.000
 por (I)    0.000
 perceber (I)    0.000
 que (I)    0.000

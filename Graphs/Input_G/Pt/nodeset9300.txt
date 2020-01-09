@@ -3,7 +3,7 @@ digraph G {
 	28 [label="Para muitas gerações
  o cigarro foi e continua
  a ser uma atitude .
- Um estilo .",color=green];
+ Um estilo",color=green];
 	44 [label="Os gestos
  de mão ajustam-se na perfeição
  a estados tão desencontrados como

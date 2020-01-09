@@ -1,96 +1,106 @@
 digraph G {
-	100 -> 174;
-	120 -> 174;
-	151 -> 174;
-	194 -> 363;
-	204 -> 363;
-	216 -> 363;
-	233 -> 363;
-	251 -> 363;
-	264 -> 363;
-	288 -> 363;
-	302 -> 363;
-	313 -> 363;
-	338 -> 363;
+	100 -> 83;
+	100 -> 288;
+	124 -> 288;
+	131 -> 288;
+	151 -> 288;
+	204 -> 387;
+	216 -> 387;
+	233 -> 387;
+	251 -> 387;
+	264 -> 387;
+	302 -> 288;
+	302 -> 359;
+	313 -> 359;
+	83 [label="university education is
+ of paramount importance for certain
+ professions such as doctor ,
+ engineer and lawyer",color=green];
 	100 [label="without proper training and knowledge ,
  it would be impossible for
  them to perform their best
  in their careers",color=blue];
-	174 [label="there are
- also a significant number of
- people who are very successful
- in their fields without going
- to university",color=green];
-	120 [label="not only that , when they
+	100 [label="without proper training and knowledge ,
+ it would be impossible for
+ them to perform their best
+ in their careers",color=blue];
+	288 [label="people with natural
+ talents are also most likely
+ to excel in their life
+",color=green];
+	124 [label="when they
  are in a university ,
- they will have the opportunity
+",color=blue];
+	288 [label="people with natural
+ talents are also most likely
+ to excel in their life
+",color=green];
+	131 [label="they will have the opportunity
  to share their knowledge as
  well as to network for
  business associates and partners",color=blue];
-	174 [label="there are
- also a significant number of
- people who are very successful
- in their fields without going
- to university",color=green];
+	288 [label="people with natural
+ talents are also most likely
+ to excel in their life
+",color=green];
 	151 [label="this can benefit them in
  future when they intend to
  open up their own companies
  or hospitals",color=blue];
-	174 [label="there are
- also a significant number of
- people who are very successful
- in their fields without going
- to university",color=green];
-	194 [label="take for
- instance those who start their
- own business",color=blue];
-	363 [label="individuals born with
- talents have also a high
- chance to be successful",color=green];
+	288 [label="people with natural
+ talents are also most likely
+ to excel in their life
+",color=green];
 	204 [label="these people
  depend solely on hard work
  and luck",color=blue];
-	363 [label="individuals born with
- talents have also a high
- chance to be successful",color=green];
+	387 [label="university education is pivotal
+ in a person's life in
+ order for one to prosper
+",color=green];
 	216 [label="for some of them it
  proved to be a profitable
  job",color=blue];
-	363 [label="individuals born with
- talents have also a high
- chance to be successful",color=green];
+	387 [label="university education is pivotal
+ in a person's life in
+ order for one to prosper
+",color=green];
 	233 [label="michael dell who
  is the founder and the
  ceo of dell left college
  at 19",color=blue];
-	363 [label="individuals born with
- talents have also a high
- chance to be successful",color=green];
+	387 [label="university education is pivotal
+ in a person's life in
+ order for one to prosper
+",color=green];
 	251 [label="he started his computer company
  in his college dorm room
 ",color=blue];
-	363 [label="individuals born with
- talents have also a high
- chance to be successful",color=green];
+	387 [label="university education is pivotal
+ in a person's life in
+ order for one to prosper
+",color=green];
 	264 [label="he used
  his earnings as well as
  his family's loan in order
  to progress to be who
  he is now",color=blue];
-	363 [label="individuals born with
- talents have also a high
- chance to be successful",color=green];
+	387 [label="university education is pivotal
+ in a person's life in
+ order for one to prosper
+",color=green];
 	288 [label="people with natural
  talents are also most likely
  to excel in their life
-",color=blue];
-	363 [label="individuals born with
- talents have also a high
- chance to be successful",color=green];
+",color=green];
 	302 [label="this is especially true
  in sectors like entertainment and
  sports",color=blue];
-	363 [label="individuals born with
+	302 [label="this is especially true
+ in sectors like entertainment and
+ sports",color=blue];
+	359 [label="it is
+ evident that individuals born with
  talents have also a high
  chance to be successful",color=green];
 	313 [label="the introduction of
@@ -98,15 +108,8 @@ digraph G {
  have made it possible for
  all those lucky ones to
  triumph",color=blue];
-	363 [label="individuals born with
- talents have also a high
- chance to be successful",color=green];
-	338 [label="david archuleta who
- was once a nobody has
- now taken up a large
- space in hearts of many
-",color=blue];
-	363 [label="individuals born with
+	359 [label="it is
+ evident that individuals born with
  talents have also a high
  chance to be successful",color=green];
 }

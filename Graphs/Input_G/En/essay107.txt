@@ -10,83 +10,82 @@ digraph G {
 	215 -> 198;
 	215 -> 252;
 	233 -> 252;
-	49 [label="concerns to save Earth are vital
-",color=green];
-	75 [label="The so-called Concrete jungles have
- evolved endangering forests and wild
- life",color=blue];
-	62 [label="rapid development of
- infrastructure is eating most of
- the forest throughout world",color=green];
-	75 [label="The so-called Concrete jungles have
- evolved endangering forests and wild
- life",color=blue];
-	75 [label="The so-called Concrete jungles have
- evolved endangering forests and wild
- life",color=blue];
-	252 [label="Earth is our
- home and it should be
- protected",color=green];
-	91 [label="life saving oxygen is
- produced by trees after converting
- harmful carbon dioxide gas",color=blue];
-	252 [label="Earth is our
- home and it should be
- protected",color=green];
-	107 [label="wild life is
- very essential to maintain ecological
- balance on planet Earth",color=blue];
-	252 [label="Earth is our
- home and it should be
- protected",color=green];
-	122 [label="large emissions of
- carbon monoxide gas from refrigerants
- like air conditioners have depleted
- ozone layer",color=green];
-	138 [label="Importance of
- ozone layer is evident by
- the fact as it protects
- us from harmful ultra violet
- rays",color=blue];
-	138 [label="Importance of
- ozone layer is evident by
- the fact as it protects
- us from harmful ultra violet
- rays",color=blue];
-	252 [label="Earth is our
- home and it should be
- protected",color=green];
-	162 [label="excess emission of
- carbon dioxide gas mainly by
- vehicles around the world has
- increased the average temperature at
- north pole which in turn
- has increased water level due
- to gradual melting of glaciers
+	49 [label="concerns to
+ save Earth are vital",color=green];
+	75 [label="The so-called Concrete jungles have evolved
+ endangering forests and wild life
 ",color=blue];
-	252 [label="Earth is our
- home and it should be
- protected",color=green];
-	198 [label="either industrial
- waste or domestic waste produced
- everyday is badly polluting the
- planet Earth",color=green];
-	215 [label="a large amount of unnoticed
- industrial waste released in oceans
- effects aquatic life to a
- large extent",color=blue];
-	215 [label="a large amount of unnoticed
- industrial waste released in oceans
- effects aquatic life to a
- large extent",color=blue];
-	252 [label="Earth is our
- home and it should be
- protected",color=green];
-	233 [label="Harmful chemicals
- present in industrial waste kills
- lot of sea creatures in
- oceans or rivers",color=blue];
-	252 [label="Earth is our
- home and it should be
- protected",color=green];
+	62 [label="rapid development of infrastructure
+ is eating most of the
+ forest throughout world",color=green];
+	75 [label="The so-called Concrete jungles have evolved
+ endangering forests and wild life
+",color=blue];
+	75 [label="The so-called Concrete jungles have evolved
+ endangering forests and wild life
+",color=blue];
+	252 [label="Earth is our home
+ and it should be protected
+",color=green];
+	91 [label="life saving oxygen is produced
+ by trees after converting harmful
+ carbon dioxide gas",color=blue];
+	252 [label="Earth is our home
+ and it should be protected
+",color=green];
+	107 [label="wild life is very
+ essential to maintain ecological balance
+ on planet Earth",color=blue];
+	252 [label="Earth is our home
+ and it should be protected
+",color=green];
+	122 [label="large emissions of carbon
+ monoxide gas from refrigerants like
+ air conditioners have depleted ozone
+ layer",color=green];
+	138 [label="Importance of ozone
+ layer is evident by the
+ fact as it protects us
+ from harmful ultra violet rays
+",color=blue];
+	138 [label="Importance of ozone
+ layer is evident by the
+ fact as it protects us
+ from harmful ultra violet rays
+",color=blue];
+	252 [label="Earth is our home
+ and it should be protected
+",color=green];
+	162 [label="excess emission of carbon
+ dioxide gas mainly by vehicles
+ around the world has increased
+ the average temperature at north
+ pole which in turn has
+ increased water level due to
+ gradual melting of glaciers",color=blue];
+	252 [label="Earth is our home
+ and it should be protected
+",color=green];
+	198 [label="either industrial waste
+ or domestic waste produced everyday
+ is badly polluting the planet
+ Earth",color=green];
+	215 [label="a large amount of unnoticed industrial
+ waste released in oceans effects
+ aquatic life to a large
+ extent",color=blue];
+	215 [label="a large amount of unnoticed industrial
+ waste released in oceans effects
+ aquatic life to a large
+ extent",color=blue];
+	252 [label="Earth is our home
+ and it should be protected
+",color=green];
+	233 [label="Harmful chemicals present
+ in industrial waste kills lot
+ of sea creatures in oceans
+ or rivers",color=blue];
+	252 [label="Earth is our home
+ and it should be protected
+",color=green];
 }

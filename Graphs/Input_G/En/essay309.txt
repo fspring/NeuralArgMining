@@ -13,106 +13,103 @@ digraph G {
 	357 -> 313;
 	357 -> 327;
 	357 -> 343;
-	44 [label="both choices have their own advantages
- and disadvantages",color=green];
-	58 [label="living in
- a dormitory helps students to
- familiarize themselves with the academic
- environment of the university",color=blue];
-	58 [label="living in
- a dormitory helps students to
- familiarize themselves with the academic
- environment of the university",color=blue];
-	164 [label="living in dormitory is always helpful
- to students",color=green];
-	78 [label="students can
- have an opportunity to take
- part in many kind of
- extracurricular activities happing around the
- campus such as attending conversation
- club , or joining sports
- club",color=blue];
-	164 [label="living in dormitory is always helpful
- to students",color=green];
-	107 [label="Students can also
- have more chance of interaction
- with their teachers and classmates
+	44 [label="both choices
+ have their own advantages and
+ disadvantages",color=green];
+	58 [label="living in a
+ dormitory helps students to familiarize
+ themselves with the academic environment
+ of the university",color=blue];
+	58 [label="living in a
+ dormitory helps students to familiarize
+ themselves with the academic environment
+ of the university",color=blue];
+	164 [label="living in
+ dormitory is always helpful to
+ students",color=green];
+	78 [label="students can have
+ an opportunity to take part
+ in many kind of extracurricular
+ activities happing around the campus
+ such as attending conversation club
+ , or joining sports club
 ",color=blue];
-	164 [label="living in dormitory is always helpful
- to students",color=green];
-	124 [label="it is easier for students to
- get help when facing problem
- such as if students have
- problem in solving their math
- question , they can easily
- ask for help to their
- roommates , classmates , or
- teachers",color=blue];
-	164 [label="living in dormitory is always helpful
- to students",color=green];
-	178 [label="living off
- campus prepares students for the
- real life",color=green];
-	191 [label="students can learn many
- new things such as how
- to become responsible , independent
- , punctual , co-operative compared
- to living in university dormitories
+	164 [label="living in
+ dormitory is always helpful to
+ students",color=green];
+	107 [label="Students can also have
+ more chance of interaction with
+ their teachers and classmates",color=blue];
+	164 [label="living in
+ dormitory is always helpful to
+ students",color=green];
+	124 [label="it is
+ easier for students to get
+ help when facing problem such
+ as if students have problem
+ in solving their math question
+ , they can easily ask
+ for help to their roommates
+ , classmates , or teachers
 ",color=blue];
-	191 [label="students can learn many
- new things such as how
- to become responsible , independent
- , punctual , co-operative compared
- to living in university dormitories
-",color=blue];
-	313 [label="both living
- accommodation have its own benefits
-",color=green];
-	216 [label="They are responsible to
- take care of everything including
- paying their apartment rent on
- time , and dealing with
- the utility bills",color=blue];
-	313 [label="both living
- accommodation have its own benefits
-",color=green];
-	242 [label="students also have
- to focus on their study
- , and try to maintain
- their grades higher",color=blue];
-	313 [label="both living
- accommodation have its own benefits
-",color=green];
-	261 [label="students also have a
- chance to know about the
- community around them",color=blue];
-	313 [label="both living
- accommodation have its own benefits
-",color=green];
-	274 [label="Interacting with the people , and
- socializing with them prepares students
- for the life after graduation
-",color=blue];
-	313 [label="both living
- accommodation have its own benefits
-",color=green];
-	313 [label="both living
- accommodation have its own benefits
-",color=green];
-	357 [label="learning all those
- characteristics would really help me
- in leading successful life",color=blue];
-	327 [label="I would definitely
- choose the second option :
- living in an apartment",color=green];
-	357 [label="learning all those
- characteristics would really help me
- in leading successful life",color=blue];
-	343 [label="it teaches
- me everything that I certainly
- wants to learn in my
+	164 [label="living in
+ dormitory is always helpful to
+ students",color=green];
+	178 [label="living off campus
+ prepares students for the real
  life",color=green];
-	357 [label="learning all those
- characteristics would really help me
- in leading successful life",color=blue];
+	191 [label="students can learn many new
+ things such as how to
+ become responsible , independent ,
+ punctual , co-operative compared to
+ living in university dormitories",color=blue];
+	191 [label="students can learn many new
+ things such as how to
+ become responsible , independent ,
+ punctual , co-operative compared to
+ living in university dormitories",color=blue];
+	313 [label="both living accommodation
+ have its own benefits",color=green];
+	216 [label="They are responsible to take
+ care of everything including paying
+ their apartment rent on time
+ , and dealing with the
+ utility bills",color=blue];
+	313 [label="both living accommodation
+ have its own benefits",color=green];
+	242 [label="students also have to
+ focus on their study ,
+ and try to maintain their
+ grades higher",color=blue];
+	313 [label="both living accommodation
+ have its own benefits",color=green];
+	261 [label="students also have a chance
+ to know about the community
+ around them",color=blue];
+	313 [label="both living accommodation
+ have its own benefits",color=green];
+	274 [label="Interacting with
+ the people , and socializing
+ with them prepares students for
+ the life after graduation",color=blue];
+	313 [label="both living accommodation
+ have its own benefits",color=green];
+	313 [label="both living accommodation
+ have its own benefits",color=green];
+	357 [label="learning all those characteristics
+ would really help me in
+ leading successful life",color=blue];
+	327 [label="I would definitely choose
+ the second option : living
+ in an apartment",color=green];
+	357 [label="learning all those characteristics
+ would really help me in
+ leading successful life",color=blue];
+	343 [label="it teaches me
+ everything that I certainly wants
+ to learn in my life
+",color=green];
+	357 [label="learning all those characteristics
+ would really help me in
+ leading successful life",color=blue];
 }

@@ -10,9 +10,9 @@ still (I)    0.000
 be (I)    0.000
 necessary (I)    0.000
 , (I)    0.000
-even (O)    0.000
-though (O)    0.000
-we (P)  289.000
+even (I)    0.000
+though (I)    0.000
+we (I)    0.000
 can (I)    0.000
 see (I)    0.000
 the (I)    0.000
@@ -67,8 +67,8 @@ get (I)    0.000
 a (I)    0.000
 spiritual (I)    0.000
 experience (I)    0.000
-since (O)    0.000
-pictures (P)  233.000
+since (I)    0.000
+pictures (I)    0.000
 online (I)    0.000
 are (I)    0.000
 only (I)    0.000
@@ -127,8 +127,8 @@ more (I)    0.000
 about (I)    0.000
 the (I)    0.000
 exhibits (I)    0.000
-, (O)    0.000
-museums (P)  173.000
+, (I)    0.000
+museums (I)    0.000
 hold (I)    0.000
 various (I)    0.000
 activities (I)    0.000
@@ -163,8 +163,8 @@ of (I)    0.000
 the (I)    0.000
 museum's (I)    0.000
 stegosaurus (I)    0.000
-; (O)    0.000
-at (P)  137.000
+; (I)    0.000
+at (I)    0.000
 museum (I)    0.000
 of (I)    0.000
 art (I)    0.000
@@ -185,8 +185,8 @@ to (I)    0.000
 their (I)    0.000
 music (I)    0.000
 . (O)    0.000
-while (O)    0.000
-if (P)  115.000
+while (P)  116.000
+if (I)    0.000
 you (I)    0.000
 "visit" (I)    0.000
 the (I)    0.000
@@ -271,8 +271,8 @@ details (I)    0.000
 might (I)    0.000
 be (I)    0.000
 dim (I)    0.000
-since (O)    0.000
-the (P)   29.000
+since (I)    0.000
+the (I)    0.000
 resolution (I)    0.000
 ratio (I)    0.000
 of (I)    0.000

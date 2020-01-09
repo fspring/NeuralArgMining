@@ -14,98 +14,89 @@ digraph G {
 	256 -> 280;
 	300 -> 280;
 	300 -> 288;
-	58 [label="student have
- to be forced to study
- at school",color=green];
-	72 [label="schools offer to
- students a good environment with
- experienced professors and high quality
- programs for studying",color=blue];
-	72 [label="schools offer to
- students a good environment with
- experienced professors and high quality
- programs for studying",color=blue];
-	145 [label="they have more opprotunities to
- find a job and to
- be successful in the future
-",color=green];
-	89 [label="It creates the best conditions for
- students education and can force
- them to focus on their
- school work instead of wasting
- their time to do useless
- things",color=blue];
-	145 [label="they have more opprotunities to
- find a job and to
- be successful in the future
-",color=green];
-	121 [label="schools provide lots of
- academic knowledge to students",color=blue];
-	145 [label="they have more opprotunities to
- find a job and to
- be successful in the future
-",color=green];
-	130 [label="Students may learn professional skills
- , expand their understandings and
- gain experiences",color=blue];
-	145 [label="they have more opprotunities to
- find a job and to
- be successful in the future
-",color=green];
-	145 [label="they have more opprotunities to
- find a job and to
- be successful in the future
-",color=green];
-	168 [label="employer always
- prefer to hire an employee
- of high degree who have
- professional skills",color=blue];
-	168 [label="employer always
- prefer to hire an employee
- of high degree who have
- professional skills",color=blue];
-	280 [label="students should study at school
-",color=green];
-	194 [label="children should interrupt their school work
- and get a job",color=green];
-	214 [label="there are many subjects that will
- be of little value to
- them in the future",color=blue];
-	205 [label="Whether children can learn a
- lot at school",color=blue];
-	280 [label="students should study at school
-",color=green];
-	214 [label="there are many subjects that will
- be of little value to
- them in the future",color=blue];
-	280 [label="students should study at school
-",color=green];
-	232 [label="children can learn
- social skills when they have
- a job",color=blue];
-	280 [label="students should study at school
-",color=green];
-	243 [label="They can
- get more experiences that can
- not be obtained at school
+	58 [label="student have to
+ be forced to study at
+ school",color=green];
+	72 [label="schools offer to students
+ a good environment with experienced
+ professors and high quality programs
+ for studying",color=blue];
+	72 [label="schools offer to students
+ a good environment with experienced
+ professors and high quality programs
+ for studying",color=blue];
+	145 [label="they have more opprotunities to find
+ a job and to be
+ successful in the future",color=green];
+	89 [label="It creates
+ the best conditions for students
+ education and can force them
+ to focus on their school
+ work instead of wasting their
+ time to do useless things
 ",color=blue];
-	280 [label="students should study at school
-",color=green];
-	256 [label="Working helps children be
- more independent and teach them
- to esteem and manage the
- money that they've earned",color=blue];
-	280 [label="students should study at school
-",color=green];
-	280 [label="students should study at school
-",color=green];
-	300 [label="studying at school is always
- the best choice for children's
- future",color=blue];
-	288 [label="there are
- some advantages of leaving school
- to find a job",color=green];
-	300 [label="studying at school is always
- the best choice for children's
- future",color=blue];
+	145 [label="they have more opprotunities to find
+ a job and to be
+ successful in the future",color=green];
+	121 [label="schools provide lots of academic
+ knowledge to students",color=blue];
+	145 [label="they have more opprotunities to find
+ a job and to be
+ successful in the future",color=green];
+	130 [label="Students may learn professional skills ,
+ expand their understandings and gain
+ experiences",color=blue];
+	145 [label="they have more opprotunities to find
+ a job and to be
+ successful in the future",color=green];
+	145 [label="they have more opprotunities to find
+ a job and to be
+ successful in the future",color=green];
+	168 [label="employer always prefer
+ to hire an employee of
+ high degree who have professional
+ skills",color=blue];
+	168 [label="employer always prefer
+ to hire an employee of
+ high degree who have professional
+ skills",color=blue];
+	280 [label="students should study at school",color=green];
+	194 [label="children should
+ interrupt their school work and
+ get a job",color=green];
+	214 [label="there are
+ many subjects that will be
+ of little value to them
+ in the future",color=blue];
+	205 [label="Whether children can learn a lot
+ at school",color=blue];
+	280 [label="students should study at school",color=green];
+	214 [label="there are
+ many subjects that will be
+ of little value to them
+ in the future",color=blue];
+	280 [label="students should study at school",color=green];
+	232 [label="children can learn social
+ skills when they have a
+ job",color=blue];
+	280 [label="students should study at school",color=green];
+	243 [label="They can get
+ more experiences that can not
+ be obtained at school",color=blue];
+	280 [label="students should study at school",color=green];
+	256 [label="Working helps children be more
+ independent and teach them to
+ esteem and manage the money
+ that they've earned",color=blue];
+	280 [label="students should study at school",color=green];
+	280 [label="students should study at school",color=green];
+	300 [label="studying at school is always the
+ best choice for children's future
+",color=blue];
+	288 [label="there are some
+ advantages of leaving school to
+ find a job",color=green];
+	300 [label="studying at school is always the
+ best choice for children's future
+",color=blue];
 }

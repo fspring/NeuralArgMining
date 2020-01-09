@@ -8,84 +8,79 @@ digraph G {
 	213 -> 283;
 	228 -> 283;
 	260 -> 283;
-	65 [label="a police holds a responsibility
- to tackle of violence in
- the urban or suburban areas
- using a gun",color=blue];
-	155 [label="some military weapons need encouraging
- for police officers to protect
- the public and minimize the
- rate of violence",color=green];
-	84 [label="An obvious example of this happens
- in The United State ,
- a man killed more than
- ten people in the cinema
- using a weapon , while
- a police shot in the
- foot to paralyze him",color=blue];
-	155 [label="some military weapons need encouraging
- for police officers to protect
- the public and minimize the
- rate of violence",color=green];
-	122 [label="police officers can
- force a criminal to surrender
-",color=blue];
-	155 [label="some military weapons need encouraging
- for police officers to protect
- the public and minimize the
- rate of violence",color=green];
-	132 [label="they have a
- weapon which will prevent an
- escaping criminal who poses a
- serious danger to the public
-",color=blue];
-	155 [label="some military weapons need encouraging
- for police officers to protect
- the public and minimize the
- rate of violence",color=green];
-	179 [label="there are some reason why the
- level of bloody increases significantly
- in the communities",color=green];
-	196 [label="the number of unemployment
- rate has risen to 15
- percent in several globalized and
- non-globalized countries",color=blue];
-	196 [label="the number of unemployment
- rate has risen to 15
- percent in several globalized and
- non-globalized countries",color=blue];
-	283 [label="the guns
- which are used by police
- have not been a trigger
- of higher level of violence
-",color=green];
-	213 [label="Many well-qualified
- and well-educated person cannot earn
- some money to live comfortably
-",color=blue];
-	283 [label="the guns
- which are used by police
- have not been a trigger
- of higher level of violence
-",color=green];
-	228 [label="cost of
- living in the big city
- is extremely expensive , so
- this problem impresses some people
- who live under the poverty
- line to do anything to
- pay their basic needs",color=blue];
-	283 [label="the guns
- which are used by police
- have not been a trigger
- of higher level of violence
-",color=green];
-	260 [label="Many baggers chose to be
- a pickpocket in the public
- transport , for instance",color=blue];
-	283 [label="the guns
- which are used by police
- have not been a trigger
- of higher level of violence
-",color=green];
+	65 [label="a police holds a responsibility to
+ tackle of violence in the
+ urban or suburban areas using
+ a gun",color=blue];
+	155 [label="some military weapons need encouraging for
+ police officers to protect the
+ public and minimize the rate
+ of violence",color=green];
+	84 [label="An obvious
+ example of this happens in
+ The United State , a
+ man killed more than ten
+ people in the cinema using
+ a weapon , while a
+ police shot in the foot
+ to paralyze him",color=blue];
+	155 [label="some military weapons need encouraging for
+ police officers to protect the
+ public and minimize the rate
+ of violence",color=green];
+	122 [label="police officers can force
+ a criminal to surrender",color=blue];
+	155 [label="some military weapons need encouraging for
+ police officers to protect the
+ public and minimize the rate
+ of violence",color=green];
+	132 [label="they have a weapon
+ which will prevent an escaping
+ criminal who poses a serious
+ danger to the public",color=blue];
+	155 [label="some military weapons need encouraging for
+ police officers to protect the
+ public and minimize the rate
+ of violence",color=green];
+	179 [label="there are
+ some reason why the level
+ of bloody increases significantly in
+ the communities",color=green];
+	196 [label="the number of unemployment rate
+ has risen to 15 percent
+ in several globalized and non-globalized
+ countries",color=blue];
+	196 [label="the number of unemployment rate
+ has risen to 15 percent
+ in several globalized and non-globalized
+ countries",color=blue];
+	283 [label="the guns which
+ are used by police have
+ not been a trigger of
+ higher level of violence",color=green];
+	213 [label="Many well-qualified and
+ well-educated person cannot earn some
+ money to live comfortably",color=blue];
+	283 [label="the guns which
+ are used by police have
+ not been a trigger of
+ higher level of violence",color=green];
+	228 [label="cost of living
+ in the big city is
+ extremely expensive , so this
+ problem impresses some people who
+ live under the poverty line
+ to do anything to pay
+ their basic needs",color=blue];
+	283 [label="the guns which
+ are used by police have
+ not been a trigger of
+ higher level of violence",color=green];
+	260 [label="Many baggers chose to be a
+ pickpocket in the public transport
+ , for instance",color=blue];
+	283 [label="the guns which
+ are used by police have
+ not been a trigger of
+ higher level of violence",color=green];
 }

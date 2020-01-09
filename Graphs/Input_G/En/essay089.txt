@@ -10,65 +10,65 @@ digraph G {
 	186 -> 178;
 	186 -> 230;
 	203 -> 215;
-	44 [label="human needs should be considered more
-",color=green];
-	53 [label="day by
- day population is increasing",color=blue];
-	53 [label="day by
- day population is increasing",color=blue];
-	101 [label="farmlands are vital for
- human life",color=green];
-	61 [label="human needs for food
- is increasing as well",color=blue];
-	101 [label="farmlands are vital for
- human life",color=green];
-	70 [label="We need farmland to grow
- crops such as wheat and
- corn , and there is
- no doubt that without food
- people cannot alive for more
- than some weeks",color=blue];
-	101 [label="farmlands are vital for
- human life",color=green];
-	110 [label="people need shelters to protect
- themselves from mother nature such
- as wind and flood and
- wild animals",color=blue];
-	129 [label="they need land to build their
- houses on it",color=green];
-	129 [label="they need land to build their
- houses on it",color=green];
-	139 [label="Dwelling is one of the most
- important human needs after food
- which is undeniable",color=blue];
-	139 [label="Dwelling is one of the most
- important human needs after food
- which is undeniable",color=blue];
-	230 [label="nowadays humans need farmland ,
- housing and industry",color=green];
-	156 [label="human need some crucial
- things to continue their life
- , and most of them
- are industrial such as medicine
-",color=blue];
-	178 [label="some lands
- should be assigned to industry
-",color=green];
-	178 [label="some lands
- should be assigned to industry
-",color=green];
-	186 [label="Todays life has some
- difficulty which become comfortable with
- the help of industry",color=blue];
-	186 [label="Todays life has some
- difficulty which become comfortable with
- the help of industry",color=blue];
-	230 [label="nowadays humans need farmland ,
- housing and industry",color=green];
-	203 [label="the population
- of endangered animals are less
- than people's population",color=blue];
-	215 [label="they do not need so
- much land that people need
-",color=green];
+	44 [label="human needs
+ should be considered more",color=green];
+	53 [label="day by day
+ population is increasing",color=blue];
+	53 [label="day by day
+ population is increasing",color=blue];
+	101 [label="farmlands are vital for human
+ life",color=green];
+	61 [label="human needs for food is
+ increasing as well",color=blue];
+	101 [label="farmlands are vital for human
+ life",color=green];
+	70 [label="We need farmland to grow crops
+ such as wheat and corn
+ , and there is no
+ doubt that without food people
+ cannot alive for more than
+ some weeks",color=blue];
+	101 [label="farmlands are vital for human
+ life",color=green];
+	110 [label="people need shelters to protect themselves
+ from mother nature such as
+ wind and flood and wild
+ animals",color=blue];
+	129 [label="they need
+ land to build their houses
+ on it",color=green];
+	129 [label="they need
+ land to build their houses
+ on it",color=green];
+	139 [label="Dwelling is
+ one of the most important
+ human needs after food which
+ is undeniable",color=blue];
+	139 [label="Dwelling is
+ one of the most important
+ human needs after food which
+ is undeniable",color=blue];
+	230 [label="nowadays humans need farmland , housing
+ and industry",color=green];
+	156 [label="human need some crucial things
+ to continue their life ,
+ and most of them are
+ industrial such as medicine",color=blue];
+	178 [label="some lands should
+ be assigned to industry",color=green];
+	178 [label="some lands should
+ be assigned to industry",color=green];
+	186 [label="Todays life has some difficulty
+ which become comfortable with the
+ help of industry",color=blue];
+	186 [label="Todays life has some difficulty
+ which become comfortable with the
+ help of industry",color=blue];
+	230 [label="nowadays humans need farmland , housing
+ and industry",color=green];
+	203 [label="the population of
+ endangered animals are less than
+ people's population",color=blue];
+	215 [label="they do not need so much
+ land that people need",color=green];
 }

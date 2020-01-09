@@ -9,90 +9,99 @@ digraph G {
 	227 -> 211;
 	227 -> 274;
 	249 -> 274;
-	52 [label="online-teaching should be
- widely used among colleges and
- universities in terms of convenience
- and optimizing cost for educational
- institutions",color=green];
-	89 [label="In earlier times , students who
- were tired of commuting had
- to attend schools nearby ,
- regardless of any differences in
- teaching facilities , teacher's qualifications
- or the school reputation",color=blue];
-	76 [label="distance-learning brings significant convenience
- for students in every corner
- of the world",color=green];
-	89 [label="In earlier times , students who
- were tired of commuting had
- to attend schools nearby ,
- regardless of any differences in
- teaching facilities , teacher's qualifications
- or the school reputation",color=blue];
-	89 [label="In earlier times , students who
- were tired of commuting had
- to attend schools nearby ,
- regardless of any differences in
- teaching facilities , teacher's qualifications
- or the school reputation",color=blue];
-	274 [label="distance-learning will become increasingly important in
- the future as the pace
- of life increases",color=green];
-	120 [label="Now , however , students
- are able to apply for
- online-courses provided by top-of-the-range universities
- and colleges worldwide",color=blue];
-	274 [label="distance-learning will become increasingly important in
- the future as the pace
- of life increases",color=green];
-	141 [label="the presence of video
- conferencing allows a teacher to
- teach a greater number of
- students",color=blue];
-	159 [label="educational institutions are able to optimize
- costs by increasing teacher-student ratios
+	52 [label="online-teaching should be widely
+ used among colleges and universities
+ in terms of convenience and
+ optimizing cost for educational institutions
 ",color=green];
-	159 [label="educational institutions are able to optimize
- costs by increasing teacher-student ratios
+	89 [label="In earlier
+ times , students who were
+ tired of commuting had to
+ attend schools nearby , regardless
+ of any differences in teaching
+ facilities , teacher's qualifications or
+ the school reputation",color=blue];
+	76 [label="distance-learning brings significant convenience for
+ students in every corner of
+ the world",color=green];
+	89 [label="In earlier
+ times , students who were
+ tired of commuting had to
+ attend schools nearby , regardless
+ of any differences in teaching
+ facilities , teacher's qualifications or
+ the school reputation",color=blue];
+	89 [label="In earlier
+ times , students who were
+ tired of commuting had to
+ attend schools nearby , regardless
+ of any differences in teaching
+ facilities , teacher's qualifications or
+ the school reputation",color=blue];
+	274 [label="distance-learning will
+ become increasingly important in the
+ future as the pace of
+ life increases",color=green];
+	120 [label="Now , however , students are
+ able to apply for online-courses
+ provided by top-of-the-range universities and
+ colleges worldwide",color=blue];
+	274 [label="distance-learning will
+ become increasingly important in the
+ future as the pace of
+ life increases",color=green];
+	141 [label="the presence of video conferencing
+ allows a teacher to teach
+ a greater number of students
+",color=blue];
+	159 [label="educational institutions
+ are able to optimize costs
+ by increasing teacher-student ratios",color=green];
+	159 [label="educational institutions
+ are able to optimize costs
+ by increasing teacher-student ratios",color=green];
+	171 [label="Thanks to the economical online-teaching
+ , universities and colleges are
+ able to offer grants for
+ students who have outstanding academic
+ achievements but are unable to
+ attend schools because of financial
+ constrains",color=blue];
+	171 [label="Thanks to the economical online-teaching
+ , universities and colleges are
+ able to offer grants for
+ students who have outstanding academic
+ achievements but are unable to
+ attend schools because of financial
+ constrains",color=blue];
+	274 [label="distance-learning will
+ become increasingly important in the
+ future as the pace of
+ life increases",color=green];
+	211 [label="attending lectures in person provides
+ students an opportunity to communicate
+ with teachers and other classmates
 ",color=green];
-	171 [label="Thanks to the economical
- online-teaching , universities and colleges
- are able to offer grants
- for students who have outstanding
- academic achievements but are unable
- to attend schools because of
- financial constrains",color=blue];
-	171 [label="Thanks to the economical
- online-teaching , universities and colleges
- are able to offer grants
- for students who have outstanding
- academic achievements but are unable
- to attend schools because of
- financial constrains",color=blue];
-	274 [label="distance-learning will become increasingly important in
- the future as the pace
- of life increases",color=green];
-	211 [label="attending lectures in person
- provides students an opportunity to
- communicate with teachers and other
- classmates",color=green];
-	227 [label="They further point
- out that traditional teaching approaches
- involving discussion and cooperation among
- students play a significant role
- in campus life",color=blue];
-	227 [label="They further point
- out that traditional teaching approaches
- involving discussion and cooperation among
- students play a significant role
- in campus life",color=blue];
-	274 [label="distance-learning will become increasingly important in
- the future as the pace
- of life increases",color=green];
-	249 [label="It is the real interactions and
- communications in class make education
- much more attractive",color=blue];
-	274 [label="distance-learning will become increasingly important in
- the future as the pace
- of life increases",color=green];
+	227 [label="They further point out
+ that traditional teaching approaches involving
+ discussion and cooperation among students
+ play a significant role in
+ campus life",color=blue];
+	227 [label="They further point out
+ that traditional teaching approaches involving
+ discussion and cooperation among students
+ play a significant role in
+ campus life",color=blue];
+	274 [label="distance-learning will
+ become increasingly important in the
+ future as the pace of
+ life increases",color=green];
+	249 [label="It is
+ the real interactions and communications
+ in class make education much
+ more attractive",color=blue];
+	274 [label="distance-learning will
+ become increasingly important in the
+ future as the pace of
+ life increases",color=green];
 }

@@ -14,96 +14,96 @@ digraph G {
 	233 -> 218;
 	233 -> 272;
 	252 -> 272;
-	45 [label="traditional skills and ways belong
- to value of culture",color=green];
-	55 [label="They make differences between countries
+	45 [label="traditional skills and ways belong to
+ value of culture",color=green];
+	55 [label="They make differences between countries",color=blue];
+	55 [label="They make differences between countries",color=blue];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	61 [label="Every country has unique tradtions
+ which show their creation ,
+ intelligence",color=blue];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	75 [label="people feel pround of their country
 ",color=blue];
-	55 [label="They make differences between countries
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	83 [label="they keep reserving
+ conventions",color=blue];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	91 [label="ways to build a house
+ in every country are different
+ and they distinguish between countries
 ",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	61 [label="Every country has unique
- tradtions which show their creation
- , intelligence",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	75 [label="people feel pround of their
- country",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	83 [label="they keep
- reserving conventions",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	91 [label="ways to build a
- house in every country are
- different and they distinguish between
- countries",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	110 [label="in some cases that traditional
- way can not replace by
- a new technology",color=green];
-	124 [label="Lot of people like to use
- traditional things because if their
- quality and durability",color=blue];
-	124 [label="Lot of people like to use
- traditional things because if their
- quality and durability",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	142 [label="vases are made
- by hand would be used
- more",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	154 [label="there are plenty of works that
- using traditional way is unique
- method",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	170 [label="making cone hats from leaves
- have to use hand",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	180 [label="Not only because there is
- no machine for the work
- , but also it looks
- more beautiful when it is
- made by hand , so
- resulting in greater value economy
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	110 [label="in some cases that traditional way
+ can not replace by a
+ new technology",color=green];
+	124 [label="Lot of
+ people like to use traditional
+ things because if their quality
+ and durability",color=blue];
+	124 [label="Lot of
+ people like to use traditional
+ things because if their quality
+ and durability",color=blue];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	142 [label="vases are made by
+ hand would be used more
 ",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	218 [label="Traditional skills
- and ways of life will
- help youngsters study and know
- more history",color=green];
-	233 [label="Methods which
- their ancestors used in the
- past will be displayed again
- for new generations",color=blue];
-	233 [label="Methods which
- their ancestors used in the
- past will be displayed again
- for new generations",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
-	252 [label="they might create
- somethings that are useful for
- life",color=blue];
-	272 [label="traditional skills and
- ways are always valuable and
- will last forever",color=green];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	154 [label="there are
+ plenty of works that using
+ traditional way is unique method
+",color=blue];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	170 [label="making cone hats from leaves have
+ to use hand",color=blue];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	180 [label="Not only because there is no
+ machine for the work ,
+ but also it looks more
+ beautiful when it is made
+ by hand , so resulting
+ in greater value economy",color=blue];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	218 [label="Traditional skills and
+ ways of life will help
+ youngsters study and know more
+ history",color=green];
+	233 [label="Methods which their
+ ancestors used in the past
+ will be displayed again for
+ new generations",color=blue];
+	233 [label="Methods which their
+ ancestors used in the past
+ will be displayed again for
+ new generations",color=blue];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
+	252 [label="they might create somethings
+ that are useful for life
+",color=blue];
+	272 [label="traditional skills and ways
+ are always valuable and will
+ last forever",color=green];
 }

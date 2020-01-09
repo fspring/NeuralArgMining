@@ -17,146 +17,133 @@ digraph G {
 	317 -> 303;
 	317 -> 353;
 	331 -> 353;
-	38 [label="a professor
- should spend more time doing
- research rather than educating students
-",color=green];
-	56 [label="A professor means a
- researcher or an expert of
- a specific science subject",color=blue];
-	56 [label="A professor means a
- researcher or an expert of
- a specific science subject",color=blue];
-	83 [label="he or
- she could push him/herself forward
- all the time",color=green];
-	70 [label="He or she should always
- keep the passion in her
- field",color=blue];
-	83 [label="he or
- she could push him/herself forward
- all the time",color=green];
-	83 [label="he or
- she could push him/herself forward
- all the time",color=green];
-	96 [label="he or she can
- do better in teaching works
+	38 [label="a professor should
+ spend more time doing research
+ rather than educating students",color=green];
+	56 [label="A professor means a researcher
+ or an expert of a
+ specific science subject",color=blue];
+	56 [label="A professor means a researcher
+ or an expert of a
+ specific science subject",color=blue];
+	83 [label="he or she
+ could push him/herself forward all
+ the time",color=green];
+	70 [label="He or she should always keep
+ the passion in her field
 ",color=blue];
-	96 [label="he or she can
- do better in teaching works
+	83 [label="he or she
+ could push him/herself forward all
+ the time",color=green];
+	83 [label="he or she
+ could push him/herself forward all
+ the time",color=green];
+	96 [label="he or she can do
+ better in teaching works",color=blue];
+	96 [label="he or she can do
+ better in teaching works",color=blue];
+	353 [label="a professor should
+ do their research all the
+ time during their careers as
+ a teacher in university",color=green];
+	109 [label="the most
+ impressive professor during my studying
+ in university is Mr .
+ Yang who keeps in researching
+ and reading",color=blue];
+	353 [label="a professor should
+ do their research all the
+ time during their careers as
+ a teacher in university",color=green];
+	129 [label="He is
+ also the one who gave
+ us inspiration and taught us
+ the way to study more
+ efficient by ourselves",color=blue];
+	353 [label="a professor should
+ do their research all the
+ time during their careers as
+ a teacher in university",color=green];
+	150 [label="All of my classmates gave him
+ a rank of AAA ,
+ the excellent teacher",color=blue];
+	353 [label="a professor should
+ do their research all the
+ time during their careers as
+ a teacher in university",color=green];
+	165 [label="As for students , we can
+ get what we want to
+ know from textbooks , webs
+ or teachers",color=blue];
+	207 [label="If a professor doesn't
+ get any researching works ,
+ he cannot give us the
+ opportunity",color=green];
+	185 [label="we can only turn to our
+ professors when we want to
+ take part in a research
+ and to get ourselves promoted
 ",color=blue];
-	353 [label="a professor
- should do their research all
- the time during their careers
- as a teacher in university
-",color=green];
-	109 [label="the most impressive professor during my
- studying in university is Mr
- . Yang who keeps in
- researching and reading",color=blue];
-	353 [label="a professor
- should do their research all
- the time during their careers
- as a teacher in university
-",color=green];
-	129 [label="He is also the one who
- gave us inspiration and taught
- us the way to study
- more efficient by ourselves",color=blue];
-	353 [label="a professor
- should do their research all
- the time during their careers
- as a teacher in university
-",color=green];
-	150 [label="All of my classmates gave
- him a rank of AAA
- , the excellent teacher",color=blue];
-	353 [label="a professor
- should do their research all
- the time during their careers
- as a teacher in university
-",color=green];
-	165 [label="As for students , we
- can get what we want
- to know from textbooks ,
- webs or teachers",color=blue];
-	207 [label="If a professor
- doesn't get any researching works
- , he cannot give us
- the opportunity",color=green];
-	185 [label="we can only turn to
- our professors when we want
- to take part in a
- research and to get ourselves
- promoted",color=blue];
-	207 [label="If a professor
- doesn't get any researching works
- , he cannot give us
- the opportunity",color=green];
-	226 [label="a professor who is
- concentrate in his or her
- research is thinking and creating
- new ideas all the time
-",color=green];
-	246 [label="He or she may
- stimulate us students to come
- up with some creative sugesstions
+	207 [label="If a professor doesn't
+ get any researching works ,
+ he cannot give us the
+ opportunity",color=green];
+	226 [label="a professor who is concentrate
+ in his or her research
+ is thinking and creating new
+ ideas all the time",color=green];
+	246 [label="He or she may stimulate
+ us students to come up
+ with some creative sugesstions",color=blue];
+	246 [label="He or she may stimulate
+ us students to come up
+ with some creative sugesstions",color=blue];
+	353 [label="a professor should
+ do their research all the
+ time during their careers as
+ a teacher in university",color=green];
+	261 [label="That is good for both
+ of the professor and students
 ",color=blue];
-	246 [label="He or she may
- stimulate us students to come
- up with some creative sugesstions
-",color=blue];
-	353 [label="a professor
- should do their research all
- the time during their careers
- as a teacher in university
+	353 [label="a professor should
+ do their research all the
+ time during their careers as
+ a teacher in university",color=green];
+	274 [label="all professors
+ in the university are fortune
+ of the society",color=blue];
+	303 [label="Without their research
+ , there will be no
+ new technologies come out quickly
 ",color=green];
-	261 [label="That is good for
- both of the professor and
- students",color=blue];
-	353 [label="a professor
- should do their research all
- the time during their careers
- as a teacher in university
+	285 [label="They are the leaders almost in
+ every fields of science ,
+ arts , culture and so
+ on",color=blue];
+	303 [label="Without their research
+ , there will be no
+ new technologies come out quickly
 ",color=green];
-	274 [label="all professors in the university are
- fortune of the society",color=blue];
-	303 [label="Without their
- research , there will be
- no new technologies come out
- quickly",color=green];
-	285 [label="They are the leaders almost
- in every fields of science
- , arts , culture and
- so on",color=blue];
-	303 [label="Without their
- research , there will be
- no new technologies come out
- quickly",color=green];
-	303 [label="Without their
- research , there will be
- no new technologies come out
- quickly",color=green];
-	317 [label="Without their research
- , there will be more
- artcrafts being ruined by nothing
-",color=blue];
-	317 [label="Without their research
- , there will be more
- artcrafts being ruined by nothing
-",color=blue];
-	353 [label="a professor
- should do their research all
- the time during their careers
- as a teacher in university
+	303 [label="Without their research
+ , there will be no
+ new technologies come out quickly
 ",color=green];
-	331 [label="Without their research ,
- there will be less information
- of our ancestors to be
- known on the earth",color=blue];
-	353 [label="a professor
- should do their research all
- the time during their careers
- as a teacher in university
-",color=green];
+	317 [label="Without their research ,
+ there will be more artcrafts
+ being ruined by nothing",color=blue];
+	317 [label="Without their research ,
+ there will be more artcrafts
+ being ruined by nothing",color=blue];
+	353 [label="a professor should
+ do their research all the
+ time during their careers as
+ a teacher in university",color=green];
+	331 [label="Without their research , there
+ will be less information of
+ our ancestors to be known
+ on the earth",color=blue];
+	353 [label="a professor should
+ do their research all the
+ time during their careers as
+ a teacher in university",color=green];
 }

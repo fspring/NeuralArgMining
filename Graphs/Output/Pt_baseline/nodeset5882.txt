@@ -233,7 +233,7 @@ boavista (I)    0.000
 ilegal (I)    0.000
 , (O)    0.000
 pois (O)    0.000
-está (P)  505.000
+está (P)    0.000
 um (I)    0.000
 atleta (I)    0.000
 em (I)    0.000

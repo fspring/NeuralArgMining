@@ -16,12 +16,14 @@ def predict_baseline_distances_claim(pred_tags):
             elif arg_class == 2: # is P
                 is_premise = True
                 is_claim = False
+                found_claim = False
                 for k in range(j+1, text_size): # look ahead
                     arg_rel = np.argmax(pred_tags[i][k])
                     dist += 1
                     if arg_rel == 3: # is C
+                        found_claim = True
                         break
-                if dist >= text_size:
+                if not found_claim:
                     dist = 0
             elif arg_class == 3: # is C
                 is_premise = False

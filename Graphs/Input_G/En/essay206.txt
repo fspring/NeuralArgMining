@@ -13,107 +13,108 @@ digraph G {
 	300 -> 310;
 	344 -> 310;
 	360 -> 321;
-	46 [label="I would prefer to
- live in a small town
+	46 [label="I would prefer to live
+ in a small town",color=green];
+	79 [label="the first
+ advantage of living in a
+ small town is a healthy
+ life that we can obtain
+ due to many items",color=blue];
+	79 [label="the first
+ advantage of living in a
+ small town is a healthy
+ life that we can obtain
+ due to many items",color=blue];
+	202 [label="it is obvious that
+ living in small towns is
+ healthier than in big cities
 ",color=green];
-	79 [label="the first advantage of living in
- a small town is a
- healthy life that we can
- obtain due to many items
+	101 [label="One of the conditions that
+ helps us to be healthy
+ is good weather and less
+ population that exist in a
+ small town",color=blue];
+	202 [label="it is obvious that
+ living in small towns is
+ healthier than in big cities
+",color=green];
+	126 [label="in a small town there
+ are less crowded and less
+ traffic",color=blue];
+	202 [label="it is obvious that
+ living in small towns is
+ healthier than in big cities
+",color=green];
+	138 [label="Living in a
+ place with less pollution such
+ as air pollution or sound
+ pollution helps us to have
+ a healthier life and one
+ of the main consequences is
+ less stress and more happiness
 ",color=blue];
-	79 [label="the first advantage of living in
- a small town is a
- healthy life that we can
- obtain due to many items
+	202 [label="it is obvious that
+ living in small towns is
+ healthier than in big cities
+",color=green];
+	174 [label="in a
+ small town foods and materials
+ we need are healthier than
+ in big cities and there
+ are fresh foods and fruits
 ",color=blue];
-	202 [label="it is obvious
- that living in small towns
- is healthier than in big
- cities",color=green];
-	101 [label="One of the conditions
- that helps us to be
- healthy is good weather and
- less population that exist in
- a small town",color=blue];
-	202 [label="it is obvious
- that living in small towns
- is healthier than in big
- cities",color=green];
-	126 [label="in a small town
- there are less crowded and
+	202 [label="it is obvious that
+ living in small towns is
+ healthier than in big cities
+",color=green];
+	219 [label="another advantage
+ of small towns is living
+ costs",color=green];
+	228 [label="Living cost is
+ one of the important concerns
+ in every society and then
+ , in a small town
+ living cost is fewer than
+ in big cities",color=blue];
+	228 [label="Living cost is
+ one of the important concerns
+ in every society and then
+ , in a small town
+ living cost is fewer than
+ in big cities",color=blue];
+	310 [label="I prefer to live in a
+ small town",color=green];
+	257 [label="in a small town
+ we can live in big
+ houses with good landscapes",color=blue];
+	310 [label="I prefer to live in a
+ small town",color=green];
+	272 [label="because of less crowded
+ spaces we have more facilities
+ and more services",color=blue];
+	310 [label="I prefer to live in a
+ small town",color=green];
+	285 [label="Transportation cost is less than in
+ big cities and we have
  less traffic",color=blue];
-	202 [label="it is obvious
- that living in small towns
- is healthier than in big
- cities",color=green];
-	138 [label="Living in
- a place with less pollution
- such as air pollution or
- sound pollution helps us to
- have a healthier life and
- one of the main consequences
- is less stress and more
- happiness",color=blue];
-	202 [label="it is obvious
- that living in small towns
- is healthier than in big
- cities",color=green];
-	174 [label="in a small town foods and
- materials we need are healthier
- than in big cities and
- there are fresh foods and
- fruits",color=blue];
-	202 [label="it is obvious
- that living in small towns
- is healthier than in big
- cities",color=green];
-	219 [label="another advantage of small towns is
- living costs",color=green];
-	228 [label="Living cost
- is one of the important
- concerns in every society and
- then , in a small
- town living cost is fewer
- than in big cities",color=blue];
-	228 [label="Living cost
- is one of the important
- concerns in every society and
- then , in a small
- town living cost is fewer
- than in big cities",color=blue];
-	310 [label="I prefer to live in
- a small town",color=green];
-	257 [label="in a small
- town we can live in
- big houses with good landscapes
+	310 [label="I prefer to live in a
+ small town",color=green];
+	300 [label="we can save time and money
 ",color=blue];
-	310 [label="I prefer to live in
- a small town",color=green];
-	272 [label="because of less
- crowded spaces we have more
- facilities and more services",color=blue];
-	310 [label="I prefer to live in
- a small town",color=green];
-	285 [label="Transportation cost is less than
- in big cities and we
- have less traffic",color=blue];
-	310 [label="I prefer to live in
- a small town",color=green];
-	300 [label="we can save time and
- money",color=blue];
-	310 [label="I prefer to live in
- a small town",color=green];
-	310 [label="I prefer to live in
- a small town",color=green];
-	344 [label="In small town people know each
- other and have better deal
- together than big cities",color=blue];
-	321 [label="it has some advantages
- such as less stress ,
- because of better weather conditions
- and also , better relationship
- within a town",color=green];
-	360 [label="on big cities people feel
- alone and depress more than
- small cities",color=blue];
+	310 [label="I prefer to live in a
+ small town",color=green];
+	310 [label="I prefer to live in a
+ small town",color=green];
+	344 [label="In small
+ town people know each other
+ and have better deal together
+ than big cities",color=blue];
+	321 [label="it has some advantages such
+ as less stress , because
+ of better weather conditions and
+ also , better relationship within
+ a town",color=green];
+	360 [label="on big cities people feel alone
+ and depress more than small
+ cities",color=blue];
 }

@@ -9,71 +9,71 @@ digraph G {
 	162 -> 231;
 	179 -> 231;
 	184 -> 231;
-	35 [label="teenagers need more attention and
- help in comparison with the
- higher ages",color=green];
-	68 [label="parents and
- other adult relatives are more
- experienced towards children",color=blue];
-	68 [label="parents and
- other adult relatives are more
- experienced towards children",color=blue];
-	80 [label="they are the best advisor
- for their children",color=green];
-	80 [label="they are the best advisor
- for their children",color=green];
-	102 [label="if children listen
- to their advices they can
- prevent happening worst things",color=blue];
-	89 [label="They have experienced a large numbers
- of stuffs during their life
-",color=blue];
-	231 [label="it is a good
- idea to ask parents and
- adult relatives to give a
- piece of advice",color=green];
-	102 [label="if children listen
- to their advices they can
- prevent happening worst things",color=blue];
-	231 [label="it is a good
- idea to ask parents and
- adult relatives to give a
- piece of advice",color=green];
-	117 [label="they can save
- value things in their life
- such as time and money
- , and enjoy they life
- with the best way",color=blue];
-	231 [label="it is a good
- idea to ask parents and
- adult relatives to give a
- piece of advice",color=green];
-	147 [label="parents and adults
- relatives are the best friends
- and consular for the teenagers
-",color=green];
-	162 [label="unfortunately nowadays there
- are some individuals who cheat
- the others for gaining more
- power and money",color=blue];
-	162 [label="unfortunately nowadays there
- are some individuals who cheat
- the others for gaining more
- power and money",color=blue];
-	231 [label="it is a good
- idea to ask parents and
- adult relatives to give a
- piece of advice",color=green];
-	179 [label="They cheat young ages",color=blue];
-	231 [label="it is a good
- idea to ask parents and
- adult relatives to give a
- piece of advice",color=green];
-	184 [label="they believe they are immature and
- they can trap them easily
-",color=blue];
-	231 [label="it is a good
- idea to ask parents and
- adult relatives to give a
- piece of advice",color=green];
+	35 [label="teenagers need more attention and help
+ in comparison with the higher
+ ages",color=green];
+	68 [label="parents and other
+ adult relatives are more experienced
+ towards children",color=blue];
+	68 [label="parents and other
+ adult relatives are more experienced
+ towards children",color=blue];
+	80 [label="they are the best advisor for
+ their children",color=green];
+	80 [label="they are the best advisor for
+ their children",color=green];
+	102 [label="if children listen to
+ their advices they can prevent
+ happening worst things",color=blue];
+	89 [label="They have
+ experienced a large numbers of
+ stuffs during their life",color=blue];
+	231 [label="it is a good idea
+ to ask parents and adult
+ relatives to give a piece
+ of advice",color=green];
+	102 [label="if children listen to
+ their advices they can prevent
+ happening worst things",color=blue];
+	231 [label="it is a good idea
+ to ask parents and adult
+ relatives to give a piece
+ of advice",color=green];
+	117 [label="they can save value
+ things in their life such
+ as time and money ,
+ and enjoy they life with
+ the best way",color=blue];
+	231 [label="it is a good idea
+ to ask parents and adult
+ relatives to give a piece
+ of advice",color=green];
+	147 [label="parents and adults relatives
+ are the best friends and
+ consular for the teenagers",color=green];
+	162 [label="unfortunately nowadays there are
+ some individuals who cheat the
+ others for gaining more power
+ and money",color=blue];
+	162 [label="unfortunately nowadays there are
+ some individuals who cheat the
+ others for gaining more power
+ and money",color=blue];
+	231 [label="it is a good idea
+ to ask parents and adult
+ relatives to give a piece
+ of advice",color=green];
+	179 [label="They cheat
+ young ages",color=blue];
+	231 [label="it is a good idea
+ to ask parents and adult
+ relatives to give a piece
+ of advice",color=green];
+	184 [label="they believe
+ they are immature and they
+ can trap them easily",color=blue];
+	231 [label="it is a good idea
+ to ask parents and adult
+ relatives to give a piece
+ of advice",color=green];
 }

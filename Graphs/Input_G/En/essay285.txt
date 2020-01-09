@@ -21,152 +21,154 @@ digraph G {
 	304 -> 350;
 	321 -> 350;
 	334 -> 350;
-	9 [label="it should not replace classroom learning
+	9 [label="it should
+ not replace classroom learning",color=green];
+	16 [label="Learning in classroom could provide
+ more information to study",color=blue];
+	16 [label="Learning in classroom could provide
+ more information to study",color=blue];
+	55 [label="I completely disagree with this statement
+ that we should replace normal
+ course with online course",color=green];
+	28 [label="learning in classroom
+ are not only learning academic
+ skills but also learning social
+ skills , and learning how
+ to solve problem in real
+ situation",color=blue];
+	55 [label="I completely disagree with this statement
+ that we should replace normal
+ course with online course",color=green];
+	55 [label="I completely disagree with this statement
+ that we should replace normal
+ course with online course",color=green];
+	104 [label="in classroom
+ have many equipment to demonstrate
+ real example",color=blue];
+	84 [label="learning in
+ classroom could provide more information
+ and make students more comprehend
+ in subjects that they had
+ learnt",color=green];
+	104 [label="in classroom
+ have many equipment to demonstrate
+ real example",color=blue];
+	104 [label="in classroom
+ have many equipment to demonstrate
+ real example",color=blue];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
 ",color=green];
-	16 [label="Learning in classroom could
- provide more information to study
-",color=blue];
-	16 [label="Learning in classroom could
- provide more information to study
-",color=blue];
-	55 [label="I completely disagree with this
- statement that we should replace
- normal course with online course
+	117 [label="in biology class ,
+ learning anatomy by operating fog
+ have many benefits",color=blue];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
 ",color=green];
-	28 [label="learning in
- classroom are not only learning
- academic skills but also learning
- social skills , and learning
- how to solve problem in
+	130 [label="Learner could learn how to use
+ tools and see actual organs
+ of fog",color=blue];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
+",color=green];
+	147 [label="online class just only
+ study in textbook not learnin
  real situation",color=blue];
-	55 [label="I completely disagree with this
- statement that we should replace
- normal course with online course
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
 ",color=green];
-	55 [label="I completely disagree with this
- statement that we should replace
- normal course with online course
+	161 [label="online class could not provide
+ knowledge about social skills",color=green];
+	174 [label="In a
+ classroom , teacher could give
+ assignment to student to work
+ as a group",color=blue];
+	174 [label="In a
+ classroom , teacher could give
+ assignment to student to work
+ as a group",color=blue];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
 ",color=green];
-	104 [label="in classroom have many equipment to
- demonstrate real example",color=blue];
-	84 [label="learning in classroom could provide more
- information and make students more
- comprehend in subjects that they
- had learnt",color=green];
-	104 [label="in classroom have many equipment to
- demonstrate real example",color=blue];
-	104 [label="in classroom have many equipment to
- demonstrate real example",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	117 [label="in biology class
- , learning anatomy by operating
- fog have many benefits",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	130 [label="Learner could learn how to
- use tools and see actual
- organs of fog",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	147 [label="online class just
- only study in textbook not
- learnin real situation",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	161 [label="online class could not
- provide knowledge about social skills
+	190 [label="This could help students to learn
+ how to deal with people
+ , how to collaborate with
+ people in their group",color=blue];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
 ",color=green];
-	174 [label="In a classroom , teacher could
- give assignment to student to
- work as a group",color=blue];
-	174 [label="In a classroom , teacher could
- give assignment to student to
- work as a group",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	190 [label="This could help students to
- learn how to deal with
- people , how to collaborate
- with people in their group
+	211 [label="This important skill cannot be
+ gotten in online classes",color=blue];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
+",color=green];
+	223 [label="learning in classroom
+ , student could have healthier
+ life",color=green];
+	233 [label="in school can
+ provide exercise class which train
+ student to move their body
 ",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	211 [label="This important skill cannot
- be gotten in online classes
+	233 [label="in school can
+ provide exercise class which train
+ student to move their body
 ",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	223 [label="learning in
- classroom , student could have
- healthier life",color=green];
-	233 [label="in school
- can provide exercise class which
- train student to move their
- body",color=blue];
-	233 [label="in school
- can provide exercise class which
- train student to move their
- body",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	247 [label="Classroom have specialist
- trainer to teach students to
- it right way",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	259 [label="If student do it by themselves
- , they might be hurt
- themselves",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	272 [label="This make students
- have healthier life which online
- class cannot provide",color=blue];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	287 [label="I personally disagree
- this this notion that we
- should replace classroom with online
- class",color=green];
-	304 [label="classroom could provide real actual example
- to make students more understand
- in their subject",color=blue];
-	304 [label="classroom could provide real actual example
- to make students more understand
- in their subject",color=blue];
-	350 [label="having classroom could provide abundant
- skills to students",color=green];
-	321 [label="classroom courses are also
- provide students to learn social
- skill",color=blue];
-	350 [label="having classroom could provide abundant
- skills to students",color=green];
-	334 [label="classroom could provide exercise class to
- set students to have a
- good health",color=blue];
-	350 [label="having classroom could provide abundant
- skills to students",color=green];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
+",color=green];
+	247 [label="Classroom have specialist trainer
+ to teach students to it
+ right way",color=blue];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
+",color=green];
+	259 [label="If student
+ do it by themselves ,
+ they might be hurt themselves
+",color=blue];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
+",color=green];
+	272 [label="This make students have
+ healthier life which online class
+ cannot provide",color=blue];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
+",color=green];
+	287 [label="I personally disagree this
+ this notion that we should
+ replace classroom with online class
+",color=green];
+	304 [label="classroom could
+ provide real actual example to
+ make students more understand in
+ their subject",color=blue];
+	304 [label="classroom could
+ provide real actual example to
+ make students more understand in
+ their subject",color=blue];
+	350 [label="having classroom could provide abundant skills
+ to students",color=green];
+	321 [label="classroom courses are also provide
+ students to learn social skill
+",color=blue];
+	350 [label="having classroom could provide abundant skills
+ to students",color=green];
+	334 [label="classroom could
+ provide exercise class to set
+ students to have a good
+ health",color=blue];
+	350 [label="having classroom could provide abundant skills
+ to students",color=green];
 }

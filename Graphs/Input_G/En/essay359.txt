@@ -12,96 +12,85 @@ digraph G {
 	174 -> 252;
 	193 -> 252;
 	211 -> 252;
-	6 [label="international tourism not only
- causes tension but also leads
- to understanding between people from
- different culture",color=green];
-	60 [label="some people leave the rubbish
- after visiting the attractions",color=blue];
-	45 [label="some behaviors of the tourists
- are not welcome in the
- local area",color=green];
-	83 [label="the new
- batch of tourists will have
- a tidy and neat environment
+	6 [label="international tourism not only causes
+ tension but also leads to
+ understanding between people from different
+ culture",color=green];
+	60 [label="some people leave the rubbish after
+ visiting the attractions",color=blue];
+	45 [label="some behaviors of the tourists are
+ not welcome in the local
+ area",color=green];
+	83 [label="the new batch
+ of tourists will have a
+ tidy and neat environment",color=blue];
+	60 [label="some people leave the rubbish after
+ visiting the attractions",color=blue];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
+	72 [label="those local residents have
+ to clean the place frequently
 ",color=blue];
-	60 [label="some people leave the rubbish
- after visiting the attractions",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
-	72 [label="those local residents
- have to clean the place
- frequently",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
-	83 [label="the new
- batch of tourists will have
- a tidy and neat environment
-",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
-	98 [label="tourists may
- offend the local people due
- to their different culture background
-",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
-	114 [label="Indians don't eat beef",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
-	119 [label="they worship cows",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
-	125 [label="if tourists want to respect
- the tradition , they will
- not order any beef in
- the local restaurant",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
-	149 [label="in order to avoid the conflicts
- between foreigners and locals ,
- people are trying to understand
- different culture and find solutions
-",color=green];
-	174 [label="tourists are given the brochures about
- the local traditions and customs
- before they visit the place
-",color=blue];
-	174 [label="tourists are given the brochures about
- the local traditions and customs
- before they visit the place
-",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
-	193 [label="the tour
- guide are willing to help
- tourists to understand the culture
- from other countries",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
-	211 [label="the possibility of the
- conflicts is reduced because the
- understanding between both parties",color=blue];
-	252 [label="international tourism leads
- to both tension and understanding
- between people from different culture
-",color=green];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
+	83 [label="the new batch
+ of tourists will have a
+ tidy and neat environment",color=blue];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
+	98 [label="tourists may offend
+ the local people due to
+ their different culture background",color=blue];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
+	114 [label="Indians don't
+ eat beef",color=blue];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
+	119 [label="they worship
+ cows",color=blue];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
+	125 [label="if tourists want to respect the
+ tradition , they will not
+ order any beef in the
+ local restaurant",color=blue];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
+	149 [label="in order
+ to avoid the conflicts between
+ foreigners and locals , people
+ are trying to understand different
+ culture and find solutions",color=green];
+	174 [label="tourists are
+ given the brochures about the
+ local traditions and customs before
+ they visit the place",color=blue];
+	174 [label="tourists are
+ given the brochures about the
+ local traditions and customs before
+ they visit the place",color=blue];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
+	193 [label="the tour guide
+ are willing to help tourists
+ to understand the culture from
+ other countries",color=blue];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
+	211 [label="the possibility of the conflicts
+ is reduced because the understanding
+ between both parties",color=blue];
+	252 [label="international tourism leads to
+ both tension and understanding between
+ people from different culture",color=green];
 }

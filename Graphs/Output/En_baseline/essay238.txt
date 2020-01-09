@@ -91,7 +91,7 @@ i (O)    0.000
 said (O)    0.000
 back (O)    0.000
 . (O)    0.000
-and (P)  115.000
+and (P)   39.000
 also (I)    0.000
 taking (I)    0.000
 the (I)    0.000
@@ -100,7 +100,7 @@ for (I)    0.000
 making (I)    0.000
 friends (I)    0.000
 . (O)    0.000
-visit (P)  106.000
+visit (P)   30.000
 museums (I)    0.000
 can (I)    0.000
 bring (I)    0.000
@@ -117,7 +117,7 @@ participate (I)    0.000
 in (I)    0.000
 conversations (I)    0.000
 . (O)    0.000
-and (P)   89.000
+and (P)   13.000
 that (I)    0.000
 kind (I)    0.000
 of (I)    0.000
@@ -130,7 +130,7 @@ you (I)    0.000
 . (O)    0.000
 however (O)    0.000
 , (O)    0.000
-other (P)   76.000
+other (C)    0.000
 people (I)    0.000
 visit (I)    0.000
 museums (I)    0.000

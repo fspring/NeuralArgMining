@@ -14,150 +14,148 @@ digraph G {
 	339 -> 428;
 	364 -> 428;
 	386 -> 428;
-	53 [label="children should
- learn to manage their own
- money at a young age
+	53 [label="children should learn
+ to manage their own money
+ at a young age",color=green];
+	85 [label="sociologists found that our characteristics and
+ personality forms early in life
+ , even though when we
+ are not borne",color=blue];
+	85 [label="sociologists found that our characteristics and
+ personality forms early in life
+ , even though when we
+ are not borne",color=blue];
+	106 [label="it is crucial to learn
+ our children as soon as
+ possible to learn financially issues
 ",color=green];
-	85 [label="sociologists found that our characteristics
- and personality forms early in
- life , even though when
- we are not borne",color=blue];
-	85 [label="sociologists found that our characteristics
- and personality forms early in
- life , even though when
- we are not borne",color=blue];
-	106 [label="it is crucial to
- learn our children as soon
- as possible to learn financially
- issues",color=green];
-	106 [label="it is crucial to
- learn our children as soon
- as possible to learn financially
- issues",color=green];
-	137 [label="when I was
- at age 7 my father
- gave me monthly money to
- buy thing that I liked
+	106 [label="it is crucial to learn
+ our children as soon as
+ possible to learn financially issues
+",color=green];
+	137 [label="when I was at
+ age 7 my father gave
+ me monthly money to buy
+ thing that I liked",color=blue];
+	137 [label="when I was at
+ age 7 my father gave
+ me monthly money to buy
+ thing that I liked",color=blue];
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
+	156 [label="First time I spend the
+ whole money to eat at
+ school and my money finished
 ",color=blue];
-	137 [label="when I was
- at age 7 my father
- gave me monthly money to
- buy thing that I liked
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
+	172 [label="I asked my father
+ for extra money , but
+ he refuse to give it
+ to me",color=blue];
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
+	189 [label="I found
+ that I should manage the
+ way that I spend money
 ",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
-	156 [label="First time I spend
- the whole money to eat
- at school and my money
- finished",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
-	172 [label="I asked my
- father for extra money ,
- but he refuse to give
- it to me",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
-	189 [label="I found that I should manage
- the way that I spend
- money",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
-	204 [label="I learned to be economical and
- now I have every thing
- I wanted",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
-	235 [label="If parents get the children
- all they wanted , they
- would be run out of
- their money for their essential
- needs",color=blue];
-	257 [label="Even in rich
- families if children did not
- learn to manage their own
- money , when they grow
- up they will become unappreciative
- and dependent persons who want
- to just used their parents
- prosperity",color=green];
-	257 [label="Even in rich
- families if children did not
- learn to manage their own
- money , when they grow
- up they will become unappreciative
- and dependent persons who want
- to just used their parents
- prosperity",color=green];
-	298 [label="I had
- a friend to had a
- rich and prosperous family ,
- his parent gave him everything
- he demanded from his childhood
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
+	204 [label="I learned
+ to be economical and now
+ I have every thing I
+ wanted",color=blue];
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
+	235 [label="If parents get the children all
+ they wanted , they would
+ be run out of their
+ money for their essential needs
 ",color=blue];
-	298 [label="I had
- a friend to had a
- rich and prosperous family ,
- his parent gave him everything
- he demanded from his childhood
+	257 [label="Even in rich families
+ if children did not learn
+ to manage their own money
+ , when they grow up
+ they will become unappreciative and
+ dependent persons who want to
+ just used their parents prosperity
+",color=green];
+	257 [label="Even in rich families
+ if children did not learn
+ to manage their own money
+ , when they grow up
+ they will become unappreciative and
+ dependent persons who want to
+ just used their parents prosperity
+",color=green];
+	298 [label="I had a
+ friend to had a rich
+ and prosperous family , his
+ parent gave him everything he
+ demanded from his childhood",color=blue];
+	298 [label="I had a
+ friend to had a rich
+ and prosperous family , his
+ parent gave him everything he
+ demanded from his childhood",color=blue];
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
+	321 [label="He became an arrogant person
+ who could not stand on
+ his feet and always asked
+ for money",color=blue];
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
+	339 [label="His parent
+ tried a lot and hired
+ some experts to learn him
+ manage his financial and carrier
+ life , but unfortunately it
+ was useless",color=blue];
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
+	364 [label="Finally one
+ night , having fun with
+ his irresponsible friend in his
+ luxuries car , he crashed
+ a truck and died",color=blue];
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
+	386 [label="Not only did he cause
+ lots of damage to the
+ society property , but also
+ bring sorry to his family
 ",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
-	321 [label="He became an arrogant
- person who could not stand
- on his feet and always
- asked for money",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
-	339 [label="His parent tried a lot and
- hired some experts to learn
- him manage his financial and
- carrier life , but unfortunately
- it was useless",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
-	364 [label="Finally one night , having fun
- with his irresponsible friend in
- his luxuries car , he
- crashed a truck and died
-",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
-	386 [label="Not only did he
- cause lots of damage to
- the society property , but
- also bring sorry to his
- family",color=blue];
-	428 [label="it is
- very important to learn our
- children from their beginning of
- their life to be financially
- responsible persons",color=green];
+	428 [label="it is very
+ important to learn our children
+ from their beginning of their
+ life to be financially responsible
+ persons",color=green];
 }

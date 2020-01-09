@@ -9,84 +9,85 @@ digraph G {
 	227 -> 276;
 	243 -> 276;
 	262 -> 276;
-	56 [label="the teacher is the
- best option for children's education
- in some aspects",color=green];
-	90 [label="to be able to obtain
- the teacher certificates , people
- need years of training at
- their normal schools to learn
- theoretical knowledge",color=blue];
-	74 [label="school teachers are more qualified than
- parents in the field of
+	56 [label="the teacher is the best
+ option for children's education in
+ some aspects",color=green];
+	90 [label="to be able to obtain the
+ teacher certificates , people need
+ years of training at their
+ normal schools to learn theoretical
+ knowledge",color=blue];
+	74 [label="school teachers
+ are more qualified than parents
+ in the field of education
+",color=green];
+	90 [label="to be able to obtain the
+ teacher certificates , people need
+ years of training at their
+ normal schools to learn theoretical
+ knowledge",color=blue];
+	90 [label="to be able to obtain the
+ teacher certificates , people need
+ years of training at their
+ normal schools to learn theoretical
+ knowledge",color=blue];
+	290 [label="teachers are the best for children's
  education",color=green];
-	90 [label="to be able to obtain
- the teacher certificates , people
- need years of training at
- their normal schools to learn
- theoretical knowledge",color=blue];
-	90 [label="to be able to obtain
- the teacher certificates , people
- need years of training at
- their normal schools to learn
- theoretical knowledge",color=blue];
-	290 [label="teachers are the best for
- children's education",color=green];
-	115 [label="in comparison to teachers ,
- parents tend to have less
- knowledge to teach their children's
- subjects such as mathematics and
- physics",color=blue];
-	290 [label="teachers are the best for
- children's education",color=green];
-	139 [label="teaching staff are professional and experienced
- in terms of promoting children's
- communication skills",color=green];
-	156 [label="after many years of
- teaching experience , teacher are
- able to know how to
- help children to develop important
- life skills such as learning
- personal boundaries , facing future
- problems and learning important conflict
- resolution skills",color=blue];
-	156 [label="after many years of
- teaching experience , teacher are
- able to know how to
- help children to develop important
- life skills such as learning
- personal boundaries , facing future
- problems and learning important conflict
- resolution skills",color=blue];
-	290 [label="teachers are the best for
- children's education",color=green];
-	196 [label="parents are facing difficult
- generation gap with their children
- because they are less likely
- to know how to handle
- family conflicts in an efficient
- way",color=blue];
-	290 [label="teachers are the best for
- children's education",color=green];
-	227 [label="compared with teachers
- , parents do not have
- enough time to spend with
- their children",color=blue];
-	276 [label="it was impossible for
- them to be a good
- teacher",color=green];
-	243 [label="Nowadays we
- are facing a global economic
- crisis and it is necessary
- for both parents to work
+	115 [label="in comparison to teachers , parents
+ tend to have less knowledge
+ to teach their children's subjects
+ such as mathematics and physics
 ",color=blue];
-	276 [label="it was impossible for
- them to be a good
- teacher",color=green];
-	262 [label="there is only
- limited time for them to
- teach their children",color=blue];
-	276 [label="it was impossible for
- them to be a good
- teacher",color=green];
+	290 [label="teachers are the best for children's
+ education",color=green];
+	139 [label="teaching staff
+ are professional and experienced in
+ terms of promoting children's communication
+ skills",color=green];
+	156 [label="after many years of teaching
+ experience , teacher are able
+ to know how to help
+ children to develop important life
+ skills such as learning personal
+ boundaries , facing future problems
+ and learning important conflict resolution
+ skills",color=blue];
+	156 [label="after many years of teaching
+ experience , teacher are able
+ to know how to help
+ children to develop important life
+ skills such as learning personal
+ boundaries , facing future problems
+ and learning important conflict resolution
+ skills",color=blue];
+	290 [label="teachers are the best for children's
+ education",color=green];
+	196 [label="parents are facing difficult generation
+ gap with their children because
+ they are less likely to
+ know how to handle family
+ conflicts in an efficient way
+",color=blue];
+	290 [label="teachers are the best for children's
+ education",color=green];
+	227 [label="compared with teachers ,
+ parents do not have enough
+ time to spend with their
+ children",color=blue];
+	276 [label="it was impossible for them
+ to be a good teacher
+",color=green];
+	243 [label="Nowadays we are
+ facing a global economic crisis
+ and it is necessary for
+ both parents to work",color=blue];
+	276 [label="it was impossible for them
+ to be a good teacher
+",color=green];
+	262 [label="there is only limited
+ time for them to teach
+ their children",color=blue];
+	276 [label="it was impossible for them
+ to be a good teacher
+",color=green];
 }

@@ -1,32 +1,9 @@
 digraph G {
-	104 -> 340;
-	127 -> 340;
 	153 -> 340;
-	240 -> 340;
-	248 -> 340;
+	248 -> 240;
 	282 -> 340;
 	301 -> 340;
-	318 -> 340;
-	375 -> 441;
-	403 -> 441;
-	104 [label="if senior
- workers dominate the working sector
- , there will be lesser
- job opportunities for the fresh
- graduates",color=blue];
-	340 [label="it would indeed be better if
- at an older age ,
- opportunities are given to the
- younger ones",color=green];
-	127 [label="most of them will
- be forced to take up
- careers which are poles apart
- from what they had studied
- for",color=blue];
-	340 [label="it would indeed be better if
- at an older age ,
- opportunities are given to the
- younger ones",color=green];
+	408 -> 446;
 	153 [label="a medical graduate
  might find it very disheartened
  when he had to spend
@@ -42,22 +19,8 @@ digraph G {
  opportunities are given to the
  younger ones",color=green];
 	240 [label="not all elderly workers are physically
- well",color=blue];
-	340 [label="it would indeed be better if
- at an older age ,
- opportunities are given to the
- younger ones",color=green];
-	248 [label="beyond that age
- , a large proportion of
- them have an elevated chance
- of contracting a multitude of
- health problems such as stress
- related diseases and cardiovascular illnesses
-",color=blue];
-	340 [label="it would indeed be better if
- at an older age ,
- opportunities are given to the
- younger ones",color=green];
+ well",color=green];
+	248 [label="beyond that",color=blue];
 	282 [label="the stressful life that
  an aged teacher goes through
  will definitely take a toll
@@ -73,28 +36,13 @@ digraph G {
  at an older age ,
  opportunities are given to the
  younger ones",color=green];
-	318 [label="the academic institution
- will have to pay for
- his medical bills , resulting
- in more loss for the
- institution",color=blue];
-	340 [label="it would indeed be better if
- at an older age ,
- opportunities are given to the
- younger ones",color=green];
-	375 [label="their invaluable experiences and knowledge in
- their respective fields such as
- engineering , medicine , and
- law can certainly be beneficial
- to the younger generation",color=blue];
-	441 [label="it",color=green];
-	403 [label="it is highly
- recommended that the retiree come
+	408 [label="the retiree come
  over to the companies or
  hospitals to have regular sessions
  with the present staffs to
  bridge the gap between them
  and to pass on their
  knowledge",color=blue];
-	441 [label="it",color=green];
+	446 [label="age limit should be set
+ for retirement",color=green];
 }

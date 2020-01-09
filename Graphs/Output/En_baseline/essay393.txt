@@ -284,8 +284,8 @@ as (I)    0.000
 any (I)    0.000
 longer (I)    0.000
 , (O)    0.000
-as (O)    0.000
-they (C)    0.000
+as (C)    0.000
+they (I)    0.000
 may (I)    0.000
 be (I)    0.000
 false (I)    0.000

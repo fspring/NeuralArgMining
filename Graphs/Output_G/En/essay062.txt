@@ -1,94 +1,36 @@
 digraph G {
-	59 -> 87;
-	74 -> 87;
-	96 -> 298;
-	122 -> 298;
-	133 -> 298;
-	148 -> 298;
-	175 -> 298;
-	187 -> 298;
-	199 -> 298;
-	222 -> 298;
+	122 -> 175;
+	133 -> 175;
+	148 -> 175;
+	271 -> 175;
 	243 -> 298;
 	258 -> 298;
-	262 -> 298;
-	271 -> 298;
-	59 [label="right to
- education is a basic human
- right of both , males
- and females",color=blue];
-	87 [label="females should be given
- equal opportunities as males",color=green];
-	74 [label="the whole
- world aims for women empowerment
-",color=blue];
-	87 [label="females should be given
- equal opportunities as males",color=green];
-	96 [label="when universities will accept them
- in equal number , both
- genders will be able to
- nurture their talent and a
- healthy competitive environment will develop
-",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
-",color=green];
 	122 [label="co-education helps both genders
  to gel well with each
  other",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
+	175 [label="females studying in girl's colleges are
+ too shy to face boys
 ",color=green];
 	133 [label="it helps them
  how to behave and cooperate
  and work together",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
+	175 [label="females studying in girl's colleges are
+ too shy to face boys
 ",color=green];
 	148 [label="students studying in
  boy's colleges do not generally
  know how to talk to
  a female or behave in
  front of them",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
+	175 [label="females studying in girl's colleges are
+ too shy to face boys
 ",color=green];
 	175 [label="females studying in girl's colleges are
  too shy to face boys
-",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
 ",color=green];
-	187 [label="co-education will help to
- eradicate this kind of demerit
- in both",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
-",color=green];
-	199 [label="universities giving
- both genders equal opportunities ,
- will prepare them for future
- challenges and will help in
- the long run",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
-",color=green];
-	222 [label="some male chauvinists think
- that women are incapable in
- particular fields , like maths
- , mechanical engineering , defense
+	271 [label="women like margaret thatcher ,
+ indira gandhi , mari curie
  etc",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
-",color=green];
 	243 [label="this kind of
  gender biased approach is detrimental
  for the development of the
@@ -98,22 +40,8 @@ digraph G {
  accept them in equal numbers
 ",color=green];
 	258 [label="time and again
-",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
-",color=green];
-	262 [label="women have proved their
+ , women have proved their
  mettle in every field",color=blue];
-	298 [label="both genders have
- equal rights and universities should
- accept them in equal numbers
-",color=green];
-	271 [label="women like margaret thatcher ,
- indira gandhi , mari curie
- etc . , are symbols
- of women's intelligence and skills
-",color=blue];
 	298 [label="both genders have
  equal rights and universities should
  accept them in equal numbers

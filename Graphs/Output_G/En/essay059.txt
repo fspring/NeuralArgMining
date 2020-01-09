@@ -1,32 +1,21 @@
 digraph G {
-	50 -> 102;
-	63 -> 102;
-	75 -> 102;
+	50 -> 37;
+	50 -> 146;
+	102 -> 146;
 	113 -> 146;
 	125 -> 146;
-	158 -> 176;
-	203 -> 223;
-	212 -> 223;
-	238 -> 291;
-	256 -> 291;
 	272 -> 291;
-	50 [label="capital punishment is given only in
- the "rarest of the rare"
- cases",color=blue];
+	37 [label="strict laws , like
+ capital punishment , are essential
+",color=green];
+	50 [label="capital punishment is",color=blue];
+	50 [label="capital punishment is",color=blue];
+	146 [label="the rate of crime and
+ violence is effectively decreased",color=green];
 	102 [label="capital punishment protects the
- society from hardcore criminals",color=green];
-	63 [label="its first and
- foremost objective is safety of
- other human beings",color=blue];
-	102 [label="capital punishment protects the
- society from hardcore criminals",color=green];
-	75 [label="when a criminal becomes a threat
- to the society , such
- that they can commit heinous
- crimes , then they are
- given capital punishment",color=blue];
-	102 [label="capital punishment protects the
- society from hardcore criminals",color=green];
+ society from hardcore criminals",color=blue];
+	146 [label="the rate of crime and
+ violence is effectively decreased",color=green];
 	113 [label="capital punishment curbs
  the inspiration and prospects of
  other hateful crimes",color=blue];
@@ -38,43 +27,6 @@ digraph G {
  such crimes",color=blue];
 	146 [label="the rate of crime and
  violence is effectively decreased",color=green];
-	158 [label="capital punishment saves
- a lot of government funding
- which is wasted in maintenance
- of these hardcore criminals",color=blue];
-	176 [label="criminals who don't have any
- chance of improvement or who
- have a past record of
- such crimes are , therefore
- , given capital punishment",color=green];
-	203 [label="the jury giving
- the verdict are also humans
-",color=blue];
-	223 [label="they can make
- mistakes which can sometimes affect
- an innocent , circumstantially marred
- criminals",color=green];
-	212 [label="they have the life
- of a person at their
- discretion",color=blue];
-	223 [label="they can make
- mistakes which can sometimes affect
- an innocent , circumstantially marred
- criminals",color=green];
-	238 [label="the jury must
- therefore , take into account
- the circumstances of committing a
- crime",color=blue];
-	291 [label="capital punishment is essential to
- control violence in the society
-",color=green];
-	256 [label="if an individual murders someone
- for self-defense , then such
- a crime is not heinous
-",color=blue];
-	291 [label="capital punishment is essential to
- control violence in the society
-",color=green];
 	272 [label="only deserving criminals ,
  who commit such hateful crimes
  in their proper senses are

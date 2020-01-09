@@ -80,7 +80,7 @@ na (O)    0.000
 do (O)    0.000
 país (O)    0.000
 . (O)    0.000
-os (P)  658.000
+os (P)    0.000
 algarismos (I)    0.000
 baixos (I)    0.000
 que (I)    0.000

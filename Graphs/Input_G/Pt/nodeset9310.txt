@@ -5,11 +5,10 @@ digraph G {
  e coerente politicamente ,",color=blue];
 	10 [label="haveria uma revisão constitucional para consagrar
  o parlamentarismo e introduzir a
- eleição presidencial no Parlamento .
-",color=green];
+ eleição presidencial no Parlamento",color=green];
 	26 [label="Mas isso não ira acontecer
- .",color=green];
+",color=green];
 	59 [label="Ora ,
  sem a esquerda , não
- há revisão constitucional .",color=blue];
+ há revisão constitucional",color=blue];
 }

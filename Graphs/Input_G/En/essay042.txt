@@ -7,81 +7,83 @@ digraph G {
 	204 -> 182;
 	204 -> 266;
 	234 -> 266;
-	52 [label="A raise or
- a promotion can no doubt
- increase the morale in the
- working places",color=green];
-	68 [label="Workers understand
- they have to work harder
- to meet the boss' expectations
- and to make themselves worthwhile
+	52 [label="A raise or a
+ promotion can no doubt increase
+ the morale in the working
+ places",color=green];
+	68 [label="Workers understand they
+ have to work harder to
+ meet the boss' expectations and
+ to make themselves worthwhile",color=blue];
+	68 [label="Workers understand they
+ have to work harder to
+ meet the boss' expectations and
+ to make themselves worthwhile",color=blue];
+	266 [label="a higher pay can be
+ one of the incentive if
+ were to encourage harder-working employees
+",color=green];
+	89 [label="junior high
+ school teachers have great responsibility
+ not only for students' private
+ lives as they are going
+ through adolescence but also their
+ school work",color=blue];
+	266 [label="a higher pay can be
+ one of the incentive if
+ were to encourage harder-working employees
+",color=green];
+	118 [label="it is an
+ important phase for them to
+ study hard and get into
+ the high school they want
 ",color=blue];
-	68 [label="Workers understand
- they have to work harder
- to meet the boss' expectations
- and to make themselves worthwhile
+	266 [label="a higher pay can be
+ one of the incentive if
+ were to encourage harder-working employees
+",color=green];
+	137 [label="If the teachers receive
+ higher salaries , they will
+ be willing to spend more
+ extra time mentoring the youngsters
+ rather than hoping they learn
+ in cram schools and so
+ forth , as this is
+ what is happening in Taiwan
 ",color=blue];
-	266 [label="a higher pay can
- be one of the incentive
- if were to encourage harder-working
- employees",color=green];
-	89 [label="junior high school teachers have great
- responsibility not only for students'
- private lives as they are
- going through adolescence but also
- their school work",color=blue];
-	266 [label="a higher pay can
- be one of the incentive
- if were to encourage harder-working
- employees",color=green];
-	118 [label="it is
- an important phase for them
- to study hard and get
- into the high school they
- want",color=blue];
-	266 [label="a higher pay can
- be one of the incentive
- if were to encourage harder-working
- employees",color=green];
-	137 [label="If the teachers
- receive higher salaries , they
- will be willing to spend
- more extra time mentoring the
- youngsters rather than hoping they
- learn in cram schools and
- so forth , as this
- is what is happening in
- Taiwan",color=blue];
-	266 [label="a higher pay can
- be one of the incentive
- if were to encourage harder-working
- employees",color=green];
-	182 [label="creating an enjoyable
- working environment is more realistic
- and essential if one wishes
- an increase in productivity and
- better employee performances",color=green];
-	204 [label="Take Google for example , the
- company offers recreation rooms and
- extra personal leaves for their
- workers to develop a more
- relaxing and supportive workforce",color=blue];
-	204 [label="Take Google for example , the
- company offers recreation rooms and
- extra personal leaves for their
- workers to develop a more
- relaxing and supportive workforce",color=blue];
-	266 [label="a higher pay can
- be one of the incentive
- if were to encourage harder-working
- employees",color=green];
-	234 [label="the employers can make sure the
- employees can actually focus and
- concentrate on their projects instead
- of thinking about their children
- or feeling pressured",color=blue];
-	266 [label="a higher pay can
- be one of the incentive
- if were to encourage harder-working
- employees",color=green];
+	266 [label="a higher pay can be
+ one of the incentive if
+ were to encourage harder-working employees
+",color=green];
+	182 [label="creating an enjoyable working
+ environment is more realistic and
+ essential if one wishes an
+ increase in productivity and better
+ employee performances",color=green];
+	204 [label="Take Google
+ for example , the company
+ offers recreation rooms and extra
+ personal leaves for their workers
+ to develop a more relaxing
+ and supportive workforce",color=blue];
+	204 [label="Take Google
+ for example , the company
+ offers recreation rooms and extra
+ personal leaves for their workers
+ to develop a more relaxing
+ and supportive workforce",color=blue];
+	266 [label="a higher pay can be
+ one of the incentive if
+ were to encourage harder-working employees
+",color=green];
+	234 [label="the employers
+ can make sure the employees
+ can actually focus and concentrate
+ on their projects instead of
+ thinking about their children or
+ feeling pressured",color=blue];
+	266 [label="a higher pay can be
+ one of the incentive if
+ were to encourage harder-working employees
+",color=green];
 }

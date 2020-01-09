@@ -13,7 +13,7 @@ grupo (O)    0.000
 cofina (O)    0.000
 , (O)    0.000
 a (O)    0.000
-graves (P)  725.000
+graves (P)    0.000
 problemas (I)    0.000
 técnicos (I)    0.000
 na (I)    0.000

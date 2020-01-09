@@ -1,23 +1,16 @@
 digraph G {
 	75 -> 151;
-	87 -> 151;
+	91 -> 151;
 	116 -> 151;
 	138 -> 151;
-	175 -> 260;
-	210 -> 260;
 	226 -> 260;
-	245 -> 260;
-	277 -> 308;
-	285 -> 308;
-	293 -> 308;
 	75 [label="today entertainment is easier for people
  to enjoy than ever before
 ",color=blue];
 	151 [label="the popularity of news media
  is beneficial to human beings
 ",color=green];
-	87 [label="the fact is that
- such news media as televisions
+	91 [label="such news media as televisions
  , radios , or newspapers
  are bringing many news on
  entertainment sector from all over
@@ -39,24 +32,6 @@ digraph G {
 	151 [label="the popularity of news media
  is beneficial to human beings
 ",color=green];
-	175 [label="it is clearly seen that mass
- media provide people with a
- variety of global news on
- all fields , including political
- situation , economic change ,
- global warming , and so
- forth",color=blue];
-	260 [label="the development of news media has
- been making great inroads into
- the lives of all people
-",color=green];
-	210 [label="there is a strong likelihood that
- today people are able to
- know the world better",color=blue];
-	260 [label="the development of news media has
- been making great inroads into
- the lives of all people
-",color=green];
 	226 [label="this is particularly essential when
  the globalization process has been
  permeating into all areas of
@@ -65,27 +40,4 @@ digraph G {
  been making great inroads into
  the lives of all people
 ",color=green];
-	245 [label="the fast growth of news media
- is helpful for people worldwide
-",color=blue];
-	260 [label="the development of news media has
- been making great inroads into
- the lives of all people
-",color=green];
-	277 [label="it relaxes people with
- plentiful entertainment news",color=blue];
-	308 [label="the progress of
- news media is an advantageous
- development",color=green];
-	285 [label="it enriches people's knowledge with worldwide
- information",color=blue];
-	308 [label="the progress of
- news media is an advantageous
- development",color=green];
-	293 [label="it also positively
- affects the way people live
- in many other aspects",color=blue];
-	308 [label="the progress of
- news media is an advantageous
- development",color=green];
 }

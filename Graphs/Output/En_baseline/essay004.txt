@@ -24,10 +24,10 @@ tourism (I)    0.000
 bring (I)    0.000
 large (I)    0.000
 profit (I)    0.000
-for (O)    0.000
-the (O)    0.000
-destination (O)    0.000
-countries (O)    0.000
+for (I)    0.000
+the (I)    0.000
+destination (I)    0.000
+countries (I)    0.000
 , (O)    0.000
 i (O)    0.000
 would (O)    0.000

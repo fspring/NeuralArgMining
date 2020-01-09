@@ -122,10 +122,10 @@ well (I)    0.000
 as (I)    0.000
 pressure (I)    0.000
 . (O)    0.000
-another (O)    0.000
-function (O)    0.000
-that (O)    0.000
-all (P)   59.000
+another (P)   62.000
+function (I)    0.000
+that (I)    0.000
+all (I)    0.000
 zoos (I)    0.000
 serve (I)    0.000
 relates (I)    0.000
@@ -192,7 +192,7 @@ freedom (I)    0.000
 of (I)    0.000
 animals (I)    0.000
 . (O)    0.000
-being (P)   55.000
+being (P)   93.000
 confined (I)    0.000
 , (I)    0.000
 animals (I)    0.000
@@ -215,7 +215,7 @@ in (O)    0.000
 their (O)    0.000
 opinion (O)    0.000
 , (O)    0.000
-zoos (P)   32.000
+zoos (P)   70.000
 are (I)    0.000
 some (I)    0.000
 kind (I)    0.000
@@ -247,7 +247,7 @@ the (O)    0.000
 first (O)    0.000
 group (O)    0.000
 . (O)    0.000
-in (C)    0.000
+in (P)   38.000
 modern (I)    0.000
 life (I)    0.000
 , (I)    0.000

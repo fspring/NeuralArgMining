@@ -28,7 +28,7 @@ arts (I)    0.000
 relative (I)    0.000
 programs (I)    0.000
 . (O)    0.000
-art (C)    0.000
+art (P)   75.000
 is (I)    0.000
 not (I)    0.000
 the (I)    0.000
@@ -118,11 +118,11 @@ enriching (I)    0.000
 one's (I)    0.000
 daily (I)    0.000
 lives (I)    0.000
-, (O)    0.000
-for (O)    0.000
-example (O)    0.000
-, (O)    0.000
-it (P)   83.000
+, (I)    0.000
+for (I)    0.000
+example (I)    0.000
+, (I)    0.000
+it (I)    0.000
 could (I)    0.000
 bring (I)    0.000
 release (I)    0.000

@@ -68,7 +68,7 @@ societies (O)    0.000
 life (O)    0.000
 style (O)    0.000
 , (O)    0.000
-they (P)   22.000
+they (C)    0.000
 constantly (I)    0.000
 use (I)    0.000
 these (I)    0.000
@@ -127,7 +127,7 @@ time (I)    0.000
 another (O)    0.000
 perspective (O)    0.000
 , (O)    0.000
-using (P)   41.000
+using (P)   37.000
 of (I)    0.000
 these (I)    0.000
 facilities (I)    0.000
@@ -140,7 +140,7 @@ themselves (I)    0.000
 becoming (I)    0.000
 unsociable (I)    0.000
 . (O)    0.000
-it (P)   28.000
+it (P)   24.000
 caused (I)    0.000
 they (I)    0.000
 were (I)    0.000
@@ -151,7 +151,7 @@ virtual (I)    0.000
 atmosphere (I)    0.000
 , (O)    0.000
 so (O)    0.000
-they (P)   17.000
+they (P)   13.000
 do (I)    0.000
 not (I)    0.000
 do (I)    0.000
@@ -164,11 +164,11 @@ others (I)    0.000
 . (O)    0.000
 the (O)    0.000
 consequence (O)    0.000
-of (O)    0.000
-this (O)    0.000
-case (O)    0.000
-made (O)    0.000
-some (C)    0.000
+of (C)    0.000
+this (I)    0.000
+case (I)    0.000
+made (I)    0.000
+some (I)    0.000
 people (I)    0.000
 become (I)    0.000
 geek (I)    0.000

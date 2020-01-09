@@ -14,106 +14,112 @@ digraph G {
 	251 -> 317;
 	270 -> 317;
 	293 -> 317;
-	4 [label="it is not the good idea
- for teenagers to have job
- while they are still students
+	4 [label="it is
+ not the good idea for
+ teenagers to have job while
+ they are still students",color=green];
+	72 [label="A student has to
+ do lots of studies in
+ today's competitive world to prove
+ himself",color=blue];
+	35 [label="it can interfere with their life
+ in various ways",color=green];
+	72 [label="A student has to
+ do lots of studies in
+ today's competitive world to prove
+ himself",color=blue];
+	72 [label="A student has to
+ do lots of studies in
+ today's competitive world to prove
+ himself",color=blue];
+	104 [label="If the
+ student get involved himself in
+ job in rest of the
+ time , then it would
+ cause an extra burden on
+ them",color=green];
+	88 [label="He has to
+ spend his most of time
+ in school to get a
+ good grades",color=blue];
+	104 [label="If the
+ student get involved himself in
+ job in rest of the
+ time , then it would
+ cause an extra burden on
+ them",color=green];
+	130 [label="jobs has various responsibilities like attendance
+ , sometimes extra work and
+ so on",color=blue];
+	169 [label="would affect
+ their mental and physical health
 ",color=green];
-	72 [label="A student has
- to do lots of studies
- in today's competitive world to
- prove himself",color=blue];
-	35 [label="it can interfere with their
- life in various ways",color=green];
-	72 [label="A student has
- to do lots of studies
- in today's competitive world to
- prove himself",color=blue];
-	72 [label="A student has
- to do lots of studies
- in today's competitive world to
- prove himself",color=blue];
-	104 [label="If the student get involved himself
- in job in rest of
- the time , then it
- would cause an extra burden
- on them",color=green];
-	88 [label="He has
- to spend his most of
- time in school to get
- a good grades",color=blue];
-	104 [label="If the student get involved himself
- in job in rest of
- the time , then it
- would cause an extra burden
- on them",color=green];
-	130 [label="jobs has various responsibilities like
- attendance , sometimes extra work
- and so on",color=blue];
-	169 [label="would affect their mental and physical
- health",color=green];
-	144 [label="This would result in stress ,
- tension and tiredness",color=blue];
-	169 [label="would affect their mental and physical
- health",color=green];
-	154 [label="They won't be able to get
- proper time for relaxation ,
- sleep",color=blue];
-	169 [label="would affect their mental and physical
- health",color=green];
-	180 [label="jobs can divert students from
+	144 [label="This would
+ result in stress , tension
+ and tiredness",color=blue];
+	169 [label="would affect
+ their mental and physical health
+",color=green];
+	154 [label="They won't
+ be able to get proper
+ time for relaxation , sleep
+",color=blue];
+	169 [label="would affect
+ their mental and physical health
+",color=green];
+	180 [label="jobs can divert students from their
+ studies",color=green];
+	188 [label="If students started
+ earning in earlier age in
+ their life , then they
+ get attracted towards money",color=blue];
+	188 [label="If students started
+ earning in earlier age in
+ their life , then they
+ get attracted towards money",color=blue];
+	331 [label="for a teenager it is
+ important to pay attention on
  their studies",color=green];
-	188 [label="If students
- started earning in earlier age
- in their life , then
- they get attracted towards money
+	206 [label="They feel themselves independent and
+ would prefer to work more
+ for money",color=blue];
+	331 [label="for a teenager it is
+ important to pay attention on
+ their studies",color=green];
+	219 [label="This would
+ affect their studies , they
+ loose their interest from studies
 ",color=blue];
-	188 [label="If students
- started earning in earlier age
- in their life , then
- they get attracted towards money
-",color=blue];
-	331 [label="for a teenager it
- is important to pay attention
- on their studies",color=green];
-	206 [label="They feel themselves independent
- and would prefer to work
- more for money",color=blue];
-	331 [label="for a teenager it
- is important to pay attention
- on their studies",color=green];
-	219 [label="This would affect their studies ,
- they loose their interest from
- studies",color=blue];
-	331 [label="for a teenager it
- is important to pay attention
- on their studies",color=green];
-	234 [label="they drop out their studies so
- as to earn more money
-",color=blue];
-	331 [label="for a teenager it
- is important to pay attention
- on their studies",color=green];
-	251 [label="the main drawback of
- teenagers job is that ,
- they miss out the fun
- of their childhood time",color=blue];
-	317 [label="they should take
- advantage of life as much
- possible they can",color=green];
-	270 [label="He would miss various childhood
- activities such as hang out
- with friends , clubs and
- fun activities and social interaction
- with others",color=blue];
-	317 [label="they should take
- advantage of life as much
- possible they can",color=green];
-	293 [label="They have
- whole life to do job
- and prove themselves , but
- the childhood phase will never
- return in their life",color=blue];
-	317 [label="they should take
- advantage of life as much
- possible they can",color=green];
+	331 [label="for a teenager it is
+ important to pay attention on
+ their studies",color=green];
+	234 [label="they drop
+ out their studies so as
+ to earn more money",color=blue];
+	331 [label="for a teenager it is
+ important to pay attention on
+ their studies",color=green];
+	251 [label="the main drawback of teenagers
+ job is that , they
+ miss out the fun of
+ their childhood time",color=blue];
+	317 [label="they should take advantage
+ of life as much possible
+ they can",color=green];
+	270 [label="He would miss various childhood activities
+ such as hang out with
+ friends , clubs and fun
+ activities and social interaction with
+ others",color=blue];
+	317 [label="they should take advantage
+ of life as much possible
+ they can",color=green];
+	293 [label="They have whole
+ life to do job and
+ prove themselves , but the
+ childhood phase will never return
+ in their life",color=blue];
+	317 [label="they should take advantage
+ of life as much possible
+ they can",color=green];
 }

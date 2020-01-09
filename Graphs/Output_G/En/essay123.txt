@@ -1,55 +1,46 @@
 digraph G {
-	68 -> 80;
-	89 -> 147;
-	102 -> 147;
-	117 -> 147;
-	162 -> 231;
-	179 -> 231;
-	184 -> 231;
-	68 [label="parents and other
- adult relatives are more experienced
- towards children",color=blue];
+	89 -> 80;
+	89 -> 231;
+	102 -> 231;
+	117 -> 200;
+	162 -> 200;
+	179 -> 200;
+	184 -> 200;
 	80 [label="they are the best advisor for
  their children",color=green];
 	89 [label="they have
  experienced a large numbers of
  stuffs during their life",color=blue];
-	147 [label="parents and adults relatives
- are the best friends and
- consular for the teenagers",color=green];
+	89 [label="they have
+ experienced a large numbers of
+ stuffs during their life",color=blue];
+	231 [label="it is a good idea
+ to ask parents and adult
+ relatives to give a piece
+ of advice",color=green];
 	102 [label="if children listen to
  their advices they can prevent
  happening worst things",color=blue];
-	147 [label="parents and adults relatives
- are the best friends and
- consular for the teenagers",color=green];
+	231 [label="it is a good idea
+ to ask parents and adult
+ relatives to give a piece
+ of advice",color=green];
 	117 [label="they can save value
  things in their life such
  as time and money ,
  and enjoy they life with
  the best way",color=blue];
-	147 [label="parents and adults relatives
- are the best friends and
- consular for the teenagers",color=green];
+	200 [label="it makes no difference",color=green];
 	162 [label="unfortunately nowadays there are
  some individuals who cheat the
  others for gaining more power
  and money",color=blue];
-	231 [label="it is a good idea
- to ask parents and adult
- relatives to give a piece
- of advice",color=green];
+	200 [label="it makes no difference",color=green];
 	179 [label="they cheat
  young ages",color=blue];
-	231 [label="it is a good idea
- to ask parents and adult
- relatives to give a piece
- of advice",color=green];
+	200 [label="it makes no difference",color=green];
 	184 [label="they believe
  they are immature and they
  can trap them easily",color=blue];
-	231 [label="it is a good idea
- to ask parents and adult
- relatives to give a piece
- of advice",color=green];
+	200 [label="it makes no difference",color=green];
 }

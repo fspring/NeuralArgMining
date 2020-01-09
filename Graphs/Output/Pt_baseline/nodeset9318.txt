@@ -30,8 +30,8 @@ contundentes (I)    0.000
 atirados (I)    0.000
 como (I)    0.000
 lança-chamas (I)    0.000
-mas (I)    0.000
-sempre (C)    0.000
+mas (O)    0.000
+sempre (P)    0.000
 convenientemente (I)    0.000
 desgarrados (I)    0.000
 das (I)    0.000
@@ -44,7 +44,7 @@ que (I)    0.000
 eram (I)    0.000
 proferidos (I)    0.000
 , (I)    0.000
-ou (O)    0.000
-se (O)    0.000
-enquadravam (O)    0.000
+ou (I)    0.000
+se (I)    0.000
+enquadravam (I)    0.000
 . (O)    0.000

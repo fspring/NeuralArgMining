@@ -76,7 +76,7 @@ impact (I)    0.000
 on (I)    0.000
 children (I)    0.000
 . (O)    0.000
-the (P)  104.000
+the (P)   18.000
 first (I)    0.000
 impression (I)    0.000
 of (I)    0.000
@@ -94,7 +94,7 @@ to (I)    0.000
 work (I)    0.000
 hard (I)    0.000
 . (O)    0.000
-this (P)   86.000
+this (C)    0.000
 gives (I)    0.000
 children (I)    0.000
 the (I)    0.000
@@ -218,7 +218,7 @@ good (I)    0.000
 examples (I)    0.000
 to (I)    0.000
 children (I)    0.000
-for (I)    0.000
+for (O)    0.000
 they (P)   28.000
 share (I)    0.000
 fascinating (I)    0.000

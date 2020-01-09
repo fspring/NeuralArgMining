@@ -13,109 +13,110 @@ digraph G {
 	282 -> 332;
 	295 -> 332;
 	313 -> 332;
-	69 [label="you should focus on what you
- are good at",color=green];
-	79 [label="Focusing what you are good at
- helps you attain your goal
-",color=blue];
-	79 [label="Focusing what you are good at
- helps you attain your goal
-",color=blue];
-	199 [label="you will be more likely to
- accomplish your purpose by concentrating
- on what you do well
+	69 [label="you should
+ focus on what you are
+ good at",color=green];
+	79 [label="Focusing what
+ you are good at helps
+ you attain your goal",color=blue];
+	79 [label="Focusing what
+ you are good at helps
+ you attain your goal",color=blue];
+	199 [label="you will
+ be more likely to accomplish
+ your purpose by concentrating on
+ what you do well",color=green];
+	94 [label="the more
+ time you spend on what
+ you do well , the
+ more likely to achieve something
+ great you will be",color=blue];
+	199 [label="you will
+ be more likely to accomplish
+ your purpose by concentrating on
+ what you do well",color=green];
+	119 [label="Albert Einstein
+ , one of the most
+ competent physicians in history ,
+ devoted most of his life
+ to develop theory in physics
+ and finally established special and
+ general relativity",color=blue];
+	199 [label="you will
+ be more likely to accomplish
+ your purpose by concentrating on
+ what you do well",color=green];
+	151 [label="he hardly cared about something
+ else",color=blue];
+	199 [label="you will
+ be more likely to accomplish
+ your purpose by concentrating on
+ what you do well",color=green];
+	158 [label="It is said
+ that , surprisingly , he
+ never tried to distinguish a
+ hand soup and a facial
+ soup",color=blue];
+	199 [label="you will
+ be more likely to accomplish
+ your purpose by concentrating on
+ what you do well",color=green];
+	184 [label="using two
+ different soups properly was quite
+ annoying",color=blue];
+	199 [label="you will
+ be more likely to accomplish
+ your purpose by concentrating on
+ what you do well",color=green];
+	216 [label="If you keep doing what
+ you already do well ,
+ you can be better good
+ at it",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
 ",color=green];
-	94 [label="the more time you spend on
- what you do well ,
- the more likely to achieve
- something great you will be
-",color=blue];
-	199 [label="you will be more likely to
- accomplish your purpose by concentrating
- on what you do well
+	234 [label="When you're
+ doing something well , you
+ will feel more satisfied and
+ more interested in it",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
 ",color=green];
-	119 [label="Albert Einstein , one of the
- most competent physicians in history
- , devoted most of his
- life to develop theory in
- physics and finally established special
- and general relativity",color=blue];
-	199 [label="you will be more likely to
- accomplish your purpose by concentrating
- on what you do well
+	253 [label="you will motivate
+ yourself to do more",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
 ",color=green];
-	151 [label="he hardly cared about
- something else",color=blue];
-	199 [label="you will be more likely to
- accomplish your purpose by concentrating
- on what you do well
+	266 [label="I used to be good
+ at math when I was
+ in junior high school",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
 ",color=green];
-	158 [label="It is
- said that , surprisingly ,
- he never tried to distinguish
- a hand soup and a
- facial soup",color=blue];
-	199 [label="you will be more likely to
- accomplish your purpose by concentrating
- on what you do well
+	282 [label="I was really satisfied
+ with the fact that I
+ could do preferably",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
 ",color=green];
-	184 [label="using two different soups properly was
- quite annoying",color=blue];
-	199 [label="you will be more likely to
- accomplish your purpose by concentrating
- on what you do well
+	295 [label="I became to absorb myself to
+ try more advanced level of
+ math problems",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
 ",color=green];
-	216 [label="If you keep doing
- what you already do well
- , you can be better
- good at it",color=blue];
-	332 [label="by doing what
- you are good at ,
- you will be better at
- it",color=green];
-	234 [label="When you're doing something well ,
- you will feel more satisfied
- and more interested in it
-",color=blue];
-	332 [label="by doing what
- you are good at ,
- you will be better at
- it",color=green];
-	253 [label="you will
- motivate yourself to do more
-",color=blue];
-	332 [label="by doing what
- you are good at ,
- you will be better at
- it",color=green];
-	266 [label="I used to be
- good at math when I
- was in junior high school
-",color=blue];
-	332 [label="by doing what
- you are good at ,
- you will be better at
- it",color=green];
-	282 [label="I was really
- satisfied with the fact that
- I could do preferably",color=blue];
-	332 [label="by doing what
- you are good at ,
- you will be better at
- it",color=green];
-	295 [label="I became to absorb myself
- to try more advanced level
- of math problems",color=blue];
-	332 [label="by doing what
- you are good at ,
- you will be better at
- it",color=green];
-	313 [label="I could
- not only get higher scores
- in math test but also
- solve the university-level problems",color=blue];
-	332 [label="by doing what
- you are good at ,
- you will be better at
- it",color=green];
+	313 [label="I could not
+ only get higher scores in
+ math test but also solve
+ the university-level problems",color=blue];
+	332 [label="by doing what you
+ are good at , you
+ will be better at it
+",color=green];
 }

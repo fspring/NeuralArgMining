@@ -16,7 +16,7 @@ tráfico (I)    0.000
 de (I)    0.000
 droga (I)    0.000
 . (O)    0.000
-esta (P)  722.000
+esta (P)    0.000
 manhã (I)    0.000
 foram (I)    0.000
 assinados (I)    0.000
@@ -52,7 +52,7 @@ dos (I)    0.000
 quatros (I)    0.000
 países (I)    0.000
 . (O)    0.000
-um (P)  686.000
+um (P)    0.000
 dos (I)    0.000
 temas (I)    0.000
 mais (I)    0.000

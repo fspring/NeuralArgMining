@@ -12,108 +12,112 @@ digraph G {
 	285 -> 394;
 	312 -> 394;
 	332 -> 394;
-	30 [label="the three most reasons are
- increased knowledge , career preparation
- and new experiences",color=green];
-	48 [label="for most
- people , university is an
- ideal place for them to
- develop their understanding",color=blue];
-	48 [label="for most
- people , university is an
- ideal place for them to
- develop their understanding",color=blue];
-	131 [label="they can gain a
- deep sight into what are
- they studying",color=green];
-	66 [label="in this wonderful academic
- environment , everyone is provided
- with varieties and gigantic number
- of information by a lot
- of professors and well-trained teachers
-",color=blue];
-	131 [label="they can gain a
- deep sight into what are
- they studying",color=green];
-	93 [label="people are
- able to strengthen their knowledge
-",color=blue];
-	131 [label="they can gain a
- deep sight into what are
- they studying",color=green];
-	103 [label="through the
- instructions of teachers , the
- sufficient infrastructure such as laboratory
- , library , students is
- capable of doing research on
- every academic aspect",color=blue];
-	131 [label="they can gain a
- deep sight into what are
- they studying",color=green];
-	168 [label="The number
- of individual who enroll in
- university are enormous , more
- than any school one person
- have studied",color=blue];
-	190 [label="students are given such fantastic
- chance to create new and
- wide relationships with a lot
- of people from any corner
- of one nation , even
- from the whole world",color=green];
-	190 [label="students are given such fantastic
- chance to create new and
- wide relationships with a lot
- of people from any corner
- of one nation , even
- from the whole world",color=green];
-	223 [label="my brother
- are studying in an international
- university with a mixed community
- include Vietnam , Brazil ,
- Argentina , etc",color=blue];
-	223 [label="my brother
- are studying in an international
- university with a mixed community
- include Vietnam , Brazil ,
- Argentina , etc",color=blue];
-	394 [label="everybody who is studying in university
- should concentrate on the objectives
- and try their best",color=green];
-	244 [label="And he told me that he
- is very excited for experiencing
- such new environment , which
- is one of his main
- purposes when attending university",color=blue];
-	394 [label="everybody who is studying in university
- should concentrate on the objectives
- and try their best",color=green];
-	275 [label="preparing for career is an
- essential function of university",color=green];
-	312 [label="they can have
- some experiences in the outside
- world and discover what their
- life goals are",color=blue];
-	285 [label="Students not only do homework
- , assignment and attend class
- but also need to participate
- in volunteer work , internship
- and part time job",color=blue];
-	394 [label="everybody who is studying in university
- should concentrate on the objectives
- and try their best",color=green];
-	312 [label="they can have
- some experiences in the outside
- world and discover what their
- life goals are",color=blue];
-	394 [label="everybody who is studying in university
- should concentrate on the objectives
- and try their best",color=green];
-	332 [label="they know where
- and what to put high
- emphasis on in order to
- achieve their objectives",color=blue];
-	394 [label="everybody who is studying in university
- should concentrate on the objectives
- and try their best",color=green];
+	30 [label="the three most reasons are increased
+ knowledge , career preparation and
+ new experiences",color=green];
+	48 [label="for most people
+ , university is an ideal
+ place for them to develop
+ their understanding",color=blue];
+	48 [label="for most people
+ , university is an ideal
+ place for them to develop
+ their understanding",color=blue];
+	131 [label="they can gain a deep
+ sight into what are they
+ studying",color=green];
+	66 [label="in this wonderful academic environment
+ , everyone is provided with
+ varieties and gigantic number of
+ information by a lot of
+ professors and well-trained teachers",color=blue];
+	131 [label="they can gain a deep
+ sight into what are they
+ studying",color=green];
+	93 [label="people are able
+ to strengthen their knowledge",color=blue];
+	131 [label="they can gain a deep
+ sight into what are they
+ studying",color=green];
+	103 [label="through the instructions
+ of teachers , the sufficient
+ infrastructure such as laboratory ,
+ library , students is capable
+ of doing research on every
+ academic aspect",color=blue];
+	131 [label="they can gain a deep
+ sight into what are they
+ studying",color=green];
+	168 [label="The number of
+ individual who enroll in university
+ are enormous , more than
+ any school one person have
+ studied",color=blue];
+	190 [label="students are given such fantastic chance
+ to create new and wide
+ relationships with a lot of
+ people from any corner of
+ one nation , even from
+ the whole world",color=green];
+	190 [label="students are given such fantastic chance
+ to create new and wide
+ relationships with a lot of
+ people from any corner of
+ one nation , even from
+ the whole world",color=green];
+	223 [label="my brother are
+ studying in an international university
+ with a mixed community include
+ Vietnam , Brazil , Argentina
+ , etc",color=blue];
+	223 [label="my brother are
+ studying in an international university
+ with a mixed community include
+ Vietnam , Brazil , Argentina
+ , etc",color=blue];
+	394 [label="everybody who
+ is studying in university should
+ concentrate on the objectives and
+ try their best",color=green];
+	244 [label="And he
+ told me that he is
+ very excited for experiencing such
+ new environment , which is
+ one of his main purposes
+ when attending university",color=blue];
+	394 [label="everybody who
+ is studying in university should
+ concentrate on the objectives and
+ try their best",color=green];
+	275 [label="preparing for career is an essential
+ function of university",color=green];
+	312 [label="they can have some
+ experiences in the outside world
+ and discover what their life
+ goals are",color=blue];
+	285 [label="Students not only do homework ,
+ assignment and attend class but
+ also need to participate in
+ volunteer work , internship and
+ part time job",color=blue];
+	394 [label="everybody who
+ is studying in university should
+ concentrate on the objectives and
+ try their best",color=green];
+	312 [label="they can have some
+ experiences in the outside world
+ and discover what their life
+ goals are",color=blue];
+	394 [label="everybody who
+ is studying in university should
+ concentrate on the objectives and
+ try their best",color=green];
+	332 [label="they know where and
+ what to put high emphasis
+ on in order to achieve
+ their objectives",color=blue];
+	394 [label="everybody who
+ is studying in university should
+ concentrate on the objectives and
+ try their best",color=green];
 }

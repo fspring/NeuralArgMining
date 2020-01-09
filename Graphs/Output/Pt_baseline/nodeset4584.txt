@@ -107,7 +107,7 @@ da (I)    0.000
 costa (I)    0.000
 líbia (I)    0.000
 , (O)    0.000
-segundo (P)  631.000
+segundo (P)    0.000
 um (I)    0.000
 comunicado (I)    0.000
 do (I)    0.000

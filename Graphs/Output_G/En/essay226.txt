@@ -38,8 +38,8 @@ digraph G {
  impact on people's lives today
 ",color=green];
 	244 [label="edison's statement
- "genius is 1 percent inspiration
- and 99 percent perspiration" is
+ genius is 1 percent inspiration
+ and 99 percent perspiration is
  still helpful for everyone today
  , and probably in the
  future",color=blue];

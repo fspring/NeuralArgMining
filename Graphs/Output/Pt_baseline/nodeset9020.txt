@@ -26,7 +26,7 @@ de (O)    0.000
 boa (O)    0.000
 saúde (O)    0.000
 . (O)    0.000
-o (P)  712.000
+o (P)   19.000
 programa (I)    0.000
 do (I)    0.000
 governo (I)    0.000
@@ -45,7 +45,7 @@ orçamental (I)    0.000
 de (I)    0.000
 2,8% (I)    0.000
 . (O)    0.000
-bruxelas (P)  693.000
+bruxelas (C)    0.000
 exigiu (I)    0.000
 , (I)    0.000
 entretanto (I)    0.000

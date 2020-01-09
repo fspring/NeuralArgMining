@@ -9,8 +9,7 @@ digraph G {
  , vão sendo substituídos por
  novos conceitos pro fascistas levando
  á desumanização dos Estados e
- à vergonha dos povos .
-",color=green];
+ à vergonha dos povos",color=green];
 	14 [label="os especuladores
  financeiros agradecem e vão alegremente
  enriquecendo , enquanto que as
@@ -23,6 +22,5 @@ digraph G {
  , vão sendo substituídos por
  novos conceitos pro fascistas levando
  á desumanização dos Estados e
- à vergonha dos povos .
-",color=green];
+ à vergonha dos povos",color=green];
 }

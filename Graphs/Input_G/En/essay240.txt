@@ -7,73 +7,71 @@ digraph G {
 	199 -> 276;
 	215 -> 276;
 	228 -> 276;
-	67 [label="some tough experiences
- people met before will be
- helpful in their life path
-",color=green];
-	85 [label="hardship makes people realize how
- to cherish and compliment the
- common but wonderful little things
- happened in their life such
- as , a shining weather
- , a delicious breakfast and
- etc",color=blue];
-	85 [label="hardship makes people realize how
- to cherish and compliment the
- common but wonderful little things
- happened in their life such
- as , a shining weather
- , a delicious breakfast and
- etc",color=blue];
-	152 [label="experiences of difficulties
- teach them how to keep
- a nice mood and have
- confidence all the time",color=green];
-	117 [label="People who have
- such nice spirit usually know
- how to find the true
- love in their life instead
- of being seduced by greed
- as to lose themselves in
- the end",color=blue];
-	152 [label="experiences of difficulties
- teach them how to keep
- a nice mood and have
- confidence all the time",color=green];
-	173 [label="people who
- experienced lots of difficulties will
- be calmer when they are
- in troubles",color=green];
-	199 [label="they are conscious of what to
- do and how to do
- when fierce crisis happens",color=blue];
-	189 [label="they already have such experiences of
- overcoming some difficulties",color=blue];
-	276 [label="most tough experiences in
- people's life path will be
- a priceless treasure to them
-",color=green];
-	199 [label="they are conscious of what to
- do and how to do
- when fierce crisis happens",color=blue];
-	276 [label="most tough experiences in
- people's life path will be
- a priceless treasure to them
-",color=green];
-	215 [label="Those people are more likely
- to achieve their ambitions in
- their career",color=blue];
-	276 [label="most tough experiences in
- people's life path will be
- a priceless treasure to them
-",color=green];
-	228 [label="they are
- aware of how to lead
- people to reach success despite
- what kind of difficulties are
- getting in their way",color=blue];
-	276 [label="most tough experiences in
- people's life path will be
- a priceless treasure to them
-",color=green];
+	67 [label="some tough experiences people
+ met before will be helpful
+ in their life path",color=green];
+	85 [label="hardship makes people realize how to
+ cherish and compliment the common
+ but wonderful little things happened
+ in their life such as
+ , a shining weather ,
+ a delicious breakfast and etc
+",color=blue];
+	85 [label="hardship makes people realize how to
+ cherish and compliment the common
+ but wonderful little things happened
+ in their life such as
+ , a shining weather ,
+ a delicious breakfast and etc
+",color=blue];
+	152 [label="experiences of difficulties teach
+ them how to keep a
+ nice mood and have confidence
+ all the time",color=green];
+	117 [label="People who have such
+ nice spirit usually know how
+ to find the true love
+ in their life instead of
+ being seduced by greed as
+ to lose themselves in the
+ end",color=blue];
+	152 [label="experiences of difficulties teach
+ them how to keep a
+ nice mood and have confidence
+ all the time",color=green];
+	173 [label="people who experienced
+ lots of difficulties will be
+ calmer when they are in
+ troubles",color=green];
+	199 [label="they are
+ conscious of what to do
+ and how to do when
+ fierce crisis happens",color=blue];
+	189 [label="they already
+ have such experiences of overcoming
+ some difficulties",color=blue];
+	276 [label="most tough experiences in people's
+ life path will be a
+ priceless treasure to them",color=green];
+	199 [label="they are
+ conscious of what to do
+ and how to do when
+ fierce crisis happens",color=blue];
+	276 [label="most tough experiences in people's
+ life path will be a
+ priceless treasure to them",color=green];
+	215 [label="Those people are more likely to
+ achieve their ambitions in their
+ career",color=blue];
+	276 [label="most tough experiences in people's
+ life path will be a
+ priceless treasure to them",color=green];
+	228 [label="they are aware
+ of how to lead people
+ to reach success despite what
+ kind of difficulties are getting
+ in their way",color=blue];
+	276 [label="most tough experiences in people's
+ life path will be a
+ priceless treasure to them",color=green];
 }

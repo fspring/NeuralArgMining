@@ -74,7 +74,7 @@ um (O)    0.000
 revolver (O)    0.000
 .32 (O)    0.000
 . (O)    0.000
-segundo (P)  664.000
+segundo (P)    0.000
 o (I)    0.000
 tenente-coronel (I)    0.000
 silva (I)    0.000
@@ -89,7 +89,7 @@ na (I)    0.000
 gnr (I)    0.000
 , (O)    0.000
 mas (O)    0.000
-nada (P)  649.000
+nada (P)    0.000
 apontava (I)    0.000
 para (I)    0.000
 um (I)    0.000

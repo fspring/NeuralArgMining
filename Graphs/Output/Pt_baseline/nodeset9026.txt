@@ -61,7 +61,7 @@ invocamos (I)    0.000
 razões (I)    0.000
 logísticas (I)    0.000
 . (O)    0.000
-sabendo (P)  677.000
+sabendo (P)    0.000
 genericamente (I)    0.000
 que (I)    0.000
 devemos (I)    0.000

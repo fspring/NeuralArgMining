@@ -45,8 +45,8 @@ digraph G {
  for example , once cancelled
  an appointment to play basketball
  with in order to watch
- the favorite television show "infinete
- challenges"",color=blue];
+ the favorite television show infinete
+ challenges",color=blue];
 	210 [label="even when people watch television together
  , there is no chance
  for them to have conversation

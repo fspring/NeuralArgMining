@@ -59,7 +59,7 @@ first (O)    0.000
 of (O)    0.000
 all (O)    0.000
 , (O)    0.000
-television (P)  105.000
+television (C)    0.000
 has (I)    0.000
 useful (I)    0.000
 and (I)    0.000
@@ -267,9 +267,9 @@ career (I)    0.000
 in (I)    0.000
 the (I)    0.000
 school (I)    0.000
-, (I)    0.000
-since (I)    0.000
-it (I)    0.000
+, (O)    0.000
+since (O)    0.000
+it (P)   14.000
 helped (I)    0.000
 me (I)    0.000
 to (I)    0.000

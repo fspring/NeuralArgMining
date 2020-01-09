@@ -3,40 +3,40 @@ digraph G {
 	131 -> 231;
 	158 -> 231;
 	189 -> 213;
-	121 [label="nowadays technology is entering
- into our society really quick
+	121 [label="nowadays technology is entering into
+ our society really quick",color=green];
+	131 [label="scientists develop robots , which
+ help people cope with their
+ problems or just invent coffee
+ machines , engines with integrated
+ computers and etc",color=blue];
+	131 [label="scientists develop robots , which
+ help people cope with their
+ problems or just invent coffee
+ machines , engines with integrated
+ computers and etc",color=blue];
+	231 [label="IT discoveries are likely to
+ have more disadvantages than benefits
+ and people should know how
+ to use their developments properly
 ",color=green];
-	131 [label="scientists develop robots ,
- which help people cope with
- their problems or just invent
- coffee machines , engines with
- integrated computers and etc",color=blue];
-	131 [label="scientists develop robots ,
- which help people cope with
- their problems or just invent
- coffee machines , engines with
- integrated computers and etc",color=blue];
-	231 [label="IT discoveries are likely
- to have more disadvantages than
- benefits and people should know
- how to use their developments
- properly",color=green];
-	158 [label="before centeries
- , there were not washing
- machines , which clean your
- clothes , while a person
- do another job",color=blue];
-	231 [label="IT discoveries are likely
- to have more disadvantages than
- benefits and people should know
- how to use their developments
- properly",color=green];
-	189 [label="Scientists believe that one day people
- will face their developments ,
- for instance robots , and
- they will not succeed to
- control them",color=blue];
-	213 [label="All this
- inventions will try to take
- control of the Earth",color=green];
+	158 [label="before centeries ,
+ there were not washing machines
+ , which clean your clothes
+ , while a person do
+ another job",color=blue];
+	231 [label="IT discoveries are likely to
+ have more disadvantages than benefits
+ and people should know how
+ to use their developments properly
+",color=green];
+	189 [label="Scientists believe
+ that one day people will
+ face their developments , for
+ instance robots , and they
+ will not succeed to control
+ them",color=blue];
+	213 [label="All this inventions
+ will try to take control
+ of the Earth",color=green];
 }

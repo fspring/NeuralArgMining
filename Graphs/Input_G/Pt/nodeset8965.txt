@@ -9,7 +9,6 @@ digraph G {
  seu partido , a CDU
  , liderava nas sondagens com
  uma grande margem de avanço
- .",color=blue];
-	62 [label="A situação alterou-se .
-",color=green];
+",color=blue];
+	62 [label="A situação alterou-se",color=green];
 }

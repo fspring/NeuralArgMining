@@ -8,12 +8,12 @@ digraph G {
  que essa lei se impõe
  a todos os que cá
  vivem , incluindo gente de
- origem árabe .",color=blue];
+ origem árabe",color=blue];
 	79 [label="os muçulmanos
  ter-se-ão de habituar não só
  a ter uma religião minoritária
  , mas sobretudo a aceitar
  pacificamente que haja conversões ao
  Cristianismo entre elementos da sua
- comunidade .",color=green];
+ comunidade",color=green];
 }

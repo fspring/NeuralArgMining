@@ -12,6 +12,5 @@ digraph G {
  mais parlamentar de sempre ,
  e ei-lo , em 2004
  , a dissolver um parlamento
- com uma maioria absoluta .
-",color=blue];
+ com uma maioria absoluta",color=blue];
 }

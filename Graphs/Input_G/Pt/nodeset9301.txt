@@ -13,7 +13,7 @@ digraph G {
 ",color=green];
 	62 [label="Fumar , para estas
  e estes",color=blue];
-	70 [label="tão essencial como respirar .",color=green];
+	70 [label="tão essencial como respirar",color=green];
 	231 [label="Não há advertência pela negativa
  que os contagie pela positiva
  . Dizem os grandes especialistas

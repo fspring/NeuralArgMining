@@ -25,7 +25,7 @@ resgate (I)    0.000
 é (O)    0.000
 curioso (O)    0.000
 . (O)    0.000
-os (P)  713.000
+os (P)    0.000
 portugueses (I)    0.000
 conseguiram (I)    0.000
 mesmo (I)    0.000
@@ -58,7 +58,7 @@ podia (I)    0.000
 ter (I)    0.000
 acontecido (I)    0.000
 . (O)    0.000
-nunca (P)  680.000
+nunca (P)    0.000
 quisemos (I)    0.000
 compreender (I)    0.000
 que (I)    0.000
@@ -66,7 +66,7 @@ foi (I)    0.000
 uma (I)    0.000
 ajuda (I)    0.000
 . (O)    0.000
-nunca (P)  672.000
+nunca (P)    0.000
 chegámos (I)    0.000
 a (I)    0.000
 entender (I)    0.000
@@ -120,7 +120,7 @@ fazer (O)    0.000
 a (O)    0.000
 pergunta (O)    0.000
 : (O)    0.000
-se (P)  618.000
+se (P)    0.000
 não (I)    0.000
 houver (I)    0.000
 outro (I)    0.000

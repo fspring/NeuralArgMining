@@ -1,95 +1,22 @@
 digraph G {
-	29 -> 56;
-	92 -> 151;
-	114 -> 151;
-	136 -> 151;
-	174 -> 299;
-	220 -> 299;
-	230 -> 299;
-	240 -> 299;
-	269 -> 299;
-	29 [label="the high
- school of my district is
- pretty old and lacks in
- necessities for students , so
- they",color=blue];
-	56 [label="new high school is a
- great addition to the educational
- system of my community",color=green];
+	92 -> 76;
+	230 -> 269;
+	76 [label="the new high school will
+ bring a lots of opportunities
+ for student concerned in education
+",color=green];
 	92 [label="their old high school
  is pretty old and need
  in new educational materials ,
  repairing of the place for
  sport activities",color=blue];
-	151 [label="the new high school will
- be a place for new
- connections between the student of
- different communities and districts of
- the city",color=green];
-	114 [label="also the
- laboratory of physics and chemistry
- was in bad condition ,
- so the students can't study
- well during the classes",color=blue];
-	151 [label="the new high school will
- be a place for new
- connections between the student of
- different communities and districts of
- the city",color=green];
-	136 [label="they will study with new
- breath and great enthusiasm in
- new school",color=blue];
-	151 [label="the new high school will
- be a place for new
- connections between the student of
- different communities and districts of
- the city",color=green];
-	174 [label="after classes
- students and not only the
- students will get together in
- building of high school ,
- participate in different competitions",color=blue];
-	299 [label="the only
- disadvantage is the nosiness of
- competitions which students will participate
- , but i think that
- it isn't a big deal
-",color=green];
-	220 [label="this will increase the social connections
- of the students",color=blue];
-	299 [label="the only
- disadvantage is the nosiness of
- competitions which students will participate
- , but i think that
- it isn't a big deal
-",color=green];
 	230 [label="the only disadvantage is the noisiness
  of the competitions",color=blue];
-	299 [label="the only
- disadvantage is the nosiness of
- competitions which students will participate
- , but i think that
- it isn't a big deal
-",color=green];
-	240 [label="the people living in the neighborhood
- will be a bit perturbed
- , but i think this
- isn't a important reason for
- ceasing the competitions",color=blue];
-	299 [label="the only
- disadvantage is the nosiness of
- competitions which students will participate
- , but i think that
- it isn't a big deal
-",color=green];
 	269 [label="this new
  construction has a lot of
  advantages like new connections between
- students from different communities",color=blue];
-	299 [label="the only
- disadvantage is the nosiness of
- competitions which students will participate
- , but i think that
- it isn't a big deal
-",color=green];
+ students from different communities ,
+ also the new educational equipment
+ will increase the students' enthusiasm
+ toward studying",color=green];
 }

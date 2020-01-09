@@ -6,6 +6,5 @@ digraph G {
  criminoso inepto",color=green];
 	70 [label="apesar das suas intenções e da
  sua vontade , não conseguiu
- fazer mal a ninguém .
-",color=blue];
+ fazer mal a ninguém",color=blue];
 }

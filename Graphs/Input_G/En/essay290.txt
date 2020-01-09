@@ -10,98 +10,98 @@ digraph G {
 	208 -> 293;
 	272 -> 240;
 	272 -> 293;
-	50 [label="I personally prefer to work
- for a large company",color=green];
-	87 [label="Large companies always
- look for new skilled employees
- to fill in their need
- of distributing , managing and
- selling their products in different
- countries",color=blue];
-	65 [label="to find a job in
- a large company is way
- more easier than to find
- a job in a small
- company",color=green];
-	87 [label="Large companies always
- look for new skilled employees
- to fill in their need
- of distributing , managing and
- selling their products in different
- countries",color=blue];
-	87 [label="Large companies always
- look for new skilled employees
- to fill in their need
- of distributing , managing and
- selling their products in different
- countries",color=blue];
-	293 [label="I would
- rather prefer working in a
- large company than in a
- small one",color=green];
-	115 [label="if a large company decides
- to open a branch in
- a foreign country , they
- would need more employees in
- that country to work there
+	50 [label="I personally prefer to work for
+ a large company",color=green];
+	87 [label="Large companies always look
+ for new skilled employees to
+ fill in their need of
+ distributing , managing and selling
+ their products in different countries
 ",color=blue];
-	293 [label="I would
- rather prefer working in a
- large company than in a
- small one",color=green];
-	145 [label="Large company equals more job
- opportunity",color=blue];
-	293 [label="I would
- rather prefer working in a
- large company than in a
- small one",color=green];
-	157 [label="a large company
- can give better salaries than
- a smaller one",color=green];
-	169 [label="The fact that a company is
- a large one , this
- means that it's having a
- considerable success",color=blue];
-	169 [label="The fact that a company is
- a large one , this
- means that it's having a
- considerable success",color=blue];
-	293 [label="I would
- rather prefer working in a
- large company than in a
- small one",color=green];
-	192 [label="this means that
- the company can give more
- salaries to its employees",color=blue];
-	293 [label="I would
- rather prefer working in a
- large company than in a
- small one",color=green];
-	208 [label="common sense
- would tell us that a
- famous and international known company
- won't give the same salary
- as a small local company
+	65 [label="to find a job in a
+ large company is way more
+ easier than to find a
+ job in a small company
+",color=green];
+	87 [label="Large companies always look
+ for new skilled employees to
+ fill in their need of
+ distributing , managing and selling
+ their products in different countries
 ",color=blue];
-	293 [label="I would
- rather prefer working in a
- large company than in a
- small one",color=green];
-	240 [label="large companies have an international
- reputation , as they organize
- international conferences , meetings and
- workshops which will give me
- the opportunity to travel in
- different countries and meet new
- people",color=green];
-	272 [label="As well as
- learning new skills in my
- field from these workshops",color=blue];
-	272 [label="As well as
- learning new skills in my
- field from these workshops",color=blue];
-	293 [label="I would
- rather prefer working in a
- large company than in a
- small one",color=green];
+	87 [label="Large companies always look
+ for new skilled employees to
+ fill in their need of
+ distributing , managing and selling
+ their products in different countries
+",color=blue];
+	293 [label="I would rather
+ prefer working in a large
+ company than in a small
+ one",color=green];
+	115 [label="if a large company decides to
+ open a branch in a
+ foreign country , they would
+ need more employees in that
+ country to work there",color=blue];
+	293 [label="I would rather
+ prefer working in a large
+ company than in a small
+ one",color=green];
+	145 [label="Large company equals more job opportunity
+",color=blue];
+	293 [label="I would rather
+ prefer working in a large
+ company than in a small
+ one",color=green];
+	157 [label="a large company can
+ give better salaries than a
+ smaller one",color=green];
+	169 [label="The fact
+ that a company is a
+ large one , this means
+ that it's having a considerable
+ success",color=blue];
+	169 [label="The fact
+ that a company is a
+ large one , this means
+ that it's having a considerable
+ success",color=blue];
+	293 [label="I would rather
+ prefer working in a large
+ company than in a small
+ one",color=green];
+	192 [label="this means that the
+ company can give more salaries
+ to its employees",color=blue];
+	293 [label="I would rather
+ prefer working in a large
+ company than in a small
+ one",color=green];
+	208 [label="common sense would
+ tell us that a famous
+ and international known company won't
+ give the same salary as
+ a small local company",color=blue];
+	293 [label="I would rather
+ prefer working in a large
+ company than in a small
+ one",color=green];
+	240 [label="large companies have an international reputation
+ , as they organize international
+ conferences , meetings and workshops
+ which will give me the
+ opportunity to travel in different
+ countries and meet new people
+",color=green];
+	272 [label="As well as learning
+ new skills in my field
+ from these workshops",color=blue];
+	272 [label="As well as learning
+ new skills in my field
+ from these workshops",color=blue];
+	293 [label="I would rather
+ prefer working in a large
+ company than in a small
+ one",color=green];
 }

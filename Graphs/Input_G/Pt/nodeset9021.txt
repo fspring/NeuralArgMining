@@ -13,7 +13,7 @@ digraph G {
  do programa do Governo olharmos
  para o programa eleitoral do
  PS , a evolução é
- ainda mais notável .",color=green];
+ ainda mais notável",color=green];
 	95 [label="António Costa começou por trabalhar com
  um défice orçamental previsional de
  3% para este ano",color=blue];

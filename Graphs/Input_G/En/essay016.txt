@@ -9,87 +9,91 @@ digraph G {
 	227 -> 294;
 	243 -> 294;
 	266 -> 294;
-	50 [label="it is a dramatically cruel
- activity to humanity if the
- latest foods or medicines are
- allowed to sold without testing
- on animals",color=green];
-	95 [label="animals are friendly and vital
- for people",color=blue];
-	95 [label="animals are friendly and vital
- for people",color=blue];
-	148 [label="doing this
- various testing is a hazard
- of human's future and next
- generation",color=green];
-	104 [label="if there are no animals in
- the world , the balance
- of nature will broke down
- , and we , human
- , will die out as
- well",color=blue];
-	148 [label="doing this
- various testing is a hazard
- of human's future and next
- generation",color=green];
-	132 [label="The animal experiments
- accelerate the vanishing of some
- categories of animals",color=blue];
-	148 [label="doing this
- various testing is a hazard
- of human's future and next
- generation",color=green];
-	163 [label="animal experiments
- have negative impact on the
- natural balance",color=blue];
-	191 [label="it is indisputable that
- every new kind food or
- pill may be noxious ,
- and scientists must do something
- to insure that the new
- invention benefits people instead of
- making people ill or even
- dying",color=green];
-	173 [label="it is
- necessary to make sure that
- people can live a long
- life",color=blue];
-	191 [label="it is indisputable that
- every new kind food or
- pill may be noxious ,
- and scientists must do something
- to insure that the new
- invention benefits people instead of
- making people ill or even
- dying",color=green];
-	191 [label="it is indisputable that
- every new kind food or
- pill may be noxious ,
- and scientists must do something
- to insure that the new
- invention benefits people instead of
- making people ill or even
- dying",color=green];
-	227 [label="The new foods
- or medicines are invented to
- promote the quantity of human's
- life",color=blue];
-	227 [label="The new foods
- or medicines are invented to
- promote the quantity of human's
- life",color=blue];
-	294 [label="the merits of animal experiments still
- outweigh the demerits",color=green];
-	243 [label="even if
- they are volunteers ; they
- cannot take the place of
- animals to test the new
- foods or medicines",color=blue];
-	294 [label="the merits of animal experiments still
- outweigh the demerits",color=green];
-	266 [label="it also have potentially
- harm for human's health without
- any testing",color=blue];
-	294 [label="the merits of animal experiments still
- outweigh the demerits",color=green];
+	50 [label="it is a dramatically cruel activity
+ to humanity if the latest
+ foods or medicines are allowed
+ to sold without testing on
+ animals",color=green];
+	95 [label="animals are friendly and vital for
+ people",color=blue];
+	95 [label="animals are friendly and vital for
+ people",color=blue];
+	148 [label="doing this various
+ testing is a hazard of
+ human's future and next generation
+",color=green];
+	104 [label="if there
+ are no animals in the
+ world , the balance of
+ nature will broke down ,
+ and we , human ,
+ will die out as well
+",color=blue];
+	148 [label="doing this various
+ testing is a hazard of
+ human's future and next generation
+",color=green];
+	132 [label="The animal experiments accelerate
+ the vanishing of some categories
+ of animals",color=blue];
+	148 [label="doing this various
+ testing is a hazard of
+ human's future and next generation
+",color=green];
+	163 [label="animal experiments have
+ negative impact on the natural
+ balance",color=blue];
+	191 [label="it is indisputable that every
+ new kind food or pill
+ may be noxious , and
+ scientists must do something to
+ insure that the new invention
+ benefits people instead of making
+ people ill or even dying
+",color=green];
+	173 [label="it is necessary
+ to make sure that people
+ can live a long life
+",color=blue];
+	191 [label="it is indisputable that every
+ new kind food or pill
+ may be noxious , and
+ scientists must do something to
+ insure that the new invention
+ benefits people instead of making
+ people ill or even dying
+",color=green];
+	191 [label="it is indisputable that every
+ new kind food or pill
+ may be noxious , and
+ scientists must do something to
+ insure that the new invention
+ benefits people instead of making
+ people ill or even dying
+",color=green];
+	227 [label="The new foods or
+ medicines are invented to promote
+ the quantity of human's life
+",color=blue];
+	227 [label="The new foods or
+ medicines are invented to promote
+ the quantity of human's life
+",color=blue];
+	294 [label="the merits
+ of animal experiments still outweigh
+ the demerits",color=green];
+	243 [label="even if they
+ are volunteers ; they cannot
+ take the place of animals
+ to test the new foods
+ or medicines",color=blue];
+	294 [label="the merits
+ of animal experiments still outweigh
+ the demerits",color=green];
+	266 [label="it also have potentially harm
+ for human's health without any
+ testing",color=blue];
+	294 [label="the merits
+ of animal experiments still outweigh
+ the demerits",color=green];
 }

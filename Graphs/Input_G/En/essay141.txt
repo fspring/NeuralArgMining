@@ -14,116 +14,111 @@ digraph G {
 	395 -> 351;
 	395 -> 443;
 	415 -> 443;
-	82 [label="I agree that
- face-to-face communication is better",color=green];
-	101 [label="communicating in person can
- be more convincing",color=blue];
-	101 [label="communicating in person can
- be more convincing",color=blue];
-	210 [label="we can commence to agree
- that communicating with someone in
- person is the best way
-",color=green];
-	109 [label="Sometimes , face-to face communication can
- lead us to convince or
- complain someone successfully , and
- a fitting example can be
- found from my uncle",color=blue];
-	210 [label="we can commence to agree
- that communicating with someone in
- person is the best way
-",color=green];
-	135 [label="He once complained a service
- of a restaurant",color=blue];
-	210 [label="we can commence to agree
- that communicating with someone in
- person is the best way
-",color=green];
-	144 [label="Without exaggeration , he directly went
- to the boss and told
- the boss that something wrong
- occurred on the meal--a fly
- concealed in it",color=blue];
-	210 [label="we can commence to agree
- that communicating with someone in
- person is the best way
-",color=green];
-	169 [label="Afterward , my uncle acquired a
- new service thanks to face-to
- face communication",color=blue];
-	210 [label="we can commence to agree
- that communicating with someone in
- person is the best way
-",color=green];
-	183 [label="If he
- just wrote something to complain
- on the website or by
- telephone , I do not
- think this problem would be
- thought important",color=blue];
-	210 [label="we can commence to agree
- that communicating with someone in
- person is the best way
-",color=green];
-	241 [label="it is easy to
- be deceived without face-to face
+	82 [label="I agree that face-to-face
+ communication is better",color=green];
+	101 [label="communicating in person can be
+ more convincing",color=blue];
+	101 [label="communicating in person can be
+ more convincing",color=blue];
+	210 [label="we can commence to agree that
+ communicating with someone in person
+ is the best way",color=green];
+	109 [label="Sometimes ,
+ face-to face communication can lead
+ us to convince or complain
+ someone successfully , and a
+ fitting example can be found
+ from my uncle",color=blue];
+	210 [label="we can commence to agree that
+ communicating with someone in person
+ is the best way",color=green];
+	135 [label="He once complained a service of
+ a restaurant",color=blue];
+	210 [label="we can commence to agree that
+ communicating with someone in person
+ is the best way",color=green];
+	144 [label="Without exaggeration
+ , he directly went to
+ the boss and told the
+ boss that something wrong occurred
+ on the meal--a fly concealed
+ in it",color=blue];
+	210 [label="we can commence to agree that
+ communicating with someone in person
+ is the best way",color=green];
+	169 [label="Afterward ,
+ my uncle acquired a new
+ service thanks to face-to face
  communication",color=blue];
-	322 [label="we are capable
- of stating that it is
- important to talk to people
- face-to-face",color=green];
-	255 [label="I had received some harmful
- words on facebook from my
- best friend , Eric",color=blue];
-	322 [label="we are capable
- of stating that it is
- important to talk to people
- face-to-face",color=green];
-	270 [label="He said that I was
- totally failed in building a
- good friendship and he did
- not want to be one
- of my friends anymore",color=blue];
-	322 [label="we are capable
- of stating that it is
- important to talk to people
- face-to-face",color=green];
-	295 [label="I just shocked and did
- not know what happened",color=blue];
-	322 [label="we are capable
- of stating that it is
- important to talk to people
- face-to-face",color=green];
-	307 [label="I realized that
- his facebook account was stolen
+	210 [label="we can commence to agree that
+ communicating with someone in person
+ is the best way",color=green];
+	183 [label="If he just
+ wrote something to complain on
+ the website or by telephone
+ , I do not think
+ this problem would be thought
+ important",color=blue];
+	210 [label="we can commence to agree that
+ communicating with someone in person
+ is the best way",color=green];
+	241 [label="it is easy to be
+ deceived without face-to face communication
 ",color=blue];
-	322 [label="we are capable
- of stating that it is
- important to talk to people
- face-to-face",color=green];
-	351 [label="communication by letters ,
- email , or telephone can
- enable them to talk without
- scruple , which is also
- one of the most important
- parts in communication",color=green];
-	395 [label="It is conceivable that before
- we talk , it is
- necessary for us to be
- imprudent about our words",color=blue];
-	395 [label="It is conceivable that before
- we talk , it is
- necessary for us to be
- imprudent about our words",color=blue];
-	443 [label="I prefer
- to express my opinion in
- person",color=green];
-	415 [label="Talking without scruple is not
- the indispensable part in communication
- ; in contrast , it
- is usually detrimental to us
-",color=blue];
-	443 [label="I prefer
- to express my opinion in
- person",color=green];
+	322 [label="we are capable of
+ stating that it is important
+ to talk to people face-to-face
+",color=green];
+	255 [label="I had received some harmful words
+ on facebook from my best
+ friend , Eric",color=blue];
+	322 [label="we are capable of
+ stating that it is important
+ to talk to people face-to-face
+",color=green];
+	270 [label="He said that I was totally
+ failed in building a good
+ friendship and he did not
+ want to be one of
+ my friends anymore",color=blue];
+	322 [label="we are capable of
+ stating that it is important
+ to talk to people face-to-face
+",color=green];
+	295 [label="I just shocked and did not
+ know what happened",color=blue];
+	322 [label="we are capable of
+ stating that it is important
+ to talk to people face-to-face
+",color=green];
+	307 [label="I realized that his
+ facebook account was stolen",color=blue];
+	322 [label="we are capable of
+ stating that it is important
+ to talk to people face-to-face
+",color=green];
+	351 [label="communication by letters , email
+ , or telephone can enable
+ them to talk without scruple
+ , which is also one
+ of the most important parts
+ in communication",color=green];
+	395 [label="It is conceivable that before we
+ talk , it is necessary
+ for us to be imprudent
+ about our words",color=blue];
+	395 [label="It is conceivable that before we
+ talk , it is necessary
+ for us to be imprudent
+ about our words",color=blue];
+	443 [label="I prefer to
+ express my opinion in person
+",color=green];
+	415 [label="Talking without scruple is not the
+ indispensable part in communication ;
+ in contrast , it is
+ usually detrimental to us",color=blue];
+	443 [label="I prefer to
+ express my opinion in person
+",color=green];
 }

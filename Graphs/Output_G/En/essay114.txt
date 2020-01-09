@@ -1,46 +1,54 @@
 digraph G {
-	65 -> 158;
-	83 -> 158;
+	83 -> 57;
+	70 -> 277;
+	83 -> 277;
 	110 -> 158;
-	141 -> 158;
-	163 -> 277;
-	231 -> 277;
+	131 -> 158;
+	141 -> 277;
+	163 -> 158;
+	187 -> 277;
 	257 -> 277;
-	65 [label="no one can argue that technological
- tools are must-haves for the
- classroom of today",color=blue];
-	158 [label="children need human
- interactions",color=green];
+	57 [label="computers need to be
+ operated by people",color=green];
 	83 [label="lessons are more
  attractive and easier to understand
  when they are put on
  a power point presentation and
  then presented with a lcd
  projector",color=blue];
-	158 [label="children need human
- interactions",color=green];
+	70 [label="technological tools are must-haves for the
+ classroom of today",color=blue];
+	277 [label="there can be no
+ school without a teacher",color=green];
+	83 [label="lessons are more
+ attractive and easier to understand
+ when they are put on
+ a power point presentation and
+ then presented with a lcd
+ projector",color=blue];
+	277 [label="there can be no
+ school without a teacher",color=green];
 	110 [label="scientists prove that every classroom needs
  trained staff to use these
  interactive and innovative ways of
  teaching",color=blue];
 	158 [label="children need human
  interactions",color=green];
+	131 [label="nowadays the learning process benefits
+ greatly from computers",color=blue];
+	158 [label="children need human
+ interactions",color=green];
 	141 [label="they are just tools for
  teachers and they cannot work
  properly without human's touch",color=blue];
+	277 [label="there can be no
+ school without a teacher",color=green];
 	158 [label="children need human
  interactions",color=green];
 	163 [label="no matter how
- advanced technology will be ,
- it is clear that a
- computer will never be able
- to communicate with its pupils
-",color=blue];
-	277 [label="there can be no
- school without a teacher",color=green];
-	231 [label="without someone who can explain
- and understand their problems ,
- pupils cannot actually learn'",color=blue];
+ advanced technology will be",color=blue];
+	187 [label="as a recent interview
+ with josh trumm –",color=blue];
 	277 [label="there can be no
  school without a teacher",color=green];
 	257 [label="only a teacher can

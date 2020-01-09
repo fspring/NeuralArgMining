@@ -15,110 +15,113 @@ digraph G {
 	258 -> 324;
 	290 -> 324;
 	299 -> 324;
-	35 [label="standardized tests are valuable option
- for educational system as long
- as it would help teachers
- to know if the students
- are really getting knowledge",color=green];
-	71 [label="they help teachers to
- fairly grade the students",color=blue];
-	62 [label="standardized tests are
- preferable",color=green];
-	71 [label="they help teachers to
- fairly grade the students",color=blue];
-	71 [label="they help teachers to
- fairly grade the students",color=blue];
-	324 [label="schools which obligate their students to
- take standardized tests are right
+	35 [label="standardized tests are valuable option for
+ educational system as long as
+ it would help teachers to
+ know if the students are
+ really getting knowledge",color=green];
+	71 [label="they help teachers to fairly
+ grade the students",color=blue];
+	62 [label="standardized tests are preferable
 ",color=green];
-	82 [label="some students are
- not so active on the
- lessons , cause they are
- already familiar with the issue
+	71 [label="they help teachers to fairly
+ grade the students",color=blue];
+	71 [label="they help teachers to fairly
+ grade the students",color=blue];
+	324 [label="schools which
+ obligate their students to take
+ standardized tests are right",color=green];
+	82 [label="some students are not
+ so active on the lessons
+ , cause they are already
+ familiar with the issue",color=blue];
+	324 [label="schools which
+ obligate their students to take
+ standardized tests are right",color=green];
+	103 [label="exams could be
+ the only way for teachers
+ to see the real abilities
+ of those students",color=blue];
+	324 [label="schools which
+ obligate their students to take
+ standardized tests are right",color=green];
+	123 [label="many teachers rely
+ only on the exam results
+ while grading the class",color=blue];
+	324 [label="schools which
+ obligate their students to take
+ standardized tests are right",color=green];
+	137 [label="the usage of standardized
+ tests is the superior option
+ for them",color=blue];
+	324 [label="schools which
+ obligate their students to take
+ standardized tests are right",color=green];
+	151 [label="standardized tests can be good
+ chance for students to apply
+ their knowledge on practice",color=blue];
+	209 [label="schools should
+ require students to take standardized
+ tests , as long as
+ this option helps to both
+ sides",color=green];
+	168 [label="some students may
+ get used to simply rewriting
+ solved problems from the blackboard
 ",color=blue];
-	324 [label="schools which obligate their students to
- take standardized tests are right
-",color=green];
-	103 [label="exams could
- be the only way for
- teachers to see the real
- abilities of those students",color=blue];
-	324 [label="schools which obligate their students to
- take standardized tests are right
-",color=green];
-	123 [label="many teachers
- rely only on the exam
- results while grading the class
-",color=blue];
-	324 [label="schools which obligate their students to
- take standardized tests are right
-",color=green];
-	137 [label="the usage of
- standardized tests is the superior
- option for them",color=blue];
-	324 [label="schools which obligate their students to
- take standardized tests are right
-",color=green];
-	151 [label="standardized tests can be
- good chance for students to
- apply their knowledge on practice
-",color=blue];
-	209 [label="schools should require students to take
- standardized tests , as long
- as this option helps to
- both sides",color=green];
-	168 [label="some students
- may get used to simply
- rewriting solved problems from the
- blackboard",color=blue];
-	209 [label="schools should require students to take
- standardized tests , as long
- as this option helps to
- both sides",color=green];
-	183 [label="they will
- never try to solve problems
- on their own",color=blue];
-	209 [label="schools should require students to take
- standardized tests , as long
- as this option helps to
- both sides",color=green];
-	196 [label="standardized tests offer them
- such chance",color=blue];
-	209 [label="schools should require students to take
- standardized tests , as long
- as this option helps to
- both sides",color=green];
-	233 [label="requirement to
- take standardized tests is the
- right choice",color=green];
-	244 [label="in this case teachers can compare
- the level of knowledge of
- different students",color=blue];
-	244 [label="in this case teachers can compare
- the level of knowledge of
- different students",color=blue];
-	324 [label="schools which obligate their students to
- take standardized tests are right
-",color=green];
-	258 [label="In any
- class there will be students
- who will show low academic
- performance , so teachers could
- work with them more intensively
-",color=blue];
-	324 [label="schools which obligate their students to
- take standardized tests are right
-",color=green];
-	290 [label="standardized tests are required over
- those who donâ€™t",color=blue];
-	324 [label="schools which obligate their students to
- take standardized tests are right
-",color=green];
-	299 [label="if the teacher would know the
- level of each student he
- would fairly share his time
- to all of them",color=blue];
-	324 [label="schools which obligate their students to
- take standardized tests are right
-",color=green];
+	209 [label="schools should
+ require students to take standardized
+ tests , as long as
+ this option helps to both
+ sides",color=green];
+	183 [label="they will never
+ try to solve problems on
+ their own",color=blue];
+	209 [label="schools should
+ require students to take standardized
+ tests , as long as
+ this option helps to both
+ sides",color=green];
+	196 [label="standardized tests offer them such
+ chance",color=blue];
+	209 [label="schools should
+ require students to take standardized
+ tests , as long as
+ this option helps to both
+ sides",color=green];
+	233 [label="requirement to take
+ standardized tests is the right
+ choice",color=green];
+	244 [label="in this
+ case teachers can compare the
+ level of knowledge of different
+ students",color=blue];
+	244 [label="in this
+ case teachers can compare the
+ level of knowledge of different
+ students",color=blue];
+	324 [label="schools which
+ obligate their students to take
+ standardized tests are right",color=green];
+	258 [label="In any class
+ there will be students who
+ will show low academic performance
+ , so teachers could work
+ with them more intensively",color=blue];
+	324 [label="schools which
+ obligate their students to take
+ standardized tests are right",color=green];
+	290 [label="standardized tests are required over those
+ who don’t",color=blue];
+	324 [label="schools which
+ obligate their students to take
+ standardized tests are right",color=green];
+	299 [label="if the
+ teacher would know the level
+ of each student he would
+ fairly share his time to
+ all of them",color=blue];
+	324 [label="schools which
+ obligate their students to take
+ standardized tests are right",color=green];
 }

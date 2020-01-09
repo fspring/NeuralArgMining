@@ -53,7 +53,7 @@ sua (I)    0.000
 família (I)    0.000
 política (I)    0.000
 . (O)    0.000
-soares (P)  685.000
+soares (P)    0.000
 nunca (I)    0.000
 deixou (I)    0.000
 de (I)    0.000

@@ -12,101 +12,102 @@ digraph G {
 	197 -> 262;
 	219 -> 262;
 	234 -> 262;
-	0 [label="I prefer the serious movies
- which are simple , touching
- and powerful",color=green];
-	30 [label="Entertaining movies are created to
- amuse people",color=blue];
-	20 [label="most serious movies have a
- wide variety of content",color=green];
-	30 [label="Entertaining movies are created to
- amuse people",color=blue];
-	30 [label="Entertaining movies are created to
- amuse people",color=blue];
-	281 [label="I prefer to see
- those serious movies which make
- people have deep thoughts toward
- their real lives",color=green];
-	40 [label="most entertaining movies are empty
- and nonsensical",color=blue];
-	281 [label="I prefer to see
- those serious movies which make
- people have deep thoughts toward
- their real lives",color=green];
-	48 [label="Compared with
- the entertainment film , the
- serious film may be more
- worthwhile and meaningful",color=blue];
-	281 [label="I prefer to see
- those serious movies which make
- people have deep thoughts toward
- their real lives",color=green];
-	64 [label="Serious movies usually designed to express
- one or more thinking about
- love , humaneness",color=blue];
-	281 [label="I prefer to see
- those serious movies which make
- people have deep thoughts toward
- their real lives",color=green];
-	81 [label="it may point out
- the dark sides of the
- society",color=blue];
-	281 [label="I prefer to see
- those serious movies which make
- people have deep thoughts toward
- their real lives",color=green];
-	102 [label=""Click" is a
- very interesting comedy , with
- a serious approach about the
- importance of having a balanced
- life between family and work
- businesses",color=blue];
-	159 [label="the hidden meanings of serious movies
- are usually beyond words and
- images which make us think
- about ourselves",color=green];
-	127 [label="The movie is
- humorous and satiric ,which leads
- us to think what is
- the most valuable of our
- lives , and it reminds
- us how important our families
- are",color=blue];
-	159 [label="the hidden meanings of serious movies
- are usually beyond words and
- images which make us think
- about ourselves",color=green];
-	180 [label="some of serious movies try
- to make you think about
- the dark sides of the
- world",color=blue];
-	262 [label="serious movie tell
- you how to see the
- world in a different way
-",color=green];
-	197 [label=""Blood diamond" ,
- an adaptation of a real
- story in South Africa ,
- focuses on the link between
- diamonds and conflict",color=blue];
-	262 [label="serious movie tell
- you how to see the
- world in a different way
-",color=green];
-	219 [label="After watching the movie , we
- may learn a lesson between
- jewels and death",color=blue];
-	262 [label="serious movie tell
- you how to see the
- world in a different way
-",color=green];
-	234 [label="Diamonds are not rare or a
- sign of true love ;
- indeed , the hidden meaning
- of a diamond is a
- cruel reality",color=blue];
-	262 [label="serious movie tell
- you how to see the
- world in a different way
-",color=green];
+	0 [label="I prefer the serious movies which
+ are simple , touching and
+ powerful",color=green];
+	30 [label="Entertaining movies are created to amuse
+ people",color=blue];
+	20 [label="most serious movies have a wide
+ variety of content",color=green];
+	30 [label="Entertaining movies are created to amuse
+ people",color=blue];
+	30 [label="Entertaining movies are created to amuse
+ people",color=blue];
+	281 [label="I prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
+	40 [label="most entertaining movies are empty and
+ nonsensical",color=blue];
+	281 [label="I prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
+	48 [label="Compared with the
+ entertainment film , the serious
+ film may be more worthwhile
+ and meaningful",color=blue];
+	281 [label="I prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
+	64 [label="Serious movies
+ usually designed to express one
+ or more thinking about love
+ , humaneness",color=blue];
+	281 [label="I prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
+	81 [label="it may point out the
+ dark sides of the society
+",color=blue];
+	281 [label="I prefer to see those
+ serious movies which make people
+ have deep thoughts toward their
+ real lives",color=green];
+	102 [label="Click is a very
+ interesting comedy , with a
+ serious approach about the importance
+ of having a balanced life
+ between family and work businesses
+",color=blue];
+	159 [label="the hidden
+ meanings of serious movies are
+ usually beyond words and images
+ which make us think about
+ ourselves",color=green];
+	127 [label="The movie is humorous
+ and satiric ,which leads us
+ to think what is the
+ most valuable of our lives
+ , and it reminds us
+ how important our families are
+",color=blue];
+	159 [label="the hidden
+ meanings of serious movies are
+ usually beyond words and images
+ which make us think about
+ ourselves",color=green];
+	180 [label="some of serious movies try to
+ make you think about the
+ dark sides of the world
+",color=blue];
+	262 [label="serious movie tell you
+ how to see the world
+ in a different way",color=green];
+	197 [label="Blood diamond , an
+ adaptation of a real story
+ in South Africa , focuses
+ on the link between diamonds
+ and conflict",color=blue];
+	262 [label="serious movie tell you
+ how to see the world
+ in a different way",color=green];
+	219 [label="After watching
+ the movie , we may
+ learn a lesson between jewels
+ and death",color=blue];
+	262 [label="serious movie tell you
+ how to see the world
+ in a different way",color=green];
+	234 [label="Diamonds are
+ not rare or a sign
+ of true love ; indeed
+ , the hidden meaning of
+ a diamond is a cruel
+ reality",color=blue];
+	262 [label="serious movie tell you
+ how to see the world
+ in a different way",color=green];
 }

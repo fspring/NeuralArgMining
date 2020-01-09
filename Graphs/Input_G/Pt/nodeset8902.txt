@@ -2,16 +2,16 @@ digraph G {
 	8 -> 0;
 	44 -> 27;
 	0 [label="A narrativa orçamental do governo não
- pegou .",color=green];
+ pegou",color=green];
 	8 [label="Pouca gente parece
  disposta à suspensão da descrença
 ",color=blue];
 	27 [label="Mário Centeno devia ter
  lido menos J .M .
  Keynes e mais H .P
- . Lovecraft .",color=green];
+ . Lovecraft",color=green];
 	44 [label="Algures ,
  Lovecraft explica que no género
  fantástico é um erro exagerar
- na fantasia .",color=blue];
+ na fantasia",color=blue];
 }

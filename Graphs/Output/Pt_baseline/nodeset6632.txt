@@ -159,7 +159,7 @@ próximos (O)    0.000
 cinco (O)    0.000
 anos (O)    0.000
 . (O)    0.000
-médicos (P)  579.000
+médicos (P)    0.000
 de (I)    0.000
 todo (I)    0.000
 o (I)    0.000
@@ -174,10 +174,10 @@ quatro (I)    0.000
 vagas (I)    0.000
 para (I)    0.000
 subespecialistas (I)    0.000
-nas (O)    0.000
-áreas (O)    0.000
-de (O)    0.000
-medicina (O)    0.000
+nas (I)    0.000
+áreas (I)    0.000
+de (I)    0.000
+medicina (I)    0.000
 intensiva (O)    0.000
 e (O)    0.000
 as (O)    0.000

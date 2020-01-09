@@ -17,7 +17,7 @@ funciona (I)    0.000
 . (O)    0.000
 não (O)    0.000
 só (O)    0.000
-muitos (P)  721.000
+muitos (P)    0.000
 desses (I)    0.000
 países (I)    0.000
 , (I)    0.000
@@ -32,9 +32,9 @@ não (I)    0.000
 aceitam (I)    0.000
 essa (I)    0.000
 solução (I)    0.000
-, (I)    0.000
+, (O)    0.000
 como (O)    0.000
-os (P)  704.000
+os (P)    0.000
 próprios (I)    0.000
 refugiados (I)    0.000
 também (I)    0.000

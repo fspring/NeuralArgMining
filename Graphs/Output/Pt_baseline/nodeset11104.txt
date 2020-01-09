@@ -15,7 +15,7 @@ a (I)    0.000
 destruir (I)    0.000
 o (I)    0.000
 que (I)    0.000
-é (P)  723.000
+é (I)    0.000
 suposto (I)    0.000
 ser (I)    0.000
 o (I)    0.000
@@ -24,12 +24,12 @@ educativo (I)    0.000
 , (O)    0.000
 já (O)    0.000
 que (O)    0.000
-as (P)  714.000
+as (P)    0.000
 escolas (I)    0.000
 tinham (I)    0.000
 deixado (I)    0.000
-de (O)    0.000
-ensinar (O)    0.000
+de (I)    0.000
+ensinar (I)    0.000
 e (O)    0.000
 passaram (O)    0.000
 a (O)    0.000

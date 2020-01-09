@@ -1,31 +1,40 @@
 digraph G {
-	62 -> 104;
-	118 -> 133;
-	124 -> 133;
+	104 -> 162;
+	118 -> 162;
+	124 -> 162;
+	133 -> 162;
 	142 -> 162;
-	188 -> 209;
-	62 [label="as a result of
- the rapid urbanization process ,
- in which rural people must
- go to urban centers to
- look for job opportunities ,
- the question of the preservation
- of old buildings has become
- more pressing",color=blue];
 	104 [label="governments can
  construct more accommodation instead of
- preserving old buildings",color=green];
+ preserving old buildings",color=blue];
+	162 [label="managers of cities can
+ earn more money from the
+ attraction provided by old buildings
+ and that amount can be
+ spent on their conservation",color=green];
 	118 [label="the preservation is
  very expensive",color=blue];
-	133 [label="old buildings are
- an essential part of history
-",color=green];
+	162 [label="managers of cities can
+ earn more money from the
+ attraction provided by old buildings
+ and that amount can be
+ spent on their conservation",color=green];
 	124 [label="all components
  of old buildings have historical
  values",color=blue];
+	162 [label="managers of cities can
+ earn more money from the
+ attraction provided by old buildings
+ and that amount can be
+ spent on their conservation",color=green];
 	133 [label="old buildings are
  an essential part of history
-",color=green];
+",color=blue];
+	162 [label="managers of cities can
+ earn more money from the
+ attraction provided by old buildings
+ and that amount can be
+ spent on their conservation",color=green];
 	142 [label="tourist often decide to
  discover the culture of a
  country when they visit through
@@ -35,14 +44,4 @@ digraph G {
  attraction provided by old buildings
  and that amount can be
  spent on their conservation",color=green];
-	188 [label="the preservation of
- old buildings is also a
- ways to conserve our culture
- and everyone can learn much
- from them",color=blue];
-	209 [label="old buildings
- should be used as the
- culture museums and provide accommodation
- with more convenient for people
- who live there",color=green];
 }

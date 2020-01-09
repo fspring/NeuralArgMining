@@ -26,7 +26,7 @@ de (I)    0.000
 boa (I)    0.000
 saúde (I)    0.000
 . (O)    0.000
-o (P)  712.000
+o (P)    0.000
 programa (I)    0.000
 do (I)    0.000
 governo (I)    0.000

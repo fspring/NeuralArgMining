@@ -51,7 +51,7 @@ hundreds (I)    0.000
 of (I)    0.000
 years (I)    0.000
 . (O)    0.000
-in (P)   97.000
+in (P)   82.000
 the (I)    0.000
 modern (I)    0.000
 world (I)    0.000
@@ -61,7 +61,7 @@ are (I)    0.000
 used (I)    0.000
 everywhere (I)    0.000
 . (O)    0.000
-right (P)   87.000
+right (P)   72.000
 from (I)    0.000
 flying (I)    0.000
 planes (I)    0.000
@@ -75,7 +75,7 @@ computers (I)    0.000
 are (I)    0.000
 needed (I)    0.000
 . (O)    0.000
-they (P)   73.000
+they (P)   58.000
 are (I)    0.000
 used (I)    0.000
 in (I)    0.000
@@ -91,7 +91,7 @@ and (I)    0.000
 so (I)    0.000
 on (I)    0.000
 . (O)    0.000
-computers (P)   57.000
+computers (P)   42.000
 have (I)    0.000
 made (I)    0.000
 human (I)    0.000
@@ -107,7 +107,7 @@ fast (I)    0.000
 for (O)    0.000
 example (O)    0.000
 , (O)    0.000
-in (P)   41.000
+in (P)   26.000
 earlier (I)    0.000
 days (I)    0.000
 , (I)    0.000
@@ -131,9 +131,9 @@ take (I)    0.000
 months (I)    0.000
 . (O)    0.000
 but (O)    0.000
-today (P)   17.000
-, (I)    0.000
-it (I)    0.000
+today (O)    0.000
+, (O)    0.000
+it (C)    0.000
 can (I)    0.000
 be (I)    0.000
 sent (I)    0.000
@@ -148,7 +148,7 @@ and (I)    0.000
 few (I)    0.000
 clicks (I)    0.000
 . (O)    0.000
-computers (C)    0.000
+computers (P)   26.000
 provide (I)    0.000
 speed (I)    0.000
 , (I)    0.000
@@ -368,11 +368,11 @@ provided (I)    0.000
 security (I)    0.000
 and (I)    0.000
 sophistication (I)    0.000
-too (O)    0.000
+too (I)    0.000
 . (O)    0.000
 thus (O)    0.000
 , (O)    0.000
-dependence (C)    0.000
+dependence (P)    0.000
 on (I)    0.000
 computers (I)    0.000
 is (I)    0.000

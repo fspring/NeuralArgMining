@@ -26,12 +26,12 @@ da (O)    0.000
 sua (O)    0.000
 vida (O)    0.000
 . (O)    0.000
-o (P)   42.000
+o (P)    5.000
 cigarro (I)    0.000
 é-lhes (I)    0.000
 vital (I)    0.000
 porque (O)    0.000
-sempre (P)   37.000
+sempre (C)    0.000
 os (I)    0.000
 ajudou (I)    0.000
 , (I)    0.000
@@ -60,7 +60,7 @@ tempos (I)    0.000
 de (I)    0.000
 alegria (I)    0.000
 . (O)    0.000
-fumar (P)    8.000
+fumar (O)    0.000
 , (O)    0.000
 para (O)    0.000
 estas (O)    0.000
@@ -69,9 +69,9 @@ estes (O)    0.000
 , (O)    0.000
 tornou-se (O)    0.000
 tão (C)    0.000
-essencial (O)    0.000
-como (O)    0.000
-respirar (O)    0.000
+essencial (I)    0.000
+como (I)    0.000
+respirar (I)    0.000
 . (O)    0.000
 por (O)    0.000
 incrível (O)    0.000
@@ -229,7 +229,7 @@ e (O)    0.000
 qualquer (O)    0.000
 fumador (O)    0.000
 . (O)    0.000
-não (P)  509.000
+não (O)    0.000
 há (O)    0.000
 advertência (O)    0.000
 pela (O)    0.000

@@ -3,7 +3,7 @@ digraph G {
 	0 [label="Rebelo de Sousa foi o único
  candidato que percebeu que deveria
  fazer campanha para uma maioria
- de indiferentes .",color=green];
+ de indiferentes",color=green];
 	19 [label="Todos os
  outros candidatos apenas os outros
  5 que contam ; o

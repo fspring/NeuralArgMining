@@ -39,8 +39,8 @@ near (I)    0.000
 the (I)    0.000
 ideal (I)    0.000
 goal (I)    0.000
-mentioned (O)    0.000
-before (O)    0.000
+mentioned (I)    0.000
+before (I)    0.000
 . (O)    0.000
 i (O)    0.000
 am (O)    0.000
@@ -189,10 +189,10 @@ he (I)    0.000
 is (I)    0.000
 working (I)    0.000
 . (O)    0.000
-most (O)    0.000
-importantly (O)    0.000
-, (O)    0.000
-people (P)   80.000
+most (P)   83.000
+importantly (I)    0.000
+, (I)    0.000
+people (I)    0.000
 prone (I)    0.000
 to (I)    0.000
 work (I)    0.000
@@ -247,8 +247,8 @@ a (I)    0.000
 lot (I)    0.000
 of (I)    0.000
 money (I)    0.000
-, (O)    0.000
-i (P)   24.000
+, (I)    0.000
+i (I)    0.000
 am (I)    0.000
 working (I)    0.000
 in (I)    0.000
@@ -383,7 +383,7 @@ work (I)    0.000
 faster (I)    0.000
 even (I)    0.000
 more (I)    0.000
-risky (O)    0.000
+risky (I)    0.000
 . (O)    0.000
 gaining (C)    0.000
 more (I)    0.000

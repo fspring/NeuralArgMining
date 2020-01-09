@@ -143,7 +143,7 @@ condition (I)    0.000
 . (O)    0.000
 moreover (O)    0.000
 , (O)    0.000
-the (P)   25.000
+the (P)   90.000
 arrival (I)    0.000
 of (I)    0.000
 technology (I)    0.000
@@ -168,7 +168,7 @@ named (O)    0.000
 "technological (O)    0.000
 unemployment" (O)    0.000
 . (O)    0.000
-north (C)    0.000
+north (P)   65.000
 american (I)    0.000
 economists (I)    0.000
 have (I)    0.000

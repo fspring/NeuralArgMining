@@ -1,9 +1,7 @@
 digraph G {
+	52 -> 28;
 	52 -> 140;
-	66 -> 140;
 	77 -> 140;
-	88 -> 140;
-	121 -> 140;
 	127 -> 140;
 	173 -> 311;
 	187 -> 311;
@@ -11,36 +9,23 @@ digraph G {
 	210 -> 311;
 	228 -> 311;
 	260 -> 311;
-	299 -> 311;
+	28 [label="it's better to
+ have one or two close
+ friends than to have a
+ large number of casual acquaintances
+",color=green];
+	52 [label="being a friend with
+ someone is different from only
+ being acquaintant",color=blue];
 	52 [label="being a friend with
  someone is different from only
  being acquaintant",color=blue];
 	140 [label="it's much easier to have some
  casual acquaintances than have some
  close friends",color=green];
-	66 [label="it's not easy to make
- friend with anyone",color=blue];
-	140 [label="it's much easier to have some
- casual acquaintances than have some
- close friends",color=green];
 	77 [label="friends are people who
  have great compatibility with each
  other",color=blue];
-	140 [label="it's much easier to have some
- casual acquaintances than have some
- close friends",color=green];
-	88 [label="after two years
- in college i have found
- sometimes there is more differences
- between people than similarities ,
- for we are growing in
- the different families and was
- educated in various ways",color=blue];
-	140 [label="it's much easier to have some
- casual acquaintances than have some
- close friends",color=green];
-	121 [label="sometimes acquaintances are just acquaintances
-",color=blue];
 	140 [label="it's much easier to have some
  casual acquaintances than have some
  close friends",color=green];
@@ -87,11 +72,6 @@ digraph G {
  him back , but not
  stand and stare like it's
  not of my business",color=blue];
-	311 [label="a friend is a person
- you care about",color=green];
-	299 [label="my friend
- will do the same to
- me",color=blue];
 	311 [label="a friend is a person
  you care about",color=green];
 }
