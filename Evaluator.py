@@ -12,11 +12,12 @@ class Evaluator:
     def empty_cvscores(self):
         #[acc, [precision[class], recall[class], f1[class]],[100_correct],[75_correct],[50_correct]]
         #percent_correct: [acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]
+        #dist: [acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]
         empty_avg = list(map(float,np.zeros(self.num_tags - 1)))
         # nr_measures = 1 + 3*(self.num_tags-1)
         empty_corr = list(map(float,np.zeros(self.num_measures)))
         cvscores = [0, [copy.deepcopy(empty_avg), copy.deepcopy(empty_avg), copy.deepcopy(empty_avg)],
-                        copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr)]
+                        copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr)]
 
         return cvscores
 
@@ -30,16 +31,21 @@ class Evaluator:
             current_pos = -1
             prev_tag = -1
 
+            is_premise = False
+            is_claim = False
+
             text_size = len(text)
 
             for i in range(0, text_size):
                 tag = text[i]
-                if tag == 1: #should not exist
-                    illegal_i += 1
+                if tag == 1:
+                    if prev_tag == 2:
+                        illegal_i += 1
+                    current_pos = i
                 elif tag == 2:
                     if tag != prev_tag: #first non-arg token
                         if start_pos >= 0 and current_pos >= 0 and prev_tag >= 0:
-                            text_spans[start_pos] = current_pos
+                            text_spans[start_pos] = current_pos #record prev span
                         start_pos = i
                         current_pos = i
                         prev_tag = tag
@@ -47,25 +53,17 @@ class Evaluator:
                         current_pos = i
                         prev_tag = tag
                 elif tag == 3:
-                    if tag != prev_tag: #first premise token
-                        if start_pos >= 0 and current_pos >= 0 and prev_tag >= 0:
-                            text_spans[start_pos] = current_pos
-                        start_pos = i
-                        current_pos = i
-                        prev_tag = tag
-                    else:
-                        current_pos = i
-                        prev_tag = tag
+                    if start_pos >= 0 and current_pos >= 0 and prev_tag >= 0:
+                        text_spans[start_pos] = current_pos #record prev span
+                    start_pos = i
+                    current_pos = i
+                    prev_tag = tag
                 elif tag == 4:
-                    if tag != prev_tag: #first claim token
-                        if start_pos >= 0 and current_pos >= 0 and prev_tag >= 0:
-                            text_spans[start_pos] = current_pos
-                        start_pos = i
-                        current_pos = i
-                        prev_tag = tag
-                    else:
-                        current_pos = i
-                        prev_tag = tag
+                    if start_pos >= 0 and current_pos >= 0 and prev_tag >= 0:
+                        text_spans[start_pos] = current_pos #record prev span
+                    start_pos = i
+                    current_pos = i
+                    prev_tag = tag
 
             spans.append(text_spans)
         if illegal_i > 0:
@@ -144,9 +142,6 @@ class Evaluator:
 
                 iteration += 1
 
-
-
-
         true_all = 0
         all_N = 0
         for i in range(0, self.num_tags):
@@ -162,6 +157,7 @@ class Evaluator:
             if ((precision[i] + recall[i]) != 0):
                 f1[i] = 2 * ((precision[i] * recall[i]) / (precision[i] + recall[i]))
 
+        print('SPAN EVAL')
         premise_index = self.tags.index('(P)')
         claim_index = self.tags.index('(C)')
         print('Accuracy at ' + str(threshold) + ' - ' + str(round(accuracy, 3)))
@@ -214,6 +210,7 @@ class Evaluator:
             recall.append(np.pad(scores[1], (0,(nr_classes - len(scores[0]))), 'constant'))
             f1.append(np.pad(scores[2], (0,(nr_classes - len(scores[0]))), 'constant'))
 
+        print('TAG EVAL')
         print("Accuracy = %.3f%% (+/- %.3f%%)" % (np.mean(accuracy), np.std(accuracy)))
         precision = self.prettyPrintScore(precision, 'Precision')
         recall = self.prettyPrintScore(recall, 'Recall')
@@ -221,22 +218,130 @@ class Evaluator:
 
         return [precision, recall, f1]
 
-    def dist_eval(self, y_pred_dist, y_test_dist, y_test_class, unencodedY):
-        nr_files = len(y_test_dist)
-        tp = [0]*self.num_tags
-        n = [0]*self.num_tags
-        for i in range(0, nr_files):
-            text_size = len(np.trim_zeros(unencodedY[i]))
-            for j in range(0, text_size):
-                pred = round(y_pred_dist[i][j][0])
-                tag = np.argmax(y_test_class[i][j])
-                n[tag] += 1
-                if int(pred) == int(y_test_dist[i][j][0]):
-                    tp[tag] += 1
+    def spans_to_graphs(self, tag_spans, spans_dict_list, all_dists):
+        all_graphs = []
+        for i in range(0, len(spans_dict_list)): #each text
+            graph = {} #{span_start:[linked_span_start1, linked_span_start2, ...]}
+            spans_dict = spans_dict_list[i]
+            for start, end in spans_dict.items():
+                tag = tag_spans[i][start]
+                dist = all_dists[i][start][0]
+                link = start + dist
+                if tag == 4: #is claim
+                    if link in graph.keys():
+                        if start not in graph[link]: # unique links only
+                            graph[link].append(start) # claims have only incomming edges
+                        if link in graph[link]:
+                            graph[link].remove(link) # destination premise no longer points to itself
+                    else:
+                        graph[link] = [start]
+                    graph[start] = [start]
+                elif tag == 3: #is premise
+                    if start in graph.keys():
+                        if link != start and link not in graph[start]: # unique links only
+                            graph[start].append(link)
+                    else:
+                        graph[start] = [link]
+                elif tag == 2: #is non-arg
+                    graph[start] = [start]
+            all_graphs.append(graph)
+        return all_graphs
+
+
+    def edge_closure(self, tag_spans, spans_dict_list, all_dists):
+        graph_dict_list = self.spans_to_graphs(tag_spans, spans_dict_list, all_dists)
+        all_closures = []
+        for i in range(0, len(spans_dict_list)): #each text
+            graph = graph_dict_list[i]
+            unchanged = False
+            while not unchanged:
+                list_changed = False
+                for node, link_list in graph.items():
+                    all_links = link_list
+                    for link in link_list:
+                        if link in graph.keys():
+                            for sec_link in graph[link]:
+                                if sec_link not in all_links:
+                                    list_changed = True
+                                    all_links.append(sec_link)
+                    graph[node] = all_links
+                if not list_changed:
+                    unchanged = True
+            all_closures.append(graph)
+        return all_closures
+
+    def dist_eval(self, pred_spans, true_spans, all_pred_dist, all_true_dist):
+        true_spans_dict_list = self.spanCreator(true_spans)
+        pred_spans_dict_list = self.spanCreator(pred_spans)
+
+        true_spans_closure = self.edge_closure(true_spans, true_spans_dict_list, all_true_dist)
+        pred_spans_closure = self.edge_closure(pred_spans, pred_spans_dict_list, all_pred_dist)
+
+        empty = list(map(float,np.zeros(self.num_tags)))
+
+        precision = copy.deepcopy(empty)
+        recall = copy.deepcopy(empty)
+        f1 = copy.deepcopy(empty)
+
+        selected_spans = copy.deepcopy(empty) # predicted number of premises and claims
+        relevant_spans = copy.deepcopy(empty) # total number of premises and claims
+
+        true_positives = copy.deepcopy(empty) # number of correctly predicted premises and claims
+
+        for i in range(0, len(true_spans_dict_list)): #for each text
+            iteration = 0
+            for true_start, true_link_list in true_spans_closure[i].items():
+                true_tag = true_spans[i][true_start]
+                true_end = true_spans_dict_list[i][true_start]
+
+                relevant_spans[true_tag - 1] += len(true_link_list)
+
+                for pred_start, pred_link_list in pred_spans_closure[i].items():
+                    pred_tag = pred_spans[i][pred_start]
+                    pred_end = pred_spans_dict_list[i][pred_start]
+
+                    if iteration == 0:
+                        selected_spans[pred_tag - 1] += len(pred_link_list)
+
+                    if true_start == pred_start and true_end == pred_end: #exact same span
+                        if pred_tag == true_tag: #same tag
+                            for pred_link in pred_link_list:
+                                if pred_link in true_link_list:
+                                    true_positives[true_tag - 1] += 1
+
+                iteration += 1
+
+        true_all = 0
+        all_N = 0
         for i in range(0, self.num_tags):
-            print('======', self.tags[i], '======')
-            print('Correct distances:', tp[i], '------- Ratio', tp[i]/n[i], '\n')
-        return (tp, n)
+            true_all += true_positives[i]
+            all_N += relevant_spans[i]
+        accuracy = true_all / all_N
+
+        for i in range(0, self.num_tags):
+            if (selected_spans[i] != 0):
+                precision[i] = (true_positives[i] / selected_spans[i])
+            if (relevant_spans[i] != 0):
+                recall[i] = (true_positives[i] / relevant_spans[i])
+            if ((precision[i] + recall[i]) != 0):
+                f1[i] = 2 * ((precision[i] * recall[i]) / (precision[i] + recall[i]))
+
+        print('DIST SPAN EVAL')
+        premise_index = self.tags.index('(P)')
+        claim_index = self.tags.index('(C)')
+        print('Accuracy - ' + str(round(accuracy, 3)))
+        print('Precision for premises - ' + str(round(precision[premise_index], 3)))
+        print('Precision for claims - ' + str(round(precision[claim_index], 3)))
+        print('Recall for premises - ' + str(round(recall[premise_index], 3)))
+        print('Recall for claims - ' + str(round(recall[claim_index], 3)))
+        print('F1 for premises - ' + str(round(f1[premise_index], 3)))
+        print('F1 for claims - ' + str(round(f1[claim_index], 3)))
+
+        ret = [round(accuracy, 4),round(precision[premise_index], 4),round(precision[claim_index], 4),round(recall[premise_index], 4),
+            round(recall[claim_index], 4),round(f1[premise_index], 4),round(f1[claim_index], 4)]
+        return ret
+
+
 
     def handleScores(self, oldScores, newScores, nFolds):
         newAccuracy = oldScores[0] + (newScores[0] / nFolds)
@@ -251,6 +356,8 @@ class Evaluator:
         newSpanAt075Scores = list(map(float,np.zeros(self.num_measures)))
         newSpanAt050Scores = list(map(float,np.zeros(self.num_measures)))
 
+        new_dist_scores = list(map(float,np.zeros(self.num_measures)))
+
         for i in range(0, 3):
             # for j in range(0, self.num_tags):
                 # newTagScores[i][j] = oldScores[1][i][j] + (newScores[1][i][j] / nFolds)
@@ -261,12 +368,16 @@ class Evaluator:
             newSpanAt075Scores[j] = oldScores[3][j] + (newScores[3][j] / nFolds)
         for j in range(0, self.num_measures):
             newSpanAt050Scores[j] = oldScores[4][j] + (newScores[4][j] / nFolds)
+        for j in range(0, self.num_measures):
+            new_dist_scores[j] = oldScores[5][j] + (newScores[5][j] / nFolds)
 
             #[acc, [precision[class], recall[class], f1[class]], --> avgs
             #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 100
             #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 75
             #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> at 50
-        return [newAccuracy, newTagScores, newSpanAt1Scores, newSpanAt075Scores, newSpanAt050Scores]
+            #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> dist
+
+        return [newAccuracy, newTagScores, newSpanAt1Scores, newSpanAt075Scores, newSpanAt050Scores, new_dist_scores]
 
     def prettyPrintResults(self, scores):
 
@@ -274,12 +385,11 @@ class Evaluator:
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 100
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 75
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> at 50
-
-        premise_index = self.tags.index('(P)')
-        claim_index = self.tags.index('(C)')
+        #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> dist
 
         print('Accuracy - ' + str(round(scores[0], 4)))
 
+        print('SPAN EVAL')
         print('Accuracy at ' + str(1) + ' - ' + str(round(scores[2][0], 3)))
         print('Accuracy at ' + str(0.75) + ' - ' + str(round(scores[3][0], 3)))
         print('Accuracy at ' + str(0.5) + ' - ' + str(round(scores[4][0], 3)))
@@ -305,6 +415,7 @@ class Evaluator:
         print('F1 for premises at ' + str(0.5) + ' - ' + str(round(scores[4][5], 3)))
         print('F1 for claims at ' + str(0.5) + ' - ' + str(round(scores[4][6], 3)))
 
+        print('TAG EVAL')
         print('Precision')
         print('\t'.join(self.tags[1:]))
         print(str(round(scores[1][0][0], 3)) + '   ' + str(round(scores[1][0][1], 3)) + '     ' + str(
@@ -317,3 +428,12 @@ class Evaluator:
         print('\t'.join(self.tags[1:]))
         print(str(round(scores[1][2][0], 3)) + '   ' + str(round(scores[1][2][1], 3)) + '     ' + str(
             round(scores[1][2][2], 3)))
+
+        print('DIST EVAL')
+        print('Accuracy - ' + str(round(scores[5][0], 3)))
+        print('Precision for premises - ' + str(round(scores[5][1], 3)))
+        print('Precision for claims - ' + str(round(scores[5][2], 3)))
+        print('Recall for premises - ' + str(round(scores[5][3], 3)))
+        print('Recall for claims - ' + str(round(scores[5][4], 3)))
+        print('F1 for premises - ' + str(round(scores[5][5], 3)))
+        print('F1 for claims - ' + str(round(scores[5][6], 3)))

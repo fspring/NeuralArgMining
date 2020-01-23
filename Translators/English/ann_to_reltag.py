@@ -61,6 +61,10 @@ class ReadComponents:
         with open(self.filename, "r", encoding='utf8') as file:
             for line in file:
                 line = re.sub(r'[\n]+(?![0-9])', r'', line)
+                line = re.sub(r'[“]+(?![0-9])', r'', line)
+                line = re.sub(r'[”]+(?![0-9])', r'', line)
+                line = re.sub(r'[«]+(?![0-9])', r'', line)
+                line = re.sub(r'[»]+(?![0-9])', r'', line)
                 line = re.sub(r'[.]+(?![0-9])', r' .', line)
                 line = re.sub(r'[:]+(?![0-9])', r' :', line)
                 line = re.sub(r'[,]+(?![0-9])', r' ,', line)
@@ -164,6 +168,10 @@ class ReadText():
         with open(self.filename, "r", encoding='utf8') as file:
             for line in file:
                 line = re.sub(r'[\n]+(?![0-9])', r'', line)
+                line = re.sub(r'[“]+(?![0-9])', r'', line)
+                line = re.sub(r'[”]+(?![0-9])', r'', line)
+                line = re.sub(r'[«]+(?![0-9])', r'', line)
+                line = re.sub(r'[»]+(?![0-9])', r'', line)
                 line = re.sub(r'[.]+(?![0-9])', r' .', line)
                 line = re.sub(r'[:]+(?![0-9])', r' :', line)
                 line = re.sub(r'[,]+(?![0-9])', r' ,', line)

@@ -1,7 +1,9 @@
 a (O)    0.000
 famous (O)    0.000
 proverb (O)    0.000
+knowledge (O)    0.000
 is (O)    0.000
+power (O)    0.000
 has (O)    0.000
 demonstrated (O)    0.000
 the (O)    0.000

@@ -144,47 +144,47 @@ class PostProcessing:
             pred_classes = np.argmax(result, axis=1) #[1, 2, ...] -> size of text
             pred_classes = np.add(pred_classes, 1) #[2, 3, ...] -> to match unencodedY
 
-            is_premise = False
-            is_claim = False
+            # is_premise = False
+            # is_claim = False
 
-            for j in range(0, text_size):
-                arg = true_classes[j]
-
-                if arg == 1:
-                    if is_premise:
-                        true_classes[j] = 3
-                    elif is_claim:
-                        true_classes[j] = 4
-                elif arg == 2:
-                    is_premise = False
-                    is_claim = False
-                elif arg == 3:
-                    is_premise = True
-                    is_claim = False
-                elif arg == 4:
-                    is_premise = False
-                    is_claim = True
+            # for j in range(0, text_size):
+            #     arg = true_classes[j]
+            #
+            #     if arg == 1:
+            #         if is_premise:
+            #             true_classes[j] = 3
+            #         elif is_claim:
+            #             true_classes[j] = 4
+            #     elif arg == 2:
+            #         is_premise = False
+            #         is_claim = False
+            #     elif arg == 3:
+            #         is_premise = True
+            #         is_claim = False
+            #     elif arg == 4:
+            #         is_premise = False
+            #         is_claim = True
 
             all_texts_true.append(true_classes)
 
-            for k in range(0, text_size):
-                arg = pred_classes[k]
-
-                if arg == 1:
-                    if is_premise:
-                        pred_classes[k] = 3
-                    elif is_claim:
-                        pred_classes[k] = 4
-                elif arg == 2:
-                    is_premise = False
-                    is_claim = False
-                elif arg == 3:
-                    is_premise = True
-                    is_claim = False
-                elif arg == 4:
-                    is_premise = False
-                    is_claim = True
+            # for k in range(0, text_size):
+            #     arg = pred_classes[k]
+            #
+            #     if arg == 1:
+            #         if is_premise:
+            #             pred_classes[k] = 3
+            #         elif is_claim:
+            #             pred_classes[k] = 4
+            #     elif arg == 2:
+            #         is_premise = False
+            #         is_claim = False
+            #     elif arg == 3:
+            #         is_premise = True
+            #         is_claim = False
+            #     elif arg == 4:
+            #         is_premise = False
+            #         is_claim = True
 
             all_texts_pred.append(pred_classes)
-            
+
         return (all_texts_true, all_texts_pred)
