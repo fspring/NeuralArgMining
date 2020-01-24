@@ -190,6 +190,52 @@ class Evaluator:
 
         return float_res
 
+    def remove_I_tag(self, pred_classes, true_classes):
+        is_premise = False
+        is_claim = False
+        text_size = len(true_classes)
+
+        for j in range(0, text_size):
+            arg = true_classes[j]
+        
+            if arg == 1:
+                if is_premise:
+                    true_classes[j] = 3
+                elif is_claim:
+                    true_classes[j] = 4
+            elif arg == 2:
+                is_premise = False
+                is_claim = False
+            elif arg == 3:
+                is_premise = True
+                is_claim = False
+            elif arg == 4:
+                is_premise = False
+                is_claim = True
+
+        is_premise = False
+        is_claim = False
+
+        for k in range(0, text_size):
+            arg = pred_classes[k]
+        
+            if arg == 1:
+                if is_premise:
+                    pred_classes[k] = 3
+                elif is_claim:
+                    pred_classes[k] = 4
+            elif arg == 2:
+                is_premise = False
+                is_claim = False
+            elif arg == 3:
+                is_premise = True
+                is_claim = False
+            elif arg == 4:
+                is_premise = False
+                is_claim = True
+
+        return (pred_classes, true_classes)
+
     def tagEval(self, pred_spans, true_spans):
         i = 0
 
@@ -203,8 +249,10 @@ class Evaluator:
 
         for i in range(0, nr_texts): #for each text
 
-            accuracy.append(accuracy_score(true_spans[i], pred_spans[i]))
-            scores = precision_recall_fscore_support(true_spans[i], pred_spans[i])
+            (pred_classes, true_classes) = self.remove_I_tag(pred_spans[i], true_spans[i])
+
+            accuracy.append(accuracy_score(true_classes, pred_classes))
+            scores = precision_recall_fscore_support(true_classes, pred_classes)
 
             precision.append(np.pad(scores[0], (0,(nr_classes - len(scores[0]))), 'constant'))
             recall.append(np.pad(scores[1], (0,(nr_classes - len(scores[0]))), 'constant'))
@@ -226,7 +274,7 @@ class Evaluator:
             for start, end in spans_dict.items():
                 tag = tag_spans[i][start]
                 dist = all_dists[i][start][0]
-                link = start + dist
+                link = int(start + dist)
                 if tag == 4: #is claim
                     if link in graph.keys():
                         if start not in graph[link]: # unique links only
@@ -297,6 +345,9 @@ class Evaluator:
                 relevant_spans[true_tag - 1] += len(true_link_list)
 
                 for pred_start, pred_link_list in pred_spans_closure[i].items():
+                    if not isinstance(pred_start, int):
+                        print(pred_start)
+                        print(type(pred_start))
                     pred_tag = pred_spans[i][pred_start]
                     pred_end = pred_spans_dict_list[i][pred_start]
 

@@ -250,9 +250,9 @@ class NeuralTrainer:
         tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
         print('------- Distances Baseline -------')
-        dist_eval = self.evaluator.dist_eval(b_pred_dist, y_test_dist, y_test_class, unencodedY)
+        dist_eval = self.evaluator.dist_eval(pred_spans, true_spans, b_pred_dist, y_test_dist)
 
-        return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
+        return [scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050, dist_eval]
 
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
@@ -301,9 +301,9 @@ class NeuralTrainer:
         tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
         print('------- Distances from model -------')
-        dist_eval = self.evaluator.dist_eval(c_pred_dist, y_test_dist, y_test_class, unencodedY)
+        dist_eval = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist)
 
-        return [[scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050], dist_eval]
+        return [scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050, dist_eval]
 
     def crossValidate(self, X, Y, additionalX, additionalY, unencodedY, model_type):
         seed = 42
@@ -374,8 +374,7 @@ class NeuralTrainer:
                 scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             elif model_type == 'crf_dist':
                 scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
-            cvscores = self.evaluator.handleScores(cvscores, scores[0], n_folds)
-            csv_entries_dist = self.distance_stats_to_csv(scores[1], foldNumber, csv_entries_dist)
+            cvscores = self.evaluator.handleScores(cvscores, scores, n_folds)
             foldNumber += 1
 
         print('Average results for the ten folds:')
@@ -389,14 +388,6 @@ class NeuralTrainer:
             self.model.save_weights('baseline_weights.h5')
 
         return cvscores
-
-    def distance_stats_to_csv(self, predictions, fold, entries):
-        entries += str(fold)
-        for i in range(0, self.num_tags):
-            entries += ',' + str(predictions[0][i]) + ',' + str(predictions[1][i])
-        entries += '\n'
-
-        return entries
 
     def write_evaluated_tests_to_file(self, x_test, y_pred_class, y_pred_dist, testSet, text_dir, dumpPath):
         invword_index = {v: k for k, v in self.word_index.items()}
