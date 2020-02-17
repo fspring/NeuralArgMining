@@ -161,10 +161,16 @@ class NeuralTrainer:
 
     def create_CRF(self, biLSTM_tensor, learn, test):
         crf_tensor = TimeDistributed(Dense(20, activation='relu'))(biLSTM_tensor)
+        
         chain_matrix = keras.initializers.Constant(self.transition_matrix)
-        crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test,
-            chain_initializer=chain_matrix, name='crf_layer')
-        # crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, name='crf_layer')
+        
+        if learn == 'marginal': #loaded model or std CRF-dist model
+            crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test,
+                    chain_initializer=chain_matrix, name='crf_layer')
+            # crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, name='crf_layer')
+            
+        else: #baseline model
+            crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, name='crf_layer')
 
         crf_tensor = crf(crf_tensor)
 
@@ -193,11 +199,11 @@ class NeuralTrainer:
         self.model = Model(input=input, output=[crf_tensor,dist_tensor])
         # print(self.model.summary()) #debug
 
+        #loss_weights=[1.0, 0.10], 
         self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-        # w = self.model.get_weights()
-        # for i in range(0, len(w)):
-        #     print(i, len(w[i])) #debug
+        
         if self.save_weights:
+            print('MODEL LOADED FROM FILE')
             self.model.load_weights('baseline_weights.h5', by_name=True)
 
         # self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
