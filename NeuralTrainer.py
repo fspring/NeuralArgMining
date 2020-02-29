@@ -151,24 +151,24 @@ class NeuralTrainer:
     def create_biLSTM(self, input):
         embeddingMatrix = self.createEmbeddings(self.word_index, self.embeddings)
         emb = Embedding(self.vocab_size, self.embedding_size, weights=[embeddingMatrix], input_length=self.maxlen,
-                      trainable=False, mask_zero=True)(input)
+                      trainable=False, mask_zero=True, name='embedding')(input)
 
-        biLSTM_tensor = TimeDistributed(Dense(self.hidden_size, activation='relu'))(emb)
-        biLSTM_tensor = Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh'))(biLSTM_tensor)
-        biLSTM_tensor = Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh'))(biLSTM_tensor)
+        biLSTM_tensor = TimeDistributed(Dense(self.hidden_size, activation='relu'), name='time_distributed_1')(emb)
+        biLSTM_tensor = Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh'), name='biLSTM_1')(biLSTM_tensor)
+        biLSTM_tensor = Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh'), name='biLSTM_2')(biLSTM_tensor)
 
         return biLSTM_tensor
 
     def create_CRF(self, biLSTM_tensor, learn, test):
-        crf_tensor = TimeDistributed(Dense(20, activation='relu'))(biLSTM_tensor)
-        
+        crf_tensor = TimeDistributed(Dense(20, activation='relu'), name='time_distributed_2')(biLSTM_tensor)
+
         chain_matrix = keras.initializers.Constant(self.transition_matrix)
-        
+
         if learn == 'marginal': #loaded model or std CRF-dist model
             crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test,
                     chain_initializer=chain_matrix, name='crf_layer')
             # crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, name='crf_layer')
-            
+
         else: #baseline model
             crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, name='crf_layer')
 
@@ -182,14 +182,14 @@ class NeuralTrainer:
         soft_argmax = SoftArgMax()
         soft_argmax.create_soft_argmax_layer()
 
-        concat = concatenate([crf_tensor, dist_tensor], axis=-1)
+        concat = concatenate([crf_tensor, dist_tensor], axis=-1, name='concatenate')
 
         output = TimeDistributed(soft_argmax.layer, name='softargmax')(concat)
 
         return (output, soft_argmax)
 
     def create_model(self):
-        input = Input(shape=(self.maxlen,))
+        input = Input(shape=(self.maxlen,), name='input')
 
         biLSTM_tensor = self.create_biLSTM(input)
         crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
@@ -197,14 +197,33 @@ class NeuralTrainer:
         (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, crf_tensor)
 
         self.model = Model(input=input, output=[crf_tensor,dist_tensor])
-        # print(self.model.summary()) #debug
+        print(self.model.summary()) #debug
 
-        #loss_weights=[1.0, 0.10], 
+        #loss_weights=[1.0, 0.10],
         self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-        
+
         if self.save_weights:
             print('MODEL LOADED FROM FILE')
-            self.model.load_weights('baseline_weights.h5', by_name=True)
+            # self.model.load_weights('baseline_weights.h5', by_name=True)
+            
+            base_crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
+            baseline_model = Model(input=input, output=base_crf_tensor)
+            print(baseline_model.summary()) #debug
+            baseline_model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
+
+            baseline_model.load_weights('baseline_weights.h5', by_name=True)
+
+            base_layers = baseline_model.layers
+            model_layers = self.model.layers
+            for i in range(0, len(base_layers)):
+                print(model_layers[i].name, base_layers[i].name)
+                assert model_layers[i].name == base_layers[i].name
+                layer_name = base_layers[i].name
+                self.model.get_layer(layer_name).set_weights(base_layers[i].get_weights())
+                # self.model.get_layer(layer_name).trainable = False
+            
+
+
 
         # self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
@@ -212,13 +231,14 @@ class NeuralTrainer:
         input = Input(shape=(self.maxlen,))
 
         biLSTM_tensor = self.create_biLSTM(input)
-        if type == 'dual':
-            crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
-        else:
-            crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
+        # if type == 'dual':
+        #     crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
+        # else:
+        #     crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
+        crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
 
         self.model = Model(input=input, output=crf_tensor)
-        # print(self.model.summary()) #debug
+        print(self.model.summary()) #debug
 
         self.model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
 
