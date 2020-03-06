@@ -25,6 +25,7 @@ from keras_contrib.layers import CRF
 from keras_contrib.losses import crf_loss
 from keras_contrib.metrics import crf_accuracy
 
+
 class SoftArgMax:
     def __init__(self):
         self.layer = None
@@ -37,16 +38,62 @@ class SoftArgMax:
         lower = K.constant(0.5)
         upper = K.constant(1.5)
         zero = K.zeros_like(x[1])
-
+        #if 0.5 <= output < 1.5 then return 0 else return predicted distance
         return K.switch(K.all(K.stack([K.greater_equal(output, lower), K.less(output, upper)], axis=0), axis=0), zero, x[1])
 
     def create_soft_argmax_layer(self):
         self.layer = Lambda(self.soft_argmax_func, output_shape=(1,), name='lambda_softargmax')
 
+    def zero_loss_wrapper(self, crf_layer):
+        def zero_loss(y_true, y_pred):
+            if not K.is_tensor(y_pred):
+                y_pred = K.constant(y_pred)
+            y_true = K.cast(y_true, y_pred.dtype)
+
+            mae = K.mean(K.abs(y_pred - y_true), axis=-1)
+
+            O_prob = K.squeeze(tf.split(crf_layer, [1,1,1,1], -1)[1], axis=-1)
+
+            zero = K.constant(0)
+
+            #if O_prob < 0.25 and pred_dist == 0 then return 0 else return mae
+            return K.switch(K.all(K.stack([K.less(O_prob, K.constant(0.25)), K.equal(K.squeeze(y_pred, axis=-1), zero)], axis=0), axis=0), K.zeros_like(mae), mae)
+        return zero_loss
+
+    def consecutive_dist_loss_wrapper(self, crf_layer):
+        def consecutive_dist_loss(y_true, y_pred):
+            if not K.is_tensor(y_pred):
+                y_pred = K.constant(y_pred)
+            y_true = K.cast(y_true, y_pred.dtype)
+
+            print('ypred shape', K.int_shape(y_pred))
+
+            I_prob = K.squeeze(tf.split(crf_layer, [1,1,1,1], -1)[0], axis=-1)
+
+            batch_dif = []
+            text_size = K.int_shape(y_pred)[1]
+            txt_index = 0
+            for text in y_pred:
+                text_dif = []
+                for i in range(1, text_size):
+                    if I_prob[txt_index][i] > 0.5:
+                        text_dif.append([abs((text[i-1][0] - text[i][0]) - 1)])
+                batch_dif.append(text_dif)
+                txt_index += 1
+
+            dist_dif = K.constant(np.array(batch_dif))
+
+            mae = K.mean(K.abs(y_pred - y_true + dist_dif), axis=-1)
+
+            return mae
+        return consecutive_dist_loss
+
+
     def loss_func(self, y_true, y_pred):
         if not K.is_tensor(y_pred):
             y_pred = K.constant(y_pred)
         y_true = K.cast(y_true, y_pred.dtype)
+
         mae = K.mean(K.abs(y_pred - y_true), axis=-1)
 
         y_pred = K.squeeze(y_pred, axis=-1)
@@ -200,12 +247,13 @@ class NeuralTrainer:
         print(self.model.summary()) #debug
 
         #loss_weights=[1.0, 0.10],
-        self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        # self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.consecutive_dist_loss_wrapper(crf_tensor)], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
         if self.save_weights:
             print('MODEL LOADED FROM FILE')
             # self.model.load_weights('baseline_weights.h5', by_name=True)
-            
+
             base_crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
             baseline_model = Model(input=input, output=base_crf_tensor)
             print(baseline_model.summary()) #debug
@@ -221,11 +269,7 @@ class NeuralTrainer:
                 layer_name = base_layers[i].name
                 self.model.get_layer(layer_name).set_weights(base_layers[i].get_weights())
                 # self.model.get_layer(layer_name).trainable = False
-            
 
-
-
-        # self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
     def create_baseline_model(self, type):
         input = Input(shape=(self.maxlen,))
@@ -284,7 +328,7 @@ class NeuralTrainer:
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
 
         y_train = [y_train_class,y_train_dist]
-        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
+        self.model.fit(x_train, y_train, epochs=10, batch_size=8, verbose=1, callbacks=[monitor])
 
         layer = self.model.get_layer('crf_layer')
         weights = layer.get_weights()
@@ -402,6 +446,7 @@ class NeuralTrainer:
                 scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             cvscores = self.evaluator.handleScores(cvscores, scores, n_folds)
             foldNumber += 1
+            break
 
         print('Average results for the ten folds:')
         self.evaluator.prettyPrintResults(cvscores)

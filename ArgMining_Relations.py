@@ -139,15 +139,15 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath, mo
         trainer.create_model()
         model_type = 'crf_dist'
 
-    startTime = datetime.datetime.now().replace(microsecond=0)
-
-    trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, model_type)
-
-    endTime = datetime.datetime.now().replace(microsecond=0)
-    timeTaken = endTime - startTime
-
-    print("Time elapsed:")
-    print(timeTaken)
+    # startTime = datetime.datetime.now().replace(microsecond=0)
+    #
+    # trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, model_type)
+    #
+    # endTime = datetime.datetime.now().replace(microsecond=0)
+    # timeTaken = endTime - startTime
+    #
+    # print("Time elapsed:")
+    # print(timeTaken)
 
 
 def main():
