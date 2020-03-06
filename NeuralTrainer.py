@@ -70,18 +70,19 @@ class SoftArgMax:
 
             I_prob = K.squeeze(tf.split(crf_layer, [1,1,1,1], -1)[0], axis=-1)
 
-            batch_dif = []
-            text_size = K.int_shape(y_pred)[1]
-            txt_index = 0
-            for text in y_pred:
-                text_dif = []
-                for i in range(1, text_size):
-                    if I_prob[txt_index][i] > 0.5:
-                        text_dif.append([abs((text[i-1][0] - text[i][0]) - 1)])
-                batch_dif.append(text_dif)
-                txt_index += 1
-
-            dist_dif = K.constant(np.array(batch_dif))
+            ### TO DO: cant iterate
+            # batch_dif = []
+            # text_size = K.int_shape(y_pred)[1]
+            # txt_index = 0
+            # for text in y_pred:
+            #     text_dif = []
+            #     for i in range(1, text_size):
+            #         if I_prob[txt_index][i] > 0.5:
+            #             text_dif.append([abs((text[i-1][0] - text[i][0]) - 1)])
+            #     batch_dif.append(text_dif)
+            #     txt_index += 1
+            #
+            # dist_dif = K.constant(np.array(batch_dif))
 
             mae = K.mean(K.abs(y_pred - y_true + dist_dif), axis=-1)
 
