@@ -323,6 +323,10 @@ class DistanceCalculator:
                         is_linked = True
                         # print('yes premise-claim')
                         break
+                    elif src_tag_parts[0] == '(P' and tgt_arg == '(P':
+                        is_linked = True
+                        # print('yes premise-premise')
+                        break
                     elif src_tag_parts[0] == '(C' and tgt_arg == '(P':
                         is_linked = True
                         # print('yes claim-premise')

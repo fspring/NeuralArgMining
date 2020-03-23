@@ -292,7 +292,7 @@ goes
 good
 medicine
 tastes
-bitter“
+bitter
 .
 Criticism
 might

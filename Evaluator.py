@@ -10,14 +10,14 @@ class Evaluator:
         self.tags = tags
 
     def empty_cvscores(self):
-        #[acc, [precision[class], recall[class], f1[class]],[100_correct],[75_correct],[50_correct]]
+        #[acc, [precision[class], recall[class], f1[class]],[100_correct],[75_correct],[50_correct], dist]
         #percent_correct: [acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]
-        #dist: [acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]
+        #dist: [acc, precision, recall, f1]
         empty_avg = list(map(float,np.zeros(self.num_tags - 1)))
         # nr_measures = 1 + 3*(self.num_tags-1)
         empty_corr = list(map(float,np.zeros(self.num_measures)))
         cvscores = [0, [copy.deepcopy(empty_avg), copy.deepcopy(empty_avg), copy.deepcopy(empty_avg)],
-                        copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr)]
+                        copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), list(map(float,np.zeros(4)))]
 
         return cvscores
 
@@ -197,7 +197,7 @@ class Evaluator:
 
         for j in range(0, text_size):
             arg = true_classes[j]
-        
+
             if arg == 1:
                 if is_premise:
                     true_classes[j] = 3
@@ -218,7 +218,7 @@ class Evaluator:
 
         for k in range(0, text_size):
             arg = pred_classes[k]
-        
+
             if arg == 1:
                 if is_premise:
                     pred_classes[k] = 3
@@ -245,7 +245,7 @@ class Evaluator:
         accuracy = []
 
         nr_texts = len(true_spans)
-        nr_classes = self.num_tags - 1 #I tag removed after training
+        nr_classes = self.num_tags - 1 #I tag removed
 
         for i in range(0, nr_texts): #for each text
 
@@ -270,28 +270,20 @@ class Evaluator:
         all_graphs = []
         for i in range(0, len(spans_dict_list)): #each text
             graph = {} #{span_start:[linked_span_start1, linked_span_start2, ...]}
-            spans_dict = spans_dict_list[i]
-            for start, end in spans_dict.items():
+            for start, end in spans_dict_list[i].items():
                 tag = tag_spans[i][start]
                 dist = all_dists[i][start][0]
                 link = int(start + dist)
-                if tag == 4: #is claim
-                    if link in graph.keys():
-                        if start not in graph[link]: # unique links only
-                            graph[link].append(start) # claims have only incomming edges
-                        if link in graph[link]:
-                            graph[link].remove(link) # destination premise no longer points to itself
-                    else:
-                        graph[link] = [start]
-                    graph[start] = [start]
-                elif tag == 3: #is premise
+                if dist != 0:
+                    # for each edge A->B, add edge B->A
                     if start in graph.keys():
-                        if link != start and link not in graph[start]: # unique links only
-                            graph[start].append(link)
+                        graph[start].append(link)
                     else:
                         graph[start] = [link]
-                elif tag == 2: #is non-arg
-                    graph[start] = [start]
+                    if link in graph.keys():
+                        graph[link].append(start)
+                    else:
+                        graph[link] = [start]
             all_graphs.append(graph)
         return all_graphs
 
@@ -318,6 +310,24 @@ class Evaluator:
             all_closures.append(graph)
         return all_closures
 
+    def remove_redundant_edges(spans_closure, tag_spans):
+        all_edges = []
+        for i in range(0, len(spans_dict_list)): #each text
+            edges = {}
+            graph = spans_closure[i]
+            for node, link_list in graph.items():
+                tag = spans_dict_list[i][node]
+                if tag == 4: #claim
+                    for link in link_list:
+                        tgt_tag = spans_dict_list[i][link]
+                        if tgt_tag == 3: #premise
+                            if link in edges.keys():
+                                edges[link].append(node)
+                            else:
+                                edges[link] = [node]
+            all_edges.append(edges)
+        return all_edges
+
     def dist_eval(self, pred_spans, true_spans, all_pred_dist, all_true_dist):
         true_spans_dict_list = self.spanCreator(true_spans)
         pred_spans_dict_list = self.spanCreator(pred_spans)
@@ -325,26 +335,27 @@ class Evaluator:
         true_spans_closure = self.edge_closure(true_spans, true_spans_dict_list, all_true_dist)
         pred_spans_closure = self.edge_closure(pred_spans, pred_spans_dict_list, all_pred_dist)
 
-        empty = list(map(float,np.zeros(self.num_tags)))
+        true_edges = self.remove_redundant_edges(true_spans_closure, true_spans)
+        pred_edges = self.remove_redundant_edges(pred_spans_closure, pred_spans)
 
-        precision = copy.deepcopy(empty)
-        recall = copy.deepcopy(empty)
-        f1 = copy.deepcopy(empty)
+        precision = 0
+        recall = 0
+        f1 = 0
 
-        selected_spans = copy.deepcopy(empty) # predicted number of premises and claims
-        relevant_spans = copy.deepcopy(empty) # total number of premises and claims
+        selected_edges = 0 # predicted number of edges
+        relevant_edges = 0 # total number of edges
 
-        true_positives = copy.deepcopy(empty) # number of correctly predicted premises and claims
+        true_positives = 0 # number of correctly predicted edges
 
         for i in range(0, len(true_spans_dict_list)): #for each text
             iteration = 0
-            for true_start, true_link_list in true_spans_closure[i].items():
+            for true_start, true_link_list in true_edges[i].items():
                 true_tag = true_spans[i][true_start]
                 true_end = true_spans_dict_list[i][true_start]
 
-                relevant_spans[true_tag - 1] += len(true_link_list)
+                relevant_edges += len(true_link_list)
 
-                for pred_start, pred_link_list in pred_spans_closure[i].items():
+                for pred_start, pred_link_list in pred_edges[i].items():
                     if not isinstance(pred_start, int):
                         print(pred_start)
                         print(type(pred_start))
@@ -352,13 +363,13 @@ class Evaluator:
                     pred_end = pred_spans_dict_list[i][pred_start]
 
                     if iteration == 0:
-                        selected_spans[pred_tag - 1] += len(pred_link_list)
+                        selected_edges += len(pred_link_list)
 
                     if true_start == pred_start and true_end == pred_end: #exact same span
                         if pred_tag == true_tag: #same tag
                             for pred_link in pred_link_list:
                                 if pred_link in true_link_list:
-                                    true_positives[true_tag - 1] += 1
+                                    true_positives += 1
 
                 iteration += 1
 

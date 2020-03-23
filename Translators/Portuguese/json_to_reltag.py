@@ -293,10 +293,6 @@ class claimsAndPremises:
         # args = self.split_claims_from_premises(connections)
         self.orderArgComponents(connections)
         self.closeConnections(connections)
-        print(connections)
-        print(self.close_connections)
-        print('claims', self.claims_id)
-        print('premises', self.premises_id)
         nodes = elements['nodes']
         claim = premise = None
         # print(self.ordered_args)
@@ -506,6 +502,10 @@ class DistanceCalculator:
                         is_linked = True
                         # print('yes premise-claim')
                         break
+                    elif src_tag_parts[0] == '(P' and tgt_arg == '(P':
+                        is_linked = True
+                        # print('yes premise-premise')
+                        break
                     elif src_tag_parts[0] == '(C' and tgt_arg == '(P':
                         is_linked = True
                         # print('yes claim-premise')
@@ -583,14 +583,13 @@ class Pipeline:
             replacer.processText()
 
             #calculate distance between related components and update tags
-            print(arg_components.close_connections)
             distance_calculator = DistanceCalculator(replacer.processedText, arg_components.close_connections)
             distance_calculator.all_positive_distance_claims()
 
             #write to 3 kinds of output files: id + text + tags, id + text, id + tags
-            # output = OutputWriter(distance_calculator.components_words, jsonFile)
-            # output.writeToTextFile()
-            break
+            output = OutputWriter(distance_calculator.components_words, jsonFile)
+            output.writeToTextFile()
+            # break
         endTime = datetime.datetime.now().replace(microsecond=0)
         timeTaken = endTime - startTime
 

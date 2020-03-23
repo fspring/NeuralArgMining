@@ -211,7 +211,7 @@ work
 if
 its
 not
-open“
+open
 .
 Restrictions
 would

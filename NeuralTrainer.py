@@ -44,6 +44,18 @@ class SoftArgMax:
     def create_soft_argmax_layer(self):
         self.layer = Lambda(self.soft_argmax_func, output_shape=(1,), name='lambda_softargmax')
 
+    def zero_switch_func(self, x, beta=1e10):
+        x = tf.split(x, [4, 1], -1)
+
+        O_prob = K.squeeze(tf.split(x[0], [1,1,1,1], -1)[1], axis=-1)
+        zero = K.zeros_like(x[1])
+
+        #if 0.5 <= output < 1.5 then return 0 else return predicted distance
+        return K.switch(K.less(O_prob, K.constant(0.25)), x[1], zero)
+
+    def create_zero_switch_layer(self):
+        self.layer = Lambda(self.zero_switch_func, output_shape=(1,), name='lambda_zero_switch')
+
     def zero_loss_wrapper(self, crf_layer):
         def zero_loss(y_true, y_pred):
             if not K.is_tensor(y_pred):
@@ -56,8 +68,8 @@ class SoftArgMax:
 
             zero = K.constant(0)
 
-            #if O_prob < 0.25 and pred_dist == 0 then return 0 else return mae
-            return K.switch(K.all(K.stack([K.less(O_prob, K.constant(0.25)), K.equal(K.squeeze(y_pred, axis=-1), zero)], axis=0), axis=0), K.zeros_like(mae), mae)
+            #if O_prob < 0.25 and pred_dist == 0 then return mae else return 0
+            return K.switch(K.all(K.stack([K.less(O_prob, K.constant(0.25)), K.equal(K.squeeze(y_pred, axis=-1), zero)], axis=0), axis=0), mae, K.zeros_like(mae))
         return zero_loss
 
     def consecutive_dist_loss_wrapper(self, crf_layer):
@@ -70,23 +82,15 @@ class SoftArgMax:
 
             I_prob = K.squeeze(tf.split(crf_layer, [1,1,1,1], -1)[0], axis=-1)
 
-            ### TO DO: cant iterate
-            # batch_dif = []
-            # text_size = K.int_shape(y_pred)[1]
-            # txt_index = 0
-            # for text in y_pred:
-            #     text_dif = []
-            #     for i in range(1, text_size):
-            #         if I_prob[txt_index][i] > 0.5:
-            #             text_dif.append([abs((text[i-1][0] - text[i][0]) - 1)])
-            #     batch_dif.append(text_dif)
-            #     txt_index += 1
-            #
-            # dist_dif = K.constant(np.array(batch_dif))
+            rolled_y_pred = tf.roll(y_pred, -1, axis=1)
+            dist_dif = K.abs((rolled_y_pred - y_pred) - K.ones_like(y_pred))
 
-            mae = K.mean(K.abs(y_pred - y_true + dist_dif), axis=-1)
+            mae = K.switch(K.greater(I_prob, K.constant(0.5)), K.mean(K.abs(y_pred - y_true + dist_dif), axis=-1), K.mean(K.abs(y_pred - y_true), axis=-1))
 
-            return mae
+            y_pred_aux = K.squeeze(y_pred, axis=-1)
+            zero = K.constant(0)
+
+            return K.switch(K.equal(y_pred_aux, zero), K.zeros_like(mae), mae)
         return consecutive_dist_loss
 
 
@@ -230,9 +234,15 @@ class NeuralTrainer:
         soft_argmax = SoftArgMax()
         soft_argmax.create_soft_argmax_layer()
 
+        zero_switch = SoftArgMax()
+        zero_switch.create_zero_switch_layer()
+
         concat = concatenate([crf_tensor, dist_tensor], axis=-1, name='concatenate')
 
-        output = TimeDistributed(soft_argmax.layer, name='softargmax')(concat)
+        ### LAYER OPTIONS:
+        ##### soft_argmax.layer
+        ##### zero_switch.layer
+        output = TimeDistributed(zero_switch.layer, name='softargmax')(concat)
 
         return (output, soft_argmax)
 
@@ -248,8 +258,12 @@ class NeuralTrainer:
         print(self.model.summary()) #debug
 
         #loss_weights=[1.0, 0.10],
-        # self.model.compile(optimizer='adam', loss=[crf_loss,'mean_absolute_error'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-        self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.consecutive_dist_loss_wrapper(crf_tensor)], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        ####LOSSES:
+        ######'mean_absolute_error'
+        ######soft_argmax.loss_func
+        ######soft_argmax.consecutive_dist_loss_wrapper(crf_tensor)
+        ######soft_argmax.zero_loss_wrapper(crf_tensor)
+        self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
         if self.save_weights:
             print('MODEL LOADED FROM FILE')
@@ -329,7 +343,7 @@ class NeuralTrainer:
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
 
         y_train = [y_train_class,y_train_dist]
-        self.model.fit(x_train, y_train, epochs=10, batch_size=8, verbose=1, callbacks=[monitor])
+        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
 
         layer = self.model.get_layer('crf_layer')
         weights = layer.get_weights()
@@ -374,7 +388,7 @@ class NeuralTrainer:
         print('------- Distances from model -------')
         dist_eval = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist)
 
-        return [scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050, dist_eval]
+        return [scores[3], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050, dist_eval]
 
     def crossValidate(self, X, Y, additionalX, additionalY, unencodedY, model_type):
         seed = 42
@@ -447,7 +461,6 @@ class NeuralTrainer:
                 scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             cvscores = self.evaluator.handleScores(cvscores, scores, n_folds)
             foldNumber += 1
-            break
 
         print('Average results for the ten folds:')
         self.evaluator.prettyPrintResults(cvscores)
