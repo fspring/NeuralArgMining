@@ -7,4 +7,9 @@ Dumps/
 Graphs/Images/
 requirements.txt
 tag_check.py
+text_to_model_output.py
+unencodedY.txt
+y_pred_class.txt
+y_pred_dist.txt
+y_test_dist.txt
 *_debug.*

@@ -4,20 +4,25 @@ import copy
 from sklearn.metrics import precision_recall_fscore_support
 from sklearn.metrics import accuracy_score
 class Evaluator:
+    num_dist_measures = 3
     def __init__(self, num_tags, num_measures, tags):
         self.num_tags = num_tags
         self.num_measures = num_measures
         self.tags = tags
 
     def empty_cvscores(self):
-        #[acc, [precision[class], recall[class], f1[class]],[100_correct],[75_correct],[50_correct], dist]
+        #[acc, [precision[class], recall[class], f1[class]],[100_correct],[75_correct],[50_correct], dist_100_correct, dist_075_correct, dist_050_correct]
         #percent_correct: [acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]
-        #dist: [acc, precision, recall, f1]
+        #dist_percent_correct: [precision, recall, f1]
         empty_avg = list(map(float,np.zeros(self.num_tags - 1)))
         # nr_measures = 1 + 3*(self.num_tags-1)
         empty_corr = list(map(float,np.zeros(self.num_measures)))
+
+        empty_dist = list(map(float,np.zeros(self.num_dist_measures)))
+
         cvscores = [0, [copy.deepcopy(empty_avg), copy.deepcopy(empty_avg), copy.deepcopy(empty_avg)],
-                        copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), list(map(float,np.zeros(4)))]
+                        copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr),
+                        copy.deepcopy(empty_dist), copy.deepcopy(empty_dist), copy.deepcopy(empty_dist)]
 
         return cvscores
 
@@ -80,15 +85,19 @@ class Evaluator:
         recall = copy.deepcopy(empty)
         f1 = copy.deepcopy(empty)
 
-        selected_spans = copy.deepcopy(empty) # predicted number of premises and claims
+        selected_spans = copy.deepcopy(empty) # number of predicted premises and claims
         relevant_spans = copy.deepcopy(empty) # total number of premises and claims
 
         true_positives = copy.deepcopy(empty) # number of correctly predicted premises and claims
+
+        correct_spans_indexes = [] # list of dict of correct spans {pred_start: true_start}
 
         for i in range(0, len(true_spans_dict_list)): #for each text
             true_spans_dict = true_spans_dict_list[i]
             pred_spans_dict = pred_spans_dict_list[i]
             iteration = 0
+            correct_spans = {}
+            correct_spans_per_text = 0
             for true_start, true_end in true_spans_dict.items():
                 true_tag = true_spans[i][true_start]
 
@@ -103,6 +112,8 @@ class Evaluator:
                     if true_tag == 2 and true_start == true_end: #single non-arg token
                         if pred_start == true_start and pred_end == true_end and pred_tag == 2:
                             true_positives[true_tag - 1] += 1
+                            correct_spans[pred_start] = true_start
+                            correct_spans_per_text += 1
 
                     elif true_start <= pred_start and pred_start <= true_end: #exists intersection
 
@@ -113,6 +124,8 @@ class Evaluator:
                                 overlap = span_intersection / span_union
                                 if overlap >= threshold: #is correct
                                     true_positives[true_tag - 1] += 1
+                                    correct_spans[pred_start] = true_start
+                                    correct_spans_per_text += 1
 
                         elif pred_end > true_end: #pred span end exceeds true span
                             if pred_tag == true_tag: #same tag
@@ -121,6 +134,8 @@ class Evaluator:
                                 overlap = span_intersection / span_union
                                 if overlap >= threshold: #is correct
                                     true_positives[true_tag - 1] += 1
+                                    correct_spans[pred_start] = true_start
+                                    correct_spans_per_text += 1
 
                     elif true_start > pred_start and true_start <= pred_end:  #exists intersection
 
@@ -131,6 +146,8 @@ class Evaluator:
                                 overlap = span_intersection / span_union
                                 if overlap >= threshold: #is correct
                                     true_positives[true_tag - 1] += 1
+                                    correct_spans[pred_start] = true_start
+                                    correct_spans_per_text += 1
 
                         elif pred_end > true_end: #true span contained in pred span
                             if pred_tag == true_tag: #same tag
@@ -139,8 +156,12 @@ class Evaluator:
                                 overlap = span_intersection / span_union
                                 if overlap >= threshold: #is correct
                                     true_positives[true_tag - 1] += 1
+                                    correct_spans[pred_start] = true_start
+                                    correct_spans_per_text += 1
 
                 iteration += 1
+            correct_spans_indexes.append(correct_spans)
+            assert len(correct_spans.keys()) == correct_spans_per_text
 
         true_all = 0
         all_N = 0
@@ -170,7 +191,7 @@ class Evaluator:
 
         ret = [round(accuracy, 4),round(precision[premise_index], 4),round(precision[claim_index], 4),round(recall[premise_index], 4),
             round(recall[claim_index], 4),round(f1[premise_index], 4),round(f1[claim_index], 4)]
-        return ret
+        return (ret, correct_spans_indexes)
 
     def prettyPrintScore(self, score, scoreName):
         print(scoreName)
@@ -310,17 +331,19 @@ class Evaluator:
             all_closures.append(graph)
         return all_closures
 
-    def remove_redundant_edges(spans_closure, tag_spans):
+    def remove_redundant_edges(self, spans_closure, tag_spans, data):
         all_edges = []
-        for i in range(0, len(spans_dict_list)): #each text
+        for i in range(0, len(tag_spans)): #each text
             edges = {}
             graph = spans_closure[i]
             for node, link_list in graph.items():
-                tag = spans_dict_list[i][node]
+                tag = tag_spans[i][node]
                 if tag == 4: #claim
+                    print('claim', node, link_list)
                     for link in link_list:
-                        tgt_tag = spans_dict_list[i][link]
+                        tgt_tag = tag_spans[i][link]
                         if tgt_tag == 3: #premise
+                            print('premise', link)
                             if link in edges.keys():
                                 edges[link].append(node)
                             else:
@@ -328,15 +351,16 @@ class Evaluator:
             all_edges.append(edges)
         return all_edges
 
-    def dist_eval(self, pred_spans, true_spans, all_pred_dist, all_true_dist):
+    def dist_eval(self, pred_spans, true_spans, all_pred_dist, all_true_dist, correct_spans, threshold):
         true_spans_dict_list = self.spanCreator(true_spans)
         pred_spans_dict_list = self.spanCreator(pred_spans)
 
         true_spans_closure = self.edge_closure(true_spans, true_spans_dict_list, all_true_dist)
         pred_spans_closure = self.edge_closure(pred_spans, pred_spans_dict_list, all_pred_dist)
+        print(pred_spans_closure)
 
-        true_edges = self.remove_redundant_edges(true_spans_closure, true_spans)
-        pred_edges = self.remove_redundant_edges(pred_spans_closure, pred_spans)
+        true_edges = self.remove_redundant_edges(true_spans_closure, true_spans, 'true')
+        pred_edges = self.remove_redundant_edges(pred_spans_closure, pred_spans, 'pred')
 
         precision = 0
         recall = 0
@@ -365,42 +389,39 @@ class Evaluator:
                     if iteration == 0:
                         selected_edges += len(pred_link_list)
 
-                    if true_start == pred_start and true_end == pred_end: #exact same span
-                        if pred_tag == true_tag: #same tag
-                            for pred_link in pred_link_list:
-                                if pred_link in true_link_list:
+                    if (pred_start in correct_spans[i].keys()) and (correct_spans[i][pred_start] == true_start): #is a correct span
+                        for pred_link in pred_link_list:
+                            if pred_link in correct_spans[i].keys(): #target span is also correct
+                                if correct_spans[i][pred_link] in true_link_list: # link is correct
                                     true_positives += 1
+                            else:
+                                if pred_link in true_link_list:
+                                    print('i', i)
+                                    print('pred')
+                                    print('\nspan', pred_start, ':', pred_spans_dict[i][pred_start],
+                                                '\nlink', pred_link, ':', pred_spans_dict[i][pred_link])
+                                    print('true')
+                                    print('\nspan', true_start, ':', true_spans_dict[i][true_start],
+                                                '\nlink', pred_link, ':', true_spans_dict[i][pred_link])
+
+
 
                 iteration += 1
 
-        true_all = 0
-        all_N = 0
-        for i in range(0, self.num_tags):
-            true_all += true_positives[i]
-            all_N += relevant_spans[i]
-        accuracy = true_all / all_N
 
-        for i in range(0, self.num_tags):
-            if (selected_spans[i] != 0):
-                precision[i] = (true_positives[i] / selected_spans[i])
-            if (relevant_spans[i] != 0):
-                recall[i] = (true_positives[i] / relevant_spans[i])
-            if ((precision[i] + recall[i]) != 0):
-                f1[i] = 2 * ((precision[i] * recall[i]) / (precision[i] + recall[i]))
+        if (selected_edges != 0):
+            precision = (true_positives / selected_edges)
+        if (relevant_edges != 0):
+            recall = (true_positives / relevant_edges)
+        if ((precision + recall) != 0):
+            f1 = 2 * ((precision * recall) / (precision + recall))
 
         print('DIST SPAN EVAL')
-        premise_index = self.tags.index('(P)')
-        claim_index = self.tags.index('(C)')
-        print('Accuracy - ' + str(round(accuracy, 3)))
-        print('Precision for premises - ' + str(round(precision[premise_index], 3)))
-        print('Precision for claims - ' + str(round(precision[claim_index], 3)))
-        print('Recall for premises - ' + str(round(recall[premise_index], 3)))
-        print('Recall for claims - ' + str(round(recall[claim_index], 3)))
-        print('F1 for premises - ' + str(round(f1[premise_index], 3)))
-        print('F1 for claims - ' + str(round(f1[claim_index], 3)))
+        print('Precision at ' + str(threshold) + ' - ' + str(round(precision, 3)))
+        print('Recall at ' + str(threshold) + ' - ' + str(round(recall, 3)))
+        print('F1 at ' + str(threshold) + ' - ' + str(round(f1, 3)))
 
-        ret = [round(accuracy, 4),round(precision[premise_index], 4),round(precision[claim_index], 4),round(recall[premise_index], 4),
-            round(recall[claim_index], 4),round(f1[premise_index], 4),round(f1[claim_index], 4)]
+        ret = [round(precision, 4),round(recall, 4),round(f1, 4)]
         return ret
 
 
@@ -418,7 +439,9 @@ class Evaluator:
         newSpanAt075Scores = list(map(float,np.zeros(self.num_measures)))
         newSpanAt050Scores = list(map(float,np.zeros(self.num_measures)))
 
-        new_dist_scores = list(map(float,np.zeros(self.num_measures)))
+        new_dist_100scores = list(map(float,np.zeros(self.num_dist_measures)))
+        new_dist_075scores = list(map(float,np.zeros(self.num_dist_measures)))
+        new_dist_050scores = list(map(float,np.zeros(self.num_dist_measures)))
 
         for i in range(0, 3):
             # for j in range(0, self.num_tags):
@@ -430,16 +453,22 @@ class Evaluator:
             newSpanAt075Scores[j] = oldScores[3][j] + (newScores[3][j] / nFolds)
         for j in range(0, self.num_measures):
             newSpanAt050Scores[j] = oldScores[4][j] + (newScores[4][j] / nFolds)
-        for j in range(0, self.num_measures):
-            new_dist_scores[j] = oldScores[5][j] + (newScores[5][j] / nFolds)
+        for j in range(0, self.num_dist_measures):
+            new_dist_100scores[j] = oldScores[5][j] + (newScores[5][j] / nFolds)
+        for j in range(0, self.num_dist_measures):
+            new_dist_075scores[j] = oldScores[6][j] + (newScores[6][j] / nFolds)
+        for j in range(0, self.num_dist_measures):
+            new_dist_050scores[j] = oldScores[7][j] + (newScores[7][j] / nFolds)
 
             #[acc, [precision[class], recall[class], f1[class]], --> avgs
             #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 100
             #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 75
-            #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> at 50
-            #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> dist
+            #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 50
+            #[precision, recall, f1],  --> dist at 100
+            #[precision, recall, f1],  --> dist at 75
+            #[precision, recall, f1]]  --> dist at 50
 
-        return [newAccuracy, newTagScores, newSpanAt1Scores, newSpanAt075Scores, newSpanAt050Scores, new_dist_scores]
+        return [newAccuracy, newTagScores, newSpanAt1Scores, newSpanAt075Scores, newSpanAt050Scores, new_dist_100scores, new_dist_075scores, new_dist_050scores]
 
     def prettyPrintResults(self, scores):
 
@@ -447,7 +476,9 @@ class Evaluator:
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 100
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2],  --> at 75
         #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> at 50
-        #[acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]]  --> dist
+        #[precision, recall, f1]]  --> dist at 100
+        #[precision, recall, f1]]  --> dist at 75
+        #[precision, recall, f1]]  --> dist at 50
 
         print('Accuracy - ' + str(round(scores[0], 4)))
 
@@ -492,10 +523,12 @@ class Evaluator:
             round(scores[1][2][2], 3)))
 
         print('DIST EVAL')
-        print('Accuracy - ' + str(round(scores[5][0], 3)))
-        print('Precision for premises - ' + str(round(scores[5][1], 3)))
-        print('Precision for claims - ' + str(round(scores[5][2], 3)))
-        print('Recall for premises - ' + str(round(scores[5][3], 3)))
-        print('Recall for claims - ' + str(round(scores[5][4], 3)))
-        print('F1 for premises - ' + str(round(scores[5][5], 3)))
-        print('F1 for claims - ' + str(round(scores[5][6], 3)))
+        print('Precision at ' + str(1) + ' - ' + str(round(scores[5][0], 3)))
+        print('Recall at ' + str(1) + ' - ' + str(round(scores[5][1], 3)))
+        print('F1 at ' + str(1) + ' - ' + str(round(scores[5][2], 3)))
+        print('Precision at ' + str(0.75) + ' - ' + str(round(scores[6][0], 3)))
+        print('Recall at ' + str(0.75) + ' - ' + str(round(scores[6][1], 3)))
+        print('F1 at ' + str(0.75) + ' - ' + str(round(scores[6][2], 3)))
+        print('Precision at ' + str(0.5) + ' - ' + str(round(scores[7][0], 3)))
+        print('Recall at ' + str(0.5) + ' - ' + str(round(scores[7][1], 3)))
+        print('F1 at ' + str(0.5) + ' - ' + str(round(scores[7][2], 3)))

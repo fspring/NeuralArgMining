@@ -46,9 +46,9 @@ class PostProcessing:
                     if tgt_index >= text_size:
                         dist_pred[i][j][0] = 0 #points outside of text
                         continue
-                    while np.argmax(arg_pred[i][tgt_index]) != 3: #not first claim token
+                    while np.argmax(arg_pred[i][tgt_index]) != 3 or np.argmax(arg_pred[i][tgt_index]) != 2: #not first claim token or premise token
                         tgt_index -= 1
-                        if tgt_index == j: #does not point to claim
+                        if tgt_index == j: #does not point to claim nor premise
                             break
                     dist_pred[i][j][0] = tgt_index - j
                 elif src_arg == 3 or (src_arg == 0 and is_claim): #claim
@@ -68,7 +68,7 @@ class PostProcessing:
                         continue
                     while np.argmax(arg_pred[i][tgt_index]) != 2: #not first premise token
                         tgt_index -= 1
-                        if tgt_index == j: #does not point to claim
+                        if tgt_index == j: #does not point to premise
                             break
                     dist_pred[i][j][0] = tgt_index - j
                 f.write(u'phase 1: ' + str(arg_pred[i][j]) + '\t' + str(dist_pred[i][j]) + '\n')
@@ -81,7 +81,7 @@ class PostProcessing:
                 pred_dist = dist_pred[i][k][0]
                 if src_arg == 1: #non-arg
                     if pred_dist > 0:
-                        print('i done goofed')
+                        print('error in correction dist')
                         dist_pred[i][k][0] = 0
                     k += 1
                     continue

@@ -234,15 +234,15 @@ class NeuralTrainer:
         soft_argmax = SoftArgMax()
         soft_argmax.create_soft_argmax_layer()
 
-        zero_switch = SoftArgMax()
-        zero_switch.create_zero_switch_layer()
+        # zero_switch = SoftArgMax()
+        # zero_switch.create_zero_switch_layer()
 
         concat = concatenate([crf_tensor, dist_tensor], axis=-1, name='concatenate')
 
         ### LAYER OPTIONS:
         ##### soft_argmax.layer
         ##### zero_switch.layer
-        output = TimeDistributed(zero_switch.layer, name='softargmax')(concat)
+        output = TimeDistributed(soft_argmax.layer, name='softargmax')(concat)
 
         return (output, soft_argmax)
 
@@ -329,15 +329,19 @@ class NeuralTrainer:
 
         (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
 
-        spanEvalAt1 = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
-        spanEvalAt075 = self.evaluator.spanEval(pred_spans, true_spans, 0.75)
-        spanEvalAt050 = self.evaluator.spanEval(pred_spans, true_spans, 0.50)
-        tagEval = self.evaluator.tagEval(pred_spans, true_spans)
+        (spanEvalAt100, correct_spans_at_100) = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
+        (spanEvalAt075, correct_spans_at_075) = self.evaluator.spanEval(pred_spans, true_spans, 0.75)
+        (spanEvalAt050, correct_spans_at_050) = self.evaluator.spanEval(pred_spans, true_spans, 0.50)
 
         print('------- Distances Baseline -------')
-        dist_eval = self.evaluator.dist_eval(pred_spans, true_spans, b_pred_dist, y_test_dist)
+        dist_eval_at_100 = self.evaluator.dist_eval(pred_spans, true_spans, b_pred_dist, y_test_dist, correct_spans_at_100, 1.0)
+        dist_eval_at_075 = self.evaluator.dist_eval(pred_spans, true_spans, b_pred_dist, y_test_dist, correct_spans_at_075, 0.75)
+        dist_eval_at_050 = self.evaluator.dist_eval(pred_spans, true_spans, b_pred_dist, y_test_dist, correct_spans_at_050, 0.50)
+        print('----------------------------------')
 
-        return [scores[1], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050, dist_eval]
+        tagEval = self.evaluator.tagEval(pred_spans, true_spans)
+
+        return [scores[1], tagEval, spanEvalAt100, spanEvalAt075, spanEvalAt050, dist_eval_at_100, dist_eval_at_075, dist_eval_at_050]
 
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
@@ -380,15 +384,19 @@ class NeuralTrainer:
 
         (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
 
-        spanEvalAt1 = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
-        spanEvalAt075 = self.evaluator.spanEval(pred_spans, true_spans, 0.75)
-        spanEvalAt050 = self.evaluator.spanEval(pred_spans, true_spans, 0.50)
-        tagEval = self.evaluator.tagEval(pred_spans, true_spans)
+        (spanEvalAt100, correct_spans_at_100) = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
+        (spanEvalAt075, correct_spans_at_075) = self.evaluator.spanEval(pred_spans, true_spans, 0.75)
+        (spanEvalAt050, correct_spans_at_050) = self.evaluator.spanEval(pred_spans, true_spans, 0.50)
 
         print('------- Distances from model -------')
-        dist_eval = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist)
+        dist_eval_at_100 = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_100, 1.0)
+        dist_eval_at_075 = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_075, 0.75)
+        dist_eval_at_050 = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_050, 0.5)
+        print('------------------------------------')
 
-        return [scores[3], tagEval, spanEvalAt1, spanEvalAt075, spanEvalAt050, dist_eval]
+        tagEval = self.evaluator.tagEval(pred_spans, true_spans)
+
+        return [scores[3], tagEval, spanEvalAt100, spanEvalAt075, spanEvalAt050, dist_eval_at_100, dist_eval_at_075, dist_eval_at_050]
 
     def crossValidate(self, X, Y, additionalX, additionalY, unencodedY, model_type):
         seed = 42
