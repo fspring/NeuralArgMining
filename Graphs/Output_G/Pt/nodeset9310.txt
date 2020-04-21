@@ -1,8 +1,2 @@
 digraph G {
-	0 -> 10;
-	0 [label="se portugal fosse um pais racional
- e coerente politicamente ,",color=blue];
-	10 [label="haveria uma revisão constitucional para consagrar
- o parlamentarismo e introduzir a
- eleição presidencial no parlamento",color=green];
 }

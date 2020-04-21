@@ -1,11 +1,2 @@
 digraph G {
-	0 -> 19;
-	0 [label="enquanto em portugal o estoril open
- entra num ciclo diferente ,
- agora no clube de ténis
- do estoril",color=blue];
-	19 [label="as provas
- do grand slam prosseguem a
- política de reforço dos prémios
-",color=green];
 }

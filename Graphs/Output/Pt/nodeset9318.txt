@@ -30,7 +30,7 @@ contundentes (I)    0.000
 atirados (I)    0.000
 como (I)    0.000
 lança-chamas (I)    0.000
-mas (I)    0.000
+mas (O)    0.000
 sempre (P)    0.000
 convenientemente (I)    0.000
 desgarrados (I)    0.000

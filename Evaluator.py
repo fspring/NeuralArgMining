@@ -339,11 +339,11 @@ class Evaluator:
             for node, link_list in graph.items():
                 tag = tag_spans[i][node]
                 if tag == 4: #claim
-                    print('claim', node, link_list)
+                    # print('claim', node, link_list)
                     for link in link_list:
                         tgt_tag = tag_spans[i][link]
                         if tgt_tag == 3: #premise
-                            print('premise', link)
+                            # print('premise', link)
                             if link in edges.keys():
                                 edges[link].append(node)
                             else:
@@ -354,10 +354,11 @@ class Evaluator:
     def dist_eval(self, pred_spans, true_spans, all_pred_dist, all_true_dist, correct_spans, threshold):
         true_spans_dict_list = self.spanCreator(true_spans)
         pred_spans_dict_list = self.spanCreator(pred_spans)
+        # print(pred_spans_dict_list[16])
 
         true_spans_closure = self.edge_closure(true_spans, true_spans_dict_list, all_true_dist)
         pred_spans_closure = self.edge_closure(pred_spans, pred_spans_dict_list, all_pred_dist)
-        print(pred_spans_closure)
+        # print(pred_spans_closure[16])
 
         true_edges = self.remove_redundant_edges(true_spans_closure, true_spans, 'true')
         pred_edges = self.remove_redundant_edges(pred_spans_closure, pred_spans, 'pred')
@@ -398,11 +399,11 @@ class Evaluator:
                                 if pred_link in true_link_list:
                                     print('i', i)
                                     print('pred')
-                                    print('\nspan', pred_start, ':', pred_spans_dict[i][pred_start],
-                                                '\nlink', pred_link, ':', pred_spans_dict[i][pred_link])
+                                    print('span', pred_start, ':', pred_spans_dict_list[i][pred_start],
+                                                '\nlink', pred_link, ':', pred_spans_dict_list[i][pred_link])
                                     print('true')
-                                    print('\nspan', true_start, ':', true_spans_dict[i][true_start],
-                                                '\nlink', pred_link, ':', true_spans_dict[i][pred_link])
+                                    print('span', true_start, ':', true_spans_dict_list[i][true_start],
+                                                '\nlink', pred_link, ':', true_spans_dict_list[i][pred_link])
 
 
 

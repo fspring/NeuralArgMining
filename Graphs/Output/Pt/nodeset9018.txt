@@ -21,8 +21,8 @@ as (I)    0.000
 suas (I)    0.000
 antigas (I)    0.000
 declarações (I)    0.000
-e (I)    0.000
-anunciar (I)    0.000
+e (O)    0.000
+anunciar (P)    0.000
 uma (I)    0.000
 nova (I)    0.000
 política (I)    0.000

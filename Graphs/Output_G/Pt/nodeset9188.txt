@@ -1,14 +1,2 @@
 digraph G {
-	72 -> 44;
-	44 [label="em 2014
- , a saída limpa foi
- anunciada e , com isso
- , o governo pàf declarou
- o sucesso da sua política
- . infelizmente , é mentira
-",color=green];
-	72 [label="ao contrário do que
- se apregoa , na prática
- estamos com um programa cautelar
-",color=blue];
 }

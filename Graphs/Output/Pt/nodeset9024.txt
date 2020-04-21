@@ -23,7 +23,7 @@ porque (O)    0.000
 não (P)    0.000
 há (I)    0.000
 dinheiro (I)    0.000
-, (I)    0.000
+, (O)    0.000
 como (O)    0.000
 agora (O)    0.000
 se (O)    0.000

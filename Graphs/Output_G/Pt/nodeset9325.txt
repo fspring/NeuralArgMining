@@ -1,10 +1,2 @@
 digraph G {
-	118 -> 98;
-	98 [label="nem a crise
- da zona euro , nem
- a crise com a rússia
- abalaram essa confiança",color=green];
-	118 [label="a credibilidade de
- merkel saiu reforçada das crises
- anteriores",color=blue];
 }

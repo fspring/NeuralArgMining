@@ -1,8 +1,2 @@
 digraph G {
-	15 -> 7;
-	7 [label="os estados deverão restringir
- a entrada de imigrantes",color=green];
-	15 [label="por forma a preservar o nosso
- actual modo de vida ,
- liberdade e cultura",color=blue];
 }

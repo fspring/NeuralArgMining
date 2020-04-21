@@ -1,17 +1,2 @@
 digraph G {
-	36 -> 64;
-	36 [label="a iniciativa - com o
- nome digital news initiative dni
- - surge após o comportamento
- concorrencial da google ter sido
- questionado pela comissão europeia em
- tempos recentes",color=blue];
-	64 [label="a google
- sempre quis ser uma amiga
- e parceira da indústria de
- notícias , diz , citado
- pela agência france-presse , o
- responsável da empresa pelas parcerias
- estratégicas na europa , carlo
- dasaro biondo",color=green];
 }

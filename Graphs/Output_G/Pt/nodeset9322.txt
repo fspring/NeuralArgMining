@@ -1,16 +1,2 @@
 digraph G {
-	14 -> 41;
-	14 [label="os especuladores
- financeiros agradecem e vão alegremente
- enriquecendo , enquanto que as
- economias vão estagnando ou ,
- quanto muito , crescendo devagarinho
-",color=blue];
-	41 [label="os valores da solidariedade e
- da democracia , numa europa
- líder mundial dos direitos humanos
- , vão sendo substituídos por
- novos conceitos pro fascistas levando
- á desumanização dos estados e
- à vergonha dos povos",color=green];
 }

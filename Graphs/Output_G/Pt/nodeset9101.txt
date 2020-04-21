@@ -1,8 +1,2 @@
 digraph G {
-	63 -> 54;
-	54 [label="não vivem
- das esmolas que poderiam mendigar
-",color=green];
-	63 [label="ganham a vida
- com o seu trabalho",color=blue];
 }

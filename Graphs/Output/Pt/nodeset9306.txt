@@ -55,7 +55,7 @@ ex-fumadoras (O)    0.000
 sim (O)    0.000
 , (O)    0.000
 porque (O)    0.000
-ninguém (C)    0.000
+ninguém (P)    0.000
 que (I)    0.000
 já (I)    0.000
 fumou (I)    0.000
@@ -65,9 +65,9 @@ de (I)    0.000
 ser (I)    0.000
 fumador (I)    0.000
 . (O)    0.000
-dizem (O)    0.000
-estes (O)    0.000
-especialistas (O)    0.000
+dizem (P)    0.000
+estes (I)    0.000
+especialistas (I)    0.000
 que (O)    0.000
 nunca (C)    0.000
 se (I)    0.000

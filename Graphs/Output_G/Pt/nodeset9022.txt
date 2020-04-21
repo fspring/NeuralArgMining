@@ -1,2 +1,13 @@
 digraph G {
+	12 -> 0;
+	0 [label="não é pelo crescimento económico que
+ se vai reduzir o défice
+",color=green];
+	12 [label="o crescimento previsto no
+ programa de estabilidade e crescimento
+ 2015-2019 , apresentado em abril
+ do ano passado pelo governo
+ psd/cds , era de 2,0%
+ . o governo do ps
+ prevê agora 2,1%",color=blue];
 }

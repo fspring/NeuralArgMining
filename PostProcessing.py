@@ -9,6 +9,7 @@ class PostProcessing:
         print('=========== CORRECTING ===========') #debug
         f = open('correction_debug.txt', 'w')
         for i in range(0, len(dist_pred)):
+        # for i in range(16, 17):
             f.write(u'i: ' + str(i) + '\n')
             is_premise = False
             is_claim = False
@@ -76,24 +77,28 @@ class PostProcessing:
             # f.write(u'i: ' + str(i) + ' - phase 1: ' + str(dist_pred[i]) + '\n')
             k = 0
             while k < text_size: #ensure uniformity: all tokens in src arg comp point to same tgt token
+                # print('k\t', k)
                 src_orig = k
                 src_arg = np.argmax(arg_pred[i][k])
                 pred_dist = dist_pred[i][k][0]
+                # print('src arg\t', src_arg, '\tdist\t', pred_dist)
                 if src_arg == 1: #non-arg
                     if pred_dist > 0:
                         print('error in correction dist')
                         dist_pred[i][k][0] = 0
                     k += 1
                     continue
-
+                # print('src arg is not 1')
                 if pred_dist == 0:
                     tgt_freq = {'none': 1}
                 else:
                     tgt_freq = {pred_dist: 1}
-
+                # print('dist\t', pred_dist, '\ttgt freq dict init\t', tgt_freq)
                 m =  k + 1
                 while (m < text_size) and (np.argmax(arg_pred[i][m]) == 0):
+                    # print('m\t', m)
                     pred_dist = dist_pred[i][m][0]
+                    # print('dist\t', pred_dist)
                     if pred_dist == 0:
                         tgt_orig = 'none'
                     else:
@@ -103,29 +108,46 @@ class PostProcessing:
                         tgt_freq[tgt_orig] += 1
                     else:
                         tgt_freq[tgt_orig] = 1
+                    # print('updated tgt freq dict\t', tgt_freq)
                     m += 1
                 k = m
+                # print('k\t', k)
+
+                # print('finding most common tgt')
 
                 max_value = max(tgt_freq.values()) #get most common decision
-                most_freq = []
+                most_freq_list = []
+                most_freq = 0
                 for dist in tgt_freq.keys():
                     if tgt_freq[dist] == max_value:
-                        most_freq.append(dist)
-                if len(most_freq) > 1:
-                    # most_freq = [0] #decides none
-                    if 'none' in most_freq:
-                        most_freq = [0]
+                        most_freq_list.append(dist)
+                if len(most_freq_list) > 1:
+                    # most_freq_list = [0] #decides none
+                    if 'none' in most_freq_list:
+                        most_freq = 0
                     else:
-                        for n in range(0, len(most_freq)):
-                            most_freq[n] = int(most_freq[n])
-                        most_freq = [min(most_freq)] #decides closest
-                if most_freq[0] == 'none' or most_freq[0] == 0:
+                        for n in range(0, len(most_freq_list)):
+                            most_freq_list[n] = int(most_freq_list[n])
+                        most_freq = min(most_freq_list) #decides closest
+                elif len(most_freq_list) == 1:
+                    most_freq = most_freq_list[0]
+
+                # print('most common tgt\t', most_freq)
+
+                if most_freq == 'none' or most_freq == 0:
+                    # print('most freq is 0 or none')
+                    # print('correcting from src orig to k:\t', src_orig, 'to', k)
                     for l in range(src_orig, k):
                         dist_pred[i][l] = [0]
                 else:
+                    # print('most freq is some value')
+                    # print('correcting from src orig to k:\t', src_orig, 'to', k)
                     for l in range(src_orig, k):
-                        dist_pred[i][l] = most_freq
-                        most_freq[0] -= 1
+                        dist_pred[i][l] = [most_freq]
+                        most_freq -= 1
+                        # print('l', l)
+                        # print('most freq', most_freq)
+                        # print('dists 100-107', dist_pred[i][100], dist_pred[i][101], dist_pred[i][102], dist_pred[i][103], dist_pred[i][104], dist_pred[i][105], dist_pred[i][106], dist_pred[i][107])
 
             f.write(u'i: ' + str(i) + ' - phase 2: ' + str(dist_pred[i]) + '\n')
         f.close()

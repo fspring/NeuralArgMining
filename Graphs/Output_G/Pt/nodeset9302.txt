@@ -1,13 +1,2 @@
 digraph G {
-	13 -> 0;
-	0 [label="o século xxi é sem sombra
- de dúvida a era da
- biologia",color=green];
-	13 [label="durante a última
- década , a saúde ,
- o meio ambiente , a
- biodiversidade , assim como a
- evolução humana tem sido temas
- recorrentes em todos os meios
- de comunicação",color=blue];
 }

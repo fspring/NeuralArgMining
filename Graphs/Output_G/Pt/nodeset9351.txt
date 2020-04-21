@@ -1,14 +1,2 @@
 digraph G {
-	28 -> 0;
-	0 [label="o bom aluno – se é
- possível aplicar o adjectivo a
- um país que se tem
- comportado como delinquente fiscal –
- está vivo e de boa
- saúde",color=green];
-	28 [label="o programa do
- governo , que tem apenas
- um mês , apontava para
- um défice orçamental de 2,8%
-",color=blue];
 }

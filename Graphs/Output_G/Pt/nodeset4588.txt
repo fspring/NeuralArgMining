@@ -1,14 +1,2 @@
 digraph G {
-	46 -> 0;
-	0 [label="quatro homens desapareceram hoje quando desciam
- de canoa o rio tâmega
- , na zona de mondim
- de basto",color=green];
-	46 [label="os homens , de nacionalidade
- francesa , estavam a descer
- o rio num evento desportivo
- desde a ponte de atei
- até à zona de pedra
- velha , mas falharam um
- dos pontos de controlo",color=blue];
 }

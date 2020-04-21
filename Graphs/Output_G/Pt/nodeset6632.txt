@@ -1,10 +1,2 @@
 digraph G {
-	45 -> 64;
-	45 [label="o centro hospitalar do algarve cha
- vai começar em julho a
- dar formação a subespecialistas em
- medicina intensiva",color=blue];
-	64 [label="o que
- pode contribuir para atrair médicos
- para o algarve",color=green];
 }

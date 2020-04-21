@@ -99,11 +99,11 @@ seu (I)    0.000
 de (I)    0.000
 popularidade (I)    0.000
 , (I)    0.000
-são (I)    0.000
-, (I)    0.000
-convenhamos (I)    0.000
-, (I)    0.000
-um (I)    0.000
+são (O)    0.000
+, (O)    0.000
+convenhamos (O)    0.000
+, (O)    0.000
+um (C)    0.000
 bom (I)    0.000
 álibi (I)    0.000
 para (I)    0.000

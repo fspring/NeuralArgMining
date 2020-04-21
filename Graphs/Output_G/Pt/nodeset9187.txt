@@ -1,19 +1,2 @@
 digraph G {
-	33 -> 79;
-	33 [label="deve ficar claríssimo
- para quem queira viver na
- europa que uma das regras
- a que devem obediência é
- a da liberdade religiosa e
- que essa lei se impõe
- a todos os que cá
- vivem , incluindo gente de
- origem árabe",color=blue];
-	79 [label="os muçulmanos
- ter-se-ão de habituar não só
- a ter uma religião minoritária
- , mas sobretudo a aceitar
- pacificamente que haja conversões ao
- cristianismo entre elementos da sua
- comunidade",color=green];
 }

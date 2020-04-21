@@ -1,7 +1,2 @@
 digraph G {
-	21 -> 38;
-	21 [label="a europa exibe um novo
- mapa da pobreza",color=blue];
-	38 [label="pode levar 25
- anos para ser revertido",color=green];
 }

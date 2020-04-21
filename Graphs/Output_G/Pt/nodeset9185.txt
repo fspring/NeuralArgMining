@@ -1,2 +1,8 @@
 digraph G {
+	38 -> 31;
+	31 [label="a maioria são homens jovens
+",color=green];
+	38 [label="porque certamente não
+ estão preocupados com o bem-estar
+ das suas mulheres compatriotas",color=blue];
 }

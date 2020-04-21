@@ -1,2 +1,19 @@
 digraph G {
+	55 -> 43;
+	43 [label="todos os presidentes
+ viveram em tensão com a
+ sua família política",color=green];
+	55 [label="soares nunca deixou de chocar com
+ o chamado ex-secretariado , irritando
+ sucessivos líderes socialistas . sampaio
+ não esperou por guterres para
+ se candidatar em 1995 ,
+ e em 2004 provocou a
+ demissão de um secretário-geral do
+ ps . cavaco silva afastou-se
+ de santana lopes em 2005
+ , e em 2009 foi
+ acusado de não ajudar o
+ psd embora sócrates o acusasse
+ do contrário",color=blue];
 }

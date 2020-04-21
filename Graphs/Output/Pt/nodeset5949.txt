@@ -143,7 +143,7 @@ de (O)    0.000
 suporte (O)    0.000
 ventilatório (O)    0.000
 . (O)    0.000
-vieira (C)    0.000
+vieira (P)    0.000
 pires (I)    0.000
 adianta (I)    0.000
 que (I)    0.000
@@ -157,9 +157,9 @@ médicos (I)    0.000
 bastante (I)    0.000
 diferenciados (I)    0.000
 , (I)    0.000
-pelo (I)    0.000
-que (I)    0.000
-não (I)    0.000
+pelo (O)    0.000
+que (O)    0.000
+não (C)    0.000
 se (I)    0.000
 prevê (I)    0.000
 em (I)    0.000

@@ -1,10 +1,2 @@
 digraph G {
-	0 -> 24;
-	0 [label="a saída de pedro norton da
- presidência da impresa sic ,
- etc . assinala que este
- grupo de media caminha para
- um beco",color=blue];
-	24 [label="o quadro
- é cinzento",color=green];
 }

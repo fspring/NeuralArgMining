@@ -22,7 +22,7 @@ regional (I)    0.000
 gritou (I)    0.000
 não (I)    0.000
 pagamos (I)    0.000
-, (I)    0.000
+, (O)    0.000
 numa (O)    0.000
 referência (O)    0.000
 à (O)    0.000

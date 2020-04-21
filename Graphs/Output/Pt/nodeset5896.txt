@@ -171,10 +171,10 @@ e (O)    0.000
 de (O)    0.000
 maio (O)    0.000
 . (O)    0.000
-convém (C)    5.000
-puxar (I)    4.000
-pela (I)    3.000
-criatividade (I)    2.000
+convém (C)    0.000
+puxar (I)    0.000
+pela (I)    0.000
+criatividade (I)    0.000
 porque (O)    0.000
 os (P)    0.000
 contemplados (I)    0.000

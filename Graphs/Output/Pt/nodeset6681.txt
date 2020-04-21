@@ -1,8 +1,8 @@
-cavaco (C)   16.000
-desconcertou (I)   15.000
-, (I)   14.000
-é (I)   13.000
-certo (I)   12.000
+cavaco (C)    0.000
+desconcertou (I)    0.000
+, (I)    0.000
+é (I)    0.000
+certo (I)    0.000
 . (O)    0.000
 mais (O)    0.000
 que (O)    0.000
