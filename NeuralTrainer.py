@@ -1,10 +1,13 @@
 import numpy as np
 import os
 import pathlib
+import matplotlib.pyplot as plt
 
 import Evaluator as ev
 import RelationBaseline as rb
 import PostProcessing as pp
+
+import AdaMod as am
 
 from sklearn.model_selection import KFold
 
@@ -17,7 +20,7 @@ from keras.layers import Input, Layer, Dense, Activation, Embedding, LSTM, Bidir
 from keras.layers.wrappers import TimeDistributed
 from keras.callbacks import EarlyStopping
 
-from keras.losses import mean_absolute_error
+from keras.losses import mean_absolute_error, logcosh
 
 import tensorflow as tf
 
@@ -56,6 +59,7 @@ class SoftArgMax:
     def create_zero_switch_layer(self):
         self.layer = Lambda(self.zero_switch_func, output_shape=(1,), name='lambda_zero_switch')
 
+class Losses:
     def zero_loss_wrapper(self, crf_layer):
         def zero_loss(y_true, y_pred):
             if not K.is_tensor(y_pred):
@@ -87,10 +91,10 @@ class SoftArgMax:
 
             mae = K.switch(K.greater(I_prob, K.constant(0.5)), K.mean(K.abs(y_pred - y_true + dist_dif), axis=-1), K.mean(K.abs(y_pred - y_true), axis=-1))
 
-            y_pred_aux = K.squeeze(y_pred, axis=-1)
+            y_true_aux = K.squeeze(y_true, axis=-1)
             zero = K.constant(0)
 
-            return K.switch(K.equal(y_pred_aux, zero), K.zeros_like(mae), mae)
+            return K.switch(K.equal(y_true_aux, zero), K.zeros_like(mae), mae)
         return consecutive_dist_loss
 
 
@@ -101,10 +105,10 @@ class SoftArgMax:
 
         mae = K.mean(K.abs(y_pred - y_true), axis=-1)
 
-        y_pred = K.squeeze(y_pred, axis=-1)
+        y_true = K.squeeze(y_true, axis=-1)
         zero = K.constant(0)
 
-        return K.switch(K.equal(y_pred, zero), K.zeros_like(mae), mae)
+        return K.switch(K.equal(y_true, zero), K.zeros_like(mae), mae)
 
 
 class NeuralTrainer:
@@ -126,11 +130,13 @@ class NeuralTrainer:
         self.arg_classes = ['']*num_tags
         self.transition_matrix = None
         self.save_weights = False
+        self.crf_tensor = None
         self.read_tag_mapping()
         self.set_transition_matrix()
         num_measures = 1 + 3*(num_tags - 2)
         self.evaluator = ev.Evaluator(self.num_tags, num_measures, self.tags)
         self.postprocessing = pp.PostProcessing(self.num_tags, self.tags)
+        self.losses = Losses()
 
     def read_tag_mapping(self):
         f = open('tag_mapping.txt', 'r', encoding='utf-8')
@@ -250,20 +256,23 @@ class NeuralTrainer:
         input = Input(shape=(self.maxlen,), name='input')
 
         biLSTM_tensor = self.create_biLSTM(input)
-        crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
+        self.crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
 
-        (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, crf_tensor)
+        (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, self.crf_tensor)
 
-        self.model = Model(input=input, output=[crf_tensor,dist_tensor])
+        self.model = Model(input=input, output=[self.crf_tensor,dist_tensor])
         print(self.model.summary()) #debug
 
         #loss_weights=[1.0, 0.10],
         ####LOSSES:
         ######'mean_absolute_error'
-        ######soft_argmax.loss_func
-        ######soft_argmax.consecutive_dist_loss_wrapper(crf_tensor)
-        ######soft_argmax.zero_loss_wrapper(crf_tensor)
-        self.model.compile(optimizer='adam', loss=[crf_loss,soft_argmax.loss_func], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        ######self.losses.loss_func
+        ######self.losses.consecutive_dist_loss_wrapper(crf_tensor)
+        ######self.losses.zero_loss_wrapper(crf_tensor)
+        ####OPTIMIZERS:
+        ######'adam'
+        ######am.AdaMod() ??
+        self.model.compile(optimizer='adam', loss=[crf_loss,self.losses.loss_func], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
         if self.save_weights:
             print('MODEL LOADED FROM FILE')
@@ -339,15 +348,167 @@ class NeuralTrainer:
         dist_eval_at_050 = self.evaluator.dist_eval(pred_spans, true_spans, b_pred_dist, y_test_dist, correct_spans_at_050, 0.50)
         print('----------------------------------')
 
+        print('------- Clusters Baseline -------')
+        b_cubed_eval_at_100 = self.evaluator.b_cubed_span_eval(pred_spans, true_spans, b_pred_dist, y_test_dist, correct_spans_at_100, 1.0)
+        b_cubed_eval_at_075 = self.evaluator.b_cubed_span_eval(pred_spans, true_spans, b_pred_dist, y_test_dist, correct_spans_at_075, 0.75)
+        b_cubed_eval_at_050 = self.evaluator.b_cubed_span_eval(pred_spans, true_spans, b_pred_dist, y_test_dist, correct_spans_at_050, 0.50)
+        print('---------------------------------')
+
         tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
-        return [scores[1], tagEval, spanEvalAt100, spanEvalAt075, spanEvalAt050, dist_eval_at_100, dist_eval_at_075, dist_eval_at_050]
+        return [scores[1], tagEval, spanEvalAt100, spanEvalAt075, spanEvalAt050,
+                dist_eval_at_100, dist_eval_at_075, dist_eval_at_050,
+                b_cubed_eval_at_100, b_cubed_eval_at_075, b_cubed_eval_at_050]
 
     def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet):
-        monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
+        batch_size = 8
+        train_iter = round(x_train.shape[0]/batch_size)
+        test_iter = round(x_test.shape[0]/batch_size)
 
-        y_train = [y_train_class,y_train_dist]
-        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
+        # have to define manually a dict to store all epochs scores
+        history = {}
+        history['history'] = {}
+        history['history']['loss'] = []
+        history['history']['crf_acc'] = []
+        history['history']['mean_absolute_error'] = []
+        history['history']['f1'] = []
+        history['history']['val_loss'] = []
+        history['history']['val_crf_acc'] = []
+        history['history']['val_mean_absolute_error'] = []
+        history['history']['val_f1'] = []
+
+        prev_loss = 0
+        patience = 0
+        min_delta = 0.001
+        for epoch in range(0, 100):
+            # train iterations
+            loss, crf_loss, dist_loss, crf_acc, mae = 0, 0, 0, 0, 0
+            f1 = 0
+            print('Epoch', epoch + 1, '/ 100')
+            for i in range(0, train_iter):
+
+                start = i*batch_size
+                end = i*batch_size + batch_size
+                x_batch = x_train[start:end,]
+                y_batch = [y_train_class[start:end,], y_train_dist[start:end,]]
+                unencodedY_batch = unencodedY[start:end,]
+
+                loss_, crf_loss_, dist_loss_, crf_acc_, mae_ = self.model.train_on_batch(x_batch, y_batch)
+
+                loss += loss_
+                crf_loss += crf_loss_
+                dist_loss += dist_loss_
+                crf_acc += crf_acc_
+                mae += mae_
+
+                [y_pred_class, y_pred_dist] = self.model.predict_on_batch(x_batch)
+
+                (y_pred_class, c_pred_dist) = self.postprocessing.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
+
+                (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
+
+                (spanEvalAt100, correct_spans_at_100) = self.evaluator.spanEval(pred_spans, true_spans, 1.0, verbose=False)
+                dist_eval_at_100 = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_100, 1.0, verbose=False)
+                f1 += dist_eval_at_100[2]
+
+                print(round(i/train_iter*100), '%\t',end='\r')
+
+            history['history']['loss'].append(loss/train_iter)
+            history['history']['crf_acc'].append(crf_acc/train_iter)
+            history['history']['mean_absolute_error'].append(mae/train_iter)
+            history['history']['f1'].append(f1/train_iter)
+
+            print('')
+            # test iterations
+            val_loss, val_crf_loss, val_dist_loss, val_crf_acc, val_mae = 0, 0, 0, 0, 0
+            val_f1 = 0
+            for i in range(0, test_iter):
+
+                start = i*batch_size
+                end = i*batch_size + batch_size
+                x_batch = x_test[start:end,]
+                y_batch = [y_test_class[start:end,], y_test_dist[start:end,]]
+                unencodedY_batch = unencodedY[start:end,]
+
+                val_loss_, val_crf_loss_, val_dist_loss_, val_crf_acc_, val_mae_ = self.model.test_on_batch(x_batch, y_batch)
+
+                val_loss += val_loss_
+                val_crf_loss += val_crf_loss_
+                val_dist_loss += val_dist_loss_
+                val_crf_acc += val_crf_acc_
+                val_mae += val_mae_
+
+                [y_pred_class, y_pred_dist] = self.model.predict_on_batch(x_batch)
+
+                (y_pred_class, c_pred_dist) = self.postprocessing.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
+
+                (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
+
+                (spanEvalAt100, correct_spans_at_100) = self.evaluator.spanEval(pred_spans, true_spans, 1.0)
+                dist_eval_at_100 = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_100, 1.0)
+                val_f1 += dist_eval_at_100[2]
+
+                print(round(i/test_iter*100), '%\t',end='\r')
+
+            history['history']['val_loss'].append(val_loss/test_iter)
+            history['history']['val_crf_acc'].append(val_crf_acc/test_iter)
+            history['history']['val_mean_absolute_error'].append(val_mae/test_iter)
+            history['history']['val_f1'].append(val_f1/test_iter)
+
+            print('')
+
+            if abs(f1 - prev_loss) < min_delta:
+                patience += 1
+            prev_loss = f1
+            if patience == 5:
+                print('Early Stopping...')
+
+                #loss_weights=[1.0, 0.10],
+                ####LOSSES:
+                ######'mean_absolute_error'
+                ######self.losses.loss_func
+                ######self.losses.consecutive_dist_loss_wrapper(crf_tensor)
+                ######self.losses.zero_loss_wrapper(crf_tensor)
+                # self.model.compile(optimizer='adam', loss=[crf_loss, ], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+                break
+
+        # Some plots to check what is going on
+        # loss function
+        plt.subplot(311)
+        plt.title('Loss')
+        plt.plot(history['history']['loss'], label='train')
+        plt.plot(history['history']['val_loss'], label='test')
+        plt.legend()
+
+        # Only crf acc
+        plt.subplot(312)
+        plt.title('CRF Accuracy')
+        plt.plot(history['history']['crf_acc'], label='train')
+        plt.plot(history['history']['val_crf_acc'], label='test')
+        plt.legend()
+
+        # Only mae
+        plt.subplot(313)
+        plt.title('Mean Absolute Error')
+        plt.plot(history['history']['mae'], label='train')
+        plt.plot(history['history']['val_mae'], label='test')
+        plt.legend()
+
+        # Only f1
+        plt.subplot(313)
+        plt.title('F1 Score')
+        plt.plot(history['history']['f1'], label='train')
+        plt.plot(history['history']['val_f1'], label='test')
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
+        plt.savefig('train_test_eval.png')
+
+
+        # monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
+
+        # y_train = [y_train_class,y_train_dist]
+        # self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
 
         layer = self.model.get_layer('crf_layer')
         weights = layer.get_weights()
@@ -367,13 +528,13 @@ class NeuralTrainer:
         # print('check:', self.model.get_layer('crf_layer').get_weights()[1]) #debug
 
         y_test = [y_test_class,y_test_dist]
-        scores = self.model.evaluate(x_test, y_test, batch_size=8, verbose=1)
+        # scores = self.model.evaluate(x_test, y_test, batch_size=8, verbose=1)
         [y_pred_class, y_pred_dist] = self.model.predict(x_test)
 
         # scores: loss, crf_loss, dist_loss, crf_acc, dist_acc
-        print("%s: %.2f%%" % (self.model.metrics_names[3], scores[3] * 100))
-        print("%s: %.2f%%" % (self.model.metrics_names[4], scores[4] * 100))
-        print("%s: %.2f%%" % (self.model.metrics_names[2], scores[2] * 100))
+        # print("%s: %.2f%%" % (self.model.metrics_names[3], scores[3] * 100))
+        # print("%s: %.2f%%" % (self.model.metrics_names[4], scores[4] * 100))
+        # print("%s: %.2f%%" % (self.model.metrics_names[2], scores[2] * 100))
         if not os.path.exists(self.dumpPath + '_BCorr'):
             os.makedirs(self.dumpPath + '_BCorr')
         self.write_evaluated_tests_to_file(x_test, y_pred_class, y_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_BCorr')
@@ -394,9 +555,17 @@ class NeuralTrainer:
         dist_eval_at_050 = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_050, 0.5)
         print('------------------------------------')
 
+        print('------- Clusters Baseline -------')
+        b_cubed_eval_at_100 = self.evaluator.b_cubed_span_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_100, 1.0)
+        b_cubed_eval_at_075 = self.evaluator.b_cubed_span_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_075, 0.75)
+        b_cubed_eval_at_050 = self.evaluator.b_cubed_span_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_050, 0.50)
+        print('---------------------------------')
+
         tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
-        return [scores[3], tagEval, spanEvalAt100, spanEvalAt075, spanEvalAt050, dist_eval_at_100, dist_eval_at_075, dist_eval_at_050]
+        return [scores[3], tagEval, spanEvalAt100, spanEvalAt075, spanEvalAt050,
+                dist_eval_at_100, dist_eval_at_075, dist_eval_at_050,
+                b_cubed_eval_at_100, b_cubed_eval_at_075, b_cubed_eval_at_050]
 
     def crossValidate(self, X, Y, additionalX, additionalY, unencodedY, model_type):
         seed = 42

@@ -3,6 +3,8 @@ import copy
 
 from sklearn.metrics import precision_recall_fscore_support
 from sklearn.metrics import accuracy_score
+
+import bcubed
 class Evaluator:
     num_dist_measures = 3
     def __init__(self, num_tags, num_measures, tags):
@@ -11,9 +13,11 @@ class Evaluator:
         self.tags = tags
 
     def empty_cvscores(self):
-        #[acc, [precision[class], recall[class], f1[class]],[100_correct],[75_correct],[50_correct], dist_100_correct, dist_075_correct, dist_050_correct]
+        #[acc, [precision[class], recall[class], f1[class]],[100_correct],[75_correct],[50_correct],
+        ##dist_100_correct, dist_075_correct, dist_050_correct, cluster_100_correct, cluster_075_correct, cluster_050_correct]
         #percent_correct: [acc, precision_c1, precision_c2, recall_c1, recall_c2, f1_c1, f1_c2]
         #dist_percent_correct: [precision, recall, f1]
+        #cluster_percent_correct: [precision, recall, f1]
         empty_avg = list(map(float,np.zeros(self.num_tags - 1)))
         # nr_measures = 1 + 3*(self.num_tags-1)
         empty_corr = list(map(float,np.zeros(self.num_measures)))
@@ -22,6 +26,7 @@ class Evaluator:
 
         cvscores = [0, [copy.deepcopy(empty_avg), copy.deepcopy(empty_avg), copy.deepcopy(empty_avg)],
                         copy.deepcopy(empty_corr), copy.deepcopy(empty_corr), copy.deepcopy(empty_corr),
+                        copy.deepcopy(empty_dist), copy.deepcopy(empty_dist), copy.deepcopy(empty_dist),
                         copy.deepcopy(empty_dist), copy.deepcopy(empty_dist), copy.deepcopy(empty_dist)]
 
         return cvscores
@@ -71,11 +76,10 @@ class Evaluator:
                     prev_tag = tag
 
             spans.append(text_spans)
-        if illegal_i > 0:
-            print('ILLEGAL I TAGS:', illegal_i) #debug
+        assert illegal_i == 0
         return spans
 
-    def spanEval(self, pred_spans, true_spans, threshold):
+    def spanEval(self, pred_spans, true_spans, threshold, verbose=True):
         true_spans_dict_list = self.spanCreator(true_spans)
         pred_spans_dict_list = self.spanCreator(pred_spans)
 
@@ -178,16 +182,17 @@ class Evaluator:
             if ((precision[i] + recall[i]) != 0):
                 f1[i] = 2 * ((precision[i] * recall[i]) / (precision[i] + recall[i]))
 
-        print('SPAN EVAL')
         premise_index = self.tags.index('(P)')
         claim_index = self.tags.index('(C)')
-        print('Accuracy at ' + str(threshold) + ' - ' + str(round(accuracy, 3)))
-        print('Precision for premises at ' + str(threshold) + ' - ' + str(round(precision[premise_index], 3)))
-        print('Precision for claims at ' + str(threshold) + ' - ' + str(round(precision[claim_index], 3)))
-        print('Recall for premises at ' + str(threshold) + ' - ' + str(round(recall[premise_index], 3)))
-        print('Recall for claims at ' + str(threshold) + ' - ' + str(round(recall[claim_index], 3)))
-        print('F1 for premises at ' + str(threshold) + ' - ' + str(round(f1[premise_index], 3)))
-        print('F1 for claims at ' + str(threshold) + ' - ' + str(round(f1[claim_index], 3)))
+        if verbose:
+            print('SPAN EVAL')
+            print('Accuracy at ' + str(threshold) + ' - ' + str(round(accuracy, 3)))
+            print('Precision for premises at ' + str(threshold) + ' - ' + str(round(precision[premise_index], 3)))
+            print('Precision for claims at ' + str(threshold) + ' - ' + str(round(precision[claim_index], 3)))
+            print('Recall for premises at ' + str(threshold) + ' - ' + str(round(recall[premise_index], 3)))
+            print('Recall for claims at ' + str(threshold) + ' - ' + str(round(recall[claim_index], 3)))
+            print('F1 for premises at ' + str(threshold) + ' - ' + str(round(f1[premise_index], 3)))
+            print('F1 for claims at ' + str(threshold) + ' - ' + str(round(f1[claim_index], 3)))
 
         ret = [round(accuracy, 4),round(precision[premise_index], 4),round(precision[claim_index], 4),round(recall[premise_index], 4),
             round(recall[claim_index], 4),round(f1[premise_index], 4),round(f1[claim_index], 4)]
@@ -257,7 +262,7 @@ class Evaluator:
 
         return (pred_classes, true_classes)
 
-    def tagEval(self, pred_spans, true_spans):
+    def tagEval(self, pred_spans, true_spans, verbose=True):
         i = 0
 
         precision = []
@@ -279,11 +284,12 @@ class Evaluator:
             recall.append(np.pad(scores[1], (0,(nr_classes - len(scores[0]))), 'constant'))
             f1.append(np.pad(scores[2], (0,(nr_classes - len(scores[0]))), 'constant'))
 
-        print('TAG EVAL')
-        print("Accuracy = %.3f%% (+/- %.3f%%)" % (np.mean(accuracy), np.std(accuracy)))
-        precision = self.prettyPrintScore(precision, 'Precision')
-        recall = self.prettyPrintScore(recall, 'Recall')
-        f1 = self.prettyPrintScore(f1, 'F1')
+        if verbose:
+            print('TAG EVAL')
+            print("Accuracy = %.3f%% (+/- %.3f%%)" % (np.mean(accuracy), np.std(accuracy)))
+            precision = self.prettyPrintScore(precision, 'Precision')
+            recall = self.prettyPrintScore(recall, 'Recall')
+            f1 = self.prettyPrintScore(f1, 'F1')
 
         return [precision, recall, f1]
 
@@ -351,7 +357,7 @@ class Evaluator:
             all_edges.append(edges)
         return all_edges
 
-    def dist_eval(self, pred_spans, true_spans, all_pred_dist, all_true_dist, correct_spans, threshold):
+    def dist_eval(self, pred_spans, true_spans, all_pred_dist, all_true_dist, correct_spans, threshold, verbose=True):
         true_spans_dict_list = self.spanCreator(true_spans)
         pred_spans_dict_list = self.spanCreator(pred_spans)
         # print(pred_spans_dict_list[16])
@@ -417,15 +423,90 @@ class Evaluator:
         if ((precision + recall) != 0):
             f1 = 2 * ((precision * recall) / (precision + recall))
 
-        print('DIST SPAN EVAL')
-        print('Precision at ' + str(threshold) + ' - ' + str(round(precision, 3)))
-        print('Recall at ' + str(threshold) + ' - ' + str(round(recall, 3)))
-        print('F1 at ' + str(threshold) + ' - ' + str(round(f1, 3)))
+        if verbose:
+            print('DIST SPAN EVAL')
+            print('Precision at ' + str(threshold) + ' - ' + str(round(precision, 3)))
+            print('Recall at ' + str(threshold) + ' - ' + str(round(recall, 3)))
+            print('F1 at ' + str(threshold) + ' - ' + str(round(f1, 3)))
 
         ret = [round(precision, 4),round(recall, 4),round(f1, 4)]
         return ret
 
+    #input:
+    ###list of grounf truth tags
+    ###list of predicted tags
+    ###dict of start and end of ground truth spans
+    ###dict of start and end of predicted spans
+    ###dict of pred start and groudn truth start of correctly predicted spans
+    def span_clusters_creator(self, true_edges, pred_edges, correct_spans_indexes):
+        all_true_clusters = []
+        all_pred_clusters = []
+        for text in range(0, len(true_edges)):
+            true_cluster = {}
+            pred_cluster = {}
 
+            for true_start, true_link_list in true_edges[text].items():
+                true_cluster['span_'+str(true_start)] = set(true_link_list)
+
+            for pred_start, pred_link_list in pred_edges[text].items():
+                if pred_start in correct_spans_indexes[text].keys():
+                    root_id = correct_spans_indexes[text][pred_start]
+                    cluster_set = set()
+                    for link in pred_link_list:
+                        if link in correct_spans_indexes[text].keys():
+                            link_id = correct_spans_indexes[text][link]
+                            cluster_set.add(link_id)
+                    if cluster_set: #set not empty
+                        pred_cluster['span_'+str(root_id)] = cluster_set
+
+            # if text == 0:
+            #     print(true_cluster)
+            #     print(pred_cluster)
+
+            all_true_clusters.append(true_cluster)
+            all_pred_clusters.append(pred_cluster)
+
+        return (all_true_clusters, all_pred_clusters)
+
+    def b_cubed_span_eval(self, pred_spans, true_spans, all_pred_dist, all_true_dist, correct_spans_indexes, threshold, verbose=True):
+        true_spans_dict_list = self.spanCreator(true_spans)
+        pred_spans_dict_list = self.spanCreator(pred_spans)
+
+        true_spans_closure = self.edge_closure(true_spans, true_spans_dict_list, all_true_dist)
+        pred_spans_closure = self.edge_closure(pred_spans, pred_spans_dict_list, all_pred_dist)
+
+        true_edges = self.remove_redundant_edges(true_spans_closure, true_spans, 'true')
+        pred_edges = self.remove_redundant_edges(pred_spans_closure, pred_spans, 'pred')
+
+        precision = 0
+        recall = 0
+        f1 = 0
+        (all_true_clusters, all_pred_clusters) = self.span_clusters_creator(true_edges, pred_edges, correct_spans_indexes)
+        all_texts = len(all_true_clusters)
+        for text in range(0, all_texts):
+            if all_pred_clusters[text]: #dict not empty
+                prec_ = bcubed.precision(all_pred_clusters[text], all_true_clusters[text])
+                rec_ = bcubed.recall(all_pred_clusters[text], all_true_clusters[text])
+            else:
+                prec_ = rec_ = 0
+
+            precision += prec_ / all_texts
+            recall += rec_ / all_texts
+
+            if prec_ + rec_ == 0:
+                f1_ = 0
+            else:
+                f1_ = 2*(prec_*rec_)/(prec_+rec_)
+            f1 += f1_ / all_texts
+
+        if verbose:
+            print('CLUSTER EVAL')
+            print('Precision at ' + str(threshold) + ' - ' + str(round(precision, 3)))
+            print('Recall at ' + str(threshold) + ' - ' + str(round(recall, 3)))
+            print('F1 at ' + str(threshold) + ' - ' + str(round(f1, 3)))
+
+        ret = [round(precision, 4),round(recall, 4),round(f1, 4)]
+        return ret
 
     def handleScores(self, oldScores, newScores, nFolds):
         newAccuracy = oldScores[0] + (newScores[0] / nFolds)

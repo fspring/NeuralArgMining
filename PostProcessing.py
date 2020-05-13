@@ -6,7 +6,7 @@ class PostProcessing:
         self.tags = tags
 
     def correct_dist_prediction(self, arg_pred, dist_pred, unencodedY):
-        print('=========== CORRECTING ===========') #debug
+        # print('=========== CORRECTING ===========') #debug
         f = open('correction_debug.txt', 'w')
         for i in range(0, len(dist_pred)):
         # for i in range(16, 17):
@@ -20,7 +20,7 @@ class PostProcessing:
                 src_arg = np.argmax(arg_pred[i][j])
                 pred_dist = int(round(dist_pred[i][j][0]))
                 if src_arg == 1: #non-arg
-                    if is_beginning:
+                    if is_beginning: #change CO or PO to CI PI - arg comp size > 1
                         arg_pred[i][j][1] = 0 #erase O tag
                         arg_pred[i][j][0] = 1 #add I tag
                         dist_pred[i][j][0] = 0
@@ -151,7 +151,7 @@ class PostProcessing:
 
             f.write(u'i: ' + str(i) + ' - phase 2: ' + str(dist_pred[i]) + '\n')
         f.close()
-        print('=========== DONE ===========') #debug
+        # print('=========== DONE ===========') #debug
         return (arg_pred, dist_pred)
 
     def replace_argument_tag(self, y_pred_class, unencodedY):
