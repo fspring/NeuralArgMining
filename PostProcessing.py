@@ -159,7 +159,7 @@ class PostProcessing:
         all_texts_pred = []
         number_of_texts = len(y_pred_class)
         for i in range(0, number_of_texts):
-            true_classes = np.trim_zeros(unencodedY[i])
+            true_classes = np.array(np.trim_zeros(unencodedY[i]))
             text_size = len(true_classes)
 
             result = np.resize(y_pred_class[i], (text_size, self.num_tags)) #(text size, n tags) -> [[0, 1, 0, 0], [0, 0, 1, 0], ...]
