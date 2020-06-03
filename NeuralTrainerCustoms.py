@@ -135,7 +135,7 @@ class CustomEarlyStopping(keras.callbacks.Callback):
             warnings.warn("Early stopping requires %s available!" % self.monitor, RuntimeWarning)
 
         if current > self.threshold:
-            if self.monitor_op(current - min_delta, self.best):
+            if self.monitor_op(current - self.min_delta, self.best):
                 self.best = current
             else:
                 self.wait += 1
