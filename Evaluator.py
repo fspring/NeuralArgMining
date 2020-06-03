@@ -5,6 +5,8 @@ from sklearn.metrics import precision_recall_fscore_support
 from sklearn.metrics import accuracy_score
 
 import bcubed
+import b_cubed_measures as b3
+
 class Evaluator:
     num_dist_measures = 3
     def __init__(self, num_tags, num_measures, tags):
@@ -446,7 +448,7 @@ class Evaluator:
         return ret
 
     #input:
-    ###list of grounf truth tags
+    ###list of ground truth tags
     ###list of predicted tags
     ###dict of start and end of ground truth spans
     ###dict of start and end of predicted spans
@@ -455,29 +457,57 @@ class Evaluator:
         all_true_clusters = []
         all_pred_clusters = []
         for text in range(0, len(true_edges)):
-            true_cluster = {}
-            pred_cluster = {}
+            ordered_pred_spans = sorted(correct_spans_indexes[text].keys())
+            ordered_true_spans = sorted(correct_spans_indexes[text].values())
+            nr_spans = len(ordered_pred_spans)
+            pred_cluster = np.zeros(nr_spans)
+            true_cluster = np.zeros(nr_spans)
+            cluster = 1
 
-            for true_start, true_link_list in true_edges[text].items():
-                true_cluster['span_'+str(true_start)] = set(true_link_list)
+            for true_start, link_list in true_edges[text].items():
+                for i in range(0, nr_spans):
+                    if true_start == ordered_true_spans[i]:
+                        cluster_indexes = []
+                        for link in link_list:
+                            for j in range(0, nr_spans):
+                                if link == ordered_true_spans[j]:
+                                    if true_cluster[j] != 0:
+                                        cluster = true_cluster[j]
+                                    cluster_indexes.append(j)
+                        if cluster_indexes:
+                            for index in cluster_indexes:
+                                true_cluster[i] = cluster
+                                true_cluster[index] = cluster
+                        pred_start = ordered_pred_spans[i]
+                        if pred_start in pred_edges[text].keys():
+                            cluster_indexes = []
+                            for link in pred_edges[text][pred_start]:
+                                for j in range(0, nr_spans):
+                                    if link == ordered_pred_spans[j]:
+                                        if pred_cluster[j] != 0:
+                                            cluster = pred_cluster[j]
+                                        cluster_indexes.append(j)
+                            if cluster_indexes:
+                                for index in cluster_indexes:
+                                    pred_cluster[i] = cluster
+                                    pred_cluster[index] = cluster
+                cluster += 1
 
-            for pred_start, pred_link_list in pred_edges[text].items():
-                if pred_start in correct_spans_indexes[text].keys():
-                    root_id = correct_spans_indexes[text][pred_start]
-                    cluster_set = set()
-                    for link in pred_link_list:
-                        if link in correct_spans_indexes[text].keys():
-                            link_id = correct_spans_indexes[text][link]
-                            cluster_set.add(link_id)
-                    if cluster_set: #set not empty
-                        pred_cluster['span_'+str(root_id)] = cluster_set
-
-            # if text == 0:
-            #     print(true_cluster)
-            #     print(pred_cluster)
+            assert len(true_cluster) == len(pred_cluster)
 
             all_true_clusters.append(true_cluster)
             all_pred_clusters.append(pred_cluster)
+
+            # if text < 5:
+            #     print(text)
+            #     print('pred spans:', ordered_pred_spans)
+            #     print('true spans:', ordered_true_spans)
+            #     print('pred edges:', pred_edges[text])
+            #     print('true edges:', true_edges[text])
+            #     print('pred clusters:', pred_cluster)
+            #     print('true clusters:', true_cluster)
+            # else:
+            #     break
 
         return (all_true_clusters, all_pred_clusters)
 
@@ -497,19 +527,20 @@ class Evaluator:
         (all_true_clusters, all_pred_clusters) = self.span_clusters_creator(true_edges, pred_edges, correct_spans_indexes)
         all_texts = len(all_true_clusters)
         for text in range(0, all_texts):
-            if all_pred_clusters[text]: #dict not empty
-                prec_ = bcubed.precision(all_pred_clusters[text], all_true_clusters[text])
-                rec_ = bcubed.recall(all_pred_clusters[text], all_true_clusters[text])
+            if len(all_pred_clusters[text]) != 0: #dict not empty
+                [f1_, prec_, rec_] = b3.calc_b3(np.array(list(all_pred_clusters[text])), np.array(list(all_true_clusters[text])))
+            # prec_ = bcubed.precision(all_pred_clusters[text], all_true_clusters[text])
+            # rec_ = bcubed.recall(all_pred_clusters[text], all_true_clusters[text])
             else:
-                prec_ = rec_ = 0
+                f1_ = prec_ = rec_ = 0
 
             precision += prec_ / all_texts
             recall += rec_ / all_texts
 
-            if prec_ + rec_ == 0:
-                f1_ = 0
-            else:
-                f1_ = 2*(prec_*rec_)/(prec_+rec_)
+            # if prec_ + rec_ == 0:
+            #     f1_ = 0
+            # else:
+            #     f1_ = 2*(prec_*rec_)/(prec_+rec_)
             f1 += f1_ / all_texts
 
         if verbose:

@@ -1,12 +1,13 @@
 import numpy as np
 import os
-import pathlib
+# import pathlib
 import matplotlib.pyplot as plt
 import sys
 
 import Evaluator as ev
 import RelationBaseline as rb
 import PostProcessing as pp
+import NeuralTrainerCustoms as ntc
 
 import AdaMod as am
 
@@ -23,106 +24,23 @@ from keras.callbacks import EarlyStopping
 from keras.losses import mean_absolute_error, logcosh
 from keras.activations import softmax
 
+import keras.losses
+
 # import tensorflow as tf
 
 from keras_contrib.layers import CRF
 from keras_contrib.losses import crf_loss
 from keras_contrib.metrics import crf_accuracy
 
+from keras.utils.generic_utils import get_custom_objects
+
 np.set_printoptions(threshold=sys.maxsize)
 
-class SoftArgMax:
-    def __init__(self):
-        self.layer = None
-
-    def soft_argmax_func(self, x, beta=1e10):
-        x_class = x[:,:4]
-        x_dist = x[:,4:]
-
-        x_range = K.arange(0,x_class.shape.as_list()[-1], dtype=x_class.dtype)
-        output = K.sum(softmax(x_class*beta) * x_range, axis=-1, keepdims=False)
-        # print('output shape', K.int_shape(output))
-
-        # output = tf.reduce_sum(softmax(x_class*beta) * x_range, axis=-1)
-        # print('output shape', K.int_shape(output))
-
-        lower = K.constant(0.5)
-        upper = K.constant(1.5)
-        zero = K.zeros_like(x_dist)
-        #if 0.5 <= output < 1.5 then return 0 else return predicted distance
-        return K.switch(K.all(K.stack([K.greater_equal(output, lower), K.less(output, upper)], axis=0), axis=0), zero, x_dist)
-
-    def create_soft_argmax_layer(self):
-        self.layer = Lambda(self.soft_argmax_func, output_shape=(1,), name='lambda_softargmax')
-
-    def zero_switch_func(self, x, beta=1e10):
-        # x = tf.split(x, [4, 1], -1)
-        x_class = x[:,:4]
-        x_dist = x[:,4:]
-
-        O_prob = K.squeeze(x_class[:,:,1:2], axis=-1)
-        zero = K.zeros_like(x_dist)
-
-        #if 0.5 <= output < 1.5 then return 0 else return predicted distance
-        return K.switch(K.less(O_prob, K.constant(0.25)), x_dist, zero)
-
-    def create_zero_switch_layer(self):
-        self.layer = Lambda(self.zero_switch_func, output_shape=(1,), name='lambda_zero_switch')
-
-class Losses:
-    def zero_loss_wrapper(self, crf_layer):
-        def zero_loss(y_true, y_pred):
-            if not K.is_tensor(y_pred):
-                y_pred = K.constant(y_pred)
-            y_true = K.cast(y_true, y_pred.dtype)
-
-            mae = K.mean(K.abs(y_pred - y_true), axis=-1)
-
-            O_prob = K.squeeze(crf_layer[:,:,1:2], axis=-1)
-
-            zero = K.constant(0)
-
-            #if O_prob < 0.25 and pred_dist == 0 then return mae else return 0
-            return K.switch(K.all(K.stack([K.less(O_prob, K.constant(0.25)), K.equal(K.squeeze(y_pred, axis=-1), zero)], axis=0), axis=0), mae, K.zeros_like(mae))
-        return zero_loss
-
-    def consecutive_dist_loss_wrapper(self, crf_layer):
-        def consecutive_dist_loss(y_true, y_pred):
-            if not K.is_tensor(y_pred):
-                y_pred = K.constant(y_pred)
-            y_true = K.cast(y_true, y_pred.dtype)
-
-            # print('ypred shape', K.int_shape(y_pred))
-
-            I_prob = K.squeeze(crf_layer[:,:,:1], axis=-1)
-
-            ypred_size = K.int_shape(y_pred)[1]
-            tiled = K.tile(y_pred, [1, 2, 1]) #repeat array like [1, 2, 3] -> [1, 2, 3, 1, 2, 3]
-            rolled_y_pred = tiled[:,ypred_size-1:-1] #crop repeated array (from len-1) -> [3, 1, 2] <- (to -1)
-
-            dist_dif = K.abs((rolled_y_pred - y_pred) - K.ones_like(y_pred))
-
-            mae = K.switch(K.greater(I_prob, K.constant(0.5)), K.mean(K.abs(y_pred - y_true + dist_dif), axis=-1), K.mean(K.abs(y_pred - y_true), axis=-1))
-
-            y_true_aux = K.squeeze(y_true, axis=-1)
-            zero = K.constant(0)
-
-            return K.switch(K.equal(y_true_aux, zero), K.zeros_like(mae), mae)
-        return consecutive_dist_loss
-
-
-    def loss_func(self, y_true, y_pred):
-        if not K.is_tensor(y_pred):
-            y_pred = K.constant(y_pred)
-        y_true = K.cast(y_true, y_pred.dtype)
-
-        mae = K.mean(K.abs(y_pred - y_true), axis=-1)
-
-        y_true = K.squeeze(y_true, axis=-1)
-        zero = K.constant(0)
-
-        return K.switch(K.equal(y_true, zero), K.zeros_like(mae), mae)
-
+losses = ntc.Losses()
+# crf_tensor_arg = K.zeros((129, 741, 4))
+# get_custom_objects().update({'consecutive_dist_loss': losses.consecutive_dist_loss_wrapper(crf_tensor_arg)})
+get_custom_objects().update({'loss_func': losses.loss_func})
+keras.losses.loss_func = losses.loss_func
 
 class NeuralTrainer:
     embedding_size = 300
@@ -143,13 +61,11 @@ class NeuralTrainer:
         self.arg_classes = ['']*num_tags
         self.transition_matrix = None
         self.save_weights = False
-        self.crf_tensor = None
         self.read_tag_mapping()
         self.set_transition_matrix()
         num_measures = 1 + 3*(num_tags - 2)
         self.evaluator = ev.Evaluator(self.num_tags, num_measures, self.tags)
         self.postprocessing = pp.PostProcessing(self.num_tags, self.tags)
-        self.losses = Losses()
 
     def read_tag_mapping(self):
         f = open('tag_mapping.txt', 'r', encoding='utf-8')
@@ -250,10 +166,10 @@ class NeuralTrainer:
     def create_dist_layer(self, biLSTM_tensor, crf_tensor):
         dist_tensor = TimeDistributed(Dense(1, activation='relu'), name='distance_layer')(biLSTM_tensor)
 
-        soft_argmax = SoftArgMax()
+        soft_argmax = ntc.SoftArgMax()
         soft_argmax.create_soft_argmax_layer()
 
-        # zero_switch = SoftArgMax()
+        # zero_switch = ntc.SoftArgMax()
         # zero_switch.create_zero_switch_layer()
 
         concat = concatenate([crf_tensor, dist_tensor], axis=-1, name='concatenate')
@@ -269,23 +185,26 @@ class NeuralTrainer:
         input = Input(shape=(self.maxlen,), name='input')
 
         biLSTM_tensor = self.create_biLSTM(input)
-        self.crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
+        crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
 
-        (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, self.crf_tensor)
+        (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, crf_tensor)
 
-        self.model = Model(input=input, output=[self.crf_tensor,dist_tensor])
+        self.model = Model(input=input, output=[crf_tensor,dist_tensor])
         print(self.model.summary()) #debug
 
         #loss_weights=[1.0, 0.10],
         ####LOSSES:
         ######'mean_absolute_error'
-        ######self.losses.loss_func
-        ######self.losses.consecutive_dist_loss_wrapper(crf_tensor)
-        ######self.losses.zero_loss_wrapper(crf_tensor)
+        ######'loss_func'
+        ######'consecutive_dist_loss'
         ####OPTIMIZERS:
         ######'adam'
         ######am.AdaMod() ??
-        self.model.compile(optimizer='adam', loss=[crf_loss,self.losses.loss_func], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        get_custom_objects().update({'consecutive_dist_loss': losses.consecutive_dist_loss_wrapper(crf_tensor)})
+        keras.losses.consecutive_dist_loss = losses.consecutive_dist_loss_wrapper(crf_tensor)
+        self.model.compile(optimizer='adam', loss=[crf_loss,'loss_func'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+
+        # self.model.run_eagerly = True #debug
 
         if self.save_weights:
             print('MODEL LOADED FROM FILE')
@@ -295,6 +214,8 @@ class NeuralTrainer:
             baseline_model = Model(input=input, output=base_crf_tensor)
             print(baseline_model.summary()) #debug
             baseline_model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
+
+            # baseline_model.run_eagerly = True #debug
 
             baseline_model.load_weights('baseline_weights.h5', by_name=True)
 
@@ -322,6 +243,8 @@ class NeuralTrainer:
         print(self.model.summary()) #debug
 
         self.model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
+
+        # self.model.run_eagerly = True #debug
 
     def train_baseline_model(self, x_train, y_train, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
@@ -373,195 +296,13 @@ class NeuralTrainer:
                 dist_eval_at_100, dist_eval_at_075, dist_eval_at_050,
                 b_cubed_eval_at_100, b_cubed_eval_at_075, b_cubed_eval_at_050]
 
-    def trainModel(self, x_train, y_train_class, y_train_dist, x_test, y_test_class, y_test_dist, unencodedY, testSet, png_name):
-        batch_size = 8
-        train_iter = round(x_train.shape[0]/batch_size)
-        test_iter = round(x_test.shape[0]/batch_size)
+    def trainModel(self, x_train, y_train_class, y_train_dist, y_target, x_test, y_test_class, y_test_dist, unencodedY, testSet, png_name):
+        f1_metric = ntc.F1_Metric(y_target, x_train, y_train_dist, self.postprocessing, self.evaluator, verbose=1)
+        monitor = ntc.CustomEarlyStopping(monitor='f1', min_delta=0.001, patience=5, verbose=1, mode='max', threshold=0)
+        # mcp_save = ModelCheckpoint('.mdl_wts.hdf5', save_best_only=True, monitor='loss', mode='min')
 
-        # have to define manually a dict to store all epochs scores
-        history = {}
-        history['history'] = {}
-        history['history']['loss'] = []
-        history['history']['crf_acc'] = []
-        history['history']['mean_absolute_error'] = []
-        history['history']['f1'] = []
-        history['history']['val_loss'] = []
-        history['history']['val_crf_acc'] = []
-        history['history']['val_mean_absolute_error'] = []
-        history['history']['val_f1'] = []
-
-        monitor = 'loss'
-        prev_loss = 0
-        patience = 0
-        min_delta = 0.001
-        nr_epochs = 100
-        for epoch in range(0, nr_epochs):
-            # train iterations
-            loss, crf_loss, dist_loss, crf_acc, mae, f1 = 0, 0, 0, 0, 0, 0
-            print('Epoch', epoch + 1, '/ 100')
-            for i in range(0, train_iter):
-
-                start = i*batch_size
-                end = i*batch_size + batch_size
-                x_batch = x_train[start:end,]
-                y_batch = [y_train_class[start:end,], y_train_dist[start:end,]]
-                unencodedY_batch = unencodedY[start:end,]
-
-                loss_, crf_loss_, dist_loss_, crf_acc_, mae_ = self.model.train_on_batch(x_batch, y_batch)
-
-                loss += loss_
-                crf_loss += crf_loss_
-                dist_loss += dist_loss_
-                crf_acc += crf_acc_
-                mae += mae_
-
-                [y_pred_class, y_pred_dist] = self.model.predict_on_batch(x_batch)
-
-                (y_pred_class, c_pred_dist) = self.postprocessing.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
-
-                (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
-
-                (spanEvalAt100, correct_spans_at_100) = self.evaluator.spanEval(pred_spans, true_spans, 1.0, verbose=False)
-                try:
-                    dist_eval_at_100 = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_100, 1.0, verbose=False)
-                except KeyError:
-                    fd = open('error_input.txt', 'w')
-                    txt = 'pred_spans' + str(pred_spans) + '\ntrue_spans' + str(true_spans) + '\nc_pred_dist' + str(np.array(c_pred_dist)) + '\ny_test_dist' + str(np.array(y_test_dist)) + '\ncorrect_spans_at_100' + str(correct_spans_at_100)
-                    fd.write(txt)
-                    fd.close()
-                    raise KeyError
-                f1 += dist_eval_at_100[2]
-
-                print(round(i/train_iter*100), '%\t',end='\r')
-
-            history['history']['loss'].append(loss/train_iter)
-            history['history']['crf_acc'].append(crf_acc/train_iter)
-            history['history']['mean_absolute_error'].append(mae/train_iter)
-            history['history']['f1'].append(f1/train_iter)
-
-            print('')
-            # test iterations
-            val_loss, val_crf_loss, val_dist_loss, val_crf_acc, val_mae = 0, 0, 0, 0, 0
-            val_f1 = 0
-            for i in range(0, test_iter):
-
-                start = i*batch_size
-                end = i*batch_size + batch_size
-                x_batch = x_test[start:end,]
-                y_batch = [y_test_class[start:end,], y_test_dist[start:end,]]
-                unencodedY_batch = unencodedY[start:end,]
-
-                val_loss_, val_crf_loss_, val_dist_loss_, val_crf_acc_, val_mae_ = self.model.test_on_batch(x_batch, y_batch)
-
-                val_loss += val_loss_
-                val_crf_loss += val_crf_loss_
-                val_dist_loss += val_dist_loss_
-                val_crf_acc += val_crf_acc_
-                val_mae += val_mae_
-
-                [y_pred_class, y_pred_dist] = self.model.predict_on_batch(x_batch)
-
-                (y_pred_class, c_pred_dist) = self.postprocessing.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
-
-                (true_spans, pred_spans) = self.postprocessing.replace_argument_tag(y_pred_class, unencodedY)
-
-                (spanEvalAt100, correct_spans_at_100) = self.evaluator.spanEval(pred_spans, true_spans, 1.0, verbose=False)
-                dist_eval_at_100 = self.evaluator.dist_eval(pred_spans, true_spans, c_pred_dist, y_test_dist, correct_spans_at_100, 1.0, verbose=False)
-                val_f1 += dist_eval_at_100[2]
-
-                print(round(i/test_iter*100), '%\t',end='\r')
-
-            history['history']['val_loss'].append(val_loss/test_iter)
-            history['history']['val_crf_acc'].append(val_crf_acc/test_iter)
-            history['history']['val_mean_absolute_error'].append(val_mae/test_iter)
-            history['history']['val_f1'].append(val_f1/test_iter)
-
-            print('')
-
-            if monitor == 'loss' and abs(loss - prev_loss) < min_delta:
-                patience += 1
-            elif monitor == 'f1' and abs(f1 - prev_f1) < min_delta:
-                patience += 1
-            prev_loss = loss
-            prev_f1 = f1
-            if patience == 5 and monitor == 'loss':
-                print('Switching Monitor...')
-                patience = 0
-                monitor = 'f1'
-            elif patience == 5 and monitor == 'f1':
-                print('Early Stopping...')
-                patience = 0
-                monitor = 'f1'
-
-
-                input = Input(shape=(self.maxlen,), name='input')
-
-                biLSTM_tensor = self.create_biLSTM(input)
-                crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
-
-                (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, crf_tensor)
-
-                model = Model(input=input, output=[crf_tensor,dist_tensor])
-                #loss_weights=[1.0, 0.10],
-                ####LOSSES:
-                ######'mean_absolute_error'
-                ######self.losses.loss_func
-                ######self.losses.consecutive_dist_loss_wrapper(crf_tensor)
-                ######self.losses.zero_loss_wrapper(crf_tensor)
-                model.compile(optimizer='adam', loss=[crf_loss,self.losses.consecutive_dist_loss_wrapper(crf_tensor)], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-
-                new_layers = model.layers
-                model_layers = self.model.layers
-                for i in range(0, len(model_layers)):
-                    print(model_layers[i].name, new_layers[i].name)
-                    assert model_layers[i].name == new_layers[i].name
-                    layer_name = model_layers[i].name
-                    model.get_layer(layer_name).set_weights(model_layers[i].get_weights())
-
-                self.model = model
-
-                # layer = self.model.get_layer('crf_layer')
-                # self.model.compile(optimizer='adam', loss=[crf_loss,self.losses.consecutive_dist_loss_wrapper(layer)], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-                break
-
-        # Some plots to check what is going on
-        # loss function
-        plt.figure()
-        plt.subplot(411)
-        plt.title('Loss')
-        plt.plot(history['history']['loss'], label='train')
-        plt.plot(history['history']['val_loss'], label='test')
-        plt.legend()
-
-        # Only crf acc
-        plt.subplot(412)
-        plt.title('CRF Accuracy')
-        plt.plot(history['history']['crf_acc'], label='train')
-        plt.plot(history['history']['val_crf_acc'], label='test')
-        plt.legend()
-
-        # Only mae
-        plt.subplot(413)
-        plt.title('Mean Absolute Error')
-        plt.plot(history['history']['mean_absolute_error'], label='train')
-        plt.plot(history['history']['val_mean_absolute_error'], label='test')
-        plt.legend()
-
-        # Only f1
-        plt.subplot(414)
-        plt.title('F1 Score')
-        plt.plot(history['history']['f1'], label='train')
-        plt.plot(history['history']['val_f1'], label='test')
-        plt.legend()
-        plt.tight_layout()
-        plt.show()
-        plt.savefig(png_name + '_train_test_eval.png')
-
-
-        # monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
-
-        # y_train = [y_train_class,y_train_dist]
-        # self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
+        y_train = [y_train_class,y_train_dist]
+        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[f1_metric, monitor])
 
         layer = self.model.get_layer('crf_layer')
         weights = layer.get_weights()
@@ -650,10 +391,12 @@ class NeuralTrainer:
             X_train = []
             Y_train_class = []
             Y_train_dist = []
+            Y_target = []
             for trainIndex in train:
                 X_train.append(X[trainIndex])
                 Y_train_class.append(Y_class[trainIndex])
                 Y_train_dist.append(Y_dist[trainIndex])
+                Y_target.append(unencodedY[trainIndex])
 
             X_test = []
             Y_test_class = []
@@ -688,7 +431,7 @@ class NeuralTrainer:
             if model_type == 'baseline':
                 scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
             elif model_type == 'crf_dist':
-                scores = self.trainModel(X_train, Y_train_class, Y_train_dist, X_test, Y_test_class,Y_test_dist, unencoded_Y, test, 'fold_'+str(foldNumber))
+                scores = self.trainModel(X_train, Y_train_class, Y_train_dist, Y_target, X_test, Y_test_class,Y_test_dist, unencoded_Y, test, 'fold_'+str(foldNumber))
             cvscores = self.evaluator.handleScores(cvscores, scores, n_folds)
             foldNumber += 1
 
