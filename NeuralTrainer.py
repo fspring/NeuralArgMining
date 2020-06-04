@@ -228,7 +228,6 @@ class NeuralTrainer:
                 self.model.get_layer(layer_name).set_weights(base_layers[i].get_weights())
                 # self.model.get_layer(layer_name).trainable = False
 
-
     def create_baseline_model(self, type):
         input = Input(shape=(self.maxlen,))
 
@@ -356,6 +355,9 @@ class NeuralTrainer:
         print('---------------------------------')
 
         tagEval = self.evaluator.tagEval(pred_spans, true_spans)
+
+        if monitor.stopped_epoch > 0:
+            self.model.compile(optimizer='adam', loss=[crf_loss,'consecutive_dist_loss'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
         return [scores[3], tagEval, spanEvalAt100, spanEvalAt075, spanEvalAt050,
                 dist_eval_at_100, dist_eval_at_075, dist_eval_at_050,
