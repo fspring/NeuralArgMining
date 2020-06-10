@@ -1,4 +1,4 @@
-import numpy as np
+model_maker.import numpy as np
 import os
 # import pathlib
 import matplotlib.pyplot as plt
@@ -8,255 +8,65 @@ import Evaluator as ev
 import RelationBaseline as rb
 import PostProcessing as pp
 import NeuralTrainerCustoms as ntc
+import NeuralModel as nm
 
 import AdaMod as am
 
 from sklearn.model_selection import KFold
 
-from sklearn.metrics import mean_absolute_error
-
 import keras
 from keras import backend as K
-from keras.models import Sequential, Model
-from keras.layers import Input, Layer, Dense, Activation, Embedding, LSTM, Bidirectional, Lambda, concatenate
-from keras.layers.wrappers import TimeDistributed
 from keras.callbacks import EarlyStopping
-from keras.losses import mean_absolute_error, logcosh
-from keras.activations import softmax
-
-import keras.losses
-
-# import tensorflow as tf
-
-from keras_contrib.layers import CRF
-from keras_contrib.losses import crf_loss
-from keras_contrib.metrics import crf_accuracy
 
 from keras.utils.generic_utils import get_custom_objects
 
-np.set_printoptions(threshold=sys.maxsize)
+# np.set_printoptions(threshold=sys.maxsize)
 
-losses = ntc.Losses()
+# losses = ntc.Losses()
 # crf_tensor_arg = K.zeros((129, 741, 4))
 # get_custom_objects().update({'consecutive_dist_loss': losses.consecutive_dist_loss_wrapper(crf_tensor_arg)})
-get_custom_objects().update({'loss_func': losses.loss_func})
-keras.losses.loss_func = losses.loss_func
+# get_custom_objects().update({'loss_func': losses.loss_func})
 
 class NeuralTrainer:
     embedding_size = 300
     hidden_size = 100
 
 
-    def __init__(self, maxlen, num_tags, word_index, embeddings, texts_to_eval_dir, dumpPath):
-        self.sequences = []
-        self.maxlen = maxlen
-        self.vocab_size = len(word_index)+1
+    def __init__(self, maxlen, num_tags, word_index, embeddings, model_type, texts_to_eval_dir, dumpPath):
         self.num_tags = num_tags
         self.word_index = word_index
-        self.embeddings = embeddings
         self.texts_to_eval_dir = texts_to_eval_dir
         self.dumpPath = dumpPath
-        self.model = None
-        self.tags = ['']*num_tags
-        self.arg_classes = ['']*num_tags
-        self.transition_matrix = None
-        self.save_weights = False
-        self.read_tag_mapping()
-        self.set_transition_matrix()
+        self.model_maker = None
+        self.make_model(maxlen, num_tags, word_index, embeddings, model_type)
         num_measures = 1 + 3*(num_tags - 2)
-        self.evaluator = ev.Evaluator(self.num_tags, num_measures, self.tags)
-        self.postprocessing = pp.PostProcessing(self.num_tags, self.tags)
+        self.evaluator = ev.Evaluator(num_tags, num_measures, self.model_maker.tags)
+        self.postprocessing = pp.PostProcessing(num_tags, self.model_maker.tags)
+        self.monitor_type = 'loss'
 
-    def read_tag_mapping(self):
-        f = open('tag_mapping.txt', 'r', encoding='utf-8')
-        lines = f.readlines()
-        tags = {}
-        for mapping in lines:
-            if(mapping == ''):
-                continue
-            map = mapping.split('\t')
-            tags[int(map[1][0])-1] = map[0]
-        for i in range(0, self.num_tags):
-            self.tags[i] = tags[i]
-            if tags[i] == '(O)':
-                self.arg_classes[i] = '|'
-            elif tags[i] == '(P)':
-                self.arg_classes[i] = 'premise'
-            elif tags[i] == '(C)':
-                self.arg_classes[i] = 'claim'
-            elif tags[i] == '(I)':
-                self.arg_classes[i] = 'inside'
-
-    def set_transition_matrix(self):
-        transition_matrix = np.array([[1]*self.num_tags]*self.num_tags)
-        # matrix is initialized to 1
-        # this function sets some entries to -1
-        for i in range(0, self.num_tags):
-            if self.tags[i] == '(O)':
-                for j in range(0, self.num_tags):
-                    if self.tags[j] == '(P)': # impossible transition to (O)
-                        transition_matrix[i][j] = -1
-                    elif self.tags[j] == '(C)': # impossible transition to (O)
-                        transition_matrix[i][j] = -1
-            elif self.tags[i] == '(P)':
-                for j in range(0, self.num_tags):
-                    if self.tags[j] == '(P)': # impossible transition to (P)
-                        transition_matrix[i][j] = -1
-                    elif self.tags[j] == '(C)': # impossible transition to (P)
-                        transition_matrix[i][j] = -1
-            elif self.tags[i] == '(C)':
-                for j in range(0, self.num_tags):
-                    if self.tags[j] == '(P)': # impossible transition to (C)
-                        transition_matrix[i][j] = -1
-                    elif self.tags[j] == '(C)': # impossible transition to (C)
-                        transition_matrix[i][j] = -1
-            elif self.tags[i] == '(I)':
-                for j in range(0, self.num_tags):
-                    if self.tags[j] == '(O)': # impossible transition to (I)
-                        transition_matrix[i][j] = -1
-        print(transition_matrix) #debug
-        self.transition_matrix = transition_matrix
-
-    def createEmbeddings(self, word_index, embeddings):
-        embeddings_index = {}
-        path = 'Embeddings/' + embeddings + '.txt'
-        f = open(path, "r", encoding='utf8')
-        for line in f:
-            values = line.split()
-            word = values[0]
-            coefs = np.asarray(values[1:], dtype='float32')
-            embeddings_index[word] = coefs
-        f.close()
-
-        embedding_matrix = np.zeros((self.vocab_size, self.embedding_size))
-        for word, i in word_index.items():
-            embedding_vector = embeddings_index.get(word)
-            if embedding_vector is not None:
-                embedding_matrix[i] = embedding_vector
-        return embedding_matrix
-
-    def create_biLSTM(self, input):
-        embeddingMatrix = self.createEmbeddings(self.word_index, self.embeddings)
-        emb = Embedding(self.vocab_size, self.embedding_size, weights=[embeddingMatrix], input_length=self.maxlen,
-                      trainable=False, mask_zero=True, name='embedding')(input)
-
-        biLSTM_tensor = TimeDistributed(Dense(self.hidden_size, activation='relu'), name='time_distributed_1')(emb)
-        biLSTM_tensor = Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh'), name='biLSTM_1')(biLSTM_tensor)
-        biLSTM_tensor = Bidirectional(LSTM(self.hidden_size, return_sequences=True, activation='pentanh', recurrent_activation='pentanh'), name='biLSTM_2')(biLSTM_tensor)
-
-        return biLSTM_tensor
-
-    def create_CRF(self, biLSTM_tensor, learn, test):
-        crf_tensor = TimeDistributed(Dense(20, activation='relu'), name='time_distributed_2')(biLSTM_tensor)
-
-        chain_matrix = keras.initializers.Constant(self.transition_matrix)
-
-        if learn == 'marginal': #loaded model or std CRF-dist model
-            crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test,
-                    chain_initializer=chain_matrix, name='crf_layer')
-            # crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, name='crf_layer')
-
-        else: #baseline model
-            crf = CRF(self.num_tags, sparse_target=False, learn_mode=learn, test_mode=test, name='crf_layer')
-
-        crf_tensor = crf(crf_tensor)
-
-        return crf_tensor
-
-    def create_dist_layer(self, biLSTM_tensor, crf_tensor):
-        dist_tensor = TimeDistributed(Dense(1, activation='relu'), name='distance_layer')(biLSTM_tensor)
-
-        soft_argmax = ntc.SoftArgMax()
-        soft_argmax.create_soft_argmax_layer()
-
-        # zero_switch = ntc.SoftArgMax()
-        # zero_switch.create_zero_switch_layer()
-
-        concat = concatenate([crf_tensor, dist_tensor], axis=-1, name='concatenate')
-
-        ### LAYER OPTIONS:
-        ##### soft_argmax.layer
-        ##### zero_switch.layer
-        output = TimeDistributed(soft_argmax.layer, name='softargmax')(concat)
-
-        return (output, soft_argmax)
-
-    def create_model(self):
-        input = Input(shape=(self.maxlen,), name='input')
-
-        biLSTM_tensor = self.create_biLSTM(input)
-        crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
-
-        (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, crf_tensor)
-
-        self.model = Model(input=input, output=[crf_tensor,dist_tensor])
-        print(self.model.summary()) #debug
-
-        #loss_weights=[1.0, 0.10],
-        ####LOSSES:
-        ######'mean_absolute_error'
-        ######'loss_func'
-        ######'consecutive_dist_loss'
-        ####OPTIMIZERS:
-        ######'adam'
-        ######am.AdaMod() ??
-        get_custom_objects().update({'consecutive_dist_loss': losses.consecutive_dist_loss_wrapper(crf_tensor)})
-        keras.losses.consecutive_dist_loss = losses.consecutive_dist_loss_wrapper(crf_tensor)
-        self.model.compile(optimizer='adam', loss=[crf_loss,'loss_func'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-
-        # self.model.run_eagerly = True #debug
-
-        if self.save_weights:
-            print('MODEL LOADED FROM FILE')
-            # self.model.load_weights('baseline_weights.h5', by_name=True)
-
-            base_crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
-            baseline_model = Model(input=input, output=base_crf_tensor)
-            print(baseline_model.summary()) #debug
-            baseline_model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
-
-            # baseline_model.run_eagerly = True #debug
-
-            baseline_model.load_weights('baseline_weights.h5', by_name=True)
-
-            base_layers = baseline_model.layers
-            model_layers = self.model.layers
-            for i in range(0, len(base_layers)):
-                print(model_layers[i].name, base_layers[i].name)
-                assert model_layers[i].name == base_layers[i].name
-                layer_name = base_layers[i].name
-                self.model.get_layer(layer_name).set_weights(base_layers[i].get_weights())
-                # self.model.get_layer(layer_name).trainable = False
-
-    def create_baseline_model(self, type):
-        input = Input(shape=(self.maxlen,))
-
-        biLSTM_tensor = self.create_biLSTM(input)
-        # if type == 'dual':
-        #     crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
-        # else:
-        #     crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
-        crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
-
-        self.model = Model(input=input, output=crf_tensor)
-        print(self.model.summary()) #debug
-
-        self.model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
-
-        # self.model.run_eagerly = True #debug
+    def make_model(self, maxlen, num_tags, word_index, embeddings, model_type):
+        # print('model_type:', model_type) #debug
+        self.model_maker = nm.NeuralModel(maxlen, num_tags, word_index, embeddings)
+        if model_type == 'baseline':
+            self.model_maker.create_baseline_model()
+        elif model_type == 'crf_dist':
+            self.model_maker.create_model()
+        elif model_type == 'dual':
+            self.model_maker.save_weights = True
+            self.model_maker.create_model()
 
     def train_baseline_model(self, x_train, y_train, x_test, y_test_class, y_test_dist, unencodedY, testSet):
         monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
         print('x train shape:', x_train.shape, 'x test shape:', x_test.shape)
         print('y train shape:', y_train.shape, 'y test shape:', y_test_class.shape)
 
-        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
+        self.model_maker.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
 
-        scores = self.model.evaluate(x_test, y_test_class, batch_size=8, verbose=1)
-        y_pred_class = self.model.predict(x_test)
+        scores = self.model_maker.model.evaluate(x_test, y_test_class, batch_size=8, verbose=1)
+        y_pred_class = self.model_maker.model.predict(x_test)
 
         # scores: loss, crf_acc
-        print("%s: %.2f%%" % (self.model.metrics_names[1], scores[1] * 100))
+        print("%s: %.2f%%" % (self.model_maker.model.metrics_names[1], scores[1] * 100))
 
         (y_pred_class, b_pred_dist) = rb.predict_baseline_distances_claim(y_pred_class)
 
@@ -297,13 +107,22 @@ class NeuralTrainer:
 
     def trainModel(self, x_train, y_train_class, y_train_dist, y_target, x_test, y_test_class, y_test_dist, unencodedY, testSet, png_name):
         f1_metric = ntc.F1_Metric(y_target, x_train, y_train_dist, self.postprocessing, self.evaluator, verbose=1)
-        monitor = ntc.CustomEarlyStopping(monitor='f1', min_delta=0.001, patience=5, verbose=1, mode='max', threshold=0)
+        monitor = ntc.CustomEarlyStopping(monitor='f1', min_delta=0.001, patience=4, verbose=1, mode='max', threshold=None)
+        # monitor = ntc.LossFunctionUpdate(current_epoch=self.model_maker.current_epoch, monitor='f1', min_delta=0.001, patience=2, verbose=1, mode='max', threshold=None)
         # mcp_save = ModelCheckpoint('.mdl_wts.hdf5', save_best_only=True, monitor='loss', mode='min')
 
         y_train = [y_train_class,y_train_dist]
-        self.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[f1_metric, monitor])
+        history = self.model_maker.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[f1_metric, monitor])
 
-        layer = self.model.get_layer('crf_layer')
+        plt.figure()
+        plt.title('Loss')
+        plt.plot(history.history['loss'], label='train')
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
+        plt.savefig(png_name + '_train_eval.png')
+
+        layer = self.model_maker.model.get_layer('crf_layer')
         weights = layer.get_weights()
         gen_matrix = weights[1]
 
@@ -311,23 +130,23 @@ class NeuralTrainer:
 
         for i in range(0, self.num_tags):
             for j in range(0, self.num_tags):
-                if self.transition_matrix[i][j] == 1:
+                if self.model_maker.transition_matrix[i][j] == 1:
                     gen_matrix[i][j] = 1
 
         # print('after:', gen_matrix) #debug
         weights[1] = gen_matrix
 
-        self.model.get_layer('crf_layer').set_weights(weights)
-        # print('check:', self.model.get_layer('crf_layer').get_weights()[1]) #debug
+        self.model_maker.model.get_layer('crf_layer').set_weights(weights)
+        # print('check:', self.model_maker.model.get_layer('crf_layer').get_weights()[1]) #debug
 
         y_test = [y_test_class,y_test_dist]
-        scores = self.model.evaluate(x_test, y_test, batch_size=8, verbose=1)
-        [y_pred_class, y_pred_dist] = self.model.predict(x_test)
+        scores = self.model_maker.model.evaluate(x_test, y_test, batch_size=8, verbose=1)
+        [y_pred_class, y_pred_dist] = self.model_maker.model.predict(x_test)
 
         # scores: loss, crf_loss, dist_loss, crf_acc, dist_acc
-        # print("%s: %.2f%%" % (self.model.metrics_names[3], scores[3] * 100))
-        # print("%s: %.2f%%" % (self.model.metrics_names[4], scores[4] * 100))
-        # print("%s: %.2f%%" % (self.model.metrics_names[2], scores[2] * 100))
+        # print("%s: %.2f%%" % (self.model_maker.model.metrics_names[3], scores[3] * 100))
+        # print("%s: %.2f%%" % (self.model_maker.model.metrics_names[4], scores[4] * 100))
+        # print("%s: %.2f%%" % (self.model_maker.model.metrics_names[2], scores[2] * 100))
         if not os.path.exists(self.dumpPath + '_BCorr'):
             os.makedirs(self.dumpPath + '_BCorr')
         self.write_evaluated_tests_to_file(x_test, y_pred_class, y_pred_dist, testSet, self.texts_to_eval_dir, self.dumpPath + '_BCorr')
@@ -356,8 +175,9 @@ class NeuralTrainer:
 
         tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
-        if monitor.stopped_epoch > 0:
-            self.model.compile(optimizer='adam', loss=[crf_loss,'consecutive_dist_loss'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        # if self.monitor_type == 'loss' and monitor.stopped_epoch > 0:
+        #     self.monitor_type = 'f1'
+            # self.model_maker.model.compile(optimizer='adam', loss=[crf_loss,'consecutive_dist_loss'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
         return [scores[3], tagEval, spanEvalAt100, spanEvalAt075, spanEvalAt050,
                 dist_eval_at_100, dist_eval_at_075, dist_eval_at_050,
@@ -369,14 +189,6 @@ class NeuralTrainer:
         foldNumber  = 1
 
         kfold = KFold(n_splits=n_folds, shuffle=True, random_state=seed)
-
-        csv_header = 'Fold'
-        for i in range(1, self.num_tags):
-            tag = self.arg_classes[i]
-            csv_header += ',' + tag + ',Total ' + tag
-        csv_header += '\n'
-        csv_entries_dist = ''
-        csv_entries_edge = ''
 
         cvscores = self.evaluator.empty_cvscores()
 
@@ -436,16 +248,10 @@ class NeuralTrainer:
                 scores = self.trainModel(X_train, Y_train_class, Y_train_dist, Y_target, X_test, Y_test_class,Y_test_dist, unencoded_Y, test, 'fold_'+str(foldNumber))
             cvscores = self.evaluator.handleScores(cvscores, scores, n_folds)
             foldNumber += 1
+            break
 
         print('Average results for the ten folds:')
         self.evaluator.prettyPrintResults(cvscores)
-        ## write distance prediction stats to csv
-        f = open('model_dist_predictions_ften.csv', 'w')
-        f.write(csv_header + csv_entries_dist)
-        f.close()
-
-        if self.save_weights and model_type == 'baseline':
-            self.model.save_weights('baseline_weights.h5')
 
         return cvscores
 
@@ -473,4 +279,7 @@ class NeuralTrainer:
         for i in range(0, len(texts)):
             textFile = open(filenames[i], "w", encoding='utf-8')
             for token in texts[i]:
-                textFile.write(u'' + token[0] + ' ' + self.tags[token[1]] + ' ' + '{:8.3f}'.format(token[2][0]) + '\n')
+                textFile.write(u'' + token[0] + ' ' + self.model_maker.tags[token[1]] + ' ' + '{:8.3f}'.format(token[2][0]) + '\n')
+
+    def save_baseline_weights(self):
+        self.model_maker.model.save_weights('baseline_weights.h5')

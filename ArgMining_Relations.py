@@ -1,6 +1,7 @@
 import TextReader as tr
 import SequenceCreator as sc
 import RelationTagProcessor as tp
+import NeuralModel as nm
 import NeuralTrainer as nt
 
 import numpy as np
@@ -124,26 +125,30 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath, mo
     # print('Number of Claims Tokens:', tags_to_eval.numClaim)
     # print('Number of Premises Tokens:', tags_to_eval.numPremise)
 
-    # print('model_type:', model_type) #debug
-    trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
-    if model_type == 'baseline':
-        trainer.create_baseline_model('baseline')
-    elif model_type == 'crf_dist':
-        trainer.create_model()
+    if model_type == 'baseline' or model_type == 'crf_dist':
+        trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, model_type, textDirectory, dumpPath)
+        startTime = datetime.datetime.now().replace(microsecond=0)
+        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, model_type)
+        endTime = datetime.datetime.now().replace(microsecond=0)
+
     elif model_type == 'dual':
-        baseline_trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, textDirectory, dumpPath)
-        baseline_trainer.save_weights = True
-        baseline_trainer.create_baseline_model('dual')
-        baseline_trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, 'baseline')
-        trainer.save_weights = True
-        trainer.create_model()
-        model_type = 'crf_dist'
+        trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, 'baseline', textDirectory, dumpPath)
+        startTime = datetime.datetime.now().replace(microsecond=0)
+        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, 'baseline')
+        endTime = datetime.datetime.now().replace(microsecond=0)
+        timeTaken = endTime - startTime
 
-    startTime = datetime.datetime.now().replace(microsecond=0)
+        trainer.save_baseline_weights()
 
-    trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, model_type)
+        print("Baseline - time elapsed:")
+        print(timeTaken)
 
-    endTime = datetime.datetime.now().replace(microsecond=0)
+        trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, model_type, textDirectory, dumpPath)
+        startTime = datetime.datetime.now().replace(microsecond=0)
+        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, 'crf_dist')
+        endTime = datetime.datetime.now().replace(microsecond=0)
+        timeTaken = endTime - startTime
+
     timeTaken = endTime - startTime
 
     print("Time elapsed:")

@@ -3,6 +3,10 @@ import keras
 from keras import backend as K
 from keras.layers import Lambda
 from keras.activations import softmax
+from keras_contrib.losses import crf_loss
+from keras_contrib.metrics import crf_accuracy
+
+LOSS_UPDATE_CONTROL = 100
 
 class SoftArgMax:
     def __init__(self):
@@ -80,6 +84,48 @@ class Losses:
 
         return K.switch(K.equal(y_true, zero), K.zeros_like(mae), mae)
 
+    def switch_loss_wrapper(self, crf_layer):
+        def consecutive_dist_loss(y_true, y_pred):
+            if not K.is_tensor(y_pred):
+                y_pred = K.constant(y_pred)
+            y_true = K.cast(y_true, y_pred.dtype)
+
+            # print('ypred shape', K.int_shape(y_pred))
+
+            I_prob = K.squeeze(crf_layer[:,:,:1], axis=-1)
+
+            ypred_size = K.int_shape(y_pred)[1]
+            tiled = K.tile(y_pred, [1, 2, 1]) #repeat array like [1, 2, 3] -> [1, 2, 3, 1, 2, 3]
+            rolled_y_pred = tiled[:,ypred_size-1:-1] #crop repeated array (from len-1) -> [3, 1, 2] <- (to -1)
+
+            dist_dif = K.abs((rolled_y_pred - y_pred) - K.ones_like(y_pred))
+
+            mae = K.switch(K.greater(I_prob, K.constant(0.5)), K.mean(K.abs(y_pred - y_true + dist_dif), axis=-1), K.mean(K.abs(y_pred - y_true), axis=-1))
+
+            y_true_aux = K.squeeze(y_true, axis=-1)
+            zero = K.constant(0)
+
+            return K.switch(K.equal(y_true_aux, zero), K.zeros_like(mae), mae)
+
+        def loss_func(y_true, y_pred):
+            if not K.is_tensor(y_pred):
+                y_pred = K.constant(y_pred)
+            y_true = K.cast(y_true, y_pred.dtype)
+
+            mae = K.mean(K.abs(y_pred - y_true), axis=-1)
+
+            y_true = K.squeeze(y_true, axis=-1)
+            zero = K.constant(0)
+
+            return K.switch(K.equal(y_true, zero), K.zeros_like(mae), mae)
+
+        if LOSS_UPDATE_CONTROL < 100:
+            return consecutive_dist_loss
+        else:
+            return loss_func
+
+
+
 class F1_Metric(keras.callbacks.Callback):
     def __init__(self, y_target, x_train, y_train_dist, postprocessing, evaluator, verbose=0):
         self.verbose = verbose
@@ -114,7 +160,7 @@ class F1_Metric(keras.callbacks.Callback):
         return
 
 class CustomEarlyStopping(keras.callbacks.Callback):
-    def __init__(self, monitor='loss', min_delta=0.001, patience=0, mode='max', verbose=0, threshold=0):
+    def __init__(self, monitor='loss', min_delta=0.001, patience=0, mode='min', verbose=0, threshold=0):
         self.monitor = monitor
         self.min_delta = min_delta
         self.patience = patience
@@ -134,7 +180,7 @@ class CustomEarlyStopping(keras.callbacks.Callback):
         if current is None:
             warnings.warn("Early stopping requires %s available!" % self.monitor, RuntimeWarning)
 
-        if current > self.threshold:
+        if self.threshold == None or self.monitor_op(current, self.threshold):
             if self.monitor_op(current - self.min_delta, self.best):
                 self.best = current
             else:
@@ -143,6 +189,48 @@ class CustomEarlyStopping(keras.callbacks.Callback):
                     self.stopped_epoch = epoch
                     self.model.stop_training = True
 
+
     def on_train_end(self, logs=None):
         if self.stopped_epoch > 0 and self.verbose > 0:
             print('Epoch %05d: early stopping' % (self.stopped_epoch + 1))
+
+class LossFunctionUpdate(keras.callbacks.Callback):
+    def __init__(self, current_epoch, monitor='loss', min_delta=0.001, patience=1, mode='min', verbose=0, threshold=None):
+        self.monitor = monitor
+        self.min_delta = min_delta
+        self.patience = patience
+        self.verbose = verbose
+        self.threshold = threshold
+        self.current_epoch = current_epoch
+        if mode == 'min':
+            self.monitor_op = np.less
+        elif mode == 'max':
+            self.monitor_op = np.greater
+
+    def on_train_begin(self, logs={}):
+        self.wait = 0
+        self.best = 0
+        self.current_epoch = K.variable(100)
+        self.current_epoch_value = 100
+
+    def on_epoch_end(self, epoch, logs={}):
+        current = logs.get(self.monitor)
+        if current is None:
+            warnings.warn("Loss Function Update requires %s available!" % self.monitor, RuntimeWarning)
+
+        if self.threshold == None or self.monitor_op(current, self.threshold):
+            if self.monitor_op(current - self.min_delta, self.best):
+                self.best = current
+            else:
+                self.wait += 1
+                if self.wait >= self.patience:
+                    self.stopped_epoch = epoch
+                    if self.current_epoch_value < 100:
+                        self.model.stop_training = True
+                    else:
+                        print('Epoch %05d: updating loss function' % (self.stopped_epoch + 1))
+                        self.current_epoch = K.variable(epoch)
+
+    def on_train_end(self, logs=None):
+        if self.stopped_epoch > 0 and self.verbose > 0:
+            print('Epoch %05d: early stop' % (self.stopped_epoch + 1))
