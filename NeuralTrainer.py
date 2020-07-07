@@ -1,6 +1,5 @@
-model_maker.import numpy as np
+import numpy as np
 import os
-# import pathlib
 import matplotlib.pyplot as plt
 import sys
 
@@ -20,12 +19,10 @@ from keras.callbacks import EarlyStopping
 
 from keras.utils.generic_utils import get_custom_objects
 
-# np.set_printoptions(threshold=sys.maxsize)
+from keras_contrib.losses import crf_loss
+from keras_contrib.metrics import crf_accuracy
 
-# losses = ntc.Losses()
-# crf_tensor_arg = K.zeros((129, 741, 4))
-# get_custom_objects().update({'consecutive_dist_loss': losses.consecutive_dist_loss_wrapper(crf_tensor_arg)})
-# get_custom_objects().update({'loss_func': losses.loss_func})
+# np.set_printoptions(threshold=sys.maxsize)
 
 class NeuralTrainer:
     embedding_size = 300
@@ -42,7 +39,6 @@ class NeuralTrainer:
         num_measures = 1 + 3*(num_tags - 2)
         self.evaluator = ev.Evaluator(num_tags, num_measures, self.model_maker.tags)
         self.postprocessing = pp.PostProcessing(num_tags, self.model_maker.tags)
-        self.monitor_type = 'loss'
 
     def make_model(self, maxlen, num_tags, word_index, embeddings, model_type):
         # print('model_type:', model_type) #debug
@@ -107,20 +103,63 @@ class NeuralTrainer:
 
     def trainModel(self, x_train, y_train_class, y_train_dist, y_target, x_test, y_test_class, y_test_dist, unencodedY, testSet, png_name):
         f1_metric = ntc.F1_Metric(y_target, x_train, y_train_dist, self.postprocessing, self.evaluator, verbose=1)
-        monitor = ntc.CustomEarlyStopping(monitor='f1', min_delta=0.001, patience=4, verbose=1, mode='max', threshold=None)
-        # monitor = ntc.LossFunctionUpdate(current_epoch=self.model_maker.current_epoch, monitor='f1', min_delta=0.001, patience=2, verbose=1, mode='max', threshold=None)
+        monitor = ntc.LossFunctionUpdate(monitor='f1', min_delta=0.001, patience=5, verbose=1, mode='max', threshold=0)
+        # monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='min')
+        
+        # monitor = ntc.CustomEarlyStopping(monitor='f1', min_delta=0.001, patience=4, verbose=1, mode='max', threshold=None)
         # mcp_save = ModelCheckpoint('.mdl_wts.hdf5', save_best_only=True, monitor='loss', mode='min')
 
         y_train = [y_train_class,y_train_dist]
-        history = self.model_maker.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[f1_metric, monitor])
+        epochs = 100
+        history = self.model_maker.model.fit(x_train, y_train, epochs=epochs, batch_size=8, verbose=1, callbacks=[f1_metric, monitor])
+        history_plus = None
+        swicth_func = 0
+        epochs_run = len(history.history['loss'])
+        if epochs_run < 100:
+            swicth_func = epochs_run - 1
+            self.model_maker.recompile_model_new_loss('consecutive_dist_loss')
+            
+            epochs_left = epochs - epochs_run
+            history_plus = self.model_maker.model.fit(x_train, y_train, epochs=epochs_left, batch_size=8, verbose=1, callbacks=[f1_metric, monitor])
+
+        if history_plus:
+            print(history_plus.history.keys())
+            additional_loss = history_plus.history['loss']
+            additional_softargmax_loss = history_plus.history['softargmax_loss']
+            additional_crf_loss = history_plus.history['crf_layer_loss']
+            additional_softargmax_f1 = history_plus.history['f1']
+        else:
+            additional_loss = []
+            additional_softargmax_loss = []
+            additional_crf_loss = []
+            additional_softargmax_f1 = []
 
         plt.figure()
+        plt.suptitle('Loss switched at epoch ' + str(swicth_func))
+        plt.subplot(411)
         plt.title('Loss')
-        plt.plot(history.history['loss'], label='train')
+        plt.plot(history.history['loss']+additional_loss, label='train')
         plt.legend()
-        plt.tight_layout()
+
+        plt.subplot(412)
+        plt.title('Dist Loss')
+        plt.plot(history.history['softargmax_loss']+additional_softargmax_loss, label='train')
+        plt.legend()
+
+        plt.subplot(413)
+        plt.title('CRF Loss')
+        plt.plot(history.history['crf_layer_loss']+additional_crf_loss, label='train')
+        plt.legend()
+
+        plt.subplot(414)
+        plt.title('Dist F1')
+        plt.plot(history.history['f1']+additional_softargmax_f1, label='train')
+        plt.legend()
+
+        plt.tight_layout(rect=[0, 0, 1, 0.95])
         plt.show()
         plt.savefig(png_name + '_train_eval.png')
+
 
         layer = self.model_maker.model.get_layer('crf_layer')
         weights = layer.get_weights()
@@ -175,15 +214,11 @@ class NeuralTrainer:
 
         tagEval = self.evaluator.tagEval(pred_spans, true_spans)
 
-        # if self.monitor_type == 'loss' and monitor.stopped_epoch > 0:
-        #     self.monitor_type = 'f1'
-            # self.model_maker.model.compile(optimizer='adam', loss=[crf_loss,'consecutive_dist_loss'], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-
         return [scores[3], tagEval, spanEvalAt100, spanEvalAt075, spanEvalAt050,
                 dist_eval_at_100, dist_eval_at_075, dist_eval_at_050,
                 b_cubed_eval_at_100, b_cubed_eval_at_075, b_cubed_eval_at_050]
 
-    def crossValidate(self, X, Y, additionalX, additionalY, unencodedY, model_type):
+    def crossValidate(self, X, Y, additionalX, additionalY, unencodedY, additional_unencodedY, model_type):
         seed = 42
         n_folds = 10
         foldNumber  = 1
@@ -225,6 +260,7 @@ class NeuralTrainer:
             X_train = X_train + additionalX
             Y_train_class = Y_train_class + additionalY_class
             Y_train_dist = Y_train_dist + additionalY_dist
+            Y_target = Y_target + additional_unencodedY
 
             X_train = np.array(X_train)
             Y_train_class = np.array(Y_train_class)
@@ -248,7 +284,6 @@ class NeuralTrainer:
                 scores = self.trainModel(X_train, Y_train_class, Y_train_dist, Y_target, X_test, Y_test_class,Y_test_dist, unencoded_Y, test, 'fold_'+str(foldNumber))
             cvscores = self.evaluator.handleScores(cvscores, scores, n_folds)
             foldNumber += 1
-            break
 
         print('Average results for the ten folds:')
         self.evaluator.prettyPrintResults(cvscores)

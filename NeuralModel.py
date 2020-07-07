@@ -26,9 +26,7 @@ from keras.utils.generic_utils import get_custom_objects
 
 # np.set_printoptions(threshold=sys.maxsize)
 
-# losses = ntc.Losses()
-# crf_tensor_arg = K.zeros((129, 741, 4))
-# get_custom_objects().update({'consecutive_dist_loss': losses.consecutive_dist_loss_wrapper(crf_tensor_arg)})
+losses = ntc.Losses()
 # get_custom_objects().update({'loss_func': losses.loss_func})
 # keras.losses.loss_func = losses.loss_func
 
@@ -102,40 +100,43 @@ class NeuralModel:
         print(transition_matrix) #debug
         self.transition_matrix = transition_matrix
 
-    def switch_loss_wrapper(self, crf_layer):
-        self.current_epoch = K.variable(100)
-        current_epoch = self.current_epoch
+    # def switch_loss_wrapper(self, crf_layer):
+    #     # current_epoch = self.monitor.current_epoch
 
-        def switch_loss(y_true, y_pred):
-            if not K.is_tensor(y_pred):
-                y_pred = K.constant(y_pred)
-            y_true = K.cast(y_true, y_pred.dtype)
+    #     def switch_loss(y_true, y_pred):
+    #         if not K.is_tensor(y_pred):
+    #             y_pred = K.constant(y_pred)
+    #         y_true = K.cast(y_true, y_pred.dtype)
 
-            pure_mae = K.mean(K.abs(y_pred - y_true), axis=-1)
-            y_true_aux = K.squeeze(y_true, axis=-1)
+    #         pure_mae = K.mean(K.abs(y_pred - y_true), axis=-1)
+    #         y_true_aux = K.squeeze(y_true, axis=-1)
 
-            zero = K.constant(0)
+    #         zero = K.constant(0)
 
-            simple_loss = K.switch(K.equal(y_true_aux, zero), K.zeros_like(pure_mae), pure_mae)
+    #         simple_loss = K.switch(K.equal(y_true_aux, zero), K.zeros_like(pure_mae), pure_mae)
 
-            # print('ypred shape', K.int_shape(y_pred))
+    #         # print('ypred shape', K.int_shape(y_pred))
 
-            I_prob = K.squeeze(crf_layer[:,:,:1], axis=-1)
+    #         I_prob = K.squeeze(crf_layer[:,:,:1], axis=-1)
 
-            ypred_size = K.int_shape(y_pred)[1]
-            tiled = K.tile(y_pred, [1, 2, 1]) #repeat array like [1, 2, 3] -> [1, 2, 3, 1, 2, 3]
-            rolled_y_pred = tiled[:,ypred_size-1:-1] #crop repeated array (from len-1) -> [3, 1, 2] <- (to -1)
+    #         ypred_size = K.int_shape(y_pred)[1]
+    #         tiled = K.tile(y_pred, [1, 2, 1]) #repeat array like [1, 2, 3] -> [1, 2, 3, 1, 2, 3]
+    #         rolled_y_pred = tiled[:,ypred_size-1:-1] #crop repeated array (from len-1) -> [3, 1, 2] <- (to -1)
 
-            dist_dif = K.abs((rolled_y_pred - y_pred) - K.ones_like(y_pred))
+    #         dist_dif = K.abs((rolled_y_pred - y_pred) - K.ones_like(y_pred))
 
-            dist_err_mae = K.switch(K.greater(I_prob, K.constant(0.5)), K.mean(K.abs(y_pred - y_true + dist_dif), axis=-1), K.mean(K.abs(y_pred - y_true), axis=-1))
+    #         dist_err_mae = K.switch(K.greater(I_prob, K.constant(0.5)), K.mean(K.abs(y_pred - y_true + dist_dif), axis=-1), K.mean(K.abs(y_pred - y_true), axis=-1))
 
 
-            dist_err_loss = K.switch(K.equal(y_true_aux, zero), K.zeros_like(dist_err_mae), dist_err_mae)
+    #         dist_err_loss = K.switch(K.equal(y_true_aux, zero), K.zeros_like(dist_err_mae), dist_err_mae)
 
-            K.switch(K.less(current_epoch, K.constant(100)), dist_err_loss, simple_loss)
+    #         simple_loss = keras.losses.mean_squared_error(y_true, y_pred)
 
-        return switch_loss
+    #         dist_err_loss = keras.losses.mean_squared_logarithmic_error(y_true, y_pred)
+            
+    #         return K.switch(K.less(current_epoch, K.constant(100)), dist_err_loss, simple_loss)
+
+    #     return switch_loss
 
     def createEmbeddings(self, word_index, embeddings):
         embeddings_index = {}
@@ -224,7 +225,8 @@ class NeuralModel:
         # get_custom_objects().update({'switch_loss': losses.switch_loss_wrapper(crf_tensor)})
         #
         # keras.losses.consecutive_dist_loss = losses.consecutive_dist_loss_wrapper(crf_tensor)
-        self.model.compile(optimizer='adam', loss=[crf_loss,self.switch_loss_wrapper(crf_tensor)], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        self.model.compile(optimizer='adam', loss=[crf_loss,losses.loss_func], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        # self.model.compile(optimizer='adam', loss=[crf_loss,keras.losses.mean_squared_error], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
         # self.model.run_eagerly = True #debug
 
@@ -247,7 +249,7 @@ class NeuralModel:
                 assert model_layers[i].name == base_layers[i].name
                 layer_name = base_layers[i].name
                 self.model.get_layer(layer_name).set_weights(base_layers[i].get_weights())
-                self.model.get_layer(layer_name).trainable = False
+                # self.model.get_layer(layer_name).trainable = False
 
     def create_baseline_model(self):
         input = Input(shape=(self.maxlen,))
@@ -261,3 +263,30 @@ class NeuralModel:
         self.model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
 
         # self.model.run_eagerly = True #debug
+
+    def recompile_model_new_loss(self, loss):
+        input = Input(shape=(self.maxlen,), name='input')
+
+        biLSTM_tensor = self.create_biLSTM(input)
+        crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
+
+        (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, crf_tensor)
+
+        new_model = Model(input=input, output=[crf_tensor,dist_tensor])
+        if loss == 'consecutive_dist_loss':
+            new_model.compile(optimizer='adam', loss=[crf_loss,losses.consecutive_dist_loss_wrapper(crf_tensor)], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+            # new_model.compile(optimizer='adam', loss=[crf_loss,keras.losses.mean_squared_logarithmic_error], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        else:
+            new_model.compile(optimizer='adam', loss=[crf_loss,losses.loss_func], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+
+        new_layers = new_model.layers
+        model_layers = self.model.layers
+        for i in range(0, len(new_layers)):
+            assert model_layers[i].name == new_layers[i].name
+            layer_name = model_layers[i].name
+            new_model.get_layer(layer_name).set_weights(model_layers[i].get_weights())
+
+        self.model = new_model
+
+
+

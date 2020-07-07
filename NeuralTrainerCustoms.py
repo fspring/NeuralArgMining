@@ -195,23 +195,26 @@ class CustomEarlyStopping(keras.callbacks.Callback):
             print('Epoch %05d: early stopping' % (self.stopped_epoch + 1))
 
 class LossFunctionUpdate(keras.callbacks.Callback):
-    def __init__(self, current_epoch, monitor='loss', min_delta=0.001, patience=1, mode='min', verbose=0, threshold=None):
+    def __init__(self, monitor='loss', min_delta=0.001, patience=1, mode='min', verbose=0, threshold=None):
         self.monitor = monitor
         self.min_delta = min_delta
         self.patience = patience
         self.verbose = verbose
         self.threshold = threshold
-        self.current_epoch = current_epoch
+        self.current_epoch = K.variable(100)
         if mode == 'min':
             self.monitor_op = np.less
+            self.min_delta *= -1
         elif mode == 'max':
             self.monitor_op = np.greater
 
     def on_train_begin(self, logs={}):
         self.wait = 0
-        self.best = 0
-        self.current_epoch = K.variable(100)
-        self.current_epoch_value = 100
+        self.stopped_epoch = 0
+        if self.monitor_op == np.less:
+            self.best = np.Inf
+        else:
+            self.best = -np.Inf
 
     def on_epoch_end(self, epoch, logs={}):
         current = logs.get(self.monitor)
@@ -221,16 +224,12 @@ class LossFunctionUpdate(keras.callbacks.Callback):
         if self.threshold == None or self.monitor_op(current, self.threshold):
             if self.monitor_op(current - self.min_delta, self.best):
                 self.best = current
+                self.wait = 0
             else:
                 self.wait += 1
                 if self.wait >= self.patience:
                     self.stopped_epoch = epoch
-                    if self.current_epoch_value < 100:
-                        self.model.stop_training = True
-                    else:
-                        print('Epoch %05d: updating loss function' % (self.stopped_epoch + 1))
-                        self.current_epoch = K.variable(epoch)
-
+                    self.model.stop_training = True
     def on_train_end(self, logs=None):
         if self.stopped_epoch > 0 and self.verbose > 0:
             print('Epoch %05d: early stop' % (self.stopped_epoch + 1))

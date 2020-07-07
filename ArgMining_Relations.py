@@ -88,6 +88,7 @@ def preprocess_tags(textDirectory, tagDirectory, addTexts):
     tag_sequences = tagSequencer.encoded_sequences
 
     englishTagSequences = [[], []]
+    english_unencoded_tags = []
     if addTexts:
         # print('proccess eng tag') #debug
         english_tags = tp.RelationTagProcessor(englishTagDirectory)
@@ -96,18 +97,19 @@ def preprocess_tags(textDirectory, tagDirectory, addTexts):
         englishTagSequencer = sc.SequenceCreator(all_tags, english_tags, False)
 
         englishTagSequencer.create_tag_sequences()
+        english_unencoded_tags = englishTagSequencer.sequences
 
         english_tags.num_tags = tagSequencer.n_tags
 
         englishTagSequencer.encode_onehot()
         englishTagSequences = [englishTagSequencer.encoded_sequences, english_tags.distance_tags_list]
 
-    return (textSequencer, tagSequencer, englishTextSequences, englishTagSequences, tags_to_eval)
+    return (textSequencer, tagSequencer, englishTextSequences, englishTagSequences, tags_to_eval, english_unencoded_tags)
 
 def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath, model_type):
     preprocess_start_time = datetime.datetime.now().replace(microsecond=0)
 
-    (textSequencer, tagSequencer, englishTextSequences, englishTagSequences, tags_to_eval) = preprocess_tags(textDirectory, tagDirectory, addTexts)
+    (textSequencer, tagSequencer, englishTextSequences, englishTagSequences, tags_to_eval, english_unencoded_tags) = preprocess_tags(textDirectory, tagDirectory, addTexts)
 
     preprocess_end_time = datetime.datetime.now().replace(microsecond=0)
     print('Preprocessing time:', preprocess_end_time - preprocess_start_time)
@@ -128,13 +130,13 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath, mo
     if model_type == 'baseline' or model_type == 'crf_dist':
         trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, model_type, textDirectory, dumpPath)
         startTime = datetime.datetime.now().replace(microsecond=0)
-        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, model_type)
+        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, english_unencoded_tags, model_type)
         endTime = datetime.datetime.now().replace(microsecond=0)
 
     elif model_type == 'dual':
         trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, 'baseline', textDirectory, dumpPath)
         startTime = datetime.datetime.now().replace(microsecond=0)
-        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, 'baseline')
+        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, english_unencoded_tags, 'baseline')
         endTime = datetime.datetime.now().replace(microsecond=0)
         timeTaken = endTime - startTime
 
@@ -145,7 +147,7 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath, mo
 
         trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, model_type, textDirectory, dumpPath)
         startTime = datetime.datetime.now().replace(microsecond=0)
-        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, 'crf_dist')
+        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, english_unencoded_tags, 'crf_dist')
         endTime = datetime.datetime.now().replace(microsecond=0)
         timeTaken = endTime - startTime
 
