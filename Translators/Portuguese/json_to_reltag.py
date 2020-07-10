@@ -132,10 +132,10 @@ class TextDumper:
     def stripHtml(self):
         with io.open(self.file, 'r', encoding='utf8') as f:
             contents = f.read()
+
         plainText = html2text.html2text(contents)
         sentences = plainText.split('\n')
 
-        # print(sentences)
         whitespace = re.compile('\s')
         maxSize = i = chosen = 0
         for sentence in sentences[:]:
@@ -175,8 +175,9 @@ class TextDumper:
                 i += 1
 
         separator = ' '
-        # print(separator.join(sentences))
-        return separator.join(sentences)
+        full_sentence = separator.join(sentences)
+        full_sentence = re.sub(r'([a-z])- ', r'\1-', full_sentence)
+        return full_sentence
 
     #creates list of words with default tag (O,|)
     def wordifyText(self):
@@ -566,17 +567,21 @@ class Pipeline:
 
             # if(htmlFile != '10'):
             #     continue
-
-            # print(jsonFile)
+            # if(jsonFile != 'nodeset5037') and (jsonFile != 'nodeset4584') and (jsonFile != 'nodeset6629'):
+            #     continue
+            #
             # print(htmlFile)
+            # print(jsonFile)
 
             #HTML to plain text
             dumper = TextDumper(htmlFile)
             dumper.wordifyText()
+            # print(dumper.getText())
 
             #identify claims and premises and tag them
             arg_components = claimsAndPremises(jsonFile)
             arg_components.getPremisesAndClaims()
+            # print(arg_components.claims[0].getText())
 
             #replace original text with tagged text
             replacer = Tag_Replacer(dumper.words, arg_components)
