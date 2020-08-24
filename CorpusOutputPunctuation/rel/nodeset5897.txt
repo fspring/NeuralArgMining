@@ -1,5 +1,3 @@
-divergências	(O,|)
-br	(O,|)
 Na	(O,|)
 reunião	(O,|)
 da	(O,|)

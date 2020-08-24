@@ -1,12 +1,30 @@
 import numpy as np
 import keras
 from keras import backend as K
-from keras.layers import Lambda
+from keras.layers import Lambda, Layer
 from keras.activations import softmax
 from keras_contrib.losses import crf_loss
 from keras_contrib.metrics import crf_accuracy
 
 LOSS_UPDATE_CONTROL = 100
+
+class Pentanh(Layer):
+
+    def __init__(self, **kwargs):
+        super(Pentanh, self).__init__(**kwargs)
+        self.supports_masking = True
+        self.__name__ = 'pentanh'
+
+    def call(self, inputs):
+        return K.switch(K.greater(inputs,0), K.tanh(inputs), 0.25 * K.tanh(inputs))
+
+    def get_config(self):
+        return super(Pentanh, self).get_config()
+
+    def compute_output_shape(self, input_shape):
+        return input_shape
+
+keras.utils.generic_utils.get_custom_objects().update({'pentanh': Pentanh()})
 
 class SoftArgMax:
     def __init__(self):
@@ -37,7 +55,7 @@ class SoftArgMax:
         x_class = x[:,:4]
         x_dist = x[:,4:]
 
-        O_prob = K.squeeze(x_class[:,:,1:2], axis=-1)
+        O_prob = x_class[:,1]
         zero = K.zeros_like(x_dist)
 
         #if 0.5 <= output < 1.5 then return 0 else return predicted distance
@@ -160,41 +178,6 @@ class F1_Metric(keras.callbacks.Callback):
         return
 
 class CustomEarlyStopping(keras.callbacks.Callback):
-    def __init__(self, monitor='loss', min_delta=0.001, patience=0, mode='min', verbose=0, threshold=0):
-        self.monitor = monitor
-        self.min_delta = min_delta
-        self.patience = patience
-        self.verbose = verbose
-        self.threshold = threshold
-        if mode == 'min':
-            self.monitor_op = np.less
-        elif mode == 'max':
-            self.monitor_op = np.greater
-
-    def on_train_begin(self, logs={}):
-        self.wait = 0
-        self.best = 0
-
-    def on_epoch_end(self, epoch, logs={}):
-        current = logs.get(self.monitor)
-        if current is None:
-            warnings.warn("Early stopping requires %s available!" % self.monitor, RuntimeWarning)
-
-        if self.threshold == None or self.monitor_op(current, self.threshold):
-            if self.monitor_op(current - self.min_delta, self.best):
-                self.best = current
-            else:
-                self.wait += 1
-                if self.wait >= self.patience:
-                    self.stopped_epoch = epoch
-                    self.model.stop_training = True
-
-
-    def on_train_end(self, logs=None):
-        if self.stopped_epoch > 0 and self.verbose > 0:
-            print('Epoch %05d: early stopping' % (self.stopped_epoch + 1))
-
-class LossFunctionUpdate(keras.callbacks.Callback):
     def __init__(self, monitor='loss', min_delta=0.001, patience=1, mode='min', verbose=0, threshold=None):
         self.monitor = monitor
         self.min_delta = min_delta

@@ -154,9 +154,16 @@ class PostProcessing:
         # print('=========== DONE ===========') #debug
         return (arg_pred, dist_pred)
 
+    # def replace_argument_tag(self, unencodedY, y_pred_class=None):
     def replace_argument_tag(self, y_pred_class, unencodedY):
         all_texts_true = []
         all_texts_pred = []
+        # uncomment to run with cluster_counter
+        # if y_pred_class == None:
+        #     for i in range(0, len(unencodedY)):
+        #         true_classes = np.array(np.trim_zeros(unencodedY[i]))
+        #         all_texts_true.append(true_classes)
+        #     return (all_texts_true, None)
         number_of_texts = len(y_pred_class)
         for i in range(0, number_of_texts):
             true_classes = np.array(np.trim_zeros(unencodedY[i]))

@@ -1,6 +1,5 @@
 import numpy as np
 import os
-# import pathlib
 import matplotlib.pyplot as plt
 import sys
 
@@ -24,11 +23,7 @@ from keras_contrib.metrics import crf_accuracy
 
 from keras.utils.generic_utils import get_custom_objects
 
-# np.set_printoptions(threshold=sys.maxsize)
-
 losses = ntc.Losses()
-# get_custom_objects().update({'loss_func': losses.loss_func})
-# keras.losses.loss_func = losses.loss_func
 
 class NeuralModel:
     embedding_size = 300
@@ -133,7 +128,7 @@ class NeuralModel:
     #         simple_loss = keras.losses.mean_squared_error(y_true, y_pred)
 
     #         dist_err_loss = keras.losses.mean_squared_logarithmic_error(y_true, y_pred)
-            
+
     #         return K.switch(K.less(current_epoch, K.constant(100)), dist_err_loss, simple_loss)
 
     #     return switch_loss
@@ -202,17 +197,39 @@ class NeuralModel:
 
         return (output, soft_argmax)
 
-    def create_model(self):
+    def create_model(self, fold_name=''):
         input = Input(shape=(self.maxlen,), name='input')
 
         biLSTM_tensor = self.create_biLSTM(input)
         crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
 
-        (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, crf_tensor)
+        temp_model = Model(input=input, output=crf_tensor)
 
-        self.model = Model(input=input, output=[crf_tensor,dist_tensor])
+        if self.save_weights:
+            print('MODEL LOADED FROM FILE')
+
+            base_crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
+            baseline_model = Model(input=input, output=base_crf_tensor)
+            print(baseline_model.summary()) #debug
+            baseline_model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
+
+            # baseline_model.run_eagerly = True #debug
+
+            baseline_model.load_weights('./tmp/'+fold_name+'/baseline_checkpoint.h5', by_name=True)
+
+            base_layers = baseline_model.layers
+            model_layers = temp_model.layers
+            for i in range(0, len(base_layers)):
+                print(model_layers[i].name, base_layers[i].name)
+                assert model_layers[i].name == base_layers[i].name
+                layer_name = base_layers[i].name
+                temp_model.get_layer(layer_name).set_weights(base_layers[i].get_weights())
+                temp_model.get_layer(layer_name).trainable = False
+
+        (dist_tensor, soft_argmax) = self.create_dist_layer(temp_model.get_layer('biLSTM_2').output, temp_model.output)
+
+        self.model = Model(input=input, output=[temp_model.output,dist_tensor])
         print(self.model.summary()) #debug
-
         #loss_weights=[1.0, 0.10],
         ####LOSSES:
         ######'mean_absolute_error'
@@ -226,36 +243,16 @@ class NeuralModel:
         #
         # keras.losses.consecutive_dist_loss = losses.consecutive_dist_loss_wrapper(crf_tensor)
         self.model.compile(optimizer='adam', loss=[crf_loss,losses.loss_func], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        # self.model.compile(optimizer='adam', loss=[crf_loss,losses.consecutive_dist_loss_wrapper(temp_model.output)], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
         # self.model.compile(optimizer='adam', loss=[crf_loss,keras.losses.mean_squared_error], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
 
         # self.model.run_eagerly = True #debug
-
-        if self.save_weights:
-            print('MODEL LOADED FROM FILE')
-
-            base_crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
-            baseline_model = Model(input=input, output=base_crf_tensor)
-            print(baseline_model.summary()) #debug
-            baseline_model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
-
-            # baseline_model.run_eagerly = True #debug
-
-            baseline_model.load_weights('baseline_weights.h5', by_name=True)
-
-            base_layers = baseline_model.layers
-            model_layers = self.model.layers
-            for i in range(0, len(base_layers)):
-                print(model_layers[i].name, base_layers[i].name)
-                assert model_layers[i].name == base_layers[i].name
-                layer_name = base_layers[i].name
-                self.model.get_layer(layer_name).set_weights(base_layers[i].get_weights())
-                # self.model.get_layer(layer_name).trainable = False
 
     def create_baseline_model(self):
         input = Input(shape=(self.maxlen,))
 
         biLSTM_tensor = self.create_biLSTM(input)
-        crf_tensor = self.create_CRF(biLSTM_tensor, 'join', 'viterbi')
+        crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
 
         self.model = Model(input=input, output=crf_tensor)
         print(self.model.summary()) #debug
@@ -264,7 +261,7 @@ class NeuralModel:
 
         # self.model.run_eagerly = True #debug
 
-    def recompile_model_new_loss(self, loss):
+    def recompile_model_new_loss(self, loss, fold_name=''):
         input = Input(shape=(self.maxlen,), name='input')
 
         biLSTM_tensor = self.create_biLSTM(input)
@@ -272,21 +269,44 @@ class NeuralModel:
 
         (dist_tensor, soft_argmax) = self.create_dist_layer(biLSTM_tensor, crf_tensor)
 
-        new_model = Model(input=input, output=[crf_tensor,dist_tensor])
-        if loss == 'consecutive_dist_loss':
-            new_model.compile(optimizer='adam', loss=[crf_loss,losses.consecutive_dist_loss_wrapper(crf_tensor)], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-            # new_model.compile(optimizer='adam', loss=[crf_loss,keras.losses.mean_squared_logarithmic_error], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
-        else:
-            new_model.compile(optimizer='adam', loss=[crf_loss,losses.loss_func], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        temp_model = Model(input=input, output=crf_tensor)
+
+        if self.save_weights:
+            print('MODEL LOADED FROM FILE')
+
+            base_crf_tensor = self.create_CRF(biLSTM_tensor, 'marginal', 'marginal')
+            baseline_model = Model(input=input, output=base_crf_tensor)
+            baseline_model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_accuracy])
+
+            # baseline_model.run_eagerly = True #debug
+
+            baseline_model.load_weights('./tmp/'+fold_name+'/baseline_checkpoint.h5', by_name=True)
+
+            base_layers = baseline_model.layers
+            model_layers = temp_model.layers
+            for i in range(0, len(base_layers)):
+                print(model_layers[i].name, base_layers[i].name)
+                assert model_layers[i].name == base_layers[i].name
+                layer_name = base_layers[i].name
+                temp_model.get_layer(layer_name).set_weights(base_layers[i].get_weights())
+                temp_model.get_layer(layer_name).trainable = False
+
+        (dist_tensor, soft_argmax) = self.create_dist_layer(temp_model.get_layer('biLSTM_2').output, temp_model.output)
+
+        new_model = Model(input=input, output=[temp_model.output,dist_tensor])
 
         new_layers = new_model.layers
         model_layers = self.model.layers
-        for i in range(0, len(new_layers)):
+        total_layers = len(model_layers)
+        for i in range(total_layers-3, total_layers):
             assert model_layers[i].name == new_layers[i].name
             layer_name = model_layers[i].name
             new_model.get_layer(layer_name).set_weights(model_layers[i].get_weights())
 
+        print(new_model.summary()) #debug
         self.model = new_model
-
-
-
+        if loss == 'consecutive_dist_loss':
+            self.model.compile(optimizer='adam', loss=[crf_loss,losses.consecutive_dist_loss_wrapper(temp_model.output)], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+            # new_model.compile(optimizer='adam', loss=[crf_loss,keras.losses.mean_squared_logarithmic_error], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})
+        else:
+            self.model.compile(optimizer='adam', loss=[crf_loss,losses.loss_func], loss_weights=[1.0, 0.10], metrics={'crf_layer':[crf_accuracy], 'softargmax':'mae'})

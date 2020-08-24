@@ -133,18 +133,29 @@ class TextDumper:
         with io.open(self.file, 'r', encoding='utf8') as f:
             contents = f.read()
 
-        plainText = html2text.html2text(contents)
-        sentences = plainText.split('\n')
+        # plainText = html2text.html2text(contents)
+        if 'h2' in contents:
+            print('h2')
+        if 'h3' in contents:
+            print('h3')
+        soup = BeautifulSoup(contents,features="html.parser")
+        soup.h1.decompose()
+        plainText = soup.getText()
+        # print(plainText)
+        # sentences = plainText.split('\n')
+        sentences = re.sub(r'\n', r' ', plainText)
+        sentences = sentences.split('    ')
 
         whitespace = re.compile('\s')
-        maxSize = i = chosen = 0
+        i = 0
         for sentence in sentences[:]:
             size = len(sentence)
             # print(i, sentence)
-            if size == 0 or whitespace.match(sentence) != None:
-                # print('removed')
+            if size == 0:
+                # print('removed empty')
                 sentences.remove(sentence)
             elif '#' in sentence:
+                # print('removed header')
                 sentences.remove(sentence)
             else:
                 # print('cleaned and next')
@@ -154,7 +165,7 @@ class TextDumper:
                 sentences[i] = re.sub(r'[;]+(?![0-9])', r' ;', sentences[i])
                 sentences[i] = re.sub(r'[?]+(?![0-9])', r' ?', sentences[i])
                 sentences[i] = re.sub(r'[!]+(?![0-9])', r' !', sentences[i])
-                sentences[i] = re.sub(r'[…]+(?![0-9])', r' …', sentences[i])
+                sentences[i] = re.sub(r'[…]+(?![0-9])', r' … ', sentences[i])
                 sentences[i] = re.sub(r'[\s]+(?![0-9])', r' ', sentences[i])
                 sentences[i] = re.sub(r'[“]+(?![0-9])', r'', sentences[i])
                 sentences[i] = re.sub(r'[”]+(?![0-9])', r'', sentences[i])
@@ -172,6 +183,8 @@ class TextDumper:
                 sentences[i] = re.sub(r'[»]+(?![0-9])', r'', sentences[i])
                 # sentences[i] = re.sub(r'[#]+(?![0-9])', r'', sentences[i])
                 sentences[i] = re.sub(r'[**]+(?![0-9])', r'', sentences[i])
+                sentences[i] = re.sub(r'\s', r' ', sentences[i])
+                sentences[i] = re.sub(r'  ', r' ', sentences[i])
                 i += 1
 
         separator = ' '
@@ -183,7 +196,6 @@ class TextDumper:
     def wordifyText(self):
         text = self.stripHtml()
         originalWords = text.split(' ')
-        # print(originalWords)
         for word in originalWords:
             if (word != ''):
                 taggedWord = Word(word, self._nArgTag)
@@ -221,9 +233,15 @@ class claimsAndPremises:
         collapsedEdges = {}
         # print(edges)
         for i in range(0, len(edges)):
-            for j in range(i, len(edges)):
+            for j in range(0, len(edges)):
+                # if edges[i]['fromID'] == '263910':
+                #     print('e1 ', edges[i])
+                #     print('e2 ', edges[j], '\n')
                 if edges[i]['toID'] == edges[j]['fromID'] and self.isDefaultNode(nodes, edges[i]['toID']):
-                    collapsedEdges[edges[i]['fromID']] = edges[j]['toID']
+                    if edges[i]['fromID'] in collapsedEdges.keys():
+                        collapsedEdges[edges[i]['fromID']].append(edges[j]['toID'])
+                    else:
+                        collapsedEdges[edges[i]['fromID']] = [edges[j]['toID']]
 
 
         # print(collapsedEdges)
@@ -253,7 +271,7 @@ class claimsAndPremises:
                 nodeText = re.sub(r'[;]+(?![0-9])', r' ;', nodeText)
                 nodeText = re.sub(r'[?]+(?![0-9])', r' ?', nodeText)
                 nodeText = re.sub(r'[!]+(?![0-9])', r' !', nodeText)
-                nodeText = re.sub(r'[…]+(?![0-9])', r' …', nodeText)
+                nodeText = re.sub(r'[…]+(?![0-9])', r' … ', nodeText)
                 nodeText = re.sub(r'[“]+(?![0-9])', r'', nodeText)
                 nodeText = re.sub(r'[”]+(?![0-9])', r'', nodeText)
                 nodeText = re.sub(r'["]+(?![0-9])', r'', nodeText)
@@ -269,6 +287,7 @@ class claimsAndPremises:
                 nodeText = re.sub(r'[«]+(?![0-9])', r'', nodeText)
                 nodeText = re.sub(r'[»]+(?![0-9])', r'', nodeText)
                 nodeText = re.sub(r'[**]+(?![0-9])', r'', nodeText)
+                nodeText = re.sub(r'  ', r' ', nodeText)
 
         return nodeText
 
@@ -292,6 +311,7 @@ class claimsAndPremises:
         elements = self.removeHttp(json.loads(contents))
         connections = self.remove_default_edges(elements['edges'], elements['nodes'])
         # args = self.split_claims_from_premises(connections)
+        # print(connections)
         self.orderArgComponents(connections)
         self.closeConnections(connections)
         nodes = elements['nodes']
@@ -317,8 +337,9 @@ class claimsAndPremises:
         values = connections.values()
         keys = connections.keys()
         for value in values:
-            if (value not in keys) and (value not in self.claims_id):
-                self.claims_id.append(value)
+            for id in value:
+                if (id not in keys) and (id not in self.claims_id):
+                    self.claims_id.append(id)
         for key in keys:
             if (key not in self.premises_id):
                 self.premises_id.append(key)
@@ -347,16 +368,19 @@ class claimsAndPremises:
         values = connections.values()
         keys = connections.keys()
         for node in keys:
-            linked = connections[node]
-            close[node] = [linked]
-            if linked not in close.keys():
-                close[linked] = [node]
-            elif node not in close[linked]:
-                close[linked].append(node)
-            while linked in keys:
-                linked = connections[linked]
-                if linked not in close[node]:
-                    close[node].append(linked)
+            queue = copy.deepcopy(connections[node])
+            close[node] = set()
+            while len(queue) > 0:
+                link = queue[-1]
+                close[node].add(link)
+                if link not in close.keys():
+                    close[link] = set([node])
+                elif node not in close[link]:
+                    close[link].add(node)
+                queue.pop()
+                if link in keys:
+                    for el in connections[link]:
+                        queue.append(el)
         self.close_connections = close
 
 class Tag_Replacer:
@@ -567,11 +591,11 @@ class Pipeline:
 
             # if(htmlFile != '10'):
             #     continue
-            # if(jsonFile != 'nodeset5037') and (jsonFile != 'nodeset4584') and (jsonFile != 'nodeset6629'):
+            # if(jsonFile != 'nodeset4699'):
             #     continue
-            #
-            # print(htmlFile)
-            # print(jsonFile)
+
+            print(htmlFile)
+            print(jsonFile)
 
             #HTML to plain text
             dumper = TextDumper(htmlFile)
@@ -581,7 +605,13 @@ class Pipeline:
             #identify claims and premises and tag them
             arg_components = claimsAndPremises(jsonFile)
             arg_components.getPremisesAndClaims()
-            # print(arg_components.claims[0].getText())
+            # for claim in arg_components.claims:
+            #     assert claim.getText().lower() in dumper.getText().lower()
+            #     print(claim.getText())
+            # for prem in arg_components.premises:
+            #     assert prem.getText().lower() in dumper.getText().lower()
+            #     print(prem.getText())
+            # print(len(arg_components.premises))
 
             #replace original text with tagged text
             replacer = Tag_Replacer(dumper.words, arg_components)

@@ -1,4 +1,3 @@
-crítico	(O,|)
 Um	(O,|)
 recluso	(O,|)
 do	(O,|)

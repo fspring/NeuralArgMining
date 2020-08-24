@@ -11,10 +11,6 @@ import datetime
 import random
 import argparse
 import string
-import keras
-
-from keras import backend as K
-from keras.layers import Layer
 
 from utils import bool_flag
 
@@ -23,24 +19,6 @@ commonTagDirectory = 'allRelationTags'
 
 englishTextsDirectory = 'essaysClaimsPremisesPunctuation/rel/texts'
 englishTagDirectory = 'essaysClaimsPremisesPunctuation/rel/tags'
-
-class Pentanh(Layer):
-
-    def __init__(self, **kwargs):
-        super(Pentanh, self).__init__(**kwargs)
-        self.supports_masking = True
-        self.__name__ = 'pentanh'
-
-    def call(self, inputs):
-        return K.switch(K.greater(inputs,0), K.tanh(inputs), 0.25 * K.tanh(inputs))
-
-    def get_config(self):
-        return super(Pentanh, self).get_config()
-
-    def compute_output_shape(self, input_shape):
-        return input_shape
-
-keras.utils.generic_utils.get_custom_objects().update({'pentanh': Pentanh()})
 
 def preprocess_tags(textDirectory, tagDirectory, addTexts):
     ### PROCESS TEXT INPUT ###
@@ -127,29 +105,23 @@ def fullSequence(textDirectory, tagDirectory, addTexts, embeddings, dumpPath, mo
     # print('Number of Claims Tokens:', tags_to_eval.numClaim)
     # print('Number of Premises Tokens:', tags_to_eval.numPremise)
 
-    if model_type == 'baseline' or model_type == 'crf_dist':
+    if model_type == 'baseline':
+        trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, model_type, textDirectory, dumpPath)
+        startTime = datetime.datetime.now().replace(microsecond=0)
+        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, english_unencoded_tags, model_type)
+        endTime = datetime.datetime.now().replace(microsecond=0)
+
+    elif model_type == 'crf_dist':
         trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, model_type, textDirectory, dumpPath)
         startTime = datetime.datetime.now().replace(microsecond=0)
         trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, english_unencoded_tags, model_type)
         endTime = datetime.datetime.now().replace(microsecond=0)
 
     elif model_type == 'dual':
-        trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, 'baseline', textDirectory, dumpPath)
-        startTime = datetime.datetime.now().replace(microsecond=0)
-        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, english_unencoded_tags, 'baseline')
-        endTime = datetime.datetime.now().replace(microsecond=0)
-        timeTaken = endTime - startTime
-
-        trainer.save_baseline_weights()
-
-        print("Baseline - time elapsed:")
-        print(timeTaken)
-
         trainer = nt.NeuralTrainer(textSequencer.maxlen, n_tags, textSequencer.word_index, embeddings, model_type, textDirectory, dumpPath)
         startTime = datetime.datetime.now().replace(microsecond=0)
-        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, english_unencoded_tags, 'crf_dist')
+        trainer.crossValidate(text_sequences, tag_sequences, englishTextSequences, englishTagSequences, unencoded_tags, english_unencoded_tags, model_type)
         endTime = datetime.datetime.now().replace(microsecond=0)
-        timeTaken = endTime - startTime
 
     timeTaken = endTime - startTime
 

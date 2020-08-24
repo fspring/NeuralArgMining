@@ -13,9 +13,8 @@ num_measures = 1 + 3*(num_tags - 2)
 evaluator = ev.Evaluator(num_tags, num_measures, tags)
 postprocessing = pp.PostProcessing(num_tags, tags)
 
-def cluster_counter(unencodedY, y_test_dist, y_pred_class, y_pred_dist):
-    (y_pred_class, c_pred_dist) = postprocessing.correct_dist_prediction(y_pred_class, y_pred_dist, unencodedY)
-    (true_spans, pred_spans) = postprocessing.replace_argument_tag(y_pred_class, unencodedY)
+def cluster_counter(unencodedY, y_test_dist, y_pred_dist):
+    (true_spans, pred_spans) = postprocessing.replace_argument_tag(unencodedY)
 
     true_spans_dict_list = evaluator.spanCreator(true_spans)
 
@@ -61,8 +60,8 @@ def cluster_counter(unencodedY, y_test_dist, y_pred_class, y_pred_dist):
 
     print('avg cluster size: ', statistics.mean(cluster_sizes))
 
-(unencodedY, y_test_dist) = ttmo.main('pt', 'true')
-(y_pred_class, y_pred_dist) = ttmo.main('pt', 'pred')
-# print('ENGLISH')
-print('PORTUGUESE')
-cluster_counter(unencodedY, y_test_dist, y_pred_class, y_pred_dist)
+(unencodedY, y_test_dist) = ttmo.main('en', 'true')
+(y_pred_class, y_pred_dist) = ttmo.main('en', 'pred')
+print('ENGLISH')
+# print('PORTUGUESE')
+cluster_counter(unencodedY, y_test_dist, y_pred_dist)

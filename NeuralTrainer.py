@@ -15,7 +15,7 @@ from sklearn.model_selection import KFold
 
 import keras
 from keras import backend as K
-from keras.callbacks import EarlyStopping
+from keras.callbacks import EarlyStopping, ModelCheckpoint
 
 from keras.utils.generic_utils import get_custom_objects
 
@@ -34,29 +34,34 @@ class NeuralTrainer:
         self.word_index = word_index
         self.texts_to_eval_dir = texts_to_eval_dir
         self.dumpPath = dumpPath
-        self.model_maker = None
-        self.make_model(maxlen, num_tags, word_index, embeddings, model_type)
+        self.model_maker = nm.NeuralModel(maxlen, num_tags, word_index, embeddings)
         num_measures = 1 + 3*(num_tags - 2)
         self.evaluator = ev.Evaluator(num_tags, num_measures, self.model_maker.tags)
         self.postprocessing = pp.PostProcessing(num_tags, self.model_maker.tags)
 
-    def make_model(self, maxlen, num_tags, word_index, embeddings, model_type):
+    def make_model(self, maxlen, num_tags, word_index, embeddings, model_type, fold_name):
         # print('model_type:', model_type) #debug
-        self.model_maker = nm.NeuralModel(maxlen, num_tags, word_index, embeddings)
         if model_type == 'baseline':
             self.model_maker.create_baseline_model()
         elif model_type == 'crf_dist':
             self.model_maker.create_model()
         elif model_type == 'dual':
             self.model_maker.save_weights = True
-            self.model_maker.create_model()
+            self.model_maker.create_model(fold_name=fold_name)
 
-    def train_baseline_model(self, x_train, y_train, x_test, y_test_class, y_test_dist, unencodedY, testSet):
-        monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='auto')
+    def train_baseline_model(self, x_train, y_train, x_test, y_test_class, y_test_dist, unencodedY, testSet, fold_name):
+        monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='min')
+        checkpoint_filepath = './tmp/'+fold_name+'/baseline_checkpoint.h5'
+        if not os.path.exists('tmp/'+fold_name):
+            os.makedirs('tmp/'+fold_name)
+
+        mcp_save = ModelCheckpoint(checkpoint_filepath, save_weights_only=True, save_best_only=True, monitor='loss', mode='min', verbose=1)
+
         print('x train shape:', x_train.shape, 'x test shape:', x_test.shape)
         print('y train shape:', y_train.shape, 'y test shape:', y_test_class.shape)
 
-        self.model_maker.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor])
+        self.model_maker.model.fit(x_train, y_train, epochs=100, batch_size=8, verbose=1, callbacks=[monitor, mcp_save])
+        self.model_maker.model.load_weights(checkpoint_filepath)
 
         scores = self.model_maker.model.evaluate(x_test, y_test_class, batch_size=8, verbose=1)
         y_pred_class = self.model_maker.model.predict(x_test)
@@ -101,29 +106,36 @@ class NeuralTrainer:
                 dist_eval_at_100, dist_eval_at_075, dist_eval_at_050,
                 b_cubed_eval_at_100, b_cubed_eval_at_075, b_cubed_eval_at_050]
 
-    def trainModel(self, x_train, y_train_class, y_train_dist, y_target, x_test, y_test_class, y_test_dist, unencodedY, testSet, png_name):
+    def trainModel(self, x_train, y_train_class, y_train_dist, y_target, x_test, y_test_class, y_test_dist, unencodedY, testSet, fold_name):
         f1_metric = ntc.F1_Metric(y_target, x_train, y_train_dist, self.postprocessing, self.evaluator, verbose=1)
-        monitor = ntc.LossFunctionUpdate(monitor='f1', min_delta=0.001, patience=5, verbose=1, mode='max', threshold=0)
+
+        monitor_measure = 'loss'
+        monitor_mode = 'min'
+
+        monitor = ntc.CustomEarlyStopping(monitor=monitor_measure, min_delta=0.001, patience=5, verbose=1, mode=monitor_mode, threshold=None)
         # monitor = EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=1, mode='min')
-        
-        # monitor = ntc.CustomEarlyStopping(monitor='f1', min_delta=0.001, patience=4, verbose=1, mode='max', threshold=None)
-        # mcp_save = ModelCheckpoint('.mdl_wts.hdf5', save_best_only=True, monitor='loss', mode='min')
+
+        checkpoint_filepath = '/tmp/model_checkpoint.h5'
+        if not os.path.exists('tmp'):
+            os.makedirs('tmp')
+        mcp_save = ModelCheckpoint(filepath=checkpoint_filepath, save_weights_only=True, save_best_only=True, monitor=monitor_measure, mode=monitor_mode)
 
         y_train = [y_train_class,y_train_dist]
         epochs = 100
-        history = self.model_maker.model.fit(x_train, y_train, epochs=epochs, batch_size=8, verbose=1, callbacks=[f1_metric, monitor])
+        history = self.model_maker.model.fit(x_train, y_train, epochs=epochs, batch_size=8, verbose=1, callbacks=[f1_metric, monitor, mcp_save])
         history_plus = None
         swicth_func = 0
         epochs_run = len(history.history['loss'])
         if epochs_run < 100:
             swicth_func = epochs_run - 1
-            self.model_maker.recompile_model_new_loss('consecutive_dist_loss')
-            
-            epochs_left = epochs - epochs_run
-            history_plus = self.model_maker.model.fit(x_train, y_train, epochs=epochs_left, batch_size=8, verbose=1, callbacks=[f1_metric, monitor])
+            self.model_maker.recompile_model_new_loss('consecutive_dist_loss', fold_name)
 
+            epochs_left = epochs - epochs_run
+            history_plus = self.model_maker.model.fit(x_train, y_train, epochs=epochs_left, batch_size=8, verbose=1, callbacks=[f1_metric, monitor, mcp_save])
+
+        self.model_maker.model.load_weights(checkpoint_filepath)
         if history_plus:
-            print(history_plus.history.keys())
+            # print(history_plus.history.keys())
             additional_loss = history_plus.history['loss']
             additional_softargmax_loss = history_plus.history['softargmax_loss']
             additional_crf_loss = history_plus.history['crf_layer_loss']
@@ -158,7 +170,7 @@ class NeuralTrainer:
 
         plt.tight_layout(rect=[0, 0, 1, 0.95])
         plt.show()
-        plt.savefig(png_name + '_train_eval.png')
+        plt.savefig(fold_name + '_train_eval.png')
 
 
         layer = self.model_maker.model.get_layer('crf_layer')
@@ -223,6 +235,7 @@ class NeuralTrainer:
         n_folds = 10
         foldNumber  = 1
 
+
         kfold = KFold(n_splits=n_folds, shuffle=True, random_state=seed)
 
         cvscores = self.evaluator.empty_cvscores()
@@ -270,17 +283,19 @@ class NeuralTrainer:
             Y_test_dist = np.array(Y_test_dist)
             unencoded_Y = np.array(unencoded_Y)
 
-            print('after additional x shape:', X_train.shape)
-            print('after additional y class shape:', Y_train_class.shape)
-            print('after additional y dist shape:', Y_train_dist.shape)
-            print('test x shape:', X_test.shape)
-            print('test y class index:', Y_test_class.shape)
-            print('test y dist index:', Y_test_dist.shape)
+            # print('after additional x shape:', X_train.shape)
+            # print('after additional y class shape:', Y_train_class.shape)
+            # print('after additional y dist shape:', Y_train_dist.shape)
+            # print('test x shape:', X_test.shape)
+            # print('test y class index:', Y_test_class.shape)
+            # print('test y dist index:', Y_test_dist.shape)
+
+            self.make_model(self.model_maker.maxlen, self.num_tags, self.word_index, self.model_maker.embeddings, model_type, 'fold_'+str(foldNumber))
 
             scores = None
             if model_type == 'baseline':
-                scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test)
-            elif model_type == 'crf_dist':
+                scores = self.train_baseline_model(X_train, Y_train_class, X_test, Y_test_class,Y_test_dist, unencoded_Y, test, 'fold_'+str(foldNumber))
+            else:
                 scores = self.trainModel(X_train, Y_train_class, Y_train_dist, Y_target, X_test, Y_test_class,Y_test_dist, unencoded_Y, test, 'fold_'+str(foldNumber))
             cvscores = self.evaluator.handleScores(cvscores, scores, n_folds)
             foldNumber += 1
@@ -315,6 +330,3 @@ class NeuralTrainer:
             textFile = open(filenames[i], "w", encoding='utf-8')
             for token in texts[i]:
                 textFile.write(u'' + token[0] + ' ' + self.model_maker.tags[token[1]] + ' ' + '{:8.3f}'.format(token[2][0]) + '\n')
-
-    def save_baseline_weights(self):
-        self.model_maker.model.save_weights('baseline_weights.h5')
